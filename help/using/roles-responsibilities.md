@@ -4,7 +4,7 @@ seo-title: Rôles et responsabilités du projet AEM Screens
 description: La page décrit les rôles et responsabilités du projet AEM Screens
 seo-description: La page décrit les rôles et responsabilités du projet AEM Screens
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ Le tableau suivant résume le **deuxième jour : Graphique** RACI de prise en ch
 | *Deuxième jour :Prise en charge après le lancement* |
 | Accord sur les rôles et responsabilités | RA | RA | RA |
 | Prise en charge de niveau 1 | I | I | RA |
-| Prise en charge de niveau 1 | I | C | RA |
-| Prise en charge de niveau 1 | I | RA | C |
+| Prise en charge de niveau 2 | I | C | RA |
+| Prise en charge de niveau 3 | I | RA | C |
 | Mise à jour du contenu | RA | I | I |
 | Évaluer la réussite de l'UX et identifier les domaines d'amélioration | RA | C | I |
