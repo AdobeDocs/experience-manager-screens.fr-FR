@@ -1,42 +1,42 @@
 ---
-title: Dépendances UX pour les écrans [!UICONTROL AEM]
-seo-title: Dépendances UX pour les écrans [!UICONTROL AEM]
-description: Le guide décrit les dépendances UX pour les écrans [!UICONTROL AEM]
-seo-description: Le guide décrit les dépendances UX pour les écrans [!UICONTROL AEM]
-translation-type: tm+mt
+title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
+seo-title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
+description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
+seo-description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
+translation-type: ht
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
 
 ---
 
 
-# Dépendances UX {#ux-dependencies}
+# Dépendances de l’expérience utilisateur {#ux-dependencies}
 
 >[!NOTE]
 >
->L’intervenant typique de cette activité est un stratège en marketing/affaires.
+>Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
-Les dépendances UX définissent où et comment le contenu est configuré de sorte qu’il ait le plus d’impact.
+Les dépendances de l’expérience utilisateur définissent les stratégies mises en place pour le placement et le mode de diffusion du contenu, de sorte qu’il ait un impact maximal.
 
-Les questions suivantes doivent être prises en compte lors de la définition de la stratégie de contenu matériel :
+Il convient de prendre en compte les questions suivantes lors de la définition de la stratégie de contenu matérielle :
 
-1. Comment la mise en page de vente au détail doit-elle être alignée avec la stratégie de contenu ?
+1. Comment l’organisation du point de vente doit-elle être alignée sur la stratégie de contenu ?
 
-1. Les interactions (écran tactile, détection de mouvement) seront-elles nécessaires ?
+1. Les interactions (écran tactile, détection de mouvement) seront-elles requises ?
 
-1. Quel est l'objectif de la signalisation numérique ?
+1. Quel est l’objectif de la solution d’affichage numérique ?
 
-   * Est-ce pour la configuration du produit ?
-   * Trouve-t-il la voie ?
-   * Montre-t-il des publicités ?
+   * Est-elle destinée à la configuration d’un produit ?
+   * S’agit-il d’une solution d’orientation ?
+   * Affiche-t-elle des publicités ?
 
-1. Comment les connexions et le câblage réseau sont-ils configurés ?
+1. Comment les connexions et le câblage réseau sont-ils configurés ?
 
-1. À quelle fréquence les ordinateurs et la connexion seront-ils allumés et éteints ?
+1. À quelle fréquence les ordinateurs et la connexion seront-ils allumés et éteints ?
 
-1. La conception de l’installation prend-elle en charge l’accessibilité ?
+1. La conception de l’installation prend-elle en charge l’accessibilité ?
 
-1. Plusieurs périphériques sont-ils requis pour un affichage unique (par exemple, multi-zones, panoramas très volumineux) ?
+1. Plusieurs périphériques sont-ils nécessaires pour un seul affichage (zones multiples, panneaux de très grande taille, etc.) ?
 
-1. Quelles sont les considérations environnementales comme la luminosité, la température et la saison ?
+1. Quels sont les facteurs environnementaux, tels que la luminosité, la température et la saison ?
 
 
