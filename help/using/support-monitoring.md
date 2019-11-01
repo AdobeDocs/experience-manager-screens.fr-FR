@@ -1,46 +1,46 @@
 ---
-title: Surveillance du support
-seo-title: Prise en charge de la surveillance pour les écrans AEM
-description: La page décrit le guide des bonnes pratiques de la surveillance de l’assistance pour les écrans AEM.
-seo-description: La page décrit le guide des bonnes pratiques de la surveillance de l’assistance pour les écrans AEM.
-translation-type: tm+mt
+title: Suivi de l’assistance
+seo-title: Suivi de l’assistance pour AEM Screens
+description: Cette page décrit le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens
+seo-description: Cette page décrit le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens
+translation-type: ht
 source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
 
 ---
 
 
-# Surveillance du support {#support-monitoring}
+# Suivi de l’assistance {#support-monitoring}
 
-Cette section décrit les meilleures pratiques relatives à la gestion des anomalies de périphérique et de contenu dans un projet de signalisation numérique.
+Cette section décrit les bonnes pratiques relatives à la gestion des anomalies de contenu et d’appareil dans un projet de signalétique digitale.
 
-La surveillance de l'assistance comprend :
+Le suivi de l’assistance comprend les activités suivantes :
 
-* **Surveillance des périphériques**
+* **Surveillance de l’appareil**
 * **Surveillance du contenu**
 
 ## Surveillance du contenu {#content-monitoring}
 
-La surveillance du contenu vous permet de résoudre les problèmes liés au contenu qui ne s’affiche pas correctement à l’écran :
+Le suivi de l’assistance vous permet de résoudre les problèmes liés au contenu qui ne s’affiche pas correctement à l’écran :
 
-1. Si un problème d’écran vide se produit :
+1. Si un problème d’écran vide se produit :
 
-   * Vérifiez *l’aperçu* pour voir si le canal affiche un écran noir.
-   * Enregistrez un lecteur *chromé* local (comme extension) sur votre ordinateur portable à cet écran et voyez si cela montre un écran noir.
-   * Cliquez avec le bouton droit de la souris et examinez et vérifiez les journaux ** applicables.
-   En outre, si cela ne se produit pas sur le lecteur local mais uniquement sur le périphérique :
+   * Vérifiez l’*aperçu* pour voir si le canal affiche un écran noir.
+   * Sur votre ordinateur portable, enregistrez un *lecteur Chrome local* (en tant qu’extension) sur cet écran et voyez si un écran noir s’affiche.
+   * Cliquez avec le bouton droit de la souris et examinez les *journaux appropriés*.
+   Si cela se produit uniquement sur l’appareil, mais pas sur le lecteur local :
 
-   * Vérifiez le type *de* média (en cours d’utilisation) qui peut présenter des problèmes sur ce périphérique et vérifiez si le contenu a bien été téléchargé localement (l’interface utilisateur d’administration a effacé le cache du canal).
-   * Incluez les journaux *des* périphériques dans le ticket pour un dépannage rapide.
-   * *Collecte des journaux* du périphérique à partir d’AEM.
+   * Vérifiez le *type de média* (en cours d’utilisation) qui peut présenter des problèmes sur cet appareil et assurez-vous également que le contenu a bien été téléchargé en local (effacer le cache du canal dans l’interface d’administration).
+   * Incluez les *journaux d’appareil* dans le dossier d’incident afin d’accélérer la procédure de dépannage.
+   * *Collectez les journaux* de l’appareil à partir d’AEM.
 
 
-## Surveillance des périphériques {#device-monitoring}
+## Surveillance de l’appareil {#device-monitoring}
 
-Surveillance du périphérique liée à la surveillance du périphérique physique si vous rencontrez un problème d’écran vide :
+Cette activité consiste à contrôler l’appareil physique si vous rencontrez un problème d’écran vide :
 
-1. Si un problème d’écran vide se produit :
+1. Si un problème d’écran vide se produit :
 
-   * Vérifiez si l’ *affichage* est activé.
-   * Vérifiez si l' *ordinateur* est sous tension et envoie le signal.
-   * Cliquez avec le bouton droit de la souris, inspectez et vérifiez les journaux ** applicables.
+   * Vérifiez que le *dispositif d’affichage* est allumé.
+   * Vérifiez que l’*ordinateur* est allumé et envoie un signal.
+   * Cliquez avec le bouton droit de la souris et examinez les *journaux appropriés*.
 
