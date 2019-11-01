@@ -1,36 +1,36 @@
 ---
-title: Structure filaire
-seo-title: Structure filaire pour les écrans AEM
-description: La page décrit les structures filaires d’un projet AEM Screens.
-seo-description: La page décrit les structures filaires d’un projet AEM Screens.
-translation-type: tm+mt
+title: Maquettes
+seo-title: Maquettes pour AEM Screens
+description: Cette page décrit les maquettes dans le cadre d’un projet AEM Screens
+seo-description: Cette page décrit les maquettes dans le cadre d’un projet AEM Screens
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
 
 
-# Structure filaire {#wireframes}
+# Maquettes {#wireframes}
 
 >[!NOTE]
 >
->L’intervenant typique de cette activité est un stratège en marketing/affaires.
+>Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
-Les structures filaires sont une représentation visuelle de l'expérience numérique anticipée que nous avons l'intention de fournir.
+Les maquettes désignent une représentation visuelle de l’expérience numérique que nous avons l’intention de proposer aux utilisateurs.
 
-Ce processus peut être appliqué à :
+Ce processus peut être appliqué à différents modes d’affichage :
 
-* Vue Niveau de ressource
-* Vue Niveau canal
-* Vue au niveau du projet
+* Au niveau de la ressource
+* Au niveau du canal
+* Au niveau du projet
 
-Cela permettra de faire passer le projet de la phase de prototypage à la phase de déploiement réelle.
+Cela permettra de faire passer le projet de la phase de prototypage à la phase de déploiement proprement dite.
 
-Dans une vue **au niveau du**fichier, nous devons créer des structures filaires qui définissent diverses options de mise en page de contenu et divers regroupements de contenu. Cela permet de définir à quoi peuvent ressembler plusieurs éléments de contenu lorsqu’ils sont assemblés en tant que groupe.
-En règle générale, nous utiliserions des graphiques, des images et des vidéos prêts à l’emploi dans cette activité.
+Au **niveau de la ressource**, nous devons créer des maquettes qui définissent diverses options de disposition du contenu, ainsi que différents regroupements de contenu. Cela permet de définir à quoi peuvent ressembler plusieurs éléments de contenu lorsqu’ils sont assemblés en tant que groupe.
+En règle générale, des graphiques, des images et des vidéos prêts pour la production sont utilisés dans le cadre de cette activité.
 
-Dans une vue **au niveau du** canal, nous devons créer des structures filaires qui montrent comment les canaux de contenu sont liés ensemble dans l’expérience globale, y compris les stratégies de lecture pour les canaux incorporés. Nous pouvons également examiner les transitions de canaux qui peuvent survenir lors de l’engagement des déclencheurs de données.
+Au **niveau du canal**, nous devons créer des maquettes qui montrent comment les différents canaux de contenu sont interconnectés au sein de l’expérience globale, ce qui inclut les stratégies de lecture pour les canaux incorporés. Nous pouvons également examiner les transitions de canaux qui peuvent se produire lors de l’activation des déclencheurs de données.
 
-Au niveau **d’un** projet, nous pouvons commencer à modéliser la façon dont plusieurs écrans ou expériences peuvent fonctionner ensemble dans un espace physique afin de fournir un parcours utilisateur multi-points de contact complet.
+Au **niveau du projet**, nous pouvons commencer à modéliser l’interaction de plusieurs écrans ou expériences au sein d’un espace physique afin de proposer un parcours utilisateur complet à plusieurs points de contact.
 
-Cela devrait s’aligner sur la carte UX Journey créée précédemment.
+Cela doit être conforme avec la carte du parcours utilisateur qui a été créée précédemment.
 
