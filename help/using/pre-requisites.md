@@ -1,9 +1,9 @@
 ---
-title: Conditions préalables requises pour les écrans [!UICONTROL AEM]
-seo-title: Conditions préalables requises pour les projets [!UICONTROL AEM Screens]
-description: Le guide décrit les conditions préalables requises avant de démarrer un projet AEM Screens.
-seo-description: Le guide décrit les conditions préalables requises avant de démarrer un projet AEM Screens.
-translation-type: tm+mt
+title: Conditions préalables à l’utilisation d’[!UICONTROL AEM Screens]
+seo-title: Conditions préalables pour les projets [!UICONTROL AEM Screens]
+description: Ce guide décrit les conditions préalables au lancement d’un projet AEM Screens.
+seo-description: Ce guide décrit les conditions préalables au lancement d’un projet AEM Screens.
+translation-type: ht
 source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
 
 ---
@@ -11,33 +11,33 @@ source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
 
 # Conditions préalables {#prerequisites}
 
-Avant d’approfondir les détails de la mise en oeuvre d’un projet AEM Screens, il est recommandé de suivre des didacticiels et des documents de lecture spécifiques.
+Avant d’examiner plus en détail la mise en œuvre d’un projet AEM Screens, il est recommandé de consulter les tutoriels et documents spécifiques au produit.
 
 ## Formation à AEM (Adobe Experience Manager) {#learning-aem}
 
-Avant de commencer à travailler sur un projet Digital Signage à l’aide d’AEM Screens, vous devez posséder les connaissances d’Adobe Experience Manager (AEM) avant de travailler sur un projet AEM Screens.
+Avant de commencer à travailler sur un projet d’affichage numérique à l’aide d’AEM Screens, vous devez disposer des connaissances nécessaires sur Adobe Experience Manager (AEM).
 
-Reportez-vous aux didacticiels et aux ressources suivants pour découvrir Adobe Experience Manager 6.5 :
+Reportez-vous aux tutoriels et aux ressources ci-dessous pour vous familiariser avec Adobe Experience Manager 6.5 :
 
-* **[Prise en main](https://helpx.adobe.com/experience-manager/get-started.html)** d’Adobe Experience Manager : Découvrez les articles de prise en main et les didacticiels vidéo pour Adobe Experience Manager.
+* **[Prise en main d’Adobe Experience Manager](https://helpx.adobe.com/fr/experience-manager/get-started.html)** : découvrez les tutoriels vidéo et articles de prise en main consacrés à Adobe Experience Manager.
 
-* **[Didacticiels et vidéos](https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html)** AEM 6.5 : Collection de didacticiels et de vidéos mettant en évidence les nouvelles fonctionnalités et les fonctionnalités mises à jour pour les sites, ressources, formulaires, écrans et Foundation AEM avec la version 6.5 d’AEM.
+* **[Tutoriels et vidéos AEM 6.5](https://helpx.adobe.com/fr/experience-manager/kt/index/aem-6-5-videos.html)** : collection de tutoriels et de vidéos présentant les nouvelles fonctionnalités et les fonctionnalités mises à jour dans AEM Sites, Assets, Forms, Screens et Foundation avec la sortie d’AEM 6.5.
 
-* **[Premières étapes pour les auteurs](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/first-steps.html)**: Cette section présente une vue d’ensemble des principales tâches que vous allez utiliser lorsque vous commencez à créer du contenu avec Adobe Experience Manager (AEM).
+* **[Premières étapes pour les auteurs](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/first-steps.html)** : cette section vous donne un aperçu des tâches principales que vous exécuterez lorsque vous commencerez à créer du contenu avec Adobe Experience Manager (AEM).
 
-* **[Concepts](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html)** principaux d’AEM : Présentation des concepts de base de la structure d’AEM et de la manière de la développer, notamment la compréhension du JCR, de Sling, d’OSGi, du répartiteur, des flux de travail et du module de gestion des rapports.
+* **[Concepts de base d’AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/the-basics.html)** : présentation des concepts de base de la structure d’AEM et des méthodes de développement sur AEM, notamment le fonctionnement de JCR, de Sling, d’OSGi, du Dispatcher, des workflows et de MSM.
 
-## Présentation des fonctionnalités et des personnalités du produit dans les écrans AEM {#product-features}
+## Présentation des personnalités et des fonctionnalités du produit dans AEM Screens {#product-features}
 
-Pour en savoir plus sur les bases d’un projet AEM Screens, reportez-vous aux ressources ci-dessous :
+Pour en savoir plus sur les principes de bases d’un projet AEM Screens, reportez-vous aux ressources ci-dessous :
 
-* **[Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)** de l’utilisateur d’AEM Screens : Fournit une documentation détaillée sur les fonctionnalités et les fonctionnalités des différentes personnes utilisées dans un projet AEM Screens.
+* **[Guide de l’utilisateur d’AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/user-guide.html)** : ce guide décrit, en détail, les fonctionnalités des différentes personnalités utilisées dans un projet AEM Screens.
 
-* **[Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)** de mise en oeuvre d’AEM Screens : Fournit un didacticiel guidé mettant en évidence les éléments essentiels de la mise en oeuvre d’AEM Screens.
+* **[Principes de base de la mise en œuvre d’AEM Screens](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)** : tutoriel guidé présentant les principes de base de la mise en œuvre d’AEM Screens.
 
-* **[Vidéos sur les bases](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)** du réseau de signatures numériques : Propose cinq vidéos de base qui mettent en évidence des éléments clés sur le A/V, le matériel de signalisation numérique, les réseaux de signalisation et l’utilisation avec les intégrateurs A/V.
-   * *[Partie 1 : Rôles et responsabilités](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)* du projet : Met en évidence la première partie d’une série en cinq parties conçue pour aider les membres de l’équipe à mieux comprendre les rôles, les responsabilités et les calendriers requis pendant les cycles de ventes et de vie du projet pour un projet de signalisation numérique. Couvre les rôles et responsabilités du projet pour Adobe, les implémenteurs AEM et les intégrateurs AV à un niveau élevé.
-   * *[Partie 2 : Considérations relatives à la portée des projets](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html)*: met en évidence la partie 2 d’une série en 5 parties conçue pour aider les membres de l’équipe à mieux comprendre les aspects de pré-vente pour le développement de déploiements AEM Screens réussis. Couvre les éléments qui doivent être identifiés au cours de la découverte du projet, ainsi que les commentaires des intervenants pour évaluer le projet et préparer une conception appropriée.
-   * *[Partie 3 : Tests, PDV, pilotes et déploiements](https://helpx.adobe.com/experience-manager/6-5/screens/using/testing-pocs-pilots-rollouts.html)*: Faits saillants de la troisième partie d'une série en cinq parties conçue pour aider les membres de l'équipe à mieux comprendre les termes clés essentiels pour assurer la réussite d'une solution peut être élaborée avant le lancement. Couvre les actions liées aux tests de laboratoire matériel et à la validation des performances, les preuves de concept (également appelées POC) et les programmes pilotes.
-   * *[Partie 4 : Gestion et déploiement](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)* de projets : Met en évidence la partie 4 d'une série en cinq parties conçue pour couvrir la gestion de projet et la préparation du déploiement et définir les principaux facteurs dont l'intégrateur AV est responsable en ce qui concerne la gestion de projet et la préparation du déploiement. Couvre la préproduction, le lancement de projet et la progression du projet.
-   * *[Partie 5 : Points à prendre en charge](https://helpx.adobe.com/experience-manager/6-5/screens/using/support-considerations.html)*: Met en évidence la dernière partie d'une série en cinq parties conçue pour aider les membres de l'équipe à apprendre comment résoudre les problèmes de matériel, de logiciel et de connectivité. Cette phase explore les estimations de coûts et les cadres pour le soutien sur place. De plus, explique comment les paramètres SLA, les budgets opérationnels et les transferts aux AC sont gérés.
+* **[Vidéos consacrées aux bases d’un réseau d’affichage numérique](https://helpx.adobe.com/fr/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)** : ensemble de cinq vidéos de base qui présentent les éléments clés de l’audiovisuel, du matériel d’affichage numérique, des réseaux d’affichage et de la collaboration avec les intégrateurs A/V.
+   * *[Partie 1 : Rôles et responsabilités du projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)* – Ce premier volet d’une série de cinq articles est conçu pour aider les membres de l’équipe à mieux comprendre les rôles, les responsabilités et les calendriers requis pendant les cycles de vente et de vie d’un projet d’affichage numérique. Il y est question des rôles et des responsabilités du projet pour Adobe, les responsables de la mise en œuvre d’AEM et les intégrateurs A/V à un niveau élevé.
+   * *[Partie 2 : Observations dans le cadre de la définition du champ d’application du projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-considerations.html)* – Ce deuxième volet d’une série de cinq articles est conçu pour aider les membres de l’équipe à mieux comprendre les aspects de prévente pour le développement de déploiements AEM Screens réussis. Il y est question des éléments qui doivent être identifiés lors de la découverte du projet, ainsi que des commentaires des intervenants pour évaluer le projet et préparer une conception appropriée.
+   * *[Partie 3 : Tests, validations de principe, programmes pilotes et déploiements](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/testing-pocs-pilots-rollouts.html)* – Ce troisième volet d’une série de cinq articles est conçu pour aider les membres de l’équipe à mieux comprendre les termes essentiels pour garantir la réussite du développement d’une solution avant un déploiement. Il y est question des actions liées aux tests de matériel réalisés en laboratoire et à la validation des performances, des validations de principe et des programmes pilotes.
+   * *[Partie 4 : Gestion et déploiement de projets](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)* – Ce quatrième volet d’une série de cinq articles porte sur la préparation du déploiement et de la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur A/V est responsable en ce qui concerne ces tâches de préparation. Il y est question de la phase de préproduction du projet, de son lancement et de sa progression.
+   * *[Partie 5 : Observations relatives à l’assistance](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/support-considerations.html)* : Ce cinquième et dernier volet d’une série de cinq articles est conçu pour initier les membres de l’équipe à la prise en charge des problèmes matériels, logiciels et de connectivité. Cette phase explore les estimations de coûts et les structures en matière d’assistance sur site. Il y est également question de la gestion des paramètres du contrat de niveau de service, des budgets opérationnels et des transferts de centre d’exploitation de réseau.
