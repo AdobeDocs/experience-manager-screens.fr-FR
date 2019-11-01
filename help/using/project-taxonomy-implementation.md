@@ -2,8 +2,8 @@
 title: Taxonomie du projet
 seo-title: 'Taxonomie du projet '
 description: Cette page décrit la taxonomie du projet
-seo-description: La page décrit la taxonomie du projet
-translation-type: tm+mt
+seo-description: Cette page décrit la taxonomie du projet
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
@@ -13,14 +13,14 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->L’intervenant typique de cette activité est un implémenteur AEM.
+>Cette activité est généralement réalisée par l’implémentateur d’AEM.
 
-Avant de créer un projet AEM Screens, il est important de comprendre et de configurer tous les composants définis dans la phase de création filaire UX du projet.
+Avant de créer un projet AEM Screens, il est important de comprendre et de configurer tous les composants définis lors de la phase de maquettage de l’expérience utilisateur.
 
-Veillez à tenir compte des éléments suivants avant de mettre en oeuvre votre solution de signalisation numérique AEM Screens :
+Veuillez tenir compte des éléments suivants avant de mettre en œuvre votre solution de signalétique AEM Screens :
 
 * **Emplacements**
-* **MediaZones**
+* **Zones multimédias**
 * **Affichages**
 * **Planification**
 * **Aperçu du contenu**
@@ -29,31 +29,31 @@ Pour en savoir plus sur ces termes, consultez le [Glossaire](https://helpx.adobe
 
 >[!NOTE]
 >
->Il est recommandé d’utiliser :
+>Il est recommandé d’utiliser les éléments suivants :
 >
->* base de données de ressources matérielles pour remplir automatiquement un projet d’écrans
->* fichier de configuration de texte pour pointer automatiquement chaque lecteur vers une instance spécifique d’AEM
+>* Une base de données de ressources matérielles pour remplir automatiquement un projet Screens
+>* Un fichier de configuration texte pour faire pointer automatiquement chaque lecteur vers une instance spécifique d’AEM
 
 
-## Implémentation d’un projet AEM Screens {#creating-a-project}
+## Mise en œuvre d’un projet AEM Screens {#creating-a-project}
 
-Un auteur AEM Screens est chargé de créer et de gérer une expérience utilisateur à l’aide des composants disponibles dans AEM Screens. L’auteur crée et examine le contenu et fournit une interface utilisateur graphique facile à utiliser en configurant, en déployant et en intégrant les segments disponibles d’AEM Screens.
+Un auteur AEM Screens est chargé de créer et de gérer une expérience utilisateur à l’aide des composants disponibles dans AEM Screens. L’auteur crée et révise le contenu, et fournit une interface utilisateur graphique conviviale en configurant, déployant et intégrant les segments disponibles d’AEM Screens.
 
 >[!NOTE]
 >
 >Un auteur crée des canaux à partir des séquences données et connaît le public de la campagne ainsi que le résultat désiré. Ainsi, un auteur AEM Screens crée et orchestre l’expérience de l’utilisateur final en créant différents canaux et en attribuant des séquences dans une expérience de canal synchronisée.
 
-Un auteur commence généralement un projet AEM Screens par :
+L’auteur commence généralement un projet AEM Screens en :
 
-* [création d’un projet AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [création de canaux](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [ajout de composants et de ressources au canal](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [création de planifications](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [création d’emplacements](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [création d’affichages](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [attribution de canaux aux écrans](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [affichage de contenu dans un lecteur AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [créant un projet AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html) ;
+* [créant des canaux](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/managing-channels.html) ;
+* [ajoutant des composants et des ressources au canal](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/adding-components-to-a-channel.html) ;
+* [créant des planifications](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/managing-schedules.html) ;
+* [créant des emplacements](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/managing-locations.html) ;
+* [créant des affichages](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/managing-displays.html) ;
+* [attribuant des canaux aux affichages](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/channel-assignment.html) ;
+* [affichant du contenu dans un lecteur AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/working-with-screens-player.html).
 
 >[!NOTE]
 >
->De plus, vous pouvez également importer en bloc un ensemble d’emplacements d’une feuille de calcul CSV/XLS dans votre projet AEM Screens. Pour plus d’informations, consultez [New Project Importer du fichier](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) .
+>Vous pouvez, en outre, importer en bloc un ensemble d’emplacements dans votre projet AEM Screens depuis une feuille de calcul CSV/XLS. Pour plus d’informations, voir [Nouvel outil d’importation de projets à partir d’un fichier](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-importer.html).
