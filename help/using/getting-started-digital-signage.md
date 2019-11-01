@@ -1,98 +1,98 @@
 ---
-title: Principes de base de Digital Signing pour les écrans [!UICONTROL AEM]
-seo-title: Principes de base de Digital Signing pour les écrans [!UICONTROL AEM]
-description: Le guide décrit les bases d’un projet de signalisation numérique
-seo-description: Le guide décrit les bases d’un projet de signalisation numérique
-translation-type: tm+mt
+title: Principes de base de la signalétique digitale pour [!UICONTROL AEM Screens]
+seo-title: Principes de base de la signalétique digitale pour [!UICONTROL AEM Screens]
+description: Ce guide décrit les principes de base d’un projet de signalétique digitale
+seo-description: Ce guide décrit les principes de base d’un projet de signalétique digitale
+translation-type: ht
 source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
 
 ---
 
 
-# Principes de base d’un projet de signature numérique {#basics-digital-signage}
+# Principes de base d’un projet de signalétique digitale{#basics-digital-signage}
 
-Avant de vous plonger dans les meilleures pratiques d’implémentation d’AEM Screens, il est important de considérer le projet comme un projet de signalisation numérique, plutôt que comme un développement logiciel traditionnel.
+Avant de passer aux meilleures pratiques de mise en œuvre d’AEM Screens, il convient de considérer le projet comme un projet de signalétique digitale, plutôt que comme un projet de développement logiciel traditionnel.
 
-Cette section fournit des recommandations sur les principaux éléments essentiels avant la mise en oeuvre d’un projet AEM Screens.
+Cette section fournit des recommandations sur les éléments qui sont essentiels avant la mise en œuvre d’un projet AEM Screens.
 
-## Éléments clés dans Digital Signing {#key-elements}
+## Éléments clés d’un projet de signalétique digitale {#key-elements}
 
-Les éléments ** clés d’un projet de signalisation numérique sont les suivants :
+Les *éléments clés* d’un projet de signalétique digitale sont les suivants  :
 
 ![](/help/assets/Elements-Revised.png)
 
-La définition des éléments clés est essentielle avant la mise en oeuvre d’un projet de signalisation numérique :
+La définition des éléments clés est une étape essentielle avant la mise en œuvre d’un projet de signalétique digitale :
 
 1. **Matériel**
 
-   Le matériel définit les composants matériels idéaux pour la mise en oeuvre de votre projet de signalisation numérique :
-   * Le périphérique dispose-t-il d’un espace de stockage suffisant pour exécuter toutes les variantes des expériences hors ligne ?
-   * Avons-nous autorisé le type et la longueur des câbles vidéo ? Le périphérique prend-il en charge les deux résolutions souhaitées (HD, FullHD, 4K, etc.) ? et les codecs vidéo que je prévois de déployer (h.264, h.265, etc.)
+   Le matériel définit les composants matériels idéaux pour la mise en œuvre de votre projet de signalétique digitale :
+   * Le périphérique dispose-t-il d’un espace de stockage suffisant pour exécuter toutes les variantes des expériences hors ligne ?
+   * Avons-nous autorisé le type et la longueur de câble vidéo ? Le périphérique prend-il en charge les résolutions souhaitées (HD, Full HD, 4K, etc.) et les codecs vidéo que je prévois de déployer (h.264, h.265, etc.) ?
    * Utilisation de fils de cuivre physiques
    * Taille des écrans
    * Nombre d’écrans
-      * orientation
-      * format
-      * préférence de résolution
+      * Orientation
+      * Rapport d’aspect
+      * Préférence de résolution
 
 1. **Connectivité**
 
-   La connectivité met l'accent sur les questions suivantes :
-   * En réseau (cellulaire ou wi-fi) ou autonome ?
-      * devons-nous autoriser les mises à jour de contenu USB ?
-      * devons -nous autoriser la collecte des données d' utilisation?
+   La connectivité met l’accent sur les questions suivantes :
+   * Réseau (cellulaire ou Wi-Fi) ou autonome ?
+      * Devons-nous autoriser les mises à jour de contenu USB ?
+      * Devons-nous autoriser la collecte de données d’utilisation ?
 
 1. **Installation**
 
-   L'installation comprend :
-   * Affichages : paysage ou portrait
-   * Comment l'écran sera-t-il monté ?
-      * Portrait ou Paysage
-      * Logement complet
-      * Plaque de couverture
-   * Prise en charge de la fixation
-   * Personnel : responsable de l'installation du matériel et de sa connexion au réseau
-   * À quelle distance est la source d'énergie du fixateur ?
-   * À quelle distance se trouve le panneau physique du périphérique réel ?
+   L’installation comprend les éléments suivants :
+   * Modes d’affichage : paysage ou portrait
+   * Comment l’écran sera-t-il monté ?
+      * Portrait ou paysage
+      * Boîtier complet
+      * Plaque de recouvrement
+   * Support de l’appareil
+   * Personnel : responsable de l’installation du matériel et de sa connexion au réseau
+   * À quelle distance la source d’alimentation se trouve-t-elle de l’appareil ?
+   * À quelle distance le panneau physique se trouve-t-il du périphérique proprement dit ?
 
-1. Le **contenu**
+1. **Contenu**
 
-   Le contenu comprend :
-   * Zone unique ou Zone multiple ?
-      * Combien de fichiers multimédia se trouvent à l’écran en même temps ?
-      * Combien de pages pour les applications interactives ?
-      * Définition de la boucle d’interface
-      * Contenu piloté par les données ?
+   Questions relatives au contenu :
+   * Zone unique ou plusieurs zones ?
+      * Quel est le nombre de ressources multimédias affichées simultanément à l’écran ?
+      * Combien de pages y a-t-il pour les applications interactives ?
+      * Définition de la boucle d’interface utilisateur
+      * S’agit-il d’un contenu piloté par les données ?
    * Gestion de version
 
-1. **Interactif**
+1. **Interactivité**
 
-   Interactif :
-   * Type d’écran tactile préféré ? (résistif, capacitif, multipoint) ?
-      * Touche Bouton
+   Questions relatives à l’interactivité :
+   * Type d’écran tactile préféré (résistif, capacitif, multipoint) ?
+      * Pression de boutons
       * Gestes
-   * Déclenchement des données (E/S) ?
+   * Déclenchement des données (E/S) ?
       * Envoi/réception de commandes série (fermeture de contact, PLC, etc.)
-      * Les données entrantes s’affichent à l’écran (RSS) ou déclenchent le contenu.
+      * Les données entrantes s’affichent à l’écran (RSS) ou déclenchent du contenu
       * RFID/NFC/Bluetooth/iBeacon
       * Services externes (météo, trafic, etc.)
 
-1. **de création**
+1. **Environnement**
 
-   L’environnement met l’accent sur :
-   * Afficher l'emplacement ?
-      * Intérieur et extérieur
-      * Excepté ou directement exposé
-   * Conditions temporaires spéciales ?
-   * Une preuve vandale ?
-   * Lumière ambiante élevée ? De forts contrastes ?
+   L’environnement met l’accent sur les points suivants :
+   * Emplacement de l’affichage ?
+      * Intérieur ou extérieur
+      * Hors d’atteinte ou directement accessible
+   * Y a-t-il des exigences particulières en matière de température ?
+   * Le matériel est-il à l’épreuve du vandalisme ?
+   * Fort éclairage ambiant ? Contrastes élevés ?
 
 1. **Maintenance**
 
-   La maintenance met l'accent sur :
+   La maintenance met l’accent sur les points suivants :
 
-   * Des guides d’installation détaillés/des guides d’utilisation sont-ils requis ?
-   * Sommes-nous en train de configurer (programmer) le dispositif avant l'expédition ?
-   * Devons-nous capturer chaque numéro de série à des fins de suivi ?
-   * Existe-t-il des besoins en alimentation de secours (alimentation sans interruption)?
-   * Comment les mises à jour système sont-elles déployées ? Et comment les dispositifs sont-ils contrôlés à distance ? Une solution MDM est-elle nécessaire ?
+   * L’utilisation de guides d’installation/utilisation détaillés est-elle requise ?
+   * Le périphérique est-il configuré (programmé) avant l’expédition ?
+   * Devons-nous capturer chaque numéro de série à des fins de suivi ?
+   * Une alimentation de secours (onduleur) est-elle requise ?
+   * Comment les mises à jour du système sont-elles déployées ? Comment les périphériques sont-ils contrôlés à distance ? Une solution MDM est-elle requise ?
