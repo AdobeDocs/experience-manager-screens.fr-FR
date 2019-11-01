@@ -1,6 +1,6 @@
 ---
 source-git-commit: 26214b3a0c8510a66a340e8f9566aeb4692a23d7
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribution
@@ -28,8 +28,7 @@ dans le cadre du projet. [Signez notre contrat de licence du contributeur](http:
 ## Révision du code
 
 Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées
-par les validateurs du projet. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+par les validateurs du projet. Lisez la [documentation relative aux demandes d’extraction de GitHub](https://help.github.com/articles/about-pull-requests/) pour plus d’informations sur l’envoi de demandes d’extraction.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -45,4 +44,4 @@ n’hésitez pas à contacter les validateurs pour en discuter.
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans ce suivi de problèmes. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+Les problèmes de sécurité ne doivent pas être signalés dans ce suivi de problèmes. Au lieu de cela, [soumettez un problème à nos experts en sécurité](https://helpx.adobe.com/fr/security/alertus.html).
