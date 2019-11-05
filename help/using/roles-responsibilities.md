@@ -4,7 +4,7 @@ seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
 
 ---
 
@@ -44,7 +44,7 @@ L’intégrateur A/V est le fournisseur/partenaire matériel. C’est à lui qu
 
 L’intégrateur A/V est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements autour du matériel de signalétique digitale.
 
-### Sélection du partenaire matériel {#selecting-hardware-partner}
+#### Sélection du partenaire matériel {#selecting-hardware-partner}
 
 Choisir le bon partenaire matériel revêt une importance capitale. Les questions suivantes doivent être prises en compte :
 
@@ -147,12 +147,18 @@ Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différente
 | Plan de mise à jour du contenu | I | RA | C | C |
 | Plan de transition du projet pilote à la phase de production | RA | RA | I | I |
 | Transfert de connaissances | RA | RA | I | I |
+
+| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+|---|---|---|---|---|
 | *Jour 1 : mise en œuvre du projet (état de préparation du point de vente)* |
 | Commande et stockage du matériel | RA | I | I | I |
 | Calendrier des activités d’intégration du point de vente | I | I | C | RA |
 | Organisation des tests d’acceptation utilisateur | I | C | RA |  |
 | Configuration groupée du matériel | RA | I | C | I |
 | Accord sur l’assistance après le lancement | RA | C | RA | C |
+
+| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+|---|---|---|---|---|
 | *Jour 1 : mise en œuvre du projet (matériel)* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | L’aménagement du point de vente comprend les opérations de câblage | - | - | - | - |
