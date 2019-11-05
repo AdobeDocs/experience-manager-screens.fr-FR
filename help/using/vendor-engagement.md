@@ -3,8 +3,8 @@ title: Engagement du fournisseur
 seo-title: Engagement du fournisseur pour AEM Screens
 description: Cette page décrit l’engagement du fournisseur dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit l’engagement du fournisseur dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -24,17 +24,3 @@ Au cours de cette activité, il est important d’identifier les principaux four
 * Confirmez les *délais* de livraison pour tous les livrables et créez un plan de déploiement qui tienne compte de tous les délais en amont, à partir des dates d’installation souhaitées des premières installations requises.
 
 Une fois toutes les étapes effectuées, vous devriez disposer d’un plan de déploiement *Jour 1* complet, prêt à être exécuté.
-
-## Sélection du partenaire matériel {#selecting-hardware-partner}
-
-Choisir le bon partenaire matériel revêt une importance capitale. Les questions suivantes doivent être prises en compte :
-
-1. Quels sont les termes du contrat de niveau de service ?
-
-1. Quelle est la couverture globale ?
-
-1. S’agit-il d’une assistance 24 heures sur 24 ?
-
-1. Comment les appareils seront-ils gérés ?
-
-1. Quels sont les systèmes de surveillance et d’avertissement actifs ?
