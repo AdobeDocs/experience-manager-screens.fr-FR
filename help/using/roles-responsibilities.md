@@ -4,7 +4,7 @@ seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 translation-type: tm+mt
-source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
+source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
 
@@ -118,9 +118,10 @@ Voici un exemple de matrice RACI qui utilise des définitions de rôle.
 
 Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différentes définitions de rôle. Cette matrice contient les tâches courantes et les observations réalisées dans le cadre d’un projet AEM Screens.
 
+Le tableau suivant résume le **Jour zéro : Points à prendre en compte** avant la vente :
+
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
-| *Jour 0 : observations préalables à la vente* |
 | Formation de l’équipe et sélection du fournisseur | I | I | RA | RA |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | Alignement sur les objectifs stratégiques | CI | I | RA | RA |
@@ -129,9 +130,10 @@ Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différente
 | Définition du processus d’assistance | C | I | RA | I |
 | Définition de l’étendue des travaux et du plan du projet | RA | RA | C | C |
 
+Le tableau suivant résume le **Jour Un : Implémentation du projet (conception d’application)**:
+
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
-| *Jour 1 : mise en œuvre du projet (conception de l’application)* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | Alignement sur le plan et le calendrier du projet | RA | RA | C | C |
 | Évaluation des environnements serveur actuels | I | RA | I | I |
@@ -148,18 +150,20 @@ Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différente
 | Plan de transition du projet pilote à la phase de production | RA | RA | I | I |
 | Transfert de connaissances | RA | RA | I | I |
 
+Le tableau suivant résume le **Jour Un : Mise en oeuvre du projet (préparation au détail)**:
+
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
-| *Jour 1 : mise en œuvre du projet (état de préparation du point de vente)* |
 | Commande et stockage du matériel | RA | I | I | I |
 | Calendrier des activités d’intégration du point de vente | I | I | C | RA |
 | Organisation des tests d’acceptation utilisateur | I | C | RA |  |
 | Configuration groupée du matériel | RA | I | C | I |
 | Accord sur l’assistance après le lancement | RA | C | RA | C |
 
+Le tableau suivant résume le **Jour Un :Premier jour : Implémentation du projet (Matériel)**:
+
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
-| *Jour 1 : mise en œuvre du projet (matériel)* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | L’aménagement du point de vente comprend les opérations de câblage | - | - | - | - |
 | Sélection du matériel de lecture | RAC | - | - | - |
