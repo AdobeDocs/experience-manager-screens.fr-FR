@@ -3,8 +3,8 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: ht
-source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
+translation-type: tm+mt
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -44,6 +44,20 @@ L’intégrateur A/V est le fournisseur/partenaire matériel. C’est à lui qu
 
 L’intégrateur A/V est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements autour du matériel de signalétique digitale.
 
+### Sélection du partenaire matériel {#selecting-hardware-partner}
+
+Choisir le bon partenaire matériel revêt une importance capitale. Les questions suivantes doivent être prises en compte :
+
+1. Quels sont les termes du contrat de niveau de service ?
+
+1. Quelle est la couverture globale ?
+
+1. S’agit-il d’une assistance 24 heures sur 24 ?
+
+1. Comment les appareils seront-ils gérés ?
+
+1. Quels sont les systèmes de surveillance et d’avertissement actifs ?
+
 ### Stratèges opérationnels {#business-strategist}
 
 Les stratèges opérationnels représentent les décideurs de l’entreprise. Les titulaires de ce rôle sont fortement impliqués dans les étapes de découverte et de définition des exigences. Ce rôle constitue le principal élément moteur du projet.
@@ -66,7 +80,7 @@ En règle générale, les chefs de projet gèrent l’intégralité de votre dé
 
 >[!NOTE]
 >
-> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Étapes du projet {#project-stages}
@@ -82,7 +96,7 @@ Pour garantir la réussite du déploiement de la solution de signalétique digit
 >[!NOTE]
 >
 > Bien que ce guide mette principalement l’accent sur le *jour 1* et le *jour 2*, il est important de se pencher sur les trois étapes pour mener à bien un projet de signalétique digitale.
-Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
+Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
 
 ## Matrice RACI {#raci-chart}
 
@@ -114,28 +128,31 @@ Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différente
 | Inspection du site et configuration matérielle requise | RA | I | C | C |
 | Définition du processus d’assistance | C | I | RA | I |
 | Définition de l’étendue des travaux et du plan du projet | RA | RA | C | C |
+
+| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+|---|---|---|---|---|
 | *Jour 1 : mise en œuvre du projet (conception de l’application)* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | Alignement sur le plan et le calendrier du projet | RA | RA | C | C |
 | Évaluation des environnements serveur actuels | I | RA | I | I |
-| Exigences en matière de conception de l’expérience utilisateur | I | AR | C | AR |
+| Exigences en matière de conception de l’expérience utilisateur | I | RA | C | RA |
 | Validation des exigences techniques | I | RA | RA | C |
-| Conception de l’architecture | I | AR | I | I |
-| Validation de la structure de données avec la conception de l’interface utilisateur | I | AR | C | C |
+| Conception de l’architecture | I | RA | I | I |
+| Validation de la structure de données avec la conception de l’interface utilisateur | I | RA | C | C |
 | Développement de l’application | RA | RA | RA | RA |
-| Configuration du projet AEM Screens | I | AR | C | I |
-| Mise en œuvre d’Analytics | I | AR | C | - |
-| Tests et déploiement | AR | C | AR | I |
-| Configuration du serveur | I | AR | I | I |
-| Plan de mise à jour du contenu | I | AR | C | C |
-| Plan de transition du projet pilote à la phase de production | AR | AR | I | I |
-| Transfert de connaissances | AR | AR | I | I |
+| Configuration du projet AEM Screens | I | RA | C | I |
+| Mise en œuvre d’Analytics | I | RA | C | - |
+| Tests et déploiement | RA | C | RA | I |
+| Configuration du serveur | I | RA | I | I |
+| Plan de mise à jour du contenu | I | RA | C | C |
+| Plan de transition du projet pilote à la phase de production | RA | RA | I | I |
+| Transfert de connaissances | RA | RA | I | I |
 | *Jour 1 : mise en œuvre du projet (état de préparation du point de vente)* |
-| Commande et stockage du matériel | AR | I | I | I |
-| Calendrier des activités d’intégration du point de vente | I | I | C | AR |
-| Organisation des tests d’acceptation utilisateur | I | C | AR |  |
-| Configuration groupée du matériel | AR | I | C | I |
-| Accord sur l’assistance après le lancement | AR | C | AR | C |
+| Commande et stockage du matériel | RA | I | I | I |
+| Calendrier des activités d’intégration du point de vente | I | I | C | RA |
+| Organisation des tests d’acceptation utilisateur | I | C | RA |  |
+| Configuration groupée du matériel | RA | I | C | I |
+| Accord sur l’assistance après le lancement | RA | C | RA | C |
 | *Jour 1 : mise en œuvre du projet (matériel)* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | L’aménagement du point de vente comprend les opérations de câblage | - | - | - | - |
