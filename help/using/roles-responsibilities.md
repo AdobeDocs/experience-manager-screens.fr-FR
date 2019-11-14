@@ -3,7 +3,7 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
@@ -80,7 +80,7 @@ En règle générale, les chefs de projet gèrent l’intégralité de votre dé
 
 >[!NOTE]
 >
-> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Étapes du projet {#project-stages}
@@ -96,7 +96,7 @@ Pour garantir la réussite du déploiement de la solution de signalétique digit
 >[!NOTE]
 >
 > Bien que ce guide mette principalement l’accent sur le *jour 1* et le *jour 2*, il est important de se pencher sur les trois étapes pour mener à bien un projet de signalétique digitale.
-Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
+Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
 
 ## Matrice RACI {#raci-chart}
 
@@ -118,7 +118,7 @@ Voici un exemple de matrice RACI qui utilise des définitions de rôle.
 
 Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différentes définitions de rôle. Cette matrice contient les tâches courantes et les observations réalisées dans le cadre d’un projet AEM Screens.
 
-Le tableau suivant résume le **Jour zéro : Points à prendre en compte** avant la vente :
+Le tableau ci-dessous résume les **observations préalables à la vente pour le jour 0** :
 
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
@@ -130,7 +130,7 @@ Le tableau suivant résume le **Jour zéro : Points à prendre en compte** avant
 | Définition du processus d’assistance | C | I | RA | I |
 | Définition de l’étendue des travaux et du plan du projet | RA | RA | C | C |
 
-Le tableau suivant résume le **Jour Un : Implémentation du projet (conception d’application)**:
+Le tableau ci-dessous résume la **mise en œuvre du projet (conception de l’application) pour le jour 1** :
 
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
@@ -150,7 +150,7 @@ Le tableau suivant résume le **Jour Un : Implémentation du projet (conception 
 | Plan de transition du projet pilote à la phase de production | RA | RA | I | I |
 | Transfert de connaissances | RA | RA | I | I |
 
-Le tableau suivant résume le **Jour Un : Mise en oeuvre du projet (préparation au détail)**:
+Le tableau suivant résume la **mise en œuvre du projet (état de préparation du point de vente) pour le jour 1** :
 
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
@@ -160,7 +160,7 @@ Le tableau suivant résume le **Jour Un : Mise en oeuvre du projet (préparation
 | Configuration groupée du matériel | RA | I | C | I |
 | Accord sur l’assistance après le lancement | RA | C | RA | C |
 
-Le tableau suivant résume le **Jour Un :Premier jour : Implémentation du projet (Matériel)**:
+Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jour 1** :
 
 | **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
