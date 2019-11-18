@@ -3,8 +3,8 @@ title: Tests et assurance qualité
 seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 
 ---
 
@@ -22,19 +22,61 @@ Il convient de créer une liste de contrôle qui identifie tous les IPC définis
 
 Les éléments suivants doivent être pris en compte :
 
-1. **Considérations mécaniques** pour les éléments suivants :
-   * Montage des écrans
-   * Montage du lecteur
-   * Ventilation
-   * Accessoires périphériques
-   * Gestion des câbles
-   * Mise en réseau des appareils
+## 1. Considérations mécaniques {#mechanical-considerations}
 
-1. **Considérations logicielles** pour les éléments suivants :
-   * Enregistrement d’appareil
-   * Publication de médias
-   * Lecture
-   * Dépendances de base de données (définies précédemment)
+Les considérations mécaniques suivantes sont recommandées :
+
+* Montage des écrans
+* Montage du lecteur
+* Ventilation
+* Accessoires périphériques
+* Gestion des câbles
+* Mise en réseau des appareils
+
+## 2. Remarques sur le logiciel {#software-considerations}
+
+Il est recommandé de prendre en compte les éléments suivants :
+
+* Enregistrement d’appareil
+* Publication de médias
+* Lecture
+* Dépendances de base de données (définies précédemment)
 
 >[!NOTE]
 > Cette phase doit également servir d’outil pour la création d’un guide d’installation et d’utilisation qui pourra être livré avec l’équipement et conservé sur site pour consultation future.
+
+## 3. Remarques sur la gestion des périphériques {#device-management-considerations}
+
+
+AEM Screens inclut un module Device Control Center qui permet la gestion des points de fin d’application du lecteur d’écrans.
+
+Il s’agit de tout périphérique *du lecteur* sur lequel l’application du lecteur d’écrans est installée et enregistré sur une instance d’AEM.
+Ce module vous permet d’effectuer les opérations suivantes :
+
+1. Surveillance des journaux d’erreurs de l’application
+1. Gestion des captures d’écran distantes
+1. Gestion des téléchargements de contenu
+1. Redémarre l’application
+
+>[!CAUTION]
+> VOUS DEVEZ UTILISER NPT Device Control Center POUR :
+>
+> 1. Installer de nouvelles versions de l’application du lecteur
+> 1. Surveiller les ressources au niveau du système
+> 1. Configuration au niveau du système
+> 1. Permet une intervention sur le bureau distant.
+
+
+
+>[!NOTE]
+> Adobe recommande d’utiliser des plateformes tierces dédiées de gestion des périphériques pour tous les déploiements.
+
+La plateforme choisie dépend de plusieurs facteurs, dont le système ***d'exploitation*** cible, les exigences ***du*** projet et le ***nombre de points*** de fin.
+
+Quelques exemples :
+
+* Gestion des périphériques Google Chrome
+* TeamViewer
+* AirWatch42
+* Engrenages
+* Soti
