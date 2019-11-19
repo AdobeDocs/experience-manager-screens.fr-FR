@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ---
 
 
-# Glossaire{#glossary}
+# Glossaire {#glossary}
 
 **Canal** d’application Un canal d’application présente une application créée par un développeur et affichant du contenu interactif.
 
@@ -28,9 +28,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **Live Copy** Une Live Copy est une copie du contenu spécifique du site pour lequel une relation dynamique avec la source d’origine est conservée. Ces relations en direct permettent à la Live Copy d’hériter des propriétés du contenu et de la page de la source.
 
-**Emplacement** Les emplacements hébergent la configuration des écrans selon l’emplacement des différents écrans.
+**Emplacement/Emplacement Dossier** Emplacements ou emplacements à l’intérieur du dossier d’emplacement hébergent la configuration des écrans selon l’emplacement des différents écrans.
 
-**Logiciel** du lecteur Le lecteur est le logiciel qui s'exécute sur un périphérique et vous permet d'afficher un canal sur un écran.
+**Logiciel** du lecteur Le lecteur est l'application logicielle qui s'exécute sur un périphérique et vous permet d'afficher un canal sur un écran.
 
 **Écran** Un écran est un moniteur physique ou tout autre système capable de produire une sortie visuelle, qui montre le contenu provenant de son appareil.
 
