@@ -4,7 +4,7 @@ seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 translation-type: tm+mt
-source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
+source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
 
 ---
 
@@ -57,7 +57,7 @@ Ce module vous permet d’effectuer les opérations suivantes :
 1. Surveillance des journaux d’erreurs de l’application
 1. Gestion des captures d’écran distantes
 1. Gestion des téléchargements de contenu
-1. Redémarre l’application
+1. Gestion des problèmes de redémarrage de l’application
 
 Pour en savoir plus sur ***Device Control Center***, reportez-vous à la section [Dépannage de Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) du Guide **de l’utilisateur d’** AEM Screens.
 
