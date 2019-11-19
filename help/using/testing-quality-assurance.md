@@ -4,7 +4,7 @@ seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screens inclut un module Device Control Center qui permet la gestion des poi
 Il s’agit de tout périphérique *du lecteur* sur lequel l’application du lecteur d’écrans est installée et enregistré sur une instance d’AEM.
 Ce module vous permet d’effectuer les opérations suivantes :
 
-1. Surveillance des journaux d’erreurs de l’application
+1. Surveiller les journaux d’erreurs de l’application du lecteur
 1. Gestion des captures d’écran distantes
 1. Gestion des téléchargements de contenu
 1. Gestion des problèmes de redémarrage de l’application
@@ -66,8 +66,8 @@ Pour en savoir plus sur ***Device Control Center***, reportez-vous à la section
 >
 > 1. Installer de nouvelles versions de l’application du lecteur
 > 1. Surveiller les ressources au niveau du système
-> 1. Configuration au niveau du système
-> 1. Permet une intervention sur le bureau distant.
+> 1. Résolution des erreurs au niveau du système
+> 1. Autoriser l'intervention sur le bureau distant
 
 
 
@@ -80,6 +80,6 @@ Quelques exemples :
 
 * Gestion des périphériques Google Chrome
 * TeamViewer
-* AirWatch42
-* Engrenages
-* Soti
+* AirWatch
+* 42Gears
+* Mini-logiciel pour intégrateur AV propriétaire
