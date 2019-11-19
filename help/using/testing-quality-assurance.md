@@ -4,7 +4,7 @@ seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -20,6 +20,9 @@ Au cours de cette phase, des systèmes de test complets doivent être mis au poi
 
 Il convient de créer une liste de contrôle qui identifie tous les IPC définis précédemment et qui mesure le livrable par rapport à ces indicateurs.
 
+>[!NOTE]
+> Cette phase doit également servir d’outil pour la création d’un guide d’installation et d’utilisation qui pourra être livré avec l’équipement et conservé sur site pour consultation future.
+
 Les éléments suivants doivent être pris en compte :
 
 ## 1. Considérations mécaniques {#mechanical-considerations}
@@ -33,7 +36,7 @@ Les considérations mécaniques suivantes sont recommandées :
 * Gestion des câbles
 * Mise en réseau des appareils
 
-## 2. Remarques sur le logiciel {#software-considerations}
+## 2. Considérations relatives aux logiciels {#software-considerations}
 
 Il est recommandé de prendre en compte les éléments suivants :
 
@@ -42,8 +45,6 @@ Il est recommandé de prendre en compte les éléments suivants :
 * Lecture
 * Dépendances de base de données (définies précédemment)
 
->[!NOTE]
-> Cette phase doit également servir d’outil pour la création d’un guide d’installation et d’utilisation qui pourra être livré avec l’équipement et conservé sur site pour consultation future.
 
 ## 3. Remarques sur la gestion des périphériques {#device-management-considerations}
 
@@ -58,8 +59,10 @@ Ce module vous permet d’effectuer les opérations suivantes :
 1. Gestion des téléchargements de contenu
 1. Redémarre l’application
 
+Pour en savoir plus sur ***Device Control Center***, reportez-vous à la section [Dépannage de Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) du Guide **de l’utilisateur d’** AEM Screens.
+
 >[!CAUTION]
-> VOUS DEVEZ UTILISER NPT Device Control Center POUR :
+> Vous ne devez pas utiliser Device Control Center pour :
 >
 > 1. Installer de nouvelles versions de l’application du lecteur
 > 1. Surveiller les ressources au niveau du système
