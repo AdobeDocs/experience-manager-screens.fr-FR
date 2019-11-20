@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,22 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
    >Par défaut, toutes les cases seront cochées et vous devrez les décocher manuellement pour publier tous les modules de votre projet.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **Boîte de dialogue Inclure les enfants**
+
+   L’étape mentionnée ci-dessus montre comment publier l’intégralité du contenu. Si vous voulez utiliser les trois autres alternatives disponibles, vous devrez vérifier cette option.
+Par exemple, l’image suivante vous permet de gérer et de mettre à jour uniquement les pages modifiées de votre projet :
+   ![image](assets/author-publish-manage.png)
+
+   Suivez les explications ci-dessous pour comprendre les options disponibles :
+
+   1. **Inclure uniquement les enfants**immédiats :
+Cette option vous permet de gérer les mises à jour uniquement sur les sous-noeuds de la structure de votre projet.
+   1. **Inclure uniquement les pages**modifiées :
+Cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet où les modifications sont trouvées dans la structure du projet.
+   1. **Inclure uniquement les pages**déjà mises à jour :
+Cette option permet de gérer les mises à jour uniquement sur les pages qui ont été publiées auparavant.
+
 
 1. Cliquez sur **Publier** dans l’assistant **Gérer la publication.**
 
