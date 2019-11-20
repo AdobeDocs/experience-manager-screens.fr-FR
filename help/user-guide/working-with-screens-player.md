@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ De plus, vous pouvez spécifier le nombre maximal de fichiers journaux à conser
 >L'option **Mettre à jour le microprogramme** fonctionne uniquement sur la cordova, comme les lecteurs Android.
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>Il est recommandé de désactiver l’interface **d’** administration dans les déploiements de production.
 
 Vous pouvez effacer le cache des canaux et des applications de l’IU d’administration dans le lecteur AEM Screens.
 
