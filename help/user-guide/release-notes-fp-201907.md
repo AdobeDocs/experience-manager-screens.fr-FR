@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -34,13 +34,13 @@ La date de publication pour AEM Screens Feature Pack 201907 est le 31 juillet 20
 
 Le lecteur passe sur un canal montrant les informations d'urgence à la réception d'un événement déclenché par le système d'urgence. La chaîne joue exclusivement jusqu'à la fin de la situation d'urgence.
 
-Consultez le cas d'utilisation du canal [**d'**](emergency-channel.md) urgence pour la mise en oeuvre.
+Consultez le cas d'utilisation du canal [d'](emergency-channel.md) urgence pour la mise en oeuvre.
 
 * **Ciblage activé pour les composants asynchrones (*tels que les vidéos, les séquences*incorporées)**
 
-Le ciblage** **peut désormais être activé pour les ressources utilisées dans le projet AEM Screens.
+Le ciblage peut désormais être activé pour les ressources utilisées dans le projet AEM Screens.
 
-Pour en savoir plus sur la manière d’activer le ciblage des ressources dans le projet AEM Screens, voir [**Configuration de ContextHub dans AEM Screens**](configuring-context-hub.md).
+Pour en savoir plus sur la manière d’activer le ciblage des ressources dans le projet AEM Screens, voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md).
 
 Après avoir configuré ContextHub pour votre projet AEM Screens, suivez différents cas d’utilisation pour comprendre le rôle essentiel des ressources déclenchées par les données dans les différentes industries :
 
@@ -57,11 +57,11 @@ Le gestionnaire de mise à jour analyse maintenant les fragments d’expérience
 * **Lancements**
 
 Les lancements permettent aux auteurs de contenu de créer une version ultérieure du ou des canaux. Avec l’aide des lancements, les auteurs peuvent prévisualiser chaque canal du lancement et doivent pouvoir lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
-Refer to [**Launches**](launches.md) for more details.
+Pour plus d’informations, voir [Lancements](launches.md) .
 
 * **Configurations hors ligne dans les fragments d’expérience**
 
-Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience d’écran. Consultez [**Utilisation de fragments**](experience-fragments-in-screens.md) d’expérience pour plus d’informations.
+Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience d’écran. Consultez [Utilisation de fragments](experience-fragments-in-screens.md) d’expérience pour plus d’informations.
 
 ### Lecteurs AEM Screens sortis {#released-aem-screens-players}
 
@@ -73,4 +73,4 @@ Les lecteurs d’écran AEM suivants sont publiés pour AEM 6.4.5 Feature Pack 5
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section Téléchargements [**du lecteur**](https://download.macromedia.com/screens/)AEM Screens.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section Téléchargements [du lecteur](https://download.macromedia.com/screens/)AEM Screens.
