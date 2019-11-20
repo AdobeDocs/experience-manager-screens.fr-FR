@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
+source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 # Guide de l’utilisateur d’AEM Screens {#user-guide}
 
 + [Présentation des écrans](aem-screens-introduction.md)
-+ Présentation {#overview}
++ Présentation et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
    + [Termes clés](screens-glossary.md)
 + Notions de base du réseau de signatures numériques {#digital-signage-network}
@@ -21,7 +21,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [Partie 3 : Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
    + [Partie 4 : Gestion et déploiement de projets](project-management-and-deployment.md)
    + [Partie 5 : Points à prendre en charge](support-considerations.md)
-+ Administration {#administering}
++ Configuration et administration {#administering}
    + [Configurations du serveur d’écrans](configuring-screens-introduction.md)
    + [Configuration des configurations du répartiteur](dispatcher-configurations-aem-screens.md)
    + [Installation du lecteur Screens](installing-screens-player.md)
@@ -71,7 +71,8 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
       + [Activation de la température du centre de voyage](local-temperature-activation.md)
       + [Activation de réservation d'hébergement](hospitality-reservation-activation.md)
       + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
-+ Développement {#developing}
+      + [Application de transitions](applying-transitions.md)
++ Ressources pour les développeurs et les API {#developing}
    + [API REST](rest-api.md)
    + [Développement d’un composant personnalisé pour les écrans AEM](developing-custom-component-tutorial-develop.md)
    + [Canaux hors ligne](offline-channels.md)
@@ -79,7 +80,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [Création de composants](creating-components.md)
    + [Configuration de ContextHub dans les écrans AEM](configuring-context-hub.md)
    + [Création de modèles personnalisés avec des mises en page multi-zones](creating-custom-templates-multizone-layouts.md)
-+ Résolution des incidents {#troubleshooting}
++ Dépannage et FAQ {#troubleshooting}
    + [FAQ sur les écrans AEM](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
