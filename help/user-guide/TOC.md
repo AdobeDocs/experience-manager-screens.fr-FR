@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
+source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Configurations du serveur d’écrans](configuring-screens-introduction.md)
    + [Configuration des configurations du répartiteur](dispatcher-configurations-aem-screens.md)
    + [Installation du lecteur Screens](installing-screens-player.md)
-   + [Connexion de l’application du lecteur d’écrans](working-with-screens-player.md)
+   + [Connexion du lecteur d’écran](working-with-screens-player.md)
    + [Enregistrement de périphérique](device-registration.md)
    + [Configuration des listes de contrôle d’accès](setting-up-acls.md)
    + [Passage de ContentSync à SmartSync](smartsync.md)
-   + Installation du client {#installing-client}
+   + Considérations spécifiques au client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Utilisation de Chrome Player comme extension pour le dépannage](using-chrome-player-as-an-extension.md)
       + [Lecteur Android](implementing-android-player.md)
@@ -37,7 +37,10 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + Author Publish {#author-publish}
       + [Présentation de l’architecture Auteur-Publication](author-publish-architecture-overview.md)
       + [Configuration de l’auteur et de la publication](author-and-publish.md)
-+ Création {#authoring}
+   + Analytics Integration with AEM Screens {#analytics-integration}
+      + [Intégration d’Adobe Analytics](adobe-analytics-integration-aem-screens.md)
+      + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
++ Exemples de cas d’utilisation et de création {#authoring}
    + Configuration d’un projet d’écrans {#setting-up-projects}
       + [Création et gestion de projets](creating-a-screens-project.md)
       + [Création et gestion des canaux](managing-channels.md)
@@ -63,9 +66,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
       + [Lancements](launches.md)
       + [Nouvel importateur de projets à partir du fichier](project-importer.md)
       + [Durée de lecture de l’image en bloc au niveau du canal](channel-level-image-playback.md)
-   + Analytics Integration with AEM Screens {#analytics-integration}
-      + [Intégration d’Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
+   + Exemples de cas d’utilisation {#use-case-examples}
+      + [Canaux d’urgence](emergency-channel.md)
+      + [Activation de la température du centre de voyage](local-temperature-activation.md)
+      + [Activation de réservation d'hébergement](hospitality-reservation-activation.md)
+      + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
 + Développement {#developing}
    + [API REST](rest-api.md)
    + [Développement d’un composant personnalisé pour les écrans AEM](developing-custom-component-tutorial-develop.md)
@@ -74,11 +79,6 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Création de composants](creating-components.md)
    + [Configuration de ContextHub dans les écrans AEM](configuring-context-hub.md)
    + [Création de modèles personnalisés avec des mises en page multi-zones](creating-custom-templates-multizone-layouts.md)
-+ Exemples de cas d’utilisation {#use-case-examples}
-   + [Canaux d’urgence](emergency-channel.md)
-   + [Activation de la température du centre de voyage](local-temperature-activation.md)
-   + [Activation de réservation d'hébergement](hospitality-reservation-activation.md)
-   + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
 + Résolution des incidents {#troubleshooting}
    + [FAQ sur les écrans AEM](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
