@@ -10,12 +10,12 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# Passage de ContentSync à SmartSync{#transitioning-from-contentsync-to-smartsync}
+# Passage de ContentSync à SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 Cette section présente la fonctionnalité SmartSync et explique comment elle réduit la charge/le stockage du serveur et le trafic réseau afin de réduire les coûts.
 
@@ -74,18 +74,17 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
    >
    >Tout le cache de contenu doit être effacé avant d’utiliser SmartSync pour la première fois.
 
-1. Accédez à **Configuration de la console Web d’Adobe Experience Manager **via l’instance AEM —&gt; icône de marteau —&gt; **Opérations** —&gt; Console **** Web.
+1. Accédez à Configuration **de la console Web** Adobe Experience Manager via l’instance AEM —&gt; icône de marteau —&gt; **Opérations** —&gt; Console **** Web.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **La configuration de la console Web d’Adobe Experience Manager **s’ouvre. Recherchez *Offlinecontentservices*.
 
-   Pour rechercher la propriété **Screens Offline Content Service **property, appuyez sur **Commande+F** pour **Mac** et **Ctrl+F** pour **Windows.**
+   Pour rechercher la propriété **Screens Offline Content Service** , appuyez sur **Commande+F** pour **Mac** et **Ctrl+F pour Windows.******
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Cliquez sur **Enregistrer** pour activer la propriété **Screens Offline Content Services* ***et, par conséquent, utilisez SmartSync pour les écrans AEM.
+1. Cliquez sur **Enregistrer** pour activer la propriété **Screens Offline Content Services** et, par conséquent, utilisez SmartSync pour AEM Screens.
 1. Une fois que vous avez activé SmartSync, vous devez accéder à votre projet et cliquer sur **Mettre à jour le contenu** hors ligne *(dans la barre d’actions),* comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-
