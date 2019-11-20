@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -334,7 +334,7 @@ Par exemple, l’image suivante vous permet de gérer et de mettre à jour uniqu
 Cette option vous permet de gérer les mises à jour uniquement sur les sous-noeuds de la structure de votre projet.
    1. **Inclure uniquement les pages**modifiées :
 Cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet où les modifications sont trouvées dans la structure du projet.
-   1. **Inclure uniquement les pages**déjà mises à jour :
+   1. **Inclure uniquement les pages**déjà publiées :
 Cette option permet de gérer les mises à jour uniquement sur les pages qui ont été publiées auparavant.
 
 
