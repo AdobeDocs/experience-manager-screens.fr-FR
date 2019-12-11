@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,7 +50,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Sélectionnez le dossier **Canaux** , puis cliquez sur **Créer** pour ouvrir l’assistant de création d’un canal.
 
-   1. Sélectionnez **Canal de séquence **dans l’assistant et créez le canal intitulé **MainAdChannel**.
+   1. Sélectionnez Canal **** de séquence dans l’assistant et créez le canal intitulé **CanalAdChannel** principal.
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Ajout de contenu au canal de séquence**
@@ -63,7 +63,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Sélectionnez le dossier **Canaux** .
    1. Cliquez sur **Créer** pour ouvrir l'assistant et créer un canal.
-   1. Sélectionnez **Canal de séquence **dans l’assistant et créez le canal intitulé **Canal** d’urgence.
+   1. Sélectionnez Canal **de** séquence dans l’assistant et créez le canal intitulé **Canal** d’urgence.
    >[!NOTE]
    >
    >Normalement, votre canal d'urgence est ajouté à votre projet de production préexistant.
@@ -96,9 +96,9 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. Affecter les affichages à votre planification et définir des priorités
 
-   1. Sélectionnez le planning** (StoreSchedule)*** et cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Sélectionnez la planification **(Planification de la boutique)** et cliquez sur **Tableau de bord** dans la barre d’actions.
 
-   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX AFFECTÉS **.
+   1. Cliquez sur **+ Attribuer un canal** dans le panneau CANAUX **** AFFECTÉS.
 
    1. Dans la boîte de dialogue Affectation **de** canal :
 
@@ -113,7 +113,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX AFFECTÉS **.
+1. Cliquez sur **+ Attribuer un canal** dans le panneau CANAUX **** AFFECTÉS.
 
 1. Dans la boîte de dialogue Affectation **de** canal :
 
@@ -131,7 +131,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Affecter un calendrier à chaque affichage**
 
-   1. Accédez à chaque affichage, par exemple **EmergencyChannel** —&gt; **Locations** —&gt; **Store **—&gt;**StoreFront**.
+   1. Accédez à chaque affichage, par exemple **EmergencyChannel** —&gt; **Locations** —&gt; **Store** —&gt;**StoreFront.**
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **Cliquez sur**... dans le panneau CANAUX ET PLANIFICATIONS **AFFECTÉS** , puis cliquez **+Affecter un calendrier**.
