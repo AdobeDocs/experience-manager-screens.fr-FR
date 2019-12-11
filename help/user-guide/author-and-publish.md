@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez configurer un exemple simple, où vous hébergez un auteur et deux i
 
 * Auteur —&gt; localhost:4502
 * Publier 1 (pub1) —&gt; hôte local:4503
-* Publier (pub2) —&gt; hôte local:4504
+* Publier 2 (pub2) —&gt; hôte local:4504
 
 ## Configuration des agents de réplication sur l’auteur {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. Cliquez sur **Modifier** pour ouvrir la boîte de dialogue Paramètres **de l’** agent afin d’entrer les détails.
+
+   >[!NOTE]
+   >
+   >L'utilisateur doit vérifier **Activé** pour activer l'agent de réplication. Vous devez cocher cette option sur les agents de réplication par défaut, sur les écrans et inversée.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
