@@ -6,19 +6,19 @@ seo-description: Suivez cette page pour savoir comment appliquer des transitions
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
 
 ---
 
 
 # Application de transitions {#applying-transitions}
 
-Cette section décrit comment un composant **Transition** vous permet d’ajouter une transition à votre projet d’écrans.
+Cette section décrit comment vous pouvez appliquer le composant **Transition** entre différents fichiers (images et vidéos) d’un canal.
 
 
 >[!CAUTION]
 >
->Pour en savoir plus sur les propriétés du composant Transition, voir [Transitions.](adding-components-to-a-channel.md#transition)
+>Pour en savoir plus sur les propriétés du composant Transition, voir [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Ajout d’un composant de transition aux ressources dans un canal {#adding-transition}
 
@@ -43,15 +43,13 @@ Suivez les étapes ci-dessous pour ajouter un composant de transition à votre p
 1. Faites glisser et déposez le composant **Transition** dans votre éditeur.
    >[!CAUTION]
    >
-   >Avant d’ajouter la transition à vos ressources dans votre canal, assurez-vous que :
-Vous n’ajoutez pas de transition avant le premier fichier dans le canal séquentiel. Le premier élément de votre canal doit être une ressource et non une transition.
+   >Avant d’ajouter la transition à vos ressources dans votre canal, veillez à ne pas ajouter la transition avant le premier fichier dans le canal séquentiel. Le premier élément de votre canal doit être une ressource et non une transition.
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >Par défaut, le composant de transition est défini sur Type comme **Normal** avec **Durée** définie sur *600 ms*.  En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle il est appliqué.
-
+   >Par défaut, les propriétés du composant de transition, tel que **Type** , sont définies sur **Normal** et la **Durée** sur *600 ms.*  En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle il est appliqué.
 
 ## Ajout d’un composant de transition aux vidéos dans un canal {#adding-transition-videos}
 
