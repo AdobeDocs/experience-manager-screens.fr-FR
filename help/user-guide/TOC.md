@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
 + Notions de base du réseau de signatures numériques {#digital-signage-network}
    + [Partie 1 : Rôles et responsabilités du projet](project-roles-responsibilities.md)
    + [Partie 2 : Considérations relatives à la répartition des projets](project-considerations.md)
-   + [Partie 3 : Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
-   + [Partie 4 : Gestion et déploiement de projets](project-management-and-deployment.md)
+   + [Partie 3 :Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
+   + [Partie 4 :Gestion et déploiement de projets](project-management-and-deployment.md)
    + [Partie 5 : Points à prendre en charge](support-considerations.md)
 + Configuration et administration {#administering}
    + [Configurations du serveur d’écrans](configuring-screens-introduction.md)
@@ -75,6 +75,8 @@ source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
       + [Activation de la température du centre de voyage](local-temperature-activation.md)
       + [Activation de réservation d'hébergement](hospitality-reservation-activation.md)
       + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
+      + [Transition Zone multiple vers Zone unique](multizone-to-singlezone.md)
+      + [Prise en main de MarQuee](marquee-takeover.md)
       + [Application de transitions](applying-transitions.md)
 + Ressources pour les développeurs et les API {#developing}
    + [API REST](rest-api.md)
