@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ Cliquez sur **Propriétés** pour afficher la boîte de dialogue **Propriétés 
 
 ### Affichage d’une capture d’écran du lecteur {#view-player-screenshot}
 
-Vous pouvez afficher la capture d'écran du lecteur à partir du périphérique à partir du **PLAYER SCREENSHOT **panel.
+Vous pouvez afficher la capture d’écran d’un lecteur à partir du périphérique dans le panneau **CAPTURE D’ÉCRAN DU LECTEUR**.
 
-Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot **to view the snapshot of the running player.
+Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ Actuellement, certaines de ces fonctions ne sont disponibles que si *Apache Slin
 Suivez les étapes ci-après pour activer Apache Sling Referrer Filter Allow Empty
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Cochez l’option **allow.empty **.
+1. Check the **allow.empty** option.
 1. Cliquez sur **Enregistrer**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
