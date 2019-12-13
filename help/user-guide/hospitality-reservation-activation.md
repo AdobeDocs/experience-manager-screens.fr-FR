@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ Le cas d’utilisation suivant illustre l’utilisation de l’activation des r�
 
 Dans ce cas d’utilisation, la feuille Google est renseignée avec le pourcentage de réservation sur deux restaurants **Restaurant1** et **Restaurant2**. Une formule est appliquée sur la base des valeurs de Restaurant1 et Restaurant2 et sur la base de la formule, la valeur 1 ou 2 est affectée à la colonne **AdTarget** .
 
-Si la valeur de **Restaurant1** &gt; **Restaurant2** est affectée à **AdTarget** la valeur** 1 **sinon, **AdTarget est affecté la valeur 2.****** La valeur 1 génère l’option *Steak food* et la valeur 2 affiche l’option *Thai food* sur votre écran.
+Si la valeur de **Restaurant1** &gt; **Restaurant2**, la valeur **AdTarget** est affectée à la valeur **1 sinon AdTarget est affectée à la valeur2.********** La valeur 1 génère l’option *Steak food* et la valeur 2 affiche l’option *Thai food* sur votre écran.
 
 ## Conditions préalables {#preconditions}
 
@@ -44,18 +44,18 @@ Suivez les étapes ci-dessous pour implémenter le cas d’utilisation d’activ
 
 1. **Configuration des segments dans Audiences conformément aux exigences**
 
-   1. Accédez aux segments de votre audience (Reportez-vous à l’ ***étape 2 : Configuration de la segmentation*** de l’audience dans ** [Configuration de ContextHub dans la page AEM Screens](configuring-context-hub.md)** pour plus d’informations).
+   1. Accédez aux segments de votre audience (Reportez-vous à l’ ***étape 2 : Configuration de la segmentation*** de l’audience dans **[Configuration de ContextHub dans la page AEM Screens](configuring-context-hub.md)** (pour plus d’informations).
 
    1. Sélectionnez les **feuilles A1 1** et cliquez sur **Modifier**.
 
    1. Sélectionnez la propriété de comparaison et cliquez sur l’icône Configurer pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante du nom de la **propriété.**
 
-   1. Sélectionnez l’ **opérateur** **égal **dans le menu déroulant.
+   1. Sélectionnez l’ **opérateur** **égal** dans le menu déroulant.
 
    1. Saisissez la **valeur** comme **1**
 
-   1. De même, sélectionnez les feuilles A1 2 *** et cliquez sur **Modifier**.
+   1. De même, sélectionnez les **feuilles A1 2** et cliquez sur **Modifier**.
 
    1. Sélectionnez la propriété de comparaison et cliquez sur l’icône Configurer pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante du nom de la **propriété.**
