@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ Suivez les étapes ci-dessous pour mettre en oeuvre les futures fonctionnalités
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Saisissez le Titre **du** lancement comme **Promotions** d’été et vous n’avez pas besoin de définir la ** Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
+1. Saisissez le Titre **du** lancement comme **Promotions** d’été et vous n’avez pas besoin de définir la Date **de** lancement, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
    >[!NOTE]
    >
-   >Sélectionnez l’option **Arborescence de contenu **dans le rail de gauche pour ouvrir le lancement que vous avez créé.
+   >Sélectionnez l’option Arborescence **de** contenu dans le rail de gauche pour ouvrir le lancement que vous avez créé.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
