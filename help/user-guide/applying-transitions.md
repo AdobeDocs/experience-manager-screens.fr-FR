@@ -6,19 +6,19 @@ seo-description: Suivez cette page pour savoir comment appliquer des transitions
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # Application de transitions {#applying-transitions}
 
-Cette section décrit comment vous pouvez appliquer le composant **Transition** entre différents fichiers (images et vidéos) d’un canal.
+Cette section décrit comment vous pouvez appliquer le composant **Transition** entre différents fichiers (images et vidéos) et des séquences intégrées dans un canal.
 
 
 >[!CAUTION]
 >
->Pour en savoir plus sur les propriétés du composant Transition, voir [Transitions](adding-components-to-a-channel.md#transition).
+>Pour en savoir plus sur les propriétés du composant **Transition** , reportez-vous à [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Ajout d’un composant de transition aux ressources dans un canal {#adding-transition}
 
@@ -51,8 +51,12 @@ Suivez les étapes ci-dessous pour ajouter un composant de transition à votre p
    >
    >Par défaut, les propriétés du composant de transition, tel que **Type** , sont définies sur **Normal** et la **Durée** sur *600 ms.*  En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle il est appliqué.
 
+1. De plus, si vous ajoutez un composant Séquence **** incorporée (qui inclut un canal de séquence) à cet éditeur de canal, vous pouvez ajouter un composant de transition à la fin, de sorte que le contenu soit lu dans l’ordre, comme illustré dans la figure ci-dessous :
+
+   ![image3](assets/transitions5.png)
+
 ## Ajout d’un composant de transition aux vidéos dans un canal {#adding-transition-videos}
 
-Lors de l’application d’un composant de transition entre des vidéos, définissez toujours le **type** sur **Fondu** et la durée **de la** séquence sur **1 600 ms.**
+Lors de l’application du composant de transition entre les vidéos, il est recommandé de définir le **type** sur **Fondu** et la durée **de la** séquence sur **1 600 ms.**
 
 ![image3](assets/transitions4.png)
