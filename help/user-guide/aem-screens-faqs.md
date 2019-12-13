@@ -6,7 +6,7 @@ seo-description: Suivez cette page pour obtenir des réponses aux questions fré
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ Le lecteur ChromeOS peut être installé en tant que module externe Chrome Brows
 1. Décompressez et enregistrez-le sur le disque.
 1. Ouvrez le navigateur Chrome, cliquez sur le menu à 3 points et sélectionnez **Plus d’outils** —&gt; **Extensions** dans le coin supérieur droit ou accédez directement à ***chrome://extensions***.
 1. Activez le mode **** Développeur depuis le coin supérieur droit.
-1. Cliquez sur **Charger les fichiers décompressés **depuis le coin supérieur gauche et chargez le lecteur Chrome décompressé.
+1. Cliquez sur **Charger les fichiers décompressés** dans le coin supérieur gauche et chargez le lecteur Chrome non compressé.
 1. Vérifiez **AEM Screens Chrome Player** plugin si disponible dans la liste des extensions.
 1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
 1. Cliquez sur **AEM Screens** Plugin pour lancer Chrome Player. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **esc** pour quitter le mode plein écran.
