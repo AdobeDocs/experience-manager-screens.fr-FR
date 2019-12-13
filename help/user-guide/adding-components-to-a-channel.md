@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -46,7 +46,7 @@ L’exemple suivant montre l’ajout d’un composant Livefyre à un projet AEM�
 
 1. Sélectionnez le canal dans lequel vous voulez ajouter un composant. Par exemple, **We.Retail en magasin** &gt; **Canaux** &gt; **Canal inactif**.
 
-1. Cliquez sur** Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 1. Select **Design** mode.
 1. Sélectionnez l’éditeur de conception complet à droite et cliquez sur le symbole de paramètres pour ouvrir la boîte de dialogue **Conception ParSys**.
 1. Vous pouvez sélectionner les composants que vous souhaitez importer dans votre projet AEM Screens. L’exemple suivant montre l’ajout du composant **Livefyre** à un projet AEM Screens.
