@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -77,7 +77,7 @@ En outre, vous pouvez afficher les propriétés du canal de Live Copy.
 
 ### État de Live Copy {#live-copy-status}
 
-Le mode** Live Copy Status**, comme illustré dans la figure ci-dessous, vous permet d’afficher l’état de relation de tous les fichiers du canal.
+Le mode **État de Live Copy**, comme illustré dans la figure ci-dessous, permet d’afficher l’état des relations de tous les éléments du canal.
 
 1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 
@@ -125,7 +125,7 @@ Procédez comme suit pour vous assurer que les modifications sont propagées du 
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Cliquez sur **Synchronisation** pour confirmer les modifications. Click **Save &amp; Close** to navigate back to the AEM dashboard..
+1. Cliquez sur **Synchronisation** pour confirmer les modifications. Click **Save &amp; Close** to navigate back to the AEM dashboard.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
