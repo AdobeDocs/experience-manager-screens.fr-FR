@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ La ressource image présente trois onglets, à savoir **Image**, **Accessibilit�
 | **Accessibilité** |
 | ***Texte de remplacement*** | Texte de remplacement de l’image. |
 | **Séquence** |
-| ***Durée*** | Sélectionnez la durée complète de l’image. La définition de la durée sur -1 indique que l’image incorporée exécutera toute sa longueur dans un canal particulier. |
+| ***Durée*** | Par défaut, la durée est définie sur *8 000 ms*. Si vous souhaitez modifier la durée de lecture de l’image, mettez à jour le champ **Durée** . |
 
 ### Transition {#transition}
 
