@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation pour créer un canal de prise en charge à usage unique.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ Pour configurer un projet, procédez comme suit :
    >[!NOTE]
    >Pour savoir comment affecter un canal à un affichage, reportez-vous à Affectation **[de](channel-assignment.md)**canal.
 
-1. Renseignez les champs (Chemin **du canal**, **Priorité** et Evénements **pris en charge) dans la boîte de dialogue Affectation du****canal, puis cliquez sur Enregistrer.****** Vous avez maintenant affecté le **canal publicitaire** principal à votre écran.
+1. Renseignez les champs (Chemin du **canal**, **Priorité** et Evénements **pris en charge) dans la boîte de dialogue Affectation du****canal, puis cliquez sur Enregistrer.****** Vous avez maintenant affecté **MainAdChannel** à votre écran.
 
    ![ressource](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ Pour configurer un projet, procédez comme suit :
 Le texte de l&#39; **annexe** mentionnée dans cet exemple est *le 31 décembre après 23:58 et le 1er janvier avant 00:01*.
 
       ![ressource](assets/single-takeover8.png)
+
+      Accédez à l&#39;affichage à partir de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Principale présentation du hall d&#39;entrée et cliquez sur Tableau de bord dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
+
+      >[!NOTE]
+      >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
+
+      ![ressource](assets/single-takeover9.png)
 
       >[!NOTE]
       >Vous pouvez mentionner le calendrier des différents cas d’utilisation. Consultez Cas d&#39;utilisation permanente pour plus de détails.
