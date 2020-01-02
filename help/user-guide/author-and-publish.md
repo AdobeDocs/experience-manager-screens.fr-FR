@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -30,7 +30,7 @@ Avant de vous familiariser avec les serveurs d’auteur et de publication, vous 
 
 * **Topologie AEM**
 * **Création et gestion du projet AEM Screens**
-* **Processus d'enregistrement de périphérique**
+* **Processus d&#39;enregistrement de périphérique**
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ La section suivante explique comment configurer les agents de réplication sur l
 
 Vous pouvez configurer un exemple simple, où vous hébergez un auteur et deux instances de publication :
 
-* Auteur —&gt; localhost:4502
-* Publier 1 (pub1) —&gt; hôte local:4503
-* Publier 2 (pub2) —&gt; hôte local:4504
+* Auteur —> localhost:4502
+* Publier 1 (pub1) —> hôte local:4503
+* Publier 2 (pub2) —> hôte local:4504
 
 ## Configuration des agents de réplication sur l’auteur {#setting-replication-agents}
 
@@ -56,31 +56,31 @@ Pour créer des agents de réplication, vous devez apprendre à créer un agent 
 
 Trois agents de réplication sont nécessaires pour les écrans :
 
-1. **Agent de réplication par défaut ***(spécifié comme ***agent** de réplication standard)
+1. **Agent de réplication par défaut ***(spécifié comme***agent **de réplication standard)
 1. **Agent de réplication des écrans**
 1. **Agent de réplication inverse**
 
-### Étape 1 : Création d'un agent de réplication par défaut {#step-creating-a-default-replication-agent}
+### Étape 1 : Création d&#39;un agent de réplication par défaut {#step-creating-a-default-replication-agent}
 
 Pour créer un agent de réplication par défaut, procédez comme suit :
 
-1. Accédez à votre instance AEM —&gt; icône marteau —&gt; **Opérations** —&gt; **Configuration**.
+1. Accédez à votre instance AEM —> icône marteau —> **Opérations** —> **Configuration**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Sélectionnez la **réplication** dans l'arborescence de navigation de gauche.
+1. Sélectionnez la **réplication** dans l&#39;arborescence de navigation de gauche.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Sélectionnez les **agents sur l'auteur** dans le dossier **Replication** et cliquez sur **New** pour créer un agent de réplication standard.
+1. Sélectionnez les **agents sur l&#39;auteur** dans le dossier **Replication** et cliquez sur **New** pour créer un agent de réplication standard.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Entrez le **Titre** et le **Nom** pour créer l'agent de réplication, puis cliquez sur **Créer**.
+1. Entrez le **Titre** et le **Nom** pour créer l&#39;agent de réplication, puis cliquez sur **Créer**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Cliquez avec le bouton droit sur l'agent de réplication et cliquez sur **Ouvrir** pour modifier les paramètres.
+1. Cliquez avec le bouton droit sur l&#39;agent de réplication et cliquez sur **Ouvrir** pour modifier les paramètres.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
@@ -88,7 +88,7 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
    >[!NOTE]
    >
-   >L'utilisateur doit vérifier **Activé** pour activer l'agent de réplication. Vous devez cocher cette option sur les agents de réplication par défaut, sur les écrans et inversée.
+   >L&#39;utilisateur doit vérifier **Activé** pour activer l&#39;agent de réplication. Vous devez cocher cette option sur les agents de réplication par défaut, sur les écrans et inversée.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -103,18 +103,18 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
 #### Création d’agents de réplication standard {#creating-standard-replication-agents}
 
-1. Créer un agent de réplication standard pour pub1 (l’agent par défaut prêt à l’emploi doit déjà être configuré) (par exemple, *https://&lt;nom_hôte&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l'agent rep pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. (par exemple, *https://&lt;nom_hôte&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. Créer un agent de réplication standard pour pub1 (l’agent par défaut prêt à l’emploi doit déjà être configuré) (par exemple, *https://&lt;nom_hôte>:4503/bin/receive?sling:authRequestLogin=1*)
+1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l&#39;agent rep pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. (par exemple, *https://&lt;nom_hôte>:4504/bin/receive?sling:authRequestLogin=1*)
 
-#### Création d'agents de réplication d'écrans {#creating-screens-replication-agents}
+#### Création d&#39;agents de réplication d&#39;écrans {#creating-screens-replication-agents}
 
 1. Créez l’agent de réplication AEM Screens pour pub1. En standard, il existe un agent de réplication Screens qui pointe vers le port 4503. Cette fonction doit être activée.
 1. Créez l’agent de réplication AEM Screens pour pub2. Copiez l’agent de réplication Screens pour pub1 et modifiez le port pour qu’il pointe sur 4504 pour pub2.
 
-#### Création d'écrans et d'agents de réplication inverse {#creating-screens-reverse-replication-agents}
+#### Création d&#39;écrans et d&#39;agents de réplication inverse {#creating-screens-reverse-replication-agents}
 
 1. Créez un agent de réplication inverse standard pour pub1.
-1. Créez un agent de réplication inverse standard pour pub2. Vous pouvez copier l'agent de représentation inversée pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport.
+1. Créez un agent de réplication inverse standard pour pub2. Vous pouvez copier l&#39;agent de représentation inversée pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport.
 
 ## Configuration de la topologie de publication {#setting-up-publish-topology}
 
@@ -143,35 +143,38 @@ L’utilisateur de la grappe et le mot de passe de toutes les instances de publi
 
 Sur chaque instance de publication :
 
-1. Dans la console OSGi, accédez à **MAIN** —&gt; **Crypto Support** (*https://&lt;hôte&gt;:&lt;port&gt;/system/console/crypto*).
+1. Dans la console OSGi, accédez à **MAIN** —> **Crypto Support** (*https://&lt;hôte>:&lt;port>/system/console/crypto*).
 1. Entrez le mot de passe en texte brut (identique pour toutes les instances) dans Texte **brut.**
 1. Cliquez sur **Protéger**.
 1. Copiez la valeur Texte **** protégé dans le bloc-notes ou l’éditeur de texte. Cette valeur sera utilisée dans la configuration OSGi pour ActiveMQ.
 
 Comme chaque instance de publication possède par défaut des clés de chiffrement uniques, vous devez exécuter cette étape sur chaque instance de pub et enregistrer la clé unique pour la configuration suivante.
 
-*Par exemple*,
+>Remarque :
+>Le mot de passe doit commencer et se terminer par des accolades.
 
-Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 - `{8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}`
+*Par exemple :*
 
-#### Étape 4 : Activer la grappe d'artéfacts ActiveMQ {#step-activate-activemq-artemis-cluster}
+`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+
+#### Étape 4 : Activer la grappe d&#39;artéfacts ActiveMQ {#step-activate-activemq-artemis-cluster}
 
 Sur chaque instance de publication :
 
-1. Accédez au gestionnaire de configuration OSGi *https://&lt;hôte&gt;:&lt;port&gt;/system/console/configMgr*
+1. Accédez au gestionnaire de configuration OSGi *https://&lt;hôte>:&lt;port>/system/console/configMgr*
 1. Sélectionnez **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Mettez à jour les éléments suivants :
 
-* ***Mot de passe*** de cluster : (utilisez la valeur chiffrée de l’étape précédente par instance respective)
-* ***Rubriques***: {name: 'commandes', adresse: 'com.adobe.cq.screens.orders', maxConsumers: 50}
+* ***Mot de passe ***de cluster : (utilisez la valeur chiffrée de l’étape précédente par instance respective)
+* ***Rubriques ***: {name: &#39;commandes&#39;, adresse: &#39;com.adobe.cq.screens.orders&#39;, maxConsumers: 50}
 
 #### Vérification de la grappe d’artéfacts ActiveMQ {#verify-activemq-artemis-cluster}
 
 Suivez les étapes ci-dessous sur chaque instance de publication :
 
-1. Accédez à la console OSGi -&gt; Main &gt; Artémis ActiveMQ `[https://localhost:4505/system/console/mq`.
-1. Vérifiez et vérifiez pour afficher les ports des autres instances sous Informations sur le cluster &gt; Topologie &gt; noeuds=2, membres=2.
-1. Envoyer un message de test (en haut de l'écran sous Informations sur le courtier)
+1. Accédez à la console OSGi -> Main > Artémis ActiveMQ `[https://localhost:4505/system/console/mq`.
+1. Vérifiez et vérifiez pour afficher les ports des autres instances sous Informations sur le cluster > Topologie > noeuds=2, membres=2.
+1. Envoyer un message de test (en haut de l&#39;écran sous Informations sur le courtier)
 1. Entrez les modifications suivantes dans les champs :
 
    1. **Destination**: /com.adobe.cq.screens/devTestTopic
@@ -192,7 +195,7 @@ Si vous ne voyez pas la configuration suivante de */system/console/mq*, accédez
 
 Suivez les étapes de chaque instance de publication :
 
-1. Accédez à la console **** OSGi &gt; **Configuration Manager**
+1. Accédez à la console **** OSGi > **Configuration Manager**
 1. Select **Apache Sling Referrer Filter**
 1. Mettre à jour la configuration et **vérifier Autoriser les champs vides**
 
@@ -217,7 +220,7 @@ Une fois que vous avez configuré la stratégie de publication, vous devez confi
 
 #### Étape 2 : Enregistrement d’un périphérique sur l’auteur {#step-registering-a-device-on-author}
 
-1. Accédez à `https://localhost:4502/screens.html/content/screens/we-retail` ou sélectionnez votre projet et accédez à Périphériques &gt; Gestionnaire de périphériques.
+1. Accédez à `https://localhost:4502/screens.html/content/screens/we-retail` ou sélectionnez votre projet et accédez à Périphériques > Gestionnaire de périphériques.
 1. Sélectionnez **Enregistrer le périphérique**.
 1. Cliquez sur Enregistrement **du** périphérique pour afficher le périphérique.
 1. Sélectionnez le périphérique que vous voulez enregistrer et cliquez ensuite sur **Enregistrer le périphérique**.
@@ -251,15 +254,15 @@ Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
 Vous pouvez également activer le périphérique à partir de la console de gestion des périphériques. Suivez les étapes ci-dessous :
 
-1. Accédez à votre projet Screens —&gt; **Devices**.
-1. Cliquez sur **Gestionnaire de périphériques **dans la barre d'actions.
+1. Accédez à votre projet Screens —> **Devices**.
+1. Cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
 1. Sélectionnez le périphérique et cliquez sur **Activer** dans la barre d’actions, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Une fois que vous avez activé le périphérique, vous pouvez également modifier ou mettre à jour l’URL du serveur en cliquant sur **Modifier l’URL du serveur **dans la barre d’actions, comme illustré dans la figure ci-dessous, et vos modifications seront propagées au lecteur AEM Screens.
+>Une fois que vous avez activé le périphérique, vous pouvez également modifier ou mettre à jour l’URL du serveur en cliquant sur **Modifier l’URL** du serveur dans la barre d’actions, comme illustré dans la figure ci-dessous, et vos modifications seront propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -267,11 +270,11 @@ Vous pouvez également activer le périphérique à partir de la console de gest
 
 Les points suivants résument la liste de vérification de publication :
 
-* *Ecrans Utilisateur* de périphérique : stocké en tant qu’utilisateur AEM, il est activé à partir des **outils** &gt; **Sécurité** &gt; **Utilisateurs**. L’utilisateur sera préfixé par le préfixe "screens" avec une longue chaîne sérialisée.
+* *Ecrans Utilisateur* de périphérique : stocké en tant qu’utilisateur AEM, il est activé à partir des **outils** > **Sécurité** > **Utilisateurs**. L’utilisateur sera préfixé par le préfixe &quot;screens&quot; avec une longue chaîne sérialisée.
 
 * *Projet* - Projet AEM Screens.
 * *Emplacement* - Emplacement auquel le périphérique est connecté.
-* *Canal(s)* - un ou plusieurs canaux affichés à l'emplacement
+* *Canal(s)* - un ou plusieurs canaux affichés à l&#39;emplacement
 * *Planification* - si vous utilisez une planification, assurez-vous que celle-ci est publiée.
 * *Emplacement, calendriers et dossier* Canal - si les ressources correspondantes se trouvent dans un dossier.
 
@@ -293,7 +296,7 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 
 1. Accédez à votre projet AEM Screens et sélectionnez le dossier **Devices** .
 1. Cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
-1. Sélectionnez le périphérique et cliquez sur **Modifier l’URL du serveur **dans la barre d’actions, comme illustré dans la figure ci-dessous. Vos modifications seront propagées au lecteur AEM Screens.
+1. Sélectionnez le périphérique et cliquez sur **Modifier l’URL** du serveur dans la barre d’actions, comme illustré dans la figure ci-dessous. Vos modifications seront propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
