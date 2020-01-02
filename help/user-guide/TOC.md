@@ -4,12 +4,12 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
 
-# Guide de l’utilisateur d’AEM Screens {#user-guide}
+# Guide de d’utilisation d’AEM Screens {#user-guide}
 
 + [Présentation des écrans](aem-screens-introduction.md)
 + Présentation et guide de démarrage rapide {#overview}
@@ -19,8 +19,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
 + Notions de base du réseau de signatures numériques {#digital-signage-network}
    + [Partie 1 : Rôles et responsabilités du projet](project-roles-responsibilities.md)
    + [Partie 2 : Considérations relatives à la répartition des projets](project-considerations.md)
-   + [Partie 3 :Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
-   + [Partie 4 :Gestion et déploiement de projets](project-management-and-deployment.md)
+   + [Partie 3 : Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
+   + [Partie 4 : Gestion et déploiement de projets](project-management-and-deployment.md)
    + [Partie 5 : Points à prendre en charge](support-considerations.md)
 + Configuration et administration {#administering}
    + [Configurations du serveur d’écrans](configuring-screens-introduction.md)
@@ -73,9 +73,11 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + Exemples de cas d’utilisation {#use-case-examples}
       + [Canaux d’urgence](emergency-channel.md)
       + [Activation de la température du centre de voyage](local-temperature-activation.md)
-      + [Activation de réservation d'hébergement](hospitality-reservation-activation.md)
+      + [Activation de réservation d&#39;hébergement](hospitality-reservation-activation.md)
       + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
       + [Application de transitions](applying-transitions.md)
+      + [Transitions Zone multiple vers Zone unique](multizone-to-singlezone.md)
+      + [Canal de prise en charge à usage unique](single-use-takeover-channel.md)
 + Ressources pour les développeurs et les API {#developing}
    + [API REST](rest-api.md)
    + [Développement d’un composant personnalisé pour les écrans AEM](developing-custom-component-tutorial-develop.md)
@@ -90,8 +92,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
-   + [Notes de mise à jour de Feature Pack 201809](screens-release-notes.md)
-   + [Notes de mise à jour de Feature Pack 201812](release-notes-fp-201812.md)
-   + [Notes de mise à jour de Feature Pack 201905](screens-release-notes-fp-201905.md)
-   + [Notes de mise à jour de Feature Pack 201907](release-notes-fp-201907.md)
    + [Notes de mise à jour de Feature Pack 201909](release-notes-fp-201909.md)
+   + [Notes de mise à jour de Feature Pack 201907](release-notes-fp-201907.md)
+   + [Notes de mise à jour de Feature Pack 201905](screens-release-notes-fp-201905.md)
+   + [Notes de mise à jour de Feature Pack 201812](release-notes-fp-201812.md)
+   + [Notes de mise à jour de Feature Pack 201809](screens-release-notes.md)
