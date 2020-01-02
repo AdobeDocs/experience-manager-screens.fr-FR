@@ -5,16 +5,15 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation pour créer un canal de prise en charge à usage unique.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
+source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 
 ---
 
 
 # Canal de prise en charge à usage unique {#single-use-takeover-channel}
 
-La page suivante décrit un cas d’utilisation qui met l’accent sur la configuration d’un projet sur la création d’un canal de reprise unique.
+La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet sur la création d’un canal de prise en charge unique qui est lu une seule fois pendant une période spécifique.
 
-À réviser.
 
 ## Description du cas d’utilisation {#use-case-description}
 
@@ -40,7 +39,7 @@ Pour configurer un projet, procédez comme suit :
 
 **Configuration des canaux et affichage**
 
-1. Créez un projet AEM Screens intitulé **TakeoverLoop**, comme illustré ci-dessous.
+1. Créez un projet AEM Screens intitulé **SingleUseTakeOver**, comme illustré ci-dessous.
 
    ![ressource](assets/single-takeover1.png)
 
@@ -52,8 +51,9 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/single-takeover2.png)
 
-   >[!Nnote]
-   > Le **MainAdChannel** de cet exemple illustre un canal de séquence qui lit le contenu en continu.
+
+   >[!NOTE]
+   >Le **MainAdChannel** de cet exemple illustre un canal de séquence qui lit le contenu en continu.
 
    ![ressource](assets/single-takeover3.png)
 
