@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
 
@@ -22,8 +22,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4.
 
+>[!NOTE]
 >Pour accéder à l’un ou l’autre de ces Feature Packs, vous devez contacter l’assistance technique d’Adobe et demander l’accès. Une fois que vous disposez des autorisations, vous pouvez le télécharger à partir de Package Share.
->
+
 Cette section traite des sujets suivants :
 
 * **Présentation**
@@ -32,7 +33,7 @@ Cette section traite des sujets suivants :
 
 ## Présentation {#overview}
 
-***Les écrans*** AEM tirent parti d’Adobe Analytics et vous permettent d’obtenir quelque chose d’unique sur le marché : des analyses cross-canal qui permettent de corréler le contenu affiché à l’emplacement avec d’autres sources de données.
+***Les écrans ***AEM tirent parti d’Adobe Analytics et vous permettent d’obtenir quelque chose d’unique sur le marché : des analyses cross-canal qui permettent de corréler le contenu affiché à l’emplacement avec d’autres sources de données.
 
 AEM Screens fournit une intégration prête à l’emploi avec Adobe Analytics et vous fournit une preuve de lecture.
 
@@ -52,7 +53,7 @@ L’intégration d’Adobe Analytics à AEM Screens permet d’appliquer les *ob
 
 ## Détails architecturaux {#architectural-details}
 
-Les clients d’AEM Screens souhaitent comprendre le contenu affiché à quelle heure et pendant combien de temps (agrégé). C'est une fonctionnalité commune de la solution de signalisation. Plutôt que de créer nos propres analyses, AEM Screens exploitera Adobe Analytics, ce qui nous permettra d’obtenir quelque chose d’unique sur le marché : des analyses intercanaux qui permettent de corréler le contenu affiché à l’emplacement géographique avec d’autres sources de données.
+Les clients d’AEM Screens souhaitent comprendre le contenu affiché à quelle heure et pendant combien de temps (agrégé). Il s’agit d’une fonctionnalité commune de la solution de signalisation. Plutôt que de créer nos propres analyses, AEM Screens exploitera Adobe Analytics, ce qui nous permettra d’obtenir quelque chose d’unique sur le marché : des analyses intercanaux qui permettent de corréler le contenu affiché à l’emplacement géographique avec d’autres sources de données.
 
 Le diagramme architectural suivant explique l’intégration d’Adobe Analytics avec les écrans AEM :
 
@@ -66,41 +67,44 @@ Accédez à Configuration **de la console Web** Adobe Experience Manager pour co
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Analyse des écrans : Flux d'activation {#screens-analytics-enablement-flow}
+## Analyse des écrans : Flux d&#39;activation {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
-Avant de configurer les propriétés, contactez votre gestionnaire des relations Adobe pour créer un ticket afin d’obtenir une clé **API** Analytics et un projet **d’** analyse à utiliser avec AEM Screens.
+>
+>Avant de configurer les propriétés, contactez votre gestionnaire des relations Adobe pour créer un ticket afin d’obtenir une clé **API** Analytics et un projet **d’** analyse à utiliser avec AEM Screens.
 
 ![]()
 
 ### Configuration des propriétés {#configuring-the-properties}
 
 >[!CAUTION]
-Avant de configurer les propriétés, contactez votre gestionnaire des relations Adobe pour créer un ticket afin d’obtenir une clé **API** Analytics et un projet **d’** analyse à utiliser avec AEM Screens.
+>
+>Avant de configurer les propriétés, contactez votre gestionnaire des relations Adobe pour créer un ticket afin d’obtenir une clé **API** Analytics et un projet **d’** analyse à utiliser avec AEM Screens.
 
 Le tableau suivant met en évidence les propriétés avec leur description pour configurer Adobe Analytics pour les écrans AEM :
 
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriété</strong></td>
+   <td><strong>Propriétés</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
    <td><strong>URL Analytics</strong></td>
-   <td>URL de publication des données d’analyse du lecteur<br /> </td>
+   <td>URL permettant de publier les données d’analyse du lecteur. <br>
+   Pour le développement/l’étape</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> Pour la production <em></em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Clé d’API Analytics</strong></td>
-   <td>Clé d’API pour l’authentification auprès du serveur Adobe Analytics (fournie par le gestionnaire de comptes)</td>
+   <td>Clé d’API pour l’authentification auprès du serveur Adobe Analytics (fournie par le gestionnaire de comptes).</td>
   </tr>
   <tr>
    <td><strong>Projet Analytics</strong></td>
-   <td>Projet AEM Screens configuré sur vos analyses pour recevoir des données (fourni par le gestionnaire de comptes)</td>
+   <td>Projet AEM Screens configuré sur vos analyses pour recevoir des données (fourni par le gestionnaire de comptes).</td>
   </tr>
   <tr>
    <td><strong>Environnement</strong></td>
-   <td><p>Environnement d’étape ou de production.</p> <p><em>Pour le développement/l’étape</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> Pour la production <em></em> - https://cc-api-data.adobe.io/ingest/</p> </td>
+   <td><p>Environnement d’étape ou de production (sélectionnez Etape ou Production).</p></td>
   </tr>
   <tr>
    <td><strong>Fréquence d’envoi Analytics</strong></td>
@@ -110,7 +114,8 @@ Le tableau suivant met en évidence les propriétés avec leur description pour 
 </table>
 
 >[!NOTE]
-Par défaut, la fréquence d’envoi **Analytics **est de 15 minutes.
+>
+>Par défaut, la fréquence **d’envoi d’** Analytics est de 15 minutes.
 
 #### Utilisation du service Adobe Analytics dans AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
@@ -119,5 +124,6 @@ Ce scénario appelle l’API Analytics par le biais d’appels REST d’un servi
 Les événements Analytics sont stockés hors ligne dans indexedDB et ultérieurement découpés et envoyés au cloud.
 
 >[!NOTE]
-Pour en savoir plus sur le ***séquencement*** et le modèle de données ***standard pour les événements***, reportez-vous à la section **[Configuration d’Adobe Analytics pour les écrans](configuring-adobe-analytics-aem-screens.md)** AEM.
+>
+>Pour en savoir plus sur le ***séquencement ***et le modèle de données***standard pour les événements***, reportez-vous à la section **[Configuration d’Adobe Analytics pour les écrans](configuring-adobe-analytics-aem-screens.md)**AEM.
 
