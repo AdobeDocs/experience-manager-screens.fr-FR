@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -34,7 +34,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 #### Autoriser les requêtes de référents vides {#allow-empty-referrer-requests}
 
-1. Accédez à Configuration **de la console Web** Adobe Experience Manager via l’instance AEM —&gt; icône de marteau —&gt; **Opérations** —&gt; Console **** Web.
+1. Accédez à Configuration **de la console Web** Adobe Experience Manager via l’instance AEM —> icône de marteau —> **Opérations** —> Console **** Web.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -44,7 +44,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Cochez l’option **Autoriser les champs vides **comme illustré dans la figure ci-dessous.
+1. Cochez l’option **Autoriser les champs vides** , comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
@@ -54,10 +54,10 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 Les écrans AEM nécessitent une interface utilisateur TOUCH et ne fonctionnent pas avec l’interface utilisateur CLASSIC d’Adobe Experience Manager (AEM).
 
-1. Accédez à *&lt;instanceAuteur&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Accédez à *&lt;instanceAuteur>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Assurez-vous que le mode **d’interface utilisateur de création** par défaut est défini sur **TOUCH**, comme illustré dans la figure ci-dessous.
 
-Vous pouvez également appliquer le même paramètre à l’aide des *&lt;instanceAuteur&gt;*-&gt;*outils (icône en forme de marteau)* -&gt; **Opérations** -&gt; Console **Web et rechercher WCM Authoring UI Mode Service.******
+Vous pouvez également appliquer le même paramètre à l’aide des *&lt;instanceAuteur>*->*outils (icône en forme de marteau)* -> **Opérations** -> Console **Web et rechercher WCM Authoring UI Mode Service.******
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -75,15 +75,15 @@ Cette opération est nécessaire pour que le lecteur AEM Screens joue des chaîn
 
 #### Restrictions de mot de passe {#password-restrictions}
 
-Avec les dernières modifications apportées à ***DeviceServiceImpl***, vous n'avez pas à supprimer les restrictions de mot de passe.
+Avec les dernières modifications apportées à ***DeviceServiceImpl ***, vous n&#39;avez pas à supprimer les restrictions de mot de passe.
 
-Vous pouvez configurer ***DeviceServiceImpl*** à partir du lien ci-dessous pour activer la restriction de mot de passe lors de la création du mot de passe pour les utilisateurs de périphériques :
+Vous pouvez configurer ***DeviceServiceImpl ***à partir du lien ci-dessous pour activer la restriction de mot de passe lors de la création du mot de passe pour les utilisateurs de périphériques :
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-Suivez les étapes ci-dessous pour configurer ***DeviceServiceImpl***:
+Suivez les étapes ci-dessous pour configurer ***DeviceServiceImpl ***:
 
-1. Accédez à Configuration **de la console Web** Adobe Experience Manager via l’instance AEM —&gt; icône de marteau —&gt; **Opérations** —&gt; Console **** Web.
+1. Accédez à Configuration **de la console Web** Adobe Experience Manager via l’instance AEM —> icône de marteau —> **Opérations** —> Console **** Web.
 
 1. **La configuration de la console Web d’Adobe Experience Manager **s’ouvre. Recherchez deviceservice. Pour rechercher la propriété, appuyez sur **Commande+F** pour **Mac** et **Ctrl+F** pour **Windows.**
 
@@ -95,7 +95,7 @@ Pour savoir comment configurer le répartiteur pour un projet AEM Screens, repor
 
 #### Encodage Java {#java-encoding}
 
-Set the ***Java encoding*** to Unicode. Par exemple, *Dfile.encoding=Cp1252* ne fonctionnera pas.
+Set the ***Java encoding ***to Unicode. Par exemple,*Dfile.encoding=Cp1252 *ne fonctionnera pas.
 
 >[!NOTE]
 >
