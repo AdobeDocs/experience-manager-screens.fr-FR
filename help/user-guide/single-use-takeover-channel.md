@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation pour créer un canal de prise en charge à usage unique.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ Pour configurer un projet, procédez comme suit :
 
    * **Chemin** du canal : Sélectionnez le chemin du canal de prise en charge
    * **Priorité**: Définissez la priorité de ce canal supérieure à celle de **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
+      >[!NOTE]
+      >La priorité peut être toute valeur supérieure à la valeur de priorité du canal normalement lu.
    * **Evénements** pris en charge : Sélectionnez l’écran **inactif** et le **minuteur**.
    * **Planification**: Entrez le texte de la planification pour que ce canal exécute l&#39;affichage. Par exemple, le texte ici permet au contenu de lire 2 minutes avant 12h00 le 31 décembre jusqu’à 12h01.
 Le texte de l&#39; **annexe** mentionnée dans cet exemple est *le 31 décembre après 23:58 et le 1er janvier avant 00:01*.
 
       ![ressource](assets/single-takeover8.png)
 
-      Accédez à l&#39;affichage à partir de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Principale présentation du hall d&#39;entrée et cliquez sur Tableau de bord dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
+      Accédez à l&#39;affichage à partir de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay et cliquez sur Dashboard dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
 
       >[!NOTE]
       >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
 
       ![ressource](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >Vous pouvez mentionner le calendrier des différents cas d’utilisation. Consultez Cas d&#39;utilisation permanente pour plus de détails.
+>[!NOTE]
+>Il est recommandé de supprimer le canal de prise en charge à usage unique une fois qu’il est lu.
