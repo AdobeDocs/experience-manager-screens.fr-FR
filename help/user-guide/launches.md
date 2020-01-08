@@ -11,13 +11,12 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
 
 # Lancements {#launches}
-
 
 Les auteurs de contenu peuvent créer une version future du ou des canaux, connue sous le nom de **lancement** , et la définition ultérieure de la date de lancement permet au contenu d’être actif sur des périphériques ou des lecteurs.
 
@@ -33,7 +32,7 @@ La section suivante explique la période de grâce et explique comment la config
 
 ### Présentation de la période de grâce {#understanding-grace-period}
 
-La configuration suivante permet à l’administrateur de configurer la période ***de*** grâce, obligatoire dans les lancements.
+La configuration suivante permet à l’administrateur de configurer la période ***de ***grâce, obligatoire dans les lancements.
 
 **Période** de grâce :
 
@@ -41,7 +40,7 @@ La configuration suivante permet à l’administrateur de configurer la période
 * publication des ressources aux instances de publication
 * temps nécessaire aux périphériques pour télécharger le contenu à partir de l’instance de publication et les différences de temps entre le serveur et le lecteur
 
-Par exemple, supposons que le serveur est en PST et que les périphériques sont en EST, que la différence de temps maximale est de 3 heures dans ce cas et supposons que la promotion prendra 1 minute et que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut télécharger les ressources généralement en 10-15 minutes. Ensuite, période de grâce = différence de temps (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger au lecteur (10-15 min) + mémoire tampon (pour être sûr, disons 30 min) = 3 heures 56 min = 14160 secondes. Ainsi, dès que nous planifions un lancement en direct, la promotion commence tôt par ce décalage. Dans l'équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons utiliser une estimation correcte pour ce décalage une fois que nous connaissons la différence de temps maximale b/w le serveur et n'importe quel joueur.
+Par exemple, supposons que le serveur est en PST et que les périphériques sont en EST, que la différence de temps maximale est de 3 heures dans ce cas et supposons que la promotion prendra 1 minute et que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut télécharger les ressources généralement en 10-15 minutes. Ensuite, période de grâce = différence de temps (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger au lecteur (10-15 min) + mémoire tampon (pour être sûr, disons 30 min) = 3 heures 56 min = 14160 secondes. Ainsi, dès que nous planifions un lancement en direct, la promotion commence tôt par ce décalage. Dans l&#39;équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons utiliser une estimation correcte pour ce décalage une fois que nous connaissons la différence de temps maximale b/w le serveur et n&#39;importe quel joueur.
 
 ### Configuration de la période de grâce prête à l’emploi {#configuring-out-of-the-box-grace-period}
 
@@ -61,9 +60,9 @@ Téléchargez les configurations de test suivantes :
 
 Si vous souhaitez modifier la configuration ci-dessus, suivez les instructions ci-dessous :
 
-* créez le fichier ***sling:OsgiConfig/ nt:file dans /apps/system/config*** sous le nom **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** et le contenu.
+* créez le fichier ***sling:OsgiConfig/ nt:file dans /apps/system/config ***sous le nom**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **et le contenu.
 
-   *launches.eventhandler.updatelastmodification=B"false"launches.event.launch.promotion.graceperiod=["/content/screens(/.*):600"]launches.eventhandler.threadpool.maxsize=I"5"launches.eventhandler.threadpool.priority="MIN"*
+   *launches.eventhandler.updatelastmodification=B&quot;false&quot;launches.event.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, vous permet de définir une période de grâce de 600 secondes dans le chemin */content/screens*.
 
@@ -80,7 +79,7 @@ Suivez la section ci-dessous pour implémenter les lancements dans votre projet 
 
 Suivez les étapes ci-dessous pour mettre en oeuvre les futures fonctionnalités de publication dans votre projet AEM Screens :
 
-1. Accédez au canal dans votre projet AEM Screens, par exemple **LaunchesDemo** —&gt; **Canaux** —&gt; **FutureLaunch**, comme illustré ci-dessous.
+1. Accédez au canal dans votre projet AEM Screens, par exemple **LaunchesDemo** —> **Canaux** —> **FutureLaunch**, comme illustré ci-dessous.
 
    >[!CAUTION]
    >
@@ -154,12 +153,9 @@ Pour modifier les propriétés de lancement, procédez comme suit :
    >
    >Présentation des entrées Lancements sous Promotion **automatique**:
 
-   >* **Date** de lancement, fait référence à la date d’activation, c’est-à-dire la date/l’heure de lecture du contenu dans le lecteur d’écran selon le fuseau horaire du lecteur.
-   >
-   >
+   >    * **Date** de lancement, fait référence à la date d’activation, c’est-à-dire la date/l’heure de lecture du contenu dans le lecteur d’écran selon le fuseau horaire du lecteur.
    >    * **Prêt**&#x200B;à la production, permet de promouvoir les canaux et d’utiliser le lancement.
-
-   * **Scope** fait référence aux canaux qui peuvent être promus lors d’un lancement.
+   >    * **Scope** fait référence aux canaux qui peuvent être promus lors d’un lancement.
 
 
    Les trois options suivantes sont disponibles pour configurer la portée :
@@ -169,7 +165,8 @@ Pour modifier les propriétés de lancement, procédez comme suit :
    ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
    >[!CAUTION]
-   La promotion du lancement respecte le fuseau horaire du lecteur/périphérique plutôt que celui du serveur.
+   >
+   >La promotion du lancement respecte le fuseau horaire du lecteur/périphérique plutôt que celui du serveur.
 
 1. Cliquez sur **Enregistrer et fermer** pour revenir au canal **FutureLaunch** .
 
