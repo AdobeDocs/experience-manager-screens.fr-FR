@@ -1,21 +1,21 @@
 ---
-title: Mise à jour du contenu à la demande
-seo-title: Mise à jour du contenu à la demande
+title: Mise à jour de contenus à la demande
+seo-title: Mise à jour de contenus à la demande
 description: 'Suivez cette page pour en savoir plus sur la mise à jour de contenu à la demande.  '
 seo-description: 'Suivez cette page pour en savoir plus sur la mise à jour de contenu à la demande.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
 
-# Mise à jour du contenu à la demande {#on-demand}
+# Mise à jour de contenus à la demande {#on-demand}
 
 Cette section décrit le contenu à la demande pour la gestion des publications.
 
-## Gestion de la publication : Diffusion des mises à jour de contenu de l’auteur à la publication sur le périphérique {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Gestion de la publication : Diffusion des mises à jour de contenu de l’Auteur à des fins de Publication sur le Périphérique {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
 Vous pouvez publier et annuler la publication de contenu à partir d’AEM Screens. La fonction Gérer les publications vous permet de diffuser des mises à jour de contenu de l’auteur à la publication sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, périphériques, applications ou planifications.
 
@@ -69,26 +69,25 @@ Cette option permet de gérer les mises à jour uniquement sur les pages qui ont
    >Patientez quelques secondes/minutes pour que le contenu atteigne l’instance de publication.
    >
    >
-   >La **gestion de la publication** avec mise à jour du contenu hors ligne est un processus en deux étapes et les étapes doivent être dans l’ordre correct.
-   >
-   >
-   >
-   >    1. Le flux de travaux ne fonctionne pas si la **mise à jour du contenu** hors ligne est déclenchée avant la publication à l’aide de la fonction **Gérer la publication**.
-      >
-      >    
-   1. Le flux de travail ne fonctionne pas s’il n’y a aucune modification dans le projet et rien pour **mettre à jour le contenu** hors ligne.
-   >    1. Le flux de travaux ne fonctionne pas si l’auteur n’effectue pas le processus de réplication (le contenu est toujours téléchargé vers l’instance de publication) après avoir cliqué sur le bouton **Publier** dans le flux de travaux de gestion de la publication.
+   >    1. Le flux de travail ne fonctionne pas s’il n’y a aucune modification dans le projet et rien pour **mettre à jour le contenu** hors ligne.
+   >    1. Le flux de travaux ne fonctionne pas si l’auteur n’effectue pas le processus de réplication (le contenu est toujours téléchargé vers l’instance de publication) après avoir cliqué sur le bouton **Publier** dans le processus de gestion de la publication.
 
 
-1. Une fois que vous avez terminé le processus de gestion de la publication, vous devez déclencher le contenu hors ligne de la mise à jour dans l’auteur, qui crée la mise à jour hors ligne sur l’instance d’auteur.
+   > [!CAUTION]
+   > Si, en tant qu’auteur ou créateur de contenu, vous souhaitez voir les modifications apportées aux périphériques connectés à l’instance d’auteur, cliquez sur **Mettre à jour le contenu** hors ligne à partir du tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne de la mise à jour n’est exécuté que dans l’instance d’auteur.
 
-   Accédez au projet et cliquez sur **Mettre à jour le contenu** hors ligne dans la barre d’actions. Cette action transfère la même commande à l’instance de publication, de sorte que les fichiers compressés hors ligne soient également créés sur l’instance de publication.
+1. Accédez au projet et cliquez sur **Mettre à jour le contenu** hors ligne dans la barre d’actions. Cette action transfère la même commande à l’instance de publication, de sorte que les fichiers compressés hors ligne soient également créés sur l’instance de publication.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
+
+   >[!NOTE]
+   >
+   >Une fois que vous avez terminé le processus de gestion de la publication et qu’un lecteur pointe vers l’instance d’auteur, vous devez déclencher le contenu hors ligne de la mise à jour dans l’instance d’auteur, qui crée la mise à jour hors ligne sur l’instance d’auteur.
+
    >[!CAUTION]
    >
-   >Vous devez d’abord publier, puis déclencher la mise à jour du contenu hors ligne, comme l’indiquent les étapes précédentes.
+   >Vous devez déclencher la mise à jour du contenu hors ligne dans l’instance d’auteur, si un lecteur est enregistré sur le serveur d’auteur. La mise à jour du contenu hors ligne n’est pas requise pour le lecteur enregistré sur l’instance de publication.
 
 ### Gestion des publications pour un canal {#managing-publication-for-a-channel}
 
