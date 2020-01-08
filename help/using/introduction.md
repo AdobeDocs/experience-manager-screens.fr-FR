@@ -3,8 +3,8 @@ title: Présentation d’[!UICONTROL AEM Screens]
 seo-title: Guide des bonnes pratiques pour les projets [!UICONTROL AEM Screens]
 description: Cette page est une section de présentation d’AEM Screens
 seo-description: Cette page vous invite à découvrir AEM Screens
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
 
 ---
 
@@ -32,7 +32,7 @@ Avec AEM Screens, la création et la gestion d’un réseau de signalétique dig
 
 >[!NOTE]
 >
->Pour en savoir plus sur les différentes fonctionnalités relatives à la gestion et au développement de projets AEM Screens, consultez le **[Guide de l’utilisateur d’AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/user-guide.html)**.
+>Pour en savoir plus sur les différentes fonctionnalités relatives à la gestion et au développement de projets AEM Screens, consultez le **[Guide de l’utilisateur d’AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
 
 ## Positionnement d’AEM Screens par rapport à AEM Sites{#aem-sites-screens}
 
@@ -52,9 +52,9 @@ AEM Screens fournit une plate-forme de création/lecture unifiée pour le déplo
 
 * **Expériences interactives** : une application kiosque tactile peut être créée et diffusée dans un canal Screens à l’aide d’AEM et de l’éditeur d’application monopage (SPA). Il est recommandé d’appliquer des propriétés de conception omnicanal cohérentes, un minuteur d’inactivité pour réinitialiser l’expérience, ainsi qu’un appel à l’action clair pour les tâches que l’application peut exécuter. La page d’entrée doit se composer d’éléments numériques clés, conçus pour transmettre la valeur du contenu, attirer l’utilisateur vers l’écran et susciter son engagement.
 
-AEM Screens fournit une structure permettant de déployer du contenu sur des périphériques physiques. Le contenu est affecté à des canaux dans Screens et les écrans peuvent proposer du contenu multimédia ou des applications tactiles. Dans cette structure, une application AEM Sites peut être diffusée sous la forme de contenu par le biais d’un canal.
+AEM Screens fournit une structure permettant de déployer du contenu sur des périphériques physiques. Le contenu est affecté à des canaux dans Screens et les écrans peuvent proposer du contenu multimédia ou des applications tactiles. Dans cette structure, une application de sites AEM peut être diffusée sous forme de contenu via un canal.
 
-Avant d’être déposé dans un canal d’AEM Screens, un site AEM doit être formaté en vue d’être utilisé aux dimensions du périphérique d’affichage auquel il est destiné.
+Avant d’être déposé dans un canal dans les écrans, les sites AEM doivent être formatés pour être utilisés aux dimensions du périphérique d’affichage auquel ils sont destinés.
 
 > [!NOTE]
 >
