@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation lors de la configuration d’un projet qui crée un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
+source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
 
 ---
 
@@ -85,17 +85,20 @@ Pour configurer un projet, procédez comme suit :
    * **Chemin** du canal : Sélectionnez le chemin du canal **TakeOver** .
    * **Priorité**: Définissez la priorité de ce canal supérieure à celle de **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
    * **Evénements** pris en charge : Sélectionnez l’écran **inactif** et le **minuteur**.
-   * **Planification**: Entrez le texte de la planification pour que ce canal exécute l&#39;affichage. Par exemple, le texte ici permet au contenu de lire tous les mercredis de 14h00 à 16h00.
-Le texte de la **planification** mentionnée dans cet exemple est *le mercredi après 14h00 et avant 16h00*.
+   * **Planification**: Entrez le texte de la planification pour que ce canal exécute l&#39;affichage. Le texte de la **planification** mentionnée dans cet exemple est *le mercredi après 14h00 et avant 16h00*.
+   * **actif depuis**: Date et heure de début.
+   * **actif jusqu&#39;à**: Date et heure de fin.
+   Par exemple, le texte dans **Calendrier** et **actif depuis** et **** actif jusqu’à la date et l’heure ici permet au contenu de lire tous les mercredis de 14h00 à 16h00.
 
-      ![ressource](assets/p_usecase7.png)
 
-      Accédez à l&#39;affichage à partir de **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay et cliquez sur Dashboard dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
+   ![ressource](assets/p_usecase7.png)
 
-      >[!NOTE]
-      >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
+   Accédez à l&#39;affichage à partir de **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay et cliquez sur Dashboard dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
 
-      ![asset](assets/p_usecase8.png)Now, la chaîne **TakeOver** prendra le relais de **MainAdChannelChannel** à 14h00 pendant deux heures jusqu&#39;à 16h00 tous les mercredis et diffusera son contenu du 9 janvier 2020 au 31 janvier 2020.
+   >[!NOTE]
+   >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
+
+   ![asset](assets/p_usecase8.png)Now, la chaîne **TakeOver** prendra le relais de **MainAdChannelChannel** à 14h00 pendant deux heures jusqu&#39;à 16h00 tous les mercredis et diffusera son contenu du 9 janvier 2020 au 31 janvier 2020.
 
 ### Example Expressions {#example-expressions}
 
