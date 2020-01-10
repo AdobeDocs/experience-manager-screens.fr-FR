@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation lors de la configuration d’un projet qui crée un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
+source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
 
 ---
 
@@ -106,4 +106,11 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
+| avant 8h00 | la chaîne joue avant 8h00 tous les jours |
+| après 14h00 | la chaîne joue tous les jours après 14h00 |
 | après 12:15 et avant 12:45 | la chaîne est diffusée après 12h15 tous les jours pendant 30 minutes |
+| avant 12h15 également après 12h45 | la chaîne est diffusée avant 12h15 tous les jours et après 12h45 |
+| le 1er janvier après 14h00 également le 2e jour de janvier également le 3e jour de janvier avant 3h00 | la chaîne commence à jouer après 12h45 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier. |
+| le 1er-2 janvier après 14h00 également le 2-3 janvier avant 3h00 | la chaîne démarre le lecteur après 12h45 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 12h45 et continue à jouer jusqu&#39;à 3h00 le 3 janvier. |
+
+Notez que vous pouvez également utiliser la notation _militaire du temps_ (c.-à-d. 14:00) au lieu de la notation am/pm (c.-à-d. 14:00)
