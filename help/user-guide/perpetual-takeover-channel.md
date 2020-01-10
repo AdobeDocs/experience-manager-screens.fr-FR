@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation lors de la configuration d’un projet qui crée un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
+source-git-commit: 5e80a23674528467dd6eca7054e0730471646baf
 
 ---
 
@@ -86,8 +86,8 @@ Pour configurer un projet, procédez comme suit :
    * **Priorité**: Définissez la priorité de ce canal supérieure à celle de **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
    * **Evénements** pris en charge : Sélectionnez l’écran **inactif** et le **minuteur**.
    * **Planification**: Entrez le texte de la planification pour que ce canal exécute l&#39;affichage. Le texte de la **planification** mentionnée dans cet exemple est *le mercredi après 14h00 et avant 16h00*.
-      [!NOTE]
-      > Pour en savoir plus sur les expressions que vous pouvez ajouter à la **planification**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
+      >[!NOTE]
+      >Pour en savoir plus sur les expressions que vous pouvez ajouter à la **planification**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
    * **actif depuis**: Date et heure de début.
    * **actif jusqu&#39;à**: Date et heure de fin.
    Par exemple, le texte dans **Calendrier** et **actif depuis** et **** actif jusqu’à la date et l’heure ici permet au contenu de lire tous les mercredis de 14h00 à 16h00.
@@ -115,4 +115,5 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | le 1er janvier après 14h00 également le 2e jour de janvier également le 3e jour de janvier avant 3h00 | la chaîne commence à jouer après 12h45 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier. |
 | le 1er-2 janvier après 14h00 également le 2-3 janvier avant 3h00 | la chaîne démarre le lecteur après 12h45 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 12h45 et continue à jouer jusqu&#39;à 3h00 le 3 janvier. |
 
-Notez que vous pouvez également utiliser la notation _militaire du temps_ (c.-à-d. 14:00) au lieu de la notation am/pm (c.-à-d. 14:00)
+>[!NOTE]
+>Vous pouvez également utiliser la notation _militaire du temps_ (14:00) au lieu de la notation am/pm (14:00).
