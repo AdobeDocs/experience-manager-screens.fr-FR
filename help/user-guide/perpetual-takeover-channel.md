@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation lors de la configuration d’un projet qui crée un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
+source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
 
 ---
 
@@ -17,7 +17,7 @@ La page suivante présente un cas d’utilisation qui met l’accent sur la conf
 ## Description du cas d’utilisation  {#use-case-description}
 
 Ce cas d’utilisation explique comment créer un canal qui *prend le relais* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle aura lieu perpétuellement un jour et un moment précis.
-Par exemple, il existe une chaîne Perpetual TakeOver qui joue tous les vendredis de 9h à 10h. Pendant ce temps, aucun autre canal ne devrait jouer. L’exemple suivant montre la création d’une chaîne de prise en charge permanente qui lit le contenu permet de lire le contenu tous les mercredis pendant 2 heures, de 17 h à 19 h.
+Par exemple, il existe une chaîne Perpetual TakeOver qui joue tous les vendredis de 9h à 10h. Pendant ce temps, aucun autre canal ne devrait jouer. L’exemple suivant montre la création d’une chaîne de prise en charge permanente qui lit le contenu permet de lire le contenu tous les mercredis pendant 2 heures, de 14h00 à 16h00.
 
 ### Conditions préalables {#preconditions}
 
@@ -86,6 +86,8 @@ Pour configurer un projet, procédez comme suit :
    * **Priorité**: Définissez la priorité de ce canal supérieure à celle de **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
    * **Evénements** pris en charge : Sélectionnez l’écran **inactif** et le **minuteur**.
    * **Planification**: Entrez le texte de la planification pour que ce canal exécute l&#39;affichage. Le texte de la **planification** mentionnée dans cet exemple est *le mercredi après 14h00 et avant 16h00*.
+      [!NOTE]
+      > Pour en savoir plus sur les expressions que vous pouvez ajouter à la **planification**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
    * **actif depuis**: Date et heure de début.
    * **actif jusqu&#39;à**: Date et heure de fin.
    Par exemple, le texte dans **Calendrier** et **actif depuis** et **** actif jusqu’à la date et l’heure ici permet au contenu de lire tous les mercredis de 14h00 à 16h00.
