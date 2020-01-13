@@ -3,7 +3,7 @@ title: Tests et assurance qualité
 seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
@@ -25,61 +25,61 @@ Il convient de créer une liste de contrôle qui identifie tous les IPC définis
 
 Les éléments suivants doivent être pris en compte :
 
-## 1. Considérations mécaniques {#mechanical-considerations}
+## 1. Facteurs mécaniques {#mechanical-considerations}
 
-Les considérations mécaniques suivantes sont recommandées :
+Il est recommandé de tenir compte des facteurs mécaniques suivants :
 
 * Montage des écrans
 * Montage du lecteur
 * Ventilation
 * Accessoires périphériques
 * Gestion des câbles
-* Mise en réseau des appareils
+* Mise en réseau des périphériques
 
-## 2. Considérations relatives aux logiciels {#software-considerations}
+## 2. Facteurs logiciels {#software-considerations}
 
-Il est recommandé de prendre en compte les éléments suivants :
+Il est recommandé de tenir compte des facteurs logiciels suivants :
 
-* Enregistrement d’appareil
+* Enregistrement de périphériques
 * Publication de médias
 * Lecture
 * Dépendances de base de données (définies précédemment)
 
 
-## 3. Remarques sur la gestion des périphériques {#device-management-considerations}
+## 3. Facteurs de gestion des périphériques {#device-management-considerations}
 
 
-AEM Screens inclut un module Device Control Center qui permet la gestion des points de fin d’application du lecteur d’écrans.
+AEM Screens dispose d’un module de centre de contrôle des périphériques qui permet de gérer les points d’extrémité de l’application du lecteur Screens.
 
-Il s’agit de tout périphérique *du lecteur* sur lequel l’application du lecteur d’écrans est installée et enregistré sur une instance d’AEM.
-Ce module vous permet d’effectuer les opérations suivantes :
+Cela fait référence à tout périphérique matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.
+Ce module permet d’effectuer les opérations suivantes :
 
 1. Surveiller les journaux d’erreurs de l’application du lecteur
-1. Gestion des captures d’écran distantes
-1. Gestion des téléchargements de contenu
-1. Gestion des problèmes de redémarrage de l’application
+1. Gérer les captures d’écran distantes
+1. Gérer les téléchargements de contenus
+1. Gérer les problèmes de redémarrage de l’application
 
-Pour en savoir plus sur ***Device Control Center***, reportez-vous à la section [Dépannage de Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) du Guide **de l’utilisateur d’** AEM Screens.
+Pour en savoir plus sur le ***Centre de contrôle des périphériques***, reportez-vous à la section [Dépannage du Centre de contrôle des périphériques](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/monitoring-screens.html) du **Guide de l’utilisateur d’AEM Screens**.
 
 >[!CAUTION]
-> Vous ne devez pas utiliser Device Control Center pour :
+> Vous ne devez pas utiliser le Centre de contrôle des périphériques pour :
 >
-> 1. Installer de nouvelles versions de l’application du lecteur
-> 1. Surveiller les ressources au niveau du système
-> 1. Résolution des erreurs au niveau du système
-> 1. Autoriser l'intervention sur le bureau distant
+> 1. installer de nouvelles versions de l’application du lecteur ;
+> 1. surveiller les ressources système ;
+> 1. résoudre des erreurs au niveau du système ;
+> 1. autoriser une intervention à distance sur le poste de travail.
 
 
 
 >[!NOTE]
-> Adobe recommande d’utiliser des plateformes tierces dédiées de gestion des périphériques pour tous les déploiements.
+> Adobe recommande d’utiliser des plates-formes tierces dédiées de gestion de périphériques pour tous les déploiements.
 
-La plateforme choisie dépend de plusieurs facteurs, dont le système ***d'exploitation*** cible, les exigences ***du*** projet et le ***nombre de points*** de fin.
+La plate-forme choisie dépend de plusieurs facteurs, dont le ***système d'exploitation cible***, les ***exigences du projet*** et le ***nombre de points d’extrémité***.
 
-Quelques exemples :
+Exemples :
 
-* Gestion des périphériques Google Chrome
+* Google Chrome Device Management
 * TeamViewer
 * AirWatch
 * 42Gears
-* Mini-logiciel pour intégrateur AV propriétaire
+* Intergiciel propriétaire de l’intégrateur A/V
