@@ -1,8 +1,8 @@
 ---
 title: Création d’un processus de remplissage vidéo
 seo-title: Création d’un processus de remplissage vidéo
-description: Suivez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
-seo-description: Suivez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
+description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
+seo-description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow}
 
-Cette section traite des sujets suivants :
+Cette section couvre les sujets suivants :
 
 * **Présentation**
 * **Conditions préalables**
@@ -30,41 +30,41 @@ Cette section traite des sujets suivants :
 
 ## Présentation {#overview}
 
-Le cas d’utilisation suivant implique de placer une vidéo (par exemple : 1280 x 720) dans un canal où l’affichage est de 1920 x 1080 et où la vidéo doit être placée à 0x0 (en haut à gauche). La vidéo ne doit pas être étirée ni modifiée d’aucune manière et n’utilisez pas **la couverture** dans le composant vidéo.
+Le cas d’utilisation suivant implique de placer une vidéo (par exemple : 1280 x 720) dans un canal où l’affichage est de 1920 x 1080 et où la vidéo doit être placée à 0x0 (en haut à gauche). La vidéo ne doit pas être étirée ni modifiée d’aucune manière et n’utilisez pas **la couverture** dans le composant vidéo.
 
 La vidéo s’affichera sous la forme d’un objet de pixel 1 à pixel 1280 sur et de pixel 1 à pixel 720 vers le bas et le reste du canal sera la couleur par défaut.
 
 ## Conditions préalables {#prerequisites}
 
-Avant de créer un flux de travail pour la vidéo, remplissez les conditions préalables suivantes :
+Avant de créer un processus pour la vidéo, veuillez remplir les conditions préalables suivantes :
 
-1. Téléchargement d’une vidéo dans le dossier **Ressources** de votre instance AEM
-1. Créez un projet AEM Screens (par exemple, **TestVideoRendition**) et un canal nommé (**VideoRendering**), comme illustré dans la figure ci-dessous :
+1. Téléchargez une vidéo dans le dossier **Ressources** de votre instance AEM
+1. Créez un projet AEM Screens (par exemple, **TestVideoRendition**) et un canal nommé (**VideoRendering**), comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
 ## Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow-1}
 
-Pour créer un flux de travail de remplissage vidéo, vous devez créer un flux de travail pour votre vidéo, puis l’utiliser dans votre canal de projet AEM Screens.
+Pour créer un processus de remplissage vidéo, vous devez créer un processus pour votre vidéo, puis l’utiliser dans le canal de votre projet AEM Screens.
 
-Suivez les étapes ci-dessous pour créer et utiliser le processus :
+Suivez les étapes ci-dessous pour créer et utiliser le processus :
 
 1. Création d’un processus
 1. Utilisation du processus dans un projet AEM Screens
 
-### Creating a Workflow {#creating-a-workflow}
+### Création d’un processus {#creating-a-workflow}
 
-Pour créer un flux de travail pour votre vidéo, procédez comme suit :
+Suivez les étapes ci-dessous pour créer un processus pour votre vidéo:
 
-1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionnez **Workflow** —&gt; **Modèles** pour créer un nouveau modèle.
+1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionnez **Processus** —&gt; **Modèles** pour créer un nouveau modèle.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Cliquez sur **Modèles** —&gt; **Créer** —&gt; **Créer un modèle**. Saisissez le **Titre** (en tant que **renduvidéo**) et le **Nom** dans le champ **Ajouter un modèle de flux de travail.** Cliquez sur **Terminé** pour ajouter le modèle de processus.
+1. Cliquez sur **Modèles** —&gt; **Créer** —&gt; **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus.** Cliquez sur **Terminé** pour ajouter le modèle de processus.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Une fois le modèle de flux de travail créé, sélectionnez le modèle (**VideoRendition**), puis cliquez sur **Modifier** dans la barre d’actions.
+1. Une fois le modèle de processus créé, sélectionnez le modèle (**VideoRendition**), puis cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -72,35 +72,35 @@ Pour créer un flux de travail pour votre vidéo, procédez comme suit :
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Sélectionnez le composant Ligne **de** commande et ouvrez la boîte de dialogue Propriétés.
+1. Sélectionnez le composant **Ligne de commande** et ouvrez la boîte de dialogue Propriétés.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Sélectionnez l’onglet **Arguments** pour entrer les champs dans la boîte de dialogue **Ligne de commande - Propriétés** des étapes.
+1. Sélectionnez l’onglet **Arguments** pour renseigner les champs dans la boîte de dialogue **Ligne de commande - Propriétés des étapes**.
 
-   Entrez le format dans les Types **** Mime (comme ***vidéo/mp4***) et la commande comme (**/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hd .mp4***) pour démarrer le processus dans le champ **Commandes** .
+   Saisissez le format dans les **Types Mime** (***vidéo/mp4***) et la commande (**/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hd .mp4***) pour démarrer le processus dans le champ **Commandes** .
 
-   Veuillez consulter les détails sur les types **** MIME et les **commandes** dans la note ci-dessous.
+   Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Sélectionnez le processus (**Rendus** vidéo) et cliquez sur **Démarrer le processus** dans la barre d’actions pour ouvrir la boîte de dialogue **Exécuter le processus** .
+1. Sélectionnez le processus (**VideoRenditions**) et cliquez sur **Démarrer le processus** dans la barre d’actions pour ouvrir la boîte de dialogue **Exécuter le processus** .
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Sélectionnez le chemin d’accès de votre fichier dans la **charge** payante (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***), saisissez le **Title **(as ***RunVideo***) et cliquez sur **Run.**
+1. Sélectionnez le chemin d’accès de votre fichier dans la **charge utile** (***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***), saisissez le **Titre **(***RunVideo***) et cliquez sur **Exécuter.**
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
 ### Utilisation du processus dans un projet AEM Screens {#using-the-workflow-in-an-aem-screens-project}
 
-Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM Screens :
+Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM Screens :
 
 1. Accédez à un projet AEM Screens (**TestVideoRendition** —&gt; **Canaux** —&gt;**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Click **Edit** from the action bar. Faites glisser la vidéo que vous avez initialement téléchargée vers **Ressources**.
+1. Cliquez sur **Modifier** dans la barre d’actions. Faites glisser la vidéo que vous avez initialement téléchargée vers **Ressources**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
@@ -108,12 +108,12 @@ Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM S
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Validation de la sortie pour le processus {#validating-the-output-for-the-workflow}
+## Validation de la sortie pour le processus{#validating-the-output-for-the-workflow}
 
-Vous pouvez valider votre sortie en procédant comme suit :
+Vous pouvez valider votre sortie en procédant comme suit :
 
-* Vérifier l'aperçu de la vidéo dans la chaîne
-* Accédez au répertoire ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré dans la figure ci-dessous :
+* Vérifier l’aperçu de la vidéo dans la chaîne
+* Accédez au répertoire ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
 
