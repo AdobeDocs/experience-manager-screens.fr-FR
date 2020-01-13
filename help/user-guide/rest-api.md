@@ -1,15 +1,15 @@
 ---
 title: API REST
 seo-title: API REST
-description: AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Suivez cette page pour savoir comment parcourir la structure de contenu et envoyer des commandes aux périphériques au sein de l’environnement.
-seo-description: AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Suivez cette page pour savoir comment parcourir la structure de contenu et envoyer des commandes aux périphériques au sein de l’environnement.
+description: AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Consultez cette page pour savoir comment parcourir la structure de contenu et envoyer des commandes aux périphériques au sein de l’environnement.
+seo-description: AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Consultez cette page pour savoir comment parcourir la structure de contenu et envoyer des commandes aux périphériques au sein de l’environnement.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # API REST{#rest-apis}
 
-AEM Screens provides a simple RESTful API that follows the [Siren](https://github.com/kevinswiber/siren) specification. Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux périphériques au sein de l’environnement.
+AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux périphériques au sein de l’environnement.
 
-The API is accessible at [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
+L’API est accessible à l’adresse suivante : [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
 ## Exploration de la structure de contenu {#navigating-content-structure}
 
-Le code JSON renvoyé par les appels d’API répertorie les entités associées à la ressource en cours. En suivant le lien d’authentification répertorié, chacune de ces entités est à nouveau accessible en tant que ressource REST.
+Le code JSON renvoyé par les appels d’API répertorie les entités associées à la ressource en cours. En suivant le lien vers lui-même (self-link) répertorié, chacune de ces entités est de nouveau accessible sous la forme d’une ressource REST.
 
 Par exemple, pour accéder aux écrans de notre emplacement de démonstration, vous pouvez appeler :
 
@@ -32,7 +32,7 @@ GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-Ou en utilisant curl :
+Ou à l’aide de curl :
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship.json
@@ -92,7 +92,7 @@ Le résultat ressemble à ceci :
 }
 ```
 
-Puis, pour accéder à l’affichage à écran unique, vous pouvez appeler :
+Et ensuite, pour accéder à l’affichage sur un seul écran, vous pouvez appeler :
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -103,20 +103,20 @@ Host: http://localhost:4502
 
 Le code JSON renvoyé par les appels d’API peut contenir la liste des actions disponibles sur la ressource.
 
-The display, for instance, lists a *broadcast-command* action that allows to send a command to all the devices assigned to that display.
+L’affichage, par exemple, répertorie une action *broadcast-command* qui permet d’envoyer une commande à tous les périphériques qui lui sont affectés.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-Ou en utilisant curl :
+Ou à l’aide de curl :
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
-***Résultat:***
+***Résultat :***
 
 ```xml
 {
@@ -157,7 +157,7 @@ Host: http://localhost:4502
 :operation=broadcast-command&msg=reboot
 ```
 
-Ou en utilisant curl :
+Ou à l’aide de curl :
 
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
