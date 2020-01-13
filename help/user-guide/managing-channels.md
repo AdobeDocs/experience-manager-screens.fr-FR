@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,49 +18,49 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Création et gestion des canaux {#creating-and-managing-channels}
 
-Un canal affiche une séquence de contenu et affiche des images et des vidéos, mais il peut également afficher un site Web ou une application d’une seule page.
+Un canal affiche une séquence de contenu, des images et des vidéos, mais peut également afficher un site web ou une application sur une seule page.
 
 Vous découvrirez dans cette page comment créer et gérer des canaux pour Screens.
 
-**Conditions préalables**:
+**Conditions préalables** :
 
 * [Configuration et déploiement de Screens](configuring-screens-introduction.md)
-* [Création et gestion d’écrans](creating-a-screens-project.md)
+* [Création et gestion de projet Screens](creating-a-screens-project.md)
 
 ## Création d’un canal {#creating-a-new-channel}
 
 Une fois le projet Screens créé, suivez les étapes ci-dessous pour lui créer un canal :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également utiliser le lien d’accès direct : `https://localhost:4502/screens.html/content/screens`.
 1. Accédez au projet Screens, puis cliquez sur **Canaux**.
-1. Click **Create** next to the plus icon in the action bar. L’assistant s’ouvre (*voir la section Types de canaux pour plus d’informations*).
+1. Cliquez sur **Créer** en regard de l’icône plus (+) de la barre d’actions. L’assistant s’ouvre (*voir la section Types de canaux pour plus d’informations*).
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Sélectionnez un modèle dans l’assistant, puis cliquez sur **Suivant**.
+1. Saisissez les propriétés pour **Titre et balises**, **Autres titres et description**, **Heure d’activation/de désactivation** et **URL Vanity**.
 
 1. Cliquez sur **Créer** pour créer le canal et l’ajouter à votre dossier de canaux.
 
-### Types de canaux {#channel-types}
+### Types de canaux    {#channel-types}
 
 Les options de modèles suivantes sont disponibles avec l’assistant :
 
 | **Option de modèle** | **Description** |
 |---|---|
 | Dossier de canaux | Permet de créer un dossier où stocker une collection de canaux. |
-| Canal de séquence | Permet de créer un canal qui lit les composants de manière séquentielle (un par un dans un diaporama). |
+| Canal de séquence | Permet de créer un canal qui lit les composants de manière séquentielle (l’un après l’autre comme une série de diapositives). |
 | Canal d’application | Permet de présenter votre application web personnalisée dans le lecteur Screens. |
 | Canal d’écran partagé 1x1 | Permet d’afficher le composant dans une seule zone. |
-| Canal d’écran partagé 1x2 | Permet d’afficher les fichiers dans deux zones (fractionnées horizontalement). |
-| Canal d’écran partagé 2X1 | Permet d’afficher les fichiers dans deux zones (divisées verticalement). |
-| Canal d’écran partagé 2x2 | Permet d’afficher les fichiers dans quatre zones (fractionnées horizontalement et verticalement dans une matrice). |
-| Canal d’écran partagé 2x3 | Permet d’afficher les fichiers dans deux zones (divisées horizontalement), l’une des zones étant plus grande que l’autre. |
-| Canal d’écran fractionné L-Bar gauche ou droite | Permet aux auteurs de contenu d’afficher différents types de fichiers dans des zones de taille appropriée. |
+| Canal d’écran partagé 1x2 | Permet d’afficher les ressources dans deux zones (division horizontale).. |
+| Canal d’écran partagé 1x2 | Permet d’afficher les ressources dans deux zones (division verticale).. |
+| Canal d’écran partagé 2x2 | Permet d’afficher les ressources dans quatre zones (division horizontale et verticale dans une matrice).. |
+| Canal d’écran partagé 2x3 | Permet d’afficher les ressources dans deux zones (division horizontale) où l’une des zones est plus grande que l’autre. |
+| Canal d’écran partagé barre en L gauche ou droite | Permet aux auteurs de contenus d’afficher différents types de ressources dans des zones de taille appropriée. |
 
 >[!NOTE]
 >
->Les canaux Ecran partagé divisent l’affichage en plusieurs zones afin que vous puissiez lire plusieurs expériences simultanément, côte à côte. Les expériences peuvent être des ressources/du texte statiques ou des séquences incorporées.
+>Les canaux d’écran partagé divisent l’affichage en plusieurs zones, ce qui permet de lire plusieurs expériences simultanément, côte à côte. Les expériences peuvent être des ressources/du texte statiques ou des séquences incorporées.
 
-The following example shows the creation of a Sequence Channel (C *hannelOne*) for a Screens project (*DemoProject*).
+L’exemple suivant illustre la création d’un canal de séquence (*ChannelOne*) pour un projet Screens (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -86,8 +86,8 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 
 Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes ci-dessous :
 
-1. Cliquez sur le canal à modifier (comme illustré dans la figure ci-dessus).
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
+1. Cliquez sur le canal à modifier (comme illustré ci-dessus).
+1. Cliquez sur **Modifier** dans l’angle supérieur gauche de la barre d’actions pour modifier les propriétés du canal. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Téléchargement de vidéos sur le canal** Suivez les étapes ci-dessous pour télécharger des vidéos sur votre canal :
+**Téléchargement de vidéos dans le canal** Suivez les étapes ci-dessous pour télécharger des vidéos dans votre canal :
 
 1. Sélectionnez le canal vers lequel transférer la vidéo.
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
@@ -103,31 +103,31 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 
 >[!NOTE]
 >
->If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
+>Si vous rencontrez des problèmes lors du transfert des vidéos vers votre canal, reportez-vous à la section [Dépannage des vidéos](troubleshoot-videos.md).
 
 ### Affichage des propriétés {#viewing-properties}
 
 Pour afficher ou modifier les propriétés d’un canal, suivez les étapes ci-dessous :
 
 1. Cliquez sur le canal à modifier.
-1. Click **Properties** from the action bar to view/edit the channel properties. Les onglets suivants vous permettent de modifier les options.
+1. Cliquez sur **Propriétés** dans la barre d’actions pour afficher ou modifier les propriétés du canal. Les onglets suivants vous permettent de modifier les options.
 
-![properties](assets/properties.gif)
+![propriétés](assets/properties.gif)
 
 ### Affichage du tableau de bord {#viewing-dashboard}
 
 Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
 
 1. Cliquez sur le canal à modifier.
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. Cliquez sur **Afficher le tableau de bord** dans la barre d’actions pour afficher le tableau de bord. Les panneaux **INFORMATIONS SUR LE CANAL**, **AFFICHAGES ATTRIBUÉS** et  :**LANCEMENTS EN ATTENTE** s’ouvrent, comme illustré ci-dessous
 
-![tableau de bord](assets/dashboard.gif)
+![Tableau de bord](assets/dashboard.gif)
 
-### Informations sur les canaux {#channel-information}
+### Informations sur le canal {#channel-information}
 
-Le panneau Informations sur le canal décrit les propriétés du canal, ainsi que l’aperçu du canal. Il vous permet également de voir si le canal est en ligne ou hors ligne.
+Le panneau Informations sur le canal fournit une description des propriétés ainsi qu’un aperçu du canal. Il vous permet également de voir si le canal est en ligne ou hors ligne.
 
-Cliquez sur l’icône (**...**) dans la barre d’actions **Informations sur les canaux** pour afficher les propriétés, modifier le contenu ou mettre à jour la mémoire cache (contenu hors ligne) du canal.
+Cliquez sur l’icône (**...**) dans la barre d’actions **Informations sur le canal** pour afficher les propriétés, modifier le contenu ou mettre à jour la mémoire cache (contenu hors ligne) du canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -139,7 +139,7 @@ Cliquez sur l’icône (**...**) dans la barre d’actions **Informations sur le
 
 Lorsque vous créez un canal, il peut être défini comme étant en ligne ou hors ligne.
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+Un ***canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, alors qu’un ***canal hors ligne*** affiche le contenu en mémoire cache.
 
 Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
@@ -149,7 +149,7 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. Le panneau **INFORMATIONS SUR LE CANAL **fournit des informations sur la mise en ligne ou hors ligne du canal.
+   Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le statut du lecteur. Le panneau **INFORMATIONS SUR LE CANAL** indique si le canal est en ligne ou hors ligne.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -157,23 +157,23 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Vérifiez le **mode** Développeur **(forcer le canal à être en ligne)** pour que le canal soit en ligne.
+1. Vérifiez le mode **Développeur** **(forcer le canal à être en ligne)** pour que le canal soit en ligne.
 
    Cliquez sur **Enregistrer et Fermer** pour enregistrer.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Navigate back to the channel dashboard and now the **CHANNEL INFORMATION** panel shows the online status of the player.
+   Retournez sur le tableau de bord s’affiche et vous pouvez alors voir le statut en ligne du lecteur dans le panneau **INFORMATIONS SUR LE CANL**.
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
 >
->Si vous souhaitez reconfigurer votre canal hors ligne, décochez l’option Mode développeur dans l’onglet **Propriétés** (comme indiqué à l’étape (3)), puis, dans le panneau INFORMATIONS **SUR LE** CANAL, cliquez sur **Mettre à jour le contenu** hors ligne, comme illustré dans la figure ci-dessous.
+>Si vous souhaitez reconfigurer votre canal pour le mettre hors ligne, décochez l’option Mode développeur dans l’onglet **Propriétés** (comme indiqué à l’étape (3)), puis, dans le panneau **INFORMATIONS SUR LE CANAL**, cliquez sur **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
 
 ![dashboard2](assets/dashboard2.gif)
 
-#### Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique {#automatic-versus-manual-updates-from-the-device-dashboard}
+#### Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique. {#automatic-versus-manual-updates-from-the-device-dashboard}
 
 Le tableau suivant répertorie les événements associés aux mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique.
 
@@ -187,17 +187,17 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
   <tr>
    <td>Changement de canal en ligne</td>
    <td>Contenu mis à jour automatiquement</td>
-   <td><p>Contenu mis à jour sur "Périphérique : Config push"</p> <p>Ou,</p> <p>Contenu mis à jour sur le <strong><i>périphérique : Redémarrer</i></strong></p> </td>
+   <td><p>Contenu mis à jour sur "Périphérique : Configuration Push"</p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Périphérique : Redémarrer</i></strong></p> </td>
   </tr>
   <tr>
-   <td>Changement du canal hors ligne, mais le canal "Contenu Push" n’est PAS déclenché (aucune recréation du package hors ligne)</td>
+   <td>Changement du canal hors ligne, mais le "contenu Push" du canal n’est PAS déclenché (aucune recréation du package hors ligne)</td>
    <td>Aucune mise à jour de contenu</td>
    <td>Aucune mise à jour de contenu</td>
   </tr>
   <tr>
-   <td>Le changement dans le canal hors ligne et le "contenu Push" du canal est déclenché (nouveau package hors ligne)</td>
+   <td>Changement dans le canal hors ligne et le "contenu Push" du canal est déclenché (nouveau package hors ligne)</td>
    <td>Contenu mis à jour automatiquement</td>
-   <td><p>Contenu mis à jour sur le <strong><i>périphérique : Configuration Push</i></strong></p> <p>Ou,</p> <p>Contenu mis à jour sur le <strong><i>périphérique : Redémarrer</i></strong></p> </td>
+   <td><p>Contenu mis à jour sur <strong><i>Périphérique : Configuration Push</i></strong></p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Périphérique : Redémarrer</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Changement de configuration</p>
@@ -208,7 +208,7 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
      <li>Affectation de canal (rôle, événement, planification)</li>
     </ul> </td>
    <td>Configuration mise à jour automatiquement</td>
-   <td><p>Configuration mise à jour sur le <strong><i>périphérique : Configuration Push</i></strong></p> <p>Ou,</p> <p>Configuration mise à jour sur le <strong><i>périphérique : Redémarrer</i></strong></p> </td>
+   <td><p>Configuration mise à jour sur <strong><i>Périphérique : Configuration Push</i></strong></p> <p>Ou,</p> <p>Configuration mise à jour sur <strong><i>Périphérique : Redémarrer</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -223,10 +223,10 @@ Les affichages attribués sont affichés dans le panneau **Affichages attribués
 
 >[!NOTE]
 >
->Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
+>Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
 >
 >* [Création et gestion des emplacements](managing-locations.md)
->* [Création et gestion des écrans](managing-displays.md)
+>* [Création et gestion des affichages](managing-displays.md)
 >
 
 
@@ -237,11 +237,11 @@ Cliquez ensuite sur l’affichage dans le panneau **AFFICHAGES ATTRIBUÉS** pour
 
 ### Étapes suivantes {#the-next-steps}
 
-Une fois que vous savez créer un canal, lui ajouter du contenu et modifier ce contenu, l’étape suivante consiste à découvrir comment créer un emplacement et un affichage, ainsi qu’à attibuer un canal à cet affichage.
+Une fois que vous savez créer un canal, lui ajouter du contenu et modifier ce contenu, l’étape suivante consiste à découvrir comment créer un emplacement et un affichage, ainsi qu’à attribuer un canal à cet affichage.
 
 Consultez les ressources ci-après pour les étapes suivantes :
 
 * [Création et gestion des canaux](managing-channels.md)
 * [Création et gestion des emplacements](managing-locations.md)
-* [Création et gestion des écrans](managing-displays.md)
+* [Création et gestion des affichages](managing-displays.md)
 
