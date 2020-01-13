@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -25,29 +25,29 @@ La console Périphériques vous permet d’accéder au gestionnaire de périphé
 >
 >Avant d’attribuer votre périphérique, vous devez l’enregistrer. Pour plus d’informations, reportez-vous à la section [Enregistrement des périphériques](device-registration.md).
 
-## Attribution des périphériques {#device-assignment}
+## Attribution des périphériques    {#device-assignment}
 
 Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage :
 
-1. Accédez au dossier Devices de votre projet, par exemple
+1. Accédez au dossier Périphériques de votre projet, par exemple :
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. Les périphériques attribués et non attribués s’affichent.
+1. Sélectionnez votre dossier **Périphériques** et appuyez ou cliquez ensuite sur **Gestionnaire de périphériques** dans la barre d’actions. Les périphériques attribués et non attribués s’affichent.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. Sélectionnez un périphérique non attribué dans la liste et appuyez/cliquez sur **Attribuer le périphérique** dans la barre d’actions.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. Sélectionnez l’affichage auquel vous voulez attribuer le périphérique dans la liste, puis appuyez/cliquez sur le bouton **Attribuer**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. Appuyez/cliquez sur **Terminer** pour terminer la procédure d’attribution.
 
    ![chlimage_1-36](assets/chlimage_1-36.png)
 
@@ -62,7 +62,7 @@ Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage 
 >[!NOTE]
 >
 >Chaque fois que vous ajoutez un premier périphérique à un nouveau projet Screens, un groupe d’utilisateurs est créé.
->For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
+>Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
 > Ce groupe est ajouté en tant que membre au groupe **Contributeurs**, comme illustré dans la figure ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
