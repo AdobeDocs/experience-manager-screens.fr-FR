@@ -1,6 +1,6 @@
 ---
-title: Configurations du répartiteur pour les écrans AEM
-seo-title: Configurations du répartiteur pour les écrans AEM
+title: Configurations du dispatcher pour AEM Screens
+seo-title: Configurations du dispatcher pour AEM Screens
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -8,31 +8,31 @@ uuid: ea68ca72-bbe7-42d5-9043-97aea7edcd6e
 contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Configurations du répartiteur pour les écrans AEM{#dispatcher-configurations-for-aem-screens}
+# Configurations du dispatcher pour AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager.
 
-La page suivante décrit les instructions de configuration du répartiteur pour un projet AEM Screens.
+La page suivante décrit les instructions de configuration du dispatcher pour un projet AEM Screens.
 
 ## Conditions préalables {#pre-requisites}
 
-Avant de configurer le répartiteur pour un projet AEM Screens, vous devez connaître le répartiteur au préalable.
+Avant de configurer le dispatcher pour un projet AEM Screens, vous devez connaître le dispatcher au préalable.
 
-Refer to **[Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)** for more details.
+Pour en savoir plus, consultez **[Configuration du Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)**.
 
-## Configuration de Dispatcher {#configuring-dispatcher}
+## Configuration du Dispatcher {#configuring-dispatcher}
 
-Suivez les étapes ci-dessous pour configurer le répartiteur pour un projet AEM Screens.
+Suivez les étapes ci-dessous pour configurer le dispatcher pour un projet AEM Screens.
 
-### Étape 1 : Configuration des en-têtes du client {#step-configuring-client-headers}
+### Étape 1 : configuration des en-têtes du client {#step-configuring-client-headers}
 
-Ajouter ce qui suit à la `/clientheaders` section
+Ajoutez ce qui suit à la section `/clientheaders`
 
 **X-Requested-With**
 
@@ -40,9 +40,9 @@ Ajouter ce qui suit à la `/clientheaders` section
 
 **X-REQUEST-COMMAND**
 
-### Étape 2 : Configuration des filtres d’écran {#step-configuring-screens-filters}
+### Étape 2 : configuration des filtres Screens {#step-configuring-screens-filters}
 
-Pour configurer les filtres Ecrans, ajoutez les éléments suivants à ***/filtrer***.
+Pour configurer les filtres Screens, ajoutez les éléments suivants à ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -62,6 +62,6 @@ Pour configurer les filtres Ecrans, ajoutez les éléments suivants à ***/filtr
 /0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Étape 3 : Désactivation du cache du répartiteur {#step-disabling-dispatcher-cache}
+### Étape 3 : désactivation du cache du dispatcher {#step-disabling-dispatcher-cache}
 
-Désactivez la mise en cache du répartiteur pour le chemin ******/contenu/écrans.
+Désactivez la mise en cache du dispatcher pour le chemin ***/content/screens***
