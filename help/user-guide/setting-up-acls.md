@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -21,15 +21,15 @@ La section suivante explique comment séparer les projets à l’aide des listes
 
 En tant qu’administrateur d’AEM, vous devez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chaque utilisateur est affecté à des rôles spécifiques en fonction des exigences du projet.
 
-## Configuration des autorisations {#setting-up-permissions}
+## Configuration des autorisations    {#setting-up-permissions}
 
 Les étapes suivantes résument le processus de configuration de listes de contrôle d’accès pour un projet :
 
-1. Login to AEM and navigate to **Tools** &gt; **Security**.
+1. Connectez-vous à AEM et accédez à **Outils** &gt; **Sécurité**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Click **Groups** and enter an ID (for example, Acme).
+1. Cliquez sur **Groupes**, puis saisissez un ID (par exemple, Acme).
 
    Vous pouvez également utiliser ce lien `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
@@ -37,7 +37,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Select **Contributors** from the list and double click it.
+1. Sélectionnez **Contributeurs** dans la liste et double-cliquez dessus.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -53,7 +53,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Setup the permissions for the group **Acme** using this `(http://localhost:4502/useradmin)`.
+1. Configurez les autorisations du groupe **Acme** à l’aide de ce `(http://localhost:4502/useradmin)`.
 
    Sélectionnez le groupe **Acme** et cliquez sur les **autorisations**.
 
@@ -74,16 +74,16 @@ Le tableau ci-dessous résume le chemin d’accès avec les autorisations au niv
 
 >[!NOTE]
 >
->Dans certains cas, vous pouvez séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement de lecteurs). Dans ce cas, créez deux groupes et ajoutez le groupe des auteurs aux contributeurs et le groupe des administrateurs aux contributeurs et aux administrateurs-utilisateurs.
+>Dans certains cas, vous pouvez séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans ce cas, créez deux groupes et ajoutez le groupe des auteurs aux contributeurs et le groupe des administrateurs aux contributeurs et aux administrateurs-utilisateurs.
 
-### Création de groupes {#creating-groups}
+### Création de groupes    {#creating-groups}
 
 La création d’un nouveau projet doit également créer des groupes d’utilisateurs par défaut avec un ensemble élémentaire d’autorisations affectées. Vous devez étendre les autorisations aux rôles standard existant pour les AEM Screens.
 
 Par exemple, vous pouvez créer les groupes spécifiques aux projets suivants :
 
-* Ecrans Administrateurs de projet
-* Opérateurs de projet Screens (enregistrement des lecteurs et gestion des emplacements et des appareils)
+* Administrateurs de projet Screens
+* Opérateurs de projet Screens (enregistrement des lecteurs et gestion des emplacements et des périphériques)
 * Utilisateurs de projet Screens (utilisation des canaux, des planifications et des affectations de canaux)
 
 Le tableau suivant récapitule les groupes avec une description et les autorisations pour un projet AEM Screens :
@@ -132,7 +132,7 @@ Le tableau suivant récapitule les groupes avec une description et les autorisat
   </tr>
   <tr>
    <td>Lecteurs Screens<br /> <em>screens-we-retail-devices</em></td>
-   <td>Les groupes contenant tous les lecteurs et tous les lecteurs/appareils sont automatiquement membres des contributeurs.</td>
+   <td>Les groupes contenant tous les lecteurs et tous les lecteurs/périphériques sont automatiquement membres des contributeurs.</td>
    <td><p> Membre des contributeurs</p> </td>
   </tr>
  </tbody>
