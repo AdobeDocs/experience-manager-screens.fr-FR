@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -23,10 +23,10 @@ Une fois que vous avez créé un emplacement, vous devez créer un affichage pou
 
 Vous découvrirez dans cette page comment créer et gérer des affichages pour Screens.
 
-**Conditions préalables**:
+**Conditions préalables** :
 
 * [Configuration et déploiement de Screens](configuring-screens-introduction.md)
-* [Création et gestion d’écrans](creating-a-screens-project.md)
+* [Création et gestion de projet Screens](creating-a-screens-project.md)
 * [Création et gestion des canaux](managing-channels.md)
 * [Création et gestion des emplacements](managing-locations.md)
 
@@ -34,23 +34,23 @@ Vous découvrirez dans cette page comment créer et gérer des affichages pour S
 
 >[!NOTE]
 >
->Vous devez créer un emplacement avant de créer un affichage. To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
+>Vous devez créer un emplacement avant de créer un affichage. Pour savoir comment créer un emplacement, voir [Création et gestion des emplacements](managing-locations.md) pour plus d’informations.
 
 Pour créer un affichage dans votre emplacement, suivez les étapes ci-dessous.
 
-1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
+1. Accédez à l’emplacement souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Sélectionnez votre dossier d’emplacements, puis appuyez ou cliquez sur **Créer** en regard de l’icône « + » dans la barre d’actions. Un assistant s’ouvre.
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
 
-1. Enter **Name** and **Title** for your display location.
+1. Saisissez le **nom** et le **titre** de l’emplacement de l’affichage.
 
-1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choose the desired **Resolution** (example as, as **Full HD**). De plus, vous pouvez choisir le nombre de périphériques horizontalement et verticalement.
+1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Sélectionnez la **résolution** souhaitée (par exemple, **Full HD**). Vous pouvez également sélectionner le nombre de périphériques horizontalement et verticalement.
 
 1. Cliquez sur **Créer**.
 
-The display (*StoreDisplay*) is created and added to the location (*SanJose*).
+L’affichage (*StoreDisplay*) est créé et ajouté à l’affichage de l’emplacement (*SanJose*).
 
-![afficher](assets/display.gif)
+![Affichage](assets/display.gif)
 
 Une fois que l’affichage est en place, l’étape suivante est de créer une configuration de périphérique pour cet affichage. Suivez la section ci-dessous pour créer une configuration de périphérique.
 
@@ -60,7 +60,7 @@ Une fois que l’affichage est en place, l’étape suivante est de créer une c
 >
 >Une fois que vous avez créé un affichage pour votre emplacement, vous devez attribuer un canal à votre affichage de façon à exploiter le contenu.
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>Voir [Attribution de canaux](channel-assignment.md) pour savoir comment attribuer un canal à l’affichage.
 
 ## Création d’une configuration de périphérique {#creating-a-new-device-config}
 
@@ -68,15 +68,15 @@ Une configuration de périphérique fonctionne comme un espace réservé pour un
 
 Suivez les étapes ci-dessous pour créer une configuration de périphérique.
 
-1. Accédez à l’affichage approprié, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
+1. Accédez à l’affichage souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation` ,.
 1. Sélectionnez votre dossier d’affichage et appuyez ou cliquez ensuite sur **Afficher le tableau de bord** dans la barre d’actions.
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. Appuyez/cliquez sur **+ Ajouter la configuration de périphériques** en haut à droite du panneau **Périphériques**.
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. Sélectionnez **Configuration du périphérique** comme modèle requis, puis appuyez/cliquez sur **Suivant**.
 
 1. Saisissez les propriétés demandées, puis appuyez ou cliquez sur **Créer**.
 
-The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
+La configuration du périphérique est créée et ajoutée à l’affichage en cours (dans la démonstration suivante, la nouvelle configuration du périphérique s’appelle *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
 
@@ -86,7 +86,7 @@ Une fois que vous avez ajouté la configuration de périphérique à votre affic
 >
 >Une fois que vous avez ajouté la configuration de périphérique à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>Comme illustré dans la figure ci-dessous, si la configuration du périphérique est affichée comme non attribuée dans le volet **PÉRIPHÉRIQUES**, aucun canal n’est attribué à cette configuration du périphérique.
 >
 >Vous devez d’abord comprendre comment créer et gérer des canaux. Voir [Création et gestion des canaux](managing-channels.md) pour en savoir plus.
 
@@ -110,7 +110,7 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les p
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+Cliquez sur (**...**) en haut à droite du panneau **INFORMATIONS SUR L’AFFICHAGE** pour afficher les propriétés et un aperçu de l’affichage.
 
 ![chlimage_1-10](assets/chlimage_1-10.png)
 
@@ -118,27 +118,27 @@ Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **pa
 
 Cliquez sur **Propriétés** pour afficher ou modifier les propriétés de votre affichage.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. Par défaut, cette valeur est définie sur *300 secondes*.
+Vous pouvez également régler la valeur du retardateur d’événements pour votre canal interactif dans la propriété **Délai d’inactivité **sous l’onglet **Affichage**. Par défaut, cette valeur est définie sur *300 secondes*.
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Utilisez **CRXDE Lite** pour accéder à la propriété **idleTimeout**, à savoir `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 ![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Panneau Canaux attribués {#assigned-channels-panel}
 
-Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à ce périphérique.
+Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet périphérique.
 
 ![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Panneau Périphériques {#devices-panel}
 
-Le panneau **PÉRIPHÉRIQUES** fournit des informations sur les configurations de périphérique.
+Le panneau **PÉRIPHÉRIQUES** fournit des informations sur les configurations des périphériques.
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
+Cliquez sur (**...**) en haut à droite du panneau **PÉRIPHÉRIQUES** pour ajouter des configurations de périphériques ou mettre à jour les périphériques.
 
 ![chlimage_1-12](assets/chlimage_1-12.png)
 
-De plus, cliquez sur la configuration du périphérique pour afficher les propriétés, affecter un périphérique ou le supprimer complètement.
+Cliquez sur la configuration du périphérique pour en afficher les propriétés, l‘attribuer ou le supprimer.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
@@ -146,4 +146,4 @@ De plus, cliquez sur la configuration du périphérique pour afficher les propri
 
 Une fois que vous avez créé un affichage pour votre emplacement, vous devez lui attribuer un canal.
 
-See [Assign Channels](channel-assignment.md) for more details.
+Reportez-vous à la section [Attribution des canaux](channel-assignment.md) pour plus de détails.
