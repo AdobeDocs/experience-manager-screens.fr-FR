@@ -1,6 +1,6 @@
 ---
-title: Canaux hors connexion
-seo-title: Canaux hors connexion
+title: Canaux hors ligne
+seo-title: Canaux hors ligne
 description: 'Le lecteur AEM Screens fournit une prise en charge hors ligne des canaux grâce à la technologie ContentSync. Suivez cette page pour en savoir plus sur les gestionnaires de mise à jour et pour activer la configuration hors ligne d’un canal.  '
 seo-description: 'Le lecteur AEM Screens fournit une prise en charge hors ligne des canaux grâce à la technologie ContentSync. Suivez cette page pour en savoir plus sur les gestionnaires de mise à jour et pour activer la configuration hors ligne d’un canal.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Canaux hors ligne {#offline-channels}
 
-The Screens player provides offline support for the channels by leveraging the ***ContentSync*** technology.
+Le lecteur Screens fournit une prise en charge hors ligne des canaux grâce à la technologie ***ContentSync**.*
 
 Les lecteurs utilisent un serveur http local pour diffuser le contenu décompressé.
 
@@ -32,15 +32,15 @@ Le workflow du processus est le suivant :
 1. Télécharger le zip et l’extraire localement
 1. Afficher une copie locale du contenu
 
-## Mettre à jour les gestionnaires {#update-handlers}
+## Mettre à jour les gestionnaires    {#update-handlers}
 
 ***ContentSync**utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique.* AEM Screens utilise les gestionnaires de mise à jour suivants :
 
-### Options communes {#common-options}
+### Options communes    {#common-options}
 
 * *type* : type de gestionnaire de mise à jour à utiliser
 * *path* : chemin d’accès à la ressource
-* *[targetRootDirectory]*: dossier cible dans le fichier zip
+* *[targetRootDirectory]* : dossier cible dans le fichier zip
 
 <table>
  <tbody>
@@ -50,19 +50,19 @@ Le workflow du processus est le suivant :
    <td><strong>Options</strong></td> 
   </tr>
   <tr>
-   <td>canaux</td> 
+   <td>channels</td> 
    <td>collecte un canal</td> 
-   <td>extension : extension de la ressource à collecter<br /> [pathSuffix='''] : suffixe à ajouter au chemin du canal<br /> </td> 
+   <td>extension : extension de la ressource à collecter<br /> [pathSuffix='''] : suffixe à ajouter au chemin du canal<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
-   <td>collecte de la bibliothèque cliente spécifiée</td> 
-   <td>[extension='''] : peut être soit css, soit js, pour collecter uniquement la première, soit la seconde</td> 
+   <td>collecte la bibliothèque cliente spécifiée</td> 
+   <td>[extension='''] : peut être soit css, soit js, pour collecter uniquement la première, soit la seconde</td> 
   </tr>
   <tr>
-   <td>assertions</td> 
+   <td>assetrenditions</td> 
    <td>collecte des rendus de ressources</td> 
-   <td>[rendus=[]] : liste des rendus à collecter. Valeur par défaut du rendu d’origine</td> 
+   <td>[renditions=[]] : liste des rendus à collecter. Défini par défaut sur le rendu d’origine</td> 
   </tr>
   <tr>
    <td>Copier</td> 
@@ -76,16 +76,16 @@ Le workflow du processus est le suivant :
 
 Suivez les étapes ci-dessous pour tester la configuration de ContentSync :
 
-1. Ouvrir `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Sélectionner une config dans la liste
-1. Cliquez sur Effacer le cache
-1. Cliquez sur Mettre à jour le cache
-1. Cliquez sur Télécharger complet
+1. Ouvrez `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. Sélectionner votre configuration dans la liste
+1. Cliquer sur Effacer le cache
+1. Cliquer sur Mettre à jour le cache
+1. Cliquer sur Télécharger tout le module
 1. Extraire le fichier zip
-1. Démarrage d’un serveur local dans le dossier extrait
+1. Démarrer un serveur local dans le dossier extrait
 1. Ouvrir la page de démarrage et vérifier l’état de l’application
 
-## Activation de la configuration hors ligne d’un canal {#enabling-offline-config-for-a-channel}
+## Activation de la configuration hors ligne d’un canal    {#enabling-offline-config-for-a-channel}
 
 Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un canal :
 
@@ -93,7 +93,7 @@ Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un ca
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **Accédez au tableau de bord du canal et cliquez sur**... dans le panneau INFORMATIONS **DU** CANAL pour modifier les propriétés.
+1. Accédez au tableau de bord du canal et cliquez sur **...** dans le panneau **INFORMATIONS SUR LES CANAUX** pour modifier les propriétés.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -101,7 +101,7 @@ Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un ca
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Avant que le contenu ne soit correctement déployé sur l’appareil, cliquez sur **Mettre à jour le contenu hors ligne**.
+   Avant que le contenu ne soit correctement déployé sur le périphérique, cliquez sur **Mettre à jour le contenu hors ligne**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
@@ -109,7 +109,7 @@ Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un ca
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspectez le contenu du canal et vérifiez s’il est demandé par le cache de lecteur local.
+1. Inspectez le contenu du canal et vérifiez s’il est demandé par le cache du lecteur local.
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
