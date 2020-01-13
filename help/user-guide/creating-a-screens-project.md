@@ -1,5 +1,5 @@
 ---
-title: Création et gestion de projets
+title: Création et gestion des projets
 seo-title: Création d’un projet
 description: Lisez cette page pour en savoir plus sur la création d’un projet Screens.
 seo-description: Lisez cette page pour en savoir plus sur la création d’un projet Screens.
@@ -9,17 +9,18 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Création et gestion de projets {#creating-and-managing-projects}
+# Création et gestion des projets {#creating-and-managing-projects}
 
 Vous pouvez accéder à AEM Screens en sélectionnant le lien Adobe Experience Manager (en haut à gauche), puis Screens.
 
-Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`![chlimage_1-14](assets/chlimage_1-14.png)
+Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`
+![chlimage_1-14](assets/chlimage_1-14.png)
 
 Chaque projet peut être associé à une marque, un déploiement, un client, etc.
 
@@ -31,22 +32,22 @@ Chaque projet peut être associé à une marque, un déploiement, un client, etc
 >
 >Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, lorsque vous avez sélectionné une entité, vous pouvez appuyer sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
 
-## Création d’un projet Screens {#creating-a-new-screens-project}
+## Création d’un projet Screens    {#creating-a-new-screens-project}
 
 Suivez les étapes ci-dessous pour créer un projet Screens :
 
 1. Sélectionnez **Screens** dans le tableau de bord AEM.
-1. Click **Create **--&gt;** Create Project **and **Create Screens Project** wizard will open.
+1. Cliquez sur  *Créer **--&gt;** Créer un projet**. L’assistant **Créer un projet Screens** s’ouvre alors.
 
-1. Select the **Screens** template and click **Next**.
+1. Sélectionnez le modèle **Screens**, puis cliquez sur **Suivant**.
 
-1. Enter the properties (**Title** and **Name**) as required and click **Create**.
+1. Entrez les propriétés (**Titre** et **Nom**) comme indiqué, puis cliquez sur **Créer**.
 
 ![player1](assets/player1.gif)
 
 >[!NOTE]
 >
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Vous pouvez supprimer les options, si les options disponibles ne sont pas pertinentes pour votre projet.
+>Par défaut, la structure initiale contient les gabarits **Planifications**, **Emplacements**, **Applications**, **Canaux** et **Périphériques**, mais vous pouvez les modifier manuellement si besoin. Vous pouvez supprimer les options, si les options disponibles ne sont pas pertinentes pour votre projet.
 
 Le projet est à présent créé et vous êtes redirigé vers la console du projet Screens. Vous pouvez sélectionner votre projet.
 
@@ -62,31 +63,31 @@ Un projet comprend quatre types de dossiers, comme illustré dans la figure ci-d
 
 ### Affichage des propriétés {#viewing-properties}
 
-Once you create the Screens project, click **Properties** on the action bar to edit properties of an exiting AEM Screens project.
+Une fois que vous aurez créé le projet AEM Screens, cliquez sur **Propriétés** dans la barre d’actions pour modifier ses propriétés.
 
 ![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
 
-The following options allow you to edit/change properties of your *DemoProject*.
+Les options suivantes vous permettent de modifier les propriétés de votre projet *DemoProject*.
 
 ![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
 
 ### Création d’un dossier personnalisé {#creating-a-custom-folder}
 
-Vous pouvez également créer votre propre dossier personnalisé sous **Planifications**, **Emplacements**, **Applications****, Canaux et Périphériques gabarits disponibles dans votre projet.******
+Vous pouvez également créer votre propre dossier personnalisé sous les gabarits **Planifications**, **Emplacements**, **Applications**, **Canaux** et **Périphériques** disponibles dans votre projet.
 
 Pour créer un dossier personnalisé :
 
-1. Select your project and click on **Create** next to plus icon in the action bar.
+1. Sélectionnez votre projet, puis cliquez sur **Créer** en regard de l’icône « + » dans la barre d’actions.
 1. L’assistant **Créer** s’ouvre, vous permettant de sélectionner les options souhaitées.
 1. Cliquez sur **Suivant**.
 1. Entrez les propriétés, puis cliquez sur **Créer**.
 
-Les étapes suivantes montrent la création d’un dossier d’applications dans le gabarit **Applications** dans *DemoProject*.
+Les étapes suivantes montrent la création d’un dossier d’applications dans le gabarit **Applications** de *DemoProject*.
 
 ![player2-1](assets/player2-1.gif)
 
 ### Étapes suivantes {#the-next-steps}
 
-Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
+Une fois que vous aurez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer le contenu de votre canal.
 
-De plus, vous pouvez créer votre propre planification, application, emplacement ou périphérique.
+Vous pouvez également créer votre propre Planification, application, emplacement ou périphérique.
