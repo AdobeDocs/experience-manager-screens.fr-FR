@@ -1,20 +1,20 @@
 ---
-title: Création de modèles personnalisés dans des mises en page multi-zones
-seo-title: Création de modèles personnalisés dans des mises en page multi-zones
+title: Création de modèles personnalisés dans des mises en page MultiZone
+seo-title: Création de modèles personnalisés dans des mises en page MultiZone
 description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Création de modèles personnalisés dans des mises en page multi-zones {#creating-custom-templates-multizone}
+# Création de modèles personnalisés dans des mises en page MultiZone {#creating-custom-templates-multizone}
 
 L’exemple suivant montre comment créer des modèles personnalisés dans des mises en page multiZone.
 
-Par exemple, la section ci-dessous illustre la création d’un modèle personnalisé dans une disposition multizone avec les configurations suivantes :
+Par exemple, la section ci-dessous illustre la création d’un modèle personnalisé dans une disposition multiZone avec les configurations suivantes :
 
 ![image](assets/custom-template1.png)
 
@@ -67,9 +67,9 @@ Suivez les étapes ci-dessous pour créer un modèle personnalisé.
    >
    >Assurez-vous que le `cq:designPath` code ci-dessus correspond au chemin.
 
-1. Mettez à jour le noeud **offline-config** pour que la conception pointe également vers le nouveau chemin.
+1. Mettez à jour le nœud **Configuration hors ligne** pour que la conception pointe également vers le nouveau chemin.
 
-1. Ajoutez un fichier **static.css** dans le `/apps/settings/wcm/designs/<project>` dossier et définissez son contenu sur
+1. Ajoutez un fichier **static.css** dans le dossier `/apps/settings/wcm/designs/<project>` et définissez son contenu sur
 
 ```shell
 .cq-Screens-channel--multizone.my-CustomLayout {}
@@ -80,21 +80,21 @@ Suivez les étapes ci-dessous pour créer un modèle personnalisé.
 
 ## Insertion d’une image en tant que calque d’arrière-plan {#inserting-image}
 
-Vous pouvez définir une image comme calque d’arrière-plan sur la disposition :
+Vous pouvez définir une image comme calque d’arrière-plan sur la disposition :
 
-Vous pouvez ajuster la règle CSS pour utiliser ce qui est appelé "data-uri" et directement dans l’image (codée en base 64) du fichier CSS.
+Vous pouvez ajuster la règle CSS pour utiliser un « data-uri » et intégrer directement dans l’image (codée en base 64) du fichier CSS.
 
-Cela se fait comme suit :
+Cela se fait comme suit :
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
-Vous pouvez également suivre les étapes ci-dessous :
+Vous pouvez également suivre les étapes ci-dessous :
 
-1. Assurez-vous que l’image est en quelque sorte incluse dans la configuration hors ligne du canal.
-1. Utilisez un lien direct vers l’image dans le fichier CSS ci-dessus, au lieu de la variante "uri de données".
+1. Vérifiez que l’image est incluse d’une manière ou d’une autre dans la configuration hors ligne du canal.
+1. Utilisez un lien direct vers l’image dans le fichier CSS ci-dessus, au lieu de la variante « data-uri ».
 
 
 ## Mise à jour de la couleur d’arrière-plan {#updating-color}
 
-Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml :
+Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml :
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
