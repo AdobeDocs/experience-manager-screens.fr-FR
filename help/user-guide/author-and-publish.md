@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ Pour chaque instance de publication :
 
 1. Accédez à `https://<host>:<port>/system/console/configMgr`
 1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak** .
-1. Mettez à jour les URL des connecteurs de topologie : ajouter les URL de toutes les instances de publication participantes, à savoir `https://localhost:4502/libs/sling/topology/connector`
+1. Mettre à jour les URL des connecteurs de topologie : ajoutez des URL de toutes les instances de publication participantes qui sont :
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Liste blanche des connecteurs de topologie : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication
 1. Activez **Arrêt automatique des boucles locales**
 
@@ -237,7 +239,7 @@ Vérifiez votre lecteur et vous verrez le contenu que vous avez ajouté à votre
 
 **Vérification du périphérique**
 
-Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. Pour vérifier, recherchez l’ID du périphérique dans CRXDELite, en utilisant comme chemin d’accès */home/users/screens/{projet}/devices*.
+Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
 
 Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
@@ -275,11 +277,15 @@ Les points suivants récapitulent la Liste de contrôle de publication :
 * *Planification* : si vous utilisez une planification, veillez à ce qu’elle soit publiée.
 * *Dossier Emplacement, Planifications et Canal* : si les ressources correspondantes se trouvent dans un dossier.
 
-Une fois la liste de contrôle vérifiée, vous devez vérifier les changements/comportements suivants dans votre canal :
+Suivez les étapes ci-dessous pour vérifier le comportement auteur/publication :
 
-* Après avoir publié la configuration du périphérique, ouvrez la configuration du lecteur Screens et pointez-la vers l’instance de publication. Vous pouvez également activer le périphérique à partir de la console de gestion des périphériques.
-* Mettez à jour le contenu d’un canal sur l’auteur, puis publiez-le et vérifiez que le canal mis à jour s’affiche désormais sur le lecteur AEM Screens.
-* Connectez le lecteur Screens à une autre instance de publication et vérifiez le comportement ci-dessus.
+1. Mise à jour du contenu d’un canal sur l’instance d’auteur
+1. Effectuez **Gestion de la publication** pour publier de nouvelles modifications sur toutes les instances de publication.
+1. Appuyez sur **Activer** pour activer le périphérique à partir du Gestionnaire de **périphériques.**
+1. **Modifier l’URL** de l’URL de l’instance d’auteur vers l’URL de l’une des instances de publication
+1. Vérifiez que le contenu du canal mis à jour s’affiche sur le lecteur d’écrans AEM.
+1. Répétez ces étapes à l’aide d’une instance de publication différente
+
 
 #### Étape 5 : pointage du périphérique vers l’instance de publication dans le panneau d’administration {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+The **Manage Publication** feature allows you to deliver content updates from author to publish to device. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, périphériques, applications ou plannings. Pour en savoir plus sur cette fonctionnalité, reportez-vous à la section Mise à jour [du contenu](on-demand-content.md)à la demande.
 
 
