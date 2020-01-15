@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation lors de la configuration d’un projet qui crée un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ Pour configurer un projet, procédez comme suit :
       >Pour en savoir plus sur les expressions que vous pouvez ajouter à la **planification**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
    * **actif depuis**: Date et heure de début.
    * **actif jusqu&#39;à**: Date et heure de fin.
-   Par exemple, le texte dans **Calendrier** et **actif depuis** et **** actif jusqu’à la date et l’heure ici permet au contenu de lire tous les mercredis de 14h00 à 16h00.
+
+      Par exemple, le texte dans **Calendrier** et **actif depuis** et **** actif jusqu’à la date et l’heure ici permet au contenu de lire tous les mercredis de 14h00 à 16h00.
 
 
-   ![ressource](assets/p_usecase7.png)
+      ![ressource](assets/p_usecase7.png)
 
-   Accédez à l&#39;affichage à partir de **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay et cliquez sur Dashboard dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
+      Accédez à l&#39;affichage à partir de **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay et cliquez sur Dashboard dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
 
-   >[!NOTE]
-   >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
+      >[!NOTE]
+      >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
 
-   ![asset](assets/p_usecase8.png)Now, la chaîne **TakeOver** prendra le relais de **MainAdChannelChannel** à 14h00 pendant deux heures jusqu&#39;à 16h00 tous les mercredis et diffusera son contenu du 9 janvier 2020 au 31 janvier 2020.
+      ![asset](assets/p_usecase8.png)Now, la chaîne **TakeOver** prendra le relais de **MainAdChannelChannel** à 14h00 pendant deux heures jusqu&#39;à 16h00 tous les mercredis et diffusera son contenu du 9 janvier 2020 au 31 janvier 2020.
 
 ## Example Expressions {#example-expressions}
 
