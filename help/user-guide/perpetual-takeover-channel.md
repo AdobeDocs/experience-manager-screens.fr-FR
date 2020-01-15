@@ -5,7 +5,7 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise en char
 seo-description: Suivez ce cas d’utilisation lors de la configuration d’un projet qui crée un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 874ddde28be840d0dcac197e48ca579a12661994
+source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
 
 ---
 
@@ -14,18 +14,18 @@ source-git-commit: 874ddde28be840d0dcac197e48ca579a12661994
 
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet sur la création d’un canal de prise en charge permanente qui est lu pour une journée et une heure spécifiques en continu.
 
-## Description du cas d’utilisation  {#use-case-description}
+## Description du cas d’utilisation {#use-case-description}
 
 Ce cas d’utilisation explique comment créer un canal qui *prend le relais* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle aura lieu perpétuellement un jour et un moment précis.
 Par exemple, il existe une chaîne Perpetual TakeOver qui joue tous les vendredis de 9h à 10h. Pendant ce temps, aucun autre canal ne devrait jouer. L’exemple suivant montre la création d’une chaîne de prise en charge permanente qui lit le contenu permet de lire le contenu tous les mercredis pendant 2 heures, de 14h00 à 16h00.
 
 ### Conditions préalables {#preconditions}
 
-Avant de commencer cette utilisation, assurez-vous de comprendre comment :
+Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
 * **[Création et gestion des canaux](managing-channels.md)**
 * **[Création et gestion des emplacements](managing-locations.md)**
-* **[Création et gestion de calendriers](managing-schedules.md)**
+* **[Créer et gérer des planifications](managing-schedules.md)**
 * **[Enregistrement de périphériques](device-registration.md)**
 
 ### Acteurs principaux {#primary-actors}
@@ -38,7 +38,7 @@ Pour configurer un projet, procédez comme suit :
 
 **Configuration des canaux et affichage**
 
-1. Créez un projet AEM Screens intitulé **PerpetualTakeOver**, comme illustré ci-dessous.
+1. Create an AEM Screens Project titled as **PerpetualTakeOver**, as shown below.
 
    ![ressource](assets/p_usecase1.png)
 
@@ -46,7 +46,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/p_usecase2.png)
 
-1. Sélectionnez **MainAdChannel** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez certains fichiers (images, vidéos, séquences incorporées) sur votre canal.
+1. Select the **MainAdChannel** and click **Edit** from the action bar. Faites glisser et déposez certains fichiers (images, vidéos, séquences incorporées) sur votre canal.
 
    ![ressource](assets/p_usecase3.png)
 
@@ -56,7 +56,7 @@ Pour configurer un projet, procédez comme suit :
 
 1. Créez un canal **TakeOver** qui prend le contrôle du contenu dans **MainAdChannel** et jouera tous les mercredis de 14h00 à 16h00.
 
-1. Sélectionnez le **TakeOver** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez des fichiers sur votre canal. L’exemple suivant montre une image de zone unique ajoutée à ce canal.
+1. Select the the **TakeOver** and click **Edit** from the action bar. Faites glisser et déposez des fichiers sur votre canal. L’exemple suivant montre une image de zone unique ajoutée à ce canal.
 
    ![ressource](assets/p_usecase4.png)
 
@@ -102,7 +102,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![asset](assets/p_usecase8.png)Now, la chaîne **TakeOver** prendra le relais de **MainAdChannelChannel** à 14h00 pendant deux heures jusqu&#39;à 16h00 tous les mercredis et diffusera son contenu du 9 janvier 2020 au 31 janvier 2020.
 
-### Example Expressions {#example-expressions}
+## Example Expressions {#example-expressions}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’affectation d’un canal à un affichage.
 
@@ -112,8 +112,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | après 14h00 | la chaîne joue tous les jours après 14h00 |
 | après 12:15 et avant 12:45 | la chaîne est diffusée après 12h15 tous les jours pendant 30 minutes |
 | avant 12h15 également après 12h45 | la chaîne est diffusée avant 12h15 tous les jours et après 12h45 |
-| le 1er janvier après 14h00 également le 2e jour de janvier également le 3e jour de janvier avant 3h00 | la chaîne commence à jouer après 12h45 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier. |
-| le 1er-2 janvier après 14h00 également le 2-3 janvier avant 3h00 | la chaîne démarre le lecteur après 12h45 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 12h45 et continue à jouer jusqu&#39;à 3h00 le 3 janvier. |
+| le 1er janvier après 14h00 également le 2e jour de janvier également le 3e jour de janvier avant 3h00 | la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
+| le 1er-2 janvier après 14h00 également le 2-3 janvier avant 3h00 | la chaîne démarre le joueur après 14h00 le 1er janvier, continue à jouer jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue à jouer jusqu&#39;à 3h00 le 3 janvier |
 
 >[!NOTE]
 >Vous pouvez également utiliser la notation _militaire du temps_ (c&#39;est-à-dire 14 h) au lieu de la notation *am/pm* (c&#39;est-à-dire 14 h).
