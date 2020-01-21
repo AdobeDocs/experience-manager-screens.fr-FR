@@ -1,15 +1,15 @@
 ---
-title: Notes de mise à jour du Feature Pack 201912
-seo-title: Notes de mise à jour du Feature Pack 201912
+title: Notes de mise à jour du Feature Pack 201912
+seo-title: Notes de mise à jour du Feature Pack 201912
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201912, publié 20 janvier 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201912, publié 20 janvier 2020.
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
 
-# Notes de mise à jour du Feature Pack 201912{#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 201912{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -19,19 +19,18 @@ AEM Screens a publié AEM 6.4 Feature Pack 7 et AEM 6.5 Feature Pack 3 avec 
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 201912 est 20 janvier 2020.
+La date de publication d’AEM Screens Feature Pack 201912 est 21 janvier 2020.
 
 ### Nouveautés {#what-s-new}
 
 * **Synchronisation des commandes pour la lecture des ressources**
 
 
-* **Cadre de contrôle d&#39;intégrité pour afficher l&#39;état de https et autoriser un référent vide**
+* **Cadre de contrôle d’intégrité pour afficher l’état de https et autoriser un référent** vide La structure de contrôle d’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires (Autoriser les demandes de référents vides et Service HTTP Apache Felix Jetty) sont configurées avant d’exécuter un projet AEM Screens.
 
+   Pour en savoir plus sur le Cadre de vérification de la santé, consultez le Cadre [de vérification de la](/help/user-guide/configuring-screens-introduction.md#health-check-framework)santé.
 
-
-* **Mises à jour des types de transition par défaut**
-
+* **Mises à jour des types** de transition par défaut Les propriétés du composant de transition, tel que **Type** , sont désormais définies sur **Fondu** et la **durée** sur 1 600 ms, par défaut.****
 
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
