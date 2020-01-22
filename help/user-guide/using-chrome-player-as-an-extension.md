@@ -3,8 +3,8 @@ title: Utilisation du lecteur Chrome comme extension
 seo-title: Utilisation du lecteur Chrome comme extension
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
 
 ---
 
@@ -19,7 +19,7 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 
 Consultez cette page pour en savoir plus sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 
-1. Cliquez ici pour télécharger la dernière version du lecteur Chrome.
+1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
 
