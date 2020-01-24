@@ -1,105 +1,105 @@
 ---
-title: Canal de prise en charge à usage unique
-seo-title: Canal de prise en charge à usage unique
-description: Suivez ce cas d’utilisation pour créer un canal de prise en charge à usage unique.
-seo-description: Suivez ce cas d’utilisation pour créer un canal de prise en charge à usage unique.
+title: Canal de prise de contrôle à usage unique
+seo-title: Canal de prise de contrôle à usage unique
+description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
+seo-description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
 
-# Canal de prise en charge à usage unique {#single-use-takeover-channel}
+# Canal de prise de contrôle à usage unique {#single-use-takeover-channel}
 
-La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet sur la création d’un canal de prise en charge unique qui est lu une seule fois pendant une période spécifique.
+La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle à usage unique, lu une seule fois pendant une durée spécifique.
 
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Ce cas d’utilisation explique comment créer un canal qui *prend le relais* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu&#39;une fois et pour une durée déterminée.
-Par exemple, il existe un canal TakeOver unique qui se joue le vendredi de 9 h à 10 h. Pendant ce temps, aucun autre canal ne devrait jouer. Avant et après cette période, le canal Prise en charge à usage unique ne sera pas lu. L’exemple suivant montre la création d’un canal de reprise unique qui est lu, ce qui permet au contenu de lire pendant 2 minutes avant 12h00 le 31 décembre jusqu’à 12h01.
+Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu’une fois et pour une durée spécifique.
+Par exemple, il existe un canal de prise de contrôle unique lu le vendredi de 9h00 à 10h00. Pendant ce temps, aucun autre canal ne doit être lu. Avant et après cette période, le canal de prise de contrôle à usage unique n’est pas lu. L’exemple suivant présente la création d’un canal de prise de contrôle unique qui permet au contenu d’être lu pendant 2 minutes avant 12h00 le 31 décembre jusqu’à 12h01.
 
 ### Conditions préalables {#preconditions}
 
-Avant de commencer cette utilisation, assurez-vous de comprendre comment :
+Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
 * **[Création et gestion des canaux](managing-channels.md)**
 * **[Création et gestion des emplacements](managing-locations.md)**
-* **[Création et gestion de calendriers](managing-schedules.md)**
-* **[Enregistrement de périphérique](device-registration.md)**
+* **[Créer et gérer des planifications](managing-schedules.md)**
+* **[Enregistrement de périphériques](device-registration.md)**
 
 ### Acteurs principaux {#primary-actors}
 
 Auteurs de contenu
 
-## Setting up the Project {#setting-up-the-project}
+## Configuration du projet {#setting-up-the-project}
 
-Pour configurer un projet, procédez comme suit :
+Pour configurer un projet, procédez comme suit :
 
-**Configuration des canaux et affichage**
+**Configuration des canaux et de l’affichage**
 
-1. Créez un projet AEM Screens intitulé **SingleUseTakeOver**, comme illustré ci-dessous.
+1. Créez un projet AEM Screens appelé **SingleUseTakeOver**, comme illustré ci-dessous.
 
    ![ressource](assets/single-takeover1.png)
 
-1. Créez un **canalAdChannel** principal dans le dossier **Canaux** .
+1. Créez un canal **MainAdChannel** dans le dossier **Channels** (Canaux).
 
    ![ressource](assets/single-takeover2.png)
 
-1. Sélectionnez **MainAdChannel** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez certains fichiers (images, vidéos, séquences incorporées) sur votre canal.
+1. Sélectionnez le canal **MainAdChannel** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
 
    ![ressource](assets/single-takeover2.png)
 
 
    >[!NOTE]
-   >Le **MainAdChannel** de cet exemple illustre un canal de séquence qui lit le contenu en continu.
+   >Le canal **MainAdChannel** de cet exemple illustre un canal de séquence qui lit le contenu en continu.
 
    ![ressource](assets/single-takeover3.png)
 
-1. Créez un canal **TakeOver** qui prend le contenu en charge dans **MainAdChannel** et qui ne sera lu que pour un jour et une heure spécifiques.
+1. Créez un canal **TakeOver** qui prend le contrôle du contenu dans **MainAdChannel** et est lu uniquement un jour et une heure spécifiques.
 
-1. Sélectionnez le **TakeOver** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez des fichiers sur votre canal. L’exemple suivant montre une image de zone unique ajoutée à ce canal.
+1. Sélectionnez le canal **TakeOver** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
 
    ![ressource](assets/single-takeover4.png)
 
-1. Configurez un emplacement et un affichage pour vos canaux. Par exemple, l’emplacement suivant **Lobby** et affichage **MainLobbyDisplay** est configuré pour ce projet.
+1. Configurez un emplacement et un affichage pour vos canaux. Par exemple, l’emplacement **Lobby** et l’affichage **MainLobbyDisplay** suivants sont configurés pour ce projet.
 
    ![ressource](assets/single-takeover5.png)
 
 **Affectation de canaux à un affichage**
 
-1. Sélectionnez l’affichage **MainLobbyDisplay** dans le dossier **Emplacements** . Click **Assign Channel** from the action bar.
+1. Sélectionnez l’affichage **MainLobbyDisplay** dans le dossier **Locations** (Emplacements). Cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    ![ressource](assets/single-takeover6.png)
 
    >[!NOTE]
-   >Pour savoir comment affecter un canal à un affichage, reportez-vous à Affectation **[de](channel-assignment.md)**canal.
+   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à **[Attribution de canaux](channel-assignment.md)**.
 
-1. Renseignez les champs (Chemin du **canal**, **Priorité** et Evénements **pris en charge) dans la boîte de dialogue Affectation du****canal, puis cliquez sur Enregistrer.****** Vous avez maintenant affecté **MainAdChannel** à votre écran.
+1. Renseignez les champs (**Chemin du canal**, **Priorité** et **Événements pris en charge**) de la boîte de dialogue **Attribution de canaux** et cliquez sur **Enregistrer**. Vous venez d’attribuer le canal **MainAdChannel** à votre affichage.
 
    ![ressource](assets/single-takeover7.png)
 
-1. Sélectionnez l’affichage **Prendre le contrôle** dans le dossier **Emplacements** . Cliquez sur **Attribuer un canal** dans la barre d’actions pour affecter le canal de reprise à usage unique.
+1. Sélectionnez l’affichage **TakeOver** dans le dossier **Locations** (Emplacements). Cliquez sur **Attribuer un canal** dans la barre d’actions pour attribuer le canal de prise de contrôle à usage unique.
 
-1. Pour affecter le canal **TakeOver** à votre affichage à un moment planifié et renseigner les champs suivants dans la boîte de dialogue Affectation **de** canal, puis cliquez sur **Enregistrer**:
+1. Pour attribuer le canal **TakeOver** à votre affichage à une heure planifiée et renseigner les champs suivants de la boîte de dialogue **Attribution de canaux**, cliquez sur **Enregistrer** :
 
-   * **Chemin** du canal : Sélectionnez le chemin du canal de prise en charge
-   * **Priorité**: Définissez la priorité de ce canal supérieure à celle de **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
+   * **Chemin du canal** : sélectionnez le chemin d’accès au canal TakeOver.
+   * **Priorité** : attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
       >[!NOTE]
-      >La priorité peut être toute valeur supérieure à la valeur de priorité du canal normalement lu.
-   * **Evénements** pris en charge : Sélectionnez l’écran **inactif** et le **minuteur**.
-   * **Planification**: Entrez le texte de la planification pour que ce canal exécute l&#39;affichage. Par exemple, le texte ici permet au contenu de lire 2 minutes avant 12h00 le 31 décembre jusqu’à 12h01.
-Le texte de l&#39; **annexe** mentionnée dans cet exemple est *le 31 décembre après 23:58 et le 1er janvier avant 00:01*.
+      >La priorité peut être une valeur supérieure à la valeur de priorité du canal normalement lu.
+   * **Événements pris en charge** : sélectionnez l’**Écran inactif** et le **Minuteur**.
+   * **Planification** : Entrez le texte de la planification selon laquelle ce canal doit exécuter l’affichage. Par exemple, le texte permet ici au contenu d’être lu pendant 2 minutes avant 12h00 le 31 décembre et jusqu’à 12h01.
+Le texte de la **Planification** mentionnée dans cet exemple est *le 31 décembre après 23h58 et également le 1er janvier avant 00h01*.
 
       ![ressource](assets/single-takeover8.png)
 
-      Accédez à l&#39;affichage à partir de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay et cliquez sur Dashboard dans la barre d&#39;action pour afficher les canaux affectés avec leurs priorités, comme illustré ci-dessous.******
+      Accédez à l’affichage à partir de **SingleUseTakeOver** --> **Emplacements** --> **Lobby** --> **MainLobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions pour afficher les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
       >[!NOTE]
-      >Il est obligatoire de définir la priorité du canal de reprise comme étant la plus élevée.
+      >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.
 
       ![ressource](assets/single-takeover9.png)
 
 >[!NOTE]
->Il est recommandé de supprimer le canal de prise en charge à usage unique une fois qu’il est lu.
+>Il est recommandé de supprimer le canal de prise de contrôle à usage unique une fois qu’il est lu.
