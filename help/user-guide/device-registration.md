@@ -1,6 +1,6 @@
 ---
-title: Enregistrement de périphérique
-seo-title: Enregistrement de périphérique
+title: Enregistrement de périphériques
+seo-title: Enregistrement de périphériques
 description: Cette page décrit le processus d’enregistrement des périphériques dans un projet AEM Screens.
 seo-description: Cette page décrit le processus d’enregistrement des périphériques dans un projet AEM Screens.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
@@ -10,30 +10,30 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
 
-# Enregistrement de périphérique {#device-registration}
+# Enregistrement de périphériques {#device-registration}
 
 La page suivante décrit le processus d’enregistrement des périphériques dans un projet AEM Screens.
 
-## Registering a Device {#registering-a-device}
+## Enregistrement d’un périphérique {#registering-a-device}
 
-Le processus d’enregistrement des périphériques est effectué sur deux machines distinctes :
+Le processus d’enregistrement des périphériques est effectué sur 2 machines distinctes :
 
 * Périphérique actuel à enregistrer, par exemple Affichage de signalétique.
 * Serveur AEM utilisé pour enregistrer votre périphérique.
 
 >[!NOTE]
 >
->Une fois que vous avez téléchargé le dernier lecteur Windows (*.exe*), à partir de la page de téléchargement [du lecteur](https://download.macromedia.com/screens/) AEM 6.4, suivez les étapes du lecteur pour terminer l’installation ad hoc :
+>Une fois que vous avez téléchargé le dernier lecteur Windows (*.exe*), à partir de la page de téléchargement [du lecteur AEM 6.4](https://download.macromedia.com/screens/), suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
->1. Appuyez longuement sur le coin supérieur gauche pour ouvrir le panneau d’administration.
->1. Accédez à **Configuration** à partir du menu d’action de gauche, saisissez l’adresse de l’emplacement de l’instance AEM sur le **serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur le lien **Enregistrement** dans le menu d'action de gauche et sur les étapes ci-dessous pour terminer le processus d'enregistrement du périphérique.
+>1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
+>1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
+>1. Cliquez sur le lien **Enregistrement** dans le menu d’action de gauche et sur les étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
 >
 
 
@@ -48,7 +48,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    >[!NOTE]
    >
-   >To get more information on creating a new project for Screens in the AEM dashboard, see [Create and Manage Screens Project](creating-a-screens-project.md).
+   >Pour en savoir plus sur la création d’un nouveau projet pour Screens dans le tableau de bord AEM, voir [Création et gestion d’un projet Screens](creating-a-screens-project.md).
 
 1. Appuyez/cliquez sur le bouton **Gestionnaire de périphériques** dans la barre d’actions.
 
@@ -58,7 +58,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Selectionnez le périphérique requis (comme pour l’étape 1) et appuyez/cliquez sur **Enregistrer le périphérique**.
+1. Sélectionnez le périphérique requis (comme pour l’étape 1) et appuyez/cliquez sur **Enregistrer le périphérique**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -70,38 +70,38 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. If the **Registration Code** is the same on both machines, tap/click **Validate** button in AEM, as shown in the step (6).
-1. Set the desired name for the device, and click **Register**.
+1. Si le **Code d’enregistrement** est le même sur les deux machines, appuyez/cliquez sur le bouton **Valider** dans AEM, comme indiqué à l’étape (6).
+1. Saisissez le nom souhaité pour le périphérique, puis cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click **Finish** to complete the registration process.
+1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >L'option **Enregistrer nouveau** vous permet d'enregistrer un nouvel appareil.
+   >L’option **Enregistrer nouveau** vous permet d’enregistrer un nouveau périphérique.
    >
-   >The **Assign Display** lets you directly add the device to a display.
+   >Le bouton **Attribuer l’affichage** permet d’ajouter directement le périphérique à un affichage.
 
-   Si vous cliquez sur **Terminer**, vous devez affecter le périphérique à un affichage.
+   Si vous cliquez sur **Terminer**, vous devez attribuer le périphérique à un affichage.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création et la gestion d’un affichage pour votre projet d’écrans, consultez [Création et gestion des écrans](managing-displays.md).
+   >Pour en savoir plus sur la création et la gestion d’un affichage pour votre projet Screens, consultez [Création et gestion des affichages](managing-displays.md).
 
-### Affectation d'un périphérique à un affichage {#assigning-device-to-a-display}
+### Attribution d’un périphérique à un affichage {#assigning-device-to-a-display}
 
-Si vous n’avez pas affecté le périphérique à un affichage, procédez comme suit pour affecter le périphérique à un affichage dans votre projet AEM Screens :
+Si vous n’avez pas attribué le périphérique à un affichage, procédez comme suit pour attribuer le périphérique à un affichage dans votre projet AEM Screens :
 
 1. Sélectionnez le périphérique et cliquez sur **Attribuer le périphérique** dans la barre d’actions.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Sélectionnez le chemin d’accès de l’affichage dans Chemin d’accès **d’** affichage/configuration du périphérique.
+1. Sélectionnez le chemin d’accès de l’affichage dans **Chemin de configuration de l’écran/appareil**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
@@ -113,7 +113,7 @@ Si vous n’avez pas affecté le périphérique à un affichage, procédez comme
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   De plus, vous pouvez afficher le tableau de bord d’affichage en cliquant sur **Terminer**.
+   De plus, vous pouvez afficher le tableau de bord de l’affichage en cliquant sur **Terminer**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -137,4 +137,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Ressources supplémentaires {#additional-resources}
 
-To learn about AEM Screens Player, see [AEM Screens Player](working-with-screens-player.md).
+Pour en savoir plus sur le lecteur AEM Screens, voir [Lecteur AEM Screens](working-with-screens-player.md).
