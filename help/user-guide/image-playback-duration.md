@@ -1,16 +1,16 @@
 ---
-title: Durée de lecture d’image
-seo-title: Durée de lecture d’image
+title: Durée de lecture des images
+seo-title: Durée de lecture des images
 description: Suivez cette page pour en savoir plus sur la durée de lecture des images.
 seo-description: Suivez cette page pour en savoir plus sur la durée de lecture des images.
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
 ---
 
 
-# Durée de lecture d’image {#image-playback-duration}
+# Durée de lecture des images {#image-playback-duration}
 
 ## Présentation {#overview}
 
@@ -28,11 +28,11 @@ Avant de commencer à implémenter cette fonctionnalité, veillez à configurer 
 
 ## Modification de l’attribution d’une durée de lecture des images d’un canal {#editing-channel-level-image-playback-duration-assignment}
 
-La section suivante explique comment modifier la durée de lecture d&#39;un contenu d’un canal AEM Screens.
+La section suivante explique comment modifier la durée de lecture d’un contenu d’un canal AEM Screens.
 
 ### Mise à jour de la durée de lecture des images d’un canal {#updating-the-playback-duration-for-images-in-a-channel}
 
-Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution d’une durée de lecture des images d&#39;un canal :
+Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution d’une durée de lecture des images d’un canal :
 
 1. Accédez au canal de séquence **PlaybackChannel**.
 
@@ -64,7 +64,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
 ### Affichage du résultat {#viewing-the-result}
 
-Une fois que vous avez mis à jour la durée de lecture du canal (en l&#39;occurrence, les trois images), vous constaterez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
+Une fois que vous avez mis à jour la durée de lecture du canal (en l’occurrence, les trois images), vous constaterez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
 
 ![channel_preview](assets/channel_preview.gif)
 
