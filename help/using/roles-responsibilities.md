@@ -3,7 +3,7 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
@@ -80,7 +80,7 @@ En règle générale, les chefs de projet gèrent l’intégralité de votre dé
 
 >[!NOTE]
 >
-> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Étapes du projet {#project-stages}
@@ -96,7 +96,7 @@ Pour garantir la réussite du déploiement de la solution de signalétique digit
 >[!NOTE]
 >
 > Bien que ce guide mette principalement l’accent sur le *jour 1* et le *jour 2*, il est important de se pencher sur les trois étapes pour mener à bien un projet de signalétique digitale.
-Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
+Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
 
 ## Matrice RACI {#raci-chart}
 
