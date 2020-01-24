@@ -1,8 +1,8 @@
 ---
-title: Activation de réservation d'hébergement
-seo-title: Activation de réservation d'hébergement
-description: Le cas d’utilisation suivant illustre l’utilisation de l’activation des réservations d’hôpital en fonction des valeurs renseignées dans les feuilles Google.
-seo-description: Le cas d’utilisation suivant illustre l’utilisation de l’activation des réservations d’hôpital en fonction des valeurs renseignées dans les feuilles Google.
+title: Activation de la réservation d’hébergements
+seo-title: Activation de la réservation d’hébergements
+description: Le cas d’utilisation ci-dessous montre comment utiliser l’activation des réservations d’hébergements en fonction des valeurs renseignées dans Google Sheets.
+seo-description: Le cas d’utilisation ci-dessous montre comment utiliser l’activation des réservations d’hébergements en fonction des valeurs renseignées dans Google Sheets.
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,76 +10,76 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
 
-# Activation de réservation d'hébergement {#hospitality-reservation-activation}
+# Activation de la réservation d’hébergements {#hospitality-reservation-activation}
 
-Le cas d’utilisation suivant illustre l’utilisation de l’activation des réservations d’hôpital en fonction des valeurs renseignées dans les feuilles Google.
+Le cas d’utilisation ci-dessous montre comment utiliser l’activation des réservations d’hébergements en fonction des valeurs renseignées dans Google Sheets.
 
 ## Description {#description}
 
-Dans ce cas d’utilisation, la feuille Google est renseignée avec le pourcentage de réservation sur deux restaurants **Restaurant1** et **Restaurant2**. Une formule est appliquée sur la base des valeurs de Restaurant1 et Restaurant2 et sur la base de la formule, la valeur 1 ou 2 est affectée à la colonne **AdTarget** .
+Pour ce cas d’utilisation, la feuille de calcul Google est renseignée avec le pourcentage de réservation de deux restaurants : **Restaurant1** et **Restaurant2**. Une formule est appliquée en fonction des valeurs de Restaurant1 et Restaurant2 et selon la formule, la valeur 1 ou 2 est affectée à la colonne **AdTarget**.
 
-Si la valeur de **Restaurant1** &gt; **Restaurant2**, la valeur **AdTarget** est affectée à la valeur **1 sinon AdTarget est affectée à la valeur2.********** La valeur 1 génère l’option *Steak food* et la valeur 2 affiche l’option *Thai food* sur votre écran.
+Si **Restaurant1** > **Restaurant2**, la valeur affectée à **AdTarget** est de **1**, sinon une valeur de **2** est affectée à **AdTarget**. La valeur 1 génère l’option *Steak food* et la valeur 2 fait apparaître l’option *Thai food* sur votre écran.
 
 ## Conditions préalables {#preconditions}
 
-Avant de commencer à mettre en oeuvre l’activation de la réservation, vous devez apprendre à configurer le stockage ***de*** données, la segmentation ***de l’*** audience et l’ ***activation du ciblage des canaux*** dans un projet AEM Screens.
+Avant de commencer à mettre en œuvre l’activation de la réservation, vous devez apprendre à configurer le ***magasin de données ***, la***segmentation d’audience*** et l’***activation du ciblage pour les canaux ***dans un projet AEM Screens.
 
-Consultez [Configuration de ContextHub dans les écrans](configuring-context-hub.md) AEM pour plus d’informations.
+Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
 ## Flux de base {#basic-flow}
 
-Suivez les étapes ci-dessous pour implémenter le cas d’utilisation d’activation des réservations d’hébergement pour votre projet AEM Screens :
+Pour mettre en œuvre le cas d’utilisation de l’activation des réservations d’hébergements pour votre projet AEM Screens, procédez comme suit :
 
-1. **Renseigner les feuilles de Google et ajouter la formule.**
+1. **Remplissage des feuilles de calcul Google Sheets et ajout de la formule**
 
-   Par exemple, appliquez la formule à la troisième colonne **AdTarget**, comme illustré dans la figure ci-dessous.
+   Par exemple, appliquez la formule à la troisième colonne **AdTarget**, comme illustré ci-dessous.
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
-1. **Configuration des segments dans Audiences conformément aux exigences**
+1. **Configuration des segments dans les audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (Reportez-vous à l’ ***étape 2 : Configuration de la segmentation*** de l’audience dans **[Configuration de ContextHub dans la page AEM Screens](configuring-context-hub.md)** (pour plus d’informations).
+   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience ***dans la page**[Configuration de ContextHub dans la AEM Screens](configuring-context-hub.md)**pour plus d’informations).
 
-   1. Sélectionnez les **feuilles A1 1** et cliquez sur **Modifier**.
+   1. Sélectionnez **Sheets A1 1** et cliquez sur **Modifier**.
 
-   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône Configurer pour modifier les propriétés.
-   1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante du nom de la **propriété.**
+   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration pour modifier les propriétés.
+   1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la propriété**
 
-   1. Sélectionnez l’ **opérateur** **égal** dans le menu déroulant.
+   1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant
 
-   1. Saisissez la **valeur** comme **1**
+   1. Saisissez la **valeur** **1**
 
-   1. De même, sélectionnez les **feuilles A1 2** et cliquez sur **Modifier**.
+   1. De même, sélectionnez les feuilles **Sheets A1 2** et cliquez sur **Modifier**.
 
-   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône Configurer pour modifier les propriétés.
-   1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante du nom de la **propriété.**
+   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration pour modifier les propriétés.
+   1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la propriété**
 
-   1. Sélectionnez **Opérateur** comme **2**
+   1. Sélectionnez l’**opérateur** **2**
 
-1. Naviguez et sélectionnez votre canal (), puis cliquez sur **Modifier** dans la barre d’actions. Dans l’exemple suivant, **DataDrivenRestaurant**, un canal séquentiel est utilisé pour présenter la fonctionnalité.
+1. Naviguez et sélectionnez votre canal (), puis cliquez sur **Modifier** dans la barre d’actions. Dans l’exemple suivant, **DataDrivenRestaurant**, la fonctionnalité est illustrée au moyen d’un canal de séquence.
 
    >[!NOTE]
    >
-   >Votre canal doit déjà avoir une image par défaut et les audiences doivent être préconfigurées comme décrit dans [Configuration de ContextHub dans les écrans](configuring-context-hub.md)AEM.
+   >Votre canal doit déjà comporter une image par défaut et les audiences doivent être préconfigurées comme décrit dans [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >Vous auriez dû configurer vos **configurations** ContextHub **à l’aide de l’onglet** Propriétés **du canal —&gt;** **Personnalisation.**
+   >Vous devez avoir défini vos **configurations** **ContextHub** à l’aide de l’onglet **Propriétés** --> **Personnalisation**.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Sélectionnez **Ciblage** dans l’éditeur, sélectionnez **Marque** et **Activité** dans le menu déroulant, puis cliquez sur **Démarrer le ciblage.**
+1. Sélectionnez **Ciblage** dans l’éditeur. Sélectionnez ensuite **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
 1. **Vérification de l’aperçu**
 
-   1. Click **Preview.** Ouvrez également vos feuilles Google et mettez à jour sa valeur.
-   1. Mettez à jour la valeur dans les colonnes **Restaurant1** et **Restaurant2** . Si **Restaurant1** &gt; **Restaurant2,** vous devriez voir une image de cuisine *Steak* autrement, l'image de la nourriture *Thai s'affiche sur votre écran.*
+   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
+   1. Mettez à jour la valeur dans les colonnes **Restaurant1** et **Restaurant2**. Si **Restaurant1** > **Restaurant2,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
    ![result5](assets/result5.gif)
 
