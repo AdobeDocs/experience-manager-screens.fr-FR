@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le workflow à suivre pour ajouter des rendus à vos ressources.
 
-## Génération automatique de rendus Full HD  {#automatically-generating-full-hd-renditions}
+## Génération automatique de rendus Full HD          {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -29,13 +29,13 @@ Vous pouvez générer des rendus Full HD automatiques et manuels. La section su
 
 Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Worfklow**.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Workflow**.
 
-   Click **Models** to enter the workflow models management.
+   Cliquez sur **Modèles** pour accéder à la gestion des modèles de workflow.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Select the **DAM Update Asset** model and click Edit from the action bar to open the **DAM Update Asset** window.
+1. Sélectionnez le modèle **Ressources de mise à jour de gestion des actifs numériques**, puis cliquez sur Modifier dans la barre d’actions pour ouvrir la fenêtre **Ressources de mise à jour de gestion des actifs numériques**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -43,7 +43,7 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Sélectionnez l’onglet **Processus** pour modifier les arguments du workflow. Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
+1. Sélectionnez l’onglet **Processus** pour modifier les arguments du processus. Saisissez les profils Full HD pour la liste dans **Arguments** comme suit : ***,profile:fullhd-bp,profile:fullhd-hp ***et cliquez sur**OK **.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -51,39 +51,39 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Accédez à **Actifs** et téléchargez une nouvelle vidéo. Cliquez sur la vidéo et ouvrez le rail latéral Rendus et vous remarquerez les deux vidéos HD complètes.
+1. Accédez à **Actifs** et téléchargez une nouvelle vidéo. Cliquez sur la vidéo, puis ouvrez le rail latéral Rendus où vous verrez les deux vidéos Full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Open **Renditions** from the side rail.
+1. Ouvrez **Rendus** dans le rail latéral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
 1. Vous verrez deux nouveaux rendus Full HD.
 
-   ![step12_-_2_new_renditionsareaddtovideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## Génération manuelle de rendus Full HD {#manually-generating-full-hd-renditions}
 
 Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Worfklow**.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Workflow**.
 
-   Click **Models** to enter the workflow models management.
+   Cliquez sur **Modèles** pour accéder à la gestion des modèles de workflow.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Select the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
+1. Sélectionnez le modèle **Ressources de mise à jour de gestion des actifs numériques**, puis cliquez sur **Démarrer le processus** pour ouvrir la boîte de dialogue **Exécuter le processus**.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and click **Run**.
+1. Sélectionnez la vidéo souhaitée dans la **charge utile** et cliquez sur **Exécuter**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
 1. Accédez à **Actifs**, recherchez votre ressource en descendant dans la hiérarchie, puis cliquez dessus.
 
-   ![step7_-_open_the_videoasset](assets/step7_-_open_thevideoasset.png)
+   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
 1. Ouvrez le rail latéral **Rendus** ; vous remarquerez les nouveaux rendus Full HD. 
 
