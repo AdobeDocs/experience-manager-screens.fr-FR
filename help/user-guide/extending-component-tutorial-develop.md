@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 
 ---
 
@@ -33,7 +33,17 @@ Le composant Poster personnalisé est créé en étendant le composant Image.
 
 ## Conditions préalables {#prerequisites}
 
+Pour terminer ce tutoriel, vous devez :
+
+1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
+1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
+1. Environnement de développement local
+
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IDEs peuvent également être utilisés pour compléter le tutoriel. More information on using an IDE to [develop with AEM can be found here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+
 ## Configuration du projet {#project-setup}
+
+Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/adobe/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
 
 1. Téléchargez et installez les packages suivants à l’aide de la **gestion des packages CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -225,7 +235,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
    </jcr:root>
    ```
 
-   La propriété `sling:hideChildren`= `"[linkURL,size]`" est utilisée sur le nœud `items` pour veiller à ce que les champs **linkURL** et **size** soient masqués dans la boîte de dialogue. Supprimer ces nœuds de la boîte de dialogue Poster n’est pas suffisant. La propriété `sling:hideResource="{Boolean}true"` de l’onglet d’accessibilité sert à masquer l’ensemble de l’onglet.
+   La propriété `sling:hideChildren`= `"[linkURL,size]`&quot; est utilisée sur le nœud `items` pour veiller à ce que les champs **linkURL** et **size** soient masqués dans la boîte de dialogue. Supprimer ces nœuds de la boîte de dialogue Poster n’est pas suffisant. La propriété `sling:hideResource="{Boolean}true"` de l’onglet d’accessibilité sert à masquer l’ensemble de l’onglet.
 
    Deux champs de sélection sont ajoutés à la boîte de dialogue pour permettre aux auteurs de contrôler la position et la couleur du texte du titre et de la description.
 
@@ -267,7 +277,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Les balises `The h1` et h2 affichent le titre et la description en fonction des propriétés du composant : `${properties.jcr:title}` et `${properties.jcr:description}`.
 
-   Les balises `h1` et `h2` sont entourées par un wrapper div comportant trois classes CSS avec des variantes de "`cmp-poster__text`". La valeur des propriétés `textPosition` et `textColor` est utilisée pour modifier la classe CSS rendue en fonction des sélections de l’auteur concernant la boîte de dialogue. Dans la section suivante, les CSS des bibliothèques clientes sont écrites pour permettre l’affichage de ces modifications.
+   Les balises `h1` et `h2` sont entourées par un wrapper div comportant trois classes CSS avec des variantes de &quot;`cmp-poster__text`&quot;. La valeur des propriétés `textPosition` et `textColor` est utilisée pour modifier la classe CSS rendue en fonction des sélections de l’auteur concernant la boîte de dialogue. Dans la section suivante, les CSS des bibliothèques clientes sont écrites pour permettre l’affichage de ces modifications.
 
    Un logo est également inclus comme superposition dans le composant. Dans cet exemple, le chemin d’accès au logo We.Retail est codé en dur dans DAM. Selon le cas d’utilisation, il peut être plus judicieux de créer un champ de boîte de dialogue pour faire du chemin d’accès au logo une valeur renseignée de manière dynamique.
 
@@ -301,7 +311,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
 ## Création de bibliothèques côté client {#clientlibs}
 
-Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une mise en œuvre d’AEM. Vous trouverez plus d’informations sur l’utilisation des [bibliothèques côté client ici.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une mise en œuvre d’AEM. Vous trouverez plus d’informations sur l’utilisation des [bibliothèques côté client ici.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 Les composants d’AEM Screens s’affichent différemment en mode d’édition et en mode d’aperçu/de production. Deux ensembles de bibliothèques clientes sont créés, l’un pour le mode d’édition et l’autre pour le mode d’aperçu/de production.
 
@@ -496,7 +506,7 @@ Le composant Poster est destiné à être utilisé sur un canal de séquence. Le
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## Code terminé {#finished-code}
 
