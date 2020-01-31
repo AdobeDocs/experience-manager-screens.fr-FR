@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -38,7 +38,7 @@ S’il n’existe aucun rendu, vérifiez que vous avez installé ffmpeg sur le s
 >
 >S’il n’existe aucun rendu, vérifiez que vous avez installé ffmpeg sur le système d’exploitation où AEM est exécuté.
 >
->Cliquez [ici](https://evermeet.cx/ffmpeg/) pour installer ffmpeg.
+>Cliquez [ici](https://www.ffmpeg.org/download.html) pour installer ffmpeg.
 
 ## Ressources vidéo {#video-assets}
 
@@ -107,7 +107,7 @@ Si le lecteur AEM Screens sélectionne la vidéo mais ne l’affiche pas, vous 
 
 Pour résoudre le problème d’indicateur Stratégie de lecture automatique de Google, procédez comme suit :
 
-1. Accédez à ***chrome://flags/#autoplay-policy***
+1. Accédez à ***chrome://flags/#autoplay-policy ***
 1. Changez la **stratégie de lecture automatique** de **par défaut** à **aucun geste requis de la part de l’utilisateur**
 
 1. Relancez votre navigateur web et mettez à jour le lecteur
@@ -149,7 +149,7 @@ Pour configurer une stratégie absolue, procédez comme suit :
 **Alignement des horloges sur OS X** Pour aligner les horloges sur OSX, procédez comme suit :
 
 1. Ouvrez les préférences **Date et heure** pour chaque lecteur OS X.
-1. Cochez l’option ** Définir automatiquement la date et l’heure**.
+1. Check **Set date and time automatically**
 1. Collez value 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com dans la liste déroulante ou exécutez simplement *sudo ntpdate -u -v 0.pool.ntp.org*.
 1. Démarrez deux lecteurs ou plus.
 
