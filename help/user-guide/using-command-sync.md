@@ -4,20 +4,22 @@ seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
 
 # Synchronisation des commandes {#command-sync}
 
-La page suivante décrit l’utilisation de la synchronisation des commandes. La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
+La page suivante décrit l’utilisation de la synchronisation des commandes. La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque fichier doit avoir la même durée.
 
 ## Présentation {#overview}
 
-Les solutions de signalisation numérique doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est à ce stade que la synchronisation de contenu entre en jeu.
+Les solutions de signalisation numérique doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est là que la synchronisation des commandes entre en jeu.
 
-To use Command Sync, one player acts as a *master* and send command and all the other players act as *clients* and play when they receive the command. Le *maître* envoie une commande à tous les clients enregistrés lorsqu’il est sur le point de démarrer la lecture d’un élément. La charge utile liée à cette opération peut être l’index de l’élément à lire et/ou le code html externe de l’élément à lire.
+To use Command Sync, one player acts as a *master* and sends command and all the other players act as *clients* and play when they receive the command.
+
+Le *maître* envoie une commande à tous les clients enregistrés lorsqu’il est sur le point de démarrer la lecture d’un élément. La charge utile liée à cette opération peut être l’index de l’élément à lire et/ou le code html externe de l’élément à lire.
 
 ## Implémentation de la synchronisation des commandes {#using-command-sync}
 
@@ -63,7 +65,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 ### Setting up a Master {#setting-up-master}
 
 1. Accédez au tableau de bord d&#39;affichage à partir de **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay et cliquez sur Dashboard dans la barre d&#39;actions.******
-Vous verrez les deux périphériques (Chrome et lecteur Web) dans le panneau **APPAREILS** , comme illustré dans la figure ci-dessous.
+Vous verrez les deux périphériques (chrome et lecteur Windows) dans le panneau **APPAREILS** , comme illustré dans la figure ci-dessous.
 
    ![image1](assets/command-sync7.png)
 
