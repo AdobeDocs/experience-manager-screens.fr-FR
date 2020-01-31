@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
 
 ---
 
@@ -22,11 +22,15 @@ Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’A
 
 La page suivante décrit les instructions de configuration du dispatcher pour un projet AEM Screens.
 
+>[!NOTE]
+>Si un répartiteur est disponible, il est possible d’empêcher les connexions à la servlet d’enregistrement en filtrant les règles du répartiteur.
+>S’il n’existe aucun répartiteur, désactivez la servlet d’enregistrement dans la liste des composants OSGi.
+
 ## Conditions préalables {#pre-requisites}
 
 Avant de configurer le dispatcher pour un projet AEM Screens, vous devez connaître le dispatcher au préalable.
 
-Pour plus d'informations, consultez la section ** [Configuration du dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)**.
+Pour en savoir plus, consultez [Configuration du Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
 ## Configuration du Dispatcher {#configuring-dispatcher}
 
@@ -44,7 +48,7 @@ Ajoutez ce qui suit à la section `/clientheaders` :
 
 ### Étape 2 : configuration des filtres Screens {#step-configuring-screens-filters}
 
-Pour configurer les filtres Screens, ajoutez les éléments suivants à ***/filter***.
+Pour configurer les filtres Screens, ajoutez les éléments suivants à ***/filter ***.
 
 ```
 ## AEM Screens Filters
@@ -66,4 +70,4 @@ Pour configurer les filtres Screens, ajoutez les éléments suivants à ***/filt
 
 ### Étape 3 : désactivation du cache du dispatcher {#step-disabling-dispatcher-cache}
 
-Désactivez la mise en cache du dispatcher pour le chemin ***/content/screens***.
+Désactivez la mise en cache du dispatcher pour le chemin ***/content/screens ***.
