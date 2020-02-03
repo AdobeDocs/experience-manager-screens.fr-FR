@@ -4,7 +4,7 @@ seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 1. L’exemple suivant présente un projet de démonstration nommé **CommandSyncDemo** et un canal de séquence **ChannelLobby**.
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    Le canal contient le contenu suivant, comme illustré dans la figure ci-dessous.
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. Créez un affichage dans le dossier **Emplacements** , comme illustré dans la figure ci-dessous.
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. Affectez le canal **ChannelLobby** à votre **affichage**de hall.
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
+   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
 1. Accédez au dossier **Devices** et cliquez sur **Device Manager** dans la barre d’actions pour enregistrer les périphériques.
 
@@ -59,8 +59,23 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    >
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
 
-1. À des fins de démonstration, cet exemple présente un périphérique chrome et un lecteur Web comme deux périphériques distincts. Les deux périphériques pointent vers le même affichage.
+1. À des fins de démonstration, cet exemple présente un périphérique chrome et un lecteur Windows comme deux périphériques distincts. Les deux périphériques pointent vers le même affichage.
    ![image1](assets/command-sync6.png)
+
+### Mise à jour des paramètres de canal
+
+1. Accédez à **ChannelLobby** et cliquez sur **Modifier** dans la barre d’actions pour mettre à jour les paramètres du canal.
+
+1. Sélectionnez l’ensemble du canal comme illustré dans la figure ci-dessous.
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. Cliquez sur l’icône de clé à molette pour ouvrir la boîte de dialogue **Page** .
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. Entrez le mot-clé *synchronisé* dans le champ **Stratégie** .
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### Setting up a Master {#setting-up-master}
 
