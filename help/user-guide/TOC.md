@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -66,6 +66,7 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
       + [Rendus vidéo](generating-renditions.md)
       + [Utilisation d’une séquence incorporée dynamique](dynamic-embedded-sequences.md)
       + [Durée de lecture d’images en bloc d’un canal](channel-level-image-playback.md)
+      + [Utilisation de la synchronisation des commandes](using-command-sync.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
@@ -76,9 +77,9 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
       + [Activation de la réservation d’hébergements](hospitality-reservation-activation.md)
       + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
       + [Application de transitions](applying-transitions.md)
-      + [Transitions Zone multiple vers Zone unique](multizone-to-singlezone.md)
-      + [Canal de prise en charge à usage unique](single-use-takeover-channel.md)
-      + [Utilisation permanente du canal de prise en charge](perpetual-takeover-channel.md)
+      + [Transitions Multizone vers Zone unique](multizone-to-singlezone.md)
+      + [Canal de prise de contrôle à usage unique](single-use-takeover-channel.md)
+      + [Canal de prise de contrôle à usage permanent](perpetual-takeover-channel.md)
 + Ressources du développeur et ressources d’API {#developing}
    + [API REST](rest-api.md)
    + [Développement d’un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -93,7 +94,7 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
-   + [Notes de mise à jour du Feature Pack 201912](release-notes-fp-201912.md)
+   + [Notes de mise à jour du Feature Pack 201912](release-notes-fp-201912.md)
    + [Notes de mise à jour du Feature Pack 201909](release-notes-fp-201909.md)
    + [Notes de mise à jour du Feature Pack 201907](release-notes-fp-201907.md)
    + [Notes de mise à jour du Feature Pack 201905](screens-release-notes-fp-201905.md)
