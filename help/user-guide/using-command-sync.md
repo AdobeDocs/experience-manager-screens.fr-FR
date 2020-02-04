@@ -4,7 +4,7 @@ seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 1. Accédez au tableau de bord d&#39;affichage à partir de **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay et cliquez sur Dashboard dans la barre d&#39;actions.******
 Vous verrez les deux périphériques (chrome et lecteur Windows) dans le panneau **APPAREILS** , comme illustré dans la figure ci-dessous.
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. Dans le panneau **APPAREILS** , sélectionnez le périphérique à définir comme maître. L’exemple suivant illustre la configuration du périphérique Chrome en tant que maître. Cliquez sur **Définir comme périphérique** maître.
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. Entrez l&#39;adresse IP dans **Définir comme périphérique** maître et cliquez sur **Enregistrer**.
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> Vous pouvez configurer plusieurs périphériques en tant que maîtres.
 
 ### Synchronisation avec le gabarit {#sync-up-master}
 
-1. Une fois que vous avez défini le périphérique Chrome comme maître, vous pouvez synchroniser l’autre périphérique avec le périphérique maître.
-Sélectionnez l&#39;autre périphérique dans le panneau **APPAREILS** et cliquez sur **Synchroniser sur le périphérique** maître, comme illustré dans la figure ci-dessous.
+1. Une fois que vous avez défini le périphérique Chrome comme maître, vous pouvez synchroniser l’autre périphérique (dans ce cas, le lecteur Windows) pour la synchroniser avec le périphérique maître.
+Sélectionnez l&#39;autre périphérique (dans ce cas, le lecteur Windows) dans le panneau **APPAREILS** et cliquez sur **Synchroniser sur le périphérique** maître, comme illustré dans la figure ci-dessous.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. Sélectionnez le périphérique dans la liste et cliquez sur **Enregistrer**.
 
+1. Une fois que le périphérique (lecteur Windows) est synchronisé avec le maître (lecteur Chrome), le périphérique est synchronisé dans le panneau **APPAREILS** .
 
-1. Navigate to the [Web Player](http://localhost:4502/screens/player.html).
+   ![image1](assets/command-sync/command-sync14.png)
 
+### Suppression ou déssynchronisation avec le fichier maître {#desync-up-master}
 
-
-
+Une fois que vous avez synchronisé un ou plusieurs périphériques sur un maître, vous pouvez désynchroniser ou supprimer l’affectation de ce dernier. Pour supprimer la synchronisation du périphérique maître, sélectionnez le périphérique et cliquez sur **Desync** dans le panneau **APPAREILS** .
 
