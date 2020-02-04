@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour du Feature Pack 201912
 seo-title: Notes de mise à jour du Feature Pack 201912
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201912, publié 20 janvier 2020.
-seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201912, publié 20 janvier 2020.
+description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201912, publié le 20 janvier 2020.
+seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201912, publié le 20 janvier 2020.
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -15,27 +15,30 @@ source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 >
 >Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
 
-AEM Screens a publié AEM 6.4 Feature Pack 7 et AEM 6.5 Feature Pack 3 avec les détails suivants.
+AEM Screens a publié AEM 6.4 Feature Pack 7 et AEM 6.5 Feature Pack 3 avec les détails suivants.
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 201912 est 21 janvier 2020.
+La date de publication d’AEM Screens Feature Pack 201912 est le 21 janvier 2020.
 
 ### Nouveautés {#what-s-new}
 
 * **Synchronisation des commandes pour la lecture des ressources**
+La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque fichier doit avoir la même durée.
+Pour en savoir plus sur la synchronisation des commandes et sur la définition du maître et des clients, consultez [Utilisation de la synchronisation des commandes](using-command-sync.md).
+
+* **Structure de contrôle de l’intégrité pour afficher l’état https et autoriser un référent vide**
+La structure de contrôle de l’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires (Autoriser les demandes de référents vides et Service HTTP Apache Felix Jetty) sont configurées avant d’exécuter un projet AEM Screens.
+
+   Pour en savoir plus sur la structure de contrôle de l’intégrité, reportez-vous à la section [Structure de contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+
+* **Mises à jour des types de transition par défaut**
+Les propriétés du composant de transition, telles que **Type**, sont désormais définies sur **Fondu** et la **Durée** sur **1 600 ms**, par défaut.
 
 
-* **Cadre de contrôle d’intégrité pour afficher l’état de https et autoriser un référent** vide La structure de contrôle d’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires (Autoriser les demandes de référents vides et Service HTTP Apache Felix Jetty) sont configurées avant d’exécuter un projet AEM Screens.
+### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
-   Pour en savoir plus sur le Cadre de vérification de la santé, consultez le Cadre [de vérification de la](/help/user-guide/configuring-screens-introduction.md#health-check-framework)santé.
-
-* **Mises à jour des types** de transition par défaut Les propriétés du composant de transition, tel que **Type** , sont désormais définies sur **Fondu** et la **durée** sur 1 600 ms, par défaut.****
-
-
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
-
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4 Feature Pack 7 et AEM 6.5 Feature Pack 3 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4 Feature Pack 7 et AEM 6.5 Feature Pack 3 :
 
 * ChromeOS
 * Windows
