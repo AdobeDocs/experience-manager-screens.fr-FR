@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: dcaac908b9f88798f73eb3048bc9a225b2e6e11f
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
       + [Rendus vidéo](generating-renditions.md)
       + [Utilisation d’une séquence incorporée dynamique](dynamic-embedded-sequences.md)
       + [Durée de lecture d’images en bloc d’un canal](channel-level-image-playback.md)
-      + [Utilisation de la synchronisation des commandes](using-command-sync.md)
+      + [Synchronisation des commandes](using-command-sync.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
