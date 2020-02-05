@@ -4,7 +4,7 @@ seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 1. L’exemple suivant présente un projet de démonstration nommé **CommandSyncDemo** et un canal de séquence **ChannelLobby**.
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    Le canal contient le contenu suivant, comme illustré ci-dessous.
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. Créez un affichage dans le dossier **Emplacements**, comme illustré ci-dessous.
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**.
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 1. Accédez à **ChannelLobby** et cliquez sur **Modifier** dans la barre d’actions pour mettre à jour les paramètres du canal.
 
 1. Sélectionnez l’ensemble du canal comme illustré dans la figure ci-dessous.
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. Cliquez sur l’icône de clé à molette pour ouvrir la boîte de dialogue **Page** .
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. Entrez le mot-clé *synchronisé* dans le champ **Stratégie** .
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configuration d’un maître {#setting-up-master}
 
 1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
 You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Dans le panneau **APPAREILS**, sélectionnez l’appareil à définir comme maître. L’exemple suivant illustre la configuration de l’appareil Chrome en tant que maître. Cliquez sur **Définir en tant qu’appareil maître**.
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. Entrez l’adresse IP dans **Définir en tant qu’appareil maître** et cliquez sur **Enregistrer**.
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > Vous pouvez configurer plusieurs périphériques en tant que maîtres.
@@ -99,13 +99,13 @@ You will see the two devices (chrome and windows player) in **DEVICES** panel, a
 1. Une fois que vous avez défini le périphérique Chrome comme maître, vous pouvez synchroniser l’autre périphérique (dans ce cas, le lecteur Windows) pour la synchroniser avec le périphérique maître.
 Select the other device (in this case, windows player) from the **DEVICES** panel and click on **Sync to master device**, as shown in the figure below.
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Sélectionnez l’appareil dans la liste et cliquez sur **Enregistrer**.
 
 1. Une fois que le périphérique (lecteur Windows) est synchronisé avec le maître (lecteur Chrome), le périphérique est synchronisé dans le panneau **APPAREILS** .
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### Suppression ou déssynchronisation avec le fichier maître {#desync-up-master}
 
