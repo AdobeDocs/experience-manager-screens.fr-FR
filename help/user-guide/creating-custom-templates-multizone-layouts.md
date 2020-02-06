@@ -4,15 +4,15 @@ seo-title: Création de modèles personnalisés dans des mises en page MultiZone
 description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
 
 ---
 
 
 # Création de modèles personnalisés dans des mises en page MultiZone {#creating-custom-templates-multizone}
 
-L’exemple suivant montre comment créer des modèles personnalisés dans des mises en page multiZone.
+L’exemple suivant montre comment créer un modèle personnalisé dans des mises en page multiZone.
 
 Par exemple, la section ci-dessous illustre la création d’un modèle personnalisé dans une disposition multiZone avec les configurations suivantes :
 
@@ -25,9 +25,9 @@ Suivez les étapes ci-dessous pour créer un modèle personnalisé.
 
 1. Créez le modèle dans `/apps/<project>/templates/my-custom-layout`
 
-```shell
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   ```shell
+    <?xml version="1.0" encoding="UTF-8"?>
+    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:description="My Custom 3-zones layout "
     jcr:primaryType="cq:Template"
     jcr:title="3-zones layout"
@@ -58,8 +58,8 @@ Suivez les étapes ci-dessous pour créer un modèle personnalisé.
         </cq:responsive>
         <offline-config/>
     </jcr:content>
-</jcr:root>
-```
+   </jcr:root>
+   ```
 
 1. Créez une conception de page dans `/apps/settings/wcm/designs/<project>`.
 
@@ -71,12 +71,12 @@ Suivez les étapes ci-dessous pour créer un modèle personnalisé.
 
 1. Ajoutez un fichier **static.css** dans le dossier `/apps/settings/wcm/designs/<project>` et définissez son contenu sur
 
-```shell
-.cq-Screens-channel--multizone.my-CustomLayout {}
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-```
+   ```shell
+   .cq-Screens-channel--multizone.my-CustomLayout {}
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
+   ```
 
 ## Insertion d’une image en tant que calque d’arrière-plan {#inserting-image}
 
@@ -98,3 +98,6 @@ Vous pouvez également suivre les étapes ci-dessous :
 Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml :
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+
