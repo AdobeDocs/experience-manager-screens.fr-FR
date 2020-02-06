@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
 
@@ -40,7 +40,7 @@ Le diagramme ci-dessous illustre visuellement comment les configurations Context
 
 ## Conditions préalables {#preconditions}
 
-Avant de commencer à configurer un magasin de données pour les configurations ContextHub d’un projet AEM Screens, vous devez préparer des feuilles de calcul Google Sheets (à des fins de démonstration).
+Avant de commencer à configurer les configurations Context Hub pour un projet AEM Screens, vous devez configurer des feuilles Google (à des fins de démonstration).
 
 >[!CAUTION]
 >
@@ -50,21 +50,29 @@ Avant de commencer à configurer un magasin de données pour les configurations 
 
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 
-Suivez les étapes ci-dessous pour configurer un magasin de données qui vous permet d’utiliser les configurations et le chemin des segments ContextHub vers le canal AEM Screens.
+Vous pouvez configurer la banque de données en tant qu’événement d’E/S locale ou d’événement de base de données locale.
+
+### Événement E/S local {#local-io-event}
+
+Suivez les étapes ci-dessous pour configurer un magasin de données, tel qu’un événement ASCII, qui vous permet d’utiliser les configurations ContextHub et le chemin de segments vers le canal AEM Screens.
+
+### Événement de base de données locale {#local-db-event}
+
+Suivez les étapes ci-dessous pour configurer un magasin de données tel qu’une feuille Excel qui vous permet d’utiliser les configurations ContextHub et le chemin de segments vers le canal AEM Screens.
 
 1. **Accès à ContextHub**
 
-   Accédez à votre instance AEM et cliquez sur l’icône Outils dans la barre latérale gauche. Cliquez sur **Sites** —&gt; **ContextHub**, comme illustré dans la figure ci-dessous.
+   Accédez à votre instance AEM et cliquez sur l’icône Outils dans la barre latérale gauche. Cliquez sur **Sites** —> **ContextHub**, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
 
 1. **Création d’une configuration de magasin ContextHub**
 
-   1. Accédez à **global** &gt; **default** &gt; **Configuration de ContextHub**.
+   1. Accédez à **global** > **default** > **Configuration de ContextHub**.
 
-   1. Cliquez sur** Créer &gt; Conteneur de configuration **et saisissez le titre** ContextHubDemo**.
+   1. Cliquez sur** Créer > Conteneur de configuration **et saisissez le titre** ContextHubDemo**.
 
-   1. **Accédez** à **ContextHubDemo** &gt; **Configuration de magasin ContentHub...** pour ouvrir l’**Assistant de configuration**.
+   1. **Accédez** à **ContextHubDemo** > **Configuration de magasin ContentHub...** pour ouvrir l’**Assistant de configuration**.
 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**
 
@@ -93,7 +101,7 @@ Suivez les étapes ci-dessous pour configurer un magasin de données qui vous pe
    >Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
    >
    >
-   >Remplacez le code par l’*&lt;ID de feuille&gt;* et la *&lt;clé API&gt;*, que vous avez récupérés lors de la configuration des Google Sheets.
+   >Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
    >[!CAUTION]
    Si vous créez des configurations de magasin Google Sheets en dehors du dossier existant (par exemple dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
@@ -101,13 +109,13 @@ Suivez les étapes ci-dessous pour configurer un magasin de données qui vous pe
 
 1. **Création d’une marque dans les activités**
 
-   1. Dans votre instance AEM, accédez à **Personnalisation** &gt; **Activités**
+   1. Dans votre instance AEM, accédez à **Personnalisation** > **Activités**
 
-   1. Cliquez sur **Créer** &gt; **Créer une marque**
+   1. Cliquez sur **Créer** > **Créer une marque**
 
    1. Dans l’assistant **Créer une page**, sélectionnez **Marque** et cliquez sur **Suivant**
 
-   1. Saisissez le **titre** **ContextHubDemo** et cliquez sur **Créer**. Votre marque a été créée, comme illustré ci-dessous.
+   1. Saisissez le **Titre** **ContextHubDemo** et cliquez sur **Créer**. Votre marque a été créée, comme illustré ci-dessous.
    ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
 
 
@@ -133,9 +141,9 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
 1. **Création de segments dans les audiences**
 
-   1. Dans votre instance AEM, accédez à **Personnalisation** &gt; **Audiences** &gt; **We.Retail**.
+   1. Dans votre instance AEM, accédez à **Personnalisation** > **Audiences** > **We.Retail**.
 
-   1. Cliquez sur **Créer** &gt; **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
+   1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
    1. Saisissez le **Titre** **SheetA1 1** et cliquez sur **Créer**. De la même manière, créez un autre segment intitulé **SheetA2 2**.
 
@@ -158,7 +166,7 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
    De la même manière, définissez les valeurs des propriétés sur **Sheets A1 2**.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
-   1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété à une valeur**.
+   1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
 
    1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant.
@@ -171,7 +179,7 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
-1. Accédez à l’un des canaux AEM Screens**. **Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** créé dans un canal AEM Screens.
+1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** créé dans un canal AEM Screens.
 
 1. Sélectionnez le canal **DataDrivenRetail** et cliquez sur **Propriétés** dans la barre d’actions.
 
@@ -179,9 +187,9 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
-   1. Sélectionnez le **Chemin d’accès ContextHub** **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **Configurations ContextHub** et cliquez sur **Sélectionner**.
+   1. Sélectionnez le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
 
-   1. Sélectionnez le **chemin d’accès aux segments** **conf** &gt; **We.Retail** &gt; **settings** &gt; **wcm** &gt; **segments** et cliquez sur **Sélectionner**.
+   1. Sélectionnez le **chemin d’accès aux segments** **conf** > **We.Retail** > **settings** > **wcm** > **segments** et cliquez sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
    >[!NOTE]
@@ -189,7 +197,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** &gt; **Canaux** , puis cliquez sur **Modifier** dans la barre d’actions.
+1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux** , puis cliquez sur **Modifier** dans la barre d’actions.
 
    >[!NOTE]
    Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
