@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
@@ -56,7 +56,7 @@ Pour créer des agents de réplication, vous devez apprendre à créer un agent 
 
 Trois agents de réplication sont nécessaires pour Screens :
 
-1. **Agent de réplication par défaut ***(spécifié comme***Agent de réplication standard **)
+1. **Agent de réplication par défaut ***(spécifié comme***Agent de réplication standard**)
 1. **Agent de réplication Screens**
 1. **Agent de réplication inverse**
 
@@ -88,11 +88,11 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
    >[!NOTE]
    >
-   >L&#39;utilisateur doit vérifier **Activé** pour activer l&#39;agent de réplication. Vous devez cocher cette option sur les agents de réplication par défaut, sur les écrans et inversée.
+   >L’utilisateur doit cocher **Activé** pour activer l’agent de réplication. Vous devez cocher cette option sur les agents de réplication par défaut, Screens et inverse.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. Accédez à l’onglet **Transport** et saisissez l’ **URI**, l’**Utilisateur** et le **Mot de passe**.
+1. Accédez à l’onglet **Transport** et saisissez l’**URI**, l’**Utilisateur** et le **Mot de passe**.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
@@ -125,8 +125,8 @@ Configurez la détection Apache Sling basée sur Oak pour toutes les instances d
 Pour chaque instance de publication :
 
 1. Accédez à `https://<host>:<port>/system/console/configMgr`
-1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak** .
-1. Mettre à jour les URL des connecteurs de topologie : ajoutez des URL de toutes les instances de publication participantes qui sont :
+1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak**.
+1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
 1. Liste blanche des connecteurs de topologie : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication
@@ -136,7 +136,7 @@ La configuration doit être identique pour chaque instance de publication et l�
 
 #### Étape 2 : vérification de la topologie de publication {#step-verify-publish-topology}
 
-For any of the publish instances navigate to `https://:/system/console/topology`. Vous devriez voir chaque instance de publication représentée dans la topologie sous Connecteurs **de topologie** sortants.
+Pour toutes les instances de publication, accédez à `https://:/system/console/topology`. Vous devriez voir chaque instance de publication représentée dans la topologie sous **Connecteurs de topologie sortants**.
 
 #### Étape 3 : configuration d’un cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
@@ -154,7 +154,7 @@ Comme chaque instance de publication possède par défaut des clés de chiffreme
 
 >[!NOTE]
 >Le mot de passe doit commencer et se terminer par des accolades.
->Par exemple :{1ec34630f1c26b5c48255084c3b7272a5e85260322edd5919828d1fa0a66 10e}
+>Par exemple :{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
 
 #### Étape 4 : activation du cluster Artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
 
@@ -164,8 +164,8 @@ Sur chaque instance de publication :
 1. Sélectionnez la Configuration du **Fournisseur JMS Apache ActiveMQ Artemis**
 1. Mettez à jour les éléments suivants :
 
-* ***Mot de passe du cluster *** : (utilisez la valeur chiffrée de l’étape précédente pour chaque instance)
-* ***Rubriques *** : {name : ’commands’, address : ’com.adobe.cq.screens.commands’, maxConsumers : 50}
+* ***Mot de passe du cluster*** : (utilisez la valeur chiffrée de l’étape précédente pour chaque instance)
+* ***Rubriques*** : {name : ’commands’, address : ’com.adobe.cq.screens.commands’, maxConsumers : 50}
 
 #### Vérifiez le cluster d’artéfacts ActiveMQ Artemis {#verify-activemq-artemis-cluster}
 
@@ -229,7 +229,7 @@ Une fois que vous aurez configuré la stratégie de publication, vous devez conf
 #### Étape 3 : attribution du périphérique à un affichage {#step-assigning-the-device-to-display}
 
 1. Cliquez sur **Attribuer l’affichage** dans la boîte de dialogue de l’étape précédente.
-1. Sélectionnez le chemin d’affichage de votre canal dans le dossier **Emplacements** .
+1. Sélectionnez le chemin d’affichage de votre canal dans le dossier **Emplacements**.
 1. Cliquez sur **Attribuer**.
 1. Cliquez sur **Terminer** pour achever le processus. Le périphérique est désormais attribué.
 
@@ -239,7 +239,7 @@ Vérifiez votre lecteur et vous verrez le contenu que vous avez ajouté à votre
 
 **Vérification du périphérique**
 
-Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
+Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. Pour vérifier, recherchez l’identifiant du périphérique dans CRXDELite, en utilisant comme chemin d’accès */home/users/screens/we-retail/devices*.
 
 Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
@@ -261,7 +261,7 @@ Vous pouvez également activer le périphérique à partir de la console de gest
 
 >[!NOTE]
 >
->Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+>Une fois que vous aurez activé le périphérique, vous pourrez également modifier ou mettre à jour l’URL du serveur en cliquant sur **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, et vos modifications seront propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -277,14 +277,14 @@ Les points suivants récapitulent la Liste de contrôle de publication :
 * *Planification* : si vous utilisez une planification, veillez à ce qu’elle soit publiée.
 * *Dossier Emplacement, Planifications et Canal* : si les ressources correspondantes se trouvent dans un dossier.
 
-Suivez les étapes ci-dessous pour vérifier le comportement auteur/publication :
+Suivez les étapes ci-dessous pour vérifier le comportement de création/publication :
 
-1. Mise à jour du contenu d’un canal sur l’instance d’auteur
-1. Effectuez **Gestion de la publication** pour publier de nouvelles modifications sur toutes les instances de publication.
-1. Appuyez sur **Activer** pour activer le périphérique à partir du Gestionnaire de **périphériques.**
-1. **Modifier l’URL** de l’URL de l’instance d’auteur vers l’URL de l’une des instances de publication
-1. Vérifiez que le contenu du canal mis à jour s’affiche sur le lecteur d’écrans AEM.
-1. Répétez ces étapes à l’aide d’une instance de publication différente
+1. Mise à jour du contenu d’un canal sur l’instance de création
+1. Exécutez **Gérer la publication** pour publier de nouvelles modifications sur toutes les instances de publication.
+1. Appuyez sur **Activer** pour activer l’appareil à partir du **Gestionnaire de périphériques**.
+1. **Modifiez l’URL** de l’instance de création en la remplaçant par l’URL de l’une des instances de publication.
+1. Vérifiez que le contenu du canal mis à jour s’affiche dans le lecteur AEM Screens.
+1. Répétez ces étapes en utilisant une autre instance de publication.
 
 
 #### Étape 5 : pointage du périphérique vers l’instance de publication dans le panneau d’administration {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
@@ -297,12 +297,12 @@ Affichez les modifications dans votre lecteur AEM Screens.
 
 Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de la console de gestion des périphériques en procédant comme suit :
 
-1. Accédez à votre projet AEM Screens et sélectionnez le dossier **Périphériques** .
+1. Accédez à votre projet AEM Screens et sélectionnez le dossier **Périphériques**.
 1. Cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
-1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+1. Sélectionnez le périphérique et cliquez sur **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous. Vos modifications seront propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-The **Manage Publication** feature allows you to deliver content updates from author to publish to device. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, périphériques, applications ou plannings. Pour en savoir plus sur cette fonctionnalité, reportez-vous à la section Mise à jour [du contenu](on-demand-content.md)à la demande.
+La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un des canaux, un des emplacements, un des périphériques, une des applications ou une des planifications. Pour en savoir plus sur cette fonction, voir la section [Mise à jour du contenu On-Demand](on-demand-content.md).
 
 
