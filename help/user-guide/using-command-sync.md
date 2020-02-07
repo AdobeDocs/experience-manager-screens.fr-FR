@@ -4,7 +4,7 @@ seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,7 +116,7 @@ Une fois que vous avez synchronisé un ou plusieurs périphériques avec un maî
 
 1. Accédez au panneau **APPAREILS** et sélectionnez le périphérique.
 
-1. Cliquez sur **Désynchroniser le ou les périphériques(s)** pour synchroniser le client à partir du périphérique maître.
+1. Cliquez sur **Désynchroniser le ou les périphériques(s)** pour désynchroniser le client du périphérique maître.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
@@ -124,3 +124,4 @@ Une fois que vous avez synchronisé un ou plusieurs périphériques avec un maî
 
    >[REMARQUE:]
    > Si vous sélectionnez le périphérique maître et que vous utilisez l’option de désynchronisation, tous les périphériques connectés au périphérique maître seront désynchronisés en une seule étape.
+
