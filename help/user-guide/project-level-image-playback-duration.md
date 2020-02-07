@@ -1,51 +1,51 @@
 ---
-title: Durée de lecture de l’image au niveau du projet
-seo-title: Durée de lecture de l’image au niveau du projet
-description: 'Cette fonctionnalité vous permet de définir la durée de lecture de l’image au niveau du projet. '
-seo-description: 'Cette fonctionnalité vous permet de définir la durée de lecture de l’image au niveau du projet. '
+title: Durée de lecture des images au niveau du projet
+seo-title: Durée de lecture des images au niveau du projet
+description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
+seo-description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
 
 ---
 
 
-# Durée de lecture de l’image au niveau du projet {#project-level-image-playback}
+# Durée de lecture des images au niveau du projet{#project-level-image-playback}
 
 ## Présentation {#overview}
 
-Cette fonctionnalité vous permet de définir la durée de lecture de l’image au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
+Cette fonction permet de définir la durée de lecture des images au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
 
 ### Conditions préalables {#prerequisites}
 
-Avant d’utiliser cette fonctionnalité, assurez-vous de configurer un projet comme prérequis pour commencer à mettre en oeuvre cette fonctionnalité. Par exemple :
+Avant de commencer à utiliser cette fonction, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
-1. Create an AEM Screens project (in this example, **ProjectLevelPlayback**)
+1. Créez un projet AEM Screens (en l’occurrence, **ProjectLevelPlayback**).
 
-1. Create a sequence channel as **PlayBackChannel** under **Channels** folder
+1. Créez un canal de séquence **PlayBackChannel** sous le dossier **Canaux**.
 
-1. Add content to **PlayBackChannel**
+1. Ajoutez un contenu à **PlayBackChannel**.
 
-   ![actifs](assets/image_playback1.png)
+   ![ressources](assets/image_playback1.png)
 
-   Par exemple, l’image suivante présente les images ajoutées à l’éditeur **PlayBackChannel** :
+   Par exemple, l’image ci-dessous présente les images ajoutées à l’éditeur **PlayBackChannel** :
 
-   ![actifs](assets/image_playback2.png)
+   ![ressources](assets/image_playback2.png)
 
-## Editing Project Level Image Playback Duration Assignment {#editing-project-level-image-playback-duration-assignment}
+## Modification de l’attribution d’une durée de lecture des images au niveau d’un projet{#editing-project-level-image-playback-duration-assignment}
 
-La section ci-dessous explique comment modifier la durée de lecture du contenu dans un projet AEM Screens.
+La section ci-après explique comment modifier la durée de lecture d’un contenu d’un projet AEM Screens.
 
-### Mise à jour de la durée de lecture des images au niveau du projet {#updating-the-playback-duration-for-images-in-a-project}
+### Mise à jour de la durée de lecture des images au niveau d’un projet {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
->Si vous souhaitez mettre à jour une durée de lecture au niveau d’une image ou d’un canal, reportez-vous à la section Durée [de lecture de l’image au niveau du](channel-level-image-playback.md)canal.
+>Si vous souhaitez mettre à jour une image ou une durée de lecture au niveau d’un canal, reportez-vous à la section [Durée de lecture des images au niveau d’un canal](channel-level-image-playback.md).
 
-Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de lecture d’image au niveau du projet :
+Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de lecture des images d’un projet :
 
-1. Navigate to your project **ProjectLevelPlayback** and click **Properties** from the action bar.
-   ![actifs](assets/image_playback3.png)
+1. Accédez au projet **ProjectLevelPlayback** et cliquez sur **Propriétés** dans la barre d’actions.
+   ![ressources](assets/image_playback3.png)
 
 1. Sélectionnez toutes les images du canal, puis cliquez sur l’icône en forme de clé à molette en haut à gauche (comme l’illustre la figure ci-dessous) pour ouvrir la boîte de dialogue de configuration de canal.
 
@@ -55,7 +55,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de le
 
    >[!NOTE]
    >
-   >Par défaut, les images d’une chaîne sont définies sur une durée de lecture de 8 secondes et les vidéos sont lues sur la durée par défaut.
+   >Par défaut, les images d’un canal sont définies sur une durée de lecture de 8 secondes et les vidéos sont lues selon leur durée par défaut.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
