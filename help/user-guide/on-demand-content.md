@@ -2,10 +2,10 @@
 title: Mise à jour du contenu On-Demand
 seo-title: Mise à jour du contenu On-Demand
 description: 'Consultez cette page pour en savoir plus sur la mise à jour de contenu On-Demand.  '
-seo-description: 'Consultez cette page pour en savoir plus sur la mise à jour de contenu à la demande.  '
+seo-description: 'Consultez cette page pour en savoir plus sur la mise à jour de contenu On-Demand.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
@@ -28,11 +28,11 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. L’assistant de **Gestion de publication** démarre. Vous pouvez sélectionner l’ **Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant de **Gestion de publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Cochez la case pour sélectionner l’intégralité du projet dans l’assistant de **Gestion de publication** .
+1. Cochez la case pour sélectionner l’intégralité du projet dans l’assistant de **Gestion de publication**.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
@@ -69,12 +69,12 @@ cette option permet de gérer les mises à jour uniquement sur les pages qui ont
    >Patientez quelques secondes/minutes pour que le contenu atteigne l’instance de publication.
    >
    >
-   >    1. Le processus ne fonctionne pas si le projet ne contient aucune modification et qu&#39;il n’y a pas lieu de **mettre à jour le contenu hors ligne**.
-   >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.
+   >    1. Le processus ne fonctionne pas si le projet ne contient aucune modification et qu’il n’y a pas lieu de **mettre à jour le contenu hors ligne**.
+   >    1. Le processus ne fonctionne pas si l’auteur n’effectue pas le processus de réplication (le contenu est toujours téléchargé vers l’instance de publication) après avoir cliqué sur le bouton **Publier** dans le processus de gestion de la publication.
 
 
    > [!CAUTION]
-   > Si, en tant qu’auteur ou créateur de contenu, vous souhaitez voir les modifications apportées aux périphériques connectés à l’instance d’auteur, cliquez sur **Mettre à jour le contenu** hors ligne à partir du tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne de la mise à jour n’est exécuté que dans l’instance d’auteur.
+   > Si, en tant qu’auteur ou créateur de contenu, vous souhaitez voir les modifications apportées aux périphériques connectés à l’instance d’auteur, cliquez sur **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne n’est mis à jour que dans l’instance d’auteur.
 
 1. Accédez au projet et cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions. Cette action transfère la même commande à l’instance de publication, de sorte que les fichiers compressés hors ligne soient également créés sur l’instance de publication.
 
@@ -83,7 +83,7 @@ cette option permet de gérer les mises à jour uniquement sur les pages qui ont
 
    >[!NOTE]
    >
-   >Une fois que vous avez terminé le processus de gestion de la publication et qu’un lecteur pointe vers l’instance d’auteur, vous devez déclencher le contenu hors ligne de la mise à jour dans l’instance d’auteur, qui crée la mise à jour hors ligne sur l’instance d’auteur.
+   >Une fois que vous avez terminé le processus de gestion de la publication, et si un lecteur désigne l’instance d’auteur, vous devez déclencher la mise à jour du contenu hors ligne dans l’auteur, ce qui crée la mise à jour hors ligne sur l’instance d’auteur.
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. L’assistant de **Gestion de publication** démarre. Vous pouvez sélectionner l’ **Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant de **Gestion de publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -114,7 +114,7 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
    >
    >Patientez quelques secondes/minutes pour que le contenu atteigne l’instance de publication.
 
-1. Déclencher la **mise à jour du contenu** hors ligne dans le tableau de bord du canal ne fera que pousser le contenu hors ligne vers l’instance d’auteur, mais pas vers l’instance de publication. Les étapes 1 à 4 permettent de placer du contenu hors ligne dans une instance de publication.
+1. Le fait de déclencher la **mise à jour du contenu hors ligne** dans le tableau de bord du canal poussera le contenu hors ligne vers l’instance de création, mais pas vers l’instance de publication. Les étapes 1 à 4 permettent de pousser le contenu hors ligne vers l’instance de publication.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
