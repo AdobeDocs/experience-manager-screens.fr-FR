@@ -5,7 +5,7 @@ description: Consultez cette page pour apprendre comment appliquer des transitio
 seo-description: Consultez cette page pour apprendre comment appliquer des transitions à vos projets Screens.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
@@ -50,7 +50,7 @@ avec un canal **TestTransition**. Configurez également un emplacement et un aff
 
    > [!NOTE]
    >
-   >By default, the properties of the transition component such as **Type** is set to **Fade** and the **Duration** is set to *1600 ms*.  En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle cette durée s’applique.
+   >Par défaut, les propriétés du composant de transition, telles que **Type**, sont définies sur **Fondu** et la **Durée** sur *1 600 ms*.  En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle cette durée s’applique.
 
 1. De plus, si vous ajoutez un composant **Séquence incorporée** (qui inclut un canal de séquence) à cet éditeur de canal, vous pouvez ajouter un composant de transition à la fin, de sorte que le contenu soit lu dans l’ordre, comme illustré dans la figure ci-dessous :
 
