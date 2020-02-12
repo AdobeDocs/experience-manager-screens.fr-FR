@@ -5,16 +5,55 @@ description: Suivez cette page pour en savoir plus sur la création de modèles 
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # Création de modèles personnalisés dans des mises en page MultiZone {#creating-custom-templates-multizone}
 
-L’exemple suivant montre comment créer un modèle personnalisé dans des mises en page multiZone.
+Cette page explique comment créer un modèle personnalisé dans une mise en page multi-zone.
 
-Par exemple, la section ci-dessous illustre la création d’un modèle personnalisé dans une disposition multiZone avec les configurations suivantes :
+## Convention de dénomination {#name-terms}
+
+Avant de comprendre comment créer des modèles multi-zone personnalisés à utiliser dans un projet AEM Screens, il est obligatoire de comprendre le verbe des modèles que vous souhaitez créer.
+
+| **Nom de la mise en page** | **Description** |
+|---|---|
+| Left20-LandscapeHD3Zone | Fait référence à une disposition paysage de 3 zones qui permet de créer 3 zones avec zone 1 comme 20 % de l’écran horizontal et vertical de gauche, zone 2 comme 80 % de l’écran horizontal et 20 % de l’écran vertical de droite justifiés, zone 3 comme 100 % de l’écran horizontal et 80 % de l’écran vertical avec un format de 16:9 |
+| Upper20-PortraitHD2Zone | Fait référence à un modèle portrait à 2 zones qui couvre 20 % de l’écran depuis le haut, avec un rapport L/H de 16:9 |
+| Right20-LandscapeSD3Zone | Fait référence à un modèle à 3 zones qui couvre 20 % de l’écran depuis la droite, avec un rapport L/H de 4:3 |
+
+## Exemples de cas d’utilisation {#example-use-cases}
+
+## Création d’une mise en page Left20-LandscapeHD3Zone {#landscape-layout-one}
+
+Suivez la section ci-dessous pour créer un modèle personnalisé avec la configuration suivante :
+
+* **Left20** fait référence à la zone supérieure sur la gauche couvrant 20 % de la taille de l’écran horizontal et vertical.
+* **Paysage** fait référence à l’orientation de l’écran.
+* **HD** fait référence au format 16:9
+* **3Zone** fait référence à trois zones de l’affichage
+
+## Représentation visuelle de la mise en page multi-zone {#multi-layout-visual-one}
+
+La disposition Left20-LandscapeHD3Zone vous permet de créer la disposition multi-zone suivante dans votre projet :
+
+![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Création d’une mise en page Upper20-PortraitHD2Zone {#landscape-layout-two}
+
+Suivez la section ci-dessous pour créer un modèle personnalisé avec la configuration suivante :
+
+
+
+
+
 
 ![image](assets/custom-template1.png)
 
