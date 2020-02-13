@@ -4,7 +4,7 @@ seo-title: Réplication des déclencheurs de données vers le serveur de publica
 description: Répliquez les déclencheurs de données au serveur de publication.
 seo-description: Répliquez les déclencheurs de données au serveur de publication.
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données vers
    >[!Nnote]
    >Si le test échoue, vous devez corriger la configuration de l’agent de réplication entre l’instance d’auteur et l’instance de publication. Pour plus d&#39;informations, reportez-vous à [Résolution des problèmes liés à Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) .
 
-1. Sélectionnez **Ajouter** dans l’arborescence de l’agent **de** distribution et sélectionnez le chemin de configuration de votre projet, par exemple `/conf/screens/settings/cloudsettings/configuration)`.
+1. Sélectionnez **Ajouter** dans l’arborescence de l’agent **de** distribution et sélectionnez le chemin de configuration de votre projet, par exemple `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Cliquez sur **Envoyer**
 
@@ -51,7 +51,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données vers
 
 1. Explorez le dossier de votre projet, par exemple `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Sélectionnez toutes les audiences et tous les segments dans l’interface utilisateur.
 
@@ -114,3 +114,6 @@ Suivez les étapes ci-dessous :
 
    1. Cliquez sur **Enregistrer** et relancez le test de connexion à partir de l’écran Agent **de** distribution à partir de votre instance AEM.
 
+   1. L’utilisateur devra visiter à nouveau la page Agent **de** distribution à partir de l’instance AEM pour mettre à jour/remplacer l’URL par défaut `localhost:4503` vers sa propre URL de publication.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
