@@ -4,7 +4,7 @@ seo-title: Réplication des déclencheurs de données vers le serveur de publica
 description: Répliquez les déclencheurs de données au serveur de publication.
 seo-description: Répliquez les déclencheurs de données au serveur de publication.
 translation-type: tm+mt
-source-git-commit: a8ded0c15e0e3cbaf0999da796789991b20d24cb
+source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
 
 ---
 
@@ -23,40 +23,59 @@ Cela se résume essentiellement à la publication manuelle :
 
 ## Procédure de réplication des déclencheurs de données vers le serveur de publication {#replicating-data-triggers-publish}
 
-Pour répliquer les déclencheurs de données sur le serveur de publication, procédez comme suit :
+Suivez les étapes ci-dessous pour répliquer les déclencheurs de données vers le serveur de publication.
 
-### Réplication des configurations ContextHub {#replicating-contexthub-configurations}
+### Étape 1 :Réplication des configurations ContextHub {#replicating-contexthub-configurations}
 
-1. Accédez à **Outils** > **Déploiement** > **Distribution** > Agent de **publicationhttp://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish**
-1. Cliquez sur le bouton Tester la connexion pour vérifier que l’auteur peut communiquer correctement avec l’instance de publication.
-1. Si le test échoue, vous devez corriger la configuration de l’agent de réplication entre l’auteur et la publication.
-1. Vérifier que l’URL du point de fin pointe également vers l’URL du serveur de publication dans Distribution Agent
-1. Edition > Points de fin de l’importateur
-1. Cliquez sur l’onglet Répartir
-1. Sélectionner le bouton d’option Ajouter une arborescence
-1. Dans le navigateur de chemins, sélectionnez le chemin de configuration de votre projet (c.-à-d. /conf/screens/settings/cloudsettings/configuration)
-1. Cliquez sur Envoyer
+1. Accédez à **Outils** > **Déploiement** > **Distribution** > Agent de **publication puis cliquez sur l’agent de publication pour configurer vos paramètres.**
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
+
+   >[!Nnote]
+   >Vous pouvez également utiliser le [lien](http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish) pour accéder directement à l’écran afin de configurer et de tester la connexion.
+
+1. Cliquez sur **Tester la connexion** dans la barre d’actions pour valider la communication de l’auteur avec l’instance de publication, comme illustré dans la figure ci-dessous.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
+
+   >[!Nnote]
+   >Si le test échoue, vous devez corriger la configuration de l’agent de réplication entre l’instance d’auteur et l’instance de publication. Pour plus d&#39;informations, reportez-vous à [Résolution des problèmes liés à Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) .
+
+1. Cliquez sur **Modifier** dans l’écran ci-dessus et vérifiez que l’URL du point de fin dans le champ Points de fin **de l’** importateur pointe également vers l’URL du serveur de publication dans Distribution Agent.
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+
+1. Sélectionnez **Ajouter** dans l&#39;arborescence de l&#39;agent **de** distribution et sélectionnez le chemin de configuration de votre projet, c&#39;est-à-dire `/conf/screens/settings/cloudsettings/configuration)`.
+
+1. Cliquez sur **Envoyer**
 
 ### Réplication des audiences {#replicating-audiences}
 
-1. Accédez à Outils > Personnalisation > Audienceshttp://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html
-1. Explorez le dossier de votre projet (c.-à-d. /conf/screens/)
-1. Sélection de tous les publics/segments dans l’interface utilisateur
-1. Cliquez sur Gérer la publication
-1. Cliquez sur Suivant
-1. Cliquez sur Publier
+1. Accédez à **Outils** > **Personnalisation** > **Audiences** ou utilisez le [lien pour naviguer directement.](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html)
+
+1. Explorez le dossier de votre projet, c&#39;est-à-dire `/conf/screens/`.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+
+1. Sélectionnez toutes les audiences et tous les segments dans l’interface utilisateur.
+
+1. Cliquez sur **Gérer la publication** dans la barre d’actions.
+
+1. Cliquez sur **Suivant** et **Publier**.
 
 ### Réplication des activités {#replicating-activities}
 
-1. Accédez à Outils > Personnalisation > Activitéshttp://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html
-1. Explorez le dossier de votre projet (c.-à-d. /content/campaigns/screens/...)
-1. Sélectionner toutes les activités dans l’interface utilisateur
-1. Cliquez sur Gérer la publication
-1. Cliquez sur Suivant
-1. Cliquez sur Publier
+1. Accédez à **Outils** > **Personnalisation** > **Activités** ou utilisez le [lien pour naviguer directement.](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html)
 
-> [!Nnote]
->La réplication des configurations et audiences ContextHub est effectuée pendant la configuration du projet, tandis que la réplication des activités et sera requise chaque fois que le ciblage est modifié dans un canal.
+1. Explorez le dossier de votre projet, c&#39;est-à-dire `/content/campaigns/screens/…`.
+
+1. Sélectionnez toutes les activités dans l’interface utilisateur.
+
+1. Cliquez sur **Gérer la publication** dans la barre d’actions.
+
+1. Cliquez sur **Suivant** et **Publier**.
+
+   > [!Nnote]
+   >La réplication des configurations et audiences ContextHub est effectuée pendant la configuration du projet, tandis que la réplication des activités et sera requise chaque fois que le ciblage est modifié dans un canal.
 
 #### Résultat {#result}
 
@@ -65,3 +84,30 @@ Si la réplication est réussie, vous devez afficher la structure suivante sur l
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
 `/content/campaigns/screens/…`
+
+## Dépannage de Test Connection {#troubleshoot-test}
+
+Si la connexion test échoue lors de la réplication des configurations ContextHub, suivez la section ci-dessous pour résoudre le problème :
+
+1. Accédez au champ Points de fin **de l’** importateur et vérifiez que l’URL du point de fin pointe vers l’URL du serveur de publication dans Distribution Agent.
+
+1. Si vous n’utilisez pas les informations d’identification par défaut, vous devez configurer l’agent de distribution avec un mot de passe d’administrateur différent.
+Suivez les étapes ci-dessous :
+
+   1. Accédez à Outils > **Opérations** > Console Web** `http://localhost:4502/system/console/configMgr`pour ouvrir l’écran **de la console Web** Adobe Experience Manager.
+
+   1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
+
+   1. Créez une configuration en renseignant le **nom**, le nom **d’** utilisateur et le mot de passe **, par exemple***slingTransportSecretProvider..*
+   1. Cliquez sur **Enregistrer**
+
+   1. Recherchez le nom de votre agent de distribution à l&#39;aide de `Cmd +F`.
+
+   1. Cliquez pour ouvrir la configuration osgi de l&#39;agent de distribution.
+
+   1. Recherchez Transport Secret Provider dans la configuration osgi et mettez-le à jour avec `"(name=slingTransportSecretProvider)"`.
+
+   1. Cliquez sur **Enregistrer** et exécutez la connexion test.
+
