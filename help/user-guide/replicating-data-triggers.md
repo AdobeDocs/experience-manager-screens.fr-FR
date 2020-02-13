@@ -4,7 +4,7 @@ seo-title: Réplication des déclencheurs de données vers le serveur de publica
 description: Répliquez les déclencheurs de données au serveur de publication.
 seo-description: Répliquez les déclencheurs de données au serveur de publication.
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ Si la connexion test échoue lors de la réplication des configurations ContextH
 1. Accédez à Outils > **Déploiement** > **Distribution** > Agent **de** publication.
 
 1. Cliquez sur **Modifier** dans la barre d’actions et vérifiez que l’URL du point de fin dans le champ Points de fin **de l’** importateur pointe également vers l’URL du serveur de publication dans Distribution Agent.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Si vous n’utilisez pas les informations d’identification d’administrateur par défaut, vous devez configurer l’agent de distribution avec un mot de passe d’administrateur différent.
+1. Si vous n’utilisez pas les informations d’identification d’administrateur par défaut, vous devez configurer l’agent de distribution avec un nom d’utilisateur et un mot de passe différents.
 Suivez les étapes ci-dessous :
 
    1. Accédez à Outils > **Opérations** > Console **** Web `http://localhost:4502/system/console/configMgr`pour ouvrir l’écran **** de la console Web Adobe Experience Manager.
