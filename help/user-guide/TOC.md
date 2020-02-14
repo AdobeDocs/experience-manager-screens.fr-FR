@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
+source-git-commit: 5e352469b657662cd7ddb9af395ae92e28ef6ee1
 
 ---
 
@@ -31,6 +31,7 @@ source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
    + [Configuration des listes de contrôle d’accès](setting-up-acls.md)
    + [Transition de ContentSync à SmartSync](smartsync.md)
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
+   + [Réplication des déclencheurs de données sur les serveurs de publication](replicating-data-triggers.md)
    + Observations relatives aux clients {#installing-client}
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
