@@ -4,7 +4,7 @@ seo-title: Réplication des déclencheurs de données vers le serveur de publica
 description: Répliquez les déclencheurs de données au serveur de publication.
 seo-description: Répliquez les déclencheurs de données au serveur de publication.
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données vers
 
 1. Sélectionnez **Ajouter** dans l’arborescence de l’agent **de** distribution et sélectionnez le chemin de configuration de votre projet, par exemple `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Cliquez sur **Envoyer**
+1. Cliquez sur **Envoyer**.
 
 ### Réplication des audiences {#replicating-audiences}
 
@@ -71,8 +71,9 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données vers
 
 1. Cliquez sur **Suivant** et **Publier**.
 
-> [!Nnote]
-> **Important ** :>La réplication des configurations et audiences ContextHub est effectuée pendant la configuration du projet, tandis que la réplication des activités et sera requise chaque fois que le ciblage est modifié dans un canal.
+>[!IMPORTANT]
+>
+>La réplication des configurations et audiences ContextHub est effectuée pendant la configuration du projet, tandis que la réplication des activités et sera requise chaque fois que le ciblage est modifié dans un canal.
 
 #### Résultat {#result}
 
@@ -92,10 +93,10 @@ Si la connexion test échoue lors de la réplication des configurations ContextH
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Si vous n’utilisez pas les informations d’identification d’administrateur par défaut, vous devez configurer l’agent de distribution avec un nom d’utilisateur et un mot de passe différents.
-Suivez les étapes ci-dessous :
+
+   Suivez les étapes ci-dessous :
 
    1. Accédez à Outils > **Opérations** > Console **** Web `http://localhost:4502/system/console/configMgr`pour ouvrir l’écran **** de la console Web Adobe Experience Manager.
-
    1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ Suivez les étapes ci-dessous :
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Cliquez sur **Enregistrer**
-
    1. Utilisez `Cmd +F` pour rechercher **Apache Sling Distribution Agent - Forward Agents Factory** pour ouvrir les configurations et rechercher **Transport Secret Provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Mettez à jour le `(name=default)` avec `(name=slingTransportSecretProvider)`.
-
    1. Cliquez sur **Enregistrer** et relancez le test de connexion à partir de l’écran Agent **de** distribution à partir de votre instance AEM.
