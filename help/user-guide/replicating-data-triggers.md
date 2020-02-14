@@ -4,7 +4,7 @@ seo-title: Réplication des déclencheurs de données vers le serveur de publica
 description: Répliquez les déclencheurs de données au serveur de publication.
 seo-description: Répliquez les déclencheurs de données au serveur de publication.
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données vers
 
 1. Cliquez sur **Suivant** et **Publier**.
 
-   > [!Nnote]
-   >La réplication des configurations et audiences ContextHub est effectuée pendant la configuration du projet, tandis que la réplication des activités et sera requise chaque fois que le ciblage est modifié dans un canal.
+> [!Nnote]
+> **Important ** :>La réplication des configurations et audiences ContextHub est effectuée pendant la configuration du projet, tandis que la réplication des activités et sera requise chaque fois que le ciblage est modifié dans un canal.
 
 #### Résultat {#result}
 
@@ -113,7 +113,3 @@ Suivez les étapes ci-dessous :
    1. Mettez à jour le `(name=default)` avec `(name=slingTransportSecretProvider)`.
 
    1. Cliquez sur **Enregistrer** et relancez le test de connexion à partir de l’écran Agent **de** distribution à partir de votre instance AEM.
-
-   1. L’utilisateur devra visiter à nouveau la page Agent **de** distribution à partir de l’instance AEM pour mettre à jour/remplacer l’URL par défaut `localhost:4503` vers sa propre URL de publication.
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
