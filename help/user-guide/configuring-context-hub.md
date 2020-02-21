@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
@@ -40,7 +40,7 @@ Le diagramme ci-dessous illustre visuellement comment les configurations Context
 
 ## Conditions préalables {#preconditions}
 
-Avant de commencer à configurer les configurations Context Hub pour un projet AEM Screens, vous devez configurer des feuilles Google (à des fins de démonstration).
+Avant de commencer à définir les configurations ContextHub d’un projet AEM Screens, vous devez configurer Google Sheets (à des fins de démonstration).
 
 >[!CAUTION]
 >
@@ -50,15 +50,15 @@ Avant de commencer à configurer les configurations Context Hub pour un projet A
 
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 
-Vous pouvez configurer la banque de données en tant qu’événement d’E/S locale ou d’événement de base de données locale.
+Vous pouvez configurer l’entrepôt de données en tant qu’événement d’E/S local ou d’événement de base de données local.
 
-### Événement E/S local {#local-io-event}
+### Événement d’E/S local {#local-io-event}
 
-Suivez les étapes ci-dessous pour configurer un magasin de données, tel qu’un événement ASCII, qui vous permet d’utiliser les configurations ContextHub et le chemin de segments vers le canal AEM Screens.
+Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu’un événement ASCII, qui vous permet d’utiliser les configurations et le chemin des segments ContextHub vers le canal AEM Screens.
 
-### Événement de base de données locale {#local-db-event}
+### Événement de base de données local {#local-db-event}
 
-Suivez les étapes ci-dessous pour configurer un magasin de données tel qu’une feuille Excel qui vous permet d’utiliser les configurations ContextHub et le chemin de segments vers le canal AEM Screens.
+Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu’une feuille Excel, qui vous permet d’utiliser les configurations et le chemin des segments ContextHub vers le canal AEM Screens.
 
 1. **Accès à ContextHub**
 
@@ -197,7 +197,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux** , puis cliquez sur **Modifier** dans la barre d’actions.
+1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions.
 
    >[!NOTE]
    Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
