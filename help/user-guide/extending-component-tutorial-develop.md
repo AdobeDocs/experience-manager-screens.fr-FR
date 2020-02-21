@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 
 ---
@@ -35,11 +35,11 @@ Le composant Poster personnalisé est créé en étendant le composant Image.
 
 Pour terminer ce tutoriel, vous devez :
 
-1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
+1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IDEs peuvent également être utilisés pour compléter le tutoriel. More information on using an IDE to [develop with AEM can be found here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. Les IDE [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
 
 ## Configuration du projet {#project-setup}
 
@@ -311,7 +311,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
 ## Création de bibliothèques côté client {#clientlibs}
 
-Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une mise en œuvre d’AEM. Vous trouverez plus d’informations sur l’utilisation des [bibliothèques côté client ici.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une mise en œuvre d’AEM. Vous trouverez plus d’informations sur l’utilisation des [bibliothèques côté client ici.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 Les composants d’AEM Screens s’affichent différemment en mode d’édition et en mode d’aperçu/de production. Deux ensembles de bibliothèques clientes sont créés, l’un pour le mode d’édition et l’autre pour le mode d’aperçu/de production.
 
@@ -506,7 +506,7 @@ Le composant Poster est destiné à être utilisé sur un canal de séquence. Le
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=fre_fr)
 
 ## Code terminé {#finished-code}
 
