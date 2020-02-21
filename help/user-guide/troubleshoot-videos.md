@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
@@ -21,7 +21,7 @@ Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vo
 
 Les sections qui suivent décrivent comment déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
-## Rendus de la gestion des actifs numériques   {#dam-renditions}
+## Rendus de la gestion des actifs numériques    {#dam-renditions}
 
 Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
 
@@ -68,7 +68,7 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
    >
    >Avant de l’ajouter à un canal, veillez à laisser suffisamment de temps pour le transcodage de la vidéo (l’indicateur « Nouvelle » et non « Traitement en cours » doit s’afficher).
 
-### Vérification du profil avec un composant vidéo    {#checking-profile-with-a-video-component}
+### Vérification du profil avec un composant vidéo     {#checking-profile-with-a-video-component}
 
 Consultez la liste des profils dans la conception des pages si le composant vidéo n’est pas configuré correctement.
 
@@ -107,7 +107,7 @@ Si le lecteur AEM Screens sélectionne la vidéo mais ne l’affiche pas, vous 
 
 Pour résoudre le problème d’indicateur Stratégie de lecture automatique de Google, procédez comme suit :
 
-1. Accédez à ***chrome://flags/#autoplay-policy ***
+1. Accédez à ***chrome://flags/#autoplay-policy***
 1. Changez la **stratégie de lecture automatique** de **par défaut** à **aucun geste requis de la part de l’utilisateur**
 
 1. Relancez votre navigateur web et mettez à jour le lecteur
@@ -149,7 +149,7 @@ Pour configurer une stratégie absolue, procédez comme suit :
 **Alignement des horloges sur OS X** Pour aligner les horloges sur OSX, procédez comme suit :
 
 1. Ouvrez les préférences **Date et heure** pour chaque lecteur OS X.
-1. Check **Set date and time automatically**
+1. Activez l’option **Définir automatiquement la date et l’heure**.
 1. Collez value 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com dans la liste déroulante ou exécutez simplement *sudo ntpdate -u -v 0.pool.ntp.org*.
 1. Démarrez deux lecteurs ou plus.
 
