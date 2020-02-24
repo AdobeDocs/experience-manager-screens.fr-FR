@@ -5,7 +5,7 @@ description: Suivez cette page pour en savoir plus sur la création de modèles 
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
+source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
 
 ---
 
@@ -16,7 +16,7 @@ Cette page explique comment créer un modèle personnalisé dans une mise en pag
 
 ## Convention de dénomination {#name-terms}
 
-Avant de comprendre comment créer des modèles multi-zone personnalisés à utiliser dans un projet AEM Screens, il est obligatoire de comprendre le verbe des modèles que vous souhaitez créer.
+Avant de comprendre comment créer des modèles multi-zone personnalisés à utiliser dans un projet AEM Screens, il est recommandé de comprendre le verbe des modèles que vous souhaitez créer.
 
 | **Nom de la mise en page** | **Description** |
 |---|---|
@@ -26,9 +26,9 @@ Avant de comprendre comment créer des modèles multi-zone personnalisés à uti
 
 ## Exemples de cas d’utilisation {#example-use-cases}
 
-## Création d’une mise en page Left20-LandscapeHD3Zone {#landscape-layout-one}
+## Disposition Left20-LandscapeHD3Zone {#custom-template-one}
 
-Suivez la section ci-dessous pour créer un modèle personnalisé avec la configuration suivante :
+Suivez la section ci-dessous pour créer un modèle personnalisé *Left20-LandscapeHD3Zone* avec la configuration suivante :
 
 * **Left20** fait référence à la zone supérieure sur la gauche couvrant 20 % de la taille de l’écran horizontal et vertical.
 * **Paysage** fait référence à l’orientation de l’écran.
@@ -41,24 +41,50 @@ La disposition Left20-LandscapeHD3Zone vous permet de créer la disposition mult
 
 ![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## Création d’une mise en page Left20-LandscapeHD3Zone {#landscape-layout-one}
 
+Suivez les étapes ci-dessous pour créer une mise en page Left20-LandscapeHD3Zone pour un projet AEM Screens :
 
+1. Create an AEM Screens project titled as **customtemplate**.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
+1. Accédez à **CRXDE Lite** à partir de votre instance AEM —> Outils —> **CRXDE Lite**.
 
-## Création d’une mise en page Upper20-PortraitHD2Zone {#landscape-layout-two}
+1. Créez un dossier sous **Applications** intitulé **modèlepersonnalisé**. De même, créez un autre dossier intitulé **modèle** sous **modèle** personnalisé, comme illustré dans la figure ci-dessous.
 
-Suivez la section ci-dessous pour créer un modèle personnalisé avec la configuration suivante :
+   ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
+   > [!NOTE]
+   > Il est recommandé de cliquer sur **Enregistrer tout** à partir de la barre d’action de CRXDE Lite chaque fois que vous créez, modifiez ou copiez du contenu sur l’un des noeuds, sans quoi vous ne pourrez pas valider les mises à jour.
 
+1. Copiez le modèle de la barre de gauche `/libs/screens/core/templates/splitscreenchannel/lbar-left` vers `/apps/customtemplate/template`.
 
+1. Renommez la **barre gauche** copiée (`/apps/customtemplate/template`) en **ma disposition** personnalisée.
 
+1. Accédez aux propriétés `/apps/customtemplate/template/my-custom-layout` jcr:description **et mettez à jour les propriétés** jcr:description *en* Template for Left20-LandscapeHD3Zone **et** jcr:titleen Left20-LandscapeHD3Zone.**
 
+1. Accédez au noeud **offline-config** depuis `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` et mettez à jour **jcr:title** vers *Left20-LandscapeHD3Zone*.
 
-![image](assets/custom-template1.png)
+1. Accédez à la propriété *jcr:content* de **my-custom-template** à partir de `/apps/customtemplate/template/my-custom-layout/jcr:content` et mettez à jour la propriété **cq:cssClass** pour aem-Layout my-custom-layout.****
 
+1. En vous référant à l’étape (4), au cours de laquelle vous avez copié le modèle de barre gauche, vous verrez 3 grilles réactives sous `my-custom-layout/jcr:content`la section. Ajoutez la classe css personnalisée à chaque grille réactive dans la propriété *cq:cssClass* , par exemple, *ma-disposition-personnalisée-en-haut à gauche*, *ma-disposition-personnalisée-en-haut à droite*, *ma-disposition-personnalisée-en-bas.*
+
+   >[!NOTE]
+   >Ces classes personnalisées seront utilisées dans le CSS pour définir la largeur/hauteur de ces grilles réactives.
+
+   >[!NOTE]
+   > Vous pouvez ajouter ou supprimer des grilles réactives en fonction du nombre total de grilles souhaité. Dans cet exemple, nous présentons 2 grilles dans la première ligne et 1 grille dans la deuxième ligne. Il y a donc un total de 3 grilles réactives (r1c1, r1c2, r2c1).
+
+1. Copier `/libs/settings/wcm/designs/screens` vers `/apps/settings/wcm/designs/` et renommer en tant que conceptions de modèle **personnalisé**
+
+1. Accédez à la propriété `/apps/settings/wcm/designs/custom-template-designs` jcr:title *de conceptions* -modèles **** personnalisées et mettez-la à jour pour **personnaliser la conception**-modèle.
+
+1. mettez à jour le `/apps/settings/wcm/designs/<project>-designs/static.css` contenu pour qu’il corresponde aux éléments suivants :
 
 ## Création d’un modèle personnalisé avec une configuration spécifique {#basic-flow-setting}
+
+![image](assets/custom-template1.png)
 
 Suivez les étapes ci-dessous pour créer un modèle personnalisé.
 
