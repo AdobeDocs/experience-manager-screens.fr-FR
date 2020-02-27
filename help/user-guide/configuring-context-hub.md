@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+translation-type: tm+mt
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu�
 
    1. Accédez à **global** > **default** > **Configuration de ContextHub**.
 
-   1. Cliquez sur** Créer > Conteneur de configuration **et saisissez le titre** ContextHubDemo**.
+   1. Click **Create** > **Configuration Container** and enter the title as **ContextHubDemo**.
 
    1. **Accédez** à **ContextHubDemo** > **Configuration de magasin ContentHub...** pour ouvrir l’**Assistant de configuration**.
 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**
 
    1. Cliquez sur **Suivant**
-   1. Saisissez votre configuration JSON spécifique**.** Par exemple, vous pouvez utiliser le fichier json suivant à des fins de démonstration.
+   1. Entrez votre configuration json spécifique. Vous pouvez par exemple utiliser le code json ci-dessous à des fins de démonstration.
    1. Cliquez sur **Enregistrer**.
 
    ```
