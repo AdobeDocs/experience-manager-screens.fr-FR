@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -24,14 +24,14 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [Partie 5 : facteurs liés à l’assistance](support-considerations.md)
 + Configuration et administration {#administering}
    + [Configurations de serveurs Screens](configuring-screens-introduction.md)
-   + [Paramétrage de configurations de répartiteurs](dispatcher-configurations-aem-screens.md)
+   + [Paramétrage des configurations Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Installation du lecteur Screens](installing-screens-player.md)
    + [Connexion à un lecteur Screens](working-with-screens-player.md)
    + [Enregistrement de périphériques](device-registration.md)
    + [Configuration des listes de contrôle d’accès](setting-up-acls.md)
    + [Transition de ContentSync à SmartSync](smartsync.md)
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
-   + [Réplication des déclencheurs de données sur les serveurs de publication](replicating-data-triggers.md)
+   + [Réplication des triggers de données sur les serveurs de publication](replicating-data-triggers.md)
    + Observations relatives aux clients {#installing-client}
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [Création de composants](creating-components.md)
    + [Incorporation d’une application REACT via la fonction d’éditeur d’application monopage (SPA) et intégration avec AEM Screens Analytics](embedding-react-app.md)
    + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
-   + [Création de dispositions multizones pour des modèles personnalisés ](creating-custom-templates-multizone-layouts.md)
+   + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
