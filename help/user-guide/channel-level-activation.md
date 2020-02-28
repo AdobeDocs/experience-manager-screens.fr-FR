@@ -10,13 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# Activation au niveau du canal - Lecture d’un événement unique {#channel-level-activation-single-event-playback}
+# Channel Level Activation {#channel-level-activation-single-event-playback}
 
 L’activation au niveau du canal couvre les rubriques suivantes :
 
@@ -87,7 +87,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Créer un affichage sous Emplacement**
 
-   1. Accédez à **Channel Level Activation** &gt; **Emplacements** &gt; **Région**.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région**.
    1. Sélectionnez **Région**, puis cliquez sur **+Créer** dans la barre d’actions.
    1. Sélectionnez **Afficher** dans l’assistant et créez un affichage intitulé **RegionDisplay.**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    Pour **MainAdChannel :**
 
-   1. Accédez à **Channel Level Activation** &gt; **Emplacements** &gt; **Région** &gt; **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
    1. La boîte de dialogue **Attribution de canaux** s’ouvre.
    1. Sélectionnez **Canal de référence**.. en fonction du chemin d’accès.
-   1. Sélectionnez en tant que **Chemin du canal** **Channel Level Activation** —&gt; ***Canaux*** —&gt; ***MainAdChannel***.
+   1. Select the **Channel Path** as **Channel Level Activation** --> ***Channels*** --> ***MainAdChannel***.
    1. Le **Rôle du canal** est défini comme **mainadchannel**.
    1. Sélectionnez la **Priorité** **1**.
    1. Choisissez les **Événements pris en charge** **Chargement initial** et **Écran inactif**.
@@ -108,14 +108,14 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    >[!NOTE]
    >
-   >Vous pouvez également affecter un canal à partir du tableau de bord d’affichage en accédant à **Channel Level Activation** —&gt; **Emplacements** —&gt; **Région** —&gt; **RegionDisplay** et en cliquant sur **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   >Vous pouvez également affecter un canal à partir du tableau de bord d’affichage en accédant à **Channel Level Activation** —> **Emplacements** —> **Région** —> **RegionDisplay** et en cliquant sur **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    De même, affectez le canal **TargetedSinglePlay** afin qu’il soit affiché** :
 
-   1. Accédez à **Channel Level Activation** &gt; **Emplacements** &gt; **Région** &gt; **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
    1. La boîte de dialogue **Attribution de canaux** s’ouvre.
    1. Sélectionnez **Canal de référence**.. en fonction du chemin d’accès.
-   1. Sélectionnez le **Chemin de canal** **Channel Level Activation*** —&gt; ***Canaux*** —&gt; ***TargetedSinglePlay***
+   1. Select the **Channel Path** as **Channel Level Activation*** --> ***Channels*** --> ***TargetedSinglePlay***.
    1. Le **Rôle de canal** est renseigné avec le contenu **targetedsingleplay**.
    1. Définissez la **Priorité** sur **2**.
    1. Sélectionnez les **Événements pris en charge** **Charge initiale**, **Écran inactif** et **Minuteur**, *comme illustré dans la figure ci-dessous.
