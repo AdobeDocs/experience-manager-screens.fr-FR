@@ -4,14 +4,14 @@ seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # Activation au niveau du fichier {#asset-level-scheduling}
 
-Cette section décrit l’activation au niveau des ressources utilisées dans les canaux.
+Cette page décrit l’activation au niveau des ressources utilisées dans les canaux.
 
 Cette section aborde les sujets suivants :
 
@@ -58,9 +58,9 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 1. Cliquez sur **Modifier** pour ouvrir l&#39;éditeur de canaux et sélectionner une ressource à laquelle vous souhaitez appliquer la planification.
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** en haut à gauche pour ouvrir les propriétés de l’image.
+1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    Cliquez sur l’onglet **Activation**.
 
@@ -80,7 +80,7 @@ Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13h00
 
 ### Tranches horaires {#day-parting}
 
-1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** pour ouvrir la boîte de dialogue des propriétés.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
 
@@ -108,7 +108,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Partage de semaine {#week-parting}
 
-1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** pour ouvrir la boîte de dialogue des propriétés.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
 
@@ -135,7 +135,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Division des mois {#month-parting}
 
-1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** pour ouvrir la boîte de dialogue des propriétés.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
+
 1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
 
    > [!NOTE]
