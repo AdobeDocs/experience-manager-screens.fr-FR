@@ -1,47 +1,59 @@
 ---
-title: Création de modèles personnalisés dans des mises en page MultiZone
-seo-title: Création de modèles personnalisés dans des mises en page MultiZone
-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
-seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans les mises en page MultiZone.
+title: Création de modèles personnalisés dans des dispositions multizones
+seo-title: Création de modèles personnalisés dans des dispositions multizones
+description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
+seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
+source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 ---
 
 
-# Création de modèles personnalisés dans des mises en page MultiZone {#creating-custom-templates-multizone}
+# Creating Custom Templates for MultiZone Layouts {#creating-custom-templates-multizone}
 
-Cette page explique comment créer un modèle personnalisé dans une mise en page multi-zone.
+Cette page explique comment créer un modèle personnalisé pour une mise en page à plusieurs zones.
 
-## Convention de dénomination {#name-terms}
+## Points importants {#considerations}
 
-Avant de comprendre comment créer des modèles multi-zone personnalisés à utiliser dans un projet AEM Screens, il est recommandé de comprendre le verbe des modèles que vous souhaitez créer.
+Vous devez tenir compte de deux points importants avant de créer un modèle personnalisé dans une disposition multi-zone :
 
-| **Nom de la mise en page** | **Description** |
-|---|---|
-| Left20-LandscapeHD3Zone | Fait référence à une disposition paysage de 3 zones qui permet de créer 3 zones avec zone 1 comme 20 % de l’écran horizontal et vertical de gauche, zone 2 comme 80 % de l’écran horizontal et 20 % de l’écran vertical de droite justifiés, zone 3 comme 100 % de l’écran horizontal et 80 % de l’écran vertical avec un format de 16:9 |
-| Upper20-PortraitHD2Zone | Fait référence à un modèle portrait à 2 zones qui couvre 20 % de l’écran depuis le haut, avec un rapport L/H de 16:9 |
-| Right20-LandscapeSD3Zone | Fait référence à un modèle à 3 zones qui couvre 20 % de l’écran depuis la droite, avec un rapport L/H de 4:3 |
+1. **Taille ou pourcentages** de pixels fixes :
 
-## Exemples de cas d’utilisation {#example-use-cases}
+   Vous devez décider d’utiliser une taille de pixel fixe pour différentes zones de votre mise en page personnalisée ou de créer une mise en page personnalisée à l’aide de pourcentages.
 
-## Disposition Left20-LandscapeHD3Zone {#custom-template-one}
+   > [!NOTE]
+   > L’utilisation du pourcentage pour définir des zones pour votre mise en page personnalisée vous permet de réutiliser le modèle sur diverses tailles d’écran.
+
+1. **Convention d’affectation de nom**:
+
+   Avant de comprendre comment créer des modèles multi-zone personnalisés à utiliser dans un projet AEM Screens, il est recommandé de comprendre le verbe des modèles que vous souhaitez créer.
+
+   | **Nom de la disposition** | **Description** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | Fait référence à une disposition paysage à 3 zones, avec une zone 1 qui couvre 20 % de l’écran horizontal et vertical à partir de la gauche, une zone 2 qui couvre 80 % de l’écran horizontal et 20 % de l’écran vertical justifié à droite, ainsi qu’une zone 3 qui couvre 100 % de l’écran horizontal et 80 % de l’écran vertical avec un format 16:9. |
+   | Upper20-PortraitHD2Zone | Fait référence à un modèle portrait à 2 zones qui couvre 20 % de l’écran à partir du haut, avec un format 16:9. |
+   | Right20-LandscapeSD3Zone | Fait référence à un modèle à 3 zones qui couvre 20 % de l’écran à partir de la droite, avec un format 4:3. |
+
+   > [!IMPORTANT]
+   > Les zones définies dans la mise en page personnalisée peuvent ne pas correspondre aux proportions globales de la mise en page entière. La convention d’affectation de nom suivie dans ce document spécifie les proportions de la disposition personnalisée dans son ensemble.
+
+## Exemple de cas d’utilisation avec la disposition Left20-LandscapeHD3Zone {#custom-template-one}
 
 Suivez la section ci-dessous pour créer un modèle personnalisé *Left20-LandscapeHD3Zone* avec la configuration suivante :
 
-* **Left20** fait référence à la zone supérieure sur la gauche couvrant 20 % de la taille de l’écran horizontal et vertical.
-* **Paysage** fait référence à l’orientation de l’écran.
-* **HD** fait référence au format 16:9
-* **3Zone** fait référence à trois zones de l’affichage
+* **Left20** fait référence à la zone supérieure sur la gauche qui couvre 20 % de l’écran horizontal et vertical.
+* **Landscape** fait référence à l’orientation de l’écran.
+* **HD** fait référence au format 16:9.
+* **3Zone** fait référence à trois zones de l’affichage.
 
-## Représentation visuelle de la mise en page multi-zone {#multi-layout-visual-one}
+## Représentation visuelle de la disposition multizone {#multi-layout-visual-one}
 
-La disposition Left20-LandscapeHD3Zone vous permet de créer la disposition multi-zone suivante dans votre projet :
+La disposition Left20-LandscapeHD3Zone vous permet de créer la disposition multizone suivante dans votre projet :
 
 ![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
-## Création d’une mise en page Left20-LandscapeHD3Zone {#landscape-layout-one}
+## Création d’une disposition Left20-LandscapeHD3Zone {#landscape-layout-one}
 
 Suivez les étapes ci-dessous pour créer une mise en page Left20-LandscapeHD3Zone pour un projet AEM Screens :
 
@@ -131,13 +143,17 @@ Suivez les étapes ci-dessous pour utiliser le modèle personnalisé ci-dessus d
 
 1. Cliquez sur **Créer** dans la barre d’actions et sélectionnez le modèle **Left20-LandscapeHD3Zone** dans l’assistant **Créer** .
 
-1. Une fois que vous avez créé un canal avec le modèle personnalisé, vous pouvez ajouter des ressources à votre canal à partir de l’éditeur.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. Une fois que vous avez créé un canal avec le modèle personnalisé, vous pouvez ajouter des ressources à votre canal à partir de l’éditeur. L’aperçu suivant présente les images dans un modèle personnalisé.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Insertion d’une image en tant que calque d’arrière-plan {#inserting-image}
 
 Vous pouvez insérer une image en tant que calque d’arrière-plan dans la mise en page :
 
-Vous pouvez ajuster la règle CSS pour utiliser un « data-uri » et intégrer directement dans l’image (codée en base 64) du fichier CSS.
+You can adjust the CSS rule to use what is called “data-uri” and directly inline the image (Base64 encoded) in the CSS file, you created in (step 13), *static.css*.
 
 Cela se fait comme suit :
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -150,7 +166,7 @@ Vous pouvez également suivre les étapes ci-dessous :
 
 ## Mise à jour de la couleur d’arrière-plan {#updating-color}
 
-Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml :
+To change the background color, add the following code to the xml file (step 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
