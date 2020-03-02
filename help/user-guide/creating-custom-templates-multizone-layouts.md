@@ -5,7 +5,7 @@ description: Suivez cette page pour en savoir plus sur la création de modèles 
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ Suivez la section ci-dessous pour créer un modèle personnalisé *Left20-Landsc
 
 La disposition Left20-LandscapeHD3Zone vous permet de créer la disposition multizone suivante dans votre projet :
 
-![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![image](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Création d’une disposition Left20-LandscapeHD3Zone {#landscape-layout-one}
 
