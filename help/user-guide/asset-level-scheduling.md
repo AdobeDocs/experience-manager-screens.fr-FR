@@ -1,32 +1,28 @@
 ---
-title: Planification au niveau des ressources
-seo-title: Planification au niveau des ressources
+title: Activation au niveau du fichier
+seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
-contentOwner: jsyal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
-noindex: true
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
 
 ---
 
 
-# Planification au niveau des ressources {#asset-level-scheduling}
+# Activation au niveau du fichier {#asset-level-scheduling}
 
-Cette section décrit la planification au niveau des ressources pour les ressources utilisées dans les canaux.
+Cette section décrit l’activation au niveau des ressources utilisées dans les canaux.
 
 Cette section aborde les sujets suivants :
 
 * Présentation
-* Utilisation de la planification au niveau des ressources
+* Fenêtre d’activation
+* Lecture d’événement unique
 * Gestion de la périodicité pour les ressources
-* Planification multiressource
-
+   * Tranches horaires
+   * Partage de semaine
+   * Division des mois
+* Activation de plusieurs ressources
 
 >[!CAUTION]
 >
@@ -36,15 +32,15 @@ Cette section aborde les sujets suivants :
 
 ## Présentation {#overview}
 
-***La planification au niveau des ressources ***vous permet d’activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur. Cette option est disponible pour les images, les vidéos, les transitions, les pages et les canaux incorporés (dynamiques ou statiques).
+***Activation*** au niveau de la ressource, vous permet d’activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur. Cette option est disponible pour les images, les vidéos, les transitions, les pages et les canaux incorporés (dynamiques ou statiques).
 
 *Par exemple*, vous souhaitez qu’une promotion spéciale s’affiche uniquement pendant la Happy Hour (de 14h00 à 17h00) les lundis et les mercredis.
 
 Avec cette fonctionnalité, vous pouvez non seulement spécifier la date et l’heure de début et de fin, mais également un modèle de périodicité.
 
-## Utilisation de la planification au niveau des ressources {#using-asset-level-scheduling}
+## Lecture d’événement unique {#single-event-playback}
 
-La planification au niveau des ressources s’effectue en configurant l’onglet **Activation** lors de l’accès aux propriétés d’une ressource.
+Asset Level Activation is done by configuring the **Activation** tab while accessing properties of an asset.
 
 Suivez les étapes ci-dessous pour effectuer une planification au niveau des ressources :
 
@@ -62,46 +58,107 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 1. Cliquez sur **Modifier** pour ouvrir l&#39;éditeur de canaux et sélectionner une ressource à laquelle vous souhaitez appliquer la planification.
 
-   ![screen_shot_2018-04-24at90434pm](assets/screen_shot_2018-04-24at90434pm.png)
+   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** en haut à gauche pour ouvrir les propriétés de l’image.
 
    Cliquez sur l’onglet **Activation**.
 
-   ![screen_shot_2018-04-23at112348am](assets/screen_shot_2018-04-23at112348am.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Vous pouvez spécifier la date à l’aide du sélecteur de date des champs **Actif à partir de** et **Actif jusqu’à**.
+1. Vous pouvez spécifier la date à partir du sélecteur de date à l’aide de l’option **Actif depuis** et **Actif jusqu’aux** champs.
 
    Si vous sélectionnez la date et l’heure dans **Actif à partir de** et **Actif jusqu’à**, la ressource s’affichera et en boucle uniquement entre cette date/heure de début et cette date/heure de fin, respectivement.
 
-   ![screen_shot_2018-04-23at113545am](assets/screen_shot_2018-04-23at113545am.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Gestion de la périodicité pour les ressources {#handling-recurrence-in-assets}
 
 Vous pouvez planifier l’activation périodique des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13h00 à 22h00. Vous pouvez utiliser l’onglet Activation pour définir l’intervalle périodique souhaité pour votre ressource.
+Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13h00 à 22h00. You can use the **Activation** tab to set the desired recurring interval for your asset.
 
-### Ajout d’un événement périodique pour votre ressource {#adding-a-recurring-event-for-your-asset}
+### Tranches horaires {#day-parting}
 
 1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** pour ouvrir la boîte de dialogue des propriétés.
-1. Après avoir saisi la date/l’heure de début et la date/heure de fin, vous pouvez utiliser une expression cron ou une version textuelle naturelle pour spécifier votre planification de périodicité.
 
-   Vous pouvez rechercher sur Internet un générateur d’expression cron gratuit, puis copier et coller l’expression cron dans la **Planification**. Votre ressource s’affichera alors pour l’intervalle de jours et d’heures spécifié.
+1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
 
-   *Vous pouvez également*, au lieu d’utiliser l’expression cron, utiliser la version textuelle naturelle, comme *après 6h00 et avant 18h00* le vendredi, pour accomplir votre tâche. Saisissez le texte dans le **Planification** pour afficher votre ressource.
+   > [!NOTE]
+   > Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
-## Planification multiressource {#multi-asset-scheduling}
+1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+
+#### Exemples d’expressions pour le partage de journée {#example-one}
+
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
+
+| **Expression** | **Interprétation** |
+|---|---|
+| avant 08h00 | le canal est lu avant 08h00 tous les jours |
+| après 14h00 | le canal est lu tous les jours après 14h00 |
+| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
+| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la chaîne du lundi au mercredi. |
+
+### Partage de semaine {#week-parting}
+
+1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** pour ouvrir la boîte de dialogue des propriétés.
+
+1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
+
+   > [!NOTE]
+   > Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+
+1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+
+#### Exemples d’expressions pour le partage de semaine {#example-two}
+
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
+
+| **Expression** | **Interprétation** |
+|---|---|
+| avant 08h00 | le canal est lu avant 08h00 tous les jours |
+| après 14h00 | le canal est lu tous les jours après 14h00 |
+| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
+| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+
+
+### Division des mois {#month-parting}
+
+1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** pour ouvrir la boîte de dialogue des propriétés.
+1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
+
+   > [!NOTE]
+   > Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+
+1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+
+#### Exemples d’expressions pour le partage de mois {#example-three}
+
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
+
+| **Expression** | **Interprétation** |
+|---|---|
+| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre |
+| après 14h00 | le canal est lu tous les jours après 14h00 |
+| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
+| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+
+> [!NOTE]
+> Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
+
+## Activation de plusieurs ressources {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->La fonction de **planification multiressource** n’est disponible que si vous avez installé AEM 6.3 Feature Pack 5 ou AEM 6.4 Feature Pack 3.
+>The **Multi-asset Activation** feature is only available, if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3.
 
-La ***planification multiressource ***permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées.
+***L’activation*** de fichiers multiples permet à l’utilisateur de sélectionner plusieurs fichiers et d’appliquer un calendrier de lecture à tous les fichiers sélectionnés.
 
 ### Conditions préalables {#prerequisites}
 
-Pour utiliser la planification au niveau multiressource pour vos ressources, créez un projet AEM Screens avec un canal de séquence. Par exemple, le cas d’utilisation suivant montre l’implémentation de la fonctionnalité :
+Pour utiliser l’activation au niveau de plusieurs ressources pour vos ressources, créez un projet AEM Screens avec un canal de séquence. Par exemple, le cas d’utilisation suivant montre l’implémentation de la fonctionnalité :
 
 * Créez un projet AEM Screens intitulé **MultiAssetDemo**
 * Créez un canal intitulé **MultiAssetChannel** et ajoutez du contenu au canal, comme illustré ci-dessous.
@@ -126,7 +183,22 @@ Pour sélectionner plusieurs ressources et planifier leur affichage dans un proj
 
    >[!NOTE]
    >
-   >L’icône de planification s’affiche dans l’angle supérieur droit pour les ressources qui comportent une planification multiressource.
+   >L’icône de planification est visible dans le coin supérieur droit des ressources qui ont une activation multiressource.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
+## Exemples d’expressions {#example-expressions}
+
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
+
+| **Expression** | **Interprétation** |
+|---|---|
+| avant 08h00 | le canal est lu avant 08h00 tous les jours |
+| après 14h00 | le canal est lu tous les jours après 14h00 |
+| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
+| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 03h00 le 3 janvier |
+| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier, et se poursuit jusqu’à 03h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et se poursuit jusqu’à 03h00 le 3 janvier. |
+
+>[!NOTE]
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
