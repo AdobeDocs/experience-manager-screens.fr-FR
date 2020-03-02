@@ -4,7 +4,7 @@ seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 translation-type: tm+mt
-source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
+source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ---
 
@@ -95,11 +95,16 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| avant 08h00 | le canal est lu avant 08h00 tous les jours |
-| après 14h00 | le canal est lu tous les jours après 14h00 |
-| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
-| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
-| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la chaîne du lundi au mercredi. |
+| avant 08h00 | le fichier de la chaîne est lu avant 8h00 tous les jours |
+| après 14h00 | le fichier de la chaîne est lu après 14h00 tous les jours |
+| après 12h15 et avant 12h45 | le fichier de la chaîne est lu après 12h15 tous les jours pendant 30 minutes. |
+| avant 12h15 et après 12h45 | le fichier de la chaîne est lu avant 12h15 tous les jours et après 12h45 |
+| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la ressource du canal du lundi au mercredi. |
+| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | le fichier dans la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
+| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
+
+>[!NOTE]
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
 
 ### Partage de semaine {#week-parting}
 
@@ -118,10 +123,14 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| avant 08h00 | le canal est lu avant 08h00 tous les jours |
-| après 14h00 | le canal est lu tous les jours après 14h00 |
-| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
+| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la ressource du canal du lundi au mercredi. |
+| avant 08h00 | le fichier de la chaîne est lu avant 8h00 tous les jours |
+| après 14h00 | le fichier de la chaîne est lu après 14h00 tous les jours |
+| après 12h15 et avant 12h45 | le fichier de la chaîne est lu après 12h15 tous les jours pendant 30 minutes. |
 | avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+
+>[!NOTE]
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
 
 
 ### Division des mois {#month-parting}
@@ -141,12 +150,12 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | **Expression** | **Interprétation** |
 |---|---|
 | de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre |
-| après 14h00 | le canal est lu tous les jours après 14h00 |
-| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
-| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
 
 > [!NOTE]
 > Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
+
+>[!NOTE]
+> Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
 
 ## Activation de plusieurs ressources {#multi-asset-scheduling}
 
@@ -187,18 +196,3 @@ Pour sélectionner plusieurs ressources et planifier leur affichage dans un proj
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
-## Exemples d’expressions {#example-expressions}
-
-Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
-
-| **Expression** | **Interprétation** |
-|---|---|
-| avant 08h00 | le canal est lu avant 08h00 tous les jours |
-| après 14h00 | le canal est lu tous les jours après 14h00 |
-| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
-| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
-| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 03h00 le 3 janvier |
-| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier, et se poursuit jusqu’à 03h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et se poursuit jusqu’à 03h00 le 3 janvier. |
-
->[!NOTE]
->Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
