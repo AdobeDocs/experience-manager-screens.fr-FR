@@ -4,7 +4,7 @@ seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 1. Sélectionnez un canal et cliquez sur **Modifier** dans la barre d’actions pour ajouter ou modifier du contenu dans votre canal.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 1. Cliquez sur **Modifier** pour ouvrir l&#39;éditeur de canaux et sélectionner une ressource à laquelle vous souhaitez appliquer la planification.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    Cliquez sur l’onglet **Activation**.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Vous pouvez spécifier la date à partir du sélecteur de date à l’aide de l’option **Actif depuis** et **Actif jusqu’aux** champs.
 
