@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -57,12 +57,12 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
       + [Mise à jour hors ligne en bloc](bulk-offline-update.md)
       + [Service de notifications AEM Screens](screens-notifications-service.md)
       + [Utilisation de fragments d’expérience](experience-fragments-in-screens.md)
-      + [Planification au niveau des ressources](asset-level-scheduling.md)
+      + [Activation au niveau du fichier](asset-level-scheduling.md)
+      + [Activation au niveau du canal](channel-level-activation.md)
       + [Création et gestion d’une Live Copy](managing-livecopy.md)
       + [Création d’un processus de remplissage vidéo](creating-a-video-padding-workflow.md)
       + [Ajout de composants à un canal](adding-components-to-a-channel.md)
       + [Séquences incorporées](embedded-sequences.md)
-      + [Activation de canaux - Lecture d’un événement unique](channel-level-activation.md)
       + [Disposition multizone](multi-zone-layout-aem-screens.md)
       + [Rendus vidéo](generating-renditions.md)
       + [Utilisation d’une séquence incorporée dynamique](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
    + [Création de composants](creating-components.md)
    + [Incorporation d’une application REACT via la fonction d’éditeur d’application monopage (SPA) et intégration avec AEM Screens Analytics](embedding-react-app.md)
    + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
-   + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
+   + [Création de modèles personnalisés pour les mises en page multi-zones](creating-custom-templates-multizone-layouts.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
