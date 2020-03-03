@@ -3,7 +3,7 @@ title: Notes de mise à jour du Feature Pack 202001
 seo-title: Notes de mise à jour du Feature Pack 202001
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202001, publié le 31 janvier 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202001, publié le 31 janvier 2020.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
 
 ---
@@ -24,7 +24,9 @@ La date de publication d’AEM Screens Feature Pack 202001 est le 31 janvier
 ### Nouveautés {#what-s-new}
 
 * **Synchronisation des commandes pour la lecture des ressources**
-La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque fichier doit avoir la même durée.
+
+
+La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
 Pour en savoir plus sur la synchronisation des commandes et sur la définition du maître et des clients, consultez [Utilisation de la synchronisation des commandes](using-command-sync.md).
 
 * **Structure de contrôle de l’intégrité pour afficher l’état https et autoriser un référent vide**
@@ -35,7 +37,7 @@ La structure de contrôle de l’intégrité permet à l’utilisateur de vérif
 * **Mises à jour des types de transition par défaut**
 Les propriétés du composant de transition, telles que **Type**, sont désormais définies sur **Fondu** et la **Durée** sur **1 600 ms**, par défaut.
 
-   Pour plus d’informations, reportez-vous à [Application de cas d’utilisation de transitions](/help/user-guide/applying-transitions.md) .
+   Pour plus d’informations, voir le cas d’utilisation [Application de transitions](/help/user-guide/applying-transitions.md).
 
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
@@ -48,4 +50,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4 Feature Pack 7 
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [**Téléchargements du lecteur AEM Screens **](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [**Téléchargements du lecteur AEM Screens **](https://download.macromedia.com/screens/).
