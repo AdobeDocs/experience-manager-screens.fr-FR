@@ -16,7 +16,7 @@ Cette page explique comment créer un modèle personnalisé pour une mise en pag
 
 ## Points importants {#considerations}
 
-Vous devez tenir compte de deux points importants avant de créer un modèle personnalisé dans une disposition multi-zone :
+Vous devez tenir compte de deux points importants avant de créer un modèle personnalisé dans une mise en page multi-zone :
 
 1. **Taille ou pourcentages** de pixels fixes :
 
@@ -36,7 +36,7 @@ Vous devez tenir compte de deux points importants avant de créer un modèle per
    | Right20-LandscapeSD3Zone | Fait référence à un modèle à 3 zones qui couvre 20 % de l’écran à partir de la droite, avec un format 4:3. |
 
    > [!IMPORTANT]
-   > Les zones définies dans la mise en page personnalisée peuvent ne pas correspondre aux proportions globales de la mise en page entière. La convention d’affectation de nom suivie dans ce document spécifie les proportions de la disposition personnalisée dans son ensemble.
+   > Les zones définies dans la mise en page personnalisée peuvent ne pas correspondre aux proportions globales de la mise en page entière. La convention d’affectation de nom suivie dans ce document spécifie les proportions de la mise en page personnalisée dans son ensemble.
 
 ## Exemple de cas d’utilisation avec la disposition Left20-LandscapeHD3Zone {#custom-template-one}
 
