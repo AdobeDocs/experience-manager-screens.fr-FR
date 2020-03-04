@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
 
@@ -37,13 +37,13 @@ Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence inco
 
 >[!NOTE]
 >
->***Chemin du canal ***définit une référence explicite au canal.
+>***Chemin*** du canal définit une référence explicite au canal.
 >
 >Pour en savoir plus sur *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans la section Création dans Screens.
 
 Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre canal :
 
-1. Sélectionnez le canal où vous souhaitez incorporer une page. Par exemple, **We.Retail en magasin** &gt; **Canaux** &gt;* Canal inactif**.
+1. Sélectionnez le canal où vous souhaitez incorporer une page. Par exemple, **We.Retail en magasin** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir le canal en mode édition.
 1. Cliquez sur l’icône de composants sur la barre de gauche pour ajouter la page incorporée. Faites glisser et déposez la **séquence incorporée** dans l’éditeur.
@@ -53,12 +53,9 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 
 1. Définissez la **Stratégie de lecture limitée** sur **normal**.
 
-Par défaut, elle est définie sur **normal**. La définition de la valeur sur **normal*** (Lire tous les éléments)* signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est **Lire un seul élément***, ce qui afficherait un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, et ainsi de suite).
+Par défaut, elle est définie sur **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!NOTE]
->
->**Important :**
->
+>[!Iimportant]
 >Vous devez attribuer le canal (utilisé dans la séquence incorporée), au même affichage.
 >
 >Suivez les étapes ci-dessous après avoir ajouté une séquence incorporée à votre canal à partir des étapes précédentes :
@@ -94,17 +91,17 @@ Vous pouvez ajouter une séquence incorporée dynamique à votre canal. Une séq
 
 Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre canal :
 
-1. Sélectionnez le canal dans lequel vous voulez incorporer une séquence dynamique. Par exemple, **We.Retail en magasin** &gt; **Canaux** &gt; **Canal inactif**.
+1. Sélectionnez le canal dans lequel vous voulez incorporer une séquence dynamique. Par exemple, **We.Retail en magasin** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir le canal en mode édition.
 1. Cliquez sur l’icône de composants sur la barre de gauche pour ajouter la séquence incorporée dynamique. Faites glisser et déposez la séquence **dynamique** **Incorporée **dans l’éditeur.
 
-1. Double-cliquez sur le composant Séquence **dynamique** **incorporée **pour ajouter la page à votre canal de séquence.
+1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
 1. Saisissez le **Rôle d’attribution de canaux**.
-1. Définissez la **Stratégie de lecture limitée** sur **normal**. Par défaut, elle est définie sur **normal**. La définition de la valeur sur **normal*** (Lire tous les éléments)* signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est **Lire un seul élément***, ce qui afficherait un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, et ainsi de suite).
+1. Définissez la **Stratégie de lecture limitée** sur **normal**. Par défaut, elle est définie sur **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
-1. Sélectionnez la **durée (ms)** de l'onglet **Séquence** votre canal incorporé dans la séquence.
+1. Sélectionnez la **durée (ms)** de l&#39;onglet **Séquence** votre canal incorporé dans la séquence.
 
 ![dernier](assets/latest.gif)
 
