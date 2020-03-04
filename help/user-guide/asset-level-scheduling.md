@@ -4,7 +4,7 @@ seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
 
 ---
 
@@ -99,9 +99,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | après 14h00 | le fichier de la chaîne est lu après 14h00 tous les jours |
 | après 12h15 et avant 12h45 | le fichier de la chaîne est lu après 12h15 tous les jours pendant 30 minutes. |
 | avant 12h15 et après 12h45 | le fichier de la chaîne est lu avant 12h15 tous les jours et après 12h45 |
-| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la ressource du canal du lundi au mercredi. |
-| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | le fichier dans la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
-| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
+
 
 >[!NOTE]
 >Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
@@ -123,14 +121,11 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la ressource du canal du lundi au mercredi. |
-| avant 08h00 | le fichier de la chaîne est lu avant 8h00 tous les jours |
-| après 14h00 | le fichier de la chaîne est lu après 14h00 tous les jours |
-| après 12h15 et avant 12h45 | le fichier de la chaîne est lu après 12h15 tous les jours pendant 30 minutes. |
-| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+| Lun,Wed,Fri | la ressource est lue dans la chaîne à partir des lundis, mercredis et vendredis |
+| Mon-Thu | la ressource est lue dans la chaîne du lundi au jeudi |
 
 >[!NOTE]
->Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+>Vous pouvez également utiliser une notation _complète_ (c’est-à-dire lundi,mercredi,vendredi) au lieu d’une notation à main _courte_ (c’est-à-dire Mon,Wed,Fri).
 
 
 ### Division des mois {#month-parting}
@@ -150,13 +145,39 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre. |
+| de février,mai,août,novembre | le fichier est lu dans la chaîne en février, mai, août et novembre. |
+| de février à juillet | la ressource est lue dans la chaîne de février à fin juillet |
+
+> [!NOTE]
+> Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
+
+### Combinaison de pièces {#combined-parting}
+
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
+
+1. Après avoir saisi la date/l’heure de début et l’heure de fin/de date, vous pouvez utiliser une expression ou une version textuelle naturelle pour spécifier votre calendrier de répétition.
+
+   > [!NOTE]
+   > Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+
+1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+
+#### Exemples d’expressions pour les combinaisons de paramètres {#example-four}
+
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
+
+| **Expression** | **Interprétation** |
+|---|---|
+| après 6h00 et avant 18h00 le lundi,Wed de Jan-Mar | le fichier est lu sur la chaîne entre 6h et 18h les lundis et mercredis de janvier à fin mars. |
+| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | le fichier dans la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
+| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
 
 > [!NOTE]
 > Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
 
 >[!NOTE]
-> Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+
 
 ## Activation de plusieurs ressources {#multi-asset-scheduling}
 
