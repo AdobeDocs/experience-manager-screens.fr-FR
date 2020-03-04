@@ -154,9 +154,9 @@ Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suiv
 
 ## Gestion de la répétition des ressources dans un canal{#handling-recurrence-in-assets}
 
-Vous pouvez programmer des ressources dans un canal pour qu’elles se régénèrent à certains intervalles, quotidiennement, hebdomadairement ou mensuellement, selon vos besoins.
+Vous pouvez programmer des ressources dans un canal pour qu’elles se régénèrent à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher le contenu d’une chaîne uniquement le vendredi de 13 h à 22 h. You can use the **Activation** tab to set the desired recurring interval for your asset.
+Supposons que vous souhaitiez afficher le contenu d’une chaîne uniquement le vendredi de 13h00 à 22h00. You can use the **Activation** tab to set the desired recurring interval for your asset.
 
 ### Tranches horaires {#day-parting}
 
@@ -164,7 +164,8 @@ Supposons que vous souhaitiez afficher le contenu d’une chaîne uniquement le 
 
 1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
 
-   >[!NOTE]Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
 
@@ -191,7 +192,8 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de 
 
 1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
 
-   >[!NOTE]Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
 
@@ -217,7 +219,8 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de 
 
 1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
 
-   >[!NOTE]Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
 
@@ -227,9 +230,10 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre |
+| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre. |
 
->[!NOTE]Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
+>[!NOTE]
+Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
 
 >[!NOTE]
 Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
