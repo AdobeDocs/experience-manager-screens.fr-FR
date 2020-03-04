@@ -150,7 +150,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre |
+| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre. |
 
 > [!NOTE]
 > Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
