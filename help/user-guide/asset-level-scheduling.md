@@ -4,7 +4,7 @@ seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 translation-type: tm+mt
-source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
+source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
 
 ---
 
@@ -173,10 +173,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
 
 > [!NOTE]
-> Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
-
->[!NOTE]
->Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+> Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 
 ## Activation de plusieurs ressources {#multi-asset-scheduling}
