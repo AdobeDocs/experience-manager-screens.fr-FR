@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -29,6 +29,7 @@ Cette section aborde les sujets suivants :
    * Tranches horaires
    * Partage de semaine
    * Division des mois
+   * Combinaison de pièces
 * Utilisation de l’activation au niveau du canal comme lecture d’événement unique
 
 ## Présentation {#overview}
@@ -237,4 +238,28 @@ Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser
 
 >[!NOTE]
 Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+
+### Combinaison de pièces {#combined-parting}
+
+1. Sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d&#39;action pour ouvrir le tableau de bord du canal.
+
+1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
+
+   >[!NOTE]
+Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+
+1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+
+#### Exemples d’expressions pour la combinaison de paramètres {#example-four}
+
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
+
+| **Expression** | **Interprétation** |
+|---|---|
+| après 6h00 et avant 18h00 le lundi,Wed de Jan-Mar | le fichier est lu sur la chaîne entre 6h et 18h les lundis et mercredis de janvier à fin mars. |
+| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | le fichier dans la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
+| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
+
+>[!NOTE]
+Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
