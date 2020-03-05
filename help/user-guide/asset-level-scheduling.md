@@ -4,7 +4,7 @@ seo-title: Activation au niveau du fichier
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ Cette section aborde les sujets suivants :
    * Tranches horaires
    * Partage de semaine
    * Division des mois
+   * Combinaison de pièces
 * Activation de plusieurs ressources
 
 >[!CAUTION]
@@ -162,7 +163,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
 
-#### Exemples d’expressions pour les combinaisons de paramètres {#example-four}
+#### Exemples d’expressions pour la combinaison de paramètres {#example-four}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
