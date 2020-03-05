@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
@@ -34,7 +34,7 @@ Cette section aborde les sujets suivants :
 
 ## Présentation {#overview}
 
-***L’activation*** au niveau du canal permet aux canaux de basculer après une planification définie. Le canal d’événement unique remplace le canal principal après une planification définie et il est lu pendant une période donnée, jusqu’à ce que le canal principal exécute à nouveau son contenu.
+***L&#39;activation*** au niveau du canal permet aux canaux de basculer après un calendrier spécifique. Le canal d’événement unique remplace le canal principal après une planification définie et il est lu pendant une période donnée, jusqu’à ce que le canal principal exécute à nouveau son contenu.
 
 L’exemple suivant fournit une solution en se concentrant sur les termes clés suivants :
 
