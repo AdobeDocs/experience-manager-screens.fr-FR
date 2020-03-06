@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
 
@@ -31,7 +31,7 @@ En permettant à l’auteur de fournir une feuille de calcul en tant que fichier
 * *présente de meilleures performances par rapport à la navigation manuelle dans l’interface utilisateur*
 * *permet aux clients d’exporter leurs emplacements depuis leur propre système et de les importer directement dans AEM*
 
-Cela permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d'AEM Screens à de nouveaux emplacements.
+Cela permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d&#39;AEM Screens à de nouveaux emplacements.
 
 ## Présentation de l’architecture {#architectural-overview}
 
@@ -49,17 +49,17 @@ Le modèle de données de l’Importateur de projet est décrit ci-dessous :
 
 | **Propriété** | **Description** |
 |---|---|
-| ***path {string*}** | Le chemin des ressources de l'emplacement |
-| ***[./jcr:title]{string*}** | Nom du modèle à utiliser (emplacement des *écrans/du noyau/des modèles/de l’emplacement*) |
+| ***path {string *}** | Le chemin des ressources de l&#39;emplacement |
+| ***[./jcr:title]{string *}** | Nom du modèle à utiliser (emplacement des *écrans/du noyau/des modèles/de l’emplacement*) |
 | ***template {string}*** | Titre facultatif à utiliser pour la page |
 | ***[./jcr:description]{string}*** | Description facultative à utiliser pour la page |
 
 La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 
-* **path {string}** Chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire */foo* sera importé dans */content/screens/&lt;projet&gt;/locations/foo*)
+* **path {string}** Chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire */foo* sera importé dans */content/screens/&lt;projet>/locations/foo*)
 
-* **template {string}** Le modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est "location", mais il sera étendu ultérieurement à tous les modèles Screens ("display", "sequencechannel, etc.)
-* [**./*] {string}** Toute propriété facultative à définir sur l’emplacement (c’est-à-dire, ./jcr:title, ./jcr:description, ./foo, ./bar). La version actuelle n’autorise aucun filtrage pour le moment.
+* **template {string}** Le modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est &quot;location&quot;, mais il sera étendu ultérieurement à tous les modèles Screens (&quot;display&quot;, &quot;sequencechannel, etc.)
+* **[./*]{string}**Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). La version actuelle n’autorise aucun filtrage pour le moment.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ La section suivante décrit l’utilisation de l’importateur de projets dans u
 >Restrictions:
 >
 >* Les fichiers possédant une extension autre que CSV/XLS/XLSX ne sont pas pris en charge dans la version actuelle.
->* Il n’existe aucun filtrage des propriétés pour les fichiers importés et tout élément commençant par "./" sera importé.
+>* Il n’existe aucun filtrage des propriétés pour les fichiers importés et tout élément commençant par &quot;./&quot; sera importé.
 >
 
 
@@ -103,11 +103,11 @@ Pour importer un fichier dans un dossier d’emplacements avec un minimum de cha
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Sélectionnez le projet,** DemoProjectImporter **—&gt;** Créer **—&gt;** Importer des emplacements** depuis la barre latérale.
+1. Sélectionnez le projet,** DemoProjectImporter **—>** Créer **—>** Importer des emplacements** depuis la barre latérale.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. L'assistant d’**importation** s’ouvre. Sélectionnez votre fichier contenant des emplacements pour votre projet ou le fichier (***minimal-file.xls***) que vous avez téléchargé dans la section *Conditions préalables*.
+1. L&#39;assistant d’**importation** s’ouvre. Sélectionnez votre fichier contenant des emplacements pour votre projet ou le fichier (***minimal-file.xls***) que vous avez téléchargé dans la section *Conditions préalables*.
 
    Une fois le fichier sélectionné, cliquez sur **Suivant**.
 
