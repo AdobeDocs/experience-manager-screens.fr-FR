@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
 
@@ -57,8 +57,8 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Mise à jour hors ligne en bloc](bulk-offline-update.md)
       + [Service de notifications AEM Screens](screens-notifications-service.md)
       + [Utilisation de fragments d’expérience](experience-fragments-in-screens.md)
-      + [Activation au niveau du fichier](asset-level-scheduling.md)
-      + [Activation au niveau du canal](channel-level-activation.md)
+      + [Activation au niveau des ressources](asset-level-scheduling.md)
+      + [Activation au niveau des canaux](channel-level-activation.md)
       + [Création et gestion d’une Live Copy](managing-livecopy.md)
       + [Création d’un processus de remplissage vidéo](creating-a-video-padding-workflow.md)
       + [Ajout de composants à un canal](adding-components-to-a-channel.md)
@@ -68,6 +68,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Utilisation d’une séquence incorporée dynamique](dynamic-embedded-sequences.md)
       + [Durée de lecture d’images en bloc d’un canal](channel-level-image-playback.md)
       + [Synchronisation des commandes](using-command-sync.md)
+      + [Création avec des déclencheurs de données](authoring-data-triggers.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
@@ -88,8 +89,8 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
    + [Extension d’un composant AEM Screens](extending-component-tutorial-develop.md)
    + [Création de composants](creating-components.md)
    + [Incorporation d’une application REACT via la fonction d’éditeur d’application monopage (SPA) et intégration avec AEM Screens Analytics](embedding-react-app.md)
-   + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
-   + [Création de modèles personnalisés pour les mises en page multi-zones](creating-custom-templates-multizone-layouts.md)
+   + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
+   + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
