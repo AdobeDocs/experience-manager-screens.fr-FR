@@ -10,8 +10,8 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -32,11 +32,11 @@ La date de publication d’AEM Screens Feature Pack 201907 est le mercredi 31 
 
 * **Le Déclencheur de données entraîne la modification des ressources dans un canal AEM Screens**
 
-Le lecteur passe sur un canal qui présente les informations d'urgence sur réception d'un événement déclenché par le système d'urgence. Ce canal est le seul lu jusqu'à la fin de la situation d'urgence.
+Le lecteur passe sur un canal qui présente les informations d&#39;urgence sur réception d&#39;un événement déclenché par le système d&#39;urgence. Ce canal est le seul lu jusqu&#39;à la fin de la situation d&#39;urgence.
 
-Consultez le cas d'utilisation du [Canal d’urgence](emergency-channel.md) pour la mise en œuvre.
+Consultez le cas d&#39;utilisation du [Canal d’urgence](emergency-channel.md) pour la mise en œuvre.
 
-* **Ciblage activé pour les composants asynchrones (*tels que les vidéos, les séquences incorporées*)**
+* **Ciblage activé pour les composants asynchrones
 
 Le ciblage peut désormais être activé pour les ressources utilisées dans le projet AEM Screens.
 
