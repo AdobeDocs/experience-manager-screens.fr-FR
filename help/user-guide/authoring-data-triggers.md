@@ -3,7 +3,7 @@ title: Création avec des déclencheurs de données
 seo-title: Création avec des déclencheurs de données
 description: Suivez cette page pour apprendre à créer des déclencheurs de données.
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 Cette section explique comment activer le ciblage dans votre  de.
 
 >[!IMPORTANT]
-> La version minimale qui prend en charge les déclencheurs de données dans un AEM Screens est AEM 6.4.3 Feature Pack 3.
+> La version minimale qui prend en charge les déclencheurs de données dans un AEM Screens est AEM 6.5.3 Feature Pack 3.
 
 ## Conditions préalables {#prereqs}
 
@@ -56,7 +56,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions.
+1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez les ressources dans l’éditeur de  de votre.
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >Une fois que vous avez défini les configurations ContextHub pour votre canal, veillez à respecter les étapes 1 à 4 précédentes pour les trois autres canaux de séquence si vous souhaitez suivre tous les cas d’utilisation ci-dessous.
+1. Cliquez sur **Ciblage**.
+
+1. Sélectionnez **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
 
 ### En savoir plus : exemples de cas d’utilisation {#learn-more-example-use-cases}
 
