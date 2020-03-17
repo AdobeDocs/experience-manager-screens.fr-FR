@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
@@ -70,7 +70,7 @@ Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu�
 
    1. Accédez à **global** > **default** > **Configuration de ContextHub**.
 
-   1. Click **Create** > **Configuration Container** and enter the title as **ContextHubDemo**.
+   1. Cliquez sur **Créer** > **Conteneur de configuration** et saisissez le titre **ContextHubDemo**.
 
    1. **Accédez** à **ContextHubDemo** > **Configuration de magasin ContentHub...** pour ouvrir l’**Assistant de configuration**.
 
