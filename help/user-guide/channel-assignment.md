@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -90,7 +90,7 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
 ### Créneaux horaires      {#dayparting}
 
-Lorsqu’elles sont combinées avec des **créneaux horaires**, les planifications vous permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée, et de réutiliser cette configuration pour tous vos affichages simultanément.
+Lorsqu’ils sont combinés avec des **tranches horaires** les planifications permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
 Les créneaux horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de créneaux horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
@@ -148,7 +148,7 @@ Vous allez créer des créneaux horaires selon les mois, de sorte que le contenu
 
 >[!NOTE]
 >
->En outre, vous pouvez définir la ***priorité&#x200B;***de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
+>En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
 #### Diffusion de contenu pour les canaux ayant la même priorité      {#playing-content-for-channels-with-same-priority}
 
