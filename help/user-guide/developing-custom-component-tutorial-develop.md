@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
+source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
 
@@ -81,7 +81,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/conf/we-retail-run`
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
-   Ce paquet contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet We.Retail Run. **`/content/dam/we-retail-run`** inclut le démarrage des ressources numériques pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Ecrans. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
+   Ce paquet contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet We.Retail Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
 
 1. **Accédez au projet AEM Screens > We.Retail Run :**
 
@@ -187,7 +187,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    Ci-dessus se trouve l’annotation de modification du composant Hello World. Le premier bloc affiche une version de modification du composant si le message de boîte de dialogue a été renseigné.
 
-   Le second bloc est rendu si aucun message de boîte de dialogue n’a été saisi. Dans ce cas, le `cq-placeholder` et `data-emptytext` peuvent rendre le libellé ***Hello World*** est défini comme espace réservé dans ce cas. La chaîne du libellé peut être internationalisée en utilisant i18n afin de prendre en charge la création pour plusieurs paramètres régionaux.
+   Le second bloc est rendu si aucun message de boîte de dialogue n’a été saisi. Dans ce cas, `cq-placeholder` et `data-emptytext` peuvent afficher le libellé ***Hello World*** en guise d’espace réservé. La chaîne du libellé peut être internationalisée en utilisant i18n afin de prendre en charge la création pour plusieurs paramètres régionaux.
 
 1. **Boîte de dialogue Copier l’image Screens à utiliser pour le composant Hello World.**
 
@@ -408,7 +408,7 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 
 1. Dans l’assistant de création :
 
-1. Template Step - choose **Sequence Channel**
+1. Étape du modèle - choisissez **Canal de séquence**
 
    1. Étape des propriétés
    * Onglet de base > Titre = **Canal inactif**
@@ -427,14 +427,14 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 
    1. Cliquez sur l’icône en forme de **clé à molette** dans les paramètres pour configurer les composants autorisés.
 
-   1. Sélectionnez le groupe **Screens** et le groupe **We Retail Run - Contenu** .
+   1. Sélectionnez le groupe **Screens** et le groupe **We Retail Run - Contenu**.
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
 1. Passez la page en mode **Modifier**. Le composant Hello World peut désormais être ajouté à la page et combiné avec d’autres composants de canal de séquence.
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
-1. Dans **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par`, accédez à `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par` Notez que la `components` propriété inclut désormais `group:Screens`, `group:We.Retail Run - Content`.
+1. Dans **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par`, accédez à `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`. Notez que la `components` propriété inclut désormais `group:Screens`, `group:We.Retail Run - Content`.
 
    ![Configuration de la conception sous /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1_14pm.png)
 
@@ -442,59 +442,76 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 
 ## Modèle pour les gestionnaires personnalisés {#custom-handlers}
 
-La section ci-dessous présente le modèle de gestionnaire personnalisé et les exigences minimales du fichier pom.xml pour ce projet spécifique.
+Si votre composant personnalisé utilise des ressources externes telles que des ressources (images, vidéos, polices, icônes, etc.), des rendus de ressources spécifiques ou des bibliothèques côté client (css, js, etc.), celles-ci ne sont pas automatiquement ajoutées à la configuration hors ligne, car nous assemblons uniquement le balisage HTML par défaut.
+
+Afin de vous permettre de personnaliser et d’optimiser les ressources exactes téléchargées sur le lecteur, nous  un mécanisme d’extension pour les composants personnalisés afin d’exposer leurs dépendances à la logique de mise en cache hors ligne dans les écrans.
+
+The section below showcases the template for custom offline resource handlers and the minimum requirements in the `pom.xml` for that specific project.
 
 ```java
-   package …;
+package …;
 
-   import javax.annotation.Nonnull;
+import javax.annotation.Nonnull;
 
-   import org.apache.felix.scr.annotations.Component;
-   import org.apache.felix.scr.annotations.Reference;
-   import org.apache.felix.scr.annotations.Service;
-   import org.apache.sling.api.resource.Resource;
-   import org.apache.sling.api.resource.ResourceUtil;
-   import org.apache.sling.api.resource.ValueMap;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
+import org.apache.sling.api.resource.ValueMap;
 
-   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+import com.adobe.cq.screens.visitor.OfflineResourceHandler;
 
-   @Service(value = OfflineResourceHandler.class)
-   @Component(immediate = true)
-   public class MyCustomHandler extends AbstractResourceHandler 
-   {
+@Service(value = OfflineResourceHandler.class)
+@Component(immediate = true)
+public class MyCustomHandler extends AbstractResourceHandler {
 
-    @Reference
-    private …; // OSGi services injection
+ @Reference
+ private …; // OSGi services injection
 
-    /**
-     * The resource types that are handled by the handler.
-     * @return the handled resource types
-     */
-    @Nonnull
-    @Override
-    public String[] getSupportedResourceTypes() {
-        return new String[] { … };
+ /**
+  * The resource types that are handled by the handler.
+  * @return the handled resource types
+  */
+ @Nonnull
+ @Override
+ public String[] getSupportedResourceTypes() {
+     return new String[] { … };
+ }
+
+ /**
+  * Accept the provided resource, visit and traverse it as needed.
+  * @param resource The resource to accept
+  */
+ @Override
+ public void accept(@Nonnull Resource resource) {
+     ValueMap properties = ResourceUtil.getValueMap(resource);
+     
+     /* You can directly add explicit paths for offline caching using the `visit`
+        method of the visitor. */
+     
+     // retrieve a custom property from the component
+     String myCustomRenditionUrl = properties.get("myCustomRenditionUrl", String.class);
+     // adding that exact asset/rendition/path to the offline manifest
+     this.visitor.visit(myCustomRenditionUrl);
+     
+     
+     /* You can delegate handling for dependent resources so they are also added to
+        the offline cache using the `accept` method of the visitor. */
+     
+     // retrieve a referenced dependent resource
+     String referencedResourcePath = properties.get("myOtherResource", String.class);
+     ResourceResolver resolver = resource.getResourceResolver();
+     Resource referencedResource = resolver.getResource(referencedResourcePath);
+     // let the handler for that resource handle it
+     if (referencedResource != null) {
+         this.visitor.accept(referencedResource);
+     }
    }
-
-    /**
-     * Accept the provided resource, visit and traverse it as needed.
-     * @param resource The resource to accept
-     */
-    @Override
-    public void accept(@Nonnull Resource resource) 
-      {
-        ValueMap properties = ResourceUtil.getValueMap(resource);
-        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
-        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
-        …
-        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
-        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
-        …
-      }
-   }
+}
 ```
 
-Le code suivant fournit la configuration minimale requise dans le fichier pom.xml pour ce projet spécifique :
+The following code provides the minimum requirements in the `pom.xml` for that specific project:
 
 ```css
    <dependencies>
