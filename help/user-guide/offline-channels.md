@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
 
 # Canaux hors ligne {#offline-channels}
 
-Le lecteur Screens fournit une prise en charge hors ligne des canaux grâce à la technologie ***ContentSync**.*
+Le lecteur Screens fournit une prise en charge hors ligne des canaux grâce à la technologie ***ContentSync***.
 
 Les lecteurs utilisent un serveur http local pour diffuser le contenu décompressé.
 
@@ -34,7 +34,7 @@ Le workflow du processus est le suivant :
 
 ## Mettre à jour les gestionnaires    {#update-handlers}
 
-***ContentSync**utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique.* AEM Screens utilise les gestionnaires de mise à jour suivants :
+***ContentSync*** utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique. AEM Screens utilise les gestionnaires de mise à jour suivants :
 
 ### Options communes    {#common-options}
 
@@ -113,3 +113,5 @@ Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un ca
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales `pom.xml` pour ce projet spécifique, reportez-vous à la section [Modèle pour gestionnaires](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personnalisés dans **Développement d’un composant personnalisé pour les écrans** AEM.
