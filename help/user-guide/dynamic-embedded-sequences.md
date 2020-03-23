@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -56,7 +56,7 @@ L’exemple suivant fournit une solution en se concentrant sur les termes clés 
 
 >[!NOTE]
 >
->Pour en savoir plus sur l’attribution des canaux, voir **[Attribution des canaux](channel-assignment.md)dans la section Création de la documentation relative à AEM Screens.**
+>Pour en savoir plus sur l’attribution des canaux, voir **[Attribution des canaux](channel-assignment.md)**dans la section Création de la documentation relative à AEM Screens.
 
 ## Utilisation d’une séquence incorporée dynamique {#using-dynamic-embedded-sequence-2}
 
@@ -85,7 +85,7 @@ Vous pouvez télécharger les ressources suivantes (images et les ajouter aux re
 >
 >Pour plus d’informations sur la création d’un projet et la création d’un canal de séquence, reportez-vous aux ressources ci-dessous :
 >
->* **[Créer et gérer des projets](creating-a-screens-project.md)**
+>* **[Création et gestion des projets](creating-a-screens-project.md)**
 >* **[Gestion d’un canal](managing-channels.md)**
 >
 
@@ -121,13 +121,13 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
 
-   1. Accédez à **Demo** —&gt; **Emplacements** —&gt; **Région A**.
+   1. Accédez à **Demo** —> **Emplacements** —> **Région A**.
    1. Sélectionnez **Région 1**, puis cliquez sur **+Créer** dans la barre d’actions.
    1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
    1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et **Nom** **région **pour ce canal.
    >[!CAUTION]
    >
-   >Assurez-vous que lors de la création du canal **Région A**, saisissez le **Titre** **région A **et le **Nom** **région.**
+   >Please make sure that while creating channel **Region A**, enter the **Title** as **Region A** and the **Name** as **region**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -141,7 +141,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Créez Affichage et Canal sous chaque emplacement.**
 
-   1. Accédez à **Démo** —&gt; **Emplacements** —&gt; **Région A** —&gt; **Magasin 1**.
+   1. Accédez à **Démo** —> **Emplacements** —> **Région A** —> **Magasin 1**.
    1. Sélectionnez **Région 1** puis cliquez sur **+Créer** dans la barre d’actions.
    1. Sélectionnez **Affichage** dans l’assistant et créez l’affichage **AffichageMagasin1.**
    1. Répétez l’étape (b) et sélectionnez cette fois **Canal de séquence** dans l’assistant. Saisissez le **Titre** **CanalMagasin1** et le **Nom** **magasin.**
@@ -153,7 +153,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   De même, créez un affichage sous **AffichageMagasin2** et un canal **CanalMagasin2** sous** Magasin 2** (avec le nom **magasin**).
+   Similarly, create a display as **Store2Display** and a channel **Store2Channel** under **Store 2** (with name as **store**).
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Ajoutez du contenu aux canaux dans leurs emplacements respectifs.**
 
-   Accédez à **Démo** -&gt; **Emplacements** -&gt; **Région A** -&gt; **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal. 
+   Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal. 
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   De même, accédez à la **Démo** -&gt; **Emplacements** -&gt; **Région B** -&gt; **Région B** et cliquez sur **Modifier** de la barre d’actions pour faire glisser les ressources vers votre canal, comme illustré ci-dessous :
+   De même, accédez à la **Démo** -> **Emplacements** -> **Région B** -> **Région B** et cliquez sur **Modifier** de la barre d’actions pour faire glisser les ressources vers votre canal, comme illustré ci-dessous :
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -202,10 +202,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Attribuer des canaux à une planification**
 
-   1. Accédez à **Demo** —&gt; **Planifications** —&gt; **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Accédez à **Demo** —> **Planifications** —> **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
-   1. Sélectionnez **Canal de référence**.. en fonction du chemin d’accès.
-   1. Sélectionnez le **Chemin du canal** **Demo*** —&gt; ***Canaux*** —&gt; ***Global***
+   1. Sélectionnez **Canal de référence**. par chemin.
+   1. Select the **Channel Path** as **Demo** --> ***Channels*** --> ***Global***.
    1. Définissez le **rôle du canal** sur **GlobalAdSegment**.
    1. Sélectionnez les **Événements pris en charge** **Chargement initial**, **écran d’inactivité** et **Interaction utilisateur**.
    1. Cliquez sur **Enregistrer**.
@@ -213,10 +213,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
    1. Sélectionnez **Canal de référence**. par nom.
-   1. Saisissez comme **Nom du canal** **région***.*
+   1. Saisissez comme **Nom du canal** **région***.
    1. Définissez le **rôle du canal** sur **RegionAdSegment**.
    1. Cliquez sur **Enregistrer**.
-   **Attribution d’un canal par rôle pour le magasin :**
+   **Attribuer un  par rôle au magasin :
 
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
    1. Sélectionnez **Canal de référence**. par nom.
@@ -245,10 +245,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Attribution d’une planification à chaque affichage**
 
-   1. Accédez à chaque affichage, par exemple **Demo** —&gt; **Emplacements** —&gt; **Région A** —&gt;**Magasin 1** —&gt;**AffichageMagasin1**.
+   1. Accédez à chaque affichage, par exemple **Demo** —> **Emplacements** —> **Région A** —>**Magasin 1** —>**AffichageMagasin1**.
    1. Pour ouvrir le tableau de bord des affichages, cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **...** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, puis sur **+Attribuer une planification**.
-   1. Sélectionnez le chemin d’accès au calendrier (par exemple, ici, **Démo** —&gt; **Planifications** —&gt;**AdSchedule**).
+   1. Sélectionnez le chemin d’accès au calendrier (par exemple, ici, **Démo** —> **Planifications** —>**AdSchedule**).
    1. Cliquez sur **Enregistrer**.
 
 ## Affichage des résultats {#viewing-the-results}
@@ -268,13 +268,13 @@ La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screen
 
 **Scénario 1**:
 
-Si vous attribuez le chemin d’affichage **Demo** —&gt; **Emplacements** —&gt; **Région A** —&gt;** Magasin 1** —&gt; **AffichageMagasin1**, le contenu suivant s’affichera sur votre lecteur AEM Screens.
+Si vous attribuez le chemin d’affichage **Demo** —> **Emplacements** —> **Région A** —>** Magasin 1** —> **AffichageMagasin1**, le contenu suivant s’affichera sur votre lecteur AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scénario 1**:
 
-Si vous attribuez le chemin d’affichage comme **Démo** —&gt; **Emplacements** —&gt; **Région B** —&gt;** Magasin 3** —&gt; **AffichageMagasin3**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
+If you assign the display path as **Demo** --> **Locations** --> **Region B** --> **Store 3** --> **Store3Display**, the following content will display on your AEM Screens player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -309,7 +309,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
 1. **Création de groupes**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Cliquez sur **Outils** --&gt; **Sécurité** --&gt; **Groupes**.
+   1. Cliquez sur **Outils** --> **Sécurité** --> **Groupes**.
    1. Cliquez sur **Créer un groupe** et saisissez **Global-Auteur** dans **ID**.
    1. Cliquez sur **Enregistrer et fermer**.
    De même, créez deux autres groupes comme **Région-Auteur** et **Magasin-Auteur**.
@@ -319,7 +319,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
 1. **Création d’utilisateurs et ajout d’utilisateurs à des groupes**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Cliquez sur **Outils** --&gt; **Sécurité** --&gt; **Utilisateurs**.
+   1. Cliquez sur **Outils** --> **Sécurité** --> **Utilisateurs**.
    1. Cliquez sur **Créer un utilisateur** et saisissez **Global-Utilisateur** dans **ID**.
    1. Saisissez le **mot de passe** et confirmez le mot de passe de cet utilisateur.
    1. Cliquez sur l’onglet **Groupes** et saisissez le nom du groupe dans **Sélectionner un groupe**, par exemple, saisissez **Global-Auteur** pour ajouter **Global-Utilisateur** à ce groupe spécifique.
@@ -335,7 +335,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
 1. **Ajouter tous les groupes aux contributeurs**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Cliquez sur **Outils** --&gt; **Sécurité** --&gt; **Groupes**.
+   1. Cliquez sur **Outils** --> **Sécurité** --> **Groupes**.
    1. Sélectionnez **Contributeurs** dans la liste et sélectionnez l’onglet **Membres**.
    1. Sélectionnez le **Groupe**, comme **Global-Auteur**, **Région-Auteur,** et **Magasin-Auteur** pour les contributeurs.
    1. Cliquez sur **Enregistrer et fermer**.
@@ -354,7 +354,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à l’onglet **Autorisations**
    1. Accédez à ***/content/screens/demo*** et vérifiez toutes les autorisations
    1. Accédez à ***/content/screens/demo/locations*** et vérifiez toutes les autorisations
-   1. Accédez à ***/content/screens/demo/locations***/***région-a*** et vérifiez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
+   1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. De même, vérifiez les autorisations pour **région-b**.
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -365,10 +365,10 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    **Pour Region-Auteur :**
 
    1. Accédez à l’onglet **Autorisations**
-   1. Accédez à ***/content/screens/demo*** et vérifiez uniquement les autorisations de lecture****.
+   1. Accédez à ***/content/screens/demo*** et vérifiez uniquement les autorisations de **lecture** .
    1. Accédez à ***/content/screens/demo/locations*** et vérifiez uniquement les autorisations de **Lecture**.
-   1. Accédez à ***/content/screens/demo/channel ***et désélectionnez les autorisations pour le canal**Global **.***
-   1. Accédez à ***/content/screens/demo/locations***/***région-a*** et vérifiez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
+   1. Accédez à ***/content/screens/demo/channel ***et désélectionnez les autorisations pour le canal **Global**.***
+   1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. De même, vérifiez les autorisations pour **région-b**.
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
@@ -384,12 +384,12 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à ***/content/screens/demo/locations*** et vérifiez uniquement les autorisations de **Lecture**.
    1. Accédez à ***/content/screens/demo/channel*** et désélectionnez les autorisations pour le canal **Global**.
    1. Accédez à ***/content/screens/demo/locations/région-a*** et vérifiez uniquement les autorisations de **Lecture**. De même, vérifiez uniquement les autorisations de **Lecture** pour la **région-b**.
-   1. Accédez à ***/content/screens/demo/locations***/***région-a /magasin-1*** et vérifiez toutes les autorisations. De même, vérifiez les autorisations pour **magasin-2,** magasin-3 et **magasin-4**.
+   1. Navigate to ***/content/screens/demo/locations***/***region-a /store-1*** and check all the permissions. De même, vérifiez les autorisations pour **magasin-2,** magasin-3 et **magasin-4**.
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   L’illustration suivante montre que désormais, le **Magasin-Utilisateur** n’a accès qu’aux quatre magasins, à savoir **Magasin 1**, **Magasin 2**, **Magasin 3** et **Magasin 4**, mais qu’il n’est pas autorisé à accéder au canal **Global** de la région ou du(**Région A **et **Région B**).
+   The following image shows that now the **Store-User** has access only to the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not have permissions to access the **Global** or the region (**Region A** and **Region B**) channels.
 
    ![store](assets/store.gif)
 
