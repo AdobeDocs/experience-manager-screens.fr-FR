@@ -76,4 +76,4 @@ Reportez-vous aux tutoriels et aux ressources ci-dessous pour vous familiariser 
 
 * **Guide des meilleures pratiques pour les projets AEM Screens**
 
-   Suivez le Guide des **[meilleures pratiques pour les projets](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**AEM Screens conçus pour identifier les pièges courants lors de la mise en oeuvre d’un projet AEM Screens. Le document se concentre principalement sur les rôles et responsabilités du projet, le graphique RACI pour les différents rôles des configurations de plateformes AEM et le support et la surveillance.
+   Suivez le Guide des [meilleures pratiques pour les projets](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) AEM Screens conçus pour identifier les pièges courants lors de la mise en oeuvre d’un projet AEM Screens. Le document se concentre principalement sur les rôles et responsabilités du projet, le graphique RACI pour les différents rôles des configurations de plateformes AEM et le support et la surveillance.
