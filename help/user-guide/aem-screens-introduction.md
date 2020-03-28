@@ -10,8 +10,8 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: ht
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+translation-type: tm+mt
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -24,7 +24,7 @@ Devenez opérationnel avec une expérience de signalisation numérique simple, g
 
 ## Présentation {#overview}
 
-**AEM Screens** s’appuie sur les bases solides d’***AEM Sites**et permet aux spécialistes du marketing et aux informaticiens de créer et de gérer des expériences sur différents écrans numériques, qui ont un impact sur les objectifs en magasin/sur site pour établir la marque et susciter la demande.* L’intégration d’AEM Screens à AEM Sites permet de réutiliser des contenus existants et d’offrir efficacement une solution client cohérente et uniforme. Cette intégration fournit un workflow rationalisé permettant de créer des expériences numériques dédiées, qui sont très rentables et utilisables. Cela permet d’influencer la perception de la marque et les décisions conduisant à l’augmentation des achats et de l’engagement.
+**AEM Screens** s’appuie sur les bases solides d’***AEM Sites*** et permet aux spécialistes du marketing et aux informaticiens de créer et de gérer des expériences sur différents écrans numériques, qui ont un impact sur les objectifs en magasin/sur site pour établir la marque et susciter la demande. L’intégration d’AEM Screens à AEM Sites permet de réutiliser des contenus existants et d’offrir efficacement une solution client cohérente et uniforme. Cette intégration fournit un workflow rationalisé permettant de créer des expériences numériques dédiées, qui sont très rentables et utilisables. Cela permet d’influencer la perception de la marque et les décisions conduisant à l’augmentation des achats et de l’engagement.
 
 AEM Screens est une solution web puissante, qui permet de créer des tableaux de menus numériques dédiés, des recommandations de produits, des images de fond valorisant un style de vie, afin de renforcer l’interaction des clients et de proposer des expériences de marque uniformisées et utiles dans des endroits comme des magasins, des hôtels, des banques, des établissements de santé et de formation, et bien d’autres, à partir de la même plateforme AEM. Screens met à disposition de nombreuses applications uniques, comme des affichages interactifs, des composants de recherche ou de marque et l’ajout d’une ambiance à votre environnement pour des clients et des employés en fonction du domaine dans lequel elles sont déployées.
 
@@ -68,8 +68,12 @@ Reportez-vous aux tutoriels et aux ressources ci-dessous pour vous familiariser 
 * **Tutoriels et vidéos AEM 6.5** : collection de tutoriels et de vidéos présentant les nouvelles fonctionnalités et les fonctionnalités mises à jour dans AEM Sites, Assets, Forms, Screens et Foundation avec la sortie d’AEM 6.5.
 * **Concepts de base d’AEM** : présentation des concepts de base de la structure d’AEM et des méthodes de développement sur AEM, notamment le fonctionnement de JCR, de Sling, d’OSGi, du Dispatcher, des workflows et de MSM.
 
-### Principes d’implémentation guidée {#guided-implementation-essentials}
+## Ressources supplémentaires {#additional-resources}
 
-Suivez le parcours d’apprentissage guidé **[Principes d’implémentation guidée AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans AEM Screens.
+* **Principes d’implémentation guidée**
 
-Lors de la création d’un projet, différentes fonctions peuvent faire double emploi en fonction des exigences de votre organisation et de votre activité.
+   Suivez le parcours d’apprentissage guidé **[Principes d’implémentation guidée AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans AEM Screens.
+
+* **Guide des meilleures pratiques pour les projets AEM Screens**
+
+   Suivez le Guide des **[meilleures pratiques pour les projets](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**AEM Screens conçus pour identifier les pièges courants lors de la mise en oeuvre d’un projet AEM Screens. Le document se concentre principalement sur les rôles et responsabilités du projet, le graphique RACI pour les différents rôles des configurations de plateformes AEM et le support et la surveillance.
