@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+translation-type: tm+mt
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ Avant de commencer à définir les configurations ContextHub d’un projet AEM 
 >
 >Pour plus d’informations, reportez-vous à la section [Obtenir la clé d’API](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation Google.
 
+
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 
 Vous pouvez configurer l’entrepôt de données en tant qu’événement d’E/S local ou d’événement de base de données local.
 
-### Événement d’E/S local {#local-io-event}
+L’exemple de déclencheurs de données au niveau des ressources suivant montre un de base de données local qui configure un magasin de données, tel qu’une feuille Excel qui vous permet d’utiliser les configurations ContextHub et le chemin d’accès aux segments vers le AEM Screens .
 
-Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu’un événement ASCII, qui vous permet d’utiliser les configurations et le chemin des segments ContextHub vers le canal AEM Screens.
+Une fois la feuille google configurée correctement, par exemple, comme illustré ci-dessous :
 
-### Événement de base de données local {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu’une feuille Excel, qui vous permet d’utiliser les configurations et le chemin des segments ContextHub vers le canal AEM Screens.
+La validation suivante est ce que vous  lorsque vous vérifiez votre connexion en saisissant l’ID de feuille de Google et la clé d’API au format ci-dessous :
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Utilisation des valeurs de feuille Google dans AEM **>Les feuilles Google exposent ses valeurs dans le magasin ContextHub et sont disponibles sous`<store-name>/values/<i>/<j>`, où`<i>`et`<j>`sont les index de lignes et de colonnes dans la feuille de calcul (à partir de 0).
+>
+> * /values/0/0 points vers A1
+> * /values/5/0 points vers A5
+> * /values/0/5 points vers E1
+
+
+L’exemple spécifique ci-dessous illustre la feuille Excel comme un magasin de données qui déclenchera un changement de fichier si la valeur est supérieure à 100 ou inférieure à 50.
+
 
 1. **Accès à ContextHub**
 
@@ -85,14 +102,14 @@ Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu�
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ Suivez les étapes ci-dessous pour configurer un entrepôt de données, tel qu�
    >Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
    >[!CAUTION]
-   Si vous créez des configurations de magasin Google Sheets en dehors du dossier existant (par exemple dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
-   Si vous souhaitez définir les configurations de magasin Google Sheets en dehors du dossier existant global, vous devez définir le **Nom du magasin** en tant que **segmentation** et le **Type de magasin** comme **aem.segmentation**. Vous devez par ailleurs ignorer le processus de définition du code json défini ci-dessus.
+   Si vous créez vos configurations de stockage Google Sheets en dehors du dossier global (par exemple dans votre propre dossier de projet), le ciblage ne fonctionnera pas de manière prête.
+   In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Vous devez par ailleurs ignorer le processus de définition du code json défini ci-dessus.
 
 1. **Création d’une marque dans les activités**
 
@@ -141,7 +158,7 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
 1. **Création de segments dans les audiences**
 
-   1. Dans votre instance AEM, accédez à **Personnalisation** > **Audiences** > **We.Retail**.
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
    1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
@@ -149,7 +166,7 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
 1. **Modification des segments**
 
-   1. Sélectionnez le segment **Sheets A1 1** (créé à l’étape 5), puis cliquez sur **Modifier** dans la barre d’actions.
+   1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
    1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
@@ -172,8 +189,9 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
    1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant.
 
    1. Saisissez la **valeur** **2**.
-   >[!NOTE]
-   Les règles appliquées lors des étapes précédentes ne sont qu’un exemple de configuration des segments pour la mise en œuvre des cas d’utilisation ci-dessous.
+
+
+
 
 ## Étape 3 : activation du ciblage dans les canaux {#step-enabling-targeting-in-channels}
 
