@@ -1,6 +1,6 @@
 ---
-source-git-commit: 26214b3a0c8510a66a340e8f9566aeb4692a23d7
-translation-type: ht
+source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
+translation-type: tm+mt
 
 ---
 # Code de conduite d’Adobe
@@ -47,15 +47,14 @@ menaçants, injurieux ou nuisibles.
 
 ## Portée
 
-Ce code de conduite s’applique à la fois à l’'espace du projet et
+Ce code de conduite s’applique à la fois à l’&#39;espace du projet et
 aux environnements publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle de projet, la publication par le biais d’un compte de réseau social officiel ou l’agissement en tant que représentant désigné à l’occasion d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
 
 ## Application
 
 Les cas de comportements abusifs, harcelants ou tout autre comportement inacceptable peuvent être signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes
 les plaintes sont examinées et analysées ; elles se traduiront par une réponse jugée nécessaire et adaptée aux circonstances. L’équipe du projet est
-tenue de maintenir la confidentialité en ce qui concerne le déclarant d’un incident.
-Des informations supplémentaires sur les stratégies d’application spécifiques peuvent être publiées séparément.
+tenue de maintenir la confidentialité en ce qui concerne le déclarant d’un incident. Des informations supplémentaires sur les stratégies d’application spécifiques peuvent être publiées séparément.
 
 Les responsables de projet qui ne suivent pas ou n’appliquent pas le code de conduite de bonne
 foi s’exposent temporairement ou de façon permanente à des répercussions définies par d’autres membres de la direction du projet.
