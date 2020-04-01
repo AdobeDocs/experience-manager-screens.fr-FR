@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Guide des bonnes pratiques Screens](https://docs.adobe.com/content/help/fr/experience-manager-screens/using/about-guide.html)
    + [Termes clés](screens-glossary.md)
 + Notions de base sur les réseaux de signalisation numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
@@ -68,7 +68,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [Utilisation d’une séquence incorporée dynamique](dynamic-embedded-sequences.md)
       + [Durée de lecture d’images en bloc d’un canal](channel-level-image-playback.md)
       + [Synchronisation des commandes](using-command-sync.md)
-      + [Création avec des déclencheurs de données](authoring-data-triggers.md)
+      + [Création avec des triggers de données](authoring-data-triggers.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
