@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
@@ -31,7 +31,7 @@ En permettant à l’auteur de fournir une feuille de calcul en tant que fichier
 * *présente de meilleures performances par rapport à la navigation manuelle dans l’interface utilisateur*
 * *permet aux clients d’exporter leurs emplacements depuis leur propre système et de les importer directement dans AEM*
 
-Cela permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d&#39;AEM Screens à de nouveaux emplacements.
+Cela permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d’AEM Screens à de nouveaux emplacements.
 
 ## Présentation de l’architecture {#architectural-overview}
 
@@ -49,7 +49,7 @@ Le modèle de données de l’Importateur de projet est décrit ci-dessous :
 
 | **Propriété** | **Description** |
 |---|---|
-| ***path {string *}** | Le chemin des ressources de l&#39;emplacement |
+| ***path {string *}** | Chemin des ressources de l’emplacement |
 | ***[./jcr:title]{string *}** | Nom du modèle à utiliser (emplacement des *écrans/du noyau/des modèles/de l’emplacement*) |
 | ***template {string}*** | Titre facultatif à utiliser pour la page |
 | ***[./jcr:description]{string}*** | Description facultative à utiliser pour la page |
@@ -59,13 +59,13 @@ La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 * **path {string}** Chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire */foo* sera importé dans */content/screens/&lt;projet>/locations/foo*)
 
 * **template {string}** Le modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est &quot;location&quot;, mais il sera étendu ultérieurement à tous les modèles Screens (&quot;display&quot;, &quot;sequencechannel, etc.)
-* **[./*]{string}**Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). La version actuelle n’autorise aucun filtrage pour le moment.
+* **[./*]{string}**Toute propriété facultative à définir sur l’emplacement (c’est-à-dire, ./jcr:title, ./jcr:description, ./foo, ./bar). La version actuelle n’autorise aucun filtrage pour le moment.
 
 >[!NOTE]
 >
 >Toute colonne qui ne correspond pas aux conditions ci-dessus sera simplement ignorée. Par exemple, si une autre colonne est définie dans votre feuille de calcul (fichier CSV/XLS) autre que **path**,**template**,**title** et **description, ces champs seront ignorés et l’Importateur de projet ne validera pas ces champs supplémentaires pour l’importation de votre projet dans votre projet AEM Screens.******
 
-## Utilisation de l’Importateur de projet  {#using-project-importer}
+## Utilisation de l’importateur de projet {#using-project-importer}
 
 La section suivante décrit l’utilisation de l’importateur de projets dans un projet AEM Screens.
 
@@ -87,7 +87,7 @@ La section suivante décrit l’utilisation de l’importateur de projets dans u
 
 A des fins de démonstration, vous pouvez télécharger un fichier Excel depuis la section ci-dessous.
 
-[Obtenir un fichier](assets/minimal-file.xls)
+[Obtenir le fichier](assets/minimal-file.xls)
 
 ### Importation du fichier avec un minimum de champs obligatoires {#importing-the-file-with-minimum-required-fields}
 
@@ -107,7 +107,7 @@ Pour importer un fichier dans un dossier d’emplacements avec un minimum de cha
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. L&#39;assistant d’**importation** s’ouvre. Sélectionnez votre fichier contenant des emplacements pour votre projet ou le fichier (***minimal-file.xls***) que vous avez téléchargé dans la section *Conditions préalables*.
+1. L’assistant d’**importation** s’ouvre. Sélectionnez votre fichier contenant des emplacements pour votre projet ou le fichier (***minimal-file.xls***) que vous avez téléchargé dans la section *Conditions préalables*.
 
    Une fois le fichier sélectionné, cliquez sur **Suivant**.
 
