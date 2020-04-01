@@ -10,31 +10,31 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
 
-# Channel Level Activation {#channel-level-activation-single-event-playback}
+# Activation au niveau des canaux {#channel-level-activation-single-event-playback}
 
-Cette page décrit l’activation au niveau du canal pour les ressources utilisées dans les canaux.
+Cette page décrit l’activation au niveau des canaux des ressources utilisées dans les canaux.
 
 Cette section aborde les sujets suivants :
 
 * Présentation
 * Fenêtre d’activation
-* Utilisation de l’activation au niveau du canal comme lecture d’événement unique
-* Gestion de la répétition des ressources dans un canal
+* Utilisation de l’activation au niveau des canaux comme lecture d’événement unique
+* Gestion de la périodicité des ressources dans un canal
    * Tranches horaires
-   * Partage de semaine
-   * Division des mois
-   * Combinaison de pièces
-* Utilisation de l’activation au niveau du canal comme lecture d’événement unique
+   * Tranches hebdomadaires
+   * Tranches mensuelles
+   * Combinaison de tranches
+* Utilisation de l’activation au niveau des canaux comme lecture d’événement unique
 
 ## Présentation {#overview}
 
-***L&#39;activation*** au niveau du canal permet aux canaux de basculer après un calendrier spécifique. Le canal d’événement unique remplace le canal principal après une planification définie et il est lu pendant une période donnée, jusqu’à ce que le canal principal exécute à nouveau son contenu.
+L ***’activation au niveau des canaux*** permet aux canaux de permuter selon une planification définie. Le canal d’événement unique remplace le canal principal après une planification définie et il est lu pendant une période donnée, jusqu’à ce que le canal principal exécute à nouveau son contenu.
 
 L’exemple suivant fournit une solution en se concentrant sur les termes clés suivants :
 
@@ -52,13 +52,13 @@ Avant de commencer à implémenter cette fonctionnalité, veillez à ce que les 
 
 * Créez un projet AEM Screens, dans cet exemple, **Channel Level Activation**
 
-* Créez un canal dénommé **MainAdChannel** principal sous le dossier **Canaux**
+* Créez un canal appelé **MainAdChannel** sous le dossier **Canaux**
 
-* Créez un autre canal dénommé **TargetedSinglePlay** sous le dossier **Canaux**
+* Créez un autre canal appelé **TargetedSinglePlay** sous le dossier **Canaux**
 
 * Ajoutez les ressources appropriées aux deux canaux
 
-L’image suivante montre le projet **Channel Level Activation** avec les canaux **MainAdChannel** et **TargetedSinglePlay** ciblés dans le dossier **Canaux**.
+L’image ci-après montre le projet **Channel Level Activation** avec les canaux **MainAdChannel** et **TargetedSinglePlay** dans le dossier **Canaux**.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -66,7 +66,7 @@ L’image suivante montre le projet **Channel Level Activation** avec les canaux
 >
 >Pour plus d’informations sur la création d’un projet et la création d’un canal de séquence, reportez-vous aux ressources ci-dessous :
 >
->* [Créer et gérer des projets](creating-a-screens-project.md)
+>* [Création et gestion des projets](creating-a-screens-project.md)
    >
    >
 * [Gestion d’un canal](managing-channels.md)
@@ -101,17 +101,17 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Sélectionnez **Afficher** dans l’assistant et créez un affichage intitulé **RegionDisplay.**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
-1. **Affectation de canaux à un affichage**
+1. **Affecter des canaux à un affichage**
 
    Pour **MainAdChannel :**
 
    1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
    1. La boîte de dialogue **Attribution de canaux** s’ouvre.
    1. Sélectionnez **Canal de référence**.. en fonction du chemin d’accès.
-   1. Select the **Channel Path** as **Channel Level Activation** --> ***Channels*** --> ***MainAdChannel***.
+   1. Sélectionnez en tant que **Chemin du canal** **Channel Level Activation** --> ***Canaux*** --> ***MainAdChannel***.
    1. Le **Rôle du canal** est défini comme **mainadchannel**.
    1. Sélectionnez la **Priorité** **1**.
-   1. Choisissez les **Événements pris en charge** **Chargement initial** et **Écran inactif**.
+   1. Sélectionnez les **Événements pris en charge** **Chargement initial** et **Écran inactif**.
    1. Cliquez sur **Enregistrer**.
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
@@ -121,17 +121,17 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    De même, affectez le canal **TargetedSinglePlay** afin qu’il soit affiché** :
 
-   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. Accédez à **Channel Level Activation** --> **Emplacements** --> **Région** --> **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
    1. La boîte de dialogue **Attribution de canaux** s’ouvre.
    1. Sélectionnez **Canal de référence**.. en fonction du chemin d’accès.
-   1. Select the **Channel Path** as **Channel Level Activation*** --> ***Channels*** --> ***TargetedSinglePlay***.
+   1. Sélectionnez en tant que **Chemin du canal** **Channel Level Activation*** --> ***Canaux*** --> ***TargetedSinglePlay***.
    1. Le **Rôle de canal** est renseigné avec le contenu **targetedsingleplay**.
    1. Définissez la **Priorité** sur **2**.
    1. Sélectionnez les **Événements pris en charge** **Charge initiale**, **Écran inactif** et **Minuteur**, *comme illustré dans la figure ci-dessous.
    1. Choisissez la date **active à partir** du 27 novembre 2018 à 23h59 et **active jusqu’au** 28 novembre 2018 à 12h05.
    1. Cliquez sur **Enregistrer**.
    >[!CAUTION]
-   Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que le canal **MainAdSegment** .
+   Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -153,113 +153,113 @@ Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suiv
 
 
 
-## Gestion de la répétition des ressources dans un canal{#handling-recurrence-in-assets}
+## Gestion de la périodicité des ressources dans un canal{#handling-recurrence-in-assets}
 
-Vous pouvez programmer des ressources dans un canal pour qu’elles se régénèrent à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
+Vous pouvez planifier l’activation périodique des ressources d’un canal à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher le contenu d’une chaîne uniquement le vendredi de 13h00 à 22h00. You can use the **Activation** tab to set the desired recurring interval for your asset.
+Supposons que vous souhaitiez afficher les contenus d’un canal uniquement le vendredi de 13 h 00 à 22 h 00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle périodique souhaité pour votre ressource.
 
 ### Tranches horaires {#day-parting}
 
-1. Sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d&#39;action pour ouvrir le tableau de bord du canal.
+1. Pour ouvrir le tableau de bord du canal, sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
-1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’expressions pour le partage de journée {#example-one}
+#### Exemples d’expressions pour les tranches horaires {#example-one}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
-| avant 08h00 | le fichier de la chaîne est lu avant 8h00 tous les jours |
-| après 14h00 | le fichier de la chaîne est lu après 14h00 tous les jours |
-| après 12h15 et avant 12h45 | le fichier de la chaîne est lu après 12h15 tous les jours pendant 30 minutes. |
-| avant 12h15 et après 12h45 | le fichier de la chaîne est lu avant 12h15 tous les jours et après 12h45 |
-| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la ressource du canal du lundi au mercredi. |
-| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | le fichier dans la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
-| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
+| avant 8 h 00 | la ressource du canal est lue avant 8 h 00 tous les jours |
+| après 14 h 00 | la ressource du canal est lue après 14 h 00 tous les jours |
+| après 12 h 15 et avant 12 h 45 | la ressource du canal est lue après 12 h 15 tous les jours pendant 30 minutes |
+| avant 12 h 15 et après 12 h 45 | la ressource du canal est lue avant 12 h 15 et après 12 h 45 tous les jours |
+| Lun,Mar,Mer ou Lun-Mer | la ressource du canal est lue du lundi au mercredi |
+| le 1er janvier après 14 h 00, ainsi que le 2 janvier et le 3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier |
+| les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
-### Partage de semaine {#week-parting}
+### Tranches hebdomadaires {#week-parting}
 
-1. Sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d&#39;action pour ouvrir le tableau de bord du canal.
+1. Pour ouvrir le tableau de bord du canal, sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
-1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’expressions pour le partage de semaine {#example-two}
+#### Exemples d’expressions pour les tranches hebdomadaires {#example-two}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Lun,Tue,Wed ou Lun-Wed | la ressource est lue dans la ressource du canal du lundi au mercredi. |
-| avant 08h00 | le fichier de la chaîne est lu avant 8h00 tous les jours |
-| après 14h00 | le fichier de la chaîne est lu après 14h00 tous les jours |
-| après 12h15 et avant 12h45 | le fichier de la chaîne est lu après 12h15 tous les jours pendant 30 minutes. |
-| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
+| Lun,Mar,Mer ou Lun-Mer | la ressource du canal est lue du lundi au mercredi |
+| avant 8 h 00 | la ressource du canal est lue avant 8 h 00 tous les jours |
+| après 14 h 00 | la ressource du canal est lue après 14 h 00 tous les jours |
+| après 12 h 15 et avant 12 h 45 | la ressource du canal est lue après 12 h 15 tous les jours pendant 30 minutes |
+| avant 12 h 15 et après 12 h 45 | le canal est lu avant 12 h 15 et après 12 h 45 tous les jours |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 
-### Division des mois {#month-parting}
+### Tranches mensuelles {#month-parting}
 
-1. Sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d&#39;action pour ouvrir le tableau de bord du canal.
+1. Pour ouvrir le tableau de bord du canal, sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
-1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’expressions pour le partage de mois {#example-three}
+#### Exemples d’expressions pour les tranches mensuelles {#example-three}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
-| de février,mai,août,novembre | la ressource est lue dans la chaîne en février, mai, août, novembre. |
+| de février,mai,août,novembre | la ressource est lue dans le canal en février, mai, août, novembre |
 
 >[!NOTE]
-Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.
+Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
-### Combinaison de pièces {#combined-parting}
+### Combinaison de tranches {#combined-parting}
 
-1. Sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d&#39;action pour ouvrir le tableau de bord du canal.
+1. Pour ouvrir le tableau de bord du canal, sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir saisi la date/l&#39;heure de début et l&#39;heure de fin/date dans la boîte de dialogue Affectation **de** canal, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre calendrier de répétition.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif depuis** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
-1. Entrez l’expression dans le **calendrier** et votre fichier s’affichera pour l’intervalle de jour et d’heure.
+1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’expressions pour la combinaison de paramètres {#example-four}
+#### Exemples d’expressions de combinaison de tranches {#example-four}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
-| après 6h00 et avant 18h00 le lundi,Wed de Jan-Mar | le fichier est lu sur la chaîne entre 6h et 18h les lundis et mercredis de janvier à fin mars. |
-| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | le fichier dans la chaîne commence à jouer après 14h00 le 1er janvier, continue à jouer toute la journée le 2 janvier jusqu&#39;à 3h00 le 3 janvier |
-| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | le fichier dans la chaîne démarre le lecteur après 14h00 le 1er janvier, continue la lecture jusqu&#39;à 3h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et continue la lecture jusqu&#39;à 3h00 le 3 janvier |
+| après 6 h et avant 18 h les lundis et mercredis de janvier à mars | la ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars |
+| le 1er janvier après 14 h 00, ainsi que le 2 janvier et le 3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier |
+| les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
-Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les annotations à main courte et de nom complet, telles que Lun/Lundi et Jan/Janvier.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
