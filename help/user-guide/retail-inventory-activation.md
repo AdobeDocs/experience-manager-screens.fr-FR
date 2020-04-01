@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
@@ -28,7 +28,7 @@ Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu apparaît à l�
 
 ## Conditions préalables {#preconditions}
 
-Before you start implementing the retail inventory targeting activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
 
 Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
@@ -44,7 +44,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
 1. **Configuration des audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** dans la page **[Configuration de ContextHub dans la AEM Screens](configuring-context-hub.md)**pour plus d’informations).
+   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** sur la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)**pour plus d’informations).
 
    1. Ajoutez trois nouveaux segments **For_Red**, **For_Green** et **For_Blue**.
 
@@ -53,20 +53,20 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    1. Faites glisser **Comparaison : Propriété - Propriété** et déposez-le dans l’éditeur, puis cliquez sur l’icône de configuration pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété.**
 
-   1. Select the **Operator** as **greater-than** from the drop-down menu
+   1. Sélectionnez l’**opérateur** **supérieur à** dans le menu déroulant.
 
    1. Sélectionner le **Type de données** **Nombre**
 
    1. Sélectionnez **googlesheets/value/1/1** dans la liste déroulante de **Nom de la deuxième propriété.**.
 
-   1. Drag and drop **another Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
+   1. Faites glisser **une autre comparaison : Propriété - Propriété** et déposez-la dans l’éditeur, puis cliquez sur l’icône de configuration pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
 
-   1. Select the **Operator** as **greater-than** from the drop-down menu
+   1. Sélectionnez l’**opérateur** **supérieur à** dans le menu déroulant.
 
    1. Sélectionnez le **Type de données** **nombre**
 
-   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la deuxième propriété**
+   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante **Nom de la deuxième propriété**
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
    De la même manière, modifiez et ajoutez des règles de propriétés de comparaison au segment **For_Blue**, comme illustré ci-dessous :
