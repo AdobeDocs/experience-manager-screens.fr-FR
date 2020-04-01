@@ -10,7 +10,7 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
@@ -32,9 +32,9 @@ La date de publication d’AEM Screens Feature Pack 201907 est le mercredi 31 
 
 * **Le Déclencheur de données entraîne la modification des ressources dans un canal AEM Screens**
 
-Le lecteur passe sur un canal qui présente les informations d&#39;urgence sur réception d&#39;un événement déclenché par le système d&#39;urgence. Ce canal est le seul lu jusqu&#39;à la fin de la situation d&#39;urgence.
+Le lecteur passe sur un canal qui présente les informations d’urgence sur réception d’un événement déclenché par le système d’urgence. Ce canal est le seul lu jusqu’à la fin de la situation d’urgence.
 
-Consultez le cas d&#39;utilisation du [Canal d’urgence](emergency-channel.md) pour la mise en œuvre.
+Consultez le cas d’utilisation [Canal d’urgence](emergency-channel.md) pour la mise en œuvre.
 
 * **Ciblage activé pour les composants asynchrones
 
@@ -42,7 +42,7 @@ Le ciblage peut désormais être activé pour les ressources utilisées dans le 
 
 Pour en savoir plus sur la manière d’activer le ciblage des ressources dans le projet AEM Screens, voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md).
 
-Après avoir configuré ContextHub pour votre projet AEM Screens, consultez différents cas d’utilisation pour comprendre le rôle essentiel des ressources déclenchées par les données dans différents secteurs :
+Après avoir configuré ContextHub pour votre projet AEM Screens, consultez différents cas d’utilisation pour comprendre le rôle essentiel des ressources déclenchées par les données dans différents secteurs :
 
 **[Activation ciblée du stock de vente au détail](retail-inventory-activation.md)**
 
