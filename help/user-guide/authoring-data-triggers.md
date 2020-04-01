@@ -1,43 +1,43 @@
 ---
-title: Création avec des déclencheurs de données
-seo-title: Création avec des déclencheurs de données
-description: Suivez cette page pour apprendre à créer des déclencheurs de données.
-translation-type: tm+mt
+title: Création avec des triggers de données
+seo-title: Création avec des triggers de données
+description: Consultez cette page pour apprendre à créer avec des triggers de données.
+translation-type: ht
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
 
-# Création avec des déclencheurs de données {#authoring-with-data-triggers}
+# Création avec des triggers de données {#authoring-with-data-triggers}
 
-Cette section explique comment activer le ciblage dans votre  de.
+Cette section explique comment activer le ciblage dans vos canaux.
 
 >[!IMPORTANT]
-> La version minimale qui prend en charge les déclencheurs de données dans un AEM Screens est AEM 6.5.3 Feature Pack 3.
+> La version minimale prenant en charge les triggers de données dans un canal AEM Screens est AEM 6.5.3 Feature Pack 3.
 
 ## Conditions préalables {#prereqs}
 
-Avant de suivre les étapes ci-dessous pour activer le ciblage dans les  de, vous devez connaître les termes [clés de la section Configuration dans les écrans](configuring-context-hub.md) AEM requise pour comprendre ContextHub et le ciblage dans les écrans AEM.
+Avant de suivre les étapes ci-dessous afin d’activer le ciblage dans les canaux, vous devez connaître les [termes clés de la section Configuration dans AEM Screens](configuring-context-hub.md) qui sont nécessaires pour comprendre ContextHub et le ciblage dans AEM Screens.
 
 >[!IMPORTANT]
-> Il est recommandé de comprendre et de configurer les configurations ContextHub avant d’activer le ciblage dans un  d’écrans AEM.
+> Il est recommandé de comprendre et de définir les configurations ContextHub avant d’activer le ciblage dans un canal AEM Screens.
 
-Suivez les liens ci-dessous pour en savoir plus :
+Suivez les liens ci-dessous pour en savoir plus :
 
 1. **[Configuration du magasin de données](configuring-context-hub.md)**
-1. **[Configuration de   de la segmentation du](configuring-context-hub.md)**
+1. **[Configuration de la segmentation de l’audience](configuring-context-hub.md)**
 
-Une fois les étapes précédentes terminées, vous êtes prêt à activer le ciblage dans votre .
+Une fois les étapes précédentes terminées, vous êtes prêt à activer le ciblage dans vos canaux.
 
-## Présentation de la création avec des déclencheurs de données {#author-targeting}
+## Présentation de la création avec des triggers de données {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921)
+>[!VIDEO](https://video.tv.adobe.com/v/31921?captions=fre_fr)
 
-## Activation du ciblage dans un AEM Screens {#enabling-targeting}
+## Activation du ciblage dans un canal AEM Screens {#enabling-targeting}
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
-1. Accédez à l’un des canaux AEM Screens. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
+1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** *(canal de séquence)* créé dans un canal AEM Screens.
 
 1. Sélectionnez le canal **DataDrivenRetail** et cliquez sur **Propriétés** dans la barre d’actions.
 
@@ -56,7 +56,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez les ressources dans l’éditeur de  de votre.
+1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions. Faites glisser les ressources et déposez-les dans votre éditeur de canal.
 
    >[!NOTE]
    >
