@@ -1,8 +1,8 @@
 ---
 title: Séquences incorporées
 seo-title: Séquences incorporées
-description: Suivez cette page pour en savoir plus sur les séquences incorporées pour les canaux qui permettent à l’utilisateur d’ajouter des composants dans le canal parent, et aussi de réutiliser le contenu d’un autre canal et de l’incorporer dans le canal parent.
-seo-description: Suivez cette page pour en savoir plus sur les séquences incorporées pour les canaux qui permettent à l’utilisateur d’ajouter des composants dans le canal parent, et aussi de réutiliser le contenu d’un autre canal et de l’incorporer dans le canal parent.
+description: Suivez cette page afin d’en savoir plus sur les séquences incorporées pour les canaux qui permettent à l’utilisateur d’ajouter des composants dans le canal parent, et aussi de réutiliser le contenu d’un autre canal et de l’incorporer dans le canal parent.
+seo-description: Suivez cette page afin d’en savoir plus sur les séquences incorporées pour les canaux qui permettent à l’utilisateur d’ajouter des composants dans le canal parent, et aussi de réutiliser le contenu d’un autre canal et de l’incorporer dans le canal parent.
 uuid: 72a8d4e6-e5ce-4069-bf3b-864d03f61585
 contentOwner: jsyal
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 # Séquences incorporées {#embedded-sequences}
 
-Grâce aux ***Séquences incorporées*** pour les canaux, l’utilisateur peut ajouter des composants dans le canal parent, ainsi que réutiliser le contenu d’un autre canal et l’incorporer dans le canal parent.
+Grâce aux ***séquences incorporées*** pour les canaux, l’utilisateur peut ajouter des composants dans le canal parent, ainsi que réutiliser le contenu d’un autre canal et l’incorporer dans le canal parent.
 
 ## Ajout de séquences incorporées {#adding-embedded-sequences}
 
@@ -31,13 +31,13 @@ Vous avez la possibilité d’ajouter les composants suivants à votre canal de 
 >
 >Pour en savoir plus sur l’utilisation d’autres composants dans votre projet Screens, voir [Ajout de composants à un canal](adding-components-to-a-channel.md).
 
-### Ajout d’une séquence incorporée    {#adding-an-embedded-sequence}
+### Ajout d’une séquence incorporée  {#adding-an-embedded-sequence}
 
 Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence incorporée est un autre canal qui comprend des ressources telles que des images ou des vidéos. En ajoutant une séquence incorporée, l’utilisateur peut ajouter la séquence à un canal au niveau de ***Chemin du canal***.
 
 >[!NOTE]
 >
->***Chemin*** du canal définit une référence explicite au canal.
+>***Chemin du canal*** définit une référence explicite au canal.
 >
 >Pour en savoir plus sur *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans la section Création dans Screens.
 
@@ -53,9 +53,9 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 
 1. Définissez la **Stratégie de lecture limitée** sur **normal**.
 
-Par défaut, elle est définie sur **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+Par défaut, elle est définie sur **normal**. La définition de la valeur sur **normal** (Lire tous les éléments) signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est **Lire un seul élément**, ce qui afficherait un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, et ainsi de suite).
 
->[!Iimportant]
+>[!Important]
 >Vous devez attribuer le canal (utilisé dans la séquence incorporée), au même affichage.
 >
 >Suivez les étapes ci-dessous après avoir ajouté une séquence incorporée à votre canal à partir des étapes précédentes :
@@ -85,7 +85,7 @@ Vous pouvez ajouter une séquence incorporée dynamique à votre canal. Une séq
 
 >[!NOTE]
 >
->***Rôle de canal*** définit le contexte de l’affichage.
+>***Rôle du canal*** définit le contexte de l’affichage.
 >
 >Pour en savoir plus sur le *Rôle du canal*, voir [Attribution de canaux](channel-assignment.md) dans la section Création dans Screens.
 
@@ -96,12 +96,12 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir le canal en mode édition.
 1. Cliquez sur l’icône de composants sur la barre de gauche pour ajouter la séquence incorporée dynamique. Faites glisser et déposez la séquence **dynamique** **Incorporée **dans l’éditeur.
 
-1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
+1. Double-cliquez sur le composant **Séquence dynamique** **incorporée** pour ajouter la page à votre canal de séquence.
 
 1. Saisissez le **Rôle d’attribution de canaux**.
-1. Définissez la **Stratégie de lecture limitée** sur **normal**. Par défaut, elle est définie sur **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. Définissez la **Stratégie de lecture limitée** sur **normal**. Par défaut, elle est définie sur **normal**. La définition de la valeur sur **normal** (Lire tous les éléments) signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est **Lire un seul élément**, ce qui afficherait un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, et ainsi de suite).
 
-1. Sélectionnez la **durée (ms)** de l&#39;onglet **Séquence** votre canal incorporé dans la séquence.
+1. Sélectionnez la **durée (ms)** dans l’onglet **Séquence** pour votre canal incorporé dans la séquence.
 
 ![dernier](assets/latest.gif)
 
