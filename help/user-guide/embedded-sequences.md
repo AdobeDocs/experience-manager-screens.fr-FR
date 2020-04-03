@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
+translation-type: tm+mt
+source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
 
@@ -55,7 +55,7 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 
 Par défaut, elle est définie sur **normal**. La définition de la valeur sur **normal** (Lire tous les éléments) signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est **Lire un seul élément**, ce qui afficherait un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, et ainsi de suite).
 
->[!Important]
+>[!IMPORTANT]
 >Vous devez attribuer le canal (utilisé dans la séquence incorporée), au même affichage.
 >
 >Suivez les étapes ci-dessous après avoir ajouté une séquence incorporée à votre canal à partir des étapes précédentes :
