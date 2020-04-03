@@ -3,8 +3,8 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
-translation-type: ht
-source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
+translation-type: tm+mt
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques Screens](https://docs.adobe.com/content/help/fr/experience-manager-screens/using/about-guide.html)
+   + [Guide des bonnes pratiques Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [Termes clés](screens-glossary.md)
 + Notions de base sur les réseaux de signalisation numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
@@ -91,6 +91,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
    + [Incorporation d’une application REACT via la fonction d’éditeur d’application monopage (SPA) et intégration avec AEM Screens Analytics](embedding-react-app.md)
    + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
    + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
+   + [Application d’une marque et d’un style personnalisés pour les incrustations de texte](custom-branding-text-overlays.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
