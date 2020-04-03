@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,40 +134,10 @@ Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous a
       >[!NOTE]
 Vous devez ignorer le processus de définition du fichier json et le laisser vide.
 
-## Étape 3 : Configuration de la marque et de la zone {#setting-brand-area}
 
-1. **Création d’une marque dans les activités**
+## Step 3: Setting Up Audience {#setting-up-audience}
 
-   1. Dans votre instance AEM, accédez à **Personnalisation** > **Activités**
-
-   1. Cliquez sur **Créer** > **Créer une marque**
-
-   1. Dans l’assistant **Créer une page**, sélectionnez **Marque** et cliquez sur **Suivant**
-
-   1. Enter the **Title** as **ScreensBrand** and click **Create**. Votre marque a été créée, comme illustré ci-dessous.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      Problème connu :
-Pour ajouter une zone, supprimez le gabarit de l’URL, par exemple
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **Création d’une zone dans votre marque**
-
-   Pour créer une zone dans la marque, procédez comme suit :
-
-   1. Cliquez sur **Créer**, puis sur **Créer une zone**
-
-   1. Sélectionnez **Zone** à partir de l’assistant de **Création de pager** et cliquez sur Suivant
-
-   1. Saisissez le **Titre** **Google Sheets** et cliquez sur **Créer**.
-Votre zone sera créée dans votre activité.
-
-## Étape 4 : configuration de la segmentation de l’audience {#step-setting-up-audience-segmentation}
-
-Une fois que vous aurez configuré un magasin de données et défini votre marque, suivez les étapes ci-dessous pour configurer les segments d’audience.
+En attente : pour ajouter des propriétés
 
 1. **Création de segments dans les audiences**
 
@@ -175,11 +145,32 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
    1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
-   1. Saisissez le **Titre** **SheetA1 1** et cliquez sur **Créer**. De la même manière, créez un autre segment intitulé **SheetA2 2**.
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Étape 4 : configuration de la segmentation de l’audience {#step-setting-up-audience-segmentation}
+
+En attente d’ajout d’une modification
+
+Une fois que vous avez configuré un magasin de données et défini votre   (marque et zone), suivez les étapes ci-dessous pour configurer  segments de :
+
+1. **Création de segments dans les audiences**
+
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+
+   1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
+
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **Modification des segments**
 
-   1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
+   1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
    1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
@@ -193,7 +184,7 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   De la même manière, définissez les valeurs des propriétés sur **Sheets A1 2**.
+   Similarly, edit the property values to **TargetValue2**.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
    1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
@@ -205,6 +196,56 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
 
 
+## Étape 5 : Configuration de la marque et de la zone {#setting-brand-area}
+
+Suivez les étapes ci-dessous pour créer une marque dans votre   et dans votre zone sous la marque :
+
+1. **Création d’une marque dans les activités**
+
+   1. Dans votre instance AEM, accédez à **Personnalisation** > **Activités**.
+
+   1. Cliquez sur **Créer** > **Créer une marque**.
+
+   1. Dans l’assistant **Créer une page**, sélectionnez **Marque** et cliquez sur **Suivant**.
+
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Votre marque a été créée, comme illustré ci-dessous.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      Problème connu :
+Pour ajouter une zone, supprimez le gabarit de l’URL, par exemple
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **Création d’une zone dans votre marque**
+
+   Pour créer une zone dans la marque, procédez comme suit :
+
+   1. Cliquez sur **Créer**, puis sur **Créer une zone**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. Sélectionnez **Zone** à partir de l’assistant de **Création de pager****et cliquez sur Suivant**.
+
+   1. Enter the **Title** as **ScreensValue** and click **Create**.
+Une zone sera créée dans votre marque.
+
+## Étape 6 : Configuration du  {#step-setting-up-activity}
+
+Pour créer une zone dans la marque, procédez comme suit :
+
+1. Accédez à **ScreensValue** (créé à l’étape précédente) et cliquez sur **Créer** > **Créer**.
+
+1. L&#39;Assistant **Configurer** s&#39;ouvre. Saisissez le **Titre** comme **targetvaluecheck** et le **Nom** comme **targetvaluecheck.** Sélectionnez le moteur **de ciblage** en tant que **ContextHub (AEM)** dans la liste déroulante et cliquez sur **Suivant**.
+
+1. Cliquez sur Expérience **Ajouter** dans l’Assistant **de** configuration de .
+
+1. Dans le ****, sélectionnez **TargetValue1** et cliquez sur **Ajouter Expérience** et saisissez le **Titreen tant quevalueeckNamevalueeck.**************
+
+1. De la même manière, dans le ****, sélectionnez **TargetValue2** , cliquez sur **Ajouter expérience** et saisissez le **Titreen tant que NomValeurValeursChèque2.**************
+
+1. Click **Next** and then **Save**.
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
