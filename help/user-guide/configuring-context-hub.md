@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ Le diagramme ci-dessous illustre visuellement comment les configurations Context
 
 Avant de commencer à définir les configurations ContextHub d’un projet AEM Screens, vous devez configurer Google Sheets (à des fins de démonstration).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets est utilisé dans l’exemple suivant à titre d’exemple de système de base de données à partir duquel les valeurs sont récupérées et uniquement à des fins pédagogiques. Adobe n’approuve pas l’utilisation de Google Sheets dans des environnements de production.
 >
 >Pour plus d’informations, reportez-vous à la section [Obtenir la clé d’API](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation Google.
-
 
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ La validation suivante est ce que vous  lorsque vous vérifiez votre connexion e
 >[!NOTE]
 > L’exemple spécifique ci-dessous présente les feuilles Google comme un magasin de données qui déclenchera un changement de fichier si la valeur est supérieure à 100 ou inférieure à 50.
 
-## Étape 2 : Connexion des feuilles Google à l’instance AEM {#step-connecting-aem-instance}
+## Étape 2 : Configuration des configurations de stockage {#step-setting-store-configurations}
 
 1. **Accès à ContextHub**
 
@@ -123,7 +122,19 @@ Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous a
 
       >[!CAUTION]
       Si vous créez vos configurations de stockage Google Sheets en dehors du dossier global (par exemple dans votre propre dossier de projet), le ciblage ne fonctionnera pas de manière prête.
-   >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Vous devez par ailleurs ignorer le processus de définition du code json défini ci-dessus.
+
+1. **Configuration de la segmentation du magasin**
+
+   1. Accédez à Configuration du magasin **ContentHub.** et créez une autre configuration de stockage dans le de configuration des écrans et définissez le **Titre** sur **segmentation-contexthub**, le Nom de **magasin** sur **segmentation et le Type demagasin  sur le champ aem.segmentation.**********
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+Vous devez ignorer le processus de définition du fichier json et le laisser vide.
+
+## Étape 3 : Configuration de la marque et de la zone {#setting-brand-area}
 
 1. **Création d’une marque dans les activités**
 
@@ -133,14 +144,15 @@ Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous a
 
    1. Dans l’assistant **Créer une page**, sélectionnez **Marque** et cliquez sur **Suivant**
 
-   1. Saisissez le **Titre** **ContextHubDemo** et cliquez sur **Créer**. Votre marque a été créée, comme illustré ci-dessous.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Votre marque a été créée, comme illustré ci-dessous.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   Problème connu :
-   Pour ajouter une zone, supprimez le gabarit de l’URL, par exemple
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      Problème connu :
+Pour ajouter une zone, supprimez le gabarit de l’URL, par exemple
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Création d’une zone dans votre marque**
 
@@ -153,7 +165,7 @@ Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous a
    1. Saisissez le **Titre** **Google Sheets** et cliquez sur **Créer**.
 Votre zone sera créée dans votre activité.
 
-## Étape 2 : configuration de la segmentation de l’audience {#step-setting-up-audience-segmentation}
+## Étape 4 : configuration de la segmentation de l’audience {#step-setting-up-audience-segmentation}
 
 Une fois que vous aurez configuré un magasin de données et défini votre marque, suivez les étapes ci-dessous pour configurer les segments d’audience.
 
@@ -194,7 +206,7 @@ Une fois que vous aurez configuré un magasin de données et défini votre marqu
 
 
 
-## Étape 3 : activation du ciblage dans les canaux {#step-enabling-targeting-in-channels}
+## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
