@@ -5,7 +5,7 @@ description: Suivez cette page pour savoir comment appliquer une marque et un st
 seo-description: Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Suivez cette page pour savoir comment appliquer une marque et un style personnal
 
 Suivez les étapes ci-dessous pour créer une marque et un style personnalisés pour les incrustations de texte :
 
-1. Créez un projet AEM Screens intitulé **customstyle** et un intitulé **DemoBrand**, comme illustré dans la figure ci-dessous.
+1. Créez un projet AEM Screens. Cet exemple illustre la fonctionnalité en créant un projet nommé **customstyle** et un  intitulé **DemoBrand** , comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Suivez les étapes ci-dessous pour créer une marque et un style personnalisés 
 1. Accédez au fichier *static.css* et définissez les règles CSS suivantes. Comme exemple dans la figure sous les règles CSS.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Suivez les étapes ci-dessous pour créer une marque et un style personnalisés 
 
 1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de conception.
 
+### Mise à jour des listes ACL {#updating-acls}
+
+Vous devez mettre à jour les listes ACL de ces conceptions afin qu’elles puissent être téléchargées par le lecteur.
+
+1. Accédez à useradmin, sélectionnez le fichier `screens-<project>-devices group` et autorisez-le à accéder en lecture au chemin de conception personnalisé.
+
+1. Fournissez des autorisations de lecture et de modification `screens-<project>-administrators` de groupe sur ce chemin d’accès.
 
 ## Affichage du résultat {#viewing-the-result}
 
