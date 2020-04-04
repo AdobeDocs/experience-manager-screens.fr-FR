@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous a
 Vous devez ignorer le processus de définition du fichier json et le laisser vide.
 
 
-## Step 3: Setting Up Audience {#setting-up-audience}
-
-En attente : pour ajouter des propriétés
+## Étape 3 : Configuration de segments dans   de {#setting-up-audience}
 
 1. **Création de segments dans les audiences**
 
@@ -145,58 +143,20 @@ En attente : pour ajouter des propriétés
 
    1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+   1. Enter the **Title** as **Higherthan50** and click **Create**. Similarly, create another segment titled as **Lowerthan50**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Select the segment **Higherthan50** and click **Properties** from the action bar.
+      ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. Sélectionnez l’onglet **Personnalisation** dans Propriétés **du** segment. Définissez **ContextHub Path** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` et **Segments Path** sur `/conf/screens/settings/wcm/segments` et cliquez sur **Save, comme illustré dans la figure ci-dessous.**
 
-## Étape 4 : configuration de la segmentation de l’audience {#step-setting-up-audience-segmentation}
+      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-En attente d’ajout d’une modification
+   1. De même, définissez **ContextHub Path** et **Segments Path** pour le segment inférieur50 **** également.
 
-Une fois que vous avez configuré un magasin de données et défini votre   (marque et zone), suivez les étapes ci-dessous pour configurer  segments de :
-
-1. **Création de segments dans les audiences**
-
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
-
-   1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
-
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **Modification des segments**
-
-   1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
-
-   1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
-   1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
-   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
-
-   1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant.
-
-   1. Saisissez la **valeur** **1**.
-   >[!NOTE]
-   AEM valide alors vos données de la feuille de calcul Google en affichant votre segment en vert.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Similarly, edit the property values to **TargetValue2**.
-
-   1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
-   1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
-   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
-
-   1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant.
-
-   1. Saisissez la **valeur** **2**.
-
-
-
-## Étape 5 : Configuration de la marque et de la zone {#setting-brand-area}
+## Étape 4 : Configuration de la marque et de la zone {#setting-brand-area}
 
 Suivez les étapes ci-dessous pour créer une marque dans votre   et dans votre zone sous la marque :
 
@@ -231,21 +191,64 @@ Pour ajouter une zone, supprimez le gabarit de l’URL, par exemple
    1. Enter the **Title** as **ScreensValue** and click **Create**.
 Une zone sera créée dans votre marque.
 
-## Étape 6 : Configuration du  {#step-setting-up-activity}
+## Étape 5 : Création de segments dans un  {#step-setting-up-audience-segmentation}
 
-Pour créer une zone dans la marque, procédez comme suit :
+Une fois que vous avez configuré un magasin de données et défini votre  de  (marque et zone), suivez les étapes ci-dessous pour créer des segments dans votre  de.
 
-1. Accédez à **ScreensValue** (créé à l’étape précédente) et cliquez sur **Créer** > **Créer**.
+1. **Création de segments dans   de**
 
-1. L&#39;Assistant **Configurer** s&#39;ouvre. Saisissez le **Titre** comme **targetvaluecheck** et le **Nom** comme **targetvaluecheck.** Sélectionnez le moteur **de ciblage** en tant que **ContextHub (AEM)** dans la liste déroulante et cliquez sur **Suivant**.
+   1. Navigate from your AEM instance to **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue**.
 
-1. Cliquez sur Expérience **Ajouter** dans l’Assistant **de** configuration de .
+   1. Click **Create** > **Create Activity.** L&#39;Assistant **Configurer** s&#39;ouvre.
 
-1. Dans le ****, sélectionnez **TargetValue1** et cliquez sur **Ajouter Expérience** et saisissez le **Titreen tant quevalueeckNamevalueeck.**************
+   1. Saisissez le **Titre** comme **ValeurCheck50** et **Nom** **comme ValeurCheck50.** Sélectionnez le moteur **de ciblage** en tant que **ContextHub (AEM)** dans la liste déroulante et cliquez sur **Suivant**.
 
-1. De la même manière, dans le ****, sélectionnez **TargetValue2** , cliquez sur **Ajouter expérience** et saisissez le **Titreen tant que NomValeurValeursChèque2.**************
+      ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. Cliquez sur Expérience **Ajouter** dans l’Assistant **de** configuration de .
+
+   1. Dans le ****, sélectionnez **Plus élevé que50** , cliquez sur **Ajouter expérience** et saisissez le **Titredont le nom est supérieur à50Nomest supérieur à500.************** Cliquez sur **OK**.
+
+   1. Dans le ****, sélectionnez **Moins de 50** et cliquez sur **Ajouter expérience** et saisissez le **Titrecomme inférieur à 50Nomcomme inférieur à 50000000.************** Cliquez sur **OK**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **Le  ValueCheck50** est désormais créé et configuré.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## Étape 5 : Modification des segments {#editing-audience-segmentation}
+
+1. **Modification des segments**
+
+   1. 
+      1. Accédez à **Personnalisation** > **** > **ÉcransMarque** >**Valeur > ValeurValeurValeurNon.******
+   1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+
+   1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
+   1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
+   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
+
+   1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant.
+
+   1. Saisissez la **valeur** **1**.
+   >[!NOTE]
+   AEM valide alors vos données de la feuille de calcul Google en affichant votre segment en vert.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Similarly, edit the property values to **TargetValue2**.
+
+   1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
+   1. Cliquez sur l’icône en forme de clé pour ouvrir la boîte de dialogue **Comparer une propriété une valeur**.
+   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
+
+   1. Sélectionnez l’**Opérateur** **égal** dans le menu déroulant.
+
+   1. Saisissez la **valeur** **2**.
+
+
+
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
