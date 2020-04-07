@@ -5,7 +5,7 @@ description: Suivez cette page pour savoir comment appliquer une marque et un st
 seo-description: Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ Suivez les étapes ci-dessous pour créer une marque et un style personnalisés 
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Accédez au fichier *static.css* et définissez les règles CSS suivantes. Comme exemple dans la figure sous les règles CSS.
+1. Créez le fichier *static.css* et définissez les règles CSS suivantes. Comme exemple dans la figure sous les règles CSS.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ Suivez les étapes ci-dessous pour créer une marque et un style personnalisés 
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de conception.
+
+>[!IMPORTANT]
+> Vous avez la possibilité d’incruster les modèles d’écrans existants pour injecter vos propres conceptions par défaut ou créer votre propre modèle. Reportez-vous aux étapes ci-dessous pour plus de détails.
+
+1. Pour superposer les modèles d’écrans existants afin d’injecter vos propres conceptions par défaut :
+
+   1. Recouvrement `/libs/screens/core/templates/sequencechannel` dans `/apps/screens/core/templates/sequencechannel`.
+   1. Modifiez la propriété *cq:designPath* dans `/apps/screens/core/templates/sequencechannel/jcr:content` pour pointer vers la nouvelle conception.
+
+1. Pour créer leur propre modèle :
+   1. Copiez `/libs/screens/core/templates/sequencechannel` vers `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Modifiez la propriété *cq:designPath* dans `/apps/customstyle/templates/styled-sequencechannel/jcr:content` pour pointer vers la nouvelle conception.
+
 
 ### Mise à jour des listes ACL {#updating-acls}
 
