@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -150,7 +150,7 @@ Vous devez ignorer le processus de définition du fichier json et le laisser vid
    1. Select the segment **Higherthan50** and click **Properties** from the action bar.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Sélectionnez l’onglet **Personnalisation** dans Propriétés **du** segment. Définissez **ContextHub Path** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` et **Segments Path** sur `/conf/screens/settings/wcm/segments` et cliquez sur **Save, comme illustré dans la figure ci-dessous.**
+   1. Sélectionnez l’onglet **Personnalisation** dans Propriétés **du** segment. Définissez **ContextHub Path** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et **Segments Path** sur `/conf/screens/settings/wcm/segments` et cliquez sur **Save, comme illustré dans la figure ci-dessous.**
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -239,11 +239,11 @@ La **feuille de calcul/value/1/0** fait référence à la ligne 2 et à la colon
    1. Select the **Operator** as **greater-than** from the drop-down menu.
 
    1. Saisissez la **valeur** **70**.
-   >[!NOTE]
-   AEM valide alors vos données de la feuille de calcul Google en affichant votre segment en vert.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM valide alors vos données de la feuille de calcul Google en affichant votre segment en vert.
 
+      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    De même, modifiez les valeurs de propriété sur **Lower50**.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
@@ -262,11 +262,11 @@ La **feuille de calcul/value/1/0** fait référence à la ligne 2 et à la colon
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
-1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** créé dans un canal AEM Screens.
+1. Accédez à l’un des canaux AEM Screens. The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens Channel.
 
-1. Sélectionnez le canal **DataDrivenRetail** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Select the channel **TargetChannel** and click **Properties** from the action bar.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
@@ -275,20 +275,18 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
    1. Sélectionnez le **chemin d’accès aux segments** **conf** > **We.Retail** > **settings** > **wcm** > **segments** et cliquez sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
-   >[!NOTE]
-   Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
 
-1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions.
+      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+   1. Navigate and select the **TargetChannel** channel and click **Edit** from the action bar.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
-   >[!NOTE]
-   Une fois que vous avez défini les configurations ContextHub pour votre canal, veillez à respecter les étapes 1 à 4 précédentes pour les trois autres canaux de séquence si vous souhaitez suivre tous les cas d’utilisation ci-dessous.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## En savoir plus : exemples de cas d’utilisation {#learn-more-example-use-cases}
 
