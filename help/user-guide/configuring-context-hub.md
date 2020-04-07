@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -231,13 +231,18 @@ Une fois que vous avez configuré un magasin de données et défini votre  de  (
 
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
 
+      >[!NOTE]
+La **feuille de calcul/value/1/0** fait référence à la ligne 2 et à la colonne comme renseignée dans les feuilles de calcul dans la figure ci-dessous :
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Select the **Operator** as **greater-than** from the drop-down menu.
 
-   1. Saisissez la **valeur** **50**.
+   1. Saisissez la **valeur** **70**.
    >[!NOTE]
    AEM valide alors vos données de la feuille de calcul Google en affichant votre segment en vert.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    De même, modifiez les valeurs de propriété sur **Lower50**.
 
