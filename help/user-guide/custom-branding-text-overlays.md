@@ -5,7 +5,7 @@ description: Suivez cette page pour savoir comment appliquer une marque et un st
 seo-description: Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -85,7 +85,7 @@ Suivez les étapes ci-dessous pour créer une marque et un style personnalisés 
    1. Recouvrement `/libs/screens/core/templates/sequencechannel` dans `/apps/screens/core/templates/sequencechannel`.
    1. Modifiez la propriété *cq:designPath* dans `/apps/screens/core/templates/sequencechannel/jcr:content` pour pointer vers la nouvelle conception.
 
-1. Pour créer leur propre modèle :
+1. Pour créer votre propre modèle :
    1. Copiez `/libs/screens/core/templates/sequencechannel` vers `/apps/customstyle/templates/styled-sequencechannel`.
    1. Modifiez la propriété *cq:designPath* dans `/apps/customstyle/templates/styled-sequencechannel/jcr:content` pour pointer vers la nouvelle conception.
 
