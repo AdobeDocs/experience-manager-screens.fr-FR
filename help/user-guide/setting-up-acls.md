@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 La section suivante explique comment séparer les projets à l’aide des listes de contrôle d’accès de sorte que chacune des personnes ou équipes gère son propre projet.
 
-En tant qu’administrateur d’AEM, vous devez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chaque utilisateur est affecté à des rôles spécifiques en fonction des exigences du projet.
+En tant qu’administrateur AEM, vous souhaitez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chacun des utilisateurs se voit attribuer des rôles spécifiques en fonction des exigences du projet.
 
 ## Configuration des autorisations    {#setting-up-permissions}
 
 Les étapes suivantes résument le processus de configuration de listes de contrôle d’accès pour un projet :
 
-1. Connectez-vous à AEM et accédez à **Outils** &gt; **Sécurité**.
+1. Connectez-vous à AEM et accédez à **Outils** > **Sécurité**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -131,7 +131,7 @@ Le tableau suivant récapitule les groupes avec une description et les autorisat
     </ul> </td>
   </tr>
   <tr>
-   <td>Lecteurs Screens<br /> <em>screens-we-retail-devices</em></td>
+   <td>Lecteurs<br /> d’écran <em>écrans-&lt;projet&gt;-périphériques</em></td>
    <td>Les groupes contenant tous les lecteurs et tous les lecteurs/périphériques sont automatiquement membres des contributeurs.</td>
    <td><p> Membre des contributeurs</p> </td>
   </tr>
