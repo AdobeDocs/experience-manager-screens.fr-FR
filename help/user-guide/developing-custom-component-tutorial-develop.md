@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
@@ -29,7 +29,7 @@ Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce 
 
 Pour terminer ce tutoriel, vous devez :
 
-1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
+1. [AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes.html ) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
 
 1. [Lecteur AEM Screens](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Environnement de développement local
@@ -442,11 +442,11 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 
 ## Modèle pour les gestionnaires personnalisés {#custom-handlers}
 
-Si votre composant personnalisé utilise des ressources externes telles que des ressources (images, vidéos, polices, icônes, etc.), des rendus de ressources spécifiques ou des bibliothèques côté client (css, js, etc.), celles-ci ne sont pas automatiquement ajoutées à la configuration hors ligne, car nous assemblons uniquement le balisage HTML par défaut.
+Si votre composant personnalisé utilise des actifs externes, notamment des ressources (images, vidéos, polices, icônes, etc.), des rendus de ressources spécifiques ou des bibliothèques côté client (css, js, etc.), ils ne sont pas automatiquement ajoutés à la configuration hors ligne, car nous n’assemblons que le balisage HTML par défaut.
 
-Afin de vous permettre de personnaliser et d’optimiser les ressources exactes téléchargées sur le lecteur, nous  un mécanisme d’extension pour les composants personnalisés afin d’exposer leurs dépendances à la logique de mise en cache hors ligne dans les écrans.
+Pour vous permettre de personnaliser et d’optimiser les ressources exactes téléchargées dans le lecteur, nous mettons à votre disposition un mécanisme d’extension pour les composants personnalisés afin qu’ils indiquent leurs dépendances à la logique de mise en cache hors ligne de Screens.
 
-The section below showcases the template for custom offline resource handlers and the minimum requirements in the `pom.xml` for that specific project.
+La section ci-dessous présente le modèle des gestionnaires personnalisés de ressources hors ligne et les exigences minimales du fichier `pom.xml` pour ce projet spécifique.
 
 ```java
 package …;
@@ -511,7 +511,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 }
 ```
 
-The following code provides the minimum requirements in the `pom.xml` for that specific project:
+Le code ci-dessous indique les exigences minimales du fichier `pom.xml` pour ce projet spécifique :
 
 ```css
    <dependencies>
@@ -539,7 +539,7 @@ The following code provides the minimum requirements in the `pom.xml` for that s
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=fre_fr)
 
 ## Code terminé {#finished-code}
 
