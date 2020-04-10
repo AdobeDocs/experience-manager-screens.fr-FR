@@ -3,7 +3,7 @@ title: À propos de ce guide
 seo-title: Description du guide
 description: Cette page décrit l’objectif du guide des bonnes pratiques
 seo-description: Cette page décrit l’objectif du guide des bonnes pratiques
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
