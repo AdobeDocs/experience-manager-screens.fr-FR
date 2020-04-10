@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
@@ -44,7 +44,7 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions
 
    Ou,
 
@@ -88,15 +88,15 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
 1. Cliquez sur **Enregistrer** pour attribuer le canal créé à un affichage.
 
-### Créneaux horaires      {#dayparting}
+### Tranches horaires  {#dayparting}
 
-Lorsqu’ils sont combinés avec des **tranches horaires** les planifications permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
+Lorsqu’ils sont combinés avec des **tranches horaires**, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
 Les créneaux horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de créneaux horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
 Les exemples suivants présentent les créneaux horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs créneaux horaires      {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Cet exemple illustre la façon dont un restaurant utilise les créneaux horaires pour afficher le menu du petit-déjeuner, du déjeuner et du dîner.
 
@@ -150,7 +150,7 @@ Vous allez créer des créneaux horaires selon les mois, de sorte que le contenu
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
-#### Diffusion de contenu pour les canaux ayant la même priorité      {#playing-content-for-channels-with-same-priority}
+#### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
 
 Cet exemple présente les créneaux horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
