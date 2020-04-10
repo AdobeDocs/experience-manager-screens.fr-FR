@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
@@ -32,11 +32,11 @@ Le workflow du processus est le suivant :
 1. Télécharger le zip et l’extraire localement
 1. Afficher une copie locale du contenu
 
-## Mettre à jour les gestionnaires    {#update-handlers}
+## Gestionnaires de mise à jour  {#update-handlers}
 
 ***ContentSync*** utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique. AEM Screens utilise les gestionnaires de mise à jour suivants :
 
-### Options communes    {#common-options}
+### Options communes  {#common-options}
 
 * *type* : type de gestionnaire de mise à jour à utiliser
 * *path* : chemin d’accès à la ressource
@@ -52,12 +52,12 @@ Le workflow du processus est le suivant :
   <tr>
    <td>channels</td> 
    <td>collecte un canal</td> 
-   <td>extension : extension de la ressource à collecter<br /> [pathSuffix='''] : suffixe à ajouter au chemin du canal<br /> </td> 
+   <td>extension : extension de la ressource à collecter<br /> [pathSuffix=''] : suffixe à ajouter au chemin du canal<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
    <td>collecte la bibliothèque cliente spécifiée</td> 
-   <td>[extension='''] : peut être soit css, soit js, pour collecter uniquement la première, soit la seconde</td> 
+   <td>[extension=''] : peut être soit css, soit js, pour collecter uniquement la première, soit la seconde</td> 
   </tr>
   <tr>
    <td>assetrenditions</td> 
@@ -85,7 +85,7 @@ Suivez les étapes ci-dessous pour tester la configuration de ContentSync :
 1. Démarrer un serveur local dans le dossier extrait
 1. Ouvrir la page de démarrage et vérifier l’état de l’application
 
-## Activation de la configuration hors ligne d’un canal    {#enabling-offline-config-for-a-channel}
+## Activation de la configuration hors ligne d’un canal  {#enabling-offline-config-for-a-channel}
 
 Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un canal :
 
@@ -114,4 +114,4 @@ Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un ca
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
-> Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales `pom.xml` pour ce projet spécifique, reportez-vous à la section [Modèle pour gestionnaires](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personnalisés dans **Développement d’un composant personnalisé pour les écrans** AEM.
+> Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales relatives au fichier `pom.xml` pour ce projet spécifique, voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) dans **Développement d’un composant personnalisé pour AEM Screens**.
