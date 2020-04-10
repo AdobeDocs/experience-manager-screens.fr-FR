@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
@@ -74,6 +74,6 @@ Reportez-vous aux tutoriels et aux ressources ci-dessous pour vous familiariser 
 
    Suivez le parcours d’apprentissage guidé **[Principes d’implémentation guidée AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans AEM Screens.
 
-* **Guide des meilleures pratiques pour les projets AEM Screens**
+* **Guide des bonnes pratiques pour les projets AEM Screens**
 
-   Suivez le Guide des **[meilleures pratiques pour les projets](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**AEM Screens conçus pour identifier les pièges courants lors de la mise en oeuvre d’un projet AEM Screens. Le document se concentre principalement sur les rôles et responsabilités du projet, le graphique RACI pour les différents rôles des configurations de plateformes AEM et le support et la surveillance.
+   Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations de plates-formes AEM, ainsi que l’assistance et la surveillance.
