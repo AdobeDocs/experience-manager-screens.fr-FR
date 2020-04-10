@@ -10,7 +10,7 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
@@ -34,7 +34,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
-1. Navigate to the **Device** **Registration** link from the left action menu to check the status of the device registration process.
+1. Accédez au lien **Device** **Registration** (Enregistrement de l’appareil) depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
 1. Recherchez le fichier de configuration sous ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Mettez à jour le fichier JSON de configuration en utilisant les informations ci-dessous, puis copiez le même dossier sur tous les systèmes où réside le lecteur.
 
-### Attributs de règle    {#policy-attributes}
+### Attributs de règle  {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
@@ -73,7 +73,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false lorsqu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règles    {#example-policy-json-file}
+#### Exemple de fichier JSON de règles  {#example-policy-json-file}
 
 ```
 {
@@ -102,7 +102,7 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 1. Activez Shell Launcher.
 
-   Pour plus d’informations, reportez-vous à la section ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**par l’assistance Microsoft Windows.
+   Pour plus d’informations, reportez-vous à la section ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**de l’assistance Microsoft Windows.
 
 1. Créez un utilisateur non administratif (si vous n’en avez pas déjà) à utiliser pour Kiosque. Il peut s’agir d’un utilisateur local ou de domaine.
 1. Installez le lecteur Windows pour cet utilisateur Kiosque à partir de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
@@ -119,7 +119,7 @@ Si vous obtenez un écran noir lorsque vous vous connectez en tant qu’utilisat
 
 Le chemin d’installation par défaut du lecteur Windows est le suivant :
 
-***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;votre utilisateur>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 L’exemple de script dans les liens active et désactive le shell personnalisé. Vous devrez donc peut-être diviser le script en deux et activer/désactiver les lignes applicables ci-dessous :
 
