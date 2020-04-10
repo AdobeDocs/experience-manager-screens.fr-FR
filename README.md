@@ -1,11 +1,11 @@
 ---
 source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Documentation d’Adobe Experience Manager Screens
+# Documentation d’Adobe Experience Manager Screens
 
-Il s’agit du référentiel de la documentation d’Adobe Experience Manager Screens.
+Il s’agit du référentiel relatif à la documentation d’Adobe Experience Manager Screens.
 
 Vos contributions à la documentation sont les bienvenues. Veuillez consulter les ressources suivantes :
 
