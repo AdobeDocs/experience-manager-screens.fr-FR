@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 ---
 
@@ -41,13 +41,13 @@ Cette section explique uniquement comment utiliser et exploiter le composant pos
 
 La section ci-dessous décrit l’utilisation de la superposition de texte dans un projet AEM Screens.
 
-### Conditions préalables {#prerequisites}
+**Conditions préalables**
 
 Avant de commencer à implémenter cette fonctionnalité, assurez-vous d’avoir configuré un projet, condition préalable pour commencer à implémenter la superposition de texte. Par exemple :
 
 * Créez un projet AEM Screens (dans cet exemple, **TextOverlayDemo**)
 
-* Créez un canal appelé **TextSample** sous le dossier **Channels** (Canaux)
+* Create a sequence channel titled as **TextSample** under **Channels** folder
 
 * Ajoutez du contenu à votre canal **TextSample**
 
@@ -55,7 +55,9 @@ L’image suivante montre le projet **TextOverlayDemo** avec le canal **TextSamp
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
-1. Accédez à **TextOverlayDemo** —&gt; **Canaux** —&gt; **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+Pour utiliser l’incrustation de texte dans un AEM Screens, procédez comme suit :
+
+1. Accédez à **TextOverlayDemo** —> **Canaux** —> **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -82,4 +84,78 @@ Vous pouvez ajouter du texte à la zone de texte et utiliser des styles typograp
 >[!NOTE]
 >
 >Pour utiliser correctement les outils d’ajustement précis, veillez à identifier la position correcte en pixels en utilisant (px) comme suffixe, par exemple 200 px. Le résultat de cette expression sera de 200 pixels à partir du point de départ.
+
+## Utilisation des valeurs ContextHub dans l’incrustation de texte {#using-text-overlay-context-hub}
+
+La section suivante décrit l’utilisation des valeurs d’un magasin de données, par exemple, les feuilles Google dans le composant d’incrustation de texte.
+
+**Conditions préalables**
+
+Vous devez configurer des configurations ContextHub pour votre projet AEM Screens.
+
+Pour savoir comment configurer et gérer les modifications de ressources gérées par les données à l’aide d’un magasin de données, reportez-vous à la section [Configuration de ContextHub dans AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+
+Une fois que vous avez configuré les configurations requises pour votre projet, suivez les étapes ci-dessous pour utiliser les valeurs des feuilles Google :
+
+1. Accédez à **TextOverlayDemo** —> **** —> **TextSample** et cliquez sur **Properties dans la barre d’actions.**
+
+1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
+
+   1. Sélectionnez le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
+
+   1. Select the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and click **Select**.
+
+   1. Cliquez sur **Enregistrer et fermer**.
+
+      >[!NOTE]
+      >
+      >Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
+
+      ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+
+1. Accédez à **TextOverlayDemo** —> **Canaux** —> **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+
+1. Ajouter un composant d’image et d’incrustation de texte à votre image, comme décrit dans la section **Utilisation de l’incrustation** de texte de cette page.
+
+1. Cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue **Image** .
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+
+1. Accédez à l’onglet **ContextHub** depuis la boîte de dialogue **Image** . Cliquez sur **Ajouter**.
+
+   >[!NOTE]
+   >Si vous n’avez pas configuré vos configurations ContextHub, cette option sera désactivée pour votre projet.
+
+1. Saisissez **Value** dans le champ **Espace réservé** , sélectionnez la ligne à utiliser dans la feuille Google dans la variable **** ContextHub (dans ce cas, la valeur est récupérée de la ligne 2 et de la colonne 1 des feuilles Google), puis saisissez la valeur par **défaut 20, comme illustré dans la figure ci-dessous.****** Une fois que vous avez terminé, cliquez sur la coche.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+
+   >[!NOTE]
+   >À titre de référence, l’image suivante présente la valeur récupérée des feuilles de google :
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+
+1. Accédez à l’onglet **Incrustation** de texte à partir de la boîte de dialogue Image et ajoutez le texte *Température actuelle {Valeur}*, comme illustré dans la figure ci-dessous.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+
+1. Cliquez sur **de** pour  la sortie souhaitée.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
