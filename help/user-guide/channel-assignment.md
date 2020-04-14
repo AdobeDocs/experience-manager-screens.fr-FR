@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
+   Vous pouvez comprendre et configurer les propriétés à partir de la boîte de dialogue Affectation **** de à partir de la section ci-dessous.
 
-### Présentation des propriétés  du {#channel-properties}
+### Compréhension des propriétés  du à partir de l&#39;affectation  du {#channel-properties}
 
 #### Reference Channel {#ref-channel}
 
@@ -84,14 +84,17 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 #### Méthode d’interruption {#interruption-method-channel}
 
+>[IMPORTANT]
+> Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+
 En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, mais que vous ayez la possibilité de laisser le contenu important lire intégralement avant de couper la lecture en raison de la planification.
 Les options suivantes permettent de définir la méthode d’interruption à partir de la boîte de dialogue Affectation **** :
 
-* **Immédiatement**: chaque fois que la planification est activée ou qu’une mise à jour est reçue, nous coupons la lecture et actualisons ou lisons immédiatement le nouveau contenu.
-* **À la fin du point** en cours : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, nous attendons la fin de la lecture de l’élément en cours dans la séquence, et ce n’est qu’après l’actualisation ou la lecture du nouveau contenu.
+* **Immédiatement**: chaque fois que la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et actualiser immédiatement ou lire le nouveau contenu.
+* **À la fin du point** en cours : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre la fin de la lecture de l’élément en cours dans la séquence, et ce n’est qu’après l’actualisation ou la lecture du nouveau contenu.
    >[!NOTE]
    >Il s’agit de l’option par défaut sélectionnée.
-* **A la fin de la séquence**: lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, nous attendons que la séquence entière atteigne sa fin. Juste avant de revenir au premier élément, nous actualisons ou lisons le nouveau contenu
+* **A la fin de la séquence**: lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre que la séquence entière atteigne sa fin. Juste avant la séquence souhaitée, vous retournez en boucle sur le premier élément, vous actualisez ou lisez le nouveau contenu.
 
 #### Planification {#schedule-channel}
 
