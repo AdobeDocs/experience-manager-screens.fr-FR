@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: ht
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+translation-type: tm+mt
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -50,43 +50,57 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    Appuyez/cliquez sur **Tableau de bord** et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution des canaux**.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Vous pouvez configurer les propriétés suivantes dans la boîte de dialogue **Attribution des canaux** :
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **Rôle du canal** :
+### Présentation des propriétés  du {#channel-properties}
 
-   Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
+#### Reference Channel {#ref-channel}
 
-   **Canal de référence** :
+Le canal de référence vous permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
 
-   Le canal de référence vous permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
+* **Par chemin** : vous fournissez une référence explicite à l’aide du chemin absolu du canal.
 
-   * **Par chemin** : vous fournissez une référence explicite à l’aide du chemin absolu du canal.
-   * **Par nom** : vous saisissez le nom du canal, qui désignera un canal réel en fonction du contexte. Cette fonction vous permet de créer la version locale d’un canal pour diffuser dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
-   **Priorité :**
+* **Par nom** : vous saisissez le nom du canal, qui désignera un canal réel en fonction du contexte. Cette fonction vous permet de créer la version locale d’un canal pour diffuser dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
 
-   La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
+#### Rôle du canal {#role-channel}
 
-   La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité décroissante.
+Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
 
-   **Événements pris en charge** :
+#### Priorité {#priority-channel}
 
-   * **Chargement initial** : charge le canal lorsque le lecteur démarre. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
-   * **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
-   * **Minuteur** : il doit être défini lorsqu’une planification est fournie.
-   * **Interaction de l’utilisateur** : le lecteur passera au canal spécifié s’il existe une interaction de l’utilisateur sur l’écran (tactile) dans un canal inactif et se chargera en cas de pression sur l’écran.
-   **Planification** :
+La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
 
-   La planification vous permet de fournir une description textuelle lorsque le canal doit apparaître. Elle vous permet également de définir une date de début (**Actif à partir de**) et une date de fin (**Actif jusqu’à**) pour l’affichage du canal. La syntaxe de l’expression de planification est basée sur le texte de later.js et la syntaxe cron :
+>[!NOTE]
+>La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité décroissante.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **Afficher l’info-bulle d’attraction** :
+#### Événements pris en charge {#supported-events-channel}
 
-   Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction (« *Appuyez n’importe où pour commencer* ») doit être affichée ou non lorsque le canal est en cours d’exécution.
+* **Chargement initial** : charge le canal lorsque le lecteur démarre. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
+* **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
+* **Minuteur** : il doit être défini lorsqu’une planification est fournie.
+* **Interaction de l’utilisateur** : le lecteur passera au canal spécifié s’il existe une interaction de l’utilisateur sur l’écran (tactile) dans un canal inactif et se chargera en cas de pression sur l’écran.
 
-1. Cliquez sur **Enregistrer** pour attribuer le canal créé à un affichage.
+#### Méthode d’interruption {#interruption-method-channel}
+
+En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, mais que vous ayez la possibilité de laisser le contenu important lire intégralement avant de couper la lecture en raison de la planification.
+Les options suivantes permettent de définir la méthode d’interruption à partir de la boîte de dialogue Affectation **** :
+
+* **Immédiatement**: chaque fois que la planification est activée ou qu’une mise à jour est reçue, nous coupons la lecture et actualisons ou lisons immédiatement le nouveau contenu.
+* **À la fin du point** en cours : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, nous attendons la fin de la lecture de l’élément en cours dans la séquence, et ce n’est qu’après l’actualisation ou la lecture du nouveau contenu.
+   >[!NOTE]
+   >Il s’agit de l’option par défaut sélectionnée.
+* **A la fin de la séquence**: lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, nous attendons que la séquence entière atteigne sa fin. Juste avant de revenir au premier élément, nous actualisons ou lisons le nouveau contenu
+
+#### Planification {#schedule-channel}
+
+La planification vous permet de fournir une description textuelle lorsque le canal doit apparaître. Elle vous permet également de définir une date de début (**Actif à partir de**) et une date de fin (**Actif jusqu’à**) pour l’affichage du canal.
+
+**Afficher l’info-bulle d’attraction** :
+
+Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction (« *Appuyez n’importe où pour commencer* ») doit être affichée ou non lorsque le canal est en cours d’exécution.
+
 
 ### Tranches horaires  {#dayparting}
 
@@ -158,4 +172,10 @@ Cet exemple présente les créneaux horaires d’un magasin qui affiche sa colle
 |---|---|---|---|
 | A | Hiver | 1 | 1er décembre 2017 - 31 décembre 2017 |
 | B | Noël | 2 | 24 décembre 2017 - 31 décembre 2017 |
+
+>[!IMPORTANT]
+> Pour en savoir plus sur la division du jour, consultez les sections ci-dessous :
+>* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
