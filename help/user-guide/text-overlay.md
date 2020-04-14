@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
+source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 
 ---
 
@@ -22,8 +22,8 @@ Cette section couvre les sujets suivants :
 
 * **Présentation**
 * **Utilisation de la superposition de texte**
-* **Conditions préalables**
 * **Présentation des propriétés de superposition de texte**
+* **Utilisation des valeurs ContextHub dans l’incrustation de texte**
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ Une fois que vous avez configuré les configurations requises pour votre projet,
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Ajouter un composant d’image et d’incrustation de texte à votre image, comme décrit dans la section **Utilisation de l’incrustation** de texte de cette page.
+1. Ajouter un composant d’image et d’incrustation de texte à votre image, comme décrit dans la section [Utilisation de l’incrustation](/help/user-guide/text-overlay.md#using-text-overlay) de texte de cette page.
 
 1. Cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue **Image** .
 
