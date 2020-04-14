@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -52,20 +52,20 @@ Avant de commencer à définir les configurations ContextHub d’un projet AEM 
 
 Vous pouvez configurer l’entrepôt de données en tant qu’événement d’E/S local ou d’événement de base de données local.
 
-L’exemple de déclencheurs de données au niveau des ressources suivant montre un de base de données local qui configure un magasin de données, tel qu’une feuille Excel qui vous permet d’utiliser les configurations ContextHub et le chemin d’accès aux segments vers le AEM Screens .
+L’exemple suivant concerne les déclencheurs de données au niveau des ressources. Il montre comment un événement de base de données local configure un magasin de données, tel qu’une feuille Excel, en utilisant les configurations ContextHub et le chemin d’accès aux segments vers le canal AEM Screens.
 
-Une fois la feuille google configurée correctement, par exemple, comme illustré ci-dessous :
+Vous devez avoir configuré correctement la feuille de calcul Google, par exemple comme illustré ci-dessous :
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-La validation suivante est ce que vous  lorsque vous vérifiez votre connexion en saisissant les deux valeurs, ID *de feuille* Google et clé ** API, au format ci-dessous :
+La validation suivante correspond à ce que vous verrez si vous vérifiez votre connexion en saisissant les deux valeurs *ID de feuille de calcul Google* et *clé API*, au format indiqué ci-dessous :
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> L’exemple spécifique ci-dessous présente les feuilles Google comme un magasin de données qui déclenchera un changement de fichier si la valeur est supérieure à 100 ou inférieure à 50.
+> L’exemple spécifique ci-dessous présente les feuilles de calcul Google comme un magasin de données chargé de déclencher un changement de ressource si la valeur est supérieure à 100 ou inférieure à 50.
 
 ## Étape 2 : Configuration des configurations de stockage {#step-setting-store-configurations}
 
@@ -77,28 +77,28 @@ La validation suivante est ce que vous  lorsque vous vérifiez votre connexion e
 
 1. **Création d’une configuration de magasin ContextHub**
 
-   1. Accédez au de configuration  intitulé **écrans**.
+   1. Accédez au conteneur de configuration intitulé **screens**.
 
-   1. Click **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
+   1. Cliquez sur **Créer** > **Créer un conteneur de configuration** et saisissez le titre **ContextHubDemo**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Accédez** à **ContextHubDemo** > **Créer** une configuration **** ContentHub et cliquez sur Enregistrer.****
+   1. **Accédez** à **ContextHubDemo** > **Créer** **Configuration ContentHub**, puis cliquez sur **Enregistrer**.
 
       >[!NOTE]
-      > Une fois que vous avez cliqué sur **Enregistrer** , vous vous trouvez dans l’écran de configuration **de** ContextHub.
+      > Après avoir cliqué sur **Enregistrer**, vous vous trouvez dans l’écran **Configuration ContextHub**.
 
-   1. Dans l’écran Configuration **de** ContextHub, cliquez sur **Créer** > Configuration de la boutique **ContentHub.**
+   1. Dans l’écran **Configuration ContextHub**, cliquez sur **Créer** > **Configuration de magasin ContextHub**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp** and click **Next**.
+   1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Entrez votre configuration json spécifique. Par exemple, vous pouvez utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer** . La configuration du magasin s’affichera sous le nom de feuilles **** Google dans la configuration ContextHub.
+   1. Entrez votre configuration json spécifique. Vous pouvez par exemple utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer**. La configuration du magasin s’affichera avec le nom **Google Sheets** dans la configuration ContextHub.
 
       >[!IMPORTANT]
-      >Make sure to replace the code with your *&lt;Sheet ID>* and *&lt;API Key>*, that you fetched while setting up the Google Sheets.
+      >Veillez à remplacer le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
       ```
        {
@@ -121,7 +121,7 @@ La validation suivante est ce que vous  lorsque vous vérifiez votre connexion e
 Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
       >[!CAUTION]
-      Si vous créez vos configurations de stockage Google Sheets en dehors du dossier global (par exemple dans votre propre dossier de projet), le ciblage ne fonctionnera pas de manière prête.
+      Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
 
 1. **Configuration de la segmentation du magasin**
 
@@ -139,7 +139,7 @@ Vous devez ignorer le processus de définition du fichier json et le laisser vid
 
 1. **Création de segments dans les audiences**
 
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+   1. Dans votre instance AEM, accédez à **Personnalisation** > **Audiences** > **screens**.
 
    1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
@@ -221,7 +221,7 @@ Une fois que vous avez configuré un magasin de données et défini votre  de  (
 
 1. **Modification des segments**
 
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+   1. Dans votre instance AEM, accédez à **Personnalisation** > **Audiences** > **screens**.
 
    1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 
@@ -270,9 +270,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
-   1. Sélectionnez le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
-
-   1. Sélectionnez le **chemin d’accès aux segments** **conf** > **We.Retail** > **settings** > **wcm** > **segments** et cliquez sur **Sélectionner**.
+   1. Définissez le chemin **ContextHub** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et **Segments Path** sur `/conf/screens/settings/wcm/segments` et cliquez sur **Enregistrer.**
 
    1. Cliquez sur **Enregistrer et fermer**.
 
