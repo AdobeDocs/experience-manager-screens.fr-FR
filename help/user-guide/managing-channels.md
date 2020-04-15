@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -60,7 +60,7 @@ Les options de modèles suivantes sont disponibles avec l’assistant :
 >
 >Les canaux d’écran partagé divisent l’affichage en plusieurs zones, ce qui permet de lire plusieurs expériences simultanément, côte à côte. Les expériences peuvent être des ressources/du texte statiques ou des séquences incorporées.
 
-L’exemple suivant illustre la création d’un canal de séquence (*ChannelOne*) pour un projet Screens (*DemoProject*).
+The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -68,9 +68,8 @@ L’exemple suivant illustre la création d’un canal de séquence (*ChannelOne
 >
 >Vous pouvez créer différentes zones à l’aide des options de modèle, telles que les canaux d’écran partagé 1x2, 2x2 ou 2x3 mentionnés ci-dessus.
 
-***Important***:
-
-Une fois que vous avez créé et ajouté du contenu au canal, l’étape suivante consiste à créer un emplacement et ensuite un affichage. En outre, vous devez attribuer ce canal à un affichage. Consultez les ressources ci-dessous à la fin de la section pour en savoir plus.
+>[!IMPORTANT]
+> Une fois que vous avez créé et ajouté du contenu au canal, l’étape suivante consiste à créer un emplacement et ensuite un affichage. En outre, vous devez attribuer ce canal à un affichage. Consultez les ressources ci-dessous à la fin de la section pour en savoir plus.
 
 ## Utilisation des canaux {#working-with-channels}
 
@@ -78,7 +77,7 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 
 >[!NOTE]
 >
->Cliquez sur l’icône située à gauche pour sélectionner un élément. Par exemple, cliquez sur l’icône du canal et effectuez les actions suivantes, comme illustré dans la figure ci-dessous.
+>Sélectionnez le  de, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,16 +85,18 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 
 Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes ci-dessous :
 
-1. Cliquez sur le canal à modifier (comme illustré ci-dessus).
+1. Sélectionnez le à modifier (comme illustré dans la figure ci-dessus).
 1. Cliquez sur **Modifier** dans l’angle supérieur gauche de la barre d’actions pour modifier les propriétés du canal. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
 
 >[!NOTE]
 >
->Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour en savoir plus.
+>Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)**pour en savoir plus.
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Téléchargement de vidéos dans le canal** Suivez les étapes ci-dessous pour télécharger des vidéos dans votre canal :
+**Transfert de vidéos vers le canal**
+
+Suivez les étapes ci-dessous pour transférer des vidéos vers votre canal :
 
 1. Sélectionnez le canal vers lequel transférer la vidéo.
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
@@ -118,8 +119,8 @@ Pour afficher ou modifier les propriétés d’un canal, suivez les étapes ci-d
 
 Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
 
-1. Cliquez sur le canal à modifier.
-1. Cliquez sur **Afficher le tableau de bord** dans la barre d’actions pour afficher le tableau de bord. Les panneaux **INFORMATIONS SUR LE CANAL**, **AFFICHAGES ATTRIBUÉS** et  :**LANCEMENTS EN ATTENTE** s’ouvrent, comme illustré ci-dessous
+1. Sélectionnez le à modifier.
+1. Click **Dashboard** from the action bar to view the dashboard. Les panneaux **INFORMATIONS SUR LE CANAL**, **AFFICHAGES ATTRIBUÉS** et  :**LANCEMENTS EN ATTENTE** s’ouvrent, comme illustré ci-dessous
 
 ![Tableau de bord](assets/dashboard.gif)
 
@@ -127,7 +128,7 @@ Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
 
 Le panneau Informations sur le canal fournit une description des propriétés ainsi qu’un aperçu du canal. Il vous permet également de voir si le canal est en ligne ou hors ligne.
 
-Cliquez sur l’icône (**...**) dans la barre d’actions **Informations sur le canal** pour afficher les propriétés, modifier le contenu ou mettre à jour la mémoire cache (contenu hors ligne) du canal.
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -143,13 +144,13 @@ Un ***canal en ligne*** affiche le contenu mis à jour dans l’environnement en
 
 Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
-1. Accédez au canal en sélectionnant **TestProject** &gt; **Canaux** &gt; **TestChannel**.
+1. Accédez au canal en sélectionnant **TestProject** > **Canaux** > **TestChannel**.
 
    Sélectionnez le canal.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le statut du lecteur. Le panneau **INFORMATIONS SUR LE CANAL** indique si le canal est en ligne ou hors ligne.
+   Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le statut du lecteur. Le panneau **INFORMATIONS SUR LES CANAUX** indique si le canal est en ligne ou hors ligne.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
