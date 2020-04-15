@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -96,6 +96,9 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
    >[!NOTE]
    >Cette option est sélectionnée par défaut.
 * **A la fin de la séquence**: lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre que la séquence entière atteigne sa fin. Juste avant la séquence souhaitée, vous retournez en boucle sur le premier élément, vous actualisez ou lisez le nouveau contenu.
+
+   >[!NOTE]
+   >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies sur l’affectation, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
 #### Planification {#schedule-channel}
 
