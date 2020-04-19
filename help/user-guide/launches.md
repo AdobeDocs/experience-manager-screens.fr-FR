@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -77,27 +77,30 @@ Suivez la section ci-dessous pour implémenter les lancements dans votre projet 
 1. **Création d’un lancement d’écran**
 1. **Modification d’un lancement d’écran pour définir la date et l’étendue d’activation**
 
-### Création d’une publication future {#creating-a-launch}
+### Creating a Screens Launch {#creating-a-launch}
 
 Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancements dans votre projet AEM Screens :
 
-1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
+1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
    >Vous devez créer un lancement à partir d’un canal préexistant dans votre projet AEM Screens.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![Image](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez soit sélectionner le  de déjà visible dans l’assistant, soit cliquer sur **+ Ajouter Pages** pour sélectionner le pour lequel vous souhaitez créer le lancement.
+   ![Image](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >L’exemple suivant montre la création d’un lancement pour le  de existant dans l’assistant.
+1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez soit sélectionner le  de déjà visible dans l’assistant, soit cliquer sur **+ Ajouter** pour ajouter le pour lequel vous souhaitez créer le lancement.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### Utilisation du existant {#existing-channel-launch}
+
+1. Sélectionnez le  qui existe déjà dans l’assistant **Créer un lancement** et cliquez sur **Suivant**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Select the channel and click **Next** from the action bar.
 
@@ -126,6 +129,49 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### Utilisation de l’option Ajouter {#add-channel-launch}
+
+1. Cliquez sur **+ Ajouter** pour ajouter le  pour lequel vous souhaitez créer le lancement.
+
+   ![image](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >L’option **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs  de ou un dossier pour ajouter le lancement.
+
+1. Accédez au pour lequel vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. Vous pouvez maintenant sélectionner le pour lequel vous avez ajouté un lancement et cliquer sur **Suivant**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
+
+   >[!NOTE]
+   >
+   >*Activer ou cocher* l’option **Hériter les données dynamiques de la page source** permet de créer les canaux en tant que copies dynamiques au lancement. Si des modifications sont apportées au canal d’origine, elles sont automatiquement appliquées aux canaux de lancement.
+   >
+   >
+   >*Désactiver ou décocher* Hériter les données dynamiques de la page source **** permet de copier les canaux sans aucune relation active au lancement. Ainsi, si des modifications sont apportées au canal d’origine, elles ne sont pas appliquées aux canaux de lancement.
+
+   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez définir la date de lancement en direct dans cette étape ou la configurer ultérieurement lors de la modification des propriétés du lancement une fois qu’il a déjà été créé.
+
+1. Vous verrez que votre lancement est créé. Vous pouvez cliquer sur **Ouvrir** pour afficher les pages dans l’éditeur ou sur **Terminé** pour revenir à votre projet.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### Modification des propriétés de lancement pour définir la date et la portée d’activation {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
