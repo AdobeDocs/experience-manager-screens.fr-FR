@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -79,9 +79,9 @@ Suivez la section ci-dessous pour implémenter les lancements dans votre projet 
 
 ### Création d’une publication future {#creating-a-launch}
 
-Suivez les étapes ci-dessous pour mettre en œuvre les futures fonctionnalités de publication dans votre projet AEM Screens :
+Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancements dans votre projet AEM Screens :
 
-1. Accédez au canal dans votre projet AEM Screens, par exemple **LaunchesDemo** —> **Canaux** —> **FutureLaunch**, comme illustré ci-dessous.
+1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
@@ -89,21 +89,22 @@ Suivez les étapes ci-dessous pour mettre en œuvre les futures fonctionnalités
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Sélectionnez le canal **FutureLaunch**, puis cliquez sur **Créer**. Sélectionnez **Lancer** dans le menu déroulant.
+1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez soit sélectionner le  de déjà visible dans l’assistant, soit cliquer sur **+ Ajouter Pages** pour sélectionner le pour lequel vous souhaitez créer le lancement.
 
-1. L’assistant **Créer un lancement** s’ouvre. Cliquez sur **+ Ajouter des pages** pour sélectionner les canaux AEM Screens pour lesquels vous souhaitez créer le lancement.
+   >[!NOTE]
+   >L’exemple suivant montre la création d’un lancement pour le  de existant dans l’assistant.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Accédez au canal et cliquez sur **Sélectionner**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Select the channel and click **Next** from the action bar.
 
-1. Une fois la page sélectionnée, cliquez sur **Suivant** pour avancer d’une étape vers l’assistant **Créer un lancement**.
+   >[!NOTE]
+   >**L’option Inclure les sous-pages** est sélectionnée par défaut.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
 
@@ -114,7 +115,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre les futures fonctionnalités
    >
    >*Désactiver ou décocher* Hériter les données dynamiques de la page source **** permet de copier les canaux sans aucune relation active au lancement. Ainsi, si des modifications sont apportées au canal d’origine, elles ne sont pas appliquées aux canaux de lancement.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -124,9 +125,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre les futures fonctionnalités
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Cliquez sur **Terminé** pour revenir à votre projet **LaunchesDemo**.
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
 
 ### Modification des propriétés de lancement pour définir la date et la portée d’activation {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
