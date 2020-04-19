@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -179,43 +179,43 @@ Après avoir créé le lancement, vous devez modifier les propriétés de lancem
 
 Pour modifier les propriétés de lancement, procédez comme suit :
 
-1. Accédez au canal (**FutureLaunch**) et sélectionnez-le, comme illustré ci-dessous. Ouvrez le rail **Références** à partir du rail latéral gauche.
+1. Accédez au  **FutureLaunch***,* (c’est le lancement en attente)et sélectionnez le  de, comme illustré dans la figure ci-dessous.
 
-   >[!NOTE]
-   >
-   >Sélectionnez l’option **Arborescence de contenu** dans le rail de gauche pour ouvrir le lancement que vous avez créé.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Cliquez sur **de** à partir de la barre d&#39;action et vous verrez le panneau LANCEMENTS **** EN ATTENTE à partir de la  de.
 
-1. Accédez à **Lancements** et sélectionnez le lancement (**SummerPromotions**) que vous avez créé. Cliquez sur **Modifier les propriétés**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Sélectionnez le lancement, puis cliquez sur l’une des actions de votre choix dans le panneau **LANCEMENTS** EN ATTENTE.
 
-1. La boîte de dialogue **SummerPromotions** s’ouvre. Renseignez les champs suivants :
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. Par exemple, vous cliquez sur **Propriétés** de lancement pour modifier les propriétés des promotions **d’**&#x200B;été de lancement.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. Vous pouvez modifier le titre **du** Luanch et renseigner les champs suivants :
 
    * Sélectionner la **Date de lancement**
    * Cocher **Prêt pour production**
    * Sélectionnez **Promouvoir les pages** approuvées dans **Portée**
-   >[!NOTE]
-   >
-   >Comprendre les entrées Lancements sous **Promotion automatique** :
+   **Présentation des entrées Lancements sous Promotion automatique :**
 
-   >    * **Date de lancement**, fait référence à la date d’activation, c’est-à-dire la date/l’heure de lecture du contenu dans le lecteur Screens selon le fuseau horaire du lecteur.
-   >    * **Prêt pour production** permet de promouvoir les canaux et signifie que le lancement est prêt à être utilisé.
-   >    * **Portée** fait référence aux canaux qui peuvent être promus lors d’un lancement.
-
-
+   * **Date de lancement**, fait référence à la date d’activation, c’est-à-dire la date/l’heure de lecture du contenu dans le lecteur Screens selon le fuseau horaire du lecteur.
+   * **Prêt pour production** permet de promouvoir les canaux et signifie que le lancement est prêt à être utilisé.
+   * **Portée** fait référence aux canaux qui peuvent être promus lors d’un lancement.
    Les trois options suivantes sont disponibles pour configurer la portée :
-   1. **Promouvoir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
-   1. **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise. Elle permet de promouvoir les modifications apportées aux canaux de lancement.
-   1. **Promouvoir les pages approuvées** : seules les pages approuvées sont promues à la date d’activation définie.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >La promotion du lancement se conforme au fuseau horaire du lecteur/périphérique plutôt que celui du serveur.
+   * **Promouvoir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
+   * **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise. Elle permet de promouvoir les modifications apportées aux canaux de lancement.
+   * **Promouvoir les pages approuvées** : seules les pages approuvées sont promues à la date d’activation définie.
+
+      >[!CAUTION]
+      >
+      >La promotion du lancement se conforme au fuseau horaire du lecteur/périphérique plutôt que celui du serveur.
+
+
 
 1. Cliquez sur **Enregistrer et fermer** pour revenir au canal **FutureLaunch**.
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
