@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Aide d’Adobe Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Guide des bonnes pratiques Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html)
    + [Termes clés](screens-glossary.md)
 + Notions de base sur les réseaux de signalisation numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
-      + [Mise à jour de contenus à l’aide de lancements](launches.md)
+      + [Mise à jour de contenu à l’aide du lancement d’écrans](launches.md)
    + Exemples de cas d’utilisation {#use-case-examples}
       + [Canaux d’urgence](emergency-channel.md)
       + [Activation de la température de l’agence de voyages](local-temperature-activation.md)
@@ -91,7 +91,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + [Incorporation d’une application REACT via la fonction d’éditeur d’application monopage (SPA) et intégration avec AEM Screens Analytics](embedding-react-app.md)
    + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
    + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
-   + [Application d’une marque et d’un style personnalisés pour les incrustations de texte](custom-branding-text-overlays.md)
+   + [Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte](custom-branding-text-overlays.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
