@@ -1,6 +1,6 @@
 ---
-title: Lancements
-seo-title: Lancements
+title: Mise à jour de contenu à l’aide du lancement d’écrans
+seo-title: Mise à jour de contenu à l’aide du lancement d’écrans
 description: Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de Lancement, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les périphériques ou lecteurs.
 seo-description: Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de Lancement, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les périphériques ou lecteurs.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -10,29 +10,29 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+translation-type: tm+mt
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# Lancements {#launches}
+# Mise à jour de contenu à l’aide du lancement d’écrans {#launches}
 
-Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de **Lancement**, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les périphériques ou lecteurs.
+Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
 
-Avec l’aide des lancements, les auteurs peuvent prévisualiser chaque canal du lancement et doivent pouvoir lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
+Grâce à une publication ultérieure, les auteurs peuvent  chaque  au lancement et doivent être en mesure d’initier une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
 
 Par exemple, si l’auteur souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 heures). Toute mise à jour ultérieure du contenu est envoyée pour révision. Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
 
 ## Conditions requises {#requirements}
 
-Avant de commencer l’implémentation des lancements dans un projet AEM Screens, veillez à bien comprendre le concept de période de grâce et sa pertinence.
+Avant de  l’implémentation de la publication future dans un projet AEM Screens, assurez-vous de bien comprendre le concept de la période de grâce et sa pertinence.
 
 La section suivante explique la période de grâce et comment la configurer en standard. Vous pouvez également télécharger un exemple de configuration de test pour comprendre son utilisation.
 
 ### Présentation de la période de grâce {#understanding-grace-period}
 
-La configuration suivante permet à l’administrateur de configurer la ***Période de grâce ***, obligatoire dans les lancements.
+The following setup allows the admin to configure the ***Grace Period***, required in future publish.
 
 La **Période de grâce** comprend :
 
@@ -60,7 +60,7 @@ Téléchargez les configurations de test suivantes :
 
 Si vous souhaitez modifier la configuration ci-dessus, suivez les instructions ci-dessous :
 
-* créez le fichier ***sling:OsgiConfig/ nt:file dans /apps/system/config ***sous le nom**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **et le contenu
+* créez le fichier ***sling:OsgiConfig/ nt:file dans /apps/system/config*** sous le nom **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** et le contenu
 
    *launches.eventhandler.updatelastmodification=B&quot;false&quot;
 launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;
@@ -70,14 +70,14 @@ launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 Cela signifie que lorsque vous définissez la date d’activation d’un lancement pour les ressources sous */content/screens*, la promotion commence avec ce décalage. Si, par exemple, la date d’activation est définie sur 24 novembre à 9h00 et que la période de grâce est de 600 secondes, la tâche de promotion démarrera le 24 novembre à 8h50.
 
-## Utilisation des lancements {#using-launches}
+## Utilisation du lancement d’écrans {#using-launches}
 
 Suivez la section ci-dessous pour implémenter les lancements dans votre projet AEM Screens. Cette section traite des sujets suivants :
 
-1. **Création d’un lancement**
-1. **Modification d’un lancement pour définir la date de lecture et la portée**
+1. **Création d’un lancement d’écran**
+1. **Modification d’un lancement d’écran pour définir la date et l’étendue d’activation**
 
-### Création d’un lancement {#creating-a-launch}
+### Création d’une publication future {#creating-a-launch}
 
 Suivez les étapes ci-dessous pour mettre en œuvre les futures fonctionnalités de publication dans votre projet AEM Screens :
 
