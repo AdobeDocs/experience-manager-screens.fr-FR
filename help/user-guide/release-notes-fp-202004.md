@@ -4,7 +4,7 @@ seo-title: Notes de mise à jour du Feature Pack 202004
 description: Suivez cette page pour obtenir des informations sur AEM Screens Feature Pack 2004, publié le 15 avril 2020.
 seo-description: Suivez cette page pour obtenir des informations sur AEM Screens Feature Pack 2004, publié le 15 avril 2020.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -25,12 +25,15 @@ La date de publication pour AEM Screens Feature Pack 202004 est le 15 avril 2020
 
 * **Options de stratégie d’interruption de lecture**
 
-   En tant qu’auteur, vous pouvez maintenant spécifier le moment où un  est interrompu ou non afin que l’auteur du contenu puisse choisir de couper le contenu non essentiel, mais avoir la possibilité de laisser le contenu important lire pleinement avant de couper la lecture en raison de la planification.
+   En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, mais que vous ayez la possibilité de laisser le contenu important lire intégralement avant de couper la lecture en raison de la planification.
 
+   Reportez-vous à la section Méthode **[d’](/help/user-guide/channel-assignment.md#interruption-method-channel)**interruption pour en savoir plus sur les options disponibles dans la boîte de dialogue Affectation **de**pour mettre en oeuvre cette fonctionnalité dans votre projet AEM Screens.
 
-* **Lancements**
+* **Lancements d’écrans**
 
    Le flux d’expérience utilisateur de l’auteur de contenu a été amélioré et réduit le nombre de clics pour utiliser la publication ultérieure.
+
+   Pour plus d’informations, reportez-vous à la section Mise à jour de **[contenu à l’aide du lancement](launches.md)**d’écran.
 
 * **Tableau de bord des canaux**
 
@@ -39,11 +42,15 @@ La date de publication pour AEM Screens Feature Pack 202004 est le 15 avril 2020
 
 * **Afficher le manifeste**
 
-   Vous pouvez le manifeste à partir de l&#39; de.
+   Vous pouvez désormais  le fichier manifeste à partir de l’ de .
+
+   Reportez-vous à **[Affichage du manifeste](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Superposition de texte**
 
-   Lors de l’ajout de test à la fonction d’incrustation de texte, la taille de la police est désormais beaucoup plus précise et mise à jour.
+   Lors de l’ajout de test à la fonction d’incrustation de texte, la taille de la police est précise et améliorée.
+
+   Reportez-vous à la section Incrustation **[de](text-overlay.md)**texte pour créer une expérience fascinante dans un de séquences en fournissant un titre ou une description superposé au-dessus d’une image.
 
 * **Améliorations de la synchronisation des commandes**
 
