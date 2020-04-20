@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: ht
-source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
+translation-type: tm+mt
+source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
 
@@ -216,7 +216,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Saisissez comme **Nom du canal** **région***.
    1. Définissez le **rôle du canal** sur **RegionAdSegment**.
    1. Cliquez sur **Enregistrer**.
-   **Attribution d’un canal par rôle pour le magasin :
+   **Attribution d’un canal par rôle pour le magasin :**
 
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
    1. Sélectionnez **Canal de référence**. par nom.
@@ -268,7 +268,7 @@ La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screen
 
 **Scénario 1**:
 
-Si vous attribuez le chemin d’affichage **Demo** —> **Emplacements** —> **Région A** —>** Magasin 1** —> **AffichageMagasin1**, le contenu suivant s’affichera sur votre lecteur AEM Screens.
+If you assign the display path as **Demo** --> **Locations** --> **Region A** --> **Store 1** --> **Store1Display**, the following content will display on your AEM Screens player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -354,7 +354,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à l’onglet **Autorisations**
    1. Accédez à ***/content/screens/demo*** et cochez toutes les autorisations
    1. Accédez à ***/content/screens/demo/locations*** et cochez toutes les autorisations
-   1. Accédez à ***/content/screens/demo/locations***/***région-a*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
+   1. Accédez à ***/content/screens/demo/locations/région-a*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -367,7 +367,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à l’onglet **Autorisations**
    1. Accédez à ***/content/screens/demo*** et cochez uniquement les autorisations de **lecture**.
    1. Accédez à ***/content/screens/demo/locations*** et cochez uniquement les autorisations de **Lecture**.
-   1. Accédez à ***/content/screens/demo/channel ***et désélectionnez les autorisations pour le canal **Global**.***
+   1. Accédez à ***/content/screens/demo/channels*** et désélectionnez les autorisations pour le canal **Global**.
    1. Accédez à ***/content/screens/demo/locations***/***région-a*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
 
