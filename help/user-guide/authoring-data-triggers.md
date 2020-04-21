@@ -2,8 +2,8 @@
 title: Création avec des triggers de données
 seo-title: Création avec des triggers de données
 description: Consultez cette page pour apprendre à créer avec des triggers de données.
-translation-type: ht
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+translation-type: tm+mt
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -31,7 +31,7 @@ Une fois les étapes précédentes terminées, vous êtes prêt à activer le ci
 
 ## Présentation de la création avec des triggers de données {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Activation du ciblage dans un canal AEM Screens {#enabling-targeting}
 
@@ -43,7 +43,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
+1. Sélectionnez l’onglet **Personnalisation** pour configurer les configurations ContextHub et sélectionnez le chemin ContextHub et Segments.
 
    1. Sélectionnez le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
 
