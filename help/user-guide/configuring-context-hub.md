@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
 
+      >[!CAUTION]
+      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le titre **de la** configuration sous la forme de **feuilles** de calcul et le type **de** boutique sous la forme **contexthub.generic-jsonp.**
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >Dans AEM 6.4, saisissez le titre **de la** configuration en tant que **feuilles de calcul** et le type **de** magasin en tant que **contexthub.generic-jsonp.**
+
 
    1. Entrez votre configuration json spécifique. Vous pouvez par exemple utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer**. La configuration du magasin s’affichera avec le nom **Google Sheets** dans la configuration ContextHub.
 
