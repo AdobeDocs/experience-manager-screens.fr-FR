@@ -11,64 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # Mise à jour de contenu à l’aide du lancement d’écrans {#launches}
 
-Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
+Les auteurs de contenu peuvent créer une future version du ou des (s), connue sous le nom de **lancement** d’écrans, et définir plus avant la date d’activation de ce lancement. Cela permet au contenu d’être en ligne sur des périphériques ou des lecteurs à la date de production spécifiée.
 
-Grâce à une publication ultérieure, les auteurs peuvent  chaque  au lancement et doivent être en mesure d’initier une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
+With the help of **Screens Launches**, authors can preview each channel in the launch and should be able to initiate a request for review. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
 
 Par exemple, si l’auteur souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 heures). Toute mise à jour ultérieure du contenu est envoyée pour révision. Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
 
 ## Conditions requises {#requirements}
 
-Avant de  l’implémentation de la publication future dans un projet AEM Screens, assurez-vous de bien comprendre le concept de la période de grâce et sa pertinence.
+Avant de  tirer parti des lancements d’écrans dans un projet AEM Screens, assurez-vous de bien comprendre le concept de la période de grâce et sa pertinence.
 
-La section suivante explique la période de grâce et comment la configurer en standard. Vous pouvez également télécharger un exemple de configuration de test pour comprendre son utilisation.
+L’exécution d’une expérience à la date définie sur le lecteur implique :
+
+* promotion du lancement (en général, quelques secondes)
+
+* la publication des ressources pour publier des instances (en général, cela prend quelques minutes, selon la taille du ou des ressources à publier)
+
+* temps nécessaire à l’exécution de la mise à jour du contenu hors ligne (en général, il faut quelques minutes)
+
+* le temps nécessaire par les lecteurs pour télécharger le contenu à partir de l’instance de publication (en général, cela prend des minutes en fonction de la bande passante et de la taille des ressources à télécharger).
+
+* toutes les différences de temps entre le serveur et le lecteur
 
 ### Présentation de la période de grâce {#understanding-grace-period}
 
-The following setup allows the admin to configure the ***Grace Period***, required in future publish.
+Pour que le joueur puisse de lire le contenu à la date d’activation définie, nous devons  lejeu de la  avant la date d’activation.
 
-La **Période de grâce** comprend :
-
-* promotion du lancement
-* publication des ressources aux instances de publication
-* temps nécessaire aux périphériques pour télécharger le contenu à partir de l’instance de publication et  tout écart d’heure entre le serveur et le lecteur
+Si la date d’activation est le 24 *novembre, 9:00 et que la période de grâce est de* 24 heures **, la séquence d’actions ci-dessus  à (date d’activation - période de grâce), c’est-à-dire le 23 novembre, 9:00 heure du serveur. Cela donne 24 heures pour terminer toutes les actions mentionnées ci-dessus et le contenu atteindra les joueurs. Les joueurs comprendront qu’il s’agit d’un contenu de lancement, de sorte que le contenu ne sera pas lu immédiatement, mais les lecteurs stockeront ce contenu comme une version ultérieure et de  de lecture exactement à la date de mise en service définie sur le fuseau horaire du lecteur.
 
 Par exemple, supposons que le serveur utilisent le fuseau horaire PST et les périphériques le fuseau horaire EST, que la différence de temps maximale est de 3 heures dans ce cas et supposons que la promotion durera 1 minute, que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut généralement télécharger les ressources en 10-15 minutes. Ensuite, période de grâce = écart de  l’heure (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger au lecteur (10-15 min) + mémoire tampon (pour être sûr, disons 30 min) = 3 heures 56 min = 14160 secondes. Ainsi, lorsque nous planifions un lancement en direct, la promotion commence tôt en fonction de ce délai (décalage). Dans l&#39;équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons utiliser une estimation correcte de ce décalage à condition de connaître l’écart maximal de l’heure entre le serveur et n&#39;importe quel lecteur.
 
-### Configuration par défaut de la période de grâce {#configuring-out-of-the-box-grace-period}
-
-Par défaut, la période de grâce d’un lancement est définie sur 24 heures, ce qui signifie que lorsque nous définissons la date  d’activation de n’importe quel lancement pour les ressources sous */content/screens*, la promotion commence avec ce décalage. Par exemple, si la date de production est définie sur le 24 novembre à 9h00 et que la période de grâce est de 24 heures, la tâche de promotion démarrera le 23 novembre à 9h00.
-
-### Téléchargement des configurations {#downloading-configurations}
-
-Téléchargez les configurations de test suivantes :
-
-[Obtenir un fichier](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->La configuration mentionnée ci-dessus comporte une période de grâce de 600 secondes dans cette configuration de test.
+>Out-of-the-box, the grace period for screens launches is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
-#### Mise à jour des configurations {#updating-the-configurations}
+### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
 
-Si vous souhaitez modifier la configuration ci-dessus, suivez les instructions ci-dessous :
+Cette section explique comment mettre à jour une période de grâce prête à l’emploi sur 10 minutes :
 
-* créez le fichier ***sling:OsgiConfig/ nt:file dans /apps/system/config*** sous le nom **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** et le contenu
+1. Accédez à CRXDE Lite, puis à `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+2. Cliquez avec le bouton droit de la souris et copiez le fichier.
+3. Accédez à `/apps/system/config` et cliquez avec le bouton droit de la souris et collez.
+4.  cliquez sur `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` pour ouvrir le fichier dans l’éditeur de CRXDE Lite. Il doit afficher la période de grâce du chemin */content/screens/* sur 86400. Remplacez cette valeur par **600**.
 
-   *launches.eventhandler.updatelastmodification=B&quot;false&quot;
-launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;
-launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+Le contenu du fichier texte doit maintenant ressembler à :
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, vous permet de définir une période de grâce de 600 secondes dans le chemin */content/screens*.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-Cela signifie que lorsque vous définissez la date d’activation d’un lancement pour les ressources sous */content/screens*, la promotion commence avec ce décalage. Si, par exemple, la date d’activation est définie sur 24 novembre à 9h00 et que la période de grâce est de 600 secondes, la tâche de promotion démarrera le 24 novembre à 8h50.
+Puisque vous avez défini la période de grâce sur 10 minutes dans l’exemple précédent, lorsque vous définissez la date de lancement pour les ressources sous */content/screens*, la promotion  avec ce décalage.
+
+Si, par exemple, la date d’activation est définie sur 24 novembre, 9:00 et que la période de grâce est de 600 secondes, la tâche de promotion  le 24 novembre à 8:50.
 
 ## Utilisation du lancement d’écrans {#using-launches}
 
