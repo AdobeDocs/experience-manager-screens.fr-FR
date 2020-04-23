@@ -1,95 +1,95 @@
 ---
-title: Liste de contrôle de sécurité pour les écrans AEM
-seo-title: Liste de contrôle de sécurité pour les écrans AEM
-description: La page décrit la liste de contrôle de sécurité pour les écrans AEM
-seo-description: La page décrit la liste de contrôle de sécurité pour les écrans AEM
-translation-type: tm+mt
+title: Liste de contrôle de sécurité d’AEM Screens
+seo-title: Liste de contrôle de sécurité d’AEM Screens
+description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
+seo-description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
+translation-type: ht
 source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
 
 ---
 
 
-# Considérations relatives à la sécurité du système pour les écrans AEM {#security-checklist}
+# Considérations relatives à la sécurité des systèmes pour AEM Screens {#security-checklist}
 
-Cette page présente les points à prendre en compte pour la sécurité du système pour les écrans AEM.
-
-
-## Livre blanc sur la sécurité des écrans AEM {#white-paper}
-
-Cette section décrit le livre blanc. (Pièce jointe au Livre blanc en attente)
+Cette page contient des considérations relatives à la sécurité des systèmes pour AEM Screens.
 
 
-## FAQ sur la sécurité des écrans AEM {#faqs-screens}
+## Article technique relatif à la sécurité d’AEM Screens {#white-paper}
 
-Les FAQ suivantes supposent une architecture de lecteur enregistrée authentifiée utilisant HTTPS comme protocole de communication entre le lecteur et le serveur AEM.
-
-### FAQ 1 {#faq1}
-
-Le trafic du lecteur peut-il être redirigé vers un serveur malveillant et être chargé de télécharger et de lire du contenu multimédia malveillant ?
-
-**Réponse**
-
-Ce n&#39;est pas possible car la connexion HTTP identifie les deux extrémités de la connexion et la chiffre. Si vous essayez d&#39;être au milieu et de l&#39;intercepter, vous ne verrez que du contenu chiffré, et si vous essayez d&#39;usurper le serveur, le lecteur vous refusera parce que votre certificat est différent.
+Cette section décrit l’article technique. (en attente d’un article technique en pièce jointe)
 
 
-### FAQ 2 {#faq2}
+## Questions fréquentes sur la sécurité d’AEM Screens {#faqs-screens}
 
-Dois-je utiliser HTTP ou HTTP ?
+Les questions fréquentes suivantes supposent l’utilisation d’une architecture de lecteur enregistrée et authentifiée utilisant le protocole de communication HTTPS entre le lecteur et le serveur AEM.
+
+### FAQ 1 {#faq1}
+
+Le trafic du lecteur peut-il être redirigé vers un serveur malveillant qui le contraint à télécharger et lire du contenu multimédia malveillant ?
 
 **Réponse**
 
-Utilisez HTTP. C&#39;est une obligation si vous êtes inquiet pour la sécurité. Avec les HTTP, la communication est chiffrée entre le lecteur et le serveur, et l&#39;interception ou la modification du contenu sera pratiquement impossible.
+C’est impossible, car la connexion HTTPS identifie les deux extrémités de la connexion et la chiffre. Si vous tentez d’intervenir entre les deux et d’intercepter le trafic, vous ne verrez que du contenu chiffré. De plus, si vous essayez d’usurper l’identité du serveur, le lecteur refusera, car votre certificat est différent.
 
 
-### FAQ 3 {#faq3}
+### FAQ 2 {#faq2}
 
-Lors d’un téléchargement de contenu, existe-t-il une sorte de signature du contenu ou de hachage ?
-
-**Réponse**
-
-Chaque fichier est signé (SHA) par le serveur, puis validé par le lecteur pour le même hachage afin de garantir son intégrité.
-Si le hachage ne correspond pas, nous essayons de revalider 3 fois. Après 3 tentatives, la commande de téléchargement est considérée comme non valide.
-
-
-### FAQ 4 {#faq4}
-
-Le serveur AEM est-il sécurisé ?
+Dois-je utiliser le protocole HTTP ou HTTPS ?
 
 **Réponse**
 
-Ans 4. En supposant que vous soyez sur AMS, nous nous occupons de toute la sécurité du serveur en utilisant les mêmes fonctionnalités que Sites ou Ressources.
+Utilisez le protocole HTTPS. C’est essentiel si vous vous préoccupez de sécurité. Avec le protocole HTTPS, la communication est chiffrée entre le lecteur et le serveur, et l’interception ou la modification du contenu est pratiquement impossible.
 
 
-### FAQ 5 {#faq5}
+### FAQ 3 {#faq3}
 
-Le périphérique est-il sécurisé ?
+Lors d’un téléchargement de contenu, existe-t-il une sorte de signature du contenu ou de hachage ?
 
 **Réponse**
 
-Un lecteur physiquement compromis peut théoriquement être manipulé pour lire n’importe quel contenu. Vous pouvez également brancher le lecteur et brancher une clé USB/HDMI.
+Chaque ressource est signée (SHA) par le serveur, puis validée par le lecteur en vérifiant que le hachage est le même, pour garantir son intégrité.
+Si le hachage ne correspond pas, nous effectuons trois nouvelles tentatives de validation. Après trois tentatives, la commande de téléchargement est considérée comme non valide.
 
-Il est donc recommandé de mettre les périphériques hors de portée, de préférence dans un sécurisé, avec un câblage sécurisé également. Désactivez également les ports distants IR.
 
-Si le système d&#39;exploitation du périphérique n&#39;est pas mis à jour régulièrement, il se peut que le système d&#39;exploitation soit exposé à des failles de sécurité et autorise des attaques à distance sur le réseau.
+### FAQ 4 {#faq4}
+
+Le serveur AEM est-il sécurisé ?
+
+**Réponse**
+
+Réponse 4. En supposant que vous soyez sur AMS, nous nous occupons de l’ensemble de la sécurité du serveur avec les mêmes fonctionnalités que Sites ou Assets.
+
+
+### FAQ 5 {#faq5}
+
+L’appareil est-il sécurisé ?
+
+**Réponse**
+
+Un lecteur compromis physiquement peut théoriquement être manipulé pour lire n’importe quel contenu. Vous pouvez également débrancher le lecteur et brancher une clé USB/HDMI.
+
+Il est donc recommandé de mettre les appareils hors de portée, de préférence dans un boîtier sécurisé, doté d’un câblage également sécurisé. Désactivez aussi les ports de télécommande infrarouge.
+
+Si le système d’exploitation n’est pas mis à jour régulièrement, il peut être exposé à des failles de sécurité et permettre des attaques à distance via le réseau.
 >[!NOTE]
->Il est recommandé d&#39;instrumenter les périphériques avec des capacités de mise à jour et de contrôle à distance correctes (bureau distant, solution MDM, etc.). Il est également recommandé d&#39;utiliser un réseau privé, non exposé au WIFI public par exemple.
+>Il est recommandé de doter les appareils de fonctionnalités suffisantes de mise à jour et de commande à distance (bureau distant, solution MDM, etc.). Nous vous recommandons également d’utiliser un réseau privé, par exemple non exposé au Wi-Fi public.
 
 
-### FAQ 6 {#faq6}
+### FAQ 6 {#faq6}
 
-Comment un pirate essaierait-il de compromettre un joueur ?
+Comment un pirate informatique peut-il tenter de compromettre un lecteur ?
 
 **Réponse**
 
-La seule façon de compromettre un lecteur est de :
+La seule façon de compromettre un appareil de lecture est la suivante :
 
-1. compromettez le DNS afin d’incarner le serveur sur son nom d’hôte, et
-1. compromis
-   1. du certificat côté serveur pour incarner le serveur
-   1. périphérique et personnalisation du certificat côté client
+1. compromettre le DNS pour emprunter l’identité du nom d’hôte du serveur, et
+1. compromettre
+   1. le certificat côté serveur pour emprunter l’identité de l’appareil du serveur
+   1. et emprunter l’identité du certificat côté client
 
 >[!IMPORTANT]
->Même si un périphérique est compromis, vous pouvez toujours facilement révoquer ses informations d’identification afin qu’il ne puisse plus se connecter à AEM.
+>Même si un appareil est compromis, vous pouvez toujours facilement révoquer ses informations d’identification afin qu’il ne puisse plus se connecter à AEM.
 
 
 
