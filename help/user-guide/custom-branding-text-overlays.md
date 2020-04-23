@@ -1,41 +1,41 @@
 ---
-title: Application d’une marque et d’un style personnalisés pour les incrustations de texte
-seo-title: Application d’une marque et d’un style personnalisés pour les incrustations de texte
-description: Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte.
-seo-description: Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte.
+title: Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte
+seo-title: Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte
+description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
+seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
 
-# Marque et style personnalisés pour les incrustations de texte {#creating-custom-branding-styling}
+# Valorisation de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
-Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte appliquées à vos fichiers dans un d’écrans.
+Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte de vos ressources dans un canal Screens.
 
-## Création d’une marque et d’un style personnalisés pour les incrustations de texte {#steps-custom-branding}
+## Création d’une valorisation de marque et de styles personnalisés pour les superpositions de texte {#steps-custom-branding}
 
-Suivez les étapes ci-dessous pour créer une marque et un style personnalisés pour les incrustations de texte :
+Pour créer une valorisation de marque et des styles personnalisés pour les superpositions de texte :
 
-1. Créez un projet AEM Screens. Cet exemple illustre la fonctionnalité en créant un projet nommé **customstyle** et un  intitulé **DemoBrand** , comme illustré dans la figure ci-dessous.
+1. Créez un projet AEM Screens. Cet exemple illustre la fonctionnalité en créant un projet nommé **customstyle** et un canal intitulé **DemoBrand**, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. A partir de l’éditeur, faites glisser une image et ajoutez une incrustation de texte au fichier.
+1. Dans l’éditeur, faites glisser et déposez une image, puis ajoutez une superposition de texte à la ressource.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Pour savoir comment ajouter une incrustation de texte à votre fichier dans un éditeur de  de, reportez-vous à la section Recouvrement [de](/help/user-guide/text-overlay.md)texte.
+   >Pour savoir comment ajouter une superposition de texte à votre ressource dans un éditeur de canal, voir [Superposition de texte](/help/user-guide/text-overlay.md).
 
 1. Accédez à CRXDE Lite à partir de votre instance AEM --> Outils --> **CRXDE Lite**.
 
-1. Vous devez créer une conception personnalisée dans `/apps/settings/wcm/designs/<your-project>/`, par exemple, dans ce cas, accédez à `/apps/settings/wcm/designs/customstyle/`
+1. Vous devez créer une conception personnalisée dans `/apps/settings/wcm/designs/<your-project>/`, par exemple. Dans le cas présent, accédez à `/apps/settings/wcm/designs/customstyle/`
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Créez le fichier *static.css* et définissez les règles CSS suivantes. Comme exemple dans la figure sous les règles CSS.
+1. Créez le fichier *static.css* et définissez les règles CSS suivantes. À ce propos, la figure ci-dessous illustre un exemple de règles CSS.
 
    ```shell
      //global styles
@@ -61,33 +61,33 @@ Suivez les étapes ci-dessous pour créer une marque et un style personnalisés 
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Copiez le chemin vers votre projet, dans ce cas, le chemin sera `/apps/settings/wcm/designs/customstyle`.
+1. Copiez le chemin vers votre projet. Dans le cas présent, ce chemin est `/apps/settings/wcm/designs/customstyle`.
 
-1. Accédez au  de intitulé **DemoBrand** (créé à l’étape(1)) et cliquez sur **Propriétés** dans la barre d’actions après avoir sélectionné le  de.
+1. Accédez au canal intitulé **DemoBrand** (créé à l’étape(1)), puis cliquez sur **Propriétés** dans la barre d’actions après avoir sélectionné le canal.
 
-1. Accédez à l’onglet **Avancé** et vérifiez le champ **Conception** .
+1. Accédez à l’onglet **Avancé** et cliquez sur le champ **Conception**.
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
    >Par défaut, le champ **Conception** affiche le chemin pointant vers les conceptions du dossier libs.
 
-1. Mettez à jour le champ **Conception** avec le chemin d’accès au dossier du projet. Dans ce cas, ce sera le cas `/apps/settings/wcm/designs/customstyle`.
+1. Mettez à jour le champ **Conception** en indiquant le chemin d’accès de votre dossier de projet. Dans ce cas, ce chemin est : `/apps/settings/wcm/designs/customstyle`.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de conception.
+1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de la conception.
 
 >[!IMPORTANT]
-> Vous avez la possibilité d’incruster les modèles d’écrans existants pour injecter vos propres conceptions par défaut ou créer votre propre modèle. Reportez-vous aux étapes ci-dessous pour plus de détails.
+> Vous avez la possibilité d’effectuer une superposition des modèles Screens existants pour incorporer vos propres conceptions par défaut ou créer intégralement votre propre modèle. Pour plus d’informations, référez-vous à la procédure ci-dessous.
 
-1. Pour superposer les modèles d’écrans existants afin d’injecter vos propres conceptions par défaut :
+1. Pour superposer les modèles Screens existants afin d’incorporer vos propres conceptions par défaut :
 
-   1. Recouvrement `/libs/screens/core/templates/sequencechannel` dans `/apps/screens/core/templates/sequencechannel`.
-   1. Modifiez la propriété *cq:designPath* dans `/apps/screens/core/templates/sequencechannel/jcr:content` pour pointer vers la nouvelle conception.
+   1. Superposez `/libs/screens/core/templates/sequencechannel` à `/apps/screens/core/templates/sequencechannel`.
+   1. Modifiez la propriété *cq:designPath* dans `/apps/screens/core/templates/sequencechannel/jcr:content` pour que le chemin pointe vers la nouvelle conception.
 
-1. Pour créer votre propre modèle :
-   1. Copiez `/libs/screens/core/templates/sequencechannel` vers `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Modifiez la propriété *cq:designPath* dans `/apps/customstyle/templates/styled-sequencechannel/jcr:content` pour pointer vers la nouvelle conception.
+1. Pour créer intégralement votre propre modèle :
+   1. Copiez `/libs/screens/core/templates/sequencechannel` dans `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Modifiez la propriété *cq:designPath* dans `/apps/customstyle/templates/styled-sequencechannel/jcr:content` pour que le chemin pointe vers la nouvelle conception.
 
 
 ### Mise à jour des listes ACL {#updating-acls}
@@ -96,35 +96,35 @@ Vous devez mettre à jour les listes ACL de ces conceptions afin qu’elles puis
 
 1. Accédez à useradmin, sélectionnez le fichier `screens-<project>-devices group` et autorisez-le à accéder en lecture au chemin de conception personnalisé.
 
-1. Fournissez des autorisations de lecture et de modification `screens-<project>-administrators` de groupe sur ce chemin d’accès.
+1. Accordez des autorisations de lecture et de modification de groupe `screens-<project>-administrators` à ce chemin.
 
 ## Affichage du résultat {#viewing-the-result}
 
-Une fois que vous avez terminé les étapes précédentes, vous pouvez mettre à jour votre fichier *statis.css* à partir de **CRXDE Lite** et, par conséquent,  la mise à jour de votre incrustation de texte qui est déjà ajoutée à la ressource.
+Une fois les étapes précédentes effectuées, vous pouvez mettre à jour le fichier *statis.css* à partir de **CRXDE Lite** et ainsi voir la mise à jour de la superposition de texte déjà ajoutée à la ressource.
 
-Suivez les étapes ci-dessous pour  la conception mise à jour en incrustation de texte :
+Pour voir la conception mise à jour avec la superposition de texte, procédez comme suit :
 
-1. Accédez à votre projet AEM Screens intitulé **customstyle** —> **** —> **DemoBrand**. Sélectionnez le canal   et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Accédez à votre projet AEM Screens intitulé **customstyle** --> **Canaux** --> **DemoBrand**. Sélectionnez le canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 
-1. Comme vous avez maintenant ajouté la conception à votre champ **Conceptions** , comme mentionné ci-dessus, cliquez sur **** pour  la mise en forme actuelle de l’image avec l’incrustation de texte.
+1. La conception ayant été ajoutée à votre champ **Conceptions** comme mentionné ci-dessus, cliquez sur **Aperçu** pour voir les styles actuels de l’image avec la superposition de texte.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Accédez à votre fichier *static.css* dans CRXDE Lite et ajoutez la police de ce type `font-family: "Lucida Console", Courier, monospace;` à ce fichier, comme illustré ci-dessous.
+1. Accédez à votre fichier *static.css* dans CRXDE Lite, puis ajoutez la police, par exemple `font-family: "Lucida Console", Courier, monospace;`, à ce fichier, comme illustré ci-dessous.
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Une fois que vous avez enregistré les modifications et rechargé le, vous verrez une mise à jour de la police d’incrustation de texte, comme illustré dans la figure ci-dessous.
+1. Une fois les modifications enregistrées et l’aperçu rechargé, vous voyez une mise à jour de la police de superposition de texte, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. De plus, vous pouvez supprimer les deux derniers blocs de code du fichier *static.css* pour supprimer le style encadré autour de l’incrustation de texte.
+1. De plus, vous pouvez supprimer les deux derniers blocs de code du fichier *static.css* pour supprimer le style encadré autour de la superposition de texte.
    ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. Vous allez  la modification mise à jour dans votre  où l’incrustation de texte est ajoutée à l’image.
+1. Vous voyez la modification mise à jour dans l’aperçu, avec la superposition de texte ajoutée à l’image.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-En vous référant au didacticiel, vous pouvez maintenant mettre à jour votre marque et le style personnalisé pour les incrustations de texte ajoutées à vos fichiers.
+En vous référant au tutoriel, vous pouvez maintenant mettre à jour la valorisation de marque et les styles personnalisés pour les superpositions de texte ajoutées à vos ressources.
 
 
 
