@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ Après avoir créé le lancement, vous pouvez ajouter ou supprimer des  de au la
 
 Une fois que vous avez terminé, cliquez sur **Enregistrer** pour revenir au  de lancement **** futur.
 
-### Promouvoir le lancement manuel des écrans{#promote-the-screens-launch-manually}
+### Promotion manuelle du lancement des écrans{#promote-the-screens-launch-manually}
 
 Vous pouvez promouvoir le lancement manuellement à l’aide de l’option **Promouvoir le lancement** à partir du panneau LANCEMENTS **** EN ATTENTE.
 
