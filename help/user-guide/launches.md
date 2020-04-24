@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ Si, par exemple, la date d’activation est définie sur 24 novembre, 9:00 et qu
 
 ## Utilisation du lancement d’écrans {#using-launches}
 
-Suivez la section ci-dessous pour implémenter les lancements dans votre projet AEM Screens. Cette section traite des sujets suivants :
-
-1. **Création d’un lancement d’écran**
-1. **Modification d’un lancement d’écran pour définir la date et l’étendue d’activation**
+Suivez la section ci-dessous pour implémenter les lancements dans votre projet AEM Screens.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -97,60 +94,19 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
 
 1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez soit sélectionner le  de déjà visible dans l’assistant, soit cliquer sur **+ Ajouter** pour ajouter le pour lequel vous souhaitez créer le lancement.
 
-
-#### Utilisation du existant {#existing-channel-launch}
-
-1. Sélectionnez le  qui existe déjà dans l’assistant **Créer un lancement** et cliquez sur **Suivant**.
+1. Cliquez sur **Suivant** dans l’assistant **Créer un lancement** . L’option **Inclure les sous-pages** est sélectionnée par défaut.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Select the channel and click **Next** from the action bar.
-
    >[!NOTE]
-   >**L’option Inclure les sous-pages** est sélectionnée par défaut.
-
-   ![Image](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
-
-   >[!NOTE]
-   >
-   >*Activer ou cocher* l’option **Hériter les données dynamiques de la page source** permet de créer les canaux en tant que copies dynamiques au lancement. Si des modifications sont apportées au canal d’origine, elles sont automatiquement appliquées aux canaux de lancement.
-   >
-   >
-   >*Désactiver ou décocher* Hériter les données dynamiques de la page source **** permet de copier les canaux sans aucune relation active au lancement. Ainsi, si des modifications sont apportées au canal d’origine, elles ne sont pas appliquées aux canaux de lancement.
-
-   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >Vous pouvez définir la date de lancement en direct dans cette étape ou la configurer ultérieurement lors de la modification des propriétés du lancement une fois qu’il a déjà été créé.
-
-1. Vous verrez que votre lancement est créé. Vous pouvez cliquer sur **Ouvrir** pour afficher les pages dans l’éditeur ou sur **Terminé** pour revenir à votre projet.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
-
-   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### Utilisation de l’option Ajouter {#add-channel-launch}
-
-1. Cliquez sur **+ Ajouter** pour ajouter le  pour lequel vous souhaitez créer le lancement.
+   >Vous pouvez utiliser **+ Ajouter option de** pour ajouter la  pour laquelle vous souhaitez créer le lancement.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >L’option **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs  de ou un dossier pour ajouter le lancement.
+   >1. Accédez au pour lequel vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**. L’option **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs  de ou un dossier pour ajouter le lancement.
+   >
+   >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Accédez au pour lequel vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Vous pouvez maintenant sélectionner le pour lequel vous avez ajouté un lancement et cliquer sur **Suivant**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
 
@@ -175,7 +131,8 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
 
    ![Image](/help/user-guide/assets/launches-images/launches-16.png)
 
-### Modification des propriétés de lancement pour définir la date et la portée d’activation {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### Editing the Launch Properties to Set the Live Date and Scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 Après avoir créé le lancement, vous devez modifier les propriétés de lancement pour définir la date d’activation et la portée du lancement.
 
@@ -189,35 +146,23 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Sélectionnez le lancement, puis cliquez sur l’une des actions de votre choix dans le panneau **LANCEMENTS** EN ATTENTE.
+1. Sélectionnez le lancement, puis cliquez sur Propriétés **du** lancement dans le panneau LANCEMENTS **** EN ATTENTE.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. Par exemple, vous cliquez sur **Propriétés** de lancement pour modifier les propriétés des promotions **d’**&#x200B;été de lancement.
+#### Modification du lancement des écrans pour Ajouter ou supprimer un {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+Après avoir créé le lancement, vous pouvez ajouter ou supprimer des  de au lancement existant à l’aide de l’action **Modifier le lancement** .
 
-1. Vous pouvez modifier le titre **du** Luanch et renseigner les champs suivants :
+Une fois que vous avez terminé, cliquez sur **Enregistrer et fermer** pour revenir à l’ de lancement **** futur.
 
-   * Sélectionner la **Date de lancement**
-   * Cocher **Prêt pour production**
-   * Sélectionnez **Promouvoir les pages** approuvées dans **Portée**
-   **Présentation des entrées Lancements sous Promotion automatique :**
+#### Promouvoir le lancement manuel des écrans{#promote-the-screens-launch-manually}
 
-   * **Date de lancement**, fait référence à la date d’activation, c’est-à-dire la date/l’heure de lecture du contenu dans le lecteur Screens selon le fuseau horaire du lecteur.
-   * **Prêt pour production** permet de promouvoir les canaux et signifie que le lancement est prêt à être utilisé.
-   * **Portée** fait référence aux canaux qui peuvent être promus lors d’un lancement.
-   Les trois options suivantes sont disponibles pour configurer la portée :
+Vous pouvez promouvoir le lancement manuellement à l’aide de l’action **Promouvoir le lancement** .
 
-   * **Promouvoir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
-   * **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise. Elle permet de promouvoir les modifications apportées aux canaux de lancement.
-   * **Promouvoir les pages approuvées** : seules les pages approuvées sont promues à la date d’activation définie.
+Vous pouvez choisir les ressources que vous souhaitez promouvoir dans le cadre de cette promotion manuelle dans l&#39;Assistant **Promotion du** lancement.
 
-      >[!CAUTION]
-      >
-      >La promotion du lancement se conforme au fuseau horaire du lecteur/périphérique plutôt que celui du serveur.
+#### Suppression du lancement des écrans {#deleting-the-screens-launch}
 
-
-
-1. Cliquez sur **Enregistrer et fermer** pour revenir au canal **FutureLaunch**.
+Vous pouvez supprimer le lancement à l’aide de l’action **Supprimer le lancement** .
 
