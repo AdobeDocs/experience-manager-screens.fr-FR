@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Si, par exemple, la date d’activation est définie sur 24 novembre, 9:00 et qu
 
 ## Utilisation du lancement d’écrans {#using-launches}
 
-Suivez la section ci-dessous pour implémenter le lancement d’écrans dans votre projet AEM Screens.
+Cette section explique comment implémenter le lancement d’écrans dans votre projet AEM Screens.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
 
    >[!NOTE]
    >Vous pouvez utiliser **+ Ajouter option de** pour ajouter un autre  pour lequel vous souhaitez créer le lancement.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Pour utiliser l’option Ajouter **de** , accédez à l’ pour laquelle vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**.
 
@@ -173,13 +171,13 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Modification du lancement des écrans pour Ajouter ou supprimer un {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modification du lancement des écrans pour Ajouter ou supprimer un {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Après avoir créé le lancement, vous pouvez ajouter ou supprimer des  de au lancement existant à l’aide de l’action **Modifier le lancement** .
+Après avoir créé le lancement, vous pouvez ajouter ou supprimer des  de au lancement existant à l’aide de l’option **Modifier le lancement** .
 
 Une fois que vous avez terminé, cliquez sur **Enregistrer** pour revenir au  de lancement **** futur.
 
-#### Promouvoir le lancement manuel des écrans{#promote-the-screens-launch-manually}
+### Promouvoir le lancement manuel des écrans{#promote-the-screens-launch-manually}
 
 Vous pouvez promouvoir le lancement manuellement à l’aide de l’option **Promouvoir le lancement** à partir du panneau LANCEMENTS **** EN ATTENTE.
 
@@ -196,11 +194,10 @@ Vous pouvez choisir les ressources que vous souhaitez promouvoir dans le cadre d
 1. Cliquez sur **Suivant** dans l’assistant de lancement **de** promotion.
 1. Cliquez sur **Promouvoir** pour promouvoir le lancement.
 
+### Suppression du lancement des écrans {#deleting-the-screens-launch}
 
-#### Suppression du lancement des écrans {#deleting-the-screens-launch}
-
-Vous pouvez supprimer le lancement à l’aide de l’action **Supprimer le lancement** .
+Vous pouvez supprimer le lancement à l’aide de l’option **Supprimer le lancement** du panneau LANCEMENTS **** EN ATTENTE.
 
 >[ATTENTION]
->Cette action supprimera également tous les lancements imbriqués descendants.
+>Cette action supprimera également tous les descendants (lancements imbriqués).
 
