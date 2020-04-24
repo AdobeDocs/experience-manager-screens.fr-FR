@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
+source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
 
 ---
 
@@ -20,13 +20,15 @@ source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 Les auteurs de contenu peuvent créer une future version du ou des (s), connue sous le nom de **lancement** d’écrans, et définir plus avant la date d’activation de ce lancement. Cela permet au contenu d’être en ligne sur des périphériques ou des lecteurs à la date de production spécifiée.
 
-With the help of **Screens Launches**, authors can preview each channel in the launch and should be able to initiate a request for review. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
+With the help of ***Screens Launch***, authors can preview each channel in the launch and should be able to initiate a request for review. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
 
-Par exemple, si l’auteur souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 heures). Toute mise à jour ultérieure du contenu est envoyée pour révision. Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
+Par exemple, si l’auteur souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 heures). Toute mise à jour ultérieure du contenu est envoyée pour révision.
+
+Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
 
 ## Conditions requises {#requirements}
 
-Avant de  tirer parti des lancements d’écrans dans un projet AEM Screens, assurez-vous de bien comprendre le concept de la période de grâce et sa pertinence.
+Before you start leveraging *Screens Launch* in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
 
 L’exécution d’une expérience à la date définie sur le lecteur implique :
 
@@ -36,29 +38,31 @@ L’exécution d’une expérience à la date définie sur le lecteur implique :
 
 * temps nécessaire à l’exécution de la mise à jour du contenu hors ligne (en général, il faut quelques minutes)
 
-* le temps nécessaire par les lecteurs pour télécharger le contenu à partir de l’instance de publication (en général, cela prend des minutes en fonction de la bande passante et de la taille des ressources à télécharger).
+* temps nécessaire aux lecteurs pour télécharger le contenu à partir de l’instance de publication (en général, il faut des minutes en fonction de la bande passante et de la taille des ressources à télécharger)
 
 * toutes les différences de temps entre le serveur et le lecteur
 
 ### Présentation de la période de grâce {#understanding-grace-period}
 
-Pour que le joueur puisse de lire le contenu à la date d’activation définie, nous devons  lejeu de la  avant la date d’activation.
+Pour que le lecteur puisse  lire le contenu à la date de mise en service, nous devons  leprécédent de la date de mise en service.
 
 Si la date d’activation est le 24 *novembre, 9:00 et que la période de grâce est de* 24 heures **, la séquence d’actions ci-dessus  à (date d’activation - période de grâce), c’est-à-dire le 23 novembre, 9:00 heure du serveur. Cela donne 24 heures pour terminer toutes les actions mentionnées ci-dessus et le contenu atteindra les joueurs. Les joueurs comprendront qu’il s’agit d’un contenu de lancement, de sorte que le contenu ne sera pas lu immédiatement, mais les lecteurs stockeront ce contenu comme une version ultérieure et de  de lecture exactement à la date de mise en service définie sur le fuseau horaire du lecteur.
 
-Par exemple, supposons que le serveur utilisent le fuseau horaire PST et les périphériques le fuseau horaire EST, que la différence de temps maximale est de 3 heures dans ce cas et supposons que la promotion durera 1 minute, que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut généralement télécharger les ressources en 10-15 minutes. Ensuite, période de grâce = écart de  l’heure (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger au lecteur (10-15 min) + mémoire tampon (pour être sûr, disons 30 min) = 3 heures 56 min = 14160 secondes. Ainsi, lorsque nous planifions un lancement en direct, la promotion commence tôt en fonction de ce délai (décalage). Dans l&#39;équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons utiliser une estimation correcte de ce décalage à condition de connaître l’écart maximal de l’heure entre le serveur et n&#39;importe quel lecteur.
+Par exemple, supposons que le serveur utilisent le fuseau horaire PST et les périphériques le fuseau horaire EST, que la différence de temps maximale est de 3 heures dans ce cas et supposons que la promotion durera 1 minute, que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut généralement télécharger les ressources en 10-15 minutes. Ensuite, période de grâce = écart de  l’heure (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger au lecteur (10-15 min) + mémoire tampon (pour être sûr, disons 30 min) = 3 heures 56 min = 14160 secondes.
+
+Ainsi, chaque fois que nous planifions un lancement en direct, la promotion  tôt par ce décalage. Dans l&#39;équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons utiliser une estimation correcte pour ce décalage une fois que nous connaissons la différence de temps maximale entre le serveur et n&#39;importe quel joueur.
 
 >[!NOTE]
->Out-of-the-box, the grace period for screens launches is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
+>Out-of-the-box, the grace period for Screens Launch is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
 ### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
 
-Cette section explique comment mettre à jour une période de grâce prête à l’emploi sur 10 minutes :
+Cette section explique comment mettre à jour une période de grâce prête à l’emploi sur 10 minutes.
 
 1. Accédez à CRXDE Lite, puis à `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Cliquez avec le bouton droit de la souris et copiez le fichier.
 3. Accédez à `/apps/system/config` et cliquez avec le bouton droit de la souris et collez.
-4.  cliquez sur `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` pour ouvrir le fichier dans l’éditeur de CRXDE Lite. Il doit afficher la période de grâce du chemin */content/screens/* sur 86400. Remplacez cette valeur par **600**.
+4.  cliquez sur `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` pour ouvrir le fichier dans l’éditeur de CRXDE Lite. Il doit afficher la période de grâce du chemin */content/screens/* comme **86400**. Remplacez cette valeur par **600**.
 
 Le contenu du fichier texte doit maintenant ressembler à :
 
@@ -74,11 +78,11 @@ Si, par exemple, la date d’activation est définie sur 24 novembre, 9:00 et qu
 
 ## Utilisation du lancement d’écrans {#using-launches}
 
-Suivez la section ci-dessous pour implémenter les lancements dans votre projet AEM Screens.
+Suivez la section ci-dessous pour implémenter le lancement d’écrans dans votre projet AEM Screens.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
-Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancements dans votre projet AEM Screens :
+Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancement d’écrans dans votre projet AEM Screens :
 
 1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
@@ -96,16 +100,20 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
 
 1. Cliquez sur **Suivant** dans l’assistant **Créer un lancement** . L’option **Inclure les sous-pages** est sélectionnée par défaut.
 
-   ![image](/help/user-guide/assets/launches-images/launches-b.png)
+   ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Vous pouvez utiliser **+ Ajouter option de** pour ajouter la  pour laquelle vous souhaitez créer le lancement.
+   >Vous pouvez utiliser **+ Ajouter option de** pour ajouter un autre  pour lequel vous souhaitez créer le lancement.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >1. Accédez au pour lequel vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**. L’option **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs  de ou un dossier pour ajouter le lancement.
-   >
-   >![image](/help/user-guide/assets/launches-images/launches-14.png)
+   Pour utiliser l’option Ajouter **de** , accédez à l’ pour laquelle vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**.
+
+   L’option **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs  de ou un dossier pour ajouter le lancement.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+   Once you have selected the channel/channels, click **Next**.
 
 
 1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
@@ -123,6 +131,16 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
    >
    >Vous pouvez définir la date de lancement en direct dans cette étape ou la configurer ultérieurement lors de la modification des propriétés du lancement une fois qu’il a déjà été créé.
 
+   **Présentation de la portée de la promotion du lancement**
+
+   * **Promouvoir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
+   * **Promouvoir les pages** modifiées : Seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise.
+   * **Promouvoir les pages** approuvées : Cette option nécessite que le processus d’approbation du lancement s’exécute sur le  de lancement. Seules les pages approuvées seront promues à la date de publication définie.
+
+      >[!CAUTION]
+      >
+      >La date de lancement respecte le fuseau horaire du lecteur/périphérique plutôt que celui du serveur.
+
 1. Vous verrez que votre lancement est créé. Vous pouvez cliquer sur **Ouvrir** pour afficher les pages dans l’éditeur ou sur **Terminé** pour revenir à votre projet.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
@@ -134,7 +152,12 @@ Suivez les étapes ci-dessous pour mettre en oeuvre la fonctionnalité de lancem
 
 ### Editing the Launch Properties to Set the Live Date and Scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Après avoir créé le lancement, vous devez modifier les propriétés de lancement pour définir la date d’activation et la portée du lancement.
+Une fois le lancement créé, vous pouvez mettre à jour les propriétés telles que la date de lancement, le titre de lancement et l’étendue de la promotion à l’aide des propriétés **de** lancement.
+
+* **Date** de lancement, fait référence à la date d’activation, c’est-à-dire la date ou l’heure de lecture du contenu dans le lecteur d’écran selon le fuseau horaire du lecteur.
+* **Prêt**&#x200B;à la production, permet à l’ d’être publié après avoir promu ces éléments prêts à l’emploi que cette option est activée. Il n’est donc pas nécessaire de modifier cette option.
+* **Portée**, décide quel  sera promu pendant la promotion du lancement.
+
 
 Pour modifier les propriétés de lancement, procédez comme suit :
 
@@ -154,15 +177,30 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
 Après avoir créé le lancement, vous pouvez ajouter ou supprimer des  de au lancement existant à l’aide de l’action **Modifier le lancement** .
 
-Une fois que vous avez terminé, cliquez sur **Enregistrer et fermer** pour revenir à l’ de lancement **** futur.
+Une fois que vous avez terminé, cliquez sur **Enregistrer** pour revenir au  de lancement **** futur.
 
 #### Promouvoir le lancement manuel des écrans{#promote-the-screens-launch-manually}
 
-Vous pouvez promouvoir le lancement manuellement à l’aide de l’action **Promouvoir le lancement** .
+Vous pouvez promouvoir le lancement manuellement à l’aide de l’option **Promouvoir le lancement** à partir du panneau LANCEMENTS **** EN ATTENTE.
 
 Vous pouvez choisir les ressources que vous souhaitez promouvoir dans le cadre de cette promotion manuelle dans l&#39;Assistant **Promotion du** lancement.
+
+![image](/help/user-guide/assets/launches-images/launches-e.png)
+
+1. Vous pouvez activer ou désactiver l’option de suppression du lancement après production.
+1. Vous pouvez définir la **portée** du lancement avec les options suivantes :
+   1. **Promouvoir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
+   1. **Promouvoir les pages** modifiées : Seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise.
+   1. **Promouvoir les pages** approuvées : Cette option nécessite que le processus d’approbation du lancement s’exécute sur le  de lancement. Seules les pages approuvées seront promues à la date de publication définie.
+   1. **Promouvoir la page** active : Cette option nécessite que le processus d’approbation du lancement s’exécute uniquement pour la page active.
+1. Cliquez sur **Suivant** dans l’assistant de lancement **de** promotion.
+1. Cliquez sur **Promouvoir** pour promouvoir le lancement.
+
 
 #### Suppression du lancement des écrans {#deleting-the-screens-launch}
 
 Vous pouvez supprimer le lancement à l’aide de l’action **Supprimer le lancement** .
+
+>[ATTENTION]
+>Cette action supprimera également tous les lancements imbriqués descendants.
 
