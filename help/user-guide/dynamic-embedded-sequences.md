@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
@@ -122,7 +122,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
 
    1. Accédez à **Demo** —> **Emplacements** —> **Région A**.
-   1. Sélectionnez **Région 1**, puis cliquez sur **+Créer** dans la barre d’actions.
+   1. Sélectionnez **Région A**, puis cliquez sur **+ Créer** dans la barre d’actions.
    1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
    1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et **Nom** **région **pour ce canal.
    >[!CAUTION]
@@ -268,7 +268,7 @@ La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screen
 
 **Scénario 1**:
 
-If you assign the display path as **Demo** --> **Locations** --> **Region A** --> **Store 1** --> **Store1Display**, the following content will display on your AEM Screens player.
+Si vous attribuez le chemin d’affichage **Démo** --> **Emplacements** --> **Région A** --> **Magasin 1** --> **AffichageMagasin1**, le contenu suivant s’affichera sur votre lecteur AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
