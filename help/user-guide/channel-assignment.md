@@ -1,8 +1,8 @@
 ---
 title: Attribution de canaux
 seo-title: Attribution de canaux
-description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les créneaux horaires.
-seo-description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les créneaux horaires.
+description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
+seo-description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
 uuid: fe429485-dcc9-4507-864c-b04393cedeee
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
@@ -22,7 +22,7 @@ Cette section couvre les sujets suivants :
 
 * **Attribution d’un canal**
 * **Présentation des propriétés de la boîte de dialogue Attribution de canaux**
-* **Créneaux horaires**
+* **Tranches horaires**
 
 Une fois que vous avez défini un affichage, vous devez lui attribuer un canal.
 
@@ -52,11 +52,11 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Vous pouvez comprendre et configurer les propriétés à partir de la boîte de dialogue Affectation **** de à partir de la section ci-dessous.
+   Vous pouvez comprendre et configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous.
 
-### Compréhension des propriétés  du à partir de l&#39;affectation  du {#channel-properties}
+### Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 
-#### Reference Channel {#ref-channel}
+#### Canal de référence {#ref-channel}
 
 Le canal de référence vous permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
 
@@ -73,7 +73,7 @@ Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par
 La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
 
 >[!NOTE]
->La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité décroissante.
+>La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité descendante.
 
 #### Événements pris en charge {#supported-events-channel}
 
@@ -85,24 +85,24 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 #### Méthode d’interruption {#interruption-method-channel}
 
 >[IMPORTANT]
-> Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+> Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
-En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, mais que vous ayez la possibilité de laisser le contenu important lire intégralement avant de couper la lecture en raison de la planification.
+En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un canal est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, tout en ayant la possibilité de lire intégralement le contenu important avant de l’interrompre en raison de la planification.
 
-Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la boîte de dialogue Affectation **de** de :
+Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la boîte de dialogue **Attribution de canaux** :
 
-* **Immédiatement**: chaque fois que la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et actualiser immédiatement ou lire le nouveau contenu.
-* **À la fin du point** en cours : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre la fin de la lecture de l’élément en cours dans la séquence, et ce n’est qu’après l’actualisation ou la lecture du nouveau contenu.
+* **Immédiatement** : chaque fois que la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
+* **À la fin de l’élément actuel** : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre la fin de la lecture de l’élément en cours dans la séquence avant d’actualiser ou de lire le nouveau contenu.
    >[!NOTE]
    >Cette option est sélectionnée par défaut.
-* **A la fin de la séquence**: lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre que la séquence entière atteigne sa fin. Juste avant la séquence souhaitée, vous retournez en boucle sur le premier élément, vous actualisez ou lisez le nouveau contenu.
+* **À la fin de la séquence** : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre que la séquence entière se termine. Juste avant la séquence souhaitée, vous revenez sur le premier élément, actualisez ou lisez le nouveau contenu.
 
    >[!NOTE]
-   >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies sur l’affectation, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
+   >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
 #### Planification {#schedule-channel}
 
-La planification vous permet de fournir une description textuelle lorsque le canal doit apparaître. Elle vous permet également de définir une date de début (**Actif à partir de**) et une date de fin (**Actif jusqu’à**) pour l’affichage du canal.
+La planification vous permet de décrire sous forme de texte le moment où le canal doit apparaître. Elle vous permet également de définir une date de début (**actif à partir de**) et une date de fin (**actif jusqu’à**) pour l’affichage du canal.
 
 **Afficher l’info-bulle d’attraction** :
 
@@ -113,15 +113,15 @@ Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction
 
 Lorsqu’ils sont combinés avec des **tranches horaires**, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
-Les créneaux horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de créneaux horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
+Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
-Les exemples suivants présentent les créneaux horaires dans les canaux selon trois scénarios différents :
+Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
 #### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple illustre la façon dont un restaurant utilise les créneaux horaires pour afficher le menu du petit-déjeuner, du déjeuner et du dîner.
+Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher le menu du petit-déjeuner, du déjeuner et du dîner.
 
-Nous diviserons chaque jour en trois créneaux horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure spécifiée :
+Nous diviserons chaque jour en trois tranches horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure spécifiée :
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -131,7 +131,7 @@ Nous diviserons chaque jour en trois créneaux horaires, de sorte que le contenu
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple présente les créneaux horaires suivis dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
+Cet exemple présente les tranches horaires suivies dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
 
 <table>
  <tbody>
@@ -158,9 +158,9 @@ Cet exemple présente les créneaux horaires suivis dans un casino où un évén
 
 #### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
 
-Cet exemple présente les créneaux horaires d’un magasin qui affiche sa collection d’été de juin à août, et sa collection d’automne de septembre à fin octobre.
+Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’été de juin à août, et sa collection d’automne de septembre à fin octobre.
 
-Vous allez créer des créneaux horaires selon les mois, de sorte que le contenu du canal soit diffusé pendant les mois de l’année spécifiés.
+Vous allez créer des tranches horaires selon les mois, de sorte que le contenu du canal soit diffusé pendant les mois de l’année spécifiés.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -173,7 +173,7 @@ Vous allez créer des créneaux horaires selon les mois, de sorte que le contenu
 
 #### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
 
-Cet exemple présente les créneaux horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
+Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -181,8 +181,8 @@ Cet exemple présente les créneaux horaires d’un magasin qui affiche sa colle
 | B | Noël | 2 | 24 décembre 2017 - 31 décembre 2017 |
 
 >[!IMPORTANT]
-> Pour en savoir plus sur la division du jour, consultez les sections ci-dessous :
->* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
->* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+> Pour en savoir plus sur les tranches horaires, consultez les sections suivantes :
+>* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
 
