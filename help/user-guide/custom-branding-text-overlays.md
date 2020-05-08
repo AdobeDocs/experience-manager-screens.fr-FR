@@ -59,6 +59,7 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. Copiez le chemin vers votre projet. Dans le cas présent, ce chemin est `/apps/settings/wcm/designs/customstyle`.
