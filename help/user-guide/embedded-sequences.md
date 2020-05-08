@@ -12,6 +12,9 @@ discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: ht
 source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+workflow-type: ht
+source-wordcount: '833'
+ht-degree: 100%
 
 ---
 
