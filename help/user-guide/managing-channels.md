@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
@@ -40,7 +40,7 @@ Une fois le projet Screens créé, suivez les étapes ci-dessous pour lui créer
 
 1. Cliquez sur **Créer** pour créer le canal et l’ajouter à votre dossier de canaux.
 
-### Types de canaux    {#channel-types}
+### Types de canaux      {#channel-types}
 
 Les options de modèles suivantes sont disponibles avec l’assistant :
 
@@ -51,7 +51,7 @@ Les options de modèles suivantes sont disponibles avec l’assistant :
 | Canal d’application | Permet de présenter votre application web personnalisée dans le lecteur Screens. |
 | Canal d’écran partagé 1x1 | Permet d’afficher le composant dans une seule zone. |
 | Canal d’écran partagé 1x2 | Permet d’afficher les ressources dans deux zones (division horizontale).. |
-| Canal d’écran partagé 1x2 | Permet d’afficher les ressources dans deux zones (division verticale).. |
+| Canal d’écran partagé 2x1 | Permet d’afficher les ressources dans deux zones (division verticale).. |
 | Canal d’écran partagé 2x2 | Permet d’afficher les ressources dans quatre zones (division horizontale et verticale dans une matrice).. |
 | Canal d’écran partagé 2x3 | Permet d’afficher les ressources dans deux zones (division horizontale) où l’une des zones est plus grande que l’autre. |
 | Canal d’écran partagé barre en L gauche ou droite | Permet aux auteurs de contenus d’afficher différents types de ressources dans des zones de taille appropriée. |
@@ -60,7 +60,7 @@ Les options de modèles suivantes sont disponibles avec l’assistant :
 >
 >Les canaux d’écran partagé divisent l’affichage en plusieurs zones, ce qui permet de lire plusieurs expériences simultanément, côte à côte. Les expériences peuvent être des ressources/du texte statiques ou des séquences incorporées.
 
-The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
+L’exemple suivant illustre la création d’un canal de séquence (*ChannelOne*) pour un projet Screens (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -77,7 +77,7 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 
 >[!NOTE]
 >
->Sélectionnez le  de, comme illustré dans la figure ci-dessous.
+>Sélectionnez le canal comme illustré ci-dessous.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -85,7 +85,7 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 
 Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes ci-dessous :
 
-1. Sélectionnez le à modifier (comme illustré dans la figure ci-dessus).
+1. Sélectionnez le canal à modifier (comme illustré ci-dessus).
 1. Cliquez sur **Modifier** dans l’angle supérieur gauche de la barre d’actions pour modifier les propriétés du canal. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
 
 >[!NOTE]
@@ -94,9 +94,9 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Transfert de vidéos vers le canal**
+**Chargement de vidéos vers le canal**
 
-Suivez les étapes ci-dessous pour transférer des vidéos vers votre canal :
+Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 
 1. Sélectionnez le canal vers lequel transférer la vidéo.
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
@@ -119,8 +119,8 @@ Pour afficher ou modifier les propriétés d’un canal, suivez les étapes ci-d
 
 Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
 
-1. Sélectionnez le à modifier.
-1. Click **Dashboard** from the action bar to view the dashboard. Les panneaux **INFORMATIONS SUR LE CANAL**, **AFFICHAGES ATTRIBUÉS** et  :**LANCEMENTS EN ATTENTE** s’ouvrent, comme illustré ci-dessous
+1. Sélectionnez le canal à modifier.
+1. Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le tableau de bord. Les panneaux **INFORMATIONS SUR LES CANAUX**, **AFFICHAGES ATTRIBUÉS** et **LANCEMENTS EN ATTENTE** s’ouvrent, comme illustré ci-dessous :
 
 ![Tableau de bord](assets/dashboard.gif)
 
@@ -128,28 +128,28 @@ Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
 
 Le panneau Informations sur le canal fournit une description des propriétés ainsi qu’un aperçu du canal. Il vous permet également de voir si le canal est en ligne ou hors ligne.
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+Cliquez sur l’icône (**...**) dans la barre d’actions **INFORMATIONS SUR LES CANAUX** pour afficher les propriétés, modifier le contenu ou mettre à jour la mémoire cache (contenu hors ligne) du canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
 #### Affichage du manifeste {#view-manifest}
 
-Vous pouvez le manifeste à partir de l&#39; de.
+Vous pouvez afficher le manifeste à partir du tableau de bord des canaux.
 
 >[IMPORTANT]
-> Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+> Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
-Procédez comme suit pour activer cette option à partir de l’ de  :
-1. **Définissez le  sur Hors ligne**
-   1. Select the channel and select **Properties** from the action bar
-   1. Accédez à l’onglet **** et assurez-vous de désactiver l’option Mode **développeur (forcer le à être en ligne)** .
+Procédez comme suit pour activer cette option à partir du tableau de bord des canaux :
+1. **Définir le canal sur Hors ligne**
+   1. Sélectionnez le canal et choisissez **Propriétés** dans la barre d’actions.
+   1. Accédez à l’onglet **Canal** et assurez-vous de désélectionner l’option **Mode développeur (forcer le canal à être en ligne)**.
    1. Cliquez sur **Enregistrer et fermer**
 1. **Mettre à jour le contenu hors ligne**
-   1. Select the channel and select **Dashboard** from the action bar
-   1. Accédez au **panneau INFORMATIONS** du  et cliquez sur *...*
-   1. Cliquez sur **Mettre à jour le contenu hors ligne**
+   1. Sélectionnez le canal et choisissez **Tableau de bord** dans la barre d’actions.
+   1. Accédez au panneau **INFORMATIONS SUR LES CANAUX** et cliquez sur *...*
+   1. Cliquez sur **Mettre à jour le contenu hors ligne**.
 
-Vous devriez maintenant pouvoir voir l&#39;option **manifeste** depuis le panneau **INFORMATIONS** dans lede l&#39; de l&#39;.
+Vous devez maintenant pouvoir voir l’option **Afficher le manifeste** depuis le panneau **INFORMATIONS SUR LES CANAUX** dans le tableau de bord des canaux.
 
 ![image1](assets/channel-one.png)
 
@@ -186,7 +186,7 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Retournez sur le tableau de bord s’affiche et vous pouvez alors voir le statut en ligne du lecteur dans le panneau **INFORMATIONS SUR LE CANL**.
+   Retournez sur le tableau de bord des canaux. Vous pouvez alors voir le statut en ligne du lecteur dans le panneau **INFORMATIONS SUR LE CANAL**.
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
@@ -204,13 +204,13 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
  <tbody>
   <tr>
    <td><strong>Événement</strong></td>
-   <td><strong>Mise à jour automatique du périphérique</strong></td>
-   <td><strong>Mise à jour manuelle du périphérique</strong></td>
+   <td><strong>Mise à jour automatique de l’appareil</strong></td>
+   <td><strong>Mise à jour manuelle de l’appareil</strong></td>
   </tr>
   <tr>
    <td>Changement de canal en ligne</td>
    <td>Contenu mis à jour automatiquement</td>
-   <td><p>Contenu mis à jour sur "Périphérique : Configuration Push"</p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Périphérique : Redémarrer</i></strong></p> </td>
+   <td><p>Contenu mis à jour sur "Périphérique : Configuration Push"</p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Appareil : Redémarrer</i></strong></p> </td>
   </tr>
   <tr>
    <td>Changement du canal hors ligne, mais le "contenu Push" du canal n’est PAS déclenché (aucune recréation du package hors ligne)</td>
@@ -220,7 +220,7 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
   <tr>
    <td>Changement dans le canal hors ligne et le "contenu Push" du canal est déclenché (nouveau package hors ligne)</td>
    <td>Contenu mis à jour automatiquement</td>
-   <td><p>Contenu mis à jour sur <strong><i>Périphérique : Configuration Push</i></strong></p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Périphérique : Redémarrer</i></strong></p> </td>
+   <td><p>Contenu mis à jour sur <strong><i>Appareil : Configuration Push</i></strong></p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Appareil : Redémarrer</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Changement de configuration</p>
@@ -231,7 +231,7 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
      <li>Affectation de canal (rôle, événement, planification)</li>
     </ul> </td>
    <td>Configuration mise à jour automatiquement</td>
-   <td><p>Configuration mise à jour sur <strong><i>Périphérique : Configuration Push</i></strong></p> <p>Ou,</p> <p>Configuration mise à jour sur <strong><i>Périphérique : Redémarrer</i></strong></p> </td>
+   <td><p>Configuration mise à jour sur <strong><i>Appareil : Configuration Push</i></strong></p> <p>Ou,</p> <p>Configuration mise à jour sur <strong><i>Appareil : Redémarrer</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
