@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
@@ -95,7 +95,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
 
       >[!CAUTION]
-      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le titre **de la** configuration sous la forme de **feuilles** de calcul et le type **de** boutique sous la forme **contexthub.generic-jsonp.**
+      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le **Titre de configuration** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
@@ -276,7 +276,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
-   1. Définissez le chemin **ContextHub** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et **Segments Path** sur `/conf/screens/settings/wcm/segments` et cliquez sur **Enregistrer.**
+   1. Définissez le **Chemin d’accès ContextHub** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et le **Chemin d’accès de segments** sur `/conf/screens/settings/wcm/segments` et cliquez sur **Enregistrer**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 
