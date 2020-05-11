@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '797'
+ht-degree: 86%
 
 ---
 
@@ -126,7 +126,10 @@ Si vous souhaitez que les zones affichent une séquence d’images ou de contenu
 
 Une fois que vous avez mis en œuvre des mises en page à zones multiples à l’aide des étapes précédentes, le résultat suivant s’affiche, comme illustré ci-dessous.
 
-Le résultat suivant dans le lecteur Screens affiche le contenu dans trois zones différentes. Les zones de gauche et de droite (qui utilisent toutes deux la séquence incorporée comme composant) affichent la séquence d’images et la zone ci-dessous affiche une image statique.
+Cliquez sur **Prévisualisation** de l’éditeur de canal pour vue la sortie suivante qui affiche le contenu dans deux zones différentes. Les zones de gauche et de droite (toutes deux utilisent la séquence incorporée comme composant).
+
+>[!NOTE]
+>Si vous tentez de vue le contenu dans le lecteur d’écran, veillez à cliquer sur **Mettre à jour le contenu** hors ligne dans le tableau de bord de canal.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
