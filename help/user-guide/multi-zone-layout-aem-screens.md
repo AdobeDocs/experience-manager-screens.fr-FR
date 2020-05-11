@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 86%
+source-wordcount: '789'
+ht-degree: 83%
 
 ---
 
@@ -69,13 +69,10 @@ Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo 
 
    1. Accédez à **Zones** —> **Canaux**—>**MultiZone**.
    1. Sélectionnez le canal **MultiZone** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Ajout d’images au canal**
 
-   Pour lire une seule image ou une vidéo dans les trois zones, faites glisser l’image dans l’éditeur de canaux, comme illustré ci-dessous.
-
-   ![new1-1](assets/new1-1.gif)
+   Pour lire une seule image ou une vidéo dans les trois zones, il vous suffit de la faire glisser dans l’éditeur de canal.
 
 ### Utilisation de contenu séquentiel dans une ou plusieurs zones {#using-sequenced-content-in-one-or-more-zones}
 
