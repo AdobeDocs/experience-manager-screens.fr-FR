@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
+source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 54%
+source-wordcount: '1176'
+ht-degree: 47%
 
 ---
 
@@ -35,18 +35,18 @@ La page suivante décrit l’utilisation de la disposition multizone et aborde l
 
 En fonction des exigences du projet, il est parfois nécessaire de disposer de plusieurs zones au sein d’un canal et dus modifier comme une unité entière. Par exemple, une séquence de produits avec un flux de réseaux sociaux associé qui s’exécute dans trois zones distinctes sur un seul canal.
 
-## Création d’une disposition multizone {#creating-multi-zone-layout}
-
-Lors de la création d’un canal, vous pouvez utiliser des modèles différents afin de créer des zones dans votre canal. Vous pouvez ajouter une image, une vidéo ou un canal incorporé qui permet d’afficher plusieurs ressources dans une séquence.
 
 ### Conditions préalables {#prerequisites}
 
-Avant de commencer à implémenter cette fonctionnalité, assurez-vous que vous disposez d’un projet prêt comme condition préalable pour commencer à mettre en œuvre la disposition multizone. Par exemple :
+Avant de début l&#39;implémentation de cette fonctionnalité, assurez-vous de posséder des connaissances conceptuelles sur :
 
-* Créez un projet AEM Screens intitulé **Zones**
-* Créez un affichage sous **Emplacements** intitulé&#x200B;**MultiZoneDisplay**.
+* [Création d’un projet AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Création d’un affichage](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Affectation d’un Canal à un affichage](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-Créez un canal intitulé **MultiZone** dans le projet **Zones**. Suivez les étapes ci-dessous :
+## Création d’une disposition multizone {#creating-multi-zone-layout}
+
+Lors de la création d’un canal, vous pouvez utiliser des modèles différents afin de créer des zones dans votre canal. Vous pouvez ajouter une image, une vidéo ou un canal incorporé qui permet d’afficher plusieurs ressources dans une séquence.
 
 **Création du canal**
 
@@ -72,13 +72,11 @@ Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo 
 
    Pour lire une seule image ou une vidéo dans deux zones, il vous suffit de faire glisser une image dans chaque zone de l’éditeur de canal, comme illustré dans la figure ci-dessous :
 
-   MultiZone-img3
-
    ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Utilisation de contenu séquentiel dans une ou plusieurs zones {#using-sequenced-content-in-one-or-more-zones}
 
-Si vous souhaitez que les zones affichent une séquence d’images ou de contenu et une image statique dans deux zones différentes, suivez les étapes ci-dessous pour plus de détails.
+Si vous souhaitez que les zones affichent une séquence d’images et une vidéo dans deux zones différentes, suivez les étapes ci-dessous pour plus de détails.
 
 1. **Créer un dossier de canaux**
 
@@ -101,7 +99,7 @@ Si vous souhaitez que les zones affichent une séquence d’images ou de contenu
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   La vidéo ajoutée à l&#39;éditeur du canal de séquence **Zone2** est illustrée ci-dessous :
+   Ajouter une vidéo à l&#39;éditeur du canal de séquence **Zone2** , comme illustré dans la figure ci-dessous :
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -110,18 +108,14 @@ Si vous souhaitez que les zones affichent une séquence d’images ou de contenu
    1. Accédez à **Zones** —> **Canaux** —> **MultiZone**.
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
    1. Faites glisser le composant Séquence **** incorporée vers deux des zones.
-
-1. **Ajouter du contenu aux trois zones**
-
-   1. Accédez à **Zones** —> **Canaux** —> **MultiZone**.
    1. Sélectionnez la séquence incorporée dans l’une des zones.
    1. Cliquez sur l’icône **Configurer** (clé à molette) pour accéder à l’une des séquences incorporées dans l’éditeur.
    1. Sélectionnez le chemin du canal **Zones** —> **Canaux** —> **EmbeddedChannels** —> **Zone1**, comme illustré ci-dessous.
-   De même, ajoutez **Zone2** à un autre composant de séquence incorporée dans l’éditeur.
+   1. De même, ajoutez **Zone2** à un autre composant de séquence incorporée dans l’éditeur.
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### Création de l’emplacement et de l’affichage {#creating-location}
+### Création d’un emplacement et d’un affichage {#creating-location}
 
 Vous devez créer un emplacement et un affichage pour vue le contenu dans le lecteur d’écran. Suivez les étapes ci-dessous pour créer un emplacement et un affichage.
 
@@ -152,12 +146,14 @@ Vous devez affecter les canaux à l’affichage pour vue du contenu. Suivez les 
    1. Cliquez sur **Enregistrer**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. De même, vous devez affecter les deux autres canaux incorporés (**Zone1** et **Zone2**) à cet affichage à l’aide de l’étape (2).
+   1. De même, vous devez affecter les deux autres canaux incorporés (**Zone1** et **Zone2**) à cet affichage.
    1. Une fois que vous avez affecté les trois canaux à l&#39;affichage **du hall** , vous devez pouvoir vue les canaux affectés à partir du tableau de bord d&#39;affichage.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
-   >[!Important]
-   > Une fois que vous avez affecté le canal principal (dans ce cas, **MultiZone**) à l’affichage, il est obligatoire d’affecter les deux autres canaux incorporés **Zone1** et **Zone2** également au même affichage.
+
+
+      >[!Important]
+      > Une fois que vous avez affecté le canal principal (dans ce cas, **MultiZone**) à l’affichage, il est obligatoire d’affecter les deux autres canaux incorporés **Zone1** et **Zone2** également au même affichage.
 
 ### Enregistrement du périphérique {#registering-device}
 
@@ -170,20 +166,21 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
    1. Cliquez sur Enregistrement **du** périphérique et sélectionnez le périphérique en attente dans la liste.
       >[!NOTE]
       > Le titre du périphérique doit correspondre au jeton du périphérique (champ **Jeton** ) affiché dans l&#39;onglet Enregistrement **du** périphérique.
-   1. Si le titre correspond au jeton du périphérique, sélectionnez le périphérique et cliquez sur **Enregistrer le périphérique** dans la barre d’actions.
-   1. Si le code d’enregistrement correspond au code figurant dans l’onglet d’enregistrement du lecteur d’écran, cliquez sur **Valider** dans la barre d’actions.
+   1. Si le titre correspond au jeton du périphérique, sélectionnez le périphérique, puis cliquez sur **Enregistrer le périphérique** dans la barre d’actions.
+   1. Si le code d’enregistrement correspond au code figurant dans l’onglet Enregistrement **du** périphérique du lecteur d’écran, cliquez sur **Valider** dans la barre d’actions.
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Sélectionnez **Affecter l’affichage** et sélectionnez le chemin d’accès à la configuration du périphérique.
+   >[!NOTE]
+   >Si vous tentez de vue le contenu dans le lecteur d’écran, veillez à cliquer sur **Mettre à jour le contenu** hors ligne dans le tableau de bord de canal.
 
 #### Affichage du résultat {#viewing-the-result}
 
-Une fois que vous avez mis en œuvre des mises en page à zones multiples à l’aide des étapes précédentes, le résultat suivant s’affiche, comme illustré ci-dessous.
+Une fois que vous avez mis en oeuvre des mises en page à zones multiples en suivant les étapes précédentes, la sortie suivante s’affiche.
 
 Consultez le lecteur d’écran pour vue la sortie qui affiche le contenu dans deux zones différentes. Les zones de gauche et de droite (toutes deux utilisent la séquence incorporée comme composant).
 
->[!NOTE]
->Si vous tentez de vue le contenu dans le lecteur d’écran, veillez à cliquer sur **Mettre à jour le contenu** hors ligne dans le tableau de bord de canal.
+La zone de gauche est un canal de séquence et la zone de droite inclut une vidéo.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
