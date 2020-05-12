@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 46%
@@ -176,7 +176,7 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
    >[!NOTE]
    >Si vous tentez de vue le contenu dans le lecteur d’écran, veillez à cliquer sur **Mettre à jour le contenu** hors ligne dans le tableau de bord de canal.
 
-#### Affichage du résultat {#viewing-the-result}
+### Affichage du résultat {#viewing-the-result}
 
 Une fois que vous avez mis en oeuvre des mises en page à zones multiples en suivant les étapes précédentes, la sortie suivante s’affiche.
 
