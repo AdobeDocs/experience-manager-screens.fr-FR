@@ -5,8 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +22,7 @@ La section suivante permet de répondre à une partie des questions fréquemment
 
 ### 1. Quelle est la différence entre un canal en ligne et un canal hors ligne ? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-Un ***canal en ligne ***affiche le contenu mis à jour dans l’environnement en temps réel, alors qu’un***canal hors ligne*** affiche le contenu en mémoire cache.
+Un ***canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, alors qu’un ***canal hors ligne*** affiche le contenu en mémoire cache.
 
 ### 2. Comment mettre un canal en ligne ? {#how-do-i-make-a-channel-online}
 
@@ -102,16 +105,16 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 
 1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
-1. Ouvrez le navigateur Chrome, cliquez sur le menu à 3 points, puis sélectionnez **Plus d’outils** —> **Extensions** dans l’angle supérieur droit de l’écran ou accédez directement à ***chrome://extensions ***.
+1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
 1. Activez le **mode Développeur** dans l’angle supérieur droit de l’écran.
 1. Cliquez sur **Charger les fichiers décompressés** dans l’angle supérieur gauche et chargez le lecteur Chrome décompressé.
 1. Vérifiez si le module **Lecteur Chrome AEM Screens** est disponible dans la liste des extensions.
-1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://applications ***.
+1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://applications***.
 1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
 
 ### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier via l’instance de publication avec une balise d’erreur personnalisée ? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json ***au démarrage et lorsqu’il affiche un message d’erreur 404. Il lance une requête d’authentification auprès de l’instance de publication. Si cette dernière comporte une balise d’erreur personnalisée, veillez à retourner le code de statut 404 pour l’utilisateur anonyme sur***/content/screens/svc.ping.json***.
+Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json*** au démarrage et lorsqu’il affiche un message d’erreur 404. Il lance une requête d’authentification auprès de l’instance de publication. Si cette dernière comporte une balise d’erreur personnalisée, veillez à retourner le code de statut 404 pour l’utilisateur anonyme sur ***/content/screens/svc.ping.json***.
 
 ### 3. Comment configurer l&#39;écran du périphérique pour qu&#39;il reste actif dans un lecteur Android ? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
