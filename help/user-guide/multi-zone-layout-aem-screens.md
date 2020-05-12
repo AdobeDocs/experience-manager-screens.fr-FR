@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 47%
+source-wordcount: '1189'
+ht-degree: 46%
 
 ---
 
@@ -91,7 +91,9 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
    1. Sélectionnez **Zone1** et cliquez sur **Modifier** dans la barre d’action pour ouvrir l’éditeur.
    1. Faites glisser quelques images sur ce canal.
-   De même, créez un autre canal de séquence intitulé **Zone2** dans le dossier **EmbeddedChannels**.
+   1. De même, créez un autre canal de séquence intitulé **Zone2** dans le dossier **EmbeddedChannels**.
+   1. Faites glisser une vidéo vers ce canal.
+   La figure suivante montre les canaux **Zone1** et **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Ajouter une vidéo à l&#39;éditeur du canal de séquence **Zone2** , comme illustré dans la figure ci-dessous :
+   La vidéo ajoutée à l&#39;éditeur du canal de séquence **Zone2** est illustrée ci-dessous :
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 
    1. Accédez à **Zones** —> **Canaux** —> **MultiZone**.
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
-   1. Faites glisser le composant Séquence **** incorporée vers deux des zones.
+   1. Faites glisser et déposez le composant Séquence **** incorporée dans les deux zones.
    1. Sélectionnez la séquence incorporée dans l’une des zones.
    1. Cliquez sur l’icône **Configurer** (clé à molette) pour accéder à l’une des séquences incorporées dans l’éditeur.
    1. Sélectionnez le chemin du canal **Zones** —> **Canaux** —> **EmbeddedChannels** —> **Zone1**, comme illustré ci-dessous.
