@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 54%
@@ -151,7 +151,7 @@ Vous devez affecter les canaux à l’affichage pour vue du contenu. Suivez les 
    1. Set the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**.
    1. Cliquez sur **Enregistrer**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. De même, vous devez affecter les deux autres canaux incorporés (**Zone1** et **Zone2**) à cet affichage à l’aide de l’étape (2).
    1. Une fois que vous avez affecté les trois canaux à l&#39;affichage **du hall** , vous devez pouvoir vue les canaux affectés à partir du tableau de bord d&#39;affichage.
 
