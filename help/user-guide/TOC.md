@@ -3,8 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+workflow-type: ht
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
       + [Activation au niveau des ressources](asset-level-scheduling.md)
       + [Activation au niveau des canaux](channel-level-activation.md)
       + [Création et gestion d’une Live Copy](managing-livecopy.md)
-      + [Création d’un processus de remplissage vidéo](creating-a-video-padding-workflow.md)
+      + [Création d’un workflow de remplissage vidéo](creating-a-video-padding-workflow.md)
       + [Ajout de composants à un canal](adding-components-to-a-channel.md)
       + [Séquences incorporées](embedded-sequences.md)
       + [Disposition multizone](multi-zone-layout-aem-screens.md)
@@ -72,7 +75,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
-      + [Mise à jour de contenu à l’aide du lancement d’écrans](launches.md)
+      + [Mise à jour du contenu à l’aide d’un lancement Screens](launches.md)
    + Exemples de cas d’utilisation {#use-case-examples}
       + [Canaux d’urgence](emergency-channel.md)
       + [Activation de la température de l’agence de voyages](local-temperature-activation.md)
@@ -97,7 +100,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
-   + [Notes de mise à jour du Feature Pack 202004](release-notes-fp-202004.md)
+   + [Notes de mise à jour du Feature Pack 202004](release-notes-fp-202004.md)
    + [Notes de mise à jour du Feature Pack 202001](release-notes-fp-202001.md)
    + [Notes de mise à jour du Feature Pack 201909](release-notes-fp-201909.md)
    + [Notes de mise à jour du Feature Pack 201907](release-notes-fp-201907.md)
