@@ -9,8 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a60de02a19004dd4d971612496f65285ded55716
+workflow-type: ht
+source-wordcount: '2185'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Le tutoriel suivant décrit les étapes à suivre pour créer un composant perso
 
 Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce tutoriel, un simple composant « Hello World » est créé pour un canal de séquence dans AEM Screens. Une boîte de dialogue permet aux auteurs de mettre à jour le texte affiché.
 
-![overviewwhellow](assets/overviewhellow.png)
+![overviewhellow](assets/overviewhellow.png)
 
 ## Conditions préalables {#prerequisites}
 
@@ -539,7 +542,7 @@ Le code ci-dessous indique les exigences minimales du fichier `pom.xml` pour ce 
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=fre_fr)
 
 ## Code terminé {#finished-code}
 
