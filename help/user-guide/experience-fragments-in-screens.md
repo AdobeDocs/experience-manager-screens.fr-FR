@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 85%
 
 ---
 
@@ -39,22 +42,21 @@ Par exemple, le workflow ci-après illustre l’utilisation de fragments d’exp
 
 ### Conditions préalables {#pre-requisites}
 
-**Création d’un projet de démonstration avec un canal**
+**Création d&#39;un projet de démonstration avec un Canal**
 
 ***Création d’un projet***
 
-1. Cliquez sur Screens et sélectionnez **Créer** --&gt; **Créer un projet** pour créer un projet.
-
-1. Sélectionnez **Screens** à partir de l’assistant **Créer un projet Screens**.
-
+1. Click **Create Screens Project** to create a new project.
 1. Saisissez le titre **DemoProject**.
-1. Cliquez sur **Créer**.
+1. Cliquez sur **Enregistrer**.
 
-Un **DemoProject** sera ajouté à AEM Screens. ***Création d’un canal***
+Un **DemoProject** sera ajouté à AEM Screens. 
+
+***Création d’un canal***
 
 1. Accédez au projet **DemoProject** que vous avez créé et sélectionnez le dossier **Channels** (Canaux).
 
-1. Cliquez sur **Créer** dans la barre d’actions (voir la figure ci-dessous). Un assistant s’ouvre.
+1. Click **Create** from the action bar to open the wizard.
 1. Sélectionnez le modèle **Canal de séquence** dans l’assistant et cliquez sur **Suivant**.
 
 1. Saisissez le **titre** **Test_Channel** et cliquez sur **Créer**.
@@ -63,17 +65,17 @@ Un **TestChannel** sera ajouté à votre **DemoProject**.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
-
 ### Création d’un fragment d’expérience {#creating-an-experience-fragment}
 
 Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans votre canal **TestChannel** de **DemoProject**.
 
 1. **Accédez à une page Sites dans We.Retail**
 
-   1. Accédez à Sites, sélectionnez **We.Retail **-&gt;** United States (États-Unis) **-&gt;**English (Anglais) **, puis la page **Equipment** (Matériel) pour l’utiliser comme fragment d’expérience pour votre canal Screens.
+   1. Navigate to Sites and select **We.Retail In-Store** -> **United States** ->**English** and select **Equipment** page to use this as an experience fragment for your Screens channel.
 
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
-   ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
+
+      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Réutilisation du contenu**
 
@@ -86,9 +88,9 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
    1. Choisissez l’**action** **Créer un fragment d’expérience**.
 
    1. Sélectionnez le **Chemin d’accès parent**.
-   1. Sélectionnez le **Modèle**. Choisissez le modèle **Fragment d’expérience - Variation Screens** ici.
+   1. Sélectionnez le **Modèle**. Choose the **Experience Fragment - Screens Variation** template here.
 
-   1. Saisissez le **titre du fragment** **ScreensFragment**.
+   1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. Cliquez sur la coche pour terminer la création d’un fragment d’expérience.
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
@@ -99,7 +101,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
    1. Sélectionnez **Fragments d’expérience** et mettez en surbrillance **ScreensFragment**. Cliquez ensuite sur **Variation comme Live Copy**, comme illustré ci-dessous :
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Sélectionnez le fragment **ScreensFragment **depuis** l’assistant Créer une Live Copy**, puis cliquez sur **Suivant**.
+   c. Select the** ScreensFragment** from **Create Live Copy** wizard and click **Next**.
 
    
 d. Saisissez le **Titre** et le **Nom** **Screens**.
@@ -134,15 +136,15 @@ d. Saisissez le **Titre** et le **Nom** **Screens**.
 
    e. Sélectionnez le composant **Fragment d’expérience**, puis l’icône en haut à gauche (clé) pour ouvrir la boîte de dialogue **Fragment d’expérience**.
 
-   f. Sélectionnez la Live Copy **Screens** du fragment que vous avez créé à l’*étape 3* dans le champ **Chemin d’accès**.
+   f. Select the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Sélectionnez la Live Copy **Screens** du fragment que vous avez créé à l’*étape 3* dans le champ **Fragment d’expérience**.
+   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. Entrez les secondes dans le champ** Durée**.
+   h. Saisissez les millisecondes en **Durée**.
 
    
 i. Sélectionnez la **Configuration hors ligne** dans la boîte de dialogue **Fragments d’expérience** pour définir les bibliothèques côté client et les fichiers statiques.
@@ -169,7 +171,7 @@ Vous verrez le contenu de la page **Sites** (Live Copy du fragment d’expérien
 
 Une ***Live Copy*** désigne la copie (de la source), gérée par des actions de synchronisation telles que définies par les configurations de déploiement.
 
-Comme le fragment d’expérience que nous avons créé est une Live Copy de pages **Sites**, si vous apportez des modifications à ce fragment depuis le gabarit, vous verrez les modifications sur votre canal ou la destination où vous avez utilisé le fragment d’expérience.
+Since the Experience Fragment, we created is a live copy from the **Sites** pages, so if you make changes to that particular fragment from the master page, you will view the changes in your channel or the destination where you have used the Experience Fragment.
 
 >[!NOTE]
 >
@@ -207,7 +209,7 @@ Pour propager les modifications du canal principal vers votre canal de destinati
 
 Pour confirmer les modifications dans votre canal, procédez comme suit :
 
-1. Accédez à **Screens** -&gt; **Channels (Canaux)** -&gt; **TestChannel**.
+1. Accédez à **Screens** -> **Channels (Canaux)** -> **TestChannel**.
 
 1. Cliquez sur **Aperçu** dans la barre d’actions pour confirmer les modifications.
 
