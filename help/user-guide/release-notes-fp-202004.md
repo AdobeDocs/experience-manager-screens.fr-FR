@@ -3,11 +3,11 @@ title: Notes de mise à jour du Feature Pack 202004
 seo-title: Notes de mise à jour du Feature Pack 202004
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 74%
 
 ## Disponibilité {#availability}
 
-AEM Screens a publié AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4.
+AEM Screens a publié AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou AEM Screens 6.5.4 Version d’ [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) à l’aide de votre Adobe ID.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou 6.5.4 à partir d’[Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) en utilisant votre Adobe ID.
 
 >[!NOTE]
->Reportez-vous à [Comment utiliser les packages](https://docs.adobe.com/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html) pour savoir comment les packages permettent l’importation et l’exportation de contenu de référentiel et comment accéder aux packages et/ou les gérer à partir de Package Manager ou Package Share.
+>Reportez-vous à [Comment utiliser les modules](https://docs.adobe.com/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html) pour découvrir comment les modules permettent l’importation et l’exportation de contenu de référentiel, ainsi que comment accéder aux modules et/ou les gérer à partir du gestionnaire de modules ou du partage de modules.
 
 
 ## Date de publication {#release-date}
@@ -48,7 +48,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
 * **Tableau de bord des canaux**
 
-   Reflète les mises à jour apportées aux instructions dans le tableau de bord de canal dans le panneau INFORMATIONS **** CANAL.
+   Reflète les mises à jour apportées aux instructions dans le tableau de bord des canaux au sein du panneau **INFORMATIONS SUR LES CANAUX**.
 
 
 * **Afficher le manifeste**
@@ -67,7 +67,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
    Avec cette version du Feature Pack, le délai de synchronisation des commandes entre les modifications de ressources a été réduit.
 
-   Pour plus d&#39;informations, reportez-vous à **[Command Sync](using-command-sync.md)**.
+   Pour plus d’informations, reportez-vous à **[Synchronisation des commandes](using-command-sync.md)**.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
