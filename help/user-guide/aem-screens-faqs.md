@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Il est recommandé d’obtenir l’ID du périphérique de la session au lieu de
 
 ### 3. Existe-t-il un moyen de refuser une requête d&#39;enregistrement de périphérique ? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Vous ne pouvez pas refuser les requêtes d’enregistrement. Elles doivent au contraire expirer après un délai configuré dans la [console Web Adobe Experience Manager](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceI). Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
+Vous ne pouvez pas refuser les requêtes d’enregistrement. Elles doivent au contraire expirer après un délai configuré dans la [console Web Adobe Experience Manager](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
 
 ## Rapports de surveillance et d’intégrité des périphériques {#device-monitoring-and-health-reports}
 
