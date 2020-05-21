@@ -10,11 +10,11 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1531'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -96,18 +96,18 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
-      >Dans le cadre d’AEM 6.5 Feature Pack 4 ou d’AEM 6.4 Feature Pack 8, les clients doivent effectuer la mise à jour `/conf/screens/settings/cloudsettings` vers `sling:Folder`.
+      >Dans le cadre d’AEM 6.5 Feature Pack 4 ou d’AEM 6.4 Feature Pack 8, les clients doivent effectuer une mise à jour de `/conf/screens/settings/cloudsettings` vers `sling:Folder`.
       > 
       >Suivez les étapes ci-dessous :
       >
       >1. Accédez à CRXDE Lite, puis à `/conf/screens/settings/cloudsettings`.
-      >1. Vérifie si `cloudsettings jcr:primaryType` il est `sling:Folder`. Si le n&#39; `jcr:primaryType` est pas dans `sling:folder`, passez aux étapes suivantes.
-      > 1. Cliquez avec le bouton droit sur `/conf/screens/settings` et créez un nouveau noeud avec *le nom* comme **cloudsettings1** et *Tapez* comme sling:Folder et enregistrez les modifications.****
-      >1. Déplacez tous les noeuds sous `/conf/screens/settings/cloudsettings` le noeud vers `cloudsettings1`.
+      >1. Vérifiez que `cloudsettings jcr:primaryType` se trouve dans `sling:Folder`. Si `jcr:primaryType` ne se trouve pas dans `sling:folder`, passez aux étapes suivantes.
+      > 1. Cliquez avec le bouton droit sur `/conf/screens/settings` et créez un nœud avec le *nom* **cloudsettings1** et le *type* **sling:Folder**, puis enregistrez les modifications.
+      >1. Déplacez tous les nœuds sous `/conf/screens/settings/cloudsettings` vers `cloudsettings1`.
       >1. Supprimez `cloudsettings` et enregistrez.
       >1. Renommez `cloudsettings1` en `cloudsettings` et enregistrez.
-      >1. Vous devez maintenant remarquer que /conf/screens/settings/cloudsettings a `jcr:primaryType` aussi `sling:Folder`.
-Vous devez suivre ces étapes dans la création et la publication avant ou après la mise à niveau.
+      >1. /conf/screens/settings/cloudsettings doit maintenant présenter `sling:Folder` comme `jcr:primaryType`.
+Vous devez suivre ces étapes dans l’instance de création et de publication avant ou après la mise à niveau.
 
 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
