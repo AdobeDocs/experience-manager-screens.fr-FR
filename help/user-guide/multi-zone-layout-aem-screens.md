@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ En fonction des exigences du projet, il est parfois nécessaire de disposer de p
 
 ### Conditions préalables {#prerequisites}
 
-Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséder des connaissances conceptuelles concernant les aspects suivants :
+Avant de début l&#39;implémentation de cette fonctionnalité, assurez-vous de posséder les connaissances conceptuelles sur :
 
 * [Création d’un projet AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Création d’un affichage](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ Lors de la création d’un canal, vous pouvez utiliser des modèles différents
 
 ### {#using-single-assets-in-one-or-more-zones}Utilisation de ressources uniques dans une ou plusieurs zones
 
-Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo dans les trois zones différentes. Suivez les étapes ci-dessous pour la mise en œuvre :
+Vous pouvez utiliser des fichiers uniques, tels qu’une image ou une vidéo, dans toutes les zones individuelles. Suivez les étapes ci-dessous pour la mise en œuvre :
 
 1. **Ajout de contenu au canal**
 
@@ -76,7 +76,7 @@ Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo 
 
 ### Utilisation de contenu séquentiel dans une ou plusieurs zones {#using-sequenced-content-in-one-or-more-zones}
 
-Si vous souhaitez que les zones affichent une séquence d’images et une vidéo dans deux zones différentes, suivez les étapes ci-dessous pour plus de détails.
+Si vous souhaitez que les zones affichent une séquence d’images et une vidéo dans les différentes zones, suivez les étapes ci-dessous pour plus de détails.
 
 1. **Créer un dossier de canaux**
 
@@ -135,7 +135,7 @@ Vous devez créer un emplacement et un affichage afin de visualiser le contenu d
    1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
    1. Saisissez le **Titre** **Lobby**, puis cliquez sur **Créer**.
 
-### Affectation d’un canal à l’affichage {#channel-channel}
+### Assigning Channels to the Display {#channel-channel}
 
 Vous devez affecter les canaux à l’affichage de façon à visualiser le contenu. Suivez les étapes ci-dessous pour affecter le canal à l’affichage.
 
@@ -174,7 +174,7 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
    1. Saisissez le **Titre** **Chrome-Device1**, puis cliquez sur **Enregistrer**.
    1. Sélectionnez **Attribuer l’affichage** et choisissez le chemin de la configuration du périphérique.
    >[!NOTE]
-   >Si vous essayez d’afficher le contenu dans le lecteur Screens, veillez à cliquer sur **Mettre à jour le contenu hors ligne** dans le tableau de bord des canaux.
+   >Si vous tentez de vue le contenu dans le lecteur d’écran, veillez à cliquer sur **Mettre à jour le contenu** hors ligne dans le tableau de bord de canal pour chacun des canaux affectés à l’affichage.
 
 ### Affichage du résultat {#viewing-the-result}
 
