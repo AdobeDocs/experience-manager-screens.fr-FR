@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
    + [Connexion à un lecteur Screens](working-with-screens-player.md)
    + [Enregistrement de périphériques](device-registration.md)
    + [Configuration des listes de contrôle d’accès](setting-up-acls.md)
-   + [Liste de contrôle de sécurité des écrans AEM](security-checklist.md)
+   + [Liste de contrôle de sécurité d’AEM Screens](security-checklist.md)
    + [Transition de ContentSync à SmartSync](smartsync.md)
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
    + [Réplication des triggers de données sur les serveurs de publication](replicating-data-triggers.md)
