@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
-workflow-type: ht
-source-wordcount: '1105'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 97%
 
 ---
 
@@ -71,11 +71,9 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
 1. **Accédez à une page Sites dans We.Retail**
 
-   1. Accédez à Sites, sélectionnez **We.Retail** -> **United States (États-Unis)** -> **English (Anglais)**, puis la page **Equipment (Matériel)** pour l’utiliser comme fragment d’expérience pour votre canal Screens.
+   1. Navigate to Sites and select **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel.
 
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Réutilisation du contenu**
 
