@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ En fonction des exigences du projet, il est parfois nécessaire de disposer de p
 
 ### Conditions préalables {#prerequisites}
 
-Avant de début l&#39;implémentation de cette fonctionnalité, assurez-vous de posséder les connaissances conceptuelles sur :
+Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséder des connaissances conceptuelles concernant les aspects suivants :
 
 * [Création d’un projet AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Création d’un affichage](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -59,9 +59,9 @@ Lors de la création d’un canal, vous pouvez utiliser des modèles différents
 
 1. Cliquez sur **Créer** pour terminer la création du canal.
 
-### {#using-single-assets-in-one-or-more-zones}Utilisation de ressources uniques dans une ou plusieurs zones
+### Utilisation de ressources uniques dans une ou plusieurs zones {#using-single-assets-in-one-or-more-zones}
 
-Vous pouvez utiliser des fichiers uniques, tels qu’une image ou une vidéo, dans toutes les zones individuelles. Suivez les étapes ci-dessous pour la mise en œuvre :
+Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo dans chacune des zones. Suivez les étapes ci-dessous pour la mise en œuvre :
 
 1. **Ajout de contenu au canal**
 
@@ -135,7 +135,7 @@ Vous devez créer un emplacement et un affichage afin de visualiser le contenu d
    1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
    1. Saisissez le **Titre** **Lobby**, puis cliquez sur **Créer**.
 
-### Assigning Channels to the Display {#channel-channel}
+### Affectation de canaux à l’affichage {#channel-channel}
 
 Vous devez affecter les canaux à l’affichage de façon à visualiser le contenu. Suivez les étapes ci-dessous pour affecter le canal à l’affichage.
 
@@ -174,7 +174,7 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
    1. Saisissez le **Titre** **Chrome-Device1**, puis cliquez sur **Enregistrer**.
    1. Sélectionnez **Attribuer l’affichage** et choisissez le chemin de la configuration du périphérique.
    >[!NOTE]
-   >Si vous tentez de vue le contenu dans le lecteur d’écran, veillez à cliquer sur **Mettre à jour le contenu** hors ligne dans le tableau de bord de canal pour chacun des canaux affectés à l’affichage.
+   >Si vous essayez d’afficher le contenu dans le lecteur Screens, veillez à cliquer sur **Mettre à jour le contenu hors ligne** dans le tableau de bord des canaux pour chacun des canaux affectés à l’affichage.
 
 ### Affichage du résultat {#viewing-the-result}
 
