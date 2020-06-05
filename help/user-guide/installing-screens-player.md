@@ -5,10 +5,10 @@ description: Installation du lecteur Screens
 seo-description: Installation du lecteur Screens
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 6d123b844831dd5c07261bcadd170029f972ee7d
+source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ Cette page décrit comment installer le lecteur AEM Screens.
 
 ## Lecteur Screens disponible {#available-players}
 
-Le lecteur AEM Screens est disponible pour Android, Chrome OS,  et Windows.
+Le lecteur AEM Screens est disponible pour Android, Chrome OS et Windows.
 
 Pour télécharger le **lecteur AEM Screens**, consultez la page de [téléchargement du lecteur AEM 6.5](https://download.macromedia.com/screens/).
 
