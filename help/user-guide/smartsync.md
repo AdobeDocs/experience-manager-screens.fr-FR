@@ -9,18 +9,18 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Transition de ContentSync à SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-Cette section présente la fonction SmartSync et explique comment elle réduit la charge de serveur/enregistrement et le trafic réseau pour réduire les coûts.
+Cette section présente la fonctionnalité SmartSync et explique comment elle minimise la charge/le stockage du serveur et le trafic réseau afin de réduire les coûts.
 
 ## Présentation {#overview}
 
@@ -57,7 +57,7 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scree
 >
 >SmartSync est disponible pour le lecteur Screens avec les serveurs AEM 6.4.3 FP3 pris en charge.
 >
->Reportez-vous à la section [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur. Le tableau suivant décrit la version minimale du lecteur requise pour chaque plateforme :
+>Reportez-vous à la section [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur. Le tableau suivant décrit la version minimale du lecteur requise pour chaque plate-forme :
 
 | **Plate-forme** | **Version minimale du lecteur prise en charge** |
 |---|---|
@@ -69,7 +69,7 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
 
 1. La migration de ContentSync vers SmartSync nécessite l’effacement du cache ContentSync avant l’activation de SmartSync.
 
-   Accédez à la console ContentSync à partir de votre instance à l’aide du lien ***https://localhost:4502/libs/cq/contentsync/content/console.html*** et cliquez sur **Effacer le cache**, comme illustré ci-dessous :
+   Accédez à la console ContentSync à partir de votre instance à l’aide du lien ***https://localhost:4502/libs/cq/contentsync/content/console.html*** et cliquez sur **Effacer le cache**, comme illustré ci-dessous :
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -81,13 +81,13 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **La configuration de la console Web d’Adobe Experience Manager** s’ouvre. Recherchez *Offlinecontentservice*.
+1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez *offlinecontentservice*.
 
-   Pour rechercher la propriété **Services contenus hors-ligne Screens** , appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
+   Pour rechercher la propriété **Screens Offline Content Services**, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Cliquez sur **Enregistrer** pour activer la propriété **Services contenus hors ligne Screens** et, par conséquent, utiliser SmartSync pour AEM Screens.
+1. Cliquez sur **Enregistrer** pour activer la propriété **Screens Offline Content Services** et, par conséquent, utiliser SmartSync pour AEM Screens.
 1. Une fois que vous avez activé SmartSync, vous devez accéder à votre projet et cliquer sur **Mettre à jour le contenu hors ligne** *(dans la barre d’actions),* comme illustré ci-dessous.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
