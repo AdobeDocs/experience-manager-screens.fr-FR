@@ -3,13 +3,19 @@ title: Liste de contrôle de sécurité d’AEM Screens
 seo-title: Liste de contrôle de sécurité d’AEM Screens
 description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
 seo-description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
-translation-type: ht
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+translation-type: tm+mt
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
 
 # Considérations relatives à la sécurité des systèmes pour AEM Screens {#security-checklist}
+
+>[!IMPORTANT]
+>Il s&#39;agit d&#39;une ressource Git interne.
 
 Cette page contient des considérations relatives à la sécurité des systèmes pour AEM Screens.
 
