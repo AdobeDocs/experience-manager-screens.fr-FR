@@ -10,8 +10,11 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: ht
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 99%
 
 ---
 
@@ -129,7 +132,7 @@ Pour chaque instance de publication :
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Liste blanche des connecteurs de topologie : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication
+1. Liste autorisée du connecteur de topologie : s’adapter aux adresses IP ou sous-réseaux couvrant les instances de publication de participation
 1. Activez **Arrêt automatique des boucles locales**
 
 La configuration doit être identique pour chaque instance de publication et l’arrêt automatique des boucles locales empêche la création d’une boucle infinie.
