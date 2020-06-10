@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
 1. **Accédez à une page Sites dans We.Retail**
 
-   1. Navigate to Sites and select **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel.
+   1. Accédez à Sites, puis sélectionnez **We.Retail In-Store** (En magasin) -> **Channels** (Canaux) -> **Idle channel - Night** (Canal inactif - nuit) et enfin cette page afin de l’utiliser comme fragment d’expérience pour votre canal Screens.
 
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
 
@@ -79,6 +79,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
    1. Sélectionnez le fragment à inclure dans votre canal.
    1. Cliquez sur la dernière icône à droite pour ouvrir la boîte de dialogue **Convertir en fragment d’expérience**.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Création d’un fragment d’expérience**
@@ -91,12 +92,14 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
    1. Saisissez le **Titre du fragment** **ScreensFragment**.
 
    1. Cliquez sur la coche pour terminer la création d’un fragment d’expérience.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Création d’une Live Copy du fragment d’expérience**
 
    1. Accédez à la page d’accueil d’AEM.
    1. Sélectionnez **Fragments d’expérience** et mettez en surbrillance **ScreensFragment**. Cliquez ensuite sur **Variation comme Live Copy**, comme illustré ci-dessous :
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Sélectionnez le fragment **ScreensFragment depuis l’assistant **Créer une Live Copy**, puis cliquez sur **Suivant**.
@@ -119,6 +122,7 @@ d. Saisissez le **Titre** et le **Nom** **Screens**.
    1. Accédez au fragment **ScreensFragment** (que vous avez créé lors des étapes précédentes) et cliquez sur **Propriétés** dans la barre d’actions.
 
    1. Sélectionnez l’onglet **Configuration hors ligne**, comme illustré ci-dessous.
+
    Vous pouvez ajouter les **bibliothèques côté client** (java et css) et les **fichiers statiques** à votre fragment d’expérience.
 
    L’exemple ci-dessous illustre l’ajout de bibliothèques côté client et de polices en tant que fichiers statiques au fragment d’expérience. ![fragment](assets/fragment.gif)
@@ -130,6 +134,7 @@ d. Saisissez le **Titre** et le **Nom** **Screens**.
 
    1. Cliquez sur l’icône des composants dans l’onglet latéral.
    1. Faites glisser le **fragment d’expérience** et déposez-le dans votre canal.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Sélectionnez le composant **Fragment d’expérience**, puis l’icône en haut à gauche (clé) pour ouvrir la boîte de dialogue **Fragment d’expérience**.
