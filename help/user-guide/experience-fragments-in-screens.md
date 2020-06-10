@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Cette page aborde les sujets suivants :
 
 * **Présentation**
 * **Utilisation de fragments d’expérience dans AEM Screens**
-* **Propagation des modifications à partir du gabarit**
+* **Propagation des modifications apportées à la page**
 
 ## Présentation {#overview}
 
@@ -170,7 +170,7 @@ Une fois les étapes précédentes terminées, vous pouvez valider le fragment d
 Vous verrez le contenu de la page **Sites** (Live Copy du fragment d’expérience) dans votre canal, comme illustré ci-dessous :\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Propagation des modifications à partir du gabarit {#propagating-changes-from-the-master-page}
+## Propagation des modifications apportées à la page {#propagating-changes-from-the-master-page}
 
 Une ***Live Copy*** désigne la copie (de la source), gérée par des actions de synchronisation telles que définies par les configurations de déploiement.
 
@@ -180,9 +180,9 @@ Comme le fragment d’expérience que nous avons créé est une Live Copy de pag
 >
 >Pour plus d’informations sur les Live Copy, voir Réutilisation de contenu : Multi Site Manager et Live Copy.
 
-Pour propager les modifications du canal principal vers votre canal de destination :
+Suivez les étapes ci-dessous pour propager les modifications du canal maître à votre canal de destination :
 
-1. Sélectionnez le fragment d’expérience sur la page (gabarit) **Sites** et cliquez sur l’icône en forme de crayon pour modifier les éléments du fragment d’expérience.
+1. Select the Experience Fragment from the **Sites** (master) page and click the pencil icon to edit the items in the Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
