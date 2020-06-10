@@ -3,11 +3,11 @@ title: Notes de mise à jour du Feature Pack 202004
 seo-title: Notes de mise à jour du Feature Pack 202004
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
-translation-type: ht
-source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 88%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 100%
 
 AEM Screens a publié AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou 6.5.4 à partir d’[Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) en utilisant votre Adobe ID.
-
->[!NOTE]
->Reportez-vous à [Comment utiliser les modules](https://docs.adobe.com/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html) pour découvrir comment les modules permettent l’importation et l’exportation de contenu de référentiel, ainsi que comment accéder aux modules et/ou les gérer à partir du gestionnaire de modules ou du partage de modules.
-
+You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) using your Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
 ## Date de publication {#release-date}
 
