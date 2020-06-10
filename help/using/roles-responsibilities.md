@@ -3,8 +3,11 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: ht
-source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +99,7 @@ Pour garantir la réussite du déploiement de la solution de signalétique digit
 >[!NOTE]
 >
 > Bien que ce guide mette principalement l’accent sur le *jour 1* et le *jour 2*, il est important de se pencher sur les trois étapes pour mener à bien un projet de signalétique digitale.
-Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
+Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)**pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
 
 ## Matrice RACI {#raci-chart}
 
@@ -167,7 +170,7 @@ Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jou
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | L’aménagement du point de vente comprend les opérations de câblage | - | - | - | - |
 | Sélection du matériel de lecture | RAC | - | - | - |
-| Gestion de l’appareil principal | RA | I | - | - |
+| Gestion des périphériques de l&#39;élément maître | RA | I | - | - |
 | Commande, stockage et configuration des appareils | RA | CI | I | - |
 | Définition du processus d’assistance | RA | I | RA | C |
 
@@ -183,7 +186,7 @@ Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jou
 
 Le tableau suivant résume la **matrice RACI pour le jour 2 : assistance après le lancement** :
 
-| **Phase** | **Créateur** | **Développeur** | **Technicien** |
+| **Phase** | **Création** | **Développeur** | **Technicien** |
 |---|---|---|---|
 | *Jour 2 : assistance après le lancement* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA |
