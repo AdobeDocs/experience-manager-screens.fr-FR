@@ -2,7 +2,7 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Pour les cas d&#39;utilisation où il y a plus d&#39;interactions avec des capte
 
 Le tableau suivant présente un aperçu des données clés de connectivité réseau :
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >Ces informations vous permettent de vue la consommation de chaque périphérique du réseau qui demande et télécharge une source Internet. Ainsi, chacune de ces requêtes additionne et étend le temps de téléchargement.
