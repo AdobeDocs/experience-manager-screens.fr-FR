@@ -2,18 +2,18 @@
 cloud: experience-cloud
 solution-title: AEM Screens
 index: y
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
+solution-hub-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/aem-screens-introduction.html
 solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: Guide de l’utilisateur et Guide des meilleures pratiques pour les écrans AEM
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
+getting-started-title: Guide de l’utilisateur et guide des bonnes pratiques pour AEM Screens
+getting-started-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/aem-screens-introduction.html
 tutorials-title: Tutoriels
-tutorials-url: https://docs.adobe.com/content/help/fr/experience-manager-screens/using/about-guide.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.fr-FR
-translation-type: tm+mt
+tutorials-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html
+git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
+translation-type: ht
 source-git-commit: d425a71ff5516161a8a2e571a206aaedfd1ab3a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
