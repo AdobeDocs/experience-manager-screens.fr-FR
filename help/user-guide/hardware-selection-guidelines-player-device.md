@@ -1,16 +1,16 @@
 ---
-title: Instructions de sélection du matériel pour les périphériques du lecteur
-description: Instructions de sélection du matériel pour les périphériques du lecteur
-translation-type: tm+mt
+title: Instructions de sélection du matériel pour les appareils de lecture
+description: Instructions de sélection du matériel pour les appareils de lecture
+translation-type: ht
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Instructions de sélection du matériel pour le périphérique de lecture {#hardware-selection}
+# Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection}
 
 La section suivante présente les instructions de sélection du matériel pour un lecteur AEM Screens.
 
