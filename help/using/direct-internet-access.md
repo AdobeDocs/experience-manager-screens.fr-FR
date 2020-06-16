@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Accès direct à Internet {#direct-internet-access}
 
-La configuration Direct Internet Access contient un point d’accès à Internet pour accéder aux services AEM Cloud auxquels AEM Screens doit se connecter.
+La configuration Direct Internet Access contient un point d&#39;accès pour l&#39;accès à Internet afin d&#39;atteindre les AEM cloud services auxquels les AEM Screens doivent se connecter.
 
 Les ports standard pour la communication AEM Screens sont les suivants :
 * `http (TCP Port 80)`
@@ -26,7 +26,7 @@ Les ports peuvent varier en fonction de la configuration de votre configuration 
 La configuration inclut également un accès Internet par tout prestataire Internet et sa ligne Internet. La plupart des FAI fournissent un routeur Internet couvrant le modem Internet, le commutateur réseau, le point d’accès WIFI, le pare-feu et d’autres fonctionnalités réseau (selon le fabricant et le modèle).
 
 >[!NOTE]
->**Conseil de dépannage **>Si AEM Screens ne se connecte pas correctement et affiche le contenu attendu :
+>**Conseil de dépannage **>Si le AEM Screens ne se connecte pas correctement et affiche le contenu attendu :
 >
 >1. Vérifiez dans votre pare-feu de routeur Internet s&#39;il existe des restrictions concernant `TCP/IP Port 80/443`.
 >1. Assurez-vous que tous les ports requis sont autorisés et réessayez.
@@ -38,18 +38,18 @@ La configuration du réseau Direct Access peut être logiquement séparée en de
 
 ### Connexion WAN/Internet {#wan-connection}
 
-Les performances de la connexion Internet ont pour but, en plus de l’accessibilité réseau déjà décrite, de fournir une bande passante suffisante pour faire fonctionner AEM Screens de manière agréable et fluide. En détail, &quot;suffisant&quot; dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres consommateurs du réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux WIFI invités.
-Gardez à l&#39;esprit que tous les périphériques ont un accès simultané à la connexion Internet et que la bande passante diminue habituellement de façon linéaire tout en ajoutant plus de consommateurs/ordinateurs au réseau.
+Les performances de la connexion Internet ont, en plus de l&#39;accessibilité réseau déjà décrite, pour fournir suffisamment de bande passante pour fonctionner correctement et en douceur AEM Screens. En détail, &quot;suffisant&quot; dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres consommateurs du réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux WIFI invités.
+Gardez à l’esprit que tous les périphériques ont un accès simultané à la connexion Internet et que la bande passante diminue habituellement de façon linéaire tout en ajoutant plus de consommateurs/ordinateurs au réseau.
 
 ### Connexion LAN {#lan-connection}
 
-Les performances du réseau local ont, en plus de l&#39;accessibilité réseau déjà décrite, pour fournir une bande passante suffisante pour faire fonctionner AEM Screens de manière agréable et sans heurts. En ce moment, le réseau LAN correspond généralement à un réseau de 100 Mo/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
+Les performances du réseau local ont, en plus de l&#39;accessibilité réseau déjà décrite, pour fournir une bande passante suffisante pour fonctionner correctement et en douceur AEM Screens. En ce moment, le réseau LAN correspond généralement à un réseau de 100 Mo/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
 Si une solution WIFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum les standards WIFI modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit. Toute *nouvelle* norme telle que 802.11h-n est de meilleure qualité. Si un répéteur WIFI est requis, nous recommandons fortement les technologies de point d&#39;accès Mesh WIFI comme Google Nest Mesh WIFI ou similaire.
 D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de bande passante dans l&#39;ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
 
-AEM Screens offre un grand avantage aux utilisateurs de Digital Signage. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que des images et des vidéos. En raison de ce concept, le trafic réseau majeur se produit au cas où un nouveau contenu s’afficherait sur un écran spécifique.
+Le AEM Screens offre un grand avantage aux utilisateurs de Digital Signage. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que des images et des vidéos. En raison de ce concept, le trafic réseau majeur se produit au cas où un nouveau contenu s’afficherait sur un écran spécifique.
 Pour une opération normale, par exemple, après avoir défini une liste de lecture qui ne change pas très souvent pendant la journée, cette opération offre une opération indépendante du réseau proche, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d&#39;utilisation où il y a plus d&#39;interactions avec des capteurs ou d&#39;autres déclencheurs et le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d&#39;écran immédiate afin d&#39;assurer une expérience client optimale.
 
