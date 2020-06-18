@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 99%
@@ -132,7 +132,7 @@ Pour chaque instance de publication :
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Liste autorisée du connecteur de topologie : s’adapter aux adresses IP ou sous-réseaux couvrant les instances de publication de participation
+1. **Liste** de liste blanche du connecteur de topologie : s’adapter aux adresses IP ou sous-réseaux couvrant les instances de publication de participation
 1. Activez **Arrêt automatique des boucles locales**
 
 La configuration doit être identique pour chaque instance de publication et l’arrêt automatique des boucles locales empêche la création d’une boucle infinie.
@@ -257,7 +257,7 @@ Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 Vous pouvez également activer le périphérique à partir de la console de gestion des périphériques. Suivez les étapes ci-dessous :
 
 1. Accédez à votre projet Screens —> **Périphériques**.
-1. Cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
+1. Cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
 1. Sélectionnez le périphérique et cliquez sur **Activer** dans la barre d’actions, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
