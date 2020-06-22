@@ -2,9 +2,9 @@
 title: Configuration du réseau mobile
 description: La page décrit la configuration du réseau mobile.
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 44%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 44%
 
 # Configurations de réseau mobile {#mobile-network-setup}
 
-Les lecteurs AEM Screens Adobe peuvent également être connectés à l&#39;aide de réseaux mobiles/cellulaires exécutant au moins un réseau 3G.
-Dans les AEM Screens, le contenu nécessaire est physiquement téléchargé sur le contrôleur/ordinateur du lecteur et correctement stocké dans le système d&#39;exploitation sous-jacent. Par conséquent, la bande passante donnée n’a qu’une incidence sur les temps de téléchargement initiaux et n’a aucune incidence sur les performances des systèmes d’affichage.
-Connexion des lecteurs AEM Screens avec une connexion cellulaire 3/4/5G à votre fournisseur de données de service mobile. L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte, avec le plus de béton ou de métal environnant le moins possible.
-Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilité car aucune ligne fixe n’est nécessaire pour connecter les AEM Screens.
+Les joueurs AEM Screens peuvent également être connectés à l&#39;aide de réseaux mobiles ou cellulaires exécutant au moins un réseau 3G.
 
+Dans les AEM Screens, le contenu requis est physiquement téléchargé sur le contrôleur du lecteur ou sur l&#39;ordinateur et correctement stocké dans le système d&#39;exploitation sous-jacent. Par conséquent, la bande passante donnée n’a un impact que sur les temps de téléchargement initiaux et n’a aucune incidence sur les performances des écrans.
+
+Connexion des lecteurs AEM Screens avec une connexion cellulaire 3/4/5G à votre fournisseur de données de service mobile. L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte, avec le plus de béton ou de métal environnant le moins possible.
+
+Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilité car aucune connexion fixe n’est requise pour connecter les AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilit�
 >
 >1. Vérifiez dans le pare-feu de votre routeur Internet s’il existe des restrictions concernant `TCP/IP Port 80/443`.
 >1. Assurez-vous que tous les ports requis sont autorisés et réessayez.
-
 
 
 
