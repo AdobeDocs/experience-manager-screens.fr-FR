@@ -2,44 +2,46 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 translation-type: tm+mt
-source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
+source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '583'
+ht-degree: 90%
 
 ---
 
 
 # Réseaux d’entreprise fermés {#enclosed-corporate-networks}
 
-La configuration de réseau d&#39;entreprise intégrée s&#39;applique aux petites, grandes et grandes entreprises. Il peut être théoriquement plus complexe, mais la configuration logique est toujours comme illustré ci-dessous dans un exemple simplifié.
+La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. En théorie, la configuration logique peut être plus complexe, mais elle correspond toujours à l’illustration simplifiée ci-dessous.
 
-## Conditions requises pour la configuration de réseaux d&#39;entreprise fermés {#requirements-enclosed-networks}
+## Conditions requises pour la configuration des réseaux d’entreprise fermés {#requirements-enclosed-networks}
 
-La configuration réseau d&#39;entreprise enfermée peut être logiquement séparée en deux blocs. Le bloc de connexion WAN/External World/Internet et le réseau local/local interne.
+La configuration réseau d&#39;entreprise enfermée peut être logiquement séparée en deux blocs. Le réseau étendu (WAN) et le réseau local interne (LAN).
 
-### Connexion WAN/Internet {#wan-connection}
+![](/help/using/assets/enclosed-network-1.png)
 
-Les performances de la connexion Internet ont, en plus de l&#39;accessibilité réseau déjà décrite, pour fournir suffisamment de bande passante pour fonctionner correctement et en douceur AEM Screens.
-En détail, &quot;suffisant&quot; dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres consommateurs du réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux WIFI invités.
-Gardez à l&#39;esprit que tous les périphériques ont un accès simultané à la connexion Internet et que la bande passante diminue habituellement de façon linéaire tout en ajoutant plus de consommateurs/ordinateurs au réseau.
+### Réseau étendu {#wan-connection}
 
-### Connexion LAN {#lan-connection}
+En plus de l’accessibilité réseau déjà décrite, la connexion Internet doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide.
+Plus précisément, la bande passante suffisante dépend du nombre d’écrans AEM connectés et de l’utilisation d’autres appareils gourmands en bande passante sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+Gardez à l’esprit que tous les appareils ont un accès simultané à la connexion Internet et que la bande passante diminue généralement de façon linéaire à mesure que des appareils gourmands/ordinateurs sont ajoutés au réseau.
 
-Les performances du réseau local ont, en plus de l&#39;accessibilité réseau déjà décrite, pour fournir une bande passante suffisante pour fonctionner correctement et en douceur AEM Screens. En ce moment, le réseau LAN au sein des entreprises correspond généralement au moins à un réseau de 1000 Mo/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. En utilisant d&#39;autres composants réseau actifs, il est obligatoire que tous ceux-ci correspondent aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 1000 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+### Réseau local {#lan-connection}
 
-### Autres caractéristiques des réseaux d&#39;entreprise {#other-networks}
+En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. Actuellement, le réseau LAN des entreprises atteint généralement un débit de 1 000 Mbit/s, de sorte qu’il devrait y avoir suffisamment de bande passante pour connecter de nombreux appareils au système avec de bonnes performances. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 1 000 Mbit/s et à la bande passante fournie par l’accès Internet/la spécification du routeur.
 
-Habituellement, les réseaux d&#39;entreprise ont une charge de périphériques connectés, peuvent être séparés en divers sous-réseaux et peuvent avoir des connexions Internet redondantes ou multiplexées pour fournir des performances suffisantes pour plusieurs milliers d&#39;accès simultanés.
-Le schéma ci-dessus est simplifié et s&#39;adapte dans la plupart des cas à l&#39;environnement disponible pour le client.
-Si une solution WiFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum des normes WIFI modernes comme IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit. Les normes &quot;plus récentes&quot; comme 802.11h-n sont de meilleure qualité. Si un répéteur WIFI est requis, nous recommandons fortement la technologie Mesh WIFI Accesspoint comme Google Nest Mesh WIFI ou similaire.
-D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de bande passante dans l&#39;ensemble du réseau.
+### Autres caractéristiques des réseaux d’entreprise {#other-networks}
+
+Généralement, les réseaux d’entreprise présentent un grand nombre d’appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
+Le schéma simplifié ci-dessus s’adapte dans la plupart des cas à l’environnement disponible pour le client.
+Si une solution Wi-Fi est envisagée pour connecter l’écran à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
+D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
 
-Le AEM Screens offre un grand avantage aux utilisateurs de Digital Signage. Il est en train de télécharger et d’enregistrer localement tous les fichiers multimédia nécessaires, tels que les images et les vidéos. En raison de ce concept, le trafic réseau majeur se produit au cas où un nouveau contenu s’afficherait sur un écran spécifique.
-Pour un fonctionnement normal, par exemple après avoir défini une liste de lecture qui n’est pas changée très souvent pendant la journée, cela offre une opération indépendante du réseau proche, une fois tous les fichiers enregistrés sur le lecteur. Pour les cas d&#39;utilisation où il y a plus d&#39;interactions avec les capteurs ou d&#39;autres déclencheurs et le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d&#39;écran immédiate afin d&#39;assurer une expérience client optimale.
+AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
+Pour le fonctionnement normal, par exemple, si vous avez défini une liste de lecture qui ne change pas très souvent au cours de la journée, cela permet d’opérer de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur. Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 
-Les tableaux ci-dessous offre une bonne vue d&#39;ensemble des données clés de connectivité réseau pour les performances prévisibles et les temps de fuite potentiels.
+Les tableaux suivants offre une bonne vue d&#39;ensemble des données clés de connectivité réseau pour les performances prévisibles et les temps d&#39;attente potentiels.
 
-Toutes les informations doivent être considérées comme la consommation de chaque périphérique du réseau demandant et téléchargeant une source Internet. Ainsi, chacune de ces requêtes additionne et étend le temps de téléchargement.
+Toutes ces informations doivent être considérées comme la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
