@@ -2,10 +2,10 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 92%
+source-wordcount: '586'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ Les ports peuvent varier en fonction de la configuration de votre configuration 
 La configuration inclut également un accès Internet par tout Prestataire Internet (FAI) et sa ligne Internet. La plupart des FAI fournissent un routeur Internet couvrant le modem Internet, le commutateur réseau, le point d&#39;accès WIFI, le pare-feu et d&#39;autres fonctionnalités réseau (selon le fabricant et le modèle).
 
 >[!NOTE]
->**Conseil de dépannage **>Si AEM Screens ne se connecte pas correctement et affiche le contenu attendu :
+>**Conseil de dépannage **>Si le AEM Screens ne se connecte pas correctement et n’affiche pas le contenu attendu :
 >
 >1. Vérifiez dans le pare-feu de votre routeur Internet s’il existe des restrictions concernant `TCP/IP Port 80/443`.
 >1. Assurez-vous que tous les ports requis sont autorisés et réessayez.
