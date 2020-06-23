@@ -2,28 +2,28 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 28%
+source-wordcount: '689'
+ht-degree: 14%
 
 ---
 
 
 # Réseau Internet direct (câblé/sans fil) {#direct-internet-access}
 
-Le Direct Internet Access SetUp contient un point d&#39;accès pour l&#39;accès à Internet afin d&#39;atteindre les AEM cloud services auxquels les AEM Screens doivent se connecter.
+Le réseau Internet direct contient un point d&#39;accès pour l&#39;accès à Internet afin d&#39;atteindre les AEM cloud services auxquels les AEM Screens doivent se connecter.
 
 Les ports standard pour la communication AEM Screens sont les suivants :
 * `http (TCP Port 80)`
 Ou,
 * `ssl-secured https (TCP Port 443)`
 
-Les ports peuvent varier en fonction de la configuration de votre configuration AEM dédiée. Dans cette configuration, tous les appareils sont directement connectés à votre routeur Internet, comme le montre la figure ci-dessous.
+Les ports peuvent varier en fonction de la configuration de votre configuration AEM dédiée. Dans cette configuration, tous les périphériques sont directement connectés à votre routeur Internet, comme le montre la figure ci-dessous.
 
 ![](/help/assets/direct-access-2.png)
 
-La configuration inclut également un accès Internet par tout Prestataire Internet (FAI) et sa ligne Internet. La plupart des FAI fournissent un routeur Internet couvrant le modem Internet, le commutateur réseau, le point d&#39;accès WIFI, le pare-feu et d&#39;autres fonctionnalités réseau (selon le fabricant et le modèle).
+La configuration inclut également un accès Internet par tout Prestataire Internet (FAI) et sa ligne Internet. La plupart des FAI fournissent un routeur Internet couvrant le modem Internet, le commutateur réseau, le point d’accès WIFI, le pare-feu et d’autres fonctionnalités réseau (selon le fabricant et le modèle).
 
 ## Connexion d&#39;un lecteur AEM Screens à un accès Internet direct {#connecting-aem-screens-players}
 
@@ -40,8 +40,8 @@ Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM da
 
 1. Assurez-vous que le paramètre de carte réseau correspond bien à votre paramètre de routeur et vérifiez si le nombre maximal d&#39;adresses IP disponibles dans votre réseau n&#39;est pas atteint.
 
-1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;une DEL de signal sur les routeurs standard.
-1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et les enregistrer en conséquence. AEM Screens Débuts.
+1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Vous pouvez également l&#39;identifier à l&#39;aide d&#39;un voyant de signalisation sur les routeurs standard.
+1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à vous enregistrer. AEM Screens Débuts.
 
    >[!NOTE]
    >**Conseil de dépannage**
@@ -53,7 +53,7 @@ Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM da
 
 ## Configuration d’un réseau d’accès direct {#requirements-direct}
 
-La configuration du réseau Direct Access peut être logiquement séparée en deux blocs :
+Le réseau Internet direct peut logiquement être divisé en deux blocs :
 
 * Réseau étendu
 
@@ -61,28 +61,30 @@ La configuration du réseau Direct Access peut être logiquement séparée en de
 
 ### Réseau étendu {#wan-connection}
 
-La performance de la connexion Internet en plus de l&#39;accessibilité du réseau, est de fournir suffisamment de bande passante pour fonctionner correctement en AEM Screens.
+Les performances de la connexion Internet en plus de l&#39;accessibilité du réseau sont de fournir une bande passante suffisante pour utiliser le AEM Screens.
 
-*Suffisamment* dépend de la quantité d&#39;écrans AEM connectés et de l&#39;utilisation d&#39;autres consommateurs dans le réseau, tels que les smartphones, les tablettes, les caissiers, les ordinateurs ou les réseaux WIFI invités.
+*Suffisamment* dépend de la quantité d&#39;écrans AEM connectés et de l&#39;utilisation d&#39;autres consommateurs dans le réseau, tels que les smartphones, tablettes, caissiers, ordinateurs ou réseaux WIFI invités.
 
 >[!NOTE]
->Tous les périphériques ont un accès simultané à la connexion Internet et la bande passante diminue habituellement de façon linéaire lorsque vous ajoutez plus de consommateurs/ordinateurs au réseau.
+>Tous les périphériques ont un accès simultané à la connexion Internet et la bande passante diminue de façon linéaire lorsque vous ajoutez plus de consommateurs ou d&#39;ordinateurs au réseau.
 
 ### Réseau local {#lan-connection}
 
-Les performances du réseau local (LAN), en plus de l&#39;accessibilité du réseau, fournissent une bande passante suffisante pour un bon fonctionnement AEM Screens.
+Les performances du réseau local (LAN), en plus de l&#39;accessibilité du réseau, fournissent une bande passante suffisante pour exploiter le AEM Screens.
 
-Le réseau LAN correspond généralement au moins à un réseau de 100 Mo/s, de sorte qu&#39;il y a suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
-Si une solution WIFI est envisagée pour connecter les AEM Screens à Internet Link, il est recommandé d&#39;utiliser au minimum des standards WIFI modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que 802.11h-n est de meilleure qualité.
+Le réseau LAN correspond généralement à un réseau de 100 Mbit/s, de sorte qu&#39;il y ait suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
+In case that a WIFI solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que est de meilleure qualité.`802.11h-n`
 
 >[!NOTE]
->Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire. D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
+>Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire. D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de bande passante dans l&#39;ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
 
-AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En raison de ce concept, le trafic réseau majeur survient lorsqu’un nouveau contenu doit être affiché sur un écran spécifique.
-Pour le fonctionnement normal, par exemple, si vous avez défini une liste de lecture qui ne change pas très souvent au cours de la journée, cela permet d’opérer de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
-Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
+AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédias nécessaires, tels que les images et les vidéos. Le trafic réseau majeur survient lorsqu’un nouveau contenu doit être affiché sur un affichage spécifique.
+
+Pour les opérations normales, par exemple, après avoir défini une liste de lecture qui est fréquemment mise à jour pendant la journée, cette opération offre une opération indépendante du réseau de proximité, une fois que tous les fichiers ont été enregistrés sur le lecteur.
+
+Pour les cas d&#39;utilisation où il y a plus d&#39;interactions avec des capteurs ou d&#39;autres déclencheurs et le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d&#39;écran immédiate afin d&#39;assurer une meilleure expérience client possible.
 
 Le tableau suivant présente un aperçu des données clés de connectivité réseau.
 
