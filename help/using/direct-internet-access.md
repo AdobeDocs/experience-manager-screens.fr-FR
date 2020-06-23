@@ -2,10 +2,10 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 36%
+source-wordcount: '712'
+ht-degree: 29%
 
 ---
 
@@ -41,8 +41,7 @@ Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM da
 1. Assurez-vous que le paramètre de carte réseau correspond bien à votre paramètre de routeur et vérifiez si le nombre maximal d&#39;adresses IP disponibles dans votre réseau n&#39;est pas atteint.
 
 1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;une DEL de signal sur les routeurs standard.
-1. Si l&#39;appel d&#39;URL a réussi, vous pouvez continuer à installer les AEM Screens et à l&#39;enregistrer en conséquence.
-1. AEM Screens Débuts.
+1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et les enregistrer en conséquence. AEM Screens Débuts.
 
    >[!NOTE]
    >**Conseil de dépannage**
@@ -62,7 +61,9 @@ La configuration du réseau Direct Access peut être logiquement séparée en de
 
 ### Réseau étendu {#wan-connection}
 
-La performance de la connexion Internet en plus de l&#39;accessibilité du réseau, est de fournir suffisamment de bande passante pour fonctionner correctement en AEM Screens. Plus précisément, la bande passante suffisante dépend du nombre d’écrans AEM connectés et de l’utilisation d’autres appareils gourmands en bande passante sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+La performance de la connexion Internet en plus de l&#39;accessibilité du réseau, est de fournir suffisamment de bande passante pour fonctionner correctement en AEM Screens.
+
+*Suffisamment* dépend de la quantité d&#39;écrans AEM connectés et de l&#39;utilisation d&#39;autres consommateurs dans le réseau, tels que les smartphones, les tablettes, les caissiers, les ordinateurs ou les réseaux WIFI invités.
 
 >[!NOTE]
 >Tous les périphériques ont un accès simultané à la connexion Internet et la bande passante diminue habituellement de façon linéaire lorsque vous ajoutez plus de consommateurs/ordinateurs au réseau.
@@ -83,9 +84,10 @@ AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique
 Pour le fonctionnement normal, par exemple, si vous avez défini une liste de lecture qui ne change pas très souvent au cours de la journée, cela permet d’opérer de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 
-Le tableau suivant présente un aperçu des données clés sur la connectivité réseau :
+Le tableau suivant présente un aperçu des données clés de connectivité réseau.
+
+>[!NOTE]
+>Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces requêtes additionne et étend le temps de téléchargement.
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
