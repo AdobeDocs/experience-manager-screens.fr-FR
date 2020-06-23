@@ -2,19 +2,20 @@
 title: Réseau mobile avec routeur de données mobile et composants réseau actifs
 description: La page décrit le réseau mobile avec le routeur de données mobile et les composants réseau actifs
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 27%
+source-wordcount: '1005'
+ht-degree: 25%
 
 ---
 
 
 # Réseau mobile avec routeur de données mobile et composants réseau actifs {#mobile-network-setup}
 
-Les lecteurs AEM Screens Adobe peuvent également être connectés à l&#39;aide de réseaux mobiles/cellulaires exécutant au moins un réseau 3G.
-Dans les AEM Screens, le contenu nécessaire est physiquement téléchargé sur le contrôleur/ordinateur du lecteur et correctement stocké dans le système d&#39;exploitation sous-jacent. Par conséquent, la bande passante donnée n’a qu’une incidence sur les temps de téléchargement initiaux et n’a aucune incidence sur les performances des systèmes d’affichage.
-Connexion des lecteurs AEM Screens avec une connexion cellulaire 3/4/5G à votre fournisseur de données de service mobile. L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte, avec le plus de béton ou de métal environnant le moins possible.
+Les lecteurs AEM Screens Adobe peuvent également être connectés à l&#39;aide de réseaux mobiles ou cellulaires exécutant au moins un réseau 3G.
+Dans les AEM Screens, le contenu requis est physiquement téléchargé sur le contrôleur du lecteur ou sur l’ordinateur et correctement stocké dans le système d’exploitation sous-jacent. Par conséquent, la bande passante donnée n’a d’incidence que sur les temps de téléchargement initiaux et n’a aucune incidence sur les performances des systèmes d’affichage.
+
+L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte, avec le plus de béton ou de métal environnant le moins possible.
 Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilité car aucune ligne fixe n’est nécessaire pour connecter les AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
@@ -26,8 +27,7 @@ Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM da
 La configuration contient un accès Internet de l&#39;un des contrôleurs AEM Screens par accès direct à Internet en utilisant un lien de données 3/4/5G.
 La connexion appropriée des lecteurs d’écran AEM dans cette configuration est simple :
 
-1. Assurez-vous que le routeur de données mobile est correctement connecté au réseau de données cellulaires, comme indiqué dans le système d&#39;exploitation.
-1. Assurez-vous que chacun des lecteurs d’écran AEM est connecté au réseau Routeurs.
+1. Assurez-vous que le routeur de données mobile est correctement connecté au réseau de données cellulaires comme indiqué dans le système d&#39;exploitation et que chacun des lecteurs d&#39;écran AEM est connecté au réseau de routeurs.
 1. Testez la connexion Internet en appelant une URL dans votre navigateur système.
    >[!NOTE]
    >Si vous recevez un message d&#39;erreur, vérifiez les paramètres réseau.Il existe essentiellement deux options pour une connexion réseau appropriée :
@@ -35,10 +35,10 @@ La connexion appropriée des lecteurs d’écran AEM dans cette configuration es
    >* Configuration IP manuelle
 
 
-1. Assurez-vous que le paramètre de carte réseau correspond bien à votre paramètre de routeur.
-1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;une DEL de signal sur les routeurs standard. Si ce n&#39;est pas le cas, veuillez contacter votre service ISP pour vérifier votre routeur à distance.
-iv. Si tous les éléments ci-dessus sont correctement configurés et qu&#39;un message d&#39;erreur s&#39;affiche toujours, vérifiez les composants réseau actifs tels que les commutateurs ou les routeurs supplémentaires s&#39;il existe une restriction de port.
-1. Si l’appel d’URL a réussi, vous pouvez continuer à installer les AEM Screens et à l’enregistrer en conséquence. AEM Screens Débuts
+1. Assurez-vous que le paramètre de carte réseau correspond à votre paramètre de routeur.
+
+1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;un voyant de signal sur les routeurs standard.
+1. Si l’appel d’URL a réussi, vous pouvez continuer à installer les AEM Screens et à l’enregistrer en conséquence. AEM Screens Débuts.
 
    >[!NOTE]
    >**Conseil de dépannage**
@@ -59,9 +59,11 @@ La configuration réseau peut être logiquement séparée en deux blocs :
 
 ### Connexion Internet mobile {#mobile-internet-connection}
 
-En plus de l’accessibilité réseau déjà décrite, la connexion Internet doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. Plus précisément, la bande passante suffisante dépend du nombre d’écrans AEM connectés et de l’utilisation d’autres appareils gourmands en bande passante sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+En plus de l’accessibilité réseau déjà décrite, la connexion Internet doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide.
+
+*Suffisamment* dépend de la quantité d&#39;écrans AEM connectés et de l&#39;utilisation d&#39;autres consommateurs dans le réseau, tels que les smartphones, les tablettes, les caissiers, les ordinateurs ou les réseaux WIFI invités.
 Gardez à l’esprit que tous les appareils ont un accès simultané à la connexion Internet et que la bande passante diminue généralement de façon linéaire à mesure que des appareils gourmands/ordinateurs sont ajoutés au réseau.
-En plus de la connexion réseau théorique spécifique, il doit être assuré, que la couverture du routeur mobile est au moins &quot;bonne&quot; (veuillez consulter le manuel de votre routeur mobile). De plus, le plan mensuel sous-jacent doit couvrir suffisamment de capacité de données et de bande passante pour desservir tous les clients connectés au sein du réseau local connecté.
+Outre la connexion théorique spécifique au réseau, il doit être assuré que la couverture du routeur mobile est au moins &quot;bonne&quot;. De plus, le plan mensuel sous-jacent doit couvrir suffisamment de capacité de données et de bande passante pour desservir tous les clients connectés au sein du réseau local connecté.
 Les réseaux de données offrent une bande passante standard avec :
 
 **3G**
@@ -89,13 +91,14 @@ Tout en envisageant le réseau de données à utiliser, il est recommandé de r�
 
 ### Réseau local {#lan-connection}
 
-En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. En ce moment, le réseau LAN correspond généralement à un réseau 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
-Si une solution WiFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum des normes WIFI modernes comme IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur WIFI est requis, nous recommandons fortement les technologies de point d&#39;accès Mesh Wifi, comme Google Nest Mesh WIFI ou similaire.
-D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
+En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. En ce moment, le réseau LAN correspond généralement à un réseau 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau.
+
+Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+Si une solution WIFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum les standards WIFI modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
 
 ## Téléchargement de médias et de ressources {#download}
 
-AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
+AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédia nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
 Pour le fonctionnement normal, par exemple, si vous avez défini une liste de lecture qui ne change pas très souvent au cours de la journée, cela permet d’opérer de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 Les tableaux suivants offre une bonne vue d&#39;ensemble des données clés de connectivité réseau pour les performances prévisibles et les temps d&#39;attente potentiels.
