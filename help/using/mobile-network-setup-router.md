@@ -2,10 +2,10 @@
 title: Réseau mobile avec routeur de données mobile et composants réseau actifs
 description: La page décrit le réseau mobile avec le routeur de données mobile et les composants réseau actifs
 translation-type: tm+mt
-source-git-commit: 5460e384e96553d9f0478113368e31cf266479a4
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 19%
+source-wordcount: '1095'
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilit�
 
 ![](/help/using/assets/mobile-network-1.png)
 
-## Connexion d&#39;un lecteur AEM Screens à un réseau mobile direct {#connecting-aem-screens-players}
+## Connexion du lecteur AEM Screens au réseau mobile avec le routeur de données mobile et les composants réseau actifs {#connecting-aem-screens-players}
 
 Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM dans cette configuration :
 
@@ -49,7 +49,7 @@ iv. Si tous les éléments ci-dessus sont correctement configurés et qu&#39;un 
 
 
 
-## Configuration requise pour la configuration de la configuration réseau mobile {#requirements-direct}
+## Conditions requises pour la configuration d&#39;un réseau mobile avec un routeur de données mobile et des composants réseau actifs {#requirements-direct}
 
 La configuration réseau peut être logiquement séparée en deux blocs :
 
@@ -59,32 +59,49 @@ La configuration réseau peut être logiquement séparée en deux blocs :
 
 ### Connexion Internet mobile {#mobile-internet-connection}
 
-Les performances de la connexion Internet ont, en plus de l&#39;accessibilité réseau déjà décrite, pour fournir suffisamment de Bandwith pour opérer AEM Screens gentiment et en douceur. En détail, &quot;suffisant&quot; dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres consommateurs du réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux Wifi invités.
-Gardez à l&#39;esprit que tous les appareils ont un accès simultané à la connexion Internet et Bandwith diminue habituellement de façon linéaire tout en ajoutant plus de consommateurs/ordinateurs au réseau.
+En plus de l’accessibilité réseau déjà décrite, la connexion Internet doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. Plus précisément, la bande passante suffisante dépend du nombre d’écrans AEM connectés et de l’utilisation d’autres appareils gourmands en bande passante sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+Gardez à l’esprit que tous les appareils ont un accès simultané à la connexion Internet et que la bande passante diminue généralement de façon linéaire à mesure que des appareils gourmands/ordinateurs sont ajoutés au réseau.
 En plus de la connexion réseau théorique spécifique, il doit être assuré, que la couverture du routeur mobile est au moins &quot;bonne&quot; (veuillez consulter le manuel de votre routeur mobile). De plus, le plan mensuel sous-jacent doit couvrir suffisamment de capacité de données et de bande passante pour desservir tous les clients connectés au sein du réseau local connecté.
-Les réseaux de données fournissent des Bandwith standard ayant environ.. jusqu&#39;à :
-* 3Go 42Mbit/s ・ 4Go 150Mbit/s ・ 5Go 1000Mbit/s-10000Mbit/sLors de l&#39;examen du réseau de données à utiliser, il est recommandé de répondre aux questions suivantes :
-・ Combien de clients sont connectés au routeur ?
-・ Combien de changements de contenu dois-je attendre et quelles sont ces tailles de fichier moyennes ?
-Pour donner suite, le Package de données nécessaire doit au moins être :
-   `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
-Assurez-vous qu&#39;il y a suffisamment de tampon.
-Attention : Pour le téléchargement initial des fichiers multimédia, par exemple, lors de l’intégration de nouveaux lecteurs, une plus grande quantité de données et une durée de téléchargement accrue doivent être attendues et être reflétées dans les hypothèses ci-dessus.
+Les réseaux de données offrent une bande passante standard avec :
+
+**3G**
+* 42 Mbit/s
+
+**4G**
+* 150 Mbit/s
+
+**5G**
+* 1 000 Mbit/s à 1 000 Mbit/s
+
+Tout en envisageant le réseau de données à utiliser, il est recommandé de répondre aux questions suivantes :
+
+* Combien de clients sont connectés au routeur ?
+
+* Combien de changements de contenu sont attendus et quelles sont ces tailles de fichier moyennes ?
+
+>[!NOTE]
+>Le Package de données nécessaire doit être au moins :
+`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>[!IMPORTANT]
+>Pour le téléchargement initial des fichiers multimédia, par exemple, tout en intégrant de nouveaux lecteurs, il faut s’attendre à une plus grande quantité de données et à une augmentation du temps de téléchargement, ce qui est reflété dans les hypothèses ci-dessus. Un réseau 4G avec une *bonne* couverture et des données illimitées doit correspondre aux installations les plus courantes de cette configuration réseau.
 
 
 ### Réseau local {#lan-connection}
 
-La performance du réseau local a, outre la disponibilité déjà décrite, de fournir un Bandwith suffisant pour opérer les AEM Screens gentiment et en douceur. En ce moment, le réseau LAN correspond généralement à un réseau de 100 Mo/s, de sorte qu&#39;il devrait y avoir suffisamment de Bandwith pour connecter de nombreux périphériques avec de bonnes performances au système. En utilisant d&#39;autres composants réseau actifs, il est obligatoire que tous ceux-ci correspondent à la bande réseau avec les exigences. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande fournie par la spécification d&#39;accès Internet/routeur.
-Si une solution WiFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum des normes WIFI modernes comme IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wifi est requis, nous recommandons vivement la technologie Mesh Wifi Access Point comme Google Nest Mesh Wifi ou similaire.
-D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de Bandwith dans l&#39;ensemble du réseau.
+En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. En ce moment, le réseau LAN correspond généralement à un réseau 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+Si une solution WiFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum des normes WIFI modernes comme IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur WIFI est requis, nous recommandons fortement les technologies de point d&#39;accès Mesh Wifi, comme Google Nest Mesh WIFI ou similaire.
+D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
 
 AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
 Pour le fonctionnement normal, par exemple, si vous avez défini une liste de lecture qui ne change pas très souvent au cours de la journée, cela permet d’opérer de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
-Les tableaux ci-dessous offrent une bonne vue d’ensemble des données clés de connectivité réseau en ce qui concerne les performances prévisibles et les temps d’attente potentiels.
-Toutes ces informations doivent être considérées comme la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
+Les tableaux suivants offre une bonne vue d&#39;ensemble des données clés de connectivité réseau pour les performances prévisibles et les temps d&#39;attente potentiels.
+
+>[!NOTE]
+>Toutes les informations font référence à la consommation de chaque périphérique du réseau demandant et téléchargeant une source Internet. Chacune de ces requêtes additionne et étend le temps de téléchargement.
 
 ![](/help/using/assets/mobile-router-download.png)
 
