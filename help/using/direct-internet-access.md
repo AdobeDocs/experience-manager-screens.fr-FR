@@ -2,10 +2,10 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -72,7 +72,7 @@ La performance de la connexion Internet en plus de l&#39;accessibilité du rése
 Les performances du réseau local (LAN), en plus de l&#39;accessibilité du réseau, fournissent une bande passante suffisante pour un bon fonctionnement AEM Screens.
 
 Le réseau LAN correspond généralement au moins à un réseau de 100 Mo/s, de sorte qu&#39;il y a suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
-Si une solution WIFI est envisagée pour connecter les AEM Screens à Internet Link, il est recommandé d&#39;utiliser au minimum des standards WIFI modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit. Toute *nouvelle* norme telle que 802.11h-n est de meilleure qualité.
+Si une solution WIFI est envisagée pour connecter les AEM Screens à Internet Link, il est recommandé d&#39;utiliser au minimum des standards WIFI modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que 802.11h-n est de meilleure qualité.
 
 >[!NOTE]
 >Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire. D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
