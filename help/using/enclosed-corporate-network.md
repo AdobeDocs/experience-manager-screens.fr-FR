@@ -2,39 +2,48 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 translation-type: tm+mt
-source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 90%
+source-wordcount: '571'
+ht-degree: 61%
 
 ---
 
 
 # Réseaux d’entreprise fermés {#enclosed-corporate-networks}
 
-La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. En théorie, la configuration logique peut être plus complexe, mais elle correspond toujours à l’illustration simplifiée ci-dessous.
-
-## Conditions requises pour la configuration des réseaux d’entreprise fermés {#requirements-enclosed-networks}
-
-La configuration réseau d&#39;entreprise enfermée peut être logiquement séparée en deux blocs. Le réseau étendu (WAN) et le réseau local interne (LAN).
+La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Il peut être théoriquement plus complexe, mais la configuration logique est présentée dans la figure ci-dessous.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+## Conditions requises pour la configuration des réseaux d’entreprise fermés {#requirements-enclosed-networks}
+
+La configuration réseau d&#39;entreprise enfermée peut être logiquement séparée en deux blocs :
+
+* Réseau étendu (WAN)
+* Réseau local interne (LAN).
+
 ### Réseau étendu {#wan-connection}
 
-En plus de l’accessibilité réseau déjà décrite, la connexion Internet doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide.
-Plus précisément, la bande passante suffisante dépend du nombre d’écrans AEM connectés et de l’utilisation d’autres appareils gourmands en bande passante sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
-Gardez à l’esprit que tous les appareils ont un accès simultané à la connexion Internet et que la bande passante diminue généralement de façon linéaire à mesure que des appareils gourmands/ordinateurs sont ajoutés au réseau.
+La performance de la connexion Internet en plus de l&#39;accessibilité du réseau, est de fournir suffisamment de bande passante pour fonctionner correctement en AEM Screens.
+*Une bande passante* suffisante dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres clients sur le réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux WIFI invités.
+
+>[!NOTE]
+>Tous les périphériques ont un accès simultané à la connexion Internet et la bande passante diminue régulièrement lorsque vous ajoutez plus de consommateurs ou d&#39;ordinateurs au réseau.
 
 ### Réseau local {#lan-connection}
 
-En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. Actuellement, le réseau LAN des entreprises atteint généralement un débit de 1 000 Mbit/s, de sorte qu’il devrait y avoir suffisamment de bande passante pour connecter de nombreux appareils au système avec de bonnes performances. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 1 000 Mbit/s et à la bande passante fournie par l’accès Internet/la spécification du routeur.
+En plus de la facilité d&#39;accès au réseau, la performance du réseau local (LAN) est de fournir une bande passante suffisante pour un bon fonctionnement AEM Screens.
+
+Actuellement, le réseau LAN des entreprises atteint généralement un débit de 1 000 Mbit/s, de sorte qu’il devrait y avoir suffisamment de bande passante pour connecter de nombreux appareils au système avec de bonnes performances. Lors de l&#39;utilisation d&#39;autres composants réseau actifs, il est obligatoire que tous ces composants correspondent aux exigences de bande passante réseau.
+
+Par exemple, les composants réseau doivent correspondre au moins à la norme 1 000 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
 Généralement, les réseaux d’entreprise présentent un grand nombre d’appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
 Le schéma simplifié ci-dessus s’adapte dans la plupart des cas à l’environnement disponible pour le client.
-Si une solution Wi-Fi est envisagée pour connecter l’écran à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
+Si une solution Wi-Fi est envisagée pour connecter l’écran à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
 D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
