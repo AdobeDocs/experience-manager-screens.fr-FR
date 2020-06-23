@@ -4,10 +4,10 @@ seo-title: Présentation des configurations réseau standard
 description: La page décrit les configurations réseau standard.
 seo-description: La page décrit les configurations réseau standard.
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 37%
+source-wordcount: '462'
+ht-degree: 36%
 
 ---
 
@@ -33,10 +33,10 @@ Pour mettre en oeuvre une configuration réseau, vous devez vous référer aux s
 
 Il existe trois types principaux de configuration réseau :
 
-1. [Accès direct à Internet](/help/using/direct-internet-access.md)
-1. [Réseau mobile direct](/help/using/mobile-network-setup.md)
-1. [Réseau mobile avec routeur de données mobile et composants réseau actifs](/help/using/mobile-network-setup-router.md)
-1. [Réseau d’entreprise fermé](/help/using/enclosed-corporate-network.md)
+1. [Réseau Internet direct (câblé/sans fil)](/help/using/direct-internet-network.md)
+1. [Réseau mobile direct](/help/using/mobile-network.md)
+1. [Réseau mobile avec routeur de données mobile et composants réseau actifs](/help/using/mobile-network-router.md)
+1. [Réseau d&#39;entreprise fermé (câblé/sans fil)](/help/using/enclosed-corporate-network.md)
 
 Le tableau suivant décrit les différents types de configuration réseau avec des avantages et des inconvénients :
 
