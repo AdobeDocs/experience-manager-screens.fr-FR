@@ -2,9 +2,9 @@
 title: Réseau mobile direct
 description: La page décrit la configuration réseau de Direct Mobile
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,8 @@ Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM da
 
 
 1. Assurez-vous que le paramètre de carte réseau correspond à votre paramètre de routeur.
-1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;une DEL de signal sur les routeurs standard.
+
+1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;un voyant de signal sur les routeurs standard.
 
 1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à les enregistrer en conséquence. AEM Screens Débuts.
 
