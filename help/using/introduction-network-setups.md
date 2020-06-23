@@ -4,15 +4,15 @@ seo-title: Présentation des configurations réseau standard
 description: La page décrit les configurations réseau standard.
 seo-description: La page décrit les configurations réseau standard.
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 39%
+source-wordcount: '458'
+ht-degree: 37%
 
 ---
 
 
-# Présentation des configurations réseau standard {#intro-standard-networks}
+# Gestion du trafic réseau {#managing-network-traffic}
 
 Une configuration réseau peut avoir différentes structures. Cette section présente un aperçu des structures réseau déployées dans un environnement. Il existe différentes configurations qui sont parfois mises en oeuvre à partir de rien.
 
@@ -27,7 +27,7 @@ Un serveur proxy est un ordinateur dédié ou un système logiciel s’exécutan
 
 L’un des avantages du serveur proxy est que son cache peut servir tous les utilisateurs. Si un ou plusieurs sites Internet sont fréquemment demandés, ils sont susceptibles de se trouver dans le cache du proxy, ce qui réduira le temps de réponse pour l’utilisateur. Un proxy peut également consigner ses interactions, ce qui peut s’avérer utile pour le dépannage.
 
-## Présentation des configurations réseau {#network-setups}
+## Understanding the Standard Network Setups {#network-setups}
 
 Pour mettre en oeuvre une configuration réseau, vous devez vous référer aux scénarios suivants avec les points forts et les détails de déploiement.
 
