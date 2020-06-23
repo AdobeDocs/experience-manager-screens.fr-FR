@@ -4,11 +4,11 @@ solution-title: AEM Screens
 getting-started-title: Guide des bonnes pratiques pour AEM Screens
 product: experience manager
 audience: end-user
-translation-type: ht
-source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 100%
 + Exposé sur le déploiement {#deployment-brief}
    + [Configurations de plates-formes AEM](aem-platform-configurations.md)
    + [Taxonomie et mise en œuvre du projet](project-taxonomy-implementation.md)
+   + Gestion du trafic réseau {#manage-network-traffic}
+      + [Réseau Internet direct (câblé/sans fil)](/help/using/direct-internet-network.md)
+      + [Réseau mobile direct](/help/using/mobile-network.md)
+      + [Réseau mobile avec routeur de données mobile et composants réseau actifs](/help/using/mobile-network-router.md)
+      + [Réseau d&#39;entreprise fermé (câblé/sans fil)](/help/using/enclosed-corporate-network.md)
    + [Configurations de périphériques](device-configurations.md)
    + [Tests et contrôle de la qualité](testing-quality-assurance.md)
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
