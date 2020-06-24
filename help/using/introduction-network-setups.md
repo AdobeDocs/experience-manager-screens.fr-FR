@@ -1,13 +1,11 @@
 ---
 title: Présentation des configurations réseau standard
-seo-title: Présentation des configurations réseau standard
 description: La page décrit les configurations réseau standard.
-seo-description: La page décrit les configurations réseau standard.
 translation-type: tm+mt
-source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 13%
+source-wordcount: '446'
+ht-degree: 12%
 
 ---
 
