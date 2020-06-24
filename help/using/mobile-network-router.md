@@ -2,10 +2,10 @@
 title: Réseau mobile avec routeur de données mobile et composants réseau actifs
 description: La page décrit le réseau mobile avec le routeur de données mobile et les composants réseau actifs
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1029'
+ht-degree: 19%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 25%
 # Réseau mobile avec routeur de données mobile et composants réseau actifs {#mobile-network-setup}
 
 Les lecteurs AEM Screens Adobe peuvent également être connectés à l&#39;aide de réseaux mobiles ou cellulaires exécutant au moins un réseau 3G.
+
 Dans les AEM Screens, le contenu requis est physiquement téléchargé sur le contrôleur du lecteur ou sur l’ordinateur et correctement stocké dans le système d’exploitation sous-jacent. Par conséquent, la bande passante donnée n’a d’incidence que sur les temps de téléchargement initiaux et n’a aucune incidence sur les performances des systèmes d’affichage.
 
 L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte, avec le plus de béton ou de métal environnant le moins possible.
-Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilité car aucune ligne fixe n’est nécessaire pour connecter les AEM Screens.
+Cette configuration permet aux utilisateurs d’AEM Screen de bénéficier d’une souplesse car aucune ligne fixe n’est nécessaire pour se connecter aux AEM Screens.
+
+Le diagramme suivant présente le réseau mobile avec routeur de données mobiles et la configuration des composants réseau actifs et contient un accès Internet de l&#39;un des contrôleurs AEM Screens par accès Internet direct à l&#39;aide d&#39;un lien de données 3/4/5G.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +28,6 @@ Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilit�
 Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM dans cette configuration :
 
 La configuration contient un accès Internet de l&#39;un des contrôleurs AEM Screens par accès direct à Internet en utilisant un lien de données 3/4/5G.
-La connexion appropriée des lecteurs d’écran AEM dans cette configuration est simple :
 
 1. Assurez-vous que le routeur de données mobile est correctement connecté au réseau de données cellulaires comme indiqué dans le système d&#39;exploitation et que chacun des lecteurs d&#39;écran AEM est connecté au réseau de routeurs.
 1. Testez la connexion Internet en appelant une URL dans votre navigateur système.
@@ -91,15 +93,16 @@ Tout en envisageant le réseau de données à utiliser, il est recommandé de r�
 
 ### Réseau local {#lan-connection}
 
-En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. En ce moment, le réseau LAN correspond généralement à un réseau 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau.
+En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. En ce moment, le réseau LAN correspond généralement à un réseau 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Lors de l&#39;utilisation d&#39;autres composants réseau actifs, il est obligatoire que tous ces composants correspondent aux exigences de bande passante réseau.
 
 Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+
 Si une solution WIFI est envisagée pour connecter l&#39;écran à Internet Link, il est recommandé d&#39;utiliser au minimum les standards WIFI modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
 
 ## Téléchargement de médias et de ressources {#download}
 
 AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédia nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
-Pour le fonctionnement normal, par exemple, si vous avez défini une liste de lecture qui ne change pas très souvent au cours de la journée, cela permet d’opérer de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
+Pour un fonctionnement normal, par exemple après avoir défini une liste de lecture qui n&#39;est pas mise à jour fréquemment pendant la journée, cette opération offre une opération indépendante du réseau proche, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 Les tableaux suivants offre une bonne vue d&#39;ensemble des données clés de connectivité réseau pour les performances prévisibles et les temps d&#39;attente potentiels.
 
