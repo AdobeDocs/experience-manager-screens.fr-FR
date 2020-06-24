@@ -2,10 +2,10 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 58%
+source-wordcount: '566'
+ht-degree: 44%
 
 ---
 
@@ -41,9 +41,10 @@ Par exemple, les composants réseau doivent correspondre au moins à la norme 1 
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
-Généralement, les réseaux d’entreprise présentent un grand nombre d’appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
-Le schéma simplifié ci-dessus s’adapte dans la plupart des cas à l’environnement disponible pour le client.
-Si une solution Wi-Fi est envisagée pour connecter l’écran à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes tels que IEEE 802.11g. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute nouvelle norme telle que 802.11h-n est de meilleure qualité. Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
+Habituellement, les réseaux d&#39;entreprise ont une charge de périphériques connectés, peuvent être séparés en divers sous-réseaux et peuvent avoir des connexions Internet redondantes ou multiplexées pour fournir des performances suffisantes pour plusieurs milliers d&#39;accès simultanés.
+Ce schéma est simplifié et s&#39;adapte dans la plupart des cas à l&#39;environnement disponible pour le client.
+
+In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que est de meilleure qualité. `802.11h-n` Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
 D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
