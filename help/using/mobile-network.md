@@ -2,10 +2,10 @@
 title: Réseau mobile direct
 description: La page décrit la configuration réseau de Direct Mobile
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 16%
+source-wordcount: '825'
+ht-degree: 8%
 
 ---
 
@@ -16,15 +16,17 @@ Les joueurs AEM Screens peuvent également être connectés à l&#39;aide de ré
 
 Dans les AEM Screens, le contenu requis est physiquement téléchargé sur le contrôleur du lecteur ou sur l’ordinateur et correctement stocké dans le système d’exploitation sous-jacent. Par conséquent, la bande passante donnée n’a d’incidence que sur les temps de téléchargement initiaux et n’influence pas les performances des écrans.
 
-Connexion des lecteurs AEM Screens avec une connexion cellulaire 3/4/5G à votre fournisseur de données de service mobile. L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte, avec le plus de béton ou de métal environnant le moins possible.
+Connexion des lecteurs AEM Screens avec un cellulaire 3/4/5G se connecte à votre fournisseur de données de service mobile. L&#39;avantage de cette configuration est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte avec le plus de béton ou de métal environnant de construction optimale possible.
 
-Cette configuration offre aux utilisateurs d’écran AEM une grande flexibilité car aucune connexion fixe n’est requise pour connecter les AEM Screens.
+Cette configuration offre aux utilisateurs d’AEM Screen une grande flexibilité car aucune connexion fixe n’est requise pour se connecter aux AEM Screens.
+
+Le diagramme suivant présente la configuration réseau mobile directe et se compose d&#39;un segment de connexion réseau unique, la connexion de chaque lecteur au réseau de données mobile/cellulaire.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
 ## Connexion d&#39;un lecteur AEM Screens à un réseau mobile direct {#connecting-aem-screens-players}
 
-Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM dans cette configuration :
+Suivez les étapes ci-dessous pour connecter des lecteurs AEM Screens dans cette configuration :
 
 1. Assurez-vous que chacun des lecteurs d’écran AEM est connecté au réseau des routeurs.
 
@@ -40,7 +42,7 @@ Suivez les étapes ci-dessous pour vous connecter aux lecteurs d’écran AEM da
 
 1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Il peut également être identifié à l&#39;aide d&#39;un voyant de signal sur les routeurs standard.
 
-1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à les enregistrer en conséquence. AEM Screens Débuts.
+1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à vous enregistrer. AEM Screens Débuts.
 
    >[!NOTE]
    >**Conseil de dépannage**
@@ -61,11 +63,12 @@ La configuration réseau peut être logiquement séparée en deux blocs :
 
 ### Connexion Internet mobile {#mobile-internet-connection}
 
-Les performances de la connexion Internet en plus de l&#39;accessibilité au réseau fournissent une bande passante suffisante pour opérer en AEM Screens en douceur et en douceur.
+Les performances de la connexion Internet en plus de l&#39;accessibilité réseau fournissent une bande passante suffisante pour fonctionner en AEM Screens en douceur.
 
 *Suffisamment* dépend de la quantité d&#39;écrans AEM connectés et de l&#39;utilisation d&#39;autres consommateurs dans le réseau, tels que les smartphones, les tablettes, les caissiers, les ordinateurs ou les réseaux WIFI invités.
-Gardez à l’esprit que tous les appareils ont un accès simultané à la connexion Internet et que la bande passante diminue généralement de façon linéaire à mesure que des appareils gourmands/ordinateurs sont ajoutés au réseau.
-En plus de la connexion réseau théorique spécifique, il doit être assuré, que la couverture du routeur mobile est au moins &quot;bonne&quot; (veuillez consulter le manuel de votre routeur mobile). De plus, le plan mensuel sous-jacent doit couvrir suffisamment de capacité de données et de bande passante pour desservir tous les clients connectés au sein du réseau local connecté.
+
+>[!NOTE]
+>Tous les périphériques ont un accès simultané à la connexion Internet et la bande passante diminue de façon linéaire tout en ajoutant plus de consommateurs ou d&#39;ordinateurs au réseau.
 
 Les réseaux de données offrent une bande passante standard avec :
 
@@ -95,15 +98,18 @@ Tout en envisageant le réseau de données à utiliser, il est recommandé de r�
 
 ### Réseau local {#lan-connection}
 
-En plus de l’accessibilité réseau déjà décrite, le réseau local doit fournir suffisamment de bande passante pour qu’AEM Screens fonctionne correctement et de manière fluide. En ce moment, le réseau LAN correspond généralement à un réseau 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+En plus de la connectivité réseau, la performance du réseau local (LAN) est de fournir une bande passante suffisante pour fonctionner en AEM Screens en douceur. Le réseau LAN correspond généralement à un réseau de 100 Mbit/s, de sorte qu&#39;il devrait y avoir suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
+
+Lors de l&#39;utilisation d&#39;autres composants réseau actifs, il est obligatoire que tous ces composants correspondent aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
 
 ## Téléchargement de médias et de ressources {#download}
 
-AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédia nécessaires, tels que les images et les vidéos. En raison de ce concept, le trafic réseau majeur se produit au cas où un nouveau contenu s’afficherait sur un écran spécifique.
-Pour un fonctionnement normal, par exemple, une liste de lecture définie qui n&#39;est pas changée très souvent pendant la journée, cela offre une opération indépendante du réseau proche, une fois tous les fichiers enregistrés sur le lecteur.
+AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En conséquence, un trafic réseau important survient au cas où un nouveau contenu s’afficherait sur un écran spécifique.
+Pour une opération normale, par exemple, une liste de lecture définie qui n&#39;est pas fréquemment mise à jour pendant la journée, offre une opération indépendante du réseau proche, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 
-Le tableau suivant présente un aperçu des données clés de connectivité réseau pour les performances prévisibles et les temps d&#39;attente potentiels.
+Le tableau suivant présente un aperçu des données clés de connectivité réseau responsables des performances attendues et des temps d’attente potentiels.
+
 >[!NOTE]
 >Toutes les informations font référence à la consommation de chaque périphérique du réseau demandant et téléchargeant une source Internet. Chacune de ces requêtes additionne et étend le temps de téléchargement.
 
