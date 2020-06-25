@@ -2,9 +2,9 @@
 title: Réseau mobile direct
 description: La page décrit la configuration réseau de Direct Mobile
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Suivez les étapes ci-dessous pour vous assurer que les lecteurs d’écran AEM 
 
 1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à vous enregistrer. AEM Screens Débuts.
 
-## Configuration requise pour la configuration de la configuration réseau mobile {#requirements-direct}
+## Configuration d&#39;un réseau mobile direct {#requirements-direct}
 
 La configuration réseau peut être logiquement séparée en deux blocs :
 
