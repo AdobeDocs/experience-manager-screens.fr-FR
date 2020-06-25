@@ -2,10 +2,10 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 6%
+source-wordcount: '686'
+ht-degree: 5%
 
 ---
 
@@ -53,7 +53,7 @@ Suivez les étapes ci-dessous pour vous assurer que les lecteurs d’écran AEM 
    >1. Assurez-vous que tous les ports requis sont autorisés.
 
 
-## Configuration d’un réseau d’accès direct {#requirements-direct}
+## Configuration d&#39;un réseau Direct Access {#requirements-direct}
 
 Le réseau Internet direct est logiquement séparé en deux blocs :
 
