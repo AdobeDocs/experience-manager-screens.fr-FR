@@ -2,7 +2,7 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Les ports peuvent varier en fonction de la configuration de votre configuration 
 
 ![](/help/assets/direct-access-2.png)
 
-La configuration inclut également un accès Internet par tout Prestataire Internet (FAI) et sa ligne Internet. La plupart des FAI fournissent un routeur Internet couvrant le modem Internet, le commutateur réseau, le point d’accès WIFI, le pare-feu et d’autres fonctionnalités réseau (selon le fabricant et le modèle).
+La configuration inclut également un accès Internet par tout Prestataire Internet (FAI) et sa ligne Internet. La plupart des FAI fournissent un routeur Internet couvrant le modem Internet, le commutateur réseau, le point d’accès Wi-Fi, le pare-feu et d’autres fonctionnalités réseau (selon le fabricant et le modèle).
 
 ## Connexion d&#39;un lecteur AEM Screens à un accès Internet direct {#connecting-aem-screens-players}
 
@@ -65,7 +65,7 @@ Le réseau Internet direct est logiquement séparé en deux blocs :
 
 Les performances de la connexion Internet en plus de l&#39;accessibilité du réseau sont de fournir une bande passante suffisante pour utiliser le AEM Screens.
 
-*Suffisant* dépend du nombre d&#39;écrans AEM connectés et de l&#39;utilisation d&#39;autres consommateurs dans le réseau, tels que les smartphones, tablettes, caissiers, ordinateurs ou réseaux WIFI invités.
+*Suffisamment* dépend du nombre d’écrans AEM connectés et de l’utilisation d’autres clients sur le réseau, tels que les smartphones, tablettes, caissiers, ordinateurs ou réseaux Wi-Fi invités.
 
 >[!NOTE]
 >Tous les périphériques mentionnés ci-dessus ont un accès simultané à la connexion Internet et la bande passante diminue de façon linéaire lorsque vous ajoutez plus de consommateurs ou d&#39;ordinateurs au réseau.
@@ -75,10 +75,10 @@ Les performances de la connexion Internet en plus de l&#39;accessibilité du ré
 Les performances du réseau local (LAN), en plus de l&#39;accessibilité du réseau, fournissent une bande passante suffisante pour exploiter le AEM Screens.
 
 Le réseau LAN correspond généralement à un réseau de 100 Mbit/s, de sorte qu&#39;il y ait suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
-In case that a WIFI solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que est de meilleure qualité.`802.11h-n`
+In case that a Wi-Fi solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que est de meilleure qualité.`802.11h-n`
 
 >[!NOTE]
->Si un répéteur WIFI est requis, il est fortement recommandé d&#39;avoir un point d&#39;accès WIFI de maillage tel que Google Nest Mesh WIFI ou similaire. D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de bande passante dans l&#39;ensemble du réseau.
+>Si un répéteur Wi-Fi est requis, il est fortement recommandé d’utiliser un point d’accès Wi-Fi Mesh tel que Google Nest Mesh Wi-Fi ou un point similaire. D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de bande passante dans l&#39;ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
 
