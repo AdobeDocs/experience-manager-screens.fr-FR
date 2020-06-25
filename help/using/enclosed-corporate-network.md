@@ -2,10 +2,10 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 44%
+source-wordcount: '751'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,33 @@ ht-degree: 44%
 La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Il peut être théoriquement plus complexe, mais la configuration logique est présentée dans la figure ci-dessous.
 
 ![](/help/using/assets/enclosed-network-1.png)
+
+
+## Connexion d&#39;un lecteur AEM Screens à un accès Internet direct {#connecting-aem-screens-players}
+
+Suivez les étapes ci-dessous pour vous assurer que les lecteurs d’écran AEM sont correctement connectés dans cette configuration :
+
+1. Assurez-vous que chacun des lecteurs d’écran AEM est connecté au réseau des routeurs.
+1. Testez la connexion Internet en appelant une URL dans le navigateur de votre système.
+
+   >[!NOTE]
+   >Si vous recevez une erreur, vérifiez les paramètres réseau.Il existe essentiellement deux options pour une connexion réseau appropriée :
+   >* DHCP
+   >* Configuration IP manuelle
+
+
+1. Assurez-vous que le paramètre de carte réseau correspond bien à vos paramètres de routeur et vérifiez si le nombre maximal d&#39;adresses IP disponibles dans votre réseau n&#39;est pas atteint.
+
+1. Vérifiez si le routeur est correctement connecté au réseau étendu du fournisseur de services Internet (lien Internet). Vous pouvez également l&#39;identifier à l&#39;aide d&#39;un voyant de signalisation sur les routeurs standard.
+1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à vous enregistrer. AEM Screens Débuts.
+
+   >[!NOTE]
+   >**Conseil de dépannage**
+   >Si les AEM Screens ne se connectent pas correctement et que le contenu attendu n’est pas affiché :
+   >
+   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
+   >1. Assurez-vous que tous les ports requis sont autorisés.
+
 
 ## Conditions requises pour la configuration des réseaux d’entreprise fermés {#requirements-enclosed-networks}
 
@@ -26,7 +53,7 @@ La configuration réseau d&#39;entreprise enfermée peut être logiquement sépa
 ### Réseau étendu {#wan-connection}
 
 La performance de la connexion Internet en plus de l&#39;accessibilité du réseau, est de fournir suffisamment de bande passante pour fonctionner correctement en AEM Screens.
-*Une bande passante* suffisante dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres clients sur le réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux WIFI invités.
+*Une bande passante* suffisante dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres clients du réseau, tels que les Smartphones, les Tablettes, les Caissiers, les Ordinateurs ou les réseaux Wi-Fi invités.
 
 >[!NOTE]
 >Tous les périphériques ont un accès simultané à la connexion Internet et la bande passante diminue régulièrement lorsque vous ajoutez plus de consommateurs ou d&#39;ordinateurs au réseau.
@@ -44,8 +71,8 @@ Par exemple, les composants réseau doivent correspondre au moins à la norme 1 
 Habituellement, les réseaux d&#39;entreprise ont une charge de périphériques connectés, peuvent être séparés en divers sous-réseaux et peuvent avoir des connexions Internet redondantes ou multiplexées pour fournir des performances suffisantes pour plusieurs milliers d&#39;accès simultanés.
 Ce schéma est simplifié et s&#39;adapte dans la plupart des cas à l&#39;environnement disponible pour le client.
 
-In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que est de meilleure qualité. `802.11h-n` Si un répéteur Wi-Fi est requis, nous recommandons fortement les technologies de point d’accès Wi-Fi Mesh comme Google Nest Wi-Fi Mesh ou similaire.
-D’autres technologies qui répètent le signal Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
+In case that an Wi-Fi solution is envisaged to connect screen to the internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Toute *nouvelle* norme telle que est de meilleure qualité. `802.11h-n` Si un répéteur Wi-Fi est nécessaire, nous recommandons vivement les technologies de point d&#39;accès Wi-Fi Mesh telles que Google Nest Mesh Wi-Fi ou d&#39;autres technologies similaires.
+D&#39;autres technologies qui répètent le Wi-Fi finissent par provoquer une perte massive de bande passante dans l&#39;ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
 
