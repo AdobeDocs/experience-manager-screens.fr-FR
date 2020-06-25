@@ -2,9 +2,9 @@
 title: Réseau mobile avec routeur de données mobile et composants réseau actifs
 description: La page décrit le réseau mobile avec le routeur de données mobile et les composants réseau actifs
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 14%
 
 ---
@@ -50,7 +50,7 @@ La configuration contient un accès Internet de l&#39;un des contrôleurs AEM Sc
 
 
 
-## Conditions requises pour la configuration d&#39;un réseau mobile avec un routeur de données mobile et des composants réseau actifs {#requirements-direct}
+## Configuration d&#39;un réseau mobile avec un routeur de données mobile et des composants réseau actifs {#requirements-direct}
 
 La configuration réseau peut être logiquement séparée en deux blocs :
 
