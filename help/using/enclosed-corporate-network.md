@@ -2,10 +2,10 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 5%
+source-wordcount: '708'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Suivez les étapes ci-dessous pour vous assurer que les lecteurs d’écran AEM 
    >1. Assurez-vous que tous les ports requis sont autorisés.
 
 
-## Conditions requises pour la configuration des réseaux d’entreprise fermés {#requirements-enclosed-networks}
+## Configuration de réseaux d&#39;entreprise fermés {#requirements-enclosed-networks}
 
 La configuration réseau d&#39;entreprise enfermée peut être logiquement séparée en deux blocs :
 
