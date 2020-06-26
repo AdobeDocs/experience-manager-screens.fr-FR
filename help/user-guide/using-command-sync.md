@@ -3,11 +3,11 @@ title: Utilisation de la synchronisation des commandes
 seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md)..
+   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
 1. Accédez au dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions pour enregistrer les appareils.
 
@@ -86,7 +86,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Setting up a master {#setting-up-master}
+### Configuration d’un maître {#setting-up-master}
 
 1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
 Les deux appareils (Chrome et lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.
