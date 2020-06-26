@@ -3,11 +3,11 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -170,7 +170,7 @@ Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jou
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | L’aménagement du point de vente comprend les opérations de câblage | - | - | - | - |
 | Sélection du matériel de lecture | RAC | - | - | - |
-| Gestion des périphériques de l&#39;élément maître | RA | I | - | - |
+| Gestion des appareils du maître | RA | I | - | - |
 | Commande, stockage et configuration des appareils | RA | CI | I | - |
 | Définition du processus d’assistance | RA | I | RA | C |
 
@@ -186,7 +186,7 @@ Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jou
 
 Le tableau suivant résume la **matrice RACI pour le jour 2 : assistance après le lancement** :
 
-| **Phase** | **Création** | **Développeur** | **Technicien** |
+| **Phase** | **Auteur** | **Développeur** | **Technicien** |
 |---|---|---|---|
 | *Jour 2 : assistance après le lancement* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA |
