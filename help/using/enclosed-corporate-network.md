@@ -2,9 +2,9 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ La configuration réseau d&#39;entreprise enfermée peut être logiquement sépa
 
 ### Réseau étendu {#wan-connection}
 
-Les performances de la connexion Internet en plus de l&#39;accessibilité du réseau, est de fournir suffisamment de bande passante pour fonctionner en AEM Screens gentiment et en douceur.
+Les performances de la connexion Internet, outre l&#39;accessibilité réseau, doivent fournir une bande passante suffisante pour que le contenu AEM Screens soit mis à jour en douceur.
 *Une bande passante* suffisante dépend de la quantité d’écrans AEM connectés et de l’utilisation d’autres clients du réseau, tels que les smartphones, tablettes, caissiers, ordinateurs ou réseaux Wi-Fi invités.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ Les performances de la connexion Internet en plus de l&#39;accessibilité du ré
 
 ### Réseau local {#lan-connection}
 
-En plus de l&#39;accessibilité au réseau, les performances du réseau local (LAN) sont suffisantes pour permettre un bon fonctionnement du AEM Screens.
+Les performances du réseau local (LAN), en plus de l&#39;accessibilité du réseau, doivent fournir une bande passante suffisante pour faire fonctionner les mises à jour de contenu AEM Screens en douceur.
 
 Le réseau LAN au sein des entreprises est généralement d&#39;au moins 1000 Mo/s par réseau, de sorte qu&#39;il y a suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système. Lors de l&#39;utilisation d&#39;autres composants réseau actifs, il est obligatoire que tous ces composants correspondent aux exigences de bande passante réseau.
 
-Par exemple, les composants réseau doivent correspondre au moins à la norme 1 000 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
