@@ -3,11 +3,11 @@ title: Notes de mise à jour du Feature Pack 202004
 seo-title: Notes de mise à jour du Feature Pack 202004
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 AEM Screens a publié AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4.
 
-You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou 6.5.4 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
 ## Date de publication {#release-date}
 
