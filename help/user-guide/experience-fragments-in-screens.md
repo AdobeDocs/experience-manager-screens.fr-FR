@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -180,9 +180,9 @@ Comme le fragment d’expérience que nous avons créé est une Live Copy de pag
 >
 >Pour plus d’informations sur les Live Copy, voir Réutilisation de contenu : Multi Site Manager et Live Copy.
 
-Suivez les étapes ci-dessous pour propager les modifications du canal maître à votre canal de destination :
+Pour propager les modifications du canal principal vers votre canal de destination :
 
-1. Select the Experience Fragment from the **Sites** (master) page and click the pencil icon to edit the items in the Experience Fragment.
+1. Sélectionnez le fragment d’expérience sur la page **Sites** (gabarit) et cliquez sur l’icône en forme de crayon pour modifier les éléments du fragment d’expérience.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
