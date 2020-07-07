@@ -1,45 +1,45 @@
 ---
 title: Réseau mobile direct
-description: La page décrit la configuration réseau de Direct Mobile
-translation-type: tm+mt
+description: La page décrit la configuration du réseau mobile direct.
+translation-type: ht
 source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # Réseau mobile direct {#mobile-network-setup}
 
-Les joueurs AEM Screens peuvent également être connectés à l&#39;aide de réseaux mobiles ou cellulaires s&#39;exécutant au moins sur un réseau 3G.
+Il est possible de connecter les lecteurs AEM Screens à l’aide de réseaux mobiles ou cellulaires utilisant au moins un réseau 3G.
 
-Dans les AEM Screens, le contenu requis est physiquement téléchargé sur le contrôleur du lecteur ou sur l’ordinateur et correctement stocké dans le système d’exploitation sous-jacent. Par conséquent, la bande passante donnée n’a d’incidence que sur les temps de téléchargement initiaux et n’influence pas les performances des écrans.
+Dans AEM Screens, le contenu requis est téléchargé physiquement sur le contrôleur du lecteur ou sur l’ordinateur et stocké de manière appropriée dans le système d’exploitation associé. La bande passante obtenue n’a donc d’incidence que sur les temps de téléchargement initiaux, sans influer sur les performances des affichages.
 
-La connexion des lecteurs AEM Screens avec une connexion 3/4/5G cellulaire à votre fournisseur de données de service mobile permet de placer le routeur mobile dans un emplacement optimisé afin d&#39;assurer la meilleure couverture réseau disponible. Il s&#39;agit généralement d&#39;une position élevée et ouverte avec le plus de béton ou de métal environnant de construction optimale possible.
+L’avantage de la connexion des lecteurs AEM Screens à l’aide d’une connexion 3/4/5G cellulaire proposée par votre fournisseur de données mobiles est de positionner le routeur mobile en un point optimisé pour assurer la meilleure couverture réseau disponible. Il s’agit généralement d’une position élevée et ouverte, où les constructions environnantes de béton et de métal sont les plus optimales possibles.
 
-Cette configuration offre aux utilisateurs d’AEM Screen une grande flexibilité car aucune connexion fixe n’est requise pour se connecter aux AEM Screens.
+Cette configuration offre une grande flexibilité aux utilisateurs d’AEM Screens, car aucune connexion fixe n’est requise pour se connecter.
 
-Le diagramme suivant présente la configuration réseau mobile directe et se compose d&#39;un segment de connexion réseau unique et de la connexion de chaque lecteur au réseau de données mobile ou cellulaire.
+Le schéma suivant représente la configuration d’un réseau mobile direct. Il se compose d’un segment de connexion réseau unique et de la connexion de chaque lecteur au réseau de données mobile ou cellulaire.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
-## Connexion d&#39;un lecteur AEM Screens à un réseau mobile direct {#connecting-aem-screens-players}
+## Connexion d’un lecteur AEM Screens à un réseau mobile direct {#connecting-aem-screens-players}
 
-Suivez les étapes ci-dessous pour vous assurer que les lecteurs d’écran AEM sont correctement connectés dans cette configuration :
+Procédez selon les étapes ci-dessous pour vous assurer que les lecteurs AEM Screens sont correctement connectés dans cette configuration :
 
-1. Assurez-vous que chacun des lecteurs d’écran AEM est connecté au réseau des routeurs.
+1. Veillez à ce que chacun des lecteurs AEM Screens soit connecté au réseau des routeurs.
 
 1. Testez la connexion Internet en appelant une URL dans le navigateur de votre système.
 
    >[!NOTE]
-   >Si vous recevez un message d&#39;erreur, vérifiez les paramètres réseau et vérifiez s&#39;il existe une liaison réseau suffisante et si le pare-feu du système d&#39;exploitation est configuré pour autoriser l&#39;accès au réseau à l&#39;aide des ports de communication AEM Screens configurés.
+   >Si vous recevez un message d’erreur, vérifiez les paramètres du réseau et contrôlez que la liaison réseau est suffisante et que le pare-feu du système d’exploitation est configuré pour autoriser l’accès au réseau à l’aide des ports de communication AEM Screens configurés.
 
-1. Si l’appel d’URL aboutit, vous pouvez continuer à installer les AEM Screens et à vous enregistrer. AEM Screens Débuts.
+1. Si l’appel de l’URL aboutit, vous pouvez continuer à installer AEM Screens et vous enregistrer. Lancez AEM Screens.
 
-## Configuration d&#39;un réseau mobile direct {#requirements-direct}
+## Configuration d’un réseau mobile direct {#requirements-direct}
 
-La configuration réseau peut être logiquement séparée en deux blocs :
+La configuration réseau peut être scindée logiquement en deux blocs :
 
 * Connexion Internet mobile
 
@@ -47,52 +47,52 @@ La configuration réseau peut être logiquement séparée en deux blocs :
 
 ### Connexion Internet mobile {#mobile-internet-connection}
 
-Les performances de la connexion Internet en plus de l&#39;accessibilité au réseau fournissent une bande passante suffisante pour fonctionner en AEM Screens en douceur.
+Au-delà de l’accessibilité du réseau, les performances de la connexion Internet tiennent à la capacité à fournir une bande passante suffisante pour utiliser AEM Screens de manière fluide.
 
-Dans Direct Mobile Network, chaque lecteur est connecté avec une carte de données mobile unique au réseau de données des fournisseurs.
+Dans un réseau mobile direct, chaque lecteur est connecté au réseau de données du fournisseur à l’aide d’une carte de données mobile unique.
 
-Le tableau suivant présente les réseaux de données avec leur bande passante standard :
+Le tableau suivant présente les réseaux ATA avec leur bande passante standard :
 
 | Réseau de données | Bande passante |
 |--- |--- |
-| 3G | 42 Mbit/s |
-| 4G | 150 Mbit/s |
-| 5G | 1 000 à 1 000 Mbit/s |
+| 3G | 42 Mbit/s |
+| 4G | 150 Mbit/s |
+| 5G | 1 000 à 10 000 Mbit/s |
 
-Tout en envisageant le réseau de données à utiliser, il est recommandé de répondre aux questions suivantes :
+Lors de la réflexion relative au choix du réseau à utiliser, il est recommandé de répondre aux questions suivantes :
 
-La vitesse réseau disponible dépend du plan spécifique du fournisseur de données mobiles et de la couverture disponible qui est atteinte à l&#39;emplacement du contrôleur AEM Screens.
-Tout en suivant cette configuration, il faut également tenir compte du fait que, outre la bande passante disponible, certains plans de fournisseurs de données mobiles limitent la quantité de données disponibles qui se connectent à la connexion au cours d&#39;une période donnée. Il faut s&#39;assurer qu&#39;il y a suffisamment de capacité en quantité de données et de bande passante.
-Pour assurer le suivi, le Package de données nécessaire doit au moins être :
+Le débit réseau disponible dépend du forfait spécifique du fournisseur de données mobiles et de la couverture disponible au point où se trouve le contrôleur AEM Screens.
+Pour effectuer cette configuration, il faut également tenir compte du fait que, outre la bande passante disponible, certains forfaits de fournisseurs de données mobiles limitent la quantité de données disponibles transitant par la connexion pour une période donnée. Il faut s’assurer de disposer de capacités suffisantes en volumes de données et en bande passante.
+Dans le prolongement de cette réflexion, le package de données nécessaire doit respecter les conditions suivantes :
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 
 >[!IMPORTANT]
->Pour le téléchargement initial des fichiers multimédia, par exemple, lors de l&#39;intégration de nouveaux lecteurs, une plus grande quantité de données et une durée de téléchargement accrue doivent être attendues et être reflétées dans les hypothèses ci-dessus.Un réseau 4G avec une *bonne* couverture et des données *illimitées* doivent correspondre aux installations les plus courantes de cette configuration réseau.
+>Pour le chargement initial des fichiers multimédias, par exemple pour l’intégration de nouveaux lecteurs, il est probable que le volume de données et la durée de téléchargement seront plus importants, ce qui devra être repris dans les hypothèses ci-dessus. Un réseau 4G possédant une *bonne* couverture et un volume de données *illimité* devrait correspondre aux installations les plus courantes de cette configuration réseau.
 
 >[!NOTE]
->Un plan minimum 3G avec une bonne couverture réseau devrait permettre d&#39;obtenir des performances de téléchargement acceptables pour un lecteur AEM Screens. S&#39;il n&#39;y a qu&#39;une couverture équitable disponible à un emplacement spécifique, il faut prendre en compte la possibilité de basculer la configuration réseau globale vers le réseau [mobile avec routeur de données mobiles et composants](/help/using/mobile-network-router.md)réseau actifs.
+>Un forfait 3G minimal doté d’une bonne couverture réseau devrait permettre d’obtenir des performances de téléchargement acceptables pour un lecteur AEM Screens. Si la couverture disponible à un emplacement spécifique n’est que passable, il faut envisager la possibilité de basculer la configuration réseau globale sur un [réseau mobile avec routeur de données mobiles et composants réseau actifs](/help/using/mobile-network-router.md).
 
 
 ### Réseau local {#lan-connection}
 
-En plus de la connectivité réseau, la performance du réseau local (LAN) est de fournir une bande passante suffisante pour fonctionner en AEM Screens en douceur. Le réseau LAN correspond généralement à un réseau de 100 Mbit/s, de sorte qu&#39;il y a suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
+Au-delà de l’accessibilité, les performances du réseau local tiennent à la capacité à fournir une bande passante suffisante pour utiliser AEM Screens de manière fluide. Un réseau local correspond généralement à un débit de 100 Mbit/s, ce qui permet de disposer d’une bande passante suffisante pour connecter de nombreux appareils au système en assurant de bonnes performances.
 
-Lors de l&#39;utilisation d&#39;autres composants réseau actifs, il est obligatoire que tous ces composants correspondent aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet ou de routeur.
+Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante de l’accès Internet ou de la spécification du routeur.
 
 ## Téléchargement de médias et de ressources {#download}
 
-AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre localement tous les fichiers multimédias nécessaires, tels que les images et les vidéos. Le trafic réseau majeur survient lorsqu’un nouveau contenu doit être affiché sur un affichage spécifique.
+AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. L’essentiel du trafic réseau a lieu lorsqu’un nouveau contenu doit être affiché sur un dispositif d’affichage spécifique.
 
-Pour les opérations normales, par exemple, une liste de lecture définie qui se met à jour fréquemment au cours de la journée - offre une opération indépendante de la proximité du réseau, une fois que tous les fichiers ont été enregistrés sur le lecteur.
+Pour les opérations normales, par exemple une liste de lecture définie qui ne change pas très souvent au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 
-Dans le cas de scénarios où il y a davantage d&#39;interactions avec des capteurs ou des déclencheurs et du contenu dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d&#39;écran immédiate afin d&#39;assurer une meilleure expérience client possible.
+Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d’autres déclencheurs et un contenu dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 
-Le tableau suivant présente un aperçu des données clés de connectivité réseau.
+Le tableau suivant présente un aperçu des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
->Toutes les informations font référence à la consommation de chaque périphérique du réseau demandant et téléchargeant une source Internet. Chacune de ces requêtes additionne et étend le temps de téléchargement.
+>Toutes ces informations font référence à la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/download-times-mobile.png)
 
