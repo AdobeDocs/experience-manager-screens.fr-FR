@@ -4,11 +4,11 @@ solution-title: AEM Screens
 getting-started-title: Guide des bonnes pratiques pour AEM Screens
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 78%
    + [Prototypage de l’expérience utilisateur](prototypes.md)
    + [Maquettage de l’expérience utilisateur](wireframes.md)
    + [Transition vers la plate-forme](transition-platform.md)
-   + [Optimisation dynamique des annonces (DCO)](dynamic-creative-optimizations.md)
+   + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Exposé sur le déploiement {#deployment-brief}
    + [Configurations de plates-formes AEM](aem-platform-configurations.md)
    + [Taxonomie et mise en œuvre du projet](project-taxonomy-implementation.md)
@@ -41,7 +41,7 @@ ht-degree: 78%
       + [Réseau Internet direct (câblé/sans fil)](/help/using/direct-internet-network.md)
       + [Réseau mobile direct](/help/using/mobile-network.md)
       + [Réseau mobile avec routeur de données mobile et composants réseau actifs](/help/using/mobile-network-router.md)
-      + [Réseau d&#39;entreprise fermé (câblé/sans fil)](/help/using/enclosed-corporate-network.md)
+      + [Réseau d’entreprise fermé (câblé/sans fil)](/help/using/enclosed-corporate-network.md)
    + [Configurations de périphériques](device-configurations.md)
    + [Tests et contrôle de la qualité](testing-quality-assurance.md)
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
