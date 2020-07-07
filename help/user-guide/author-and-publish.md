@@ -1,6 +1,6 @@
 ---
-title: Configuration de l’Auteur et de la Publication dans AEM Screens
-seo-title: Configuration de l’Auteur et de la Publication dans AEM Screens
+title: Configuration de l’auteur et de la publication dans AEM Screens
+seo-title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
@@ -10,11 +10,11 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 #### Création d’agents de réplication standard {#creating-standard-replication-agents}
 
 1. Créez un agent de réplication standard pour pub1 (l’agent par défaut prêt à l’emploi devrait déjà être configuré) (par exemple, *https://&lt;nom_hôte>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l’agent rep pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. (par exemple, *https://&lt;nom_hôte>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l’agent de réplication pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. (par exemple, *https://&lt;nom_hôte>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Création d’agents de réplication Screens {#creating-screens-replication-agents}
 
@@ -117,7 +117,7 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 #### Création d’agents de réplication inverse Screens {#creating-screens-reverse-replication-agents}
 
 1. Créez un agent de réplication inverse standard pour pub1.
-1. Créez un agent de réplication inverse standard pour pub2. Vous pouvez copier l’agent rep pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport.
+1. Créez un agent de réplication inverse standard pour pub2. Vous pouvez copier l’agent de réplication inverse pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport.
 
 ## Configuration de la topologie de publication {#setting-up-publish-topology}
 
@@ -132,7 +132,7 @@ Pour chaque instance de publication :
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. **Liste** de liste blanche du connecteur de topologie : s’adapter aux adresses IP ou sous-réseaux couvrant les instances de publication de participation
+1. **Liste blanche des connecteurs de topologie** : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication
 1. Activez **Arrêt automatique des boucles locales**
 
 La configuration doit être identique pour chaque instance de publication et l’arrêt automatique des boucles locales empêche la création d’une boucle infinie.
