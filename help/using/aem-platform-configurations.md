@@ -3,8 +3,11 @@ title: Configurations de plates-formes AEM
 seo-title: Configurations de plates-formes AEM
 description: Cette page décrit les configurations des plates-formes AEM
 seo-description: Cette page décrit les configurations des plates-formes AEM
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +29,11 @@ Pour configurer les serveurs de création et de publication, consultez la page [
 
 >[!NOTE]
 >
-> S’il n’existe qu’une seule instance de création et une seule instance de publication, vous devez suivre la procédure décrite à la section **Configuration des agents de réplication sur l’auteur** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
+>S’il n’existe qu’une seule instance de création et une seule instance de publication, vous devez suivre la procédure décrite à la section **Configuration des agents de réplication sur l’auteur** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
 
 ## Configurations de Dispatcher {#dispatcher-configurations}
 
-Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager. L’utilisation de Dispatcher AEM contribue également à protéger le serveur AEM contre les attaques. Par conséquent, vous pouvez augmenter la sécurité de l’instance AEM en utilisant Dispatcher conjointement à un serveur web de niveau élevé.
+Le Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager. L’utilisation du Dispatcher AEM contribue également à protéger le serveur AEM contre les attaques. Vous pouvez donc accroître la sécurité de l’instance AEM en utilisant le Dispatcher conjointement à un serveur web de niveau élevé.
 
 Rendez-vous sur la page **[Configurations du Dispatcher pour AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**, où vous trouverez des instructions sur la configuration du Dispatcher pour un projet AEM Screens.
 
@@ -62,7 +65,8 @@ Veuillez, en outre, identifier les packages de développement (les composants WC
 Installez les mêmes packages logiciels sur vos environnements de développement locaux. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
 
 >[!NOTE]
-> Pour installer la dernière version du Feature Pack pour AEM Screens, consultez les [Notes de mise à jour](https://helpx.adobe.com/fr/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>
+>Pour installer la dernière version du Feature Pack pour AEM Screens, consultez les [Notes de mise à jour](https://helpx.adobe.com/fr/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
 
 ## Configuration des listes de contrôle d’accès {#setting-up-acls}
 
