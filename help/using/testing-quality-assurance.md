@@ -3,8 +3,11 @@ title: Tests et assurance qualité
 seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: ht
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +24,8 @@ Au cours de cette phase, des systèmes de test complets doivent être mis au poi
 Il convient de créer une liste de contrôle qui identifie tous les IPC définis précédemment et qui mesure le livrable par rapport à ces indicateurs.
 
 >[!NOTE]
-> Cette phase doit également servir d’outil pour la création d’un guide d’installation et d’utilisation qui pourra être livré avec l’équipement et conservé sur site pour consultation future.
+>
+>Cette phase doit également servir d’outil pour la création d’un guide d’installation et d’utilisation qui pourra être livré avec l’équipement et conservé sur site pour consultation future.
 
 Les éléments suivants doivent être pris en compte :
 
@@ -62,6 +66,7 @@ Ce module permet d’effectuer les opérations suivantes :
 Pour en savoir plus sur le ***Centre de contrôle des périphériques***, reportez-vous à la section [Dépannage du Centre de contrôle des périphériques](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/monitoring-screens.html) du **Guide de l’utilisateur d’AEM Screens**.
 
 >[!CAUTION]
+>
 > Vous ne devez pas utiliser le Centre de contrôle des périphériques pour :
 >
 > 1. installer de nouvelles versions de l’application du lecteur ;
@@ -72,9 +77,10 @@ Pour en savoir plus sur le ***Centre de contrôle des périphériques***, report
 
 
 >[!NOTE]
+>
 > Adobe recommande d’utiliser des plates-formes tierces dédiées de gestion de périphériques pour tous les déploiements.
 
-La plate-forme choisie dépend de plusieurs facteurs, dont le ***système d'exploitation cible***, les ***exigences du projet*** et le ***nombre de points d’extrémité***.
+The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
 
 Exemples :
 
