@@ -2,7 +2,7 @@
 title: Réseau mobile avec routeur de données mobiles et composants réseau actifs
 description: La page décrit le réseau mobile avec routeur de données mobiles et composants réseau actifs
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 75%
@@ -81,10 +81,12 @@ Lors de la réflexion relative au choix du réseau à utiliser, il est recommand
 * Combien de changements de contenu sont prévus et quelle est la taille moyenne des fichiers ?
 
 >[!NOTE]
+>
 >Le package de données nécessaire doit respecter les conditions suivantes :
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >Pour le chargement initial des fichiers multimédias, par exemple pour l’intégration de nouveaux lecteurs, il est probable que le volume de données et la durée de téléchargement seront plus importants, ce qui devra être repris dans les hypothèses ci-dessus. Un réseau 4G possédant une *bonne* couverture et un volume de données illimité devrait correspondre aux installations les plus courantes de cette configuration de réseau.
 
 
@@ -104,6 +106,7 @@ Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs 
 Les tableaux ci-dessous offrent une bonne vue d’ensemble des données clés de connectivité réseau en ce qui concerne les performances prévisibles et les temps d’attente potentiels.
 
 >[!NOTE]
+>
 >Toutes ces informations font référence à la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/mobile-router-download.png)
