@@ -2,7 +2,7 @@
 title: Réseau d’entreprise fermé
 description: 'Réseau d’entreprise fermé '
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 86%
@@ -56,6 +56,7 @@ Les performances de la connexion Internet, outre l&#39;accessibilité réseau, d
 Plus précisément, cette bande passante *suffisante* tient à la quantité de postes AEM Screens connectés et à l’utilisation d’autres appareils consommateurs sur le réseau, comme les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
 
 >[!NOTE]
+>
 >Tous les appareils ont un accès simultané à la connexion Internet et la bande passante diminue de façon linéaire lorsque vous ajoutez des appareils consommateurs ou des ordinateurs au réseau.
 
 ### Réseau local {#lan-connection}
@@ -85,6 +86,7 @@ Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d
 Le tableau suivant présente un aperçu des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
+>
 >Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/enclosed-network-download.png)
