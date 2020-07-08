@@ -3,9 +3,9 @@ title: Utilisation de la synchronisation des commandes
 seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
-translation-type: ht
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 La page suivante décrit l’utilisation de la synchronisation des commandes. La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
 
 >[!IMPORTANT]
+>
 >Cette fonctionnalité ne prend pas en charge les séquences incorporées, les séquences incorporées dynamiques, les canaux d’application ni les transitions.
 
 ## Présentation {#overview}
@@ -32,6 +33,7 @@ Le *maître* envoie une commande à tous les clients enregistrés lorsqu’il es
 La section suivante décrit l’utilisation de la synchronisation des commandes dans un projet AEM Screens.
 
 >[!NOTE]
+>
 >Pour la lecture synchronisée, il est nécessaire que tous les appareils présentent les mêmes spécifications matérielles et, de préférence, le même système d’exploitation. Il n’est pas recommandé de synchroniser des appareils et systèmes d’exploitation différents.
 
 ### Configuration du projet {#setting-up}
@@ -58,7 +60,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md).
+   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md)..
 
 1. Accédez au dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions pour enregistrer les appareils.
 
@@ -101,7 +103,8 @@ Les deux appareils (Chrome et lecteur Windows) apparaissent dans le panneau **AP
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> Vous pouvez configurer plusieurs appareils en tant que maîtres.
+>
+>Vous pouvez configurer plusieurs appareils en tant que maîtres.
 
 ### Synchronisation avec le maître {#sync-up-master}
 
@@ -124,6 +127,7 @@ Sélectionnez l’autre appareil (ici le lecteur Windows) dans le panneau **APPA
 Une fois que vous avez synchronisé un ou plusieurs appareils avec un maître, vous pouvez les désynchroniser.
 
 >[!NOTE]
+>
 >Si vous désynchronisez un appareil maître, cela annule également la liaison de tous les appareils clients qui lui sont associés.
 
 Pour annuler la synchronisation avec l’appareil maître, procédez comme suit :
