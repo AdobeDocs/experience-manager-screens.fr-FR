@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: ht
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 100%
 
 ---
 
@@ -181,7 +184,9 @@ Cet exemple présente les tranches horaires d’un magasin qui affiche sa collec
 | B | Noël | 2 | 24 décembre 2017 - 31 décembre 2017 |
 
 >[!IMPORTANT]
+>
 > Pour en savoir plus sur les tranches horaires, consultez les sections suivantes :
+>
 >* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
