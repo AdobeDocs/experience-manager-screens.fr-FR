@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 100%
 
 ---
 
@@ -69,6 +72,7 @@ L’exemple suivant illustre la création d’un canal de séquence (*ChannelOne
 >Vous pouvez créer différentes zones à l’aide des options de modèle, telles que les canaux d’écran partagé 1x2, 2x2 ou 2x3 mentionnés ci-dessus.
 
 >[!IMPORTANT]
+>
 > Une fois que vous avez créé et ajouté du contenu au canal, l’étape suivante consiste à créer un emplacement et ensuite un affichage. En outre, vous devez attribuer ce canal à un affichage. Consultez les ressources ci-dessous à la fin de la section pour en savoir plus.
 
 ## Utilisation des canaux {#working-with-channels}
@@ -250,6 +254,7 @@ Les affichages attribués sont affichés dans le panneau **Affichages attribués
 >
 >* [Création et gestion des emplacements](managing-locations.md)
 >* [Création et gestion des affichages](managing-displays.md)
+
 >
 
 
