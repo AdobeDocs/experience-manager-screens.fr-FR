@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: ht
-source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 100%
 
 ---
 
@@ -23,6 +26,7 @@ source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 >Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4.
 
 >[!NOTE]
+>
 >Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et déposez une requête dans ce sens. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
 
 Cette section couvre les sujets suivants :
@@ -33,7 +37,7 @@ Cette section couvre les sujets suivants :
 
 ## Présentation {#overview}
 
-***AEM Screens ***tire parti d’Adobe Analytics ; vous obtenez ainsi une solution unique sur le marché : des analyses multicanaux permettant de mettre le contenu affiché à l’emplacement concerné en corrélation avec d’autres sources de données.
+***AEM Screens*** tire parti d’Adobe Analytics ; vous obtenez ainsi une solution unique sur le marché : des analyses multicanaux permettant de mettre le contenu affiché à l’emplacement concerné en corrélation avec d’autres sources de données.
 
 AEM Screens permet une intégration immédiate avec Adobe Analytics et vous fournit une preuve de lecture.
 
@@ -125,5 +129,5 @@ Les événements Analytics sont stockés hors ligne dans indexedDB, puis segment
 
 >[!NOTE]
 >
->Pour en savoir plus sur le ***séquencement ***et le modèle de données standard d’événements******, reportez-vous à **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Pour en savoir plus sur le ***séquencement*** et le modèle de données standard d’événements ******, reportez-vous à **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
 
