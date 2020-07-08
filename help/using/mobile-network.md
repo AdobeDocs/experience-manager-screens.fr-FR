@@ -1,9 +1,9 @@
 ---
 title: Réseau mobile direct
 description: La page décrit la configuration du réseau mobile direct.
-translation-type: ht
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
@@ -69,9 +69,11 @@ Dans le prolongement de cette réflexion, le package de données nécessaire doi
 
 
 >[!IMPORTANT]
+>
 >Pour le chargement initial des fichiers multimédias, par exemple pour l’intégration de nouveaux lecteurs, il est probable que le volume de données et la durée de téléchargement seront plus importants, ce qui devra être repris dans les hypothèses ci-dessus. Un réseau 4G possédant une *bonne* couverture et un volume de données *illimité* devrait correspondre aux installations les plus courantes de cette configuration réseau.
 
 >[!NOTE]
+>
 >Un forfait 3G minimal doté d’une bonne couverture réseau devrait permettre d’obtenir des performances de téléchargement acceptables pour un lecteur AEM Screens. Si la couverture disponible à un emplacement spécifique n’est que passable, il faut envisager la possibilité de basculer la configuration réseau globale sur un [réseau mobile avec routeur de données mobiles et composants réseau actifs](/help/using/mobile-network-router.md).
 
 
@@ -92,6 +94,7 @@ Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d
 Le tableau suivant présente un aperçu des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
+>
 >Toutes ces informations font référence à la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/download-times-mobile.png)
