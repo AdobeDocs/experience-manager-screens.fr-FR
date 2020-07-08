@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
-translation-type: ht
-source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,9 @@ Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’A
 La page suivante décrit les instructions de configuration du dispatcher pour un projet AEM Screens.
 
 >[!NOTE]
+>
 >Si un dispatcher est disponible, il est possible d’empêcher les connexions à la servlet d’enregistrement en filtrant les règles du dispatcher.
+>
 >En l’absence de dispatcher, désactivez la servlet d’enregistrement dans la liste des composants OSGi.
 
 ## Conditions préalables {#pre-requisites}
