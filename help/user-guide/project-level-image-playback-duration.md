@@ -4,8 +4,11 @@ seo-title: Durée de lecture des images au niveau du projet
 description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
 seo-description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
@@ -40,6 +43,7 @@ La section ci-après explique comment modifier la durée de lecture d’un conte
 
 
 >[!NOTE]
+>
 >Si vous souhaitez mettre à jour une image ou une durée de lecture au niveau d’un canal, reportez-vous à la section [Durée de lecture des images au niveau d’un canal](channel-level-image-playback.md).
 
 Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de lecture des images d’un projet :
