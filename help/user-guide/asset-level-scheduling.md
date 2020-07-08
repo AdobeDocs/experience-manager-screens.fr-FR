@@ -3,8 +3,11 @@ title: Activation au niveau des ressources
 seo-title: Activation au niveau des ressources
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
-translation-type: ht
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 100%
 
 ---
 
@@ -103,6 +106,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 
 >[!NOTE]
+>
 >Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 ### Tranches hebdomadaires {#week-parting}
@@ -126,6 +130,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | Lun-Jeu | la ressource est lue dans le canal du lundi au jeudi |
 
 >[!NOTE]
+>
 >Vous pouvez également utiliser une notation _complète_ (c’est-à-dire lundi,mercredi,vendredi) au lieu d’une notation _abrégée_ (c’est-à-dire Lun,Mer,Ven).
 
 
