@@ -2,7 +2,7 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 94%
@@ -68,6 +68,7 @@ Au-delà de l’accessibilité du réseau, les performances de la connexion Inte
 Plus précisément, cette bande passante *suffisante* tient au nombre de postes AEM Screens connectés et à l’utilisation d’autres appareils consommateurs sur le réseau, comme les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
 
 >[!NOTE]
+>
 >Tous les appareils mentionnés ci-dessus ont un accès simultané à la connexion Internet et la bande passante diminue de façon linéaire lorsque vous ajoutez des appareils consommateurs ou des ordinateurs au réseau.
 
 ### Réseau local {#lan-connection}
@@ -78,6 +79,7 @@ Un réseau local correspond généralement à un débit de 100 Mbit/s, ce qui p
 Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité.
 
 >[!NOTE]
+>
 >Si un répéteur Wi-Fi est requis, il est fortement recommandé d’utiliser un point d’accès Wi-Fi maillé comme Google Nest Mesh Wi-Fi, ou un dispositif similaire. D’autres technologies de répéteurs de signaux Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
 ## Téléchargement de médias et de ressources {#download}
@@ -91,6 +93,7 @@ Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d
 Le tableau suivant présente un aperçu des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
+>
 >Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/assets/download-times-direct.png)
