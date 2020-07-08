@@ -4,9 +4,9 @@ seo-title: Application d’une valorisation de marque et de styles personnalisé
 description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -82,6 +82,7 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
 1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de la conception.
 
 >[!IMPORTANT]
+>
 > Vous avez la possibilité d’effectuer une superposition des modèles Screens existants pour incorporer vos propres conceptions par défaut ou créer intégralement votre propre modèle. Pour plus d’informations, référez-vous à la procédure ci-dessous.
 
 1. Pour superposer les modèles Screens existants afin d’incorporer vos propres conceptions par défaut :
