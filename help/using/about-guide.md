@@ -3,8 +3,11 @@ title: À propos de ce guide
 seo-title: Description du guide
 description: Cette page décrit l’objectif du guide des bonnes pratiques
 seo-description: Cette page décrit l’objectif du guide des bonnes pratiques
-translation-type: ht
-source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Il convient toutefois de préciser que ce guide constitue une précieuse source 
 AEM Screens, nouvelle extension d’Adobe Experience Manager (AEM), propose de nouveaux outils aux applications diverses. Il est donc essentiel d’identifier les points importants à prendre en compte et les facteurs de risque courants liés au développement et au déploiement d’AEM Screens.
 
 Ce guide ne fournit pas seulement des informations complètes et des conseils pratiques pour imaginer, concevoir et intégrer des expériences client intentionnelles dans votre solution de signalétique digitale. Il explique également comment créer un impact positif sur vos activités en utilisant certaines des bonnes pratiques lors du déploiement d’un projet de signalétique digitale dans AEM Screens.
+
 >[!IMPORTANT]
+>
 > Ce guide est conçu pour identifier les pièges courants à éviter lors de la mise en œuvre d’un projet AEM Screens. Il se concentre principalement sur les sujets suivants :
 >
 > * **[Rôles du projet et responsabilités](roles-responsibilities.md)**
@@ -36,6 +41,7 @@ Ce guide ne fournit pas seulement des informations complètes et des conseils pr
 
 
 >[!NOTE]
+>
 > Termes utilisés dans ce guide (dans le contexte d’AEM Screens) :
 >
 > * L’**expérience utilisateur** désigne les expériences de signalétique digitale proposées aux clients finaux.
