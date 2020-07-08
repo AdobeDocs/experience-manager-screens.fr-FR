@@ -3,8 +3,11 @@ title: 'Configuration d’un workflow de placement direct '
 seo-title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
 seo-description: Cette page décrit la configuration d’un workflow de placement direct.
-translation-type: ht
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +28,14 @@ La configuration d’un workflow de placement direct consiste à mapper un canal
 En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur l’option **Mettre à jour le contenu hors ligne**.
 
 >[!NOTE]
-> Pour savoir comment utiliser la mise à jour hors ligne groupée, voir [Mise à jour de contenu en tant que service](/help/user-guide/content-update-as-a-service.md).
+>
+>Pour savoir comment utiliser la mise à jour hors ligne groupée, voir [Mise à jour de contenu en tant que service](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuration d’un workflow de placement direct {#configuring-workflow}
 
 >[!IMPORTANT]
-> Avant de démarrer la configuration, vous devez installer le [package de démonstration](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Une fois le package installé, il devrait être possible de voir le workflow et d’y accéder à partir de votre instance AEM --> Outils (icône) --> **Workflow** --> **Modèles de workflow**.
+>
+>Avant de démarrer la configuration, vous devez installer le [package de démonstration](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Une fois le package installé, il devrait être possible de voir le workflow et d’y accéder à partir de votre instance AEM --> Outils (icône) --> **Workflow** --> **Modèles de workflow**.
 
 Suivez les étapes ci-dessous pour configurer le workflow de placement direct :
 
