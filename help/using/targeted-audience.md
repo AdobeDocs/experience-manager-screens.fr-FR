@@ -3,8 +3,11 @@ title: Public cible
 seo-title: Public cible d’AEM Screens
 description: Cette page décrit le public cible du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit le public cible du guide des bonnes pratiques d’AEM Screens
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,8 @@ Le diagramme ci-dessous montre les rôles auxquels nous ferons référence tout 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> En fonction de la configuration de chaque projet, bon nombre de ces rôles peuvent être occupés en interne ou externalisés.
+>
+>En fonction de la configuration de chaque projet, bon nombre de ces rôles peuvent être occupés en interne ou externalisés.
 
 ## Définition des rôles {#roles}
 
@@ -66,4 +70,4 @@ En règle générale, les chefs de projet gèrent l’intégralité de votre dé
 
 >[!NOTE]
 >
-> Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
