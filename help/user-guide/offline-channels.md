@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: ht
-source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,7 @@ Le workflow du processus est le suivant :
   <tr>
    <td><strong>Type</strong></td> 
    <td><strong>Description</strong></td> 
-   <td><strong>Options</strong></td> 
+   <td><strong>Options </strong></td> 
   </tr>
   <tr>
    <td>channels</td> 
@@ -114,4 +117,5 @@ Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un ca
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
-> Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales relatives au fichier `pom.xml` pour ce projet spécifique, voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) dans **Développement d’un composant personnalisé pour AEM Screens**.
+>
+>Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales relatives au fichier `pom.xml` pour ce projet spécifique, voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) dans **Développement d’un composant personnalisé pour AEM Screens**.
