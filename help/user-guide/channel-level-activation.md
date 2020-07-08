@@ -10,8 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 100%
 
 ---
 
@@ -70,6 +73,7 @@ L’image ci-après montre le projet **Channel Level Activation** avec les canau
    >
    >
 * [Gestion d’un canal](managing-channels.md)
+
 >
 
 
@@ -99,6 +103,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Accédez à **Channel Level Activation** > **Emplacements** > **Région**.
    1. Sélectionnez **Région**, puis cliquez sur **+Créer** dans la barre d’actions.
    1. Sélectionnez **Afficher** dans l’assistant et créez un affichage intitulé **RegionDisplay.**
+
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **Affecter des canaux à un affichage**
@@ -113,6 +118,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Sélectionnez la **Priorité** **1**.
    1. Sélectionnez les **Événements pris en charge** **Chargement initial** et **Écran inactif**.
    1. Cliquez sur **Enregistrer**.
+
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
@@ -130,6 +136,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Sélectionnez les **Événements pris en charge** **Charge initiale**, **Écran inactif** et **Minuteur**, *comme illustré dans la figure ci-dessous.
    1. Choisissez la date **active à partir** du 27 novembre 2018 à 23h59 et **active jusqu’au** 28 novembre 2018 à 12h05.
    1. Cliquez sur **Enregistrer**.
+
    >[!CAUTION]
    Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
 
@@ -185,7 +192,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
 
 ### Tranches hebdomadaires {#week-parting}
 
@@ -211,7 +218,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | avant 12 h 15 et après 12 h 45 | le canal est lu avant 12 h 15 et après 12 h 45 tous les jours |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
 
 
 ### Tranches mensuelles {#month-parting}
