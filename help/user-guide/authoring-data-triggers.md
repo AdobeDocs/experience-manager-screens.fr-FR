@@ -2,8 +2,11 @@
 title: Création avec des triggers de données
 seo-title: Création avec des triggers de données
 description: Consultez cette page pour apprendre à créer avec des triggers de données.
-translation-type: ht
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 100%
 
 ---
 
@@ -13,14 +16,16 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 Cette section explique comment activer le ciblage dans vos canaux.
 
 >[!IMPORTANT]
-> La version minimale prenant en charge les triggers de données dans un canal AEM Screens est AEM 6.5.3 Feature Pack 3.
+>
+>La version minimale prenant en charge les triggers de données dans un canal AEM Screens est AEM 6.5.3 Feature Pack 3.
 
 ## Conditions préalables {#prereqs}
 
 Avant de suivre les étapes ci-dessous afin d’activer le ciblage dans les canaux, vous devez connaître les [termes clés de la section Configuration dans AEM Screens](configuring-context-hub.md) qui sont nécessaires pour comprendre ContextHub et le ciblage dans AEM Screens.
 
 >[!IMPORTANT]
-> Il est recommandé de comprendre et de définir les configurations ContextHub avant d’activer le ciblage dans un canal AEM Screens.
+>
+>Il est recommandé de comprendre et de définir les configurations ContextHub avant d’activer le ciblage dans un canal AEM Screens.
 
 Suivez les liens ci-dessous pour en savoir plus :
 
@@ -31,7 +36,7 @@ Une fois les étapes précédentes terminées, vous êtes prêt à activer le ci
 
 ## Présentation de la création avec des triggers de données {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Activation du ciblage dans un canal AEM Screens {#enabling-targeting}
 
