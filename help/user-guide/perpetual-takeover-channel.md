@@ -4,8 +4,11 @@ seo-title: Canal de prise de contrôle permanente
 description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle permanente.
 seo-description: Suivez ce cas d’utilisation sur la configuration d’un projet qui crée un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 100%
 
 ---
 
@@ -76,6 +79,7 @@ Pour configurer un projet, procédez comme suit :
    * **Chemin du canal** : sélectionnez le chemin d’accès au canal **MainAdChannel**.
    * **Priorité** : Définissez la priorité de ce canal sur 1.
    * **Événements pris en charge** : sélectionnez le **Chargement initial** et l’**Écran inactif**.
+
    ![ressource](assets/p_usecase6.png)
 
 1. Sélectionnez l’affichage **TakeOver** dans le dossier **Locations** (Emplacements). Cliquez sur **Attribuer un canal** dans la barre d’actions pour attribuer le canal de prise de contrôle.
@@ -86,6 +90,7 @@ Pour configurer un projet, procédez comme suit :
    * **Priorité** : Attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
    * **Événements pris en charge** : sélectionnez l’**Écran inactif** et le **Minuteur**.
    * **Planification** : entrez le texte de la planification selon laquelle ce canal doit exécuter l’affichage. Le texte de la **Planification** mentionnée dans cet exemple est *le mercredi après 14h00 et avant 16h00*.
+
       >[!NOTE]
       >Pour en savoir plus sur les expressions que vous pouvez ajouter à la **Planification**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
    * **actif à partir de** : Date et heure de début.
@@ -118,4 +123,5 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier, et se poursuit jusqu’à 03h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et se poursuit jusqu’à 03h00 le 3 janvier. |
 
 >[!NOTE]
+>
 >Vous pouvez également utiliser la notation _sur 24 heures_ (14h00) au lieu de la notation *am/pm* (2h00 pm).
