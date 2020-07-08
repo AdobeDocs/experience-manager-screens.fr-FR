@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
 
@@ -56,6 +56,7 @@ Par exemple, supposons que le serveur utilisent le fuseau horaire PST et les app
 Ainsi, lorsque nous planifions un lancement, la promotion commencera plus tôt en fonction de ce décalage. Dans l’équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons obtenir une estimation raisonnable du décalage à condition de connaître le décalage horaire maximal entre le serveur et n’importe quel lecteur.
 
 >[!NOTE]
+>
 >Par défaut, la période de grâce d’un lancement Screens est définie sur 24 heures, ce qui signifie que lorsque nous définissons la date d’activation de n’importe quel lancement pour les ressources sous */content/screens*, la promotion commence avec ce décalage.
 
 ### Mise à jour de la période de grâce par défaut {#updating-out-of-the-box-grace-period}
