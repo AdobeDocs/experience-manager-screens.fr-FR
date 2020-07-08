@@ -4,8 +4,11 @@ seo-title: Canal de prise de contrôle à usage unique
 description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 seo-description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
 * **[Création et gestion des canaux](managing-channels.md)**
 * **[Création et gestion des emplacements](managing-locations.md)**
-* **[Créer et gérer des planifications](managing-schedules.md)**
+* **[Création et gestion des planifications](managing-schedules.md)**
 * **[Enregistrement de périphériques](device-registration.md)**
 
 ### Acteurs principaux {#primary-actors}
@@ -86,6 +89,7 @@ Pour configurer un projet, procédez comme suit :
 
    * **Chemin du canal** : sélectionnez le chemin d’accès au canal TakeOver.
    * **Priorité** : attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
+
       >[!NOTE]
       >La priorité peut être une valeur supérieure à la valeur de priorité du canal normalement lu.
    * **Événements pris en charge** : sélectionnez l’**Écran inactif** et le **Minuteur**.
@@ -102,4 +106,5 @@ Le texte de la **Planification** mentionnée dans cet exemple est *le 31 décem
       ![ressource](assets/single-takeover9.png)
 
 >[!NOTE]
+>
 >Il est recommandé de supprimer le canal de prise de contrôle à usage unique une fois qu’il est lu.
