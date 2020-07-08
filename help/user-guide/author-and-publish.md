@@ -10,10 +10,10 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: ht
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
-workflow-type: ht
-source-wordcount: '1907'
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1893'
 ht-degree: 100%
 
 ---
@@ -156,8 +156,9 @@ Sur chaque instance de publication :
 Comme chaque instance de publication possède par défaut des clés de chiffrement uniques, vous devez effectuer cette étape sur chaque instance pub et enregistrer la clé unique pour la configuration suivante.
 
 >[!NOTE]
->Le mot de passe doit commencer et se terminer par des accolades.
->Par exemple :{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
+>
+>Le mot de passe doit commencer et se terminer par des accolades. Par exemple :
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Étape 4 : activation du cluster Artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
 
