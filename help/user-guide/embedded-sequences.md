@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
 
@@ -59,6 +59,7 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 Par défaut, elle est définie sur **normal**. La définition de la valeur sur **normal** (Lire tous les éléments) signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est **Lire un seul élément**, ce qui afficherait un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, et ainsi de suite).
 
 >[!IMPORTANT]
+>
 >Vous devez attribuer le canal (utilisé dans la séquence incorporée), au même affichage.
 >
 >Suivez les étapes ci-dessous après avoir ajouté une séquence incorporée à votre canal à partir des étapes précédentes :
@@ -66,14 +67,17 @@ Par défaut, elle est définie sur **normal**. La définition de la valeur sur *
 >1. Accédez à l’affichage et sélectionnez l’affichage dans le dossier **Locations** (Emplacements).
 >1. Cliquez sur **Tableau de bord** dans la barre d’actions pour accéder au tableau de bord de l’affichage.
 >1. Sélectionnez **+ Attribuer des canaux** dans les panneaux **CANAUX ET PLANIFICATIONS AFFECTÉS** pour ouvrir la **boîte de dialogue Attribution de canaux**.
+
    >
    >
 1. Sélectionnez le chemin du canal (utilisé dans la séquence incorporée) dans **Chemin du canal**.
 >1. Veillez à ce que la **priorité** soit inférieure au canal principal.
+
    >
    >
 1. Vous ne devez sélectionner aucun événement **pris en charge**.
 >1. Cliquez sur **Enregistrer** une fois terminé.
+
 >
 
 
