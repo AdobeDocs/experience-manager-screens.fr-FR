@@ -3,9 +3,9 @@ title: Liste de contrôle de sécurité d’AEM Screens
 seo-title: Liste de contrôle de sécurité d’AEM Screens
 description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
 seo-description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
-translation-type: ht
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Considérations relatives à la sécurité des systèmes pour AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >Il s’agit d’une ressource Git interne.
 
 Cette page contient des considérations relatives à la sécurité des systèmes pour AEM Screens.
@@ -77,7 +78,9 @@ Un lecteur compromis physiquement peut théoriquement être manipulé pour lire 
 Il est donc recommandé de mettre les appareils hors de portée, de préférence dans un boîtier sécurisé, doté d’un câblage également sécurisé. Désactivez aussi les ports de télécommande infrarouge.
 
 Si le système d’exploitation n’est pas mis à jour régulièrement, il peut être exposé à des failles de sécurité et permettre des attaques à distance via le réseau.
+
 >[!NOTE]
+>
 >Il est recommandé de doter les appareils de fonctionnalités suffisantes de mise à jour et de commande à distance (bureau distant, solution MDM, etc.). Nous vous recommandons également d’utiliser un réseau privé, par exemple non exposé au Wi-Fi public.
 
 
