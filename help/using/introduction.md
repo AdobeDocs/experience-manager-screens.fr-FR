@@ -3,8 +3,11 @@ title: Présentation d’[!UICONTROL AEM Screens]
 seo-title: Guide des bonnes pratiques pour les projets [!UICONTROL AEM Screens]
 description: Cette page est une section de présentation d’AEM Screens
 seo-description: Cette page vous invite à découvrir AEM Screens
-translation-type: ht
-source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
 
@@ -36,9 +39,9 @@ Avec AEM Screens, la création et la gestion d’un réseau de signalétique dig
 
 ## Positionnement d’AEM Screens par rapport à AEM Sites{#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> Si votre équipe en charge de la mise en œuvre a déjà travaillé avec des applications AEM Sites, il est important de comprendre la différence entre AEM Sites et AEM Screens.
+>Si votre équipe en charge de la mise en œuvre a déjà travaillé avec des applications AEM Sites, il est important de comprendre la différence entre AEM Sites et AEM Screens.
 
 AEM Screens fournit une plate-forme de création/lecture unifiée pour le déploiement de contenu sur des dispositifs de signalétique digitale installés dans l’espace public. Bien que le créateur de l’expérience s’efforce de maintenir la cohérence entre le contenu présenté sur le web et sur site, il convient de noter quelques différences.
 
@@ -56,6 +59,6 @@ AEM Screens fournit une structure permettant de déployer du contenu sur des pé
 
 Avant d’être déposé dans un canal d’AEM Screens, le site AEM Sites doit être formaté en vue d’être utilisé aux dimensions du périphérique d’affichage auquel il est destiné.
 
-> [!NOTE]
+>[!NOTE]
 >
-> De nombreux composants AEM Sites ne sont pas compatibles avec AEM Screens. AEM Screens s’accompagne d’un grand nombre de composants prêts à l’emploi qui vous permettent de créer des expériences digitales sans nécessiter de personnalisation. Si cela est autorisé dans le projet, utilisez la fonctionnalité intégrée d’AEM Screens lorsque cela s’avère possible.
+>De nombreux composants AEM Sites ne sont pas compatibles avec AEM Screens. AEM Screens s’accompagne d’un grand nombre de composants prêts à l’emploi qui vous permettent de créer des expériences digitales sans nécessiter de personnalisation. Si cela est autorisé dans le projet, utilisez la fonctionnalité intégrée d’AEM Screens lorsque cela s’avère possible.
