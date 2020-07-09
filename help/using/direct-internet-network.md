@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Les ports standard pour la communication AEM Screens sont les suivants :
 
    <br>Ou,</br>
 
-* `http (TCP Port 80)`, si votre cas d&#39;utilisation particulier n&#39;exige pas ce niveau de sécurité.
+* `http (TCP Port 80)`, si votre cas d’utilisation particulier n’exige pas ce niveau de sécurité.
 
 Les ports peuvent varier en fonction de la mise en place de votre configuration AEM dédiée. Dans cette configuration, tous les appareils sont directement connectés à votre routeur Internet, comme le montre la figure ci-dessous.
 
@@ -31,7 +31,7 @@ La configuration comporte également un accès Internet proposé par différents
 
 Procédez selon les étapes ci-dessous pour vous assurer que les lecteurs AEM Screens sont correctement connectés dans cette configuration :
 
-1. Assurez-vous que chacun des lecteurs d’écran AEM est connecté au réseau du routeur.
+1. Veillez à ce que chacun des lecteurs AEM Screens soit connecté au réseau du routeur.
 1. Testez la connexion Internet en appelant une URL dans le navigateur de votre système.
 
    >[!NOTE]
