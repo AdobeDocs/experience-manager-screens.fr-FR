@@ -1,18 +1,18 @@
 ---
 title: Réseau d’entreprise fermé
-description: 'Réseau d’entreprise fermé '
+description: 'Réseau d’entreprise fermé  '
 translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Réseau d’entreprise fermé  (câblé/sans fil) {#enclosed-corporate-networks}
+# Réseau d’entreprise fermé   (câblé/sans fil) {#enclosed-corporate-networks}
 
-La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Il peut être théoriquement plus complexe et la configuration logique est présentée dans la figure ci-dessous.
+La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Elle peut être plus complexe du point de vue théorique ; la configuration logique est présentée dans la figure ci-dessous.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,7 +52,7 @@ La configuration de réseau d’entreprise fermé peut être séparée logiqueme
 
 ### Réseau étendu {#wan-connection}
 
-Les performances de la connexion Internet, outre l&#39;accessibilité réseau, doivent fournir une bande passante suffisante pour que le contenu AEM Screens soit mis à jour en douceur.
+Au-delà de l’accessibilité du réseau, les performances de la connexion Internet résident dans la capacité à fournir une bande passante suffisante pour qu’AEM Screens télécharge le contenu de manière fluide.
 Plus précisément, cette bande passante *suffisante* tient à la quantité de postes AEM Screens connectés et à l’utilisation d’autres appareils consommateurs sur le réseau, comme les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
 
 >[!NOTE]
@@ -61,11 +61,11 @@ Plus précisément, cette bande passante *suffisante* tient à la quantité de p
 
 ### Réseau local {#lan-connection}
 
-Les performances du réseau local (LAN), en plus de l&#39;accessibilité du réseau, doivent fournir une bande passante suffisante pour faire fonctionner les mises à jour de contenu AEM Screens en douceur.
+Au-delà de l’accessibilité, les performances du réseau local tiennent à la capacité à fournir une bande passante suffisante pour qu’AEM Screens télécharge le contenu de manière fluide.
 
 Les réseaux locaux des entreprises atteignent généralement un débit de 1 000 Mbit/s, de sorte qu’il devrait y avoir suffisamment de bande passante pour connecter de nombreux appareils au système avec de bonnes performances. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante du réseau.
 
-Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante fournie par la spécification d&#39;accès Internet/routeur.
+Par exemple, les composants réseau doivent correspondre au moins à la norme standard de 100 Mbit/s et à la bande passante de l’accès Internet ou de la spécification du routeur.
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
