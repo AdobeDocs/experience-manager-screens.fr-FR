@@ -1,11 +1,11 @@
 ---
 title: Gestion du trafic réseau
 description: La page décrit les configurations de réseau standard et la gestion du trafic réseau.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
