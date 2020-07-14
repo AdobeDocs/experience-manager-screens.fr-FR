@@ -10,8 +10,11 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: ht
-source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
+translation-type: tm+mt
+source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +49,7 @@ Pour créer une démonstration d’un projet Screens et publier votre contenu da
 
 Le démarrage d’une nouvelle expérience de signalisation numérique implique de coordonner différents rôles avant qu’elle ne puisse être utilisée. Les rôles ci-dessous servent de point de départ pour créer un nouveau projet Screens.
 
-* **Créateur**
+* **Auteur**
 * **Développeur**
 * **Administrateur système/Technicien**
 
@@ -77,3 +80,7 @@ Reportez-vous aux tutoriels et aux ressources ci-dessous pour vous familiariser 
 * **Guide des bonnes pratiques pour les projets AEM Screens**
 
    Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations de plates-formes AEM, ainsi que l’assistance et la surveillance.
+
+* **Nouvelle expérience de l’assistance clientèle Adobe**
+
+   Pour en savoir plus sur les billets d’assistance Admin Console, consultez l’aide **[](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**Client 1 pour l’entreprise.
