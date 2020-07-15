@@ -1,6 +1,6 @@
 ---
 title: Utilisation du lecteur AEM Screens
-seo-title: Utilisation du lecteur Screens
+seo-title: Utilisation du lecteur  Screens
 description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
 seo-description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-translation-type: ht
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+translation-type: tm+mt
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +24,7 @@ Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran 
 
 >[!NOTE]
 >
->Appuyez sur ***Ctrl+Cmd+F**pour quitter le mode plein écran du lecteur AEM Screens pour OS X.*
+>Appuyez sur ***Ctrl+Cmd+F*** pour quitter le mode plein écran du lecteur AEM Screens pour OS X.
 
 Une fois que vous attribuez un canal à un affichage, le lecteur AEM Screens affiche le contenu. Vous pouvez configurer les paramètres de votre lecteur en utilisant les préférences de l’interface utilisateur d’administration (du tableau de bord) ou du lecteur lui-même.
 
@@ -29,7 +32,7 @@ Une fois que vous attribuez un canal à un affichage, le lecteur AEM Screens af
 
 Vous pouvez configurer les préférences de votre périphérique à partir de son tableau de bord, accessible via votre instance de création AEM.
 
-1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple, ***Projet de test* &gt;*****Périphériques***.
+1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple, ***Projet de test*** > ***Périphériques***.
 
    Sélectionnez **Périphériques** et **Gestionnaire de périphériques** dans la barre d’actions.
 
@@ -55,19 +58,33 @@ Pour afficher l’interface utilisateur d’administration du lecteur Screens, a
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-Si vous sélectionnez l’option **Configuration** dans le menu latéral, vous pouvez également réinitialiser le **micrologiciel**, les **préférences** ou les **paramètres d’usine** depuis cette boîte de dialogue.
+#### Accès aux options du menu de configuration {#configuration-options}
 
-De plus, vous pouvez spécifier le nombre maximal de fichiers journaux à conserver pour un lecteur AEM Screens dans **Nombre max. de fichiers journaux à conserver**. Pour plus de détails, voir la capture d’écran ci-dessous.
+Vous pouvez mettre à jour vos configurations si vous sélectionnez l’option **Configuration** dans le menu latéral, comme illustré dans la figure ci-dessous :
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+Le menu Configuration vous permet de modifier les paramètres suivants :
+
+* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+
+* Specify the number of maximum log files to keep for an AEM Screens player in **Max No. de fichiers journaux à conserver**.
+
+* Activez ou désactivez le menu **** d’administration, le commutateur **de** Canal et l’interface utilisateur **** d’Activité pour le lecteur d’écran.
+
+   Si l’interface utilisateur **de l’** Activité est activée à partir du menu **Configuration** , le lecteur AEM Screens affiche les messages *synchronisés* dans le coin supérieur droit du lecteur, comme illustré dans la figure ci-dessous.
+
+   ![image](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >L’option **Mettre à jour le micrologiciel** fonctionne uniquement sur Cordova, comme les lecteurs Android.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >Il est recommandé de désactiver l’**interface utilisateur d’administration** dans les déploiements de production.
+
+#### Accès aux options du menu Cache de contenu {#content-cache-options}
 
 Vous pouvez effacer le cache des canaux et des applications de l’IU d’administration dans le lecteur AEM Screens.
 
