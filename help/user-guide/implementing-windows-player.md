@@ -10,8 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+translation-type: tm+mt
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -24,11 +27,11 @@ Cette section décrit la configuration du lecteur AEM Screens Windows 10. Elle f
 
 Pour mettre en œuvre le lecteur Windows pour AEM Screens, installez le lecteur Windows pour AEM Screens.
 
-Consultez la page [**Téléchargements du lecteur AEM 6.4 **](https://download.macromedia.com/screens/).
+Consultez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
 
 ### Méthode ad hoc {#ad-hoc-method}
 
-La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.4 **](https://download.macromedia.com/screens/).
+La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
 
 Une fois l’application téléchargée, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
