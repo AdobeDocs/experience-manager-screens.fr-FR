@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 89%
 
 ---
@@ -72,7 +72,7 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 * Activez ou désactivez le menu **** d’administration, le commutateur **de** Canal et l’interface utilisateur **** d’Activité pour le lecteur d’écran.
 
-   Si l’interface utilisateur **de l’** Activité est activée à partir du menu **Configuration** , le lecteur AEM Screens affiche les messages *synchronisés* dans le coin supérieur droit du lecteur, comme illustré dans la figure ci-dessous.
+   Si l’interface utilisateur **de l’** Activité est activée dans le menu **Configuration** , le lecteur AEM Screens affiche les notifications *d’activité du* lecteur dans le coin supérieur droit du lecteur, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
