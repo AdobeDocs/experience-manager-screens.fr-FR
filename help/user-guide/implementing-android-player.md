@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +29,11 @@ Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur s
 
 Pour mettre en œuvre Android Player pour AEM Screens, installez Android Player pour AEM Screens.
 
-Consultez la page [**Téléchargements du lecteur AEM 6.4 **](https://download.macromedia.com/screens/).
+Consultez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
 
 ### Méthode ad hoc {#ad-hoc-method}
 
-La méthode ad hoc vous permet d’installer le dernier lecteur Android (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.4 **](https://download.macromedia.com/screens/).
+La méthode ad hoc vous permet d’installer le dernier lecteur Android (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
 
 Une fois l’application téléchargée, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
@@ -68,7 +71,7 @@ Suivez les étapes ci-dessous pour signer le fichier apk Android à l’aide des
 1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
 1. Recherchez le chemin d’accès à l’outil d’alignement zip dans le SDK Android.
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
-1. Installez ***aemscreensaligned.apk ***via adb install sur l’appareil.
+1. Installez ***aemscreensaligned.apk*** via adb install sur l’appareil.
 
 ## Mise en œuvre du watchdog Android {#android-watchdog-implementation}
 
