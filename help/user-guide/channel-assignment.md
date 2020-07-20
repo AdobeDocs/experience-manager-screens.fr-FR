@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ La planification vous permet de décrire sous forme de texte le moment où le ca
 Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction (« *Appuyez n’importe où pour commencer* ») doit être affichée ou non lorsque le canal est en cours d’exécution.
 
 
-### Tranches horaires  {#dayparting}
+### Tranches horaires   {#dayparting}
 
 Lorsqu’ils sont combinés avec des **tranches horaires**, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
@@ -120,7 +120,7 @@ Les tranches horaires consistent à fractionner une journée en tranches horaire
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher le menu du petit-déjeuner, du déjeuner et du dîner.
 
@@ -174,7 +174,7 @@ Vous allez créer des tranches horaires selon les mois, de sorte que le contenu 
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
-#### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
+#### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
 
 Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
