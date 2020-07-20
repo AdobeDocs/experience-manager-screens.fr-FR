@@ -3,11 +3,11 @@ title: Tests et assurance qualité
 seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Pour en savoir plus sur le ***Centre de contrôle des périphériques***, report
 >
 > Adobe recommande d’utiliser des plates-formes tierces dédiées de gestion de périphériques pour tous les déploiements.
 
-The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
+La plate-forme spécifique choisie dépend de plusieurs facteurs, dont le ***système d&#39;exploitation cible******, les exigences du projet*** et le ***nombre de points d’extrémité***.
 
 Exemples :
 
