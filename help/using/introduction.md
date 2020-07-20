@@ -3,9 +3,9 @@ title: Présentation d’[!UICONTROL AEM Screens]
 seo-title: Guide des bonnes pratiques pour les projets [!UICONTROL AEM Screens]
 description: Cette page est une section de présentation d’AEM Screens
 seo-description: Cette page vous invite à découvrir AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
