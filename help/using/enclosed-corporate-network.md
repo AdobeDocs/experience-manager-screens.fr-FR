@@ -1,6 +1,6 @@
 ---
 title: Réseau d’entreprise fermé
-description: 'Réseau d’entreprise fermé  '
+description: 'Réseau d’entreprise fermé   '
 translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 100%
 ---
 
 
-# Réseau d’entreprise fermé   (câblé/sans fil) {#enclosed-corporate-networks}
+# Réseau d’entreprise fermé    (câblé/sans fil) {#enclosed-corporate-networks}
 
 La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Elle peut être plus complexe du point de vue théorique ; la configuration logique est présentée dans la figure ci-dessous.
 
