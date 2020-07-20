@@ -1,9 +1,9 @@
 ---
 title: Réseau mobile direct
 description: La page décrit la configuration du réseau mobile direct.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
 ht-degree: 100%
 
