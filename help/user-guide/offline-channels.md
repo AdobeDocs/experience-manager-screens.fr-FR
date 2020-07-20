@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Le workflow du processus est le suivant :
 1. Télécharger le zip et l’extraire localement
 1. Afficher une copie locale du contenu
 
-## Gestionnaires de mise à jour  {#update-handlers}
+## Gestionnaires de mise à jour   {#update-handlers}
 
 ***ContentSync*** utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique. AEM Screens utilise les gestionnaires de mise à jour suivants :
 
-### Options communes  {#common-options}
+### Options communes   {#common-options}
 
 * *type* : type de gestionnaire de mise à jour à utiliser
 * *path* : chemin d’accès à la ressource
@@ -88,7 +88,7 @@ Suivez les étapes ci-dessous pour tester la configuration de ContentSync :
 1. Démarrer un serveur local dans le dossier extrait
 1. Ouvrir la page de démarrage et vérifier l’état de l’application
 
-## Activation de la configuration hors ligne d’un canal  {#enabling-offline-config-for-a-channel}
+## Activation de la configuration hors ligne d’un canal   {#enabling-offline-config-for-a-channel}
 
 Suivez les étapes ci-dessous pour activer la configuration hors ligne d’un canal :
 
