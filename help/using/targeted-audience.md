@@ -3,9 +3,9 @@ title: Public cible
 seo-title: Public cible d’AEM Screens
 description: Cette page décrit le public cible du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit le public cible du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
 ht-degree: 100%
 
