@@ -10,11 +10,11 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,8 +79,8 @@ Reportez-vous aux tutoriels et aux ressources ci-dessous pour vous familiariser 
 
 * **Guide des bonnes pratiques pour les projets AEM Screens**
 
-   Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations de plates-formes AEM, ainsi que l’assistance et la surveillance.
+   Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations de plates-formes AEM, ainsi que l’assistance et la surveillance.
 
-* **Nouvelle expérience de l’assistance clientèle Adobe**
+* **Nouvelle expérience du service clientèle Adobe**
 
-   Pour en savoir plus sur les billets d’assistance Admin Console, consultez l’aide **[](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**Client 1 pour l’entreprise.
+   Pour en savoir plus sur les tickets d’assistance clientèle Admin Console, consultez la page **[Aide de Customer One for Enterprise](https://docs.adobe.com/content/help/fr-FR/customer-one/using/home.htmlhome.html#)**.
