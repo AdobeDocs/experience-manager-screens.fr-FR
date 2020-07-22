@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
 
-### Signature de fichiers apk Android à l’aide des clés du fabricant      {#signage-of-android-apks-using-manufacturer-keys}
+### Signature de fichiers apk Android à l’aide des clés du fabricant       {#signage-of-android-apks-using-manufacturer-keys}
 
 Pour accéder à certaines des API privilégiées d’Android telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le fichier apk Android à l’aide des clés du fabricant.
 
