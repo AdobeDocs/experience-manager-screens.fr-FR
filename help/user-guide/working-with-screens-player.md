@@ -1,6 +1,6 @@
 ---
-title: Utilisation du lecteur AEM Screens
-seo-title: Utilisation du lecteur  Screens
+title: Utilisation du lecteur AEM Screens
+seo-title: Utilisation du lecteur Screens
 description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
 seo-description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran 
 
 >[!NOTE]
 >
->Appuyez sur ***Ctrl+Cmd+F*** pour quitter le mode plein écran du lecteur AEM Screens pour OS X.
+>Appuyez sur ***Ctrl+Cmd+F*** pour quitter le mode plein écran du lecteur AEM Screens pour OS X.
 
 Une fois que vous attribuez un canal à un affichage, le lecteur AEM Screens affiche le contenu. Vous pouvez configurer les paramètres de votre lecteur en utilisant les préférences de l’interface utilisateur d’administration (du tableau de bord) ou du lecteur lui-même.
 
-## Utilisation du tableau de bord du périphérique    {#using-the-device-dashboard}
+## Utilisation du tableau de bord du périphérique     {#using-the-device-dashboard}
 
 Vous pouvez configurer les préférences de votre périphérique à partir de son tableau de bord, accessible via votre instance de création AEM.
 
@@ -60,19 +60,19 @@ Pour afficher l’interface utilisateur d’administration du lecteur Screens, a
 
 #### Accès aux options du menu de configuration {#configuration-options}
 
-Vous pouvez mettre à jour vos configurations si vous sélectionnez l’option **Configuration** dans le menu latéral, comme illustré dans la figure ci-dessous :
+Vous pouvez mettre à jour vos configurations en sélectionnant l’option **Configuration** dans le menu latéral, comme illustré ci-dessous :
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-Le menu Configuration vous permet de modifier les paramètres suivants :
+Le menu Configuration vous permet de modifier les paramètres suivants :
 
-* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+* Réinitialisez **Micrologiciel**, **Préférences** ou **Paramètres d’usine** dans cette boîte de dialogue.
 
-* Specify the number of maximum log files to keep for an AEM Screens player in **Max No. de fichiers journaux à conserver**.
+* Indiquez le nombre maximal de fichiers journaux à conserver pour un lecteur AEM Screens dans **Nombre max. de fichiers journaux à conserver**.
 
-* Activez ou désactivez le menu **** d’administration, le commutateur **de** Canal et l’interface utilisateur **** d’Activité pour le lecteur d’écran.
+* Activez ou désactivez **Menu d’administration**, **Sélecteur de canal** et **Activity UI** (IU d’activité) pour le lecteur Screens.
 
-   Si l’interface utilisateur **de l’** Activité est activée dans le menu **Configuration** , le lecteur AEM Screens affiche les notifications *d’activité du* lecteur dans le coin supérieur droit du lecteur, comme illustré dans la figure ci-dessous.
+   Si la case **Activity UI** (IU d’activité) est cochée dans le menu **Configuration**, le lecteur AEM Screens affiche les *notifications d’activité du lecteur* dans le coin supérieur droit du lecteur, comme illustré ci-dessous.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
@@ -110,7 +110,7 @@ Pour afficher le sélecteur de canal du lecteur, appuyez longuement sur l’angl
 >
 >(Voir *Modification des préférences à partir du lecteur Screens*, comme mentionné dans la section ci-dessous.)
 
-### Gestions des préférences à partir du lecteur AEM Screens   {#managing-preferences-from-the-aem-screens-player}
+### Gestions des préférences à partir du lecteur AEM Screens    {#managing-preferences-from-the-aem-screens-player}
 
 Vous pouvez également modifier les paramètres de l’interface utilisateur d’administration et le sélecteur de canal à partir du lecteur.
 
