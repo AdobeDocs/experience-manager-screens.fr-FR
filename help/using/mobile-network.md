@@ -1,11 +1,11 @@
 ---
 title: Réseau mobile direct
 description: La page décrit la configuration du réseau mobile direct.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23bb59c719c675baa84c579f624adccc80377661
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 76%
 
 Il est possible de connecter les lecteurs AEM Screens à l’aide de réseaux mobiles ou cellulaires qui sont au moins en 3G.
 
-Dans AEM Screens, le contenu requis est téléchargé physiquement sur le contrôleur du lecteur ou sur l’ordinateur, et stocké de manière appropriée dans le système d’exploitation associé. Par conséquent, la bande passante fournie n’a d’incidence que sur les temps de téléchargement initiaux, ainsi que sur les mises à jour de contenu, et n’influence pas les performances de lecture régulière des Affichages.
+Dans AEM Screens, le contenu requis est téléchargé physiquement sur le contrôleur du lecteur ou sur l’ordinateur, et stocké de manière appropriée dans le système d’exploitation associé. Par conséquent, la bande passante fournie n’a un impact que sur les temps de téléchargement initiaux, ainsi que sur les mises à jour du contenu, et n’a aucune incidence sur les performances de lecture ordinaire au niveau des affichages.
 
-L&#39;avantage de connecter des lecteurs AEM Screens via Cellular 3/4/5G à votre fournisseur de données de services mobiles est que le routeur mobile peut être placé dans un emplacement optimisé pour garantir une meilleure couverture réseau disponible. Il s’agit généralement d’une position élevée et ouverte, où les constructions environnantes de béton et de métal sont les moins nombreuses possibles.
+L’avantage de la connexion des lecteurs AEM Screens via le réseau 3/4/5G cellulaire de votre fournisseur de données mobiles est que le routeur mobile peut être placé en un point optimisé pour assurer la meilleure couverture réseau disponible. Il s’agit généralement d’une position élevée et ouverte, où les constructions environnantes de béton et de métal sont les moins nombreuses possibles.
 
-Cette configuration permet aux utilisateurs d’AEM Screen d’avoir une grande flexibilité car aucune connexion fixe n’est requise pour se connecter aux AEM Screens. Cela est particulièrement intéressant pour les configurations éphémères ou mobiles.
+Cette configuration offre une grande flexibilité aux utilisateurs d’AEM Screens, car aucune connexion fixe n’est requise pour se connecter. Cela est particulièrement intéressant pour les configurations éphémères ou mobiles.
 
 Le schéma suivant représente la configuration d’un réseau mobile direct. Il se compose d’un segment de connexion réseau unique et de la connexion de chaque lecteur au réseau de données mobile ou cellulaire.
 
@@ -70,7 +70,7 @@ Dans le prolongement de cette réflexion, le package de données nécessaire doi
 
 >[!IMPORTANT]
 >
->Pour le téléchargement initial des fichiers multimédia, par exemple, lors de l’intégration de nouveaux lecteurs, une plus grande quantité de données et une durée de téléchargement accrue doivent être attendues et être reflétées dans les hypothèses ci-dessus. A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
+>Pour le chargement initial des fichiers multimédias, par exemple pour l’intégration de nouveaux lecteurs, il est probable que le volume de données et la durée de téléchargement seront plus importants, ce qui devra être repris dans les hypothèses ci-dessus. Un réseau 4G possédant une *bonne* couverture et un forfait de données *illimité* devrait correspondre aux installations les plus courantes de cette configuration de réseau.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Dans le prolongement de cette réflexion, le package de données nécessaire doi
 
 ### Réseau local {#lan-connection}
 
-Outre l&#39;accessibilité au réseau, les problèmes de performances du réseau local (LAN) visent à fournir une bande passante suffisante pour le bon fonctionnement du AEM Screens. La recommandation pour les vitesses réseau LAN est de début à 100 Mbit/s au moins, de sorte qu&#39;il y ait suffisamment de bande passante pour connecter de nombreux périphériques avec de bonnes performances au système.
+Au-delà de l’accessibilité, les performances du réseau local tiennent à la capacité à fournir une bande passante suffisante pour utiliser AEM Screens de manière fluide. Pour les réseaux locaux, la vitesse recommandée est de 100 Mbit/s au moins, de sorte qu’il y ait suffisamment de bande passante pour connecter de nombreux appareils avec de bonnes performances système.
 
 Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante de l’accès Internet ou de la spécification du routeur. Sinon, la bande passante totale sera limitée par le maillon le plus faible de la chaîne réseau.
 
