@@ -3,9 +3,9 @@ title: Activation au niveau des ressources
 seo-title: Activation au niveau des ressources
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 100%
 
@@ -88,8 +88,8 @@ Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13h00
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
-   > [!NOTE]
-   > Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -115,8 +115,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
-   > [!NOTE]
-   > Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -140,8 +140,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
-   > [!NOTE]
-   > Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -154,8 +154,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | de février,mai,août,novembre | la ressource est lue dans le canal en février, mai, août et novembre |
 | de février-juillet | la ressource est lue dans le canal du mois de février à la fin du mois de juillet |
 
-> [!NOTE]
-> Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
+>[!NOTE]
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
 
 ### Combinaison de tranches {#combined-parting}
 
@@ -163,8 +163,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
-   > [!NOTE]
-   > Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >[!NOTE]
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -178,8 +178,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | le 1er janvier après 14 h 00, ainsi que le 2 janvier et le 3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier |
 | les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
-> [!NOTE]
-> Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>[!NOTE]
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 
 ## Activation multiressource {#multi-asset-scheduling}
