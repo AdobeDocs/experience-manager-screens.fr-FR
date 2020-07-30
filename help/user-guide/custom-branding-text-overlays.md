@@ -4,9 +4,9 @@ seo-title: Application d’une valorisation de marque et de styles personnalisé
 description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -41,26 +41,26 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
 1. Créez le fichier *static.css* et définissez les règles CSS suivantes. À ce propos, la figure ci-dessous illustre un exemple de règles CSS.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
 
 >[!IMPORTANT]
 >
-> Vous avez la possibilité d’effectuer une superposition des modèles Screens existants pour incorporer vos propres conceptions par défaut ou créer intégralement votre propre modèle. Pour plus d’informations, référez-vous à la procédure ci-dessous.
+>Vous avez la possibilité d’effectuer une superposition des modèles Screens existants pour incorporer vos propres conceptions par défaut ou créer intégralement votre propre modèle. Pour plus d’informations, référez-vous à la procédure ci-dessous.
 
 1. Pour superposer les modèles Screens existants afin d’incorporer vos propres conceptions par défaut :
 
