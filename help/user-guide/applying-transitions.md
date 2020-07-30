@@ -5,9 +5,9 @@ description: Consultez cette page pour apprendre comment appliquer des transitio
 seo-description: Consultez cette page pour apprendre comment appliquer des transitions à vos projets Screens.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ avec un canal **TestTransition**. Configurez également un emplacement et un aff
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >Par défaut, les propriétés du composant de transition, telles que **Type**, sont définies sur **Fondu** et la **Durée** sur *1 600 ms*.  En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle cette durée s’applique.
 
