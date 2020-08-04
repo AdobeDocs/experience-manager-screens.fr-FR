@@ -5,9 +5,9 @@ description: Consultez cette page pour apprendre comment appliquer des transitio
 seo-description: Consultez cette page pour apprendre comment appliquer des transitions à vos projets Screens.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
 ht-degree: 100%
 
