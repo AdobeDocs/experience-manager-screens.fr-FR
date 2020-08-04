@@ -4,9 +4,9 @@ seo-title: Création de modèles personnalisés dans des dispositions multizones
 description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
 ht-degree: 100%
 
