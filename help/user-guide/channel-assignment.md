@@ -1,47 +1,31 @@
 ---
 title: Attribution de canaux
 seo-title: Attribution de canaux
-description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-seo-description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
+translation-type: tm+mt
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+workflow-type: tm+mt
+source-wordcount: '1335'
+ht-degree: 74%
 
 ---
 
 
 # Attribution de canaux {#channel-assignment}
 
-Cette section couvre les sujets suivants :
+Une fois que vous définissez un affichage, vous devez affecter un canal à un affichage.
 
-* **Attribution d’un canal**
-* **Présentation des propriétés de la boîte de dialogue Attribution de canaux**
-* **Tranches horaires**
+Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
 
-Une fois que vous avez défini un affichage, vous devez lui attribuer un canal.
-
-Cette page vous explique comment attribuer un canal à vos affichages.
-
-**Conditions préalables** :
-
-* [Configuration et déploiement de Screens](configuring-screens-introduction.md)
-* [Création et gestion de projet Screens](creating-a-screens-project.md)
-* [Création et gestion des canaux](managing-channels.md)
-* [Création et gestion des emplacements](managing-locations.md)
-* [Création et gestion des affichages](managing-displays.md)
+>[!NOTE]
+>Vous pouvez attribuer plusieurs canaux à un affichage.
 
 ## Attribution d’un canal {#assign-a-channel}
 
 Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
+
+>[!Important]
+>La boîte de dialogue suivante pour l’affectation de canal est différente pour la version du Pack de fonctionnalités d’Adobe Experience 6.5.5 Screens et versions ultérieures. Pour plus d&#39;informations, reportez-vous à la section Affectation [de](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) Canal.
 
 1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Vous pouvez comprendre et configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous.
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
+
+## Attribution d&#39;un Canal pour AEM version 6.5.5 Feature Pack des écrans {#assign-a-channel-new-release}
+
+Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
+
+1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   Ou,
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. Dans l’option Paramètre, vous pouvez choisir le canal par chemin ou par nom, entrer le rôle de canal, la priorité, les Événements pris en charge.
+
+   >[!NOTE]
+   >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
+
+1. Dans l&#39;option **Planifications** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
+
+1. Cliquez sur **Enregistrer** une fois que vous avez configuré vos préférences.
 
 ### Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 
@@ -111,18 +117,17 @@ La planification vous permet de décrire sous forme de texte le moment où le ca
 
 Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction (« *Appuyez n’importe où pour commencer* ») doit être affichée ou non lorsque le canal est en cours d’exécution.
 
+### Partage de journée {#dayparting}
 
-### Tranches horaires   {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Lorsqu’ils sont combinés avec des **tranches horaires**, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
+Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. aem screens vous permet de planifier des canaux en termes de partage de journée au cours d’une journée, d’une semaine ou d’un mois, selon vos besoins.
 
-Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
-
-Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
+Les exemples suivants expliquent le partage de journée dans trois scénarios différents :
 
 #### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher le menu du petit-déjeuner, du déjeuner et du dîner.
+Cet exemple montre comment un restaurant utilise la journée pour présenter son menu de petit-déjeuner, déjeuner et dîner.
 
 Nous diviserons chaque jour en trois tranches horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure spécifiée :
 
@@ -161,9 +166,9 @@ Cet exemple présente les tranches horaires suivies dans un casino où un évén
 
 #### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
 
-Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’été de juin à août, et sa collection d’automne de septembre à fin octobre.
+Cet exemple montre la répartition des heures d&#39;une boutique qui affiche sa collection d&#39;été des mois de juin à août et la collection d&#39;automne de septembre à fin octobre.
 
-Vous allez créer des tranches horaires selon les mois, de sorte que le contenu du canal soit diffusé pendant les mois de l’année spécifiés.
+Ici, vous créez des heures de diffusion par mois, de sorte que le contenu du canal soit lu selon les mois de l’année spécifiés.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -176,16 +181,17 @@ Vous allez créer des tranches horaires selon les mois, de sorte que le contenu 
 
 #### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
 
-Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
+Cet exemple montre la répartition des heures d&#39;une boutique qui affiche sa collection d&#39;hiver selon le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
 | A | Hiver | 1 | 1er décembre 2017 - 31 décembre 2017 |
 | B | Noël | 2 | 24 décembre 2017 - 31 décembre 2017 |
 
+
 >[!IMPORTANT]
 >
-> Pour en savoir plus sur les tranches horaires, consultez les sections suivantes :
+> Pour en savoir plus sur les heures de diffusion, consultez les sections ci-dessous :
 >
 >* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
