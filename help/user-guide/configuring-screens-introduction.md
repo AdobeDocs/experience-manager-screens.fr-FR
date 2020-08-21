@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: ht
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+translation-type: tm+mt
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 100%
 
 ---
 
