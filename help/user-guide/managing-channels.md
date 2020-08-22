@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1400'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 
 >[!NOTE]
 >
->Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)**pour en savoir plus.
+>Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour en savoir plus.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Cliquez sur l’icône (**...**) dans la barre d’actions **INFORMATIONS SUR LE
 
 Vous pouvez afficher le manifeste à partir du tableau de bord des canaux.
 
->[IMPORTANT]
-> Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Procédez comme suit pour activer cette option à partir du tableau de bord des canaux :
 1. **Définir le canal sur Hors ligne**
