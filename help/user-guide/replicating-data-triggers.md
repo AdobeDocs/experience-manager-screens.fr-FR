@@ -3,10 +3,10 @@ title: Réplication des triggers de données sur les serveurs de publication
 seo-title: Réplication des triggers de données sur le serveur de publication
 description: Répliquez les triggers de données sur le serveur de publication.
 seo-description: Répliquez les triggers de données sur le serveur de publication.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '526'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
@@ -34,14 +34,16 @@ Suivez les étapes ci-dessous pour répliquer les triggers de données sur le se
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >Vous pouvez également utiliser `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` pour accéder directement à l’écran afin de configurer et de tester la connexion.
 
 1. Cliquez sur **Tester la connexion** dans la barre d’actions pour valider la communication de l’auteur avec l’instance de publication, comme illustré ci-dessous.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >Si le test échoue, vous devez corriger la configuration de l’agent de réplication entre l’instance d’auteur et l’instance de publication. Pour plus d’informations, voir [Dépannage du test de la connexion](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
 
 1. Sélectionnez **Ajouter** dans l’arborescence de l’**Agent de distribution** et sélectionnez le chemin de configuration de votre projet, par exemple `/conf/screens/settings/cloudsettings/configuration`.
