@@ -3,9 +3,9 @@ title: Attribution de canaux
 seo-title: Attribution de canaux
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 74%
 
 ---
@@ -24,7 +24,8 @@ Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
 
 Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
->[!Important]
+>[!IMPORTANT]
+>
 >La boîte de dialogue suivante pour l’affectation de canal est différente pour la version du Pack de fonctionnalités d’Adobe Experience 6.5.5 Screens et versions ultérieures. Pour plus d&#39;informations, reportez-vous à la section Affectation [de](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) Canal.
 
 1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
@@ -93,7 +94,8 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 #### Méthode d’interruption {#interruption-method-channel}
 
->[IMPORTANT]
+>[!IMPORTANT]
+>
 > Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un canal est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, tout en ayant la possibilité de lire intégralement le contenu important avant de l’interrompre en raison de la planification.
