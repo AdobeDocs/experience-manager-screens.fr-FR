@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
-workflow-type: ht
-source-wordcount: '1198'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1197'
 ht-degree: 100%
 
 ---
@@ -83,6 +83,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Accédez à **Zones** —> **MultiZone** —> **Canaux** et cliquez sur **Créer** dans la barre d’actions.
    1. Sélectionnez **Dossier de canaux** dans l’assistant de **Création** et cliquez sur **Suivant**.
    1. Saisissez le titre **EmbeddedChannels** et cliquez sur **Créer**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Ajout de deux autres canaux au dossier de canaux**
@@ -93,6 +94,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Faites glisser quelques images sur ce canal.
    1. De même, créez un autre canal de séquence intitulé **Zone2** dans le dossier **EmbeddedChannels**.
    1. Faites glisser une vidéo sur ce canal.
+
    La figure suivante montre les canaux **Zone1** et **Zone2** :
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -154,7 +156,8 @@ Vous devez affecter les canaux à l’affichage de façon à visualiser le conte
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!Important]
+      >[!IMPORTANT]
+      >
       > Une fois que vous avez affecté le canal principal (dans ce cas, **MultiZone**) à l’affichage, il est obligatoire de lui affecter également les deux autres canaux incorporés **Zone1** et **Zone2**.
 
 ### Enregistrement de l’appareil {#registering-device}
@@ -166,6 +169,7 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
    1. Accédez au dossier **Zones** --> **Appareils**.
    1. Sélectionnez le dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
    1. Cliquez sur **Enregistrement de périphérique** et sélectionnez l’appareil en attente dans la liste.
+
       >[!NOTE]
       > Le titre de l’appareil doit correspondre au jeton de l’appareil (champ **Jeton**) figurant dans l’onglet **Enregistrement du périphérique**.
    1. Si le titre correspond au jeton de l’appareil, sélectionnez l’appareil, puis cliquez sur **Enregistrer le périphérique** dans la barre d’actions.
@@ -173,6 +177,7 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Saisissez le **Titre** **Chrome-Device1**, puis cliquez sur **Enregistrer**.
    1. Sélectionnez **Attribuer l’affichage** et choisissez le chemin de la configuration du périphérique.
+
    >[!NOTE]
    >Si vous essayez d’afficher le contenu dans le lecteur Screens, veillez à cliquer sur **Mettre à jour le contenu hors ligne** dans le tableau de bord des canaux pour chacun des canaux affectés à l’affichage.
 
