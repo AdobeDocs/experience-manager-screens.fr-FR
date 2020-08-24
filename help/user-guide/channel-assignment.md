@@ -3,17 +3,20 @@ title: Attribution de canaux
 seo-title: Attribution de canaux
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 74%
+source-wordcount: '1218'
+ht-degree: 79%
 
 ---
 
 
 # Attribution de canaux {#channel-assignment}
 
-Une fois que vous définissez un affichage, vous devez affecter un canal à un affichage.
+>[!IMPORTANT]
+>Cette section décrit l&#39;affectation et la planification des canaux des packs de fonctionnalités antérieurs à AEM version 6.5.5 Écrans.
+
+Une fois que vous avez configuré un affichage, vous devez affecter un canal à un affichage pour vue de votre contenu.
 
 Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
 
@@ -23,10 +26,6 @@ Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
 ## Attribution d’un canal {#assign-a-channel}
 
 Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
-
->[!IMPORTANT]
->
->La boîte de dialogue suivante pour l’affectation de canal est différente pour la version du Pack de fonctionnalités d’Adobe Experience 6.5.5 Screens et versions ultérieures. Pour plus d&#39;informations, reportez-vous à la section Affectation [de](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) Canal.
 
 1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
 
@@ -42,31 +41,10 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    You can configure the properties from the **Channel Assignment** dialog box from the section below. Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
 
-## Attribution d&#39;un Canal pour AEM version 6.5.5 Feature Pack des écrans {#assign-a-channel-new-release}
 
-Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
+## Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 
-1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   Ou,
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. Dans l’option Paramètre, vous pouvez choisir le canal par chemin ou par nom, entrer le rôle de canal, la priorité, les Événements pris en charge.
-
-   >[!NOTE]
-   >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
-
-1. Dans l&#39;option **Planifications** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
-
-1. Cliquez sur **Enregistrer** une fois que vous avez configuré vos préférences.
-
-### Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
-
-#### Canal de référence {#ref-channel}
+### Canal de référence {#ref-channel}
 
 Le canal de référence vous permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
 
@@ -74,25 +52,25 @@ Le canal de référence vous permet de fournir une référence pour le canal sou
 
 * **Par nom** : vous saisissez le nom du canal, qui désignera un canal réel en fonction du contexte. Cette fonction vous permet de créer la version locale d’un canal pour diffuser dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
 
-#### Rôle du canal {#role-channel}
+### Rôle du canal {#role-channel}
 
 Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
 
-#### Priorité {#priority-channel}
+### Priorité {#priority-channel}
 
 La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
 
 >[!NOTE]
 >La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité descendante.
 
-#### Événements pris en charge {#supported-events-channel}
+### Événements pris en charge {#supported-events-channel}
 
 * **Chargement initial** : charge le canal lorsque le lecteur démarre. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
 * **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
 * **Minuteur** : il doit être défini lorsqu’une planification est fournie.
 * **Interaction de l’utilisateur** : le lecteur passera au canal spécifié s’il existe une interaction de l’utilisateur sur l’écran (tactile) dans un canal inactif et se chargera en cas de pression sur l’écran.
 
-#### Méthode d’interruption {#interruption-method-channel}
+### Méthode d’interruption {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
    >[!NOTE]
    >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
-#### Planification {#schedule-channel}
+### Planification {#schedule-channel}
 
 La planification vous permet de décrire sous forme de texte le moment où le canal doit apparaître. Elle vous permet également de définir une date de début (**actif à partir de**) et une date de fin (**actif jusqu’à**) pour l’affichage du canal.
 
@@ -191,7 +169,7 @@ Cet exemple montre la répartition des heures d&#39;une boutique qui affiche sa 
 | B | Noël | 2 | 24 décembre 2017 - 31 décembre 2017 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > Pour en savoir plus sur les heures de diffusion, consultez les sections ci-dessous :
 >
