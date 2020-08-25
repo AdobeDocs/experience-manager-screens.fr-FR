@@ -9,11 +9,11 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
 
 1. Configuration d’Adobe Analytics dans AEM Screens.
 
-   Refer to [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn how to perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
+   Reportez-vous à la section [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour savoir comment effectuer le séquencement dans Adobe Analytics avec AEM Screens et envoyer des événements personnalisés à l’aide d’Adobe Analytics hors ligne.
 
 1. Modifiez votre application de réaction dans l’IDE/l’éditeur de votre choix (en particulier le composant de texte ou tout autre composant dont vous souhaitez qu’il commence à émettre des événements).
 1. Sur l’événement click ou tout autre événement que vous souhaitez capturer pour votre composant, ajoutez les informations d’analyse à l’aide du modèle de données standard.
