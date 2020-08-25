@@ -3,10 +3,10 @@ title: Attribution de canaux
 seo-title: Attribution de canaux
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 79%
+ht-degree: 76%
 
 ---
 
@@ -97,9 +97,9 @@ La planification vous permet de décrire sous forme de texte le moment où le ca
 
 Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction (« *Appuyez n’importe où pour commencer* ») doit être affichée ou non lorsque le canal est en cours d’exécution.
 
-### Partage de journée {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. aem screens vous permet de planifier des canaux en termes de partage de journée au cours d’une journée, d’une semaine ou d’un mois, selon vos besoins.
 
@@ -119,7 +119,7 @@ Nous diviserons chaque jour en trois tranches horaires, de sorte que le contenu 
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple présente les tranches horaires suivies dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
+Cet exemple montre le dayParting réalisé dans un casino où des événements en direct se déroulent tous les week-ends de 20h à 22h et des spécialités sont disponibles pour le dîner au menu après 22h00 jusqu&#39;à 1h00 du matin.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ Cet exemple présente les tranches horaires suivies dans un casino où un évén
 
 #### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
 
-Cet exemple montre la répartition des heures d&#39;une boutique qui affiche sa collection d&#39;été des mois de juin à août et la collection d&#39;automne de septembre à fin octobre.
+Cet exemple montre le partage de journée d&#39;un magasin qui affiche sa collection d&#39;été des mois de juin à août et la collection d&#39;automne de septembre à fin octobre.
 
 Ici, vous créez des heures de diffusion par mois, de sorte que le contenu du canal soit lu selon les mois de l’année spécifiés.
 
@@ -161,7 +161,7 @@ Ici, vous créez des heures de diffusion par mois, de sorte que le contenu du ca
 
 #### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
 
-Cet exemple montre la répartition des heures d&#39;une boutique qui affiche sa collection d&#39;hiver selon le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
+Cet exemple montre le partage de journée pour un magasin qui affiche sa collection d&#39;hiver avec le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Cet exemple montre la répartition des heures d&#39;une boutique qui affiche sa 
 
 >[!NOTE]
 >
-> Pour en savoir plus sur les heures de diffusion, consultez les sections ci-dessous :
+> Pour en savoir plus sur le partage de journée, consultez les sections ci-dessous :
 >
 >* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
