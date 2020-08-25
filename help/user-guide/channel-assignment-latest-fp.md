@@ -3,10 +3,10 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 79%
+source-wordcount: '895'
+ht-degree: 64%
 
 ---
 
@@ -23,20 +23,59 @@ Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
 >[!NOTE]
 >Vous pouvez attribuer plusieurs canaux à un affichage.
 
+
 ## Attribution d’un canal {#assign-a-channel-new-release}
 
-Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
+Suivez les sections ci-dessous pour créer un projet AEM Screens et affecter un canal à un affichage.
 
-1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
+### Création d&#39;un projet AEM Screens et de Canaux {#creating-project}
 
+Pour configurer un projet et un canal, procédez comme suit :
 
-1. Tap/click **Assign Channel** from the action bar
+1. Create an AEM Screens Project titled as **DemoScreens**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Consultez [Création et gestion de projets](creating-a-screens-project.md) pour savoir comment créer un projet AEM Screens.
+
+1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux** .
+
+1. Select the channel and click **Edit** from the action bar to add content to your channel.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   Par exemple, le canal **Cafeteria** affiche désormais les images suivantes :
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Créez un emplacement intitulé **SanJose** et un affichage sous forme de **hall**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Assigning Channel to a Display {#assigning-channel-to-display}
+
+Une fois le projet configuré, vous devez affecter le canal à un affichage pour la vue du contenu.
+
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **+Attribuer un Canal** dans le panneau CANAUX et calendriers **AFFECTÉS** .
 
-1. Dans l’option Paramètre, vous pouvez choisir le canal par chemin ou par nom, entrer le rôle de canal, la priorité, les Événements pris en charge.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. L&#39;option **Paramètres** vous permet de choisir le canal par chemin ou par nom, de saisir le rôle de canal, la priorité, les événements pris en charge et les méthodes d&#39;interruption. De plus, vous pouvez activer l&#39;option d&#39;info-bulle d&#39;attraction à partir de cette boîte de dialogue.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
@@ -45,7 +84,9 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
 1. Cliquez sur **Enregistrer** une fois que vous avez configuré vos préférences.
 
-## Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
+### Viewing the Content in Chrome Player {#viewing-content-output}
+
+### Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 
 ### Canal de référence {#ref-channel}
 
