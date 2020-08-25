@@ -3,10 +3,10 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 46%
+source-wordcount: '1548'
+ht-degree: 45%
 
 ---
 
@@ -73,18 +73,18 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. L&#39;option **Paramètres** vous permet de choisir le canal par chemin ou par nom, de saisir le rôle de canal, la priorité, les événements pris en charge et les méthodes d&#39;interruption. De plus, vous pouvez activer l&#39;option d&#39;info-bulle d&#39;attraction à partir de cette boîte de dialogue.
+1. L&#39;option **Paramètres** vous permet de choisir le canal par chemin ou par nom, de saisir le rôle **du** Canal, la **priorité****, les Événements pris en charge et les Méthodes d&#39;interruption.****** De plus, vous pouvez activer l&#39;info-bulle **** Attraction à partir de cette boîte de dialogue.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
+   >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
 
 1. Dans l&#39;option **Planifications** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
+   >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
 
 1. Cliquez sur **Enregistrer** une fois que vous avez configuré vos préférences.
 
@@ -96,7 +96,9 @@ Reportez-vous à Enregistrement [de](device-registration.md) périphérique pour
 
 Vous allez vue la sortie suivante sur votre choix de lecteur :
 
-### Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 Les propriétés suivantes sont définies à partir de l&#39;option **Paramètres** de la boîte de dialogue Affectation **de** Canal.
 
@@ -185,18 +187,27 @@ Les exemples suivants expliquent le partage de journée en canaux dans trois sc�
 
 Cet exemple montre comment un restaurant utilise DayParting pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
 
-Ici, nous divisons chaque jour en trois créneaux horaires différents, afin que le contenu du canal soit lu selon l’heure spécifiée de la journée. Le définira les propriétés suivantes du calendrier de répétition pour lire le contenu selon ce cas d&#39;utilisation.
+Ici, nous divisons chaque jour en différents créneaux horaires, de sorte que le contenu du canal soit lu selon l’heure spécifiée de la journée. Définissez les propriétés suivantes du calendrier de répétition pour lire le contenu selon ce cas d’utilisation.
 
 | **Nom** | **Répéter** | **Début** | **Fin** |
 |---|---|---|---|
 | Petit déjeuner | Quotidien | 06:00 | 11h00 |
-| Petit déjeuner | Quotidien | 11h02 | 15:00 |
-| Petit déjeuner | Quotidien | 15:01 | 20:00 |
+| Déjeuner | Quotidien | 11h02 | 15:00 |
+| Dîner | Quotidien | 15:01 | 20:00 |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le DayParting réalisé dans un casino où des événements en direct se déroulent tous les week-ends de 20h à 22h et des spécialités sont disponibles pour le dîner au menu après 22h00 jusqu&#39;à 1h00 du matin.
+Cet exemple montre le partage de journée mis en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h à 22h et où des spécialités sont disponibles pour le menu du dîner après 22h00 et 1h00.
 
+| **Nom** | **Répéter** | **Début** | **Fin** |
+|---|---|---|---|
+| Weekend | Hebdomadaire | 20:00 | 22:00 |
+| Spécial | Quotidien | 22:00 | 01:00 |
+
+**Weekend**
+
+
+**Spécial**
 
 #### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Ici, vous allez créer le partage de journée par mois, de sorte que le contenu 
 
 Cet exemple montre le partage de journée pour un magasin qui affiche sa collection d&#39;hiver avec le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
+## Timeline View {#timeline-view}
+
+Une fois que vous avez affecté un canal à un affichage et que vous avez configuré un calendrier de répétition, vous pouvez vue le calendrier à partir du panneau CANAUX et calendriers **AFFECTÉS** .
+
+Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
 
 
 
