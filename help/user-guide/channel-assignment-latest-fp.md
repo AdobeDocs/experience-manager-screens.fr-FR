@@ -3,10 +3,10 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
+source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 64%
+source-wordcount: '1495'
+ht-degree: 46%
 
 ---
 
@@ -81,40 +81,54 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
    >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
 
 1. Dans l&#39;option **Planifications** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+   >[!NOTE]
+   >Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
 
 1. Cliquez sur **Enregistrer** une fois que vous avez configuré vos préférences.
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
+Cet exemple présente la sortie sur un lecteur Chrome. Une fois que vous avez attribué le canal à votre écran, vous devez enregistrer le périphérique sur un lecteur.
+
+Reportez-vous à Enregistrement [de](device-registration.md) périphérique pour savoir comment enregistrer un périphérique sur un lecteur AEM Screens.
+
+Vous allez vue la sortie suivante sur votre choix de lecteur :
+
 ### Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 
-### Canal de référence {#ref-channel}
+Les propriétés suivantes sont définies à partir de l&#39;option **Paramètres** de la boîte de dialogue Affectation **de** Canal.
 
-Le canal de référence vous permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+#### Sélectionner un canal {#select-channel}
+
+La sélection d’un canal vous permet de fournir une référence au canal souhaité, soit par nom de canal, soit par chemin d’accès au canal.
 
 * **Par chemin** : vous fournissez une référence explicite à l’aide du chemin absolu du canal.
 
 * **Par nom** : vous saisissez le nom du canal, qui désignera un canal réel en fonction du contexte. Cette fonction vous permet de créer la version locale d’un canal pour diffuser dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
 
-### Rôle du canal {#role-channel}
+#### Rôle du canal {#role-channel}
 
 Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
 
-### Priorité {#priority-channel}
+#### Priorité {#priority-channel}
 
 La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
 
 >[!NOTE]
 >La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité descendante.
 
-### Événements pris en charge {#supported-events-channel}
+#### Événements pris en charge {#supported-events-channel}
 
 * **Chargement initial** : charge le canal lorsque le lecteur démarre. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
 * **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
 * **Minuteur** : il doit être défini lorsqu’une planification est fournie.
 * **Interaction de l’utilisateur** : le lecteur passera au canal spécifié s’il existe une interaction de l’utilisateur sur l’écran (tactile) dans un canal inactif et se chargera en cas de pression sur l’écran.
 
-### Méthode d’interruption {#interruption-method-channel}
+#### Méthode d’interruption {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -132,3 +146,73 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 
    >[!NOTE]
    >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
+
+
+Les propriétés suivantes sont définies à partir de l&#39;option **Planification** de la boîte de dialogue Affectation **de** Canal.
+
+#### Fuseau horaire de référence {#reference-timezone}
+
+Le fuseau horaire de référence vous permet de sélectionner le fuseau horaire de votre affichage de contenu.
+
+#### Fenêtre d’activation {#activation-window}
+
+La fenêtre Activation vous permet de sélectionner une date **de** Début et une date **de** fin pour afficher votre contenu.
+
+#### Planning de périodicité {#recurrence-schedule}
+
+Le calendrier de répétition vous permet de définir un calendrier récurrent pour votre contenu. Cliquez sur **+ Ajouter le calendrier** pour ajouter un calendrier de répétition à votre canal.
+
+>[!NOTE]
+>Vous pouvez ajouter plusieurs planifications récurrentes à votre canal.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+
+Vous pouvez définir les options suivantes :
+
+* **Nom**: Titre de votre calendrier de récurrence.
+* **Répétez**: Indiquez si la planification s’exécute **quotidiennement**, **hebdomadaire**, **mensuel** ou **annuel.**
+* **Début**: Heure de début de votre programme.
+* **Fin**: Heure de fin de votre planification. Vous pouvez le définir en procédant comme suit :
+* **Heure**: La planification se terminera à une heure spécifiée.
+* **Durée**: La planification s&#39;exécute pendant une durée particulière en heures ou en minutes.
+
+### DayParting {#dayparting}
+
+Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. aem screens vous permet de planifier des canaux en termes de partage de journée dans un jour, une semaine ou un mois selon vos besoins.
+
+Les exemples suivants expliquent le partage de journée en canaux dans trois scénarios différents :
+
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+
+Cet exemple montre comment un restaurant utilise DayParting pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
+
+Ici, nous divisons chaque jour en trois créneaux horaires différents, afin que le contenu du canal soit lu selon l’heure spécifiée de la journée. Le définira les propriétés suivantes du calendrier de répétition pour lire le contenu selon ce cas d&#39;utilisation.
+
+| **Nom** | **Répéter** | **Début** | **Fin** |
+|---|---|---|---|
+| Petit déjeuner | Quotidien | 06:00 | 11h00 |
+| Petit déjeuner | Quotidien | 11h02 | 15:00 |
+| Petit déjeuner | Quotidien | 15:01 | 20:00 |
+
+#### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
+
+Cet exemple montre le DayParting réalisé dans un casino où des événements en direct se déroulent tous les week-ends de 20h à 22h et des spécialités sont disponibles pour le dîner au menu après 22h00 jusqu&#39;à 1h00 du matin.
+
+
+#### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
+
+Cet exemple montre le partage de journée d&#39;un magasin qui affiche sa collection d&#39;été des mois de juin à août et la collection d&#39;automne de septembre à fin octobre.
+
+Ici, vous allez créer le partage de journée par mois, de sorte que le contenu du canal soit lu selon les mois de l’année spécifiés.
+
+
+>[!NOTE]
+>
+>En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
+
+#### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
+
+Cet exemple montre le partage de journée pour un magasin qui affiche sa collection d&#39;hiver avec le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
+
+
+
+
