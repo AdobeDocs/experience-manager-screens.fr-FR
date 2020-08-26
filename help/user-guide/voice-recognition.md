@@ -2,10 +2,10 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 7%
+source-wordcount: '847'
+ht-degree: 8%
 
 ---
 
@@ -81,7 +81,7 @@ Pour ajouter des balises à votre canal, procédez comme suit :
 
 1. Accédez à l’onglet **Concepts de base** et sélectionnez une balise existante dans le champ **Balises** ou créez-en une nouvelle.
 
-   Vous pouvez soit créer une nouvelle balise en entrant un nouveau nom pour votre balise, comme le montre la figure ci-dessous :
+   Vous pouvez créer une nouvelle balise en entrant un nouveau nom pour la balise et la `return` touche d’accès, comme illustré dans la figure ci-dessous :
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Pour créer des balises, procédez comme suit :
 
 1. Définissez les propriétés suivantes pour chacun des canaux, lors de l’attribution du canal.
 
-   * Principal
-   * HotDrinks
-   * ColdDrinks
+   | **Nom du canal** | **Priorité** | **Événements pris en charge** |
+   |---|---|---|
+   | Principal | 2 | Charge initiale, écran d’inactivité, minuteur |
+   | HotDrinks | 1 | Interaction de l’utilisateur |
+   | ColdDrinks | 1 | Interaction de l’utilisateur |
 
    >[!NOTE]
    >
