@@ -2,9 +2,9 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 8%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 8%
 
 # Reconnaissance vocale en AEM Screens {#voice-recognition}
 
->[IMPORTANT]
+>[!IMPORTANT]
+>
 >**Informations importantes sur la confidentialité**
+>
 >Lorsque vous utilisez la fonction de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre région (y compris, mais sans s&#39;y limiter, en indiquant clairement aux utilisateurs finaux que le joueur utilise la reconnaissance vocale). adobe inc, ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API de parole Web standard intégrée au moteur de navigation. En coulisses, une forme d&#39;onde de votre discours est envoyée aux serveurs de Google pour conversion de la parole en texte et ce texte est comparé par le lecteur à des mots-clés configurés.
 >
 >Consultez le livre blanc sur la confidentialité de [Google sur l’API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de parole Web pour plus d’informations.
