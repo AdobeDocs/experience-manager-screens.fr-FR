@@ -2,15 +2,22 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 11%
+source-wordcount: '827'
+ht-degree: 7%
 
 ---
 
 
 # Reconnaissance vocale en AEM Screens {#voice-recognition}
+
+>[IMPORTANT]
+>**Informations importantes sur la confidentialité**
+>Lorsque vous utilisez la fonction de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre région (y compris, mais sans s&#39;y limiter, en indiquant clairement aux utilisateurs finaux que le joueur utilise la reconnaissance vocale). adobe inc, ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API de parole Web standard intégrée au moteur de navigation. En coulisses, une forme d&#39;onde de votre discours est envoyée aux serveurs de Google pour conversion de la parole en texte et ce texte est comparé par le lecteur à des mots-clés configurés.
+>
+>Consultez le livre blanc sur la confidentialité de [Google sur l’API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de parole Web pour plus d’informations.
+
 
 ## Présentation {#overview}
 
@@ -80,30 +87,44 @@ Pour ajouter des balises à votre canal, procédez comme suit :
 
    Ou,
 
-   Vous pouvez créer des balises à partir de votre instance AEM au préalable pour votre projet et les sélectionner également.
+   Vous pouvez créer des balises à partir de votre instance AEM au préalable pour votre projet et les sélectionner également. Une fois que vous avez suivi les étapes décrites dans la section [Création de balises](#creating-tags), vous pouvez sélectionner la balise à l’emplacement et l’ajouter à votre canal, comme indiqué dans la figure ci-dessous :
 
-   Pour créer des balises, procédez comme suit :
-
-   1. Accédez à votre instance AEM.
-   1. Cliquez sur Outils —> **Balisage**.
-      ![image](assets/voice-recognition/vr-7.png)
+   ![image](assets/voice-recognition/vr-tag1.png)
 
 1. Cliquez sur **Enregistrer et fermer** une fois que vous avez terminé.
 
-De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** et **cold** au canal **ColdDrinks.**
+De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** .
 
-### Assigning Channel to a Display {#channel-assignment}
+#### Création de balises {#creating-tags}
+
+Pour créer des balises, procédez comme suit :
+
+1. Accédez à votre instance AEM.
+1. Cliquez sur Outils —> **Balisage**.
+   ![image](assets/voice-recognition/vr-7.png)
+1. Click **Create** --> **Create Namespace**.
+   ![image](assets/voice-recognition/vr-7.png)
+1. Entrez le nom de votre projet, par exemple : **VoiceDemo** et cliquez sur Créer.
+1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
+1. Cliquez sur **Envoyer**.
+
+
+### Affectation d’un Canal à un affichage et activation de la reconnaissance vocale {#channel-assignment}
 
 1. Créez un affichage dans le dossier **Emplacements**, comme illustré ci-dessous.
 
+   ![image](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
 1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay.**
 
+1. Définissez les propriétés suivantes pour chacun des canaux, lors de l’attribution du canal.
 
-1. Définissez les propriétés suivantes sur chacun des canaux.
+   * Principal
+   * HotDrinks
+   * ColdDrinks
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** et **cold
 
 1. Accédez à l’onglet **Affichage** et activez l’option **Voix activée** sous **Contenu**.
 
-   >[!NOTE]
+   ![image](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >Il est obligatoire d’activer la fonction de reconnaissance vocale à partir de l’écran.
 
-## Affichage du contenu dans Chrome Player {#viewing-content}
+#### Affichage du contenu dans Chrome Player {#viewing-content}
 
 Une fois les étapes précédentes terminées, vous pouvez enregistrer votre périphérique chrome et vue la sortie.
 
-Suivez les étapes ci-dessous :
+>[!NOTE]
+>Reportez-vous à Enregistrement [de](device-registration.md) périphérique pour savoir comment enregistrer un périphérique sur un lecteur AEM Screens.
 
-1. Accédez au dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions pour enregistrer les appareils.
+Cet exemple présente la sortie sur un lecteur Chrome.
+
+![newimage](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
