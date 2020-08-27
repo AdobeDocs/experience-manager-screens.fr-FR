@@ -2,9 +2,9 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 8%
 
 ---
@@ -96,11 +96,10 @@ Pour ajouter des balises à votre canal, procédez comme suit :
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
+1. De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** .
+
 1. Cliquez sur **Enregistrer et fermer** une fois que vous avez terminé.
 
-De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** .
-
-Si vous utilisez un Canal Scinder les écrans comme modèle, veillez à ajouter les balises (**chaud** et **froid**) à vos propriétés de Canal.
 
 ### Création de balises {#creating-tags}
 
@@ -276,7 +275,7 @@ Une fois les étapes précédentes terminées, vous pouvez enregistrer votre pé
 
 Cet exemple présente la sortie sur un lecteur Chrome.
 
-Le canal **principal** lit son contenu, mais lorsque vous utilisez des mots avec des mots-clés **chaud** et **froid** ensemble, comme *je voudrais voir le menu pour les boissons chaudes et froides, les débuts canaux lisant le contenu du canal SplitScreens.*****
+Le canal **principal** lit son contenu, mais lorsque vous utilisez des mots avec des mots-clés **chauds** et **froids** ensemble, comme *je voudrais voir le menu pour les boissons chaudes et froides, les débuts canaux lisant le contenu du canal SplitScreen.*****
 
 
 
