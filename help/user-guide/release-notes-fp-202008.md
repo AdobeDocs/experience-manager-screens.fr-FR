@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les Notes de mise à jour de Feature Pack 202008.
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 32%
+source-wordcount: '292'
+ht-degree: 33%
 
 ---
 
@@ -26,7 +26,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 La date de publication pour AEM Screens Feature Pack 202008 est le 31 août 2020.
 
-### Nouveautés {#what-s-new}
+### Nouveautés {#what-is-new}
 
 * **Vue de la chronologie sur le Tableau de bord de planification**
 
@@ -48,18 +48,16 @@ La date de publication pour AEM Screens Feature Pack 202008 est le 31 août 2020
 
    Voir Reconnaissance [](voice-recognition.md) vocale pour plus d’informations.
 
-* **Mise à jour des préférences de périphérique en mode création/publication**
-
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
-Les lecteurs AEM Screens Player suivants sont disponibles pour AEM Screens AEM version 6.5 Feature Pack 5 :
+Les lecteurs AEM Screens suivants sont sortis pour AEM Screens AEM 6.5 Feature Pack 5.
+
+>[!IMPORTANT]
+>Si vous avez installé AEM Service Pack 6.5.5, vous pouvez rencontrer des problèmes de réplication dans vos lecteurs Screens. Installez [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) pour résoudre le problème.
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->Si vous avez installé AEM Service Pack 6.5.5, vous pouvez rencontrer des problèmes de réplication dans vos lecteurs Screens. Installez [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) pour résoudre le problème.
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
