@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 94%
 
 ---
@@ -28,6 +28,22 @@ Cette section décrit la configuration du lecteur AEM Screens Windows 10. Elle f
 Pour mettre en œuvre le lecteur Windows pour AEM Screens, installez le lecteur Windows pour AEM Screens.
 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
+
+### Configuration d’Environnement pour AEM Screens 6.5.5 Feature Pack et versions ultérieures {#fp-environment-setup}
+
+Vous devez configurer un environnement pour le lecteur Windows si vous utilisez AEM Screens 6.5.5 Feature Pack.
+
+Suivez les étapes ci-dessous :
+
+1. Navigate to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Recherchez *Adobe Granite Token Authentication Handler*.
+
+1. Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Cliquez sur **Enregistrer**.
 
 ### Méthode ad hoc {#ad-hoc-method}
 
@@ -115,22 +131,6 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 1. Exécutez le script PowerShell en tant qu’administrateur.
 1. Redémarrez et connectez-vous en tant qu’utilisateur Kiosque et l’application du lecteur devrait démarrer immédiatement.
-
-### Configuration d’Environnement pour AEM Screens 6.5.5 Feature Pack et versions ultérieures {#fp-environment-setup}
-
-Vous devez configurer un environnement pour le lecteur Windows si vous utilisez AEM Screens 6.5.5 Feature Pack.
-
-Suivez les étapes ci-dessous :
-
-1. Navigate to to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
-
-1. Recherchez *Adobe Granite Token Authentication Handler*.
-
-1. Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun**.
-   ![image](/help/user-guide/assets/granite-updates.png)
-
-1. Cliquez sur **Enregistrer**.
 
 ### Résolution des incidents {#troubleshooting}
 
