@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -27,11 +27,11 @@ Cette section décrit la configuration du lecteur AEM Screens Windows 10. Elle f
 
 Pour mettre en œuvre le lecteur Windows pour AEM Screens, installez le lecteur Windows pour AEM Screens.
 
-Consultez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
+Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 ### Méthode ad hoc {#ad-hoc-method}
 
-La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
+La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 Une fois l’application téléchargée, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
@@ -105,7 +105,7 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 1. Activez Shell Launcher.
 
-   Pour plus d’informations, reportez-vous à la section ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**de l’assistance Microsoft Windows.
+   Pour plus d’informations, reportez-vous à la section ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de l’assistance Microsoft Windows.
 
 1. Créez un utilisateur non administratif (si vous n’en avez pas déjà) à utiliser pour Kiosque. Il peut s’agir d’un utilisateur local ou de domaine.
 1. Installez le lecteur Windows pour cet utilisateur Kiosque à partir de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
@@ -115,6 +115,22 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 1. Exécutez le script PowerShell en tant qu’administrateur.
 1. Redémarrez et connectez-vous en tant qu’utilisateur Kiosque et l’application du lecteur devrait démarrer immédiatement.
+
+### Configuration d’Environnement pour AEM Screens 6.5.5 Feature Pack et versions ultérieures {#fp-environment-setup}
+
+Vous devez configurer un environnement pour le lecteur Windows si vous utilisez AEM Screens 6.5.5 Feature Pack.
+
+Suivez les étapes ci-dessous :
+
+1. Navigate to to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Recherchez *Adobe Granite Token Authentication Handler*.
+
+1. Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Cliquez sur **Enregistrer**.
 
 ### Résolution des incidents {#troubleshooting}
 
