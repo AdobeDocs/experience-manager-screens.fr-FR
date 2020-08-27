@@ -2,10 +2,10 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
+source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 7%
+source-wordcount: '1581'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 7%
 >Consultez le livre blanc sur la confidentialité de [Google sur l’API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de parole Web pour plus d’informations.
 
 
-## Présentation {#overview}
 
 La fonction de reconnaissance vocale permet de modifier le contenu dans un canal AEM Screens piloté par l’interaction vocale.
 
@@ -39,14 +38,12 @@ Pour mettre en oeuvre la reconnaissance vocale dans votre projet AEM Screens, vo
 
 La section suivante décrit comment activer et utiliser la fonctionnalité de reconnaissance vocale dans un projet AEM Screens.
 
-### Configuration du projet {#setting-up}
-
 Vous pouvez configurer votre projet à l’aide des deux modèles suivants :
 
 * [Canal de séquence](#sequence-channel)
 * [Canal Scinder les écrans](#split-channel)
 
-#### Utilisation du Canal de séquence comme modèle {#sequence-channel}
+## Utilisation du Canal de séquence comme modèle {#sequence-channel}
 
 Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
 
@@ -73,33 +70,6 @@ Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir 
    **HotDrinks**:
 
    ![image](assets/voice-recognition/vr-2.png)
-
-#### Utilisation du Canal Ecrans fractionnés comme modèle {#split-channel}
-
-Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
-
-1. L’exemple suivant présente un projet de démonstration nommé **VoiceDemo** et trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks, SplitChannel, comme illustré dans la figure ci-dessous.******
-
-
-
-   >[!NOTE]
-   >
-   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md).
-
-1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** —> **Canaux** —> **Main** et sélectionnez le canal. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur et ajouter du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu à **ColdDrinks** et au canal **HotDrinks** .
-
-   Les canaux contiennent désormais des ressources (images), comme le montrent les figures ci-dessous.
-
-   **Principal**:
-
-
-
-   **ColdDrinks**:
-
-
-   **HotDrinks**:
-
-1. Accédez à **SplitChannel** et ajoutez du contenu. Faites glisser et déposez deux séquences incorporées et ajoutez un chemin au canal **ColdDrinks** et **HotDrinks** , comme illustré dans la figure ci-dessous.
 
 
 ### Setting up Tags for Channels {#setting-tags}
@@ -132,7 +102,7 @@ De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** .
 
 Si vous utilisez un Canal Scinder les écrans comme modèle, veillez à ajouter les balises (**chaud** et **froid**) à vos propriétés de Canal.
 
-#### Création de balises {#creating-tags}
+### Création de balises {#creating-tags}
 
 Pour créer des balises, procédez comme suit :
 
@@ -191,8 +161,6 @@ Une fois les étapes précédentes terminées, vous pouvez enregistrer votre pé
 
 Cet exemple présente la sortie sur un lecteur Chrome.
 
-#### Pour un Canal séquentiel {#sequential-output}
-
 Le **canal principal** lit son contenu, mais lorsque vous utilisez des mots avec des mots-clés **chauds** tels que *je voudrais avoir une boisson* chaude, les débuts canaux lisant le contenu du canal **HotDrinks.**
 
 De même, si vous utilisez un mot avec un mot-clé **froid** tel que *je voudrais avoir quelque chose de froid*, le canal début lire le contenu du canal **ColdDrinks** .
@@ -200,12 +168,117 @@ De même, si vous utilisez un mot avec un mot-clé **froid** tel que *je voudrai
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-#### Pour le Canal Ecrans fractionnés {#split-screen-output}
+## Utilisation du Canal Ecrans fractionnés comme modèle {#split-channel}
+
+Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
+
+1. L’exemple suivant présente un projet de démonstration nommé **VoiceDemo** et trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks, ainsi qu’un canal d’écran fractionné 1x2 SplitScreen comme illustré dans la figure ci-dessous.******
+
+   ![image](assets/voice-recognition/vr-emb-1.png)
+
+   >[!NOTE]
+   >
+   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md).
+
+1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** —> **Canaux** —> **Main** et sélectionnez le canal. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur et ajouter du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu à **ColdDrinks** et au canal **HotDrinks** .
+
+   Les canaux contiennent désormais des ressources (images), comme le montrent les figures ci-dessous.
+
+   **Principal**:
+
+   ![image](assets/voice-recognition/vr-emb-3.png)
 
 
-Le **canal principal** lit son contenu, mais lorsque vous utilisez des mots avec des mots-clés **chauds** tels que *je voudrais avoir une boisson* chaude, les débuts canaux lisant le contenu du canal **HotDrinks.**
+   **ColdDrinks**:
+   ![image](assets/voice-recognition/vr-3.png)
 
-De même, si vous utilisez un mot avec un mot-clé **froid** tel que *je voudrais avoir quelque chose de froid*, le canal début lire le contenu du canal **ColdDrinks** .
+   **HotDrinks**:
+
+   ![image](assets/voice-recognition/vr-2.png)
+
+1. Accédez à **SplitScreen** , faites glisser et déposez deux séquences incorporées et ajoutez des chemins au canal **ColdDrinks** et **HotDrinks** , comme illustré dans la figure ci-dessous.
+   ![image](assets/voice-recognition/vr-emb-6.png)
+
+
+### Setting up Tags for Channels {#setting-tags-split}
+
+Une fois que vous avez ajouté du contenu à vos canaux, vous devez accéder à chacun des canaux et ajouter les balises appropriées qui déclencheraient la reconnaissance vocale.
+
+Pour ajouter des balises à votre canal, procédez comme suit :
+
+1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** —> **Canaux** —> **Main** et sélectionnez le canal.
+
+1. Cliquez sur **Propriétés** dans la barre d’actions.
+
+   ![image](assets/voice-recognition/vr-5.png)
+
+1. Accédez à l’onglet **Concepts de base** et sélectionnez une balise existante dans le champ **Balises** ou créez-en une nouvelle.
+
+   Vous pouvez créer une nouvelle balise en entrant un nouveau nom pour la balise et la `return` touche d’accès, comme illustré dans la figure ci-dessous :
+
+   ![image](assets/voice-recognition/vr-6.png)
+
+   Ou,
+
+   Vous pouvez créer des balises à partir de votre instance AEM au préalable pour votre projet et les sélectionner également. Une fois que vous avez suivi les étapes décrites dans la section [Création de balises](#creating-tags), vous pouvez sélectionner la balise à l’emplacement et l’ajouter à votre canal, comme indiqué dans la figure ci-dessous :
+
+   ![image](assets/voice-recognition/vr-tag1.png)
+
+1. De même, ajoutez une balise intitulée **hot** au canal **HotDrinks** .
+
+1. ajoutez les balises (**chaud** et **froid**) aux propriétés de canal **SplitScreen** .
+
+   ![image](assets/voice-recognition/vr-emb-7.png)
+
+
+1. Cliquez sur **Enregistrer et fermer** une fois que vous avez terminé.
+
+### Affectation d’un Canal à un affichage et activation de la reconnaissance vocale {#channel-assignment-split}
+
+1. Créez un affichage dans le dossier **Emplacements**, comme illustré ci-dessous.
+
+   ![image](assets/voice-recognition/vr-loc.png)
+
+   >[!NOTE]
+   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
+
+1. Affectez les canaux **Main**, **ColdDrinks**, **HotDrinks** et **SplitScreen à votre LobbyaffichageÉcran.******
+
+1. Définissez les propriétés suivantes pour chacun des canaux, lors de l’attribution du canal.
+
+   | **Nom du canal** | **Priorité** | **Événements pris en charge** |
+   |---|---|---|
+   | Principal | 2 | Charge initiale, écran d’inactivité, minuteur |
+   | HotDrinks | 1 | Interaction de l’utilisateur |
+   | ColdDrinks | 1 | Interaction de l’utilisateur |
+   | SplitScreen | 1 | Interaction de l’utilisateur |
+
+   >[!NOTE]
+   >
+   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
+
+1. Une fois que vous avez attribué des canaux à un affichage, accédez à l’affichage **du hall** et sélectionnez l’affichage. Sélectionnez **Propriétés** dans la barre d’actions.
+
+1. Accédez à l’onglet **Affichage** et activez l’option **Voix activée** sous **Contenu**.
+
+   ![image](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
+   >Il est obligatoire d’activer la fonction de reconnaissance vocale à partir de l’écran.
+
+
+### Affichage du contenu dans Chrome Player {#viewing-content-split}
+
+Une fois les étapes précédentes terminées, vous pouvez enregistrer votre périphérique chrome pour vue la sortie.
+
+>[!NOTE]
+>Reportez-vous à Enregistrement [de](device-registration.md) périphérique pour savoir comment enregistrer un périphérique sur un lecteur AEM Screens.
+
+Cet exemple présente la sortie sur un lecteur Chrome.
+
+Le canal **principal** lit son contenu, mais lorsque vous utilisez des mots avec des mots-clés **chaud** et **froid** ensemble, comme *je voudrais voir le menu pour les boissons chaudes et froides, les débuts canaux lisant le contenu du canal SplitScreens.*****
+
+
 
 
 
