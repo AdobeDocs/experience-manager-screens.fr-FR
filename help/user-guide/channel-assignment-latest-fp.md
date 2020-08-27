@@ -3,9 +3,9 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 45%
 
 ---
@@ -80,8 +80,8 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
    >[!NOTE]
    >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
 
-1. Dans l&#39;option **Planifications** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. Dans l&#39;option **Planification** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
@@ -152,6 +152,7 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 
 Les propriétés suivantes sont définies à partir de l&#39;option **Planification** de la boîte de dialogue Affectation **de** Canal.
 
+
 #### Fuseau horaire de référence {#reference-timezone}
 
 Le fuseau horaire de référence vous permet de sélectionner le fuseau horaire de votre affichage de contenu.
@@ -163,6 +164,9 @@ La fenêtre Activation vous permet de sélectionner une date **de** Début et un
 #### Planning de périodicité {#recurrence-schedule}
 
 Le calendrier de répétition vous permet de définir un calendrier récurrent pour votre contenu. Cliquez sur **+ Ajouter le calendrier** pour ajouter un calendrier de répétition à votre canal.
+
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs planifications récurrentes à votre canal.
@@ -204,25 +208,9 @@ Cet exemple montre le partage de journée mis en oeuvre dans un casino où le é
 | Weekend | Hebdomadaire | 20:00 | 22:00 |
 | Spécial | Quotidien | 22:00 | 01:00 |
 
-**Weekend**
-
-
-**Spécial**
-
-#### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
-
-Cet exemple montre le partage de journée d&#39;un magasin qui affiche sa collection d&#39;été des mois de juin à août et la collection d&#39;automne de septembre à fin octobre.
-
-Ici, vous allez créer le partage de journée par mois, de sorte que le contenu du canal soit lu selon les mois de l’année spécifiés.
-
-
 >[!NOTE]
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
-
-#### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
-
-Cet exemple montre le partage de journée pour un magasin qui affiche sa collection d&#39;hiver avec le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ Une fois que vous avez affecté un canal à un affichage et que vous avez config
 
 Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
 
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Ou,
+
+   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **Chronologie** dans le panneau CANAUX et calendriers **AFFECTÉS** .
+
+1. Images en attente (à corriger)
 
 
