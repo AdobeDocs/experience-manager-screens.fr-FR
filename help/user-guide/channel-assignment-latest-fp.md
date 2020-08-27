@@ -3,9 +3,9 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 45%
 
 ---
@@ -170,6 +170,8 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 
 Les propriétés suivantes sont définies à partir de l&#39;option **Planification** de la boîte de dialogue Affectation **de** Canal.
 
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Fuseau horaire de référence {#reference-timezone}
 
 Le fuseau horaire de référence vous permet de sélectionner le fuseau horaire de votre affichage de contenu.
@@ -182,9 +184,6 @@ La fenêtre Activation vous permet de sélectionner une date **de** Début et un
 
 Le calendrier de répétition vous permet de définir un calendrier récurrent pour votre contenu. Cliquez sur **+ Ajouter le calendrier** pour ajouter un calendrier de répétition à votre canal.
 
-![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >Vous pouvez ajouter plusieurs planifications récurrentes à votre canal.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ Vous pouvez définir les options suivantes :
 * **Nom**: Titre de votre calendrier de récurrence.
 * **Répétez**: Indiquez si la planification s’exécute **quotidiennement**, **hebdomadaire**, **mensuel** ou **annuel.**
 * **Début**: Heure de début de votre programme.
-* **Fin**: Heure de fin de votre planification. Vous pouvez le définir en procédant comme suit :
-* **Heure**: La planification se terminera à une heure spécifiée.
-* **Durée**: La planification s&#39;exécute pendant une durée particulière en heures ou en minutes.
+* **Fin**: Heure de fin de votre planification. Vous pouvez le définir par heure ou par durée.
+   * **Heure**: La planification se terminera à une heure spécifiée.
+   * **Durée**: La planification s&#39;exécute pendant une durée particulière en heures ou en minutes.
 
 ### DayParting {#dayparting}
 
