@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 92%
 
 ---
 
@@ -29,11 +29,28 @@ Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur s
 
 Pour mettre en œuvre Android Player pour AEM Screens, installez Android Player pour AEM Screens.
 
-Consultez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
+Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
+
+### Configuration d’Environnement pour AEM Screens 6.5.5 Feature Pack et versions ultérieures {#fp-environment-setup}
+
+Vous devez configurer un environnement pour le lecteur Android si vous utilisez AEM Screens 6.5.5 Feature Pack.
+
+Suivez les étapes ci-dessous :
+
+1. Navigate to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Recherchez *Adobe Granite Token Authentication Handler*.
+
+1. Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Cliquez sur **Enregistrer**.
+
 
 ### Méthode ad hoc {#ad-hoc-method}
 
-La méthode ad hoc vous permet d’installer le dernier lecteur Android (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5 **](https://download.macromedia.com/screens/).
+La méthode ad hoc vous permet d’installer le dernier lecteur Android (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 Une fois l’application téléchargée, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
