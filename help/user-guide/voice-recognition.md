@@ -2,9 +2,9 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1554'
 ht-degree: 8%
 
 ---
@@ -114,7 +114,6 @@ Pour créer des balises, procédez comme suit :
    ![image](assets/voice-recognition/vr-tag3.png)
 
 1. Entrez le nom de votre projet, par exemple, **VoiceDemo** et cliquez sur **Créer**.
-   ![image](assets/voice-recognition/vr-tag2.png)
 
 1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
    ![image](assets/voice-recognition/vr-tag4.png)
