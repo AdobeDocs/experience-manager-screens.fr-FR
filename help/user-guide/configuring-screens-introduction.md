@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: ht
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
-workflow-type: ht
-source-wordcount: '766'
+translation-type: tm+mt
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+workflow-type: tm+mt
+source-wordcount: '750'
 ht-degree: 100%
 
 ---
@@ -72,33 +72,32 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
 1. **La configuration de la console Web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
 
    Pour rechercher la propriété référent Sling, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Cochez l’option **Allow Empty** comme illustré dans la figure ci-dessous.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![image](assets/config/empty-ref2.png)
 
 1. Cliquez sur **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+
 
 #### Service HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
 1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
-1. **La configuration de la console Web d’Adobe Experience Manager** s’ouvre. Recherchez le service HTTP Apache Felix Jetty.
+1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez le service HTTP Apache Felix Jetty.
 
    Pour rechercher cette propriété, appuyez sur **Command+F** (**Mac**) ou **Ctrl+F** (**Windows**).
 
 1. Cochez l’option **ENABLE HTTP** comme illustré ci-dessous.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![image](assets/config/config-1.png)
 
 1. Cliquez sur **Enregistrer** pour activer le service *http*.
 
