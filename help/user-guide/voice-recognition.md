@@ -2,9 +2,9 @@
 title: Reconnaissance vocale en AEM Screens
 description: La page décrit la fonction de reconnaissance vocale en AEM Screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 8%
 
 ---
@@ -32,7 +32,7 @@ Un auteur de contenu peut configurer un affichage pour qu’il accepte la voix. 
 ## Mise en oeuvre de la reconnaissance vocale {#implementing}
 
 >[!IMPORTANT]
-> La fonction de reconnaissance vocale est disponible uniquement sur les lecteurs Chrome et Electron.
+> La fonction de reconnaissance vocale est disponible uniquement sur les lecteurs Chrome OS et Electron.
 
 Pour mettre en oeuvre la reconnaissance vocale dans votre projet AEM Screens, vous devez activer la reconnaissance vocale pour l’affichage et associer chaque canal à une balise unique pour déclencher une transition de canal.
 
@@ -106,14 +106,19 @@ Pour ajouter des balises à votre canal, procédez comme suit :
 Pour créer des balises, procédez comme suit :
 
 1. Accédez à votre instance AEM.
+
 1. Cliquez sur Outils —> **Balisage**.
    ![image](assets/voice-recognition/vr-7.png)
+
 1. Click **Create** --> **Create Namespace**.
    ![image](assets/voice-recognition/vr-tag3.png)
-1. Entrez le nom de votre projet, par exemple : **VoiceDemo** et cliquez sur **Créer**.
+
+1. Entrez le nom de votre projet, par exemple, **VoiceDemo** et cliquez sur **Créer**.
    ![image](assets/voice-recognition/vr-tag2.png)
+
 1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
    ![image](assets/voice-recognition/vr-tag4.png)
+
 1. Saisissez le nom de votre balise, puis cliquez sur **Envoyer**.
    ![image](assets/voice-recognition/vr-tag5.png)
 
