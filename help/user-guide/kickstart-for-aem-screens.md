@@ -2,52 +2,56 @@
 title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
-seo-description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 98%
 
 ---
 
 
 # Guide de démarrage rapide      {#kickstart-guide}
 
-Cette section vous donne un premier aperçu d’AEM Screens et montre comment réaliser des actions de base. Elle vous guide à travers la configuration d’une expérience de signalisation numérique de base avec des ressources ou du contenu et la publication dans le lecteur Screens. Pour une présentation détaillée de tous les composants pour le développement de Screens, reportez-vous aux ressources indiquées à la fin de la page.
+Cette section vous donne un premier aperçu d’AEM Screens et montre comment réaliser des actions de base. Elle vous guide à travers la configuration d’une expérience de signalisation numérique de base avec des ressources ou du contenu et la publication dans le lecteur Screens.
 
 ## Création d’une expérience de signalisation numérique en 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
 Les étapes suivantes vous permettent de créer un exemple de projet pour Screens et de publier du contenu sur le lecteur Screens.
 
-1. Pour télécharger le **lecteur AEM Screens**, cliquez [ici](https://download.macromedia.com/screens/).
+Pour télécharger le **lecteur AEM Screens**, cliquez [ici](https://download.macromedia.com/screens/).
 
-   AEM Screens est également disponible dans **Google Play**.
 
-   Pour plus d’informations sur la mise en œuvre du lecteur Chrome OS, reportez-vous à la section [Console de gestion Chrome](implementing-chrome-os-player.md).
+Pour plus d’informations sur la mise en œuvre du lecteur Chrome OS, reportez-vous à la section [Console de gestion Chrome](implementing-chrome-os-player.md).
 
-   Pour plus d’informations, voir [Installation et configuration de Screens](configuring-screens-introduction.md).
+Pour installer et configurer les lecteurs d’écran sur vos périphériques, voir [Installation et configuration d’écrans](configuring-screens-introduction.md) pour plus d’informations.
 
-   >[!NOTE]
-   >
-   >**Paramètres OSGI**
-   >
-   >
-   >Vous devez activer le référent vide pour autoriser le périphérique à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctions ne sont disponibles que si l’option Allow Empty d’Apache Sling Referrer Filter est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
-   >
-   >
-   >Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter ***, procédez comme suit :
-   >
-   >
-   >
-   >    1. Accédez à **Configuration de la console Web Adobe Experience Manager** : `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Cochez l’option **allow.empty**.
-   >    1. Cliquez sur **Enregistrer**.
+>[!NOTE]
+>**Paramètres OSGI**
+>Vous devez activer le référent vide pour autoriser le périphérique à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctions ne sont disponibles que si l’option Allow Empty d’Apache Sling Referrer Filter est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+>
+>
+>Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
+
+## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
+
+1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
+
+   ![image](assets/config/empty-ref1.png)
+
+1. **La configuration de la console Web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
+
+   Pour rechercher la propriété référent Sling, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
+
+1. Cochez l’option **Allow Empty** comme illustré dans la figure ci-dessous.
+
+   ![image](assets/config/empty-ref2.png)
+
+1. Cliquez sur **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+
+
+## Tutoriel {#tutorial}
 
 1. **Création d’un projet**
 
@@ -57,6 +61,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
    1. Sélectionnez **Screens** à partir de l’assistant **Créer un projet Screens**, puis cliquez sur **Suivant**.
 
    1. Saisissez le titre *Test_Project* et cliquez ensuite sur **Créer**.
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Une fois le projet créé, vous êtes redirigé vers la console du projet Screens. Vous pouvez sélectionner votre projet. Dans un projet, il existe cinq types de dossiers, à savoir : **Applications**, **Channels** (Canaux), **Devices** (Périphériques), **Locations** (Emplacements) et **Schedules** (Planifications), comme illustré dans la figure ci-dessous.
@@ -81,6 +86,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
    1. Sélectionnez **Canal de séquences** et cliquez sur **Suivant**.
 
    1. Saisissez le **nom** et le **titre** *TestChannel*, puis cliquez sur **Créer**.
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    Le canal *TestChannel* est créé et ajouté au dossier de canaux, comme illustré dans la figure ci-dessous.
@@ -101,6 +107,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
 
    1. Cliquez sur l’icône qui fait passer le panneau latéral du côté gauche de la barre d’actions pour ouvrir les ressources et les composants. 
    1. Faites glisser et déposez les composants que vous souhaitez ajouter à votre canal. 
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    Dans cet exemple, l’éditeur affiche une image ajoutée au canal. 
@@ -111,7 +118,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
 
    Une fois que vous avez le canal, vous devez créer votre emplacement. 
 
-   Les ***emplacements ***permettent de compartimenter vos diverses expériences de signalisation numériques et contiennent les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
+   Les ***emplacements*** permettent de compartimenter vos diverses expériences de signalisation numériques et contiennent les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
 
    Pour créer un emplacement pour votre projet, procédez comme suit :
 
@@ -121,6 +128,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
    1. Sélectionnez **Emplacement** dans l’assistant, puis cliquez sur **Suivant**.
 
    1. Saisissez le **nom** et le **titre** de votre emplacement (saisissez le titre *TestLocation*), puis cliquez sur **Créer**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    L’emplacement *TestLocation* est créé et ajouté à votre dossier **Locations** (Emplacements).
@@ -131,7 +139,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
 
    Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
-   Les ***affichages ***représentent l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
+   Les ***affichages*** représentent l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
 
    1. Accédez à l’emplacement sur lequel vous souhaitez créer votre affichage (*Test_Projec* t --> **Emplacements** --> *TestLocation)* comme indiqué dans la figure ci-dessus, puis sélectionnez *TestLocation*.
 
@@ -147,6 +155,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
       1. Définissez **Nombre d’appareils horizontalement** sur 1.
       1. Définissez **Nombre d’appareils verticalement** sur 1.
    1. Cliquez sur **Créer**.
+
    Un nouvel affichage (*TestDisplay*) est ajouté à votre emplacement (*TestLocation)*, comme le montre la figure ci-dessous. 
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
@@ -167,6 +176,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
    1. Saisissez le **nom** et le **titre** *MorningSchedule* dans la page des propriétés.
 
    1. Cliquez sur **Créer** pour ajouter une planification au dossier **Planifications**, comme illustré dans la figure ci-dessous. 
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    En outre, sélectionnez la planification (*MorningSchedule*) et cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le tableau de bord des planifications. Vous pouvez afficher/modifier les propriétés de la planification, attribuer des canaux et voir les affichages attribués à l’aide du tableau de bord. 
@@ -196,6 +206,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
    1. Entrez la **planification** et sélectionnez les dates dans **Active from (Actif à partir de)** et **Active until (Actif jusqu’à)**.
 
    1. Cliquez sur **Enregistrer**.
+
    Le canal est créé et ajouté au panneau.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -211,6 +222,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
    1. Sélectionnez le chemin dans lequel vous avez créé la planification (ici, *Test_Project* --> **Planifications** --> *MorningSchedule*).
 
    1. Cliquez sur **Enregistrer** pour ajouter la planification à votre canal. 
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Enregistrement d’un périphérique**
@@ -229,6 +241,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
 
    1. Cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
    1. Cliquez sur **Enregistrement des périphériques** et les périphériques en attente s’affichent, comme illustré dans la figure ci-dessous.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Sélectionnez le périphérique que vous voulez enregistrer et cliquez ensuite sur **Enregistrer le périphérique**.
@@ -267,6 +280,7 @@ Les étapes suivantes vous permettent de créer un exemple de projet pour Screen
 
    1. Cliquez sur **Attribuer**.
    1. Cliquez sur **Terminer** pour achever le processus. Le périphérique est désormais attribué.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    Le tableau de bord s’ouvre et affiche toutes les informations relatives aux planifications et aux canaux attribués, ainsi que les informations de configuration du périphérique.
