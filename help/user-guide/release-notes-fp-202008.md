@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les Notes de mise à jour de Feature Pack 202008.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 35%
+source-wordcount: '299'
+ht-degree: 32%
 
 ---
 
@@ -57,6 +57,9 @@ Les lecteurs AEM Screens Player suivants sont disponibles pour AEM Screens AEM v
 * Chrome OS
 * Windows
 * Android
+
+>[!IMPORTANT]
+>Si vous avez installé AEM Service Pack 6.5.5, vous pouvez rencontrer des problèmes de réplication dans vos lecteurs Screens. Installez [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) pour résoudre le problème.
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
