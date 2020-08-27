@@ -3,9 +3,9 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 45%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 Une fois que vous avez configuré un affichage, vous devez affecter un canal à un affichage pour vue de votre contenu.
 
-Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
+Cette page montre l&#39;affectation d&#39;un canal à votre affichage, la compréhension des propriétés du canal et la division de journée.
 
 >[!NOTE]
 >Vous pouvez attribuer plusieurs canaux à un affichage.
@@ -65,7 +65,7 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **+Attribuer un Canal** dans le panneau CANAUX et calendriers **AFFECTÉS** .
+   Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer un Canal** dans le panneau CANAUX et PLANIFICATIONS **** AFFECTÉS.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. L&#39;option **Paramètres** vous permet de choisir le canal par chemin ou par nom, de saisir le rôle **du** Canal, la **priorité****, les Événements pris en charge et les Méthodes d&#39;interruption.****** De plus, vous pouvez activer l&#39;info-bulle **** Attraction à partir de cette boîte de dialogue.
+1. Dans l&#39;option **Paramètres** , vous pouvez choisir le canal **par chemin** ou **par nom**, entrer le rôle **Canal, Priority, les Événementspris en charge et les méthodes d&#39;interruption de .************** De plus, vous pouvez activer l&#39;info-bulle d&#39;attraction à partir de cette boîte de dialogue.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ Vous allez vue la sortie suivante sur votre choix de lecteur :
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## Timeline View {#timeline-view}
+
+Une fois que vous avez affecté un canal à un affichage et que vous avez configuré un calendrier de répétition, vous pouvez vue le calendrier à partir du panneau CANAUX et calendriers **AFFECTÉS** .
+
+Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
+
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Ou,
+
+   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **Chronologie** dans le panneau CANAUX et calendriers **AFFECTÉS** .
+
+1. Images en attente (à corriger)
+
+## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 Les propriétés suivantes sont définies à partir de l&#39;option **Paramètres** de la boîte de dialogue Affectation **de** Canal.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Sélectionner un canal {#select-channel}
+### Sélectionner un canal {#select-channel}
 
 La sélection d’un canal vous permet de fournir une référence au canal souhaité, soit par nom de canal, soit par chemin d’accès au canal.
 
@@ -112,25 +130,25 @@ La sélection d’un canal vous permet de fournir une référence au canal souha
 
 * **Par nom** : vous saisissez le nom du canal, qui désignera un canal réel en fonction du contexte. Cette fonction vous permet de créer la version locale d’un canal pour diffuser dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
 
-#### Rôle du canal {#role-channel}
+### Rôle du canal {#role-channel}
 
 Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
 
-#### Priorité {#priority-channel}
+### Priorité {#priority-channel}
 
 La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
 
 >[!NOTE]
 >La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité descendante.
 
-#### Événements pris en charge {#supported-events-channel}
+### Événements pris en charge {#supported-events-channel}
 
 * **Chargement initial** : charge le canal lorsque le lecteur démarre. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
 * **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
 * **Minuteur** : il doit être défini lorsqu’une planification est fournie.
 * **Interaction de l’utilisateur** : le lecteur passera au canal spécifié s’il existe une interaction de l’utilisateur sur l’écran (tactile) dans un canal inactif et se chargera en cas de pression sur l’écran.
 
-#### Méthode d’interruption {#interruption-method-channel}
+### Méthode d’interruption {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 
 Les propriétés suivantes sont définies à partir de l&#39;option **Planification** de la boîte de dialogue Affectation **de** Canal.
 
-
-#### Fuseau horaire de référence {#reference-timezone}
+### Fuseau horaire de référence {#reference-timezone}
 
 Le fuseau horaire de référence vous permet de sélectionner le fuseau horaire de votre affichage de contenu.
 
-#### Fenêtre d’activation {#activation-window}
+### Fenêtre d’activation {#activation-window}
 
 La fenêtre Activation vous permet de sélectionner une date **de** Début et une date **de** fin pour afficher votre contenu.
 
-#### Planning de périodicité {#recurrence-schedule}
+### Planning de périodicité {#recurrence-schedule}
 
 Le calendrier de répétition vous permet de définir un calendrier récurrent pour votre contenu. Cliquez sur **+ Ajouter le calendrier** pour ajouter un calendrier de répétition à votre canal.
 
@@ -211,23 +228,4 @@ Cet exemple montre le partage de journée mis en oeuvre dans un casino où le é
 >[!NOTE]
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
-
-## Timeline View {#timeline-view}
-
-Une fois que vous avez affecté un canal à un affichage et que vous avez configuré un calendrier de répétition, vous pouvez vue le calendrier à partir du panneau CANAUX et calendriers **AFFECTÉS** .
-
-Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
-
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Ou,
-
-   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **Chronologie** dans le panneau CANAUX et calendriers **AFFECTÉS** .
-
-1. Images en attente (à corriger)
-
 
