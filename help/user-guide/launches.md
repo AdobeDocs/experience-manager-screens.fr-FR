@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1616'
 ht-degree: 100%
 
@@ -49,9 +49,9 @@ L’exécution d’une expérience sur le lecteur à la date d’activation déf
 
 Pour que le lecteur puisse lire le contenu à la date d’activation définie, nous devons démarrer les activités précédentes avant cette date.
 
-Si la date d’activation est le *24 novembre à 9 h 00* et que la période de grâce est de *24 heures*, la séquence d’actions ci-dessus débutera à (date d’activation - période de grâce), c’est-à-dire le 23 novembre à 9 h 00 (heure du serveur). Cela laisse 24 heures pour terminer toutes les actions figurant ci-dessus de façon à ce que le contenu atteigne les lecteurs. Les lecteurs comprendront qu’il s’agit d’un contenu de lancement, de sorte qu’il ne sera pas lu immédiatement, mais ils le stockeront comme une version ultérieure et commenceront à le lire exactement à la date d’activation définie dans le fuseau horaire du lecteur.
+Si la date d’activation est le *24 novembre à 9 h* et que la période de grâce est de *24 heures*, la séquence d’actions ci-dessus débutera à (date d’activation - période de grâce), c’est-à-dire le 23 novembre à 9 h (heure du serveur). Cela laisse 24 heures pour terminer toutes les actions figurant ci-dessus de façon à ce que le contenu atteigne les lecteurs. Les lecteurs comprendront qu’il s’agit d’un contenu de lancement, de sorte qu’il ne sera pas lu immédiatement, mais ils le stockeront comme une version ultérieure et commenceront à le lire exactement à la date d’activation définie dans le fuseau horaire du lecteur.
 
-Par exemple, supposons que le serveur utilisent le fuseau horaire PST et les appareils le fuseau horaire EST (la différence de temps maximale est de 3 heures dans ce cas) et supposons que la promotion durera 1 minute, que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut généralement télécharger les ressources en 10 à 15 minutes. Alors, période de grâce = décalage horaire (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger sur le lecteur (10 à 15 min) + marge (pour être sûr, disons 30 min) = 3 heures 56 min = 14 160 secondes.
+Par exemple, supposons que le serveur utilise le fuseau horaire PST et les appareils le fuseau horaire EST (la différence de temps maximale est de 3 heures dans ce cas) et supposons que la promotion durera 1 minute, que la publication de l’auteur à la publication prend 10 minutes et que le lecteur peut généralement télécharger les ressources en 10 à 15 minutes. Alors, période de grâce = décalage horaire (3 heures) + temps pour promouvoir le lancement (1 min) + temps pour publier le lancement (10 min) + temps pour télécharger sur le lecteur (10 à 15 min) + marge (pour être sûr, disons 30 min) = 3 heures 56 min = 14 160 secondes.
 
 Ainsi, lorsque nous planifions un lancement, la promotion commencera plus tôt en fonction de ce décalage. Dans l’équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps, nous pouvons obtenir une estimation raisonnable du décalage à condition de connaître le décalage horaire maximal entre le serveur et n’importe quel lecteur.
 
