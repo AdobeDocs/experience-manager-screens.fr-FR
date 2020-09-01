@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1197'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 
 1. **Ajout de deux autres canaux au dossier de canaux**
 
-   1. Accédez à **Zones** —> **Canaux** —> EmbeddedChannels **et cliquez sur** **Créer** dans la barre d’actions.
+   1. Accédez à **Zones** —> **Canaux** —> **EmbeddedChannels** et cliquez sur **Créer** dans la barre d’actions.
    1. Sélectionnez **Canal de séquence** dans l’assistant **Créer** pour créer un canal intitulé **Zone1**.
    1. Sélectionnez **Zone1** et cliquez sur **Modifier** dans la barre d’action pour ouvrir l’éditeur.
    1. Faites glisser quelques images sur ce canal.
