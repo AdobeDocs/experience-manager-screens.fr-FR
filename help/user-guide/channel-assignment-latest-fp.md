@@ -3,10 +3,10 @@ title: Affectation de canal - Dernier FP
 seo-title: Affectation de canal - Dernier FP
 description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 45%
+source-wordcount: '1477'
+ht-degree: 43%
 
 ---
 
@@ -80,7 +80,7 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
    >[!NOTE]
    >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
 
-1. Dans l&#39;option **Planification** , sélectionnez le fuseau horaire de **référence, la fenêtre****d&#39;Activation et le calendrier de** **répétition.**
+1. Dans l&#39;option **Planification** , sélectionnez la fenêtre **** Activation et le calendrier **de**répétition.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -172,10 +172,6 @@ Les propriétés suivantes sont définies à partir de l&#39;option **Planificat
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Fuseau horaire de référence {#reference-timezone}
-
-Le fuseau horaire de référence vous permet de sélectionner le fuseau horaire de votre affichage de contenu.
-
 ### Fenêtre d’activation {#activation-window}
 
 La fenêtre Activation vous permet de sélectionner une date **de** Début et une date **de** fin pour afficher votre contenu.
@@ -186,7 +182,7 @@ Le calendrier de répétition vous permet de définir un calendrier récurrent p
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs planifications récurrentes à votre canal.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Vous pouvez définir les options suivantes :
 
@@ -197,32 +193,32 @@ Vous pouvez définir les options suivantes :
    * **Heure**: La planification se terminera à une heure spécifiée.
    * **Durée**: La planification s&#39;exécute pendant une durée particulière en heures ou en minutes.
 
-### DayParting {#dayparting}
+### Partage de journée {#dayparting}
 
-Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. aem screens vous permet de planifier des canaux en termes de partage de journée dans un jour, une semaine ou un mois selon vos besoins.
+La division de journée désigne la division d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. aem screens vous permet de planifier des canaux en termes de partage de journée au cours d’une journée, d’une semaine ou d’un mois, selon vos besoins.
 
-Les exemples suivants expliquent le partage de journée en canaux dans trois scénarios différents :
+Les exemples suivants expliquent le partage de journée dans trois scénarios différents :
 
 #### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple montre comment un restaurant utilise DayParting pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
+Cet exemple montre comment un restaurant utilise la journée pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
 
 Ici, nous divisons chaque jour en différents créneaux horaires, de sorte que le contenu du canal soit lu selon l’heure spécifiée de la journée. Définissez les propriétés suivantes du calendrier de répétition pour votre canal afin de lire le contenu selon ce cas d’utilisation.
 
-| **Nom** | **Répéter** | **Début** | **Fin** |
+| **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
 | Petit déjeuner | Quotidien | 06:00 | 11h00 |
-| Déjeuner | Quotidien | 11h02 | 15:00 |
-| Dîner | Quotidien | 15:01 | 20:00 |
+| Déjeuner | Quotidien | 11h00 | 15:00 |
+| Dîner | Quotidien | 15:00 | 20:00 |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le partage de journée mis en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h à 22h et où des spécialités sont disponibles pour le menu du dîner après 22h00 et 1h00.
+Cet exemple montre la division de journée mise en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h00 à 22h00 et où des spécialités sont disponibles pour le menu du dîner après 22h00 jusqu&#39;à 1h00 du matin.
 
-| **Nom** | **Répéter** | **Début** | **Fin** |
+| **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
-| Weekend | Hebdomadaire | 20:00 | 22:00 |
-| Spécial | Quotidien | 22:00 | 01:00 |
+| Weekend | Hebdomadaire : Samedi, Dimanche | 20:00 | 22:00 |
+| Spécialités | Quotidien : Lundi-vendredi | 22:00 | 01:00 |
 
 >[!NOTE]
 >
