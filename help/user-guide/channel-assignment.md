@@ -1,12 +1,12 @@
 ---
 title: Attribution de canaux
 seo-title: Attribution de canaux
-description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
-translation-type: tm+mt
+description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
+translation-type: ht
 source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1215'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 76%
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
->Cette section décrit l&#39;affectation et la planification des canaux des packs de fonctionnalités antérieurs à AEM version 6.5.5 Écrans.
+>Cette section décrit l’attribution et la planification des canaux pour les Feature Packs antérieurs à la version AEM 6.5.5 Screens.
 
-Une fois que vous avez configuré un affichage, vous devez affecter un canal à un affichage pour vue de votre contenu.
+Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
 
-Cette page montre l&#39;affectation d&#39;un canal à votre affichage.
+Cette page explique comment attribuer un canal à votre affichage.
 
 >[!NOTE]
 >Vous pouvez attribuer plusieurs canaux à un affichage.
@@ -39,7 +39,7 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the properties from the **Channel Assignment** dialog box from the section below. Consultez la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés du canal.
+   Vous pouvez configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous. Consultez [Propriétés des canaux](#channel-properties) pour en savoir plus à ce propos.
 
 
 ## Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
@@ -97,29 +97,29 @@ La planification vous permet de décrire sous forme de texte le moment où le ca
 
 Afficher l’info-bulle d’attraction définit si l’info-bulle d’attraction (« *Appuyez n’importe où pour commencer* ») doit être affichée ou non lorsque le canal est en cours d’exécution.
 
-### DayParting {#dayparting}
+### Tranches horaires {#dayparting}
 
-Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Lorsqu’ils sont combinés avec des **tranches horaires**, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
-Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. aem screens vous permet de planifier des canaux en termes de partage de journée au cours d’une journée, d’une semaine ou d’un mois, selon vos besoins.
+Cette fonctionnalité consiste à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
-Les exemples suivants expliquent le partage de journée dans trois scénarios différents :
+Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple montre comment un restaurant utilise la journée pour présenter son menu de petit-déjeuner, déjeuner et dîner.
+Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher le menu du petit déjeuner, du déjeuner et du dîner.
 
 Nous diviserons chaque jour en trois tranches horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure spécifiée :
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
-| Menu_A | Petit déjeuner |  | après 6h00 et avant 11h00 |
-| Menu_B | Déjeuner |  | après 11h00 et avant 15h00 |
-| Menu_C | Dîner |  | après 15h00 et avant 20h00 |
+| Menu_A | Petit déjeuner |  | après 6 h et avant 11 h |
+| Menu_B | Déjeuner |  | après 11 h et avant 15 h |
+| Menu_C | Dîner |  | après 15 h et avant 20 h |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le dayParting réalisé dans un casino où des événements en direct se déroulent tous les week-ends de 20h à 22h et des spécialités sont disponibles pour le dîner au menu après 22h00 jusqu&#39;à 1h00 du matin.
+Cet exemple présente les tranches horaires suivies dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
 
 <table>
  <tbody>
@@ -133,22 +133,22 @@ Cet exemple montre le dayParting réalisé dans un casino où des événements e
    <td>LiveConcert</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 octobre 2017 - 22 octobre 2017 <br /> après 20:00 avant 22:00</td>
+   <td>21 octobre 2017 - 22 octobre 2017<br /> après 20 h avant 22 h</td>
   </tr>
   <tr>
    <td>SpecialsDinner</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 octobre 2017 - 22 octobre 2017 <br /> après 22:00 avant 01:00</td>
+   <td>21 octobre 2017 - 22 octobre 2017<br /> après 22 h avant 1 h</td>
   </tr>
  </tbody>
 </table>
 
 #### Diffusion du contenu pendant un ou plusieurs mois particuliers {#playing-content-for-a-particular-month-months}
 
-Cet exemple montre le partage de journée d&#39;un magasin qui affiche sa collection d&#39;été des mois de juin à août et la collection d&#39;automne de septembre à fin octobre.
+Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’été de juin à août, et sa collection d’automne de septembre à fin octobre.
 
-Ici, vous créez des heures de diffusion par mois, de sorte que le contenu du canal soit lu selon les mois de l’année spécifiés.
+Vous allez créer des tranches horaires selon les mois, de sorte que le contenu du canal soit diffusé pendant les mois de l’année spécifiés.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -159,9 +159,9 @@ Ici, vous créez des heures de diffusion par mois, de sorte que le contenu du ca
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
-#### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
+#### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
 
-Cet exemple montre le partage de journée pour un magasin qui affiche sa collection d&#39;hiver avec le même calendrier pour le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c&#39;est son contenu qui est diffusé plutôt que celui du canal A.
+Ces exemples présentent les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c’est son contenu qui est diffusé plutôt que celui du canal A.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Cet exemple montre le partage de journée pour un magasin qui affiche sa collect
 
 >[!NOTE]
 >
-> Pour en savoir plus sur le partage de journée, consultez les sections ci-dessous :
+> Pour en savoir plus sur les tranches horaires, consultez les sections suivantes :
 >
 >* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
