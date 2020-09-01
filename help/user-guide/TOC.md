@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
       + [Gestion des périphériques](managing-devices.md)
       + Attribution de canaux {#assigning-channels}
          + [Attribution de canaux](channel-assignment-latest-fp.md)
-         + [Affectation de canal : Packs de fonctionnalités AEM Screens plus anciens](channel-assignment.md)
+         + [Attribution de canaux : anciennes versions de Feature Packs AEM Screens](channel-assignment.md)
    + Utilisation de fonctionnalités de base du produit {#product-features}
       + [Superposition de texte](text-overlay.md)
       + [Mise à jour hors ligne en bloc](bulk-offline-update.md)
@@ -76,6 +76,7 @@ ht-degree: 97%
       + [Durée de lecture d’images en bloc d’un canal](channel-level-image-playback.md)
       + [Synchronisation des commandes](using-command-sync.md)
       + [Création avec des triggers de données](authoring-data-triggers.md)
+      + [Reconnaissance vocale](voice-recognition.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
@@ -89,7 +90,6 @@ ht-degree: 97%
       + [Transitions Multizone vers Zone unique](multizone-to-singlezone.md)
       + [Canal de prise de contrôle à usage unique](single-use-takeover-channel.md)
       + [Canal de prise de contrôle à usage permanent](perpetual-takeover-channel.md)
-      + [Reconnaissance vocale](voice-recognition.md)
 + Ressources du développeur et ressources d’API {#developing}
    + [API REST](rest-api.md)
    + [Développement d’un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)
