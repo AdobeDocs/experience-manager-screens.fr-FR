@@ -1,12 +1,12 @@
 ---
-title: Affectation de canal - Dernier FP
-seo-title: Affectation de canal - Dernier FP
-description: Suivez cette page pour en savoir plus sur les affectations de Canal et les heures de diffusion.
+title: Attribution de canaux - Dernier FP
+seo-title: Attribution de canaux - Dernier FP
+description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
 translation-type: tm+mt
 source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 43%
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 43%
 >[!IMPORTANT]
 >Cette section décrit l&#39;affectation et la planification des canaux pour AEM 6.5.5 Screens Feature Pack et versions ultérieures.
 
-Une fois que vous avez configuré un affichage, vous devez affecter un canal à un affichage pour vue de votre contenu.
+Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
 
 Cette page montre l&#39;affectation d&#39;un canal à votre affichage, la compréhension des propriétés du canal et la division de journée.
 
@@ -26,75 +26,75 @@ Cette page montre l&#39;affectation d&#39;un canal à votre affichage, la compr�
 
 ## Attribution d’un canal {#assign-a-channel-new-release}
 
-Suivez les sections ci-dessous pour créer un projet AEM Screens et affecter un canal à un affichage.
+Procédez comme indiqué dans les sections ci-dessous pour créer un projet AEM Screens et attribuer un canal à un affichage.
 
-### Création d&#39;un projet AEM Screens et de Canaux {#creating-project}
+### Création d’un projet AEM Screens et de canaux {#creating-project}
 
-Pour configurer un projet et un canal, procédez comme suit :
+Pour configurer un projet et un canal, procédez comme suit :
 
-1. Create an AEM Screens Project titled as **DemoScreens**.
+1. Créez un projet AEM Screens intitulé **DemoScreens**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Consultez [Création et gestion de projets](creating-a-screens-project.md) pour savoir comment créer un projet AEM Screens.
+   >Consultez [Création et gestion des projets](creating-a-screens-project.md) pour savoir comment créer un projet AEM Screens.
 
-1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux** .
+1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux**.
 
-1. Select the channel and click **Edit** from the action bar to add content to your channel.
+1. Sélectionnez le canal et cliquez sur **Modifier** dans la barre d’actions pour ajouter du contenu à votre canal.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Par exemple, le canal **Cafeteria** affiche désormais les images suivantes :
+   Par exemple, le canal **Cafeteria** affiche désormais les images suivantes :
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. Créez un emplacement intitulé **SanJose** et un affichage sous forme de **hall**.
+1. Créez un emplacement intitulé **SanJose** et un affichage appelé **Lobby**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Assigning Channel to a Display {#assigning-channel-to-display}
+### Attribution d’un canal à un affichage {#assigning-channel-to-display}
 
 Une fois le projet configuré, vous devez affecter le canal à un affichage pour la vue du contenu.
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+1. Accédez à l’affichage requis, par exemple, **DemoScreens** --> **Emplacements** --> **SanJose** --> **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer un Canal** dans le panneau CANAUX et PLANIFICATIONS **** AFFECTÉS.
+   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. La boîte de dialogue **Attribution de canaux** s’ouvre.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Dans l&#39;option **Paramètres** , vous pouvez choisir le canal **par chemin** ou **par nom**, entrer le rôle **Canal, Priority, les Événementspris en charge et les méthodes d&#39;interruption de .************** De plus, vous pouvez activer l&#39;info-bulle d&#39;attraction à partir de cette boîte de dialogue.
+1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. De plus, vous pouvez activer l&#39;info-bulle d&#39;attraction à partir de cette boîte de dialogue.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. Dans l&#39;option **Planification** , sélectionnez la fenêtre **** Activation et le calendrier **de**répétition.
+1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
-   >Reportez-vous à la section Propriétés [du](#channel-properties) Canal pour en savoir plus sur les propriétés d’affectation de canal.
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. Cliquez sur **Enregistrer** une fois que vous avez configuré vos préférences.
+1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
-### Viewing the Content in Chrome Player {#viewing-content-output}
+### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
-Cet exemple présente la sortie sur un lecteur Chrome. Une fois que vous avez attribué le canal à votre écran, vous devez enregistrer le périphérique sur un lecteur.
+Cet exemple présente une sortie sur un lecteur Chrome. Une fois le canal attribué à votre écran, vous devez enregistrer l’appareil sur un lecteur.
 
-Reportez-vous à Enregistrement [de](device-registration.md) périphérique pour savoir comment enregistrer un périphérique sur un lecteur AEM Screens.
+Voir [Enregistrement des appareils](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
 
-Vous allez vue la sortie suivante sur votre choix de lecteur :
+Vous allez afficher la sortie suivante sur le lecteur choisi :
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -104,27 +104,27 @@ Une fois que vous avez affecté un canal à un affichage et que vous avez config
 
 Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+1. Accédez à l’affichage requis, par exemple, **DemoScreens** --> **Emplacements** --> **SanJose** --> **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **Chronologie** dans le panneau CANAUX et calendriers **AFFECTÉS** .
+   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
 1. Images en attente (à corriger)
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
-Les propriétés suivantes sont définies à partir de l&#39;option **Paramètres** de la boîte de dialogue Affectation **de** Canal.
+Les propriétés suivantes sont définies à partir de l’option **Paramètres** de la boîte de dialogue **Attribution de canaux**.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 ### Sélectionner un canal {#select-channel}
 
-La sélection d’un canal vous permet de fournir une référence au canal souhaité, soit par nom de canal, soit par chemin d’accès au canal.
+La sélection d’un canal de référence permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
 
 * **Par chemin** : vous fournissez une référence explicite à l’aide du chemin absolu du canal.
 
@@ -168,38 +168,38 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
    >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
 
-Les propriétés suivantes sont définies à partir de l&#39;option **Planification** de la boîte de dialogue Affectation **de** Canal.
+Les propriétés suivantes sont définies à partir de l’option **Planification** de la boîte de dialogue **Attribution de canaux**.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Fenêtre d’activation {#activation-window}
 
-La fenêtre Activation vous permet de sélectionner une date **de** Début et une date **de** fin pour afficher votre contenu.
+La fenêtre d’activation permet de sélectionner une **Date de début** et une **Date de fin** pour afficher le contenu.
 
 ### Planning de périodicité {#recurrence-schedule}
 
-Le calendrier de répétition vous permet de définir un calendrier récurrent pour votre contenu. Cliquez sur **+ Ajouter le calendrier** pour ajouter un calendrier de répétition à votre canal.
+Le planning de périodicité permet de définir une planification récurrente pour votre contenu. Cliquez sur **+ Ajouter un planning** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
->Vous pouvez ajouter plusieurs planifications récurrentes à votre canal.
+>Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
 >Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Vous pouvez définir les options suivantes :
+Vous pouvez configurer les options suivantes :
 
-* **Nom**: Titre de votre calendrier de récurrence.
-* **Répétez**: Indiquez si la planification s’exécute **quotidiennement**, **hebdomadaire**, **mensuel** ou **annuel.**
-* **Début**: Heure de début de votre programme.
-* **Fin**: Heure de fin de votre planification. Vous pouvez le définir par heure ou par durée.
-   * **Heure**: La planification se terminera à une heure spécifiée.
-   * **Durée**: La planification s&#39;exécute pendant une durée particulière en heures ou en minutes.
+* **Nom** : intitulé de votre planning de périodicité.
+* **Répéter** : indiquez si la planification s’exécute de manière **quotidienne**, **hebdomadaire**, **mensuelle** ou **annuelle**.
+* **Début** : heure de début de votre planning.
+* **Fin** : heure de fin de votre planning. Vous pouvez le définir par heure ou par durée.
+   * **Heure** : le planning se terminera à une heure définie.
+   * **Durée** : le planning s’exécute pendant une durée particulière en heures ou en minutes.
 
 ### Partage de journée {#dayparting}
 
-La division de journée désigne la division d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. aem screens vous permet de planifier des canaux en termes de partage de journée au cours d’une journée, d’une semaine ou d’un mois, selon vos besoins.
+La division de journée désigne la division d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
-Les exemples suivants expliquent le partage de journée dans trois scénarios différents :
+Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Cet exemple montre comment un restaurant utilise la journée pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
 
@@ -207,9 +207,9 @@ Ici, nous divisons chaque jour en différents créneaux horaires, de sorte que l
 
 | **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
-| Petit déjeuner | Quotidien | 06:00 | 11h00 |
-| Déjeuner | Quotidien | 11h00 | 15:00 |
-| Dîner | Quotidien | 15:00 | 20:00 |
+| Petit déjeuner | Quotidiennement | 6 h | 11 h |
+| Déjeuner | Quotidiennement | 11 h | 15 h |
+| Dîner | Quotidiennement | 15 h | 20 h |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
@@ -217,8 +217,8 @@ Cet exemple montre la division de journée mise en oeuvre dans un casino où le 
 
 | **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
-| Weekend | Hebdomadaire : Samedi, Dimanche | 20:00 | 22:00 |
-| Spécialités | Quotidien : Lundi-vendredi | 22:00 | 01:00 |
+| Weekend | Hebdomadaire : Samedi, Dimanche | 20 h | 22:00 |
+| Spécialités | Quotidien : Lundi-vendredi | 22:00 | 1 h |
 
 >[!NOTE]
 >
