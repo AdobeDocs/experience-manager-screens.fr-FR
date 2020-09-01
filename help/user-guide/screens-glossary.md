@@ -1,17 +1,13 @@
 ---
 title: Glossaire
-seo-title: Glossaire
+seo-title: 'Glossaire   '
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
-translation-type: ht
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+translation-type: tm+mt
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +15,8 @@ source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 # Glossaire    {#glossary}
 
 **Canal d’application** Un canal d’application montre une application créée par un développeur qui affiche des contenus interactifs.
+
+**Attraper la boucle** Une boucle d&#39;attraction est définie comme l&#39;état *domestique* ou *inactif* lorsque l&#39;affichage comporte au moins deux états dans lesquels elle peut exister. Son rôle est d&#39; *attirer* les clients sur l&#39;écran et de les encourager à s&#39;engager, généralement en touchant l&#39;écran, mais peut aussi être en interagissant avec un produit.
 
 **Périphérique** Un périphérique a la capacité d’exécuter le logiciel de lecture pour produire un résultat vidéo. Il peut contrôler l’affichage d’une partie recadrée, redimensionnée ou traduite de l’expérience ou du contenu communs. La configuration d’écran est associée à un affichage, mais peut être remplacée si un problème technique survient.
 
