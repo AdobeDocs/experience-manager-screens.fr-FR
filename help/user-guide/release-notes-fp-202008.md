@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les Notes de mise à jour de Feature Pack 202008.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '328'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 ## Date de publication {#release-date}
 
-La date de publication pour AEM Screens Feature Pack 202008 est le 31 août 2020.
+La date de publication pour AEM Screens Feature Pack 202008 est le 03 septembre 2020.
 
 ### Nouveautés {#what-is-new}
 
@@ -42,11 +42,19 @@ La date de publication pour AEM Screens Feature Pack 202008 est le 31 août 2020
 
 * **Capacité de reconnaissance vocale pour l&#39;AEM Screens**
 
-   La fonction de reconnaissance vocale permet de modifier le contenu dans un canal AEM Screens piloté par l’interaction vocale.
+   La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-   Un auteur de contenu peut configurer un affichage pour qu’il accepte la voix. Cette fonction permet aux clients d’utiliser la parole comme méthode d’interaction avec leurs écrans.
+   Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la parole comme méthode d’interaction avec leurs écrans.
 
    Voir Reconnaissance [](voice-recognition.md) vocale pour plus d’informations.
+
+### Problèmes et correctifs connus {#known-issues}
+
+Si vous utilisez AEM Screens 6.5.5 Feature Pack, vous devez configurer un environnement pour Windows ou Android Player.
+
+* Voir [Mise en oeuvre du Lecteur](implementing-windows-player.md#fp-environment-setup) Windows 10 pour plus d’informations.
+
+* Voir [Mise en oeuvre du lecteur](implementing-android-player.md#fp-environment-setup) Android pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
