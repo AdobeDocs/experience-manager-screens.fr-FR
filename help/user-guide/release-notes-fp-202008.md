@@ -2,7 +2,7 @@
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les Notes de mise à jour de Feature Pack 202008.
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 37%
@@ -20,7 +20,7 @@ ht-degree: 37%
 
 aem screens a publié AEM 6.5 Feature Pack 5.
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) using your Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
 ## Date de publication {#release-date}
 
