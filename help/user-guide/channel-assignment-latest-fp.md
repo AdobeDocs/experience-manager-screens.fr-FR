@@ -3,10 +3,10 @@ title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
 description: Suivez cette page pour en savoir plus sur l'affectation des Canaux et le partage de journée.
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 78%
+source-wordcount: '1471'
+ht-degree: 77%
 
 ---
 
@@ -193,7 +193,7 @@ Vous pouvez configurer les options suivantes :
 
 ### Tranches horaires {#dayparting}
 
-Cette fonctionnalité consiste à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
+DayParting désigne le fractionnement d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
