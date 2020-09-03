@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 24157fdc507beaacd46f3d42e8a0a975c729df38
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 92%
+source-wordcount: '764'
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,11 @@ Pour mettre en œuvre Android Player pour AEM Screens, installez Android Player 
 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
-### Configuration d’Environnement pour AEM Screens 6.5.5 Feature Pack et versions ultérieures {#fp-environment-setup}
+### Configuration de l’Environnement pour AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-Vous devez configurer un environnement pour le lecteur Android si vous utilisez AEM Screens 6.5.5 Feature Pack.
+Vous devez configurer un environnement pour le lecteur Android si vous utilisez AEM Screens 6.5.5 Service Pack.
+
+Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
 
 Suivez les étapes ci-dessous :
 
