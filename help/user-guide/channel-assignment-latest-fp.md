@@ -1,12 +1,12 @@
 ---
 title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
-description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
+description: Suivez cette page pour en savoir plus sur l'affectation des Canaux et le partage de journée.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 75%
+source-wordcount: '1472'
+ht-degree: 78%
 
 ---
 
@@ -108,13 +108,11 @@ Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    Ou,
 
    Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
-1. Images en attente (à corriger)
+   ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
@@ -182,7 +180,7 @@ Le planning de périodicité permet de définir une planification récurrente po
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Les plannings de périodicité s’accompagnent de *tranches horaires*, ce qui permet de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser simultanément cette configuration pour tous vos affichages.
 
 Vous pouvez configurer les options suivantes :
 
@@ -193,15 +191,15 @@ Vous pouvez configurer les options suivantes :
    * **Heure** : le planning se terminera à une heure définie.
    * **Durée** : le planning s’exécute pendant une durée particulière en heures ou en minutes.
 
-### Partage de journée {#dayparting}
+### Tranches horaires {#dayparting}
 
-La division de journée désigne la division d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
+Cette fonctionnalité consiste à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
 #### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple montre comment un restaurant utilise la journée pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
+Cet exemple montre comment un restaurant utilise DayParting pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
 
 Ici, nous divisons chaque jour en différents créneaux horaires, de sorte que le contenu du canal soit lu selon l’heure spécifiée de la journée. Définissez les propriétés suivantes du calendrier de répétition pour votre canal afin de lire le contenu selon ce cas d’utilisation.
 
@@ -213,7 +211,7 @@ Ici, nous divisons chaque jour en différents créneaux horaires, de sorte que l
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre la division de journée mise en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h00 à 22h00 et où des spécialités sont disponibles pour le menu du dîner après 22h00 jusqu&#39;à 1h00 du matin.
+Cet exemple montre le partage de journée mis en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h à 22h et où des spécialités sont disponibles pour le menu du dîner après 22h00 et 1h00.
 
 | **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
