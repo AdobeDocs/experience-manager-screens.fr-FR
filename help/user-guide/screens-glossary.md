@@ -4,10 +4,10 @@ seo-title: 'Glossaire   '
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 87%
+source-wordcount: '469'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 87%
 **Canal d’application** Un canal d’application montre une application créée par un développeur qui affiche des contenus interactifs.
 
 **Attraper la boucle** Une boucle d&#39;attraction est définie comme l&#39;état *domestique* ou *inactif* lorsque l&#39;affichage comporte au moins deux états dans lesquels elle peut exister. Son rôle est d&#39; *attirer* les clients sur l&#39;écran et de les encourager à s&#39;engager, généralement en touchant l&#39;écran, mais peut aussi être en interagissant avec un produit.
+
+**DayParting** DayParting désigne la division d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
 **Périphérique** Un périphérique a la capacité d’exécuter le logiciel de lecture pour produire un résultat vidéo. Il peut contrôler l’affichage d’une partie recadrée, redimensionnée ou traduite de l’expérience ou du contenu communs. La configuration d’écran est associée à un affichage, mais peut être remplacée si un problème technique survient.
 
