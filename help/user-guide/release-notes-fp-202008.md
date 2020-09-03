@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les Notes de mise à jour de Feature Pack 202008.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 40%
+source-wordcount: '332'
+ht-degree: 37%
 
 ---
 
@@ -50,7 +50,9 @@ La date de publication pour AEM Screens Feature Pack 202008 est le 03 septembre 
 
 ### Problèmes et correctifs connus {#known-issues}
 
-Si vous utilisez AEM Screens 6.5.5 Feature Pack, vous devez configurer un environnement pour Windows ou Android Player.
+Si vous utilisez AEM Screens 6.5.5 Service Pack, vous devez configurer un environnement pour Windows ou Android Player.
+
+Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
 
 * Voir [Mise en oeuvre du Lecteur](implementing-windows-player.md#fp-environment-setup) Windows 10 pour plus d’informations.
 
