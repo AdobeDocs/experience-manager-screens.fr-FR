@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 90%
@@ -34,7 +34,8 @@ Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.m
 
 ### Configuration de l’Environnement pour AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-Vous devez configurer un environnement pour le lecteur Windows si vous utilisez AEM Screens 6.5.5 Service Pack.
+>[!NOTE]
+>Vous devez configurer un environnement pour le lecteur Windows si vous utilisez AEM Screens 6.5.5 Service Pack.
 
 Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
 
