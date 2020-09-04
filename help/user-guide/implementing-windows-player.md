@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 91%
+source-wordcount: '978'
+ht-degree: 90%
 
 ---
 
@@ -28,6 +28,9 @@ Cette section décrit la configuration du lecteur AEM Screens Windows 10. Elle f
 Pour mettre en œuvre le lecteur Windows pour AEM Screens, installez le lecteur Windows pour AEM Screens.
 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
+
+>[!NOTE]
+>Il n&#39;existe pas de mode fenêtre dans le lecteur Windows. Il est toujours en mode plein écran.
 
 ### Configuration de l’Environnement pour AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
