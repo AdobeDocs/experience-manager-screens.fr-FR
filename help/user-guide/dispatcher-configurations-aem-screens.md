@@ -4,10 +4,10 @@ seo-title: Configurations du dispatcher pour AEM Screens
 description: Cette page décrit les instructions de configuration du dispatcher pour un projet AEM Screens.
 seo-description: Cette page décrit les instructions de configuration du dispatcher pour un projet AEM Screens.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 71%
+source-wordcount: '248'
+ht-degree: 72%
 
 ---
 
@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous pour configurer le dispatcher pour un projet AEM S
 
 ### Activation des sessions bascules {#enable-sticky-session}
 
-Si un utilisateur souhaite utiliser plusieurs instances de publication avec dispatcher, il doit mettre à jour le fichier dispatcher.any dans son dispatcher.
+Si vous souhaitez utiliser plusieurs instances de publication avec répartiteur, vous devez mettre à jour le `dispatcher.any` fichier.
 
 ```xml
 /stickyConnections {
