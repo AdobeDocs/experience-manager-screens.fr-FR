@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les Notes de mise à jour de Feature Pack 202008.
 translation-type: tm+mt
-source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
+source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 37%
+source-wordcount: '333'
+ht-degree: 36%
 
 ---
 
@@ -68,4 +68,4 @@ Les lecteurs AEM Screens suivants sont sortis pour AEM Screens AEM 6.5 Feature P
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
