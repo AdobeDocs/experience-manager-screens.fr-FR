@@ -2,10 +2,10 @@
 title: Reconnaissance vocale dans AEM Screens
 description: Cette page décrit la fonction de reconnaissance vocale d’AEM Screens.
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 38%
+source-wordcount: '1124'
+ht-degree: 34%
 
 ---
 
@@ -35,11 +35,11 @@ Un auteur de contenu peut configurer un affichage pour permettre la reconnaissan
 
 Pour mettre en oeuvre la reconnaissance vocale dans votre projet AEM Screens, vous devez activer la reconnaissance vocale pour l’affichage et associer chaque canal à une balise unique pour déclencher une transition de canal.
 
-La section suivante décrit l’activation et l’utilisation de la fonctionnalité de reconnaissance vocale dans un projet AEM Screens.
+La section suivante décrit comment activer et utiliser la fonction de reconnaissance vocale dans un projet AEM Screens.
 
 ## Affichage du contenu en mode Plein écran ou Canal fractionné {#sequence-channel}
 
-Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour le projet.
+Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
 
 1. L’exemple suivant présente un projet de démonstration nommé **VoiceDemo** et trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks**, comme illustré dans la figure ci-dessous.
 
