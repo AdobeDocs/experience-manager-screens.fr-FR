@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 89%
@@ -33,7 +33,8 @@ Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.m
 
 ### Configuration de l’Environnement pour AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-Vous devez configurer un environnement pour le lecteur Android si vous utilisez AEM Screens 6.5.5 Service Pack.
+>[!NOTE]
+>Vous devez configurer un environnement pour le lecteur Android si vous utilisez AEM Screens 6.5.5 Service Pack.
 
 Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
 
