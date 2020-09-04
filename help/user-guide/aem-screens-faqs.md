@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 98%
 
 ---
 
@@ -89,13 +89,13 @@ Ce problème peut se produire si le lecteur ne parvient pas à trouver le nom D
 
 Un outil de surveillance Android multiplateforme utilisant des API Android pures est déjà disponible dans ce kit. Aucun autre logiciel n&#39;est nécessaire mais, selon le périphérique employé, vous devrez peut-être retirer le kit de package Android afin d’obtenir des privilèges système pour un cycle d&#39;alimentation complet (API PowerManager). En l’absence de retrait via les clés du fabricant, ce kit permet de fermer, puis de relancer l&#39;application, mais pas le cycle d&#39;alimentation.
 
-Pour plus d’informations sur la mise en œuvre du lecteur Android, reportez-vous à [**Mise en œuvre du lecteur Android **](implementing-android-player.md).
+Pour plus d’informations sur la mise en œuvre du lecteur Android, reportez-vous à [**Mise en œuvre du lecteur Android**](implementing-android-player.md).
 
 ### 5. Quels outils (logiciels) tiers de surveillance et d’alerte à distance Adobe/AMS recommande-t-il d’utiliser pour surveiller chaque périphérique ?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Selon les résultats que vous souhaitez obtenir en dehors de la surveillance et des alertes, un nouveau service de notifications AEM Screens vous informe si un périphérique n’a pas envoyé de commande ping depuis longtemps. Les outils tiers dépendent du système d’exploitation utilisé et de ses fonctionnalités, ainsi que des besoins spécifiques du client.
 
-Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’activité des périphériques, reportez-vous à [**Service de notifications AEM Screens **](screens-notifications-service.md).
+Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’activité des périphériques, reportez-vous à [**Service de notifications AEM Screens**](screens-notifications-service.md).
 
 ## Lecteur AEM Screens {#aem-screens-player}
 
@@ -124,6 +124,10 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Appuyez 7 fois sur le numéro de version pour activer les **options du mode Développeur** dans **Paramètres.**
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
+
+### 4. Comment activer le mode fenêtre pour le lecteur Windows ?
+
+Il n&#39;existe pas de mode fenêtre dans le lecteur Windows. Il est toujours en mode plein écran.
 
 ## Conseils pratiques de dépannage {#general-troubleshooting-tips}
 
