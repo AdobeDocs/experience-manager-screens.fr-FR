@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +45,7 @@ S’il n’existe aucun rendu, vérifiez que vous avez installé ffmpeg sur le s
 
 ## Ressources vidéo {#video-assets}
 
-S’il n’y a pas d’attribut source sous la vidéo, il est possible que la vidéo n’ait pas été transcodée. Si la vidéo est transcodée correctement, elle s’affiche dans le tableau de bord, comme indiqué dans l’illustration ci-dessous.
+Si vous ne voyez pas d’attribut source sous video, il se peut que la vidéo n’ait pas été transcodée. Si la vidéo est correctement codée en double-code, elle apparaît dans le tableau de bord, comme le montre la figure ci-dessous.
 
 Vérifiez que ffmpeg est installé dans les profils vidéo.
 
@@ -78,9 +81,9 @@ Consultez la liste des profils dans la conception des pages si le composant vid�
 
 1. Sélectionnez la vidéo et ouvrez la boîte de dialogue **Modifier**. Ouvrez l’onglet **Profils**.
 
-   Sélectionnez différents profils (au minimum, le profil « Qualité élevée H.264 » doit être répertorié).
+   >[!REMARQUE
+   >Sélectionnez différents profils (au minimum, le profil « Qualité élevée H.264 » doit être répertorié).
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Vérification de la vidéo dans le lecteur web {#checking-the-video-in-the-web-player}
 
@@ -140,11 +143,10 @@ Pour configurer une stratégie absolue, procédez comme suit :
 1. Ouvrez la boîte de dialogue de configuration.
 1. Modifiez la **Stratégie** et ajoutez « absolue ».
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->Le système d’exploitation des lecteurs doit posséder la même horloge.
+   >[!NOTE]
+   >Le système d’exploitation des lecteurs doit posséder la même horloge.
 
 **Alignement des horloges sur OS X** Pour aligner les horloges sur OSX, procédez comme suit :
 
