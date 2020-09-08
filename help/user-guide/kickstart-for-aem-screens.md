@@ -3,9 +3,9 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 64%
 
 ---
@@ -18,7 +18,7 @@ Cette section est un démarrage rapide de AEM Screens et explique comment config
 >[!NOTE]
 >Avant de début à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
-## Création d’une expérience de signalisation numérique en 5 minutes {#creating-a-digital-signage-experience-in-minutes}
+## Conditions préalables {#prerequisites}
 
 Suivez les étapes ci-dessous pour créer un exemple de projet pour AEM Screens et publier du contenu sur le lecteur d’écran.
 
@@ -48,7 +48,7 @@ Suivez les étapes ci-dessous pour créer un exemple de projet pour AEM Screens 
 1. Cliquez sur **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
 
-## Tutoriel {#tutorial}
+## Création d’une expérience de signalisation numérique en 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
 ### Création d’un projet AEM Screens {#creating-project}
 
@@ -134,11 +134,19 @@ Une fois que vous avez créé un emplacement, vous devez créer un affichage pou
 
 1. Cliquez sur **Créer** dans la barre d’actions.
 
+   ![image](assets/kickstart/demo-disp1.png)
+
 1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
+
+   ![image](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![image](assets/kickstart/demo-disp3.png)
+
 A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+
+![image](assets/kickstart/demo-disp4.png)
 
 ### Attribution d’un canal {#assigning-channel}
 
