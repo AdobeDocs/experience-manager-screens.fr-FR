@@ -3,10 +3,10 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 64%
+source-wordcount: '1260'
+ht-degree: 59%
 
 ---
 
@@ -152,29 +152,70 @@ A new display titled as **TestDisplay** is now added to your location **TestLoca
 
 Une fois le projet configuré, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
+1. Accédez à l&#39;affichage requis à partir de **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay.**
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
+
+   ![image](assets/kickstart/demo-assign1.png)
 
    Ou,
 
    Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
+   ![image](assets/kickstart/demo-assign2.png)
+
 1. La boîte de dialogue **Attribution de canaux** s’ouvre.
 
-1. L’option **Paramètres** permet de choisir le canal **par chemin** ou **par nom**, et d’entrer le **rôle du canal**, la **priorité**, les **événements pris en charge** et les **méthodes d’interruption**. De plus, vous pouvez activer l’info-bulle d’attraction à partir de cette boîte de dialogue.
+1. Dans l’option **Paramètres** , choisissez le canal **par chemin d’accès** et les Événements **** pris en charge comme charge **initial et Ecran d’inactivité.******
 
+   >[REMARQUE]
+   >Les méthodes **Rôle** de Canal **,** Priorité **et** Interruption sont toutes renseignées par défaut. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
+
+   ![image](assets/kickstart/demo-assign3.png)
+
+   De plus, vous pouvez également sélectionner la fenêtre **** Activation et le calendrier **de** répétition.
 
    >[!NOTE]
-   >Consultez la section [Propriétés des canaux](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
-
-1. Dans l’option **Planification**, sélectionnez la **fenêtre d’activation** et le **planning de périodicité**.
+   >The *Recurrence Schedule* allows you to set a recurring schedule for your channel. Vous configurez plusieurs plannings de périodicité pour un canal.
+   >Pour plus d’informations, voir la section [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
-### Enregistrement d’un périphérique {#registering-device}
+### Enregistrement d&#39;un périphérique et affectation d&#39;un périphérique à un affichage{#registering-device}
 
 Vous devez enregistrer votre périphérique à l’aide du tableau de bord AEM. 
+
+>[!IMPORTANT]
+>Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome réel. Pour l’installer, procédez comme suit :
+>
+>1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
+>1. Décompressez et enregistrez le fichier d’installation sur le disque.
+>1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
+>1. Activez le **mode Développeur** dans l’angle supérieur droit de l’écran.
+>1. Cliquez sur **Charger les fichiers décompressés** dans l’angle supérieur gauche et chargez le lecteur Chrome décompressé.
+>1. Vérifiez si le module **Lecteur Chrome AEM Screens** est disponible dans la liste des extensions.
+>1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://applications***.
+>1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
+
+
+Une fois que votre lecteur ChromeOS est activé, suivez les étapes ci-dessous pour enregistrer un périphérique Chrome.
+
+1. Accédez au dossier **Devices** de votre projet à partir de votre instance AEM.
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. Tap/click the **Device Registration** from the top right.
+
+1. Select the required device and tap/click **Register Device**.
+
+1. Attendez que le périphérique envoie son code d’enregistrement et, simultanément, vérifiez le code **d’** enregistrement depuis votre périphérique Chrome.
+
+1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
+
+1. Saisissez le nom souhaité pour le périphérique, puis cliquez sur **Enregistrer**.
+
+1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement.
+
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
