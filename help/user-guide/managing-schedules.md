@@ -1,25 +1,28 @@
 ---
 title: Création et gestion des planifications
 seo-title: Gestion des planifications
-description: Consultez cette page pour en savoir plus sur les planifications, qui vous permettent d’organiser les canaux en groupes réutilisables, pour éviter d’avoir à attribuer individuellement chaque affichage sur lequel vous souhaitez afficher votre contenu.
-seo-description: Consultez cette page pour en savoir plus sur les planifications, qui vous permettent d’organiser les canaux en groupes réutilisables, pour éviter d’avoir à attribuer individuellement chaque affichage sur lequel vous souhaitez afficher votre contenu.
+description: Suivez cette page pour en savoir plus sur les planifications, qui vous permet d'organiser les canaux en groupes réutilisables, de sorte que vous n'ayez pas à répéter leur affectation individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
+seo-description: Suivez cette page pour en savoir plus sur les planifications, qui vous permet d'organiser les canaux en groupes réutilisables, de sorte que vous n'ayez pas à répéter leur affectation individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
-contentOwner: Jyotika syal
+contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 74%
 
 ---
 
 
 # Création et gestion des planifications{#creating-and-managing-schedules}
 
-Dans AEM Screens, les **planifications** vous permettent d’organiser les canaux en groupes réutilisables. Ainsi, vous n’avez pas à répéter leur attribution individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
+**Les planifications**, en AEM Screens, vous permettent d’organiser les canaux en groupes réutilisables, de sorte que vous n’ayez pas à répéter individuellement leur affectation pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
 
-Lorsqu’ils sont combinés avec des ***tranches horaires*** les planifications permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
+Lorsqu’ils sont combinés avec des ***tranches horaires***, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
 >[!NOTE]
 >
@@ -40,7 +43,6 @@ Suivez les étapes ci-dessous pour créer la planification pour votre canal :
 
 Vous verrez un dossier de planifications avec le nom et le titre de votre projet.
 
-![chlimage_1](assets/chlimage_1.gif)
 
 ## Affichage du tableau de bord {#viewing-dashboard}
 
@@ -60,7 +62,7 @@ Suivez les étapes ci-dessous pour afficher le tableau de bord des planification
 
    **Panneau d’Informations sur la planification** Cliquez sur Propriétés dans le coin supérieur droit du panneau INFORMATIONS SUR LA PLANIFICATION pour afficher/modifier les propriétés de la planification.
 
-   **Panneau Canaux attribués** Cliquez sur +Attribuer le canal dans l’angle supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canaux. Pour plus d’informations, voir Attribution des canaux.
+   **Panneau Canaux attribués** Cliquez sur +Attribuer le canal dans l’angle supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canaux.
 
    **Panneau Affichages attribués** Sélectionnez l’un des affichages dans le panneau AFFICHAGES ATTRIBUÉS pour ouvrir le tableau de bord de l’affichage.
 
