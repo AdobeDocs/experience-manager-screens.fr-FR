@@ -3,10 +3,10 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 73%
+source-wordcount: '985'
+ht-degree: 63%
 
 ---
 
@@ -50,7 +50,7 @@ Suivez les étapes ci-dessous pour créer un exemple de projet pour AEM Screens 
 
 ## Tutoriel {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Création d’un projet AEM Screens {#creating-project}
 
 La première étape consiste à créer un nouveau projet AEM Screens.
 
@@ -91,73 +91,62 @@ Une fois que vous avez votre canal, vous devez y ajouter le contenu que le lecte
 
 Suivez les étapes ci-dessous pour ajouter du contenu au canal (*TestChannel*) dans votre projet : 
 
-1. Accédez au projet *Test_Project* que vous avez créé et sélectionnez ensuite le dossier **Channels** (Canaux).
+1. Accédez au projet *DemoProject* que vous avez créé et sélectionnez le dossier **Channels** (Canaux).
 
 1. Cliquez sur **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de *TestChannel* s’ouvre.
+
+   ![image](assets/kickstart/demo-6.png)
 
 1. Cliquez sur l’icône qui fait passer le panneau latéral du côté gauche de la barre d’actions pour ouvrir les ressources et les composants. 
 
 1. Faites glisser et déposez les composants que vous souhaitez ajouter à votre canal. 
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
-
-Dans cet exemple, l’éditeur affiche une image ajoutée au canal. 
-
-![chlimage_1-9](assets/chlimage_1-9.png)
+   ![image](assets/kickstart/demo-7.png)
 
 ### Création d’un emplacement {#creating-location}
 
-Une fois que vous avez le canal, vous devez créer votre emplacement. 
+Une fois votre canal en place, vous devez créer un emplacement.
 
-***Les emplacements*** compartimentent vos différentes expériences de signature numérique et contiennent les configurations des écrans en fonction de l’emplacement des différents écrans.
+>[!NOTE]
+>***Locations*** compartmentalize your various digital signage experiences and contains the configurations of the displays according to where the various screens are.
 
 Pour créer un emplacement pour votre projet, procédez comme suit :
 
-1. Accédez au projet *Test_Project* que vous avez créé et sélectionnez le dossier **Emplacements**.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. Cliquez sur **Créer** à côté de l’icône Plus dans la barre d’actions (voir la figure ci-dessous). Un assistant s’ouvre.
+1. Click **+ Create** from the action bar.
+
 1. Sélectionnez **Emplacement** dans l’assistant, puis cliquez sur **Suivant**.
 
-1. Saisissez le **nom** et le **titre** de votre emplacement (saisissez le titre *TestLocation*), puis cliquez sur **Créer**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 L’emplacement *TestLocation* est créé et ajouté à votre dossier **Locations** (Emplacements).
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Création d’un affichage pour TestLocation {#creating-display}
+### Création d’un affichage pour un emplacement {#creating-display}
 
 Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
-Les ***affichages*** représentent l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
+>[!NOTE]
+>***Les affichages*** représentent l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
 
-1. Accédez à l’emplacement sur lequel vous souhaitez créer votre affichage (*Test_Projec* t --> **Emplacements** --> *TestLocation)* comme indiqué dans la figure ci-dessus, puis sélectionnez *TestLocation*.
+1. Navigate to the **TestLocation** and select it.
 
 1. Cliquez sur **Créer** dans la barre d’actions.
+
 1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
 
-1. Saisissez le **nom** et le **titre** de votre emplacement d’affichage (saisissez le titre *TestDisplay*).
+1. Saisissez le **Titre** (*LobbyDisplay*).
 
-1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page.
-
-   1. Sélectionnez la **résolution** **Full HD**.
-
-   1. Définissez **Nombre d’appareils horizontalement** sur 1.
-
-   1. Définissez **Nombre d’appareils verticalement** sur 1.
-
-   1. Cliquez sur **Créer**.
+1. Cliquez sur **Créer**.
 
 Un nouvel affichage (*TestDisplay*) est ajouté à votre emplacement (*TestLocation)*, comme le montre la figure ci-dessous. 
-
-![chlimage_1-12](assets/chlimage_1-12.png)
 
 ### Attribution d’un canal {#assigning-channel}
 
 1. Accédez à l’affichage depuis *Test_Project* --> **Emplacements** --> *TestLocation* --> *TestDisplay*.
 
-1. Sélectionnez *TestDisplay* et cliquez ou appuyez sur **Attribuer un canal **depuis la barre d’actions *.*
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Vous pouvez aussi cliquer sur **Tableau de bord** et sélectionner **+Attribuer un canal** en haut à droite du panneau **CANAUX ET PLANIFICATIONS ATTRIBUÉS**, comme illustré dans la figure ci-dessous. La boîte de dialogue **Attribution de canaux** s’ouvre.
 
@@ -177,7 +166,7 @@ Un nouvel affichage (*TestDisplay*) est ajouté à votre emplacement (*TestLocat
 
 Le canal est créé et ajouté au panneau.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### Enregistrement d’un périphérique {#registering-device}
 
@@ -192,6 +181,6 @@ Vous devez enregistrer votre périphérique à l’aide du tableau de bord AEM.
 
 Une fois que vous avez ajouté les configurations ci-dessus, le lecteur doit automatiquement afficher le canal par défaut de l’affichage sur votre périphérique.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 Pour plus d’informations sur le lecteur AEM Screens, voir [Lecteur AEM Screens](working-with-screens-player.md).
