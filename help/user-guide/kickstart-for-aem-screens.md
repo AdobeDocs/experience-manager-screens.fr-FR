@@ -3,10 +3,10 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 63%
+source-wordcount: '981'
+ht-degree: 64%
 
 ---
 
@@ -91,9 +91,9 @@ Une fois que vous avez votre canal, vous devez y ajouter le contenu que le lecte
 
 Suivez les étapes ci-dessous pour ajouter du contenu au canal (*TestChannel*) dans votre projet : 
 
-1. Accédez au projet *DemoProject* que vous avez créé et sélectionnez le dossier **Channels** (Canaux).
+1. Accédez au projet **DemoProject** que vous avez créé et sélectionnez le dossier **Channels** (Canaux).
 
-1. Cliquez sur **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de *TestChannel* s’ouvre.
+1. Cliquez sur **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de **TestChannel** s’ouvre.
 
    ![image](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ Une fois votre canal en place, vous devez créer un emplacement.
 
 Pour créer un emplacement pour votre projet, procédez comme suit :
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar.
 
@@ -120,7 +120,7 @@ Pour créer un emplacement pour votre projet, procédez comme suit :
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
-L’emplacement *TestLocation* est créé et ajouté à votre dossier **Locations** (Emplacements).
+L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locations** (Emplacements).
 
 
 ### Création d’un affichage pour un emplacement {#creating-display}
@@ -136,51 +136,41 @@ Une fois que vous avez créé un emplacement, vous devez créer un affichage pou
 
 1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
 
-1. Saisissez le **Titre** (*LobbyDisplay*).
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. Cliquez sur **Créer**.
-
-Un nouvel affichage (*TestDisplay*) est ajouté à votre emplacement (*TestLocation)*, comme le montre la figure ci-dessous. 
+A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
 ### Attribution d’un canal {#assigning-channel}
 
-1. Accédez à l’affichage depuis *Test_Project* --> **Emplacements** --> *TestLocation* --> *TestDisplay*.
+Une fois le projet configuré, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
 
-1. Vous pouvez aussi cliquer sur **Tableau de bord** et sélectionner **+Attribuer un canal** en haut à droite du panneau **CANAUX ET PLANIFICATIONS ATTRIBUÉS**, comme illustré dans la figure ci-dessous. La boîte de dialogue **Attribution de canaux** s’ouvre.
+1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
-1. Sélectionnez **Canal de référence** en fonction du **chemin d’accès**
+   Ou,
 
-1. Définissez le **rôle du canal** sur *LiveStream*.
+   Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
-1. Sélectionnez **Chemin d’accès au canal** (*Test_Project* --> *Canaux* --> *TestChannel*) dans le **canal**.
+1. La boîte de dialogue **Attribution de canaux** s’ouvre.
 
-1. Définissez la **priorité** de ce canal sur *1*.
-
-1. Choisissez les **événements pris en charge** **Chargement initial** et **Écran inactif**.
-
-1. Entrez la **planification** et sélectionnez les dates dans **Active from (Actif à partir de)** et **Active until (Actif jusqu’à)**.
-
-1. Cliquez sur **Enregistrer**.
-
-Le canal est créé et ajouté au panneau.
+1. L’option **Paramètres** permet de choisir le canal **par chemin** ou **par nom**, et d’entrer le **rôle du canal**, la **priorité**, les **événements pris en charge** et les **méthodes d’interruption**. De plus, vous pouvez activer l’info-bulle d’attraction à partir de cette boîte de dialogue.
 
 
+   >[!NOTE]
+   >Consultez la section [Propriétés des canaux](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
+
+1. Dans l’option **Planification**, sélectionnez la **fenêtre d’activation** et le **planning de périodicité**.
+
+1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
 ### Enregistrement d’un périphérique {#registering-device}
 
 Vous devez enregistrer votre périphérique à l’aide du tableau de bord AEM. 
 
->[!NOTE]
->Vous pouvez ouvrir le lecteur Screens à l’aide de l’application AEM’Screens que vous avez téléchargée ou à l’aide du navigateur web.
+### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
+
+Cet exemple présente une sortie sur un lecteur Chrome. Une fois le canal attribué à votre écran, vous devez enregistrer l’appareil sur un lecteur.
 
 
 
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-Une fois que vous avez ajouté les configurations ci-dessus, le lecteur doit automatiquement afficher le canal par défaut de l’affichage sur votre périphérique.
-
-
-
-Pour plus d’informations sur le lecteur AEM Screens, voir [Lecteur AEM Screens](working-with-screens-player.md).
