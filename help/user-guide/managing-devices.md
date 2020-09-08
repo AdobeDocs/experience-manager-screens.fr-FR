@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +52,6 @@ Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage 
 
 1. Appuyez/cliquez sur **Terminer** pour terminer la procédure d’attribution.
 
-   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    Le tableau de bord des affichages montre le périphérique attribué dans le volet **PÉRIPHÉRIQUES**.
 
