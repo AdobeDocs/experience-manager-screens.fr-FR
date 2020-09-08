@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +59,7 @@ Une fois que l’affichage est en place, l’étape suivante est de créer une c
 
 >[!NOTE]
 >
->**Étape suivante** :
+>**La prochaine étape**:
 >
 >Une fois que vous avez créé un affichage pour votre emplacement, vous devez attribuer un canal à votre affichage de façon à exploiter le contenu.
 >
@@ -110,33 +113,28 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les p
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Cliquez sur (**...**) en haut à droite du panneau **INFORMATIONS SUR L’AFFICHAGE** pour afficher les propriétés et un aperçu de l’affichage.
+Cliquez sur (**...**) en haut à droite du panneau **INFORMATIONS D’AFFICHAGE** pour afficher les propriétés et un aperçu de l’affichage.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Affichage des propriétés {#viewing-properties}
 
 Cliquez sur **Propriétés** pour afficher ou modifier les propriétés de votre affichage.
 
-Vous pouvez également régler la valeur du retardateur d’événements pour votre canal interactif dans la propriété **Délai d’inactivité **sous l’onglet **Affichage**. Par défaut, cette valeur est définie sur *300 secondes*.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. Par défaut, cette valeur est définie sur *300 secondes*.
 
 Utilisez **CRXDE Lite** pour accéder à la propriété **idleTimeout**, à savoir `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Panneau Canaux attribués {#assigned-channels-panel}
 
 Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet périphérique.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Panneau Périphériques {#devices-panel}
 
 Le panneau **PÉRIPHÉRIQUES** fournit des informations sur les configurations des périphériques.
 
-Cliquez sur (**...**) en haut à droite du panneau **PÉRIPHÉRIQUES** pour ajouter des configurations de périphériques ou mettre à jour les périphériques.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
 Cliquez sur la configuration du périphérique pour en afficher les propriétés, l‘attribuer ou le supprimer.
 
