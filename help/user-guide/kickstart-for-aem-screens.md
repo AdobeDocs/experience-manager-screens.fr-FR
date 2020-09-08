@@ -3,9 +3,9 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 54%
 
 ---
@@ -81,9 +81,9 @@ Pour créer un canal pour votre projet, procédez comme suit :
 
    ![image](assets/kickstart/demo-4.png)
 
-Le canal *TestChannel* est créé et ajouté au dossier de canaux, comme illustré dans la figure ci-dessous.
+   Le canal *TestChannel* est créé et ajouté au dossier de canaux, comme illustré dans la figure ci-dessous.
 
-![image](assets/kickstart/demo-5.png)
+   ![image](assets/kickstart/demo-5.png)
 
 ### Ajout de contenu à un canal {#adding-content}
 
@@ -144,9 +144,9 @@ Une fois que vous avez créé un emplacement, vous devez créer un affichage pou
 
    ![image](assets/kickstart/demo-disp3.png)
 
-A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+   A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
-![image](assets/kickstart/demo-disp4.png)
+   ![image](assets/kickstart/demo-disp4.png)
 
 ### Attribution d’un canal {#assigning-channel}
 
@@ -182,7 +182,7 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
-### Enregistrement d&#39;un périphérique et affectation d&#39;un périphérique à un affichage{#registering-device}
+### Enregistrement d&#39;un périphérique et affectation d&#39;un périphérique à un affichage {#registering-device}
 
 Vous devez enregistrer votre périphérique à l’aide du tableau de bord AEM. 
 
@@ -244,7 +244,7 @@ Une fois que votre lecteur ChromeOS est activé, suivez les étapes ci-dessous p
 
 Tous les fichiers de votre canal sont en cours de lecture sur votre périphérique Chrome.
 
-Félicitations, vous êtes maintenant en train de jouer au contenu d&#39;un canal AEM Screens !
+Félicitations, vous jouez maintenant du contenu dans un canal AEM Screens !
 
 ![image](assets/kickstart/demo-video-screens.gif)
 
