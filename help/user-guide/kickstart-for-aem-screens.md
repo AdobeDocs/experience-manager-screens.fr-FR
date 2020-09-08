@@ -3,10 +3,10 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 59%
+source-wordcount: '1316'
+ht-degree: 54%
 
 ---
 
@@ -205,22 +205,51 @@ Une fois que votre lecteur ChromeOS est activé, suivez les étapes ci-dessous p
 
 1. Tap/click the **Device Manager** from the action bar.
 
+   ![image](assets/kickstart/demo-register1.png)
+
 1. Tap/click the **Device Registration** from the top right.
 
 1. Select the required device and tap/click **Register Device**.
 
+   ![image](assets/kickstart/demo-register2.png)
+
 1. Attendez que le périphérique envoie son code d’enregistrement et, simultanément, vérifiez le code **d’** enregistrement depuis votre périphérique Chrome.
+   ![image](assets/kickstart/demo-register3.png)
 
 1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
 
-1. Saisissez le nom souhaité pour le périphérique, puis cliquez sur **Enregistrer**.
+1. Set the desired name as **ChromeDeviceforDemo** for the device, and click **Register**.
+
+   ![image](assets/kickstart/demo-register4.png)
+
+1. Cliquez sur **Affecter l&#39;affichage** dans la boîte de dialogue **Enregistrement du périphérique réussi** .
+
+   ![image](assets/kickstart/demo-register5.png)
+
+1. Sélectionnez le chemin d&#39;accès à votre affichage sous la forme **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay et cliquez sur Attribuer.******
+
+   ![image](assets/kickstart/demo-device6.png)
+
+1. Une fois que l&#39;appareil a été attribué, la confirmation suivante s&#39;affiche.
+
+   ![image](assets/kickstart/demo-register8.png)
 
 1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement.
 
+1. Vous devriez être en mesure de vue de votre périphérique enregistré à partir du tableau de bord d&#39;affichage.
+
+   ![image](assets/kickstart/demo-register9.png)
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
-Cet exemple présente une sortie sur un lecteur Chrome. Une fois le canal attribué à votre écran, vous devez enregistrer l’appareil sur un lecteur.
+Tous les fichiers de votre canal sont en cours de lecture sur votre périphérique Chrome.
+
+Félicitations, vous êtes maintenant en train de jouer au contenu d&#39;un canal AEM Screens !
+
+![image](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
