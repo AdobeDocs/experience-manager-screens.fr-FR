@@ -3,9 +3,9 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 59%
 
 ---
@@ -168,7 +168,8 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
 
 1. Dans l’option **Paramètres** , choisissez le canal **par chemin d’accès** et les Événements **** pris en charge comme charge **initial et Ecran d’inactivité.******
 
-   >[REMARQUE]
+   >[!NOTE]
+   >
    >Les méthodes **Rôle** de Canal **,** Priorité **et** Interruption sont toutes renseignées par défaut. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
 
    ![image](assets/kickstart/demo-assign3.png)
