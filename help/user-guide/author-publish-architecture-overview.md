@@ -9,8 +9,11 @@ topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 85%
 
 ---
 
@@ -78,14 +81,14 @@ Cela permet aux auteurs de continuer à gérer le périphérique, par exemple d�
 
 Dans de nombreux cas, une commande n’est censée être envoyée à un périphérique qu’une seule fois. Toutefois, dans une architecture de publication équilibrée en charge, on ignore à quelle instance de publication le périphérique se connecte.
 
-Par conséquent, l’instance de création envoie le message à toutes les instances de publication. Cependant, seul un message unique doit être relayé au périphérique. Pour garantir un message correct, une communication doit avoir lieu entre les instances de publication. Ceci est réalisé en utilisant *Apache ActiveMQ Artémis. *Chaque instance de publication est placée dans une topologie à couplage faible à l’aide du service de découverte Sling basé sur Oak et ActiveMQ est configuré de sorte que chaque instance de publication puisse communiquer et créer une file de messages unique. Le périphérique Screens interroge la batterie de publication via l’équilibreur de charge et sélectionne la commande qui se trouve au sommet de la file.
+Par conséquent, l’instance de création envoie le message à toutes les instances de publication. Cependant, seul un message unique doit être relayé au périphérique. Pour garantir un message correct, une communication doit avoir lieu entre les instances de publication. This is achieved using *Apache ActiveMQ Artemis*. Chaque instance de publication est placée dans une topologie à liaison souple à l’aide du service de découverte Sling basé sur Oak et ActiveMQ est configuré de sorte que chaque instance de publication puisse communiquer et créer une file d’attente de messages unique. Le périphérique Screens interroge la batterie de publication via l’équilibreur de charge et sélectionne la commande qui se trouve au sommet de la file.
 
 ### Réplication inverse {#reverse-replication}
 
 Dans de nombreux cas, après une commande, on attend un certain type de réponse de la part du périphérique Screens, qui sera transmise à l’instance de création. Pour ce faire, on a recours à la ***réplication inverse*** AEM.
 
 * Créez un agent de réplication inverse pour chaque instance de publication, semblable aux agents de réplication standard et aux agents de réplication Screens.
-* Une configuration de lanceur de processus écoute les nœuds modifiés sur l’instance de publication et déclenche à son tour un processus pour placer la réponse du périphérique dans la boîte d’envoi de l’instance de publication.
+* Une configuration du lanceur de processus surveille les noeuds modifiés sur l’instance de publication et déclenche à son tour un processus pour placer la réponse du périphérique dans la boîte d’envoi de l’instance de publication.
 * Dans ce contexte, une réplication inverse n’est utilisée que pour les données binaires (fichiers journaux et captures d’écran, par exemple) fournies par les périphériques. Les données non binaires sont récupérées par interrogation.
 * La réplication inverse interrogée à partir de l’instance de création AEM récupère la réponse et l’enregistre dans l’instance d’auteur.
 
@@ -93,7 +96,7 @@ Dans de nombreux cas, après une commande, on attend un certain type de réponse
 
 L’instance de création doit pouvoir interroger les périphériques pour obtenir une pulsation et connaître l’état d’intégrité d’un périphérique connecté.
 
-Les périphériques envoient un ping à l’équilibreur de charge et sont routés vers une instance de publication. L’état du périphérique est ensuite révélé par l’instance de publication via une API de publication diffusée à l’adresse **api/screens-dcc/devices/stati** pour tous les périphériques actifs et **api/screens-dcc/devices/&lt;id_périphérique&gt;/status.json** pour un périphérique unique.
+Les périphériques envoient un ping à l’équilibreur de charge et sont routés vers une instance de publication. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/static** for all active devices and **api/screens-dcc/devices/&lt;device_id>/status.json** for a single device.
 
 L’instance de création interroge toutes les instances de publication et fusionne les réponses d’état du périphérique en un seul état. La tâche planifiée qui interroge l’auteur est `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` et peut être configurée en se basant sur une expression cron.
 
@@ -101,7 +104,7 @@ L’instance de création interroge toutes les instances de publication et fusio
 
 L’enregistrement continue d’être généré sur l’instance de création AEM. Le périphérique d’AEM Screens pointe vers l’instance de création et l’enregistrement est terminé.
 
-Une fois qu’un périphérique a été enregistré dans l’environnement de création, la configuration du périphérique et les affectations de canal/planification sont répliquées dans les instances de publication AEM. La configuration du périphérique AEM Screens est ensuite mise à jour afin de pointer vers l’équilibreur de charge situé en amont de la batterie de publication AEM. Il s’agit d’une configuration unique. Une fois que le périphérique Screens est connecté à l’environnement de publication, il peut continuer à recevoir des commandes provenant de l’environnement de création et il n’est pas nécessaire de connecter directement le périphérique Screens à l’environnement de création.
+Une fois qu’un périphérique a été enregistré dans l’environnement de création, la configuration du périphérique et les affectations de canal/planification sont répliquées dans les instances de publication AEM. La configuration du périphérique AEM Screens est ensuite mise à jour afin de pointer vers l’équilibreur de charge situé en amont de la batterie de publication AEM. Il s’agit d’une configuration unique. Une fois que le périphérique d’écran est connecté à l’environnement de publication, il peut continuer à recevoir des commandes provenant de l’environnement d’auteur et il ne doit plus être nécessaire de connecter directement le périphérique d’écran à l’environnement d’auteur.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
