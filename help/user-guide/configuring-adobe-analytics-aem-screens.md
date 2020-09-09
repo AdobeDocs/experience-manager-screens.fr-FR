@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -208,7 +208,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>URL de la propriété web ou du schéma mobile - Doit inclure une URL complète</td> 
+   <td>URL de la propriété web ou du schéma mobile - doit inclure une URL complète</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -268,7 +268,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td> </td> 
    <td>Périphérique</td> 
    <td>source.device</td> 
-   <td>requis, avec des exceptions</td> 
+   <td>requis avec exceptions</td> 
    <td>chaîne</td> 
    <td> </td> 
    <td>Nom du lecteur</td> 
@@ -277,7 +277,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td> </td> 
    <td>Version du SE</td> 
    <td>source.os_version</td> 
-   <td>requis, avec des exceptions</td> 
+   <td>requis avec exceptions</td> 
    <td>chaîne</td> 
    <td> </td> 
    <td>Version du S/E</td> 
