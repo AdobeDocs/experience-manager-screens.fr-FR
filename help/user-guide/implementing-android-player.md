@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 89%
+source-wordcount: '768'
+ht-degree: 90%
 
 ---
 
@@ -40,12 +40,12 @@ Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de
 
 Suivez les étapes ci-dessous :
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. Accédez à **Configuration de la console Web Adobe
+Experience Manager**.en utilisant `http://localhost:4502/system/console/configMgr`.
 
-1. Recherchez *Adobe Granite Token Authentication Handler*.
+1. Recherchez le *gestionnaire d’authentification de jeton Adobe Granite*.
 
-1. Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun**.
+1. Définissez **l’attribut SameSite des cookies de jeton de connexion** de **Relâché** à **Aucun**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Cliquez sur **Enregistrer**.
@@ -60,7 +60,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 
-1. Accédez au lien **Enregistrement** **des périphériques** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement du périphérique.
+1. Accédez au lien **Device** **Registration** (Enregistrement de l’appareil) depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 
 >[!NOTE]
 >
@@ -72,9 +72,9 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
 
-### Signature de fichiers apk Android à l’aide des clés du fabricant       {#signage-of-android-apks-using-manufacturer-keys}
+### Signature de fichiers apk Android à l’aide des clés du fabricant        {#signage-of-android-apks-using-manufacturer-keys}
 
-Pour accéder à certaines des API privilégiées d’Android telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le fichier apk Android à l’aide des clés du fabricant.
+To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
 
 >[!CAUTION]
 >
