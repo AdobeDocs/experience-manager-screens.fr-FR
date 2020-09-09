@@ -3,10 +3,10 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 54%
+source-wordcount: '1320'
+ht-degree: 53%
 
 ---
 
@@ -187,7 +187,7 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
 Vous devez enregistrer votre périphérique à l’aide du tableau de bord AEM. 
 
 >[!IMPORTANT]
->Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome réel. Pour l’installer, procédez comme suit :
+>Le lecteur Chrome OS peut être installé en tant que module externe Chrome Browser en mode développeur sans nécessiter de périphérique de lecteur chrome réel. Pour l’installer, procédez comme suit :
 >
 >1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 >1. Décompressez et enregistrez le fichier d’installation sur le disque.
@@ -199,7 +199,7 @@ Vous devez enregistrer votre périphérique à l’aide du tableau de bord AEM.
 >1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
 
 
-Une fois que votre lecteur ChromeOS est activé, suivez les étapes ci-dessous pour enregistrer un périphérique Chrome.
+Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous pour enregistrer un périphérique Chrome.
 
 1. Accédez au dossier **Devices** de votre projet à partir de votre instance AEM.
 
@@ -242,7 +242,7 @@ Une fois que votre lecteur ChromeOS est activé, suivez les étapes ci-dessous p
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
-Tous les fichiers de votre canal sont en cours de lecture sur votre périphérique Chrome.
+Tous les fichiers de votre canal sont en cours de lecture sur votre lecteur Chrome OS.
 
 Félicitations, vous jouez maintenant du contenu dans un canal AEM Screens !
 
