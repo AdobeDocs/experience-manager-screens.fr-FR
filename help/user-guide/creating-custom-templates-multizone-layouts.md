@@ -4,11 +4,11 @@ seo-title: Création de modèles personnalisés dans des dispositions multizones
 description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: ht
-source-wordcount: '948'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '947'
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Appliquez la procédure suivante pour créer une disposition Left20-LandscapeHD3
 
 1. Accédez à `/apps/settings/wcm/designs/custom-template-designs` et créez un fichier static.css.
 
-1. Copiez le contenu dans le fichier static.css :
+1. Copy the content to `static.css` file:
 
    ```shell
        /*my-custom-layout styles*/
