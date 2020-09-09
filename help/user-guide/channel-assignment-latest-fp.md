@@ -3,10 +3,10 @@ title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
 description: Suivez cette page pour en savoir plus sur l'affectation des Canaux et le partage de journée.
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
->Cette section décrit l&#39;affectation et la planification des canaux pour AEM 6.5.5 Screens Feature Pack et versions ultérieures.
+>Cette section décrit l’attribution et la planification des canaux pour le Feature Pack Screens AEM 6.5.5 et versions ultérieures.
 
 Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
 
@@ -55,7 +55,7 @@ Pour configurer un projet et un canal, procédez comme suit :
 
 ### Attribution d’un canal à un affichage {#assigning-channel-to-display}
 
-Une fois le projet configuré, vous devez affecter le canal à un affichage pour la vue du contenu.
+Une fois le projet configuré, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
 1. Accédez à l’affichage requis, par exemple, **DemoScreens** --> **Emplacements** --> **SanJose** --> **Lobby**.
 
@@ -65,7 +65,7 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
 
    Ou,
 
-   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
+   Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,18 +73,18 @@ Une fois le projet configuré, vous devez affecter le canal à un affichage pour
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. De plus, vous pouvez activer l&#39;info-bulle d&#39;attraction à partir de cette boîte de dialogue.
+1. L’option **Paramètres** permet de choisir le canal **par chemin** ou **par nom**, et d’entrer le **rôle du canal**, la **priorité**, les **événements pris en charge** et les **méthodes d’interruption**. De plus, vous pouvez activer l’info-bulle d’attraction à partir de cette boîte de dialogue.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
 
-1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
+1. Dans l’option **Planification**, sélectionnez la **fenêtre d’activation** et le **planning de périodicité**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
@@ -98,11 +98,11 @@ Vous allez afficher la sortie suivante sur le lecteur choisi :
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## Mode Chronologie {#timeline-view}
 
-Une fois que vous avez affecté un canal à un affichage et que vous avez configuré un calendrier de répétition, vous pouvez vue le calendrier à partir du panneau CANAUX et calendriers **AFFECTÉS** .
+Une fois un canal attribué à un affichage et un planning de périodicité configuré, vous pouvez afficher la chronologie à partir du panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
-Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
+Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie :
 
 1. Accédez à l’affichage requis, par exemple, **DemoScreens** --> **Emplacements** --> **SanJose** --> **Lobby**.
 
@@ -110,11 +110,11 @@ Suivez les étapes ci-dessous pour accéder à la vue de chronologie :
 
    Ou,
 
-   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
+   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **Chronologie** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## Présentation des propriétés des canaux à l’aide de la boîte de dialogue Attribution des canaux {#channel-properties}
 
 Les propriétés suivantes sont définies à partir de l’option **Paramètres** de la boîte de dialogue **Attribution de canaux**.
 
@@ -149,7 +149,6 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 ### Méthode d’interruption {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un canal est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, tout en ayant la possibilité de lire intégralement le contenu important avant de l’interrompre en raison de la planification.
@@ -201,11 +200,11 @@ Les exemples suivants présentent les tranches horaires dans les canaux selon tr
 
 Cet exemple montre comment un restaurant utilise DayParting pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
 
-Ici, nous divisons chaque jour en différents créneaux horaires, de sorte que le contenu du canal soit lu selon l’heure spécifiée de la journée. Définissez les propriétés suivantes du calendrier de répétition pour votre canal afin de lire le contenu selon ce cas d’utilisation.
+Nous diviserons chaque jour en différentes tranches horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure. Définissez les propriétés suivantes du planning de périodicité pour que votre canal lise le contenu conformément à ce cas d’utilisation.
 
 | **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
-| Petit déjeuner | Quotidiennement | 6 h | 11 h |
+| Petit-déjeuner | Quotidiennement | 6 h | 11 h |
 | Déjeuner | Quotidiennement | 11 h | 15 h |
 | Dîner | Quotidiennement | 15 h | 20 h |
 
@@ -215,8 +214,8 @@ Cet exemple montre le partage de journée mis en oeuvre dans un casino où le é
 
 | **Nom** | **Répète** | **Début** | **Fin** |
 |---|---|---|---|
-| Weekend | Hebdomadaire : Samedi, Dimanche | 20 h | 22:00 |
-| Spécialités | Quotidien : Lundi-vendredi | 22:00 | 1 h |
+| Week-end | Hebdomadairement : Samedi, Dimanche | 20 h | 22 h |
+| Plats du jour | Quotidiennement : Lundi-Vendredi | 22 h | 1 h |
 
 >[!NOTE]
 >
