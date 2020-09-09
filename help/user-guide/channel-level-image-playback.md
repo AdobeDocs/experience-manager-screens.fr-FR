@@ -10,13 +10,16 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
 
 
-# Durée de lecture d’images en bloc d’un canal{#channel-level-bulk-image-playback-duration}
+# Durée de lecture d’images en bloc d’un canal {#channel-level-bulk-image-playback-duration}
 
 ## Présentation {#overview}
 
@@ -26,11 +29,11 @@ Une fois que vous avez créé un canal de séquence et que vous y avez ajouté d
 
 Avant de commencer à implémenter cette fonctionnalité, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
-1. Créer un projet AEM Screens (en l’occurrence, **ChannelLevelPlayback**)
+1. Create an AEM Screens project example, **ChannelLevelPlayback**.
 
-1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux**
+1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux.**
 
-1. Ajouter un contenu à **PlaybackChannel**
+1. Ajouter un contenu à **PlaybackChannel**.
 
 ## Modification de l’attribution d’une durée de lecture des images d’un canal {#editing-channel-level-image-playback-duration-assignment}
 
@@ -59,7 +62,6 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 1. **La boîte de dialogue Page** s’ouvre.
 
    >[!NOTE]
-   >
    >Par défaut, les images d’un canal sont définies sur une durée de lecture de 8 secondes.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
