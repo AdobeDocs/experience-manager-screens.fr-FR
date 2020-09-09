@@ -2,11 +2,11 @@
 title: Attribution de canaux
 seo-title: Attribution de canaux
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-translation-type: ht
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution des canaux**.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -105,7 +105,7 @@ Cette fonctionnalité consiste à fractionner une journée en tranches horaires 
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher le menu du petit déjeuner, du déjeuner et du dîner.
 
