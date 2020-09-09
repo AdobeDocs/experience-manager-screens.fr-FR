@@ -3,9 +3,9 @@ title: 'Configuration d’un workflow de placement direct '
 seo-title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
 seo-description: Cette page décrit la configuration d’un workflow de placement direct.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -43,4 +43,3 @@ Suivez les étapes ci-dessous pour configurer le workflow de placement direct :
 
 1. Créez un canal appelé **Workflow-Ressources** dans le dossier **Canaux**.
 
-1. 
