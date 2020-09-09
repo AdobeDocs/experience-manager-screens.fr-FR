@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-translation-type: ht
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +52,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 1. Sélectionnez le mode **Conception**.
 1. Sélectionnez l’éditeur de conception complet à droite et cliquez sur le symbole de paramètres pour ouvrir la boîte de dialogue **Conception ParSys**.
-1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant illustre l’ajout du composant **Livefyre** à un projet AEM Screens.
+1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -73,10 +76,10 @@ Le composant Application présente les propriétés suivantes :
 
 | **Propriété** | **Description** |
 |---|---|
-| ***Chemin de l’application *** | Sélectionnez le chemin absolu où se trouve l’application. |
+| ***Chemin de l’application*** | Sélectionnez le chemin absolu où se trouve l’application. |
 | ***Durée (ms)*** | Sélectionnez la durée de l’application. Par défaut, la durée est définie sur -1, ce qui signifie que l’élément s’exécute indéfiniment (il s’agit par conséquent d’une application sur une seule page). Si vous définissez une valeur supérieure à 0 pour la durée, l’élément s’affiche pendant la durée spécifiée avant que l’élément suivant n’apparaisse. |
 
-L’exemple suivant illustre la manière dont un composant d’application doit être incorporé avec l’aperçu de ses propriétés :
+L’exemple suivant montre comment incorporer un composant d’application avec la prévisualisation de ses propriétés :
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -201,15 +204,15 @@ Pour en savoir plus sur la création d’un fragment d’expérience et son util
 | **Propriété** | **Description** |
 |---|---|
 | **Fragment d’expérience** |
-| ***Fragment d’expérience *** | Sélectionnez le fragment d’expérience. |
-| ***Durée *** | Sélectionnez la durée complète du fragment d’expérience lu dans le canal. |
+| ***Fragment d’expérience*** | Sélectionnez le fragment d’expérience. |
+| ***Durée*** | Sélectionnez la durée complète du fragment d’expérience lu dans le canal. |
 | **Configuration hors ligne** |
-| ***Bibliothèques côté client *** | Fichiers JavaScript et CSS. |
-| ***Fichiers statiques *** | Fichiers statiques que vous pouvez ajouter en tant que configurations hors ligne au fragment d’expérience. |
+| ***Bibliothèques côté client*** | Fichiers JavaScript et CSS. |
+| ***Fichiers statiques*** | Fichiers statiques que vous pouvez ajouter en tant que configurations hors ligne au fragment d’expérience. |
 
 >[!NOTE]
 >
->Les **bibliothèques côté client** et les **fichiers statiques** que vous ajoutez depuis ce composant viennent s’ajouter aux **bibliothèques côté client** déjà configurées et aux fichiers statiques ajoutés à partir des **propriétés** du fragment d’expérience.
+>The **Client-side Libraries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libraries** and the Static Files that are added from the experience fragment&#39;s **Properties**.
 
 ### Image {#image}
 
@@ -220,15 +223,15 @@ La ressource image présente trois onglets, à savoir **Image**, **Accessibilit�
 | **Propriété** | **Description** |
 |---|---|
 | **Image** |
-| ***Ressource image *** | Sélectionnez la ressource image. |
-| ***Titre *** | Titre de l’image. |
-| ***Lier à&#x200B;*** | Ajoutez un lien vers l’image. |
-| ***Description *** | Brève description de l’image. |
-| ***Taille *** | Taille de l’image. |
+| ***Ressource image*** | Sélectionnez la ressource image. |
+| ***Titre*** | Titre de l’image. |
+| ***Lier à*** | Ajoutez un lien vers l’image. |
+| ***Description*** | Brève description de l’image. |
+| ***Taille*** | Taille de l’image. |
 | **Accessibilité** |
-| ***Texte de remplacement *** | Texte de remplacement de l’image. |
+| ***Texte de remplacement*** | Texte de remplacement de l’image. |
 | **Séquence** |
-| ***Durée *** | Par défaut, la Durée est définie sur *8000 ms*. Si vous souhaitez modifier la durée de lecture de l’image, mettez à jour le champ **Durée**. |
+| ***Durée*** | Par défaut, la Durée est définie sur *8000 ms*. Si vous souhaitez modifier la durée de lecture de l’image, mettez à jour le champ **Durée**. |
 
 ### Transition {#transition}
 
