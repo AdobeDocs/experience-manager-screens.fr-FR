@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: ht
-source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +59,7 @@ L’exemple suivant fournit une solution en se concentrant sur les termes clés 
 
 >[!NOTE]
 >
->Pour en savoir plus sur l’attribution des canaux, voir **[Attribution des canaux](channel-assignment.md)**dans la section Création de la documentation relative à AEM Screens.
+>Pour en savoir plus sur l’attribution des canaux, voir **[Attribution des canaux](channel-assignment.md)** dans la section Création de la documentation relative à AEM Screens.
 
 ## Utilisation d’une séquence incorporée dynamique {#using-dynamic-embedded-sequence-2}
 
@@ -87,6 +90,7 @@ Vous pouvez télécharger les ressources suivantes (images et les ajouter aux re
 >
 >* **[Création et gestion des projets](creating-a-screens-project.md)**
 >* **[Gestion d’un canal](managing-channels.md)**
+
 >
 
 
@@ -116,15 +120,15 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Pour savoir comment créer un emplacement, reportez-vous à **[Création et gestion des emplacements](managing-locations.md)**.
 
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
 
    1. Accédez à **Demo** —> **Emplacements** —> **Région A**.
    1. Sélectionnez **Région A**, puis cliquez sur **+ Créer** dans la barre d’actions.
-   1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
-   1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et **Nom** **région **pour ce canal.
+   1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. You can leave the **Name** field empty while creating **Store 1** and **Store 2**.
+   1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Enter the **Title** as **Region A** and **Name** as **region** for this channel.
+
    >[!CAUTION]
    >
    >Lors de la création du canal **Région A**, veillez à saisir le **Titre** **Région A** et le **Nom** **région**.
@@ -145,10 +149,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Sélectionnez **Région 1** puis cliquez sur **+Créer** dans la barre d’actions.
    1. Sélectionnez **Affichage** dans l’assistant et créez l’affichage **AffichageMagasin1.**
    1. Répétez l’étape (b) et sélectionnez cette fois **Canal de séquence** dans l’assistant. Saisissez le **Titre** **CanalMagasin1** et le **Nom** **magasin.**
+
    >[!CAUTION]
    >
    >Lorsque vous créez un canal de séquence, vous pouvez choisir librement le **titre** du canal, mais le **Nom** doit être identique dans tous les canaux locaux.
-   >
    >Dans cet exemple, les canaux de la **Région A** et de la **Région B** partagent le même **Nom** que la **région** et les canaux du **Magasin 1**, **Magasin 2**, **Magasin 3** et **Magasin4** partagent le même **Nom**, à savoir **magasin**.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -156,7 +160,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    De même, créez un affichage **AffichageMagasin2** et un canal **CanalMagasin2** sous **Magasin 2** (avec le nom **magasin**).
 
    >[!NOTE]
-   >
    >Veillez à utiliser le même nom pour les canaux créés dans **Magasin 1** et **Magasin 2**, à savoir **magasin**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -176,7 +179,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal. 
 
    >[!NOTE]
-   >
    >Vous pouvez utiliser le fichier ***Resources.zip*** de la section **Ressources** ci-dessus pour utiliser les images comme ressources pour le contenu de votre canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -209,6 +211,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Définissez le **rôle du canal** sur **GlobalAdSegment**.
    1. Sélectionnez les **Événements pris en charge** **Chargement initial**, **écran d’inactivité** et **Interaction utilisateur**.
    1. Cliquez sur **Enregistrer**.
+
    **Attribution d’un canal par rôle pour la région :**
 
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
@@ -216,6 +219,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Saisissez comme **Nom du canal** **région***.
    1. Définissez le **rôle du canal** sur **RegionAdSegment**.
    1. Cliquez sur **Enregistrer**.
+
    **Attribution d’un canal par rôle pour le magasin :**
 
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
@@ -223,6 +227,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Saisissez le **Nom du canal** **magasin**.
    1. Définissez le **Rôle du canal** sur **StoreAdSegment**.
    1. Cliquez sur **Enregistrer**.
+
    L’image suivante montre les canaux attribués par chemin et par rôle.
 
    ![screen_shot_2018-09-12at21429pm](assets/screen_shot_2018-09-12at21429pm.png)
@@ -312,6 +317,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Cliquez sur **Outils** --> **Sécurité** --> **Groupes**.
    1. Cliquez sur **Créer un groupe** et saisissez **Global-Auteur** dans **ID**.
    1. Cliquez sur **Enregistrer et fermer**.
+
    De même, créez deux autres groupes comme **Région-Auteur** et **Magasin-Auteur**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
@@ -324,10 +330,10 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Saisissez le **mot de passe** et confirmez le mot de passe de cet utilisateur.
    1. Cliquez sur l’onglet **Groupes** et saisissez le nom du groupe dans **Sélectionner un groupe**, par exemple, saisissez **Global-Auteur** pour ajouter **Global-Utilisateur** à ce groupe spécifique.
    1. Cliquez sur **Enregistrer et fermer**.
+
    De même, créez deux autres utilisateurs, comme **Région-Utilisateur** et **Magasin-Utilisateur**, puis ajoutez-les à **Région-Auteur** et à **Magasin-Auteur** respectivement.
 
    >[!NOTE]
-   >
    >Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
@@ -345,6 +351,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à l’*utilisateur admin* et utilisez cette interface utilisateur pour modifier les autorisations de différents groupes.
    1. Recherchez **Global-Auteur** et cliquez sur l’onglet **Autorisations**, comme illustré dans la figure ci-dessous.
    1. De même, vous pouvez accéder aux autorisations pour **Région-Auteur** et **Magasin-Auteur**.
+
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **Modification des autorisations pour chaque groupe**
@@ -355,6 +362,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à ***/content/screens/demo*** et cochez toutes les autorisations
    1. Accédez à ***/content/screens/demo/locations*** et cochez toutes les autorisations
    1. Accédez à ***/content/screens/demo/locations/région-a*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
+
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -369,6 +377,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à ***/content/screens/demo/locations*** et cochez uniquement les autorisations de **Lecture**.
    1. Accédez à ***/content/screens/demo/channels*** et désélectionnez les autorisations pour le canal **Global**.
    1. Accédez à ***/content/screens/demo/locations***/***région-a*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **région-b**.
+
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
@@ -385,6 +394,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à ***/content/screens/demo/channels*** et désélectionnez les autorisations pour le canal **Global**.
    1. Accédez à ***/content/screens/demo/locations/région-a*** et cochez uniquement les autorisations de **Lecture**. De même, cochez uniquement les autorisations de **Lecture** pour la **région-b**.
    1. Accédez à ***/content/screens/demo/locations***/***/région-a /magasin-1*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **magasin-2,** magasin-3 et **magasin-4**.
+
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
