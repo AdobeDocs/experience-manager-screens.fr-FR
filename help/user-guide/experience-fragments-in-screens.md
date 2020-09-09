@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,6 @@ Un ***fragment d’expérience*** est un groupe d’un ou plusieurs composants c
 ## Utilisation de fragments d’expérience dans AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
 >L’exemple ci-dessous utilise **We.Retail** comme projet de démonstration : le fragment d’expérience issu d’une page **Sites** est appliqué à un projet AEM Screens.
 
 Par exemple, le workflow ci-après illustre l’utilisation de fragments d’expérience de We.Retail dans Sites. Vous pouvez choisir une page web et utiliser son contenu dans votre canal AEM Screens dans l’un de vos projets.
@@ -102,7 +101,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Sélectionnez le fragment **ScreensFragment depuis l’assistant **Créer une Live Copy**, puis cliquez sur **Suivant**.
+   c. Select the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
 
    
 d. Saisissez le **Titre** et le **Nom** **Screens**.
