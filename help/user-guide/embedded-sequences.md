@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -39,9 +39,7 @@ Vous avez la possibilité d’ajouter les composants suivants à votre canal de 
 Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence incorporée est un autre canal qui comprend des ressources telles que des images ou des vidéos. En ajoutant une séquence incorporée, l’utilisateur peut ajouter la séquence à un canal au niveau de ***Chemin du canal***.
 
 >[!NOTE]
->
 >***Chemin du canal*** définit une référence explicite au canal.
->
 >Pour en savoir plus sur *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans la section Création dans Screens.
 
 Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre canal :
@@ -101,7 +99,7 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 1. Sélectionnez le canal dans lequel vous voulez incorporer une séquence dynamique. Par exemple, **We.Retail en magasin** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir le canal en mode édition.
-1. Cliquez sur l’icône de composants sur la barre de gauche pour ajouter la séquence incorporée dynamique. Faites glisser et déposez la séquence **dynamique** **Incorporée **dans l’éditeur.
+1. Cliquez sur l’icône de composants sur la barre de gauche pour ajouter la séquence incorporée dynamique. Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
 
 1. Double-cliquez sur le composant **Séquence dynamique** **incorporée** pour ajouter la page à votre canal de séquence.
 
