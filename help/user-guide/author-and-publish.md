@@ -1,13 +1,13 @@
 ---
-title: Configuration de l’auteur et de la publication dans AEM Screens
+title: Configuration de l’auteur et de la publication dans AEM Screens
 seo-title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 98%
+source-wordcount: '1910'
+ht-degree: 91%
 
 ---
 
@@ -145,7 +145,7 @@ L’utilisateur de du cluster et le mot de passe de toutes les instances de publ
 
 Sur chaque instance de publication :
 
-1. Dans la console OSGi, accédez à **PRINCIPAL** —> **Prise en charge de Crypto** (*https://&lt;hôte>:&lt;port>/system/console/crypto*).
+1. Dans la console OSGi, accédez à **MAIN** —> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Saisissez le mot de passe en texte brut (identique pour toutes les instances) dans **Texte brut**
 1. Cliquez sur **Protéger**.
 1. Copiez la valeur **Texte protégé** dans le bloc-notes ou l’éditeur de texte. Cette valeur sera utilisée dans la configuration OSGi pour ActiveMQ.
@@ -161,7 +161,7 @@ Comme chaque instance de publication possède par défaut des clés de chiffreme
 
 Sur chaque instance de publication :
 
-1. Accédez au gestionnaire de configuration OSGi *https://&lt;hôte>:&lt;port>/system/console/configMgr*
+1. Navigate to the OSGi Config manager `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Sélectionnez la Configuration du **Fournisseur JMS Apache ActiveMQ Artemis**
 1. Mettez à jour les éléments suivants :
 
@@ -172,18 +172,18 @@ Sur chaque instance de publication :
 
 Suivez les étapes ci-dessous sur chaque instance de publication :
 
-1. Accédez à la Console OSGi -> Principal > ActiveMQ Artemis `[https://localhost:4505/system/console/mq`.
+1. Accédez à la Console OSGi -> Principal > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. Vérifiez et contrôlez afin d’afficher les ports des autres instances sous Informations sur le cluster > Topologie > nœuds=2, membres=2.
 1. Envoyez un message de test (en haut de l’écran sous Informations sur le courtier)
 1. Entrez les modifications suivantes dans les champs :
 
    1. **Destination** : /com.adobe.cq.screens/devTestTopic
    1. **Texte** : Hello World
-   1. Affichez le fichier error.log de chaque instance pour vérifier que le message a été envoyé et reçu par l’ensemble de du cluster.
+   1. Vue du fichier error.log de chaque instance pour vérifier que le message a été envoyé et reçu dans la grappe
 
 >[!NOTE]
 >
->La navigation vers la console OSGI peut prendre quelques secondes après l’enregistrement de la configuration à l’étape précédente. Vous pouvez également consulter le fichier error.log pour plus de détails.
+>La navigation vers la console OSGi peut prendre quelques secondes après l’enregistrement de la configuration à l’étape précédente. Vous pouvez également consulter le fichier error.log pour plus de détails.
 
 Par exemple, l’image suivante s’affiche lors d’une configuration réussie d’ActiveMQ Artemis Server.
 
@@ -201,7 +201,7 @@ Suivez les étapes de chaque instance de publication :
 
 ### Configuration des instances de création et de publication {#configuring-author-and-publish-instance}
 
-Une fois que vous aurez configuré la stratégie de publication, vous devez configurer les instances de création et de publication afin d’afficher les résultats concrets de l’implémentation :
+Une fois la topologie de publication configurée, vous devez configurer les instances d’auteur et de publication afin de vue les résultats pratiques de l’implémentation :
 
 >[!NOTE]
 >
@@ -224,12 +224,12 @@ Une fois que vous aurez configuré la stratégie de publication, vous devez conf
 1. Sélectionnez **Enregistrer le périphérique**.
 1. Cliquez sur **Enregistrement du périphérique** pour afficher le périphérique.
 1. Sélectionnez le périphérique que vous voulez enregistrer et cliquez ensuite sur **Enregistrer le périphérique**.
-1. Vérifiez le code d’enregistrement et cliquez sur **Valider**.
+1. Verify the registration code and click **Validate**.
 1. Saisissez un titre pour votre périphérique et cliquez sur **Enregistrer**.
 
 #### Étape 3 : attribution du périphérique à un affichage {#step-assigning-the-device-to-display}
 
-1. Cliquez sur **Attribuer l’affichage** dans la boîte de dialogue de l’étape précédente.
+1. Click **Assign Display** from the dialog box from the preceding step.
 1. Sélectionnez le chemin d’affichage de votre canal dans le dossier **Emplacements**.
 1. Cliquez sur **Attribuer**.
 1. Cliquez sur **Terminer** pour achever le processus. Le périphérique est désormais attribué.
@@ -240,7 +240,7 @@ Vérifiez votre lecteur et vous verrez le contenu que vous avez ajouté à votre
 
 **Vérification du périphérique**
 
-Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. Pour vérifier, recherchez l’identifiant du périphérique dans CRXDELite, en utilisant comme chemin d’accès */home/users/screens/we-retail/devices*.
+Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. To verify, search for the device id in CRXDE Lite, with the path as */home/users/screens/we-retail/devices*.
 
 Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
@@ -304,6 +304,6 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un des canaux, un des emplacements, un des périphériques, une des applications ou une des planifications. Pour en savoir plus sur cette fonction, voir la section [Mise à jour du contenu On-Demand](on-demand-content.md).
+La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacement, périphérique, application ou calendrier. Pour en savoir plus sur cette fonction, voir la section [Mise à jour du contenu On-Demand](on-demand-content.md).
 
 
