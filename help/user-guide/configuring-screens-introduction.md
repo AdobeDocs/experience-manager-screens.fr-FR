@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 92%
 
 ---
 
@@ -47,7 +47,7 @@ Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentie
    ![ressources](assets/health-check1.png)
 
 
-2. Cliquez sur **Execute selected health checks (Exécuter les contrôles d’intégrité sélectionnés)** pour exécuter la validation des deux propriétés répertoriées ci-dessus.
+2. Click on **Execute selected health checks** to run the validation for two properties listed above.
 
    Si les deux filtres sont activés, le **service d’intégrité de la configuration de Screens** affiche le **résultat** comme étant **OK** avec les deux configurations activées.
 
@@ -74,7 +74,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/empty-ref1.png)
 
-1. **La configuration de la console Web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
+1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
 
    Pour rechercher la propriété référent Sling, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
@@ -108,7 +108,7 @@ AEM Screens nécessite une IU TACTILE et ne fonctionne pas avec l’IU CLASSIQUE
 1. Accédez à *&lt;VotreInstanceAuteur>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Veillez à ce que le **mode d’UI de création par défaut** soit défini sur **TACTILE**, comme illustré dans la figure ci-dessous.
 
-Vous pouvez également appliquer le même paramètre à l’aide des outils *&lt;votreInstanceAuteur>*->*(icône en forme de marteau)* -> **Opérations** -> **Console Web** et rechercher le service **WCM Authoring UI Mode**.
+Alternatively, you can also perform the same setting using yourAuthorInstance *->* tools (hammer icon) -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ Vous pouvez également appliquer le même paramètre à l’aide des outils *&lt
 
 #### AEM en mode d’exécution NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-L’exécution d’AEM en production permet d’utiliser le mode d’exécution **NOSAMPLECONTENT**. Supprimez l’en-tête *X-Frame-Options=SAMEORIGIN* (dans la section de l’en-tête de réponse supplémentaire) de
+L’exécution d’AEM en production permet d’utiliser le mode d’exécution **NOSAMPLECONTENT**. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,13 +136,13 @@ Suivez les étapes ci-dessous pour configurer ***DeviceServiceImpl***:
 
 1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
 
-1. **La configuration de la console Web d’Adobe Experience Manager **s’ouvre. Recherchez deviceservice. Pour rechercher la propriété, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
+1. **La configuration de la console Web d’Adobe Experience Manager **s’ouvre. Search for *deviceservice*. Pour rechercher la propriété, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Configuration du dispatcher {#dispatcher-configuration}
+#### Configuration du Dispatcher {#dispatcher-configuration}
 
-Pour savoir comment configurer le dispatcher pour un projet AEM Screens, reportez-vous à la section [Configuration du dispatcher pour un projet AEM Screens](dispatcher-configurations-aem-screens.md).
+Pour savoir comment configurer le dispatcher pour un projet AEM Screens, reportez-vous à la section [Configuration du Dispatcher pour un projet AEM Screens](dispatcher-configurations-aem-screens.md).
 
 #### Encodage Java {#java-encoding}
 
