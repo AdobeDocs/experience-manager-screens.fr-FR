@@ -9,11 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: a60de02a19004dd4d971612496f65285ded55716
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 99%
 
 ---
 
@@ -61,6 +61,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![Packages Ui.Apps et Ui.Content Screens We.Retail Run installés via CRX Package Manager](assets/crx-packages.png)
 
    Packages Ui.Apps et Ui.Content Screens We.Retail Run installés via CRX Package Manager
@@ -84,6 +85,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/conf/we-retail-run`
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
+
    Ce paquet contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet We.Retail Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
 
 1. **Accédez au projet AEM Screens > We.Retail Run :**
@@ -98,7 +100,7 @@ Le composant Hello World est un composant simple qui permet à un utilisateur de
 
 AEM Screens présente des contraintes intéressantes qui ne sont pas nécessairement vraies pour les composants des sites WCM traditionnels.
 
-* La plupart des composants Screens doivent s’exécuter en mode plein écran sur les périphériques de signalétique numérique cible.
+* La plupart des composants Screens doivent s’exécuter en plein écran sur les périphériques de signalisation numérique de la cible.
 * La plupart des composants Screens doivent être incorporables dans les canaux de séquence pour générer des diaporamas.
 * La création doit permettre de modifier individuellement les composants d’un canal de séquence, de sorte que le rendu en mode plein écran est hors de question.
 
@@ -140,6 +142,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    1. **Production**: Mode Aperçu ou Publication (wcmmode=disabled)
    1. **Modifier** : utilisé pour tous les autres modes de création, c’est-à-dire éditer, concevoir, échafauder, développeur...
+
    `helloworld.html`fonctionne comme un commutateur, en vérifiant quel mode de création est actuellement actif et en redirigeant vers un autre script HTML. Une convention commune utilisée par les composants Screens consiste à utiliser un script `edit.html` pour le mode d’édition et un script `production.html` pour le mode de production.
 
 1. Sous `/apps/weretail-run/components/content/helloworld`, créez un fichier appelé `production.html.`
@@ -198,6 +201,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    1. Copiez la boîte de dialogue depuis : `/libs/screens/core/components/content/image/cq:dialog`
    1. Collez la boîte de dialogue sous `/apps/weretail-run/components/content/helloworld`
+
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
 1. **Mettre à jour la boîte de dialogue Hello World afin d’inclure un onglet pour le message.**
@@ -287,6 +291,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
    * `allowProxy` | Booléen | `true`
 
    * `categories`| Chaîne[] | `cq.screens.components`
+
    ![Propriétés de /apps/weretail-run/components/content/helloworld/clientlibs/shared](assets/2018-05-03_at_1026pm.png)
 
    Propriétés de /apps/weretail-run/components/content/helloworld/clientlibs/shared
@@ -407,6 +412,7 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 1. Cliquez sur le bouton **Créer**
 
    1. Choisir **Créer une entité**
+
    ![2018-04-30_at_5_18pm](assets/2018-04-30_at_5_18pm.png)
 
 1. Dans l’assistant de création :
@@ -416,6 +422,7 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
    1. Étape des propriétés
    * Onglet de base > Titre = **Canal inactif**
    * Onglet Canal > Cochez **Passer le canal en ligne**
+
    ![idle-channel](assets/idle-channel.gif)
 
 1. Ouvrez les propriétés de la page pour le canal inactif. Mettez à jour le champ Conception pour qu’il pointe vers `/apps/settings/wcm/designs/we-retail-run,`la page de conception créée dans la section précédente.
@@ -431,6 +438,7 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
    1. Cliquez sur l’icône en forme de **clé à molette** dans les paramètres pour configurer les composants autorisés.
 
    1. Sélectionnez le groupe **Screens** et le groupe **We Retail Run - Contenu**.
+
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
 1. Passez la page en mode **Modifier**. Le composant Hello World peut désormais être ajouté à la page et combiné avec d’autres composants de canal de séquence.
@@ -542,7 +550,7 @@ Le code ci-dessous indique les exigences minimales du fichier `pom.xml` pour ce 
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Code terminé {#finished-code}
 
