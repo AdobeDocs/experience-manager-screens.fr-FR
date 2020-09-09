@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +31,7 @@ Vous pouvez surveiller l’activité et ainsi résoudre les problèmes liés à 
 
 Suivez les étapes ci-dessous pour accéder au tableau de bord du périphérique :
 
-1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple, ***Projet de test *** >***Périphériques***.
+1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple, ***Projet de test*** > ***Périphériques***.
 
    Sélectionnez **Périphériques** et **Gestionnaire de périphériques** dans la barre d’actions.
 
@@ -80,7 +83,7 @@ Cliquez sur **Propriétés** pour afficher la boîte de dialogue **Propriétés 
 
 >[!NOTE]
 >
->Pour plus d’informations sur les événements liés aux mises à jour automatiques ou manuelles d’un périphérique, voir la section ***Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique ***dans[Gestion des canaux](managing-channels.md).
+>Pour plus d’informations sur les événements liés aux mises à jour automatiques ou manuelles d’un périphérique, voir la section ***Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique*** dans [Gestion des canaux](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
@@ -97,7 +100,6 @@ Cliquez sur les points de suspension (**…**) dans le coin supérieur droit du 
 Le panneau **PRÉFÉRENCES** permet à l’utilisateur de modifier les préférences de l’**interface utilisateur d’administration**, du **sélecteur de canal** et du **débogage à distance** pour le périphérique.
 
 >[!NOTE]
->
 >Pour plus d’informations sur ces options, voir [Lecteur AEM Screens](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -113,25 +115,21 @@ De plus, cliquez sur **Paramètres** dans le coin supérieur droit pour mettre �
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >Vous pouvez sélectionner l’un des niveaux de journal suivants :
->
 >* **Désactiver**
 >* **Déboguer**
 >* **Infos**
 >* **Avertissement**
 >* **Erreur**
->
-
 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Résolution des incidents des paramètres d’OSGi {#troubleshoot-osgi-settings}
+## Troubleshoot OSGi Settings {#troubleshoot-osgi-settings}
 
 Vous devez activer le référent vide pour autoriser le périphérique à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran.
 
-Actuellement, certaines de ces fonctions ne sont disponibles que si l’option *Allow Empty d’Apache Sling Referrer Filter* est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGi configuration. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
 
 Suivez les étapes ci-après pour activer Apache Sling Referrer Filter Allow Empty
 
