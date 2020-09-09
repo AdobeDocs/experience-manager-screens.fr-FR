@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 100%
 
@@ -107,7 +107,6 @@ Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 1. Sélectionnez **Vidéos** sous Ressources, puis faites glisser les vidéos choisies.
 
 >[!NOTE]
->
 >Si vous rencontrez des problèmes lors du transfert des vidéos vers votre canal, reportez-vous à la section [Dépannage des vidéos](troubleshoot-videos.md).
 
 ### Affichage des propriétés {#viewing-properties}
@@ -145,6 +144,7 @@ Vous pouvez afficher le manifeste à partir du tableau de bord des canaux.
 >Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Procédez comme suit pour activer cette option à partir du tableau de bord des canaux :
+
 1. **Définir le canal sur Hors ligne**
    1. Sélectionnez le canal et choisissez **Propriétés** dans la barre d’actions.
    1. Accédez à l’onglet **Canal** et assurez-vous de désélectionner l’option **Mode développeur (forcer le canal à être en ligne)**.
