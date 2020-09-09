@@ -10,8 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 91%
 
 ---
 
@@ -56,11 +59,11 @@ Suivez les étapes ci-dessous pour créer et utiliser le processus :
 
 Suivez les étapes ci-dessous pour créer un processus pour votre vidéo:
 
-1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionnez **Processus** —&gt; **Modèles** pour créer un nouveau modèle.
+1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionnez **Processus** —> **Modèles** pour créer un nouveau modèle.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Cliquez sur **Modèles** —&gt; **Créer** —&gt; **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus.** Cliquez sur **Terminé** pour ajouter le modèle de processus.
+1. Cliquez sur **Modèles** —> **Créer** —> **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus.** Cliquez sur **Terminé** pour ajouter le modèle de processus.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -68,7 +71,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Faites glisser et déposez le composant **Ligne de commande **dans votre processus.
+1. Drag and drop the **Command Line** component to your workflow.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -78,17 +81,17 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo:
 
 1. Sélectionnez l’onglet **Arguments** pour renseigner les champs dans la boîte de dialogue **Ligne de commande - Propriétés des étapes**.
 
-   Saisissez le format dans les **Types Mime** (***vidéo/mp4***) et la commande (**/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hd .mp4***) pour démarrer le processus dans le champ **Commandes** .
+   Saisissez le format dans les **Types Mime** (***vidéo/mp4***) et la commande (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hd .mp4***) pour démarrer le processus dans le champ **Commandes** .
 
    Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Sélectionnez le processus (**VideoRenditions**) et cliquez sur **Démarrer le processus** dans la barre d’actions pour ouvrir la boîte de dialogue **Exécuter le processus** .
+1. Select the workflow (**VideoRenditions**) and click **Start Workflow** from the action bar to open the **Run Workflow** dialog box.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Sélectionnez le chemin d’accès de votre fichier dans la **charge utile** (***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***), saisissez le **Titre **(***RunVideo***) et cliquez sur **Exécuter.**
+1. Select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and click **Run**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -96,7 +99,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo:
 
 Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM Screens :
 
-1. Accédez à un projet AEM Screens (**TestVideoRendition** —&gt; **Canaux** —&gt;**VideoRendition**).
+1. Accédez à un projet AEM Screens (**TestVideoRendition** —> **Canaux** —>**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
