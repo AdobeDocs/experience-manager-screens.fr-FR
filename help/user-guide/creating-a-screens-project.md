@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +25,7 @@ Vous pouvez accéder à AEM Screens en sélectionnant le lien Adobe Experience
 Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`
 ![chlimage_1-14](assets/chlimage_1-14.png)
 
-Chaque projet peut être associé à une marque, un déploiement, un client, etc.
+Différents projets peuvent être des marques, des déploiements, des clients, etc. différents.
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -30,14 +33,14 @@ Chaque projet peut être associé à une marque, un déploiement, un client, etc
 >
 >**Conseil de navigation :**
 >
->Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, lorsque vous avez sélectionné une entité, vous pouvez appuyer sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
+>Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. De plus, une fois que vous avez sélectionné une entité particulière, cliquez sur la barre d’espace pour modifier ou vue les propriétés de ce dossier spécifique.
 
 ## Création d’un projet Screens    {#creating-a-new-screens-project}
 
 Suivez les étapes ci-dessous pour créer un projet Screens :
 
 1. Sélectionnez **Screens** dans le tableau de bord AEM.
-1. Cliquez sur  *Créer **--&gt;** Créer un projet**. L’assistant **Créer un projet Screens** s’ouvre alors.
+1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
 
 1. Sélectionnez le modèle **Screens**, puis cliquez sur **Suivant**.
 
