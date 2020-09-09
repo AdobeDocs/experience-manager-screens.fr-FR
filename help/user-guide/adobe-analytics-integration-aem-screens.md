@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -75,7 +75,7 @@ Accédez à **Configuration de la console Web Adobe Experience Manager** pour co
 
 >[!CAUTION]
 >
->Avant de configurer les propriétés, contactez le responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
+>Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
 ![]()
 
@@ -83,7 +83,7 @@ Accédez à **Configuration de la console Web Adobe Experience Manager** pour co
 
 >[!CAUTION]
 >
->Avant de configurer les propriétés, contactez le responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
+>Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
 Le tableau suivant répertorie et décrit les propriétés permettant de configurer Adobe Analytics pour AEM Screens :
 
@@ -123,7 +123,7 @@ Le tableau suivant répertorie et décrit les propriétés permettant de configu
 
 #### Utilisation d’Adobe Analytics Service dans AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Ce scénario appelle l’API Analytics en lançant des appels REST depuis un service d’analyse des principaux composants Screens de microprogramme et d’instrument pour créer et envoyer explicitement des événements propres à un cas d’utilisation donné, tout en autorisant l’extensibilité si un message personnalisé peut être envoyé à Analytics depuis un canal développé et personnalisé.
+Ce scénario appelle l’API Analytics par le biais d’appels REST d’un service d’analyse dans les composants de base du micrologiciel et des écrans d’instruments afin de créer et d’envoyer explicitement des événements spécifiques à un cas d’utilisation particulier tout en autorisant l’extensibilité où tout message personnalisé peut être envoyé à Analytics à partir d’un canal développé personnalisé.
 
 Les événements Analytics sont stockés hors ligne dans indexedDB, puis segmentés et envoyés ultérieurement vers le cloud.
 
