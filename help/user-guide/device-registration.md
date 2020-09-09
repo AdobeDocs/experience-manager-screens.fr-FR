@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,8 @@ Le processus d’enregistrement des périphériques est effectué sur 2 machine
 >
 >1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur le lien **Enregistrement** dans le menu d’action de gauche et sur les étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+>1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+
 >
 
 
