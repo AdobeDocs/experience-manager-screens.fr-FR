@@ -2,9 +2,9 @@
 title: Création avec des triggers de données
 seo-title: Création avec des triggers de données
 description: Consultez cette page pour apprendre à créer avec des triggers de données.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Une fois les étapes précédentes terminées, vous êtes prêt à activer le ci
 
 ## Présentation de la création avec des triggers de données {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Activation du ciblage dans un canal AEM Screens {#enabling-targeting}
 
@@ -80,4 +80,3 @@ Après avoir configuré ContextHub pour votre projet AEM Screens, vous pouvez su
 1. **[Activation ciblée du stock de vente au détail](retail-inventory-activation.md)**
 1. **[Activation de la température de l’agence de voyages](local-temperature-activation.md)**
 1. **[Activation de la réservation d’hébergements](hospitality-reservation-activation.md)**
-
