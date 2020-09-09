@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +29,7 @@ Pour ce cas d’utilisation, si la valeur de votre feuille de calcul Google Shee
 
 ## Conditions préalables {#preconditions}
 
-Avant de commencer à mettre en œuvre l’activation de la température locale de l’agence de voyages, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’ ***activation du ciblage des canaux*** dans un projet AEM Screens.
+Before you start implementing the travel center local temperature activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
@@ -38,6 +41,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. Accédez à la feuille de calcul Google appelée ContextHubDemo.
    1. Ajoutez une colonne **Heading1** avec la valeur de température correspondante.
+
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **Configuration des segments dans les audiences selon les besoins**
@@ -49,16 +53,16 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
    1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
 
-   1. Sélectionnez l’**opérateur** **supérieur ou égal à **dans le menu déroulant.
+   1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
 
    1. Saisissez la **valeur** **50**
 
-   1. De même, sélectionnez les feuilles ** Sheets A1 2 **et cliquez sur **Modifier**.
+   1. De même, sélectionnez les feuilles **Sheets A1 2** et cliquez sur **Modifier**.
 
    1. Sélectionnez la **propriété Comparaison - Valeur** et cliquez sur l’icône Configurer pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
 
-   1. Sélectionnez l’**opérateur** **inférieur à **dans le menu déroulant.
+   1. Sélectionnez l’**Opérateur** **inférieur à** (lower-than) dans le menu déroulant
 
    1. Saisissez la **valeur** **50**
 
@@ -72,7 +76,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    >[!CAUTION]
    >
-   >Vous devez avoir défini vos **configurations** ContextHub **à l’aide de l’onglet** Propriétés **du canal --&gt;** **Personnalisation.**
+   >Vous devez avoir défini vos **configurations** ContextHub **à l’aide de l’onglet** Propriétés **du canal -->** **Personnalisation.**
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -84,5 +88,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
    1. Définissez une valeur inférieure à 50. Vous devriez voir une image de boissons fraîches. Si la valeur dans la feuille de calcul Google est supérieure ou égale à 50, vous devriez voir une image de boisson chaude.
+
    ![result3](assets/result3.gif)
 
