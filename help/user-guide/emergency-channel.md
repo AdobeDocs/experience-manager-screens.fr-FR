@@ -9,8 +9,11 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-translation-type: ht
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,6 @@ Pour configurer un canal d’urgence, procédez comme suit :
 1. Créez un projet AEM Screens appelé **EmergencyChannel**, comme illustré ci-dessous.
 
    >[!NOTE]
-   >
    >Pour en savoir plus sur la création et la gestion de projets dans AEM Screens, voir Création d’un projet.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
@@ -51,12 +53,14 @@ Pour configurer un canal d’urgence, procédez comme suit :
    1. Sélectionnez le dossier **Channels** (Canaux), puis cliquez sur **Créer** pour ouvrir l’assistant afin de créer un canal.
 
    1. Sélectionnez **Canal de séquence** dans l’assistant et créez un canal appelé **MainAdChannel**.
+
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Ajout de contenu à un canal de séquence**
 
    1. Sélectionnez le canal (**MainAdChannel**).
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur. Faites glisser quelques ressources vers votre canal.
+
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Création d’un canal d’urgence**
@@ -64,6 +68,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
    1. Sélectionnez le dossier **Channels** (Canaux).
    1. Cliquez sur **Créer** pour ouvrir l’assistant et créer un canal.
    1. Sélectionnez **Canal de séquence** dans l’assistant et créez un canal appelé **EmergencyChannel**.
+
    >[!NOTE]
    >
    >Normalement, votre canal d’urgence est ajouté à votre projet de production préexistant.
@@ -74,12 +79,14 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Sélectionnez le canal (**Canal d’urgence)**.
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur. Faites glisser vers votre canal la ressource que vous souhaitez exécuter en cas d’urgence.
+
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Création d’un emplacement**
 
    1. Accédez au dossier **Locations** (Emplacements).
    1. Cliquez sur **Créer** à partir de la barre d’actions, puis créez un emplacement appelé **Boutique** à partir de l’assistant.
+
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Création d’affichages dans votre emplacement**
@@ -92,6 +99,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Accédez au dossier **Schedules** (Planifications).
    1. Cliquez sur **Créer** dans la barre d’actions. Suivez l’assistant pour créer une planification appelée **StoreSchedule**.
+
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Affectation des deux affichages à votre planification et définition de priorités
@@ -106,6 +114,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
       1. Définissez la **priorité** sur 2.
       1. Définissez les événements pris en charge **Chargement initial** et **Écran inactif**.
       1. Cliquez sur **Enregistrer**
+
       Vous devrez procéder de la même manière pour affecter **EmergencyChannel** et définir sa **Priorité**.
    >[!NOTE]
    >
@@ -123,6 +132,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
    1. Définissez les Événements pris en charge **Charge initiale**, **Écran inactif** et **Interaction utilisateur**
 
    1. Cliquez sur **Enregistrer**
+
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
    Vous pouvez afficher les canaux affectés à partir du tableau de bord **StoreSchedule**.
@@ -139,6 +149,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
    1. Sélectionnez le chemin d’accès à la planification (par exemple, ici, **EmergencyChannel** --> **Planifications** --> **StoreSchedule**).
 
    1. Cliquez sur **Enregistrer**.
+
    Vous pouvez afficher la planification affectée à l’affichage à partir du tableau de bord **StoreSchedule** .
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
