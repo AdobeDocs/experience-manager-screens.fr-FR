@@ -14,7 +14,7 @@ ht-degree: 93%
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
->Cette section décrit l’attribution et la planification des canaux pour le Feature Pack Screens AEM 6.5.5 et versions ultérieures.
+>Cette section décrit l’attribution et la planification des canaux pour le Feature Pack AEM Screens 6.5.5 et versions ultérieures.
 
 Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
 
@@ -73,7 +73,7 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. L’option **Paramètres** permet de choisir le canal **par chemin** ou **par nom**, et d’entrer le **rôle du canal**, la **priorité**, les **événements pris en charge** et les **méthodes d’interruption**. De plus, vous pouvez activer l’info-bulle d’attraction à partir de cette boîte de dialogue.
+1. L’option **Paramètres** permet de choisir le canal **par chemin** ou **par nom**, et d’entrer le **rôle du canal**, la **priorité**, les **événements pris en charge** ainsi que les **méthodes d’interruption**. De plus, vous pouvez activer l’info-bulle d’attraction à partir de cette boîte de dialogue.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -114,7 +114,7 @@ Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie 
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## Présentation des propriétés des canaux à l’aide de la boîte de dialogue Attribution des canaux {#channel-properties}
+## Présentation des propriétés des canaux figurant dans la boîte de dialogue Attribution des canaux {#channel-properties}
 
 Les propriétés suivantes sont définies à partir de l’option **Paramètres** de la boîte de dialogue **Attribution de canaux**.
 
@@ -202,20 +202,20 @@ Cet exemple montre comment un restaurant utilise DayParting pour présenter tous
 
 Nous diviserons chaque jour en différentes tranches horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure. Définissez les propriétés suivantes du planning de périodicité pour que votre canal lise le contenu conformément à ce cas d’utilisation.
 
-| **Nom** | **Répète** | **Début** | **Fin** |
+| **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Petit-déjeuner | Quotidiennement | 6 h | 11 h |
-| Déjeuner | Quotidiennement | 11 h | 15 h |
-| Dîner | Quotidiennement | 15 h | 20 h |
+| Petit déjeuner | Quotidienne | 6 h | 11 h |
+| Déjeuner | Quotidienne | 11 h | 15 h |
+| Dîner | Quotidienne | 15 h | 20 h |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
 Cet exemple montre le partage de journée mis en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h à 22h et où des spécialités sont disponibles pour le menu du dîner après 22h00 et 1h00.
 
-| **Nom** | **Répète** | **Début** | **Fin** |
+| **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Week-end | Hebdomadairement : Samedi, Dimanche | 20 h | 22 h |
-| Plats du jour | Quotidiennement : Lundi-Vendredi | 22 h | 1 h |
+| Week-end | Hebdomadaire : samedi et dimanche | 20 h | 22 h |
+| Plats du jour | Quotidien : du lundi au vendredi | 22 h | 1 h |
 
 >[!NOTE]
 >
