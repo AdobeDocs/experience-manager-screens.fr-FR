@@ -70,11 +70,11 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 #### Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
 
-1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
+1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
+1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
 
    Pour rechercher la propriété référent Sling, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
@@ -82,16 +82,16 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/empty-ref2.png)
 
-1. Cliquez sur **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+1. Cliquez sur **Save** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
 
 #### Service HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
+1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez le service HTTP Apache Felix Jetty.
+1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez le service HTTP Apache Felix Jetty.
 
    Pour rechercher cette propriété, appuyez sur **Command+F** (**Mac**) ou **Ctrl+F** (**Windows**).
 
@@ -134,15 +134,15 @@ Vous pouvez configurer ***DeviceServiceImpl*** à partir du lien ci-dessous pour
 
 Suivez les étapes ci-dessous pour configurer ***DeviceServiceImpl***:
 
-1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
+1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
 
-1. **La configuration de la console Web d’Adobe Experience Manager **s’ouvre. Search for *deviceservice*. Pour rechercher la propriété, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
+1. **Configuration de la console web d’Adobe Experience Manager **s’ouvre. Search for *deviceservice*. Pour rechercher la propriété, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Configuration du Dispatcher {#dispatcher-configuration}
 
-Pour savoir comment configurer le dispatcher pour un projet AEM Screens, reportez-vous à la section [Configuration du Dispatcher pour un projet AEM Screens](dispatcher-configurations-aem-screens.md).
+Pour savoir comment configurer le Dispatcher pour un projet AEM Screens, voir [Configuration du Dispatcher pour un projet AEM Screens](dispatcher-configurations-aem-screens.md).
 
 #### Encodage Java {#java-encoding}
 
