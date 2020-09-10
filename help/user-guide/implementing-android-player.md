@@ -40,15 +40,15 @@ Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de
 
 Suivez les étapes ci-dessous :
 
-1. Accédez à **Configuration de la console Web Adobe
-Experience Manager**.en utilisant `http://localhost:4502/system/console/configMgr`.
+1. Accédez à **Configuration de la console web Adobe
+Experience Manager** en utilisant `http://localhost:4502/system/console/configMgr`.
 
-1. Recherchez le *gestionnaire d’authentification de jeton Adobe Granite*.
+1. Recherchez *Adobe Granite Token Authentication Handler*.
 
-1. Définissez **l’attribut SameSite des cookies de jeton de connexion** de **Relâché** à **Aucun**.
+1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **Save**.
 
 
 ### Méthode ad hoc {#ad-hoc-method}
@@ -72,7 +72,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
 
-### Signature de fichiers apk Android à l’aide des clés du fabricant        {#signage-of-android-apks-using-manufacturer-keys}
+### Signature de fichiers apk Android à l’aide des clés du fabricant  {#signage-of-android-apks-using-manufacturer-keys}
 
 To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
 
@@ -80,14 +80,14 @@ To access some of the privileged APIs of Android such as *PowerManager* or *HDMI
 >
 >Conditions préalables :
 >
->Le kit SDK Android doit être installé avant que vous n’exécutiez les étapes suivantes.
+>Le SDK Android doit être installé avant que vous n’exécutiez les étapes suivantes.
 
 Suivez les étapes ci-dessous pour signer le fichier apk Android à l’aide des clés du fabricant :
 
 1. Téléchargez le fichier apk à partir de Google Play ou de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
 1. Procurez-vous les clés de plateforme du fabricant pour obtenir un fichier *pk8* et *pem*
 
-1. Localisez l’outil apksigner dans le kit SDK Android à l’aide de la commande find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
+1. Localisez l’outil apksigner dans le SDK Android à l’aide de la commande find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
 1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
 1. Recherchez le chemin d’accès à l’outil d’alignement zip dans le SDK Android.
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
