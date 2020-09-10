@@ -16,7 +16,7 @@ ht-degree: 53%
 Cette section est un démarrage rapide de AEM Screens et explique comment configurer et exécuter un projet AEM Screens. Il vous guide tout au long des étapes nécessaires pour configurer une expérience de signature numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de début à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
+>Avant de début à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
 ## Conditions préalables {#prerequisites}
 
@@ -33,11 +33,11 @@ Suivez les étapes ci-dessous pour créer un exemple de projet pour AEM Screens 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
 
-1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
+1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
+1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherche de référent Sling.
 
    Pour rechercher la propriété référent Sling, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
 
@@ -45,7 +45,7 @@ Suivez les étapes ci-dessous pour créer un exemple de projet pour AEM Screens 
 
    ![image](assets/config/empty-ref2.png)
 
-1. Cliquez sur **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+1. Cliquez sur **Save** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
 
 ## Création d’une expérience de signalisation numérique en 5 minutes {#creating-a-digital-signage-experience-in-minutes}
@@ -178,7 +178,7 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
 
    >[!NOTE]
    >The *Recurrence Schedule* allows you to set a recurring schedule for your channel. Vous configurez plusieurs plannings de périodicité pour un canal.
-   >Pour plus d’informations, voir la section [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
+   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
