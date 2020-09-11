@@ -3,8 +3,11 @@ title: Environnements pour [!UICONTROL AEM Screens]
 seo-title: Environnements pour [!UICONTROL AEM Screens]
 description: Cette page décrit les environnements adaptés à un projet AEM Screens.
 seo-description: Cette page présente les environnements adaptés à un projet AEM Screens.
-translation-type: ht
-source-git-commit: 0d91aa653508969cf1f4ccfba23a570e22e6414c
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 88%
 
 ---
 
@@ -25,8 +28,7 @@ Suivez les instructions ci-dessous afin de configurer l’environnement pour vot
    * **Screens Feature Pack**
    * **AEM Cumulative Fix Pack**
 
-1. Identifiez les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
-
+1. Identifiez tous les packs de développement (par exemple, les composants principaux de la gestion de contenu Web) ou les kits d’outils tiers (par exemple, SAP Hybris) requis.
 
 1. Installez les mêmes packages logiciels sur vos environnements de développement locaux. 
 
