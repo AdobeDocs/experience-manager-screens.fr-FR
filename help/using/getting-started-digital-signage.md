@@ -3,8 +3,11 @@ title: Principes de base de la signalétique digitale pour [!UICONTROL AEM Scree
 seo-title: Principes de base de la signalétique digitale pour [!UICONTROL AEM Screens]
 description: Ce guide décrit les principes de base d’un projet de signalétique digitale
 seo-description: Ce guide décrit les principes de base d’un projet de signalétique digitale
-translation-type: ht
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +78,7 @@ La définition des éléments clés est une étape essentielle avant la mise en 
       * Envoi/réception de commandes série (fermeture de contact, PLC, etc.)
       * Les données entrantes s’affichent à l’écran (RSS) ou déclenchent du contenu
       * RFID/NFC/Bluetooth/iBeacon
-      * Services externes (météo, trafic, etc.)
+      * Services externes (météo, trafic)
 
 1. **Environnement**
 
@@ -94,5 +97,5 @@ La définition des éléments clés est une étape essentielle avant la mise en 
    * L’utilisation de guides d’installation/utilisation détaillés est-elle requise ?
    * Le périphérique est-il configuré (programmé) avant l’expédition ?
    * Devons-nous capturer chaque numéro de série à des fins de suivi ?
-   * Une alimentation de secours (onduleur) est-elle requise ?
+   * Existe-t-il des besoins d&#39;alimentation de secours (alimentation non interrompue) ?
    * Comment les mises à jour du système sont-elles déployées ? Comment les périphériques sont-ils contrôlés à distance ? Une solution MDM est-elle requise ?
