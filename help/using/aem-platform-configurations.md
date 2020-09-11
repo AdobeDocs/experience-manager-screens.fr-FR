@@ -3,9 +3,9 @@ title: Configurations de plates-formes AEM
 seo-title: Configurations de plates-formes AEM
 description: Cette page décrit les configurations des plates-formes AEM
 seo-description: Cette page décrit les configurations des plates-formes AEM
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Installez FFMpeg en suivant les étapes relatives au système d’exploitation a
    > Notez que -strict -2 doit être le dernier paramètre dans la liste des paramètres. Dans AEM 6.4, vous devez, en outre, copier les nœuds situés sous */libs/settings/dam/video* dans */conf/global/settings/dam/video*, comme indiqué sur la page [Rendus vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/generating-renditions.html).
 1. Vérifiez que les conversions vidéo sont en cours d’exécution et que la création des rendus est en cours.
 
-## Restrictions relatives aux mots de passe {#password-restrictions}
+## Restrictions de mot de passe {#password-restrictions}
 
 La stratégie de mot de passe d’AEM doit être désactivée sur l’instance AMS. Cela peut, par ailleurs, être configuré dans la console web à l’aide du service de périphérique de Screens *com.adobe.cq.screens.device.impl.DeviceService*.
 Reportez-vous à la section **Restrictions relatives aux mots de passe** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
