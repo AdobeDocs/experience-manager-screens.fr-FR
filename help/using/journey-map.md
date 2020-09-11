@@ -3,8 +3,11 @@ title: Cartographie du parcours client
 seo-title: Cartographie du parcours client pour AEM Screens
 description: Cette page décrit la cartographie du parcours client d’AEM Screens
 seo-description: Cette page décrit la cartographie du parcours client d’AEM Screens
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
-Ce type de carte est conçu pour vous permettre d’examiner l’expérience utilisateur par rapport au contenu numérique diffusé par le réseau.
+Une carte de voyage de l’expérience utilisateur est conçue pour fournir une visibilité sur la façon dont et pourquoi les utilisateurs expérimenteront le contenu numérique diffusé par le réseau.
 
 ## Création de la carte du parcours utilisateur {#building-map}
 
@@ -28,5 +31,4 @@ Dans cette phase du projet, nous pouvons choisir de définir des options et des 
 Il est vivement conseillé d’autoriser les chefs de projet et les principaux intervenants à tester le positionnement physique des éléments numériques aux différentes étapes du parcours en magasin, ainsi que les expériences digitales réelles qui peuvent être proposées.
 
 >[!NOTE]
->
 > Commencez à collecter des données d’analyse pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
