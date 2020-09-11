@@ -3,8 +3,11 @@ title: Taxonomie du projet
 seo-title: 'Taxonomie du projet '
 description: Cette page décrit la taxonomie du projet
 seo-description: Cette page décrit la taxonomie du projet
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
@@ -55,5 +58,4 @@ L’auteur commence généralement un projet AEM Screens en :
 * [affichant du contenu dans un lecteur AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/working-with-screens-player.html).
 
 >[!NOTE]
->
 >Vous pouvez, en outre, importer en bloc un ensemble d’emplacements dans votre projet AEM Screens depuis une feuille de calcul CSV/XLS. Pour plus d’informations, voir [Nouvel outil d’importation de projets à partir d’un fichier](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-importer.html).
