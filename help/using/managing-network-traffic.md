@@ -1,9 +1,9 @@
 ---
 title: Gestion du trafic réseau
 description: La page décrit les configurations de réseau standard et la gestion du trafic réseau.
-translation-type: ht
-source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 
@@ -17,9 +17,7 @@ Une configuration réseau peut avoir différentes structures. Cette section déc
 Ce guide présente les serveurs proxy mis en œuvre par diverses structures de réseaux configurées au sein de différentes organisations.
 
 >[!NOTE]
->
 >**Configuration requise pour le réseau AEM Screens**
->
 >AEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Les pare-feu sont absolument obligatoires pour l’accès à Internet à des fins commerciales. En tant que client, vous devez connaître les ports de communication qui doivent être ouverts dans ces pare-feu et d’autres composants de réseau liés à la sécurité informatique.
 
 ## Présentation des serveurs proxy {#proxy-servers}
