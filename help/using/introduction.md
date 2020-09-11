@@ -3,18 +3,18 @@ title: Présentation d’[!UICONTROL AEM Screens]
 seo-title: Guide des bonnes pratiques pour les projets [!UICONTROL AEM Screens]
 description: Cette page est une section de présentation d’AEM Screens
 seo-description: Cette page vous invite à découvrir AEM Screens
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 
 # Présentation d’AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** est une solution de signalétique digitale qui vous permet de créer, de publier et de diffuser des expériences digitales dynamiques et interactives impliquant différents types d’affichage sur site, de concert avec une stratégie de marketing digital « omnicanal » globale.
+**aem (Adobe Experience Manager) Screens** est une solution Digital Signage qui vous permet de créer, de publier et de lire des expériences numériques dynamiques et interactives impliquant différents types d’écrans d’affichage sur site, de concert avec une stratégie marketing numérique globale à canal numérique.
 
 AEM Screens vous permet de créer les éléments suivants :
 
@@ -53,12 +53,11 @@ AEM Screens fournit une plate-forme de création/lecture unifiée pour le déplo
 
 * **Segmentation de boucle multimédia** : en configurant chaque appareil de lecture de sorte qu’il dispose de son propre segment de boucle, vous avez la garantie que le contenu localisé peut être facilement créé, publié et lu dans l’ensemble de l’expérience digitale. Les ressources multimédias contenues dans les canaux de séquence incorporés sont ajoutées au segment de boucle précédent et offrent la possibilité de cibler un segment de boucle multimédia pour chaque regroupement d’emplacements.
 
-* **Expériences interactives** : une application kiosque tactile peut être créée et diffusée dans un canal Screens à l’aide d’AEM et de l’éditeur d’application monopage (SPA). Il est recommandé d’appliquer des propriétés de conception omnicanal cohérentes, un minuteur d’inactivité pour réinitialiser l’expérience, ainsi qu’un appel à l’action clair pour les tâches que l’application peut exécuter. La page d’entrée doit se composer d’éléments numériques clés, conçus pour transmettre la valeur du contenu, attirer l’utilisateur vers l’écran et susciter son engagement.
+* **Expériences interactives** : une application kiosque tactile peut être créée et diffusée dans un canal Screens à l’aide d’AEM et de l’éditeur d’application monopage (SPA). Il est recommandé d’appliquer des propriétés de conception homogènes de canal, un minuteur d’inactivité pour réinitialiser l’expérience et un appel à l’action clair pour déterminer les tâches que l’application peut exécuter. La page d’entrée doit se composer d’éléments numériques clés, conçus pour transmettre la valeur du contenu, attirer l’utilisateur vers l’écran et susciter son engagement.
 
 AEM Screens fournit une structure permettant de déployer du contenu sur des périphériques physiques. Le contenu est affecté à des canaux dans Screens et les écrans peuvent proposer du contenu multimédia ou des applications tactiles. Dans cette structure, une application AEM Sites peut être diffusée sous la forme de contenu par le biais d’un canal.
 
 Avant d’être déposé dans un canal d’AEM Screens, le site AEM Sites doit être formaté en vue d’être utilisé aux dimensions du périphérique d’affichage auquel il est destiné.
 
 >[!NOTE]
->
 >De nombreux composants AEM Sites ne sont pas compatibles avec AEM Screens. AEM Screens s’accompagne d’un grand nombre de composants prêts à l’emploi qui vous permettent de créer des expériences digitales sans nécessiter de personnalisation. Si cela est autorisé dans le projet, utilisez la fonctionnalité intégrée d’AEM Screens lorsque cela s’avère possible.
