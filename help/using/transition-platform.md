@@ -3,8 +3,11 @@ title: Transition vers la plate-forme
 seo-title: Transition vers la plate-forme pour AEM Screens
 description: Cette page décrit la transition vers la plate-forme
 seo-description: Cette page décrit la transition vers la plate-forme
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ Ces tâches consistent, par exemple, à déterminer comment et quand utiliser :
 * des **fragments d’expérience** pour créer des groupes de contenu ;
 * des **fragments de contenu** pour créer des variantes de texte ;
 * **ContextHub** pour créer des entrepôts de données externes, des applications monopages pour les expériences interactives ;
-* des **services OSGI** pour les alertes réseau ;
+* **Services** OSGi pour les alertes réseau
 * un **lien vers les ressources** pour l’approvisionnement Creative Cloud ;
 * des **dossiers réseau** pour l’allocation de ressources ;
 * une **superposition de texte** pour les données en temps réel ;
