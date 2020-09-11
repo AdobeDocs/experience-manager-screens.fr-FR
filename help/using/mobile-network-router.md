@@ -2,10 +2,10 @@
 title: Réseau mobile avec routeur de données mobiles et composants réseau actifs
 description: La page décrit le réseau mobile avec routeur de données mobiles et composants réseau actifs
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 94%
 
 ---
 
@@ -44,10 +44,7 @@ La configuration alloue un accès Internet à chaque contrôleur AEM Screens par
 
    >[!NOTE]
    >**Conseil de dépannage**
-   >Si AEM Screens ne se connecte pas correctement et que le contenu attendu ne s’affiche pas :
-   >
-   >1. Vérifiez dans le pare-feu de votre routeur Internet s’il existe des restrictions concernant `TCP/IP Port 80/443`.
-
+   >Si AEM Screens ne se connecte pas correctement et que le contenu attendu n&#39;est pas affiché, vérifiez votre pare-feu de routeur Internet s&#39;il existe des restrictions concernant `TCP/IP Port 80/443`.
 
 
 ## Configuration d’un réseau mobile avec routeur de données mobile et composants réseau actifs {#requirements-direct}
@@ -101,7 +98,7 @@ Si une solution Wi-Fi est envisagée pour connecter Screens à Internet, il est 
 ## Téléchargement de médias et de ressources {#download}
 
 AEM Screens offre un grand avantage aux utilisateurs de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
-Pour les opérations normales, par exemple une liste de lecture définie qui n’est pas très souvent actualisée au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
+Pour une opération normale, par exemple, après avoir défini une liste de lecture qui n’est pas mise à jour fréquemment pendant la journée, cette opération offre une opération indépendante du réseau, une fois que tous les fichiers ont été enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est très dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 Les tableaux ci-dessous offrent une bonne vue d’ensemble des données clés de connectivité réseau en ce qui concerne les performances prévisibles et les temps d’attente potentiels.
 
