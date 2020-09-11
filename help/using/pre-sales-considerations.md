@@ -3,8 +3,11 @@ title: Observations dans le cadre de la définition du champ d’application du 
 seo-title: Observations dans le cadre de la définition du champ d’application du projet
 description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
 seo-description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 95%
 
 ---
 
@@ -12,7 +15,6 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 # Observations dans le cadre de la définition du champ d’application du projet {#pre-sales-considerations}
 
 >[!NOTE]
->
 >Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
 Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement le champ d’application du projet. Le travail effectué lors du jour 0 détermine la suite du projet et a une incidence sur le succès global de l’application en cours de création.
@@ -32,4 +34,4 @@ Cette étape rassemble tous les efforts de prévente et d’investigation néces
 >
 >Identifiez, le plus tôt possible, les données nécessaires pour l’application, ainsi que leur provenance. Bien qu’un examen plus approfondi soit réalisé au cours de la mise en œuvre, prenez le temps, lors du *jour 0*, de déterminer les données que le client a l’intention d’utiliser, l’emplacement de stockage actuel de ces données, ainsi que la manière dont l’application en cours de création peut y accéder. Informer l’équipe de développement des obstacles qui peuvent entraver le bon déroulement du projet contribuera à faciliter la mise en œuvre.
 
-Pour plus d’informations, visionnez les tutoriels vidéo à la section [Observations dans le cadre de la définition du champ d’application du projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-considerations.html).
+Refer to video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-considerations.html) for more information.
