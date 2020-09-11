@@ -2,7 +2,7 @@
 title: Réseau d’entreprise fermé
 description: 'Réseau d’entreprise fermé   '
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 100%
@@ -86,7 +86,6 @@ Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d
 Le tableau suivant présente un aperçu des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
->
 >Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/enclosed-network-download.png)
