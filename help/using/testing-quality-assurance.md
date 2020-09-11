@@ -3,9 +3,9 @@ title: Tests et assurance qualité
 seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -15,7 +15,6 @@ ht-degree: 100%
 # Tests et assurance qualité {#testing-quality}
 
 >[!NOTE]
->
 >Cette activité est généralement réalisée par un intégrateur A/V.
 
 À mesure que la date du déploiement du réseau de signalétique digitale se rapproche, nous devons créer un plan de test et d’assurance qualité qui porte sur chaque élément du réseau, notamment l’ensemble des composants matériels, logiciels et réseau.
@@ -52,7 +51,6 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 
 ## 3. Facteurs de gestion des périphériques {#device-management-considerations}
 
-
 AEM Screens dispose d’un module de centre de contrôle des périphériques qui permet de gérer les points d’extrémité de l’application du lecteur Screens.
 
 Cela fait référence à tout périphérique matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.
@@ -68,7 +66,6 @@ Pour en savoir plus sur le ***Centre de contrôle des périphériques***, report
 >[!CAUTION]
 >
 > Vous ne devez pas utiliser le Centre de contrôle des périphériques pour :
->
 > 1. installer de nouvelles versions de l’application du lecteur ;
 > 1. surveiller les ressources système ;
 > 1. résoudre des erreurs au niveau du système ;
