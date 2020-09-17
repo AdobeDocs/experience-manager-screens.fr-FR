@@ -1,26 +1,26 @@
 ---
 title: Création et gestion des planifications
 seo-title: Gestion des planifications
-description: Suivez cette page pour en savoir plus sur les planifications, qui vous permet d'organiser les canaux en groupes réutilisables, de sorte que vous n'ayez pas à répéter leur affectation individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
-seo-description: Suivez cette page pour en savoir plus sur les planifications, qui vous permet d'organiser les canaux en groupes réutilisables, de sorte que vous n'ayez pas à répéter leur affectation individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
+description: Consultez cette page pour en savoir plus sur les planifications, qui vous permettent d’organiser les canaux en groupes réutilisables, pour éviter d’avoir à attribuer individuellement chaque affichage sur lequel vous souhaitez afficher votre contenu.
+seo-description: Consultez cette page pour en savoir plus sur les planifications, qui vous permettent d’organiser les canaux en groupes réutilisables, pour éviter d’avoir à attribuer individuellement chaque affichage sur lequel vous souhaitez afficher votre contenu.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # Création et gestion des planifications{#creating-and-managing-schedules}
 
-**Les planifications**, en AEM Screens, vous permettent d’organiser les canaux en groupes réutilisables, de sorte que vous n’ayez pas à répéter individuellement leur affectation pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
+Dans AEM Screens, les **planifications** vous permettent d’organiser les canaux en groupes réutilisables. Ainsi, vous n’avez pas à répéter leur attribution individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
 
 Lorsqu’ils sont combinés avec des ***tranches horaires***, les plannings permettent de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser cette configuration pour tous vos affichages simultanément.
 
