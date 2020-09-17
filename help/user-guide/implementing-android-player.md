@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,13 @@ Pour mettre en œuvre Android Player pour AEM Screens, installez Android Player 
 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
-### Configuration de l’Environnement pour AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configuration de l’environnement pour le Service Pack AEM Screens 6.5.5 {#fp-environment-setup}
 
 >[!NOTE]
->Vous devez configurer un environnement pour le lecteur Android si vous utilisez AEM Screens 6.5.5 Service Pack.
+>Vous devez configurer un environnement pour le lecteur Android si vous utilisez le Service Pack AEM Screens 6.5.5.
 
-Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
+Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None** dans **Configuration de la console web Adobe
+Experience Manager** sur toutes les instances de création et de publication AEM.
 
 Suivez les étapes ci-dessous :
 
@@ -74,7 +75,7 @@ En raison de l’architecture d’Android, le redémarrage de l’appareil requi
 
 ### Signature de fichiers apk Android à l’aide des clés du fabricant  {#signage-of-android-apks-using-manufacturer-keys}
 
-To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
+Pour accéder à certaines des API privilégiées d’Android telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le fichier apk Android à l’aide des clés du fabricant.
 
 >[!CAUTION]
 >
