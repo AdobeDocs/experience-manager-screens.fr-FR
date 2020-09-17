@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Création et gestion des canaux {#creating-and-managing-channels}
 
-Un Canal affiche une séquence de contenu et affiche des images et des vidéos, mais peut également afficher un site Web ou une application d’une seule page.
+Un canal affiche une séquence de contenu, des images et des vidéos, mais peut également afficher un site web ou une application sur une seule page.
 
 Vous découvrirez dans cette page comment créer et gérer des canaux pour Screens.
 
@@ -32,25 +32,25 @@ Vous découvrirez dans cette page comment créer et gérer des canaux pour Scree
 
 ## Création d’un canal {#creating-a-new-channel}
 
-Une fois votre projet créé pour AEM Screens, suivez les étapes ci-dessous pour créer un nouveau Canal pour votre projet :
+Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui créer un canal :
 
 1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à : `https://localhost:4502/screens.html/content/screens`.
 
-1. Navigate to your Screens project and select **Channels** folder.
+1. Accédez à votre projet Screens et sélectionnez le dossier **Canaux**.
 
 1. Cliquez sur **Créer** dans la barre d’actions.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+1. Sélectionnez le modèle **Canal de séquence** dans l’assistant **Créer** et cliquez sur **Suivant**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. Saisissez le titre **ScreensChannel** et cliquez sur **Créer**.
 
    ![demochannel](assets/create-project4.png)
 
-1. Un canal de séquence est maintenant ajouté à votre dossier **Canaux** .
+1. Un canal de séquence est maintenant ajouté à votre dossier **Canaux**.
 
 ### Types de canaux  {#channel-types}
 
