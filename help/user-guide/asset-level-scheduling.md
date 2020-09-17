@@ -3,11 +3,11 @@ title: Activation au niveau des ressources
 seo-title: Activation au niveau des ressources
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Cette section aborde les sujets suivants :
 * Lecture d’un événement unique
 * Gestion de la périodicité pour les ressources
    * Tranches horaires
-   * WeekParting
-   * MoisParting
+   * Tranches hebdomadaires
+   * Tranches mensuelles
    * Combinaison de tranches
 * Activation multiressource
 
@@ -70,7 +70,7 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-1. Vous pouvez spécifier la date à l’aide des champs **Actif à partir de** et **Actif jusqu’à** du sélecteur de dates.
+1. Vous pouvez spécifier la date à l’aide des champs **Actif à partir de** et **Actif jusqu’à** du sélecteur de date.
 
    Si vous sélectionnez la date et l’heure dans **Actif à partir de** et **Actif jusqu’à**, la ressource s’affichera et en boucle uniquement entre cette date/heure de début et cette date/heure de fin, respectivement.
 
@@ -109,7 +109,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 >
 >Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
-### WeekParting {#week-parting}
+### Tranches hebdomadaires {#week-parting}
 
 1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** (en forme de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
@@ -120,7 +120,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’Expressions pour WeekParting {#example-two}
+#### Exemples d’expressions pour les tranches hebdomadaires {#example-two}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
@@ -134,7 +134,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 >Vous pouvez également utiliser une notation _complète_ (c’est-à-dire lundi,mercredi,vendredi) au lieu d’une notation _abrégée_ (c’est-à-dire Lun,Mer,Ven).
 
 
-### MoisParting {#month-parting}
+### Tranches mensuelles {#month-parting}
 
 1. Sélectionnez la ressource et cliquez sur l’icône **Configurer** (en forme de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
@@ -145,7 +145,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’Expressions pour la division des mois {#example-three}
+#### Exemples d’expressions pour les tranches mensuelles {#example-three}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
