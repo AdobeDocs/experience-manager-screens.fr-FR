@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1802'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Cette section aborde les sujets suivants :
 * Utilisation de l’activation au niveau des canaux comme lecture d’événement unique
 * Gestion de la périodicité des ressources dans un canal
    * Tranches horaires
-   * WeekParting
-   * MoisParting
+   * Tranches hebdomadaires
+   * Tranches mensuelles
    * Combinaison de tranches
 * Utilisation de l’activation au niveau des canaux comme lecture d’événement unique
 
@@ -154,8 +154,9 @@ Une fois que vous aurez configuré les canaux et l’affichage, veuillez lancer 
 Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23h59 (comme défini dans la planification), le canal **TargetedSinglePlay** affiche son contenu jusqu’à 12h05, puis le canal **MainAdChannel** reprend la lecture de son contenu.
 
 >[!NOTE]
-Pour en savoir plus sur AEM lecteur d&#39;écran, consultez les ressources suivantes :
-[Téléchargements](https://download.macromedia.com/screens/)[du lecteur AEM Screens Player Utilisation de AEM Screens Player](working-with-screens-player.md)
+Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
+[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+[Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
 
 ## Gestion de la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
@@ -190,9 +191,9 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
-### WeekParting {#week-parting}
+### Tranches hebdomadaires {#week-parting}
 
 1. Pour ouvrir le tableau de bord du canal, sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d’actions.
 
@@ -203,7 +204,7 @@ Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusq
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’Expressions pour WeekParting {#example-two}
+#### Exemples d’expressions pour les tranches hebdomadaires {#example-two}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
@@ -216,10 +217,10 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | avant 12 h 15 et après 12 h 45 | le canal est lu avant 12 h 15 et après 12 h 45 tous les jours |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 
-### MoisParting {#month-parting}
+### Tranches mensuelles {#month-parting}
 
 1. Pour ouvrir le tableau de bord du canal, sélectionnez le canal et cliquez sur **Tableau de bord** dans la barre d’actions.
 
@@ -230,7 +231,7 @@ Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusq
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
-#### Exemples d’Expressions pour la division des mois {#example-three}
+#### Exemples d’expressions pour les tranches mensuelles {#example-three}
 
 Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter à la planification lors de l’attribution d’un canal à un affichage.
 
