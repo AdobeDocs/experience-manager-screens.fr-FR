@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
+workflow-type: tm+mt
 source-wordcount: '1802'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -155,8 +155,7 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23h59 (comme
 
 >[!NOTE]
 Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
-[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
-[Utilisation du lecteur AEM Screens](working-with-screens-player.md)
+[Téléchargements](https://download.macromedia.com/screens/)[du lecteur AEM Screens Player Utilisation de AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestion de la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
@@ -172,7 +171,7 @@ Supposons que vous souhaitiez afficher les contenus d’un canal uniquement le v
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -200,7 +199,7 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -227,7 +226,7 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -243,7 +242,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
 
 ### Combinaison de tranches {#combined-parting}
 
@@ -252,7 +251,7 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
