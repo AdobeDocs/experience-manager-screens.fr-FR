@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vo
 
 Les sections qui suivent décrivent comment déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
-## Rendus de la gestion des actifs numériques    {#dam-renditions}
+## Rendus de la gestion des actifs numériques  {#dam-renditions}
 
 Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
 
@@ -45,7 +45,7 @@ S’il n’existe aucun rendu, vérifiez que vous avez installé ffmpeg sur le s
 
 ## Ressources vidéo {#video-assets}
 
-Si vous ne voyez pas d’attribut source sous video, il se peut que la vidéo n’ait pas été transcodée. Si la vidéo est correctement codée en double-code, elle apparaît dans le tableau de bord, comme le montre la figure ci-dessous.
+S’il n’y a pas d’attribut source sous la vidéo, il est possible que la vidéo n’ait pas été transcodée. Si la vidéo est transcodée correctement, elle s’affiche dans le tableau de bord, comme indiqué dans l’illustration ci-dessous.
 
 Vérifiez que ffmpeg est installé dans les profils vidéo.
 
@@ -71,7 +71,7 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
    >
    >Avant de l’ajouter à un canal, veillez à laisser suffisamment de temps pour le transcodage de la vidéo (l’indicateur « Nouvelle » et non « Traitement en cours » doit s’afficher).
 
-### Vérification du profil avec un composant vidéo     {#checking-profile-with-a-video-component}
+### Vérification du profil avec un composant vidéo  {#checking-profile-with-a-video-component}
 
 Consultez la liste des profils dans la conception des pages si le composant vidéo n’est pas configuré correctement.
 
