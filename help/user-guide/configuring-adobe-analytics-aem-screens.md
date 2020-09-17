@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4.
+>Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4.
 >
 >Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et déposez une requête dans ce sens. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
 
@@ -95,12 +95,12 @@ Le tableau suivant résume le modèle de données standard pour les événements
   </tr>
   <tr>
    <td> </td> 
-   <td>Processus</td> 
+   <td>Workflow</td> 
    <td>event.workflow</td> 
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Nom du processus (Screens)</td> 
+   <td>Nom du workflow (Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -118,7 +118,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-catégorie - Section d’un processus ou d’une zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
+   <td>Sous-catégorie – Section d’un workflow ou d’une zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -151,7 +151,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td> </td> 
    <td>Agent utilisateur</td> 
    <td>event.user_agent</td> 
-   <td>recommandé (propriétés Web)</td> 
+   <td>recommandé (propriétés web)</td> 
    <td>chaîne</td> 
    <td> </td> 
    <td>Agent utilisateur</td> 
@@ -208,7 +208,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>URL de la propriété web ou du schéma mobile - doit inclure une URL complète</td> 
+   <td>URL de la propriété web ou du schéma mobile (doit inclure une URL complète)</td> 
   </tr>
   <tr>
    <td> </td> 
