@@ -9,11 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Le composant Hello World est un composant simple qui permet à un utilisateur de
 
 AEM Screens présente des contraintes intéressantes qui ne sont pas nécessairement vraies pour les composants des sites WCM traditionnels.
 
-* La plupart des composants Screens doivent s’exécuter en plein écran sur les périphériques de signalisation numérique de la cible.
+* La plupart des composants Screens doivent s’exécuter en mode plein écran sur les appareils de signalétique numérique cibles.
 * La plupart des composants Screens doivent être incorporables dans les canaux de séquence pour générer des diaporamas.
 * La création doit permettre de modifier individuellement les composants d’un canal de séquence, de sorte que le rendu en mode plein écran est hors de question.
 
@@ -550,7 +550,7 @@ Le code ci-dessous indique les exigences minimales du fichier `pom.xml` pour ce 
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=fre_fr)
 
 ## Code terminé {#finished-code}
 
