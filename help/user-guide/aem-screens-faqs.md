@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Etc. jusqu’à ce que vous accédiez au dossier des emplacements et que vous vo
 
 ## Enregistrement de périphériques {#device-registration}
 
-### 1. Si je détecte des points de terminaison, tels que des requêtes d’intégration et d’enregistrement de périphériques, je peux créer un script pour un grand nombre de périphériques et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d&#39;une succursale, la sécurisation de ces requêtes est-elle possible ? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Si je détecte des points de terminaison, tels que des requêtes d’intégration et d’enregistrement de périphériques, je peux créer un script pour un grand nombre de périphériques et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 L’enregistrement n’est actuellement possible que sur l’instance d’auteur. Bien qu’il ne soit pas authentifié, le service d’enregistrement crée uniquement un périphérique en attente dans AEM ; il n’enregistre pas réellement le périphérique ni n’affecte aucun affichage.
 
@@ -57,11 +57,11 @@ Pour enregistrer un périphérique (c’est-à-dire créer un utilisateur pour l
 
 La requête d’enregistrement consiste dans une requête POST.
 
-Il est recommandé d’obtenir l’ID du périphérique de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s&#39;agit pas pour l’instant d&#39;un problème de sécurité. Notez que la requête sémantique GET est utilisée en l&#39;absence de modification du statut sur le serveur et que la requête POST est appliquée dans le cas contraire.
+Il est recommandé d’obtenir l’ID du périphérique de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s’agit pas pour l’instant d’un problème de sécurité. Notez que la requête GET est utilisée en l’absence de modification d’état sur le serveur et que la requête POST est appliquée dans le cas contraire.
 
-### 3. Existe-t-il un moyen de refuser une requête d&#39;enregistrement de périphérique ? {#is-there-a-way-to-decline-a-device-registration-request}
+### 3. Existe-t-il un moyen de refuser une requête d’enregistrement d’appareil ? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Vous ne pouvez pas refuser les requêtes d’enregistrement. Elles doivent au contraire expirer après un délai configuré dans la [console Web Adobe Experience Manager](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
+Vous ne pouvez pas refuser les requêtes d’enregistrement. Elles doivent au contraire expirer après un délai configuré dans la [console web Adobe Experience Manager](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
 
 ## Rapports de surveillance et d’intégrité des périphériques {#device-monitoring-and-health-reports}
 
@@ -77,7 +77,7 @@ Vérifiez les possibilités suivantes pour résoudre le problème de l’écran 
 
 Vous devez activer le filtre Autoriser vide du référent Apache Sling. Cette activation est nécessaire pour optimiser le fonctionnement du protocole de contrôle entre le lecteur et le serveur AEM Screens.
 
-1. Accédez à **Configuration de la console Web Adobe Experience Manager**.
+1. Accédez à **Configuration de la console web Adobe Experience Manager**.
 1. Cochez l’option **allow.empty**.
 1. Cliquez sur **Enregistrer**.
 
@@ -87,7 +87,7 @@ Ce problème peut se produire si le lecteur ne parvient pas à trouver le nom D
 
 ### 4. AMS recommande-t-il de mettre en œuvre un outil de surveillance Android sur tous les périphériques ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
-Un outil de surveillance Android multiplateforme utilisant des API Android pures est déjà disponible dans ce kit. Aucun autre logiciel n&#39;est nécessaire mais, selon le périphérique employé, vous devrez peut-être retirer le kit de package Android afin d’obtenir des privilèges système pour un cycle d&#39;alimentation complet (API PowerManager). En l’absence de retrait via les clés du fabricant, ce kit permet de fermer, puis de relancer l&#39;application, mais pas le cycle d&#39;alimentation.
+Un outil de surveillance Android multiplateforme utilisant des API Android pures est déjà disponible dans ce kit. Aucun autre logiciel n’est nécessaire, mais, selon l’appareil employé, vous devrez peut-être signer à nouveau le fichier apk Android afin d’obtenir des privilèges système pour un cycle d’alimentation complet (API PowerManager). En l’absence de nouvelle signature avec les clés du fabricant, ce kit peut fermer, puis relancer l’application, mais pas le cycle d’alimentation.
 
 Pour plus d’informations sur la mise en œuvre du lecteur Android, reportez-vous à [**Mise en œuvre du lecteur Android**](implementing-android-player.md).
 
@@ -116,7 +116,7 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 
 Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json*** au démarrage et lorsqu’il affiche un message d’erreur 404. Il lance une requête d’authentification auprès de l’instance de publication. Si cette dernière comporte une balise d’erreur personnalisée, veillez à retourner le code de statut 404 pour l’utilisateur anonyme sur ***/content/screens/svc.ping.json***.
 
-### 3. Comment configurer l&#39;écran du périphérique pour qu&#39;il reste actif dans un lecteur Android ? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3. Comment configurer l’écran de l’appareil pour qu’il reste actif dans un lecteur Android ? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme suit :
 
@@ -125,13 +125,13 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre pour le lecteur Windows ?
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ?
 
-Il n&#39;existe pas de mode fenêtre dans le lecteur Windows. Il est toujours en mode plein écran.
+Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
 ## Conseils pratiques de dépannage {#general-troubleshooting-tips}
 
-### 1. Comment désactiver Livefyre pour éviter de recevoir un message d’erreur d’instance d&#39;auteur et/ou de publication dans Screens ? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
+### 1. Comment désactiver Livefyre pour éviter de recevoir un message d’erreur d’instance d’auteur et/ou de publication dans Screens ? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
 Pour désactiver Livefyre afin d’éviter les erreurs de journal :
 
