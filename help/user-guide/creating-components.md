@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les composants AEM servent à stocker, mettre en forme et générer le rendu du 
 
 Le canal est l’objet central du contenu qui est diffusé à un ensemble d’écrans. Par conséquent, un auteur de contenu ouvre généralement un canal dans l’éditeur pour ajouter ou modifier du contenu. Étant donné que le canal est un nœud ***cq:Page***, il applique le même schéma UX traditionnel pour ajouter et modifier des composants dans le canal.
 
-Cependant, comme les composants d’un canal sont généralement rendus en plein écran, l’expérience de création en pâtit lorsque vous essayez de modifier des composants uniques ou de composer de nouvelles commandes. Par conséquent, le canal dépend des sélecteurs pour effectuer le rendu des différentes vues des composants. L&#39;environnement de création met à profit le sélecteur de modification pour activer le rendu de canal personnalisé.
+Cependant, dans la mesure où les composants d’un canal sont généralement rendus en mode Plein écran, l’expérience de création est dégradée lorsque vous essayez de modifier des composants uniques ou de composer de nouvelles séquences. Par conséquent, le canal dépend des sélecteurs pour effectuer le rendu des différentes vues des composants. L’environnement de création met à profit le sélecteur de modification pour activer le rendu de canal personnalisé.
 
 Par exemple, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
