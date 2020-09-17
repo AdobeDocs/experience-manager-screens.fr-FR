@@ -13,8 +13,8 @@ docset: aem65
 translation-type: tm+mt
 source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentie
    ![ressources](assets/health-check1.png)
 
 
-2. Click on **Execute selected health checks** to run the validation for two properties listed above.
+2. Cliquez sur **Execute selected health checks (Exécuter les contrôles d’intégrité sélectionnés)** pour exécuter la validation des deux propriétés répertoriées ci-dessus.
 
    Si les deux filtres sont activés, le **service d’intégrité de la configuration de Screens** affiche le **résultat** comme étant **OK** avec les deux configurations activées.
 
@@ -108,7 +108,7 @@ AEM Screens nécessite une IU TACTILE et ne fonctionne pas avec l’IU CLASSIQUE
 1. Accédez à *&lt;VotreInstanceAuteur>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Veillez à ce que le **mode d’UI de création par défaut** soit défini sur **TACTILE**, comme illustré dans la figure ci-dessous.
 
-Alternatively, you can also perform the same setting using yourAuthorInstance *->* tools (hammer icon) -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
+Vous pouvez également appliquer le même paramètre à l’aide de votreInstanceAuteur *->* outils (icône en forme de marteau) -> **Opérations** -> -> **Console web** et rechercher le **service WCM Authoring UI Mode**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ Alternatively, you can also perform the same setting using yourAuthorInstance *-
 
 #### AEM en mode d’exécution NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-L’exécution d’AEM en production permet d’utiliser le mode d’exécution **NOSAMPLECONTENT**. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
+L’exécution d’AEM en production permet d’utiliser le mode d’exécution **NOSAMPLECONTENT**. Supprimez l’en-tête *X-Frame-Options=SAMEORIGIN* (dans la section de l’en-tête de réponse supplémentaire) de
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Suivez les étapes ci-dessous pour configurer ***DeviceServiceImpl***:
 
 1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
 
-1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Search for *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
+1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
