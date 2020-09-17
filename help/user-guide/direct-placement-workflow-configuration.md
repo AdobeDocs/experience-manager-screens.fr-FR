@@ -3,9 +3,9 @@ title: 'Configuration d’un workflow de placement direct '
 seo-title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
 seo-description: Cette page décrit la configuration d’un workflow de placement direct.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
