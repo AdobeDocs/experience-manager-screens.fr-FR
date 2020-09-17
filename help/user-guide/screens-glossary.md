@@ -3,11 +3,11 @@ title: Glossaire
 seo-title: Glossaire
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 **Boucle d’attraction** Une boucle d’attraction est définie comme l’état *accueil* ou *inactif* lorsque l’affichage comporte au moins deux états dans lesquels elle peut exister. Son rôle est d’*attirer* les clients vers l’écran et de les encourager à interagir, généralement en touchant l’écran, mais aussi éventuellement en interagissant avec un produit.
 
-**DayParting** DayParting désigne la division d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
+**Tranches horaires** Cette fonctionnalité consiste à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
 **Périphérique** Un périphérique a la capacité d’exécuter le logiciel de lecture pour produire une sortie visuelle. Il peut contrôler l’affichage d’une partie recadrée, redimensionnée ou traduite de l’expérience ou du contenu communs. La configuration d’écran est associée à un affichage, mais peut être remplacée si un problème technique survient.
 
