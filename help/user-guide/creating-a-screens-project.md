@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,31 +22,31 @@ ht-degree: 70%
 
 Vous pouvez accéder à AEM Screens en sélectionnant le lien Adobe Experience Manager (en haut à gauche), puis Screens.
 
-Vous pouvez également accéder directement à: `http://localhost:4502/screens.html/content/screens`
+Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`
 
 
 >[!NOTE]
 >**Conseil de navigation :**
->Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. De plus, une fois que vous avez sélectionné une entité particulière, cliquez sur la barre d’espace pour modifier ou vue les propriétés de ce dossier spécifique.
+>Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, lorsque vous avez sélectionné une entité, vous pouvez appuyer sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
 
-## Création d’un projet Screens    {#creating-a-new-screens-project}
+## Création d’un projet Screens  {#creating-a-new-screens-project}
 
 Suivez les étapes ci-dessous pour créer un projet Screens :
 
-1. Sélectionnez **Ecrans** dans votre instance AEM.
+1. Sélectionnez **Screens** dans votre instance AEM.
 
-1. Click **Create Screens Project**.
+1. Cliquez sur **Créer un projet Screens**.
 
-1. Enter the title as **TestScreens** and click **Save**.
+1. Saisissez le titre **TestScreens** et cliquez sur **Créer**.
 
 Le projet est à présent créé et vous êtes redirigé vers la console du projet Screens. Vous pouvez sélectionner votre projet.
 
-Dans un projet, il existe cinq types de dossiers, comme le montre la figure ci-dessous :
+Un projet comprend cinq types de dossiers, comme illustré dans la figure ci-dessous :
 
 * **Planifications**
 * **Emplacements**
 * **Applications**
-* **Périphériques**
+* **Appareils**
 * **Canaux**
 
 ![player1](assets/create-project.gif)
@@ -58,9 +58,9 @@ Dans un projet, il existe cinq types de dossiers, comme le montre la figure ci-d
 
 ## Affichage des propriétés {#viewing-properties}
 
-Après avoir créé le projet Ecrans, sélectionnez le projet et cliquez sur **Propriétés** dans la barre d&#39;action pour modifier les propriétés du projet.
+Après avoir créé le projet Screens, sélectionnez-le et cliquez sur **Propriétés** dans la barre d’action pour modifier ses propriétés.
 
-The following options allow you to edit/change properties of your **TestScreens**.
+Les options suivantes vous permettent de modifier les propriétés de votre projet **TestScreens**.
 
 ![image](assets/create-project2.png)
 
@@ -76,7 +76,7 @@ Pour créer un dossier personnalisé :
 1. Cliquez sur **Suivant**.
 1. Entrez les propriétés, puis cliquez sur **Créer**.
 
-The following steps show the creation of an applications folder to your **Applications** master page in **TestScreens**.
+Les étapes suivantes montrent comment créer un dossier d’applications dans le gabarit de page **Applications** de **TestScreens**.
 
 ![player2-1](assets/create-project3.gif)
 
