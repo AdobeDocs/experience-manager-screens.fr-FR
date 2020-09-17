@@ -1,12 +1,12 @@
 ---
 title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
-description: Suivez cette page pour en savoir plus sur l'affectation des Canaux et le partage de journée.
-translation-type: tm+mt
+description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
 
-Cette page montre l&#39;affectation d&#39;un canal à votre affichage, la compréhension des propriétés du canal et la division de journée.
+Cette page montre l’attribution d’un canal à votre affichage, les propriétés du canal et les tranches horaires.
 
 >[!NOTE]
 >Vous pouvez attribuer plusieurs canaux à un affichage.
@@ -192,13 +192,13 @@ Vous pouvez configurer les options suivantes :
 
 ### Tranches horaires {#dayparting}
 
-DayParting désigne le fractionnement d’une journée en créneaux horaires et la spécification du contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
+Cette fonctionnalité consiste à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
 #### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple montre comment un restaurant utilise DayParting pour présenter tous les jours son menu de petit-déjeuner, déjeuner et dîner.
+Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher chaque jour le menu du petit déjeuner, du déjeuner et du dîner.
 
 Nous diviserons chaque jour en différentes tranches horaires, de sorte que le contenu du canal soit diffusé en fonction de l’heure. Définissez les propriétés suivantes du planning de périodicité pour que votre canal lise le contenu conformément à ce cas d’utilisation.
 
@@ -210,7 +210,7 @@ Nous diviserons chaque jour en différentes tranches horaires, de sorte que le c
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le partage de journée mis en oeuvre dans un casino où le événement en direct a lieu tous les week-ends de 20h à 22h et où des spécialités sont disponibles pour le menu du dîner après 22h00 et 1h00.
+Cet exemple présente les tranches horaires mises en œuvre dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
