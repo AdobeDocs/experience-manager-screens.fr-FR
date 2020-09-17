@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 Vous pouvez surveiller les performances et résoudre les problèmes associés pour l’activité de votre lecteur Screens et le périphérique de lecture à l’aide du tableau de bord du périphérique. Cette page fournit des informations sur la façon de surveiller et de résoudre les problèmes de performances perçus pour le lecteur Screens et les périphériques attribués.
 
-## Surveillance et dépannage à partir du centre de contrôle des périphériques      {#monitor-and-troubleshoot-from-device-control-center}
+## Surveillance et dépannage à partir du centre de contrôle des périphériques  {#monitor-and-troubleshoot-from-device-control-center}
 
 Vous pouvez surveiller l’activité et ainsi résoudre les problèmes liés à votre lecteur Screens, à l’aide du tableau de bord du périphérique.
 
@@ -41,7 +41,7 @@ Suivez les étapes ci-dessous pour accéder au tableau de bord du périphérique
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Sélectionnez le périphérique (**NewTestDevice**) et cliquez sur **Tableau de bord** dans la barre d&#39;actions.
+1. Sélectionnez l’appareil (**NewTestDevice**) et cliquez sur **Tableau de bord** dans la barre d’actions.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -125,15 +125,15 @@ De plus, cliquez sur **Paramètres** dans le coin supérieur droit pour mettre �
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Troubleshoot OSGi Settings {#troubleshoot-osgi-settings}
+## Résolution des incidents des paramètres d’OSGi {#troubleshoot-osgi-settings}
 
 Vous devez activer le référent vide pour autoriser le périphérique à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran.
 
-Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGi configuration. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+Actuellement, certaines de ces fonctions ne sont disponibles que si l’option *Allow Empty d’Apache Sling Referrer Filter* est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
 
 Suivez les étapes ci-après pour activer Apache Sling Referrer Filter Allow Empty
 
-1. Accédez à **Configuration de la console Web Adobe Experience Manager**, à savoir `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Accédez à **Configuration de la console web Adobe Experience Manager**, à savoir `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Cochez l’option **allow.empty**.
 1. Cliquez sur **Enregistrer**.
 
