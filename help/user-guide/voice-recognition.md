@@ -1,11 +1,11 @@
 ---
 title: Reconnaissance vocale dans AEM Screens
 description: Cette page décrit la fonction de reconnaissance vocale d’AEM Screens.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Un auteur de contenu peut configurer un affichage pour permettre la reconnaissan
 
 Pour mettre en œuvre la reconnaissance vocale dans votre projet AEM Screens, vous devez activer la reconnaissance vocale pour l’affichage et associer chaque canal à une balise unique afin de déclencher une transition de canal.
 
-La section suivante décrit comment activer et utiliser la fonction de reconnaissance vocale dans un projet AEM Screens.
+La section suivante décrit l’activation et l’utilisation de la fonctionnalité de reconnaissance vocale dans un projet AEM Screens.
 
 ## Affichage du contenu en mode Plein écran ou Canal d’écran partagé {#sequence-channel}
 
-Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
+Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour le projet.
 
 1. L’exemple suivant présente un projet de démonstration nommé **VoiceDemo** et trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks**, comme illustré dans la figure ci-dessous.
 
@@ -51,7 +51,7 @@ Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir 
 
    Ou,
 
-   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screens channel **SplitScreen** as shown in the figure below.
+   Vous pouvez créer trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks**, ainsi qu’un canal d’écran partagé 1x2 supplémentaire **SplitScreen**, comme illustré dans la figure ci-dessous.
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ Procédez comme suit pour ajouter des balises à votre canal :
 
    Ou,
 
-   Vous pouvez également créer des balises à partir de votre instance AEM au préalable pour votre projet et les sélectionner. Une fois que vous avez suivi les étapes décrites dans [Création de balises](#creating-tags), vous pouvez sélectionner la balise à partir de l’emplacement et l’ajouter à votre canal, comme indiqué dans la figure ci-dessous :
+   Vous pouvez également créer au préalable des balises à partir de votre instance AEM pour votre projet et les sélectionner également. Une fois que vous avez suivi les étapes décrites dans [Création de balises](#creating-tags), vous pouvez sélectionner la balise à partir de l’emplacement et l’ajouter à votre canal, comme indiqué dans la figure ci-dessous :
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
 1. De même, ajoutez une balise intitulée **hot** au canal **HotDrinks**.
 
-1. Si vous utilisez un canal Ecrans fractionnés, ajoutez les deux balises (**chaud** et **froid**) aux propriétés du canal **Ecran** fractionné, comme illustré dans la figure ci-dessous.
+1. Si vous utilisez un canal d’écran partagé, ajoutez les deux balises (**hot** et **cold**) aux propriétés du canal **SplitScreen**, comme indiqué dans la figure ci-dessous.
 
    ![image](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ Pour créer des balises, procédez comme suit :
 
 1. Accédez à votre instance AEM.
 
-1. Click on tools icon --> **Tagging**.
+1. Cliquez sur l’icône Outils --> **Balisage**.
    ![image](assets/voice-recognition/vr-7.png)
 
 1. Cliquez sur **Créer** --> **Créer un espace de noms**.
@@ -139,7 +139,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
    >[!NOTE]
    >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
-1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay**. De plus, si vous utilisez le canal **SplitScreen** pour votre projet, veillez à l’affecter à l’affichage.
+1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay**. De plus, si vous utilisez le canal **SplitScreen** pour votre projet, assurez-vous de l’attribuer également à l’affichage.
 
    >[!NOTE]
    >Si vous avez créé un canal d’écran partagé, attribuez aussi le canal **SplitScreen** à votre affichage.
@@ -173,13 +173,13 @@ Une fois les étapes précédentes effectuées, vous pouvez enregistrer votre ap
 >[!NOTE]
 >Voir [Enregistrement des appareils](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
 
-**Sortie désirée pour le Canal de séquence**
+**Sortie désirée du canal de séquence**
 
 Le canal **Main** lit son contenu, mais lorsque vous utilisez le mot-clé **hot** (chaud) comme dans *Je voudrais une boisson chaude*, le canal commence à lire le contenu du canal **HotDrinks**.
 
-Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the channel starts playing the contents of the **ColdDrinks** channel.
+De même, si vous utilisez un mot-clé **cold** (froid) comme dans *Je voudrais avoir quelque chose de froid*, le canal commence à lire le contenu du canal **ColdDrinks**.
 
-**Sortie désirée pour le Canal Ecrans fractionnés**
+**Sortie désirée du canal SplitScreen**
 
 Le canal **Main** lit son contenu, mais lorsque vous utilisez les mots-clés **hot** et **cold** ensemble, comme dans *Je voudrais voir le menu des boissons chaudes et froides*, le canal commence à lire le contenu du canal **SplitScreen**. Si vous dites *Revenir au menu principal*, le processus revient au canal principal.
 
