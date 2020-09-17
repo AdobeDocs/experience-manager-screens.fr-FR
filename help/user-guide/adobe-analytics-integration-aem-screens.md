@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Ainsi, l’intégration d’Adobe Analytics avec AEM Screens permet de réalise
 
 ## Particularités architecturales {#architectural-details}
 
-Un client AEM Screens souhaite connaître les données affichées, ainsi que leurs durée et date et/ou heure d’affichage (affichage global). Il s&#39;agit d’une fonctionnalité courante de la solution d’affichage numérique. AEM Screens tire parti d’Adobe Analytics au lieu d’élaborer vos analyses ; vous obtenez ainsi une solution unique sur le marché : des analyses multicanaux permettant de mettre le contenu affiché à l’emplacement concerné en corrélation avec d’autres sources de données.
+Un client AEM Screens souhaite connaître les données affichées, ainsi que leurs durée et date et/ou heure d’affichage (affichage global). Il s’agit d’une fonctionnalité courante de la solution d’affichage numérique. AEM Screens tire parti d’Adobe Analytics au lieu d’élaborer vos analyses ; vous obtenez ainsi une solution unique sur le marché : des analyses multicanaux permettant de mettre le contenu affiché à l’emplacement concerné en corrélation avec d’autres sources de données.
 
 Le diagramme architectural suivant explique comment Adobe Analytics s’intègre avec AEM Screens :
 
@@ -67,15 +67,15 @@ Le diagramme architectural suivant explique comment Adobe Analytics s’intègr
 
 Les paramètres Adobe Analytics peuvent être configurés depuis la console OSGi.
 
-Accédez à **Configuration de la console Web Adobe Experience Manager** pour configurer Adobe Analytics pour AEM Screens, comme l’illustre la figure suivante :
+Accédez à **Configuration de la console web Adobe Experience Manager** pour configurer Adobe Analytics pour AEM Screens, comme l’illustre la figure suivante :
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Screens-Analytics : flux d&#39;activation {#screens-analytics-enablement-flow}
+## Screens Analytics : flux d’activation {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>Avant de configurer les propriétés, contactez le responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
 
 ![]()
 
@@ -83,14 +83,14 @@ Accédez à **Configuration de la console Web Adobe Experience Manager** pour co
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>Avant de configurer les propriétés, contactez le responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
 
-Le tableau suivant répertorie et décrit les propriétés permettant de configurer Adobe Analytics pour AEM Screens :
+Le tableau suivant répertorie et décrit les propriétés permettant de configurer Adobe Analytics pour AEM Screens :
 
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
@@ -123,7 +123,7 @@ Le tableau suivant répertorie et décrit les propriétés permettant de configu
 
 #### Utilisation d’Adobe Analytics Service dans AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Ce scénario appelle l’API Analytics par le biais d’appels REST d’un service d’analyse dans les composants de base du micrologiciel et des écrans d’instruments afin de créer et d’envoyer explicitement des événements spécifiques à un cas d’utilisation particulier tout en autorisant l’extensibilité où tout message personnalisé peut être envoyé à Analytics à partir d’un canal développé personnalisé.
+Ce scénario appelle l’API Analytics en lançant des appels REST depuis un service d’analyse des principaux composants Screens de microprogramme et d’instrument pour créer et envoyer explicitement des événements propres à un cas d’utilisation donné, tout en autorisant l’extensibilité si un message personnalisé peut être envoyé à Analytics depuis un canal développé et personnalisé.
 
 Les événements Analytics sont stockés hors ligne dans indexedDB, puis segmentés et envoyés ultérieurement vers le cloud.
 
