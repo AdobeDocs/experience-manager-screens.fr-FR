@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 Un affichage est un groupe virtuel d’écrans généralement positionnés les uns à côté des autres. L’affichage est en général permanent dans une installation. C’est l’objet avec lequel les auteurs de contenu travaillent. Ils le désignent par ailleurs toujours par le terme d’affichage logique pour le distinguer de ses équivalents physiques.
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour cet emplacement.
+Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 Vous découvrirez dans cette page comment créer et gérer des affichages pour Screens.
 
@@ -59,7 +59,7 @@ Une fois que l’affichage est en place, l’étape suivante est de créer une c
 
 >[!NOTE]
 >
->**La prochaine étape**:
+>**La prochaine étape** :
 >
 >Une fois que vous avez créé un affichage pour votre emplacement, vous devez attribuer un canal à votre affichage de façon à exploiter le contenu.
 >
@@ -71,7 +71,7 @@ Une configuration de périphérique fonctionne comme un espace réservé pour un
 
 Suivez les étapes ci-dessous pour créer une configuration de périphérique.
 
-1. Accédez à l’affichage souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation` ,.
+1. Accédez à l’affichage souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
 1. Sélectionnez votre dossier d’affichage et appuyez ou cliquez ensuite sur **Afficher le tableau de bord** dans la barre d’actions.
 1. Appuyez/cliquez sur **+ Ajouter la configuration de périphériques** en haut à droite du panneau **Périphériques**.
 
@@ -120,7 +120,7 @@ Cliquez sur (**...**) en haut à droite du panneau **INFORMATIONS D’AFFICHAGE*
 
 Cliquez sur **Propriétés** pour afficher ou modifier les propriétés de votre affichage.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. Par défaut, cette valeur est définie sur *300 secondes*.
+Vous pouvez également régler la valeur du retardateur d’événements pour votre canal interactif dans la propriété **Délai d’inactivité** sous l’onglet **Affichage**. Par défaut, cette valeur est définie sur *300 secondes*.
 
 Utilisez **CRXDE Lite** pour accéder à la propriété **idleTimeout**, à savoir `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
@@ -134,7 +134,7 @@ Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet périphér
 
 Le panneau **PÉRIPHÉRIQUES** fournit des informations sur les configurations des périphériques.
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+Cliquez sur (**...**) en haut à droite du panneau **APPAREILS** pour ajouter des configurations d’appareils ou mettre à jour les appareils.
 
 Cliquez sur la configuration du périphérique pour en afficher les propriétés, l‘attribuer ou le supprimer.
 
