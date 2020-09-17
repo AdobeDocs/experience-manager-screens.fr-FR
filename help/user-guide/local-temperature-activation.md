@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Pour ce cas d’utilisation, si la valeur de votre feuille de calcul Google Shee
 
 ## Conditions préalables {#preconditions}
 
-Before you start implementing the travel center local temperature activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+Avant de commencer à mettre en œuvre l’activation de la température locale de l’agence de voyages, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
 
 Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
@@ -53,7 +53,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
    1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
 
-   1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
+   1. Sélectionnez l’**opérateur** **supérieur ou égal à** (greater-than-or-equal) dans le menu déroulant.
 
    1. Saisissez la **valeur** **50**
 
