@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour du Feature Pack 202008
-description: La page décrit les Notes de mise à jour de Feature Pack 202008.
-translation-type: tm+mt
+description: La page décrit les notes de mise à jour du Feature Pack 202008.
+translation-type: ht
 source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -18,54 +18,55 @@ ht-degree: 36%
 
 ## Disponibilité {#availability}
 
-aem screens a publié AEM 6.5 Feature Pack 5.
+AEM Screens inclus dans le Feature Pack 5 d’AEM 6.5.
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
 ## Date de publication {#release-date}
 
-La date de publication pour AEM Screens Feature Pack 202008 est le 03 septembre 2020.
+La date de publication du Feature Pack 202008 d’AEM Screens est le 3 septembre 2020.
 
 ### Nouveautés {#what-is-new}
 
-* **Vue de la chronologie sur le Tableau de bord de planification**
+* **Mode Chronologie sur le tableau de bord de planification**
 
-   La Vue de chronologie permet à l&#39;utilisateur de vue les planifications attribuées au canal à partir du tableau de bord d&#39;affichage.
+   Le mode Chronologie permet à l’utilisateur d’afficher les planifications attribuées au canal à l’aide du tableau de bord d’affichage.
 
-   Voir Vue [de](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) chronologie pour plus d’informations.
+   Voir [Mode Chronologie](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) pour plus d’informations.
 
 * **Planning de périodicité**
 
-   Le calendrier de répétition vous permet de définir un calendrier périodique pour votre canal. Vous configurez plusieurs planifications de répétition pour un canal.
+   Le planning de périodicité permet de définir une planification récurrente pour votre canal. Vous configurez plusieurs plannings de périodicité pour un canal.
 
-   Pour plus d’informations, voir [Calendrier](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) de répétition.
+   Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
-* **Capacité de reconnaissance vocale pour l&#39;AEM Screens**
+* **Fonctionnalités de reconnaissance vocale pour AEM Screens**
 
    La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-   Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la parole comme méthode d’interaction avec leurs écrans.
+   Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la voix pour interagir avec leurs écrans.
 
-   Voir Reconnaissance [](voice-recognition.md) vocale pour plus d’informations.
+   Voir [Reconnaissance vocale](voice-recognition.md) pour plus d’informations.
 
 ### Problèmes et correctifs connus {#known-issues}
 
-Si vous utilisez AEM Screens 6.5.5 Service Pack, vous devez configurer un environnement pour Windows ou Android Player.
+Vous devez configurer un environnement pour le lecteur Windows Android si vous utilisez le Service Pack AEM Screens 6.5.5.
 
-Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
+Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None** dans **Configuration de la console web Adobe
+Experience Manager** sur toutes les instances de création et de publication AEM.
 
-* Voir [Mise en oeuvre du Lecteur](implementing-windows-player.md#fp-environment-setup) Windows 10 pour plus d’informations.
+* Voir [Mise en œuvre du lecteur Windows 10](implementing-windows-player.md#fp-environment-setup) pour plus d’informations.
 
-* Voir [Mise en oeuvre du lecteur](implementing-android-player.md#fp-environment-setup) Android pour plus d’informations.
+* Voir [Mise en œuvre du lecteur Android](implementing-android-player.md#fp-environment-setup) pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
-Les lecteurs AEM Screens suivants sont sortis pour AEM Screens AEM 6.5 Feature Pack 5.
+Les lecteurs AEM Screens suivants sont publiés pour la version d’AEM Screens incluse dans le Feature Pack 5 d’AEM 6.5.
 
 * Chrome OS
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
