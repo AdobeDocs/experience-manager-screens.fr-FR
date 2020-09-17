@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,8 +126,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    1. Accédez à **Demo** —> **Emplacements** —> **Région A**.
    1. Sélectionnez **Région A**, puis cliquez sur **+ Créer** dans la barre d’actions.
-   1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. You can leave the **Name** field empty while creating **Store 1** and **Store 2**.
-   1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Enter the **Title** as **Region A** and **Name** as **region** for this channel.
+   1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
+   1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et le **Nom** **région** pour ce canal.
 
    >[!CAUTION]
    >
