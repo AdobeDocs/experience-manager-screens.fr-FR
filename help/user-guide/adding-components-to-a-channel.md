@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 95%
 
 Les composants sont des éléments fondamentaux de l’expérience AEM (Adobe Experience Manager). Vous pouvez utiliser un certain nombre de composants et les ajouter au canal d’un projet AEM Screens.
 
-## Composants utilisés dans AEM Screens      {#components-in-aem-screens}
+## Composants utilisés dans AEM Screens  {#components-in-aem-screens}
 
 AEM Screens fournit différents composants AEM qui peuvent être utilisés dans un projet Screens.
 
-### Affichage des composants AEM Screens      {#viewing-aem-screens-components}
+### Affichage des composants AEM Screens  {#viewing-aem-screens-components}
 
 Lorsque vous créez un projet AEM Screens, vous pouvez voir la liste des composants par défaut qui peuvent être ajoutés au projet.
 
@@ -52,7 +52,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 1. Sélectionnez le mode **Conception**.
 1. Sélectionnez l’éditeur de conception complet à droite et cliquez sur le symbole de paramètres pour ouvrir la boîte de dialogue **Conception ParSys**.
-1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant montre l’ajout d’un composant **Livefyre** à un projet AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -60,7 +60,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 >
 >De la même façon, vous pouvez ajouter au projet autant de nouveaux composants que vous le souhaitez, s’ils sont compatibles avec AEM Screens.
 
-## Présentation des composants AEM Screens      {#understanding-aem-screen-components}
+## Présentation des composants AEM Screens  {#understanding-aem-screen-components}
 
 La section suivante décrit les composants AEM Screens que vous pouvez utiliser dans le projet.
 
@@ -79,7 +79,7 @@ Le composant Application présente les propriétés suivantes :
 | ***Chemin de l’application*** | Sélectionnez le chemin absolu où se trouve l’application. |
 | ***Durée (ms)*** | Sélectionnez la durée de l’application. Par défaut, la durée est définie sur -1, ce qui signifie que l’élément s’exécute indéfiniment (il s’agit par conséquent d’une application sur une seule page). Si vous définissez une valeur supérieure à 0 pour la durée, l’élément s’affiche pendant la durée spécifiée avant que l’élément suivant n’apparaisse. |
 
-L’exemple suivant montre comment incorporer un composant d’application avec la prévisualisation de ses propriétés :
+L’exemple suivant illustre la manière dont un composant d’application doit être incorporé avec l’aperçu de ses propriétés :
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -87,7 +87,7 @@ L’exemple suivant montre comment incorporer un composant d’application avec 
 >
 >Reportez-vous à l’exemple ci-dessus pour afficher les propriétés de chacun des composants suivants.
 
-### Canal      {#channel}
+### Canal  {#channel}
 
 Le composant **Canal** permet d’ajouter un canal entier au projet.
 
@@ -96,7 +96,7 @@ Le composant Canal présente les propriétés suivantes :
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
@@ -112,14 +112,14 @@ Le composant Canal présente les propriétés suivantes :
 
 ### Page incorporée {#embedded-page}
 
-Une **page incorporée** permet d’ajouter une page incorporée à un projet. Par exemple, il peut s’agir d’une application Web ou d’un catalogue de produits.
+Une **page incorporée** permet d’ajouter une page incorporée à un projet. Par exemple, il peut s’agir d’une application web ou d’un catalogue de produits.
 
 La page incorporée présente les propriétés suivantes :
 
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
@@ -146,7 +146,7 @@ La séquence incorporée présente les propriétés suivantes :
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
@@ -159,7 +159,7 @@ La séquence incorporée présente les propriétés suivantes :
   </tr>
   <tr>
    <td><strong><em>Stratégie</em></strong></td>
-   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. La définition de cette valeur sur <strong>Original</strong> implique que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parent. L’autre valeur possible est <strong>seul(e)</strong> ; elle permet d’afficher un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, etc.).</td>
+   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. La définition de cette valeur sur <strong>Original</strong> implique que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parent. L’autre valeur possible est <strong>seul(e)</strong> ; elle permet d’afficher un seul élément de la séquence secondaire à chaque exécution (par exemple, le premier élément de la première boucle, le deuxième élément de la deuxième boucle, etc.).</td>
   </tr>
  </tbody>
 </table>
@@ -175,7 +175,7 @@ La séquence incorporée dynamique présente les propriétés suivantes :
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@ Pour en savoir plus sur la création d’un fragment d’expérience et son util
 
 >[!NOTE]
 >
->The **Client-side Libraries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libraries** and the Static Files that are added from the experience fragment&#39;s **Properties**.
+>Les **bibliothèques côté client** et les **fichiers statiques** que vous ajoutez depuis ce composant viennent s’ajouter aux **bibliothèques côté client** déjà configurées et aux fichiers statiques ajoutés à partir des **propriétés** du fragment d’expérience.
 
 ### Image {#image}
 
@@ -258,7 +258,7 @@ Le composant Transition présente les propriétés suivantes :
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
@@ -313,7 +313,7 @@ Le composant Vidéo présente les propriétés suivantes :
 <table>
  <tbody>
   <tr>
-   <td><strong>Propriétés</strong></td>
+   <td><strong>Propriété</strong></td>
    <td><strong>Description</strong></td>
   </tr>
   <tr>
