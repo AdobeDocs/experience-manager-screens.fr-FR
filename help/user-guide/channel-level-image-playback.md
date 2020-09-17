@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Une fois que vous avez créé un canal de séquence et que vous y avez ajouté d
 
 Avant de commencer à implémenter cette fonctionnalité, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
-1. Create an AEM Screens project example, **ChannelLevelPlayback**.
+1. Créer un projet AEM Screens, **ChannelLevelPlayback**.
 
-1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux.**
+1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux**.
 
 1. Ajouter un contenu à **PlaybackChannel**.
 
