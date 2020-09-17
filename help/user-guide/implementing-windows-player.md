@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,26 +30,27 @@ Pour mettre en œuvre le lecteur Windows pour AEM Screens, installez le lecteur 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
->Il n&#39;existe pas de mode fenêtre dans le lecteur Windows. Il est toujours en mode plein écran.
+>Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode plein écran.
 
-### Configuration de l’Environnement pour AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configuration de l’environnement pour le Service Pack AEM Screens 6.5.5 {#fp-environment-setup}
 
 >[!NOTE]
->Vous devez configurer un environnement pour le lecteur Windows si vous utilisez AEM Screens 6.5.5 Service Pack.
+>Vous devez configurer un environnement pour le lecteur Windows si vous utilisez le Service Pack AEM Screens 6.5.5.
 
-Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun** à partir de la Console Web de **Adobe Experience ManagerConfiguration sur toutes les instances d’auteur et de publication AEM.**
+Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None** dans **Configuration de la console web Adobe
+Experience Manager** sur toutes les instances de création et de publication AEM.
 
 Suivez les étapes ci-dessous :
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. Accédez à **Configuration de la console web Adobe
+Experience Manager** en utilisant `http://localhost:4502/system/console/configMgr`.
 
 1. Recherchez *Adobe Granite Token Authentication Handler*.
 
-1. Définissez l’attribut **MêmeSite pour les cookies** de jeton de connexion de **Lax** sur **Aucun**.
+1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **Save**.
 
 ### Méthode ad hoc {#ad-hoc-method}
 
@@ -85,7 +86,7 @@ Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
 1. Recherchez le fichier de configuration sous ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Mettez à jour le fichier JSON de configuration en utilisant les informations ci-dessous, puis copiez le même dossier sur tous les systèmes où réside le lecteur.
 
-### Attributs de règle   {#policy-attributes}
+### Attributs de règle  {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
@@ -98,7 +99,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false lorsqu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règles   {#example-policy-json-file}
+#### Exemple de fichier JSON de règle  {#example-policy-json-file}
 
 ```
 {
