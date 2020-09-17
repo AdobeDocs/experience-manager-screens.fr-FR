@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
+   c. Sélectionnez le fragment **ScreensFragment** depuis l’assistant **Créer une Live Copy**, puis cliquez sur **Suivant**.
 
    
 d. Saisissez le **Titre** et le **Nom** **Screens**.
