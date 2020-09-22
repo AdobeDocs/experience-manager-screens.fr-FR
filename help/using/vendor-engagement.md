@@ -3,11 +3,11 @@ title: Engagement du fournisseur
 seo-title: Engagement du fournisseur pour AEM Screens
 description: Cette page décrit l’engagement du fournisseur dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit l’engagement du fournisseur dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Au cours de cette activité, il est important d’identifier les principaux four
 
 * Définissez les capacités et les tâches de chaque fournisseur en fonction de la catégorie de produits concernée.
 
-* Confirm delivery *leadtimes* for all deliverables and create a deployment plan that accommodates for all leadtimes working backwards from the desired install date(s) of the first required installations.
+* Confirmez les *délais* de livraison pour tous les livrables et créez un plan de déploiement qui tienne compte de tous les délais en amont, à partir des dates d’installation souhaitées des premières installations requises.
 
 Une fois toutes les étapes effectuées, vous devriez disposer d’un plan de déploiement *Jour 1* complet, prêt à être exécuté.
