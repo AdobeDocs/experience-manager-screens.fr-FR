@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Suivez les étapes ci-dessous pour configurer ***DeviceServiceImpl***:
 
 1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
 
-1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
+1. **Configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez *deviceservice*. Pour rechercher la propriété, appuyez sur **Command+F** pour macOS et **Ctrl+F** pour Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
