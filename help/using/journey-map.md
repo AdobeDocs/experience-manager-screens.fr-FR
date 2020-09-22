@@ -3,11 +3,11 @@ title: Cartographie du parcours client
 seo-title: Cartographie du parcours client pour AEM Screens
 description: Cette page décrit la cartographie du parcours client d’AEM Screens
 seo-description: Cette page décrit la cartographie du parcours client d’AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >
 >Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
-Une carte de voyage de l’expérience utilisateur est conçue pour fournir une visibilité sur la façon dont et pourquoi les utilisateurs expérimenteront le contenu numérique diffusé par le réseau.
+Ce type de carte est conçu pour vous permettre d’examiner l’expérience utilisateur par rapport au contenu numérique diffusé par le réseau.
 
 ## Création de la carte du parcours utilisateur {#building-map}
 
