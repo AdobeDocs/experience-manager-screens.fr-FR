@@ -3,11 +3,11 @@ title: Maintenance et assistance pour le jour 2
 seo-title: Maintenance et assistance pour le jour 2 pour AEM Screens
 description: Cette page décrit la maintenance et l’assistance pour le jour 2
 seo-description: Cette page décrit la maintenance et l’assistance pour le jour 2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Suivez les consignes d’assistance et de maintenance pour le jour 2 de la phas
    * **Screens Feature Pack**
    * **AEM Cumulative Fix Pack**
 
-1. Identifiez tous les packs de développement (par exemple, les composants principaux de la gestion de contenu Web) ou les kits d’outils tiers (par exemple, SAP Hybris) requis.
+1. Identifiez les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
 
 1. Installez les mêmes packages logiciels sur vos environnements de développement locaux. 
 
