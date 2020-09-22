@@ -3,11 +3,11 @@ title: Déclencheurs de données
 seo-title: Déclencheurs de données
 description: Cette page décrit les déclencheurs de données
 seo-description: Cette page décrit les déclencheurs de données
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
