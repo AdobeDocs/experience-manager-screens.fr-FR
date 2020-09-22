@@ -6,9 +6,9 @@ getting-started-title: Guide des bonnes pratiques pour AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
@@ -45,8 +45,8 @@ ht-degree: 100%
       + [Réseau mobile avec routeur de données mobile et composants réseau actifs](/help/using/mobile-network-router.md)
       + [Réseau d’entreprise fermé (câblé/sans fil)](/help/using/enclosed-corporate-network.md)
    + [Configurations de périphériques](device-configurations.md)
-   + [Tests et contrôle de la qualité](testing-quality-assurance.md)
+   + [Tests et assurance qualité](testing-quality-assurance.md)
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
 + Assistance et maintenance {#ongoing-support}
    + [Assistance et surveillance](support-monitoring.md)
-   + [Prise en charge et maintenance de la plate-forme pour le jour 2](day-two-support-maintenance.md)
+   + [Assistance et maintenance de la plate-forme pour le jour 2](day-two-support-maintenance.md)
