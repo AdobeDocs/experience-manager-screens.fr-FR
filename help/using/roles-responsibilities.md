@@ -3,11 +3,11 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Le tableau ci-dessous résume la **mise en œuvre du projet (conception de l’a
 | Tests et déploiement | RA | C | RA | I |
 | Configuration du serveur | I | RA | I | I |
 | Plan de mise à jour du contenu | I | RA | C | C |
-| Plan pour la transition pilote-production | RA | RA | I | I |
+| Plan de transition du projet pilote à la phase de production | RA | RA | I | I |
 | Transfert de connaissances | RA | RA | I | I |
 
 Le tableau suivant résume la **mise en œuvre du projet (état de préparation du point de vente) pour le jour 1** :
