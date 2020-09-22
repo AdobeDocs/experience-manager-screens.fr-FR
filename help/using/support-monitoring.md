@@ -3,11 +3,11 @@ title: Suivi de l’assistance
 seo-title: Suivi de l’assistance pour AEM Screens
 description: Cette page décrit le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Le suivi de l’assistance vous permet de résoudre les problèmes liés au cont
    * Sur votre ordinateur portable, enregistrez un *lecteur Chrome local* (en tant qu’extension) sur cet écran et voyez si un écran noir s’affiche.
    * Cliquez avec le bouton droit de la souris et examinez les *journaux appropriés*.
 
-   De plus, si cela ne se produit pas sur le lecteur local mais uniquement sur le périphérique :
+   Si cela se produit uniquement sur l’appareil, mais pas sur le lecteur local :
 
    * Vérifiez le *type de média* (en cours d’utilisation) qui peut présenter des problèmes sur cet appareil et assurez-vous également que le contenu a bien été téléchargé en local (effacer le cache du canal dans l’interface d’administration).
    * Incluez les *journaux d’appareil* dans le dossier d’incident afin d’accélérer la procédure de dépannage.
