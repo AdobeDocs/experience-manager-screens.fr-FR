@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,9 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23h59 (comme
 
 >[!NOTE]
 Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
-[Téléchargements](https://download.macromedia.com/screens/)[du lecteur AEM Screens Player Utilisation de AEM Screens Player](working-with-screens-player.md)
+
+[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+[Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
 
 ## Gestion de la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
