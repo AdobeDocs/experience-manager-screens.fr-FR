@@ -6,7 +6,7 @@ seo-description: Consultez cette page pour obtenir des réponses aux questions f
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 87%
@@ -129,7 +129,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
-### 5. Comment résoudre le problème si un lecteur Screens envoie en continu des demandes de connexion ?{#requests-login}
+### 5. Comment résoudre les problèmes liés à l’envoi continu de demandes de connexion par un lecteur AEM Screens ?{#requests-login}
 
 Suivez les étapes ci-dessous pour résoudre les problèmes d’un lecteur AEM Screens qui envoie continuellement des requêtes à `/content/screens/svc.json` et `/libs/granite/core/content/login.validate/j_security_check`:
 
