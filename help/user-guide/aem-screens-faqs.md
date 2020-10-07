@@ -6,10 +6,10 @@ seo-description: Consultez cette page pour obtenir des réponses aux questions f
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7f897f969e7ca9c9c478b885cf716303bbbe5049
+source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -133,14 +133,14 @@ Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujour
 
 Suivez les étapes ci-dessous pour résoudre les problèmes d’un lecteur AEM Screens qui envoie continuellement des requêtes à `/content/screens/svc.json` et `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Lorsqu’un lecteur AEM Screens début, il envoie une requête à `/content/screens/svc.json`un lecteur qui obtient un code d’état 404 dans la réponse, celui-ci initie une requête d’authentification pour s’authentifier à l’aide `/libs/granite/core/content/login.validate/j_security_check` de l’instance de *publication* . If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+1. Lorsque le lecteur AEM Screens début, il le demande à `/content/screens/svc.json`. Lorsque le lecteur obtient un code d’état 404 dans la réponse, il initie une demande d’authentification à l’aide `/libs/granite/core/content/login.validate/j_security_check` de l’instance de *publication* . If there is a custom error handler in the *publish* instance, make sure to return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
 
-1. Vérifiez si votre configuration de répartiteur autorise ces requêtes dans la `/filters` section.
+1. Vérifiez si votre configuration de répartiteur autorise ces requêtes dans le `/filters`.
 Voir [Configuration des Filtres](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) d’écran pour plus d’informations.
 
 1. Vérifiez si les règles de réécriture du répartiteur réécrivent les chemins d&#39;écran vers un chemin différent.
 
-1. Vérifiez si vous avez `/etc/map` des règles sur l’instance d’ *auteur* ou de *publication* et si les chemins d’écran correspondent `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans `/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
+1. Vérifiez si vous avez `/etc/map` des règles sur l’instance d’ *auteur* ou de *publication* et si les chemins d’écran correspondent `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans `/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin.
 
 1. Vérifiez si la configuration de l&#39;atelier de résolution de ressources Apache Sling provoque des réécritures internes.
 
