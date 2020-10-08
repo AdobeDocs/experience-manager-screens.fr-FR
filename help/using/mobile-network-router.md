@@ -1,9 +1,9 @@
 ---
 title: Réseau mobile avec routeur de données mobile et composants réseau actifs
 description: La page décrit le réseau mobile avec routeur de données mobiles et composants réseau actifs
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -80,7 +80,9 @@ Lors de la réflexion relative au choix du réseau à utiliser, il est recommand
 >[!NOTE]
 >
 >Le package de données nécessaire doit respecter les conditions suivantes :
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +109,3 @@ Les tableaux ci-dessous offrent une bonne vue d’ensemble des données clés de
 >Toutes ces informations font référence à la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
