@@ -3,9 +3,9 @@ title: Assistance après le lancement
 seo-title: Assistance après le lancement pour AEM Screens
 description: Cette page décrit l’assistance après le lancement dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit l’assistance après le lancement dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -29,10 +29,12 @@ De plus, pour garantir un succès durable, il est essentiel d’établir un cont
 
 >[!NOTE]
 >
-> Vous devez définir des paramètres opérationnels inclus à un stade précoce de l’établissement des budgets opérationnels, et aligner les responsabilités avec l’implémentateur d’AEM et l’intégrateur A/V.
-Le déploiement d’un réseau publicitaire avec de nombreux intervenants est-il lié à un réseau monétisé ? Cela peut exiger des délais de résolution beaucoup plus courts que dans le cas d’un réseau de communications d’entreprise. 
-L’application est-elle très visible pour l’équipe de direction du client final ? Des traitements différents peuvent être réservés aux sites à forte visibilité.
-S’agit-il d’une application vitale pour les activités commerciales de l’entreprise ? C’est le cas, par exemple, des panneaux de menus pour une chaîne de restauration rapide. Dans ce cas, le client final peut exiger une résolution des problèmes sur site, avec des temps de réponse très courts, ainsi qu’une redondance du matériel de lecture.
+>Vous devez définir des paramètres opérationnels inclus à un stade précoce de l’établissement des budgets opérationnels, et aligner les responsabilités avec l’implémentateur d’AEM et l’intégrateur A/V.
+>
+>* Le déploiement d’un réseau publicitaire avec de nombreux intervenants est-il lié à un réseau monétisé ? Cela peut exiger des délais de résolution beaucoup plus courts que dans le cas d’un réseau de communications d’entreprise.
+>* L’application est-elle très visible pour l’équipe de direction du client final ? Des traitements différents peuvent être réservés aux sites à forte visibilité.
+>* S’agit-il d’une application vitale pour les activités commerciales de l’entreprise ? C’est le cas, par exemple, des panneaux de menus pour une chaîne de restauration rapide. Dans ce cas, le client final peut exiger une résolution des problèmes sur site, avec des temps de réponse très courts, ainsi qu’une redondance du matériel de lecture.
+
 
 ## Observations et requêtes après le lancement {#considerations-queries}
 
