@@ -3,9 +3,9 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -92,15 +92,14 @@ En règle générale, les chefs de projet gèrent l’intégralité de votre dé
 Pour garantir la réussite du déploiement de la solution de signalétique digitale, il est d’usage de segmenter le projet en trois étapes.  Ces étapes sont généralement désignées sous le nom de **jours**. Il ne s’agit pas de jours au sens littéral du terme, mais plutôt de désignations pour chaque étape majeure du projet.
 
 1. La première étape est appelée *Jour 0*. Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement la portée du projet.
-
 1. La deuxième étape, ou *Jour 1*, fait référence à toutes les activités faisant partie de l’effort de déploiement.
-
 1. La troisième et dernière étape, ou *Jour 2*, fait référence à toutes les opérations en cours, ainsi qu’à tous les éléments de support dans le cadre de la solution globale.
 
 >[!NOTE]
 >
 >Bien que ce guide mette principalement l’accent sur le *jour 1* et le *jour 2*, il est important de se pencher sur les trois étapes pour mener à bien un projet de signalétique digitale.
-Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
+>
+>Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
 
 ## Matrice RACI {#raci-chart}
 
