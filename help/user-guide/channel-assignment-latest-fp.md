@@ -2,9 +2,9 @@
 title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-translation-type: ht
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 100%
 
@@ -14,6 +14,7 @@ ht-degree: 100%
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >Cette section décrit l’attribution et la planification des canaux pour le Feature Pack AEM Screens 6.5.5 et versions ultérieures.
 
 Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
@@ -21,6 +22,7 @@ Une fois que vous avez configuré un affichage, vous devez lui attribuer un cana
 Cette page montre l’attribution d’un canal à votre affichage, les propriétés du canal et les tranches horaires.
 
 >[!NOTE]
+>
 >Vous pouvez attribuer plusieurs canaux à un affichage.
 
 
@@ -78,12 +80,14 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
 
 1. Dans l’option **Planification**, sélectionnez la **fenêtre d’activation** et le **planning de périodicité**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
+   >
    >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
@@ -137,6 +141,7 @@ Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par
 La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
 
 >[!NOTE]
+>
 >La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés par ordre de priorité descendante.
 
 ### Événements pris en charge {#supported-events-channel}
@@ -157,13 +162,14 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 
 * **Immédiatement** : chaque fois que la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
 * **À la fin de l’élément actuel** : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre la fin de la lecture de l’élément en cours dans la séquence avant d’actualiser ou de lire le nouveau contenu.
+
    >[!NOTE]
    >Cette option est sélectionnée par défaut.
+
 * **À la fin de la séquence** : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre que la séquence entière se termine. Juste avant la séquence souhaitée, vous revenez sur le premier élément, actualisez ou lisez le nouveau contenu.
 
    >[!NOTE]
    >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
-
 
 Les propriétés suivantes sont définies à partir de l’option **Planification** de la boîte de dialogue **Attribution de canaux**.
 
@@ -220,4 +226,3 @@ Cet exemple présente les tranches horaires mises en œuvre dans un casino où u
 >[!NOTE]
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
-
