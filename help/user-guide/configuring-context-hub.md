@@ -10,9 +10,9 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 100%
 
@@ -68,6 +68,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >L’exemple spécifique ci-dessous présente les feuilles de calcul Google comme un magasin de données chargé de déclencher un changement de ressource si la valeur est supérieure à 100 ou inférieure à 50.
 
 ## Étape 2 : paramétrage des configurations de magasin {#step-setting-store-configurations}
@@ -96,19 +97,22 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Dans le cadre d’AEM 6.5 Feature Pack 4 ou d’AEM 6.4 Feature Pack 8, les clients doivent effectuer une mise à jour de `/conf/screens/settings/cloudsettings` vers `sling:Folder`.
-      > 
+      >
       >Suivez les étapes ci-dessous :
       >
       >1. Accédez à CRXDE Lite, puis à `/conf/screens/settings/cloudsettings`.
       >1. Vérifiez que `cloudsettings jcr:primaryType` se trouve dans `sling:Folder`. Si `jcr:primaryType` ne se trouve pas dans `sling:folder`, passez aux étapes suivantes.
-      > 1. Cliquez avec le bouton droit sur `/conf/screens/settings` et créez un nœud avec le *nom* **cloudsettings1** et le *type* **sling:Folder**, puis enregistrez les modifications.
+      >1. Cliquez avec le bouton droit sur `/conf/screens/settings` et créez un nœud avec le *nom* **cloudsettings1** et le *type* **sling:Folder**, puis enregistrez les modifications.
       >1. Déplacez tous les nœuds sous `/conf/screens/settings/cloudsettings` vers `cloudsettings1`.
       >1. Supprimez `cloudsettings` et enregistrez.
       >1. Renommez `cloudsettings1` en `cloudsettings` et enregistrez.
       >1. /conf/screens/settings/cloudsettings doit maintenant présenter `sling:Folder` comme `jcr:primaryType`.
-Vous devez suivre ces étapes dans l’instance de création et de publication avant ou après la mise à niveau.
 
+
+      >
+      >Vous devez suivre ces étapes dans l’instance de création et de publication avant ou après la mise à niveau.
 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
 
@@ -116,8 +120,6 @@ Vous devez suivre ces étapes dans l’instance de création et de publication a
       >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le **Titre de configuration** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Entrez votre configuration json spécifique. Vous pouvez par exemple utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer**. La configuration du magasin s’affichera avec le nom **Google Sheets** dans la configuration ContextHub.
 
@@ -142,10 +144,11 @@ Vous devez suivre ces étapes dans l’instance de création et de publication a
 
       >[!NOTE]
       Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
-Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
+      Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
       >[!CAUTION]
       Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
+
 
 1. **Configuration de la segmentation du magasin**
 
