@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1473'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -129,21 +129,21 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
-### 5. How to troubleshoot if an AEM Screens player continuously sends login requests?{#requests-login}
+### 5. Comment résoudre le problème d’un lecteur AEM Screens qui envoie en continu des demandes de connexion ?{#requests-login}
 
 Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qui envoie continuellement des requêtes à `/content/screens/svc.json` et `/libs/granite/core/content/login.validate/j_security_check` :
 
-1. Lorsque le lecteur AEM Screens début, il le demande à `/content/screens/svc.json`. Lorsque le lecteur obtient un code d’état 404 dans la réponse, il initie une demande d’authentification à l’aide `/libs/granite/core/content/login.validate/j_security_check` de l’instance de *publication* . If there is a custom error handler in the *publish* instance, make sure to return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+1. Lorsque le lecteur AEM Screens démarre, il le demande à `/content/screens/svc.json`. Lorsque le lecteur obtient un code d’état 404 en réponse, il initie une demande d’authentification à l’aide de `/libs/granite/core/content/login.validate/j_security_check` par rapport à l’instance de *publication*. Si l&#39;instance de *publication* comporte un gestionnaire d’erreur personnalisé, veillez à retourner le code d’état 404 pour l’utilisateur anonyme sur `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
 
-1. Check if your dispatcher configuration allows these requests in the `/filters`.
+1. Vérifiez si votre configuration de Dispatcher autorise ces requêtes dans la `/filters`.
 
    Pour plus d’informations, voir la section [Configuration des filtres Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters).
 
 1. Vérifiez si les règles de réécriture de Dispatcher réécrivent les chemins Screens vers un chemin différent.
 
-1. Vérifiez si vous avez des règles `/etc/map` sur l&#39;instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. Resolving the exact url in `/system/console/jcrresolver` helps in identifying if the *publish* instance is rewriting these URLs to any other path.
+1. Vérifiez si vous avez des règles `/etc/map` sur l&#39;instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans /`/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
 
-1. Vérifiez si la configuration de l&#39;atelier de résolution de ressources Apache Sling provoque des réécritures internes.
+1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
 ## Conseils pratiques de dépannage {#general-troubleshooting-tips}
 
