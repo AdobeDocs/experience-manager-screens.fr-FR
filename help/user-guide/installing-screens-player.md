@@ -4,11 +4,11 @@ seo-title: Installation du lecteur Screens
 description: Installation du lecteur Screens
 seo-description: Installation du lecteur Screens
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
