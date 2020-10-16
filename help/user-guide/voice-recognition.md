@@ -1,11 +1,11 @@
 ---
 title: Reconnaissance vocale dans AEM Screens
 description: Cette page décrit la fonction de reconnaissance vocale d’AEM Screens.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
