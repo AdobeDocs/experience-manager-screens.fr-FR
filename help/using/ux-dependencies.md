@@ -3,8 +3,11 @@ title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
 seo-title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
 description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
 seo-description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
