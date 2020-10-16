@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
-source-wordcount: '2535'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
