@@ -3,11 +3,11 @@ title: Configuration de l’auteur et de la publication dans AEM Screens
 seo-title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
-source-wordcount: '1910'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Pour créer des agents de réplication, vous devez apprendre à créer un agent 
 
 Trois agents de réplication sont nécessaires pour Screens :
 
-1. **Agent de réplication par défaut ***(spécifié comme***Agent de réplication standard**)
+1. **Agent de réplication par défaut ***(spécifié comme*** Agent de réplication standard**)
 1. **Agent de réplication Screens**
 1. **Agent de réplication inverse**
 
