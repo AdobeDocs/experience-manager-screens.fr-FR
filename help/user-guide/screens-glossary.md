@@ -3,11 +3,11 @@ title: Glossaire
 seo-title: Glossaire
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
