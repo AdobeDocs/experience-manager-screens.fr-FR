@@ -9,11 +9,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
