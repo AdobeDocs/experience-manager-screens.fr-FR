@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Si **Restaurant1** > **Restaurant2**, la valeur affectée à **AdTarget** est de
 
 ## Conditions préalables {#preconditions}
 
-Avant de commencer à mettre en œuvre l’activation de la réservation, vous devez apprendre à configurer le ***magasin de données ***, la***segmentation d’audience*** et l’***activation du ciblage pour les canaux ***dans un projet AEM Screens.
+Avant de commencer à mettre en œuvre l’activation de la réservation, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation d’audience*** et l’***activation du ciblage pour les canaux*** dans un projet AEM Screens.
 
 Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
@@ -44,7 +47,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
 1. **Configuration des segments dans les audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience ***dans la page**[Configuration de ContextHub dans la AEM Screens](configuring-context-hub.md)**pour plus d’informations).
+   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** dans la page **[Configuration de ContextHub dans la AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
    1. Sélectionnez **Sheets A1 1** et cliquez sur **Modifier**.
 
@@ -81,5 +84,6 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
    1. Mettez à jour la valeur dans les colonnes **Restaurant1** et **Restaurant2**. Si **Restaurant1** > **Restaurant2,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
+
    ![result5](assets/result5.gif)
 
