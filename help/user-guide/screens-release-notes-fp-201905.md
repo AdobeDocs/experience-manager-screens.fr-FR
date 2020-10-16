@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,7 @@ La date de publication d’AEM Screens Feature Pack 201905 est le 16 mai 2019
 
 L’Importateur de projet est une fonctionnalité disponible dans AEM Screens qui vous permet d’importer en bloc un ensemble d’emplacements à partir d’une feuille de calcul CSV/XLS dans votre projet AEM Screens.
 
-Pour plus d’informations, reportez-vous au **[Nouvel outil d’importation de projets à partir d’un fichier](project-importer.md).**
+Pour plus d’informations, reportez-vous au **[Nouvel outil d’importation de projets à partir d’un fichier](project-importer.md)**.
 
 * **Transition de ContentSync à SmartSync**
 
@@ -46,7 +49,7 @@ Pour plus d’informations, reportez-vous à **[Transition de ContentSync à Sma
 
 Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence vers lequel peut basculer l’auteur du contenu depuis un canal de séquence en cas de condition préalable.
 
-Pour plus d’informations, consultez le cas d’utilisation du **[canal d'urgence](emergency-channel.md)**.
+Pour plus d’informations, consultez le cas d’utilisation du **[canal d&#39;urgence](emergency-channel.md)**.
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 
@@ -62,6 +65,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.3.3.3 Feature Pack 
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous aux **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)**.
