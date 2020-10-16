@@ -3,11 +3,11 @@ title: Environnements pour [!UICONTROL AEM Screens]
 seo-title: Environnements pour [!UICONTROL AEM Screens]
 description: Cette page décrit les environnements adaptés à un projet AEM Screens.
 seo-description: Cette page présente les environnements adaptés à un projet AEM Screens.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
