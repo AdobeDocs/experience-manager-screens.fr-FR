@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 100%
 
 ---
 
