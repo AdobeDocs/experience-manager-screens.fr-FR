@@ -4,8 +4,11 @@ seo-title: Durée de lecture des images
 description: Suivez cette page pour en savoir plus sur la durée de lecture des images.
 seo-description: Suivez cette page pour en savoir plus sur la durée de lecture des images.
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
