@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,13 +45,13 @@ La section suivante contient une présentation des principaux termes utilisés d
 
 ### Preuve de concept (PDC) {#proof-of-concept-poc}
 
-L’objectif d’une PDC est d’obtenir un retour initial sur les principales fonctionnalités d’une solution et de permettre au client final et à l’intégrateur AV d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d'œuvre et en ressources. Un document de synthèse permet également aux deux parties d’évaluer le rendement de la solution, qui se mesure généralement grâce aux éléments suivants :
+L’objectif d’une PDC est d’obtenir un retour initial sur les principales fonctionnalités d’une solution et de permettre au client final et à l’intégrateur AV d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d&#39;œuvre et en ressources. Un document de synthèse permet également aux deux parties d’évaluer le rendement de la solution, qui se mesure généralement grâce aux éléments suivants :
 
 ### Contrôle de la qualité {#quality-control}
 
 Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur AV. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, implémente et supervise l’installation des composants matériels dans un « environnement de labo » dans les locaux de l’intégrateur AV. Cela permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
 
-Une fois les tests de CQ terminés, l'équipe d'ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’exploitation. Les aspects des systèmes à tester sont les suivants :
+Une fois les tests de CQ terminés, l&#39;équipe d&#39;ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’exploitation. Les aspects des systèmes à tester sont les suivants :
 
 * Intégrations des implémentateurs d’AEM
 * Intégrations de systèmes tiers
@@ -65,7 +68,7 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 
 ### Tests, PDC, pilotes et déploiements
 
->[!VIDEO](https://video.tv.adobe.com/v/28405?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Découvrez les principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.*
 
