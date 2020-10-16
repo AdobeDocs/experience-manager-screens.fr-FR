@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 100%
 
 ---
 
@@ -40,11 +43,12 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    1. Accédez à la feuille de calcul Google appelée ContextHubDemo.
    1. Ajoutez trois colonnes (Rouge, Vert et Bleu) avec les valeurs correspondantes à trois sweat-shirts différents.
+
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **Configuration des audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** sur la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)**pour plus d’informations).
+   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** sur la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
    1. Ajoutez trois nouveaux segments **For_Red**, **For_Green** et **For_Blue**.
 
@@ -67,6 +71,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    1. Sélectionnez le **Type de données** **nombre**
 
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante **Nom de la deuxième propriété**
+
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
    De la même manière, modifiez et ajoutez des règles de propriétés de comparaison au segment **For_Blue**, comme illustré ci-dessous :
@@ -92,8 +97,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
+   Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
 
 1. **Ajout d’une image par défaut**
 
@@ -101,11 +105,11 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    1. Sélectionnez **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
 
    1. Cliquez sur **Commencer le ciblage**.
+
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
+   Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -117,5 +121,6 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
    1. Modifiez la valeur des trois colonnes et notez que l’image d’affichage est mise à jour en fonction de la valeur de stock la plus élevée.
+
    ![retail_result](assets/retail_result.gif)
 
