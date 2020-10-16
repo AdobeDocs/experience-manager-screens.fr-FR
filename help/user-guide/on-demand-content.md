@@ -5,11 +5,11 @@ description: 'Consultez cette page pour en savoir plus sur la mise à jour de co
 seo-description: 'Consultez cette page pour en savoir plus sur la mise à jour de contenu On-Demand.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
