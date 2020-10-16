@@ -10,9 +10,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
