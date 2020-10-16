@@ -2,9 +2,9 @@
 title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 100%
 
