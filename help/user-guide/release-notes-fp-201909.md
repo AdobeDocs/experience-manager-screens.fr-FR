@@ -3,8 +3,11 @@ title: Notes de mise à jour du Feature Pack 201909
 seo-title: Notes de mise à jour du Feature Pack 201909
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201909, publié le mercredi 31 juillet 2019.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201909, publié le lundi 7 octobre 2019.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ La date de publication d’AEM Screens Feature Pack 201909 est le lundi 7 oct
 
    La tableau de bord du périphérique affiche les informations relatives à le périphérique, son statut, une capture d’écran, les journaux, les préférences, ainsi que les détails nécessaires pour surveiller les activités et les fonctions du périphérique. Les panneaux ont été mis à jour.
 
-   Pour plus d'informations, consultez [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md).
+   Pour plus d&#39;informations, consultez [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md).
 
 * **Activation du délai d’expiration pour autoriser l’interaction clavier**
 
@@ -52,6 +55,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.6 Feature Pack 6 
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
