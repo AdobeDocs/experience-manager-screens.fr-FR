@@ -3,8 +3,11 @@ title: Utilisation du lecteur Chrome comme extension
 seo-title: Utilisation du lecteur Chrome comme extension
 description: 'null'
 seo-description: 'null'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 100%
 
 ---
 
