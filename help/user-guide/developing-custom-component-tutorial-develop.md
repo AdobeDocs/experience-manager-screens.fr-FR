@@ -9,11 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
-source-wordcount: '2186'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -550,7 +550,7 @@ Le code ci-dessous indique les exigences minimales du fichier `pom.xml` pour ce 
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Code terminé {#finished-code}
 
