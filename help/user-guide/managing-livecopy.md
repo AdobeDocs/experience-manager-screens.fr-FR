@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 Cette page décrit la création et la gestion des Live Copies des canaux.
 
-Une ***Live Copy *** est une copie du contenu spécifique d’un site pour laquelle une relation directe avec la source d’origine est conservée. Ces relations en direct permettent à la Live Copy d’hériter des propriétés du contenu et de la page de la source.
+Une ***Live Copy*** est une copie du contenu spécifique d’un site pour laquelle une relation directe avec la source d’origine est conservée. Ces relations en direct permettent à la Live Copy d’hériter des propriétés du contenu et de la page de la source.
 
 Cette page décrit la création d’une Live Copy d’un canal, l’affichage des propriétés, la vérification de l’état et la propagation des modifications d’un canal à sa Live Copy.
 
@@ -41,7 +44,7 @@ Procédez comme suit pour créer la Live Copy d’un canal dans le dossier de v
 
 Sinon, suivez les étapes ci-dessous pour obtenir une représentation visuelle de la création de la Live Copy d’un canal.
 
-L’exemple suivant illustre la création d’une Live Copy (***IdleLiveCopy ***) pour le***Canal inactif***, dont le dossier de destination est ***Canaux ***.
+L’exemple suivant illustre la création d’une Live Copy (***IdleLiveCopy***) pour le ***Canal inactif***, dont le dossier de destination est ***Canaux***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -103,7 +106,7 @@ Si vous apportez des modifications/mises à jour au canal d’origine, vous deve
 
 Procédez comme suit pour vous assurer que les modifications sont propagées du canal d’origine au canal de Live Copy :
 
-1. Sélectionnez le canal d’origine (***Idle Channel ***) et cliquez sur**Modifier **dans la barre d’actions.
+1. Sélectionnez le canal d’origine (***Idle Channel***) et cliquez sur **Modifier** dans la barre d’actions.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,7 +114,7 @@ Procédez comme suit pour vous assurer que les modifications sont propagées du 
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Sélectionnez la Live Copy du canal (***IdleLiveCopy ***) et cliquez sur le bouton**Modifier **de la barre d’actions. Vous remarquerez que l’image que vous avez supprimée est toujours visible dans la Live Copy.
+1. Sélectionnez la Live Copy du canal (***IdleLiveCopy***) et cliquez sur le bouton **Modifier** de la barre d’actions. Vous remarquerez que l’image que vous avez supprimée est toujours visible dans la Live Copy.
 
    Pour propager les modifications, vous devez synchroniser le canal.
 
