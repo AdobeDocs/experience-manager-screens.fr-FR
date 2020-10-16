@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour du Feature Pack 202008
 description: La page décrit les notes de mise à jour du Feature Pack 202008.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
