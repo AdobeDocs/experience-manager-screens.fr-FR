@@ -7,8 +7,11 @@ page-status-flag: never-activated
 uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
@@ -25,8 +28,8 @@ AEM Screens permet l’utilisation d’événements pilotés par les données p
 
 Les événements pilotés par les données sont classés selon quatre catégories :
 
-* Données en entrée opérationnelles
-* Données en entrée de présentation
+* Données en entrée opérationnelles   
+* Données en entrée de présentation   
 * Données en sortie exploitables
 * Données en sortie de présentation
 
