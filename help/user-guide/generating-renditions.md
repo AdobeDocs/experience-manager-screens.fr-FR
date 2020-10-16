@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,7 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Sélectionnez l’onglet **Processus** pour modifier les arguments du processus. Saisissez les profils Full HD pour la liste dans **Arguments** comme suit : ***,profile:fullhd-bp,profile:fullhd-hp ***et cliquez sur**OK **.
+1. Sélectionnez l’onglet **Processus** pour modifier les arguments du processus. Saisissez les profils Full HD pour la liste dans **Arguments** comme suit : ***,profile:fullhd-bp,profile:fullhd-hp*** et cliquez sur **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
