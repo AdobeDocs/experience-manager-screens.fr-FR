@@ -4,9 +4,9 @@ seo-title: Application d’une valorisation de marque et de styles personnalisé
 description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
 
