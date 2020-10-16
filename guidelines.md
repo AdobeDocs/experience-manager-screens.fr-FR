@@ -1,6 +1,9 @@
 ---
 source-git-commit: e35e5a76aa47e5caf5b0a04add47ec8e4488c036
-translation-type: ht
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '752'
+ht-degree: 100%
 
 ---
 # Instructions relatives à la contribution à la documentation d’Adobe Experience Manager
