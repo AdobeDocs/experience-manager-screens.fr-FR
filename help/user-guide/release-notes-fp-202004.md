@@ -3,9 +3,9 @@ title: Notes de mise à jour du Feature Pack 202004
 seo-title: Notes de mise à jour du Feature Pack 202004
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
    En tant qu’auteur de contenu, vous devez être en mesure de spécifier le moment où un canal est interrompu, de sorte que vous puissiez choisir de couper le contenu non essentiel, tout en ayant la possibilité de lire intégralement le contenu important avant de l’interrompre en raison de la planification.
 
-   Reportez-vous à la section **[Méthode d’interruption](/help/user-guide/channel-assignment.md#interruption-method-channel)**pour en savoir plus sur les options disponibles dans la boîte de dialogue **Attribution de canaux**pour mettre en œuvre cette fonctionnalité dans votre projet AEM Screens.
+   Reportez-vous à la section **[Méthode d’interruption](/help/user-guide/channel-assignment.md#interruption-method-channel)** pour en savoir plus sur les options disponibles dans la boîte de dialogue **Attribution de canaux** pour mettre en œuvre cette fonctionnalité dans votre projet AEM Screens.
 
 * **Lancements Screens**
 
@@ -57,7 +57,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
    Lors de l’ajout de texte à la fonction de superposition de texte, la taille de la police a été améliorée et est plus précise.
 
-   Voir **[Superposition de texte](text-overlay.md)**pour créer une expérience attrayante dans un canal de séquence en fournissant une description ou un titre superposé au-dessus d’une image.
+   Voir **[Superposition de texte](text-overlay.md)** pour créer une expérience attrayante dans un canal de séquence en fournissant une description ou un titre superposé au-dessus d’une image.
 
 * **Améliorations de la synchronisation des commandes**
 
@@ -73,6 +73,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM Screens dans AEM 6.4 
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)**.
