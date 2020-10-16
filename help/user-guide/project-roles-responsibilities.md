@@ -2,11 +2,11 @@
 title: '« Partie 1 : rôles du projet et responsabilités »'
 seo-title: '« Partie 1 : rôles du projet et responsabilités »'
 description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalisation numérique.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 
 ### Partie 1 : rôles du projet et responsabilités 
 
->[!VIDEO](https://video.tv.adobe.com/v/28375?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Découvrez les rôles et responsabilités d’Adobe, des intégrateurs AV et des implémentateurs AEM.*
 
