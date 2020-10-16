@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Cette page présente la quatrième partie d’une série de cinq articles et por
 
 Cette page traite de la phase de préproduction du projet, de son lancement et de sa progression.
 
-Il est important que tous les intervenants comprennent ce dont l'intégrateur AV est responsable, et qu'ils veillent à ce que des plans documentés soient élaborés en fonction des points discutés dans cet épisode.
+Il est important que tous les intervenants comprennent ce dont l&#39;intégrateur AV est responsable, et qu&#39;ils veillent à ce que des plans documentés soient élaborés en fonction des points discutés dans cet épisode.
 
 >[!NOTE]
 >
@@ -38,9 +41,9 @@ Pour garantir la réussite du déploiement de la solution de signalétique digit
 
 ### Activités du Jour zéro {#day-zero-activities}
 
-La première étape est appelée ***Jour zéro***. Cette étape rassemble tous les efforts d’avant-vente et d’investigation nécessaires pour définir complètement la portée du projet. La deuxième étape, ou Jour 1, fait référence à toutes les activités qui constituent l’effort de déploiement. Enfin, le Jour 2 correspond à toutes les opérations et éléments d'assistance courants dans le cadre de la solution totale.
+La première étape est appelée ***Jour 0***. Cette étape rassemble tous les efforts d’avant-vente et d’investigation nécessaires pour définir complètement la portée du projet. La deuxième étape, ou Jour 1, fait référence à toutes les activités qui constituent l’effort de déploiement. Enfin, le Jour 2 correspond à toutes les opérations et éléments d&#39;assistance courants dans le cadre de la solution totale.
 
-Les activités Jour zéro comprennent les activités avant-vente, la détection des clients, l’analyse des besoins des applications et la définition de la portée du projet. Cette étape peut également inclure l'engagement initial et la définition des besoins du projet pour la gestion de projet, en vue du déploiement.
+Les activités Jour zéro comprennent les activités avant-vente, la détection des clients, l’analyse des besoins des applications et la définition de la portée du projet. Cette étape peut également inclure l&#39;engagement initial et la définition des besoins du projet pour la gestion de projet, en vue du déploiement.
 
 Le Jour zéro comprend huit étapes clés couvrant tous les aspects de la progression de la gestion de projet :
 
@@ -49,13 +52,13 @@ Le Jour zéro comprend huit étapes clés couvrant tous les aspects de la progre
 * Définition du fournisseur et du travail interne
 * Acquisition de fiches techniques d’équipement
 * Planification et acquisition de permis de site
-* Planification de l'accès au site
+* Planification de l&#39;accès au site
 * Prise en compte de la puissance et de la connectivité
 * Examen des plans ou dessins techniques
 
 ### Activités du Jour 1 {#day-one-activities}
 
-La deuxième étape, ou ***Jour 1**, fait référence à toutes les activités qui constituent l’effort de déploiement.* Un autre document technique important pour un projet réussi est le diagramme de Gantt de déploiement.
+La deuxième étape, ou ***Jour 1***, fait référence à toutes les activités faisant partie de l’effort de déploiement. Un autre document technique important pour un projet réussi est le diagramme de Gantt de déploiement.
 
 Une réunion de lancement est programmée pour confirmer qu’une opportunité de vente évolue vers un projet :
 
@@ -71,7 +74,7 @@ Une réunion de lancement est programmée pour confirmer qu’une opportunité d
 
 La dernière partie d’une initiative de Jour 1 consiste en la passation au centre des opérations réseau Si un projet terminé comprend des services et une assistance du Jour 2, le gestionnaire de projet organisera une réunion de passation au centre des opérations réseau avec les superviseurs de ces équipes.
 
-Cette réunion rassemble principalement des représentants de l’intégrateur A/V en charge de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les représentants de la gestion de projets d’Adobe, de l’implémentateur AEM et du client final interviennent généralement en tandem, avec l’intégrateur A/V qui définit le planning, la cadence et les « toll gates » (points de contrôle). Les gestionnaires de projet sont généralement les mieux placés pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d'assistance essentielle sera probablement fournie par l'ingénierie informatique et/ou A/V, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour tous les clients qui ont besoin du soutien d’un centre d’assistance fourni par un centre des opérations réseau, la documentation devra être fournie aux superviseurs du centre afin qu’ils la téléchargent dans une plateforme de base de connaissances.
+Cette réunion rassemble principalement des représentants de l’intégrateur A/V en charge de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les représentants de la gestion de projets d’Adobe, de l’implémentateur AEM et du client final interviennent généralement en tandem, avec l’intégrateur A/V qui définit le planning, la cadence et les « toll gates » (points de contrôle). Les gestionnaires de projet sont généralement les mieux placés pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d&#39;assistance essentielle sera probablement fournie par l&#39;ingénierie informatique et/ou A/V, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour tous les clients qui ont besoin du soutien d’un centre d’assistance fourni par un centre des opérations réseau, la documentation devra être fournie aux superviseurs du centre afin qu’ils la téléchargent dans une plateforme de base de connaissances.
 
 ## Partie 4 : tutoriel vidéo sur la gestion de projet et le déploiement {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -79,7 +82,7 @@ Suivez ce tutoriel pour découvrir les principes de la préparation du déploiem
 
 ### Gestion de projet et déploiement
 
->[!VIDEO](https://video.tv.adobe.com/v/28408?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Apprenez-en plus sur la gestion de projet et la préparation du déploiement (préproduction du projet, lancement du projet, progression du projet).*
 
