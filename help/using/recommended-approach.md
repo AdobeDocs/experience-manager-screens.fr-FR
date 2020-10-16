@@ -3,8 +3,11 @@ title: Approche recommandée
 seo-title: Approche recommandée dans le cadre d’un projet AEM Screens
 description: Cette page décrit l’approche recommandée dans un projet AEM Screens
 seo-description: Cette page décrit l’approche recommandée dans un projet AEM Screens
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
