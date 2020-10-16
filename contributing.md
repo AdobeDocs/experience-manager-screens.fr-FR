@@ -1,6 +1,9 @@
 ---
 source-git-commit: e98a317a58f0061968544535d8baae24308a88bb
-translation-type: ht
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
 # Contribution à la documentation d’Adobe Experience Manager Screens
@@ -47,7 +50,7 @@ Toutes les demandes d’extraction doivent être accompagnées d’un [contrat d
 
 Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de demandes d’extraction.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### Contributions des employés d’Adobe
 
