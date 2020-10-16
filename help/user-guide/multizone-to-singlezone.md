@@ -3,8 +3,11 @@ title: Cas d’utilisation des transitions Multizone vers Zone unique
 description: Suivez cette page pour en savoir plus sur le cas d’utilisation Multizone vers Zone unique.
 seo-description: Cas d’utilisation des transitions Multizone vers Zone unique.
 contentOwner: Jyotika Syal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6f770734941635a0cd404986c259022137355af3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
 * **[Création et gestion des canaux](managing-channels.md)**
 * **[Création et gestion des emplacements](managing-locations.md)**
-* **[Créer et gérer des planifications](managing-schedules.md)**
+* **[Création et gestion des planifications](managing-schedules.md)**
 * **[Enregistrement de périphériques](device-registration.md)**
 
 ### Acteurs principaux {#primary-actors}
@@ -43,6 +46,7 @@ Pour configurer un projet, procédez comme suit :
    1. Sélectionnez le dossier **Channels** (Canaux), puis cliquez sur **Créer** dans la barre d’actions pour ouvrir l’assistant afin de créer un canal.
    1. Sélectionnez **Left-L Bar Split Screen Channel** dans l’assistant et créez le canal intitulé **MultiZoneLayout**.
    1. Ajoutez du contenu au canal. Faites glisser les ressources vers chacune des zones. L’exemple suivant illustre un canal **MultiZoneLayout** comprenant une vidéo, une image et une bannière de texte (dans une séquence incorporée), comme illustré ci-dessous.
+
    ![ressource](assets/mz-to-sz2.png)
 
    >[!NOTE]
@@ -76,7 +80,7 @@ Vous pouvez afficher la sortie souhaitée à partir du lecteur ou simplement en 
 
 La sortie indique comment une disposition multizone est lue pendant *10 000 ms*, puis passe à une disposition à zone unique dont la durée de lecture est de *3 000 ms*, pour ensuite revenir à la disposition multizone.
 
->[!VIDEO](https://video.tv.adobe.com/v/30366?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
