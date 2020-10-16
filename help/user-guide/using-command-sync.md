@@ -3,11 +3,11 @@ title: Utilisation de la synchronisation des commandes
 seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '777'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md).
+   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md)..
 
 1. Accédez au dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions pour enregistrer les appareils.
 
