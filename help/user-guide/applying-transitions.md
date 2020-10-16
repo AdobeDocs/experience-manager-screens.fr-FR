@@ -5,9 +5,9 @@ description: Consultez cette page pour apprendre comment appliquer des transitio
 seo-description: Consultez cette page pour apprendre comment appliquer des transitions à vos projets Screens.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Pour ajouter un composant de transition à votre projet AEM Screens, procédez 
 >**Conditions préalables**
 >
 >Créez un projet AEM Screens **TestProject**
->avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour visualiser la sortie.
+avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour visualiser la sortie.
 
 1. Accédez au canal **TestTransition** et cliquez sur **Modifier** dans la barre d’actions.
 
