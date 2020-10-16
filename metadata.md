@@ -8,10 +8,10 @@ getting-started-title: Guide de l’utilisateur et guide des bonnes pratiques po
 getting-started-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/aem-screens-introduction.html
 tutorials-title: Tutoriels
 tutorials-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html
-git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
-translation-type: ht
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.fr-FR
+translation-type: tm+mt
 source-git-commit: d425a71ff5516161a8a2e571a206aaedfd1ab3a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 
