@@ -3,11 +3,11 @@ title: Principes de base de la signalétique digitale pour [!UICONTROL AEM Scree
 seo-title: Principes de base de la signalétique digitale pour [!UICONTROL AEM Screens]
 description: Ce guide décrit les principes de base d’un projet de signalétique digitale
 seo-description: Ce guide décrit les principes de base d’un projet de signalétique digitale
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
