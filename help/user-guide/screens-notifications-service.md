@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
 1. Définissez les champs suivants pour configurer les paramètres d’e-mail :
 
-   **Chemin d'accès aux périphériques** Saisissez le chemin d'accès au(x) projet(s) Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
+   **Chemin d&#39;accès aux périphériques** Saisissez le chemin d&#39;accès au(x) projet(s) Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
 
    Par exemple, si votre projet est **We.Retail**, vous utiliserez le chemin du projet ***/home/users/screens/we-retail***.
 
@@ -61,7 +64,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
    **Fréquence de planification** Indiquez une heure (p. ex., 17 h ou 17 h) ou une fréquence en heures (p. ex., 1) à laquelle ce moniteur doit envoyer des e-mails.
 
-   **Délai d'expiration du ping** Indique l’intervalle en minutes après lequel un périphérique doit être considéré comme inaccessible.
+   **Délai d&#39;expiration du ping** Indique l’intervalle en minutes après lequel un périphérique doit être considéré comme inaccessible.
 
    **Serveur SMTP** Spécifie le serveur SMTP utilisé pour envoyer des e-mails.
 
@@ -93,7 +96,7 @@ Les e-mails ne sont envoyés que s’il existe au moins un périphérique qui n�
 
 ### Exemples de cas d’utilisation {#example-use-cases}
 
-L'exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance par e-mail des périphériques Screens.
+L&#39;exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance par e-mail des périphériques Screens.
 
 **Scénario 1** :
 
