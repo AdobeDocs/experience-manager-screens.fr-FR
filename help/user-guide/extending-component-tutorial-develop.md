@@ -9,8 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,6 +65,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![Packages Ui.Apps et Ui.Content Screens We.Retail Run installés via CRX Package Manager](assets/crx-packages.png)
 
    Packages Ui.Apps et Ui.Content Screens We.Retail Run installés via CRX Package Manager
@@ -126,6 +130,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    1. Copiez la boîte de dialogue depuis : `/libs/wcm/foundation/components/image/cq:dialog`
    1. Collez la boîte de dialogue sous `/apps/weretail-run/components/content/poster`
+
    ![Boîte de dialogue copiée depuis /libs/wcm/foundation/components/image/cq:dialog vers /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
    Boîte de dialogue copiée depuis /libs/wcm/foundation/components/image/cq:dialog vers /apps/weretail-run/components/content/poster
@@ -329,6 +334,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    * `allowProxy` | Booléen | `true`
    * `categories` | Chaîne[] | `cq.screens.components`
+
    ![Propriétés pour /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
 
    Propriétés pour /apps/weretail-run/components/content/poster/clientlibs/shared
@@ -506,7 +512,7 @@ Le composant Poster est destiné à être utilisé sur un canal de séquence. Le
 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## Code terminé {#finished-code}
 
