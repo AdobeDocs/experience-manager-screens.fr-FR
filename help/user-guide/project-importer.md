@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
+workflow-type: tm+mt
+source-wordcount: '698'
+ht-degree: 100%
 
 ---
 
@@ -49,17 +52,17 @@ Le modèle de données de l’Importateur de projet est décrit ci-dessous :
 
 | **Propriété** | **Description** |
 |---|---|
-| ***path {string *}** | Chemin des ressources de l’emplacement |
-| ***[./jcr:title]{string *}** | Nom du modèle à utiliser (emplacement des *écrans/du noyau/des modèles/de l’emplacement*) |
+| ***path {string*}** | Chemin des ressources de l’emplacement |
+| ***[./jcr:title] {string*}** | Nom du modèle à utiliser (emplacement des *écrans/du noyau/des modèles/de l’emplacement*) |
 | ***template {string}*** | Titre facultatif à utiliser pour la page |
-| ***[./jcr:description]{string}*** | Description facultative à utiliser pour la page |
+| ***[./jcr:description] {string}*** | Description facultative à utiliser pour la page |
 
 La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 
 * **path {string}** Chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire */foo* sera importé dans */content/screens/&lt;projet>/locations/foo*)
 
 * **template {string}** Le modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est &quot;location&quot;, mais il sera étendu ultérieurement à tous les modèles Screens (&quot;display&quot;, &quot;sequencechannel, etc.)
-* **[./*]{string}**Toute propriété facultative à définir sur l’emplacement (c’est-à-dire, ./jcr:title, ./jcr:description, ./foo, ./bar). La version actuelle n’autorise aucun filtrage pour le moment.
+* **[./*] {string}** Toute propriété facultative à définir sur l’emplacement (c’est-à-dire, ./jcr:title, ./jcr:description, ./foo, ./bar). La version actuelle n’autorise aucun filtrage pour le moment.
 
 >[!NOTE]
 >
@@ -75,6 +78,7 @@ La section suivante décrit l’utilisation de l’importateur de projets dans u
 >
 >* Les fichiers possédant une extension autre que CSV/XLS/XLSX ne sont pas pris en charge dans la version actuelle.
 >* Il n’existe aucun filtrage des propriétés pour les fichiers importés et tout élément commençant par &quot;./&quot; sera importé.
+
 >
 
 
