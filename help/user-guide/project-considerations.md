@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
 
@@ -80,7 +83,7 @@ Suivez le tutoriel ci-dessous pour en savoir plus sur la stratégie de contenu, 
 
 ### Observations dans le cadre de la définition de la portée du projet
 
->[!VIDEO](https://video.tv.adobe.com/v/28380?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28380)
 
 *Découvrez la stratégie de contenu, les couches E/S, les types de ressources, la segmentation de l’audience, les parties du jour, les besoins opérationnels et les considérations de préparation du site.*
 
