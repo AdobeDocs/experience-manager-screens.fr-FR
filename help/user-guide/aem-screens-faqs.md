@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
-workflow-type: ht
-source-wordcount: '1473'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
