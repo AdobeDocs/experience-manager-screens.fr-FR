@@ -3,11 +3,11 @@ title: Observations dans le cadre de la définition du champ d’application du 
 seo-title: Observations dans le cadre de la définition du champ d’application du projet
 description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
 seo-description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
