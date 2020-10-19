@@ -31,8 +31,7 @@ Pour ajouter un composant de transition à votre projet AEM Screens, procédez 
 >
 >**Conditions préalables**
 >
->Créez un projet AEM Screens **TestProject**
-avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour visualiser la sortie.
+>Créez un projet AEM Screens **TestProject** avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour visualiser la sortie.
 
 1. Accédez au canal **TestTransition** et cliquez sur **Modifier** dans la barre d’actions.
 
