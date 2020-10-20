@@ -3,27 +3,20 @@ title: Création et gestion des canaux
 seo-title: Gestion des canaux
 description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
 seo-description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
 
 # Création et gestion des canaux {#creating-and-managing-channels}
 
-Un canal affiche une séquence de contenu, des images et des vidéos, mais peut également afficher un site web ou une application sur une seule page.
+Un Canal affiche une séquence de contenu (images et vidéos) et affiche également un site Web ou une application d’une seule page.
 
-Vous découvrirez dans cette page comment créer et gérer des canaux pour Screens.
+Cette page présente la création et la gestion de canaux pour AEM Screens.
 
 **Conditions préalables** :
 
@@ -34,7 +27,7 @@ Vous découvrirez dans cette page comment créer et gérer des canaux pour Scree
 
 Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui créer un canal :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à : `https://localhost:4502/screens.html/content/screens`.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à `https://localhost:4502/screens.html/content/screens`.
 
 1. Accédez à votre projet Screens et sélectionnez le dossier **Canaux**.
 
@@ -80,9 +73,6 @@ Les options de modèles suivantes sont disponibles avec l’assistant :
 
 Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher ses propriétés et son tableau de bord.
 
->[!NOTE]
->
->Sélectionnez le canal comme illustré ci-dessous.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 1. Cliquez sur **Modifier** dans l’angle supérieur gauche de la barre d’actions pour modifier les propriétés du canal. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
 
 >[!NOTE]
->
 >Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour en savoir plus.
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ Cliquez sur l’icône (**...**) dans la barre d’actions **INFORMATIONS SUR LE
 Vous pouvez afficher le manifeste à partir du tableau de bord des canaux.
 
 >[!IMPORTANT]
->
 >Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Procédez comme suit pour activer cette option à partir du tableau de bord des canaux :
@@ -155,7 +143,7 @@ Procédez comme suit pour activer cette option à partir du tableau de bord des 
    1. Accédez au panneau **INFORMATIONS SUR LES CANAUX** et cliquez sur *...*
    1. Cliquez sur **Mettre à jour le contenu hors ligne**.
 
-Vous devez maintenant pouvoir voir l’option **Afficher le manifeste** depuis le panneau **INFORMATIONS SUR LES CANAUX** dans le tableau de bord des canaux.
+You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ Vous devez maintenant pouvoir voir l’option **Afficher le manifeste** depuis l
 ### Canaux en ligne et hors ligne {#online-and-offline-channels}
 
 >[!NOTE]
->
->Par défaut, lorsque vous créez un canal, celui-ci est hors ligne.
+>Par défaut, lorsque vous créez un canal, il est hors ligne.
 
 Lorsque vous créez un canal, il peut être défini comme étant en ligne ou hors ligne.
 
@@ -197,7 +184,6 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Si vous souhaitez reconfigurer votre canal pour le mettre hors ligne, décochez l’option Mode développeur dans l’onglet **Propriétés** (comme indiqué à l’étape (3)), puis, dans le panneau **INFORMATIONS SUR LE CANAL**, cliquez sur **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,8 +237,7 @@ Les affichages attribués sont affichés dans le panneau **Affichages attribués
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
->Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
+>Pour en savoir plus sur la création d’un affichage dans un emplacement, consultez :
 >
 >* [Création et gestion des emplacements](managing-locations.md)
 >* [Création et gestion des affichages](managing-displays.md)
