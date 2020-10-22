@@ -3,20 +3,20 @@ title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 84%
 
 ---
 
 
 # Guide de démarrage rapide  {#kickstart-guide}
 
-Cette section propose un démarrage rapide d’AEM Screens et explique comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
+Le lancement de AEM Screens montre comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de commencer à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
+>Avant de début de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
 ## Conditions préalables {#prerequisites}
 
@@ -27,7 +27,7 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 >[!IMPORTANT]
 >**Paramètres de configuration OSGi**
->Vous devez activer le référent vide pour autoriser le périphérique à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctions ne sont disponibles que si l’option Allow Empty d’Apache Sling Referrer Filter est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+>Vous devez activer le parrain vide pour permettre au périphérique de publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctions ne sont disponibles que si l’option Allow Empty d’Apache Sling Referrer Filter est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
 >Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
@@ -47,12 +47,11 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 1. Cliquez sur **Save** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
-
 ## Création d’une expérience de signalétique numérique en 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
 ### Création d’un projet AEM Screens {#creating-project}
 
-La première étape consiste à créer un projet AEM Screens.
+La première étape consiste à créer un projet AEM Screens.
 
 1. Accédez à votre instance Adobe Experience Manager (AEM) et cliquez sur **Screens**. Vous pouvez également y accéder directement depuis `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ La première étape consiste à créer un projet AEM Screens.
    >[!NOTE]
    >Une fois le projet créé, il vous ramène à la page d’accueil du projet Screens. Vous pouvez sélectionner votre projet. Un projet comporte cinq dossiers différents intitulés **Applications**, **Canaux**, **Appareils**, **Emplacements** et **Planifications**.
 
-
 ### Création d’un canal {#creating-channel}
 
-Une fois que vous avez votre projet, vous devez créer un canal où vous pouvez gérer le contenu.
+Une fois votre projet AEM Screens créé, vous devez créer un canal dans lequel vous gérez le contenu.
 
 Pour créer un canal pour votre projet, procédez comme suit :
 
-1. Une fois que vous avez créé un projet, sélectionnez le projet **DemoScreens** et sélectionnez le **dossier Canaux**, comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
+1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Cliquez sur **+ Créer** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-2.png)
 
 1. Sélectionnez le **Canal de séquence** dans l’assistant et cliquez sur **Suivant**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Saisissez le **titre** *TestChannel* et cliquez sur **Créer**.
+1. Saisissez le **titre** **TestChannel** et cliquez sur **Créer**.
 
    ![image](assets/kickstart/demo-4.png)
 
-   Le canal *TestChannel* est créé et ajouté au dossier de canaux, comme illustré dans la figure ci-dessous.
+   The **TestChannel** is now added to your channels folder, as shown in the figure below.
 
    ![image](assets/kickstart/demo-5.png)
 
 ### Ajout de contenu à un canal {#adding-content}
 
-Une fois que vous avez votre canal, vous devez y ajouter le contenu que le lecteur Screens va afficher.
+Une fois votre canal en place, vous devez ajouter du contenu à votre canal que le lecteur AEM Screens affichera.
 
-Suivez les étapes ci-dessous pour ajouter du contenu au canal (*TestChannel*) dans votre projet : 
+Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**) dans votre projet : 
 
-1. Accédez au projet **DemoProject** que vous avez créé et sélectionnez le dossier **Channels** (Canaux).
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Cliquez sur **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de **TestChannel** s’ouvre.
 
@@ -118,7 +116,7 @@ Pour créer un emplacement pour votre projet, procédez comme suit :
 
 1. Sélectionnez **Emplacement** dans l’assistant, puis cliquez sur **Suivant**.
 
-1. Saisissez le **nom** de votre emplacement (saisissez le titre *TestLocation*), puis cliquez sur **Créer**.
+1. Saisissez le **nom** de votre emplacement (saisissez le titre **TestLocation**), puis cliquez sur **Créer**.
 
 L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locations** (Emplacements).
 
@@ -128,7 +126,7 @@ L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locati
 Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 >[!NOTE]
->***Les affichages*** représentent l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
+>***Display*** represents the digital experience that run on one or multiple screens.
 
 1. Accédez à l’emplacement **TestLocation** et sélectionnez-le.
 
@@ -213,7 +211,7 @@ Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous 
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Attendez que l’appareil envoie son code d’enregistrement et, simultanément, vérifiez le **Code d’enregistrement** depuis votre appareil Chrome.
+1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
    ![image](assets/kickstart/demo-register3.png)
 
 1. Si le **code d’enregistrement** est le même sur les deux machines, appuyez/cliquez sur **Valider** dans AEM.
@@ -234,9 +232,7 @@ Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous 
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement.
-
-1. Votre appareil enregistré devrait apparaître dans le tableau de bord des affichages.
+1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement. Votre appareil enregistré devrait apparaître dans le tableau de bord des affichages.
 
    ![image](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Toutes les ressources de votre canal sont à présent en cours de lecture sur vo
 Félicitations, vous lisez maintenant du contenu dans un canal AEM Screens !
 
 ![image](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
