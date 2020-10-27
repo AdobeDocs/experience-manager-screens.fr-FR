@@ -3,20 +3,20 @@ title: Création et gestion des canaux
 seo-title: Gestion des canaux
 description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
 seo-description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Création et gestion des canaux {#creating-and-managing-channels}
 
-Un Canal affiche une séquence de contenu (images et vidéos) et affiche également un site Web ou une application d’une seule page.
+Un canal affiche une séquence de contenu (images et vidéos), mais également un site web ou une application monopage.
 
-Cette page présente la création et la gestion de canaux pour AEM Screens.
+Vous découvrirez dans cette page comment créer et gérer des canaux pour AEM Screens.
 
 **Conditions préalables** :
 
@@ -45,7 +45,7 @@ Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui c
 
 1. Un canal de séquence est maintenant ajouté à votre dossier **Canaux**.
 
-### Types de canaux  {#channel-types}
+### Types de canaux {#channel-types}
 
 Les options de modèles suivantes sont disponibles avec l’assistant :
 
@@ -137,13 +137,13 @@ Procédez comme suit pour activer cette option à partir du tableau de bord des 
 1. **Définir le canal sur Hors ligne**
    1. Sélectionnez le canal et choisissez **Propriétés** dans la barre d’actions.
    1. Accédez à l’onglet **Canal** et assurez-vous de désélectionner l’option **Mode développeur (forcer le canal à être en ligne)**.
-   1. Cliquez sur **Enregistrer et fermer**
+   1. Cliquez sur **Enregistrer et fermer**.
 1. **Mettre à jour le contenu hors ligne**
    1. Sélectionnez le canal et choisissez **Tableau de bord** dans la barre d’actions.
    1. Accédez au panneau **INFORMATIONS SUR LES CANAUX** et cliquez sur *...*
    1. Cliquez sur **Mettre à jour le contenu hors ligne**.
 
-You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
+Vous devriez maintenant pouvoir voir l’option **Afficher le manifeste** depuis le panneau **INFORMATIONS SUR LES CANAUX** dans le tableau de bord des canaux.
 
 ![image1](assets/channel-one.png)
 
@@ -151,7 +151,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
 ### Canaux en ligne et hors ligne {#online-and-offline-channels}
 
 >[!NOTE]
->Par défaut, lorsque vous créez un canal, il est hors ligne.
+>Par défaut, lorsque vous créez un canal, celui-ci est hors ligne.
 
 Lorsque vous créez un canal, il peut être défini comme étant en ligne ou hors ligne.
 
@@ -188,7 +188,7 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
 ![dashboard2](assets/dashboard2.gif)
 
-#### Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique. {#automatic-versus-manual-updates-from-the-device-dashboard}
+#### Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique {#automatic-versus-manual-updates-from-the-device-dashboard}
 
 Le tableau suivant répertorie les événements associés aux mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique.
 
@@ -237,7 +237,7 @@ Les affichages attribués sont affichés dans le panneau **Affichages attribués
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->Pour en savoir plus sur la création d’un affichage dans un emplacement, consultez :
+>Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
 >
 >* [Création et gestion des emplacements](managing-locations.md)
 >* [Création et gestion des affichages](managing-displays.md)
