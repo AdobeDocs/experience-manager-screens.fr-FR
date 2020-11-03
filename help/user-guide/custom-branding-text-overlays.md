@@ -5,17 +5,17 @@ description: Suivez cette page pour savoir comment appliquer une valorisation de
 seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 93%
 
 ---
 
 
 # Valorisation de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
-Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte de vos ressources dans un canal Screens.
+Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte appliquées à vos ressources dans un canal AEM Screens.
 
 ## Création d’une valorisation de marque et de styles personnalisés pour les superpositions de texte {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
 
 1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de la conception.
 
->[!IMPORTANT]
->
->Vous avez la possibilité d’effectuer une superposition des modèles Screens existants pour incorporer vos propres conceptions par défaut ou créer intégralement votre propre modèle. Pour plus d’informations, référez-vous à la procédure ci-dessous.
+   >[!IMPORTANT]
+   >Vous avez la possibilité d’effectuer une superposition des modèles Screens existants pour incorporer vos propres conceptions par défaut ou créer intégralement votre propre modèle. Pour plus d’informations, référez-vous à la procédure ci-dessous.
 
 1. Pour superposer les modèles Screens existants afin d’incorporer vos propres conceptions par défaut :
 
@@ -129,7 +128,7 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-En vous référant au tutoriel, vous pouvez maintenant mettre à jour la valorisation de marque et les styles personnalisés pour les superpositions de texte ajoutées à vos ressources.
+   Vous êtes maintenant prêt à mettre à jour votre marque et votre style personnalisé pour les incrustations de texte ajoutées à vos ressources.
 
 
 
