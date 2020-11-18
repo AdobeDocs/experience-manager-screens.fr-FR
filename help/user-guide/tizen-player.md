@@ -2,9 +2,9 @@
 title: Lecteur Tizen
 description: Cette page décrit l'installation et le fonctionnement de Tizen Player.
 translation-type: tm+mt
-source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Suivez les étapes ci-dessous pour configurer le serveur local et copier les fic
 1. Obtenez l&#39;adresse IP de votre ordinateur local.
 
    >[!NOTE]
-   >Vous pouvez obtenir l’adresse IP à partir du terminal de votre ordinateur en saisissant les commandes suivantes :
+   >Vous pouvez obtenir l&#39;adresse IP à partir du terminal de votre ordinateur à l&#39;aide des commandes suivantes :
    >* **Mac**: `ifconfig`
    >* **Windows**: `ipconfig`
 
