@@ -12,8 +12,8 @@ docset: aem65
 translation-type: tm+mt
 source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '465'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scree
 |---|---|
 | Android | 3.3.72 |
 | Chrome OS | 1.0.136 |
-| Windows | 1.0.136 |
+| Windows | 1,0,136 |
 
 Pour passer de ContentSync à SmartSync, procédez comme suit :
 
