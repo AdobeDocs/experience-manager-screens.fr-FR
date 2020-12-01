@@ -6,13 +6,13 @@ seo-description: Consultez cette page pour connaître les termes clés associés
 translation-type: tm+mt
 source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
 
-# Glossaire  {#glossary}
+# Glossaire   {#glossary}
 
 **Canal d’application** Un canal d’application montre une application créée par un développeur qui affiche des contenus interactifs.
 
