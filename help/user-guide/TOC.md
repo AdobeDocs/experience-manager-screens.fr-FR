@@ -4,12 +4,12 @@ product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
-user-guide-description: Découvrez comment utiliser une solution Digital Signage qui vous permet de publier des expériences et interactions numériques dynamiques et interactives.
+user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 translation-type: tm+mt
 source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
