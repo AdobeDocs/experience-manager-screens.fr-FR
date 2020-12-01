@@ -73,7 +73,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
 
-### Signature de fichiers apk Android à l’aide des clés du fabricant  {#signage-of-android-apks-using-manufacturer-keys}
+### Signature de fichiers apk Android à l’aide des clés du fabricant   {#signage-of-android-apks-using-manufacturer-keys}
 
 Pour accéder à certaines des API privilégiées d’Android telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le fichier apk Android à l’aide des clés du fabricant.
 
