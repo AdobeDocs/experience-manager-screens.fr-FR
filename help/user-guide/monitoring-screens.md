@@ -13,8 +13,8 @@ docset: aem65
 translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '801'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Vous pouvez surveiller les performances et résoudre les problèmes associés pour l’activité de votre lecteur Screens et le périphérique de lecture à l’aide du tableau de bord du périphérique. Cette page fournit des informations sur la façon de surveiller et de résoudre les problèmes de performances perçus pour le lecteur Screens et les périphériques attribués.
 
-## Surveillance et dépannage à partir du centre de contrôle des périphériques  {#monitor-and-troubleshoot-from-device-control-center}
+## Surveillance et dépannage à partir du centre de contrôle des périphériques   {#monitor-and-troubleshoot-from-device-control-center}
 
 Vous pouvez surveiller l’activité et ainsi résoudre les problèmes liés à votre lecteur Screens, à l’aide du tableau de bord du périphérique.
 
