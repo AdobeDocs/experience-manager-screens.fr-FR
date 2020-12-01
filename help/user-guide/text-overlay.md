@@ -13,8 +13,8 @@ noindex: true
 translation-type: tm+mt
 source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '848'
+ht-degree: 100%
 
 ---
 
