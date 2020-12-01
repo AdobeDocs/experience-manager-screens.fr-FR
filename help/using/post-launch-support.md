@@ -6,8 +6,8 @@ seo-description: Cette page décrit l’assistance après le lancement dans le c
 translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
