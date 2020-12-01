@@ -6,8 +6,8 @@ seo-description: Ce guide décrit la stratégie de contenu commercial
 translation-type: tm+mt
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
