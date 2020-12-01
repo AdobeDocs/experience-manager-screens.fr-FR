@@ -85,7 +85,7 @@ Pour configurer les différentes options du lecteur, procédez comme suit :
 >
 >Redémarrez l’appareil pour synchroniser les modifications apportées à la règle.
 
-#### Exemple de fichier JSON de règles    {#example-policy-json-file}
+#### Exemple de fichier JSON de règles     {#example-policy-json-file}
 
 ```java
 {
