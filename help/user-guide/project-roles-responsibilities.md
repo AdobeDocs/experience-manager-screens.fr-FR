@@ -5,8 +5,8 @@ description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabi
 translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '471'
+ht-degree: 100%
 
 ---
 
