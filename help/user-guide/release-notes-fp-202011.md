@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202011
 description: La page décrit les notes de mise à jour du Feature Pack 202011.
 translation-type: tm+mt
-source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
+source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 52%
+source-wordcount: '260'
+ht-degree: 51%
 
 ---
 
@@ -30,13 +30,13 @@ La date de publication pour AEM Screens Feature Pack 2011 est le 30 novembre 202
 * **Rapport d’affectation de contenu**
 
    La fonction Rapport d’affectation de contenu permet à un administrateur AEM Screens ou à un auteur d’exporter un *rapport d’affectation de contenu* au format tableur.
-Pour plus d&#39;informations, consultez **Rapport d&#39;affectation de contenu**.
+Pour plus d&#39;informations, consultez [Rapport d&#39;affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 
 * **Lecteur Tizen**
 
    Un nouveau lecteur, appelé lecteur Tizen, a été introduit avec le dernier pack de fonctionnalités pour la version AEM Screens 6.5.6.
-Pour plus d&#39;informations, consultez **Mise en oeuvre de Tizen Player**.
+Pour plus d&#39;informations, consultez [Mise en oeuvre de Tizen Player](/help/user-guide/tizen-player.md).
 
 * **Rechercher des fonctionnalités à partir de Device Manager**
 
@@ -46,17 +46,15 @@ Pour plus d&#39;informations, consultez **Mise en oeuvre de Tizen Player**.
 
    L’intervalle de ping par défaut est désormais défini à 30 secondes pour cette version.
 
-### Problèmes et correctifs connus {#known-issues}
-
-
-
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM Screens.
+Les lecteurs AEM Screens suivants sont disponibles pour AEM 6.5 Feature Pack 6 :
 
 * Chrome OS
 * Windows
 * Android
+* Tizen
+* Linux
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
