@@ -3,9 +3,9 @@ title: Création et gestion des canaux
 seo-title: Gestion des canaux
 description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
 seo-description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui c
 
 1. Un canal de séquence est maintenant ajouté à votre dossier **Canaux**.
 
-### Types de canaux {#channel-types}
+### Types de canaux  {#channel-types}
 
 Les options de modèles suivantes sont disponibles avec l’assistant :
 
@@ -84,7 +84,6 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 1. Cliquez sur **Modifier** dans l’angle supérieur gauche de la barre d’actions pour modifier les propriétés du canal. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
 
 >[!NOTE]
->
 >Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour en savoir plus.
 
 ![demochannel1](assets/demochannel1.gif)
@@ -98,7 +97,6 @@ Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 1. Sélectionnez **Vidéos** sous Ressources, puis faites glisser les vidéos choisies.
 
 >[!NOTE]
->
 >Si vous rencontrez des problèmes lors du transfert des vidéos vers votre canal, reportez-vous à la section [Dépannage des vidéos](troubleshoot-videos.md).
 
 ### Affichage des propriétés {#viewing-properties}
@@ -132,7 +130,6 @@ Cliquez sur l’icône (**...**) dans la barre d’actions **INFORMATIONS SUR LE
 Vous pouvez afficher le manifeste à partir du tableau de bord des canaux.
 
 >[!IMPORTANT]
->
 >Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Procédez comme suit pour activer cette option à partir du tableau de bord des canaux :
@@ -154,7 +151,6 @@ Vous devriez maintenant pouvoir voir l’option **Afficher le manifeste** depuis
 ### Canaux en ligne et hors ligne {#online-and-offline-channels}
 
 >[!NOTE]
->
 >Par défaut, lorsque vous créez un canal, celui-ci est hors ligne.
 
 Lorsque vous créez un canal, il peut être défini comme étant en ligne ou hors ligne.
@@ -188,7 +184,6 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Si vous souhaitez reconfigurer votre canal pour le mettre hors ligne, décochez l’option Mode développeur dans l’onglet **Propriétés** (comme indiqué à l’étape (3)), puis, dans le panneau **INFORMATIONS SUR LE CANAL**, cliquez sur **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -242,11 +237,11 @@ Les affichages attribués sont affichés dans le panneau **Affichages attribués
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
 >Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
 >
 >* [Création et gestion des emplacements](managing-locations.md)
 >* [Création et gestion des affichages](managing-displays.md)
+
 >
 
 
