@@ -6,8 +6,8 @@ seo-description: La page présente la liste de contrôle de sécurité.
 translation-type: tm+mt
 source-git-commit: ccc1baa0b57cb1311855065433aabf627814d16a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
