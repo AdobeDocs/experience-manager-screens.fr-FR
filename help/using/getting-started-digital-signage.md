@@ -6,8 +6,8 @@ seo-description: Ce guide décrit les principes de base d’un projet de signal�
 translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 100%
 
 ---
 
