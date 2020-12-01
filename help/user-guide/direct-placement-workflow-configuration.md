@@ -6,8 +6,8 @@ seo-description: Cette page décrit la configuration d’un workflow de placemen
 translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
