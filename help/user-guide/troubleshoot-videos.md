@@ -24,7 +24,7 @@ Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vo
 
 Les sections qui suivent décrivent comment déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
-## Rendus de la gestion des actifs numériques  {#dam-renditions}
+## Rendus de la gestion des actifs numériques   {#dam-renditions}
 
 Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
 
@@ -71,7 +71,7 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
    >
    >Avant de l’ajouter à un canal, veillez à laisser suffisamment de temps pour le transcodage de la vidéo (l’indicateur « Nouvelle » et non « Traitement en cours » doit s’afficher).
 
-### Vérification du profil avec un composant vidéo  {#checking-profile-with-a-video-component}
+### Vérification du profil avec un composant vidéo   {#checking-profile-with-a-video-component}
 
 Consultez la liste des profils dans la conception des pages si le composant vidéo n’est pas configuré correctement.
 
