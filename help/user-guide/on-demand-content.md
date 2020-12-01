@@ -8,8 +8,8 @@ contentOwner: Jyotika Syal
 translation-type: tm+mt
 source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
