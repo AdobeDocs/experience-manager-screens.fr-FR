@@ -5,8 +5,8 @@ description: Consultez cette page pour en savoir plus sur l’attribution de can
 translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1215'
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Cette fonctionnalité consiste à fractionner une journée en tranches horaires 
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher le menu du petit déjeuner, du déjeuner et du dîner.
 
@@ -159,7 +159,7 @@ Vous allez créer des tranches horaires selon les mois, de sorte que le contenu 
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
-#### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
+#### Diffusion de contenu pour les canaux ayant la même priorité   {#playing-content-for-channels-with-same-priority}
 
 Ces exemples présentent les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c’est son contenu qui est diffusé plutôt que celui du canal A.
 
