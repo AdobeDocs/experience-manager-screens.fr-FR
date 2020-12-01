@@ -7,8 +7,8 @@ contentOwner: jsyal
 translation-type: tm+mt
 source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
