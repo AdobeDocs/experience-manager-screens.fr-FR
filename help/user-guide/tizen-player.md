@@ -10,13 +10,13 @@ ht-degree: 1%
 ---
 
 
-# Mise en oeuvre de Tizen Player {#tizen-player}
+# Implémentation de Tizen Player {#tizen-player}
 
 ## Installation de Tizen Player {#installing-tizen-player}
 
 Pour mettre en oeuvre Tizen Player pour AEM Screens, procédez comme suit :
 
-1. Accédez à la page Téléchargements [**du lecteur**](https://download.macromedia.com/screens/) AEM 6.5 pour télécharger Tizen Player.
+1. Accédez à la page [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) pour télécharger Tizen Player.
 
 1. Installez le fichier Tizen player (.zip) depuis l’ordinateur local.
 
@@ -40,13 +40,13 @@ Suivez les étapes ci-dessous sur le périphérique Samsung pour terminer l&#39;
 
 1. Accédez à votre périphérique Samsung.
 
-1. Cliquez sur le bouton **Accueil** à l’aide de la télécommande du périphérique et sélectionnez Paramètres **du lanceur d’** URL.
+1. Cliquez sur le bouton **Accueil** à l’aide de la télécommande du périphérique et sélectionnez **Paramètres du lanceur d’URL**.
 
 1. Entrez l&#39;adresse IP de votre serveur localhost.
 
-1. Sélectionnez **Remote** dans le mode **** Développeur.
+1. Sélectionnez **Remote** dans **Mode développeur**.
 
-1. Cliquez sur le bouton **Accueil** de la télécommande du périphérique et sélectionnez Lancement **** d’URL.
+1. Cliquez sur le bouton **Accueil** de la télécommande du périphérique et sélectionnez **Lancement d’URL**.
 
 1. Le AEM Screens Player doit désormais automatiquement être installé et lancé sur votre Samsung.
 
