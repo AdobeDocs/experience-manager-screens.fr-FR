@@ -6,8 +6,8 @@ seo-description: Cette page décrit les spécifications de l’appareil
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 
