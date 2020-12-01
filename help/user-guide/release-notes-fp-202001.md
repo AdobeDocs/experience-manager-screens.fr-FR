@@ -6,8 +6,8 @@ seo-description: Consultez cette page pour obtenir des informations sur AEM Scr
 translation-type: tm+mt
 source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -37,8 +37,9 @@ La structure de contrôle de l’intégrité permet à l’utilisateur de vérif
 
    Pour en savoir plus sur la structure de contrôle de l’intégrité, reportez-vous à la section [Structure de contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Mises à jour des types** de Transition par défaut Propriétés du composant de transition, telles que 
-**Par défaut, le type** est défini sur **Fondu** et la **durée** sur **1 600 ms**.
+* **Mises à jour des**
+types de Transition par défautPropriétés du composant de transition, telles que 
+**Par défaut,** Typeis est désormais défini sur  **** Fadeet la  **** durée sur  **1600 ms**.
 
    Pour plus d’informations, voir le cas d’utilisation [Application de transitions](/help/user-guide/applying-transitions.md).
 
