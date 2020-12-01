@@ -6,8 +6,8 @@ seo-description: Cette page présente les environnements adaptés à un projet A
 translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 
