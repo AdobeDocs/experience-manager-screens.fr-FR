@@ -6,10 +6,10 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
       + [Lecteur Android](implementing-android-player.md)
       + [Lecteur Windows](implementing-windows-player.md)
+      + [Lecteur Tizen](tizen-player.md)
    + Instances d’auteur et de publication {#author-publish}
       + [Présentation de l’architecture des instances d’auteur et de publication](author-publish-architecture-overview.md)
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 100%
       + [Synchronisation des commandes](using-command-sync.md)
       + [Création avec des triggers de données](authoring-data-triggers.md)
       + [Reconnaissance vocale](voice-recognition.md)
+      + [Rapport d’affectation de contenu](content-assignment-report.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 100%
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
+   + [Notes de mise à jour du Feature Pack 202011](release-notes-fp-202011.md)
    + [Notes de mise à jour du Feature Pack 202008](release-notes-fp-202008.md)
    + [Notes de mise à jour du Feature Pack 202004](release-notes-fp-202004.md)
    + [Notes de mise à jour du Feature Pack 202001](release-notes-fp-202001.md)
