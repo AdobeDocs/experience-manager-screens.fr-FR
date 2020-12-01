@@ -6,10 +6,10 @@ seo-description: Consultez cette page pour obtenir des réponses aux questions f
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
+source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1542'
+ht-degree: 95%
 
 ---
 
@@ -162,4 +162,12 @@ Pour désactiver Livefyre afin d’éviter les erreurs de journal :
    * Dans CRXDE Lite, accédez à `/etc/importers/polling/livefyre-poller/jcr:content`.
    * Ajoutez une nouvelle propriété de *type* booléenne *activée*.
    * Définissez la **propriété activée** sur **false**.
+
+### 2. Comment Ajouter l&#39;information sur l&#39;indice de chêne ? {#add-oak-index-info}
+
+AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.
+S&#39;il y a des WARN *Requête Traversal* dans `error.log`, créez un index personnalisé pour votre requête. Voir [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) pour plus d&#39;informations.
+
+Vous pouvez également consulter une ressource supplémentaire sur [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
 
