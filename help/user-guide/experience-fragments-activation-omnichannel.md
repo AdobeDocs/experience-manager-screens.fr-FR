@@ -27,15 +27,15 @@ Le cas d’utilisation suivant vous permet de mettre en oeuvre un projet de dém
 
 >[!NOTE]
 >**Conditions préalables
->Vous devez connaître au préalable les notions de base d’un fragment d’expérience et savoir comment utiliser un fragment d’expérience dans un projet AEM Screens. See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>Vous devez connaître au préalable les notions de base d’un fragment d’expérience et savoir comment utiliser un fragment d’expérience dans un projet AEM Screens. Voir [Utilisation de fragments d’expérience](/help/user-guide/experience-fragments-in-screens.md)
 
-### Setting up the Demo Project {#demo-project-setup}
+### Configuration du projet de démonstration {#demo-project-setup}
 
 Créez un projet intitulé **DemoProject** et un canal de séquence intitulé **TestChannel** dans votre AEM Screens, comme illustré dans la figure ci-dessous.
 
 ### Mise en oeuvre du fragment d’expérience dans un projet AEM Screens {#experience-fragments-implementation}
 
-Une fois que vous avez créé un fragment d’expérience et exploité dans votre projet AEM Screens, **DemoProject** vous pouvez à présent améliorer le fragment d’expérience en fonction de vos besoins.
+Une fois que vous avez créé un fragment d’expérience et exploité dans votre projet AEM Screens, **DemoProject**, vous pouvez à présent améliorer le fragment d’expérience en fonction de vos besoins.
 
 ### Augmentation de la taille du texte {#increasing-text-size}
 
