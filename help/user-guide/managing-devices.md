@@ -28,7 +28,7 @@ La console Périphériques vous permet d’accéder au gestionnaire de périphé
 >
 >Avant d’attribuer votre périphérique, vous devez l’enregistrer. Pour plus d’informations, reportez-vous à la section [Enregistrement des périphériques](device-registration.md).
 
-## Attribution des appareils  {#device-assignment}
+## Attribution des appareils   {#device-assignment}
 
 Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage :
 
