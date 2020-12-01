@@ -66,7 +66,7 @@ Pour afficher le contenu de la Live Copy, procédez comme suit :
    >
    >Lors de la consultation du contenu d’un canal de Live Copy, un élément supplémentaire apparaît dans le menu : **État de Live Copy**. Voir la section ci-dessous pour plus de détails.
 
-### Affichage des propriétés d’une Live Copy      {#viewing-properties-of-a-live-copy}
+### Affichage des propriétés d’une Live Copy       {#viewing-properties-of-a-live-copy}
 
 En outre, vous pouvez afficher les propriétés du canal de Live Copy.
 
