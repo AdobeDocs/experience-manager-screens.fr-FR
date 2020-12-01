@@ -11,12 +11,12 @@ ht-degree: 84%
 ---
 
 
-# Guide de démarrage rapide  {#kickstart-guide}
+# Guide de démarrage rapide   {#kickstart-guide}
 
 Le lancement de AEM Screens montre comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de début de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
+>Avant de début de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l&#39;aide de votre Adobe ID.
 
 ## Conditions préalables {#prerequisites}
 
@@ -68,7 +68,7 @@ Une fois votre projet AEM Screens créé, vous devez créer un canal dans lequel
 
 Pour créer un canal pour votre projet, procédez comme suit :
 
-1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Cliquez sur **+ Créer** dans la barre d’actions.
+1. Une fois que vous avez créé un projet, sélectionnez le projet **DemoScreens** et sélectionnez le dossier **Canaux**, comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-2.png)
 
@@ -79,7 +79,7 @@ Pour créer un canal pour votre projet, procédez comme suit :
 
    ![image](assets/kickstart/demo-4.png)
 
-   The **TestChannel** is now added to your channels folder, as shown in the figure below.
+   **TestChannel** est maintenant ajouté à votre dossier de canaux, comme illustré dans la figure ci-dessous.
 
    ![image](assets/kickstart/demo-5.png)
 
@@ -89,7 +89,7 @@ Une fois votre canal en place, vous devez ajouter du contenu à votre canal que 
 
 Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**) dans votre projet : 
 
-1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
+1. Accédez au **DemoProject** que vous avez créé et sélectionnez **TestChannel** dans le dossier **Canaux**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de **TestChannel** s’ouvre.
 
@@ -126,7 +126,7 @@ L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locati
 Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 >[!NOTE]
->***Display*** represents the digital experience that run on one or multiple screens.
+>***Display*** représente l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
 
 1. Accédez à l’emplacement **TestLocation** et sélectionnez-le.
 
@@ -211,7 +211,7 @@ Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous 
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
+1. Attendez que le périphérique envoie son code d’enregistrement et vérifiez simultanément le **code d’enregistrement** de votre périphérique Chrome.
    ![image](assets/kickstart/demo-register3.png)
 
 1. Si le **code d’enregistrement** est le même sur les deux machines, appuyez/cliquez sur **Valider** dans AEM.
