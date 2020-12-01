@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le workflow à suivre pour ajouter des rendus à vos ressources.
 
-## Génération automatique de rendus Full HD          {#automatically-generating-full-hd-renditions}
+## Génération automatique de rendus Full HD           {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
