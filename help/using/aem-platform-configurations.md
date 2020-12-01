@@ -29,7 +29,7 @@ Pour configurer les serveurs de création et de publication, consultez la page [
 
 >[!NOTE]
 >
->S’il n’existe qu’une seule instance de création et une seule instance de publication, vous devez suivre la procédure décrite à la section **Configuration des agents de réplication sur l’auteur** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
+>S’il n’existe qu’une seule instance de création et une seule instance de publication, vous devez suivre la procédure décrite à la section **Configuration des agents de réplication sur l’auteur** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html).
 
 ## Configurations de Dispatcher {#dispatcher-configurations}
 
@@ -51,7 +51,7 @@ Installez FFMpeg en suivant les étapes relatives au système d’exploitation a
 ## Restrictions de mot de passe {#password-restrictions}
 
 La stratégie de mot de passe d’AEM doit être désactivée sur l’instance AMS. Cela peut, par ailleurs, être configuré dans la console web à l’aide du service de périphérique de Screens *com.adobe.cq.screens.device.impl.DeviceService*.
-Reportez-vous à la section **Restrictions relatives aux mots de passe** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
+Reportez-vous à la section **Restrictions relatives aux mots de passe** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html).
 
 ## Configuration des environnements {#setting-up-environments}
 
