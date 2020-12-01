@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -29,14 +29,14 @@ La date de publication pour AEM Screens Feature Pack 2011 est le 30 novembre 202
 
 * **Rapport d’affectation de contenu**
 
-   La fonction Rapport d’affectation de contenu permet à un administrateur AEM Screens ou à un auteur d’exporter un rapport *d’affectation de* contenu qui peut être au format tableur.
-Refer to **Content Assignment Report** for more details.
+   La fonction Rapport d’affectation de contenu permet à un administrateur AEM Screens ou à un auteur d’exporter un *rapport d’affectation de contenu* au format tableur.
+Pour plus d&#39;informations, consultez **Rapport d&#39;affectation de contenu**.
 
 
 * **Lecteur Tizen**
 
    Un nouveau lecteur, appelé lecteur Tizen, a été introduit avec le dernier pack de fonctionnalités pour la version AEM Screens 6.5.6.
-Refer to **Implementing Tizen Player** for more details.
+Pour plus d&#39;informations, consultez **Mise en oeuvre de Tizen Player**.
 
 * **Rechercher des fonctionnalités à partir de Device Manager**
 
