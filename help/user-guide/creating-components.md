@@ -12,8 +12,8 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Pour garantir une création correcte, les composants doivent fournir les deux re
 
 Les composants intégrés tirent parti des catégories de bibliothèques clientes suivantes :
 
-| **Component** | **Bibliothèque cliente** |
+| **Composant** | **Bibliothèque cliente** |
 |---|---|
 | *cq.screens.components.edit* | CSS et JS devant être chargés lors de la création |
 | *cq.screens.components.production* | CSS et JS devant être chargés lorsque le canal est en cours d’exécution |
