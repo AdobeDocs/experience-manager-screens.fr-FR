@@ -12,8 +12,8 @@ targetaudience: target-audience new
 translation-type: tm+mt
 source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1852'
+ht-degree: 100%
 
 ---
 
