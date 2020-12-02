@@ -6,9 +6,9 @@ seo-description: Consultez cette page pour obtenir des réponses aux questions f
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
+source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1706'
 ht-degree: 86%
 
 ---
@@ -21,17 +21,17 @@ La section suivante permet de répondre à une partie des questions fréquemment
 ## Problème d’écran vide {#blank-screen}
 
 >[!NOTE]
->La liste des contrôles obligatoires qui doivent être testés par l&#39;assistance Principale ou l&#39;assistance côté client avant de soulever un problème :
+>La liste des contrôles obligatoires qui doivent être testés par l&#39;assistance Principale ou l&#39;assistance côté client avant de soulever un problème.
 
 ### 1. Quelles doivent être les étapes de dépannage de Premiers soins pour tout client faisant face à un écran noir ou à un contenu non lu ? {#troubleshooting-blank-screen}
 
 * Vérifiez si la prévisualisation de canal fonctionne.
 * Vérifier si la prévisualisation d&#39;affichage fonctionne
-* Essayez d&#39;enregistrer le lecteur en tant qu&#39;extension de navigateur sur votre ordinateur portable sur ce même écran et vérifiez si cela fonctionne.
+* Essayez d&#39;enregistrer le lecteur en tant qu&#39;extension de navigateur sur votre système pour le même affichage et vérifiez si cela fonctionne.
 * Lorsque le lecteur est en cours d’exécution sur votre système, accédez à `http://localhost:24502`. Vérifiez si tout le contenu est correctement téléchargé.
 * Vérifiez les ressources pour lesquelles les rendus appropriés sont créés et le rendu correct est en cours de lecture.
-* Recherchez tout contenu planifié et si les heures sont correctes. Vérifiez que l’heure configurée dans le lecteur est correcte.
-* Vérifiez les journaux de la console du lecteur et recherchez les erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console pour afficher ces derniers. Si vous utilisez le lecteur windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement pour vue les journaux.
+* Recherchez tout contenu planifié et si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
+* Inspect la console du lecteur enregistre et vérifie les erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console pour afficher ces derniers. Si vous utilisez le lecteur windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement pour vue les journaux.
 
 ## Gestion de canaux {#channel-management}
 
