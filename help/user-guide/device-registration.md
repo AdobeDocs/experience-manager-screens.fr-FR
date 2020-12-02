@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 73%
 
 ---
 
@@ -120,6 +120,29 @@ Si vous n’avez pas attribué le périphérique à un affichage, procédez comm
    De plus, vous pouvez afficher le tableau de bord de l’affichage en cliquant sur **Terminer**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### Recherche d&#39;un périphérique à partir du gestionnaire de périphériques {#search-device}
+
+Une fois que vous avez enregistré des périphériques sur votre lecteur, vous pouvez les vue depuis l&#39;interface utilisateur de Device Manager.
+
+1. Accédez à l&#39;interface utilisateur de Device Manager à partir de votre projet AEM Screens, par exemple **DemoScreens** —> **Devices**.
+
+1. Sélectionnez le dossier **Devices** et cliquez sur **Device Manager** dans la barre d&#39;actions.
+
+1. La liste des périphériques enregistrés s&#39;affiche.
+
+1. Si vous disposez d&#39;une longue liste de périphériques enregistrés, vous pouvez désormais effectuer une recherche à l&#39;aide de l&#39;icône de recherche de la barre d&#39;action ou simplement cliquer sur `/` (barre oblique) pour appeler la fonctionnalité de recherche.
+
+#### Limites de la fonctionnalité de recherche {#limitations}
+
+* L&#39;utilisateur pourra rechercher n&#39;importe quel mot dans l&#39;ID de périphérique ou le nom du périphérique. Veillez à stocker les noms des périphériques en plusieurs mots, tels que &quot;Boston Store Lobby&quot; plutôt que &quot;BostonStoreLobby&quot;.
+
+* Dans le premier cas, il permet de rechercher n&#39;importe quel mot &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, mais dans le second cas, la recherche &quot;boston&quot; ne montrera pas les résultats.
+
+* Caractère générique, `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les périphériques portant le nom **boston**, vous pouvez utiliser **boston***.
+
+1. Si le nom du périphérique est **BostonStoreLobby** et que la recherche de **boston** ne renvoie pas le résultat, mais **boston*** renvoie le résultat.
+
 
 ## Restrictions relatives à l’enregistrement de périphériques {#limitations-on-device-registration}
 
