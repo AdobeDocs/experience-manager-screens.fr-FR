@@ -2,10 +2,10 @@
 title: Rapport d’affectation de contenu
 description: Cette page décrit le téléchargement et l’utilisation du rapport d’affectation de contenu.
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 3%
+source-wordcount: '307'
+ht-degree: 8%
 
 ---
 
@@ -20,34 +20,21 @@ Le rapport Affectation de contenu permet à un auteur AEM Screens ou à un admin
 
 Le rapport Affectation de contenu permet non seulement la prévisualisation de tous les Canaux, actifs, écrans et périphériques du projet AEM Screens sélectionné, mais il fournit également une structure de haut niveau de votre projet.
 
-### Utilisation du rapport d’affectation de contenu {#downloading-content-assignment-report-fp}
 
-#### Configuration du projet {#setting-up-project}
+### Conditions préalables {#pre-reqs}
 
-Pour télécharger le rapport d’affectation de contenu à partir d’un projet AEM Screens, procédez comme suit :
+Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des Canaux, des emplacements et des périphériques.
+Consultez les ressources suivantes pour plus de détails :
 
-1. Créez un AEM Screens intitulé **DemoScreens**.
+1. [Création et gestion des projets](/help/user-guide/creating-a-screens-project.md)
+1. [Création et gestion des canaux](/help/user-guide/managing-channels.md)
+1. [Création et gestion des emplacements](/help/user-guide/managing-locations.md)
+1. [Création et gestion des affichages](/help/user-guide/managing-displays.md)
+1. [Création de périphériques](/help/user-guide/managing-devices.md)
+1. [Attribution de canaux](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![image](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Créez deux canaux de séquence dans **DemoScreens** tels que **ChannelOne** et **ChannelTwo**.
-
-   ![image](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. Sélectionnez **ChannelOne** et cliquez sur **Modifier** dans la barre d&#39;actions. Ajoutez peu de ressources (images/vidéos) à ce canal. De même, ajoutez des ressources à **ChannelTwo**.
-
-1. Accédez au dossier Emplacements à partir de **DemoScreens** —> **Emplacements** et créez trois emplacements différents intitulés **SanJose**, **Dublin** et **SanFrancisco**.
-
-   ![image](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. Accédez à chacun des emplacements et créez un affichage pour chaque emplacement, par exemple **SanJoseMain** sous **SanJose**, **DublinMain** sous **Dublin** et **SanFranciscoMain** sous **SanFrancisco**.
-
-1. Affectez un périphérique à chacun des écrans.
-
-   >[!NOTE]
-   >Pour en savoir plus sur l&#39;affectation d&#39;un canal à un affichage, consultez [Affectation de Canal](/help/user-guide/channel-assignment.md).
-
-#### Téléchargement du rapport d&#39;affectation de contenu {#downloading-content-assignment-report}
+## Téléchargement du rapport d&#39;affectation de contenu {#downloading-content-assignment-report-fp}
 
 Une fois que vous avez configuré votre projet AEM Screens et affecté des affichages à chacun des emplacements, comme indiqué dans les étapes précédentes, vous êtes prêt à télécharger le rapport Affectation de contenu.
 
@@ -64,8 +51,4 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 
    >[!NOTE]
    >La feuille de calcul téléchargée comprend quatre colonnes, telles que **Canaux**, **Actifs**, **Affichages** et **Appareils**, qui peuvent être utilisés pour étudier plus en détail ces quatre entités se rapportant à votre projet AEM Screens.
-
-
-
-
 
