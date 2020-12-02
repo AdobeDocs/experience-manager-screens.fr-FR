@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202011
 description: La page décrit les notes de mise à jour du Feature Pack 202011.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 51%
+source-wordcount: '277'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 AEM Screens inclus dans le Feature Pack 6 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.6 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.6 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l&#39;onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP6**.
 
 ## Date de publication {#release-date}
 
@@ -41,10 +41,11 @@ Pour plus d&#39;informations, consultez [Mise en oeuvre de Tizen Player](/help/u
 * **Rechercher des fonctionnalités à partir de Device Manager**
 
    Une nouvelle fonctionnalité de recherche est désormais disponible dans l’interface utilisateur de Device Manager avec le dernier pack de fonctionnalités pour la version AEM Screens 6.5.6.
+Pour plus d&#39;informations, consultez la section [Recherche d&#39;un périphérique à partir du Gestionnaire de périphériques](/help/user-guide/device-registration.md#search-device).
 
 * **Intervalle de ping par défaut**
 
-   L’intervalle de ping par défaut est désormais défini à 30 secondes pour cette version.
+   L’intervalle de ping par défaut est maintenant défini à 30 secondes dans cette version.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
