@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202011
 description: La page décrit les notes de mise à jour du Feature Pack 202011.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 42%
+source-wordcount: '275'
+ht-degree: 43%
 
 ---
 
