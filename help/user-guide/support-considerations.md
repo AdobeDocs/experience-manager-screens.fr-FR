@@ -31,10 +31,8 @@ Cette page présente la dernière partie qui conclut une série en 5 parties co
 >
 >* Déploiement du projet sur le terrain
 >* Vérification de la connectivité des périphériques et du fonctionnement entre le technicien chargé de l’installation et le centre d’exploitation de réseau
-
 >
->
-Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
+>Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
 
 La planification comprend :
 

@@ -70,10 +70,8 @@ L’image ci-après montre le projet **Channel Level Activation** avec les canau
 >Pour plus d’informations sur la création d’un projet et la création d’un canal de séquence, reportez-vous aux ressources ci-dessous :
 >
 >* [Création et gestion des projets](creating-a-screens-project.md)
-   >
-   >
-* [Gestion d’un canal](managing-channels.md)
-
+>
+>* [Gestion d’un canal](managing-channels.md)
 >
 
 
@@ -138,12 +136,14 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Cliquez sur **Enregistrer**.
 
    >[!CAUTION]
-   Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
+   >
+   >Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
-   Pour choisir le même jour, vous devez sélectionner le jour suivant et modifier manuellement la date en choisissant le même jour, mais à une heure ultérieure. L’utilisateur ne peut donc pas sélectionner une date antérieure. Reportez-vous à l’exemple ci-dessous :
+   >
+   >Pour choisir le même jour, vous devez sélectionner le jour suivant et modifier manuellement la date en choisissant le même jour, mais à une heure ultérieure. L’utilisateur ne peut donc pas sélectionner une date antérieure. Reportez-vous à l’exemple ci-dessous :
 
    ![new1](assets/new1.gif)
 
@@ -154,7 +154,8 @@ Une fois que vous aurez configuré les canaux et l’affichage, veuillez lancer 
 Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23h59 (comme défini dans la planification), le canal **TargetedSinglePlay** affiche son contenu jusqu’à 12h05, puis le canal **MainAdChannel** reprend la lecture de son contenu.
 
 >[!NOTE]
-Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
+>
+>Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
 
 [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
 [Utilisation du lecteur AEM Screens](working-with-screens-player.md)
@@ -173,7 +174,8 @@ Supposons que vous souhaitiez afficher les contenus d’un canal uniquement le v
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -192,7 +194,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 ### Tranches hebdomadaires {#week-parting}
 
@@ -201,7 +204,8 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -218,7 +222,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | avant 12 h 15 et après 12 h 45 | le canal est lu avant 12 h 15 et après 12 h 45 tous les jours |
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 
 ### Tranches mensuelles {#month-parting}
@@ -228,7 +233,8 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -241,10 +247,12 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | de février,mai,août,novembre | la ressource est lue dans le canal en février, mai, août, novembre |
 
 >[!NOTE]
-Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
+>
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
 
 >[!NOTE]
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
+>
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
 
 ### Combinaison de tranches {#combined-parting}
 
@@ -253,7 +261,8 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
    >[!NOTE]
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -268,5 +277,6 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
-Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
