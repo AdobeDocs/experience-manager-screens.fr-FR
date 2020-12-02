@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 73%
+source-wordcount: '785'
+ht-degree: 72%
 
 ---
 
@@ -121,7 +121,7 @@ Si vous n’avez pas attribué le périphérique à un affichage, procédez comm
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Recherche d&#39;un périphérique à partir du gestionnaire de périphériques {#search-device}
+### Recherche d&#39;un périphérique à partir du Gestionnaire de périphériques {#search-device}
 
 Une fois que vous avez enregistré des périphériques sur votre lecteur, vous pouvez les vue depuis l&#39;interface utilisateur de Device Manager.
 
@@ -129,20 +129,33 @@ Une fois que vous avez enregistré des périphériques sur votre lecteur, vous p
 
 1. Sélectionnez le dossier **Devices** et cliquez sur **Device Manager** dans la barre d&#39;actions.
 
+   ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. La liste des périphériques enregistrés s&#39;affiche.
 
-1. Si vous disposez d&#39;une longue liste de périphériques enregistrés, vous pouvez désormais effectuer une recherche à l&#39;aide de l&#39;icône de recherche de la barre d&#39;action ou simplement cliquer sur `/` (barre oblique) pour appeler la fonctionnalité de recherche.
+1. Si vous disposez d&#39;une longue liste de périphériques enregistrés, vous pouvez désormais effectuer une recherche à l&#39;aide de l&#39;icône de recherche de la barre d&#39;actions.
+
+   ![image](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   Ou,
+
+   Cliquez sur `/` (barre oblique) pour appeler la fonctionnalité de recherche.
+
+   ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### Limites de la fonctionnalité de recherche {#limitations}
 
-* L&#39;utilisateur pourra rechercher n&#39;importe quel mot dans l&#39;ID de périphérique ou le nom du périphérique. Veillez à stocker les noms des périphériques en plusieurs mots, tels que &quot;Boston Store Lobby&quot; plutôt que &quot;BostonStoreLobby&quot;.
+* L&#39;utilisateur pourra rechercher n&#39;importe quel mot existant dans l&#39;*ID de périphérique* ou *Nom du périphérique*.
 
-* Dans le premier cas, il permet de rechercher n&#39;importe quel mot &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, mais dans le second cas, la recherche &quot;boston&quot; ne montrera pas les résultats.
+   >[!NOTE]
+   >Il est recommandé de créer les noms de périphériques en plusieurs mots, tels que *Boston Store Lobby*, plutôt qu&#39;en un seul *BostonStoreLobby*.
 
-* Caractère générique, `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les périphériques portant le nom **boston**, vous pouvez utiliser **boston***.
+* Si vous créez des noms de périphérique tels que *Boston Store Lobby*, il permet de rechercher n’importe quel mot *boston*, *store* ou *hall* mais si le nom de périphérique est appelé *BostonStoreLobby* en recherchant *boston* n’affichera pas les résultats.
 
-1. Si le nom du périphérique est **BostonStoreLobby** et que la recherche de **boston** ne renvoie pas le résultat, mais **boston*** renvoie le résultat.
+* Caractère générique, `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les périphériques dont le nom commence par *boston*, vous pouvez utiliser *boston**.
 
+1. Si le nom du périphérique est *BostonStoreLobby* et que vous recherchez *boston*, le résultat ne sera pas renvoyé en utilisant *boston** dans vos critères de recherche, le résultat sera renvoyé.
 
 ## Restrictions relatives à l’enregistrement de périphériques {#limitations-on-device-registration}
 
