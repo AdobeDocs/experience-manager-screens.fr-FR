@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 72%
@@ -155,7 +155,7 @@ Une fois que vous avez enregistré des périphériques sur votre lecteur, vous p
 
 * Caractère générique, `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les périphériques dont le nom commence par *boston*, vous pouvez utiliser *boston**.
 
-1. Si le nom du périphérique est *BostonStoreLobby* et que vous recherchez *boston*, le résultat ne sera pas renvoyé en utilisant *boston** dans vos critères de recherche, le résultat sera renvoyé.
+* Si le nom du périphérique est *BostonStoreLobby* et que vous recherchez *boston*, le résultat ne sera pas renvoyé en utilisant *boston** dans vos critères de recherche, le résultat sera renvoyé.
 
 ## Restrictions relatives à l’enregistrement de périphériques {#limitations-on-device-registration}
 
