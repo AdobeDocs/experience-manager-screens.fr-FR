@@ -1,16 +1,12 @@
 ---
-source-git-commit: 1583b8388b2feede75a8d18d555eafd09c5a2c11
+source-git-commit: 186bc9f6c780434014c2c2806715d90d6cf79308
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '155'
-ht-degree: 50%
+source-wordcount: '73'
+ht-degree: 100%
 
 ---
 # Documentation d’Adobe Experience Manager Screens
-
-| EXL-PR | EXL | Aperçu | Activer | Publié | Aide |
-|--- |--- |--- |--- |--- |--- |
-| [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_pr-exl/lastBuild/) | [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Il s’agit du référentiel relatif à la documentation d’Adobe Experience Manager Screens.
 
