@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '1132'
+ht-degree: 74%
 
 ---
 
@@ -111,3 +111,65 @@ Le diagramme suivant illustre la mise en œuvre du service watchdog :
 >Sous Android, *AlarmManager* est utilisé pour enregistrer les *pendingIntents* qui peuvent s’exécuter même si l’application est en panne et que sa distribution d’alarme est incorrecte à partir d’API 19 (Kitkat). Conservez un certain espace entre l’intervalle du minuteur et l’alarme *pendingIntent* de *AlarmManager*.
 
 **3. Panne d’application** En cas de panne, le pendingIntent pour la commande Redémarrer enregistré avec AlarmManager n’est plus réinitialisé et donc exécute un redémarrage de l’application (en fonction des autorisations disponibles lors de l’initialisation du module externe cordova).
+
+## Approvisionnement en bloc du lecteur Android {#bulk-provision-android-player}
+
+Lors du déploiement en bloc du lecteur Android, il est nécessaire de configurer le lecteur pour qu’il pointe vers une instance AEM et de configurer d’autres propriétés sans entrer manuellement celles de l’interface utilisateur d’administration.
+
+>[!NOTE]
+>Cette fonctionnalité est disponible sur le lecteur Android 42.0.372.
+
+Suivez les étapes ci-dessous pour autoriser l’approvisionnement en vrac dans le lecteur Android :
+
+1. Créez un fichier JSON de configuration nommé `player-config.default.json`.
+Reportez-vous à un [Exemple de stratégie JSON](#example-json) ainsi qu&#39;à un tableau qui décrit l&#39;utilisation des divers [attributs de stratégie](#policy-attributes).
+
+1. Utilisez un explorateur de fichiers MDM ou ADB ou Android Studio pour déposer ce fichier JSON de stratégie dans le dossier *sdcard* du périphérique Android.
+
+1. Une fois le fichier déployé, utilisez MDM pour installer l’application du lecteur.
+
+1. Lorsque l&#39;application du lecteur est lancée, elle lit ce fichier de configuration et pointe vers le serveur AEM approprié où elle peut être enregistrée et contrôlée par la suite.
+
+   >[!NOTE]
+   >Ce fichier est *en lecture seule* la première fois que l&#39;application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur le périphérique.
+
+### Attributs de règle   {#policy-attributes}
+
+Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
+
+| **Nom de la règle** | **Objectif** |
+|---|---|
+| *server* | URL du serveur Adobe Experience Manager. |
+| *resolution* | Résolution de l’appareil. |
+| *rebootSchedule* | Le programme de redémarrage s&#39;applique à toutes les plates-formes. |
+| *enableAdminUI* | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez cette variable sur *false* une fois qu’elle a été entièrement configurée et en production. |
+| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Envisagez de définir *false* une fois qu’il est entièrement configuré et en production. |
+| *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
+| *enableNativeVideo* | Activez cette option pour utiliser l’accélération matérielle native pour la lecture vidéo (Android uniquement). |
+
+### Exemple de stratégie JSON {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>Tous les périphériques Android disposent d’un dossier *sdcard*, qu’un *sdcard* réel soit inséré ou non. Une fois déployé, ce fichier se trouverait au même niveau que le dossier Downloads. Certains MDM tels que Samsung Knox peuvent se référer à cet emplacement de dossier *sdcard* comme *enregistrement interne*.
