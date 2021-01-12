@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 74%
 
 ---
@@ -36,7 +36,7 @@ Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.m
 >[!NOTE]
 >Vous devez configurer un environnement pour le lecteur Android si vous utilisez le Service Pack AEM Screens 6.5.5.
 
-Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None** dans **Configuration de la console web Adobe
+Définissez la valeur de **SameSite attribute for the login-token cookies** de **Lax** sur **None** dans **Configuration de la console web Adobe
 Experience Manager** sur toutes les instances de création et de publication AEM.
 
 Suivez les étapes ci-dessous :
@@ -73,7 +73,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
 
-### Signature de fichiers apk Android à l’aide des clés du fabricant   {#signage-of-android-apks-using-manufacturer-keys}
+### Signature de fichiers apk Android à l’aide des clés du fabricant  {#signage-of-android-apks-using-manufacturer-keys}
 
 Pour accéder à certaines des API privilégiées d’Android telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le fichier apk Android à l’aide des clés du fabricant.
 
@@ -94,7 +94,7 @@ Suivez les étapes ci-dessous pour signer le fichier apk Android à l’aide des
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Installez ***aemscreensaligned.apk*** via adb install sur l’appareil.
 
-## Mise en œuvre du watchdog Android {#android-watchdog-implementation}
+## Présentation des services Android Watchdog {#android-watchdog-services}
 
 Le service watchdog Android est mis en œuvre en tant que module externe cordova via *AlarmManager*.
 
