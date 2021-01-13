@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
    + Intégration d’Adobe Analytics avec AEM Screens {#analytics-integration}
       + [Intégration d’Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Exemples de cas de création et d’utilisation{#authoring}
++ Exemples de cas de création et d’utilisation {#authoring}
    + Configuration d’un projet Screens {#setting-up-projects}
       + [Création et gestion des projets](creating-a-screens-project.md)
       + [Création et gestion des canaux](managing-channels.md)
