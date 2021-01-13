@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ La section suivante permet de répondre à une partie des questions fréquemment
 ## Problème d’écran vide {#blank-screen}
 
 >[!NOTE]
->La liste des contrôles obligatoires qui doivent être testés par l&#39;assistance Principale ou l&#39;assistance côté client avant de soulever un problème.
+>Liste des contrôles obligatoires qui doivent être testés par l’assistance principale ou l’assistance côté client avant de soulever un problème.
 
-### 1. Quelles doivent être les étapes de dépannage de Premiers soins pour tout client faisant face à un écran noir ou à un contenu non lu ? {#troubleshooting-blank-screen}
+### 1. Quelles doivent être les étapes de dépannage initiales pour un client rencontrant un problème d’écran noir ou de contenu impossible à lire ? {#troubleshooting-blank-screen}
 
-* Vérifiez si la prévisualisation de canal fonctionne.
-* Vérifier si la prévisualisation d&#39;affichage fonctionne
-* Essayez d&#39;enregistrer le lecteur en tant qu&#39;extension de navigateur sur votre système pour le même affichage et vérifiez si cela fonctionne.
+* Vérifiez si l’aperçu de canal fonctionne.
+* Vérifiez si l’aperçu d’affichage fonctionne.
+* Essayez d’enregistrer le lecteur en tant qu’extension de navigateur sur votre système pour le même affichage et vérifiez si cela fonctionne.
 * Lorsque le lecteur est en cours d’exécution sur votre système, accédez à `http://localhost:24502`. Vérifiez si tout le contenu est correctement téléchargé.
-* Vérifiez les ressources pour lesquelles les rendus appropriés sont créés et le rendu correct est en cours de lecture.
-* Recherchez tout contenu planifié et si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
-* Inspect la console du lecteur enregistre et vérifie les erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console pour afficher ces derniers. Si vous utilisez le lecteur windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement pour vue les journaux.
+* Vérifiez les ressources pour lesquelles les rendus appropriés sont créés et que le rendu correct est en cours de lecture.
+* Recherchez les contenus planifiés et vérifiez si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
+* Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console en les affichant. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour faire apparaître la console de développement et afficher les journaux.
 
 ## Gestion de canaux {#channel-management}
 
@@ -140,15 +140,15 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
-### 5. Comment résoudre le problème d’un lecteur AEM Screens qui envoie en continu des demandes de connexion ?{#requests-login}
+### 5. Comment résoudre le problème d’un lecteur AEM Screens qui envoie en continu des demandes de connexion ? {#requests-login}
 
 Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qui envoie continuellement des requêtes à `/content/screens/svc.json` et `/libs/granite/core/content/login.validate/j_security_check` :
 
-1. Lorsque le lecteur AEM Screens démarre, il le demande à `/content/screens/svc.json`. Lorsque le lecteur obtient un code d’état 404 en réponse, il initie une demande d’authentification à l’aide de `/libs/granite/core/content/login.validate/j_security_check` par rapport à l’instance de *publication*. Si l&#39;instance de *publication* comporte un gestionnaire d’erreur personnalisé, veillez à retourner le code d’état 404 pour l’utilisateur anonyme sur `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
+1. Lorsque le lecteur AEM Screens démarre, il le demande à `/content/screens/svc.json`. Lorsque le lecteur obtient un code d’état 404 en réponse, il initie une demande d’authentification à l’aide de `/libs/granite/core/content/login.validate/j_security_check` par rapport à l’instance de *publication*. Si l’instance de *publication* comporte un gestionnaire d’erreur personnalisé, veillez à retourner le code d’état 404 pour l’utilisateur anonyme sur `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
 
 1. Vérifiez si votre configuration de Dispatcher autorise ces requêtes dans la `/filters`.
 
@@ -156,7 +156,7 @@ Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qu
 
 1. Vérifiez si les règles de réécriture de Dispatcher réécrivent les chemins Screens vers un chemin différent.
 
-1. Vérifiez si vous avez des règles `/etc/map` sur l&#39;instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans /`/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
+1. Vérifiez si vous avez des règles `/etc/map` sur l’instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans /`/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
 
 1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
@@ -178,11 +178,11 @@ Pour désactiver Livefyre afin d’éviter les erreurs de journal :
    * Ajoutez une nouvelle propriété de *type* booléenne *activée*.
    * Définissez la **propriété activée** sur **false**.
 
-### 2. Comment Ajouter l&#39;information sur l&#39;indice de chêne ? {#add-oak-index-info}
+### 2. Comment ajouter des informations d’index Oak ? {#add-oak-index-info}
 
 AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.
-S&#39;il y a des WARN *Requête Traversal* dans `error.log`, créez un index personnalisé pour votre requête. Voir [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) pour plus d&#39;informations.
+Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=fr#configuring-the-indexes).
 
-Vous pouvez également consulter une ressource supplémentaire sur [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
