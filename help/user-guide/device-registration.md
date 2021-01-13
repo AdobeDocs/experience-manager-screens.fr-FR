@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -121,19 +121,19 @@ Si vous n’avez pas attribué le périphérique à un affichage, procédez comm
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Recherche d&#39;un périphérique à partir du Gestionnaire de périphériques {#search-device}
+### Recherche d’un périphérique à partir du Gestionnaire de périphériques {#search-device}
 
-Une fois que vous avez enregistré des périphériques sur votre lecteur, vous pouvez les vue depuis l&#39;interface utilisateur de Device Manager.
+Une fois que vous avez enregistré des périphériques sur votre lecteur, vous pouvez les afficher depuis l’interface utilisateur du Gestionnaire de périphériques.
 
-1. Accédez à l&#39;interface utilisateur de Device Manager à partir de votre projet AEM Screens, par exemple **DemoScreens** —> **Devices**.
+1. Accédez à l’interface utilisateur du Gestionnaire de périphériques à partir de votre projet AEM Screens, par exemple **DemoScreens** --> **Périphériques**.
 
-1. Sélectionnez le dossier **Devices** et cliquez sur **Device Manager** dans la barre d&#39;actions.
+1. Sélectionnez le dossier **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
-1. La liste des périphériques enregistrés s&#39;affiche.
+1. La liste des périphériques enregistrés s’affiche.
 
-1. Si vous disposez d&#39;une longue liste de périphériques enregistrés, vous pouvez désormais effectuer une recherche à l&#39;aide de l&#39;icône de recherche de la barre d&#39;actions.
+1. Si vous disposez d’une longue liste de périphériques enregistrés, vous pouvez désormais effectuer une recherche à l’aide de l’icône de recherche de la barre d’actions.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-2.png)
 
@@ -146,16 +146,16 @@ Une fois que vous avez enregistré des périphériques sur votre lecteur, vous p
 
 #### Limites de la fonctionnalité de recherche {#limitations}
 
-* L&#39;utilisateur pourra rechercher n&#39;importe quel mot existant dans l&#39;*ID de périphérique* ou *Nom du périphérique*.
+* L’utilisateur pourra rechercher n’importe quel mot existant dans l’*ID de périphérique* ou le *Nom du périphérique*.
 
    >[!NOTE]
-   >Il est recommandé de créer les noms de périphériques en plusieurs mots, tels que *Boston Store Lobby*, plutôt qu&#39;en un seul *BostonStoreLobby*.
+   >Il est recommandé de créer les noms de périphériques à l’aide de plusieurs mots, tels que *Boston Store Lobby*, plutôt qu’en un seul, *BostonStoreLobby*.
 
-* Si vous créez des noms de périphérique tels que *Boston Store Lobby*, il permet de rechercher n’importe quel mot *boston*, *store* ou *hall* mais si le nom de périphérique est appelé *BostonStoreLobby* en recherchant *boston* n’affichera pas les résultats.
+* Si vous créez des noms de périphérique tels que *Boston Store Lobby*, il est possible de rechercher n’importe quel mot *boston*, *store* ou *lobby*. Par contre, si le nom de périphérique est *BostonStoreLobby*, une recherche sur *boston* n’affichera pas les résultats.
 
-* Caractère générique, `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les périphériques dont le nom commence par *boston*, vous pouvez utiliser *boston**.
+* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les périphériques dont le nom commence par *boston*, vous pouvez utiliser *boston**.
 
-* Si le nom du périphérique est *BostonStoreLobby* et que vous recherchez *boston*, le résultat ne sera pas renvoyé en utilisant *boston** dans vos critères de recherche, le résultat sera renvoyé.
+* Si le nom du périphérique est *BostonStoreLobby* et que vous recherchez *boston*, le résultat ne sera pas renvoyé. Par contre, si vous utilisez *boston** dans vos critères de recherche, le résultat sera renvoyé.
 
 ## Restrictions relatives à l’enregistrement de périphériques {#limitations-on-device-registration}
 
