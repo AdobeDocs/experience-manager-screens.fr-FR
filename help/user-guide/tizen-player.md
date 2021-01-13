@@ -1,54 +1,54 @@
 ---
 title: Lecteur Tizen
-description: Cette page décrit l'installation et le fonctionnement de Tizen Player.
-translation-type: tm+mt
+description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
+translation-type: ht
 source-git-commit: b3209d1dcce6defff347f288c704a1e7ea075ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Implémentation de Tizen Player {#tizen-player}
+# Implémentation du lecteur Tizen {#tizen-player}
 
-## Installation de Tizen Player {#installing-tizen-player}
+## Installation du lecteur Tizen {#installing-tizen-player}
 
-Pour mettre en oeuvre Tizen Player pour AEM Screens, procédez comme suit :
+Pour mettre en œuvre le lecteur Tizen avec AEM Screens, procédez comme suit :
 
-1. Accédez à la page [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) pour télécharger Tizen Player.
+1. Accédez à la page [**Téléchargements de lecteurs AEM 6.5**](https://download.macromedia.com/screens/) pour télécharger le lecteur Tizen.
 
-1. Installez le fichier Tizen player (.zip) depuis l’ordinateur local.
+1. Installez le fichier du lecteur Tizen (.zip) à partir de l’ordinateur local.
 
-## Configuration du serveur local et extraction des fichiers Zip {#setting-local-server}
+## Configuration du serveur local et extraction des fichiers ZIP {#setting-local-server}
 
-Suivez les étapes ci-dessous pour configurer le serveur local et copier les fichiers extraits :
+Suivez les étapes ci-dessous pour configurer le serveur local et copier les fichiers extraits :
 
-1. Obtenez l&#39;adresse IP de votre ordinateur local.
+1. Obtenez l’adresse IP de votre ordinateur local.
    >[!NOTE]
    >Consultez la documentation officielle pour savoir comment activer le serveur local sur votre plateforme.
 
-1. Depuis l’utilitaire Terminal, accédez au même répertoire que le dossier du programme d’installation décompressé et vérifiez si l’hôte local fonctionne.
+1. Depuis le terminal, accédez au même répertoire que le dossier du programme d’installation décompressé et vérifiez que l’hôte local fonctionne.
 
-1. Le lecteur Tizen téléchargera le programme d&#39;installation à partir du serveur local.
+1. Le lecteur Tizen télécharge ensuite le programme d’installation à partir du serveur local.
 
 1. Copiez les deux fichiers extraits tels que `AEMScreensPlayer.wgt` et `sssp_config.xml` dans le répertoire racine de votre serveur local.
 
 ### Configuration des mises à jour sur le périphérique Samsung {#config-updates}
 
-Suivez les étapes ci-dessous sur le périphérique Samsung pour terminer l&#39;installation du lecteur AEM Screens sur le périphérique :
+Suivez les étapes ci-dessous sur le périphérique Samsung pour effectuer l’installation du lecteur AEM Screens :
 
 1. Accédez à votre périphérique Samsung.
 
 1. Cliquez sur le bouton **Accueil** à l’aide de la télécommande du périphérique et sélectionnez **Paramètres du lanceur d’URL**.
 
-1. Entrez l&#39;adresse IP de votre serveur localhost.
+1. Entrez l’adresse IP de votre serveur localhost.
 
-1. Sélectionnez **Remote** dans **Mode développeur**.
+1. Sélectionnez **À distance** dans **Mode développeur**.
 
-1. Cliquez sur le bouton **Accueil** de la télécommande du périphérique et sélectionnez **Lancement d’URL**.
+1. Cliquez sur le bouton **Accueil** de la télécommande du périphérique et sélectionnez **Lanceur d’URL**.
 
-1. Le AEM Screens Player doit désormais automatiquement être installé et lancé sur votre Samsung.
+1. Le lecteur AEM Screens devrait alors être automatiquement installé et lancé sur votre appareil Samsung.
 
 
 
