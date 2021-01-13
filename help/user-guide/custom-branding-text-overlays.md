@@ -4,18 +4,18 @@ seo-title: Application d’une valorisation de marque et de styles personnalisé
 description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Valorisation de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
-Suivez cette page pour savoir comment appliquer une marque et un style personnalisés pour les incrustations de texte appliquées à vos ressources dans un canal AEM Screens.
+Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte de vos ressources dans un canal AEM Screens.
 
 ## Création d’une valorisation de marque et de styles personnalisés pour les superpositions de texte {#steps-custom-branding}
 
@@ -104,7 +104,7 @@ Vous devez mettre à jour les listes ACL de ces conceptions afin qu’elles puis
 
 ## Affichage du résultat {#viewing-the-result}
 
-Une fois les étapes précédentes effectuées, vous pouvez mettre à jour le fichier *statis.css* à partir de **CRXDE Lite** et ainsi voir la mise à jour de la superposition de texte déjà ajoutée à la ressource.
+Une fois les étapes précédentes effectuées, vous pouvez mettre à jour le fichier *static.css* à partir de **CRXDE Lite** et ainsi voir la mise à jour de la superposition de texte déjà ajoutée à la ressource.
 
 Pour voir la conception mise à jour avec la superposition de texte, procédez comme suit :
 
@@ -128,7 +128,7 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Vous êtes maintenant prêt à mettre à jour votre marque et votre style personnalisé pour les incrustations de texte ajoutées à vos ressources.
+   Vous êtes maintenant prêt à actualiser votre marque et à appliquer votre style personnalisé pour les incrustations de texte ajoutées à vos ressources.
 
 
 
