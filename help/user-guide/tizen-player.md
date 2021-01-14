@@ -2,9 +2,9 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 27%
 
 ---
@@ -77,7 +77,7 @@ Suivez les étapes ci-dessous pour configurer l’application en bloc afin qu’
 
 ### Inscription du périphérique Tizen à Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Suivez les étapes ci-dessous pour inscrire Tizen Device à Samsung Remote Management Service (RMS) et configurer à distance le lanceur d’URL :
+Suivez les étapes ci-dessous pour inscrire le périphérique Tizen à Samsung Remote Management Service (RMS) et configurer à distance le lanceur d’URL :
 
 >[!NOTE]
 >Vérifiez les paramètres réseau et le moniteur.
@@ -107,9 +107,13 @@ Suivez les étapes ci-dessous pour inscrire Tizen Device à Samsung Remote Manag
 
 1. La fenêtre contextuelle Informations sur le périphérique s&#39;affiche comme suit et cliquez sur le bouton Modifier.
 
-1. Les options Modifier le périphérique s&#39;affichent comme suit et sélectionnez l&#39;onglet Configuration.
+1. Modifiez les options du périphérique et sélectionnez l&#39;onglet **Configuration**.
 
-1. Recherchez la section Lancement d’URL et saisissez l’URL hébergeant le wgt et `SSSP config file` pour installer une application SSSP.
+1. Accédez à la section **Lancement d&#39;URL** et saisissez l&#39;URL hébergeant le wgt et `SSSP config file` pour installer une application `SSSP`, comme illustré dans la figure ci-dessous.
+
+   ![image](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Cliquez sur **Enregistrer** pour que les modifications prennent effet sur l&#39;écran d&#39;affichage.
 
 
 
