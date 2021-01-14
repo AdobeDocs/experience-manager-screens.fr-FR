@@ -2,10 +2,10 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
+source-git-commit: c1ddb5f458831025bdcd1481bcdc198616f5bb47
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 12%
+source-wordcount: '931'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Pour mettre en œuvre le lecteur Tizen avec AEM Screens, procédez comme suit :
 
-1. Accédez à la page [Téléchargements de lecteurs AEM 6.5](https://download.macromedia.com/screens/) pour télécharger le lecteur Tizen.
+1. Accédez à la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger Tizen Player.
 
 1. Installez le fichier du lecteur Tizen *(.zip)* depuis l’ordinateur local.
 
