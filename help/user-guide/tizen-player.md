@@ -2,10 +2,10 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 18%
+source-wordcount: '930'
+ht-degree: 12%
 
 ---
 
@@ -30,6 +30,9 @@ Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l�
 
 1. Mise à niveau vers Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >Si vous installez AEM 6.5.8, vous pouvez ignorer les étapes 2 et 3 suivantes.
+
 1. Accédez à `/system/console/bundles` dans AEM et cliquez sur le bouton `install/update`.
 
 1. Installez le fichier jar `crx-auth-token`. Vous devrez peut-être arrêter et redémarrer AEM après avoir installé ce fichier jar, car il est lié à l&#39;authentification.
@@ -38,27 +41,23 @@ Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l�
 
 1. Vous devriez voir une nouvelle option *Agents utilisateur à exempter de l&#39;attribut samesite*. Renseignez ce champ avec un regex correspondant aux agents utilisateur qui est(sont) incompatible avec l’attribut *SameSite=None*.
    >[!NOTE]
-   >Voir [SameSite=None: Clients incompatibles connus ](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations. Pour le lecteur Tizen, utilisez l’expression regex : `(.*)Tizen (4|5)(.*)`.
+   >Voir [SameSite=None: Clients incompatibles connus ](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations. Pour le lecteur Tizen, utilisez l’expression regex : `(.*)Tizen(.*)`.
 
 1. Enregistrez le lecteur Tizen par rapport à votre instance AEM 6.5.5 et ultérieure et il doit s&#39;enregistrer et afficher le contenu normalement.
 
 
 ## Configuration du serveur local et extraction des fichiers ZIP {#setting-local-server}
 
-Suivez les étapes ci-dessous pour configurer le serveur local et copier les fichiers extraits :
-
-1. Obtenez l’adresse IP de votre ordinateur local.
-   >[!NOTE]
-   >Consultez la documentation officielle pour savoir comment activer le serveur local sur votre plateforme.
-
-1. Depuis le terminal, accédez au même répertoire que le dossier du programme d’installation décompressé et vérifiez que l’hôte local fonctionne.
-
-1. Le lecteur Tizen télécharge ensuite le programme d’installation à partir du serveur local.
+Suivez les étapes ci-dessous :
 
 1. Copiez les deux fichiers extraits tels que `AEMScreensPlayer.wgt` et `sssp_config.xml` dans le répertoire racine de votre serveur Web Apache local.
 
    >[!NOTE]
    >`AEMScreensPlayer.wgt`est l&#39;application réelle du lecteur Tizen et `sssp_config.xml` contient des informations sur ce mappage qui vous aide à l&#39;installer sur le périphérique Tizen.
+
+1. Obtenez l’adresse IP ou l’URL de votre serveur HTTP local (et le chemin d’accès au dossier contenant les fichiers extraits à l’étape 2 s’il est extrait dans un sous-dossier et non dans le dossier racine).
+
+1. Le lecteur Tizen télécharge ensuite le programme d’installation à partir du serveur local.
 
 ### Configuration des mises à jour sur le périphérique Samsung {#config-updates}
 
@@ -73,7 +72,9 @@ Suivez les étapes ci-dessous sur le périphérique Samsung pour effectuer l’i
 
 1. Une fois le lanceur d’URL défini, appuyez sur le bouton **Accueil** de votre télécommande.
 
-1. Accédez aux **Paramètres du lanceur d’URL** et saisissez l’adresse IP de votre serveur hôte local.
+1. Accédez aux **Paramètres du lanceur d’URL**, saisissez l’adresse IP de votre serveur hôte local et cliquez sur **Terminé**.
+   >[!NOTE]
+   >Le lecteur Tizen doit pouvoir se connecter au serveur http.
 
 1. Le lecteur AEM Screens devrait alors être automatiquement installé et lancé sur votre appareil Samsung.
 
@@ -115,6 +116,8 @@ Suivez les étapes ci-dessous pour inscrire le périphérique Tizen à Samsung R
 1. Configurez TLS, si nécessaire. Accédez au port et sélectionnez le numéro de port sur le serveur, puis cliquez sur **Enregistrer**.
 
 1. Accédez à l&#39;onglet **Périphérique** et recherchez le périphérique que vous venez de configurer. Une fois qu&#39;un périphérique a été trouvé, cochez la case et sélectionnez **Approuver**.
+
+   >![image](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Renseignez les informations requises et sélectionnez un groupe de périphériques. Cliquez sur **OK** pour terminer le processus d&#39;approbation.
 
