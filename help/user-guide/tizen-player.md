@@ -2,10 +2,10 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '675'
+ht-degree: 27%
 
 ---
 
@@ -77,29 +77,40 @@ Suivez les étapes ci-dessous pour configurer l’application en bloc afin qu’
 
 ### Inscription du périphérique Tizen à Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Suivez les étapes ci-dessous pour inscrire Tizen Device à Samsung Remote Management Service (RMS) et configurer à distance le lanceur d&#39;URL :
+Suivez les étapes ci-dessous pour inscrire Tizen Device à Samsung Remote Management Service (RMS) et configurer à distance le lanceur d’URL :
 
 >[!NOTE]
 >Vérifiez les paramètres réseau et le moniteur.
 
-1. Appuyez sur Menu sur votre télécommande, accédez à Système, puis appuyez sur Entrée sur Play Via.
+1. Accédez à **Menu** -> **Réseau** -> **Paramètres réseau du serveur** et appuyez sur **Entrée**.
 
    >[!NOTE]
-   >Vérifiez que l’écran est configuré pour Lire par le lanceur d’URL.
-1. Accédez à **Menu** -> **Réseau** -> **Paramètres réseau du serveur** et appuyez sur **Entrée**.
+   >Vérifiez que l’écran est configuré pour Lire via le lanceur d’URL.
 
 1. Accédez à l’adresse du serveur et tapez dans l’accès à l’URL MagicInfo et appuyez sur Terminé.
 
-1. Accédez à l&#39;onglet Périphérique une fois connecté au SIG.
-1. Recherchez le périphérique que vous venez de configurer en examinant l’adresse IP et/ou son adresse Mac.
-1. Une fois qu&#39;un périphérique a été trouvé, cochez la case et sélectionnez Approuver.
-1. Vérifiez que l&#39;écran est configuré pour Lecture via le lanceur d&#39;URL.
-1. Appuyez sur Menu sur votre télécommande, accédez à Système, puis appuyez sur Entrée sur Lecture via
-1. Accédez au menu -> Réseau -> Paramètres réseau du serveur et appuyez sur Entrée.
-1. Accédez à l’adresse du serveur et saisissez l’URL d’accès MagicInfo et appuyez sur Terminé.
 1. Configuration de TLS à utiliser ou à ne pas utiliser selon le cas
-1. Accédez au port et sélectionnez le numéro de port sur le serveur.
-1. Cliquez sur Enregistrer une fois que les options sont prêtes.
+   1. Accédez au port et sélectionnez le numéro de port sur le serveur.
+   1. Cliquez sur Enregistrer une fois que les options sont prêtes.
+
+1. Accédez à l&#39;onglet Périphérique une fois connecté au SIG.
+   1. Recherchez le périphérique que vous venez de configurer en examinant l’adresse IP et/ou son adresse Mac.
+   1. Une fois qu&#39;un périphérique a été trouvé, cochez la case et sélectionnez Approuver.
+
+1. Une fois que vous avez cliqué sur le bouton Approuvé, la fenêtre contextuelle suivante s’affiche.
+   1. Renseignez les informations requises.
+   1. sélectionner un groupe de périphériques
+   1. Cliquez sur OK pour terminer le processus d’approbation.
+
+1. Une fois le périphérique approuvé, il doit apparaître comme suit dans la Liste du périphérique.
+   1. Cliquez sur le bouton Informations situé dans la zone &quot;i&quot; de votre appareil.
+
+1. La fenêtre contextuelle Informations sur le périphérique s&#39;affiche comme suit et cliquez sur le bouton Modifier.
+
+1. Les options Modifier le périphérique s&#39;affichent comme suit et sélectionnez l&#39;onglet Configuration.
+
+1. Recherchez la section Lancement d’URL et saisissez l’URL hébergeant le wgt et `SSSP config file` pour installer une application SSSP.
+
 
 
 
