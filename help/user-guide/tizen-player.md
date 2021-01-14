@@ -2,9 +2,9 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
+source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '899'
 ht-degree: 21%
 
 ---
@@ -23,22 +23,24 @@ Pour mettre en œuvre le lecteur Tizen avec AEM Screens, procédez comme suit :
 ## Exonération des agents utilisateur avec la publication du cookie Samesite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Cette section s&#39;applique à AEM 6.5.5 à AEM 6.5.7**
->Certains moteurs de navigateur sont incompatibles avec l&#39;attribut *SameSite=None* utilisé dans le jeton de connexion émis par AEM 6.5 à AEM 6.7. Dans la plupart des cas, le problème peut être résolu en mettant à niveau le navigateur vers la dernière version disponible. Dans certains cas, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans dynamiques, des décodeurs ou d&#39;autres périphériques avec des moteurs de navigation intégrés. Pour exempter ces clients incompatibles lors de l&#39;utilisation de SameSite=None, veuillez suivre les étapes suivantes.
+>**Cette section s&#39;applique à Adobe Experience Manager (AEM) 6.5.5 à AEM 6.5.7**
+>Certains moteurs de navigateur sont incompatibles avec l&#39;attribut *SameSite=None* utilisé dans le jeton de connexion émis par AEM 6.5 à AEM 6.7. Dans la plupart des cas, le problème peut être résolu en mettant à niveau le navigateur vers la dernière version disponible. Dans certains cas, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans dynamiques, des décodeurs ou d&#39;autres périphériques avec des moteurs de navigation intégrés.
 
-1. Téléchargez le correctif *fichier jar* à partir de `https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`.
+Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l’utilisation de *SameSite=None* :
+
+1. Mise à niveau vers Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
 1. Accédez à `/system/console/bundles` dans AEM et cliquez sur le bouton `install/update`.
 
 1. Installez le fichier jar `crx-auth-token`. Vous devrez peut-être arrêter et redémarrer AEM après avoir installé ce fichier jar, car il est lié à l&#39;authentification.
 
-1. Après AEM redémarrez, accédez à `/system/console/configMgr` et recherchez **Gestionnaire d&#39;authentification du jeton Granite Adobe**. Définissez la valeur du paramètre Même site sur Aucun.
+1. Après AEM redémarrez, accédez à `/system/console/configMgr` et recherchez **Gestionnaire d&#39;authentification du jeton Granite Adobe**. Définissez la valeur **SameSite** sur **None**.
 
 1. Vous devriez voir une nouvelle option *Agents utilisateur à exempter de l&#39;attribut samesite*. Renseignez ce champ avec un regex correspondant aux agents utilisateur qui est(sont) incompatible avec l’attribut *SameSite=None*.
    >[!NOTE]
-   >Voir [SameSite=None: Clients incompatibles connus ](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations.
+   >Voir [SameSite=None: Clients incompatibles connus ](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations. Pour le lecteur Tizen, utilisez l’expression regex : `(.*)Tizen (4|5)(.*)`.
 
-1. Pour le lecteur Tizen, utilisez l’expression regex : `(.*)Tizen (4|5)(.*)` Enregistrez le lecteur Tizen par rapport à votre instance AEM 6.5.5 et ultérieure et il doit s&#39;enregistrer et afficher le contenu normalement.
+1. Enregistrez le lecteur Tizen par rapport à votre instance AEM 6.5.5 et ultérieure et il doit s&#39;enregistrer et afficher le contenu normalement.
 
 
 ## Configuration du serveur local et extraction des fichiers ZIP {#setting-local-server}
@@ -113,21 +115,21 @@ Suivez les étapes ci-dessous pour inscrire le périphérique Tizen à Samsung R
 
 1. Configurez TLS, si nécessaire. Accédez au port et sélectionnez le numéro de port sur le serveur. Cliquez sur **Enregistrer**.
 
-1. Accédez à l&#39;onglet Périphérique et recherchez le périphérique que vous venez de configurer.
+1. Accédez à l&#39;onglet **Périphérique** et recherchez le périphérique que vous venez de configurer. Une fois qu&#39;un périphérique a été trouvé, cochez la case et sélectionnez **Approuver**.
 
-1. Une fois qu&#39;un périphérique a été trouvé, cochez la case et sélectionnez **Approuver**.
-
-1. Renseignez les informations requises et sélectionnez un groupe de périphériques. Cliquez sur **Ok** pour terminer le processus d&#39;approbation.
+1. Renseignez les informations requises et sélectionnez un groupe de périphériques. Cliquez sur **OK** pour terminer le processus d&#39;approbation.
 
    >![image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Une fois le périphérique approuvé, il doit apparaître sur la Liste du périphérique. Cliquez sur le bouton *Informations* situé dans la zone de votre périphérique **i**.
+1. Une fois le périphérique approuvé, il doit apparaître sur la Liste du périphérique. Cliquez sur le bouton *Information* situé dans la zone de votre périphérique, c&#39;est-à-dire **i**, comme indiqué dans la figure ci-dessous.
 
    >![image](/help/user-guide/assets/tizen/rms-6.png)
 
 1. La boîte de dialogue d’informations sur le périphérique s’affiche. Sélectionnez l&#39;onglet **Informations sur le périphérique** et cliquez sur **Modifier**.
 
-1. Modifiez les options de périphérique et sélectionnez l&#39;onglet **Configuration**. Accédez à la section **Lancement d&#39;URL** et saisissez l&#39;URL hébergeant le wgt et `SSSP config file` pour installer une application `SSSP`, comme illustré dans la figure ci-dessous.
+   >![image](/help/user-guide/assets/tizen/rms-5.png)
+
+1. Modifiez les options du périphérique et sélectionnez l&#39;onglet **Configuration**. Accédez à la section **Lancement d&#39;URL** et saisissez l&#39;URL hébergeant le wgt et `SSSP config file` pour installer une application `SSSP`, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
