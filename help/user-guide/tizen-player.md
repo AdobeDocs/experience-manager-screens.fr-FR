@@ -2,10 +2,10 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 21%
+source-wordcount: '926'
+ht-degree: 18%
 
 ---
 
@@ -68,23 +68,22 @@ Suivez les étapes ci-dessous sur le périphérique Samsung pour effectuer l’i
 
 1. Cliquez sur le bouton **MENU** de la télécommande du périphérique et faites défiler la liste jusqu&#39;à **Système** dans la barre de navigation de gauche.
 
-1. Faites défiler l’écran vers le bas et sélectionnez l’option **Lecture via le lanceur d’URL**.
+1. Faites défiler la page vers le bas et sélectionnez l’option **Lecture par** et remplacez-la par **Lancement d’URL**.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Appuyez sur le bouton **Accueil** de votre télécommande.
+1. Une fois le lanceur d’URL défini, appuyez sur le bouton **Accueil** de votre télécommande.
 
-1. Entrez l’adresse IP de votre serveur localhost.
-
-1. Sélectionnez **À distance** dans **Mode développeur**.
-
-1. Cliquez sur le bouton **Accueil** de la télécommande du périphérique et sélectionnez **Lanceur d’URL**.
+1. Accédez aux **Paramètres du lanceur d’URL** et saisissez l’adresse IP de votre serveur hôte local.
 
 1. Le lecteur AEM Screens devrait alors être automatiquement installé et lancé sur votre appareil Samsung.
+
+   >[!NOTE]
+   >Le périphérique Tizen et le serveur `http` doivent pouvoir se connecter les uns aux autres, c&#39;est-à-dire que le serveur doit être accessible au lecteur Tizen.
 
 ## Approvisionnement en bloc de Tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->Il peut s’avérer fastidieux de saisir manuellement l’adresse de votre serveur AEM dans l’interface utilisateur d’administration de chaque périphérique pour un grand nombre de périphériques. Il est recommandé d&#39;utiliser la solution Samsung Remote Management (RMS) pour déployer et gérer la solution. Pour plus d&#39;informations, consultez [Enrollment the Tizen Device to Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm).
+>Il peut s’avérer fastidieux de saisir manuellement l’adresse de votre serveur AEM dans l’interface utilisateur d’administration de chaque périphérique pour un grand nombre de périphériques. Il est recommandé d&#39;utiliser la solution Samsung Remote Management (RMS) pour déployer et gérer des solutions plus volumineuses. Pour plus d&#39;informations, consultez [Enrollment the Tizen Device to Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm).
 
 Suivez les étapes ci-dessous pour configurer l’application en bloc afin qu’elle pointe vers votre instance d’auteur AEM au lancement :
 
@@ -111,9 +110,9 @@ Suivez les étapes ci-dessous pour inscrire le périphérique Tizen à Samsung R
    >Vérifiez que l’écran est configuré pour Lire via le lanceur d’URL.
    >![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Accédez à l’adresse du serveur et tapez dans l’accès à l’URL MagicInfo et appuyez sur Terminé.
+1. Accédez à l’adresse du serveur et tapez dans l’accès à l’URL MagicInfo et appuyez sur **Terminé**.
 
-1. Configurez TLS, si nécessaire. Accédez au port et sélectionnez le numéro de port sur le serveur. Cliquez sur **Enregistrer**.
+1. Configurez TLS, si nécessaire. Accédez au port et sélectionnez le numéro de port sur le serveur, puis cliquez sur **Enregistrer**.
 
 1. Accédez à l&#39;onglet **Périphérique** et recherchez le périphérique que vous venez de configurer. Une fois qu&#39;un périphérique a été trouvé, cochez la case et sélectionnez **Approuver**.
 
