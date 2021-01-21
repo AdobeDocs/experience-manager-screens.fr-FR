@@ -2,7 +2,7 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
+source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 11%
@@ -67,7 +67,7 @@ Suivez les étapes ci-dessous sur le périphérique Samsung pour effectuer l’i
 
 Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l’utilisation de *SameSite=None* :
 
-1. Mise à niveau vers Adobe Experience Manager (AEM) Service Pack 6.5.8.
+1. Mise à niveau vers Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
 1. Après AEM redémarrez, accédez à `/system/console/configMgr` et recherchez **Gestionnaire d&#39;authentification du jeton Granite Adobe**. Définissez la valeur **SameSite** sur **None**.
 
