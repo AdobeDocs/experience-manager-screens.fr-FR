@@ -2,9 +2,9 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 11%
 
 ---
@@ -102,10 +102,6 @@ Suivez les étapes ci-dessous pour inscrire le périphérique Tizen à Samsung R
 >Vérifiez les paramètres réseau et le moniteur.
 
 1. Accédez à **Menu** -> **Réseau** -> **Paramètres réseau du serveur** et appuyez sur **Entrée**.
-
-   >[!NOTE]
-   >Vérifiez que l’écran est configuré pour Lire via le lanceur d’URL.
-   >![image](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Accédez à l’adresse du serveur et tapez dans l’accès à l’URL MagicInfo et appuyez sur **Terminé**.
 
