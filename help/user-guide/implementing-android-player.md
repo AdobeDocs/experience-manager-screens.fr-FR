@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1134'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.m
 >[!NOTE]
 >Vous devez configurer un environnement pour le lecteur Android si vous utilisez le Service Pack AEM Screens 6.5.5.
 
-Définissez la valeur de **SameSite attribute for the login-token cookies** de **Lax** sur **None** dans **Configuration de la console web Adobe
+Définissez la valeur de **SameSite attribute for the login-token cookies** de **Lax** sur **None** dans **Configuration de la console Web Adobe
 Experience Manager** sur toutes les instances de création et de publication AEM.
 
 Suivez les étapes ci-dessous :
 
-1. Accédez à **Configuration de la console web Adobe
+1. Accédez à **Configuration de la console Web Adobe
 Experience Manager** en utilisant `http://localhost:4502/system/console/configMgr`.
 
 1. Recherchez *Adobe Granite Token Authentication Handler*.
@@ -73,7 +73,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
 
-### Signature de fichiers apk Android à l’aide des clés du fabricant  {#signage-of-android-apks-using-manufacturer-keys}
+### Signature de fichiers apk Android à l’aide des clés du fabricant {#signage-of-android-apks-using-manufacturer-keys}
 
 Pour accéder à certaines des API privilégiées d’Android telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le fichier apk Android à l’aide des clés du fabricant.
 
@@ -112,42 +112,42 @@ Le diagramme suivant illustre la mise en œuvre du service watchdog :
 
 **3. Panne d’application** En cas de panne, le pendingIntent pour la commande Redémarrer enregistré avec AlarmManager n’est plus réinitialisé et donc exécute un redémarrage de l’application (en fonction des autorisations disponibles lors de l’initialisation du module externe cordova).
 
-## Approvisionnement en bloc du lecteur Android {#bulk-provision-android-player}
+## Approvisionnement en masse d’Android Player {#bulk-provision-android-player}
 
-Lors du déploiement en bloc du lecteur Android, il est nécessaire de configurer le lecteur pour qu’il pointe vers une instance AEM et de configurer d’autres propriétés sans entrer manuellement celles de l’interface utilisateur d’administration.
+Lors de l’approvisionnement en masse d’Android Player, vous devez pouvoir configurer le lecteur pour qu’il pointe vers une instance AEM et pouvoir configurer d’autres propriétés sans les entrer manuellement par le biais de l’interface utilisateur d’administration.
 
 >[!NOTE]
->Cette fonctionnalité est disponible sur le lecteur Android 42.0.372.
+>Cette fonctionnalité est disponible sur Android Player version 42.0.372.
 
-Suivez les étapes ci-dessous pour autoriser l’approvisionnement en vrac dans le lecteur Android :
+Suivez les étapes ci-dessous pour autoriser l’approvisionnement en masse dans Android Player :
 
-1. Créez un fichier JSON de configuration nommé `player-config.default.json`.
-Reportez-vous à un [Exemple de stratégie JSON](#example-json) ainsi qu&#39;à un tableau qui décrit l&#39;utilisation des divers [attributs de stratégie](#policy-attributes).
+1. Créez un fichier de configuration JSON nommé `player-config.default.json`.
+Reportez-vous à l’[exemple de règle JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de règle](#policy-attributes).
 
-1. Utilisez un explorateur de fichiers MDM ou ADB ou Android Studio pour déposer ce fichier JSON de stratégie dans le dossier *sdcard* du périphérique Android.
+1. Utilisez un explorateur de fichiers MDM ou ADB ou Android Studio pour déposer ce fichier de règle JSON dans le dossier *sdcard* de l’appareil Android.
 
-1. Une fois le fichier déployé, utilisez MDM pour installer l’application du lecteur.
+1. Une fois le fichier déployé, utilisez le MDM pour installer l’application du lecteur.
 
-1. Lorsque l&#39;application du lecteur est lancée, elle lit ce fichier de configuration et pointe vers le serveur AEM approprié où elle peut être enregistrée et contrôlée par la suite.
+1. L’application du lecteur, une fois lancée, lit ce fichier de configuration et pointe vers le serveur AEM approprié, où elle peut ensuite s’enregistrer et être contrôlée.
 
    >[!NOTE]
-   >Ce fichier est *en lecture seule* la première fois que l&#39;application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur le périphérique.
+   >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur l’appareil.
 
-### Attributs de règle   {#policy-attributes}
+### Attributs de règle {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
 | **Nom de la règle** | **Objectif** |
 |---|---|
-| *server* | URL du serveur Adobe Experience Manager. |
+| *server* | L’URL du serveur Adobe Experience Manager. |
 | *resolution* | Résolution de l’appareil. |
-| *rebootSchedule* | Le programme de redémarrage s&#39;applique à toutes les plates-formes. |
-| *enableAdminUI* | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez cette variable sur *false* une fois qu’elle a été entièrement configurée et en production. |
-| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Envisagez de définir *false* une fois qu’il est entièrement configuré et en production. |
+| *rebootSchedule* | La programmation du redémarrage s’applique à toutes les plates-formes. |
+| *enableAdminUI* | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur *false* une fois qu’elle est entièrement configurée et en production. |
+| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur *false* une fois qu’elle est entièrement configurée et en production. |
 | *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
-| *enableNativeVideo* | Activez cette option pour utiliser l’accélération matérielle native pour la lecture vidéo (Android uniquement). |
+| *enableNativeVideo* | Activez cette option afin d’utiliser l’accélération matérielle native pour la lecture vidéo (Android uniquement). |
 
-### Exemple de stratégie JSON {#example-json}
+### Exemple de règle JSON {#example-json}
 
 ```java
 {
@@ -172,4 +172,4 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 ```
 
 >[!NOTE]
->Tous les périphériques Android disposent d’un dossier *sdcard*, qu’un *sdcard* réel soit inséré ou non. Une fois déployé, ce fichier se trouverait au même niveau que le dossier Downloads. Certains MDM tels que Samsung Knox peuvent se référer à cet emplacement de dossier *sdcard* comme *enregistrement interne*.
+>Tous les appareils Android disposent d’un dossier *sdcard*, qu’une *carte SD* ait été insérée ou non. Une fois déployé, ce fichier se trouvera au même niveau que le dossier Downloads. Certains MDM tels que Samsung Knox peuvent utiliser l’emplacement de dossier *sdcard* comme *stockage interne*.
