@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -37,6 +37,7 @@ Le processus d’enregistrement des périphériques est effectué sur 2 machine
 >1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
 >1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+
 >
 
 
@@ -148,7 +149,6 @@ Une fois que vous avez enregistré des périphériques sur votre lecteur, vous p
 * L’utilisateur pourra rechercher n’importe quel mot existant dans l’*ID de périphérique* ou le *Nom du périphérique*.
 
    >[!NOTE]
-   >
    >Il est recommandé de créer les noms de périphériques à l’aide de plusieurs mots, tels que *Boston Store Lobby*, plutôt qu’en un seul, *BostonStoreLobby*.
 
 * Si vous créez des noms de périphérique tels que *Boston Store Lobby*, il est possible de rechercher n’importe quel mot *boston*, *store* ou *lobby*. Par contre, si le nom de périphérique est *BostonStoreLobby*, une recherche sur *boston* n’affichera pas les résultats.
