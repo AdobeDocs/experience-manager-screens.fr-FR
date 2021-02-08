@@ -4,10 +4,10 @@ seo-title: Configurations du Dispatcher pour AEM Screens
 description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
 seo-description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 60%
 
 ---
 
@@ -32,22 +32,26 @@ Pour en savoir plus, consultez [Configuration du Dispatcher](https://docs.adobe.
 
 ## Configuration du Dispatcher {#configuring-dispatcher}
 
+Les lecteurs/périphériques AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance de publication afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/périphériques AEM Screens.
+
 Suivez les étapes ci-dessous pour configurer le Dispatcher pour un projet AEM Screens.
 
 ### Activation des sessions persistantes{#enable-sticky-session}
 
-Si vous souhaitez utiliser plusieurs instances de publication avec le Dispatcher, vous devez mettre à jour le fichier `dispatcher.any`.
+Si vous souhaitez utiliser plusieurs instances de publication précédées d’un répartiteur unique, vous devez mettre à jour le fichier `dispatcher.any` pour activer l’affinité.
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Si une instance de publication est placée devant un répartiteur, l’activation de l’affinité au répartiteur n’est pas utile car l’équilibreur de charge peut envoyer chaque requête au répartiteur. Dans ce cas, vous devez activer l’adhérence au niveau de l’équilibreur de charge.
+
+Par exemple, si vous utilisez AWS ALB, reportez-vous à la section [Populations cibles de vos équilibreurs de charge d’application](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) pour activer la rétention au niveau ALB. Activez l&#39;adhérence pendant 1 jour.
 
 ### Étape 1 : configuration des en-têtes du client {#step-configuring-client-headers}
 
