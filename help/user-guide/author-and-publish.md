@@ -4,10 +4,10 @@ seo-title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 translation-type: tm+mt
-source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
+source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -165,8 +165,8 @@ Sur chaque instance de publication :
 1. Sélectionnez la Configuration du **Fournisseur JMS Apache ActiveMQ Artemis**
 1. Mettez à jour les éléments suivants :
 
-   * ***Mot de passe du cluster*** : (utilisez la valeur chiffrée de l’étape précédente pour chaque instance)
-   * ***Rubriques*** : {name : ’commands’, address : ’com.adobe.cq.screens.commands’, maxConsumers : 50}
+   * ***Mot de passe*** de cluster : utiliser la valeur chiffrée de l’étape précédente par instance respective
+   * ***Rubriques*** :  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Vérifiez le cluster d’artéfacts ActiveMQ Artemis {#verify-activemq-artemis-cluster}
 
