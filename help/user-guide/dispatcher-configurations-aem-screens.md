@@ -4,10 +4,10 @@ seo-title: Configurations du Dispatcher pour AEM Screens
 description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
 seo-description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 60%
+source-wordcount: '391'
+ht-degree: 58%
 
 ---
 
@@ -49,7 +49,9 @@ Si vous souhaitez utiliser plusieurs instances de publication précédées d’u
  }
 ```
 
-Si une instance de publication est placée devant un répartiteur, l’activation de l’affinité au répartiteur n’est pas utile car l’équilibreur de charge peut envoyer chaque requête au répartiteur. Dans ce cas, vous devez activer l’adhérence au niveau de l’équilibreur de charge.
+Si une instance de publication est placée devant un répartiteur, l’activation de l’affinité au répartiteur n’est pas utile car l’équilibreur de charge peut envoyer chaque requête au répartiteur. Dans ce cas, cliquez sur **Activer** dans le champ **Stickiness** pour l’activer au niveau de l’équilibreur de charge, comme indiqué dans la figure ci-dessous :
+
+![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Par exemple, si vous utilisez AWS ALB, reportez-vous à la section [Populations cibles de vos équilibreurs de charge d’application](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) pour activer la rétention au niveau ALB. Activez l&#39;adhérence pendant 1 jour.
 
