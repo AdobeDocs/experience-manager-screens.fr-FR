@@ -4,10 +4,10 @@ seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 94%
 
 ---
 
@@ -52,15 +52,15 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Créez un affichage dans le dossier **Emplacements**, comme illustré ci-dessous.
+1. Créez un emplacement **Lobby** et par la suite un affichage intitulé **LobbyDisplay** dans le dossier **Emplacements**, comme illustré dans la figure ci-dessous.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**.
+1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez désormais vue le canal affecté à l’affichage à partir du tableau de bord d’affichage.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md)..
+   >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
 1. Accédez au dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions pour enregistrer les appareils.
 
@@ -68,7 +68,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment attribuer un canal à un affichage, reportez-vous à [Création et gestion des affichages](/help/user-guide/managing-displays.md).
+   >Pour savoir comment enregistrer un périphérique, consultez [Enregistrement de périphérique](/help/user-guide/device-registration.md).
 
 1. À des fins de démonstration, cet exemple présente un appareil Chrome et un lecteur Windows comme deux appareils distincts. Les deux appareils pointent vers le même affichage.
    ![image1](assets/command-sync6.png)
