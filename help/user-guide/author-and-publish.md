@@ -6,8 +6,8 @@ seo-description: L’architecture d’AEM Screens ressemble à l’architecture 
 translation-type: tm+mt
 source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1905'
+ht-degree: 99%
 
 ---
 
