@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
 source-wordcount: '1905'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,8 +165,8 @@ Sur chaque instance de publication :
 1. Sélectionnez la Configuration du **Fournisseur JMS Apache ActiveMQ Artemis**
 1. Mettez à jour les éléments suivants :
 
-   * ***Mot de passe*** de cluster : utiliser la valeur chiffrée de l’étape précédente par instance respective
-   * ***Rubriques*** :  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
+   * ***Mot de passe du cluster*** : utilisez la valeur chiffrée de l’étape précédente pour chaque instance
+   * ***Sujets*** : `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Vérifiez le cluster d’artéfacts ActiveMQ Artemis {#verify-activemq-artemis-cluster}
 
@@ -240,7 +240,7 @@ Vérifiez votre lecteur et vous verrez le contenu que vous avez ajouté à votre
 
 **Vérification du périphérique**
 
-Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. Pour vérifier, recherchez l’identifiant de l’appariel dans CRXDE Lite, en utilisant comme chemin d’accès */home/users/screens/we-retail/devices*.
+Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. Pour vérifier, recherchez l’identifiant de l’appareil dans CRXDE Lite, en utilisant comme chemin d’accès */home/users/screens/we-retail/devices*.
 
 Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
