@@ -3,11 +3,11 @@ title: Utilisation de la synchronisation des commandes
 seo-title: Utilisation de la synchronisation des commandes
 description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
 seo-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -52,10 +52,10 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Créez un emplacement **Lobby** et par la suite un affichage intitulé **LobbyDisplay** dans le dossier **Emplacements**, comme illustré dans la figure ci-dessous.
+1. Créez un emplacement **Lobby**, puis, par la suite, un affichage intitulé **LobbyDisplay** dans le dossier **Locations**, comme illustré dans la figure ci-dessous.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez désormais vue le canal affecté à l’affichage à partir du tableau de bord d’affichage.
+1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez afficher le canal affecté à l’affichage à partir du tableau de bord.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment enregistrer un périphérique, consultez [Enregistrement de périphérique](/help/user-guide/device-registration.md).
+   >Pour savoir comment enregistrer un appareil, consultez [Enregistrement d’appareil](/help/user-guide/device-registration.md).
 
 1. À des fins de démonstration, cet exemple présente un appareil Chrome et un lecteur Windows comme deux appareils distincts. Les deux appareils pointent vers le même affichage.
    ![image1](assets/command-sync6.png)
