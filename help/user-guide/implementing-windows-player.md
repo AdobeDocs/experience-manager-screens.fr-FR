@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,9 +72,9 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 Une fois le lecteur Windows installé, vous pouvez enregistrer plusieurs lecteurs avec une seule configuration.
 
-## Installation à l&#39;aide de l&#39;interface de ligne de commande (PowerShell) {#install-powershell}
+## Installation à l’aide de l’interface de ligne de commande (PowerShell) {#install-powershell}
 
-1. Créez un emplacement personnalisé **dédié** pour Screens Player, par exemple :
+1. Créez un emplacement personnalisé **dédié** pour le lecteur Screens, par exemple :
    `C:\Users\User\screens-player`)
 1. Installer
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -105,7 +105,7 @@ Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
 1. Recherchez le fichier de configuration sous ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Mettez à jour le fichier JSON de configuration en utilisant les informations ci-dessous, puis copiez le même dossier sur tous les systèmes où réside le lecteur.
 
-### Attributs de règle  {#policy-attributes}
+### Attributs de règle {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
@@ -118,7 +118,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règle   {#example-policy-json-file}
+#### Exemple de fichier JSON de règle {#example-policy-json-file}
 
 ```
 {
@@ -147,11 +147,11 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 1. Activez Shell Launcher.
 
-   Pour plus d’informations, reportez-vous à la section ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** de l’assistance Microsoft Windows.
+   Pour plus d’informations, reportez-vous à la section ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://docs.microsoft.com/fr-fr/windows-hardware/customize/enterprise/shell-launcher)** de l’assistance Microsoft Windows.
 
 1. Créez un utilisateur non administratif (si vous n’en avez pas déjà) à utiliser pour Kiosque. Il peut s’agir d’un utilisateur local ou de domaine.
 1. Installez le lecteur Windows pour cet utilisateur Kiosque à partir de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
-1. Pour plus d’informations, reportez-vous à [Utilisation de Shell Launcher pour créer un kiosque Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) afin de modifier votre script PowerShell.
+1. Pour plus d’informations, reportez-vous à [Utilisation de Shell Launcher pour créer un kiosque Windows 10](https://docs.microsoft.com/fr-fr/windows/configuration/kiosk-shelllauncher) afin de modifier votre script PowerShell.
 
    Modifiez le script PowerShell pour remplacer le nom d’utilisateur par celui que vous avez créé. Assurez-vous que le chemin d’accès au fichier exécutable de l’application est correct. Le shell personnalisé sera défini comme application du lecteur Windows pour l’utilisateur Kiosque et la valeur par défaut explorer.exe pour les autres utilisateurs.
 
