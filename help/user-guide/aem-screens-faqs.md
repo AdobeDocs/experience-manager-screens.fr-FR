@@ -5,11 +5,11 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
-workflow-type: ht
-source-wordcount: '1706'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,12 @@ La section suivante permet de répondre à une partie des questions fréquemment
 * Vérifiez les ressources pour lesquelles les rendus appropriés sont créés et que le rendu correct est en cours de lecture.
 * Recherchez les contenus planifiés et vérifiez si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
 * Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console en les affichant. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour faire apparaître la console de développement et afficher les journaux.
+
+### 2. Comment résoudre le problème des écrans vierges en AEM Screens en créant un Canal ou une planification par défaut ?
+
+Pour éviter les écrans vierges ou gris dans le champ, créez un canal ou une planification globale par défaut, affecté à chaque affichage avec la priorité la moins élevée 1. Au cas où un problème se produirait avec les mises à jour de contenu (en raison du réseau, du lecteur, du serveur ou de la réplication), puisque les lecteurs ont déjà mis ce contenu en cache sur le disque, qui devraient s&#39;exécuter correctement et éviter les écrans gris.
+
+Tous les autres contenus, tels que les canaux ou les calendriers, auront la priorité plus élevée que 1, de sorte que l’autre contenu a la priorité et que le canal global ou le contenu planifié (avec la priorité 1) ne sera lu qu’en tant qu’option de retour arrière.
 
 ## Gestion de canaux {#channel-management}
 
@@ -140,7 +146,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
