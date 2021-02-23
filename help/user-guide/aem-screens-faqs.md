@@ -6,9 +6,9 @@ seo-description: Consultez cette page pour obtenir des réponses aux questions f
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 89%
 
 ---
@@ -166,9 +166,9 @@ Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qu
 
 1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
-### Comment obtenir les détails de l’affichage et du périphérique à partir de l’API du lecteur ?
+### 6. Comment obtenir les détails de l’affichage et du périphérique à partir de l’API du lecteur ?
 
-Il existe deux méthodes pour obtenir les détails :
+Vous pouvez obtenir les détails de l’affichage et du périphérique via :
 
 * **une API JS interne**
 * **une boutique** ContextHub : Trois magasins ContextHub sont définis dans  `/libs/screens/clientlibs/contexthub` pour exposer les canaux, les périphériques et les informations d’affichage.
