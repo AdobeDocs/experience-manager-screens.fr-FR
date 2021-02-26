@@ -10,10 +10,10 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: ht
-source-wordcount: '995'
+translation-type: tm+mt
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+workflow-type: tm+mt
+source-wordcount: '970'
 ht-degree: 100%
 
 ---
@@ -68,10 +68,6 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 >
 >Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer le périphérique.
 
-### Configuration groupée de serveurs : enregistrement de plusieurs lecteurs Windows 10 avec une configuration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Une fois le lecteur Windows installé, vous pouvez enregistrer plusieurs lecteurs avec une seule configuration.
-
 ## Installation à l’aide de l’interface de ligne de commande (PowerShell) {#install-powershell}
 
 1. Créez un emplacement personnalisé **dédié** pour le lecteur Screens, par exemple :
@@ -118,7 +114,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règle {#example-policy-json-file}
+#### Exemple de fichier JSON de règle  {#example-policy-json-file}
 
 ```
 {
