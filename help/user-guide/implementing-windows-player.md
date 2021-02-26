@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '997'
+ht-degree: 97%
 
 ---
 
@@ -67,6 +67,10 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 >Si le **Statut** est **ENREGISTRÉ**, vous remarquerez que le champ **ID de périphérique** est renseigné.
 >
 >Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer le périphérique.
+
+## Modification des options par défaut dans Windows Installer {#changing-default-options}
+
+Suivez cette section pour savoir comment modifier les options par défaut dans Windows Installer et la liste des personnalisations disponibles.
 
 ## Installation à l’aide de l’interface de ligne de commande (PowerShell) {#install-powershell}
 
