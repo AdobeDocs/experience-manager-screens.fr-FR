@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
-breadcrumb-title: Guide d’AEM Screens
+breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
