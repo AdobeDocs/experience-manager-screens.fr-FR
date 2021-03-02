@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
 source-wordcount: '1900'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ La section suivante permet de répondre à une partie des questions fréquemment
 
 Pour éviter les écrans vierges ou gris dans le champ, créez un canal ou une planification globale par défaut, affecté à chaque affichage avec la priorité la moins élevée 1. Au cas où un problème se produirait avec les mises à jour de contenu (en raison du réseau, du lecteur, du serveur ou de la réplication), puisque les lecteurs ont déjà mis ce contenu en cache sur le disque, qui devraient s&#39;exécuter correctement et éviter les écrans gris.
 
-Tous les autres contenus, tels que les canaux ou les calendriers, auront la priorité plus élevée que 1, de sorte que l’autre contenu a la priorité et que le canal global ou le contenu planifié (avec la priorité 1) ne sera lu qu’en tant qu’option de retour arrière.
+Tous les autres contenus, tels que les canaux ou les plannings, auront une priorité supérieure à 1, de sorte qu’un autre contenu sera prioritaire et que le contenu de canal ou de planning global (doté d’une priorité de 1) ne sera lu qu’en dernier recours.
 
 ## Gestion de canaux {#channel-management}
 
@@ -146,7 +146,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
@@ -162,7 +162,7 @@ Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qu
 
 1. Vérifiez si les règles de réécriture de Dispatcher réécrivent les chemins Screens vers un chemin différent.
 
-1. Vérifiez si vous avez des règles `/etc/map` sur l’instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans /`/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
+1. Vérifiez si vous avez des règles `/etc/map` sur l’instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans `/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
 
 1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
