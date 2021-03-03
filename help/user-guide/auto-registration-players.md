@@ -3,9 +3,9 @@ title: Enregistrement automatique des lecteurs
 seo-title: Enregistrement automatique des lecteurs
 description: Suivez cette page pour en savoir plus sur l'enregistrement automatique des joueurs avec AMS/On-Prem Screens.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ L&#39;enregistrement en masse de milliers de joueurs manuellement peut devenir t
 Suivez les étapes ci-dessous pour mettre en oeuvre l’enregistrement automatique des lecteurs :
 
 1. Connectez-vous à votre instance AEM et sélectionnez votre projet AEM écrans, puis cliquez sur **Propriétés** dans la barre d’actions.
-1. Sélectionnez l&#39;onglet **Avancé** pour vue à la section **Enregistrement de périphérique**, comme illustré ci-dessous.
-
-   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. Sélectionnez l&#39;onglet **Avancé** pour vue à la section **Enregistrement du périphérique**.
 
 1. Spécifiez un code d’enregistrement automatique dans le champ **Code d’enregistrement en bloc** et un affichage par défaut facultatif dans **Affectation d’affichage par défaut** à affecter au lecteur qui est enregistré automatiquement.
    >[!NOTE]
    >Entrez le code de votre choix et sélectionnez un affichage par défaut si nécessaire.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Configurez vos lecteurs avec l’URL de serveur et le code d’enregistrement appropriés à l’aide d’un fichier MDM ou JSON de configuration.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ Suivez la section ci-dessous pour examiner certaines des meilleures pratiques en
 
 * Pour vous assurer que le code d&#39;enregistrement n&#39;est pas compromis, configurez le code dans AEM juste avant de commencer l&#39;enregistrement en masse et, une fois terminé, effacez ce champ et enregistrez-le dans AEM.
 
-* Vous pouvez configurer que l&#39;inscription `/bin/screens/`du chemin d&#39;accès n&#39;est accessible qu&#39;à partir de plages d&#39;adresses IP connues si possible.
+* Si possible, vous pouvez configurer le chemin `/bin/screens/registration` pour qu&#39;il soit accessible uniquement à partir de plages d&#39;adresses IP connues.
 
 * Pensez à utiliser un MDM pour configurer le lecteur avec la configuration.
 
