@@ -3,9 +3,9 @@ title: Enregistrement automatique des lecteurs
 seo-title: Enregistrement automatique des lecteurs
 description: Suivez cette page pour en savoir plus sur l'enregistrement automatique des joueurs avec AMS/On-Prem Screens.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ L&#39;enregistrement en masse de milliers de joueurs manuellement peut devenir t
 
 Suivez les étapes ci-dessous pour mettre en oeuvre l’enregistrement automatique des lecteurs :
 
-1. Connectez-vous à votre instance AEM et sélectionnez votre projet AEM écrans, puis cliquez sur propriétés et sur l’onglet Avancé.
-1. Vous devriez voir une section d&#39;enregistrement en masse dans laquelle vous pouvez spécifier un code d&#39;enregistrement en masse et un affichage par défaut facultatif à affecter au lecteur enregistré en masse.
-1. Entrez le code de votre choix et sélectionnez un affichage par défaut si nécessaire.
-1. Configurez vos lecteurs avec l’URL de serveur et le code d’enregistrement appropriés à l’aide d’un fichier MDM ou JSON de configuration. Pour plus d&#39;informations, reportez-vous à la page de mise en oeuvre du lecteur spécifique de votre système d&#39;exploitation. Vous pouvez également utiliser l’interface utilisateur d’administration pour saisir le code d’enregistrement.
+1. Connectez-vous à votre instance AEM et sélectionnez votre projet AEM écrans, puis cliquez sur **Propriétés** dans la barre d’actions.
+1. Sélectionnez l&#39;onglet **Avancé** pour vue à la section **Enregistrement de périphérique**, comme illustré ci-dessous.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. Spécifiez un code d’enregistrement automatique dans le champ **Code d’enregistrement en bloc** et un affichage par défaut facultatif dans **Affectation d’affichage par défaut** à affecter au lecteur qui est enregistré automatiquement.
+   >[!NOTE]
+   >Entrez le code de votre choix et sélectionnez un affichage par défaut si nécessaire.
+1. Configurez vos lecteurs avec l’URL de serveur et le code d’enregistrement appropriés à l’aide d’un fichier MDM ou JSON de configuration.
+
+   >[!NOTE]
+   >Pour plus d’informations, reportez-vous à la page de mise en oeuvre du lecteur spécifique de votre système d’exploitation. Vous pouvez également utiliser l’interface utilisateur d’administration pour saisir le code d’enregistrement.
+
 1. Si l&#39;attribut `registrationKey` correspond à celui configuré en AEM, le lecteur s&#39;enregistre automatiquement et si un affichage par défaut est configuré, ce contenu est téléchargé et lu.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## Bonnes pratiques en matière de sécurité {#security-best-practices}
 
