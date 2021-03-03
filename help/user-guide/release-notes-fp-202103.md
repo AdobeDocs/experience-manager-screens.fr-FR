@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202103
 description: Cette page présente les Notes de mise à jour de Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
+source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 40%
+source-wordcount: '373'
+ht-degree: 38%
 
 ---
 
@@ -44,14 +44,17 @@ La date de publication pour AEM Screens Feature Pack 202103 est le 08 mars 2021.
 
 * Les caches hors ligne n&#39;ont pas été créés si l&#39;affectation avait *OfflineConfig*.
 
-* Mises à jour des problèmes du lecteur Tizen car l’origine stricte de la stratégie de parrain lors d’une origine croisée n’est pas prise en charge.
+* Mises à jour du lecteur Tizen rompues, car l’origine stricte de la stratégie de parrain lors d’origines croisées n’est pas prise en charge.
 
-* La modification du champ &quot;Répétés&quot; de la planification de canal affectée rompait l’interface utilisateur.
+* Consignez l&#39;erreur sous-jacente en cas d&#39;échec du téléchargement de SmartSync.
+
+* La modification du calendrier de canal affecté *Répète* champ rompait l’interface utilisateur.
 
 * La mise à jour du contenu hors ligne échouait avec des exceptions de requête.
 
-* La migration SmartSync interrompait le lecteur si le cache n&#39;était pas invalidé
+* Le décalage entre les transitions au cours de l’interaction dans l’expérience interactive est maintenant corrigé.
 
+* Échec de la demande de mise à jour de configuration provoquait l&#39;affichage de l&#39;écran vide.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
