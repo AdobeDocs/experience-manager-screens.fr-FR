@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 97%
@@ -91,13 +91,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Enregistrement groupé du lecteur Windows**
->
->Lors de la mise en œuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. À la place, vous pouvez mettre à jour le fichier JSON de configuration une fois qu’il a été testé et qu’il est prêt pour le déploiement.
->
->La configuration garantit que tous les lecteurs envoient un ping au même serveur spécifié dans le fichier de configuration. Vous devez encore enregistrer manuellement chaque lecteur.
+## Enregistrement groupé du lecteur Windows {#bulk-registration}
+
+Lors de la mise en œuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. À la place, vous pouvez mettre à jour le fichier JSON de configuration une fois qu’il a été testé et qu’il est prêt pour le déploiement.
+
+La configuration garantit que tous les lecteurs envoient un ping au même serveur spécifié dans le fichier de configuration. Vous devez encore enregistrer manuellement chaque lecteur.
 
 Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
 
