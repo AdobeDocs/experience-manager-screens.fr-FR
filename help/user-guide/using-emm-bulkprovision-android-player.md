@@ -3,9 +3,9 @@ title: Utilisation de MDM ou EMM pour la fourniture en masse d'Android Player
 seo-title: Approvisionnement en bloc du lecteur Android à l'aide d'EMM ou de MDM
 description: Suivez cette page pour en savoir plus sur l'approvisionnement en bloc d'Android Player à l'aide d'EMM ou de MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise {#bulk-provisioning}
 
-Lors du déploiement en bloc du lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur avec AEM. Il est vivement recommandé d&#39;utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la configuration Appconfig standard EMM pour permettre la mise en service à distance. Suivez les étapes ci-dessous pour fournir en bloc vos lecteurs.
+Lors du déploiement en bloc du lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur avec AEM. Il est vivement recommandé d&#39;utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la configuration Appconfig standard EMM pour permettre la mise en service à distance.
 
 ## Mise en oeuvre de l&#39;approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise {#implementation}
 
