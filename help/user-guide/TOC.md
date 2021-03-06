@@ -6,7 +6,7 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 translation-type: tm+mt
-source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
+source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 97%
@@ -42,10 +42,10 @@ ht-degree: 97%
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
       + [Lecteur Android](implementing-android-player.md)
+      + [Approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise](using-emm-bulkprovision-android-player.md)
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
       + [Enregistrement automatique des lecteurs](auto-registration-players.md)
-      + [Approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise](using-emm-bulkprovision-android-player.md)
    + Instances d’auteur et de publication {#author-publish}
       + [Présentation de l’architecture des instances d’auteur et de publication](author-publish-architecture-overview.md)
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)
