@@ -6,10 +6,10 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 100%
       + [Lecteur Android](implementing-android-player.md)
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
+      + [Enregistrement automatique des lecteurs](auto-registration-players.md)
+      + [Approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise](using-emm-bulkprovision-android-player.md)
    + Instances d’auteur et de publication {#author-publish}
       + [Présentation de l’architecture des instances d’auteur et de publication](author-publish-architecture-overview.md)
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 100%
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
+   + [Notes de mise à jour du Feature Pack 202103](release-notes-fp-202103.md)
    + [Notes de mise à jour du Feature Pack 202011](release-notes-fp-202011.md)
    + [Notes de mise à jour du Feature Pack 202008](release-notes-fp-202008.md)
    + [Notes de mise à jour du Feature Pack 202004](release-notes-fp-202004.md)
