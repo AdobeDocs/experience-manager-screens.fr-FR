@@ -2,9 +2,9 @@
 title: Notes de mise à jour du Feature Pack 202103
 description: Cette page présente les Notes de mise à jour de Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 36%
 
 ---
@@ -29,7 +29,7 @@ La date de publication pour AEM Screens Feature Pack 202103 est le 05 mars 2021.
 
 * **Enregistrement automatique des joueurs AEM Screens**
 
-   L&#39;enregistrement en masse de milliers de joueurs manuellement est très lourd et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement en bloc vous permet de spécifier une clé pré-partagée dans AEM qui peut être configurée dans un lecteur soit par le biais d’un fichier de configuration, soit par une solution MDM (Mobile Device Management).
+   L&#39;enregistrement en masse de milliers de joueurs manuellement est très lourd et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé pré-partagée dans AEM qui peut être configurée dans un lecteur soit par le biais d’un fichier de configuration, soit par une solution MDM (Mobile Device Management).
 
    Pour plus d&#39;informations, consultez [Enregistrement automatique des joueurs](/help/user-guide/auto-registration-players.md).
 
