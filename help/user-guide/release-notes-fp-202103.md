@@ -2,9 +2,9 @@
 title: Notes de mise à jour du Feature Pack 202103
 description: Cette page présente les Notes de mise à jour de Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 36%
 
 ---
@@ -65,7 +65,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 7�
 
 * Chrome OS
 * Windows
-* Tizen
 * Linux
 
 #### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
