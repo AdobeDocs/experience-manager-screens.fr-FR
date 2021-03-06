@@ -2,10 +2,10 @@
 title: Notes de mise à jour du Feature Pack 202103
 description: Cette page présente les Notes de mise à jour de Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
+source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 38%
+source-wordcount: '388'
+ht-degree: 36%
 
 ---
 
@@ -23,17 +23,22 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.7 à par
 
 ## Date de publication {#release-date}
 
-La date de publication pour AEM Screens Feature Pack 202103 est le 08 mars 2021.
+La date de publication pour AEM Screens Feature Pack 202103 est le 05 mars 2021.
 
 ### Nouveautés {#what-is-new}
 
-* **Inscription et affectation en bloc AEM Screens**
+* **Enregistrement automatique des joueurs AEM Screens**
 
    L&#39;enregistrement en masse de milliers de joueurs manuellement est très lourd et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement en bloc vous permet de spécifier une clé pré-partagée dans AEM qui peut être configurée dans un lecteur soit par le biais d’un fichier de configuration, soit par une solution MDM (Mobile Device Management).
+
+   Pour plus d&#39;informations, consultez [Enregistrement automatique des joueurs](/help/user-guide/auto-registration-players.md).
+
 
 * **Approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise**
 
    Lors du déploiement en bloc du lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur avec AEM. Il est vivement recommandé d&#39;utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
+
+   Pour plus d&#39;informations, reportez-vous à la section [Mise en service en bloc d&#39;Android Player à l&#39;aide de Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md).
 
 
 ### Correctifs {#bug-fixes}
@@ -45,8 +50,6 @@ La date de publication pour AEM Screens Feature Pack 202103 est le 08 mars 2021.
 * Les caches hors ligne n&#39;ont pas été créés si l&#39;affectation avait *OfflineConfig*.
 
 * Mises à jour du lecteur Tizen rompues, car l’origine stricte de la stratégie de parrain lors d’origines croisées n’est pas prise en charge.
-
-* Consignez l&#39;erreur sous-jacente en cas d&#39;échec du téléchargement de SmartSync.
 
 * La modification du calendrier de canal affecté *Répète* champ rompait l’interface utilisateur.
 
@@ -62,7 +65,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 7�
 
 * Chrome OS
 * Windows
-* Android
 * Tizen
 * Linux
 
