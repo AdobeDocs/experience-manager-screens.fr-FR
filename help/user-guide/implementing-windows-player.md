@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 ## Modification des options par défaut dans Windows Installer {#changing-default-options}
 
-Suivez cette section pour savoir comment modifier les options par défaut dans Windows Installer et la liste des personnalisations disponibles.
+Suivez cette section pour savoir comment modifier les options par défaut dans Windows Installer et la liste des personnalisations disponibles.
 
 ## Installation à l’aide de l’interface de ligne de commande (PowerShell) {#install-powershell}
 
