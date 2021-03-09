@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
 source-wordcount: '1900'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ La section suivante permet de répondre à une partie des questions fréquemment
 * Recherchez les contenus planifiés et vérifiez si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
 * Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console en les affichant. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour faire apparaître la console de développement et afficher les journaux.
 
-### 2. Comment résoudre le problème des écrans gris en AEM Screens en créant un Canal ou un programme par défaut ?
+### 2. Comment résoudre le problème des écrans gris dans AEM Screens en créant un canal ou un planning par défaut ?
 
-Pour éviter les écrans vierges ou gris dans le champ, créez un canal ou une planification globale par défaut, affecté à chaque affichage avec la priorité la moins élevée 1. Au cas où un problème se produirait avec les mises à jour de contenu (en raison du réseau, du lecteur, du serveur ou de la réplication), puisque les lecteurs ont déjà mis ce contenu en cache sur le disque, qui devraient s&#39;exécuter correctement et éviter les écrans gris.
+Pour éviter les problèmes d’écrans vierges ou grisés sur le terrain, créez un canal ou un planning global par défaut, affecté à chaque affichage avec une priorité de 1 (la moins élevée). En cas de problème avec les mises à jour de contenu (en raison du réseau, du lecteur, du serveur ou de la réplication), et étant donné que les lecteurs ont déjà mis ce contenu en cache sur le disque, le contenu en question devrait être lu correctement en évitant les écrans gris.
 
 Tous les autres contenus, tels que les canaux ou les plannings, auront une priorité supérieure à 1, de sorte qu’un autre contenu sera prioritaire et que le contenu de canal ou de planning global (doté d’une priorité de 1) ne sera lu qu’en dernier recours.
 
@@ -146,7 +146,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
@@ -166,17 +166,17 @@ Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qu
 
 1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
-### 6. Comment obtenir les détails de l’affichage et du périphérique à partir de l’API du lecteur ?
+### 6. Comment obtenir les informations concernant l’affichage et le périphérique à partir de l’API du lecteur ?
 
-Vous pouvez obtenir les détails de l’affichage et du périphérique via :
+Vous pouvez obtenir les informations sur l’affichage et le périphérique via :
 
-* **une API JS interne**
-* **une boutique** ContextHub : Trois magasins ContextHub sont définis dans  `/libs/screens/clientlibs/contexthub` pour exposer les canaux, les périphériques et les informations d’affichage.
+* **une API JS interne** ;
+* **une boutique ContextHub** : Trois magasins ContextHub sont définis dans `/libs/screens/clientlibs/contexthub` pour exposer les canaux, les périphériques et les informations d’affichage.
 
-   Suivez les étapes ci-dessous pour utiliser ces valeurs de stockage ContentHub :
+   Suivez les étapes ci-dessous pour utiliser ces valeurs de stockage ContentHub :
 
-   * Modifiez les propriétés du canal et définissez le chemin ContextHub dans l’onglet de personnalisation sur la valeur (comme mentionné ci-dessus).
-   * Dans le canal JS, vous pouvez utiliser :
+   * Modifiez les propriétés du canal et définissez le chemin ContextHub dans l’onglet de personnalisation sur la valeur (comme mentionné ci-dessus)
+   * Dans le canal JS, vous pouvez utiliser :
 
       ```shell
          ContextHub.getStore('screens-device');
