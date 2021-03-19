@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour du Feature Pack 202103
-description: Cette page présente les Notes de mise à jour de Feature Pack 202103.
-translation-type: tm+mt
+description: Cette page présente les notes de mise à jour du Feature Pack 202103.
+translation-type: ht
 source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -23,41 +23,41 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.7 à par
 
 ## Date de publication {#release-date}
 
-La date de publication pour AEM Screens Feature Pack 202103 est le 05 mars 2021.
+La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars 2021.
 
 ### Nouveautés {#what-is-new}
 
-* **Enregistrement automatique des joueurs AEM Screens**
+* **Enregistrement automatique des lecteurs dans AEM Screens**
 
-   L&#39;enregistrement en masse de milliers de joueurs manuellement est très lourd et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé pré-partagée dans AEM qui peut être configurée dans un lecteur soit par le biais d’un fichier de configuration, soit par une solution MDM (Mobile Device Management).
+   L’enregistrement manuel en bloc de milliers de lecteurs est très lourd, chronophage et coûteux. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé prépartagée dans AEM qui peut être configurée dans un lecteur soit par le biais d’un fichier de configuration, soit par une solution MDM (Mobile Device Management).
 
-   Pour plus d&#39;informations, consultez [Enregistrement automatique des joueurs](/help/user-guide/auto-registration-players.md).
+   Pour plus d’informations, consultez [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md).
 
 
-* **Approvisionnement en bloc du lecteur Android à l&#39;aide de la gestion de la mobilité d&#39;entreprise**
+* **Approvisionnement en bloc d’un lecteur Android à l’aide d’Enterprise Mobility Management**
 
-   Lors du déploiement en bloc du lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur avec AEM. Il est vivement recommandé d&#39;utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
+   Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Nous vous recommandons vivement d’utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
 
-   Pour plus d&#39;informations, reportez-vous à la section [Mise en service en bloc d&#39;Android Player à l&#39;aide de Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md).
+   Pour plus d’informations, reportez-vous à [Approvisionnement en bloc d’un lecteur Android à l’aide d’une solution Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md).
 
 
 ### Correctifs {#bug-fixes}
 
-* Performances améliorées pour l&#39;informatique `clientlib` et `asset hashes`.
+* Performances améliorées pour le calcul de `clientlib` et de `asset hashes`.
 
-* La migration SmartSync interromprait le lecteur si le cache n&#39;était pas invalidé.
+* La migration SmartSync interrompait le lecteur si le cache n’était pas invalidé.
 
-* Les caches hors ligne n&#39;ont pas été créés si l&#39;affectation avait *OfflineConfig*.
+* Les caches hors ligne n’étaient pas créés si l’affectation était paramétrée sur *OfflineConfig*.
 
-* Mises à jour du lecteur Tizen rompues, car l’origine stricte de la stratégie de parrain lors d’origines croisées n’est pas prise en charge.
+* Les mises à jour du lecteur Tizen ne s’appliquaient pas, car la politique de référent « strict-origin-when-cross-origin » n’était pas prise en charge.
 
-* La modification du calendrier de canal affecté *Répète* champ rompait l’interface utilisateur.
+* La modification du champ de planning de canal affecté *Répète* affectait le fonctionnement de l’interface utilisateur.
 
 * La mise à jour du contenu hors ligne échouait avec des exceptions de requête.
 
-* Le décalage entre les transitions au cours de l’interaction dans l’expérience interactive est maintenant corrigé.
+* Le délai entre les transitions au cours de l’interaction dans l’expérience interactive est maintenant corrigé.
 
-* Échec de la demande de mise à jour de configuration provoquait l&#39;affichage de l&#39;écran vide.
+* L’échec de la requête de mise à jour de la configuration causait l’apparition d’un écran vide.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
