@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1127'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
 1. **Accédez à une page Sites dans We.Retail**
 
-   1. Accédez à Sites, puis sélectionnez **We.Retail In-Store** (En magasin) -> **Channels** (Canaux) -> **Idle channel - Night** (Canal inactif - nuit) et enfin cette page afin de l’utiliser comme fragment d’expérience pour votre canal Screens.
+   1. Accédez à Sites et sélectionnez **We.Retail** -> **États-Unis** -> **Anglais** -> **Équipement** et sélectionnez cette page pour l’utiliser comme fragment d’expérience pour votre canal d’écrans.
 
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
 
@@ -86,13 +86,15 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
    1. Choisissez l’**action** **Créer un fragment d’expérience**.
 
    1. Sélectionnez le **Chemin d’accès parent**.
-   1. Sélectionnez le **Modèle**. Choisissez le modèle **Fragment d’expérience – Variation Screens** ici.
+   1. Sélectionnez le **Modèle**. Sélectionnez le modèle **Fragment d’expérience - Variation d’écran** ici (valeur dans le champ `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Saisissez le **Titre du fragment** **ScreensFragment**.
 
    1. Cliquez sur la coche pour terminer la création d’un fragment d’expérience.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   Remarque : Pour sélectionner plus facilement une option, cliquez sur la coche située à droite des champs pour ouvrir la boîte de dialogue de sélection.
 
 1. **Création d’une Live Copy du fragment d’expérience**
 
