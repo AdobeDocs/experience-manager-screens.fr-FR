@@ -1,7 +1,7 @@
 ---
 title: Configuration et dépannage de la lecture vidéo
 seo-title: Résolution des incidents liés à des vidéos
-description: null
+description: Suivez cette page pour découvrir comment déboguer et résoudre les problèmes liés à la lecture vidéo dans votre canal.
 seo-description: Pour savoir comment résoudre les problèmes liés aux vidéos, consultez cette page. Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur Screens. Cette section décrit comment déboguer et résoudre les problèmes liés à la lecture dans votre canal.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: Canaux interactifs
+role: Développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '848'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vo
 
 Les sections qui suivent décrivent comment déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
-## Rendus de la gestion des actifs numériques   {#dam-renditions}
+## Rendus de la gestion des actifs numériques  {#dam-renditions}
 
 Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
 
