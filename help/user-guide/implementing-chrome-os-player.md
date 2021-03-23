@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
+feature: Administration d’AEM Screens
+role: Administrator
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +88,7 @@ Pour configurer les différentes options du lecteur, procédez comme suit :
 >
 >Redémarrez l’appareil pour synchroniser les modifications apportées à la règle.
 
-#### Exemple de fichier JSON de règles     {#example-policy-json-file}
+#### Exemple de fichier JSON de règles    {#example-policy-json-file}
 
 ```java
 {
@@ -119,8 +122,8 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 | *server* | Adresse URL du serveur Adobe Experience Manager |
 | *resolution* | Résolution de l’appareil Chrome OS |
 | *rebootSchedule* | Planification du redémarrage du lecteur Chrome |
-| *enableAdminUI* | Activez l’interface utilisateur d’administration pour que les techniciens configurent l’appareil sur le site. Lorsque la valeur est définie sur false, il est entièrement configuré et en production. |
-| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false lorsqu’elle est entièrement configurée et en production. |
+| *enableAdminUI* | Activez l’interface utilisateur d’administration pour que les techniciens configurent l’appareil sur le site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
+| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
 >[!NOTE]
