@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Développeur
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 96%
@@ -41,7 +41,7 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
    Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Nous vous recommandons vivement d’utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
 
-   Pour plus d’informations, reportez-vous à [Approvisionnement en bloc d’un lecteur Android à l’aide d’une solution Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md).
+   Pour plus d’informations, reportez-vous à [Approvisionnement en bloc d’un lecteur Android à l’aide d’une solution Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
 
 
 ### Correctifs {#bug-fixes}
