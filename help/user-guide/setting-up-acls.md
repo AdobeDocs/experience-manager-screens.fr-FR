@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
+feature: Administration d’AEM Screens
+role: Administrator
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +27,7 @@ La section suivante explique comment séparer les projets à l’aide des listes
 
 En tant qu’administrateur d’AEM, vous devez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chaque utilisateur est affecté à des rôles spécifiques en fonction des exigences du projet.
 
-## Configuration des autorisations   {#setting-up-permissions}
+## Configuration des autorisations  {#setting-up-permissions}
 
 Les étapes suivantes résument le processus de configuration de listes de contrôle d’accès pour un projet :
 
