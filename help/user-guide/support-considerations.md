@@ -10,11 +10,14 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
+feature: Présentation
+role: Professionnel, architecte de données
+level: Début
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 99%
 
 ---
 
@@ -31,8 +34,10 @@ Cette page présente la dernière partie qui conclut une série en 5 parties co
 >
 >* Déploiement du projet sur le terrain
 >* Vérification de la connectivité des périphériques et du fonctionnement entre le technicien chargé de l’installation et le centre d’exploitation de réseau
+
 >
->Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
+>
+Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
 
 La planification comprend :
 
