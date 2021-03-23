@@ -1,11 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202011
-description: Cette page contient les notes de mise à jour du Feature Pack 202011.
-translation-type: ht
-source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+description: '"Suivez cette page pour obtenir des informations sur AEM Screens Feature Pack 202011 publié le 30 novembre 2020."'
+feature: Feature Pack
+role: Développeur
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 94%
 
 ---
 
