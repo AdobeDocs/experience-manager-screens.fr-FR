@@ -3,11 +3,14 @@ title: Cas d’utilisation des transitions Multizone vers Zone unique
 description: Suivez cette page pour en savoir plus sur le cas d’utilisation Multizone vers Zone unique.
 seo-description: Cas d’utilisation des transitions Multizone vers Zone unique.
 contentOwner: Jyotika Syal
+feature: Création dans Screens
+role: Développeur, Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 6f770734941635a0cd404986c259022137355af3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 99%
 
 ---
 
