@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
+feature: Création dans Screens
+role: Administrateur, développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '2535'
-ht-degree: 100%
+source-wordcount: '2540'
+ht-degree: 99%
 
 ---
 
@@ -90,6 +93,7 @@ Vous pouvez télécharger les ressources suivantes (images et les ajouter aux re
 >
 >* **[Création et gestion des projets](creating-a-screens-project.md)**
 >* **[Gestion d’un canal](managing-channels.md)**
+
 >
 
 
@@ -119,7 +123,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Pour savoir comment créer un emplacement, reportez-vous à **[Création et gestion des emplacements](managing-locations.md)**.
 
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
@@ -160,7 +163,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    De même, créez un affichage **AffichageMagasin2** et un canal **CanalMagasin2** sous **Magasin 2** (avec le nom **magasin**).
 
    >[!NOTE]
-   >
    >Veillez à utiliser le même nom pour les canaux créés dans **Magasin 1** et **Magasin 2**, à savoir **magasin**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -180,7 +182,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal. 
 
    >[!NOTE]
-   >
    >Vous pouvez utiliser le fichier ***Resources.zip*** de la section **Ressources** ci-dessus pour utiliser les images comme ressources pour le contenu de votre canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -336,7 +337,6 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    De même, créez deux autres utilisateurs, comme **Région-Utilisateur** et **Magasin-Utilisateur**, puis ajoutez-les à **Région-Auteur** et à **Magasin-Auteur** respectivement.
 
    >[!NOTE]
-   >
    >Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
