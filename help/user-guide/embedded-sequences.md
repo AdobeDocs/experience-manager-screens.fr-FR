@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
+feature: Création dans Screens
+role: Administrateur, développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 99%
 
 ---
 
@@ -34,12 +37,11 @@ Vous avez la possibilité d’ajouter les composants suivants à votre canal de 
 >
 >Pour en savoir plus sur l’utilisation d’autres composants dans votre projet Screens, voir [Ajout de composants à un canal](adding-components-to-a-channel.md).
 
-### Ajout d’une séquence incorporée   {#adding-an-embedded-sequence}
+### Ajout d’une séquence incorporée  {#adding-an-embedded-sequence}
 
 Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence incorporée est un autre canal qui comprend des ressources telles que des images ou des vidéos. En ajoutant une séquence incorporée, l’utilisateur peut ajouter la séquence à un canal au niveau de ***Chemin du canal***.
 
 >[!NOTE]
->
 >***Chemin du canal*** définit une référence explicite au canal.
 >Pour en savoir plus sur *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans la section Création dans Screens.
 
@@ -66,12 +68,17 @@ Par défaut, elle est définie sur **normal**. La définition de la valeur sur *
 >1. Accédez à l’affichage et sélectionnez l’affichage dans le dossier **Locations** (Emplacements).
 >1. Cliquez sur **Tableau de bord** dans la barre d’actions pour accéder au tableau de bord de l’affichage.
 >1. Sélectionnez **+ Attribuer des canaux** dans les panneaux **CANAUX ET PLANIFICATIONS AFFECTÉS** pour ouvrir la **boîte de dialogue Attribution de canaux**.
->
->1. Sélectionnez le chemin du canal (utilisé dans la séquence incorporée) dans **Chemin du canal**.
+
+   >
+   >
+1. Sélectionnez le chemin du canal (utilisé dans la séquence incorporée) dans **Chemin du canal**.
 >1. Veillez à ce que la **priorité** soit inférieure au canal principal.
->
->1. Vous ne devez sélectionner aucun événement **pris en charge**.
+
+   >
+   >
+1. Vous ne devez sélectionner aucun événement **pris en charge**.
 >1. Cliquez sur **Enregistrer** une fois terminé.
+
 >
 
 
