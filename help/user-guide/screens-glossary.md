@@ -3,16 +3,19 @@ title: Glossaire
 seo-title: Glossaire
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
+feature: Présentation
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
 
-# Glossaire   {#glossary}
+# Glossaire {#glossary}
 
 **Canal d’application** Un canal d’application montre une application créée par un développeur qui affiche des contenus interactifs.
 
