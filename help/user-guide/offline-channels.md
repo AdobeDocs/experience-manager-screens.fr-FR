@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
+feature: Développement dans Screens
+role: Développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +38,7 @@ Le workflow du processus est le suivant :
 1. Télécharger le zip et l’extraire localement
 1. Afficher une copie locale du contenu
 
-## Gestionnaires de mise à jour    {#update-handlers}
+## Gestionnaires de mise à jour   {#update-handlers}
 
 ***ContentSync*** utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique. AEM Screens utilise les gestionnaires de mise à jour suivants :
 
@@ -50,7 +53,7 @@ Le workflow du processus est le suivant :
   <tr>
    <td><strong>Type</strong></td> 
    <td><strong>Description</strong></td> 
-   <td><strong>Options </strong></td> 
+   <td><strong>Options</strong></td> 
   </tr>
   <tr>
    <td>channels</td> 
