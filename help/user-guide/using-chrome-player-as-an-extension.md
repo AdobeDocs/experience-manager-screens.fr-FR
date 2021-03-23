@@ -1,13 +1,16 @@
 ---
 title: Utilisation du lecteur Chrome comme extension
 seo-title: Utilisation du lecteur Chrome comme extension
-description: 'null'
+description: Consultez cette page pour en savoir plus sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 seo-description: 'null'
+feature: Administration d’AEM Screens
+role: Administrator
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 99%
 
 ---
 
