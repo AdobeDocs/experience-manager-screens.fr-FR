@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
-workflow-type: ht
-source-wordcount: '1134'
-ht-degree: 100%
+feature: Administration des écrans, lecteur Android
+role: Administrator
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 99%
 
 ---
 
@@ -133,7 +136,7 @@ Reportez-vous à l’[exemple de règle JSON](#example-json) ainsi qu’au table
    >[!NOTE]
    >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur l’appareil.
 
-### Attributs de règle {#policy-attributes}
+### Attributs de règle  {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
