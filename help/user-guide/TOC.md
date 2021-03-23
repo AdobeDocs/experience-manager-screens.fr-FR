@@ -5,9 +5,10 @@ audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
-translation-type: ht
-source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
-workflow-type: ht
+feature-set: Experience Manager Screens
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 
