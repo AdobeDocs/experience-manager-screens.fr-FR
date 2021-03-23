@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
+feature: Création dans Screens
+role: Administrateur, développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 100%
+source-wordcount: '1469'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +26,7 @@ ht-degree: 100%
 
 Les composants sont des éléments fondamentaux de l’expérience AEM (Adobe Experience Manager). Vous pouvez utiliser un certain nombre de composants et les ajouter au canal d’un projet AEM Screens.
 
-## Composants utilisés dans AEM Screens   {#components-in-aem-screens}
+## Composants utilisés dans AEM Screens  {#components-in-aem-screens}
 
 AEM Screens fournit différents composants AEM qui peuvent être utilisés dans un projet Screens.
 
