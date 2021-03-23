@@ -2,11 +2,14 @@
 title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
-translation-type: ht
-source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
-workflow-type: ht
-source-wordcount: '1317'
-ht-degree: 100%
+feature: Présentation, Signalisation numérique
+role: Professionnel
+level: Début
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '1323'
+ht-degree: 99%
 
 ---
 
