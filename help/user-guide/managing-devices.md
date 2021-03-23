@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
+feature: Création dans Screens
+role: Administrateur, développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +31,7 @@ La console Périphériques vous permet d’accéder au gestionnaire de périphé
 >
 >Avant d’attribuer votre périphérique, vous devez l’enregistrer. Pour plus d’informations, reportez-vous à la section [Enregistrement des périphériques](device-registration.md).
 
-## Attribution des appareils   {#device-assignment}
+## Attribution des appareils  {#device-assignment}
 
 Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage :
 
