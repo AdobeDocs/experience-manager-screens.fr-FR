@@ -14,10 +14,10 @@ feature: Administration des écrans, lecteur Android
 role: Administrator
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -188,8 +188,8 @@ Suivez les étapes ci-dessous pour autoriser l’approvisionnement en bloc dans 
 1. Assurez-vous que votre périphérique Android prend en charge les services Google Play.
 1. Enregistrez vos périphériques de lecteur Android dans votre solution EMM préférée prenant en charge AppConfig.
 1. Connectez-vous à votre console EMM et extrayez l’application du lecteur AEM Screens de Google Play.
-1. Sélectionnez Configuration gérée (ou l’option associée).
-1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées (par exemple, le code d’enregistrement en bloc et du serveur).
+1. Sélectionnez l’option de configuration gérée ou associée.
+1. Vous devriez maintenant voir une liste des options du lecteur qui peuvent être configurées, comme le code d&#39;enregistrement en masse et le serveur.
 1. Configurez ces paramètres, enregistrez-les et déployez la stratégie sur les périphériques.
 
    >[!NOTE]
