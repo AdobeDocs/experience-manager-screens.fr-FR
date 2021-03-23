@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: Création dans Screens
+role: Administrateur, développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 99%
 
 ---
 
@@ -97,8 +100,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
+   Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
 
 1. **Ajout d’une image par défaut**
 
@@ -110,8 +112,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
+   Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
