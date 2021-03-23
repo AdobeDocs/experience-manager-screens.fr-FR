@@ -1,11 +1,14 @@
 ---
 title: Rapport d’affectation de contenu
 description: Cette page décrit le téléchargement et l’utilisation du rapport d’affectation de contenu.
-translation-type: ht
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+feature: Création dans Screens
+role: Développeur
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 99%
 
 ---
 
