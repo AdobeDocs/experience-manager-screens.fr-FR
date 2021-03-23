@@ -3,10 +3,13 @@ title: Notes de mise à jour du Feature Pack 202001
 seo-title: Notes de mise à jour du Feature Pack 202001
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202001, publié le 31 janvier 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202001, publié le 31 janvier 2020.
+feature: Feature Pack
+role: Développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '286'
 ht-degree: 90%
 
 ---
