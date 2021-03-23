@@ -3,11 +3,14 @@ title: Notes de mise à jour du Feature Pack 202004
 seo-title: Notes de mise à jour du Feature Pack 202004
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202004, publié le 20 avril 2020.
+feature: Feature Pack
+role: Développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 99%
 
 ---
 
