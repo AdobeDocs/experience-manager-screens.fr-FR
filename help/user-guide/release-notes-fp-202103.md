@@ -1,11 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202103
-description: Cette page présente les notes de mise à jour du Feature Pack 202103.
-translation-type: ht
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+description: '"Suivez cette page pour obtenir des informations pour AEM Screens Feature Pack 202103 publié le 5 mars 2021."'
+feature: Feature Pack
+role: Développeur
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
