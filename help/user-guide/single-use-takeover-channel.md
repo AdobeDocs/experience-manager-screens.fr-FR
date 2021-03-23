@@ -4,11 +4,14 @@ seo-title: Canal de prise de contrôle à usage unique
 description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 seo-description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 contentOwner: jsyal
+feature: Création dans Screens
+role: Administrateur, développeur
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 99%
 
 ---
 
