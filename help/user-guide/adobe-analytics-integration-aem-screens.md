@@ -17,7 +17,7 @@ translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->Cette fonctionnalité AEM Screens n&#39;est disponible que si vous avez installé la version minimale de AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4.
 
 >[!NOTE]
 >
->Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et déposez une requête dans ce sens. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens à partir du [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l&#39;aide de votre Adobe ID.
+>Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et déposez une requête dans ce sens. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
 Cette section couvre les sujets suivants :
 
@@ -99,7 +99,7 @@ Le tableau suivant répertorie et décrit les propriétés permettant de configu
   <tr>
    <td><strong>URL Analytics</strong></td>
    <td>URL de publication des données d’analyse depuis le lecteur. <br>
-   Développement/étape</em> : https://cc-api-data-stage.adobe.io/ingest/<br /> Production<em></em> : https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Développement/étape</em> : https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Production</em> : https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Clé d’API Analytics</strong></td>
@@ -132,5 +132,5 @@ Les événements Analytics sont stockés hors ligne dans indexedDB, puis segment
 
 >[!NOTE]
 >
->Pour en savoir plus sur le ***séquencement*** et le modèle de données standard d’événements ******, reportez-vous à **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Pour en savoir plus sur le ***séquencement*** et le ***modèle de données standard d’événements***, reportez-vous à **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
 
