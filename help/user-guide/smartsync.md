@@ -10,13 +10,13 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administration d’AEM Screens
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scree
 |---|---|
 | Android | 3.3.72 |
 | Chrome OS | 1.0.136 |
-| Windows | 1,0,136 |
+| Windows | 1.0.136 |
 
 Pour passer de ContentSync à SmartSync, procédez comme suit :
 
