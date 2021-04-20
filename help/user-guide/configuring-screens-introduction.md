@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Cette page indique comment installer et configurer les lecteurs Screens sur vos 
 >
 >Le lecteur AEM Screens n’utilise pas le jeton CSRF (Cross-Site Request Forgery). Par conséquent, pour configurer un serveur AEM afin qu’il puisse être utilisé avec AEM Screens, ignorez le filtre de référent en autorisant les référents vides.
 
-## Structure du contrôle de l’intégrité{#health-check-framework}
+## Structure du contrôle de l’intégrité {#health-check-framework}
 
 La structure du contrôle de l’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires sont configurées avant d’exécuter un projet AEM Screens.
 
