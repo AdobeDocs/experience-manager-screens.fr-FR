@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202008
-description: '"Suivez cette page pour obtenir des informations pour AEM Screens Feature Pack 202008 publié le 3 septembre 2020."'
+description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202008, publié le 3 septembre 2020.
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
