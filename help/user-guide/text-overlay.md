@@ -13,11 +13,11 @@ noindex: true
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour savoir comment créer votre propre composant personnalisé, reportez-vous �
 
 Cette section explique uniquement comment utiliser et exploiter le composant poster dans un projet AEM Screens et l’utiliser comme superposition de texte dans l’un de vos canaux de séquence.
 
-## Utilisation de la superposition de texte{#using-text-overlay}
+## Utilisation de la superposition de texte {#using-text-overlay}
 
 La section ci-dessous décrit l’utilisation de la superposition de texte dans un projet AEM Screens.
 
@@ -75,7 +75,7 @@ Pour utiliser la superposition de texte dans un canal AEM Screens, procédez co
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
-### Présentation des propriétés de superposition de texte{#understanding-text-overlay-properties}
+### Présentation des propriétés de superposition de texte {#understanding-text-overlay-properties}
 
 Les propriétés de superposition de texte vous permettent d’ajouter du texte à n’importe quel composant de votre projet Screens. La section suivante présente un aperçu des propriétés disponibles dans Superposition de texte :
 
