@@ -12,11 +12,11 @@ discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '778'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
