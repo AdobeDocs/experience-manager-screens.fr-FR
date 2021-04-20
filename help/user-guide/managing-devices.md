@@ -12,11 +12,11 @@ discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La console Périphériques vous permet d’accéder au gestionnaire de périphé
 >
 >Avant d’attribuer votre périphérique, vous devez l’enregistrer. Pour plus d’informations, reportez-vous à la section [Enregistrement des périphériques](device-registration.md).
 
-## Attribution des appareils  {#device-assignment}
+## Attribution des appareils {#device-assignment}
 
 Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage :
 
@@ -68,7 +68,7 @@ Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage 
 >
 >Chaque fois que vous ajoutez un premier périphérique à un nouveau projet Screens, un groupe d’utilisateurs est créé.
 >Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
-> Ce groupe est ajouté en tant que membre au groupe **Contributeurs**, comme illustré dans la figure ci-dessous :
+>Ce groupe est ajouté en tant que membre au groupe **Contributeurs**, comme illustré dans la figure ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
