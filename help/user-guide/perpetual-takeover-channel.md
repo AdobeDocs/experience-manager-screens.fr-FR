@@ -7,11 +7,11 @@ contentOwner: jsyal
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '863'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Pour configurer un projet, procédez comme suit :
    * **Chemin du canal** : sélectionnez le chemin d’accès au canal **TakeOver**.
    * **Priorité** : Attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
    * **Événements pris en charge** : sélectionnez l’**Écran inactif** et le **Minuteur**.
-   * **Planification** : entrez le texte de la planification selon laquelle ce canal doit exécuter l’affichage. Le texte de la **Planification** mentionnée dans cet exemple est *le mercredi après 14h00 et avant 16h00*.
+   * **Planification** : entrez le texte de la planification selon laquelle ce canal doit exécuter l’affichage. Le texte de la **Planification** mentionnée dans cet exemple est *le mercredi après 14 h 00 et avant 16 h 00*.
 
       >[!NOTE]
       >Pour en savoir plus sur les expressions que vous pouvez ajouter à la **Planification**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
@@ -110,7 +110,7 @@ Pour configurer un projet, procédez comme suit :
       >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.
 
       ![asset](assets/p_usecase8.png)
-Désormais, le canal **TakeOver** prendra le contrôle du canal **MainAdChannelChannel** à 14h00 pendant deux heures jusqu’à 16h00 tous les mercredis et lira son contenu du 9 janvier 2020 au 31 janvier 2020.
+Désormais, le canal **TakeOver** prendra le contrôle du canal **MainAdChannel** à 14h00 pendant deux heures jusqu’à 16h00 tous les mercredis et lira son contenu du 9 janvier 2020 au 31 janvier 2020.
 
 ## Exemples d’expressions {#example-expressions}
 
@@ -118,12 +118,12 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| avant 08h00 | le canal est lu avant 08h00 tous les jours |
-| après 14h00 | le canal est lu tous les jours après 14h00 |
-| après 12h15 et avant 12h45 | le canal est lu après 12h15 tous les jours pendant 30 minutes |
-| avant 12h15 et après 12h45 | le canal est lu avant 12h15 et après 12h45 tous les jours |
-| le 1er janvier après 14h00, et le 2 janvier et le 3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 03h00 le 3 janvier |
-| le 1er et 2 janvier après 14h00 et le 2-3 janvier avant 03h00 | la lecture du canal commence après 14h00 le 1er janvier, et se poursuit jusqu’à 03h00 le 2 janvier, puis recommence le 2 janvier à 14h00 et se poursuit jusqu’à 03h00 le 3 janvier. |
+| avant 8 h 00 | le canal est lu avant 8 h 00 tous les jours |
+| après 14 h 00 | le canal est lu tous les jours après 14 h 00 |
+| après 12 h 15 et avant 12 h 45 | le canal est lu après 12 h 15 tous les jours pendant 30 minutes |
+| avant 12 h 15 et après 12 h 45 | le canal est lu avant 12 h 15 et après 12 h 45 tous les jours |
+| le 1er janvier après 14 h 00, ainsi que le 2 janvier et le 3 janvier avant 3 h 00 | la lecture du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier |
+| les 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 3 h 00 | la lecture du canal commence après 14 h 00 le 1er janvier, et se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
 
 >[!NOTE]
 >
