@@ -9,8 +9,8 @@ feature-set: Experience Manager Screens
 translation-type: tm+mt
 source-git-commit: a231de201a67a585907687cfd3ed10395a640096
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 
