@@ -12,11 +12,11 @@ discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 >
 >Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
 
-Les écrans AEM ont publié AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4 avec les détails suivants.
+AEM Screens ont publié AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4 avec les détails suivants.
 
 ## Date de publication {#release-date}
 
@@ -35,9 +35,9 @@ La date de publication pour AEM Screens Feature Pack 201809 est le 1er octobre�
 
 ### Nouveautés {#what-s-new}
 
-* **Reporting de preuve de lecture Adobe Analytics** : Pour en savoir plus, reportez-vous à [Intégration d’Adobe Analytics avec AEM Screens](adobe-analytics-integration-aem-screens.md) .
+* **Reporting de preuve de lecture Adobe Analytics** : Pour en savoir plus, reportez-vous à [Intégration d’Adobe Analytics avec AEM Screens](adobe-analytics-integration-aem-screens.md).
 
-* **Adobe Analytics permet aux lecteurs de mettre en cache et d’envoyer des événements de lecture à Adobe Analytics** : pour en savoir plus, consultez [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) .
+* **Adobe Analytics permet aux lecteurs de mettre en cache et d’envoyer des événements de lecture à Adobe Analytics** : pour en savoir plus, consultez [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
 * **Mise à jour en bloc du contenu hors ligne** : vous permet de mettre à jour tous les canaux en bloc, sans avoir à accéder à un canal particulier pour en mettre à jour le contenu. Pour en savoir plus, consultez la [Mise à jour hors ligne en bloc](bulk-offline-update.md).
 
