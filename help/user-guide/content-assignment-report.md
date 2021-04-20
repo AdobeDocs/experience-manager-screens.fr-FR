@@ -4,11 +4,11 @@ description: Cette page décrit le téléchargement et l’utilisation du rappor
 feature: Création dans Screens
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
