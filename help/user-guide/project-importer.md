@@ -11,13 +11,13 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administration d’AEM Screens
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 
 >[!NOTE]
 >
->Toute colonne qui ne correspond pas aux conditions ci-dessus sera simplement ignorée. Par exemple, si une autre colonne est définie dans votre feuille de calcul (fichier CSV/XLS) autre que **path**,**template**,**title** et **description, ces champs seront ignorés et l’Importateur de projet ne validera pas ces champs supplémentaires pour l’importation de votre projet dans votre projet AEM Screens.******
+>Toute colonne qui ne correspond pas aux conditions ci-dessus sera simplement ignorée. Par exemple, si une autre colonne est définie dans votre feuille de calcul (fichier CSV/XLS) autre que **path**, **template**, **title** et **description**, ces champs seront ignorés et l’**Importateur de projet** ne validera pas ces champs supplémentaires pour l’importation de votre projet dans votre projet AEM Screens.
 
 ## Utilisation de l’importateur de projet {#using-project-importer}
 
