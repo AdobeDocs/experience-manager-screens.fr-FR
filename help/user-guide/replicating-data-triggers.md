@@ -1,16 +1,16 @@
 ---
 title: Réplication des triggers de données sur les serveurs de publication
 seo-title: Réplication des triggers de données sur le serveur de publication
-description: Suivez cette page pour savoir comment répliquer des déclencheurs de données vers le serveur de publication.
-seo-description: Répliquez les triggers de données sur le serveur de publication.
-feature: Administration des écrans, Déclencheur de données
+description: Consultez cette page pour découvrir comment répliquer des déclencheurs de données vers le serveur de publication.
+seo-description: Répliquez les déclencheurs de données sur le serveur de publication.
+feature: Administration de Screens, déclencheur de données
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Si le test de la connexion échoue lors de la réplication des configurations Co
 
    Suivez les étapes ci-dessous :
 
-   1. Accédez à Outils > **Opérations** > **Console Web** `http://localhost:4502/system/console/configMgr`pour ouvrir l’**écran de la console Web Adobe Experience Manager**.
+   1. Accédez à Outils > **Opérations** > **Console Web** `http://localhost:4502/system/console/configMgr` pour ouvrir l’**écran de la console Web Adobe Experience Manager**.
    1. Recherchez **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
