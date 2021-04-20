@@ -2,32 +2,32 @@
 title: Configuration et dépannage de la lecture vidéo
 seo-title: Résolution des incidents liés à des vidéos
 description: Suivez cette page pour découvrir comment déboguer et résoudre les problèmes liés à la lecture vidéo dans votre canal.
-seo-description: Pour savoir comment résoudre les problèmes liés aux vidéos, consultez cette page. Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur Screens. Cette section décrit comment déboguer et résoudre les problèmes liés à la lecture dans votre canal.
+seo-description: Pour savoir comment résoudre les problèmes liés aux vidéos, consultez cette page. Lorsque vous chargez une vidéo dans la Gestion des actifs numériques (DAM) et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur Screens. Cette section décrit comment déboguer et résoudre les problèmes liés à la lecture dans votre canal.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: Canaux interactifs
+feature: Canaux, interactivité
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Configuration et dépannage de la lecture vidéo {#video-playback-configuration-and-troubleshooting}
 
-Lorsque vous chargez une vidéo dans la Gestion des actifs numériques et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur Screens.
+Lorsque vous chargez une vidéo dans la Gestion des actifs numériques (DAM) et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur Screens.
 
 Les sections qui suivent décrivent comment déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
-## Rendus de la gestion des actifs numériques  {#dam-renditions}
+## Rendus de la gestion des actifs numériques (DAM) {#dam-renditions}
 
 Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
 
@@ -74,7 +74,7 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
    >
    >Avant de l’ajouter à un canal, veillez à laisser suffisamment de temps pour le transcodage de la vidéo (l’indicateur « Nouvelle » et non « Traitement en cours » doit s’afficher).
 
-### Vérification du profil avec un composant vidéo   {#checking-profile-with-a-video-component}
+### Vérification du profil avec un composant vidéo {#checking-profile-with-a-video-component}
 
 Consultez la liste des profils dans la conception des pages si le composant vidéo n’est pas configuré correctement.
 
@@ -93,7 +93,7 @@ Utilisez le **lecteur web** `http://localhost:4502/content/mobileapps/cq-screens
 
 Si la vidéo n’est pas lue sous Safari, elle ne fonctionnera pas dans les lecteurs OS X et iOS. Il s’agit probablement d’un problème d’encodage ; la vidéo doit être réencodée.
 
-Pour utiliser un workflow de gestion des actifs numériques afin de créer des rendus Full HD, procédez comme suit :
+Pour utiliser un workflow de gestion des actifs numériques (DAM) afin de créer des rendus Full HD, procédez comme suit :
 
 1. Accédez à l’*administration des modèles de workflow*, à savoir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. Sélectionnez le modèle **Screens – Mettre à jour la ressource**.
