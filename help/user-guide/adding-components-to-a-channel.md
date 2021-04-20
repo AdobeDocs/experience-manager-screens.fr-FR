@@ -13,24 +13,24 @@ docset: aem65
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Ajout de composants à un canal{#adding-components-to-a-channel}
+# Ajout de composants à un canal {#adding-components-to-a-channel}
 
 Les composants sont des éléments fondamentaux de l’expérience AEM (Adobe Experience Manager). Vous pouvez utiliser un certain nombre de composants et les ajouter au canal d’un projet AEM Screens.
 
-## Composants utilisés dans AEM Screens  {#components-in-aem-screens}
+## Composants utilisés dans AEM Screens {#components-in-aem-screens}
 
 AEM Screens fournit différents composants AEM qui peuvent être utilisés dans un projet Screens.
 
-### Affichage des composants AEM Screens   {#viewing-aem-screens-components}
+### Affichage des composants AEM Screens {#viewing-aem-screens-components}
 
 Lorsque vous créez un projet AEM Screens, vous pouvez voir la liste des composants par défaut qui peuvent être ajoutés au projet.
 
@@ -63,7 +63,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 >
 >De la même façon, vous pouvez ajouter au projet autant de nouveaux composants que vous le souhaitez, s’ils sont compatibles avec AEM Screens.
 
-## Présentation des composants AEM Screens   {#understanding-aem-screen-components}
+## Présentation des composants AEM Screens {#understanding-aem-screen-components}
 
 La section suivante décrit les composants AEM Screens que vous pouvez utiliser dans le projet.
 
@@ -90,7 +90,7 @@ L’exemple suivant illustre la manière dont un composant d’application doit 
 >
 >Reportez-vous à l’exemple ci-dessus pour afficher les propriétés de chacun des composants suivants.
 
-### Canal   {#channel}
+### Canal {#channel}
 
 Le composant **Canal** permet d’ajouter un canal entier au projet.
 
@@ -244,7 +244,7 @@ L’illustration suivante représente le composant de transition (ajouté par gl
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Sélectionnez l’icône de transition et cliquez sur **Configurer** (icône en forme de clé à molette) pour ouvrir la boîte de dialogue **Transition** . Cette boîte de dialogue comprend trois onglets :
+Sélectionnez l’icône de transition et cliquez sur **Configurer** (icône en forme de clé à molette) pour ouvrir la boîte de dialogue **Transition**. Cette boîte de dialogue comprend trois onglets :
 
 * **Transition**
 * **Séquence**
