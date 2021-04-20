@@ -4,13 +4,13 @@ description: Suivez cette page pour en savoir plus sur le cas d’utilisation Mu
 seo-description: Cas d’utilisation des transitions Multizone vers Zone unique.
 contentOwner: Jyotika Syal
 feature: Création dans Screens
-role: Développeur, Professionnel
+role: Développeur, professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
