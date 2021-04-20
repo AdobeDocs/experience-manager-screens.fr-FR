@@ -10,14 +10,14 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Administration des écrans, Windows Player
-role: Administrator
+feature: Administration de Screens, Windows Player
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règle  {#example-policy-json-file}
+#### Exemple de fichier JSON de règle {#example-policy-json-file}
 
 ```
 {
