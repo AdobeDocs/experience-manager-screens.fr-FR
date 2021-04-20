@@ -10,27 +10,27 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administration d’AEM Screens
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Mise en œuvre du lecteur Chrome OS  {#implementing-chrome-os-player}
+# Mise en œuvre du lecteur Chrome OS {#implementing-chrome-os-player}
 
 Cette section décrit comment mettre en œuvre le lecteur Chrome OS Player à l’aide de la console de gestion de Chrome.
 
 ## Utilisation de la console de gestion de Chrome {#using-chrome-management-console}
 
-Pour installer la console de gestion de Chrome, exécutez la procédure suivante :
+Pour installer la console de gestion de Chrome, exécutez la procédure suivante :
 
-1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour la console de gestion de Chrome. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995).
-1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour la console de gestion de Chrome. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=fr&amp;ref_topic=2935995).
+1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=fr).
 1. Le lecteur Chrome sera disponible dans le Chrome Web Store.
 
 >[!NOTE]
@@ -88,7 +88,7 @@ Pour configurer les différentes options du lecteur, procédez comme suit :
 >
 >Redémarrez l’appareil pour synchroniser les modifications apportées à la règle.
 
-#### Exemple de fichier JSON de règles    {#example-policy-json-file}
+#### Exemple de fichier JSON de règle {#example-policy-json-file}
 
 ```java
 {
@@ -128,4 +128,4 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 
 >[!NOTE]
 >
->Les configurations de règles sont appliquées strictement et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une règle particulière, ne spécifiez pas la règle lors de la ***configuration des règles,*** par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** lors de la configuration des règles.
+>Les configurations de règles sont appliquées strictement et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une règle particulière, ne spécifiez pas la règle lors de la ***configuration des règles***, par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** lors de la configuration des règles.
