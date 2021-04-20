@@ -4,12 +4,12 @@ seo-title: '« Partie 1 : rôles du projet et responsabilités »'
 description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalisation numérique.
 feature: Présentation
 role: Professionnel, architecte de données
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ L’**intégrateur A/V** est chargé de procéder aux investigations auprès de
 
 Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie contribue au déploiement d’AEM Screens à l’aide de processus de résolution de problèmes, avec des rôles clairement définis pour résoudre les problèmes de performances.
 
-### Partie 1 : rôles du projet et responsabilités 
+### Partie 1 : rôles du projet et responsabilités
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
