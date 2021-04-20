@@ -6,11 +6,11 @@ seo-description: L’architecture d’AEM Screens ressemble à l’architecture 
 feature: Administration d’AEM Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1910'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Configurez la détection Apache Sling basée sur Oak pour toutes les instances d
 
 Pour chaque instance de publication :
 
-1. Accédez à `https://<host>:<port>/system/console/configMgr`.
+1. Accédez à `https://<host>:<port>/system/console/configMgr`. 
 1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak**.
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://localhost:4503/libs/sling/topology/connector`
@@ -247,7 +247,7 @@ Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du péri
 
 Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
-1. Accédez à la page d’administration des utilisateurs (par ex. : `https://localhost:4502/useradmin`
+1. Accédez à la page d’administration des utilisateurs (par ex. : `https://localhost:4502/useradmin`)
 1. Recherchez le groupe **screens-devices-master**
 1. Cliquez avec le bouton droit sur le groupe, puis cliquez sur **Activer**
 
