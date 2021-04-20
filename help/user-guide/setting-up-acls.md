@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administration d’AEM Screens
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La section suivante explique comment séparer les projets à l’aide des listes
 
 En tant qu’administrateur d’AEM, vous devez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chaque utilisateur est affecté à des rôles spécifiques en fonction des exigences du projet.
 
-## Configuration des autorisations  {#setting-up-permissions}
+## Configuration des autorisations {#setting-up-permissions}
 
 Les étapes suivantes résument le processus de configuration de listes de contrôle d’accès pour un projet :
 
@@ -72,17 +72,17 @@ Le tableau ci-dessous résume le chemin d’accès avec les autorisations au niv
 | **Chemin** | **Autorisation** | **Description** |
 |---|---|---|
 | `/apps/<project>` | READ | Permet d’accéder aux fichiers de projet (le cas échéant). |
-| `/content/dam/<project>` | ALL | Permet un accès pour stocker les ressources de projet telles que les images ou les vidéos dans la gestion des ressources numériques. |
+| `/content/dam/<project>` | ALL | Permet un accès pour stocker les ressources de projet telles que les images ou les vidéos dans la gestion des ressources numériques (DAM). |
 | `/content/screens/<project>` | ALL | Supprime l’accès à tous les autres projets sous /content/screens |
-| `/content/screens/svc` | LIRE | Fournit un accès au service d’enregistrement. |
-| `/libs/screens` | LIRE | Permet d’accéder au centre de collecte. |
+| `/content/screens/svc` | READ | Fournit un accès au service d’enregistrement. |
+| `/libs/screens` | READ | Permet d’accéder au centre de collecte. |
 | `/var/contentsync/content/screens/` | ALL | Permet de mettre à jour le contenu en ligne pour le projet. |
 
 >[!NOTE]
 >
 >Dans certains cas, vous pouvez séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans ce cas, créez deux groupes et ajoutez le groupe des auteurs aux contributeurs et le groupe des administrateurs aux contributeurs et aux administrateurs-utilisateurs.
 
-### Création de groupes   {#creating-groups}
+### Création de groupes {#creating-groups}
 
 La création d’un nouveau projet doit également créer des groupes d’utilisateurs par défaut avec un ensemble élémentaire d’autorisations affectées. Vous devez étendre les autorisations aux rôles standard existant pour les AEM Screens.
 
