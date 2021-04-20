@@ -12,11 +12,11 @@ targetaudience: target-audience new
 feature: Développement dans Screens
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le tutoriel ci-après décrit les étapes et les bonnes pratiques pour étendre 
 
 ## Présentation {#overview}
 
-Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce tutoriel, le composant Image de Screens est étendu pour créer un composant Poster. Un titre, une description et un logo sont superposés sur une image pour créer une expérience attrayante dans un canal de séquence.
+Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce tutoriel, le composant Image de Screens est étendu pour créer un composant Poster. Un titre, une description et un logo sont superposés sur une image pour créer une expérience attrayante dans un canal de séquence.
 
 >[!NOTE]
 >
@@ -41,15 +41,15 @@ Le composant Poster personnalisé est créé en étendant le composant Image.
 
 Pour terminer ce tutoriel, vous devez :
 
-1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
+1. [AEM 6.4](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/release-notes/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. Les IDE [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. Les IDE [Eclipse](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/developing/devtools/ht-intellij.html) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
 
 ## Configuration du projet {#project-setup}
 
-Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/adobe/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
+Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/adobe/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
 
 1. Téléchargez et installez les packages suivants à l’aide de la **gestion des packages CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -75,7 +75,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
 ## Création du composant Poster {#poster-cmp}
 
-Le composant Poster étend le composant Image prêt à l’emploi. Un mécanisme de Sling, `sling:resourceSuperType`, est utilisé pour hériter des fonctionnalités de base du composant Image sans avoir à utiliser la fonction Copier/Coller. Vous trouverez plus d’informations sur les notions de base du [traitement des requêtes Sling ici.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)
+Le composant Poster étend le composant Image prêt à l’emploi. Un mécanisme de Sling, `sling:resourceSuperType`, est utilisé pour hériter des fonctionnalités de base du composant Image sans avoir à utiliser la fonction Copier/Coller. Vous trouverez plus d’informations sur les notions de base du [traitement des requêtes Sling ici.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)
 
 Le composant Poster s’affiche en plein écran en mode d’aperçu/de production. En mode d’édition, il est important d’effectuer le rendu du composant différemment afin de faciliter la création du canal de séquence.
 
@@ -344,7 +344,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    La propriété `categories` est une chaîne qui identifie la bibliothèque cliente. La catégorie `cq.screens.components` est utilisée en mode d’édition et en mode d’aperçu/de production. Ainsi, tout CSS/JS défini dans la clientlib `shared` est chargé dans tous les modes.
 
-   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La propriété `allowProxy` garantit le référencement de CSS et JS de la bibliothèque cliente par le biais d’un préfixe `/etc.clientlibs`. Vous trouverez [ici](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced) plus d’informations sur la propriété allowProxy.
+   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La propriété `allowProxy` garantit le référencement de CSS et JS de la bibliothèque cliente par le biais d’un préfixe `/etc.clientlibs`. Vous trouverez [ici](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced) plus d’informations sur la propriété allowProxy.
 
 1. Créez un fichier appelé `css.txt` sous le dossier partagé.
 
