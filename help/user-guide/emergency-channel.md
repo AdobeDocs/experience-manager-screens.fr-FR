@@ -12,11 +12,11 @@ docset: aem65
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Cliquez sur **Enregistrer**.
 
-   Vous pouvez afficher la planification affectée à l’affichage à partir du tableau de bord **StoreSchedule** .
+   Vous pouvez afficher la planification affectée à l’affichage à partir du tableau de bord **StoreSchedule**.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Enregistrement de périphériques**
