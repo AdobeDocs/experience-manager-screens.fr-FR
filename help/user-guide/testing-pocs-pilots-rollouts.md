@@ -12,12 +12,12 @@ discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Présentation
 role: Professionnel, architecte de données
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
