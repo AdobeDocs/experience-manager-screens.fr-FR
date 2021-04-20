@@ -5,12 +5,12 @@ description: Consultez cette page pour connaître les termes clés associés à 
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 feature: Présentation
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
