@@ -6,16 +6,16 @@ seo-description: Consultez cette page pour obtenir des informations sur AEM Scre
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Notes de mise à jour du Feature Pack 201909{#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 201909 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -43,12 +43,12 @@ La date de publication d’AEM Screens Feature Pack 201909 est le lundi 7 oct
 
 * **Activation du délai d’expiration pour autoriser l’interaction clavier**
 
-   Activez les périphériques de contrôle à distance en guise d’alternative aux panneaux tactiles. L’interaction tactile et et le délai d’expiration de l’activité gèrent les saisies au clavier.
+   Activez les périphériques de contrôle à distance en guise d’alternative aux panneaux tactiles. L’interaction tactile et le délai d’expiration de l’activité gèrent les saisies au clavier.
 
 * **Configurations hors ligne dans les fragments d’expérience**
 
    Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens.
-Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md)pour plus d’informations.
+Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
