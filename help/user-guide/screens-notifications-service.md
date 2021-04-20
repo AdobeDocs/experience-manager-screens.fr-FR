@@ -12,20 +12,20 @@ discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Service de notifications AEM Screens{#aem-screens-notifications-service}
+# Service de notifications AEM Screens {#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***Le service de notifications AEM Screens*** décrit la fonctionnalité permettant de surveiller l’activité des périphériques.
+Le ***service de notifications AEM Screens*** décrit la fonctionnalité permettant de surveiller l’activité des périphériques.
 
 Cette section couvre les sujets suivants :
 
@@ -42,11 +42,11 @@ Cette section couvre les sujets suivants :
 
 ## Présentation {#overview}
 
-***Le service de notifications d’AEM Screens*** permet aux administrateurs de recevoir un e-mail si le lecteur AEM Screens n’effectue pas de test ping pendant une période configurable.
+Le ***service de notifications AEM Screens*** permet aux administrateurs de recevoir un e-mail si le lecteur AEM Screens n’effectue pas de test ping pendant une période configurable.
 
 Ce service peut être configuré dans la console web OSGi.
 
-## Configuration des paramètres d’e-mail{#configuring-email-settings}
+## Configuration des paramètres d’e-mail {#configuring-email-settings}
 
 Pour configurer les paramètres de notification par e-mail, procédez comme suit :
 
