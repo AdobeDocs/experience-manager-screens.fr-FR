@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: Création d’écrans, de lancements
+feature: Création dans Screens, lancements
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Cette section explique comment redéfinir la période de grâce par défaut sur 
 1. Accédez à CRXDE Lite, puis à `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Cliquez avec le bouton droit et copiez le fichier.
 3. Accédez à `/apps/system/config`, cliquez avec le bouton droit et collez.
-4.  Double-cliquez sur `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` pour ouvrir le fichier dans l’éditeur de CRXDE Lite. Il doit afficher la période de grâce du chemin */content/screens/* comme étant de **86 400**. Remplacez cette valeur par **600**.
+4. Double-cliquez sur `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` pour ouvrir le fichier dans l’éditeur de CRXDE Lite. Il doit afficher la période de grâce du chemin */content/screens/* comme étant de **86 400**. Remplacez cette valeur par **600**.
 
 Le contenu du fichier texte doit maintenant ressembler à :
 
@@ -184,7 +184,7 @@ Après avoir créé le lancement, vous pouvez ajouter ou supprimer des canaux po
 
 Une fois que vous avez terminé, cliquez sur **Enregistrer** pour revenir au canal **FutureLaunch**.
 
-### Promotion manuelle du lancement Screens{#promote-the-screens-launch-manually}
+### Promotion manuelle du lancement Screens {#promote-the-screens-launch-manually}
 
 Vous pouvez promouvoir le lancement manuellement à l’aide de l’option **Convertir le lancement** depuis le panneau **LANCEMENTS EN ATTENTE**.
 
