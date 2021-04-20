@@ -12,12 +12,12 @@ discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Présentation
 role: Professionnel, architecte de données
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Les points suivants sont pris en compte pour comprendre l’intention du client 
 * Des murs vidéo multi-écran seront-ils nécessaires, et si oui, quelles sont les configurations ?
 * Le contenu est-il lié aux recettes d’exploitation ou de publicité et nécessite-t-il des stratégies de basculement pour éviter les temps d’inactivité ?
 
-### Segmentation de l’audience,  tranches horaires{#audience-segmentation-day-parts}
+### Segmentation de l’audience, tranches horaires {#audience-segmentation-day-parts}
 
 L’inclusion de stratégies basées sur les tranches horaires peut permettre aux clients finaux de segmenter leur contenu et de cibler les messages vers la bonne audience, au bon moment. Cela s’avère particulièrement efficace pour les réseaux de publicité ou de vente au détail avec une liste de lecture faisant appel à de nombreux contributeurs de contenu.
 
