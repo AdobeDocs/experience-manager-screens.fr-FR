@@ -5,9 +5,9 @@ description: 'Consultez cette page pour en savoir plus sur la mise à jour de co
 seo-description: 'Consultez cette page pour en savoir plus sur la mise à jour de contenu On-Demand.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-feature: Création dans Screens
-role: Développeur
-level: Intermédiaire
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

@@ -2,9 +2,9 @@
 title: Qu’est-ce qu’AEM Screens ?
 seo-title: Qu’est-ce qu’AEM Screens ?
 description: '« AEM Screens : solution de signalétique numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive. »'
-feature: Présentation, signalétique numérique
-role: Professionnel
-level: Débutant
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

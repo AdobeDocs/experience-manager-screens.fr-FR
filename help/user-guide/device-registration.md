@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-feature: Administration de Screens, enregistrement des périphériques
-role: Administrateur
-level: Intermédiaire
+feature: Administering Screens, Device Registration
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

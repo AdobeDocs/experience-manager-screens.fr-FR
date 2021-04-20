@@ -4,9 +4,9 @@ seo-title: Canal de prise de contrôle permanente
 description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle permanente.
 seo-description: Suivez ce cas d’utilisation sur la configuration d’un projet qui crée un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 contentOwner: jsyal
-feature: Création dans Screens
-role: Administrateur, développeur
-level: Intermédiaire
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

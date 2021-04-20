@@ -3,9 +3,9 @@ title: Liste de contrôle de sécurité
 seo-title: Liste de contrôle de sécurité
 description: Cette page décrit les principaux aspects en matière de sécurité avec une liste de questions et de considérations à prendre en compte.
 seo-description: Cette page présente la liste de contrôle de sécurité.
-feature: Administration d’AEM Screens
-role: Administrateur
-level: Intermédiaire
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

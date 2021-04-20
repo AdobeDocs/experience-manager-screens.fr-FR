@@ -1,9 +1,9 @@
 ---
 title: Rapport d’affectation de contenu
 description: Cette page décrit le téléchargement et l’utilisation du rapport d’affectation de contenu.
-feature: Création dans Screens
-role: Développeur
-level: Intermédiaire
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

@@ -2,9 +2,9 @@
 title: Création avec des triggers de données
 seo-title: Création avec des triggers de données
 description: Consultez cette page pour apprendre à créer avec des triggers de données.
-feature: Création dans Screens
-role: Administrateur, développeur
-level: Intermédiaire
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

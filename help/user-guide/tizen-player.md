@@ -1,9 +1,9 @@
 ---
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
-feature: Administration de Screens, lecteurs
-role: Administrateur
-level: Intermédiaire
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

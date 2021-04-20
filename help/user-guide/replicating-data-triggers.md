@@ -3,9 +3,9 @@ title: Réplication des triggers de données sur les serveurs de publication
 seo-title: Réplication des triggers de données sur le serveur de publication
 description: Consultez cette page pour découvrir comment répliquer des déclencheurs de données vers le serveur de publication.
 seo-description: Répliquez les déclencheurs de données sur le serveur de publication.
-feature: Administration de Screens, déclencheur de données
-role: Développeur
-level: Intermédiaire
+feature: Administering Screens, Data Trigger
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

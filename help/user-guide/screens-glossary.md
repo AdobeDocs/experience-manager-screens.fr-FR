@@ -3,9 +3,9 @@ title: Glossaire
 seo-title: Glossaire
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
-feature: Présentation
-role: Professionnel
-level: Débutant
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht
