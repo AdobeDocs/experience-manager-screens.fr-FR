@@ -13,11 +13,11 @@ docset: aem65
 feature: Administration d’AEM Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Cette section couvre les sujets suivants :
 * **Séquencement dans Adobe Analytics avec AEM Screens**
 * **Envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne**
 
-## Séquencement dans Adobe Analytics avec AEM Screens{#sequencing-in-adobe-analytics-with-aem-screens}
+## Séquencement dans Adobe Analytics avec AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
 Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon la planification définie par l’administrateur, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de découpages. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
 
