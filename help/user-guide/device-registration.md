@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-feature: Administration des écrans, enregistrement des périphériques
-role: Administrator
+feature: Administration de Screens, enregistrement des périphériques
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
