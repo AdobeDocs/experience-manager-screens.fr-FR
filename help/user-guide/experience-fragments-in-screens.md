@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-feature: Ecrans de création, fragments d’expérience
+feature: Création dans Screens, fragments d’expérience
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1134'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
 1. **Accédez à une page Sites dans We.Retail**
 
-   1. Accédez à Sites et sélectionnez **We.Retail** -> **États-Unis** -> **Anglais** -> **Équipement** et sélectionnez cette page pour l’utiliser comme fragment d’expérience pour votre canal d’écrans.
+   1. Accédez à Sites, sélectionnez **We.Retail** -> **United States** (États-Unis) -> **English** (Anglais) -> **Equipment** (Matériel) et sélectionnez cette page pour l’utiliser comme fragment d’expérience pour votre canal Screens.
 
    1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
 
@@ -89,7 +89,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
    1. Choisissez l’**action** **Créer un fragment d’expérience**.
 
    1. Sélectionnez le **Chemin d’accès parent**.
-   1. Sélectionnez le **Modèle**. Sélectionnez le modèle **Fragment d’expérience - Variation d’écran** ici (valeur dans le champ `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
+   1. Sélectionnez le **Modèle**. Sélectionnez ici le modèle **Fragment d’expérience - Variation Screens** (valeur dans le champ `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Saisissez le **Titre du fragment** **ScreensFragment**.
 
@@ -97,7 +97,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Remarque : Pour sélectionner plus facilement une option, cliquez sur la coche située à droite des champs pour ouvrir la boîte de dialogue de sélection.
+   Remarque : Pour sélectionner plus facilement une option, activez la case à cocher située à droite des champs pour ouvrir la boîte de dialogue de sélection.
 
 1. **Création d’une Live Copy du fragment d’expérience**
 
@@ -108,8 +108,7 @@ Suivez les étapes ci-dessous pour réutiliser le contenu de **We.Retail** dans 
 
    c. Sélectionnez le fragment **ScreensFragment** depuis l’assistant **Créer une Live Copy**, puis cliquez sur **Suivant**.
 
-   
-d. Saisissez le **Titre** et le **Nom** **Screens**.
+   d. Saisissez le **Titre** et le **Nom** **Screens**.
 
    e. Cliquez sur **Créer** pour créer la Live Copy.
 
@@ -129,7 +128,7 @@ d. Saisissez le **Titre** et le **Nom** **Screens**.
 
    Vous pouvez ajouter les **bibliothèques côté client** (java et css) et les **fichiers statiques** à votre fragment d’expérience.
 
-   L’exemple ci-dessous illustre l’ajout de bibliothèques côté client et de polices en tant que fichiers statiques au fragment d’expérience. ![fragment](assets/fragment.gif)
+   L’exemple ci-dessous illustre l’ajout de bibliothèques côté client et de polices en tant que fichiers statiques au fragment d’expérience.  ![fragment](assets/fragment.gif)
 
 1. **Utilisation du fragment d’expérience comme composant dans un canal Screens**
 
@@ -153,8 +152,7 @@ d. Saisissez le **Titre** et le **Nom** **Screens**.
 
    h. Saisissez la valeur en millisecondes dans **Durée**.
 
-   
-i. Sélectionnez la **Configuration hors ligne** dans la boîte de dialogue **Fragments d’expérience** pour définir les bibliothèques côté client et les fichiers statiques.
+   i. Sélectionnez la **Configuration hors ligne** dans la boîte de dialogue **Fragments d’expérience** pour définir les bibliothèques côté client et les fichiers statiques.
 
    >[!NOTE]
    >
