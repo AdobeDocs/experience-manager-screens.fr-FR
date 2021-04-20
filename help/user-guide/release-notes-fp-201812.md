@@ -13,16 +13,16 @@ noindex: true
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Notes de mise à jour du Feature Pack 201812{#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 201812 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -42,7 +42,7 @@ La date de publication d’AEM Screens Feature Pack 201812 est 16 janvier 201
 
 * **Planification multiressource** :
 
-   La planification multiressource permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées. Pour en savoir plus, consultez la section **Planification multiressource** dans **Planification des ressources[](asset-level-scheduling.md)**.
+   La planification multiressource permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées. Pour en savoir plus, consultez la section **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
 
 * **Disposition multizone** :
 
