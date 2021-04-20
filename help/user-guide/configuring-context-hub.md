@@ -13,11 +13,11 @@ docset: aem65
 feature: Développement dans Screens
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,6 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
       >1. Supprimez `cloudsettings` et enregistrez.
       >1. Renommez `cloudsettings1` en `cloudsettings` et enregistrez.
       >1. /conf/screens/settings/cloudsettings doit maintenant présenter `sling:Folder` comme `jcr:primaryType`.
-
 
       >
       >Vous devez suivre ces étapes dans l’instance de création et de publication avant ou après la mise à niveau.
@@ -247,7 +246,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Étape 5 : modification des segments dans les audiences{#editing-audience-segmentation}
+## Étape 5 : modification des segments dans les audiences {#editing-audience-segmentation}
 
 1. **Modification des segments**
 
