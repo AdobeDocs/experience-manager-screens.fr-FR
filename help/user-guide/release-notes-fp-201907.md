@@ -13,11 +13,11 @@ docset: aem65
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Pour plus d’informations, voir [Lancements](launches.md).
 
 * **Configurations hors ligne dans les fragments d’expérience**
 
-Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens. Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md)pour plus d’informations.
+Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens. Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
