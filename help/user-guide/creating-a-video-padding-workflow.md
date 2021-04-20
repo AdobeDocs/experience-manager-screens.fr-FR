@@ -13,11 +13,11 @@ docset: aem65
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Suivez les étapes ci-dessous pour créer un workflow pour votre vidéo :
 
 Suivez les étapes ci-dessous pour utiliser le workflow dans votre projet AEM Screens :
 
-1. Accédez à un projet AEM Screens (**TestVideoRendition** —> **Canaux** —>**VideoRendition**).
+1. Accédez à un projet AEM Screens (**TestVideoRendition** —> **Canaux** —> **VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
@@ -114,7 +114,7 @@ Suivez les étapes ci-dessous pour utiliser le workflow dans votre projet AEM Sc
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Validation de la sortie pour le workflow{#validating-the-output-for-the-workflow}
+## Validation de la sortie pour le workflow {#validating-the-output-for-the-workflow}
 
 Vous pouvez valider votre sortie en procédant comme suit :
 
