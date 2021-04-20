@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administration d’AEM Screens
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran 
 
 Une fois que vous attribuez un canal à un affichage, le lecteur AEM Screens affiche le contenu. Vous pouvez configurer les paramètres de votre lecteur en utilisant les préférences de l’interface utilisateur d’administration (du tableau de bord) ou du lecteur lui-même.
 
-## Utilisation du tableau de bord du périphérique     {#using-the-device-dashboard}
+## Utilisation du tableau de bord du périphérique {#using-the-device-dashboard}
 
 Vous pouvez configurer les préférences de votre périphérique à partir de son tableau de bord, accessible via votre instance de création AEM.
 
@@ -113,7 +113,7 @@ Pour afficher le sélecteur de canal du lecteur, appuyez longuement sur l’angl
 >
 >(Voir *Modification des préférences à partir du lecteur Screens*, comme mentionné dans la section ci-dessous.)
 
-### Gestions des préférences à partir du lecteur AEM Screens     {#managing-preferences-from-the-aem-screens-player}
+### Gestions des préférences à partir du lecteur AEM Screens {#managing-preferences-from-the-aem-screens-player}
 
 Vous pouvez également modifier les paramètres de l’interface utilisateur d’administration et le sélecteur de canal à partir du lecteur.
 
