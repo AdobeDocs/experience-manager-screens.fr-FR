@@ -2,14 +2,14 @@
 title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-feature: Ecrans de création, affectation de Canal
+feature: Création dans Screens, affectation de canal
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ Cette fonctionnalité consiste à fractionner une journée en tranches horaires 
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
-#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires   {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Cet exemple illustre la façon dont un restaurant utilise les tranches horaires pour afficher chaque jour le menu du petit déjeuner, du déjeuner et du dîner.
 
