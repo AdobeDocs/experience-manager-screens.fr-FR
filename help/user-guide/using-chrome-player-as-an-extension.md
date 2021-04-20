@@ -4,13 +4,13 @@ seo-title: Utilisation du lecteur Chrome comme extension
 description: Consultez cette page pour en savoir plus sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 seo-description: 'null'
 feature: Administration d’AEM Screens
-role: Administrator
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
