@@ -8,11 +8,11 @@ contentOwner: Jyotika syal
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir d
 
 ### Utilisation de l’interface utilisateur d’AEM Screens {#using-aem-screens-user-interface}
 
-Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
+Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
 1. Sélectionnez le projet et cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions pour mettre manuellement à jour le contenu du canal.
@@ -55,7 +55,7 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
 
 ### Configuration de la console Web d’Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
-Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
+Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Configuration de la console Web d’Adobe Experience Manager.
 1. Recherchez des services de mise à jour hors ligne en bloc.
