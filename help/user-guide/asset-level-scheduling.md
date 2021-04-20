@@ -3,14 +3,14 @@ title: Activation au niveau des ressources
 seo-title: Activation au niveau des ressources
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
-feature: Ecrans de création, Activation au niveau du fichier
+feature: Création dans Screens, activation au niveau de la ressource
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1453'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Cette section aborde les sujets suivants :
 
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé AEM 6.3 Feature Pack 3 ou AEM 6.4 Screens Feature Pack 1.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé AEM 6.3 Feature Pack 3 ou AEM 6.4 Screens Feature Pack 1.
 >
 >Pour accéder à ce Feature Pack, vous devez contacter l’assistance d’Adobe et demander à y accéder. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
 
