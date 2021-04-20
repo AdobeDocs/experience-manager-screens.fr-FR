@@ -10,14 +10,14 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Ecrans de création, Activation au niveau du Canal
+feature: Création dans Screens, activation au niveau du canal
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Cliquez sur **Enregistrer**.
 
    >[!CAUTION]
-   Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
+   Vous devez définir pour le canal **TargetedSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -157,8 +157,7 @@ Une fois que vous aurez configuré les canaux et l’affichage, veuillez lancer 
 Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23h59 (comme défini dans la planification), le canal **TargetedSinglePlay** affiche son contenu jusqu’à 12h05, puis le canal **MainAdChannel** reprend la lecture de son contenu.
 
 >[!NOTE]
-Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
-
+Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
 [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
 [Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
