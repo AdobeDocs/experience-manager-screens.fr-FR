@@ -13,11 +13,11 @@ docset: aem65
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ Pour plus d’informations, reportez-vous au **[Nouvel outil d’importation de 
 
 SmartSync minimise la charge/le stockage du serveur et le trafic réseau, ce qui permet de réduire les coûts.
 
-Pour plus d’informations, reportez-vous à **[Transition de ContentSync à SmartSync](smartsync.md)** .
+Pour plus d’informations, reportez-vous à **[Transition de ContentSync à SmartSync](smartsync.md)**.
 
 * **Canal d’urgence**
 
 Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence vers lequel peut basculer l’auteur du contenu depuis un canal de séquence en cas de condition préalable.
 
-Pour plus d’informations, consultez le cas d’utilisation du **[canal d&#39;urgence](emergency-channel.md)**.
+Pour plus d’informations, consultez le cas d’utilisation du **[canal d’urgence](emergency-channel.md)**.
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 
@@ -60,7 +60,7 @@ Cette section décrit comment incorporer une application interactive monopage en
 
 Pour plus d’informations, reportez-vous aux sections **[Intégration d’une application REACT à l’aide de l’éditeur d’application d’applications monopages AEM et Intégration d’AEM Screens Analytics](embedding-react-app.md)**.
 
-### Lecteurs AEM Screens publiés  {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.3.3.3 Feature Pack 6 et AEM 6.4.4.0 Feature Pack 4 :
 
