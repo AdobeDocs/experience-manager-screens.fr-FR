@@ -12,11 +12,11 @@ targetaudience: target-audience new
 feature: Développement dans Screens
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce 
 
 Pour terminer ce tutoriel, vous devez :
 
-1. [AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes.html ) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
+1. [AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
 
-1. [Lecteur AEM Screens](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [Lecteur AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de **CRXDE-Lite**. Vous pouvez également utiliser des IDE pour compléter le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le développement [avec AEM ici.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de **CRXDE-Lite**. Vous pouvez également utiliser des IDE pour compléter le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le développement [avec AEM ici.](https://helpx.adobe.com/fr/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
 
 
 ## Configuration du projet {#project-setup}
 
-Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
+Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://helpx.adobe.com/fr/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
 
 1. Téléchargez et installez les packages suivants à l’aide du [gestionnaire de packages CRX](http://localhost:4502/crx/packmgr/index.jsp) :
 
@@ -141,7 +141,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Les composants Screens nécessitent deux rendus différents selon le [mode de création](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) utilisé :
+   Les composants Screens nécessitent deux rendus différents selon le [mode de création](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) utilisé :
 
    1. **Production**: Mode Aperçu ou Publication (wcmmode=disabled)
    1. **Modifier** : utilisé pour tous les autres modes de création, c’est-à-dire éditer, concevoir, échafauder, développeur...
@@ -200,7 +200,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
 1. **Boîte de dialogue Copier l’image Screens à utiliser pour le composant Hello World.**
 
-   Il est plus facile de commencer à partir d’une boîte de dialogue existante, puis d’effectuer des modifications.
+   Il est plus facile de commencer à partir d’une boîte de dialogue existante, puis d’apporter des modifications.
 
    1. Copiez la boîte de dialogue depuis : `/libs/screens/core/components/content/image/cq:dialog`
    1. Collez la boîte de dialogue sous `/apps/weretail-run/components/content/helloworld`
@@ -388,7 +388,7 @@ Une troisième catégorie de bibliothèque cliente : `cq.screens.components.edi
 
 ## Création d’une page de conception {#design-page}
 
-AEM Screens utilise des [Modèles de page statiques](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) et des [Configurations de conception](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) pour les modifications globales. Les configurations de conception sont fréquemment utilisées pour configurer les composants autorisés pour le Parsys sur un canal. Il est recommandé de stocker ces configurations d’une manière spécifique à l’application.
+AEM Screens utilise des [Modèles de page statiques](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/page-templates-static.html) et des [Configurations de conception](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) pour les modifications globales. Les configurations de conception sont fréquemment utilisées pour configurer les composants autorisés pour le Parsys sur un canal. Il est recommandé de stocker ces configurations d’une manière spécifique à l’application.
 
 Une page de conception d’exécution We.Retail est créée ci-dessous pour stocker toutes les configurations spécifiques au projet d’exécution We.Retail.
 
@@ -428,7 +428,7 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 
    ![idle-channel](assets/idle-channel.gif)
 
-1. Ouvrez les propriétés de la page pour le canal inactif. Mettez à jour le champ Conception pour qu’il pointe vers `/apps/settings/wcm/designs/we-retail-run,`la page de conception créée dans la section précédente.
+1. Ouvrez les propriétés de la page pour le canal inactif. Mettez à jour le champ Conception pour qu’il pointe vers `/apps/settings/wcm/designs/we-retail-run,` la page de conception créée dans la section précédente.
 
    ![Configuration de conception /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1240pm.png)
 
