@@ -12,20 +12,20 @@ discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Développement dans Screens
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# API REST{#rest-apis}
+# API REST {#rest-apis}
 
 AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux périphériques au sein de l’environnement.
 
-L’API est accessible à l’adresse suivante : [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
+L’API est accessible à l’adresse suivante : [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
 ## Exploration de la structure de contenu {#navigating-content-structure}
 
@@ -122,7 +122,7 @@ Ou à l’aide de curl :
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
-***Résultat:***
+***Résultat :***
 
 ```xml
 {
