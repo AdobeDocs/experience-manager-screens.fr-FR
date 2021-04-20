@@ -6,16 +6,16 @@ seo-description: Consultez cette page pour obtenir des informations sur AEM Scr
 feature: Feature Pack
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Notes de mise à jour du Feature Pack 202001{#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 202001 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -30,8 +30,6 @@ La date de publication d’AEM Screens Feature Pack 202001 est le 31 janvier
 ### Nouveautés {#what-s-new}
 
 * **Synchronisation des commandes pour la lecture des ressources**
-
-
 La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
 Pour en savoir plus sur la synchronisation des commandes et sur la définition du maître et des clients, consultez [Utilisation de la synchronisation des commandes](using-command-sync.md).
 
@@ -40,9 +38,9 @@ La structure de contrôle de l’intégrité permet à l’utilisateur de vérif
 
    Pour en savoir plus sur la structure de contrôle de l’intégrité, reportez-vous à la section [Structure de contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Mises à jour des**
-types de Transition par défautPropriétés du composant de transition, telles que 
-**Par défaut,** Typeis est désormais défini sur  **** Fadeet la  **** durée sur  **1600 ms**.
+* **Mises à jour des types de transition par défaut**
+Propriétés du composant de transition telles que 
+Le **type** est désormais défini par défaut sur **Fondu** et la **durée** sur **1600 ms**.
 
    Pour plus d’informations, voir le cas d’utilisation [Application de transitions](/help/user-guide/applying-transitions.md).
 
