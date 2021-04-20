@@ -12,11 +12,11 @@ discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Suivez les étapes ci-dessous pour comprendre la création d’un emplacement da
 
 ![player2](assets/player2.gif)
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour cet emplacement.
+Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 ### Modification des propriétés d’un emplacement {#editing-properties-for-a-location}
 
@@ -63,6 +63,6 @@ Pour modifier/accéder aux propriétés d’un emplacement :
 
 #### Étapes suivantes {#the-next-steps}
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour cet emplacement.
+Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 Pour plus d’informations, voir [Création et gestion des affichages](managing-displays.md).
