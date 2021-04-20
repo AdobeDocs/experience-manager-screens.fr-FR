@@ -12,11 +12,11 @@ discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Avant de commencer à implémenter cette fonctionnalité, veillez à ce que les 
 
 * Créer un canal dénommé **global** sous le dossier **Canaux**
 
-* Ajouter du contenu à votre canal **Global** (*Veuillez vérifier **Resources.zip**pour connaître les ressources* appropriées)
+* Ajouter du contenu à votre canal **Global** (*Veuillez vérifier **Resources.zip**pour connaître les ressources appropriées*)
 
 L’image suivante montre le projet **Demo** avec le canal **Global** dans le dossier **Canaux**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -179,7 +179,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Ajoutez du contenu aux canaux dans leurs emplacements respectifs.**
 
-   Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal. 
+   Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal.
 
    >[!NOTE]
    >Vous pouvez utiliser le fichier ***Resources.zip*** de la section **Ressources** ci-dessus pour utiliser les images comme ressources pour le contenu de votre canal.
@@ -208,7 +208,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Attribuer des canaux à une planification**
 
    1. Accédez à **Demo** —> **Planifications** —> **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
-   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
+   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution de canaux**.
    1. Sélectionnez **Canal de référence**. par chemin.
    1. Sélectionnez le **Chemin du canal** **Démo** --> ***Canaux*** --> ***Global***.
    1. Définissez le **rôle du canal** sur **GlobalAdSegment**.
@@ -217,15 +217,15 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    **Attribution d’un canal par rôle pour la région :**
 
-   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
+   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution de canaux**.
    1. Sélectionnez **Canal de référence**. par nom.
    1. Saisissez comme **Nom du canal** **région***.
    1. Définissez le **rôle du canal** sur **RegionAdSegment**.
    1. Cliquez sur **Enregistrer**.
 
-   **Attribution d’un canal par rôle pour le magasin :**
+   **Attribution d’un canal par rôle pour le magasin :**
 
-   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue Attribution de canaux ****.
+   1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution de canaux**.
    1. Sélectionnez **Canal de référence**. par nom.
    1. Saisissez le **Nom du canal** **magasin**.
    1. Définissez le **Rôle du canal** sur **StoreAdSegment**.
@@ -253,7 +253,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Attribution d’une planification à chaque affichage**
 
-   1. Accédez à chaque affichage, par exemple **Demo** —> **Emplacements** —> **Région A** —>**Magasin 1** —>**AffichageMagasin1**.
+   1. Accédez à chaque affichage, par exemple **Demo** —> **Emplacements** —> **Région A** —> **Magasin 1** —> **AffichageMagasin1**.
    1. Pour ouvrir le tableau de bord des affichages, cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **...** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, puis sur **+Attribuer une planification**.
    1. Sélectionnez le chemin d’accès au calendrier (par exemple, ici, **Démo** —> **Planifications** —>**AdSchedule**).
@@ -265,7 +265,7 @@ Une fois que vous aurez configuré les canaux et l’affichage, veuillez lancer 
 
 >[!NOTE]
 >
->Pour en savoir plus sur le lecteur d’écran AEM, consultez les ressources suivantes :
+>Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
 >
 >* [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
 >* [Utilisation du lecteur AEM Screens](working-with-screens-player.md)
