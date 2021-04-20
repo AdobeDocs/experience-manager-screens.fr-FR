@@ -12,11 +12,11 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: Développement dans Screens
 role: Développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Pour garantir une création correcte, les composants doivent fournir les deux re
 
 Les composants intégrés tirent parti des catégories de bibliothèques clientes suivantes :
 
-| **Composant** | **Bibliothèque cliente** |
+| **Component** | **Bibliothèque cliente** |
 |---|---|
 | *cq.screens.components.edit* | CSS et JS devant être chargés lors de la création |
 | *cq.screens.components.production* | CSS et JS devant être chargés lorsque le canal est en cours d’exécution |
