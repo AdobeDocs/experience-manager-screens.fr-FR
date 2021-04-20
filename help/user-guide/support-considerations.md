@@ -12,12 +12,12 @@ discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Présentation
 role: Professionnel, architecte de données
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ La planification comprend :
 * Identification de la meilleure méthode pour résoudre les problèmes sur le réseau
 * Alignement entre l’implémentateur AEM et l’intégrateur AV lors de l’élaboration des plans d’assistance du Jour 2
 
-## Récapitulatif des principaux points à prendre en compte pour l’assistance du Jour 2{#summary-of-key-considerations-involved-in-day-support}
+## Récapitulatif des principaux points à prendre en compte pour l’assistance du Jour 2 {#summary-of-key-considerations-involved-in-day-support}
 
 Voici quelques points essentiels à prendre en compte pour l’assistance du Jour 2 :
 
