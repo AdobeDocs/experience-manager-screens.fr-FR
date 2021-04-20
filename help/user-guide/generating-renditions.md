@@ -12,11 +12,11 @@ discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le workflow à suivre pour ajouter des rendus à vos ressources.
 
-## Génération automatique de rendus Full HD          {#automatically-generating-full-hd-renditions}
+## Génération automatique de rendus Full HD {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Sélectionnez le modèle **Ressources de mise à jour de gestion des actifs numériques**, puis cliquez sur Modifier dans la barre d’actions pour ouvrir la fenêtre **Ressources de mise à jour de gestion des actifs numériques**.
+1. Sélectionnez le modèle **Ressources de mise à jour de gestion des actifs numériques (DAM)**, puis cliquez sur Modifier dans la barre d’actions pour ouvrir la fenêtre **Ressources de mise à jour de gestion des actifs numériques**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -53,7 +53,7 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Cliquez sur **Enregistrer** en haut à gauche de l’écran **Ressources de mise à jour de gestion des actifs numériques**.
+1. Cliquez sur **Enregistrer** en haut à gauche de l’écran **Ressources de mise à jour de gestion des actifs numériques (DAM)**.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
@@ -91,7 +91,7 @@ Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. Ouvrez le rail latéral **Rendus** ; vous remarquerez les nouveaux rendus Full HD. 
+1. Ouvrez le rail latéral **Rendus** ; vous remarquerez les nouveaux rendus Full HD.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
 
