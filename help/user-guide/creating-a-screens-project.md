@@ -12,11 +12,11 @@ discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez également accéder directement à : `http://localhost:4502/screens
 >**Conseil de navigation :**
 >Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, lorsque vous avez sélectionné une entité, vous pouvez appuyer sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
 
-## Création d’un projet Screens  {#creating-a-new-screens-project}
+## Création d’un projet Screens {#creating-a-new-screens-project}
 
 Suivez les étapes ci-dessous pour créer un projet Screens :
 
