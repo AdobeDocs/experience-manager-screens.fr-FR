@@ -12,16 +12,16 @@ discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Création et gestion des planifications{#creating-and-managing-schedules}
+# Création et gestion des planifications {#creating-and-managing-schedules}
 
 Dans AEM Screens, les **planifications** vous permettent d’organiser les canaux en groupes réutilisables. Ainsi, vous n’avez pas à répéter leur attribution individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
 
@@ -29,7 +29,7 @@ Lorsqu’ils sont combinés avec des ***tranches horaires***, les plannings perm
 
 >[!NOTE]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé AEM 6.3 Sites Feature Pack 1. Pour accéder à ce Feature Pack, vous devez contacter l’assistance d’Adobe et demander à y accéder. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé AEM 6.3 Sites Feature Pack 1. Pour accéder à ce Feature Pack, vous devez contacter l’assistance d’Adobe et demander à y accéder. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
 
 ## Création d’une planification {#creating-a-schedule}
 
