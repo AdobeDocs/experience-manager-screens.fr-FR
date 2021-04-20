@@ -4,11 +4,11 @@ description: Cette page décrit la fonction de reconnaissance vocale d’AEM Scr
 feature: Création dans Screens
 role: Administrateur, développeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +154,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
    | Principal | 2 | Charge initiale, écran inactif, minuteur |
    | HotDrinks | 1 | Interaction de l’utilisateur |
    | ColdDrinks | 1 | Interaction de l’utilisateur |
-   | SplitScreen | 3 | Interaction de l’utilisateur |
+   | SplitScreen | 1 | Interaction de l’utilisateur |
 
    >[!NOTE]
    >
