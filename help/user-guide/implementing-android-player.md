@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Administration des écrans, lecteur Android
-role: Administrator
+feature: Administration de Screens, Android Player
+role: Administrateur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Reportez-vous à l’[exemple de règle JSON](#example-json) ainsi qu’au table
    >[!NOTE]
    >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur l’appareil.
 
-### Attributs de règle  {#policy-attributes}
+### Attributs de règle {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
@@ -188,8 +188,8 @@ Suivez les étapes ci-dessous pour autoriser l’approvisionnement en bloc dans 
 1. Assurez-vous que votre périphérique Android prend en charge les services Google Play.
 1. Enregistrez vos périphériques de lecteur Android dans votre solution EMM préférée prenant en charge AppConfig.
 1. Connectez-vous à votre console EMM et extrayez l’application du lecteur AEM Screens de Google Play.
-1. Sélectionnez l’option de configuration gérée ou associée.
-1. Vous devriez maintenant voir une liste des options du lecteur qui peuvent être configurées, comme le code d&#39;enregistrement en masse et le serveur.
+1. Sélectionnez Configuration gérée ou l’option associée.
+1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées, par exemple le code d’enregistrement en bloc et du serveur.
 1. Configurez ces paramètres, enregistrez-les et déployez la stratégie sur les périphériques.
 
    >[!NOTE]
