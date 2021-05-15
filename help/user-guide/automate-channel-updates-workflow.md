@@ -9,10 +9,9 @@ topic-tags: developing
 feature: Développement dans Screens
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 4%
 
 ---
@@ -20,9 +19,9 @@ ht-degree: 4%
 
 # Utilisez le processus pour automatiser les mises à jour des ressources pour un canal AEM Screens {#automate-channel-updates-workflow}
 
-Découvrez comment créer un processus pour traiter automatiquement les fichiers téléchargés vers Adobe Experience Manager et les affecter dynamiquement à un canal d’écrans. Dans cet exemple, lorsqu’une image est ajoutée à un dossier spécifique, un processus est déclenché qui applique un filigrane dynamique et affecte l’image à un canal d’écrans. Les leçons tirées de cet exemple peuvent être appliquées à une grande variété de scénarios d&#39;automatisation.
+Découvrez comment créer un processus pour traiter automatiquement les fichiers téléchargés vers Adobe Experience Manager et les affecter dynamiquement à un canal d’écrans. Dans cet exemple, lorsqu’une image est ajoutée à un dossier spécifique, un processus est déclenché qui applique une incrustation de texte dynamique (processus de filigrane) et affecte l’image à un canal d’écrans. Les leçons tirées de cet exemple peuvent être appliquées à une grande variété de scénarios d&#39;automatisation.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Pour terminer ce tutoriel, vous devez :
 
