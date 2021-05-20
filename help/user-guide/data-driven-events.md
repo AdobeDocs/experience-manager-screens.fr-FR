@@ -7,7 +7,6 @@ page-status-flag: never-activated
 uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 workflow-type: tm+mt
 source-wordcount: '167'
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 En affichage dynamique, les événements pilotés par les données attirent l’attention et fournissent des informations en temps réel grâce à une utilisation interactive des menus numériques et murs d’écrans. Vous pouvez maximiser l’expérience utilisateur avec des événements pilotés par les données.
 
-## Utilisation de ContextHub pour les événements pilotés par les données     {#using-context-hub-for-data-driven-events}
+## Utilisation de ContextHub pour les événements pilotés par les données    {#using-context-hub-for-data-driven-events}
 
 AEM Screens permet l’utilisation d’événements pilotés par les données par l’intermédiaire de ContextHub. ContextHub permet d’utiliser le temps réel.
 
