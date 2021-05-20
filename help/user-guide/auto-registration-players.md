@@ -2,17 +2,16 @@
 title: Enregistrement automatique des lecteurs
 seo-title: Enregistrement automatique des lecteurs
 description: Consultez cette page pour en savoir plus sur l’enregistrement automatique des lecteurs avec Screens sur AMS/On-Premise.
-feature: Administering Screens, Players
+feature: Administration de Screens, lecteurs
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '344'
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
-
 
 # Enregistrement automatique des lecteurs {#auto-registration}
 
