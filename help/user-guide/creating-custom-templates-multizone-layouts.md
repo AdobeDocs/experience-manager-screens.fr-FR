@@ -4,17 +4,16 @@ seo-title: Création de modèles personnalisés dans des dispositions multizones
 description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
 contentOwner: Jyotika Syal
-feature: Developing Screens
+feature: Développement dans Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '951'
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '949'
 ht-degree: 100%
 
 ---
-
 
 # Création de modèles personnalisés pour des dispositions multizone {#creating-custom-templates-multizone}
 
@@ -175,6 +174,3 @@ Vous pouvez également suivre les étapes ci-dessous :
 Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml (étape 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-
