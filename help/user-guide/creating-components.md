@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-feature: Developing Screens
+feature: Développement dans Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '335'
+exl-id: 4d673039-4963-458a-89e9-023a993dd354
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '333'
 ht-degree: 100%
 
 ---
-
 
 # Création de composants {#creating-components}
 
@@ -50,7 +49,7 @@ Pour garantir une création correcte, les composants doivent fournir les deux re
 
 Les composants intégrés tirent parti des catégories de bibliothèques clientes suivantes :
 
-| **Component** | **Bibliothèque cliente** |
+| **Composant** | **Bibliothèque cliente** |
 |---|---|
 | *cq.screens.components.edit* | CSS et JS devant être chargés lors de la création |
 | *cq.screens.components.production* | CSS et JS devant être chargés lorsque le canal est en cours d’exécution |
@@ -59,4 +58,3 @@ Les composants intégrés tirent parti des catégories de bibliothèques cliente
 >[!NOTE]
 >
 >Pour développer des composants personnalisés, utilisez le ***[modèle d’exemple de composant AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
-
