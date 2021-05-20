@@ -4,17 +4,16 @@ seo-title: Application d’une valorisation de marque et de styles personnalisé
 description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
 contentOwner: Jyotika Syal
-feature: Developing Screens
+feature: Développement dans Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '630'
+exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
-
 
 # Valorisation de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
@@ -132,12 +131,3 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Vous êtes maintenant prêt à actualiser votre marque et à appliquer votre style personnalisé pour les incrustations de texte ajoutées à vos ressources.
-
-
-
-
-
-
-
-
-
