@@ -12,14 +12,13 @@ discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '754'
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '752'
 ht-degree: 100%
 
 ---
-
 
 # Configuration et déploiement d’AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -66,7 +65,7 @@ Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentie
 >* Pour activer le service **HTTP**, reportez-vous au [service HTTP Apache Felix Jetty](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 
-### Conditions préalables {#prerequisites}
+### Prérequis {#prerequisites}
 
 Les points clés suivants permettent de configurer le serveur AEM en vue de son utilisation avec AEM Screens.
 
@@ -153,11 +152,3 @@ Définissez l’***encodage Java*** sur Unicode. Par exemple, *Dfile.encoding=Cp
 >[!NOTE]
 >**Recommandation:**
 >Il est recommandé d’utiliser HTTPS pour le serveur AEM Screens utilisé en production.
-
-
-
-
-
-
-
-
