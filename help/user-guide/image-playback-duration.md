@@ -4,7 +4,6 @@ seo-title: Durée de lecture des images
 description: Suivez cette page pour en savoir plus sur la durée de lecture des images.
 seo-description: Suivez cette page pour en savoir plus sur la durée de lecture des images.
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 workflow-type: tm+mt
 source-wordcount: '341'
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 Une fois que vous avez créé un canal de séquence et que vous y avez ajouté des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration du canal. Chaque image peut toujours remplacer la valeur par défaut et présenter une autre durée de lecture. Pour ce faire, modifiez la durée de lecture du composant d’image concerné.
 
-### Conditions préalables {#prerequisites}
+### Prérequis {#prerequisites}
 
 Avant de commencer à implémenter cette fonctionnalité, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
