@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-feature: Administering Screens
+feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '707'
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
-
 
 # Intégration d’Adobe Analytics avec AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
@@ -133,4 +132,3 @@ Les événements Analytics sont stockés hors ligne dans indexedDB, puis segment
 >[!NOTE]
 >
 >Pour en savoir plus sur le ***séquencement*** et le ***modèle de données standard d’événements***, reportez-vous à **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
-
