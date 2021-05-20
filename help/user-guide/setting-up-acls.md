@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: Administering Screens
+feature: Administration d’AEM Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '563'
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # Configuration des listes de contrôle d’accès {#setting-up-acls}
 
@@ -73,16 +72,16 @@ Le tableau ci-dessous résume le chemin d’accès avec les autorisations au niv
 |---|---|---|
 | `/apps/<project>` | READ | Permet d’accéder aux fichiers de projet (le cas échéant). |
 | `/content/dam/<project>` | ALL | Permet un accès pour stocker les ressources de projet telles que les images ou les vidéos dans la gestion des ressources numériques (DAM). |
-| `/content/screens/<project>` | ALL | Supprime l’accès à tous les autres projets sous /content/screens |
-| `/content/screens/svc` | READ | Fournit un accès au service d’enregistrement. |
-| `/libs/screens` | READ | Permet d’accéder au centre de collecte. |
-| `/var/contentsync/content/screens/` | ALL | Permet de mettre à jour le contenu en ligne pour le projet. |
+| `/content/screens/<project>` | TOUT | Supprime l’accès à tous les autres projets sous /content/screens |
+| `/content/screens/svc` | LECTURE | Fournit un accès au service d’enregistrement. |
+| `/libs/screens` | LECTURE | Permet d’accéder au centre de collecte. |
+| `/var/contentsync/content/screens/` | TOUT | Permet de mettre à jour le contenu en ligne pour le projet. |
 
 >[!NOTE]
 >
 >Dans certains cas, vous pouvez séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans ce cas, créez deux groupes et ajoutez le groupe des auteurs aux contributeurs et le groupe des administrateurs aux contributeurs et aux administrateurs-utilisateurs.
 
-### Création de groupes {#creating-groups}
+### Création de groupes  {#creating-groups}
 
 La création d’un nouveau projet doit également créer des groupes d’utilisateurs par défaut avec un ensemble élémentaire d’autorisations affectées. Vous devez étendre les autorisations aux rôles standard existant pour les AEM Screens.
 
@@ -143,4 +142,3 @@ Le tableau suivant récapitule les groupes avec une description et les autorisat
   </tr>
  </tbody>
 </table>
-
