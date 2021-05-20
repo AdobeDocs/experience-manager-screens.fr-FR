@@ -2,17 +2,16 @@
 title: Attribution de canaux - Dernier FP
 seo-title: Attribution de canaux - Dernier FP
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-feature: Authoring Screens, Channel Assignment
+feature: Création dans Screens, affectation de canal
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1478'
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
-
 
 # Attribution de canaux {#channel-assignment}
 
