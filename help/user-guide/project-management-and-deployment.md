@@ -10,17 +10,16 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-feature: Overview
+feature: Présentation
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '728'
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # Partie 4 : gestion de projet et déploiement {#part-project-management-and-deployment}
 
@@ -94,4 +93,3 @@ Suivez ce tutoriel pour découvrir les principes de la préparation du déploiem
 Une fois que vous aurez pris connaissance des principales considérations relatives à la gestion de projet pour les déploiements d’AEM Screens ;
 
 Accédez à la **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** pour comprendre l’assistance du jour 2 et les processus impliqués.
-
