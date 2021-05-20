@@ -5,17 +5,16 @@ description: Consultez cette page pour en savoir plus sur la mise à jour de con
 seo-description: Consultez cette page pour en savoir plus sur la mise à jour de contenu en tant que service.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-feature: Authoring Screens
+feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '361'
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour de contenu en tant que service {#content-update-as-a-service}
 
@@ -75,4 +74,3 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    **Fréquence de planification** Indiquez une heure, par exemple, 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
 1. Cliquez sur **Enregistrer** pour enregistrer vos paramètres et votre contenu sera mis à jour au moment indiqué.
-
