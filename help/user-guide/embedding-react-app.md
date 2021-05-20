@@ -9,17 +9,16 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Developing Screens
+feature: Développement dans Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '724'
+exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
-
 
 # Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -139,4 +138,3 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
    >[!NOTE]
    >
    >Le micrologiciel du lecteur ajoute automatiquement plus de détails sur le lecteur et son environnement d’exécution aux données d’analyse personnalisées que vous envoyez. Il se peut donc que vous n’ayez pas à capturer les détails du système d’exploitation/du périphérique de bas niveau, sauf si cela est absolument nécessaire. Vous devez simplement vous concentrer sur les données d’analyse de l’entreprise.
-
