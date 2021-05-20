@@ -2,17 +2,16 @@
 title: '« Partie 1 : rôles du projet et responsabilités »'
 seo-title: '« Partie 1 : rôles du projet et responsabilités »'
 description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalisation numérique.
-feature: Overview
+feature: Présentation
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '477'
+exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
-
 
 # Partie 1 : rôles du projet et responsabilités {#part-project-roles-and-responsibilities}
 
