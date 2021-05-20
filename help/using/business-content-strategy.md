@@ -3,14 +3,13 @@ title: Stratégie de contenu commercial pour [!UICONTROL AEM Screens]
 seo-title: Stratégie de contenu commercial pour [!UICONTROL AEM Screens]
 description: Ce guide décrit la stratégie de contenu commercial
 seo-description: Ce guide décrit la stratégie de contenu commercial
-translation-type: tm+mt
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
-
 
 # Stratégie de contenu commercial {#business-content}
 
