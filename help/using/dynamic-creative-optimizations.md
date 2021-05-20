@@ -3,14 +3,13 @@ title: Déclencheurs de données
 seo-title: Déclencheurs de données
 description: Cette page décrit les déclencheurs de données
 seo-description: Cette page décrit les déclencheurs de données
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # Optimisations dynamiques des annonces (DCO) {#dynamic-creative}
 
@@ -41,4 +40,3 @@ Il existe deux principaux types de déclencheurs de données :
 
 * **Déclencheurs de données locaux** : ces déclencheurs de données se situent au niveau du périphérique. Par exemple, si vous touchez l’écran, un capteur est activé, ce qui déclenche un commutateur de canal ou de ressource de données local.
 * **Déclencheurs de données distants** : cela suppose que les données déclenchent un commutateur de canal ou de ressource sur la base des valeurs renvoyées par une API de service web.
-
