@@ -10,17 +10,16 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-feature: Authoring Screens
+feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1202'
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
-
 
 # Disposition multizone {#multi-zone-layout}
 
@@ -39,7 +38,7 @@ La ***disposition multizone*** permet de créer du contenu multizone et d’util
 En fonction des exigences du projet, il est parfois nécessaire de disposer de plusieurs zones au sein d’un canal et dus modifier comme une unité entière. Par exemple, une séquence de produits avec un flux de réseaux sociaux associé qui s’exécute dans trois zones distinctes sur un seul canal.
 
 
-### Conditions préalables {#prerequisites}
+### Prérequis {#prerequisites}
 
 Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséder des connaissances conceptuelles concernant les aspects suivants :
 
@@ -193,5 +192,3 @@ Utilisez le lecteur Screens afin de visualiser la sortie qui affiche le contenu 
 La zone de gauche est un canal de séquence et celle de droite inclut une vidéo.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
