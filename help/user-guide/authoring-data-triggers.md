@@ -2,17 +2,16 @@
 title: Création avec des triggers de données
 seo-title: Création avec des triggers de données
 description: Consultez cette page pour apprendre à créer avec des triggers de données.
-feature: Authoring Screens
+feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '380'
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
-
 
 # Création avec des triggers de données {#authoring-with-data-triggers}
 
@@ -22,7 +21,7 @@ Cette section explique comment activer le ciblage dans vos canaux.
 >
 >La version minimale prenant en charge les triggers de données dans un canal AEM Screens est AEM 6.5.3 Feature Pack 3.
 
-## Conditions préalables {#prereqs}
+## Prérequis {#prereqs}
 
 Avant de suivre les étapes ci-dessous afin d’activer le ciblage dans les canaux, vous devez connaître les [termes clés de la section Configuration dans AEM Screens](configuring-context-hub.md) qui sont nécessaires pour comprendre ContextHub et le ciblage dans AEM Screens.
 
