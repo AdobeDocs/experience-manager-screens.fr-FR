@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: Channels, Interactive
+feature: Canaux, interactivité
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '848'
+exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '846'
 ht-degree: 100%
 
 ---
-
 
 # Configuration et dépannage de la lecture vidéo {#video-playback-configuration-and-troubleshooting}
 
@@ -74,7 +73,7 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
    >
    >Avant de l’ajouter à un canal, veillez à laisser suffisamment de temps pour le transcodage de la vidéo (l’indicateur « Nouvelle » et non « Traitement en cours » doit s’afficher).
 
-### Vérification du profil avec un composant vidéo {#checking-profile-with-a-video-component}
+### Vérification du profil avec un composant vidéo  {#checking-profile-with-a-video-component}
 
 Consultez la liste des profils dans la conception des pages si le composant vidéo n’est pas configuré correctement.
 
@@ -158,4 +157,3 @@ Pour configurer une stratégie absolue, procédez comme suit :
 1. Démarrez deux lecteurs ou plus.
 
 Il peut s’écouler un certain temps avant que les lecteurs ne commencent une nouvelle séquence synchronisée.
-
