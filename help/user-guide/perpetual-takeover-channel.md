@@ -4,17 +4,16 @@ seo-title: Canal de prise de contrôle permanente
 description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle permanente.
 seo-description: Suivez ce cas d’utilisation sur la configuration d’un projet qui crée un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 contentOwner: jsyal
-feature: Authoring Screens
+feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '863'
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
-
 
 # Canal de prise de contrôle permanente {#perpetual-takeover-channel}
 
