@@ -10,17 +10,16 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Authoring Screens
+feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '608'
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Création d’un workflow de remplissage vidéo {#creating-a-video-padding-workflow}
 
@@ -40,7 +39,7 @@ Le cas d’utilisation suivant implique de placer une vidéo (par exemple : 128
 
 La vidéo s’affichera sous la forme d’un objet de pixel 1 à pixel 1280 sur et de pixel 1 à pixel 720 vers le bas et le reste du canal sera la couleur par défaut.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Avant de créer un workflow pour la vidéo, veuillez remplir les conditions préalables suivantes :
 
@@ -122,4 +121,3 @@ Vous pouvez valider votre sortie en procédant comme suit :
 * Accédez au répertoire ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
