@@ -3,9 +3,8 @@ title: Activation des fragments d’expérience
 seo-title: Activation des fragments d’expérience
 description: Suivez cet exemple de cas d’utilisation pour en savoir plus sur l’activation des fragments d’expérience.
 seo-description: Suivez cet exemple de cas d’utilisation pour en savoir plus sur l’activation des fragments d’expérience.
-translation-type: ht
 source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
