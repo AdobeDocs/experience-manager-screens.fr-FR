@@ -2,17 +2,16 @@
 title: Attribution de canaux
 seo-title: Attribution de canaux
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-feature: Authoring Screens, Channel Assignment
+feature: Création dans Screens, affectation de canal
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1222'
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1219'
 ht-degree: 100%
 
 ---
-
 
 # Attribution de canaux {#channel-assignment}
 
@@ -162,7 +161,7 @@ Vous allez créer des tranches horaires selon les mois, de sorte que le contenu 
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
-#### Diffusion de contenu pour les canaux ayant la même priorité {#playing-content-for-channels-with-same-priority}
+#### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
 
 Ces exemples présentent les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c’est son contenu qui est diffusé plutôt que celui du canal A.
 
@@ -178,5 +177,4 @@ Ces exemples présentent les tranches horaires d’un magasin qui affiche sa col
 >
 >* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
