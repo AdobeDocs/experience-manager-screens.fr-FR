@@ -4,7 +4,6 @@ seo-title: Durée de lecture des images au niveau du projet
 description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
 seo-description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '351'
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 Cette fonction permet de définir la durée de lecture des images au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
 
-### Conditions préalables {#prerequisites}
+### Prérequis {#prerequisites}
 
 Avant de commencer à utiliser cette fonction, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
