@@ -3,14 +3,13 @@ title: Transition vers la plate-forme
 seo-title: Transition vers la plate-forme pour AEM Screens
 description: Cette page décrit la transition vers la plate-forme
 seo-description: Cette page décrit la transition vers la plate-forme
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
-
 
 # Transition vers la plate-forme {#transition-platform}
 
