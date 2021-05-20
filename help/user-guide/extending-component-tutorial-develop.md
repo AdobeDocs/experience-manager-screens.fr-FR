@@ -9,17 +9,16 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Développement dans Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '1856'
+exl-id: e316614f-2d40-4b62-a1e5-f30817def742
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1854'
 ht-degree: 100%
 
 ---
-
 
 # Extension d’un composant AEM Screens {#extending-an-aem-screens-component}
 
@@ -37,9 +36,9 @@ Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce 
 
 Le composant Poster personnalisé est créé en étendant le composant Image.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
-Pour terminer ce tutoriel, vous devez :
+Pour suivre ce tutoriel, vous avez besoin de :
 
 1. [AEM 6.4](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/release-notes/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
@@ -53,7 +52,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
 1. Téléchargez et installez les packages suivants à l’aide de la **gestion des packages CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Obtenir le fichier](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Obtenir le fichier](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtenir le fichier](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Éventuellement,** si vous utilisez Eclipse ou un autre IDE, téléchargez le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
@@ -62,7 +61,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    SRC Start Screens We.Retail Run Project
 
-   [Obtenir le fichier](assets/start-poster-screens-weretail-run.zip)
+[Obtenir le fichier](assets/start-poster-screens-weretail-run.zip)
 
 1. Dans **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp`, les deux packages suivants sont installés :
 
