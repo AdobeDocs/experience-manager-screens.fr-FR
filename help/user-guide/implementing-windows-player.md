@@ -10,17 +10,16 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Administering Screens, Windows Player
+feature: Administration de Screens, Windows Player
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1003'
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre du lecteur Windows 10 {#implementing-windows-player}
 
@@ -119,7 +118,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règle {#example-policy-json-file}
+#### Exemple de fichier JSON de règle  {#example-policy-json-file}
 
 ```
 {
@@ -159,7 +158,7 @@ Pour activer le mode Kiosque, procédez comme suit :
 1. Exécutez le script PowerShell en tant qu’administrateur.
 1. Redémarrez et connectez-vous en tant qu’utilisateur Kiosque et l’application du lecteur devrait démarrer immédiatement.
 
-### Résolution des incidents {#troubleshooting}
+### Résolution des problèmes {#troubleshooting}
 
 Si vous obtenez un écran noir lorsque vous vous connectez en tant qu’utilisateur Kiosque, cela signifie que vous avez peut-être mal spécifié le chemin d’accès au fichier exécutable du lecteur Windows. Connectez-vous à nouveau en tant qu’administrateur et vérifiez et réexécutez le script.
 
@@ -184,4 +183,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
