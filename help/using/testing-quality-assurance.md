@@ -3,14 +3,13 @@ title: Tests et assurance qualité
 seo-title: Tests et assurance qualité pour AEM Screens
 description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit les procédures de test et d’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
 ---
-
 
 # Tests et assurance qualité {#testing-quality}
 
