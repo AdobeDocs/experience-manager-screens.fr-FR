@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Authoring Screens
+feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1469'
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1466'
 ht-degree: 100%
 
 ---
-
 
 # Ajout de composants à un canal {#adding-components-to-a-channel}
 
@@ -30,7 +29,7 @@ Les composants sont des éléments fondamentaux de l’expérience AEM (Adobe 
 
 AEM Screens fournit différents composants AEM qui peuvent être utilisés dans un projet Screens.
 
-### Affichage des composants AEM Screens {#viewing-aem-screens-components}
+### Affichage des composants AEM Screens  {#viewing-aem-screens-components}
 
 Lorsque vous créez un projet AEM Screens, vous pouvez voir la liste des composants par défaut qui peuvent être ajoutés au projet.
 
@@ -63,7 +62,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 >
 >De la même façon, vous pouvez ajouter au projet autant de nouveaux composants que vous le souhaitez, s’ils sont compatibles avec AEM Screens.
 
-## Présentation des composants AEM Screens {#understanding-aem-screen-components}
+## Présentation des composants AEM Screens  {#understanding-aem-screen-components}
 
 La section suivante décrit les composants AEM Screens que vous pouvez utiliser dans le projet.
 
@@ -337,4 +336,3 @@ Le composant Vidéo présente les propriétés suivantes :
   </tr>
  </tbody>
 </table>
-
