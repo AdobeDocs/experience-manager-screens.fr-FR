@@ -3,16 +3,15 @@ title: Conditions préalables à l’utilisation d’[!UICONTROL AEM Screens]
 seo-title: Conditions préalables pour les projets [!UICONTROL AEM Screens]
 description: Ce guide décrit les conditions préalables au lancement d’un projet AEM Screens.
 seo-description: Ce guide décrit les conditions préalables au lancement d’un projet AEM Screens.
-translation-type: tm+mt
-source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
+exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%
 
 ---
 
-
-# Conditions préalables {#prerequisites}
+# Prérequis {#prerequisites}
 
 Avant d’examiner plus en détail la mise en œuvre d’un projet AEM Screens, il est recommandé de consulter les tutoriels et documents spécifiques au produit.
 
