@@ -5,17 +5,16 @@ description: Consultez cette page pour obtenir des réponses aux questions fréq
 seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital Signage, Content
+feature: Signalétique numérique, contenu
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1905'
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1903'
 ht-degree: 100%
 
 ---
-
 
 # Questions fréquentes sur AEM Screens {#aem-screens-faqs}
 
@@ -149,7 +148,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
@@ -211,5 +210,3 @@ AEM Screens crée des définitions d’index pour les requêtes utilisées par l
 Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=fr#configuring-the-indexes).
 
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
