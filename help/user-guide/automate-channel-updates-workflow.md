@@ -19,7 +19,7 @@ ht-degree: 94%
 
 # Utilisation d’un processus pour automatiser les mises à jour des ressources pour un canal AEM Screens {#automate-channel-updates-workflow}
 
-Découvrez comment créer un processus pour traiter automatiquement les ressources chargées vers Adobe Experience Manager et les affecter dynamiquement à un canal Screens. Dans cet exemple, lorsqu’une image est ajoutée à un dossier spécifique, un processus est déclenché qui applique une incrustation de texte dynamique (processus de filigrane) et affecte l’image à un canal d’écrans. Cet exemple peut être appliqué à de nombreux scénarios d’automatisation.
+Découvrez comment créer un processus pour traiter automatiquement les ressources chargées vers Adobe Experience Manager et les affecter dynamiquement à un canal Screens. Dans cet exemple, lorsqu’une image est ajoutée à un dossier spécifique, un workflow est déclenché qui applique une superposition de texte dynamique (processus de filigrane) et affecte l’image à un canal Screens. Cet exemple peut être appliqué à de nombreux scénarios d’automatisation.
 
 ## Prérequis {#prerequisites}
 
