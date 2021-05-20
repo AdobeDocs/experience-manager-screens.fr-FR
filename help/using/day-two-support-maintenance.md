@@ -3,14 +3,13 @@ title: Maintenance et assistance pour le jour 2
 seo-title: Maintenance et assistance pour le jour 2 pour AEM Screens
 description: Cette page décrit la maintenance et l’assistance pour le jour 2
 seo-description: Cette page décrit la maintenance et l’assistance pour le jour 2
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # Assistance et maintenance de la plate-forme pour le jour 2 {#day-two-support-maintenance}
 
