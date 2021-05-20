@@ -1,17 +1,16 @@
 ---
 title: Rapport d’affectation de contenu
 description: Cette page décrit le téléchargement et l’utilisation du rapport d’affectation de contenu.
-feature: Authoring Screens
+feature: Création dans Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '336'
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # Rapport d’affectation de contenu {#content-assignment-report}
 
@@ -58,4 +57,3 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 1. Une feuille Excel est téléchargée sur votre ordinateur local avec un préfixe identique au nom du projet AEM Screens. Par exemple, si le nom de votre projet est **DemoScreens**, le nom de fichier téléchargé sera **demoscreens-content-assignment-report.xlxs**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
