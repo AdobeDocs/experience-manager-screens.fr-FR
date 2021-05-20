@@ -2,17 +2,16 @@
 title: Guide de démarrage rapide
 seo-title: Guide de démarrage rapide
 description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
-feature: Overview, Digital Signage
+feature: Présentation, Signalétique numérique
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1323'
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1320'
 ht-degree: 100%
 
 ---
-
 
 # Guide de démarrage rapide {#kickstart-guide}
 
@@ -21,7 +20,7 @@ Cette section de démarrage rapide d’AEM Screens explique comment configurer 
 >[!NOTE]
 >Avant de commencer à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Screens et de publier du contenu sur le lecteur Screens.
 
