@@ -3,7 +3,6 @@ title: Liste de contrôle de sécurité d’AEM Screens
 seo-title: Liste de contrôle de sécurité d’AEM Screens
 description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
 seo-description: Cette page décrit la liste de contrôle de sécurité d’AEM Screens
-translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
