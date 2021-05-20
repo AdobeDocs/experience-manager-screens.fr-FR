@@ -3,17 +3,16 @@ title: Configuration de l’auteur et de la publication dans AEM Screens
 seo-title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
-feature: Administering Screens
+feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1910'
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1907'
 ht-degree: 100%
 
 ---
-
 
 # Configuration de l’Auteur et de la Publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -23,7 +22,7 @@ Cette page met l’accent sur les sujets suivants :
 * **Configuration de la topologie de publication**
 * **Gestion de la publication : diffusion des mises à jour de contenu de l’auteur à la publication sur le périphérique**
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Avant de vous familiariser avec les serveurs de création et de publication, vous devez connaître au préalable :
 
@@ -308,5 +307,3 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un des canaux, un des emplacements, un des appareils, une des applications ou une des planifications. Pour en savoir plus sur cette fonction, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
-
-
