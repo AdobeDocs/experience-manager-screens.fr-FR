@@ -3,14 +3,13 @@ title: Cartographie du parcours client
 seo-title: Cartographie du parcours client pour AEM Screens
 description: Cette page décrit la cartographie du parcours client d’AEM Screens
 seo-description: Cette page décrit la cartographie du parcours client d’AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
 ---
-
 
 # Cartographie du parcours utilisateur {#journey-map}
 
