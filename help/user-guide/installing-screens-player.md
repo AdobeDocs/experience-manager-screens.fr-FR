@@ -4,17 +4,16 @@ seo-title: Installation du lecteur Screens
 description: Rendez-vous sur cette page pour en savoir plus sur l’installation du lecteur AEM Screens disponible.
 seo-description: Installation du lecteur Screens
 contentOwner: jsyal
-feature: Administering Screens
+feature: Administration d’AEM Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '192'
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
-
 
 # Installation du lecteur AEM Screens {#installing-player}
 
