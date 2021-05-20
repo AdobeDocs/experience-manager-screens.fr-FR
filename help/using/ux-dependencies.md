@@ -3,14 +3,13 @@ title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
 seo-title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
 description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
 seo-description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
-translation-type: tm+mt
-source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 
 ---
-
 
 # Dépendances de l’expérience utilisateur {#ux-dependencies}
 
@@ -41,5 +40,3 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
 1. Plusieurs périphériques sont-ils nécessaires pour un seul affichage (zones multiples, panneaux de très grande taille, etc.) ?
 
 1. Quels sont les facteurs environnementaux, tels que la luminosité, la température et la saison ?
-
-
