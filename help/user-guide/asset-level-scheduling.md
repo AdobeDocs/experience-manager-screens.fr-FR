@@ -3,17 +3,16 @@ title: Activation au niveau des ressources
 seo-title: Activation au niveau des ressources
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
-feature: Authoring Screens, Asset Level Activation
+feature: Création dans Screens, activation au niveau de la ressource
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1453'
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1450'
 ht-degree: 100%
 
 ---
-
 
 # Activation au niveau des ressources {#asset-level-scheduling}
 
@@ -193,7 +192,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 L’***activation multiressource*** permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées.
 
-### Conditions préalables {#prerequisites}
+### Prérequis {#prerequisites}
 
 Pour utiliser l’activation de plusieurs ressources, créez un projet AEM Screens avec un canal de séquence. Par exemple, le cas d’utilisation suivant montre l’implémentation de la fonctionnalité :
 
@@ -223,4 +222,3 @@ Pour sélectionner plusieurs ressources et planifier leur affichage dans un proj
    >L’icône de planification s’affiche dans l’angle supérieur droit pour les ressources ayant une activation multiressource.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
