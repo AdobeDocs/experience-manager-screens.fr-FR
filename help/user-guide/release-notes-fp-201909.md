@@ -3,17 +3,16 @@ title: Notes de mise à jour du Feature Pack 201909
 seo-title: Notes de mise à jour du Feature Pack 201909
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201909, publié le mercredi 31 juillet 2019.
 seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201909, publié le lundi 7 octobre 2019.
-feature: Feature Pack
+feature: Feature Pack
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '299'
+exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour du Feature Pack 201909 {#release-notes-for-feature-pack}
 
