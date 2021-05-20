@@ -6,9 +6,8 @@ getting-started-title: Guide des bonnes pratiques pour AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: ht
 source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -21,11 +20,11 @@ ht-degree: 100%
 + Présentation {#overview}
    + [Présentation d’AEM Screens](introduction.md)
    + [Rôles et responsabilités du projet](roles-responsibilities.md)
-   + [Conditions préalables](pre-requisites.md)
+   + [Prérequis](pre-requisites.md)
    + [Éléments clés d’un projet d’affichage numérique](getting-started-digital-signage.md)
    + [Approche recommandée](recommended-approach.md)
 + Exposé stratégique {#strategic-brief}
-   + [Observations dans le cadre de la définition du champ d’application du projet](pre-sales-considerations.md)
+   + [Observations dans le cadre de la définition de la portée du projet](pre-sales-considerations.md)
    + [Contenu commercial dans les stratégies d’expérience utilisateur](business-content-strategy.md)
    + [Dépendances de l’expérience utilisateur](ux-dependencies.md)
    + [Intégration dans Analytics](analytics.md)
@@ -44,7 +43,7 @@ ht-degree: 100%
       + [Réseau mobile direct](/help/using/mobile-network.md)
       + [Réseau mobile avec routeur de données mobile et composants réseau actifs](/help/using/mobile-network-router.md)
       + [Réseau d’entreprise fermé (câblé/sans fil)](/help/using/enclosed-corporate-network.md)
-   + [Configurations de périphériques](device-configurations.md)
+   + [Configurations d’appareils](device-configurations.md)
    + [Tests et assurance qualité](testing-quality-assurance.md)
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
 + Assistance et maintenance {#ongoing-support}
