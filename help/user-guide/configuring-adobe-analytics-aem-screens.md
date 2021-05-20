@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: Administering Screens
+feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '699'
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # Configuration d’Adobe Analytics avec AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
@@ -332,4 +331,3 @@ Le tableau suivant résume le modèle de données standard pour les événements
   </tr>
  </tbody>
 </table>
-
