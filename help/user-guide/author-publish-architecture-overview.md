@@ -9,17 +9,16 @@ topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Administering Screens
+feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1031'
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1028'
 ht-degree: 100%
 
 ---
-
 
 # Présentation de l’architecture de création et de publication {#author-and-publish-architectural-overview}
 
@@ -29,7 +28,7 @@ Cette page met l’accent sur les sujets suivants :
 * **Présentation de l’architecture**
 * **Processus d’enregistrement**
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Avant de vous familiariser avec les serveurs de création et de publication, vous devez connaître au préalable :
 
@@ -103,7 +102,7 @@ Les périphériques envoient un ping à l’équilibreur de charge et sont rout�
 
 L’instance de création interroge toutes les instances de publication et fusionne les réponses d’état du périphérique en un seul état. La tâche planifiée qui interroge l’auteur est `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` et peut être configurée en se basant sur une expression cron.
 
-## Enregistrement {#registration}
+## L’enregistrement {#registration}
 
 L’enregistrement continue d’être généré sur l’instance de création AEM. Le périphérique d’AEM Screens pointe vers l’instance de création et l’enregistrement est terminé.
 
