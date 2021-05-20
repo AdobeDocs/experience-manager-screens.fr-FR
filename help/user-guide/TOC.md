@@ -5,9 +5,8 @@ audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
-translation-type: ht
 source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 
@@ -34,7 +33,7 @@ ht-degree: 100%
    + [Connexion à un lecteur Screens](working-with-screens-player.md)
    + [Enregistrement de périphériques](device-registration.md)
    + [Configuration des listes de contrôle d’accès](setting-up-acls.md)
-   + [Liste de contrôle de sécurité d’AEM Screens](security-checklist.md)
+   + [Liste de contrôle de sécurité d’AEM Screens ](security-checklist.md)
    + [Transition de ContentSync à SmartSync](smartsync.md)
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
    + [Réplication des triggers de données sur les serveurs de publication](replicating-data-triggers.md)
@@ -50,7 +49,7 @@ ht-degree: 100%
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)
    + Intégration d’Adobe Analytics avec AEM Screens {#analytics-integration}
       + [Intégration d’Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
+      + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exemples de cas de création et d’utilisation {#authoring}
    + Configuration d’un projet Screens {#setting-up-projects}
       + [Création et gestion des projets](creating-a-screens-project.md)
@@ -65,7 +64,7 @@ ht-degree: 100%
    + Utilisation de fonctionnalités de base du produit {#product-features}
       + [Superposition de texte](text-overlay.md)
       + [Mise à jour hors ligne en bloc](bulk-offline-update.md)
-      + [Service de notifications AEM Screens](screens-notifications-service.md)
+      + [Service de notifications AEM Screens](screens-notifications-service.md)
       + [Utilisation de fragments d’expérience](experience-fragments-in-screens.md)
       + [Activation au niveau des ressources](asset-level-scheduling.md)
       + [Activation au niveau des canaux](channel-level-activation.md)
@@ -95,8 +94,8 @@ ht-degree: 100%
       + [Canal de prise de contrôle à usage unique](single-use-takeover-channel.md)
       + [Canal de prise de contrôle à usage permanent](perpetual-takeover-channel.md)
 + Ressources du développeur et ressources d’API {#developing}
-   + [API REST](rest-api.md)
-   + [Développement d’un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)
+   + [API REST](rest-api.md)
+   + [Développement d’un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canaux hors ligne](offline-channels.md)
    + [Extension d’un composant AEM Screens](extending-component-tutorial-develop.md)
    + [Création de composants](creating-components.md)
@@ -115,8 +114,8 @@ ht-degree: 100%
    + [Notes de mise à jour du Feature Pack 202008](release-notes-fp-202008.md)
    + [Notes de mise à jour du Feature Pack 202004](release-notes-fp-202004.md)
    + [Notes de mise à jour du Feature Pack 202001](release-notes-fp-202001.md)
-   + [Notes de mise à jour du Feature Pack 201909](release-notes-fp-201909.md)
-   + [Notes de mise à jour du Feature Pack 201907](release-notes-fp-201907.md)
-   + [Notes de mise à jour du Feature Pack 201905](screens-release-notes-fp-201905.md)
-   + [Notes de mise à jour du Feature Pack 201812](release-notes-fp-201812.md)
-   + [Notes de mise à jour du Feature Pack 201809](screens-release-notes.md)
+   + [Notes de mise à jour du Feature Pack 201909](release-notes-fp-201909.md)
+   + [Notes de mise à jour du Feature Pack 201907](release-notes-fp-201907.md)
+   + [Notes de mise à jour du Feature Pack 201905](screens-release-notes-fp-201905.md)
+   + [Notes de mise à jour du Feature Pack 201812](release-notes-fp-201812.md)
+   + [Notes de mise à jour du Feature Pack 201809](screens-release-notes.md)
