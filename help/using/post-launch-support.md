@@ -3,7 +3,6 @@ title: Assistance après le lancement
 seo-title: Assistance après le lancement pour AEM Screens
 description: Cette page décrit l’assistance après le lancement dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit l’assistance après le lancement dans le cadre du guide des bonnes pratiques d’AEM Screens
-translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '413'
