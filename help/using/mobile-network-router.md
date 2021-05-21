@@ -31,6 +31,7 @@ La configuration alloue un accès Internet à chaque contrôleur AEM Screens par
 1. Assurez-vous que le routeur de données mobile est correctement connecté au réseau de données cellulaire comme indiqué dans le système d’exploitation et que chacun des lecteurs AEM Screens est connecté au réseau de routeurs.
 1. Testez la connexion Internet en appelant une URL dans le navigateur de votre système.
    >[!NOTE]
+   >
    >Si une erreur est signalée, vérifiez les paramètres réseau. Il existe essentiellement deux options pour une connexion réseau appropriée :
    >* DHCP
    >* Configuration IP manuelle
@@ -42,6 +43,7 @@ La configuration alloue un accès Internet à chaque contrôleur AEM Screens par
 1. Si l’appel de l’URL aboutit, vous pouvez continuer à installer AEM Screens et vous enregistrer. Lancez AEM Screens.
 
    >[!NOTE]
+   >
    >**Conseil de dépannage**
    >Si AEM Screens ne se connecte pas correctement et que le contenu attendu n&#39;est pas affiché, vérifiez si le pare-feu de votre routeur Internet présente des restrictions concernant `TCP/IP Port 80/443`.
 
@@ -79,7 +81,6 @@ Lors de la réflexion relative au choix du réseau à utiliser, il est recommand
 >[!NOTE]
 >
 >Le package de données nécessaire doit respecter les conditions suivantes :
-
 >
 >`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
