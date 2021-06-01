@@ -4,13 +4,13 @@ description: Cette page décrit la fonction de reconnaissance vocale d’AEM Scr
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 100%
 
 ---
+
 
 # Reconnaissance vocale dans AEM Screens {#voice-recognition}
 
@@ -184,3 +184,8 @@ De même, si vous utilisez un mot-clé **cold** (froid) comme dans *Je voudrais 
 **Sortie désirée du canal SplitScreen**
 
 Le canal **Main** lit son contenu, mais lorsque vous utilisez les mots-clés **hot** et **cold** ensemble, comme dans *Je voudrais voir le menu des boissons chaudes et froides*, le canal commence à lire le contenu du canal **SplitScreen**. Si vous dites *Revenir au menu principal*, le processus revient au canal principal.
+
+
+
+
+
