@@ -3,13 +3,13 @@ title: Maquettes
 seo-title: Maquettes pour AEM Screens
 description: Cette page décrit les maquettes dans le cadre d’un projet AEM Screens
 seo-description: Cette page décrit les maquettes dans le cadre d’un projet AEM Screens
-exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
 ---
+
 
 # Maquettes {#wireframes}
 
@@ -34,3 +34,4 @@ Au **niveau du canal**, nous devons créer des maquettes qui montrent comment le
 Au **niveau du projet**, nous pouvons commencer à modéliser l’interaction de plusieurs écrans ou expériences au sein d’un espace physique afin de proposer un parcours utilisateur complet à plusieurs points de contact.
 
 Cela doit être conforme avec la carte du parcours utilisateur qui a été créée précédemment.
+
