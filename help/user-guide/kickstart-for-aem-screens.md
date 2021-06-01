@@ -5,13 +5,13 @@ description: Suivez cette page pour créer un projet AEM Screens de démonstrat
 feature: Présentation, Signalétique numérique
 role: Business Practitioner
 level: Beginner
-exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
 
 ---
+
 
 # Guide de démarrage rapide {#kickstart-guide}
 
