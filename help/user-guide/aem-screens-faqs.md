@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: Signalétique numérique, contenu
 role: Developer
 level: Intermediate
-exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 100%
 
 ---
+
 
 # Questions fréquentes sur AEM Screens {#aem-screens-faqs}
 
@@ -210,3 +210,5 @@ AEM Screens crée des définitions d’index pour les requêtes utilisées par l
 Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=fr#configuring-the-indexes).
 
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
