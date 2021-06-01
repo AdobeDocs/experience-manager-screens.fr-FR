@@ -3,13 +3,13 @@ title: Analyses avec AEM Screens
 seo-title: Analyses avec AEM Screens
 description: Cette page décrit les analyses avec AEM Screens
 seo-description: Cette page décrit les analyses avec AEM Screens
-exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
 ---
+
 
 # Analyses avec AEM Screens {#analytics-screens}
 
@@ -27,3 +27,4 @@ S’agissant de la boucle de rétroaction, les rapports visuels et les tableaux 
 
 Le deuxième cas d’utilisation consiste à traiter les événements de lecture et les données d’utilisation compréhensibles par un humain au moyen de rapports et de tableaux de bord.
 Nous pouvons utiliser ces données pour créer une carte de fréquentation (heatmap) d’une expérience interactive afin de déterminer le cheminement préféré dans notre application. Nous pouvons également choisir de créer un tableau de bord qui représente, sous forme graphique, le nombre de fois où les consommateurs interagissent avec notre application.
+
