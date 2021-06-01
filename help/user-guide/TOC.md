@@ -1,13 +1,14 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
-source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+feature-set: Experience Manager Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -103,7 +104,6 @@ ht-degree: 100%
    + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
    + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
    + [Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte](custom-branding-text-overlays.md)
-   + [Automatisation des mises à jour de canal à l’aide d’un workflow](automate-channel-updates-workflow.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
