@@ -12,13 +12,13 @@ discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
+
 
 # Création et gestion des projets {#creating-and-managing-projects}
 
@@ -85,3 +85,4 @@ Les étapes suivantes montrent comment créer un dossier d’applications dans l
 ### Étapes suivantes {#the-next-steps}
 
 Une fois que vous aurez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer le contenu de votre canal.
+
