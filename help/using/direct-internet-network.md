@@ -1,13 +1,13 @@
 ---
 title: Accès direct à Internet
 description: Accès direct à Internet
-exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
 
 ---
+
 
 # Réseau Internet direct (câblé/sans fil) {#direct-internet-access}
 
@@ -96,3 +96,4 @@ Le tableau suivant présente un aperçu des données clés relatives à la conne
 >Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/assets/download-times-direct.png)
+
