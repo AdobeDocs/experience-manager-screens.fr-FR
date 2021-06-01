@@ -6,13 +6,13 @@ seo-description: Consultez cette page pour obtenir des informations sur AEM Scr
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
 ---
+
 
 # Notes de mise à jour du Feature Pack 202001 {#release-notes-for-feature-pack}
 
