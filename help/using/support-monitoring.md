@@ -3,13 +3,13 @@ title: Suivi de l’assistance
 seo-title: Suivi de l’assistance pour AEM Screens
 description: Cette page décrit le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens
-exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 
 ---
+
 
 # Suivi de l’assistance {#support-monitoring}
 
@@ -46,3 +46,4 @@ Cette activité consiste à contrôler l’appareil physique si vous rencontrez 
    * Vérifiez que le *dispositif d’affichage* est allumé.
    * Vérifiez que l’*ordinateur* est allumé et envoie un signal.
    * Cliquez avec le bouton droit de la souris et examinez les *journaux appropriés*.
+
