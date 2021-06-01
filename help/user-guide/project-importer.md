@@ -13,13 +13,13 @@ docset: aem65
 feature: Administration d’AEM Screens
 role: Administrator
 level: Intermediate
-exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
 
 ---
+
 
 # Nouvel importateur de projet à partir d’un fichier {#new-project-importer-from-file}
 
@@ -80,6 +80,7 @@ La section suivante décrit l’utilisation de l’importateur de projets dans u
 >
 >* Les fichiers possédant une extension autre que CSV/XLS/XLSX ne sont pas pris en charge dans la version actuelle.
 >* Il n’existe aucun filtrage des propriétés pour les fichiers importés et tout élément commençant par &quot;./&quot; sera importé.
+
 >
 
 
@@ -125,3 +126,4 @@ Pour importer un fichier dans un dossier d’emplacements avec un minimum de cha
 1. Par conséquent, vous pourrez désormais afficher tous les emplacements importés dans votre projet.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+
