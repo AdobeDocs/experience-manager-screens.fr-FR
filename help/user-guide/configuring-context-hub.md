@@ -13,13 +13,13 @@ docset: aem65
 feature: Développement dans Screens
 role: Developer
 level: Intermediate
-exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 100%
 
 ---
+
 
 # Configuration de ContextHub dans AEM Screens {#configuring-contexthub-in-aem-screens}
 
@@ -92,7 +92,6 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
    1. **Accédez** à **ContextHubDemo** > **Créer** **Configuration ContentHub**, puis cliquez sur **Enregistrer**.
 
       >[!NOTE]
-      >
       > Après avoir cliqué sur **Enregistrer**, vous vous trouvez dans l’écran **Configuration ContextHub**.
 
    1. Dans l’écran **Configuration ContextHub**, cliquez sur **Créer** > **Configuration de magasin ContextHub**.
@@ -112,13 +111,13 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
       >1. Supprimez `cloudsettings` et enregistrez.
       >1. Renommez `cloudsettings1` en `cloudsettings` et enregistrez.
       >1. /conf/screens/settings/cloudsettings doit maintenant présenter `sling:Folder` comme `jcr:primaryType`.
+
       >
       >Vous devez suivre ces étapes dans l’instance de création et de publication avant ou après la mise à niveau.
 
    1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
 
       >[!CAUTION]
-      >
       >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le **Titre de configuration** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -126,7 +125,6 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
    1. Entrez votre configuration json spécifique. Vous pouvez par exemple utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer**. La configuration du magasin s’affichera avec le nom **Google Sheets** dans la configuration ContextHub.
 
       >[!IMPORTANT]
-      >
       >Veillez à remplacer le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
       ```
@@ -146,13 +144,11 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
       ```
 
       >[!NOTE]
-      >
-      >Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
-      >Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
+      Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
+      Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
       >[!CAUTION]
-      >
-      >Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
+      Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
 
 
 1. **Configuration de la segmentation du magasin**
@@ -164,8 +160,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
    1. Cliquez sur **Suivant**, puis sur **Enregistrer**.
 
       >[!NOTE]
-      >
-      >Vous devez ignorer le processus de définition du fichier json et le laisser vide.
+Vous devez ignorer le processus de définition du fichier json et le laisser vide.
 
 
 ## Étape 3 : configuration de segments dans les audiences {#setting-up-audience}
@@ -181,7 +176,6 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Sélectionnez le segment **Higherthan50**, puis cliquez sur **Propriétés** dans la barre d’actions.
-
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Sélectionnez l’onglet **Personnalisation** dans **Propriétés du segment**. Définissez le **Chemin d’accès ContextHub** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et le **Chemin d’accès aux segments** sur `/conf/screens/settings/wcm/segments`, puis cliquez sur **Enregistrer**, comme illustré dans la figure ci-dessous.
@@ -208,9 +202,7 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
 
       >[!CAUTION]
-      >
-      >Problème connu :
-
+      Problème connu :
 Pour ajouter une zone, supprimez le terme « master » de l’URL, par exemple
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -268,8 +260,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
 
       >[!NOTE]
-      >
-      >**googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne renseignée dans la feuille de calcul Google représentée dans la figure ci-dessous :
+**googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne renseignée dans la feuille de calcul Google représentée dans la figure ci-dessous :
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -278,8 +269,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
    1. Saisissez la **Valeur** **70**.
 
       >[!NOTE]
-      >
-      >AEM valide alors vos données dans la feuille de calcul Google en affichant votre segment en vert.
+      AEM valide alors vos données dans la feuille de calcul Google en affichant votre segment en vert.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    De même, modifiez les valeurs de propriété en indiquant **Lowerthan50**.
@@ -313,16 +303,14 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
    1. Cliquez sur **Enregistrer et fermer**.
 
       >[!NOTE]
-      >
-      >Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
+      Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Accédez au canal **TargetChannel** et sélectionnez-le, puis cliquez sur **Modifier** dans la barre d’actions.
 
       >[!NOTE]
-      >
-      >Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+      Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
