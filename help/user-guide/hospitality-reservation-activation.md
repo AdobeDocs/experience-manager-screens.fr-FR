@@ -13,13 +13,13 @@ docset: aem65
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
 ---
+
 
 # Activation de la réservation d’hébergements {#hospitality-reservation-activation}
 
@@ -86,4 +86,6 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
    1. Mettez à jour la valeur dans les colonnes **Restaurant1** et **Restaurant2**. Si **Restaurant1** > **Restaurant2,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
+
    ![result5](assets/result5.gif)
+
