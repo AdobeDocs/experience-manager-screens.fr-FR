@@ -7,13 +7,13 @@ contentOwner: Jyotika Syal
 feature: Développement dans Screens
 role: Developer
 level: Intermediate
-exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
+
 
 # Valorisation de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
@@ -131,3 +131,12 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Vous êtes maintenant prêt à actualiser votre marque et à appliquer votre style personnalisé pour les incrustations de texte ajoutées à vos ressources.
+
+
+
+
+
+
+
+
+
