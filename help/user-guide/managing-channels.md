@@ -6,13 +6,13 @@ seo-description: Lisez cette page pour en savoir plus sur la création et la ges
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
 
 ---
+
 
 # Création et gestion des canaux {#creating-and-managing-channels}
 
@@ -259,3 +259,4 @@ Consultez les ressources ci-après pour les étapes suivantes :
 * [Création et gestion des canaux](managing-channels.md)
 * [Création et gestion des emplacements](managing-locations.md)
 * [Création et gestion des affichages](managing-displays.md)
+
