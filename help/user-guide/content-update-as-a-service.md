@@ -8,13 +8,13 @@ contentOwner: Jyotika syal
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
 ---
+
 
 # Mise à jour de contenu en tant que service {#content-update-as-a-service}
 
@@ -74,3 +74,4 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    **Fréquence de planification** Indiquez une heure, par exemple, 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
 1. Cliquez sur **Enregistrer** pour enregistrer vos paramètres et votre contenu sera mis à jour au moment indiqué.
+
