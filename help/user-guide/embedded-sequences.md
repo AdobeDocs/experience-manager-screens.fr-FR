@@ -13,13 +13,13 @@ docset: aem65
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
 ---
+
 
 # Séquences incorporées {#embedded-sequences}
 
@@ -41,7 +41,6 @@ Vous avez la possibilité d’ajouter les composants suivants à votre canal de 
 Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence incorporée est un autre canal qui comprend des ressources telles que des images ou des vidéos. En ajoutant une séquence incorporée, l’utilisateur peut ajouter la séquence à un canal au niveau de ***Chemin du canal***.
 
 >[!NOTE]
->
 >***Chemin du canal*** définit une référence explicite au canal.
 >Pour en savoir plus sur *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans la section Création dans Screens.
 
@@ -68,12 +67,17 @@ Par défaut, elle est définie sur **normal**. La définition de la valeur sur *
 >1. Accédez à l’affichage et sélectionnez l’affichage dans le dossier **Locations** (Emplacements).
 >1. Cliquez sur **Tableau de bord** dans la barre d’actions pour accéder au tableau de bord de l’affichage.
 >1. Sélectionnez **+ Attribuer des canaux** dans les panneaux **CANAUX ET PLANIFICATIONS AFFECTÉS** pour ouvrir la **boîte de dialogue Attribution de canaux**.
->
->1. Sélectionnez le chemin du canal (utilisé dans la séquence incorporée) dans **Chemin du canal**.
+
+   >
+   >
+1. Sélectionnez le chemin du canal (utilisé dans la séquence incorporée) dans **Chemin du canal**.
 >1. Veillez à ce que la **priorité** soit inférieure au canal principal.
->
->1. Vous ne devez sélectionner aucun événement **pris en charge**.
+
+   >
+   >
+1. Vous ne devez sélectionner aucun événement **pris en charge**.
 >1. Cliquez sur **Enregistrer** une fois terminé.
+
 >
 
 
@@ -107,3 +111,4 @@ Suivez les étapes ci-dessous pour ajouter une séquence incorporée à votre ca
 1. Sélectionnez la **durée (ms)** dans l’onglet **Séquence** pour votre canal incorporé dans la séquence.
 
 ![dernier](assets/latest.gif)
+
