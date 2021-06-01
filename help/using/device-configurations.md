@@ -3,13 +3,13 @@ title: Spécifications de l’appareil
 seo-title: Spécifications de l’appareil
 description: Cette page décrit les spécifications de l’appareil
 seo-description: Cette page décrit les spécifications de l’appareil
-exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
 ---
+
 
 # Configurations d’appareils {#device-configurations}
 
