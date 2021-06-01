@@ -7,13 +7,13 @@ contentOwner: Jyotika Syal
 feature: Développement dans Screens
 role: Developer
 level: Intermediate
-exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
 ---
+
 
 # Création de modèles personnalisés pour des dispositions multizone {#creating-custom-templates-multizone}
 
@@ -174,3 +174,6 @@ Vous pouvez également suivre les étapes ci-dessous :
 Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml (étape 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+
