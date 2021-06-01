@@ -13,13 +13,13 @@ docset: aem65
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
 
 ---
+
 
 # Durée de lecture d’images en bloc d’un canal {#channel-level-bulk-image-playback-duration}
 
@@ -77,3 +77,4 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 Une fois que vous avez mis à jour la durée de lecture du canal (en l’occurrence, les trois images), vous constaterez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
 
 ![channel_preview](assets/channel_preview.gif)
+
