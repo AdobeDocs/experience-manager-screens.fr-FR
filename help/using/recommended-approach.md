@@ -3,13 +3,13 @@ title: Approche recommandée
 seo-title: Approche recommandée dans le cadre d’un projet AEM Screens
 description: Cette page décrit l’approche recommandée dans un projet AEM Screens
 seo-description: Cette page décrit l’approche recommandée dans un projet AEM Screens
-exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
 ---
+
 
 # Approche recommandée {#recommended-approach}
 
@@ -49,3 +49,4 @@ si la solution envisagée est ambitieuse, il est recommandé de diviser les livr
 * **Développement d’une feuille de route** : si votre client souhaite se doter d’un produit riche en fonctionnalités, proposez une « tranche » des fonctionnalités prévues en début de projet, puis planifiez le déploiement d’autres fonctionnalités pour les phases ultérieures. Proposer un premier livrable comportant de nombreuses fonctionnalités entraîne des risques accrus et est plus difficile à valider auprès du client.
 
 * **Présentation de l’étendue des intégrations personnalisées** : les composants interactifs avec interaction tactile, capteur de mouvement ou technologie RFID nécessitent un développement personnalisé important au niveau de la méthode d’implémentation. Un diaporama, une publicité vidéo ou un menu statique peut être diffusé sous la forme de contenu graphique ou HTML sur un canal Screens.
+
