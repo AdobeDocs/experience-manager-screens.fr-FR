@@ -13,13 +13,13 @@ docset: aem65
 feature: Présentation
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
+
 
 # Partie 4 : gestion de projet et déploiement {#part-project-management-and-deployment}
 
@@ -93,3 +93,4 @@ Suivez ce tutoriel pour découvrir les principes de la préparation du déploiem
 Une fois que vous aurez pris connaissance des principales considérations relatives à la gestion de projet pour les déploiements d’AEM Screens ;
 
 Accédez à la **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** pour comprendre l’assistance du jour 2 et les processus impliqués.
+
