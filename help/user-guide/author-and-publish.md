@@ -6,13 +6,13 @@ seo-description: L’architecture d’AEM Screens ressemble à l’architecture 
 feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 100%
 
 ---
+
 
 # Configuration de l’Auteur et de la Publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -307,3 +307,5 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un des canaux, un des emplacements, un des appareils, une des applications ou une des planifications. Pour en savoir plus sur cette fonction, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
+
+
