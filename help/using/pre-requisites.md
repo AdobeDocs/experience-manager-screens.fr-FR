@@ -3,13 +3,13 @@ title: Conditions préalables à l’utilisation d’[!UICONTROL AEM Screens]
 seo-title: Conditions préalables pour les projets [!UICONTROL AEM Screens]
 description: Ce guide décrit les conditions préalables au lancement d’un projet AEM Screens.
 seo-description: Ce guide décrit les conditions préalables au lancement d’un projet AEM Screens.
-exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%
 
 ---
+
 
 # Prérequis {#prerequisites}
 
