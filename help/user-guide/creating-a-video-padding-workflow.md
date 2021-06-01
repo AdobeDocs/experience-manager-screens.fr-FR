@@ -13,13 +13,13 @@ docset: aem65
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
+
 
 # Création d’un workflow de remplissage vidéo {#creating-a-video-padding-workflow}
 
@@ -121,3 +121,4 @@ Vous pouvez valider votre sortie en procédant comme suit :
 * Accédez au répertoire ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
+
