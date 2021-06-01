@@ -12,13 +12,13 @@ discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
 ---
+
 
 # Rendus vidéo {#video-renditions}
 
@@ -93,3 +93,4 @@ Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 1. Ouvrez le rail latéral **Rendus** ; vous remarquerez les nouveaux rendus Full HD.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
+
