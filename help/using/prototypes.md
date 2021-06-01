@@ -3,13 +3,13 @@ title: Prototypes
 seo-title: Prototypes
 description: Cette page décrit les prototypes d’un projet AEM Screens
 seo-description: Cette page décrit les prototypes d’un projet AEM Screens
-exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
 ---
+
 
 # Prototypage de l’expérience utilisateur {#prototypes}
 
