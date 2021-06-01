@@ -4,13 +4,13 @@ description: Cette page décrit l’installation et le fonctionnement du lecteur
 feature: Administration de Screens, lecteurs
 role: Administrator
 level: Intermediate
-exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
+
 
 # Implémentation du lecteur Tizen {#tizen-player}
 
@@ -130,3 +130,4 @@ Suivez les étapes ci-dessous pour enregistrer le périphérique Tizen auprès d
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Cliquez sur **Save** (Enregistrer) pour que les modifications s’affichent à l’écran.
+
