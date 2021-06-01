@@ -3,13 +3,13 @@ title: Rôles et responsabilités du projet AEM Screens
 seo-title: Rôles et responsabilités du projet AEM Screens
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
 seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
 ---
+
 
 # Rôles du projet et responsabilités {#roles-responsibilities}
 
