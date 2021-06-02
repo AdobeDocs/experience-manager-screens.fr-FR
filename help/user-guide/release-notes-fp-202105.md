@@ -4,10 +4,10 @@ description: '"Consultez cette page pour obtenir des informations sur AEM Screen
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 58%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,10 +36,8 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 3 juin 2021
 
    Génération plus rapide de manifeste de canal avec de meilleures performances, comme l’allocation de ressources moindres sur le serveur.
 
-
 ### Correctifs {#bug-fixes}
 
-* Amélioration des performances de génération de manifeste de canal.
 * Le lecteur affichait un écran noir lors du passage au canal contenant une séquence incorporée dynamique.
 * Les lecteurs Screens bloquent désormais le passage à un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
 
