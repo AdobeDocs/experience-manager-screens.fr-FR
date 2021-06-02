@@ -4,10 +4,10 @@ description: '"Consultez cette page pour obtenir des informations sur AEM Screen
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
+source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 62%
+source-wordcount: '291'
+ht-degree: 58%
 
 ---
 
@@ -31,6 +31,10 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 3 juin 2021
 * **Verrouillage d’une page dans un canal AEM Screens**
 
    AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, comme déjà implémenté dans AEM Sites. Adobe Experience Manager (AEM) vous permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cela s’avère utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant quelque temps.
+
+* **Génération de manifeste**
+
+   Génération plus rapide de manifeste de canal avec de meilleures performances, comme l’allocation de ressources moindres sur le serveur.
 
 
 ### Correctifs {#bug-fixes}
