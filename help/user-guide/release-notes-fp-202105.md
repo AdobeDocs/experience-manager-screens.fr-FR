@@ -4,10 +4,10 @@ description: '"Consultez cette page pour obtenir des informations sur AEM Screen
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 75%
+source-wordcount: '211'
+ht-degree: 69%
 
 ---
 
@@ -28,15 +28,13 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 1er juin 20
 
 ### Nouveautés {#what-is-new}
 
-* **Enregistrement automatique des lecteurs dans AEM Screens**
-
-   Le lecteur s’affiche en noir lors du passage au canal avec une séquence incorporée dynamique.
+* Verrouillage de la page
 
 ### Correctifs {#bug-fixes}
 
-* Le lecteur s’affiche en noir lors du passage au canal avec une séquence incorporée dynamique.
-
-
+* Le lecteur affichait un écran noir lors du passage au canal contenant une séquence incorporée dynamique.
+* Amélioration des performances de génération de manifeste de canal.
+* Les lecteurs Screens bloquent désormais le passage à un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
