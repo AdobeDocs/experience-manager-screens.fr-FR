@@ -13,10 +13,10 @@ docset: aem65
 feature: Administration de Screens, Android Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 100%
+source-wordcount: '1513'
+ht-degree: 95%
 
 ---
 
@@ -179,6 +179,15 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 ## Approvisionnement en bloc du lecteur Android à l’aide d’une solution Enterprise Mobility Management {#bulk-provisioning}
 
 Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Nous vous recommandons vivement d’utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
+
+## Dénomination du lecteur Android {#name-android}
+
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Android, mais également d’attribuer facilement le contenu approprié.
+
+Suivez les étapes ci-dessous pour configurer le nom dans le lecteur Android :
+
+1. Accédez à **settings** —> **À propos de l’appareil**
+1. Modifier et définir le nom de votre appareil pour nommer votre lecteur Android
 
 ### Mise en œuvre de l’approvisionnement en bloc du lecteur Android à l’aide d’une solution Enterprise Mobility Management {#implementation}
 
