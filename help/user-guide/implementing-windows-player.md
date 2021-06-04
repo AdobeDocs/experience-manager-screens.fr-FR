@@ -13,10 +13,10 @@ docset: aem65
 feature: Administration de Screens, Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '1074'
+ht-degree: 93%
 
 ---
 
@@ -69,6 +69,16 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 >Si le **Statut** est **ENREGISTRÉ**, vous remarquerez que le champ **ID de périphérique** est renseigné.
 >
 >Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer le périphérique.
+
+## Attribution de noms au lecteur Windows {#name-windows}
+
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement un contenu approprié.
+
+Pour configurer le nom dans le lecteur Windows, procédez comme suit :
+
+1. Cliquez sur **start** —> **run**
+1. Enter `system.cpl`
+1. Utilisez l’onglet Nom d’ordinateur pour définir le nom d’hôte de l’ordinateur.
 
 ## Modification des options par défaut dans Windows Installer {#changing-default-options}
 
