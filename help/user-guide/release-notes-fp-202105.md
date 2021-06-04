@@ -1,13 +1,13 @@
 ---
 title: 'Notes de mise à jour du Feature Pack 202105 '
-description: '"Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 1er juin 2021."'
+description: '"Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 4 juin 2021."'
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 43%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à par
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202105 d’AEM Screens est le 3 juin 2021.
+La date de publication du Feature Pack 202105 d’AEM Screens est le 4 juin 2021.
 
 ### Nouveautés {#what-is-new}
 
@@ -32,13 +32,25 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 3 juin 2021
 
    AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, comme déjà implémenté dans AEM Sites. Adobe Experience Manager (AEM) vous permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cela s’avère utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant quelque temps.
 
+* **Attribution d’un nom au périphérique du lecteur AEM Screens**
+
+   Les lecteurs AEM Screens incluent désormais la possibilité d’envoyer un nom de périphérique à Adobe Experience Manager (AEM).
+Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer un périphérique, un nom d’utilisateur généré par le système est saisi dans le champ du titre. Un client peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et plus facile d’attribuer le contenu approprié.
+
+   Reportez-vous à la documentation suivante pour savoir comment configurer le nom dans chaque système d’exploitation pris en charge :
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **Génération de manifeste**
 
    Génération plus rapide de manifeste de canal avec de meilleures performances, comme l’allocation de ressources moindres sur le serveur.
 
 ### Correctifs {#bug-fixes}
 
-* Le lecteur affichait un écran noir lors du passage au canal contenant une séquence incorporée dynamique.
+* Le lecteur affichait un écran noir lors du passage à un canal contenant une séquence incorporée dynamique.
 * Les lecteurs Screens bloquent désormais le passage à un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
