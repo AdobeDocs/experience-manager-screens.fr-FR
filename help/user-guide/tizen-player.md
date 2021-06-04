@@ -4,10 +4,10 @@ description: Cette page décrit l’installation et le fonctionnement du lecteur
 feature: Administration de Screens, lecteurs
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,15 @@ Suivez les étapes ci-dessous :
 1. Obtenez l’adresse IP ou l’URL de votre serveur HTTP local (et le chemin d’accès au dossier contenant les fichiers extraits à l’étape 2 s’ils sont extraits dans un sous-dossier et non dans le dossier racine).
 
 1. Le lecteur Tizen télécharge ensuite le programme d’installation à partir du serveur local.
+
+### Lecteur Tizen portant le nom {#name-tizen}
+
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Tizen, mais également d’attribuer facilement le contenu approprié.
+
+Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
+
+1. Cliquez sur le bouton de menu de votre télécommande.
+1. Accédez à **network** —> **Nom du périphérique** pour attribuer un nom au lecteur.
 
 ### Configuration des mises à jour sur le périphérique Samsung {#config-updates}
 
