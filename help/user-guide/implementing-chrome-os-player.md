@@ -12,10 +12,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administration d’AEM Screens
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 79%
 
 ---
 
@@ -35,6 +35,27 @@ Pour installer la console de gestion de Chrome, exécutez la procédure suivante
 >[!NOTE]
 >
 >Une solution de gestion des appareils, comme la console de gestion de Chrome, est recommandée pour le déploiement et la gestion des appareils Chrome OS. Même si ce document contient la mise en œuvre de la console de gestion de Chrome, d’autres fournisseurs proposent des fonctionnalités similaires. Contactez le fournisseur de votre logiciel de gestion d’appareils.
+
+## Nommage du lecteur Chrome OS {#name-chrome}
+
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Chrome, mais également d’attribuer facilement le contenu approprié.
+
+Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
+
+1. Vous pouvez éventuellement autoriser les intégrateurs AV ou les administrateurs informatiques à définir l’ID et l’emplacement de la ressource dans le cadre de l’inscription d’entreprise.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. Les options s’affichent lorsque vous pouvez inscrire le périphérique.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. Vous pouvez définir l’ID de ressource dans le cadre de l’inscription à l’entreprise, ainsi que dans la console de gestion de Chrome.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Les lecteurs Chrome doivent être inscrits dans l’inscription d’entreprise et le lecteur Chrome doit être déployé via la console de gestion de Chrome. Sinon, l’ID de ressource retournera vide (par exemple, Chrome en tant qu’extension). Le nom du périphérique n’est enregistré qu’au moment de l’enregistrement. Les modifications futures ne seront pas prises en compte par Adobe Experience Manager (AEM).
 
 ### Activation du mode kiosque {#enabling-kiosk-mode}
 
