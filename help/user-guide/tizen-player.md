@@ -4,10 +4,10 @@ description: Cette page décrit l’installation et le fonctionnement du lecteur
 feature: Administration de Screens, lecteurs
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 72%
+source-wordcount: '1208'
+ht-degree: 66%
 
 ---
 
@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous :
 
 1. Obtenez l’adresse IP ou l’URL de votre serveur HTTP local (et le chemin d’accès au dossier contenant les fichiers extraits à l’étape 2 s’ils sont extraits dans un sous-dossier et non dans le dossier racine).
 
-1. Le lecteur Tizen télécharge ensuite le programme d’installation à partir du serveur local.
+1. Le lecteur Tizen télécharge le programme d’installation à partir du serveur local.
 
 ### Lecteur Tizen portant le nom {#name-tizen}
 
@@ -74,7 +74,7 @@ Suivez les étapes ci-dessous sur le périphérique Samsung pour effectuer l’i
 
 >[!IMPORTANT]
 >**Cette section s’applique à Adobe Experience Manager (AEM) versions 6.5.5 à 6.5.7**
->Certains moteurs de navigation sont incompatibles avec l’attribut *SameSite=None* utilisé dans le jeton de connexion émis par AEM versions 6.5 à 6.7. Dans la plupart des cas, le problème peut être résolu en mettant à jour le navigateur vers la dernière version disponible. Dans certains cas, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans intelligents, des décodeurs ou d’autres périphériques avec des moteurs de navigation intégrés.
+>Certains moteurs de navigateur sont incompatibles avec l’attribut *SameSite=None* utilisé dans le jeton de connexion émis par AEM 6.5 à AEM 6.7. En règle générale, le problème peut être résolu en mettant à niveau le navigateur vers la dernière version disponible. Dans certains cas, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans intelligents, des décodeurs ou d’autres périphériques avec des moteurs de navigation intégrés.
 
 Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l’utilisation de l’attribut *SameSite=None* :
 
@@ -82,7 +82,7 @@ Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l�
 
 1. Une fois AEM redémarré, accédez à `/system/console/configMgr` et recherchez **Adobe Granite Token Authentication Handler**. Définissez la valeur **SameSite** sur **None**.
 
-1. Vous devriez voir une nouvelle option *Agents utilisateur à exempter de l’attribut samesite*. Renseignez ce champ avec une expression régulière correspondant aux agents utilisateur qui ne sont pas compatibles avec l’attribut *SameSite=None*.
+1. Vous devriez voir une nouvelle option *Agents utilisateur à exempter de l’attribut samesite*. Renseignez ce champ avec une expression régulière correspondant à l’agent utilisateur incompatible avec l’attribut *SameSite=None* .
    >[!NOTE]
    >Consultez [SameSite=None : clients incompatibles connus](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations. Pour le lecteur Tizen, utilisez l’expression régulière : `(.*)Tizen(.*)`.
 
