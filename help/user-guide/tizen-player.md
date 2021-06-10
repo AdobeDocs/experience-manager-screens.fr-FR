@@ -4,10 +4,10 @@ description: Cette page décrit l’installation et le fonctionnement du lecteur
 feature: Administration de Screens, lecteurs
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 73%
+source-wordcount: '1213'
+ht-degree: 72%
 
 ---
 
@@ -124,9 +124,9 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification de redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
-| enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à définir sur false, une fois qu’il est entièrement configuré et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
-| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à screens as a cloud service. false pour se connecter à AMS ou à l’AEM onPrem. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à Screens en tant que Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à l’AEM on-Prem. |
 | cloudToken | Jeton d’enregistrement à enregistrer auprès de Screens en tant que Cloud Service. |
 
 
