@@ -4,10 +4,10 @@ description: Cette page décrit l’installation et le fonctionnement du lecteur
 feature: Administration de Screens, lecteurs
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 92%
+source-wordcount: '1209'
+ht-degree: 73%
 
 ---
 
@@ -88,24 +88,49 @@ Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l�
 
 1. Enregistrez le lecteur Tizen dans votre instance AEM 6.5.5 ou ultérieure, il doit alors s’enregistrer et afficher le contenu normalement.
 
-## Approvisionnement en masse du lecteur Tizen {#bulk-provisioning-tizen-player}
+## Mise en service à distance du lecteur Tizen {#remote-provisioning}
+
+La mise en service à distance du lecteur Tizen vous permet de déployer des centaines et des milliers d’affichages Samsung Tizen sans effort. Cela évite les efforts manuels fastidieux pour configurer chaque lecteur avec l’URL du serveur et le code d’enregistrement en masse, ou d’autres paramètres, et dans le cas de Screens en tant que Cloud Service pour configurer le mode cloud et le jeton cloud.
+
+Cette fonctionnalité vous permet de configurer à distance le lecteur Tizen et de mettre à jour ces configurations de manière centralisée, si nécessaire. Tout ce dont vous avez besoin est le serveur `HTTP` utilisé pour héberger l’application Tizen `(wgt and xml file)` et un éditeur de texte pour enregistrer `config.json` avec les paramètres appropriés.
+
+Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur le périphérique Tizen, c’est-à-dire les paramètres Bouton d’accueil —> Lancement d’URL .
+Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.
+Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
+
+### Exemple de règle JSON {#example-json}
+
+```java
+{
+  "server":  "http://your-aem-instance.com:4502",
+  "registrationKey": "AdobeRocks!!",
+  "enableAdminUI": true,
+  "enableOSD": true,
+  "enableActivityUI": true
+}
+```
+
+### Attributs et objectif de la politique {#policy-attributes}
+
+Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 
 >[!NOTE]
->Il peut s’avérer fastidieux de saisir manuellement l’adresse de votre serveur AEM dans l’interface utilisateur d’administration de chaque périphérique pour un grand nombre de périphériques. Il est recommandé d’utiliser la solution Samsung Remote Management (RMS) pour déployer et gérer des solutions plus volumineuses. Pour plus d’informations, consultez [Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung](#enroll-tizen-device-rm).
+>Les configurations de stratégie sont strictement appliquées et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une règle particulière, ne spécifiez pas la règle lors de la configuration des règles, par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé `rebootSchedule` lors de la configuration des règles. Les configurations de stratégie sont lues chaque fois que le lecteur se recharge.
 
-Suivez les étapes ci-dessous pour approvisionner l’application en masse afin qu’elle pointe vers votre instance d’auteur AEM au lancement :
+| **Nom de la règle** | **Objectif** |
+|---|---|
+| server | URL du serveur Adobe Experience Manager (AEM). |
+| registrationKey | Utilisé pour l’enregistrement en masse des appareils à l’aide d’une clé pré-partagée. |
+| resolution | Résolution de l’appareil. |
+| rebootSchedule | Planification de redémarrage du lecteur. |
+| enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
+| enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à screens as a cloud service. false pour se connecter à AMS ou à l’AEM onPrem. |
+| cloudToken | Jeton d’enregistrement à enregistrer auprès de Screens en tant que Cloud Service. |
 
-1. Téléchargez et installez [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
-1. Ouvrez le fichier `wgt` à l’aide de Tizen Studio.
-1. Ouvrez le fichier `firmware-platform.js`, recherchez `DEFAULT_PREFERENCES` et remplacez l’URL du serveur par l’URL d’auteur AEM et enregistrez-la.
-1. Créez le fichier `wgt`.
 
-   >[!NOTE]
-   >Vous devrez peut-être créer ou configurer un certificat de signature.
-
-1. Déployez ce nouveau fichier `wgt` à l’aide de RMS ou du lanceur d’URL ; lorsque le lecteur est lancé, il doit automatiquement pointer vers votre serveur afin que vous n’ayez pas à le saisir manuellement pour chaque périphérique.
-
-### Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung {#enroll-tizen-device-rms}
+## Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung {#enroll-tizen-device-rms}
 
 Suivez les étapes ci-dessous pour enregistrer le périphérique Tizen auprès du Remote Management Service (RMS) Samsung et configurer à distance le lanceur d’URL :
 
