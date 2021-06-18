@@ -4,7 +4,7 @@ seo-title: Transition vers la plate-forme pour AEM Screens
 description: Cette page décrit la transition vers la plate-forme
 seo-description: Cette page décrit la transition vers la plate-forme
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Ces tâches consistent, par exemple, à déterminer comment et quand utiliser :
 * des **dossiers réseau** pour l’allocation de ressources ;
 * une **superposition de texte** pour les données en temps réel ;
 * des **planifications** pour les regroupements d’écrans/de canaux ;
-* des **workflows** pour les modifications de contenu automatisées.
+* des **processus** pour les modifications de contenu automatisées.
 
 Au cours de cette phase, il est important de passer en revue toutes les tâches et activités qui exigeront une attention particulière et de les documenter correctement afin que les tâches assignées puissent faire l’objet d’un suivi approprié lors de la phase de déploiement.
 
