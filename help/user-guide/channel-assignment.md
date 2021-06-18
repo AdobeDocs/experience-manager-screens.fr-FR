@@ -6,7 +6,7 @@ feature: Création dans Screens, affectation de canal
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -161,7 +161,7 @@ Vous allez créer des tranches horaires selon les mois, de sorte que le contenu 
 >
 >En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
 
-#### Diffusion de contenu pour les canaux ayant la même priorité  {#playing-content-for-channels-with-same-priority}
+#### Diffusion de contenu pour les canaux ayant la même priorité {#playing-content-for-channels-with-same-priority}
 
 Ces exemples présentent les tranches horaires d’un magasin qui affiche sa collection d’hiver avec la même planification pendant le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c’est son contenu qui est diffusé plutôt que celui du canal A.
 
