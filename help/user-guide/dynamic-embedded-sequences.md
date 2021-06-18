@@ -13,7 +13,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2537'
 ht-degree: 100%
 
@@ -92,6 +92,7 @@ Vous pouvez télécharger les ressources suivantes (images et les ajouter aux re
 >
 >* **[Création et gestion des projets](creating-a-screens-project.md)**
 >* **[Gestion d’un canal](managing-channels.md)**
+
 >
 
 
@@ -121,7 +122,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Pour savoir comment créer un emplacement, reportez-vous à **[Création et gestion des emplacements](managing-locations.md)**.
 
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
@@ -162,7 +162,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    De même, créez un affichage **AffichageMagasin2** et un canal **CanalMagasin2** sous **Magasin 2** (avec le nom **magasin**).
 
    >[!NOTE]
-   >
    >Veillez à utiliser le même nom pour les canaux créés dans **Magasin 1** et **Magasin 2**, à savoir **magasin**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -182,7 +181,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal.
 
    >[!NOTE]
-   >
    >Vous pouvez utiliser le fichier ***Resources.zip*** de la section **Ressources** ci-dessus pour utiliser les images comme ressources pour le contenu de votre canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -310,8 +308,7 @@ Les privilèges sont attribués à chaque groupe comme suit :
 #### Procédure de création de groupes d’utilisateurs, d’utilisateurs et de configuration des listes de contrôle d’accès {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->Pour savoir comment séparer les projets à l’aide de listes de contrôle d’accès afin que chaque personne ou équipe gère son propre projet, reportez-vous à la section **Configuration des listes de contrôle d’accès**.
+Pour savoir comment séparer les projets à l’aide de listes de contrôle d’accès afin que chaque personne ou équipe gère son propre projet, reportez-vous à la section **Configuration des listes de contrôle d’accès**.
 
 Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et modifier les listes de contrôle d’accès en fonction des autorisations :
 
@@ -338,8 +335,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    De même, créez deux autres utilisateurs, comme **Région-Utilisateur** et **Magasin-Utilisateur**, puis ajoutez-les à **Région-Auteur** et à **Magasin-Auteur** respectivement.
 
    >[!NOTE]
-   >
-   >Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.
+Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -398,7 +394,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    1. Accédez à ***/content/screens/demo/locations*** et cochez uniquement les autorisations de **Lecture**.
    1. Accédez à ***/content/screens/demo/channels*** et désélectionnez les autorisations pour le canal **Global**.
    1. Accédez à ***/content/screens/demo/locations/région-a*** et cochez uniquement les autorisations de **Lecture**. De même, cochez uniquement les autorisations de **Lecture** pour la **région-b**.
-   1. Accédez à ***/content/screens/demo/locations***/***/région-a /magasin-1*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **magasin-2,** magasin-3 et **magasin-4**.
+   1. Accédez à ***/content/screens/demo/locations***/***région-a /magasin-1*** et cochez toutes les autorisations. De même, vérifiez les autorisations pour **magasin-2,** magasin-3 et **magasin-4**.
 
    Veuillez consulter la figure ci-dessous pour comprendre les étapes :
 
@@ -409,6 +405,5 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    ![store](assets/store.gif)
 
 >[!NOTE]
->
->Pour plus d’informations sur la configuration des autorisations, reportez-vous à [Configuration des listes de contrôle d’accès](setting-up-acls.md).
+Pour plus d’informations sur la configuration des autorisations, reportez-vous à [Configuration des listes de contrôle d’accès](setting-up-acls.md).
 
