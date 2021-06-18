@@ -9,7 +9,7 @@ feature: Création dans Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -33,11 +33,11 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. L’assistant de **Gestion de publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant de **Gérer la publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Cochez la case pour sélectionner l’intégralité du projet dans l’assistant de **Gestion de publication**.
+1. Cochez la case pour sélectionner l’intégralité du projet dans l’assistant de **Gérer la publication**.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
@@ -57,15 +57,15 @@ Par exemple, l’image suivante vous permet de gérer et de mettre à jour uniqu
 
    Suivez les explications ci-dessous pour comprendre les options disponibles :
 
-   1. **Inclure uniquement les enfants directs** :
+   1. **Inclure seulement les enfants immédiats** :
 cette option vous permet de gérer les mises à jour uniquement sur les sous-nœuds de la structure de votre projet.
-   1. **Inclure uniquement les pages**modifiées :
+   1. **Inclure seulement les pages modifiées** :
 cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet où les modifications se trouvent dans la structure du projet.
-   1. **Inclure uniquement les pages déjà publiées** :
+   1. **Inclure seulement les pages déjà publiées** :
 cette option permet de gérer les mises à jour uniquement sur les pages qui ont déjà été publiées.
 
 
-1. Cliquez sur **Publier** dans l’assistant de **Gestion de publication.**
+1. Cliquez sur **Publier** dans l’assistant de **Gérer la publication.**
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -107,11 +107,11 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. L’assistant de **Gestion de publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant de **Gérer la publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Cliquez sur **Publier** dans l’assistant de **Gestion de publication.**
+1. Cliquez sur **Publier** dans l’assistant de **Gérer la publication.**
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
