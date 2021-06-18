@@ -14,7 +14,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1199'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ La page suivante décrit l’utilisation de la disposition multizone et aborde l
 
 * Présentation
 * Création d’une disposition multizone
-* Conditions préalables
+* Prérequis
 * Utilisation de ressources uniques dans une ou plusieurs zones
 * Utilisation de contenu séquentiel dans une ou plusieurs zones
 
