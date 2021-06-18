@@ -14,7 +14,7 @@ feature: Présentation
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -47,13 +47,13 @@ La section suivante contient une présentation des principaux termes utilisés d
 
 ### Preuve de concept (PDC) {#proof-of-concept-poc}
 
-L’objectif d’une PDC est d’obtenir un retour initial sur les principales fonctionnalités d’une solution et de permettre au client final et à l’intégrateur AV d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d&#39;œuvre et en ressources. Un document de synthèse permet également aux deux parties d’évaluer le rendement de la solution, qui se mesure généralement grâce aux éléments suivants :
+L’objectif d’une PDC est d’obtenir un retour initial sur les principales fonctionnalités d’une solution et de permettre au client final et à l’intégrateur AV d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d’œuvre et en ressources. Un document de synthèse permet également aux deux parties d’évaluer le rendement de la solution, qui se mesure généralement grâce aux éléments suivants :
 
 ### Contrôle de la qualité {#quality-control}
 
 Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur AV. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, implémente et supervise l’installation des composants matériels dans un « environnement de labo » dans les locaux de l’intégrateur AV. Cela permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
 
-Une fois les tests de CQ terminés, l&#39;équipe d&#39;ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’exploitation. Les aspects des systèmes à tester sont les suivants :
+Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’exploitation. Les aspects des systèmes à tester sont les suivants :
 
 * Intégrations des implémentateurs d’AEM
 * Intégrations de systèmes tiers
