@@ -5,7 +5,7 @@ feature: Création dans Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Le rapport d’affectation de contenu permet à un auteur ou à un administrateu
 Le rapport d’affectation de contenu permet non seulement la prévisualisation de tous les canaux, ressources, écrans et périphériques du projet AEM Screens sélectionné, mais il apporte également une structure de haut niveau pour votre projet.
 
 
-### Conditions préalables {#pre-reqs}
+### Prérequis {#pre-reqs}
 
 Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des périphériques.
 Pour plus d’informations, référez-vous aux ressources ci-dessous :
