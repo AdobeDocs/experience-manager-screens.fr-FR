@@ -14,7 +14,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ Le cas d’utilisation ci-dessous montre comment utiliser l’activation des ré
 
 Pour ce cas d’utilisation, la feuille de calcul Google est renseignée avec le pourcentage de réservation de deux restaurants : **Restaurant1** et **Restaurant2**. Une formule est appliquée en fonction des valeurs de Restaurant1 et Restaurant2 et selon la formule, la valeur 1 ou 2 est affectée à la colonne **AdTarget**.
 
-Si **Restaurant1** > **Restaurant2**, la valeur affectée à **AdTarget** est de **1**, sinon une valeur de **2** est affectée à **AdTarget**. La valeur 1 génère l’option *Steak food* et la valeur 2 fait apparaître l’option *Thai food* sur votre écran.
+Si **Restaurant1** > **Restaurant2**, la valeur affectée à **AdTarget** est de **1**, sinon une valeur de **2** est affectée à **AdTarget**. La valeur 1 génère l’option *Steak food* et la valeur 2 fait apparaître l’option *Thai food* sur votre écran.
 
-## Conditions préalables {#preconditions}
+## Prérequis {#preconditions}
 
 Avant de commencer à mettre en œuvre l’activation de la réservation, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation d’audience*** et l’***activation du ciblage pour les canaux*** dans un projet AEM Screens.
 
