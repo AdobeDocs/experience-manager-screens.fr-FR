@@ -1,5 +1,5 @@
 ---
-title: 'Notes de mise à jour du Feature Pack 202105 '
+title: Notes de mise à jour du Feature Pack 202105
 description: '"Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 4 juin 2021."'
 feature: Feature Pack
 role: Developer
@@ -18,7 +18,7 @@ ht-degree: 46%
 
 ## Disponibilité {#availability}
 
-AEM Screens inclus dans le Feature Pack 8 d’AEM 6.5.
+Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
 
 Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP8**.
 
