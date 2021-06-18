@@ -13,7 +13,7 @@ feature: Canaux, interactivité
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
    >
    >Avant de l’ajouter à un canal, veillez à laisser suffisamment de temps pour le transcodage de la vidéo (l’indicateur « Nouvelle » et non « Traitement en cours » doit s’afficher).
 
-### Vérification du profil avec un composant vidéo  {#checking-profile-with-a-video-component}
+### Vérification du profil avec un composant vidéo {#checking-profile-with-a-video-component}
 
 Consultez la liste des profils dans la conception des pages si le composant vidéo n’est pas configuré correctement.
 
@@ -92,9 +92,9 @@ Utilisez le **lecteur web** `http://localhost:4502/content/mobileapps/cq-screens
 
 Si la vidéo n’est pas lue sous Safari, elle ne fonctionnera pas dans les lecteurs OS X et iOS. Il s’agit probablement d’un problème d’encodage ; la vidéo doit être réencodée.
 
-Pour utiliser un workflow de gestion des actifs numériques (DAM) afin de créer des rendus Full HD, procédez comme suit :
+Pour utiliser un processus de gestion des actifs numériques (DAM) afin de créer des rendus Full HD, procédez comme suit :
 
-1. Accédez à l’*administration des modèles de workflow*, à savoir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Accédez à l’*administration des modèles de processus*, à savoir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. Sélectionnez le modèle **Screens – Mettre à jour la ressource**.
 1. Cliquez sur **Démarrer le processus** dans la barre d’actions pour ouvrir la boîte de dialogue **Exécuter le processus**.
 
