@@ -1,8 +1,8 @@
 ---
-title: Création d’un workflow de remplissage vidéo
-seo-title: Création d’un workflow de remplissage vidéo
-description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le workflow pour vos ressources.
-seo-description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le workflow pour vos ressources.
+title: Création d’un processus de remplissage vidéo
+seo-title: Création d’un processus de remplissage vidéo
+description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
+seo-description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -14,24 +14,24 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
 
-# Création d’un workflow de remplissage vidéo {#creating-a-video-padding-workflow}
+# Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow}
 
 Cette section couvre les sujets suivants :
 
 * **Présentation**
-* **Conditions préalables**
-* **Création d’un workflow de remplissage vidéo**
-   * **Création d’un workflow**
+* **Prérequis**
+* **Création d’un processus de remplissage vidéo**
+   * **Création d’un processus**
    * **Utilisation du workflow dans le projet AEM Screens**
 
-* **Validation de la sortie pour le workflow**
+* **Validation de la sortie pour le processus**
 
 ## Présentation {#overview}
 
@@ -41,31 +41,31 @@ La vidéo s’affichera sous la forme d’un objet de pixel 1 à pixel 1280 sur 
 
 ## Prérequis {#prerequisites}
 
-Avant de créer un workflow pour la vidéo, veuillez remplir les conditions préalables suivantes :
+Avant de créer un processus pour la vidéo, veuillez remplir les conditions préalables suivantes :
 
 1. Téléchargez une vidéo dans le dossier **Ressources** de votre instance AEM
 1. Créez un projet AEM Screens (par exemple, **TestVideoRendition**) et un canal nommé (**VideoRendering**), comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## Création d’un workflow de remplissage vidéo {#creating-a-video-padding-workflow-1}
+## Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow-1}
 
-Pour créer un workflow de remplissage vidéo, vous devez créer un workflow pour votre vidéo, puis l’utiliser dans le canal de votre projet AEM Screens.
+Pour créer un processus de remplissage vidéo, vous devez créer un processus pour votre vidéo, puis l’utiliser dans le canal de votre projet AEM Screens.
 
-Suivez les étapes ci-dessous pour créer et utiliser le workflow :
+Suivez les étapes ci-dessous pour créer et utiliser le processus :
 
-1. Création d’un workflow
-1. Utilisation du workflow dans un projet AEM Screens
+1. Création d’un processus
+1. Utilisation du processus dans un projet AEM Screens
 
-### Création d’un workflow {#creating-a-workflow}
+### Création d’un processus {#creating-a-workflow}
 
-Suivez les étapes ci-dessous pour créer un workflow pour votre vidéo :
+Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
 1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionnez **Processus** —> **Modèles** pour créer un nouveau modèle.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Cliquez sur **Modèles** —> **Créer** —> **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus**. Cliquez sur **Terminé** pour ajouter le modèle de workflow.
+1. Cliquez sur **Modèles** —> **Créer** —> **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus**. Cliquez sur **Terminé** pour ajouter le modèle de processus.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -73,7 +73,7 @@ Suivez les étapes ci-dessous pour créer un workflow pour votre vidéo :
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Faites glisser et déposez le composant **Ligne de commande** dans votre workflow.
+1. Faites glisser et déposez le composant **Ligne de commande** dans votre processus.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -83,13 +83,13 @@ Suivez les étapes ci-dessous pour créer un workflow pour votre vidéo :
 
 1. Sélectionnez l’onglet **Arguments** pour renseigner les champs dans la boîte de dialogue **Ligne de commande - Propriétés des étapes**.
 
-   Saisissez le format dans les **Types Mime** (***vidéo/mp4***) et la commande (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hd .mp4***) pour démarrer le workflow dans le champ **Commandes**.
+   Saisissez le format dans les **Types Mime** (***vidéo/mp4***) et la commande (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hd.mp4***) pour démarrer le processus dans le champ **Commandes**.
 
    Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Sélectionnez le workflow (**VideoRenditions**) et cliquez sur **Démarrer le processus** dans la barre d’actions pour ouvrir la boîte de dialogue **Exécuter le processus**.
+1. Sélectionnez le processus (**VideoRenditions**) et cliquez sur **Démarrer le processus** dans la barre d’actions pour ouvrir la boîte de dialogue **Exécuter le processus**.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
@@ -97,9 +97,9 @@ Suivez les étapes ci-dessous pour créer un workflow pour votre vidéo :
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### Utilisation du workflow dans un projet AEM Screens {#using-the-workflow-in-an-aem-screens-project}
+### Utilisation du processus dans un projet AEM Screens {#using-the-workflow-in-an-aem-screens-project}
 
-Suivez les étapes ci-dessous pour utiliser le workflow dans votre projet AEM Screens :
+Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM Screens :
 
 1. Accédez à un projet AEM Screens (**TestVideoRendition** —> **Canaux** —> **VideoRendition**).
 
@@ -113,7 +113,7 @@ Suivez les étapes ci-dessous pour utiliser le workflow dans votre projet AEM Sc
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Validation de la sortie pour le workflow {#validating-the-output-for-the-workflow}
+## Validation de la sortie pour le processus {#validating-the-output-for-the-workflow}
 
 Vous pouvez valider votre sortie en procédant comme suit :
 
