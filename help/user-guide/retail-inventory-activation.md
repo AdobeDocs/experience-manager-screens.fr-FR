@@ -14,7 +14,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Ce cas d’utilisation présente le stock de vente au détail de trois modèles 
 
 Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu apparaît à l’écran en fonction du plus grand nombre d’articles disponibles.
 
-## Conditions préalables {#preconditions}
+## Prérequis {#preconditions}
 
 Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
 
@@ -99,8 +99,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
+   Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
 
 1. **Ajout d’une image par défaut**
 
@@ -112,8 +111,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
+   Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
