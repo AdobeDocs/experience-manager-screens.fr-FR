@@ -13,7 +13,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
 1. Définissez les champs suivants pour configurer les paramètres d’e-mail :
 
-   **Chemin d&#39;accès aux périphériques** Saisissez le chemin d&#39;accès au(x) projet(s) Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
+   **Chemin d’accès aux périphériques** Saisissez le chemin d’accès au(x) projet(s) Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
 
    Par exemple, si votre projet est **We.Retail**, vous utiliserez le chemin du projet ***/home/users/screens/we-retail***.
 
@@ -66,7 +66,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
    **Fréquence de planification** Indiquez une heure (p. ex., 17 h ou 17 h) ou une fréquence en heures (p. ex., 1) à laquelle ce moniteur doit envoyer des e-mails.
 
-   **Délai d&#39;expiration du ping** Indique l’intervalle en minutes après lequel un périphérique doit être considéré comme inaccessible.
+   **Délai d’expiration du ping** Indique l’intervalle en minutes après lequel un périphérique doit être considéré comme inaccessible.
 
    **Serveur SMTP** Spécifie le serveur SMTP utilisé pour envoyer des e-mails.
 
@@ -76,9 +76,9 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
    Il est recommandé d’utiliser TLS pour établir une connexion sécurisée aux serveurs de messagerie d’entreprise. Vérifiez auprès de votre administrateur de messagerie les valeurs appropriées.
 
-   **nom d’utilisateur** Indiquez le nom d’utilisateur utilisé pour l’envoi des e-mails.
+   **Nom d’utilisateur** Indiquez le nom d’utilisateur utilisé pour l’envoi des e-mails.
 
-   **mot de passe** Indiquez le mot de passe utilisé pour l’envoi des courriers e-mails.
+   **Mot de passe** Indiquez le mot de passe utilisé pour l’envoi des courriers e-mails.
 
    **Destinataire** Indiquez l’adresse e-mail du destinataire.
 
@@ -98,7 +98,7 @@ Les e-mails ne sont envoyés que s’il existe au moins un périphérique qui n�
 
 ### Exemples de cas d’utilisation {#example-use-cases}
 
-L&#39;exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance par e-mail des périphériques Screens.
+L’exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance par e-mail des périphériques Screens.
 
 **Scénario 1** :
 
