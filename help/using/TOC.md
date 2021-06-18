@@ -8,7 +8,7 @@ feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
    + [Présentation d’AEM Screens](introduction.md)
    + [Rôles et responsabilités du projet](roles-responsibilities.md)
    + [Prérequis](pre-requisites.md)
-   + [Éléments clés d’un projet d’affichage numérique](getting-started-digital-signage.md)
+   + [Éléments clés d’un projet de signalétique numérique](getting-started-digital-signage.md)
    + [Approche recommandée](recommended-approach.md)
 + Exposé stratégique {#strategic-brief}
    + [Observations dans le cadre de la définition de la portée du projet](pre-sales-considerations.md)
@@ -36,7 +36,7 @@ ht-degree: 100%
    + [Transition vers la plate-forme](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Exposé sur le déploiement {#deployment-brief}
-   + [Configurations de plates-formes AEM](aem-platform-configurations.md)
+   + [Configurations d’AEM Platform](aem-platform-configurations.md)
    + [Taxonomie et mise en œuvre du projet](project-taxonomy-implementation.md)
    + Gestion du trafic réseau {#manage-network-traffic}
       + [Gestion du trafic réseau](/help/using/managing-network-traffic.md)
