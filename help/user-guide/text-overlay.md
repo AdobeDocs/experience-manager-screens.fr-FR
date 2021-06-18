@@ -14,7 +14,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Cette section explique uniquement comment utiliser et exploiter le composant pos
 
 La section ci-dessous décrit l’utilisation de la superposition de texte dans un projet AEM Screens.
 
-**Conditions préalables**
+**Prérequis**
 
 Avant de commencer à implémenter cette fonctionnalité, assurez-vous d’avoir configuré un projet, condition préalable pour commencer à implémenter la superposition de texte. Par exemple :
 
@@ -94,7 +94,7 @@ Vous pouvez ajouter du texte à la zone de texte et utiliser des styles typograp
 
 La section ci-après décrit l’utilisation des valeurs d’un magasin de données, par exemple, des feuilles de calcul Google Sheets dans le composant de superposition de texte.
 
-**Conditions préalables**
+**Prérequis**
 
 Vous devez définir des configurations ContextHub pour votre projet AEM Screens.
 
