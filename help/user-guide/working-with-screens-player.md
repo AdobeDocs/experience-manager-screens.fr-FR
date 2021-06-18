@@ -13,7 +13,7 @@ feature: Administration d’AEM Screens
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ Pour afficher le sélecteur de canal du lecteur, appuyez longuement sur l’angl
 >
 >(Voir *Modification des préférences à partir du lecteur Screens*, comme mentionné dans la section ci-dessous.)
 
-### Gestions des préférences à partir du lecteur AEM Screens  {#managing-preferences-from-the-aem-screens-player}
+### Gestions des préférences à partir du lecteur AEM Screens {#managing-preferences-from-the-aem-screens-player}
 
 Vous pouvez également modifier les paramètres de l’interface utilisateur d’administration et le sélecteur de canal à partir du lecteur.
 
