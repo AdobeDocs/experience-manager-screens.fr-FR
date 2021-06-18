@@ -14,7 +14,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Le cas d’utilisation suivant illustre l’utilisation de l’activation de la 
 
 Pour ce cas d’utilisation, si la valeur de votre feuille de calcul Google Sheets est inférieure à 50, une image avec des boissons chaudes apparaît, et si la valeur est supérieure ou égale à 50, une image avec des boissons fraîches apparaît. En cas de valeur différente ou d’absence de valeur, le lecteur affiche une image par défaut.
 
-## Conditions préalables {#preconditions}
+## Prérequis {#preconditions}
 
 Avant de commencer à mettre en œuvre l’activation de la température locale de l’agence de voyages, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
 
