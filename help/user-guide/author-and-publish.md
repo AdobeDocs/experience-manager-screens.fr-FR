@@ -7,7 +7,7 @@ feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ Configurez la détection Apache Sling basée sur Oak pour toutes les instances d
 
 Pour chaque instance de publication :
 
-1. Accédez à `https://<host>:<port>/system/console/configMgr`. 
+1. Accédez à `https://<host>:<port>/system/console/configMgr`.
 1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak**.
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://localhost:4503/libs/sling/topology/connector`
@@ -207,7 +207,7 @@ Une fois que vous aurez configuré la stratégie de publication, vous devez conf
 
 >[!NOTE]
 >
->**Conditions préalables**
+>**Prérequis**
 >
 >Pour commencer avec cet exemple, créez un projet AEM Screens, puis créez un emplacement, un affichage et un canal dans votre projet. Ajoutez du contenu à votre canal et affectez-le à un affichage.
 
