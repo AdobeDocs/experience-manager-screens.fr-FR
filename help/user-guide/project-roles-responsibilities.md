@@ -6,7 +6,7 @@ feature: Présentation
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Trois groupes principaux sont impliqués dans le cadre du processus d’exécuti
 
 ## Résumé des rôles impliqués dans un projet de signalisation numérique {#summary-of-roles-involved-in-a-digital-signage-project}
 
-La définition des paramètres de cas d’utilisation de l’application, en partenariat avec Adobe, l’implémentateur AEM et l’intégrateur audiovisuel déterminera le champ d’application du développement logiciel. Cela permet d&#39;établir une approche échelonnée qui s&#39;appuie sur des références de rendement et des mesures de réussite identifiées tout au long du projet.
+La définition des paramètres de cas d’utilisation de l’application, en partenariat avec Adobe, l’implémentateur AEM et l’intégrateur audiovisuel déterminera le champ d’application du développement logiciel. Cela permet d’établir une approche échelonnée qui s’appuie sur des références de rendement et des mesures de réussite identifiées tout au long du projet.
 
 ### Adobe {#adobe}
 
