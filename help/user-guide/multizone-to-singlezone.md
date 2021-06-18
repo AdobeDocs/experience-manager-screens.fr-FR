@@ -7,7 +7,7 @@ feature: Création dans Screens
 role: Developer, Business Practitioner
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la configuration d’un canal de disposition multizone qui alterne avec un canal de disposition à zone unique. Le canal multizone comporte des fichiers image/vidéo de séquencement et indique comment configurer un projet qui alterne entre multizone et zone unique.
 
-### Conditions préalables {#preconditions}
+### Prérequis {#preconditions}
 
 Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
