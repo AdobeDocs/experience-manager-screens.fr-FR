@@ -9,7 +9,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Pour ajouter un composant de transition à votre projet AEM Screens, procédez 
 
 >[!NOTE]
 >
->**Conditions préalables**
+>**Prérequis**
 >
 >Créez un projet AEM Screens **TestProject** avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour visualiser la sortie.
 
