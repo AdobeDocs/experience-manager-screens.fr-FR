@@ -8,7 +8,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La page suivante présente un cas d’utilisation qui met l’accent sur la conf
 Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu’une fois et pour une durée spécifique.
 Par exemple, il existe un canal de prise de contrôle unique lu le vendredi de 9h00 à 10h00. Pendant ce temps, aucun autre canal ne doit être lu. Avant et après cette période, le canal de prise de contrôle à usage unique n’est pas lu. L’exemple suivant présente la création d’un canal de prise de contrôle unique qui permet au contenu d’être lu pendant 2 minutes avant 12h00 le 31 décembre jusqu’à 12h01.
 
-### Conditions préalables {#preconditions}
+### Prérequis {#preconditions}
 
 Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
