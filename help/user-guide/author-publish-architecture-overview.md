@@ -13,7 +13,7 @@ feature: Administration d’AEM Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Les périphériques envoient un ping à l’équilibreur de charge et sont rout�
 
 L’instance de création interroge toutes les instances de publication et fusionne les réponses d’état du périphérique en un seul état. La tâche planifiée qui interroge l’auteur est `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` et peut être configurée en se basant sur une expression cron.
 
-## L’enregistrement {#registration}
+## Enregistrement {#registration}
 
 L’enregistrement continue d’être généré sur l’instance de création AEM. Le périphérique d’AEM Screens pointe vers l’instance de création et l’enregistrement est terminé.
 
