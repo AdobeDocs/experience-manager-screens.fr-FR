@@ -14,7 +14,7 @@ feature: Présentation
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ Cette page présente la dernière partie qui conclut une série en 5 parties co
 >
 >* Déploiement du projet sur le terrain
 >* Vérification de la connectivité des périphériques et du fonctionnement entre le technicien chargé de l’installation et le centre d’exploitation de réseau
+
 >
->Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
+>
+Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
 
 La planification comprend :
 
@@ -47,7 +49,7 @@ La planification comprend :
 
 Voici quelques points essentiels à prendre en compte pour l’assistance du Jour 2 :
 
-* Pour garantir l’harmonisation et une transition en douceur de la mise en œuvre à l’assistance opérationnelle, l’implémentateur AEM doit travailler avec l’intégrateur AV pour veiller à ce que des scripts d’assistance appropriés soient définis dans le plan d&#39;assistance du Jour 2.
+* Pour garantir l’harmonisation et une transition en douceur de la mise en œuvre à l’assistance opérationnelle, l’implémentateur AEM doit travailler avec l’intégrateur AV pour veiller à ce que des scripts d’assistance appropriés soient définis dans le plan d’assistance du Jour 2.
 * Des exigences telles que la gestion à distance des périphériques, la disponibilité du service d’assistance et le support technique sur site sont quasiment universelles à ce stade de l’évolution du secteur de la signalisation numérique. Au-delà de ces besoins de base, les intégrateurs AV doivent également explorer les variables de coût entre les modèles de surveillance et de d’assistance proactifs et réactifs.
 
 * Des exigences telles que la gestion à distance des périphériques, la disponibilité du service d’assistance et le support technique sur site sont quasiment universelles à ce stade de l’évolution du secteur de la signalisation numérique. Au-delà de ces besoins de base, les intégrateurs AV doivent également explorer les variables de coût entre les modèles de surveillance et de d’assistance proactifs et réactifs.
