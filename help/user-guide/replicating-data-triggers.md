@@ -7,7 +7,7 @@ feature: Administration de Screens, déclencheur de données
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
 ht-degree: 100%
 
