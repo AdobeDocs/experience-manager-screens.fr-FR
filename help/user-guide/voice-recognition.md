@@ -5,7 +5,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Procédez comme suit pour ajouter des balises à votre canal :
 
    ![image](assets/voice-recognition/vr-5.png)
 
-1. Accédez à l’onglet **De base** et sélectionnez une balise existante dans le champ **Balises**, ou créez-en une.
+1. Accédez à l’onglet **Concepts de base** et sélectionnez une balise existante dans le champ **Balises**, ou créez-en une.
 
    Vous pouvez créer une balise en lui donnant un nouveau nom et appuyer sur la touche `return`, comme illustré dans la figure ci-dessous :
 
@@ -152,8 +152,8 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
    |---|---|---|
    | Principal | 2 | Charge initiale, écran inactif, minuteur |
    | HotDrinks | 1 | Interaction de l’utilisateur |
-   | ColdDrinks | 3 | Interaction de l’utilisateur |
-   | SplitScreen | 3 | Interaction de l’utilisateur |
+   | ColdDrinks | 1 | Interaction de l’utilisateur |
+   | SplitScreen | 1 | Interaction de l’utilisateur |
 
    >[!NOTE]
    >
@@ -161,7 +161,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
 
 1. Une fois que vous avez attribué des canaux à un affichage, accédez au **LobbyDisplay** et sélectionnez l’affichage. Sélectionnez **Propriétés** dans la barre d’actions.
 
-1. Accédez à l’onglet **Affichage** et activez l’option **Reconnaissance vocale activée** dans **Contenu**.
+1. Accédez à l’onglet **Affichage** et activez l’option **Voix activée** dans **Contenu**.
 
    ![image](assets/voice-recognition/vr-disp.png)
 
