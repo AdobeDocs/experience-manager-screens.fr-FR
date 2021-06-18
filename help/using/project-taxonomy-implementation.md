@@ -4,7 +4,7 @@ seo-title: 'Taxonomie du projet '
 description: Cette page décrit la taxonomie du projet
 seo-description: Cette page décrit la taxonomie du projet
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Veuillez tenir compte des éléments suivants avant de mettre en œuvre votre so
 * **Planification**
 * **Aperçu du contenu**
 
-Pour en savoir plus sur ces termes, consultez le [Glossaire](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Pour en savoir plus sur ces termes, consultez le [Glossaire](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Un auteur AEM Screens est chargé de créer et de gérer une expérience utilisa
 
 L’auteur commence généralement un projet AEM Screens en :
 
-* [créant un projet AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html) ;
+* [créant un projet AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/creating-a-screens-project.html) ;
 * [créant des canaux](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/managing-channels.html) ;
 * [ajoutant des composants et des ressources au canal](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/adding-components-to-a-channel.html) ;
 * [créant des planifications](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/managing-schedules.html) ;
