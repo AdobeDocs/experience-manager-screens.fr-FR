@@ -14,7 +14,7 @@ feature: Création dans Screens, lancements
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1619'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Grâce au ***lancement Screens***, les auteurs peuvent prévisualiser chaque can
 
 Par exemple, si l’auteur souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 heures). Toute mise à jour ultérieure du contenu est envoyée pour révision.
 
-Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
+Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
 
 ## Conditions requises {#requirements}
 
@@ -139,7 +139,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité de lancem
 
    * **Convertir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
    * **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise.
-   * **Convertir les pages approuvées** : cette option nécessite que le workflow d’approbation du lancement s’exécute sur les canaux de lancement. Seules les pages approuvées seront promues à la date d’activation définie.
+   * **Convertir les pages approuvées** : cette option nécessite que le processus d’approbation du lancement s’exécute sur les canaux de lancement.. Seules les pages approuvées seront promues à la date d’activation définie.
 
       >[!CAUTION]
       >
@@ -195,8 +195,8 @@ Vous pouvez choisir les ressources que vous souhaitez promouvoir manuellement da
 1. Vous pouvez définir la **portée** du lancement avec les options suivantes :
    1. **Convertir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
    1. **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise.
-   1. **Convertir les pages approuvées** : cette option nécessite que le workflow d’approbation du lancement s’exécute sur les canaux de lancement. Seules les pages approuvées seront promues à la date d’activation définie.
-   1. **Convertir la page active** : cette option nécessite que le workflow d’approbation du lancement s’exécute uniquement pour la page active.
+   1. **Convertir les pages approuvées** : cette option nécessite que le processus d’approbation du lancement s’exécute sur les canaux de lancement.. Seules les pages approuvées seront promues à la date d’activation définie.
+   1. **Convertir la page active** : cette option nécessite que le processus d’approbation du lancement s’exécute uniquement pour la page active.
 1. Cliquez sur **Suivant** dans l’assistant **Promotion du lancement**.
 1. Cliquez sur **Promouvoir** pour promouvoir le lancement.
 
