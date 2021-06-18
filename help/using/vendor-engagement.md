@@ -4,7 +4,7 @@ seo-title: Engagement du fournisseur pour AEM Screens
 description: Cette page décrit l’engagement du fournisseur dans le cadre du guide des bonnes pratiques d’AEM Screens
 seo-description: Cette page décrit l’engagement du fournisseur dans le cadre du guide des bonnes pratiques d’AEM Screens
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
