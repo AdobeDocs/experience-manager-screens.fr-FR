@@ -14,7 +14,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Le lecteur passe sur un canal qui présente les informations d’urgence sur ré
 
 Consultez le cas d’utilisation [Canal d’urgence](emergency-channel.md) pour la mise en œuvre.
 
-* **Ciblage activé pour les composants asynchrones
+* Ciblage activé pour les composants asynchrones
 
 Le ciblage peut désormais être activé pour les ressources utilisées dans le projet AEM Screens.
 
