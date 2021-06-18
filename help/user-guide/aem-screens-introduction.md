@@ -1,12 +1,12 @@
 ---
-title: 'Qu’est-ce qu’AEM Screens ? '
-seo-title: 'Qu’est-ce qu’AEM Screens ? '
+title: Qu’est-ce qu’AEM Screens ?
+seo-title: Qu’est-ce qu’AEM Screens ?
 description: '« AEM Screens : solution de signalétique numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive. »'
 feature: Présentation, signalétique numérique
 role: Business Practitioner
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ Devenez opérationnel avec une expérience de signalisation numérique simple, g
 
 ## Présentation {#overview}
 
-**AEM Screens** s’appuie sur les bases solides d’***AEM Sites*** et permet aux spécialistes du marketing et aux informaticiens de créer et de gérer des expériences sur différents écrans numériques, qui ont un impact sur les objectifs en magasin/sur site pour établir la marque et susciter la demande. L’intégration d’AEM Screens à AEM Sites permet de réutiliser des contenus existants et d’offrir efficacement une solution client cohérente et uniforme. Cette intégration fournit un workflow rationalisé permettant de créer des expériences numériques dédiées, qui sont très rentables et utilisables. Cela permet d’influencer la perception de la marque et les décisions conduisant à l’augmentation des achats et de l’engagement.
+**AEM Screens** s’appuie sur les bases solides d’***AEM Sites*** et permet aux spécialistes du marketing et aux informaticiens de créer et de gérer des expériences sur différents écrans numériques, qui ont un impact sur les objectifs en magasin/sur site pour établir la marque et susciter la demande. L’intégration d’AEM Screens à AEM Sites permet de réutiliser des contenus existants et d’offrir efficacement une solution client cohérente et uniforme. Cette intégration fournit un processus rationalisé permettant de créer des expériences numériques dédiées, qui sont très rentables et utilisables. Cela permet d’influencer la perception de la marque et les décisions conduisant à l’augmentation des achats et de l’engagement.
 
-AEM Screens est une solution web puissante, qui permet de créer des tableaux de menus numériques dédiés, des recommandations de produits, des images de fond valorisant un style de vie, afin de renforcer l’interaction des clients et de proposer des expériences de marque uniformisées et utiles dans des endroits comme des magasins, des hôtels, des banques, des établissements de santé et de formation, et bien d’autres, à partir de la même plateforme AEM. Screens met à disposition de nombreuses applications uniques, comme des affichages interactifs, des composants d’orientation ou de marque et l’ajout d’une ambiance à votre environnement pour des clients et des employés en fonction du domaine dans lequel elles sont déployées.
+AEM Screens est une solution web puissante, qui permet de créer des tableaux de menus numériques dédiés, des recommandations de produits, des images de fond valorisant un style de vie, afin de renforcer l’interaction des clients et de proposer des expériences de marque uniformisées et utiles dans des endroits comme des magasins, des hôtels, des banques, des établissements de santé et de formation, et bien d’autres, à partir de la même AEM Platform. Screens met à disposition de nombreuses applications uniques, comme des affichages interactifs, des composants d’orientation ou de marque et l’ajout d’une ambiance à votre environnement pour des clients et des employés en fonction du domaine dans lequel elles sont déployées.
 
 Avec AEM Screens, la création et la gestion d’une application sont simples et intuitives. Une *application* héberge des pages web créées pour AEM Screens par des clients ou des partenaires de mise en œuvre. Les *emplacements* gèrent une hiérarchie prédéfinie et contiennent des *affichages*. Chaque affichage comprend un tableau de bord, auquel sont associés différents périphériques et écrans. Le contenu d’AEM Screens est géré dans des *canaux*. Le lecteur AEM Screens effectue le rendu du contenu figurant dans les canaux sur des dispositifs d’affichage.
 
@@ -60,7 +60,7 @@ Les illustrations ci-dessous définissent les intervenants et leur rôle dans le
 
 * **Guide des bonnes pratiques pour les projets AEM Screens**
 
-   Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations de plates-formes AEM, ainsi que l’assistance et la surveillance.
+   Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations d’AEM Platform, ainsi que l’assistance et la surveillance.
 
 * **Nouvelle expérience du service clientèle Adobe**
 
