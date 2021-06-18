@@ -7,7 +7,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## Disponibilité {#availability}
 
-AEM Screens a publié AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4.
+AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4 ont été publiés pour AEM Screens.
 
 Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou 6.5.4 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
