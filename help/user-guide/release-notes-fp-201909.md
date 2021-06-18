@@ -7,7 +7,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ La date de publication d’AEM Screens Feature Pack 201909 est le lundi 7 oct
 
    La tableau de bord du périphérique affiche les informations relatives à le périphérique, son statut, une capture d’écran, les journaux, les préférences, ainsi que les détails nécessaires pour surveiller les activités et les fonctions du périphérique. Les panneaux ont été mis à jour.
 
-   Pour plus d&#39;informations, consultez [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md).
+   Pour plus d’informations, consultez [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md).
 
 * **Activation du délai d’expiration pour autoriser l’interaction clavier**
 
