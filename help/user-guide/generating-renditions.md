@@ -13,7 +13,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 # Rendus vidéo {#video-renditions}
 
-Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le workflow à suivre pour ajouter des rendus à vos ressources.
+Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le processus à suivre pour ajouter des rendus à vos ressources.
 
-## Génération automatique de rendus Full HD  {#automatically-generating-full-hd-renditions}
+## Génération automatique de rendus Full HD {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -34,9 +34,9 @@ Vous pouvez générer des rendus Full HD automatiques et manuels. La section su
 
 Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Workflow**.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Processus**.
 
-   Cliquez sur **Modèles** pour accéder à la gestion des modèles de workflow.
+   Cliquez sur **Modèles** pour accéder à la gestion des modèles de processus.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
@@ -72,9 +72,9 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
 Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Workflow**.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Processus**.
 
-   Cliquez sur **Modèles** pour accéder à la gestion des modèles de workflow.
+   Cliquez sur **Modèles** pour accéder à la gestion des modèles de processus.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
