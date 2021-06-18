@@ -4,14 +4,14 @@ seo-title: Principes de base de la signalétique digitale pour [!UICONTROL AEM S
 description: Ce guide décrit les principes de base d’un projet de signalétique digitale
 seo-description: Ce guide décrit les principes de base d’un projet de signalétique digitale
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
 
-# Principes de base d’un projet de signalétique digitale{#basics-digital-signage}
+# Principes de base d’un projet de signalétique digitale {#basics-digital-signage}
 
 Avant de passer aux meilleures pratiques de mise en œuvre d’AEM Screens, il convient de considérer le projet comme un projet de signalétique digitale, plutôt que comme un projet de développement logiciel traditionnel.
 
@@ -19,7 +19,7 @@ Cette section fournit des recommandations sur les éléments qui sont essentiels
 
 ## Éléments clés d’un projet de signalétique digitale {#key-elements}
 
-Les *éléments clés* d’un projet de signalétique digitale sont les suivants  :
+Les *éléments clés* d’un projet de signalétique numérique sont les suivants :
 
 ![](/help/assets/Elements-Revised.png)
 
