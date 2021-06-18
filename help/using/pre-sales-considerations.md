@@ -1,17 +1,17 @@
 ---
-title: Observations dans le cadre de la définition du champ d’application du projet
-seo-title: Observations dans le cadre de la définition du champ d’application du projet
+title: Observations dans le cadre de la définition de la portée du projet
+seo-title: Observations dans le cadre de la définition de la portée du projet
 description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
 seo-description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
 ht-degree: 100%
 
 ---
 
 
-# Observations dans le cadre de la définition du champ d’application du projet {#pre-sales-considerations}
+# Observations dans le cadre de la définition de la portée du projet {#pre-sales-considerations}
 
 >[!NOTE]
 >Cette activité est généralement réalisée par un stratège opérationnel/marketing.
