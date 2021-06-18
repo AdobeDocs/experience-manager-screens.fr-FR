@@ -7,7 +7,7 @@ feature: Administration d’AEM Screens
 role: Developer, Business Practitioner
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ La page suivante décrit les instructions de configuration du Dispatcher pour un
 >
 >En l’absence de Dispatcher, désactivez la servlet d’enregistrement dans la liste des composants OSGi.
 
-## Conditions préalables {#pre-requisites}
+## Prérequis {#pre-requisites}
 
 Avant de configurer le Dispatcher pour un projet AEM Screens, vous devez connaître le Dispatcher au préalable.
 
