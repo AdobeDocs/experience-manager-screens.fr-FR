@@ -13,7 +13,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Cette section décrit un cas d’utilisation axé sur la création et la gestion d’un canal d’urgence vers lequel l’auteur du contenu peut basculer depuis un canal de séquence dans certaines circonstances.
 
-### Conditions préalables {#preconditions}
+### Prérequis {#preconditions}
 
 Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 
