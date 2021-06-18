@@ -13,7 +13,7 @@ feature: Développement dans Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Pour garantir une création correcte, les composants doivent fournir les deux re
 
 Les composants intégrés tirent parti des catégories de bibliothèques clientes suivantes :
 
-| **Composant** | **Bibliothèque cliente** |
+| **Component** | **Bibliothèque cliente** |
 |---|---|
 | *cq.screens.components.edit* | CSS et JS devant être chargés lors de la création |
 | *cq.screens.components.production* | CSS et JS devant être chargés lorsque le canal est en cours d’exécution |
