@@ -4,7 +4,7 @@ seo-title: Approche recommandée dans le cadre d’un projet AEM Screens
 description: Cette page décrit l’approche recommandée dans un projet AEM Screens
 seo-description: Cette page décrit l’approche recommandée dans un projet AEM Screens
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -43,8 +43,8 @@ si la solution envisagée est ambitieuse, il est recommandé de diviser les livr
    >
    > Commencez à collecter des données d’analyse pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
 
-* **Diviser les livrables en tâches mesurables** : 
- scinder la diffusion des fonctionnalités en tâches mesurables permettra de recueillir des commentaires en temps opportun, de proposer des objectifs plus réalisables et de réduire les risques globaux du projet.
+* **Diviser les livrables en tâches mesurables** :
+scinder la diffusion des fonctionnalités en tâches mesurables permettra de recueillir des commentaires en temps opportun, de proposer des objectifs plus réalisables et de réduire les risques globaux du projet.
 
 * **Développement d’une feuille de route** : si votre client souhaite se doter d’un produit riche en fonctionnalités, proposez une « tranche » des fonctionnalités prévues en début de projet, puis planifiez le déploiement d’autres fonctionnalités pour les phases ultérieures. Proposer un premier livrable comportant de nombreuses fonctionnalités entraîne des risques accrus et est plus difficile à valider auprès du client.
 
