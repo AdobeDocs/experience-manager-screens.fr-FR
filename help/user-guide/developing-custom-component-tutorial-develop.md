@@ -13,7 +13,7 @@ feature: Développement dans Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce 
 
 ## Prérequis {#prerequisites}
 
-Pour terminer ce tutoriel, vous devez :
+Pour suivre ce tutoriel, vous avez besoin de :
 
 1. [AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes.html) + dernier Feature Pack Screens
 
@@ -409,7 +409,7 @@ Une page de conception d’exécution We.Retail est créée ci-dessous pour stoc
 
 Le composant Hello World est destiné à être utilisé dans un canal de séquence. Pour tester le composant, un nouveau canal de séquence est créé.
 
-1. Dans le menu Démarrer d’AEM, accédez à **Screens** > **We.Retail.Ru** n > et sélectionnez **Canaux**.
+1. Dans le menu Démarrer d’AEM, accédez à **Screens** > **We.Retail.Run** > et sélectionnez **Canaux**.
 
 1. Cliquez sur le bouton **Créer**
 
