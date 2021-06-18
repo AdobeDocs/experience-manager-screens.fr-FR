@@ -4,7 +4,7 @@ seo-title: Guide des bonnes pratiques pour les projets [!UICONTROL AEM Screens]
 description: Cette page est une section de présentation d’AEM Screens
 seo-description: Cette page vous invite à découvrir AEM Screens
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -34,9 +34,9 @@ Avec AEM Screens, la création et la gestion d’un réseau de signalétique dig
 
 >[!NOTE]
 >
->Pour en savoir plus sur les différentes fonctionnalités relatives à la gestion et au développement de projets AEM Screens, consultez le **[Guide de l’utilisateur d’AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/user-guide.html)**.
+>Pour en savoir plus sur les différentes fonctionnalités relatives à la gestion et au développement de projets AEM Screens, consultez le **[Guide de l’utilisateur d’AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=fr)**.
 
-## Positionnement d’AEM Screens par rapport à AEM Sites{#aem-sites-screens}
+## Positionnement d’AEM Screens par rapport à AEM Sites {#aem-sites-screens}
 
 >[!NOTE]
 >
