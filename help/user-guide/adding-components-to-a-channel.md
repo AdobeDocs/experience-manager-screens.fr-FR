@@ -14,7 +14,7 @@ feature: Création dans Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1466'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Les composants sont des éléments fondamentaux de l’expérience AEM (Adobe 
 
 AEM Screens fournit différents composants AEM qui peuvent être utilisés dans un projet Screens.
 
-### Affichage des composants AEM Screens  {#viewing-aem-screens-components}
+### Affichage des composants AEM Screens {#viewing-aem-screens-components}
 
 Lorsque vous créez un projet AEM Screens, vous pouvez voir la liste des composants par défaut qui peuvent être ajoutés au projet.
 
@@ -62,7 +62,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 >
 >De la même façon, vous pouvez ajouter au projet autant de nouveaux composants que vous le souhaitez, s’ils sont compatibles avec AEM Screens.
 
-## Présentation des composants AEM Screens  {#understanding-aem-screen-components}
+## Présentation des composants AEM Screens {#understanding-aem-screen-components}
 
 La section suivante décrit les composants AEM Screens que vous pouvez utiliser dans le projet.
 
