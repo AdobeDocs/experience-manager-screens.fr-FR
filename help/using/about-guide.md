@@ -4,7 +4,7 @@ seo-title: Description du guide
 description: Cette page décrit l’objectif du guide des bonnes pratiques
 seo-description: Cette page décrit l’objectif du guide des bonnes pratiques
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Ce guide ne fournit pas seulement des informations complètes et des conseils pr
 >
 > * **[Rôles du projet et responsabilités](roles-responsibilities.md)**
 > * **[Matrice RACI pour les différents rôles](roles-responsibilities.md#raci-chart)**
-> * **[Configurations de plates-formes AEM](aem-platform-configurations.md)**
+> * **[Configurations d’AEM Platform](aem-platform-configurations.md)**
 > * **[Assistance et surveillance](support-monitoring.md)**
 
 
