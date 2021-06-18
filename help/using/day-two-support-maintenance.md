@@ -4,7 +4,7 @@ seo-title: Maintenance et assistance pour le jour 2 pour AEM Screens
 description: Cette page décrit la maintenance et l’assistance pour le jour 2
 seo-description: Cette page décrit la maintenance et l’assistance pour le jour 2
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -25,6 +25,6 @@ Suivez les consignes d’assistance et de maintenance pour le jour 2 de la phas
 
 1. Identifiez les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
 
-1. Installez les mêmes packages logiciels sur vos environnements de développement locaux. 
+1. Installez les mêmes packages logiciels sur vos environnements de développement locaux.
 
 1. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
