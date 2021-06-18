@@ -14,7 +14,7 @@ feature: Création dans Screens, fragments d’expérience
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
 ht-degree: 100%
 
@@ -39,9 +39,9 @@ Un ***fragment d’expérience*** est un groupe d’un ou plusieurs composants c
 >[!NOTE]
 >L’exemple ci-dessous utilise **We.Retail** comme projet de démonstration : le fragment d’expérience issu d’une page **Sites** est appliqué à un projet AEM Screens.
 
-Par exemple, le workflow ci-après illustre l’utilisation de fragments d’expérience de We.Retail dans Sites. Vous pouvez choisir une page web et utiliser son contenu dans votre canal AEM Screens dans l’un de vos projets.
+Par exemple, le processus ci-après illustre l’utilisation de fragments d’expérience de We.Retail dans Sites. Vous pouvez choisir une page web et utiliser son contenu dans votre canal AEM Screens dans l’un de vos projets.
 
-### Conditions préalables {#pre-requisites}
+### Prérequis {#pre-requisites}
 
 **Création d’un projet de démonstration avec un canal**
 
