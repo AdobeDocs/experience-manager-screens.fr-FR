@@ -14,9 +14,9 @@ feature: Administration de Screens, Windows Player
 role: Administrator
 level: Intermediate
 source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -70,15 +70,15 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 >
 >Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer le périphérique.
 
-## Attribution de noms au lecteur Windows {#name-windows}
+## Nommage du lecteur Windows {#name-windows}
 
-Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement un contenu approprié.
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement le contenu approprié.
 
-Pour configurer le nom dans le lecteur Windows, procédez comme suit :
+Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
-1. Cliquez sur **start** —> **run**
+1. Cliquez sur **Démarrer** > **Exécuter**
 1. Enter `system.cpl`
-1. Utilisez l’onglet Nom d’ordinateur pour définir le nom d’hôte de l’ordinateur.
+1. Utilisez l’onglet du nom d’ordinateur pour définir le nom d’hôte de l’ordinateur.
 
 ## Modification des options par défaut dans Windows Installer {#changing-default-options}
 
@@ -128,7 +128,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
 
-#### Exemple de fichier JSON de règle  {#example-policy-json-file}
+#### Exemple de fichier JSON de règle {#example-policy-json-file}
 
 ```
 {
