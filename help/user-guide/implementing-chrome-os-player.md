@@ -13,9 +13,9 @@ feature: Administration d’AEM Screens
 role: Administrator
 level: Intermediate
 source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,15 +38,15 @@ Pour installer la console de gestion de Chrome, exécutez la procédure suivante
 
 ## Nommage du lecteur Chrome OS {#name-chrome}
 
-Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Chrome, mais également d’attribuer facilement le contenu approprié.
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Chrome, mais également d’attribuer facilement le contenu approprié.
 
-Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
+Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
 
-1. Vous pouvez éventuellement autoriser les intégrateurs AV ou les administrateurs informatiques à définir l’ID et l’emplacement de la ressource dans le cadre de l’inscription d’entreprise.
+1. Vous pouvez éventuellement autoriser les intégrateurs AV ou les administrateurs informatiques à définir l’ID et l’emplacement de la ressource dans le cadre de l’inscription de l’entreprise.
 
    ![image](/help/user-guide/assets/chrome-device/chrome1.png)
 
-1. Les options s’affichent lorsque vous pouvez inscrire le périphérique.
+1. Les options s’affichent lorsque vous pouvez inscrire l’appareil.
 
    ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
@@ -55,7 +55,7 @@ Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
    ![image](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Les lecteurs Chrome doivent être inscrits dans l’inscription d’entreprise et le lecteur Chrome doit être déployé via la console de gestion de Chrome. Sinon, l’ID de ressource retournera vide (par exemple, Chrome en tant qu’extension). Le nom du périphérique n’est enregistré qu’au moment de l’enregistrement. Les modifications futures ne seront pas prises en compte par Adobe Experience Manager (AEM).
+   >Les lecteurs Chrome doivent être inscrits dans l’inscription d’entreprise et le lecteur Chrome doit être déployé à l’aide de la console de gestion de Chrome. Sinon, l’ID de ressource reviendra vide (par exemple, avec Chrome comme extension). Le nom de l’appareil n’est enregistré qu’au moment de l’inscription. Les modifications ultérieures ne seront pas prises en compte par Adobe Experience Manager (AEM).
 
 ### Activation du mode kiosque {#enabling-kiosk-mode}
 
