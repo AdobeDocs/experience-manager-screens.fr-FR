@@ -14,9 +14,9 @@ feature: Administration de Screens, Android Player
 role: Administrator
 level: Intermediate
 source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Reportez-vous à l’[exemple de règle JSON](#example-json) ainsi qu’au table
    >[!NOTE]
    >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur l’appareil.
 
-### Attributs de règle  {#policy-attributes}
+### Attributs de règle {#policy-attributes}
 
 Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
 
@@ -180,14 +180,14 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 
 Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Nous vous recommandons vivement d’utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
 
-## Dénomination du lecteur Android {#name-android}
+## Nommage d’un lecteur Android {#name-android}
 
-Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Android, mais également d’attribuer facilement le contenu approprié.
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Android, mais également d’attribuer facilement le contenu approprié.
 
-Suivez les étapes ci-dessous pour configurer le nom dans le lecteur Android :
+Pour configurer le nom dans le lecteur Android, procédez comme suit :
 
-1. Accédez à **settings** —> **À propos de l’appareil**
-1. Modifier et définir le nom de votre appareil pour nommer votre lecteur Android
+1. Accédez à **Paramètres** > **À propos de l’appareil**
+1. Modifiez et définissez le nom de votre appareil pour nommer votre lecteur Android
 
 ### Mise en œuvre de l’approvisionnement en bloc du lecteur Android à l’aide d’une solution Enterprise Mobility Management {#implementation}
 
