@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administration d’AEM Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 100%
 
 ---
 
-
-# Utilisation du lecteur AEM Screens {#working-with-aem-screens-player}
+# Utilisation du lecteur AEM Screens {#working-with-aem-screens-player}
 
 Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran AEM Screens.
 
@@ -146,7 +146,7 @@ Il existe deux types de mises à jour du lecteur AEM Screens :
 | Mise à jour du micrologiciel | Application sur les lecteurs existants installés via la commande à distance. Après la mise à jour, le lecteur se rechargera automatiquement avec le contenu existant. | Oui | Personnalisé | Presque - 1 à 3 secondes |
 | Mises à jour du shell du lecteur | Il s’agit d’un nouveau fichier exécutable à déployer sur le lecteur. Cela requiert de copier à distance le nouveau fichier binaire sur le lecteur, d’arrêter la version en cours d’exécution et de démarrer la nouvelle version. Il peut être nécessaire de télécharger à nouveau le préchargement des modules. | Oui (via un shell distant) | Personnalisé | Non |
 
-## Instructions de sélection du matériel pour le périphérique de lecture {#hardware-selection-guidelines-for-player-device}
+## Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection-guidelines-for-player-device}
 
 La section suivante présente les directives de sélection du matériel pour un projet Screens :
 
