@@ -3,17 +3,17 @@ title: Qu’est-ce qu’AEM Screens ?
 seo-title: Qu’est-ce qu’AEM Screens ?
 description: '« AEM Screens : solution de signalétique numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive. »'
 feature: Présentation, signalétique numérique
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 100%
 
 ---
 
-
-# Qu’est-ce qu’AEM Screens ? {#what-is-aem-screens}
+# Qu’est-ce qu’AEM Screens ?{#what-is-aem-screens}
 
 **AEM (Adobe Experience Manager) Screens** : solution de signalisation numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive.
 
