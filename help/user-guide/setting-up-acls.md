@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administration d’AEM Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # Configuration des listes de contrôle d’accès {#setting-up-acls}
 
@@ -72,10 +72,10 @@ Le tableau ci-dessous résume le chemin d’accès avec les autorisations au niv
 |---|---|---|
 | `/apps/<project>` | READ | Permet d’accéder aux fichiers de projet (le cas échéant). |
 | `/content/dam/<project>` | ALL | Permet un accès pour stocker les ressources de projet telles que les images ou les vidéos dans la gestion des ressources numériques (DAM). |
-| `/content/screens/<project>` | ALL | Supprime l’accès à tous les autres projets sous /content/screens |
-| `/content/screens/svc` | READ | Fournit un accès au service d’enregistrement. |
-| `/libs/screens` | READ | Permet d’accéder au centre de collecte. |
-| `/var/contentsync/content/screens/` | ALL | Permet de mettre à jour le contenu en ligne pour le projet. |
+| `/content/screens/<project>` | TOUT | Supprime l’accès à tous les autres projets sous /content/screens |
+| `/content/screens/svc` | LECTURE | Fournit un accès au service d’enregistrement. |
+| `/libs/screens` | LECTURE | Permet d’accéder au centre de collecte. |
+| `/var/contentsync/content/screens/` | TOUT | Permet de mettre à jour le contenu en ligne pour le projet. |
 
 >[!NOTE]
 >
@@ -142,4 +142,3 @@ Le tableau suivant récapitule les groupes avec une description et les autorisat
   </tr>
  </tbody>
 </table>
-
