@@ -2,15 +2,15 @@
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
 feature: Administration de Screens, lecteurs
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
-workflow-type: ht
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 100%
 
 ---
-
 
 # Implémentation du lecteur Tizen {#tizen-player}
 
@@ -130,7 +130,7 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 
-## Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung {#enroll-tizen-device-rms}
+## Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung  {#enroll-tizen-device-rms}
 
 Suivez les étapes ci-dessous pour enregistrer le périphérique Tizen auprès du Remote Management Service (RMS) Samsung et configurer à distance le lanceur d’URL :
 
@@ -164,4 +164,3 @@ Suivez les étapes ci-dessous pour enregistrer le périphérique Tizen auprès d
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Cliquez sur **Save** (Enregistrer) pour que les modifications s’affichent à l’écran.
-
