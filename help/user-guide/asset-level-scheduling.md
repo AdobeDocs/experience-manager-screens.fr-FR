@@ -4,15 +4,15 @@ seo-title: Activation au niveau des ressources
 description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 seo-description: Consultez cette page pour apprendre comment activer une ressource spécifique dans un canal pour une période planifiée dans le fuseau horaire local du lecteur.
 feature: Création dans Screens, activation au niveau de la ressource
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 100%
 
 ---
-
 
 # Activation au niveau des ressources {#asset-level-scheduling}
 
@@ -222,4 +222,3 @@ Pour sélectionner plusieurs ressources et planifier leur affichage dans un proj
    >L’icône de planification s’affiche dans l’angle supérieur droit pour les ressources ayant une activation multiressource.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
