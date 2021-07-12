@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
-
 
 # Création et gestion des projets {#creating-and-managing-projects}
 
@@ -85,4 +85,3 @@ Les étapes suivantes montrent comment créer un dossier d’applications dans l
 ### Étapes suivantes {#the-next-steps}
 
 Une fois que vous aurez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer le contenu de votre canal.
-
