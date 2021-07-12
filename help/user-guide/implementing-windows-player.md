@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Administration de Screens, Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: ht
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre du lecteur Windows 10 {#implementing-windows-player}
 
@@ -32,7 +32,7 @@ Pour mettre en œuvre le lecteur Windows pour AEM Screens, installez le lecteur 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
->Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode plein écran.
+>Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
 ### Configuration de l’environnement pour le Service Pack AEM Screens 6.5.5 {#fp-environment-setup}
 
@@ -141,7 +141,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 }
 ```
 
-## Activation du mode kiosque {#enabling-kiosk-mode}
+## Activation du mode kiosque    {#enabling-kiosk-mode}
 
 Lorsque vous déployez le lecteur Windows, il est important d’activer un mode Kiosque afin que d’autres applications ou la barre des tâches n’apparaissent pas sur le bureau Windows.
 
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
