@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
 ---
 
-
 # Rendus vidéo {#video-renditions}
 
 Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le processus à suivre pour ajouter des rendus à vos ressources.
 
-## Génération automatique de rendus Full HD {#automatically-generating-full-hd-renditions}
+## Génération automatique de rendus Full HD  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -93,4 +93,3 @@ Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 1. Ouvrez le rail latéral **Rendus** ; vous remarquerez les nouveaux rendus Full HD.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
-
