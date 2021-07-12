@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Administration de Screens, Android Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: ht
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre d’Android Player {#implementing-android-player}
 
@@ -176,7 +176,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 >[!NOTE]
 >Tous les appareils Android disposent d’un dossier *sdcard*, qu’une *carte SD* ait été insérée ou non. Une fois déployé, ce fichier se trouvera au même niveau que le dossier Downloads. Certains MDM tels que Samsung Knox peuvent utiliser l’emplacement de dossier *sdcard* comme *stockage interne*.
 
-## Approvisionnement en bloc du lecteur Android à l’aide d’une solution Enterprise Mobility Management {#bulk-provisioning}
+## Approvisionnement en bloc d’un lecteur Android à l’aide d’Enterprise Mobility Management {#bulk-provisioning}
 
 Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Nous vous recommandons vivement d’utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
 
