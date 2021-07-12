@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Présentation
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
 ---
-
 
 # Partie 2 : observations dans le cadre de la définition de la portée du projet {#part-considerations-as-projects-are-scoped}
 
@@ -42,7 +42,7 @@ Les principaux composants requis pour réussir les déploiements de programmes d
 >
 >Il est important de définir une stratégie de contenu qui examine la manière dont l’application utilisera les ressources logicielles, matérielles et de connectivité pour obtenir la valeur souhaitée.
 
-## Résumé des points à prendre en compte dans un projet de signalisation numérique {#summary-of-project-considerations-in-a-digital-signage}
+## Résumé des points à prendre en compte dans un projet de signalisation numérique   {#summary-of-project-considerations-in-a-digital-signage}
 
 Lors de l’élaboration d’une stratégie de contenu, plusieurs points sont à prendre en compte, dont les exigences matière de couches d’E/S, de types de ressources, de segments d’audience et de planification des tranches horaires.
 
