@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
 ---
-
 
 # Création et gestion des planifications {#creating-and-managing-schedules}
 
@@ -67,4 +67,3 @@ Suivez les étapes ci-dessous pour afficher le tableau de bord des planification
    **Panneau Canaux attribués** Cliquez sur +Attribuer le canal dans l’angle supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canaux.
 
    **Panneau Affichages attribués** Sélectionnez l’un des affichages dans le panneau AFFICHAGES ATTRIBUÉS pour ouvrir le tableau de bord de l’affichage.
-
