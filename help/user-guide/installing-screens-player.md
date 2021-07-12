@@ -5,15 +5,15 @@ description: Rendez-vous sur cette page pour en savoir plus sur l’installation
 seo-description: Installation du lecteur Screens
 contentOwner: jsyal
 feature: Administration d’AEM Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
 ---
-
 
 # Installation du lecteur AEM Screens {#installing-player}
 
