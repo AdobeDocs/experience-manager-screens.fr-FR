@@ -4,17 +4,17 @@ seo-title: Liste de contrôle de sécurité
 description: Cette page décrit les principaux aspects en matière de sécurité avec une liste de questions et de considérations à prendre en compte.
 seo-description: Cette page présente la liste de contrôle de sécurité.
 feature: Administration d’AEM Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
 
 ---
 
-
-# Liste de contrôle de sécurité d’AEM Screens {#security-checklist}
+# Liste de contrôle de sécurité d’AEM Screens  {#security-checklist}
 
 La page Liste de contrôle de sécurité d’AEM Screens décrit les principaux aspects en matière de sécurité avec une liste de questions et de considérations à prendre en compte.
 
