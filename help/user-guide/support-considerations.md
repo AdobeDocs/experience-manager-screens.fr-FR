@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Présentation
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
 ---
-
 
 # Partie 5 : facteurs liés à l’assistance {#part-support-considerations}
 
@@ -33,8 +33,10 @@ Cette page présente la dernière partie qui conclut une série en 5 parties co
 >
 >* Déploiement du projet sur le terrain
 >* Vérification de la connectivité des périphériques et du fonctionnement entre le technicien chargé de l’installation et le centre d’exploitation de réseau
+
 >
->Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
+>
+Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
 
 La planification comprend :
 
@@ -70,4 +72,3 @@ Suivez ce tutoriel qui conclut une série en 5 parties. Il met l’accent sur l
 ## Conclusion {#conclusion}
 
 Ces séries en 5 parties se concentrent sur des points essentiels pour assurer la réussite de votre projet. Consultez d’autres sections du Guide de l’utilisateur d’AEM Screens pour plus d’informations sur l’implémentation.
-
