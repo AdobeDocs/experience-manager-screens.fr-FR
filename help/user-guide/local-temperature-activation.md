@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Activation de la température de l’agence de voyages {#travel-center-temperature-activation}
 
@@ -90,6 +90,4 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
    1. Définissez une valeur inférieure à 50. Vous devriez voir une image de boissons fraîches. Si la valeur dans la feuille de calcul Google est supérieure ou égale à 50, vous devriez voir une image de boisson chaude.
-
    ![result3](assets/result3.gif)
-
