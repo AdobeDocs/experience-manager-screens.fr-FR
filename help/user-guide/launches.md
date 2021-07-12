@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Création dans Screens, lancements
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour du contenu à l’aide d’un lancement Screens {#launches}
 
@@ -177,7 +177,7 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Modification du lancement Screens pour ajouter ou supprimer des canaux {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modification du lancement Screens pour ajouter ou supprimer des canaux   {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Après avoir créé le lancement, vous pouvez ajouter ou supprimer des canaux pour celui-ci à l’aide de l’option **Modifier le lancement**.
 
@@ -207,4 +207,3 @@ Vous pouvez supprimer le lancement à l’aide de l’option **Supprimer le lanc
 >[!CAUTION]
 >
 >Cette action supprimera également tous les descendants (lancements imbriqués).
-
