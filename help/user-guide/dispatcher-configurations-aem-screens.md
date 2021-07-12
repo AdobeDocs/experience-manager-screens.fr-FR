@@ -4,17 +4,17 @@ seo-title: Configurations du Dispatcher pour AEM Screens
 description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
 seo-description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
 feature: Administration d’AEM Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
 
-
-# Configurations du Dispatcher pour AEM Screens {#dispatcher-configurations-for-aem-screens}
+# Configurations du Dispatcher pour AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager.
 
@@ -32,7 +32,7 @@ Avant de configurer le Dispatcher pour un projet AEM Screens, vous devez connaî
 
 Pour en savoir plus, consultez [Configuration du Dispatcher](https://docs.adobe.com/content/help/fr-FR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Configuration du Dispatcher {#configuring-dispatcher}
+## Configuration de Dispatcher {#configuring-dispatcher}
 
 Les lecteurs/périphériques AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/périphériques AEM Screens.
 
