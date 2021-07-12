@@ -6,15 +6,15 @@ seo-description: Consultez cette page pour apprendre comment appliquer des trans
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # Application de transitions {#applying-transitions}
 
@@ -60,4 +60,3 @@ Pour ajouter un composant de transition à votre projet AEM Screens, procédez 
 1. De plus, si vous ajoutez un composant **Séquence incorporée** (qui inclut un canal de séquence) à cet éditeur de canal, vous pouvez ajouter un composant de transition à la fin, de sorte que le contenu soit lu dans l’ordre, comme illustré dans la figure ci-dessous :
 
    ![image3](assets/transitions5.png)
-
