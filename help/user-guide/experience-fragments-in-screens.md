@@ -1,8 +1,8 @@
 ---
 title: Utilisation de fragments d’expérience
 seo-title: Utilisation de fragments d’expérience
-description: 'Lisez cette page pour savoir comment utiliser des fragments d’expérience dans AEM Screens. '
-seo-description: 'Lisez cette page pour savoir comment utiliser des fragments d’expérience dans AEM Screens. '
+description: Lisez cette page pour savoir comment utiliser des fragments d’expérience dans AEM Screens.
+seo-description: Lisez cette page pour savoir comment utiliser des fragments d’expérience dans AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Création dans Screens, fragments d’expérience
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation de fragments d’expérience {#using-experience-fragments}
 
@@ -219,4 +219,3 @@ Pour confirmer les modifications dans votre canal, procédez comme suit :
 
 L’image suivante illustre les modifications apportées à votre canal **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
