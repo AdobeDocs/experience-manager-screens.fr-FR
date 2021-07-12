@@ -4,15 +4,15 @@ seo-title: Glossaire
 description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 seo-description: Consultez cette page pour connaître les termes clés associés à AEM Screens.
 feature: Présentation
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # Glossaire {#glossary}
 
