@@ -5,21 +5,21 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise de cont
 seo-description: Suivez ce cas d’utilisation sur la configuration d’un projet qui crée un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 contentOwner: jsyal
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 
 ---
 
-
 # Canal de prise de contrôle permanente {#perpetual-takeover-channel}
 
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 
-## Description du cas d’utilisation {#use-case-description}
+## Description du cas d’utilisation    {#use-case-description}
 
 Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle aura lieu perpétuellement un jour et une heure spécifiques.
 Par exemple, il existe un canal de prise de contrôle permanente lu tous les vendredis de 09h00 à 10h00. Pendant ce temps, aucun autre canal ne doit être lu. L’exemple suivant présente la création d’un canal de prise de contrôle permanente qui lit le contenu tous les mercredis pendant 2 heures, de 14h00 à 16h00.
