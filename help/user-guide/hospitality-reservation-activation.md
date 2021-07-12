@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
 ---
-
 
 # Activation de la réservation d’hébergements {#hospitality-reservation-activation}
 
@@ -86,6 +86,4 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
    1. Mettez à jour la valeur dans les colonnes **Restaurant1** et **Restaurant2**. Si **Restaurant1** > **Restaurant2,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
-
    ![result5](assets/result5.gif)
-
