@@ -5,22 +5,22 @@ description: Suivez ce cas d’utilisation pour créer un canal de prise de cont
 seo-description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 contentOwner: jsyal
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 
 ---
-
 
 # Canal de prise de contrôle à usage unique {#single-use-takeover-channel}
 
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle à usage unique, lu une seule fois pendant une durée spécifique.
 
 
-## Description du cas d’utilisation {#use-case-description}
+## Description du cas d’utilisation    {#use-case-description}
 
 Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu’une fois et pour une durée spécifique.
 Par exemple, il existe un canal de prise de contrôle unique lu le vendredi de 9h00 à 10h00. Pendant ce temps, aucun autre canal ne doit être lu. Avant et après cette période, le canal de prise de contrôle à usage unique n’est pas lu. L’exemple suivant présente la création d’un canal de prise de contrôle unique qui permet au contenu d’être lu pendant 2 minutes avant 12h00 le 31 décembre jusqu’à 12h01.
