@@ -4,17 +4,17 @@ seo-title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 feature: Administration d’AEM Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 100%
 
 ---
 
-
-# Configuration de l’Auteur et de la Publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
+# Configuration de l’auteur et de la publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Cette page met l’accent sur les sujets suivants :
 
@@ -103,7 +103,7 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
    >Vous pouvez également copier et renommer un agent de réplication par défaut existant.
 
 
-#### Création d’agents de réplication standard {#creating-standard-replication-agents}
+#### Création d’agents de réplication standard   {#creating-standard-replication-agents}
 
 1. Créez un agent de réplication standard pour pub1 (l’agent par défaut prêt à l’emploi devrait déjà être configuré) (par exemple, *https://&lt;nom_hôte>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l’agent de réplication pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. (par exemple, *https://&lt;nom_hôte>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -307,5 +307,3 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un des canaux, un des emplacements, un des appareils, une des applications ou une des planifications. Pour en savoir plus sur cette fonction, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
-
-
