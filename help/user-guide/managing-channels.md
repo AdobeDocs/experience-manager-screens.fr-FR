@@ -4,15 +4,15 @@ seo-title: Gestion des canaux
 description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
 seo-description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
 feature: Création dans Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
 
 ---
-
 
 # Création et gestion des canaux {#creating-and-managing-channels}
 
@@ -259,4 +259,3 @@ Consultez les ressources ci-après pour les étapes suivantes :
 * [Création et gestion des canaux](managing-channels.md)
 * [Création et gestion des emplacements](managing-locations.md)
 * [Création et gestion des affichages](managing-displays.md)
-
