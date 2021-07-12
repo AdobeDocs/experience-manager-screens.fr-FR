@@ -3,15 +3,15 @@ title: Attribution de canaux
 seo-title: Attribution de canaux
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
 feature: Création dans Screens, affectation de canal
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
 ---
-
 
 # Attribution de canaux {#channel-assignment}
 
@@ -177,5 +177,4 @@ Ces exemples présentent les tranches horaires d’un magasin qui affiche sa col
 >
 >* [Gestion de la périodicité pour les ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestion de la périodicité des ressources dans un canal](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
