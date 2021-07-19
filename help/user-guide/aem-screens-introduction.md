@@ -6,10 +6,10 @@ feature: Présentation, signalétique numérique
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 **AEM (Adobe Experience Manager) Screens** : solution de signalisation numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive.
 
 Devenez opérationnel avec une expérience de signalisation numérique simple, grâce à [Démarrage rapide d’AEM Screens](kickstart-for-aem-screens.md).
+
+Pour savoir comment configurer et créer votre projet AEM Screens dans AEM as a Cloud Service, voir [ici](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Présentation {#overview}
 
