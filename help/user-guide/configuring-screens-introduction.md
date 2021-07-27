@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -150,5 +150,5 @@ Pour savoir comment configurer le Dispatcher pour un projet AEM Screens, voir [C
 Définissez l’***encodage Java*** sur Unicode. Par exemple, *Dfile.encoding=Cp1252* ne fonctionnera pas.
 
 >[!NOTE]
->**Recommandation:**
+>**Recommandation :**
 >Il est recommandé d’utiliser HTTPS pour le serveur AEM Screens utilisé en production.
