@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ La page suivante décrit l’utilisation de la synchronisation des commandes. La
 
 ## Présentation {#overview}
 
-Les solutions de signalétique digitale doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est à ce stade que la synchronisation des commandes entre en jeu.
+Les solutions de signalétique numérique doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est à ce stade que la synchronisation des commandes entre en jeu.
 
 Pour utiliser la synchronisation des commandes, un lecteur agit comme *maître* et envoie une commande, tandis que tous les autres lecteurs agissent comme *clients* et procèdent à la lecture lorsqu’ils reçoivent la commande.
 
