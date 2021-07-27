@@ -8,7 +8,7 @@ role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # Transition Multizone vers Zone unique {#multizone-to-singlezone-use-case}
 
 
-## Description du cas d’utilisation    {#use-case-description}
+## Description du cas d’utilisation {#use-case-description}
 
 Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la configuration d’un canal de disposition multizone qui alterne avec un canal de disposition à zone unique. Le canal multizone comporte des fichiers image/vidéo de séquencement et indique comment configurer un projet qui alterne entre multizone et zone unique.
 
