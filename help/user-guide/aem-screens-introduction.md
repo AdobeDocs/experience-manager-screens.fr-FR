@@ -15,9 +15,9 @@ ht-degree: 95%
 
 # Qu’est-ce qu’AEM Screens ?{#what-is-aem-screens}
 
-**AEM (Adobe Experience Manager) Screens** : solution de signalisation numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive.
+**AEM (Adobe Experience Manager) Screens** : solution de signalétique numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive.
 
-Devenez opérationnel avec une expérience de signalisation numérique simple, grâce à [Démarrage rapide d’AEM Screens](kickstart-for-aem-screens.md).
+Devenez opérationnel avec une expérience de signalétique numérique simple, grâce à [Démarrage rapide d’AEM Screens](kickstart-for-aem-screens.md).
 
 Pour savoir comment configurer et créer votre projet AEM Screens dans AEM as a Cloud Service, voir [ici](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
@@ -43,7 +43,7 @@ Pour créer une démonstration d’un projet Screens et publier votre contenu da
 
 ## Démarrage d’un nouveau projet AEM Screens {#starting-a-new-aem-screens-project}
 
-Le démarrage d’une nouvelle expérience de signalisation numérique implique de coordonner différents rôles avant qu’elle ne puisse être utilisée. Les rôles ci-dessous servent de point de départ pour créer un nouveau projet Screens.
+Le démarrage d’une nouvelle expérience de signalétique numérique implique de coordonner différents rôles avant qu’elle ne puisse être utilisée. Les rôles ci-dessous servent de point de départ pour créer un nouveau projet Screens.
 
 * **Auteur**
 * **Développeur**
