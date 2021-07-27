@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -33,15 +33,15 @@ Il est important que tous les intervenants comprennent ce dont l’intégrateur 
 
 >[!NOTE]
 >
->Identifier un intégrateur AV ayant une expertise dans la gestion de projet des déploiements de signalisation numérique à grande échelle est extrêmement important pour le succès à long terme. Il est fortement suggéré de comparer les plans de projet de l’intégrateur AV et de l’implémentateur AEM afin de garantir une harmonisation au fur et à mesure que les plans sont élaborés et finalisés.
+>Identifier un intégrateur AV ayant une expertise dans la gestion de projet des déploiements de signalétique numérique à grande échelle est extrêmement important pour le succès à long terme. Il est fortement suggéré de comparer les plans de projet de l’intégrateur AV et de l’implémentateur AEM afin de garantir une harmonisation au fur et à mesure que les plans sont élaborés et finalisés.
 >
 >Les partenaires qui adoptent une approche holistique de la gestion des phases de préproduction, de lancement et de progression du projet aideront vos clients finaux à tirer le meilleur parti de leur investissement.
 
 ## Résumé des trois phases de la gestion de projet {#summary-of-all-three-phases-in-project-management}
 
-Pour garantir la réussite du déploiement de la solution de signalétique digitale, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement désignées sous le nom de ***jours***.
+Pour garantir la réussite du déploiement de la solution de signalétique numérique, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement désignées sous le nom de ***jours***.
 
-### Activités du jour 0 {#day-zero-activities}
+### Activités du Jour 0 {#day-zero-activities}
 
 La première étape est appelée ***Jour 0***. Cette étape rassemble tous les efforts d’avant-vente et d’investigation nécessaires pour définir complètement la portée du projet. La deuxième étape, ou Jour 1, fait référence à toutes les activités qui constituent l’effort de déploiement. Enfin, le Jour 2 correspond à toutes les opérations et éléments d’assistance courants dans le cadre de la solution totale.
 
