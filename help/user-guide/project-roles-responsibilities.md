@@ -1,13 +1,13 @@
 ---
 title: '« Partie 1 : rôles du projet et responsabilités »'
 seo-title: '« Partie 1 : rôles du projet et responsabilités »'
-description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalisation numérique.
+description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalétique numérique.
 feature: Présentation
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Trois groupes principaux sont impliqués dans le cadre du processus d’exécuti
 >
 >Il est important que toutes les parties concernées comprennent exactement comment chaque partie prend en compte le déploiement d’AEM Screens et les processus de résolution des problèmes, avec des rôles clairement définis pour résoudre les problèmes de performances.
 
-## Résumé des rôles impliqués dans un projet de signalisation numérique {#summary-of-roles-involved-in-a-digital-signage-project}
+## Résumé des rôles impliqués dans un projet de signalétique numérique {#summary-of-roles-involved-in-a-digital-signage-project}
 
 La définition des paramètres de cas d’utilisation de l’application, en partenariat avec Adobe, l’implémentateur AEM et l’intégrateur audiovisuel déterminera le champ d’application du développement logiciel. Cela permet d’établir une approche échelonnée qui s’appuie sur des références de rendement et des mesures de réussite identifiées tout au long du projet.
 
@@ -49,7 +49,7 @@ En règle générale, les implémentateurs d’AEM déploient des fonctionnalit�
 
 #### Intégrateurs A/V {#av-integrators}
 
-L’**intégrateur A/V** est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements autour du matériel de signalisation numérique.
+L’**intégrateur A/V** est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements autour du matériel de signalétique numérique.
 
 ## Partie 1 : tutoriel vidéo sur les rôles et responsabilités du projet {#part-video-tutorial-on-project-roles-and-responsibilities}
 
