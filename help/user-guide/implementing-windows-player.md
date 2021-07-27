@@ -1,6 +1,6 @@
 ---
-title: Mise en œuvre du lecteur Windows 10
-seo-title: Mise en œuvre du lecteur Windows 10
+title: Mise en œuvre du lecteur Windows 10
+seo-title: Mise en œuvre du lecteur Windows 10
 description: Suivez cette page pour en savoir plus sur la configuration du lecteur AEM Screens Windows 10.
 seo-description: Suivez cette page pour en savoir plus sur la configuration du lecteur AEM Screens Windows 10.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
@@ -15,13 +15,13 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
 ht-degree: 100%
 
 ---
 
-# Mise en œuvre du lecteur Windows 10 {#implementing-windows-player}
+# Mise en œuvre du lecteur Windows 10 {#implementing-windows-player}
 
 Cette section décrit la configuration du lecteur AEM Screens Windows 10. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
 
@@ -141,7 +141,7 @@ Le tableau suivant récapitule les attributs de règle et fournit un exemple de 
 }
 ```
 
-## Activation du mode kiosque    {#enabling-kiosk-mode}
+## Activation du mode kiosque {#enabling-kiosk-mode}
 
 Lorsque vous déployez le lecteur Windows, il est important d’activer un mode Kiosque afin que d’autres applications ou la barre des tâches n’apparaissent pas sur le bureau Windows.
 
