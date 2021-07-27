@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
    >Vous pouvez également copier et renommer un agent de réplication par défaut existant.
 
 
-#### Création d’agents de réplication standard   {#creating-standard-replication-agents}
+#### Création d’agents de réplication standard  {#creating-standard-replication-agents}
 
 1. Créez un agent de réplication standard pour pub1 (l’agent par défaut prêt à l’emploi devrait déjà être configuré) (par exemple, *https://&lt;nom_hôte>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l’agent de réplication pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. (par exemple, *https://&lt;nom_hôte>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -220,7 +220,7 @@ Une fois que vous aurez configuré la stratégie de publication, vous devez conf
 >
 >Vous pouvez ouvrir un lecteur AEM Screens en utilisant l’application que vous avez téléchargée ou le navigateur web.
 
-#### Étape 2 : enregistrement d’un périphérique sur l’Auteur {#step-registering-a-device-on-author}
+#### Étape 2 : enregistrement d’un périphérique sur l’auteur {#step-registering-a-device-on-author}
 
 1. Accédez à `https://localhost:4502/screens.html/content/screens/we-retail` ou sélectionnez votre projet et accédez à Périphériques > Gestionnaire de périphériques.
 1. Sélectionnez **Enregistrer le périphérique**.
