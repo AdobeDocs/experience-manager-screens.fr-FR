@@ -1,6 +1,6 @@
 ---
 title: Utilisation du lecteur AEM Screens
-seo-title: Utilisation du lecteur Screens
+seo-title: Utilisation du lecteur AEM Screens
 description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
 seo-description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ La section suivante présente les directives de sélection du matériel pour un 
 
 * Vous devez toujours vous procurer des composants de qualité ***professionnelle*** ou ***industrielle*** pour le lecteur PC comme pour le panneau d’affichage ou le projecteur.
 
-* Adressez-vous toujours à des fournisseurs qui desservent le marché de la signalisation numérique.
+* Adressez-vous toujours à des fournisseurs qui desservent le marché de la signalétique numérique.
 * Tenez toujours compte des facteurs environnementaux tels que la température ambiante et l’humidité relative.
 * Examinez toujours les exigences en matière d’alimentation et de conditionnement d’alimentation.
 * Examinez attentivement les besoins en performances et les ports d’E/S requis pour l’application.
@@ -175,7 +175,7 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
    <td>De base</td>
    <td>Processeur Intel® i3 double cœur ou Atom quadri-cœur d’entrée de gamme</td>
    <td><p>4 Go de mémoire</p> <p>2 Mo de cache</p> </td>
-   <td><p>・ChromeOS 32 Go</p> <p>・Windows 128 Go</p> </td>
+   <td><p>・Chrome OS 32 Go</p> <p>・Windows 128 Go</p> </td>
    <td>Intégré</td>
    <td>1920 x 1080</td>
    <td>DVI,<br /> Ethernet / Sans fil,<br /> 2 x USB</td>
