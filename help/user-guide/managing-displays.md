@@ -14,7 +14,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Utilisez **CRXDE Lite** pour accéder à la propriété **idleTimeout**, à s
 
 ### Panneau Canaux attribués {#assigned-channels-panel}
 
-Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet périphérique.
+Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à ce périphérique.
 
 
 ### Panneau Périphériques {#devices-panel}
