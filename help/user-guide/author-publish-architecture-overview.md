@@ -14,7 +14,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Il existe cinq composants architecturaux qui facilitent cette solution :
 * ***Messagerie*** entre les instances de publication pour synchroniser les commandes et les mises à jour des informations sur les appareils
 * ***Interrogation*** par l’auteur des instances de publication pour obtenir des informations sur les appareils via des API REST spécifiques
 
-### Réplication (transfert) du contenu et des configurations   {#replication-forward-of-content-and-configurations}
+### Réplication (transfert) du contenu et des configurations  {#replication-forward-of-content-and-configurations}
 
 Les agents de réplication standard servent à répliquer le contenu du canal, les configurations d’emplacement et les configurations de périphérique Screens. Cela permet aux auteurs de mettre à jour le contenu d’un canal et, éventuellement, de passer par un processus d’approbation avant de publier les mises à jour du canal. Un agent de réplication doit être créé pour chaque instance de publication de la batterie de publication.
 
@@ -73,13 +73,13 @@ Le diagramme suivant illustre le processus de réplication :
 >
 >Un agent de réplication doit être créé pour chaque instance de publication de la batterie de publication.
 
-### Agents et commandes de réplication Screens   {#screens-replication-agents-and-commands}
+### Agents et commandes de réplication Screens  {#screens-replication-agents-and-commands}
 
 Des agents de réplication spécifiques personnalisés Screens sont créés pour envoyer des commandes de l’instance Auteur au périphérique AEM Screens. Les instances de publication AEM servent d’intermédiaire pour transférer ces commandes au périphérique.
 
 Cela permet aux auteurs de continuer à gérer le périphérique, par exemple d’envoyer des mises à jour au périphérique et de prendre des captures d’écran à partir de l’environnement de création. Les agents de réplication AEM Screens ont une configuration de transport personnalisée, comme les agents de réplication standard.
 
-### Messagerie entre les instances de publication   {#messaging-between-publish-instances}
+### Messagerie entre les instances de publication  {#messaging-between-publish-instances}
 
 Dans de nombreux cas, une commande n’est censée être envoyée à un périphérique qu’une seule fois. Toutefois, dans une architecture de publication équilibrée en charge, on ignore à quelle instance de publication le périphérique se connecte.
 
@@ -94,7 +94,7 @@ Dans de nombreux cas, après une commande, on attend un certain type de réponse
 * Dans ce contexte, une réplication inverse n’est utilisée que pour les données binaires (fichiers journaux et captures d’écran, par exemple) fournies par les périphériques. Les données non binaires sont récupérées par interrogation.
 * La réplication inverse interrogée à partir de l’instance de création AEM récupère la réponse et l’enregistre dans l’instance d’auteur.
 
-### Interrogation des instances de publication   {#polling-of-publish-instances}
+### Interrogation des instances de publication  {#polling-of-publish-instances}
 
 L’instance de création doit pouvoir interroger les périphériques pour obtenir une pulsation et connaître l’état d’intégrité d’un périphérique connecté.
 
@@ -112,4 +112,4 @@ Une fois qu’un périphérique a été enregistré dans l’environnement de cr
 
 ### Étapes suivantes {#the-next-steps}
 
-Une fois que vous aurez compris la conception architecturale de la configuration de l’auteur et de la publication dans AEM Screens, reportez-vous à la section [Configuration de l’Auteur et de la Publication pour AEM Screens](author-and-publish.md) pour plus d’informations.
+Une fois que vous aurez compris la conception architecturale de la configuration de l’auteur et de la publication dans AEM Screens, reportez-vous à la section [Configuration de l’auteur et de la publication pour AEM Screens](author-and-publish.md) pour plus d’informations.
