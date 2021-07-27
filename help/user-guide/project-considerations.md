@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Cette page présente le deuxième volet d’une série de cinq articles, qui est
 
 Le tutoriel suivant couvre les éléments qui doivent être identifiés lors de la découverte du projet, ainsi que les contributions des parties prenantes pour évaluer le projet et préparer une conception adéquate.
 
-Les principaux composants requis pour réussir les déploiements de programmes de signalisation numérique sont les suivants :
+Les principaux composants requis pour réussir les déploiements de programmes de signalétique numérique sont les suivants :
 
 * Stratégie de contenu
 * Exigences opérationnelles
@@ -42,7 +42,7 @@ Les principaux composants requis pour réussir les déploiements de programmes d
 >
 >Il est important de définir une stratégie de contenu qui examine la manière dont l’application utilisera les ressources logicielles, matérielles et de connectivité pour obtenir la valeur souhaitée.
 
-## Résumé des points à prendre en compte dans un projet de signalisation numérique   {#summary-of-project-considerations-in-a-digital-signage}
+## Résumé des points à prendre en compte dans un projet de signalétique numérique  {#summary-of-project-considerations-in-a-digital-signage}
 
 Lors de l’élaboration d’une stratégie de contenu, plusieurs points sont à prendre en compte, dont les exigences matière de couches d’E/S, de types de ressources, de segments d’audience et de planification des tranches horaires.
 
