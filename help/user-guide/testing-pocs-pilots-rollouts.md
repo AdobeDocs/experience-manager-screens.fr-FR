@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -37,9 +37,9 @@ Ce tutoriel porte sur les points suivants relatifs à un déploiement réussi d�
 
 >[!NOTE]
 >
->Les cycles de vente standard pour le déploiement à l’échelle d’un système de signalisation numérique peuvent varier de 9 à 18 mois. De nombreux facteurs influent sur le calendrier final, notamment la façon dont le client final mesure le succès et le degré de réticence à la prise de risque de ses partenaires commerciaux lorsqu’il ajoute une nouvelle solution.
+>Les cycles de vente standard pour le déploiement à l’échelle d’un système de signalétique numérique peuvent varier de 9 à 18 mois. De nombreux facteurs influent sur le calendrier final, notamment la façon dont le client final mesure le succès et le degré de réticence à la prise de risque de ses partenaires commerciaux lorsqu’il ajoute une nouvelle solution.
 
-Par exemple, les intervenants d’un programme de signalisation numérique dans un environnement de vente au détail pourraient inclure : marketing en magasin, environnement du magasin ou marchandisage visuel, opérations en magasin, sécurité informatique, support informatique, le détaillant responsable de la catégorie de produits et son fournisseur, qui peuvent cofinancer la solution.
+Par exemple, les intervenants d’un programme de signalétique numérique dans un environnement de vente au détail pourraient inclure : marketing en magasin, environnement du magasin ou marchandisage visuel, opérations en magasin, sécurité informatique, support informatique, le détaillant responsable de la catégorie de produits et son fournisseur, qui peuvent cofinancer la solution.
 
 ## Résumé des principaux termes utilisés dans un plan de projet global {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
@@ -76,6 +76,6 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 
 ## La prochaine étape {#the-next-step}
 
-Une fois que vous aurez effectué des tests, des preuves de concept, des programmes pilotes et des déploiements, consultez le tutoriel suivant, qui aborde en détails la gestion de projet et les processus connexes.
+Une fois que vous aurez effectué des tests, des preuves de concept, des programmes pilotes et des déploiements, consultez le tutoriel suivant, qui aborde en détail la gestion de projet et les processus connexes.
 
 Accédez à **[Partie 4 : gestion de projet et déploiement](project-management-and-deployment.md)** pour plus d’informations.
