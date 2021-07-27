@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
    >[!NOTE]
    >Les lecteurs Chrome doivent être inscrits dans l’inscription d’entreprise et le lecteur Chrome doit être déployé à l’aide de la console de gestion de Chrome. Sinon, l’ID de ressource reviendra vide (par exemple, avec Chrome comme extension). Le nom de l’appareil n’est enregistré qu’au moment de l’inscription. Les modifications ultérieures ne seront pas prises en compte par Adobe Experience Manager (AEM).
 
-### Activation du mode kiosque    {#enabling-kiosk-mode}
+### Activation du mode kiosque {#enabling-kiosk-mode}
 
 Pour activer le mode de kiosque, procédez comme suit :
 
