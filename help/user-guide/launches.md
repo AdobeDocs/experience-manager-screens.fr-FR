@@ -15,7 +15,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1619'
 ht-degree: 100%
 
@@ -177,13 +177,13 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Modification du lancement Screens pour ajouter ou supprimer des canaux   {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modification du lancement Screens pour ajouter ou supprimer des canaux  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Après avoir créé le lancement, vous pouvez ajouter ou supprimer des canaux pour celui-ci à l’aide de l’option **Modifier le lancement**.
 
 Une fois que vous avez terminé, cliquez sur **Enregistrer** pour revenir au canal **FutureLaunch**.
 
-### Promotion manuelle du lancement Screens {#promote-the-screens-launch-manually}
+### Promotion manuelle du lancement Screens{#promote-the-screens-launch-manually}
 
 Vous pouvez promouvoir le lancement manuellement à l’aide de l’option **Convertir le lancement** depuis le panneau **LANCEMENTS EN ATTENTE**.
 
