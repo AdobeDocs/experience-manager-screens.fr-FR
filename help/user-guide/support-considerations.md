@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ Cette page présente la dernière partie qui conclut une série en 5 parties co
 >
 >* Déploiement du projet sur le terrain
 >* Vérification de la connectivité des périphériques et du fonctionnement entre le technicien chargé de l’installation et le centre d’exploitation de réseau
+
 >
->Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
+>
+Avant le début du Jour 2, il faut planifier les budgets en cours du cycle de vie.
 
 La planification comprend :
 
@@ -48,9 +50,9 @@ La planification comprend :
 Voici quelques points essentiels à prendre en compte pour l’assistance du Jour 2 :
 
 * Pour garantir l’harmonisation et une transition en douceur de la mise en œuvre à l’assistance opérationnelle, l’implémentateur AEM doit travailler avec l’intégrateur AV pour veiller à ce que des scripts d’assistance appropriés soient définis dans le plan d’assistance du Jour 2.
-* Des exigences telles que la gestion à distance des périphériques, la disponibilité du service d’assistance et le support technique sur site sont quasiment universelles à ce stade de l’évolution du secteur de la signalisation numérique. Au-delà de ces besoins de base, les intégrateurs AV doivent également explorer les variables de coût entre les modèles de surveillance et de d’assistance proactifs et réactifs.
+* Des exigences telles que la gestion à distance des périphériques, la disponibilité du service d’assistance et le support technique sur site sont quasiment universelles à ce stade de l’évolution du secteur de la signalétique numérique. Au-delà de ces besoins de base, les intégrateurs AV doivent également explorer les variables de coût entre les modèles de surveillance et de d’assistance proactifs et réactifs.
 
-* Des exigences telles que la gestion à distance des périphériques, la disponibilité du service d’assistance et le support technique sur site sont quasiment universelles à ce stade de l’évolution du secteur de la signalisation numérique. Au-delà de ces besoins de base, les intégrateurs AV doivent également explorer les variables de coût entre les modèles de surveillance et de d’assistance proactifs et réactifs.
+* Des exigences telles que la gestion à distance des périphériques, la disponibilité du service d’assistance et le support technique sur site sont quasiment universelles à ce stade de l’évolution du secteur de la signalétique numérique. Au-delà de ces besoins de base, les intégrateurs AV doivent également explorer les variables de coût entre les modèles de surveillance et de d’assistance proactifs et réactifs.
 * Pour garantir un succès durable, il est essentiel d’établir un contrat de niveau d’assistance du Jour 2 (également dénommé « SLA ») en partenariat avec l’intégrateur A/V. Les contrats de niveau de service détaillent les services d’assistance après le déploiement et permettent de définir les attentes des clients.
 * La base de connaissances est une ressource essentielle à une gestion efficace de plusieurs réseaux. SharePoint est une plate-forme couramment utilisée pour ce type de ressource. La base de connaissances comprend des questions et réponses pré-écrites que les agents des centres d’exploitation de réseau doivent suivre afin de garantir un traitement homogène des demandes de résolution des problèmes entrantes. Les bases de connaissances comprennent généralement des documents de référence pour les configurations du système et les emplacements des sites, dont des feuilles de calcul pour le matériel et des documents de référence pour les logiciels des systèmes.
 * Les capacités de surveillance et de gestion dépendent largement des systèmes d’exploitation et des capacités d’écran du lecteur multimédia. Les systèmes d’exploitation Windows offrent le niveau de détail le plus élevé. Pour les déploiements exécutés sur des périphériques Android ou iOS, on a recours à la gestion des périphériques mobiles (également appelée MDM).
