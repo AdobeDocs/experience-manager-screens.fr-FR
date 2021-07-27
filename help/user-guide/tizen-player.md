@@ -6,7 +6,7 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 
-## Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung  {#enroll-tizen-device-rms}
+## Enregistrement du périphérique Tizen auprès du Remote Management Service (RMS) Samsung {#enroll-tizen-device-rms}
 
 Suivez les étapes ci-dessous pour enregistrer le périphérique Tizen auprès du Remote Management Service (RMS) Samsung et configurer à distance le lanceur d’URL :
 
