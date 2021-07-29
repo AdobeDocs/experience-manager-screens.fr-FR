@@ -14,10 +14,10 @@ feature: Administration de Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1074'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 98%
 
 ---
 
@@ -73,6 +73,9 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 ## Nommage du lecteur Windows {#name-windows}
 
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement le contenu approprié.
+
+>[!NOTE]
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
