@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Devenez opérationnel avec une expérience de signalétique numérique simple, grâce à [Démarrage rapide d’AEM Screens](kickstart-for-aem-screens.md).
 
-Pour savoir comment configurer et créer votre projet AEM Screens dans AEM as a Cloud Service, voir [ici](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
+Pour savoir comment configurer et créer votre projet AEM Screens dans AEM as a Cloud Service, consultez [cette page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=fr).
 
 ## Présentation {#overview}
 
