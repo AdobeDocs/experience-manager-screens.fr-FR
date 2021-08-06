@@ -7,10 +7,10 @@ feature: Administration d’AEM Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 68%
+source-wordcount: '582'
+ht-degree: 64%
 
 ---
 
@@ -28,16 +28,15 @@ La page suivante décrit les instructions de configuration du Dispatcher pour un
 
 ## Prérequis {#prerequisites}
 
->[!IMPORTANT]
->Avant de configurer le Dispatcher pour un projet AEM Screens, vous devez connaître le Dispatcher au préalable.
->Pour en savoir plus, consultez [Configuration du Dispatcher](https://docs.adobe.com/content/help/fr-FR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Avant de configurer le Dispatcher pour un projet AEM Screens, vous devez connaître le Dispatcher au préalable.
+Pour en savoir plus, consultez [Configuration du Dispatcher](https://docs.adobe.com/content/help/fr-FR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
 ## Configuration de Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Reportez-vous à [Configurations de Dispatcher pour la version de manifeste v3]{#configuring-dispatcherv3} pour la version de manifeste V3.
+>Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Reportez-vous à [Configurations de Dispatcher pour la version de manifeste v3](#configuring-dispatcherv3) pour la version de manifeste v3.
 
-Les lecteurs/périphériques AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/périphériques AEM Screens.
+Les lecteurs ou appareils AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/périphériques AEM Screens.
 
 Suivez les étapes ci-dessous pour configurer le Dispatcher pour un projet AEM Screens.
 
@@ -138,7 +137,7 @@ Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatcher
 
 ## Conditions préalables pour Manifest version v3{#prerequisites3}
 
-Veillez à respecter ces deux conditions préalables avant d’utiliser la configuration de Dispatcher pour AEM Screens :
+Veillez à respecter ces deux conditions préalables avant de configurer Dispatcher (manifest version v3) pour AEM Screens :
 
 * Vérifiez que vous utilisez `v3 manifests`. Accédez à `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` et assurez-vous que `Enable ContentSync Cache` n’est pas coché.
 
