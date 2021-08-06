@@ -7,7 +7,7 @@ feature: Administration d’AEM Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 64%
@@ -135,7 +135,7 @@ Pour activer le cache des ressources afin qu’elles soient diffusées à partir
 
 Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatchers qui frontent les instances de publication pour le fonctionnement de Screens.
 
-## Conditions préalables pour Manifest version v3{#prerequisites3}
+### Conditions préalables pour Manifest version v3{#prerequisites3}
 
 Veillez à respecter ces deux conditions préalables avant de configurer Dispatcher (manifest version v3) pour AEM Screens :
 
