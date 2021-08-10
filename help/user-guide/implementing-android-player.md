@@ -15,9 +15,9 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’e
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Android, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Android, procédez comme suit :
 
