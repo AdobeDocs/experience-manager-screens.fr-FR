@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Suivez les étapes ci-dessous :
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Tizen, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 
