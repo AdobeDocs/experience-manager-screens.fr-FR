@@ -8,13 +8,13 @@ role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Configurations du Dispatcher pour AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Configurations du Dispatcher pour AEM Screens {#dispatcher-configurations-for-aem-screens}
 
 Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager.
 
@@ -26,15 +26,15 @@ La page suivante décrit les instructions de configuration du Dispatcher pour un
 >
 >En l’absence de Dispatcher, désactivez la servlet d’enregistrement dans la liste des composants OSGi.
 
-Avant de configurer le Dispatcher pour un projet AEM Screens, vous devez connaître le Dispatcher au préalable.
-Pour en savoir plus, consultez [Configuration du Dispatcher](https://docs.adobe.com/content/help/fr-FR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Avant de configurer Dispatcher pour un projet AEM Screens, vous devez connaître cet outil.
+Pour en savoir plus, consultez [Configuration de Dispatcher](https://docs.adobe.com/content/help/fr-FR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Configuration de Dispatcher pour la version v2 du manifeste {#configuring-dispatcher}
+## Configuration de Dispatcher pour Manifest version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Reportez-vous à [Configurations de Dispatcher pour la version de manifeste v3](#configuring-dispatcherv3) pour la version de manifeste v3.
+>Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Reportez-vous à [Configurations de Dispatcher pour Manifest version v3](#configuring-dispatcherv3) pour la version v3 de Manifest.
 
-Les lecteurs ou appareils AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/périphériques AEM Screens.
+Les lecteurs ou périphériques AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/périphériques AEM Screens.
 
 Suivez les étapes ci-dessous pour configurer le Dispatcher pour un projet AEM Screens.
 
@@ -129,17 +129,17 @@ Pour activer le cache des ressources afin qu’elles soient diffusées à partir
     }
 ```
 
-## Configuration de Dispatcher pour Manifest version v3{#configuring-dispatcherv3}
+## Configuration de Dispatcher pour Manifest version v3 {#configuring-dispatcherv3}
 
-Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatchers qui frontent les instances de publication pour le fonctionnement de Screens.
+Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatchers placés devant les instances de publication pour le fonctionnement de Screens.
 
-### Conditions préalables pour Manifest version v3{#prerequisites3}
+### Conditions préalables pour Manifest version v3 {#prerequisites3}
 
-Veillez à respecter ces deux conditions préalables avant de configurer Dispatcher (manifest version v3) pour AEM Screens :
+Veillez à respecter ces deux conditions préalables avant de configurer Dispatcher (Manifest version v3) pour AEM Screens :
 
 * Vérifiez que vous utilisez `v3 manifests`. Accédez à `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` et assurez-vous que `Enable ContentSync Cache` n’est pas coché.
 
-* Assurez-vous que l’agent de vidage du dispatcher est configuré à `/etc/replication/agents.publish/dispatcher1useast1Agent` dans l’instance de publication.
+* Assurez-vous que l’agent de vidage de Dispatcher est configuré dans le chemin `/etc/replication/agents.publish/dispatcher1useast1Agent` de l’instance de publication.
 
    ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -175,12 +175,12 @@ Veillez à respecter ces deux conditions préalables avant de configurer Dispatc
 
 * Ajoutez `/allowAuthorized "1"` à la section `/cache` dans `publish_farm.any`.
 
-* Tous les lecteurs Screens utiliseront une session authentifiée pour se connecter à AEM (auteur/publication). Dispatcher prêt à l’emploi ne met pas en cache ces URL. Nous devons donc les activer.
+* Tous les lecteurs Screens utiliseront une session authentifiée pour se connecter à AEM (auteur/publication). Par défaut, Dispatcher ne met pas en cache ces URL. Nous devons donc les activer.
 
 * Ajoutez `statfileslevel "10"` à la section `/cache` dans `publish_farm.any`
-Cela prend en charge la mise en cache de jusqu’à 10 niveaux à partir de la docroot du cache et invalidez en conséquence lorsque le contenu est publié plutôt que d’invalider tout. N’hésitez pas à modifier ce niveau en fonction de la profondeur de votre structure de contenu.
+Cela prend en charge la mise en cache de 10 niveaux maximum à partir de la racine docroot du cache et invalide en conséquence lorsque le contenu est publié plutôt que de tout invalider. N’hésitez pas à modifier ce niveau en fonction de la profondeur de votre structure de contenu.
 
-* Ajoutez ce qui suit à `/invalidate section in publish_farm.any`
+* Ajoutez le code suivant à `/invalidate section in publish_farm.any`
 
    ```
    /0003 {
@@ -189,7 +189,7 @@ Cela prend en charge la mise en cache de jusqu’à 10 niveaux à partir de la d
    }
    ```
 
-* Ajoutez les règles suivantes à la section `/rules` dans `/cache` dans `publish_farm.any` ou dans un fichier inclus à partir de `publish_farm.any` :
+* Ajoutez les règles suivantes à la section `/rules` dans `/cache` dans `publish_farm.any` ou dans un fichier inclus à partir de `publish_farm.any` :
 
    ```
    ## Don't cache CSRF login tokens
