@@ -1,24 +1,24 @@
 ---
 title: Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics
-seo-title: Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics
+seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
 description: Consultez cette page pour savoir comment incorporer une application interactive monopage en utilisant REACT (ou Angular) à l’aide de l’éditeur d’applications monopages AEM qui peut être configuré par des professionnels dans AEM et comment intégrer votre application interactive à Adobe Analytics hors ligne.
-seo-description: Consultez cette page pour savoir comment incorporer une application interactive monopage en utilisant REACT (ou Angular) à l’aide de l’éditeur d’applications monopages AEM qui peut être configuré par des professionnels dans AEM et comment intégrer votre application interactive à Adobe Analytics hors ligne.
+seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Développement dans Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 82%
 
 ---
-
 
 # Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -67,14 +67,12 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
 
 1. Créez un projet AEM Screens. Voir [Création et gestion de projets](creating-a-screens-project.md) pour en savoir plus.
 
+1. Créez un **Canal d’application** (de préférence) (ou modèle 1x1 ou canal multizone) dans le dossier **Canaux** de votre projet Screens.
+
    >[!NOTE]
-   >
-   >Créez un **Canal de séquence** lors de la création d’un canal dans le dossier **Canaux** de votre projet Screens.
-   >
-   >
+   >**Les** canaux de séquence sont déconseillés pour ce cas d’utilisation, car ils sont intrinsèquement accompagnés d’une logique de diaporama qui va entrer en conflit avec la nature interactive de l’expérience.
    >Voir [Création et gestion des canaux](managing-channels.md) pour plus d’informations.
 
-   ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
 1. Modifiez un canal de séquence et faites glisser et déposez un composant de page incorporé.
 
@@ -84,15 +82,21 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
    >
    >Veillez à ajouter l’événement d’interaction utilisateur lors de l’attribution du canal à l’affichage.
 
-1. Cliquez sur **Modifier** dans la barre d’actions pour modifier les propriétés du canal de séquence.
+1. Cliquez sur **Modifier** dans la barre d’actions pour modifier les propriétés du canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Faites glisser et déposez le composant **Page incorporée** et sélectionnez la page d’accueil sous l’application mysamplespa, par exemple ***/content/mysamplespa/en/home***.
+1. Faites glisser et déposez le composant **Page incorporée** ou réutilisez le composant existant dans un canal d’application, puis sélectionnez la page d’accueil sous l’application mysamplespa, par exemple ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Enregistrez un lecteur sur ce projet. Vous devriez maintenant voir votre application interactive s’exécuter sur AEM Screens.
+1. Attribuer le canal à un affichage
+
+   >[!NOTE]
+   >Veillez à ajouter l’événement d’interaction utilisateur lors de l’attribution du canal à l’affichage.
+
+1. 
+   1. Enregistrez un lecteur sur ce projet et affectez-le à l’affichage. Vous devriez maintenant pouvoir voir votre application interactive s’exécuter sur AEM Screens.
 
    Reportez-vous à la section [Enregistrement du périphérique](device-registration.md) pour en savoir plus sur l’enregistrement d’un périphérique.
 
@@ -138,4 +142,3 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
    >[!NOTE]
    >
    >Le micrologiciel du lecteur ajoute automatiquement plus de détails sur le lecteur et son environnement d’exécution aux données d’analyse personnalisées que vous envoyez. Il se peut donc que vous n’ayez pas à capturer les détails du système d’exploitation/du périphérique de bas niveau, sauf si cela est absolument nécessaire. Vous devez simplement vous concentrer sur les données d’analyse de l’entreprise.
-

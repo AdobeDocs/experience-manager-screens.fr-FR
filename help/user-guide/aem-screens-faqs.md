@@ -1,20 +1,18 @@
 ---
 title: Questions fréquentes sur AEM Screens
-seo-title: Questions fréquentes sur AEM Screens
+seo-title: AEM Screens FAQs
 description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
-seo-description: Consultez cette page pour obtenir des réponses aux questions fréquentes concernant un projet AEM Screens.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Signalétique numérique, contenu
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1903'
-ht-degree: 100%
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+workflow-type: tm+mt
+source-wordcount: '1872'
+ht-degree: 99%
 
 ---
-
 
 # Questions fréquentes sur AEM Screens {#aem-screens-faqs}
 
@@ -25,7 +23,7 @@ La section suivante permet de répondre à une partie des questions fréquemment
 >[!NOTE]
 >Liste des contrôles obligatoires qui doivent être testés par l’assistance principale ou l’assistance côté client avant de soulever un problème.
 
-### 1. Quelles doivent être les étapes de dépannage initiales pour un client rencontrant un problème d’écran noir ou de contenu impossible à lire ? {#troubleshooting-blank-screen}
+### 1. Quelles doivent être les étapes de dépannage initiales pour un client rencontrant un problème d’écran noir ou de contenu impossible à lire ?  {#troubleshooting-blank-screen}
 
 * Vérifiez si l’aperçu de canal fonctionne.
 * Vérifiez si l’aperçu d’affichage fonctionne.
@@ -43,19 +41,19 @@ Tous les autres contenus, tels que les canaux ou les plannings, auront une prior
 
 ## Gestion de canaux {#channel-management}
 
-### 1. Quelle est la différence entre un canal en ligne et un canal hors ligne ? {#what-is-the-difference-between-an-online-and-an-offline-channel}
+### 1. Quelle est la différence entre un canal en ligne et un canal hors ligne ?  {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
 Un ***canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, alors qu’un ***canal hors ligne*** affiche le contenu en mémoire cache.
 
-### 2. Comment mettre un canal en ligne ? {#how-do-i-make-a-channel-online}
+### 2. Comment mettre un canal en ligne ?  {#how-do-i-make-a-channel-online}
 
 Sélectionnez le canal, puis accédez aux propriétés correspondantes depuis la barre d’actions. Cochez **Mode Développeur (forcer la mise en ligne du canal)** sous l’onglet **Canal** pour mettre le canal en ligne.
 
-### 3. À quoi le champ Rôle du canal sert-il ? {#what-is-the-use-of-the-channel-role-field}
+### 3. À quoi le champ Rôle du canal sert-il ?  {#what-is-the-use-of-the-channel-role-field}
 
 Le champ Rôle du canal représente l’abstraction du canal réel exécuté pour permettre à l’auteur de se concentrer directement sur l’expérience générique. Vous pouvez le considérer comme un type de balise qui identifie de manière unique le canal dans son contexte (affichage ou planning).
 
-### 4. Comment la résolution réelle du canal se produit-elle ? {#how-does-actual-channel-resolution-happen}
+### 4. Comment la résolution réelle du canal se produit-elle ?  {#how-does-actual-channel-resolution-happen}
 
 *Références statiques* : la résolution suit simplement le chemin indiqué.
 
@@ -70,25 +68,25 @@ Etc. jusqu’à ce que vous accédiez au dossier des emplacements et que vous vo
 
 ## Enregistrement de périphériques {#device-registration}
 
-### 1. Si je détecte des points de terminaison, tels que des requêtes d’intégration et d’enregistrement de périphériques, je peux créer un script pour un grand nombre de périphériques et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Si je détecte des points de terminaison, tels que des requêtes d’intégration et d’enregistrement de périphériques, je peux créer un script pour un grand nombre de périphériques et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ?  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 L’enregistrement n’est actuellement possible que sur l’instance d’auteur. Bien qu’il ne soit pas authentifié, le service d’enregistrement crée uniquement un périphérique en attente dans AEM ; il n’enregistre pas réellement le périphérique ni n’affecte aucun affichage.
 
 Pour enregistrer un périphérique (c’est-à-dire créer un utilisateur pour le périphérique dans AEM), vous devez tout de même vous authentifier auprès de l’application et suivre manuellement les instructions de l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, un utilisateur malveillant peut créer plusieurs périphériques en attente, mais il ne peut pas les enregistrer sans connexion à AEM.
 
-### 2. Existe-t-il un moyen de transformer les requêtes HTTP GET en requêtes HTTP POST avec un type d’authentification donné ? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. Existe-t-il un moyen de transformer les requêtes HTTP GET en requêtes HTTP POST avec un type d’authentification donné ?  {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La requête d’enregistrement consiste dans une requête POST.
 
 Il est recommandé d’obtenir l’ID du périphérique de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s’agit pas pour l’instant d’un problème de sécurité. Notez que la requête GET est utilisée en l’absence de modification d’état sur le serveur et que la requête POST est appliquée dans le cas contraire.
 
-### 3. Existe-t-il un moyen de refuser une requête d’enregistrement d’appareil ? {#is-there-a-way-to-decline-a-device-registration-request}
+### 3. Existe-t-il un moyen de refuser une requête d’enregistrement d’appareil ?  {#is-there-a-way-to-decline-a-device-registration-request}
 
-Vous ne pouvez pas refuser les requêtes d’enregistrement. Elles doivent au contraire expirer après un délai configuré dans la [console web Adobe Experience Manager](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
+Vous ne pouvez pas refuser les requêtes d’enregistrement. Au lieu de cela, les demandes d’enregistrement doivent expirer après un délai configuré dans `Adobe Experience Manager Web Console`. Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
 
 ## Rapports de surveillance et d’intégrité des périphériques {#device-monitoring-and-health-reports}
 
-### 1. Comment résoudre le problème si mon lecteur AEM Screens affiche un écran noir ? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. Comment résoudre le problème si mon lecteur AEM Screens affiche un écran noir ?  {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
 Vérifiez les possibilités suivantes pour résoudre le problème de l’écran noir :
 
@@ -96,7 +94,7 @@ Vérifiez les possibilités suivantes pour résoudre le problème de l’écran 
 * Le canal ne comporte aucun contenu.
 * Les ressources ne sont pas programmées pour apparaître à la date du jour.
 
-### 2. Que faire si je ne peux pas enregistrer le lecteur AEM Screens et qu’il présente le statut d’échec ? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. Que faire si je ne peux pas enregistrer le lecteur AEM Screens et qu’il présente le statut d’échec ?  {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
 Vous devez activer le filtre Autoriser vide du référent Apache Sling. Cette activation est nécessaire pour optimiser le fonctionnement du protocole de contrôle entre le lecteur et le serveur AEM Screens.
 
@@ -104,17 +102,17 @@ Vous devez activer le filtre Autoriser vide du référent Apache Sling. Cette ac
 1. Cochez l’option **allow.empty**.
 1. Cliquez sur **Enregistrer**.
 
-### 3. Comment résoudre le problème si le périphérique et les journaux de la console affichent respectivement les messages d’erreur « ÉCHEC » et « ENAME_NOT_FOUND » pendant l’enregistrement du lecteur AEM Screens ? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. Comment résoudre le problème si le périphérique et les journaux de la console affichent respectivement les messages d’erreur « ÉCHEC » et « ENAME_NOT_FOUND » pendant l’enregistrement du lecteur AEM Screens ?  {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
 Ce problème peut se produire si le lecteur ne parvient pas à trouver le nom DNS du serveur AEM Screens. Vous pouvez essayer d’utiliser l’adresse IP pour vous connecter. Pour obtenir l’adresse IP du serveur, utilisez la syntaxe suivante : *arp &lt;nom_dns_serveur>*.
 
-### 4. AMS recommande-t-il de mettre en œuvre un outil de surveillance Android sur tous les périphériques ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS recommande-t-il de mettre en œuvre un outil de surveillance Android sur tous les périphériques ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ?  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 Un outil de surveillance Android multiplateforme utilisant des API Android pures est déjà disponible dans ce kit. Aucun autre logiciel n’est nécessaire, mais, selon l’appareil employé, vous devrez peut-être signer à nouveau le fichier apk Android afin d’obtenir des privilèges système pour un cycle d’alimentation complet (API PowerManager). En l’absence de nouvelle signature avec les clés du fabricant, ce kit peut fermer, puis relancer l’application, mais pas le cycle d’alimentation.
 
 Pour plus d’informations sur la mise en œuvre du lecteur Android, reportez-vous à [**Mise en œuvre du lecteur Android**](implementing-android-player.md).
 
-### 5. Quels outils (logiciels) tiers de surveillance et d’alerte à distance Adobe/AMS recommande-t-il d’utiliser pour surveiller chaque périphérique ? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Quels outils (logiciels) tiers de surveillance et d’alerte à distance Adobe/AMS recommande-t-il d’utiliser pour surveiller chaque périphérique ?   {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Selon les résultats que vous souhaitez obtenir en dehors de la surveillance et des alertes, un nouveau service de notifications AEM Screens vous informe si un périphérique n’a pas envoyé de commande ping depuis longtemps. Les outils tiers dépendent du système d’exploitation utilisé et de ses fonctionnalités, ainsi que des besoins spécifiques du client.
 
@@ -122,7 +120,7 @@ Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’ac
 
 ## Lecteur AEM Screens {#aem-screens-player}
 
-### 1. Comment installer le lecteur Chrome OS en tant que module du navigateur Chrome ? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Comment installer le lecteur Chrome OS en tant que module du navigateur Chrome ?  {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome réel. Pour l’installer, procédez comme suit :
 
@@ -135,11 +133,11 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://applications***.
 1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
 
-### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier via l’instance de publication avec une balise d’erreur personnalisée ? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
+### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier via l’instance de publication avec une balise d’erreur personnalisée ?  {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
 Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json*** au démarrage et lorsqu’il affiche un message d’erreur 404. Il lance une requête d’authentification auprès de l’instance de publication. Si cette dernière comporte une balise d’erreur personnalisée, veillez à retourner le code de statut 404 pour l’utilisateur anonyme sur ***/content/screens/svc.ping.json***.
 
-### 3. Comment configurer l’écran de l’appareil pour qu’il reste actif dans un lecteur Android ? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3. Comment configurer l’écran de l’appareil pour qu’il reste actif dans un lecteur Android ?  {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme suit :
 
@@ -148,7 +146,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
@@ -188,7 +186,7 @@ Vous pouvez obtenir les informations sur l’affichage et le périphérique via�
 
 ## Conseils pratiques de dépannage {#general-troubleshooting-tips}
 
-### 1. Comment désactiver Livefyre pour éviter de recevoir un message d’erreur d’instance d’auteur et/ou de publication dans Screens ? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
+### 1. Comment désactiver Livefyre pour éviter de recevoir un message d’erreur d’instance d’auteur et/ou de publication dans Screens ?  {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
 Pour désactiver Livefyre afin d’éviter les erreurs de journal :
 
@@ -204,11 +202,9 @@ Pour désactiver Livefyre afin d’éviter les erreurs de journal :
    * Ajoutez une nouvelle propriété de *type* booléenne *activée*.
    * Définissez la **propriété activée** sur **false**.
 
-### 2. Comment ajouter des informations d’index Oak ? {#add-oak-index-info}
+### 2. Comment ajouter des informations d’index Oak ?  {#add-oak-index-info}
 
 AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.
 Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=fr#configuring-the-indexes).
 
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
