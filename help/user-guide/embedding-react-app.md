@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 82%
@@ -90,13 +90,12 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Attribuer le canal à un affichage
+1. Attribuez le canal à un affichage.
 
    >[!NOTE]
    >Veillez à ajouter l’événement d’interaction utilisateur lors de l’attribution du canal à l’affichage.
 
-1. 
-   1. Enregistrez un lecteur sur ce projet et affectez-le à l’affichage. Vous devriez maintenant pouvoir voir votre application interactive s’exécuter sur AEM Screens.
+1. Enregistrez un lecteur sur ce projet et affectez-le à l’affichage. Vous devriez maintenant pouvoir voir votre application interactive s’exécuter sur AEM Screens.
 
    Reportez-vous à la section [Enregistrement du périphérique](device-registration.md) pour en savoir plus sur l’enregistrement d’un périphérique.
 
