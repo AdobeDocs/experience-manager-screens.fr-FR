@@ -3,14 +3,14 @@ title: Activation au niveau du canal - Lecture d’un événement unique
 seo-title: Activation au niveau du canal - Lecture d’un événement unique
 description: Suivez ce guide pour comprendre l’activation au niveau du canal à l’aide de la lecture d’événement unique.
 topic-tags: authoring
-feature: Création de canaux, Screens
+feature: Création d’écrans, canaux
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1793'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,8 +65,11 @@ L’image ci-après montre le projet **Channel Level Activation** avec les canau
 >Pour plus d’informations sur la création d’un projet et la création d’un canal de séquence, reportez-vous aux ressources ci-dessous :
 >
 >* [Création et gestion des projets](creating-a-screens-project.md)
-
+   >
+   >
 * [Gestion d’un canal](managing-channels.md)
+
+>
 
 
 
@@ -87,7 +90,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   Pour savoir comment créer un emplacement, reportez-vous à **[Création et gestion des emplacements](managing-locations.md)**.
+   >
+   >Pour savoir comment créer un emplacement, reportez-vous à **[Création et gestion des emplacements](managing-locations.md)**.
 
 1. **Créer un affichage sous Emplacement**
 
@@ -113,7 +117,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   Vous pouvez également affecter un canal à partir du tableau de bord d’affichage en accédant à **Channel Level Activation** —> **Emplacements** —> **Région** —> **RegionDisplay** et en cliquant sur **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   >
+   >Vous pouvez également affecter un canal à partir du tableau de bord d’affichage en accédant à **Channel Level Activation** —> **Emplacements** —> **Région** —> **RegionDisplay** et en cliquant sur **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    De même, affectez le canal **TargetedSinglePlay** afin qu’il soit affiché** :
 
