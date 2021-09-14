@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 93%
+source-wordcount: '334'
+ht-degree: 42%
 
 ---
 
@@ -29,30 +29,23 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 9 septembre
 
 ### Nouveautés {#what-is-new}
 
-* **Verrouillage d’une page dans un canal AEM Screens**
+* **Prise en charge des miniatures pour les vidéos**
 
-   AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, déjà implémentée dans AEM Sites. Adobe Experience Manager (AEM) vous permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cela s’avère utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant quelque temps.
+   La prise en charge des miniatures pour les vidéos dans est désormais prise en charge dans AEM Screens. Un auteur de contenu peut définir une miniature pour les vidéos afin que l’image puisse être utilisée comme espace réservé et tester correctement la lecture et le ciblage du contenu, pendant que la vidéo réelle est en cours de finalisation par l’équipe appropriée. L’image peut également être utilisée, au cas où la lecture de la vidéo échouerait.
+Pour plus d’informations, voir Prise en charge des miniatures pour les vidéos .
 
-* **Nommage d’un appareil de lecteur AEM Screens**
+* **Surveillance de lecture de base**
 
-   Les lecteurs AEM Screens comprennent désormais la possibilité d’envoyer un nom d’appareil à Adobe Experience Manager (AEM).
-Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer un appareil, un nom d’utilisateur généré par le système est saisi dans le champ du titre. Un client peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
+   AEM Screens prend désormais en charge la surveillance de lecture de base. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). En fonction des mesures, il permet de détecter différents cas de périphérie (expérience bloquée, écran vide, problème de planification, etc.). Cette fonctionnalité permet à l’équipe de surveiller à distance si un lecteur lit correctement du contenu, améliore la réactivité aux écrans vierges ou aux expériences rompues sur le champ et réduit le risque d’afficher une expérience rompue à l’utilisateur final.
+Pour plus d’informations, voir Surveillance de lecture de base .
 
-   Reportez-vous à la documentation suivante pour savoir comment configurer le nom dans chaque système d’exploitation pris en charge :
+* **Mises à jour du rapport d’affectation de contenu**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Génération de manifeste**
-
-   Génération plus rapide d’un manifeste de canal avec de meilleures performances, permettant de diminuer l’allocation de ressources nécessaire pour le serveur.
 
 ### Correctifs {#bug-fixes}
 
-* Le lecteur affichait un écran noir lors du passage à un canal contenant une séquence incorporée dynamique.
-* Les lecteurs Screens bloquent désormais le passage vers un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
+
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
