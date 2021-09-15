@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 42%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -41,6 +41,10 @@ Pour plus d’informations, voir Surveillance de lecture de base .
 
 * **Mises à jour du rapport d’affectation de contenu**
 
+* **Prise en charge des manifeste V3**
+
+   Vous pouvez désormais configurer Dispatcher pour Manifest version v3. Pour plus d’informations, voir [Configuration de Dispatcher pour la version de manifeste v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) .
+De plus, si vous utilisez des composants personnalisés dans le cadre de manifestes v3, voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Correctifs {#bug-fixes}
