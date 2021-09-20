@@ -2,7 +2,7 @@
 title: Prise en charge des miniatures pour les vidéos dans AEM Screens
 description: Cette page décrit comment ajouter la prise en charge des miniatures pour les vidéos dans Screens.
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -31,7 +31,6 @@ La prise en charge des miniatures vous permet d’effectuer les opérations suiv
 Suivez les étapes ci-dessous pour utiliser des miniatures dans les vidéos :
 
 1. Accédez à un canal Screens existant ou créez-en un.
-
 
 1. Sélectionnez le canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 
