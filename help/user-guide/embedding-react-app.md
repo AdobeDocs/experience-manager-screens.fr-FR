@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -67,10 +67,10 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
 
 1. Créez un projet AEM Screens. Voir [Création et gestion de projets](creating-a-screens-project.md) pour en savoir plus.
 
-1. Créez un **Canal d’application** (de préférence) (ou modèle 1x1 ou canal multizone) dans le dossier **Canaux** de votre projet Screens.
+1. Créez un **Canal d’application** (de préférence) (ou un modèle 1x1 ou un canal multizone) dans le dossier **Canaux** de votre projet Screens.
 
    >[!NOTE]
-   >**Les** canaux de séquence sont déconseillés pour ce cas d’utilisation, car ils sont intrinsèquement accompagnés d’une logique de diaporama qui va entrer en conflit avec la nature interactive de l’expérience.
+   >Les **canaux de séquence** sont déconseillés pour ce cas d’utilisation, car ils sont intrinsèquement accompagnés d’une logique de diaporama qui va entrer en conflit avec la nature interactive de l’expérience.
    >Voir [Création et gestion des canaux](managing-channels.md) pour plus d’informations.
 
 
@@ -86,7 +86,7 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Faites glisser et déposez le composant **Page incorporée** ou réutilisez le composant existant dans un canal d’application, puis sélectionnez la page d’accueil sous l’application mysamplespa, par exemple ***/content/mysamplespa/en/home***.
+1. Faites un glisser-déposer du composant **Page incorporée** ou réutilisez le composant existant dans un canal d’application, puis sélectionnez la page d’accueil sous l’application mysamplespa, par exemple ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
