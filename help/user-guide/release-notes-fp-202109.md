@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 19%
+source-wordcount: '763'
+ht-degree: 18%
 
 ---
 
@@ -40,6 +40,8 @@ Pour plus d’informations, voir Prise en charge des miniatures pour les vidéos
 Pour plus d’informations, voir Surveillance de lecture de base .
 
 * **Mises à jour du rapport d’affectation de contenu**
+
+   Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les entités améliorées liées au lecteur, telles que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
 
 * **Prise en charge des manifeste V3**
 
