@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 34%
+source-wordcount: '720'
+ht-degree: 19%
 
 ---
 
@@ -49,11 +49,85 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 ### Correctifs {#bug-fixes}
 
+**Côté lecteur**
+
+* Résolution des erreurs de mise en cache des fichiers en remplaçant les ressources par des rendus.
+
+* Les lecteurs n’exposent désormais que les rendus de ressources, si le mappage de rendu est présent.
+
+* Vous pouvez désormais configurer des alertes de slack en fonction des journaux de scunk.
+
+* Amélioration afin de vous authentifier à nouveau si la réponse n’est pas un fichier JSON valide.
+
+* Les noms et rôles des canaux numériques étaient laissés vide.
+
+* Téléchargez des rendus optimisés via SmartSync.
+
+* Transforme le mappage en liste de clés de rendu.
+
+* Supprimez l’accès à cmd.exe et reg.exe dans le lecteur Windows.
+
+* Limitez les appels de jeton csrf.
+
+* Un lecteur doit signaler son dernier événement de lecture réussi.
+
+* Un lecteur doit signaler son état de lecture.
+
+* Le lecteur ne retélécharge pas les ressources lorsque `ALL` le cache est effacé.
+
+* En tant qu’administrateur du lecteur, vous pouvez désormais choisir un nom de lecteur.
+
+* La suppression de l’affectation de canal de l’affichage n’est pas répercutée sur le lecteur.
+
+* Si le lecteur est rechargé pendant le téléchargement de la mise à jour du canal, le lecteur ignore la mise à jour.
+
+* Le composant de page incorporé ne respecte pas l’événement tactile.
+
+* La mise en service à distance du lecteur Tizen est désormais prise en charge.
+
+**Côté serveur**
+
+* La vidéo cible ne s’affiche pas
+* Condition de race lors de la diffusion des données d&#39;affichage aux séquences.
+
+* L’aperçu de canal ne fonctionne pas pour les canaux contenant des vidéos.
+
+* Le mode Aperçu s’affiche vide pour le canal d’écran partagé.
+
+* Les miniatures vidéo s’affichent vides avec les rendus adaptatifs activés.
+
+* Mettre automatiquement à jour le manifeste du canal si la page référencée est publiée.
+
+* Canaux JSON n’inclut pas de canaux personnalisés (#942)
+
+* Les périphériques supprimés ne bloquent désormais pas la file d’attente de réplication Screens.
+
+* Le manifeste ne contient pas de contenu ciblé ni de pages incorporées Sites.
+
+* Nouveau composant d’image principal non ajouté au manifeste de canal.
+
+* Le téléchargement de rendus optimisés via SmartSync est désormais pris en charge.
+
+* Lire le rendu optimisé pour toutes les ressources.
+
+* Ajout de la prise en charge de plusieurs types de fournisseurs de contenu
+
+* La stratégie de lecture de séquence incorporée a été rompue et cela a maintenant été corrigé.
+
+* Manifeste hors ligne utilisant le paramètre de requête `wcmmode` pour l’entrée html, ce qui rend la mise en cache impossible.
+
+* Une séquence incorporée dynamique vide génère parfois un écran vide.
+
+* Un lecteur doit signaler son état de lecture.
+
+* La vidéo est lue dans `Tiny mode` et n’est pas lue en plein écran sur l’appareil.
+
+* Les mots de passe OSGi sont visibles en texte brut.
 
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 8 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 9 :
 
 * ChromeOS
 * Windows
