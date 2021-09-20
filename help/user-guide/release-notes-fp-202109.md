@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour du Feature Pack 202109
-description: '"Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 22 septembre 2021."'
+description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 23 septembre 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 34%
@@ -25,7 +25,7 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.9 à par
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202109 d’AEM Screens est le 9 septembre 2021.
+La date de publication du Feature Pack 202109 d’AEM Screens est le 23 septembre 2021.
 
 ### Nouveautés {#what-is-new}
 
