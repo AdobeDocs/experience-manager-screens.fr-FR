@@ -8,9 +8,9 @@ role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1872'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Il est recommandé d’obtenir l’ID du périphérique de la session au lieu de
 
 ### 3. Existe-t-il un moyen de refuser une requête d’enregistrement d’appareil ?  {#is-there-a-way-to-decline-a-device-registration-request}
 
-Vous ne pouvez pas refuser les requêtes d’enregistrement. Au lieu de cela, les demandes d’enregistrement doivent expirer après un délai configuré dans `Adobe Experience Manager Web Console`. Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
+Vous ne pouvez pas refuser les requêtes d’enregistrement. Au lieu de cela, les demandes d’enregistrement doivent expirer au-delà d’un délai configuré dans `Adobe Experience Manager Web Console`. Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
 
 ## Rapports de surveillance et d’intégrité des périphériques {#device-monitoring-and-health-reports}
 
