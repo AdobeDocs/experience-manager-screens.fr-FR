@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 18%
 
 ---
@@ -59,17 +59,15 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Vous pouvez désormais configurer des alertes de slack en fonction des journaux de scunk.
 
-* Amélioration afin de vous authentifier à nouveau si la réponse n’est pas un fichier JSON valide.
+* Amélioration du ping pour la réauthentification si la réponse n’est pas un fichier JSON valide.
 
 * Les noms et rôles des canaux numériques étaient laissés vide.
 
 * Téléchargez des rendus optimisés via SmartSync.
 
-* Transforme le mappage en liste de clés de rendu.
+* Le mappage a été transformé en liste de clés de rendu.
 
-* Supprimez l’accès à cmd.exe et reg.exe dans le lecteur Windows.
-
-* Limitez les appels de jeton csrf.
+* Suppression de l’accès à `cmd.exe` et `reg.exe` dans le lecteur Windows.
 
 * Un lecteur doit signaler son dernier événement de lecture réussi.
 
@@ -83,7 +81,7 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Si le lecteur est rechargé pendant le téléchargement de la mise à jour du canal, le lecteur ignore la mise à jour.
 
-* Le composant de page incorporé ne respecte pas l’événement tactile.
+* Le composant de page incorporé respecte désormais l’événement tactile.
 
 * La mise en service à distance du lecteur Tizen est désormais prise en charge.
 
@@ -100,13 +98,11 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Mettre automatiquement à jour le manifeste du canal si la page référencée est publiée.
 
-* Canaux JSON n’inclut pas de canaux personnalisés (#942)
-
 * Les périphériques supprimés ne bloquent désormais pas la file d’attente de réplication Screens.
 
-* Le manifeste ne contient pas de contenu ciblé ni de pages incorporées Sites.
+* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce problème a été corrigé.
 
-* Nouveau composant d’image principal non ajouté au manifeste de canal.
+* De nouveaux composants d’image principaux sont désormais ajoutés au manifeste du canal.
 
 * Le téléchargement de rendus optimisés via SmartSync est désormais pris en charge.
 
@@ -118,14 +114,11 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Manifeste hors ligne utilisant le paramètre de requête `wcmmode` pour l’entrée html, ce qui rend la mise en cache impossible.
 
-* Une séquence incorporée dynamique vide génère parfois un écran vide.
+* Une séquence incorporée dynamique vide provoquait parfois un écran vide.
 
-* Un lecteur doit signaler son état de lecture.
+* Le lecteur signale maintenant son état de lecture.
 
-* La vidéo est lue dans `Tiny mode` et n’est pas lue en plein écran sur l’appareil.
-
-* Les mots de passe OSGi sont visibles en texte brut.
-
+* La vidéo était lue dans `Tiny mode` et n’était pas lue comme vidéo plein écran sur l’appareil et le problème a été corrigé maintenant.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
