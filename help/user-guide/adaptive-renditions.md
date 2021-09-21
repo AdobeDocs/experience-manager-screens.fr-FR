@@ -1,15 +1,16 @@
 ---
 title: Rendus adaptatifs dans AEM Screens
-description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
+description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
 
-# Rendus adaptatifs {#adaptive-renditions}
+
+# Rendus adaptatifs : Présentation et configurations de l’architecture {#adaptive-renditions}
 
 ## Présentation {#introduction}
 
@@ -59,12 +60,11 @@ Pour activer la fonction, ajoutez au moins une règle de mappage et assurez-vous
 
 ## Configuration de l’auteur et de la publication {#setup-author-publish}
 
-Suivez les étapes ci-dessous pour configurer l’auteur et la publication :
+Tenez compte des recommandations suivantes dans les sections Création et Publication avant d’utiliser les rendus adaptatifs :
 
 * Le mappage de rendu doit être répliqué manuellement.
 
 * Les rendus de ressources ne sont pas répliqués par défaut. Toutes les ressources appropriées doivent être répliquées manuellement.
-
 
 ## Ajout de règles de mappage de rendu {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ Suivez les étapes ci-dessous pour configurer l’auteur et la publication :
 
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous avez chargé les rendus, vous pouvez désormais utiliser des rendus adaptatifs dans vos canaux AEM Screens.
+Une fois que vous avez chargé les rendus, vous pouvez désormais utiliser des rendus adaptatifs dans vos canaux AEM Screens. Pour plus d’informations, voir Utilisation des rendus adaptatifs .
