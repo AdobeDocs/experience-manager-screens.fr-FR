@@ -2,10 +2,10 @@
 title: Utilisation de rendus adaptatifs dans AEM Screens
 description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '376'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,39 @@ En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer de
 
 Ainsi, si vous avez déployé divers appareils, l’utilisation de cette fonctionnalité permet à l’appareil de télécharger et de lire automatiquement le rendu le plus approprié d’une ressource en fonction des règles.
 
-## Prérequis {#pre-reqs}
-
 >[!IMPORTANT]
 >Avant de commencer à utiliser les rendus adaptatifs, dans un canal AEM Screens, il est recommandé d’en savoir plus sur la présentation et la configuration de l’architecture de cette fonctionnalité. Voir Rendus adaptatifs : Présentation et configurations de l’architecture pour plus d’informations.
 
-## Utilisation de rendus adaptatifs dans un canal AEM Screens {#using-adaptive-renditions}
+## Stratégie de migration {#migration-strategy}
 
-Une fois que vous avez ajouté des règles de mappage et téléchargé des rendus, vous pouvez désormais utiliser des rendus adaptatifs pour vos ressources dans un canal AEM Screens.
+>[!IMPORTANT]
+>Pour les réseaux volumineux, il est recommandé d’effectuer la migration graduellement afin d’atténuer les risques, car la fonctionnalité introduira des modifications dans le format de stockage de manifeste et de fichier.
 
-Suivez les étapes ci-dessous :
+Le diagramme suivant illustre la stratégie de migration pour les réseaux volumineux :
+
+![image](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+Pour activer la fonction, ajoutez au moins une règle de mappage et assurez-vous que la configuration du mappage de rendu peut être résolue dans le contexte des affichages et des canaux. Pour migrer, procédez comme suit :
+
+1. Ajoutez [Règles de mappage de rendu](/help/user-guide/adaptive-renditions.md).
+1. Créez un dossier pour les nouveaux canaux et ajoutez une référence pointant vers la configuration du mappage de rendu.
+1. Créez des canaux qui remplacent les anciens et téléchargez des rendus.
+1. Réaffecter les affichages aux nouveaux canaux.
+1. Ajoutez une référence aux affichages ou emplacements migrés pointant vers la configuration du mappage de rendu.
+1. Répétez les étapes 3, 4 et 5 pour tous les autres canaux et affichages.
+
+   >[!NOTE]
+   >Une fois la migration terminée, veillez à supprimer toutes les références de configuration des canaux, affichages et emplacements, et à en ajouter une seule au noeud de contenu du projet.
 
 
+## Téléchargement de rendus et utilisation de rendus adaptatifs dans un canal AEM Screens {#upload-renditions}
 
+1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple `portrait orientation`.
+
+1. Choisissez le modèle de dénomination du rendu, par exemple,`portrait`.
+
+1. Renommez le fichier de ressource afin qu’il contienne le modèle, par exemple `my_asset_portrait.png`.
+
+1. Cliquez sur **Ajouter le rendu** pour télécharger le rendu, comme illustré dans la figure ci-dessous.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
