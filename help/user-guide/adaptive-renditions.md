@@ -2,7 +2,7 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Les rendus adaptatifs sont basés sur l’idée d’avoir plusieurs rendus de re
 
 ## Configuration de la configuration pour l’utilisation des rendus adaptatifs {#setup-adaptive-renditions}
 
-Pour activer la fonction Rendus adaptatifs , les règles de mappage doivent être présentes et la configuration de l’autorité de certification peut être résolue pour les canaux et les affichages :
+Pour activer la fonction Rendus adaptatifs , les règles de mappage doivent être présentes et la configuration contextuelle résolvable pour les canaux et les affichages :
 
 1. Vérifiez si la configuration du mappage de rendu existe dans `JCR`. Cette structure de noeud est prérenseignée pour tous les derniers Feature Packs.
 

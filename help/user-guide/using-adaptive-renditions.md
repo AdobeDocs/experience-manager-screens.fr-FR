@@ -2,14 +2,14 @@
 title: Utilisation de rendus adaptatifs dans AEM Screens
 description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
-# Utilisation de rendus adaptatifs {#adaptive-renditions}
+# Utilisation de rendus adaptatifs dans AEM Screens {#adaptive-renditions}
 
 ## Présentation {#introduction}
 
