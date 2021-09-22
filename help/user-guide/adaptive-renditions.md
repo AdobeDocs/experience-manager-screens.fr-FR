@@ -2,7 +2,7 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 2%
@@ -48,8 +48,6 @@ Pour activer la fonction Rendus adaptatifs , les règles de mappage doivent êtr
    * Dans une ancienne version des projets Screens, l’association doit être explicitement définie en ajoutant la propriété `sling:configRef` pointant vers `/conf/screens` au noeud de contenu du projet.
 
       ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## Configuration de l’auteur et de la publication {#setup-author-publish}
 
