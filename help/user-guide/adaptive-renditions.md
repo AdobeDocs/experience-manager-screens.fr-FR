@@ -2,10 +2,10 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '545'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,12 @@ Les rendus adaptatifs sont basés sur l’idée d’avoir plusieurs rendus de re
 
 ## Configuration de la configuration pour l’utilisation des rendus adaptatifs {#setup-adaptive-renditions}
 
-Pour activer la fonction Rendus adaptatifs , les règles de mappage doivent être présentes et la configuration contextuelle résolvable pour les canaux et les affichages :
+Pour activer la fonction Rendus adaptatifs , les règles de mappage doivent être présentes et la configuration contextuelle (CA) peut être résolue pour les canaux et les affichages.
+
+>[!NOTE]
+>Pour en savoir plus sur les configurations basées sur le contenu, voir [ici](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Pour configurer la configuration, procédez comme suit :
 
 1. Vérifiez si la configuration du mappage de rendu existe dans `JCR`. Cette structure de noeud est prérenseignée pour tous les derniers Feature Packs.
 
@@ -74,4 +79,4 @@ Tenez compte des recommandations suivantes dans les sections Création et Public
 
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous avez configuré et chargé les rendus, en tant qu’auteur de contenu, vous pouvez désormais utiliser les rendus adaptatifs et également migrer vos appareils pour appliquer cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+Une fois que vous avez configuré et chargé les rendus, en tant qu’auteur de contenu, vous pouvez désormais utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de bénéficier de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
