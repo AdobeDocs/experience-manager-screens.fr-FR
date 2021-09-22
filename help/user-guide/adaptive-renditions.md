@@ -2,9 +2,9 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -74,4 +74,4 @@ Tenez compte des recommandations suivantes dans les sections Création et Public
 
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous avez configuré et chargé les rendus, vous pouvez désormais utiliser les rendus adaptatifs dans vos canaux AEM Screens. Pour plus d’informations, voir Utilisation des rendus adaptatifs .
+Une fois que vous avez configuré et chargé les rendus, en tant qu’auteur de contenu, vous pouvez désormais utiliser les rendus adaptatifs et également migrer vos appareils pour appliquer cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
