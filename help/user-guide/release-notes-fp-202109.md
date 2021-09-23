@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 16%
 
 ---
@@ -65,8 +65,6 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 * Résolution des erreurs de mise en cache des fichiers en remplaçant les ressources par des rendus.
 
 * Les lecteurs n’exposent désormais que les rendus de ressources, si le mappage de rendu est présent.
-
-* Vous pouvez désormais configurer des alertes de slack en fonction des journaux de scunk.
 
 * Amélioration du ping pour la réauthentification si la réponse n’est pas un fichier JSON valide.
 

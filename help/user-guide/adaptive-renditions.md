@@ -2,9 +2,9 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
@@ -64,16 +64,39 @@ Tenez compte des recommandations suivantes dans les sections Création et Public
 
 ## Ajout de règles de mappage de rendu {#add-rendition-mapping-rules}
 
-1. Pour ajouter une règle de mappage, vous devez créer un noeud de type `nt:unstructured` sous le noeud **rendition-mapping** .
+Suivez les étapes ci-dessous pour ajouter un noeud sous Mappage de rendu :
 
-1. Ajoutez la propriété expression avec la valeur contenant l’expression de la requête.
+1. Accédez à ce chemin `/conf/screens/sling:configs/rendition-mapping` à partir de **CRXDE Lite**.
+
+1. Créez un noeud sous **rendition-mapping**. Cliquez avec le bouton droit sur **rendu-mapping** et cliquez sur **Créer** —> **Créer un noeud**, comme illustré dans la figure ci-dessous.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Saisissez le **nom** de votre règle de mappage telle que **rule1** et le noeud **Type** comme **nt:unstructured** dans la boîte de dialogue **Créer un noeud**. Cliquez sur **OK**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. Vous devez ajouter la propriété expression avec la valeur contenant l’expression de la requête.
 
    >[!NOTE]
    >Pour en savoir plus, consultez la section [Utilisation de la syntaxe de requête multimédia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) .
 
+   Cliquez sur **règle1** que vous avez créée, puis saisissez **expression** dans **Nom** et **(orientation:paysage)** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Ajoutez la propriété pattern avec la valeur contenant le modèle de nommage du rendu qui sera sélectionné, si l’expression est évaluée sur true.
 
-   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Pour ajouter la propriété de modèle, cliquez sur **règle1** que vous avez créée, puis saisissez **pattern** dans **Nom** et **paysage** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Cliquez sur **Enregistrer tout** et vous verrez les propriétés sous le noeud que vous avez créé sous **rendu-mapping**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## Étapes suivantes {#next-steps}
