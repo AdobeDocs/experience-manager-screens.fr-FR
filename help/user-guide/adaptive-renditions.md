@@ -2,9 +2,9 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,10 @@ Suivez les étapes ci-dessous pour ajouter un noeud sous Mappage de rendu :
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Ajoutez la propriété pattern avec la valeur contenant le modèle de dénomination de rendu.
 
-
-1. Ajoutez la propriété pattern avec la valeur contenant le modèle de nommage du rendu qui sera sélectionné, si l’expression est évaluée sur true.
+   >[!NOTE]
+   >La valeur définie dans la propriété pattern sera mise en correspondance avec le nouveau rendu de ressource et sera sélectionnée, si l’expression est évaluée sur true.
 
    Pour ajouter la propriété de modèle, cliquez sur **règle1** que vous avez créée, puis saisissez **pattern** dans **Nom** et **paysage** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
