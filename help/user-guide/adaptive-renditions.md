@@ -2,9 +2,9 @@
 title: Rendus adaptatifs dans AEM Screens
 description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 3%
 
 ---
@@ -102,4 +102,4 @@ Suivez les étapes ci-dessous pour ajouter un noeud sous Mappage de rendu :
 
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous avez configuré et chargé les rendus, en tant qu’auteur de contenu, vous pouvez désormais utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de bénéficier de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+Une fois que vous avez ajouté des propriétés et des règles de mappage de rendu, en tant qu’auteur de contenu, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
