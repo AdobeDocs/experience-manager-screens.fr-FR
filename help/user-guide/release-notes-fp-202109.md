@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 16%
@@ -32,24 +32,25 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 septembr
 * **Prise en charge des miniatures pour les vidéos**
 
    La prise en charge des miniatures pour les vidéos dans est désormais prise en charge dans AEM Screens. Un auteur de contenu peut définir une miniature pour les vidéos afin que l’image puisse être utilisée comme espace réservé et tester correctement la lecture et le ciblage du contenu, pendant que la vidéo réelle est en cours de finalisation par l’équipe appropriée. L’image peut également être utilisée, au cas où la lecture de la vidéo échouerait.
-Pour plus d’informations, voir Prise en charge des miniatures pour les vidéos .
+Pour plus d’informations, voir [Prise en charge des miniatures pour les vidéos](/help/user-guide/thumbnail-support.md) .
 
 * **Surveillance de lecture de base**
 
    AEM Screens prend désormais en charge la surveillance de lecture de base. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). En fonction des mesures, il permet de détecter différents cas de périphérie (expérience bloquée, écran vide, problème de planification, etc.). Cette fonctionnalité permet à l’équipe de surveiller à distance si un lecteur lit correctement du contenu, améliore la réactivité aux écrans vierges ou aux expériences rompues sur le champ et réduit le risque d’afficher une expérience rompue à l’utilisateur final.
-Pour plus d’informations, voir Surveillance de lecture de base .
+Voir [Surveillance de lecture de base](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) pour plus d’informations.
 
 * **Mises à jour du rapport d’affectation de contenu**
 
    Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les entités améliorées liées au lecteur, telles que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
+Voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md) pour plus d’informations.
 
 * **Rendus adaptatifs**
 
    Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client.
 
-   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques à l’appareil pour qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir Rendus adaptatifs : Présentation et configurations de l’architecture pour en savoir plus.
+   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques à l’appareil pour qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
 
-   En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez désormais utiliser des rendus adaptatifs dans votre projet AEM Screens et appliquer également une stratégie de migration pour les grands réseaux. Pour plus d’informations, voir Utilisation des rendus adaptatifs .
+   En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez désormais utiliser des rendus adaptatifs dans votre projet AEM Screens et appliquer également une stratégie de migration pour les grands réseaux.
 
 * **Prise en charge des manifeste V3**
 
