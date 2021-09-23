@@ -2,7 +2,7 @@
 title: Utilisation de rendus adaptatifs dans AEM Screens
 description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ Pour activer la fonction, ajoutez au moins une règle de mappage et assurez-vous
 
    >[!NOTE]
    >Une fois la migration terminée, veillez à supprimer toutes les références de configuration des canaux, affichages et emplacements, et à en ajouter une seule au noeud de contenu du projet.
-
 
 ## Téléchargement de rendus et utilisation de rendus adaptatifs dans un canal AEM Screens {#upload-renditions}
 

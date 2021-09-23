@@ -1,10 +1,9 @@
 ---
-title: Rendus adaptatifs dans AEM Screens
-description: Cette page décrit la présentation de l’architecture et les configurations pour les rendus adaptatifs dans AEM Screens.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Présentation et configurations de l’architecture des rendus adaptatifs
+description: Cette page décrit les configurations et l’aperçu de l’architecture dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 3%
 
 ---
@@ -54,14 +53,6 @@ Pour configurer la configuration, procédez comme suit :
    ![image](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Configuration de l’auteur et de la publication {#setup-author-publish}
-
-Tenez compte des recommandations suivantes dans les sections Création et Publication avant d’utiliser les rendus adaptatifs :
-
-* Le mappage de rendu doit être répliqué manuellement.
-
-* Les rendus de ressources ne sont pas répliqués par défaut. Toutes les ressources appropriées doivent être répliquées manuellement.
-
 ## Ajout de règles de mappage de rendu {#add-rendition-mapping-rules}
 
 Suivez les étapes ci-dessous pour ajouter un noeud sous Mappage de rendu :
@@ -102,4 +93,4 @@ Suivez les étapes ci-dessous pour ajouter un noeud sous Mappage de rendu :
 
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous avez ajouté des propriétés et des règles de mappage de rendu, en tant qu’auteur de contenu, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+Une fois que vous avez ajouté des propriétés et des règles de mappage de rendu, en tant qu’auteur de contenu, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens.

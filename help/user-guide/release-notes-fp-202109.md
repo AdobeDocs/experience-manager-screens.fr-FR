@@ -4,10 +4,9 @@ description: Consultez cette page pour obtenir des informations sur AEM Screens 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-index: false
-source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '842'
 ht-degree: 16%
 
 ---
@@ -48,7 +47,7 @@ Voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-re
 
    Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client.
 
-   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques à l’appareil pour qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
+   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques à l’appareil pour qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : Présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations
 
    En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez désormais utiliser des rendus adaptatifs dans votre projet AEM Screens et appliquer également une stratégie de migration pour les grands réseaux.
 

@@ -1,14 +1,14 @@
 ---
 title: Lecteur Tizen
 description: Cette page décrit l’installation et le fonctionnement du lecteur Tizen.
-feature: Administration de Screens, lecteurs
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ Pour mettre en œuvre le lecteur Tizen avec AEM Screens, procédez comme suit :
 
 1. Installez le fichier *(.zip)* du lecteur Tizen à partir de l’ordinateur local.
 
-## Configuration du serveur local et extraction des fichiers ZIP {#setting-local-server}
+## Configuration du serveur http {#setting-local-server}
 
 >[!NOTE]
 > Extrayez le fichier zip et rendez le lecteur Tizen disponible via un `http server`. (Il n’est pas nécessaire que le `http server` soit un serveur local ou Apache).
