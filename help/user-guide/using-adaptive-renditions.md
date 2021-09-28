@@ -1,9 +1,9 @@
 ---
 title: Utilisation de rendus adaptatifs dans AEM Screens
 description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
-source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -38,11 +38,11 @@ Suivez les étapes ci-dessous pour appliquer des rendus aux ressources, que vous
 
 1. Choisissez le modèle de dénomination du rendu, par exemple`landscape`, similaire à ce qui a été défini dans la propriété **pattern** dans **CRXDE Lite**. Pour plus d’informations, voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
 
-1. Renommez le fichier de ressource afin qu’il contienne le modèle (défini à l’étape 3), par exemple `seahorse-landscape.png`.
-
 1. Cliquez sur **Ajouter le rendu** pour télécharger le rendu, comme illustré dans la figure ci-dessous.
 
-   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+   ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
+
+1. Sélectionnez le fichier de ressource renommé. Le rendu que vous ajoutez doit contenir le modèle (défini à l’étape 3), par exemple `seahorse-landscape.png`.
 
 1. Une fois la ressource ajoutée, sélectionnez-la et cliquez sur **Gérer la publication** dans la barre d’actions pour la publier.
 
