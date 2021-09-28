@@ -2,9 +2,9 @@
 title: Utilisation de rendus adaptatifs dans AEM Screens
 description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,34 @@ En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer de
 Une fois qu’un développeur ajoute les propriétés et les règles de mappage de rendu, vous êtes prêt à appliquer le mappage de rendu aux ressources et à les inclure ensuite dans un canal AEM Screens.
 
 >[!IMPORTANT]
->Avant de commencer à utiliser les rendus adaptatifs, dans un canal AEM Screens, il est recommandé d’en savoir plus sur la présentation et la configuration de l’architecture de cette fonctionnalité. Voir Rendus adaptatifs : Présentation et configurations de l’architecture pour plus d’informations.
+>Avant de commencer à utiliser les rendus adaptatifs, dans un canal AEM Screens, il est recommandé d’en savoir plus sur la présentation et la configuration de l’architecture de cette fonctionnalité. Voir [Rendus adaptatifs : Présentation et configurations de l’architecture ](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
+
+## Utilisation de rendus adaptatifs dans les canaux {#using-adaptive-renditions}
+
+>[!NOTE]
+>Une fois que vous avez ajouté la [propriété de mappage de rendu au projet Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) et les [règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), en tant qu’auteur de contenu, vous êtes prêt à appliquer les rendus à vos ressources.
+
+### Application de rendus aux ressources {#apply-renditions-assets}
+
+Suivez les étapes ci-dessous pour appliquer des rendus aux ressources, que vous souhaitez utiliser dans le canal Screens :
+
+1. Accédez au dossier **Ressources** dans votre instance AEM.
+
+1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple `seahorse.jpg`.
+
+1. Choisissez le modèle de dénomination du rendu, par exemple`landscape`, similaire à ce qui a été défini dans la propriété pattern en CRXDE Lite. Pour plus d’informations, voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
+
+1. Renommez le fichier de ressource afin qu’il contienne le modèle, par exemple `seahorse_landscape.png`.
+
+1. Cliquez sur **Ajouter le rendu** pour télécharger le rendu, comme illustré dans la figure ci-dessous.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## Stratégie de migration {#migration-strategy}
 
 >[!IMPORTANT]
->Pour les réseaux volumineux, il est recommandé d’effectuer la migration graduellement afin d’atténuer les risques, car la fonctionnalité introduira des modifications dans le format de stockage de manifeste et de fichier.
+>Pour les réseaux volumineux, il est recommandé d’effectuer la migration graduellement afin d’atténuer les risques, car la fonctionnalité introduira des modifications dans le format de stockage de manifeste et de fichier. L’ajout de `sling:configRef` à l’ensemble du projet implique la mise à jour de tous les lecteurs vers le Feature Pack 6.5.9. Si vous avez mis à jour certains lecteurs, vous devez ajouter `sling:configRef` uniquement aux dossiers d’affichages, d’emplacements ou de canaux dont tous les lecteurs ont été mis à jour vers le Feature Pack 6.5.9.
 
 Le diagramme suivant illustre la stratégie de migration pour les réseaux volumineux :
 
@@ -44,14 +66,3 @@ Pour activer la fonction, ajoutez au moins une règle de mappage et assurez-vous
    >[!NOTE]
    >Une fois la migration terminée, veillez à supprimer toutes les références de configuration des canaux, affichages et emplacements, et à en ajouter une seule au noeud de contenu du projet.
 
-## Téléchargement de rendus et utilisation de rendus adaptatifs dans un canal AEM Screens {#upload-renditions}
-
-1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple `portrait orientation`.
-
-1. Choisissez le modèle de dénomination du rendu, par exemple,`portrait`.
-
-1. Renommez le fichier de ressource afin qu’il contienne le modèle, par exemple `my_asset_portrait.png`.
-
-1. Cliquez sur **Ajouter le rendu** pour télécharger le rendu, comme illustré dans la figure ci-dessous.
-
-   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
