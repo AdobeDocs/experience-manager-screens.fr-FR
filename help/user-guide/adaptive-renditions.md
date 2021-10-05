@@ -5,7 +5,7 @@ exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ## Présentation {#introduction}
 
-Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de l’expérience *main*.
+Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client. Les appareils téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de l’expérience *principale*.
 
 ## Objectif {#objective}
 

@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 16%
+ht-degree: 44%
 
 ---
 
@@ -29,14 +29,14 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 septembr
 
 ### Nouveautés {#what-is-new}
 
-* **Prise en charge des miniatures pour les vidéos**
+* **Prise en charge des miniatures de vidéos**
 
-   La prise en charge des miniatures pour les vidéos dans est désormais prise en charge dans AEM Screens. Un auteur de contenu peut définir une miniature pour les vidéos afin que l’image puisse être utilisée comme espace réservé et tester correctement la lecture et le ciblage du contenu, pendant que la vidéo réelle est en cours de finalisation par l’équipe appropriée. L’image peut également être utilisée, au cas où la lecture de la vidéo échouerait.
+   Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu peut définir une miniature de vidéos afin de pouvoir utiliser l’image en tant qu’espace réservé et de pouvoir tester correctement la lecture et le ciblage du contenu, alors que l’équipe concernée peut s’occuper de la finalisation de la vidéo elle-même. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
 Pour plus d’informations, voir [Prise en charge des miniatures pour les vidéos](/help/user-guide/thumbnail-support.md) .
 
-* **Surveillance de lecture de base**
+* **Suivi de base de la lecture**
 
-   AEM Screens prend désormais en charge la surveillance de lecture de base. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). En fonction des mesures, il permet de détecter différents cas de périphérie (expérience bloquée, écran vide, problème de planification, etc.). Cette fonctionnalité permet à l’équipe de surveiller à distance si un lecteur lit correctement du contenu, améliore la réactivité aux écrans vierges ou aux expériences rompues sur le champ et réduit le risque d’afficher une expérience rompue à l’utilisateur final.
+   AEM Screens prend désormais en charge le suivi de base de la lecture. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). Les mesures permettent de détecter différents cas de figure (lecture bloquée, écran vide, problème de time-code, etc.). Cette fonctionnalité permet à l’équipe concernée de surveiller à distance si un lecteur lit correctement du contenu, d’améliorer sa réactivité en cas d’écran vide ou d’interruption d’expérience et de réduire les risques d’offrir une expérience bancale à l’utilisateur final.
 Voir [Surveillance de lecture de base](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) pour plus d’informations.
 
 * **Mises à jour du rapport d’affectation de contenu**
@@ -52,10 +52,10 @@ Voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-re
 
    En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
 
-* **Prise en charge des manifeste V3**
+* **Prise en charge des manifestes V3**
 
-   Vous pouvez désormais configurer Dispatcher pour Manifest version v3. Pour plus d’informations, voir [Configuration de Dispatcher pour la version de manifeste v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) .
-De plus, si vous utilisez des composants personnalisés dans le cadre de manifestes v3, voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
+De plus, si vous utilisez des composants personnalisés dans le cadre de manifestes v3, consultez [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
 
 
 ### Correctifs {#bug-fixes}
@@ -139,4 +139,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 9�
 
 #### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
