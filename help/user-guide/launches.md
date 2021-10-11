@@ -1,8 +1,8 @@
 ---
 title: Mise à jour du contenu à l’aide d’un lancement Screens
-seo-title: Mise à jour du contenu à l’aide d’un lancement Screens
+seo-title: Content Update using Screens Launch
 description: Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de Lancement, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les périphériques ou lecteurs.
-seo-description: Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de Lancement, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les périphériques ou lecteurs.
+seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,20 +10,20 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: Création dans Screens, lancements
+feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1619'
-ht-degree: 100%
+source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Mise à jour du contenu à l’aide d’un lancement Screens {#launches}
 
-Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de **lancement Screens**, et en définir la date d’activation. Le contenu est ainsi en ligne sur des appareils ou des lecteurs à la date d’activation spécifiée.
+Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de **lancement Screens**, et en définir la date d’activation. Cela permet au contenu d’être en ligne sur des appareils ou des lecteurs à la date d’activation spécifiée.
 
 Grâce au ***lancement Screens***, les auteurs peuvent prévisualiser chaque canal du lancement et doivent être en mesure de lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
 
