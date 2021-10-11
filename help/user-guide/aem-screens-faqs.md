@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
-workflow-type: ht
-source-wordcount: '1872'
-ht-degree: 100%
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+workflow-type: tm+mt
+source-wordcount: '1978'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,17 @@ Le champ Rôle du canal représente l’abstraction du canal réel exécuté pou
 1. L’emplacement parent principal de l’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
 
 Etc. jusqu’à ce que vous accédiez au dossier des emplacements et que vous vous en teniez là pour l’instant (vous ne pouvez donc pas référencer un canal qui se trouverait dans le dossier des canaux, par exemple, uniquement les canaux présents dans la sous-arborescence des emplacements).
+
+### 5. Comment configurer la configuration hors ligne de la bibliothèque cliente personnalisée dans le canal AEM Screens ?
+
+Lors de l’utilisation d’un code personnalisé intégré côté client `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que les fichiers `clientlib` sont chargés correctement dans le canal (`manifest.json`) et contiendront le chemin d’accès du `clientlib`.
+
+Suivez les étapes ci-dessous à partir de l’éditeur de canal :
+
+1. Sélectionnez un canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur de canal.
+1. Sélectionnez le composant dans lequel vous souhaitez ajouter la balise `clientlib` personnalisée.
+1. Cliquez sur le bouton de configuration (icône de clé à molette).
+1. Accédez à l’onglet **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
 
 ## Enregistrement de périphériques {#device-registration}
 
