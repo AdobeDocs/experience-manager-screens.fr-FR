@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 94%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
@@ -68,14 +68,14 @@ Etc. jusqu’à ce que vous accédiez au dossier des emplacements et que vous vo
 
 ### 5. Comment configurer la configuration hors ligne de la bibliothèque cliente personnalisée dans le canal AEM Screens ?
 
-Lors de l’utilisation d’un code personnalisé intégré côté client `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que les fichiers `clientlib` sont chargés correctement dans le canal (`manifest.json`) et contiendront le chemin d’accès du `clientlib`.
+Lors de l’utilisation d’un code client personnalisé créé `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que la variable `clientlib` Les fichiers sont chargés correctement dans le canal (`manifest.json`) et contiendra le chemin d’accès de la variable `clientlib`.
 
 Suivez les étapes ci-dessous à partir de l’éditeur de canal :
 
 1. Sélectionnez un canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur de canal.
-1. Sélectionnez le composant dans lequel vous souhaitez ajouter la balise `clientlib` personnalisée.
+1. Sélectionnez le composant dans lequel vous souhaitez ajouter le `clientlib`.
 1. Cliquez sur le bouton de configuration (icône de clé à molette).
-1. Accédez à l’onglet **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
+1. Accédez au **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
 
 ## Enregistrement de périphériques {#device-registration}
 
@@ -219,3 +219,18 @@ AEM Screens crée des définitions d’index pour les requêtes utilisées par l
 Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=fr#configuring-the-indexes).
 
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
+### 3. Éléments requis pour configurer les manifestes v3 {#configure-v3}
+
+Pour activer le manifeste v3, vous devez :
+
+* Mettez à jour Dispatcher.
+Voir [Configuration de Dispatcher pour Manifest version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3) pour plus d’informations.
+
+* Mettre à jour le composant personnalisé.
+Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers) pour plus d’informations.
+
+* Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* Activation de SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
