@@ -15,15 +15,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1580'
+ht-degree: 100%
 
 ---
 
 # Mise à jour du contenu à l’aide d’un lancement Screens {#launches}
 
-Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de **lancement Screens**, et en définir la date d’activation. Cela permet au contenu d’être en ligne sur des appareils ou des lecteurs à la date d’activation spécifiée.
+Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de **lancement Screens**, et en définir la date d’activation. Le contenu est ainsi en ligne sur des appareils ou des lecteurs à la date d’activation spécifiée.
 
 Grâce au ***lancement Screens***, les auteurs peuvent prévisualiser chaque canal du lancement et doivent être en mesure de lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
 
