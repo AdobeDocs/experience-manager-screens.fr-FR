@@ -7,9 +7,9 @@ breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
 source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 96%
       + [Reconnaissance vocale](voice-recognition.md)
       + [Rapport d’affectation de contenu](content-assignment-report.md)
       + [Prise en charge des miniatures pour les vidéos](thumbnail-support.md)
-      + [Utilisation de rendus adaptatifs dans AEM Screens](using-adaptive-renditions.md)
+      + [Utilisation des rendus adaptatifs dans AEM Screens](using-adaptive-renditions.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu On-Demand](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
@@ -106,7 +106,7 @@ ht-degree: 96%
    + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
    + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
    + [Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte](custom-branding-text-overlays.md)
-   + [Rendus adaptatifs : Présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md)
+   + [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
