@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202109
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202109, publié le 23 septembre 2021.
+description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202109, publié le 23 septembre 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -25,30 +25,30 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.9 à par
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202109 d’AEM Screens est le 23 septembre 2021.
+La date de publication du Feature Pack 202109 d’AEM Screens est le 23 septembre 2021.
 
 ### Nouveautés {#what-is-new}
 
 * **Prise en charge des miniatures de vidéos**
 
    Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu peut définir une miniature de vidéos afin de pouvoir utiliser l’image en tant qu’espace réservé et de pouvoir tester correctement la lecture et le ciblage du contenu, alors que l’équipe concernée peut s’occuper de la finalisation de la vidéo elle-même. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
-Pour plus d’informations, voir [Prise en charge des miniatures pour les vidéos](/help/user-guide/thumbnail-support.md) .
+Pour plus d’informations, voir [Prise en charge des miniatures de vidéos](/help/user-guide/thumbnail-support.md).
 
 * **Suivi de base de la lecture**
 
    AEM Screens prend désormais en charge le suivi de base de la lecture. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). Les mesures permettent de détecter différents cas de figure (lecture bloquée, écran vide, problème de time-code, etc.). Cette fonctionnalité permet à l’équipe concernée de surveiller à distance si un lecteur lit correctement du contenu, d’améliorer sa réactivité en cas d’écran vide ou d’interruption d’expérience et de réduire les risques d’offrir une expérience bancale à l’utilisateur final.
-Voir [Surveillance de lecture de base](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) pour plus d’informations.
+Pour plus d’informations, voir [Suivi de base de la lecture](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=fr#playback-monitoring).
 
 * **Mises à jour du rapport d’affectation de contenu**
 
-   Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les entités améliorées liées au lecteur, telles que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
-Voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md) pour plus d’informations.
+   Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les éléments améliorés liés au lecteur, tels que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
+Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 * **Rendus adaptatifs**
 
    Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client.
 
-   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques à l’appareil pour qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : Présentation et configurations de l’architecture ](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
+   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
 
    En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
 
@@ -64,7 +64,7 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Résolution des erreurs de mise en cache des fichiers en remplaçant les ressources par des rendus.
 
-* Les lecteurs n’exposent désormais que les rendus de ressources, si le mappage de rendu est présent.
+* Les lecteurs n’exposent désormais que les rendus de ressources si le mappage de rendu est présent.
 
 * Amélioration du ping pour la réauthentification si la réponse n’est pas un fichier JSON valide.
 
@@ -80,7 +80,7 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Un lecteur doit signaler son état de lecture.
 
-* Le lecteur ne retélécharge pas les ressources lorsque `ALL` le cache est effacé.
+* Le lecteur ne retélécharge pas les ressources lorsque le cache `ALL` est effacé.
 
 * En tant qu’administrateur du lecteur, vous pouvez désormais choisir un nom de lecteur.
 
@@ -95,7 +95,7 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 **Côté serveur**
 
 * La vidéo cible ne s’affiche pas
-* Condition de race lors de la diffusion des données d&#39;affichage aux séquences.
+* Situation de compétition lors de la diffusion des données d’affichage dans les sous-séquences.
 
 * L’aperçu de canal ne fonctionne pas pour les canaux contenant des vidéos.
 
@@ -105,11 +105,11 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Mettre automatiquement à jour le manifeste du canal si la page référencée est publiée.
 
-* Les périphériques supprimés ne bloquent désormais pas la file d’attente de réplication Screens.
+* Les appareils supprimés ne bloquent désormais plus la file d’attente de réplication de Screens.
 
-* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce problème a été corrigé.
+* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce problème a été résolu.
 
-* De nouveaux composants d’image principaux sont désormais ajoutés au manifeste du canal.
+* Les nouveaux composants d’image principaux sont désormais ajoutés au manifeste du canal.
 
 * Le téléchargement de rendus optimisés via SmartSync est désormais pris en charge.
 
@@ -117,9 +117,9 @@ De plus, si vous utilisez des composants personnalisés dans le cadre de manifes
 
 * Ajout de la prise en charge de plusieurs types de fournisseurs de contenu
 
-* La stratégie de lecture de séquence incorporée a été rompue et cela a maintenant été corrigé.
+* La stratégie de lecture de séquence incorporée était rompue et ce problème a maintenant été corrigé.
 
-* Manifeste hors ligne utilisant le paramètre de requête `wcmmode` pour l’entrée html, ce qui rend la mise en cache impossible.
+* Manifeste hors ligne utilisant le paramètre de requête `wcmmode` pour l’entrée HTML, ce qui rend la mise en cache impossible.
 
 * Une séquence incorporée dynamique vide provoquait parfois un écran vide.
 
