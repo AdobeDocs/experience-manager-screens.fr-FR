@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 92%
@@ -221,7 +221,7 @@ Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`,
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. Éléments requis pour configurer les manifestes v3 {#configure-v3}
+### 3. Que faut-il faire pour configurer des Manifestations v3 ? {#configure-v3}
 
 Pour activer le manifeste v3, vous devez :
 
