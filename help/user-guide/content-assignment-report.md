@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. La feuille de calcul téléchargée se compose de deux onglets, tels que **Emplacements** et **Contenu**. L’onglet Emplacement affiche quatre colonnes, telles que **Emplacements**, **Affichages**, **Canaux** et **Périphériques**, qui peuvent être utilisés pour examiner plus en détail ces quatre entités se rapportant à votre projet AEM Screens.
+1. La feuille de calcul téléchargée se compose de deux onglets, **Emplacements** et **Contenu**. L’onglet Emplacements comprend quatre colonnes, **Emplacements**, **Affichages**, **Canaux** et **Appareils**. Vous pouvez examiner plus en détail ces quatre entités se rapportant à votre projet AEM Screens.
 
    ![image](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
