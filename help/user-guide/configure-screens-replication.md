@@ -3,9 +3,9 @@ title: Configuration des agents de réplication Screens
 description: Consultez cette page pour obtenir des informations sur la configuration des agents de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 5%
 
 ---
@@ -105,10 +105,10 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Recherchez l’agent de réplication Screens sur l’auteur et cliquez sur le lien, comme illustré dans la figure ci-dessous.
+1. Recherchez tous les agents de réplication Screens sur l’auteur et cliquez sur le lien, comme illustré dans la figure ci-dessous.
 
    >[!NOTE]
-   >Recherchez l’agent de réplication Screens avec la lettre **s** inclus dans le nom de l’auteur.
+   >Recherchez tous les agents de réplication Screens. Le nom de l’agent de réplication Screens comprend une lettre. **s** dans le titre.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
