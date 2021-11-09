@@ -3,10 +3,10 @@ title: Configuration de l’agent de réplication Screens
 description: Consultez cette page pour obtenir des informations sur la configuration de l’agent de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,10 @@ Vous devez remplir les deux sections pour terminer la configuration de l’agent
 
 ## Activation des utilisateurs et mise à jour du mot de passe {#enable-users}
 
-Suivez les étapes ci-dessous :
+Suivez les étapes ci-dessous pour activer les utilisateurs et mettre à jour le mot de passe pour screens-receiver-user :
+
+>[!NOTE]
+>Pour des raisons de sécurité, il est recommandé d’éviter d’utiliser le mot de passe administrateur pour screens-receiver-user.
 
 1. Accédez à votre instance AEM.
 
