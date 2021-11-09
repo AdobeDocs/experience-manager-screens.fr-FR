@@ -3,17 +3,17 @@ title: Configuration de l’agent de réplication Screens
 description: Consultez cette page pour obtenir des informations sur la configuration de l’agent de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 9%
+source-wordcount: '417'
+ht-degree: 8%
 
 ---
 
 
-# Configuration de l’agent de réplication Screens {#configuring-screens-replication-agent}
+# Configuration des agents de réplication Screens {#configuring-screens-replication-agent}
 
-Cette page décrit comment configurer l’agent de réplication Screens.
+Cette page décrit comment configurer les agents de réplication Screens.
 
 >[!NOTE]
 >Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -21,7 +21,7 @@ Cette page décrit comment configurer l’agent de réplication Screens.
 Vous devez remplir les deux sections pour terminer la configuration de l’agent de réplication Screens :
 
 1. [Activation des utilisateurs et mise à jour du mot de passe](#enable-users)
-1. [Mise à jour de l’agent de réplication Screens](#replicate-agent)
+1. [Mise à jour des paramètres de l’agent de réplication Screens](#replicate-agent)
 
 ## Activation des utilisateurs et mise à jour du mot de passe {#enable-users}
 
@@ -81,7 +81,7 @@ Suivez les étapes ci-dessous :
 
 1. Cliquez sur **OK** pour confirmer.
 
-## Mise à jour de l’agent de réplication Screens {#replicate-agent}
+## Mise à jour des paramètres de l’agent de réplication Screens {#replicate-agent}
 
 Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent de réplication Screens :
 
@@ -95,7 +95,10 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Recherchez le lien avec la lettre **s** et cliquez dessus, comme illustré dans la figure ci-dessous.
+1. Recherchez l’agent de réplication Screens sur l’auteur et cliquez sur le lien, comme illustré dans la figure ci-dessous.
+
+   >[!NOTE]
+   >Recherchez l’agent de réplication Screens avec la lettre **s** inclus dans le nom de l’auteur.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

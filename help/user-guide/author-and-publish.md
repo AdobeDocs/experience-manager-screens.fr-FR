@@ -1,16 +1,16 @@
 ---
 title: Configuration de l’auteur et de la publication dans AEM Screens
-seo-title: Configuration de l’auteur et de la publication dans AEM Screens
+seo-title: Configuring Author and Publish in AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
-seo-description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
-feature: Administration d’AEM Screens
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1907'
-ht-degree: 100%
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+workflow-type: tm+mt
+source-wordcount: '1882'
+ht-degree: 98%
 
 ---
 
@@ -112,6 +112,9 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
 1. Créez l’agent de réplication AEM Screens pour pub1. Par défaut, il existe un agent de réplication Screens qui pointe vers le port 4503. Ce paramètre doit être activé.
 1. Créez l’agent de réplication AEM Screens pour pub2. Copiez l’agent de réplication Screens pour pub1 et modifiez le port afin qu’il pointe sur 4504 pour pub2.
+
+   >[!NOTE]
+   >Pour savoir comment configurer les agents de réplication Screens, voir [Configuration de l’agent de réplication Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Création d’agents de réplication inverse Screens {#creating-screens-reverse-replication-agents}
 
