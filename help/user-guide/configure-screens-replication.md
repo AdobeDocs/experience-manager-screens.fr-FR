@@ -3,9 +3,9 @@ title: Configuration de l’agent de réplication Screens
 description: Consultez cette page pour obtenir des informations sur la configuration de l’agent de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 10%
 
 ---
@@ -82,3 +82,29 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 1. Cliquez sur Outils —> **Déploiement** —> **Réplication**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. Cliquez sur **Agents sur l’auteur**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. Cliquez sur le lien, comme illustré dans la figure ci-dessous.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. Cliquez sur **Modifier**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. Vérifier **Activé** de la **Paramètres** .
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. Accédez à **Transport** à partir de l’onglet **Paramètres de l’agent** et saisissez le même mot de passe que celui que vous avez défini à l’étape (8) de [Activation des utilisateurs et mise à jour du mot de passe](#enable-users). Cliquez sur **OK**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. Une fois les étapes précédentes effectuées, vous pouvez cliquer sur **Tester la connexion** pour vérifier la connexion.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   Si la vérification de la connexion est réussie, vous avez terminé la configuration de l’agent de réplication Screens.
