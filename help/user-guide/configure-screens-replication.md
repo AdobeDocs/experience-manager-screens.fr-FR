@@ -1,11 +1,11 @@
 ---
-title: Configuration de l’agent de réplication Screens
-description: Consultez cette page pour obtenir des informations sur la configuration de l’agent de réplication Screens.
+title: Configuration des agents de réplication Screens
+description: Consultez cette page pour obtenir des informations sur la configuration des agents de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
+source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '470'
 ht-degree: 7%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 7%
 # Configuration des agents de réplication Screens {#configuring-screens-replication-agent}
 
 Cette page décrit comment configurer les agents de réplication Screens.
+
+## Objectif {#objective}
+
+L’agent de réplication Screens est chargé d’apporter les données ping de la publication à l’auteur. Il est essentiel de le configurer afin que l’auteur puisse afficher le ping de l’appareil.
 
 >[!NOTE]
 >Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
