@@ -1,9 +1,9 @@
 ---
-title: Configuration des agents de réplication Screens
+title: Configure Screens Replication Agents
 description: Consultez cette page pour obtenir des informations sur la configuration des agents de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
+source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 5%
@@ -13,19 +13,19 @@ ht-degree: 5%
 
 # Configuration des agents de réplication Screens {#configuring-screens-replication-agent}
 
-Cette page décrit comment configurer les agents de réplication Screens.
+This following page describes how to configure Screens Replication Agents.
 
 ## Objectif {#objective}
 
-L’agent de réplication Screens est chargé d’apporter des données ping telles que : *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, et de nombreuses autres valeurs de ce type, de la publication à l’auteur. Il est essentiel de le configurer afin que l’auteur puisse afficher le ping de l’appareil.
+The Screens Replication Agent is responsible for bringing commands data such as, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, and many more such values from publish to author. It is essential to configure this so that the author can show the device ping.
 
 >[!NOTE]
->Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+>To learn more about Screens Replication Agents, see [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
 
 Vous devez remplir les deux sections pour terminer la configuration de l’agent de réplication Screens :
 
-1. [Activation des utilisateurs et mise à jour du mot de passe](#enable-users)
-1. [Mise à jour des paramètres de l’agent de réplication Screens](#replicate-agent)
+1. [Enabling Users and Updating the Password](#enable-users)
+1. [Updating Settings for Screens Replication Agent](#replicate-agent)
 
 ## Activation des utilisateurs et mise à jour du mot de passe {#enable-users}
 
@@ -36,11 +36,11 @@ Suivez les étapes ci-dessous pour activer les utilisateurs et mettre à jour le
 
 1. Accédez à votre instance AEM Author.
 
-1. Cliquez sur Outils —> **Sécurité** —> **Utilisateurs**.
+1. Click on tools --> **Security** --> **Users**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
-1. Rechercher **screens-receiver-user**.
+1. Search for **screens-receiver-user**.
 
 1. Sélectionnez la **screens-receiver-user** et cliquez sur **Activer** dans la barre d’actions.
 
@@ -50,11 +50,11 @@ Suivez les étapes ci-dessous pour activer les utilisateurs et mettre à jour le
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Une fois que vous avez activé l’utilisateur, le **screens-receiver-user** as **Activé** sous le **État** champ .
+   Once you have enabled the user, you will see the **screens-receiver-user** as **Enabled** under the **Status** field.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Sélectionnez la **screens-receiver-user** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Select the **screens-receiver-user** and click on **Properties** from the action bar.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
@@ -65,11 +65,11 @@ Suivez les étapes ci-dessous pour activer les utilisateurs et mettre à jour le
 1. Saisissez un nouveau mot de passe dans le champ **Modifier le mot de passe** , puis cliquez sur **Enregistrer**.
 
    >[!NOTE]
-   >Vous devez saisir le mot de passe utilisateur administrateur existant dans **Votre mot de passe** champ .
+   >You should enter the existing admin user password in **Your Password** field.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Cliquez sur **Enregistrer et fermer**.
+1. Click on **Save &amp; Close**.
 
 1. Sélectionnez la **screens-receiver-user** et cliquez sur **Activer** dans la barre d’actions.
 
@@ -105,7 +105,7 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Recherchez tous les agents de réplication Screens sur l’auteur et cliquez sur le lien, comme illustré dans la figure ci-dessous.
+1. Search for the all Screens Replication agents on author and click the link, as shown in the figure below.
 
    >[!NOTE]
    >Recherchez tous les agents de réplication Screens. Le nom de l’agent de réplication Screens comprend une lettre. **s** dans le titre.
@@ -130,4 +130,4 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Si la vérification de la connexion est réussie, vous avez terminé la configuration de l’agent de réplication Screens.
+   If the connection verification is successful, you have completed configuring Screens Replication Agent.
