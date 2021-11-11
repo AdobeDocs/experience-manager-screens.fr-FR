@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -66,16 +66,16 @@ Le champ Rôle du canal représente l’abstraction du canal réel exécuté pou
 
 Etc. jusqu’à ce que vous accédiez au dossier des emplacements et que vous vous en teniez là pour l’instant (vous ne pouvez donc pas référencer un canal qui se trouverait dans le dossier des canaux, par exemple, uniquement les canaux présents dans la sous-arborescence des emplacements).
 
-### 5. Comment configurer la configuration hors ligne de la bibliothèque cliente personnalisée dans le canal AEM Screens ?
+### 5. Comment paramétrer la configuration hors ligne de la bibliothèque cliente personnalisée dans le canal AEM Screens ?
 
-Lors de l’utilisation d’un code client personnalisé créé `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que la variable `clientlib` Les fichiers sont chargés correctement dans le canal (`manifest.json`) et contiendra le chemin d’accès de la variable `clientlib`.
+Lors de l’utilisation d’un code client personnalisé `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que les fichiers `clientlib` sont chargés correctement dans le canal (`manifest.json`) et contiendront le chemin d’accès de la `clientlib`.
 
-Suivez les étapes ci-dessous à partir de l’éditeur de canal :
+Suivez les étapes ci-dessous à partir de l’éditeur de canal :
 
 1. Sélectionnez un canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur de canal.
-1. Sélectionnez le composant dans lequel vous souhaitez ajouter le `clientlib`.
+1. Sélectionnez le composant où vous souhaitez ajouter la `clientlib` personnalisée.
 1. Cliquez sur le bouton de configuration (icône de clé à molette).
-1. Accédez au **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
+1. Accédez à l’onglet **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
 
 ## Enregistrement de périphériques {#device-registration}
 
@@ -157,7 +157,7 @@ Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
-### 4. Comment activer le mode fenêtre dans le lecteur Windows ?{#enable-player}
+### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
 
 Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
 
