@@ -1,13 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202105
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 4 juin 2021.
-feature: Feature Pack
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +22,9 @@ ht-degree: 100%
 Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
 
 Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP8**.
+
+>[!IMPORTANT]
+>Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne une fois que vous avez installé les packages. `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` et le `screens core bundles`.
 
 ## Date de publication {#release-date}
 
@@ -63,6 +67,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 8�
 * Android
 * Linux
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
