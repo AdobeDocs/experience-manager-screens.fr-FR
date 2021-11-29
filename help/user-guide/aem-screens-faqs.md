@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
+source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
-source-wordcount: '2120'
-ht-degree: 97%
+source-wordcount: '2185'
+ht-degree: 94%
 
 ---
 
@@ -244,3 +244,13 @@ Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.ad
 ### 4. Que devez-vous faire si, après le package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 et que les lots principaux screens sont installés mais pas principaux ?
 
 Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) pour obtenir la version minimale du Feature Pack Screens.
+
+### 5. Comment configurer le service d’externaliseur de liens CQ dans Screens ?
+
+Le service est utilisé pour définir le nom d’hôte public pour les instances d’auteur et de publication, et les valeurs sont ensuite utilisées pour mettre à jour les URL du serveur de périphériques et également pour le ciblage ContextHub.
+
+Le service d’externaliseur de liens CQ dans Screens peut être configuré à l’aide de :
+
+1. Accédez à `http://localhost:4502/system/console/configMgr`.
+1. Externalisateur de lien Day CQ
+1. Modifiez le nom d’hôte de la variable `author/publish` entrées si nécessaire
