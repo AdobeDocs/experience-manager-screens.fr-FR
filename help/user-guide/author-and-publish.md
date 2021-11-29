@@ -8,9 +8,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 1. Créez l’agent de réplication AEM Screens pour pub2. Copiez l’agent de réplication Screens pour pub1 et modifiez le port afin qu’il pointe sur 4504 pour pub2.
 
    >[!NOTE]
-   >Pour savoir comment configurer les agents de réplication Screens, voir [Configuration de l’agent de réplication Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
+   >Pour savoir comment configurer les agents de réplication Screens, voir [Configuration des agents de réplication Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=fr).
 
 #### Création d’agents de réplication inverse Screens {#creating-screens-reverse-replication-agents}
 
