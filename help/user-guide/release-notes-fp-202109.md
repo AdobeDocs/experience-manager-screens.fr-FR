@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -62,9 +62,9 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
    * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
-   * Activation de SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
-   * Voir [Configuration de Dispatcher pour Manifest version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3) pour plus d’informations.
+   * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
    * Si vous utilisez des composants personnalisés dans le cadre de manifestes v3, reportez-vous à la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
 
 
@@ -104,7 +104,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 **Côté serveur**
 
-* La vidéo cible ne s’affiche pas
+* La vidéo cible ne s’affiche pas.
 * Situation de compétition lors de la diffusion des données d’affichage dans les sous-séquences.
 
 * L’aperçu de canal ne fonctionne pas pour les canaux contenant des vidéos.
