@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
-workflow-type: ht
-source-wordcount: '2061'
-ht-degree: 100%
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+workflow-type: tm+mt
+source-wordcount: '2120'
+ht-degree: 97%
 
 ---
 
@@ -240,3 +240,7 @@ Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.ad
 * Accéder à l’onglet **Configuration hors ligne**.
 
 * Entrer `clientlibs ` et les dossiers pour les fichiers statiques qui doivent être ajoutés au manifeste.
+
+### 4. Que devez-vous faire si, après le package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 et que les lots principaux screens sont installés mais pas principaux ?
+
+Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 AMS pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) pour obtenir la version minimale de Feature Pack.
