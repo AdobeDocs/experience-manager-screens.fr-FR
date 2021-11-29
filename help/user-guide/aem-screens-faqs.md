@@ -8,9 +8,9 @@ role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2061'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json
 Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme suit :
 
 1. Accédez aux paramètres du lecteur Android —> **À propos de**
-1. Appuyez 7 fois sur le numéro de version pour activer les **options du mode Développeur** dans **Paramètres.**
+1. Appuyez 7 fois sur le numéro de version pour activer les **options du mode Développeur** dans **Paramètres**.
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
 
@@ -221,22 +221,22 @@ Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`,
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. Que faut-il faire pour configurer des Manifestations v3 ? {#configure-v3}
+### 3. Que faut-il faire pour configurer des manifestes v3 ? {#configure-v3}
 
-Pour activer le manifeste v3, vous devez :
+Pour activer les manifestes v3, vous devez effectuer les actions suivantes :
 
-* Mettez à jour Dispatcher.
-Voir [Configuration de Dispatcher pour Manifest version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3) pour plus d’informations.
+* Mettre à jour Dispatcher.
+Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
 
 * Mettre à jour le composant personnalisé.
 Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers) pour plus d’informations.
 
 * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-* Activation de SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+* Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
 * Modifier `channel/experience fragment/page components`.
 
-* Accédez au **Configuration hors ligne** .
+* Accéder à l’onglet **Configuration hors ligne**.
 
-* Entrée `clientlibs `et les dossiers pour les fichiers statiques qui doivent être ajoutés au manifeste.
+* Entrer `clientlibs ` et les dossiers pour les fichiers statiques qui doivent être ajoutés au manifeste.
