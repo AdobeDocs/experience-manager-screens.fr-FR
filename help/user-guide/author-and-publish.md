@@ -1,18 +1,14 @@
 ---
 title: Configuration de l’auteur et de la publication dans AEM Screens
-seo-title: Configuring Author and Publish in AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
-workflow-type: ht
-source-wordcount: '1882'
-ht-degree: 100%
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+workflow-type: tm+mt
+source-wordcount: '2006'
+ht-degree: 93%
 
 ---
+
 
 # Configuration de l’auteur et de la publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un des canaux, un des emplacements, un des appareils, une des applications ou une des planifications. Pour en savoir plus sur cette fonction, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
+
+## Conseils de dépannage {#troubleshoot-tips}
+
+Consultez la section ci-dessous pour obtenir des réponses aux questions fréquentes sur la configuration de création/publication.
+
+### Comment ajouter une redirection de https vers http après l’enregistrement et l’affectation initiaux ? {#add-redirect}
+
+**Solution**
+Définir l’option `Proxy/Load Balancer Connection in the Jetty configuration` to `true`.
+
+### Comment mettre à jour le contenu hors ligne et les problèmes de téléchargement du lecteur avec des ressources en dehors de . `/content/dam/projects/<project>`? {#update-offline-content}
+
+**Solution**
+Donnez des autorisations de lecture au groupe d’utilisateurs et de maîtres screens-devices pour le service de mise à jour hors ligne en bloc pour tous les `/content/dam` ou les ressources spécifiques que vous souhaitez utiliser, si vous souhaitez être plus restrictif.
+
+### Comment résoudre les erreurs de l’agent de réplication Screens ? {#replication-agent}
+
+**Solution**
+Assurez-vous que vous n’avez pas coché l’option Utiliser pour la réplication inverse dans la configuration de l’agent. L’agent de réplication Screens ne peut pas être utilisé comme agent de réplication inverse et l’objectif de cette fonctionnalité est de transférer les commandes de l’appareil de l’auteur à la publication.
