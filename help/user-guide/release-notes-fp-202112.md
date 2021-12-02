@@ -4,10 +4,10 @@ description: Consultez cette page pour obtenir des informations sur AEM Screens 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 81%
+source-wordcount: '269'
+ht-degree: 52%
 
 ---
 
@@ -29,15 +29,26 @@ La date de publication du Feature Pack 202112 d’AEM Screens est le 3 décembre
 
 ### Nouveautés {#what-is-new}
 
-* Les mises à jour des applications Android doivent cibler Android 11 (niveau API 30).
+* Les mises à jour des applications Android ciblent désormais Android 11 (niveau API 30). Actuellement, le lecteur Android est au niveau de l’API cible 29.
+
+* En tant que développeur, vous allez désormais afficher les rendus de ressources pour qu’ils soient répertoriés uniquement en tant qu’entrées de rendu sous les ressources correspondantes dans le manifeste afin de garantir l’extensibilité, la clarté et la facilité de la gestion des manifestes.
 
 ### Correctifs {#bug-fixes}
 
+* Vous pouvez désormais filtrer les événements d’analyse en fonction du type d’événement.
+
+* Collectez les journaux du lecteur on-Premise et analysez-les pour détecter un écran noir.
+
+* Le lecteur affichant un écran vierge avec le canal d’écran partagé est maintenant corrigé.
+
+* Correction des documents de gestionnaire personnalisés en ajoutant le lot principal sur le Maven public.
+
+* Le lecteur ne mettait pas à jour la version du microprogramme après la mise à niveau. Ce problème est maintenant résolu.
 
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 9 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 10 :
 
 * ChromeOS
 * Windows
