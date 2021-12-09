@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
 source-wordcount: '2185'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -241,9 +241,9 @@ Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.ad
 
 * Entrer `clientlibs ` et les dossiers pour les fichiers statiques qui doivent être ajoutés au manifeste.
 
-### 4. Que devez-vous faire si, après le package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 et que les lots principaux screens sont installés mais pas principaux ?
+### 4. Que devez-vous faire si, après avoir installé le package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 et les lots de base de Screens ne sont pas actifs ?
 
-Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) pour obtenir la version minimale du Feature Pack Screens.
+Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8  pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=fr#availability) pour obtenir la version minimale du Feature Pack Screens.
 
 ### 5. Comment configurer le service d’externaliseur de liens CQ dans Screens ?
 
