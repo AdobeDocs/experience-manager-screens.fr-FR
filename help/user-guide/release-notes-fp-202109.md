@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Prise en charge des manifestes V3**
 
-   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez configurer les éléments suivants :
+   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez configurer les éléments suivants :
 
-   * Mise à jour de Dispatcher
+   * Mettre à jour Dispatcher
 
    * Mettre à jour le composant personnalisé
 
@@ -65,7 +65,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
    * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
-   * Si vous utilisez des composants personnalisés dans le cadre de manifestes v3, reportez-vous à la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
+   * Si vous utilisez des composants personnalisés dans le cadre de versions Manifest v3, consultez la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
 
 
 ### Correctifs {#bug-fixes}
