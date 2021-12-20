@@ -1,13 +1,13 @@
 ---
 title: Notes de mise à jour du Feature Pack 202112
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202112, publié le 6 décembre 2021.
+description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202112, publié le 6 décembre 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à pa
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202112 d’AEM Screens est le 6 décembre 2021.
+La date de publication d’AEM Screens Feature Pack 202112 est le 6 décembre 2021.
 
 ### Nouveautés {#what-is-new}
 
-* Les mises à jour des applications Android ciblent désormais Android 11 (niveau API 30). Actuellement, le lecteur Android est au niveau de l’API cible 29.
+* Les mises à jour des applications Android ciblent désormais Android 11 (niveau API 30). Actuellement, le lecteur Android est au niveau d’API cible 29.
 
 * En tant que développeur, vous allez désormais afficher les rendus de ressources pour qu’ils soient répertoriés uniquement en tant qu’entrées de rendu sous les ressources correspondantes dans le manifeste afin de garantir l’extensibilité, la clarté et la facilité de la gestion des manifestes.
 
@@ -37,13 +37,13 @@ La date de publication du Feature Pack 202112 d’AEM Screens est le 6 décembre
 
 * Vous pouvez désormais filtrer les événements d’analyse en fonction du type d’événement.
 
-* Collectez les journaux du lecteur on-Premise et analysez-les pour détecter un écran noir.
+* Collectez les journaux du lecteur On-Premise et analysez-les pour détecter un écran noir.
 
-* Le lecteur affichant un écran vierge avec le canal d’écran partagé est maintenant corrigé.
+* Le lecteur affichant un écran vide avec le canal d’écran partagé est maintenant corrigé.
 
-* Correction des documents de gestionnaire personnalisés en ajoutant le lot principal sur le Maven public.
+* Correction des documents de gestionnaires personnalisés en ajoutant le lot de base sur Public Maven.
 
-* Le lecteur ne mettait pas à jour la version du microprogramme après la mise à niveau. Ce problème est maintenant résolu.
+* Le lecteur ne mettait pas à jour la version du micrologiciel après la mise à niveau. Ce problème est maintenant résolu.
 
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
