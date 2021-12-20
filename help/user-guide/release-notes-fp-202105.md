@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
 source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
 Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne une fois que vous avez installé les packages. `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` et le `screens core bundles`.
+>Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne une fois que vous avez installé les packages `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` et les `screens core bundles`.
 
 ## Date de publication {#release-date}
 
