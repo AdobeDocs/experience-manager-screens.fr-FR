@@ -3,9 +3,9 @@ title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2006'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -309,19 +309,19 @@ La fonction **Gérer les publications** permet de diffuser des mises à jour de 
 
 ## Conseils de dépannage {#troubleshoot-tips}
 
-Consultez la section ci-dessous pour obtenir des réponses aux questions fréquentes sur la configuration de création/publication.
+Consultez la section ci-dessous pour obtenir des réponses aux questions fréquemment posées concernant la configuration de l’auteur/de la publication.
 
-### Comment ajouter une redirection de https vers http après l’enregistrement et l’affectation initiaux ? {#add-redirect}
-
-**Solution**
-Définir l’option `Proxy/Load Balancer Connection in the Jetty configuration` to `true`.
-
-### Comment mettre à jour le contenu hors ligne et les problèmes de téléchargement du lecteur avec des ressources en dehors de . `/content/dam/projects/<project>`? {#update-offline-content}
+### Comment ajouter une redirection de https vers http après l’enregistrement et l’affectation initiaux ? {#add-redirect}
 
 **Solution**
-Donnez des autorisations de lecture au groupe d’utilisateurs et de maîtres screens-devices pour le service de mise à jour hors ligne en bloc pour tous les `/content/dam` ou les ressources spécifiques que vous souhaitez utiliser, si vous souhaitez être plus restrictif.
+Définissez l’option `Proxy/Load Balancer Connection in the Jetty configuration` sur `true`.
 
-### Comment résoudre les erreurs de l’agent de réplication Screens ? {#replication-agent}
+### Comment mettre à jour le contenu hors ligne et les problèmes de téléchargement du lecteur avec des ressources en dehors de `/content/dam/projects/<project>` ? {#update-offline-content}
+
+**Solution**
+Donnez des droits de lecture à l’utilisateur bulk-offline-update-screens-service et au groupe screens-devices-master pour tout le `/content/dam` ou les ressources spécifiques que vous voulez utiliser, si vous souhaitez être plus restrictif.
+
+### Comment résoudre les erreurs « Agent de réplication Screens » ? {#replication-agent}
 
 **Solution**
 Assurez-vous que vous n’avez pas coché l’option Utiliser pour la réplication inverse dans la configuration de l’agent. L’agent de réplication Screens ne peut pas être utilisé comme agent de réplication inverse et l’objectif de cette fonctionnalité est de transférer les commandes de l’appareil de l’auteur à la publication.
