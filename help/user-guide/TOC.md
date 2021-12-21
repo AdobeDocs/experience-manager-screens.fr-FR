@@ -6,7 +6,7 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+source-git-commit: 3602eda37d662017ec5a1d31735e42b6b6f0f89d
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -113,7 +113,7 @@ ht-degree: 100%
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
-   + [Notes de mise à jour du Feature Pack 202109](release-notes-fp-202112.md)
+   + [Notes de mise à jour du Feature Pack 202112](release-notes-fp-202112.md)
    + [Notes de mise à jour du Feature Pack 202109](release-notes-fp-202109.md)
    + [Notes de mise à jour du Feature Pack 202105](release-notes-fp-202105.md)
    + [Notes de mise à jour du Feature Pack 202103](release-notes-fp-202103.md)
