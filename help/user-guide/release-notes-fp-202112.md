@@ -4,13 +4,13 @@ description: Consultez cette page pour obtenir des informations sur AEM Screens 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 7b16515253bb360cb595ca76956107d47b13cf21
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
-
 
 # Notes de mise à jour du Feature Pack 202112 {#release-notes-for-feature-pack}
 
@@ -25,7 +25,7 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à pa
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202112 d’AEM Screens est le 17 décembre 2021.
+La date de publication d’AEM Screens Feature Pack 202112 est le 17 décembre 2021.
 
 ### Nouveautés {#what-is-new}
 
