@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202112
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202112, publié le 17 décembre 2021.
+description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202112, publié le 17 décembre 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
