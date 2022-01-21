@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
-workflow-type: ht
-source-wordcount: '876'
-ht-degree: 100%
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 93%
 
 ---
 
@@ -54,18 +54,31 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Prise en charge des manifestes V3**
 
-   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez configurer les éléments suivants :
+   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
+
+   * Effacer toutes les tâches de contenu hors ligne en attente à la fois dans l’auteur et dans la publication
+
+      * Accédez à crx/de dans les instances de création et de publication.
+
+      * Cliquez sur Outils —> Requête
+
+      * Dans la requête, utilisez `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * Cette opération répertorie toutes les tâches de contenu hors ligne en cours d’exécution ou en attente dans la file d’attente.
+
+      * Attendez qu’il n’y ait plus de tâches de contenu hors ligne renvoyées par la requête.
+   * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Mettre à jour Dispatcher
 
    * Mettre à jour le composant personnalisé
 
-   * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
    * Si vous utilisez des composants personnalisés dans le cadre de versions Manifest v3, consultez la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
+
 
 
 ### Correctifs {#bug-fixes}
