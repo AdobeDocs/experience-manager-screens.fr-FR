@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '291'
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ La date de publication d’AEM Screens Feature Pack 202112 est le 17 décem
 
 * Le lecteur ne mettait pas à jour la version du micrologiciel après la mise à niveau. Ce problème est maintenant résolu.
 
-* L’aperçu de l’affichage est bloqué lors de la configuration précédente du lecteur.
+* La prévisualisation de lʼaffichage est bloquée sur la configuration précédente du lecteur.
 
-* L’aperçu de l’affichage n’est pas rendu dans certaines conditions.
+* Le rendu de la prévisualisation de lʼaffichage ne sʼeffectue pas dans certaines conditions.
 
-* Corrigez les erreurs de téléchargement simultanées dans SmartSync.
+* Correction des erreurs de téléchargement simultané dans SmartSync.
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
