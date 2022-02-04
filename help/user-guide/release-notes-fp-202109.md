@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,19 +54,19 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Prise en charge des manifestes V3**
 
-   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
+   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
 
-   * Effacer toutes les tâches de contenu hors ligne en attente à la fois dans l’auteur et dans la publication
+   * Effacer tous les traitements de contenu hors ligne en attente, à la fois dans l’auteur et la publication.
 
-      * Accédez à crx/de dans les instances de création et de publication.
+      * Accédez à crx/de dans l’auteur et la publication.
 
-      * Cliquez sur Outils —> Requête
+      * Cliquez sur Outils --> Requête.
 
-      * Dans la requête, utilisez `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * Dans Requête, utilisez : `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
-      * Cette opération répertorie toutes les tâches de contenu hors ligne en cours d’exécution ou en attente dans la file d’attente.
+      * Cette opération répertorie tous les traitements de contenu hors ligne en cours d’exécution ou en attente dans la file d’attente.
 
-      * Attendez qu’il n’y ait plus de tâches de contenu hors ligne renvoyées par la requête.
+      * Attendez la fin du renvoi des traitements de contenu hors ligne par la requête.
    * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
