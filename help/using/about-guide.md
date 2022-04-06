@@ -1,15 +1,15 @@
 ---
 title: À propos de ce guide
-seo-title: Description du guide
-description: Cette page décrit l’objectif du guide des bonnes pratiques
-seo-description: Cette page décrit l’objectif du guide des bonnes pratiques
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+seo-title: Description on the Guide
+description: Suivez ce guide des bonnes pratiques AEM 6.5 pour les projets AEM Screens afin de planifier et d’exécuter des projets, depuis l’exposé sur la stratégie et la conception jusqu’au déploiement et après assistance.
+seo-description: This page describes the intent of the Best Practices Guide
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
-
 
 # À propos de ce guide {#about-guide}
 
