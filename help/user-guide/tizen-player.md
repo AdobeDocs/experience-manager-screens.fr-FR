@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 98%
 
 ---
 
@@ -167,3 +167,7 @@ Suivez les étapes ci-dessous pour enregistrer le périphérique Tizen auprès d
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Cliquez sur **Save** (Enregistrer) pour que les modifications s’affichent à l’écran.
+
+### Utilisation de la commande à distance Screens {#using-remote-control}
+
+AEM Screens fournit la fonctionnalité de contrôle à distance. En savoir plus sur cette fonctionnalité ici : [Contrôle à distance Screens](implementing-remote-control.md)

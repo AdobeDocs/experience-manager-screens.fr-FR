@@ -6,10 +6,10 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
-source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 99%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
       + [Enregistrement automatique des lecteurs](auto-registration-players.md)
+      + [Utiliser la télécommande](implementing-remote-control.md)
    + Instances d’auteur et de publication {#author-publish}
       + [Présentation de l’architecture des instances d’auteur et de publication](author-publish-architecture-overview.md)
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)

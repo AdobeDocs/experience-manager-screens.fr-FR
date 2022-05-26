@@ -1,22 +1,22 @@
 ---
 title: Mise en œuvre du lecteur Chrome OS
-seo-title: Mise en œuvre du lecteur Chrome OS
+seo-title: Implementing Chrome OS Player
 description: Suivez cette page pour découvrir comment mettre en œuvre le lecteur Chrome OS à l’aide de la console de gestion de Chrome.
-seo-description: Suivez cette page pour découvrir comment mettre en œuvre le lecteur Chrome OS à l’aide de la console de gestion de Chrome.
+seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Administration d’AEM Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 97%
 
 ---
 
@@ -152,3 +152,7 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 >[!NOTE]
 >
 >Les configurations de règles sont appliquées strictement et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une règle particulière, ne spécifiez pas la règle lors de la ***configuration des règles***, par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** lors de la configuration des règles.
+
+### Utilisation de la commande à distance Screens {#using-remote-control}
+
+AEM Screens fournit la fonctionnalité de contrôle à distance. En savoir plus sur cette fonctionnalité ici : [Contrôle à distance Screens](implementing-remote-control.md)

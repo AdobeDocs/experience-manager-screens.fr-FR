@@ -1,8 +1,8 @@
 ---
 title: Mise en œuvre d’Android Player
-seo-title: Mise en œuvre d’Android Player
+seo-title: Implementation of Android Player
 description: Suivez cette page pour découvrir la mise en œuvre d’Android Watchdog, une solution pour restaurer le lecteur suite à une panne.
-seo-description: Suivez cette page pour découvrir la mise en œuvre d’Android Watchdog, une solution pour restaurer le lecteur suite à une panne.
+seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes.
 uuid: 17edd093-f1b1-479e-9f25-28c64f1a7223
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Administration de Screens, Android Player
+feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1534'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '1529'
+ht-degree: 98%
 
 ---
 
@@ -207,3 +207,7 @@ Suivez les étapes ci-dessous pour autoriser l’approvisionnement en bloc dans 
    >Les périphériques doivent recevoir l’application avec la configuration et pointer vers le serveur AEM approprié avec la configuration sélectionnée. Si vous choisissez de configurer le code d’enregistrement en bloc et que vous le conservez tel que configuré dans AEM, le lecteur doit être en mesure de s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
 
 En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si celle-ci prend AppConfig. Les plus populaires, parmi lesquels [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) et [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm), prennent en charge cette solution standard dans ce domaine.
+
+### Utilisation de la commande à distance Screens {#using-remote-control}
+
+AEM Screens fournit la fonctionnalité de contrôle à distance. En savoir plus sur cette fonctionnalité ici : [Contrôle à distance Screens](implementing-remote-control.md)
