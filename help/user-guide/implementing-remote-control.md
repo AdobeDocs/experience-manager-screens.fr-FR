@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ Le diagramme suivant illustre l’utilisation des clés sur une télécommande S
 >[!NOTE]
 >Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande n’activera pas l’interface utilisateur d’administration et le sélecteur de canal. Vous ne pourrez pas non plus utiliser les touches fléchées pour naviguer dans l’interface utilisateur ou les canaux d’administration. Cependant, vous pouvez toujours effacer le cache et recharger le lecteur. Vous pouvez désactiver la fonction de contrôle à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif à l’aide de ce code :
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
