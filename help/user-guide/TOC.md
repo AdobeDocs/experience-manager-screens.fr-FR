@@ -7,9 +7,9 @@ breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
       + [Enregistrement automatique des lecteurs](auto-registration-players.md)
-      + [Utiliser la télécommande](implementing-remote-control.md)
+      + [Utiliser la commande à distance](implementing-remote-control.md)
    + Instances d’auteur et de publication {#author-publish}
       + [Présentation de l’architecture des instances d’auteur et de publication](author-publish-architecture-overview.md)
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)
@@ -114,7 +114,7 @@ ht-degree: 99%
    + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
-   + [Notes de mise à jour du Feature Pack 202204](release-notes-fp-202204.md)
+   + [Notes de mise à jour du pack de fonctionnalités 202204](release-notes-fp-202204.md)
    + [Notes de mise à jour du Feature Pack 202112](release-notes-fp-202112.md)
    + [Notes de mise à jour du Feature Pack 202109](release-notes-fp-202109.md)
    + [Notes de mise à jour du Feature Pack 202105](release-notes-fp-202105.md)
