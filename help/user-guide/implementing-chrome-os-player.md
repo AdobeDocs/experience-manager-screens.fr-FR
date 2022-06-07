@@ -14,9 +14,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -153,6 +153,6 @@ Le tableau ci-dessous récapitule les règles avec leurs fonctions.
 >
 >Les configurations de règles sont appliquées strictement et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une règle particulière, ne spécifiez pas la règle lors de la ***configuration des règles***, par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** lors de la configuration des règles.
 
-### Utilisation de la commande à distance Screens {#using-remote-control}
+### Utiliser la commande à distance Screens {#using-remote-control}
 
-AEM Screens fournit la fonctionnalité de contrôle à distance. En savoir plus sur cette fonctionnalité ici : [Contrôle à distance Screens](implementing-remote-control.md)
+AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md).
