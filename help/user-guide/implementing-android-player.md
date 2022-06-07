@@ -1,5 +1,5 @@
 ---
-title: Mise en œuvre d’Android Player
+title: Mettre en œuvre Android Player
 seo-title: Implementation of Android Player
 description: Suivez cette page pour découvrir la mise en œuvre d’Android Watchdog, une solution pour restaurer le lecteur suite à une panne.
 seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes.
@@ -15,9 +15,9 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -208,6 +208,6 @@ Suivez les étapes ci-dessous pour autoriser l’approvisionnement en bloc dans 
 
 En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si celle-ci prend AppConfig. Les plus populaires, parmi lesquels [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) et [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm), prennent en charge cette solution standard dans ce domaine.
 
-### Utilisation de la commande à distance Screens {#using-remote-control}
+### Utiliser la commande à distance Screens {#using-remote-control}
 
-AEM Screens fournit la fonctionnalité de contrôle à distance. En savoir plus sur cette fonctionnalité ici : [Contrôle à distance Screens](implementing-remote-control.md)
+AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Contrôle à distance Screens](implementing-remote-control.md).
