@@ -1,7 +1,7 @@
 ---
-title: Mise en oeuvre du contrôle à distance
+title: Mettre en œuvre la commande à distance
 seo-title: Impementing the Remote Control
-description: Consultez cette page pour en savoir plus sur la fonction de contrôle à distance de Screens.
+description: Consultez cette page pour en savoir plus sur la fonction de commande à distance Screens.
 seo-description: Follow  this page to learn about using the Screens Remote Control Feature.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
@@ -12,45 +12,46 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
-workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 0%
+exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
+source-git-commit: 6cd68194bf3128464ec368f3e7fd69d20925c3d6
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
-# Utilisation de la commande à distance Screens  {#implementing-remote-control}
+# Utiliser la commande à distance Screens  {#implementing-remote-control}
 
-La fonctionnalité de contrôle à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canal ou à des fonctionnalités telles que Effacer le cache et recharger. En outre, il vous fournit une méthode pour afficher la version du microprogramme local et les informations système sur le lecteur. Cela s’avère particulièrement utile, car il peut s’avérer difficile de connecter une souris et de fonctionner sur des appareils de production hors de portée, et encore plus si le lecteur a perdu la connexion avec AEM. Cela s’avère également utile lors de l’utilisation de Samsung RMS, car la différence de résolution peut rendre très difficile la localisation et l’ouverture de l’interface utilisateur d’administration à l’aide d’une souris.
+La fonction de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canaux ou à des fonctionnalités telles que Effacer le cache et recharger. En outre, elle vous permet de voir la version locale du micrologiciel et les informations système du lecteur. Ceci est particulièrement utile, car il peut être difficile de connecter une souris et d’utiliser des appareils de production hors de portée, et encore plus si le lecteur a perdu la connexion à AEM. Cela est également utile lorsque vous utilisez Samsung RMS, car la différence de résolution peut rendre très difficile la localisation et l’ouverture de l’interface utilisateur d’administration à l’aide d’une souris.
 
-## Combinaisons de clés de contrôle à distance courantes {#using-common-remote-control}
+## Combinaisons de touches courantes de commande à distance {#using-common-remote-control}
 
-Sur tous les lecteurs, vous pouvez utiliser les combinaisons de touches suivantes dans la télécommande Screens :
+Sur tous les lecteurs, vous pouvez utiliser les combinaisons de touches suivantes dans la commande à distance Screens :
 
-1. Activer/désactiver l’interface utilisateur d’administration - Ctrl + 1
-1. Activer/désactiver le sélecteur de canal - Ctrl + 2
-1. Effacer le cache - Ctrl + ALT + 3
-1. Recharger le lecteur - Ctrl + 4
+1. Activer/désactiver l’interface utilisateur d’administration : Ctrl + 1
+1. Activer/désactiver le sélecteur de canaux : Ctrl + 2
+1. Vider le cache : Ctrl + Alt + 3
+1. Recharger le lecteur : Ctrl + 4
 
-## Tizer les combinaisons de clés de contrôle à distance spécifiques {#using-tizen-remote-control}
+## Combinaisons de touches de commande à distance spécifiques à Tizen {#using-tizen-remote-control}
 
-Spécifique au lecteur Tizen, vous pouvez utiliser la télécommande matérielle ou la télécommande logicielle disponible dans Samsung RMS pour accéder à ces fonctionnalités :
+Pour le lecteur Tizen, vous pouvez utiliser soit la télécommande matérielle, soit la télécommande logicielle disponible dans Samsung RMS pour accéder à ces fonctionnalités :
 
-1. A - Activation/désactivation de l’interface utilisateur d’administration
-1. B - Activer/désactiver le sélecteur de canal
-1. C - Effacer le cache
-1. D - Rechargement du lecteur
+1. A : activer/désactiver l’interface utilisateur d’administration
+1. B : activer/désactiver le sélecteur de canaux
+1. C : vider le cache
+1. D : recharger le lecteur
 
 ## Remarques supplémentaires sur l’utilisation {#using-additional-remote-control}
 
-1. Une fois l’interface utilisateur d’administration ouverte, vous pouvez utiliser les flèches haut et bas pour parcourir les onglets afin d’afficher les informations dans les onglets.
-1. Une fois le sélecteur de canal ouvert, vous pouvez utiliser les flèches haut et bas pour naviguer dans les canaux et appuyer sur la touche Entrée (ou sur le bouton situé au centre des flèches de la télécommande) pour changer de canal.
+1. Lorsque l’interface utilisateur d’administration est ouverte, vous pouvez utiliser les flèches vers le haut et vers le bas pour naviguer entre les onglets et afficher les informations.
+1. Lorsque le sélecteur de canaux est ouvert, vous pouvez utiliser les flèches vers le haut et vers le bas pour naviguer dans les canaux et vous pouvez appuyer sur la touche Entrée (ou le bouton au centre des flèches sur la télécommande) pour changer de canal.
 
-Le diagramme suivant illustre l’utilisation des clés sur une télécommande Samsung :
+La figure suivante illustre l’utilisation des touches sur une télécommande Samsung :
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande n’activera pas l’interface utilisateur d’administration et le sélecteur de canal. Vous ne pourrez pas non plus utiliser les touches fléchées pour naviguer dans l’interface utilisateur ou les canaux d’administration. Cependant, vous pouvez toujours effacer le cache et recharger le lecteur. Vous pouvez désactiver la fonction de contrôle à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif à l’aide de ce code :
+>Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande ne pourra pas basculer entre l’interface utilisateur d’administration et le sélecteur de canaux. Vous ne pourrez pas non plus utiliser les touches fléchées pour naviguer dans l’interface utilisateur d’administration ou les canaux. Cependant, vous pouvez toujours vider le cache et recharger le lecteur. Vous pouvez désactiver la fonction de commande à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif en utilisant ce code :
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
