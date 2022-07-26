@@ -1,16 +1,16 @@
 ---
 title: Configurations du Dispatcher pour AEM Screens
-seo-title: Configurations du Dispatcher pour AEM Screens
+seo-title: Dispatcher Configurations for AEM Screens
 description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
-seo-description: Cette page décrit les instructions de configuration du Dispatcher pour un projet AEM Screens.
-feature: Administration d’AEM Screens
+seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
+feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 85%
 
 ---
 
@@ -230,3 +230,24 @@ Cela prend en charge la mise en cache de 10 niveaux maximum à partir de la rac
        /type "deny"
        }
    ```
+
+### Ajout d’une règle d’invalidation pour segment.js {#invalidsegmentjs}
+
+Si vous ajoutez de nouveaux segments et que vous les publiez, la variable `segments.js` Le fichier traité par le dispatcher ne comporte pas les nouvelles entrées qui interrompaient le flux de ciblage sur le périphérique screens. Le fichier segments.js est mis en cache au niveau du Dispatcher, mais aucune règle d’invalidation n’a été appliquée pour le même événement. Par conséquent, vous devez ajouter une règle d’invalidation.
+
+* Ajoutez de nouveaux segments au `/conf/<project-name>/settings/wcm/segments.seg.js` fichier .
+
+* Ajouter une règle d’invalidation à `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Voici la règle à ajouter :
+
+```
+    /invalidate {
+                        .
+                        .
+                        /0004 {
+                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /type "allow"
+                        }
+                }
+```
+
+* Cette règle garantit que la variable `segments.js` est invalidé et la dernière est récupérée lors de la modification.
