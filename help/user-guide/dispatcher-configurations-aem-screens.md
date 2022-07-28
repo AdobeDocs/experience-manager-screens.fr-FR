@@ -7,10 +7,10 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 85%
+source-wordcount: '645'
+ht-degree: 87%
 
 ---
 
@@ -233,9 +233,7 @@ Cela prend en charge la mise en cache de 10 niveaux maximum à partir de la rac
 
 ### Ajout d’une règle d’invalidation pour segment.js {#invalidsegmentjs}
 
-Si vous ajoutez de nouveaux segments et que vous les publiez, la variable `segments.js` Le fichier traité par le dispatcher ne comporte pas les nouvelles entrées qui interrompaient le flux de ciblage sur le périphérique screens. Le fichier segments.js est mis en cache au niveau du Dispatcher, mais aucune règle d’invalidation n’a été appliquée pour le même événement. Par conséquent, vous devez ajouter une règle d’invalidation.
-
-* Ajoutez de nouveaux segments au `/conf/<project-name>/settings/wcm/segments.seg.js` fichier .
+Si vous utilisez des campagnes ciblées avec AEM Screens, la variable `segments.js file` Les segments diffusés par le dispatcher doivent être invalidés, car vous ajoutez et publiez de nouveaux segments sur AEM. Sans cette règle d’invalidation, les nouvelles campagnes ciblées ne fonctionneront pas sur le lecteur Screens (le contenu par défaut s’affichera à la place).
 
 * Ajouter une règle d’invalidation à `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Voici la règle à ajouter :
 
@@ -244,7 +242,7 @@ Si vous ajoutez de nouveaux segments et que vous les publiez, la variable `segme
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
