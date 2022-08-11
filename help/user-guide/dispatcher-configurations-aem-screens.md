@@ -10,7 +10,7 @@ exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -233,7 +233,7 @@ Cela prend en charge la mise en cache de 10 niveaux maximum à partir de la rac
 
 ### Ajouter une règle d’invalidation pour segment.js {#invalidsegmentjs}
 
-Si vous utilisez des campagnes ciblées avec AEM Screens, la variable `segments.js file` Les segments diffusés par le dispatcher doivent être invalidés, car vous ajoutez et publiez de nouveaux segments sur AEM. Sans cette règle d’invalidation, les nouvelles campagnes ciblées ne fonctionneront pas sur le lecteur Screens (le contenu par défaut s’affichera à la place).
+Si vous utilisez des campagnes ciblées avec AEM Screens, le `segments.js file` diffusé par le Dispatcher doit être invalidé lorsque vous ajoutez et publiez de nouveaux segments sur AEM. Sans cette règle d’invalidation, les nouvelles campagnes ciblées ne fonctionneront pas sur le lecteur Screens (le contenu par défaut s’affichera à la place).
 
 * Ajoutez une règle d’invalidation à `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Voici la règle à ajouter :
 
