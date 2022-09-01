@@ -1,24 +1,24 @@
 ---
 title: Développement d’un composant personnalisé pour AEM Screens
-seo-title: Développement d’un composant personnalisé pour AEM Screens
+seo-title: Developing a Custom Component for AEM Screens
 description: Le tutoriel suivant décrit les étapes à suivre pour créer un composant personnalisé pour AEM Screens. AEM Screens réutilise de nombreux modèles de conception et technologies existants d’autres produits AEM. Ce tutoriel met en évidence les différences et les considérations spéciales lors du développement pour AEM Screens.
-seo-description: Tutoriel d’introduction pour créer un composant "Hello World" simple pour AEM Screens. AEM Screens réutilise de nombreux modèles de conception et technologies existants d’autres produits AEM. Le tutoriel suivant a pour but de mettre en évidence les différences et les considérations spécifiques lors du développement pour AEM Screens.
+seo-description: An introductory tutorial to build a simple "Hello World" component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The following tutorial intends to highlight the specific differences and considerations when developing for AEM Screens.
 uuid: 8ec8be5a-6348-48f2-9cb7-75b2bad555a6
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Développement dans Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '2188'
+exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '2127'
 ht-degree: 100%
 
 ---
-
 
 # Développement d’un composant personnalisé pour AEM Screens {#developing-a-custom-component-for-aem-screens}
 
@@ -30,7 +30,7 @@ Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce 
 
 ![overviewhellow](assets/overviewhellow.png)
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
 Pour suivre ce tutoriel, vous avez besoin de :
 
@@ -96,7 +96,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
-## Création du composant Hello World {#hello-world-cmp}
+## Création du composant Hello World {#hello-world-cmp}
 
 Le composant Hello World est un composant simple qui permet à un utilisateur de saisir un message à afficher à l’écran. Le composant est basé sur le [Modèle de composant AEM Screens : https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
@@ -166,7 +166,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    Le composant effectue le rendu d’un `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie de script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à l’utilisateur de saisir une valeur pour le texte de la propriété `message`.
 
-   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. Il s’agit de la notation utilisée par les [composants de base d’AEM](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). Vous trouverez plus d’informations à l’adresse : [https://getbem.com/](https://getbem.com/)
+   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. Il s’agit de la notation utilisée par les [composants de base d’AEM](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Sous `/apps/weretail-run/components/content/helloworld`, créez un fichier appelé `edit.html.`
 

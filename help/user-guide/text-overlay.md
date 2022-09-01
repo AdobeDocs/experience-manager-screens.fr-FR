@@ -1,8 +1,8 @@
 ---
 title: Superposition de texte
-seo-title: Superposition de texte
+seo-title: Text Overlay
 description: La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en incluant un titre ou une description superposés à une image. Consultez cette page pour en savoir plus.
-seo-description: La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en incluant un titre ou une description superposés à une image. Consultez cette page pour en savoir plus.
+seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
 uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 72%
 
 ---
 
@@ -40,7 +40,7 @@ La superposition de texte est une fonctionnalité disponible dans AEM Screens q
 
 Pour savoir comment créer votre propre composant personnalisé, reportez-vous à la section **Extension d’un composant AEM Screens**.
 
-Cette section explique uniquement comment utiliser et exploiter le composant poster dans un projet AEM Screens et l’utiliser comme superposition de texte dans l’un de vos canaux de séquence.
+Cette section explique uniquement comment utiliser et appliquer le composant Poster dans un projet AEM Screens et l’utiliser comme superposition de texte dans l’un de vos canaux de séquence.
 
 ## Utilisation de la superposition de texte {#using-text-overlay}
 
@@ -76,19 +76,19 @@ Pour utiliser la superposition de texte dans un canal AEM Screens, procédez co
 
 ### Présentation des propriétés de superposition de texte {#understanding-text-overlay-properties}
 
-Les propriétés de superposition de texte vous permettent d’ajouter du texte à n’importe quel composant de votre projet Screens. La section suivante présente un aperçu des propriétés disponibles dans Superposition de texte :
+À l’aide des propriétés de superposition de texte, vous pouvez ajouter du texte à l’un des composants de votre projet Screens. La section suivante présente un aperçu des propriétés disponibles dans Superposition de texte :
 
 ![texte](assets/text.gif)
 
-Vous pouvez ajouter du texte à la zone de texte et utiliser des styles typographiques tels que le gras, l’italique, le soulignement, etc.
+Vous pouvez ajouter du texte à la zone de texte et mettre l’accent typographique en gras, en italique et en souligné.
 
 **Variante de couleur** Cette option permet d’afficher le texte en foncé (texte en noir) ou clair (texte en blanc).
 
-**Dimensionnement et positionnement** Cette option permet à l’utilisateur d’aligner le texte horizontalement ou verticalement, ou encore d’utiliser des outils d’ajustement précis pour l’alignement du texte.
+**Dimensionnement et positionnement** Cette option permet à l’utilisateur d’aligner le texte horizontalement ou verticalement ou d’utiliser des outils d’ajustement précis pour l’alignement du texte.
 
 >[!NOTE]
 >
->Pour utiliser correctement les outils d’ajustement précis, veillez à identifier la position correcte en pixels en utilisant (px) comme suffixe, par exemple 200 px. Le résultat de cette expression sera de 200 pixels à partir du point de départ.
+>Pour utiliser correctement les outils d’ajustement précis, veillez à identifier la position correcte en pixels en utilisant (px) comme suffixe, par exemple 200 px. Le résultat de cette expression est de 200 pixels à partir du point de départ.
 
 ## Utilisation des valeurs ContextHub dans la superposition de texte {#using-text-overlay-context-hub}
 
@@ -96,15 +96,15 @@ La section ci-après décrit l’utilisation des valeurs d’un magasin de donn�
 
 **Prérequis**
 
-Vous devez définir des configurations ContextHub pour votre projet AEM Screens.
+Configurez les configurations ContextHub pour votre projet AEM Screens.
 
-Pour savoir comment configurer et gérer les modifications de ressources pilotées par les données à l’aide d’un magasin de données, voir [Configuration de ContextHub dans AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Pour savoir comment configurer et gérer les modifications de ressources pilotées par les données à l’aide d’un entrepôt de données, reportez-vous à la section [Configuration de ContextHub dans AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
 
 Une fois que vous avez défini les configurations requises pour votre projet, suivez les étapes ci-dessous pour utiliser les valeurs d’une feuille de calcul Google Sheets :
 
 1. Accédez à **TextOverlayDemo** --> **Canaux** --> **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
 
-1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
+1. Sélectionnez la **Personnalisation** pour configurer les configurations ContextHub.
 
    1. Sélectionnez le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
 
@@ -131,9 +131,9 @@ Une fois que vous avez défini les configurations requises pour votre projet, su
 1. Accédez à l’onglet **ContextHub** depuis la boîte de dialogue **Image**. Cliquez sur **Ajouter**.
 
    >[!NOTE]
-   >Si vous n’avez pas configuré vos configurations ContextHub, cette option sera désactivée pour votre projet.
+   >Si vous n’avez pas configuré vos configurations ContextHub, cette option est désactivée pour votre projet.
 
-1. Saisissez **Valeur** dans le champ **Espace réservé**, sélectionnez la ligne à utiliser dans votre feuille de calcul Google Sheets au niveau de **Variable ContextHub** (dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 de la feuille de calcul Google Sheets), puis saisissez la **Valeur par défaut** **20**, comme illustré dans la figure ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
+1. Entrée **Valeur** dans le **Espace réservé** champ . Sélectionnez la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Saisissez maintenant la variable **Valeur par défaut** as **20**, comme illustré dans la figure ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

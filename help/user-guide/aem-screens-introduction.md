@@ -1,55 +1,54 @@
 ---
-title: Qu’est-ce qu’AEM Screens ?
-seo-title: What is AEM Screens?
-description: Découvrez comment utiliser AEM Screens, une solution de signalétique numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive.
+title: Qu’est-ce qu’Adobe Experience Manager Screens ?
+description: Découvrez comment utiliser Adobe Experience Manager Screens, une solution de signalétique digitale, qui vous permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions qui impliquent différents types d’écrans, le tout sur une plateforme de marketing numérique exhaustive.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 52778cf4c62b079576b1f84db2f27925042db3e6
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 23%
 
 ---
 
-# Qu’est-ce qu’AEM Screens ? {#what-is-aem-screens}
+# Qu’est-ce qu’Adobe Experience Manager Screens ?{#what-is-aem-screens}
 
-**AEM (Adobe Experience Manager) Screens** : solution de signalétique numérique, qui permet de publier des expériences numériques dynamiques et interactives, ainsi que des interactions impliquant différents types d’écran, conjointement avec une plateforme de marketing numérique exhaustive.
+**Experience Manager Screens** - une solution de signalétique digitale qui permet de publier des expériences et interactions numériques dynamiques et interactives impliquant différents types d’écrans, le tout sur une plateforme de marketing numérique exhaustive.
 
 Devenez opérationnel avec une expérience de signalétique numérique simple, grâce à [Démarrage rapide d’AEM Screens](kickstart-for-aem-screens.md).
 
-Pour savoir comment configurer et créer votre projet AEM Screens dans AEM as a Cloud Service, consultez [cette page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=fr).
+Pour savoir comment configurer et créer votre projet Experience Manager Screens dans Experience Manager as a Cloud Service, voir [here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/screens-as-cloud-service/home.html).
 
 ## Présentation {#overview}
 
-**AEM Screens** s’appuie sur les bases solides d’***AEM Sites*** et permet aux spécialistes du marketing et aux informaticiens de créer et de gérer des expériences sur différents écrans numériques, qui ont un impact sur les objectifs en magasin/sur site pour établir la marque et susciter la demande. L’intégration d’AEM Screens à AEM Sites permet de réutiliser des contenus existants et d’offrir efficacement une solution client cohérente et uniforme. Cette intégration fournit un processus rationalisé permettant de créer des expériences numériques dédiées, qui sont très rentables et utilisables. Cela permet d’influencer la perception de la marque et les décisions conduisant à l’augmentation des achats et de l’engagement.
+**Experience Manager Screens** repose sur les bases solides de ***Experience Manager Sites*** et permet aux marketeurs et au personnel informatique de créer et de gérer des expériences sur plusieurs écrans numériques qui ont un impact sur les objectifs en magasin/sur site pour créer une marque et stimuler la demande. L’intégration d’Experience Manager Screens à Sites vous permet de réutiliser du contenu existant et de fournir efficacement une solution client cohérente et cohérente. Cette intégration fournit un processus rationalisé permettant de créer des expériences numériques dédiées, qui sont très rentables et utilisables. Cela permet d’influencer la perception de la marque et les décisions conduisant à l’augmentation des achats et de l’engagement.
 
-AEM Screens est une solution web puissante, qui permet de créer des tableaux de menus numériques dédiés, des recommandations de produits, des images de fond valorisant un style de vie, afin de renforcer l’interaction des clients et de proposer des expériences de marque uniformisées et utiles dans des endroits comme des magasins, des hôtels, des banques, des établissements de santé et de formation, et bien d’autres, à partir de la même AEM Platform. Screens met à disposition de nombreuses applications uniques, comme des affichages interactifs, des composants d’orientation ou de marque et l’ajout d’une ambiance à votre environnement pour des clients et des employés en fonction du domaine dans lequel elles sont déployées.
+Experience Manager Screens est une solution web puissante qui vous permet de créer des tableaux de menus numériques dédiés, des recommandations de produits, des images de fond de vie pour élargir l’interaction client. Il vous aide à offrir des expériences de marque unifiées et utiles dans des lieux physiques, tels que des magasins, des hôtels, des banques, des établissements de santé et d’éducation, et bien plus encore, à partir de la même plateforme Experience Manager. Screens met à disposition de nombreuses applications uniques, comme des affichages interactifs, des composants d’orientation ou de marque et l’ajout d’une ambiance à votre environnement pour des clients et des employés en fonction du domaine dans lequel elles sont déployées.
 
-Avec AEM Screens, la création et la gestion d’une application sont simples et intuitives. Une *application* héberge des pages web créées pour AEM Screens par des clients ou des partenaires de mise en œuvre. Les *emplacements* gèrent une hiérarchie prédéfinie et contiennent des *affichages*. Chaque affichage comprend un tableau de bord, auquel sont associés différents périphériques et écrans. Le contenu d’AEM Screens est géré dans des *canaux*. Le lecteur AEM Screens effectue le rendu du contenu figurant dans les canaux sur des dispositifs d’affichage.
+La création et la gestion d’une application à l’aide d’Experience Manager Screens sont simples et intuitives. Un *application* héberge des pages web conçues pour les Experience Manager Screens par les clients ou les partenaires d’implémentation. *Emplacements* gérer une hiérarchie prédéfinie et contenir *affiche*. Chaque affichage comprend un tableau de bord, auquel sont associés différents périphériques et écrans. Le contenu des Experience Manager Screens est géré dans *channels*. Experience Manager Screens Player effectue le rendu du contenu présent dans les canaux sur des affichages.
 
-Pour comprendre les termes clés associés à AEM Screens, voir [Glossaire](screens-glossary.md).
+Pour comprendre les terminologies clés associées aux Experience Manager Screens, voir [Glossaire](screens-glossary.md).
 
 ### Architecture du lecteur AEM Screens {#architecture-of-screens-player}
 
-Le schéma ci-dessous montre l’architecture générale d’un lecteur AEM Screens :
+Le diagramme suivant illustre l’architecture générale d’un lecteur Experience Manager Screens :
 
 ![chlimage_1-29](assets/chlimage_1-29.png)
 
 ### Création d’une expérience de signalétique numérique en 5 minutes {#create-a-digital-signage-experience-in-minutes}
 
-Pour créer une démonstration d’un projet Screens et publier votre contenu dans le lecteur AEM Screens, voir [Démarrage rapide d’AEM Screens](kickstart-for-aem-screens.md).
+Pour créer une démonstration d’un projet Screens et publier votre contenu dans le lecteur Screens, voir [Démarrage rapide pour les Experience Manager Screens](kickstart-for-aem-screens.md).
 
-## Démarrage d’un nouveau projet AEM Screens {#starting-a-new-aem-screens-project}
+## Démarrage d’un nouveau projet Experience Manager Screens {#starting-a-new-aem-screens-project}
 
-Le démarrage d’une nouvelle expérience de signalétique numérique implique de coordonner différents rôles avant qu’elle ne puisse être utilisée. Les rôles ci-dessous servent de point de départ pour créer un nouveau projet Screens.
+Le démarrage d’une nouvelle expérience de signalétique numérique implique de coordonner différents rôles avant qu’elle ne puisse être utilisée. Les rôles suivants constituent un point de départ pour la création d’un projet Screens :
 
 * **Auteur**
 * **Développeur**
 * **Administrateur système/Technicien**
 
-Les illustrations ci-dessous définissent les intervenants et leur rôle dans le cadre d’AEM Screens.
+La figure suivante définit les acteurs et leur rôle pour les Experience Manager Screens.
 
 ![chlimage_1-30](assets/chlimage_1-30.png)
 
@@ -58,12 +57,12 @@ Les illustrations ci-dessous définissent les intervenants et leur rôle dans le
 
 * **Principes d’implémentation guidée**
 
-   Suivez le parcours d’apprentissage guidé **[Principes d’implémentation guidée AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans AEM Screens.
+   Suivez le parcours d’apprentissage guidé **[Principes de mise en oeuvre des Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans les Experience Manager Screens.
 
-* **Guide des bonnes pratiques pour les projets AEM Screens**
+* **Guide des bonnes pratiques pour les projets Experience Manager Screens**
 
-   Appliquez le **[Guide des bonnes pratiques pour les projets AEM Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html)**, conçu pour identifier les écueils courants lors de la mise en œuvre d’un projet AEM Screens. Le document concerne principalement les rôles et les responsabilités au sein du projet, la matrice RACI pour les différents rôles, les configurations d’AEM Platform, ainsi que l’assistance et la surveillance.
+   Suivez **[Guide des bonnes pratiques pour les projets Experience Manager Screens](/help/using/about-guide.md)** qui est conçu pour identifier les écueils courants lors de la mise en oeuvre d’un projet Experience Manager Screens. Le document se concentre principalement sur les rôles et les responsabilités du projet, la matrice RACI pour les différents rôles, les configurations de la plateforme de Experience Manager, ainsi que sur l’assistance et la surveillance.
 
-* **Nouvelle expérience du service clientèle Adobe**
+<!-- DEAD LINK * **New Adobe Customer Support Experience**
 
-   Pour en savoir plus sur les tickets d’assistance clientèle Admin Console, consultez la page **[Aide de Customer One for Enterprise](https://docs.adobe.com/content/help/fr-FR/customer-one/using/home.htmlhome.html#)**.
+   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. -->

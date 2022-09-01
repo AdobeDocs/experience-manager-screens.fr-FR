@@ -6,9 +6,9 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques pour Screens](https://docs.adobe.com/content/help/fr-FR/experience-manager-screens/using/about-guide.html)
+   + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=fr)
    + [Termes clés](screens-glossary.md)
 + Notions de base sur les réseaux de signalétique numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
