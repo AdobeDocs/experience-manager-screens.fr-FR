@@ -15,9 +15,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ La page suivante décrit l’utilisation de la disposition multizone et aborde l
 
 ## Présentation {#overview}
 
-***Disposition multizone*** permet de créer du contenu multizone et d’utiliser différentes ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran. Il est possible d’importer des images, des vidéos et du texte, et de les mélanger de façon à créer une expérience digitale intuitive.
+La ***disposition multizone*** permet de créer du contenu multizone et d’utiliser diverses ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran. Il est possible d’importer des images, des vidéos et du texte, et de les mélanger de façon à créer une expérience digitale intuitive.
 
 En fonction des exigences du projet, il est parfois nécessaire de disposer de plusieurs zones au sein d’un canal et dus modifier comme une unité entière. Par exemple, une séquence de produits avec un flux de médias sociaux associé qui s’exécute dans trois zones distinctes sur un seul canal.
 
@@ -42,8 +42,8 @@ En fonction des exigences du projet, il est parfois nécessaire de disposer de p
 
 Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséder des connaissances conceptuelles concernant les aspects suivants :
 
-* [Création d’un projet AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [Création d’un affichage](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Création d’un projet AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=fr)
+* [Création d’un affichage](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=fr)
 * [Affectation d’un canal à un affichage](/help/user-guide/channel-assignment.md)
 
 ## Création d’une disposition multizone {#creating-multi-zone-layout}
@@ -123,7 +123,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 
 ### Création d’un emplacement et d’un affichage {#creating-location}
 
-Créez un emplacement et un affichage pour afficher le contenu dans le lecteur Screens.
+Vous devez créer un emplacement et un affichage afin de visualiser le contenu dans le lecteur Screens.
 
 1. **Création d’un emplacement**
 
@@ -141,7 +141,7 @@ Créez un emplacement et un affichage pour afficher le contenu dans le lecteur S
 
 ### Affectation de canaux à l’affichage {#channel-channel}
 
-Affectez les canaux à l&#39;affichage pour visualiser le contenu. Suivez les étapes ci-dessous pour affecter le canal à l’affichage.
+Vous devez affecter les canaux à l’affichage de façon à visualiser le contenu. Suivez les étapes ci-dessous pour affecter le canal à l’affichage.
 
 1. **Affectation du canal à l’affichage**
 
@@ -187,7 +187,7 @@ Une fois que vous avez configuré un emplacement et un affichage, suivez les ét
 
 Une fois que vous avez mis en œuvre des dispositions multizone en suivant les étapes précédentes, la sortie suivante s’affiche.
 
-Utilisez le lecteur Screens afin de visualiser la sortie qui affiche le contenu dans deux zones différentes : Les zones de gauche et de droite (toutes deux utilisent une séquence incorporée comme composant).
+Utilisez le lecteur Screens afin de visualiser la sortie qui affiche le contenu dans deux zones différentes : Les zones de gauche et de droite (toutes deux utilisent la séquence incorporée comme composant).
 
 La zone de gauche est un canal de séquence et celle de droite inclut une vidéo.
 
