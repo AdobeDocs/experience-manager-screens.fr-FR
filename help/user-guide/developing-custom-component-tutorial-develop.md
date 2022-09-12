@@ -14,7 +14,7 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2127'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    1. **Production**: Mode Aperçu ou Publication (wcmmode=disabled)
    1. **Modifier** : utilisé pour tous les autres modes de création, c’est-à-dire éditer, concevoir, échafauder, développeur...
 
-   `helloworld.html`fonctionne comme un commutateur, en vérifiant quel mode de création est actuellement actif et en redirigeant vers un autre script HTML. Une convention commune utilisée par les composants Screens consiste à utiliser un script `edit.html` pour le mode d’édition et un script `production.html` pour le mode de production.
+   `helloworld.html`fonctionne comme un commutateur, en vérifiant quel mode de création est actuellement actif et en redirigeant vers un autre script HTL. Une convention commune utilisée par les composants Screens consiste à utiliser un script `edit.html` pour le mode d’édition et un script `production.html` pour le mode de production.
 
 1. Sous `/apps/weretail-run/components/content/helloworld`, créez un fichier appelé `production.html.`
 
