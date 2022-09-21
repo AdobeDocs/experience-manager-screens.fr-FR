@@ -8,9 +8,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ La page suivante décrit l’utilisation de la synchronisation des commandes. La
 
 Les solutions de signalétique numérique doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est à ce stade que la synchronisation des commandes entre en jeu.
 
-Pour utiliser la synchronisation des commandes, un lecteur agit comme un *Principal* et envoie une commande et tous les autres lecteurs agissent comme *clients* et jouent quand ils reçoivent la commande.
+Pour utiliser la synchronisation des commandes, un lecteur agit comme *principal* et envoie une commande, tandis que tous les autres lecteurs agissent comme *clients* et procèdent à la lecture lorsqu’ils reçoivent la commande.
 
-Le *Principal* envoie une commande à tous les clients enregistrés lorsqu’il est sur le point de démarrer la lecture d’un élément. La charge utile liée à cette opération peut être l’index de l’élément à lire et/ou le code html externe de l’élément à lire.
+Le lecteur *principal* envoie une commande à tous les clients enregistrés lorsqu’il est sur le point de démarrer la lecture d’un élément. La payoad liée à cette opération peut être l’index de l’élément à lire et/ou le code html externe de l’élément à lire.
 
 ## Mise en œuvre de la synchronisation des commandes {#using-command-sync}
 
@@ -90,57 +90,57 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Configuration d’un Principal {#setting-up-primary}
+### Configurer un lecteur principal {#setting-up-primary}
 
 1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
 Les deux appareils (Chrome et lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Dans la **APPAREILS** , sélectionnez le périphérique que vous souhaitez définir comme Principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant que Principal. Cliquez sur **Défini comme périphérique Principal**.
+1. Dans le panneau **APPAREILS**, sélectionnez l’appareil à définir comme principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Définir en tant qu’appareil principal**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Saisissez l’adresse IP dans **Défini comme périphérique Principal** et cliquez sur **Enregistrer**.
+1. Entrez l’adresse IP dans **Définir en tant qu’appareil principal** et cliquez sur **Enregistrer**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->Vous pouvez configurer plusieurs périphériques comme Principaux.
+>Vous pouvez configurer plusieurs appareils en tant que principaux.
 
-### Synchronisation avec les Principal {#sync-up-primary}
+### Synchronisation avec l’appareil principal {#sync-up-primary}
 
-1. Une fois que vous avez défini l’appareil Chrome comme Principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec la Principale.
-Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans la **APPAREILS** et cliquez sur **Synchronisation avec l’appareil Principal**, comme illustré dans la figure ci-dessous.
+1. Une fois l’appareil Chrome défini comme principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
+Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans le panneau **APPAREILS** et cliquez sur **Synchroniser avec l’appareil principal**, comme illustré ci-dessous.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Sélectionnez l’appareil dans la liste et cliquez sur **Enregistrer**.
 
    >[REMARQUE :]
-   > Le **Synchronisation avec l’appareil Principal** La boîte de dialogue affiche la liste des Principaux appareils. Vous pouvez sélectionner celui que vous désirez.
+   > La boîte de dialogue **Synchroniser avec l’appareil principal** affiche la liste des appareils principaux. Vous pouvez sélectionner celui que vous désirez.
 
-1. Une fois que l’appareil (le lecteur Windows) est synchronisé avec le Principal (le lecteur Chrome), il s’affiche dans la variable **APPAREILS** du panneau.
+1. Une fois que l’appareil (le lecteur Windows) est synchronisé avec le lecteur principal (le lecteur Chrome), il apparaît comme synchronisé dans le panneau **APPAREILS**.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Désynchronisation avec le Principal {#desync-up-primary}
+### Désynchronisation du lecteur principal {#desync-up-primary}
 
-Une fois que vous avez synchronisé un ou plusieurs appareils à une Principale, vous pouvez désynchroniser l’attribution à partir de cet appareil.
+Une fois que vous avez synchronisé un ou plusieurs appareils avec un appareil principal, vous pouvez les désynchroniser.
 
 >[!NOTE]
 >
->Si vous désynchronisez un appareil Principal, tous les appareils clients associés à cet appareil seront également dissociés.
+>Si vous désynchronisez un appareil principal, cela annule également la liaison de tous les appareils clients qui lui sont associés.
 
-Pour supprimer la synchronisation de l’appareil Principal, procédez comme suit :
+Pour annuler la synchronisation avec l’appareil principal, procédez comme suit :
 
 1. Accédez au panneau **APPAREILS** et sélectionnez l’appareil.
 
-1. Cliquez sur **Désynchroniser le ou les appareils** pour désynchroniser le client de l’appareil Principal.
+1. Cliquez sur **Désynchroniser le ou les appareils** pour désynchroniser le client de l’appareil principal.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Cliquez sur **Confirmer** pour désynchroniser l’appareil sélectionné de la Principale.
+1. Cliquez sur **Confirmer** pour désynchroniser l’appareil sélectionné de l’appareil principal.
 
    >[REMARQUE :]
-   > Si vous sélectionnez l’appareil Principal et que vous utilisez l’option de désynchronisation, tous les appareils connectés à l’Principal seront désynchronisés en une seule étape.
+   > Si vous sélectionnez l’appareil principal et que vous utilisez l’option de désynchronisation, tous les appareils connectés à l’appareil principal seront désynchronisés en une seule étape.
