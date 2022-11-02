@@ -2,9 +2,9 @@
 title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
-workflow-type: ht
-source-wordcount: '2006'
+source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+workflow-type: tm+mt
+source-wordcount: '1974'
 ht-degree: 100%
 
 ---
@@ -240,8 +240,6 @@ Vérifiez votre lecteur et vous verrez le contenu que vous avez ajouté à votre
 #### Étape 4 : publication de la configuration du périphérique sur les instances de publication {#step-publishing-device-configuration-to-publish-instances}
 
 **Vérification du périphérique**
-
-Avant d’effectuer les étapes ci-dessous, veillez à vérifier l’ID du périphérique. Pour vérifier, recherchez l’identifiant de l’appareil dans CRXDE Lite, en utilisant comme chemin d’accès */home/users/screens/we-retail/devices*.
 
 Pour répliquer l’utilisateur du périphérique, procédez comme suit :
 
