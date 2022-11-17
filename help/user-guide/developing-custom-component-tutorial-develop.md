@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '2127'
-ht-degree: 100%
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+workflow-type: tm+mt
+source-wordcount: '2275'
+ht-degree: 93%
 
 ---
 
@@ -553,6 +553,15 @@ Le code ci-dessous indique les exigences minimales du fichier `pom.xml` pour ce 
 La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Remarques supplémentaires concernant les composants personnalisés incorporant d’autres pages ou fragments {#additional-considerations}
+
+Si le composant personnalisé que vous développez est destiné à inclure d’autres pages ou fragments d’expérience, et si vous souhaitez que les modifications du contenu incorporé soient automatiquement récupérées par le lecteur sans avoir à republier le canal, vous devez prendre en compte ces deux contraintes :
+
+1. Au lieu d’étendre directement `foundation/components/parbase`, vous devez étendre l’une des options suivantes : `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
+2. Le nom de la propriété que vous utilisez pour référencer le contenu incorporé doit être `pagePath`
+
+L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire qu’ils peuvent prendre en charge le regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.). via leurs options de configuration hors ligne dans la boîte de dialogue du composant, ce qui réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devez utiliser à cet effet, parfois en supprimant complètement la nécessité d’en utiliser un en premier lieu.
 
 ## Code terminé {#finished-code}
 
