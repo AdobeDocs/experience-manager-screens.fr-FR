@@ -2,10 +2,10 @@
 title: Configuration de l’auteur et de la publication dans AEM Screens
 description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Consultez cette page pour apprendre comment configurer l’Auteur et la Publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 94%
+source-wordcount: '1988'
+ht-degree: 93%
 
 ---
 
@@ -128,9 +128,10 @@ Pour chaque instance de publication :
 1. Accédez à `https://<host>:<port>/system/console/configMgr`.
 1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak**.
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Liste blanche des connecteurs de topologie** : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Liste des Listes autorisées du connecteur de topologie**: S’adapter aux adresses IP ou aux sous-réseaux couvrant toutes les instances de publication. Veillez à placer sur la liste autorisée l’adresse IP/le nom d’hôte de toutes les instances de publication sans le numéro de port.
+
 1. Activez **Arrêt automatique des boucles locales**
 
 La configuration doit être identique pour chaque instance de publication et l’arrêt automatique des boucles locales empêche la création d’une boucle infinie.
