@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2275'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Pour suivre ce tutoriel, vous avez besoin de :
 1. [Lecteur AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de **CRXDE-Lite**. Vous pouvez également utiliser des IDE pour compléter le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le développement [avec AEM ici.](https://helpx.adobe.com/fr/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de **CRXDE-Lite**. Vous pouvez également utiliser des IDE pour compléter le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le développement [avec AEM ici.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html?lang=fr)
 
 
 ## Configuration du projet {#project-setup}
 
-Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://helpx.adobe.com/fr/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
+Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html?lang=fr).
 
 1. Téléchargez et installez les packages suivants à l’aide du [gestionnaire de packages CRX](http://localhost:4502/crx/packmgr/index.jsp) :
 
@@ -556,12 +556,12 @@ La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un c
 
 ## Remarques supplémentaires concernant les composants personnalisés incorporant d’autres pages ou fragments {#additional-considerations}
 
-Si le composant personnalisé que vous développez est destiné à inclure d’autres pages ou fragments d’expérience, et si vous souhaitez que les modifications du contenu incorporé soient automatiquement récupérées par le lecteur sans avoir à republier le canal, vous devez prendre en compte ces deux contraintes :
+Si le composant personnalisé que vous développez est destiné à inclure d’autres pages ou fragments d’expérience, et si vous souhaitez que les modifications du contenu incorporé soient automatiquement récupérées par le lecteur sans avoir à republier le canal, vous devez prendre en compte ces deux contraintes :
 
-1. Au lieu d’étendre directement `foundation/components/parbase`, vous devez étendre l’une des options suivantes : `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
+1. Au lieu d’étendre directement `foundation/components/parbase`, vous devez étendre l’une des options suivantes : `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
 2. Le nom de la propriété que vous utilisez pour référencer le contenu incorporé doit être `pagePath`
 
-L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire qu’ils peuvent prendre en charge le regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.). via leurs options de configuration hors ligne dans la boîte de dialogue du composant, ce qui réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devez utiliser à cet effet, parfois en supprimant complètement la nécessité d’en utiliser un en premier lieu.
+L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire suivant : prise en charge du regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.) via leurs options de configuration hors ligne dans la boîte de dialogue du composant, ce qui réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devez utiliser à cet effet, parfois en supprimant complètement la nécessité d’en utiliser un en premier lieu.
 
 ## Code terminé {#finished-code}
 
