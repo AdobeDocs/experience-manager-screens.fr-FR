@@ -1,13 +1,14 @@
 ---
-title: Notes de mise à jour du pack de fonctionnalités 202203
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202203, publié le 25 mars 2022.
+title: Notes de mise à jour du Feature Pack 202203
+description: Consultez cette page pour obtenir des informations sur le pack de fonctionnalités AEM Screens 202203, publié le 25 mars 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 78afc81cf588e643ad8c046d8bb70774e6296a11
-workflow-type: tm+mt
+exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
+source-git-commit: a6708e1d91383c076ed822b50b9f37de163361c8
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +25,11 @@ Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202203 d’AEM Screens est le 25 mars 2022.
+La date de publication du pack de fonctionnalités AEM Screens 202203 est le 25 mars 2022.
 
 ### Nouveautés {#what-is-new}
 
-Cette version comprend uniquement des correctifs de bogues.
+Cette version comprend uniquement des correctifs de bugs.
 
 ### Correctifs {#bug-fixes}
 
@@ -40,7 +41,7 @@ Cette version comprend uniquement des correctifs de bogues.
 
 * Le canal SPA de Screens provoquait un écran blanc avec le lecteur Windows. Ce problème est maintenant résolu.
 
-* Le *wcmmode* Le paramètre a été supprimé de toutes les requêtes Screens sur l’instance de publication.
+* Le paramètre *wcmmode* a été supprimé de toutes les requêtes Screens sur l’instance de publication.
 
 * L’interface utilisateur de l’activité Lecteur fonctionne maintenant comme prévu.
 
