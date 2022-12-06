@@ -5,7 +5,7 @@ exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Pour chaque instance de publication :
 1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Liste des Listes autorisées du connecteur de topologie**: S’adapter aux adresses IP ou aux sous-réseaux couvrant toutes les instances de publication. Veillez à placer sur la liste autorisée l’adresse IP/le nom d’hôte de toutes les instances de publication sans le numéro de port.
+1. **Liste autorisée des connecteurs de topologie** : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication. Veillez à placer sur la liste autorisée l’adresse IP/le nom d’hôte de toutes les instances de publication sans le numéro de port.
 
 1. Activez **Arrêt automatique des boucles locales**
 
