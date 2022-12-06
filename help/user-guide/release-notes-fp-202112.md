@@ -1,12 +1,12 @@
 ---
 title: Notes de mise à jour du Feature Pack 202112
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202112, publié le 12 janvier 2022.
+description: Consultez cette page pour obtenir des informations sur le pack de fonctionnalités AEM Screens 202112, publié le 12 janvier 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à pa
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 202112 est le 12 janvier 2022.
+La date de publication du pack de fonctionnalités AEM Screens 202112 est le 12 janvier 2022.
 
 ### Nouveautés {#what-is-new}
 
