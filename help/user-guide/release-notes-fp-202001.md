@@ -1,26 +1,30 @@
 ---
 title: Notes de mise à jour du Feature Pack 202001
-seo-title: Notes de mise à jour du Feature Pack 202001
+seo-title: Release Notes for Feature Pack 202001
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202001, publié le 31 janvier 2020.
-seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202001, publié le 31 janvier 2020.
-feature: Feature Pack
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '284'
+exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
+source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+workflow-type: tm+mt
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
 
-
-# Notes de mise à jour du Feature Pack 202001 {#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 202001{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
 >Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
 
-AEM Screens a publié AEM 6.4 Feature Pack 7 et AEM 6.5 Feature Pack 3 avec les détails suivants.
+## Disponibilité {#availability}
+
+Le pack de fonctionnalités 3 d’AEM 6.5 a été publié pour AEM Screens.
+
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP3**.
 
 ## Date de publication {#release-date}
 
@@ -52,6 +56,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4 Feature Pack 7 
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
