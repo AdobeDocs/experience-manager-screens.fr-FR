@@ -8,13 +8,13 @@ role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour du Feature Pack 202001{#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 202001{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 Le pack de fonctionnalités 3 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP3**.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP3**.
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 202001 est le 31 janvier 2020.
+La date de publication du pack de fonctionnalités 202001 d’AEM Screens est le 31 janvier 2020.
 
 ### Nouveautés {#what-s-new}
 
