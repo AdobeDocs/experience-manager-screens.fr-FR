@@ -7,7 +7,7 @@ breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
 
