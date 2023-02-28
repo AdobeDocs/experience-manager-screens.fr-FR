@@ -33,7 +33,7 @@ ht-degree: 100%
    + [Cartographie du parcours utilisateur](journey-map.md)
    + [Prototypage de l’expérience utilisateur](prototypes.md)
    + [Maquettage de l’expérience utilisateur](wireframes.md)
-   + [Transition vers la plate-forme](transition-platform.md)
+   + [Transition vers la plateforme](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Exposé sur le déploiement {#deployment-brief}
    + [Configurations d’AEM Platform](aem-platform-configurations.md)
@@ -49,4 +49,4 @@ ht-degree: 100%
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
 + Assistance et maintenance {#ongoing-support}
    + [Assistance et surveillance](support-monitoring.md)
-   + [Assistance et maintenance de la plate-forme pour le jour 2](day-two-support-maintenance.md)
+   + [Assistance et maintenance de la plateforme pour le jour 2](day-two-support-maintenance.md)
