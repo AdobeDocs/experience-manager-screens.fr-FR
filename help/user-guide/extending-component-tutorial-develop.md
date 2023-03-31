@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Le composant Poster personnalisé est créé en étendant le composant Image.
 
 Les éléments suivants sont requis afin de terminer ce tutoriel :
 
-1. AEM 6.5 + dernier Feature Pack Screens
+1. AEM 6.5 + dernier Pack de fonctionnalités Screens
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
@@ -95,7 +95,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Propriétés pour /apps/weretail-run/components/content/poster
 
-   Lorsque la propriété `sling:resourceSuperType` est égale à `screens/core/components/content/image`, le composant Poster hérite de toutes les fonctionnalités du composant Image. Il est possible d’ajouter sous le composant `poster` des nœuds et des fichiers équivalents présents sous `screens/core/components/content/image` afin de remplacer et d’étendre les fonctionnalités.
+   Lorsque la propriété `sling:resourceSuperType` est égale à `screens/core/components/content/image`, le composant Poster hérite de toutes les fonctionnalités du composant Image. Il est possible d’ajouter sous le composant `screens/core/components/content/image` des nœuds et des fichiers équivalents présents sous `poster` afin de remplacer et d’étendre les fonctionnalités.
 
 1. Copiez le nœud `cq:editConfig` sous `/libs/screens/core/components/content/image.`Collez le nœud `cq:editConfig` sous le composant `/apps/weretail-run/components/content/poster`.
 
@@ -334,8 +334,8 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
 1. Ajoutez les propriétés suivantes à la bibliothèque cliente partagée :
 
-   * `allowProxy` | Booléen | `true`
-   * `categories` | Chaîne[] | `cq.screens.components`
+   * `allowProxy`   Boolean   `true`
+   * `categories`   String[]   `cq.screens.components`
 
    ![Propriétés pour /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
 
