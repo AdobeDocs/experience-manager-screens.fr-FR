@@ -6,8 +6,10 @@ user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
 user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
 feature-set: Experience Manager Screens
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: tm+mt
+feature: Content
+role: User
+source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+workflow-type: ht
 source-wordcount: '487'
 ht-degree: 100%
 
@@ -32,7 +34,7 @@ ht-degree: 100%
    + [Paramétrage des configurations Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Installation du lecteur Screens](installing-screens-player.md)
    + [Connexion à un lecteur Screens](working-with-screens-player.md)
-   + [Enregistrement de périphériques](device-registration.md)
+   + [Enregistrement d’appareils](device-registration.md)
    + [Configuration des listes de contrôle d’accès](setting-up-acls.md)
    + [Liste de contrôle de sécurité d’AEM Screens](security-checklist.md)
    + [Transition de ContentSync à SmartSync](smartsync.md)
@@ -60,7 +62,7 @@ ht-degree: 100%
       + [Création et gestion des affichages](managing-displays.md)
       + [Création et gestion des emplacements](managing-locations.md)
       + [Création et gestion des planifications](managing-schedules.md)
-      + [Gestion des périphériques](managing-devices.md)
+      + [Gestion des appareils](managing-devices.md)
       + Attribution de canaux {#assigning-channels}
          + [Attribution de canaux](channel-assignment-latest-fp.md)
          + [Attribution de canaux : anciennes versions de Feature Packs AEM Screens](channel-assignment.md)
@@ -111,7 +113,7 @@ ht-degree: 100%
    + [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
-   + [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md)
+   + [Dépannage du Centre de contrôle des appareils](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
    + [Notes de mise à jour du Feature Pack 202204](release-notes-fp-202204.md)
