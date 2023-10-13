@@ -8,10 +8,10 @@ user-guide-description: Apprenez à utiliser une solution d’affichage dynamiqu
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
       + [Lecteur Android](implementing-android-player.md)
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
+      + [Lecteur cloud](implementing-cloud-player.md)
       + [Enregistrement automatique des lecteurs](auto-registration-players.md)
       + [Utiliser la commande à distance](implementing-remote-control.md)
    + Instances d’auteur et de publication {#author-publish}
