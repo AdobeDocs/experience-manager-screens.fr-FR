@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
-workflow-type: ht
-source-wordcount: '1097'
-ht-degree: 100%
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 93%
 
 ---
 
@@ -66,9 +66,9 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 >[!NOTE]
 >
->Si le **Statut** est **ENREGISTRÉ**, vous remarquerez que le champ **ID de périphérique** est renseigné.
+>Si le **Statut** est **ENREGISTRÉ**, vous remarquerez que le champ **ID d’appareil** est renseigné.
 >
->Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer le périphérique.
+>Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer l’appareil.
 
 ## Nommage du lecteur Windows {#name-windows}
 
@@ -108,30 +108,34 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Enregistrement groupé du lecteur Windows {#bulk-registration}
 
-Lors de la mise en œuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. À la place, vous pouvez mettre à jour le fichier JSON de configuration une fois qu’il a été testé et qu’il est prêt pour le déploiement.
+Lors de la mise en œuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. Au lieu de cela, vous pouvez mettre à jour le fichier de configuration JSON après son test et il est prêt pour le déploiement.
 
-La configuration garantit que tous les lecteurs envoient un ping au même serveur spécifié dans le fichier de configuration. Vous devez encore enregistrer manuellement chaque lecteur.
+La configuration garantit que tous les lecteurs envoient un ping au même serveur spécifié dans le fichier de configuration. Vous devez toujours enregistrer manuellement chaque lecteur.
 
-Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
+Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
 
 1. Installez le lecteur Windows.
 1. Recherchez le fichier de configuration sous ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Mettez à jour le fichier JSON de configuration en utilisant les informations ci-dessous, puis copiez le même dossier sur tous les systèmes où réside le lecteur.
 
-### Attributs de règle {#policy-attributes}
+### Attributs de politique {#policy-attributes}
 
-Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
+Le tableau suivant résume les attributs de stratégie avec un exemple de code JSON de stratégie à titre de référence :
 
-| **Nom de la règle** | **Objectif** |
+
+| **Nom de la stratégie** | **Objectif** |
 |---|---|
-| server | URL du serveur Adobe Experience Manager (AEM). |
+| serveur | URL du serveur Adobe Experience Manager (AEM). |
+| registrationKey | Utilisé pour l’enregistrement en masse des appareils à l’aide d’une clé pré-partagée. |
 | resolution | Résolution de l’appareil. |
-| rebootSchedule | Planification de redémarrage du lecteur. |
+| rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
+| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-le une fois qu’il est entièrement configuré et en production. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
+| cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
-#### Exemple de fichier JSON de règle {#example-policy-json-file}
+#### Exemple de fichier JSON de politique {#example-policy-json-file}
 
 ```
 {
@@ -150,7 +154,7 @@ Lorsque vous déployez le lecteur Windows, il est important d’activer un mode 
 
 >[!CAUTION]
 >
->Adobe recommande une solution de gestion des périphériques pour activer Kiosque pour Windows. Suivez les étapes ci-dessous, si vous ne disposez pas d’une solution de gestion des périphériques pour activer le mode Kiosque. Cette méthode utilise la fonction Shell Launcher disponible dans Windows 10 Enterprise et Edu. Vous pouvez également utiliser toute autre méthode recommandée par Microsoft pour les applications non UWP pour activer Kiosque, en particulier sur d’autres éditions de Windows.
+>Adobe recommande une solution de gestion des appareils pour activer Kiosque pour Windows. Suivez les étapes ci-dessous, si vous ne disposez pas d’une solution de gestion des appareils pour activer le mode Kiosque. Cette méthode utilise la fonction Shell Launcher disponible dans Windows 10 Enterprise et Edu. Vous pouvez également utiliser toute autre méthode recommandée par Microsoft pour les applications non UWP pour activer Kiosque, en particulier sur d’autres éditions de Windows.
 
 Pour activer le mode Kiosque, procédez comme suit :
 
@@ -183,7 +187,7 @@ L’exemple de script dans les liens active et désactive le shell personnalisé
 
 >[!NOTE]
 >
->Dans certains environnements Windows, les scripts PowerShell peuvent être restreints par la stratégie (en particulier les scripts non signés). Pour exécuter votre script, vous devrez peut-être désactiver provisoirement cette restriction puis la réactiver pour exécuter le script. Ouvrez une fenêtre PowerShell et utilisez ces commandes.
+>Dans certains environnements Windows, les scripts PowerShell peuvent être restreints par la politique (en particulier les scripts non signés). Pour exécuter votre script, vous devrez peut-être désactiver provisoirement cette restriction puis la réactiver pour exécuter le script. Ouvrez une fenêtre PowerShell et utilisez ces commandes.
 >
 >*set-executionpolicy unrestricted* - pour supprimer provisoirement les restrictions
 >

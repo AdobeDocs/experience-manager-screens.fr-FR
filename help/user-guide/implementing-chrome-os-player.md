@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '846'
-ht-degree: 100%
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 86%
 
 ---
 
@@ -29,12 +29,12 @@ Cette section décrit comment mettre en œuvre le lecteur Chrome OS Player à l�
 Pour installer la console de gestion de Chrome, exécutez la procédure suivante :
 
 1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour la console de gestion de Chrome. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=fr&amp;ref_topic=2935995).
-1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=fr).
+1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez sur [here](https://support.google.com/chrome/a/answer/1360534?hl=fr).
 1. Le lecteur Chrome sera disponible dans le Chrome Web Store.
 
 >[!NOTE]
 >
->Une solution de gestion des appareils, comme la console de gestion de Chrome, est recommandée pour le déploiement et la gestion des appareils Chrome OS. Même si ce document contient la mise en œuvre de la console de gestion de Chrome, d’autres fournisseurs proposent des fonctionnalités similaires. Contactez le fournisseur de votre logiciel de gestion d’appareils.
+>Une solution de gestion des appareils, comme la console de gestion de Chrome, est recommandée pour le déploiement et la gestion des appareils Chrome OS. Même si ce document contient la mise en œuvre de la console de gestion de Chrome, d’autres fournisseurs proposent des fonctionnalités similaires. Veuillez contacter le fournisseur de votre logiciel de gestion des périphériques.
 
 ## Nommage du lecteur Chrome OS {#name-chrome}
 
@@ -87,8 +87,8 @@ Pour activer le mode de kiosque, procédez comme suit :
 
 1. Connectez-vous à la console de développement de Chrome.
 1. Sélectionnez **Gestion des appareils** > **Appareils Chrome** et sélectionnez l’appareil à contrôler.
-1. Cliquez sur **Activité du système et résolution des incidents**.
-1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier le statut de l’appareil et ses informations d’intégrité.
+1. Cliquez sur **Activité du système et dépannage**.
+1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier l’état du périphérique et les informations d’intégrité.
 
 >[!NOTE]
 >
@@ -96,22 +96,22 @@ Pour activer le mode de kiosque, procédez comme suit :
 
 ### Configuration de la configuration à distance des lecteurs Chrome OS {#configuring-remote-configuration-of-chrome-os-players}
 
-Le lecteur AEM Screens est une application du kiosque, qui permet également de configurer des règles à distance pour les lecteurs Chrome OS.
+Le lecteur AEM Screens est une application du kiosque, qui permet également de configurer des politiques à distance pour les lecteurs Chrome OS.
 
-Pour configurer les différentes options du lecteur, procédez comme suit :
+Suivez les étapes ci-dessous pour configurer différentes options du lecteur :
 
 1. Connectez-vous à la console de gestion de Chrome.
 1. Sélectionnez **Gestion des appareils** > **Gestion de Chrome** > **Gestion des applications**. Le lecteur AEM Screens s’affiche dans la liste.
-1. Cliquez sur l’application **Lecteur AEM Screens**.
+1. Cliquez sur l’application. **Lecteur AEM Screens**.
 1. Cliquez sur **Paramètres du kiosque** et sélectionnez votre organisation (*si vous utilisez un environnement de test*).
-1. Cliquez sur **Charger un fichier de configuration** et chargez la règle de configuration (*fichier JSON*).
-1. Cliquez sur **Enregistrer**. Vous devez redémarrer l’appareil pour synchroniser la règle.
+1. Cliquez sur **Charger un fichier de configuration** et chargez la politique de configuration (*fichier JSON*).
+1. Cliquez sur **Enregistrer**. Vous devez redémarrer l’appareil pour synchroniser la politique.
 
 >[!NOTE]
 >
->Redémarrez l’appareil pour synchroniser les modifications apportées à la règle.
+>Redémarrez l’appareil pour synchroniser les modifications apportées à la politique.
 
-#### Exemple de fichier JSON de règle {#example-policy-json-file}
+#### Exemple de fichier JSON de politique {#example-policy-json-file}
 
 ```java
 {
@@ -136,22 +136,25 @@ Pour configurer les différentes options du lecteur, procédez comme suit :
 }
 ```
 
-### Attributs et objectif des règles {#policy-attributes-and-purpose}
+### Attributs et objectif des politiques {#policy-attributes-and-purpose}
 
-Le tableau ci-dessous récapitule les règles avec leurs fonctions.
+Le tableau ci-dessous récapitule les politiques avec leurs fonctions.
 
-| **Nom de la règle** | **Objectif** |
+| **Nom de la stratégie** | **Objectif** |
 |---|---|
-| *server* | Adresse URL du serveur Adobe Experience Manager |
-| *resolution* | Résolution de l’appareil Chrome OS |
-| *rebootSchedule* | Planification du redémarrage du lecteur Chrome |
-| *enableAdminUI* | Activez l’interface utilisateur d’administration pour que les techniciens configurent l’appareil sur le site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
-| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
+| serveur | URL du serveur Adobe Experience Manager (AEM). |
+| registrationKey | Utilisé pour l’enregistrement en masse des appareils à l’aide d’une clé pré-partagée. |
+| resolution | Résolution de l’appareil. |
+| rebootSchedule | Planification du redémarrage du lecteur. |
+| enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
+| enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-le une fois qu’il est entièrement configuré et en production. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
+| cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Les configurations de règles sont appliquées strictement et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une règle particulière, ne spécifiez pas la règle lors de la ***configuration des règles***, par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** lors de la configuration des règles.
+>Les configurations de politiques sont appliquées strictement et ne sont pas remplacées manuellement dans l’interface utilisateur d’administration du lecteur. Pour permettre la configuration manuelle du lecteur pour une politique particulière, ne spécifiez pas la politique lors de la ***configuration des politiques***, par exemple, si vous souhaitez permettre la configuration manuelle de la planification du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** lors de la configuration des politiques.
 
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
