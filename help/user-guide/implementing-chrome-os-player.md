@@ -16,7 +16,7 @@ exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -29,8 +29,8 @@ Cette section décrit comment mettre en œuvre le lecteur Chrome OS Player à l�
 Pour installer la console de gestion de Chrome, exécutez la procédure suivante :
 
 1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour la console de gestion de Chrome. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=fr&amp;ref_topic=2935995).
-1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez sur [here](https://support.google.com/chrome/a/answer/1360534?hl=fr).
-1. Le lecteur Chrome sera disponible dans le Chrome Web Store.
+1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=fr).
+1. Le lecteur Chrome est disponible dans le Chrome Web Store.
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Pour activer le mode de kiosque, procédez comme suit :
 1. Connectez-vous à la console de développement de Chrome.
 1. Sélectionnez **Gestion des appareils** > **Appareils Chrome** et sélectionnez l’appareil à contrôler.
 1. Cliquez sur **Activité du système et dépannage**.
-1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier l’état du périphérique et les informations d’intégrité.
+1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier l’état du périphérique et les informations relatives à son intégrité.
 
 >[!NOTE]
 >
@@ -98,12 +98,12 @@ Pour activer le mode de kiosque, procédez comme suit :
 
 Le lecteur AEM Screens est une application du kiosque, qui permet également de configurer des politiques à distance pour les lecteurs Chrome OS.
 
-Suivez les étapes ci-dessous pour configurer différentes options du lecteur :
+Suivez les étapes ci-dessous pour configurer les différentes options du lecteur :
 
 1. Connectez-vous à la console de gestion de Chrome.
 1. Sélectionnez **Gestion des appareils** > **Gestion de Chrome** > **Gestion des applications**. Le lecteur AEM Screens s’affiche dans la liste.
-1. Cliquez sur l’application. **Lecteur AEM Screens**.
-1. Cliquez sur **Paramètres du kiosque** et sélectionnez votre organisation (*si vous utilisez un environnement de test*).
+1. Cliquez sur l’application **Lecteur AEM Screens**.
+1. Cliquez sur **Paramètres du kiosque** et sélectionnez votre organisation (*si vous utilisez un environnement de test*).
 1. Cliquez sur **Charger un fichier de configuration** et chargez la politique de configuration (*fichier JSON*).
 1. Cliquez sur **Enregistrer**. Vous devez redémarrer l’appareil pour synchroniser la politique.
 
@@ -140,15 +140,15 @@ Suivez les étapes ci-dessous pour configurer différentes options du lecteur :
 
 Le tableau ci-dessous récapitule les politiques avec leurs fonctions.
 
-| **Nom de la stratégie** | **Objectif** |
+| **Nom de la politique** | **Objectif** |
 |---|---|
-| serveur | URL du serveur Adobe Experience Manager (AEM). |
+| serveur | L’URL du serveur Adobe Experience Manager (AEM). |
 | registrationKey | Utilisé pour l’enregistrement en masse des appareils à l’aide d’une clé pré-partagée. |
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-le une fois qu’il est entièrement configuré et en production. |
+| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Chrome se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
@@ -158,4 +158,4 @@ Le tableau ci-dessous récapitule les politiques avec leurs fonctions.
 
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
-AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md).
+AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md)

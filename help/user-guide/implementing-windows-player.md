@@ -17,7 +17,7 @@ exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
 1. Cliquez sur **Démarrer** > **Exécuter**
 1. Enter `system.cpl`
-1. Utilisez l’onglet du nom d’ordinateur pour définir le nom d’hôte de l’ordinateur.
+1. Utilisez l’onglet du nom d’ordinateur pour définir le nom d’hôte de l’ordinateur
 
 ## Modification des options par défaut dans Windows Installer {#changing-default-options}
 
@@ -108,11 +108,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Enregistrement groupé du lecteur Windows {#bulk-registration}
 
-Lors de la mise en œuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. Au lieu de cela, vous pouvez mettre à jour le fichier de configuration JSON après son test et il est prêt pour le déploiement.
+Lors de la mise en œuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. Au lieu de cela, vous pouvez mettre à jour le fichier de configuration JSON une fois qu’il est testé et prêt à être déployé.
 
 La configuration garantit que tous les lecteurs envoient un ping au même serveur spécifié dans le fichier de configuration. Vous devez toujours enregistrer manuellement chaque lecteur.
 
-Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
+Pour configurer le lecteur Windows 10, procédez comme suit :
 
 1. Installez le lecteur Windows.
 1. Recherchez le fichier de configuration sous ***%appdata%\com.adobe.aem.screens.player\config.json***.
@@ -120,18 +120,18 @@ Suivez les étapes ci-dessous pour configurer le lecteur Windows 10 :
 
 ### Attributs de politique {#policy-attributes}
 
-Le tableau suivant résume les attributs de stratégie avec un exemple de code JSON de stratégie à titre de référence :
+Le tableau suivant résume les attributs de politique et inclut un exemple de politique JSON à titre de référence :
 
 
-| **Nom de la stratégie** | **Objectif** |
+| **Nom de la politique** | **Objectif** |
 |---|---|
-| serveur | URL du serveur Adobe Experience Manager (AEM). |
+| serveur | L’URL du serveur Adobe Experience Manager (AEM). |
 | registrationKey | Utilisé pour l’enregistrement en masse des appareils à l’aide d’une clé pré-partagée. |
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-le une fois qu’il est entièrement configuré et en production. |
+| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Windows se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
@@ -203,4 +203,4 @@ $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
-AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md).
+AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md)
