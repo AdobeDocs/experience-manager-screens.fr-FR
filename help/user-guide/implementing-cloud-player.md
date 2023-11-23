@@ -11,10 +11,11 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,3 +68,24 @@ En fonction du type d’instance AEM, sélectionnez l’un des guides suivants p
 * [AEM On-Promise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
+
+Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications d’une seule page intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
+Cloud Player utilise une stratégie de mise en cache Network First, qui signifie qu’il tente de récupérer du contenu du réseau (puis de mettre à jour le cache avec la dernière version), en revenant au contenu mis en cache s’il est disponible. Pour mettre en oeuvre la prise en charge hors ligne de cette récupération de contenu, l’en-tête personnalisé doit être inclus dans la requête. Par la suite, la requête avec l’en-tête personnalisé sera mise en cache sur le lecteur, ce qui facilite l’accès hors ligne au contenu tout en conservant la stratégie de mise en cache Réseau d’abord .
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
