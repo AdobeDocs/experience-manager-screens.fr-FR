@@ -1,8 +1,8 @@
 ---
 title: Intégration d’Adobe Analytics avec AEM Screens
-seo-title: Intégration d’Adobe Analytics avec AEM Screens
+seo-title: Adobe Analytics Integration with AEM Screens
 description: Consultez cette page pour en savoir plus sur l’intégration immédiate d’AEM Screens avec Adobe Analytics. AEM Screens vous fournit également une preuve de lecture.
-seo-description: Consultez cette page pour en savoir plus sur l’intégration immédiate d’AEM Screens avec Adobe Analytics. AEM Screens vous fournit également une preuve de lecture.
+seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
 uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-feature: Administration d’AEM Screens
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Pour les clients du service cloud AEM Screens, contactez votre gestionnaire de relations d’Adobe pour activer Adobe Analytics dans Screens Cloud.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ AEM Screens permet une intégration immédiate avec Adobe Analytics et vous fo
 
 Cette section décrit les fonctionnalités suivantes liées à la connexion d’un projet AEM Screens avec Adobe Analytics :
 
-* Permet de créer des rapports de preuve de lecture par périphérique
+* Permet de créer des rapports de preuve de lecture par appareil
 * Permet de créer des rapports de preuve de lecture par ressource
 * Veille à ce que tous les événements du lecteur soient capturés et horodatés
 * Veille à ce que tous les événements du lecteur soient stockés localement s’il n’est pas connecté à un réseau
@@ -98,7 +98,7 @@ Le tableau suivant répertorie et décrit les propriétés permettant de configu
   <tr>
    <td><strong>URL Analytics</strong></td>
    <td>URL de publication des données d’analyse depuis le lecteur. <br>
-   Développement/étape</em> : https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Production</em> : https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Développement/étape</em> : https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Production</em> : https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Clé d’API Analytics</strong></td>
