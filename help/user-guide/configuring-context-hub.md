@@ -15,9 +15,9 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Avant de commencer à définir les configurations ContextHub d’un projet AEM 
 
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 
-Vous pouvez configurer l’entrepôt de données en tant qu’événement d’E/S local ou d’événement de base de données local.
+Vous pouvez configurer le magasin de données en tant qu’événement d’E/S local ou d’événement de base de données local.
 
 L’exemple suivant concerne les déclencheurs de données au niveau des ressources. Il montre comment un événement de base de données local configure un magasin de données, tel qu’une feuille Excel, en utilisant les configurations ContextHub et le chemin d’accès aux segments vers le canal AEM Screens.
 
@@ -247,7 +247,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Étape 5 : modification des segments dans les audiences {#editing-audience-segmentation}
+## Étape 5 : modification des segments dans les audiences{#editing-audience-segmentation}
 
 1. **Modification des segments**
 
@@ -301,8 +301,8 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
-   1. Définissez la variable **Chemin ContextHub** to `/conf/screens/settings/wcm/segments` et **Chemin d’accès aux segments** to `/conf/screens/settings/wcm/segments`.
-   1. Définir la marque sur **ScreensBrand** dans la liste déroulante et **Définir la référence de zone** to **ScreensValue**.
+   1. Définissez le **Chemin d’accès ContextHub** sur `/conf/screens/settings/wcm/segments` et le **Chemin d’accès de segments** sur `/conf/screens/settings/wcm/segments`.
+   1. Définissez la marque sur **ScreensBrand** dans la liste déroulante. **Définissez la référence de zone** sur **ScreensValue**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 
