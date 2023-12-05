@@ -144,13 +144,13 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
       >[!NOTE]
       >
-      Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
+      >Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
       >
-      Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
+      >Remplacez le code par l’*&lt;ID de feuille>* et la *&lt;clé API>*, que vous avez récupérés lors de la configuration des Google Sheets.
 
       >[!CAUTION]
       >
-      Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
+      >Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
 
 1. **Configuration de la segmentation du magasin**
 
@@ -161,7 +161,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
    1. Cliquez sur **Suivant**, puis sur **Enregistrer**.
 
       >[!NOTE]
-Vous devez ignorer le processus de définition du fichier json et le laisser vide.
+      >Vous devez ignorer le processus de définition du fichier json et le laisser vide.
 
 
 ## Étape 3 : configuration de segments dans les audiences {#setting-up-audience}
@@ -204,9 +204,9 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
       >[!CAUTION]
       >
-      Problème connu :
-Pour ajouter une zone, supprimez le terme « master » de l’URL, par exemple
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      >Problème connu :
+      >Pour ajouter une zone, supprimez le terme « master » de l’URL, par exemple
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Création d’une zone dans votre marque**
 
@@ -262,7 +262,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
 
       >[!NOTE]
-**googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne renseignée dans la feuille de calcul Google représentée dans la figure ci-dessous :
+      >**googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne renseignée dans la feuille de calcul Google représentée dans la figure ci-dessous :
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -272,7 +272,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
       >[!NOTE]
       >
-      AEM valide alors vos données dans la feuille de calcul Google en affichant votre segment en vert.
+      >AEM valide alors vos données dans la feuille de calcul Google en affichant votre segment en vert.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
@@ -308,7 +308,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
       >[!NOTE]
       >
-      Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
+      >Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -316,7 +316,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
       >[!NOTE]
       >
-      Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+      >Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
