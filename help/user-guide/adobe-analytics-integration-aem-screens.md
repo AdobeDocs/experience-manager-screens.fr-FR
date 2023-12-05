@@ -15,17 +15,17 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Intégration d’Adobe Analytics avec AEM Screens {#adobe-analytics-integration-with-aem-screens}
+# Intégration d’Adobe Analytics à AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Pour les clients du service cloud AEM Screens, contactez votre gestionnaire de relations d’Adobe pour activer Adobe Analytics dans Screens Cloud.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Pour les clientes et clients du service cloud AEM Screens, contactez votre Responsable des relations Adobe pour activer Adobe Analytics dans Screens Cloud.
 
 >[!NOTE]
 >
