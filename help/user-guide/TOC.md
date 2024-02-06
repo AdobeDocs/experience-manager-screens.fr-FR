@@ -8,9 +8,9 @@ user-guide-description: Apprenez à utiliser une solution d’affichage dynamiqu
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
-workflow-type: ht
-source-wordcount: '489'
+source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+workflow-type: tm+mt
+source-wordcount: '510'
 ht-degree: 100%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 100%
    + [Dépannage du Centre de contrôle des appareils](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
+   + [Notes de mise à jour du pack de fonctionnalités 20240166](release-notes-fp-20240116.md)
    + [Notes de mise à jour du Feature Pack 202204](release-notes-fp-202204.md)
    + [Notes de mise à jour du Feature Pack 202203](release-notes-fp-202203.md)
    + [Notes de mise à jour du Feature Pack 202112](release-notes-fp-202112.md)
