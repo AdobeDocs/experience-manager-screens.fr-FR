@@ -4,9 +4,9 @@ description: Consultez cette page pour obtenir des informations sur le pack de f
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
-workflow-type: ht
-source-wordcount: '250'
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,3 @@ Cette version comprend uniquement des correctifs de sécurité.
 * Problème XSS sur `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Boutons Fixe, Absence de planning de périodicité et Ajouter un planning : problème détecté dans la planification des canaux. (SCRNS-2739)
-
-#### Téléchargements du lecteur AEM Screens  {#aem-screens-player-downloads}
-
-Pour télécharger le dernier lecteur AEM Screens, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
