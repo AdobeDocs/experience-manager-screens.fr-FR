@@ -1,13 +1,13 @@
 ---
-title: Notes de mise à jour du pack de fonctionnalités AEM Screens 20240116
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 20240116, publié le 16 janvier 2024.
+title: Notes de mise à jour du pack de fonctionnalités Screens 20240116
+description: Suivez cette page pour obtenir des informations sur le pack de fonctionnalités AEM Screens 20240116, publié le 16 janvier 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 68%
 
 ## Disponibilité {#availability}
 
-Le pack de fonctionnalités 11,2 d’AEM 6.5 a été publié pour AEM Screens.
+Le pack de fonctionnalités 11.2 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.11.2 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11.2**.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.11.2 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP11.2**.
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202204 d’AEM Screens est le 16 janvier 2024.
+La date de publication du pack de fonctionnalités AEM Screens 202204 est le 16 janvier 2024.
 
 ### Nouveautés {#what-is-new}
 
