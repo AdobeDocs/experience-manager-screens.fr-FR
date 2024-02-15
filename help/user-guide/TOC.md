@@ -9,7 +9,7 @@ feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
 ht-degree: 100%
 
