@@ -12,16 +12,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
-workflow-type: ht
-source-wordcount: '582'
-ht-degree: 100%
+source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
 # Implémentation de Cloud Player  {#implementing-cloud-player}
 
+AEM Screens propose traditionnellement des applications de lecteur natif distinctes pour différentes plateformes, notamment ChromeOS, Windows, Android et Tizen. Cependant, en réponse aux besoins changeants de nos utilisateurs, nous avons introduit une solution innovante : le lecteur cloud AEM Screens.
+Le lecteur cloud représente une différence significative par rapport à nos applications natives précédentes. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Grâce à cette approche transformatrice, nos clients disposent d’un lecteur indépendant des plateformes qui s’exécute directement dans un navigateur web.
+L’accès au lecteur cloud est aussi simple que de visiter https://player.adobescreens.com. Les utilisateurs peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur Cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante de nos offres d’affichage numérique, ce qui le rend plus accessible, polyvalent et convivial que jamais auparavant.
 Cette section décrit l’implémentation de Cloud Player.
+
 
 >[!NOTE]
 >
@@ -34,17 +38,19 @@ L’installation de Cloud Player peut varier selon les plateformes. En règle g�
 1. Ouvrez le navigateur et saisissez l’[URL de Cloud Player](https://player.adobescreens.com) dans la barre d’adresses.
 1. Le navigateur vérifie que Cloud Player peut être installé, puis affiche une icône d’installation dans la barre d’adresses.
 
-![image](/help/user-guide/assets/cloud-player-install.png)
+   ![image](/help/user-guide/assets/cloud-player-install.png)
 
 1. Cliquez sur l’icône d’installation et sur le bouton d’installation dans la boîte de dialogue de confirmation. Cloud Player est installé en tant qu’application autonome sur votre appareil et peut être lancé à l’aide d’une icône.
 
-### Option d’installation de Cloud Player {#cloud-player-install-option}
-
+>[!NOTE]
+>
+>### Option d’installation de Cloud Player {#cloud-player-install-option}
+>
 1. L’option d’installation d’une PWA est également connue sous le nom de fonctionnalité « Ajouter à l’écran d’accueil » ou A2HS. La prise en charge de l’installation de PWA à partir du web varie en fonction du navigateur et de la plateforme.
 1. Chaque navigateur comporte des critères différents pour vérifier si l’application PWA peut être ou non installée. En règle générale, le navigateur vérifie ces éléments (plus de détails ici) :
-   * Si l’application dispose d’un fichier JSON manifeste avec un minimum de clés requises pour l’installation de l’application sur la plateforme, c’est-à-dire nom, icônes, start_url, affichage.
-   * Si l’application comporte un fichier de travail de service avec un listener d’événement de récupération.
-   * L’application doit être diffusée via https.
+* Si l’application dispose d’un fichier JSON manifeste avec un minimum de clés requises pour l’installation de l’application sur la plateforme, c’est-à-dire nom, icônes, start_url, affichage.
+* Si l’application comporte un fichier de travail de service avec un listener d’événement de récupération.
+* L’application doit être diffusée via https.
 1. L’option d’installation peut être visible à différents emplacements dans différents navigateurs et types d’appareils. Certains navigateurs peuvent masquer l’icône d’installation dans la barre de menu des options.
 
 ## Approvisionnement en bloc de Cloud Player {#bulk-provisioning}
@@ -68,6 +74,12 @@ En fonction du type d’instance AEM, sélectionnez l’un des guides suivants p
 * [AEM On-Promise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+>[!NOTE]
+>
+## Obsolescence des applications Chrome par Google
+1. Applications Chrome sur le matériel Chrome OS : Google a activement abandonné les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sur Chrome OS cessera de fonctionner en fonction de la chronologie partagée. Nous exhortons nos clients qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
+2. Lecteur d’extension Chrome sur Mac, Windows et Linux : en raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Screens Chrome n’est plus pris en charge. Nous vous conseillons vivement de passer à notre lecteur cloud Screens pour toutes vos exigences de développement et de test.
+
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
 Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications d’une seule page intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
@@ -89,3 +101,7 @@ fetch(externalUrl, {
     // Your error handling logic here.
   }); 
 ```
+
+## Feedback
+
+Nous apprécions vos retours ! Partagez vos réflexions avec nous à travers ceci. [formulaire](https://forms.office.com/r/MQXX9JsuEd).
