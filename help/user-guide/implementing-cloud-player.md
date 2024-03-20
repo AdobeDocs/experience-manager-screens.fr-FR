@@ -76,9 +76,11 @@ En fonction du type d’instance AEM, sélectionnez l’un des guides suivants p
 
 >[!NOTE]
 >
-## Obsolescence des applications Chrome par Google
-1. Applications Chrome sur le matériel Chrome OS : Google a activement abandonné les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sur Chrome OS cessera de fonctionner en fonction de la chronologie partagée. Nous exhortons nos clients qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
-2. Lecteur d’extension Chrome sur Mac, Windows et Linux : en raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Screens Chrome n’est plus pris en charge. Nous vous conseillons vivement de passer à notre lecteur cloud Screens pour toutes vos exigences de développement et de test.
+>## Obsolescence des applications Chrome par Google
+>1. Applications Chrome sur le matériel Chrome OS : 
+>Google a activement abandonné les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sur Chrome OS cessera de fonctionner en fonction de la chronologie partagée. Nous exhortons nos clients qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
+>2. Lecteur d’extension Chrome sur Mac, Windows et Linux : 
+>en raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Screens Chrome n’est plus pris en charge. Nous vous conseillons vivement de passer à notre lecteur cloud Screens pour toutes vos exigences de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
