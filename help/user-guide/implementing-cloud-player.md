@@ -13,17 +13,19 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '858'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Implémentation de Cloud Player  {#implementing-cloud-player}
 
-AEM Screens propose traditionnellement des applications de lecteur natif distinctes pour différentes plateformes, notamment ChromeOS, Windows, Android et Tizen. Cependant, en réponse aux besoins changeants de nos utilisateurs, nous avons introduit une solution innovante : le lecteur cloud AEM Screens.
-Le lecteur cloud représente une différence significative par rapport à nos applications natives précédentes. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Grâce à cette approche transformatrice, nos clients disposent d’un lecteur indépendant des plateformes qui s’exécute directement dans un navigateur web.
-L’accès au lecteur cloud est aussi simple que de visiter https://player.adobescreens.com. Les utilisateurs peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur Cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante de nos offres d’affichage numérique, ce qui le rend plus accessible, polyvalent et convivial que jamais auparavant.
+AEM Screens propose traditionnellement des applications de lecteur natives distinctes pour différentes plateformes, notamment ChromeOS, Windows, Android et Tizen. Cependant, en réponse aux besoins changeants de nos utilisateurs et utilisatrices, nous avons introduit une solution innovante : le lecteur cloud AEM Screens.
+Le lecteur cloud représente une différence significative par rapport à nos applications natives précédentes. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Grâce à cette approche transformatrice, nos clientes et clients disposent d’un lecteur indépendant des plateformes qui s’exécute directement dans un navigateur web.
+L’accès au lecteur cloud est aussi simple que de consulter https://player.adobescreens.com. Les utilisateurs et utilisatrices peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur cloud dépend de la présence d’un navigateur moderne
+avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA
+marque une évolution passionnante de nos offres de signalétique numérique et rend le lecteur plus accessible, polyvalent et convivial que jamais.
 Cette section décrit l’implémentation de Cloud Player.
 
 
@@ -76,11 +78,11 @@ En fonction du type d’instance AEM, sélectionnez l’un des guides suivants p
 
 >[!NOTE]
 >
->## Obsolescence des applications Chrome par Google
->1. Applications Chrome sur le matériel Chrome OS : 
->Google a activement abandonné les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sur Chrome OS cessera de fonctionner en fonction de la chronologie partagée. Nous exhortons nos clients qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
->2. Lecteur d’extension Chrome sur Mac, Windows et Linux : 
->en raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Screens Chrome n’est plus pris en charge. Nous vous conseillons vivement de passer à notre lecteur cloud Screens pour toutes vos exigences de développement et de test.
+## Abandon des applications Chrome par Google
+1. Applications Chrome sur le matériel Chrome OS :
+Google a activement abandonné les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sur Chrome OS cessera de fonctionner en fonction de la chronologie partagée. Nous exhortons nos clientes et clients qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
+2. Lecteur d’extension Chrome sur Mac, Windows et Linux :
+En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Screens Chrome n’est plus pris en charge. Nous vous conseillons vivement de passer à notre lecteur cloud Screens pour toutes vos exigences de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
@@ -106,4 +108,4 @@ fetch(externalUrl, {
 
 ## Feedback
 
-Nous apprécions vos retours ! Partagez vos réflexions avec nous à travers ceci. [formulaire](https://forms.office.com/r/MQXX9JsuEd).
+Nous apprécions vos commentaires ! Faites-nous part de ce que vous pensez via ce [formulaire](https://forms.office.com/r/MQXX9JsuEd).
