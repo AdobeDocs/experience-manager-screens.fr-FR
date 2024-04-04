@@ -1,15 +1,15 @@
 ---
 title: Attribution de canaux - Dernier FP
-seo-title: Attribution de canaux - Dernier FP
+seo-title: Channel Assignment - Latest FP
 description: Consultez cette page pour en savoir plus sur l’attribution de canaux et sur les tranches horaires.
-feature: Création dans Screens, affectation de canal
+feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 92%
 
 ---
 
@@ -140,7 +140,7 @@ Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par
 
 ### Priorité {#priority-channel}
 
-La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B, A ayant une priorité de 1 et B une priorité de 2, alors le canal B est affiché, car il présente une priorité supérieure à celle de A.
+La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B et que A a une priorité de 1 et B une priorité de 2, alors le canal B s’affiche, car il a une priorité plus élevée que A.
 
 >[!NOTE]
 >
@@ -148,10 +148,10 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 ### Événements pris en charge {#supported-events-channel}
 
-* **Chargement initial** : charge le canal lorsque le lecteur démarre. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
-* **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en combinaison avec la planification.
-* **Minuteur** : il doit être défini lorsqu’une planification est fournie.
-* **Interaction de l’utilisateur** : le lecteur passera au canal spécifié s’il existe une interaction de l’utilisateur sur l’écran (tactile) dans un canal inactif et se chargera en cas de pression sur l’écran.
+* **Charge initiale**: charge le canal au démarrage du lecteur. Il peut être attribué à plusieurs canaux en même temps que la planification.
+* **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux en même temps que la planification.
+* **Minuteur**: doit être défini lorsqu’un planning est fourni
+* **Interaction de l’utilisateur**: le lecteur bascule vers le canal spécifié s’il existe une interaction de l’utilisateur à l’écran (tactile) dans un canal inactif et qu’il se charge lorsque l’écran est touché.
 
 ### Méthode d’interruption {#interruption-method-channel}
 
@@ -165,13 +165,13 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 * **Immédiatement** : chaque fois que la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
 * **À la fin de l’élément actuel** : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre la fin de la lecture de l’élément en cours dans la séquence avant d’actualiser ou de lire le nouveau contenu.
 
-   >[!NOTE]
-   >Cette option est sélectionnée par défaut.
+  >[!NOTE]
+  >Cette option est sélectionnée par défaut.
 
 * **À la fin de la séquence** : lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous avez la possibilité d’attendre que la séquence entière se termine. Juste avant la séquence souhaitée, vous revenez sur le premier élément, actualisez ou lisez le nouveau contenu.
 
-   >[!NOTE]
-   >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
+  >[!NOTE]
+  >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies au niveau de l’attribution, car le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
 Les propriétés suivantes sont définies à partir de l’option **Planification** de la boîte de dialogue **Attribution de canaux**.
 
@@ -218,7 +218,7 @@ Nous diviserons chaque jour en différentes tranches horaires, de sorte que le c
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple présente les tranches horaires mises en œuvre dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
+Cet exemple présente les tranches horaires mises en oeuvre dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
@@ -227,4 +227,4 @@ Cet exemple présente les tranches horaires mises en œuvre dans un casino où u
 
 >[!NOTE]
 >
->En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur de priorité minimale est de 0.
+>En outre, vous pouvez définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur minimale de priorité peut être définie sur 0.

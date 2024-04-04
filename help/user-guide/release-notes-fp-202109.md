@@ -5,17 +5,17 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
-workflow-type: ht
-source-wordcount: '931'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour du Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -31,42 +31,43 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 sept
 
 * **Prise en charge des miniatures de vidéos**
 
-   Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu peut définir une miniature de vidéos afin de pouvoir utiliser l’image en tant qu’espace réservé et de pouvoir tester correctement la lecture et le ciblage du contenu, alors que l’équipe concernée peut s’occuper de la finalisation de la vidéo elle-même. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
+  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu peut définir une miniature de vidéos afin de pouvoir utiliser l’image en tant qu’espace réservé et de pouvoir tester correctement la lecture et le ciblage du contenu, alors que l’équipe concernée peut s’occuper de la finalisation de la vidéo elle-même. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
 Pour plus d’informations, voir [Prise en charge des miniatures de vidéos](/help/user-guide/thumbnail-support.md).
 
 * **Suivi de base de la lecture**
 
-   AEM Screens prend désormais en charge le suivi de base de la lecture. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). Les mesures permettent de détecter différents cas de figure (lecture bloquée, écran vide, problème de time-code, etc.). Cette fonctionnalité permet à l’équipe concernée de surveiller à distance si un lecteur lit correctement du contenu, d’améliorer sa réactivité en cas d’écran vide ou d’interruption d’expérience et de réduire les risques d’offrir une expérience bancale à l’utilisateur final.
+  AEM Screens prend désormais en charge le suivi de base de la lecture. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). Les mesures permettent de détecter différents cas de figure (lecture bloquée, écran vide, problème de time-code, etc.). Cette fonctionnalité permet à l’équipe concernée de surveiller à distance si un lecteur lit correctement du contenu, d’améliorer sa réactivité en cas d’écran vide ou d’interruption d’expérience et de réduire les risques d’offrir une expérience bancale à l’utilisateur final.
 Pour plus d’informations, voir [Suivi de base de la lecture](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=fr#playback-monitoring).
 
 * **Mises à jour du rapport d’affectation de contenu**
 
-   Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les éléments améliorés liés au lecteur, tels que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
+  Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les éléments améliorés liés au lecteur, tels que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
 Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 * **Rendus adaptatifs**
 
-   Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client.
+  Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client.
 
-   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
+  En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
 
-   En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+  En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
 
 * **Prise en charge des manifestes V3**
 
-   Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
+  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
 
    * Effacer tous les traitements de contenu hors ligne en attente, à la fois dans l’auteur et la publication.
 
       * Accédez à crx/de dans l’auteur et la publication.
 
-      * Cliquez sur Outils --> Requête.
+      * Cliquez sur Outils > Requête .
 
       * Dans Requête, utilisez : `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * Cette opération répertorie tous les traitements de contenu hors ligne en cours d’exécution ou en attente dans la file d’attente.
 
       * Attendez la fin du renvoi des traitements de contenu hors ligne par la requête.
+
    * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
@@ -78,7 +79,6 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
    * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
    * Si vous utilisez des composants personnalisés dans le cadre de versions Manifest v3, consultez la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
-
 
 
 ### Correctifs {#bug-fixes}

@@ -1,21 +1,21 @@
 ---
 title: Création de modèles personnalisés dans des dispositions multizones
-seo-title: Création de modèles personnalisés dans des dispositions multizones
+seo-title: Creating Custom Templates in MultiZone Layouts
 description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
-seo-description: Suivez cette page pour en savoir plus sur la création de modèles personnalisés dans des dispositions multizones.
+seo-description: Follow this page to learn about creating custom templates in MultiZone layouts.
 contentOwner: Jyotika Syal
-feature: Développement dans Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 96%
 
 ---
 
-
-# Création de modèles personnalisés pour des dispositions multizone {#creating-custom-templates-multizone}
+# Création de modèles personnalisés pour des dispositions multizones {#creating-custom-templates-multizone}
 
 Cette page explique comment créer un modèle personnalisé dans une disposition multizone.
 
@@ -66,7 +66,7 @@ Appliquez la procédure suivante pour créer une disposition Left20-LandscapeHD3
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Accédez à **CRXDE Lite** à partir de votre instance AEM --> Outils --> **CRXDE Lite**.
+1. Accédez à **CRXDE Lite** à partir de votre instance AEM > Outils > **CRXDE Lite**.
 
 1. Créez un dossier sous **apps** intitulé **customtemplate**. De même, créez un autre dossier intitulé **template** sous **customtemplate**, comme illustré dans la figure ci-dessous.
 
@@ -154,7 +154,7 @@ Suivez les étapes ci-dessous pour utiliser le modèle personnalisé ci-dessus d
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Insertion d’une image en tant que calque d’arrière-plan {#inserting-image}
+## Insertion d’une image comme calque d’arrière-plan  {#inserting-image}
 
 Vous pouvez insérer une image en tant que calque d’arrière-plan dans la disposition :
 
@@ -174,6 +174,3 @@ Vous pouvez également suivre les étapes ci-dessous :
 Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml (étape 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-

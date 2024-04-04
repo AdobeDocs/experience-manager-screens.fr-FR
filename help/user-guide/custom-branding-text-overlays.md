@@ -1,19 +1,19 @@
 ---
 title: Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte
-seo-title: Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte
+seo-title: Applying Custom Branding and Styling for Text Overlays
 description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
-seo-description: Suivez cette page pour savoir comment appliquer une valorisation de marque et des styles personnalisés aux superpositions de texte.
+seo-description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
 contentOwner: Jyotika Syal
-feature: Développement dans Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
-
 
 # Valorisation de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
@@ -34,7 +34,7 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
    >[!NOTE]
    >Pour savoir comment ajouter une superposition de texte à votre ressource dans un éditeur de canal, voir [Superposition de texte](/help/user-guide/text-overlay.md).
 
-1. Accédez à CRXDE Lite à partir de votre instance AEM --> Outils --> **CRXDE Lite**.
+1. Accédez à CRXDE Lite à partir de votre instance AEM > outils > **CRXDE Lite**.
 
 1. Vous devez créer une conception personnalisée dans `/apps/settings/wcm/designs/<your-project>/`, par exemple. Dans le cas présent, accédez à `/apps/settings/wcm/designs/customstyle/`
 
@@ -96,9 +96,9 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
    1. Modifiez la propriété *cq:designPath* dans `/apps/customstyle/templates/styled-sequencechannel/jcr:content` pour que le chemin pointe vers la nouvelle conception.
 
 
-### Mise à jour des listes ACL {#updating-acls}
+### Mise à jour des listes de contrôle d’accès {#updating-acls}
 
-Vous devez mettre à jour les listes ACL de ces conceptions afin qu’elles puissent être téléchargées par le lecteur.
+Vous devez mettre à jour les ACL de ces conceptions afin qu’elles puissent être téléchargées par le lecteur.
 
 1. Accédez à la page d’administration des utilisateurs, sélectionnez le fichier `screens-<project>-devices group` et autorisez-le à accéder en lecture au chemin de conception personnalisé.
 
@@ -110,7 +110,7 @@ Une fois les étapes précédentes effectuées, vous pouvez mettre à jour le fi
 
 Pour voir la conception mise à jour avec la superposition de texte, procédez comme suit :
 
-1. Accédez à votre projet AEM Screens intitulé **customstyle** --> **Canaux** --> **DemoBrand**. Sélectionnez le canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Accédez à votre projet AEM Screens intitulé **customstyle** > **Canaux** > **DemoBrand**. Sélectionnez le canal et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 
 1. La conception ayant été ajoutée à votre champ **Conceptions** comme mentionné ci-dessus, cliquez sur **Aperçu** pour voir les styles actuels de l’image avec la superposition de texte.
 
@@ -131,12 +131,3 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Vous êtes maintenant prêt à actualiser votre marque et à appliquer votre style personnalisé pour les incrustations de texte ajoutées à vos ressources.
-
-
-
-
-
-
-
-
-

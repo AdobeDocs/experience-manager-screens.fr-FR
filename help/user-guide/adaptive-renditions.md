@@ -2,10 +2,10 @@
 title: Présentation et configurations de l’architecture des rendus adaptatifs
 description: Cette page décrit les configurations et l’aperçu de l’architecture dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 
 1. Accédez à ce chemin `/conf/screens/sling:configs/rendition-mapping` à partir de **CRXDE Lite**.
 
-1. Créez un nœud sous **rendition-mapping**. Cliquez avec le bouton droit sur **rendu-mapping** et cliquez sur **Créer** --> **Créer un nœud**, comme illustré dans la figure ci-dessous.
+1. Créez un nœud sous **rendition-mapping**. Clic droit sur **mapping de rendu** et cliquez sur **Créer** > **Créer un noeud**, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

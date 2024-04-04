@@ -3,13 +3,13 @@ title: Configuration des agents de réplication Screens
 description: Consultez cette page pour obtenir des informations sur la configuration des agents de réplication Screens.
 role: Developer
 level: Intermediate
-source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 97%
 
 ---
-
 
 # Configuration des agents de réplication Screens {#configuring-screens-replication-agent}
 
@@ -36,7 +36,7 @@ Procédez comme suit pour activer les utilisateurs et mettre à jour le mot de p
 
 1. Accédez à votre instance d’auteur AEM.
 
-1. Cliquez sur Outils --> **Sécurité** --> **Utilisateurs**.
+1. Cliquez sur Outils > **Sécurité** > **Utilisateurs**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
 1. Accédez à votre instance AEM.
 
-1. Cliquez sur Outils --> **Déploiement** --> **Réplication**.
+1. Cliquez sur Outils > **Déploiement** > **Réplication**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

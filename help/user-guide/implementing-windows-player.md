@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows et 
 
 Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
-1. Cliquez sur **Démarrer** > **Exécuter**
+1. Cliquez sur **start** > **run**
 1. Enter `system.cpl`
 1. Utilisez l’onglet du nom d’ordinateur pour définir le nom d’hôte de l’ordinateur
 

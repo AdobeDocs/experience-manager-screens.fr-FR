@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Configurer un lecteur principal {#setting-up-primary}
 
-1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
 Les deux appareils (Chrome et lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.
    ![image1](assets/command-sync/command-sync10-1.png)
 

@@ -14,10 +14,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '1529'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1510'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Cette section décrit la configuration du lecteur Android. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
 
-Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur suite à une panne. Les applications doivent s’inscrire auprès du service watchdog, puis envoyer régulièrement des messages au service lui indiquant qu’elles sont actives. Au cas où le service watchdog ne reçoit pas de message de maintien en activité dans le délai imparti, le service tente de redémarrer l’appareil pour une restauration propre (s’il dispose des droits suffisants) ou de redémarrer l’application.
+Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur suite à une panne. Les applications doivent s’inscrire auprès du service watchdog, puis envoyer régulièrement des messages au service lui indiquant qu’elles sont actives. Si le service watchdog ne reçoit pas de message de maintien en vie dans un délai spécifié, il tente de redémarrer l’appareil pour une récupération propre (s’il dispose des privilèges suffisants) ou de redémarrer l’application.
 
 ## Installation d’Android Player {#installing-android-player}
 
@@ -67,13 +67,13 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 
 >[!NOTE]
 >
->Si le **Statut** est **ENREGISTRÉ**, vous remarquerez que le champ **ID de périphérique** est renseigné.
+>Si le **Statut** est **ENREGISTRÉ**, vous remarquerez que le champ **ID d’appareil** est renseigné.
 >
->Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer le périphérique.
+>Si le **Statut** est **NON ENREGISTRÉ**, vous pouvez utiliser le **Jeton** pour enregistrer l’appareil.
 
 ## Mise en œuvre d’Android Watchdog {#implementing-android-watchdog}
 
-En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, faute de quoi le service watchdog redémarre l’application du lecteur, mais pas l’appareil.
+En raison de l’architecture d’Android, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Pour ce faire, vous devez signer le fichier apk à l’aide des clés de signature du fabricant, sinon watchdog redémarrera l’application du lecteur et ne redémarrera pas l’appareil.
 
 ### Signature de fichiers apk Android à l’aide des clés du fabricant {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -85,13 +85,13 @@ Pour accéder à certaines des API privilégiées d’Android telles que *PowerM
 >
 >Le SDK Android doit être installé avant que vous n’exécutiez les étapes suivantes.
 
-Suivez les étapes ci-dessous pour signer le fichier apk Android à l’aide des clés du fabricant :
+Suivez les étapes ci-dessous pour signer le fichier apk Android à l’aide des clés du fabricant :
 
 1. Téléchargez le fichier apk à partir de Google Play ou de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
 1. Procurez-vous les clés de plateforme du fabricant pour obtenir un fichier *pk8* et *pem*
 
 1. Localisez l’outil apksigner dans le SDK Android à l’aide de la commande find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
-1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
+1. &lt;pathto> /apksigner —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
 1. Recherchez le chemin d’accès à l’outil d’alignement zip dans le SDK Android.
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Installez ***aemscreensaligned.apk*** via adb install sur l’appareil.
@@ -110,7 +110,7 @@ Le diagramme suivant illustre la mise en œuvre du service watchdog :
 
 >[!NOTE]
 >
->Sous Android, *AlarmManager* est utilisé pour enregistrer les *pendingIntents* qui peuvent s’exécuter même si l’application est en panne et que sa distribution d’alarme est incorrecte à partir d’API 19 (Kitkat). Conservez un certain espace entre l’intervalle du minuteur et l’alarme *pendingIntent* de *AlarmManager*.
+>Sous Android, *AlarmManager* est utilisé pour enregistrer les *pendingIntents* qui peuvent s’exécuter même si l’application est en panne et que sa distribution d’alarme est incorrecte à partir d’API 19 (Kitkat). Conserver un espace entre l’intervalle du minuteur et l’événement *AlarmManager* *pendingIntent&#39;s* alarme.
 
 **3. Panne d’application** En cas de panne, le pendingIntent pour la commande Redémarrer enregistré avec AlarmManager n’est plus réinitialisé et donc exécute un redémarrage de l’application (en fonction des autorisations disponibles lors de l’initialisation du module externe cordova).
 
@@ -124,9 +124,9 @@ Lors de l’approvisionnement en masse d’Android Player, vous devez pouvoir co
 Suivez les étapes ci-dessous pour autoriser l’approvisionnement en masse dans Android Player :
 
 1. Créez un fichier de configuration JSON nommé `player-config.default.json`.
-Reportez-vous à l’[exemple de règle JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de règle](#policy-attributes).
+Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
 
-1. Utilisez un explorateur de fichiers MDM ou ADB ou Android Studio pour déposer ce fichier de règle JSON dans le dossier *sdcard* de l’appareil Android.
+1. Utilisez un explorateur de fichiers MDM ou ADB ou Android Studio pour déposer ce fichier de politique JSON dans le dossier *sdcard* de l’appareil Android.
 
 1. Une fois le fichier déployé, utilisez le MDM pour installer l’application du lecteur.
 
@@ -135,21 +135,21 @@ Reportez-vous à l’[exemple de règle JSON](#example-json) ainsi qu’au table
    >[!NOTE]
    >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur l’appareil.
 
-### Attributs de règle {#policy-attributes}
+### Attributs de politique {#policy-attributes}
 
-Le tableau suivant récapitule les attributs de règle et fournit un exemple de fichier JSON de règle pour référence :
+Le tableau suivant résume les attributs de politique et inclut un exemple de politique JSON à titre de référence :
 
-| **Nom de la règle** | **Objectif** |
+| **Nom de la politique** | **Objectif** |
 |---|---|
 | *server* | L’URL du serveur Adobe Experience Manager. |
 | *resolution* | Résolution de l’appareil. |
 | *rebootSchedule* | La programmation du redémarrage s’applique à toutes les plates-formes. |
 | *enableAdminUI* | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur *false* une fois qu’elle est entièrement configurée et en production. |
 | *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur *false* une fois qu’elle est entièrement configurée et en production. |
-| *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez-la pour résoudre les incidents et désactivez-la une fois que l’interface est entièrement configurée et en production. |
+| *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | *enableNativeVideo* | Activez cette option afin d’utiliser l’accélération matérielle native pour la lecture vidéo (Android uniquement). |
 
-### Exemple de règle JSON {#example-json}
+### Exemple de politique JSON {#example-json}
 
 ```java
 {
@@ -189,25 +189,25 @@ Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android et 
 
 Pour configurer le nom dans le lecteur Android, procédez comme suit :
 
-1. Accédez à **Paramètres** > **À propos de l’appareil**
+1. Accédez à **paramètres** > **A propos du périphérique**
 1. Modifiez et définissez le nom de votre appareil pour nommer votre lecteur Android
 
 ### Mise en œuvre de l’approvisionnement en bloc du lecteur Android à l’aide d’une solution Enterprise Mobility Management {#implementation}
 
 Suivez les étapes ci-dessous pour autoriser l’approvisionnement en bloc dans le lecteur Android Player :
 
-1. Assurez-vous que votre périphérique Android prend en charge les services Google Play.
-1. Enregistrez vos périphériques de lecteur Android dans votre solution EMM préférée prenant en charge AppConfig.
+1. Assurez-vous que votre appareil Android prend en charge les services Google Play.
+1. Enregistrez vos appareils de lecteur Android dans votre solution EMM préférée prenant en charge AppConfig.
 1. Connectez-vous à votre console EMM et extrayez l’application du lecteur AEM Screens de Google Play.
 1. Sélectionnez Configuration gérée ou l’option associée.
 1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées, par exemple le code d’enregistrement en bloc et du serveur.
-1. Configurez ces paramètres, enregistrez-les et déployez la stratégie sur les périphériques.
+1. Configurez ces paramètres, enregistrez-les et déployez la stratégie sur les appareils.
 
    >[!NOTE]
-   >Les périphériques doivent recevoir l’application avec la configuration et pointer vers le serveur AEM approprié avec la configuration sélectionnée. Si vous choisissez de configurer le code d’enregistrement en bloc et que vous le conservez tel que configuré dans AEM, le lecteur doit être en mesure de s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
+   >Les appareils doivent recevoir l’application avec la configuration et pointer vers le serveur AEM approprié avec la configuration sélectionnée. Si vous choisissez de configurer le code d’enregistrement en bloc et que vous le conservez tel que configuré dans AEM, le lecteur doit être en mesure de s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
 
 En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si celle-ci prend AppConfig. Les plus populaires, parmi lesquels [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) et [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm), prennent en charge cette solution standard dans ce domaine.
 
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
-AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Contrôle à distance Screens](implementing-remote-control.md).
+AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md)

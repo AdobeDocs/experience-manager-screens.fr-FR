@@ -1,12 +1,12 @@
 ---
-title: 'Configuration d’un workflow de placement direct '
-seo-title: Configuration d’un workflow de placement direct
+title: Configuration d’un workflow de placement direct
+seo-title: Direct Placement Workflow Configuration
 description: Cette page décrit la configuration d’un workflow de placement direct.
-seo-description: Cette page décrit la configuration d’un workflow de placement direct.
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+seo-description: This page highlights Direct Placement Workflow Configuration.
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ Cette section couvre les sujets suivants :
 * Présentation
 * Configuration d’un workflow de placement direct
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 La configuration d’un workflow de placement direct consiste à mapper un canal de projet AEM Screens avec un dossier spécifique de ressources et permet de les placer dans ce dossier. Il est recommandé de lancer une mise à jour hors ligne groupée pour terminer la publication.
 
@@ -34,7 +34,7 @@ En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur 
 
 >[!IMPORTANT]
 >
->Avant de démarrer la configuration, vous devez installer le [package de démonstration](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Une fois le package installé, il devrait être possible de voir le workflow et d’y accéder à partir de votre instance AEM --> Outils (icône) --> **Workflow** --> **Modèles de workflow**.
+>Avant de démarrer la configuration, vous devez installer le [package de démonstration](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Une fois que vous avez installé le package, vous devez pouvoir le visualiser et y accéder à partir de votre instance AEM > Outils (icône) > **Workflow** > **Modèles de processus**.
 
 Suivez les étapes ci-dessous pour configurer le workflow de placement direct :
 
