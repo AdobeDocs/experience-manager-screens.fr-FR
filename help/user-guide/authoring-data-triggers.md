@@ -1,14 +1,14 @@
 ---
 title: Création avec des triggers de données
-seo-title: Création avec des triggers de données
+seo-title: Authoring with Data Triggers
 description: Consultez cette page pour apprendre à créer avec des triggers de données.
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -57,6 +57,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
    1. Sélectionnez le **chemin d’accès aux segments** **conf** > **We.Retail** > **settings** > **wcm** > **segments** et cliquez sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
+
    >[!NOTE]
    >
    >Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.

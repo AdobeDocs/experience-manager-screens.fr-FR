@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: ht
-source-wordcount: '2275'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '2207'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 Le tutoriel suivant décrit les étapes à suivre pour créer un composant personnalisé pour AEM Screens. AEM Screens réutilise de nombreux modèles de conception et technologies existants d’autres produits AEM. Ce tutoriel met en évidence les différences et les considérations spéciales lors du développement pour AEM Screens.
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Ce tutoriel est destiné aux développeurs qui découvrent AEM Screens. Dans ce tutoriel, un simple composant « Hello World » est créé pour un canal de séquence dans AEM Screens. Une boîte de dialogue permet aux auteurs de mettre à jour le texte affiché.
+Ce tutoriel est destiné aux développeurs et aux développeuses qui découvrent AEM Screens. Dans ce tutoriel, un simple composant « Hello World » est créé pour un canal de séquence dans AEM Screens. Une boîte de dialogue permet aux auteurs de mettre à jour le texte affiché.
 
 ![overviewhellow](assets/overviewhellow.png)
 
@@ -70,7 +70,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
 1. Le package **screens-weretail-run.ui.apps** installe le code sous `/apps/weretail-run`.
 
-   Ce package contient le code responsable du rendu des composants personnalisés du projet. Ce package comprend le code de composant et tout code JavaScript ou CSS nécessaire. Ce paquet incorpore également **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** qui contient tout code Java requis par le projet.
+   Ce package contient le code responsable du rendu des composants personnalisés du projet. Ce package comprend le code de composant et tout code JavaScript ou CSS nécessaire. Ce package incorpore également **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** qui contient tout code Java requis par le projet.
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Ce paquet contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet We.Retail Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
+   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet We.Retail Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
 
 1. **Accédez au projet AEM Screens > We.Retail Run :**
 
@@ -166,7 +166,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    Le composant effectue le rendu d’un `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie de script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à l’utilisateur de saisir une valeur pour le texte de la propriété `message`.
 
-   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. Il s’agit de la notation utilisée par les [composants de base d’AEM](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. BEM est la notation utilisée par [Composants principaux d’AEM](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Sous `/apps/weretail-run/components/content/helloworld`, créez un fichier appelé `edit.html.`
 
@@ -274,7 +274,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
 ## Création de bibliothèques côté client {#clientlibs}
 
-Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une mise en œuvre d’AEM.
+Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une implémentation d’AEM.
 
 Les composants d’AEM Screens s’affichent différemment en mode d’édition et en mode d’aperçu/de production. Deux bibliothèques clientes seront créées, une pour le mode d’édition et une autre pour l’aperçu/production.
 
@@ -290,7 +290,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
 1. Ajoutez les propriétés suivantes à la bibliothèque cliente partagée :
 
-   * `allowProxy` | Booléen | `true`
+   * `allowProxy`   Boolean   `true`
 
    * `categories`| Chaîne[] | `cq.screens.components`
 
@@ -422,6 +422,7 @@ Le composant Hello World est destiné à être utilisé dans un canal de séquen
 1. Étape du modèle - choisissez **Canal de séquence**
 
    1. Étape des propriétés
+
    * Onglet de base > Titre = **Canal inactif**
    * Onglet Canal > Cochez **Passer le canal en ligne**
 

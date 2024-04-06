@@ -7,10 +7,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1792'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -104,7 +104,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
    1. La boîte de dialogue **Attribution de canaux** s’ouvre.
    1. Sélectionnez **Canal de référence**. par chemin.
-   1. Sélectionnez en tant que **Chemin du canal** : **Channel Level Activation** --> ***Canaux*** --> ***MainAdChannel***.
+   1. Sélectionnez la variable **Chemin du canal** as **Activation au niveau du canal** > ***Canaux*** > ***MainAdChannel***.
    1. Le **Rôle du canal** est défini comme **mainadchannel**.
    1. Sélectionnez la **Priorité** **1**.
    1. Sélectionnez les **Événements pris en charge** : **Chargement initial** et **Écran inactif**.
@@ -114,14 +114,14 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    >[!NOTE]
    >
-   >Vous pouvez également affecter un canal à partir du tableau de bord d’affichage en accédant à **Channel Level Activation** —> **Emplacements** —> **Région** —> **RegionDisplay** et en cliquant sur **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   >Vous pouvez également attribuer un canal à partir du tableau de bord d’affichage en accédant à **Activation au niveau du canal** > **Emplacements** > **Région** > **RegionDisplay** et clic **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    De même, affectez le canal **TargetedSinglePlay** afin qu’il soit affiché** :
 
-   1. Accédez à **Channel Level Activation** --> **Emplacements** --> **Région** --> **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
    1. La boîte de dialogue **Attribution de canaux** s’ouvre.
    1. Sélectionnez **Canal de référence**. par chemin.
-   1. Sélectionnez en tant que **Chemin du canal** : **Channel Level Activation*** --> ***Canaux*** --> ***TargetedSinglePlay***.
+   1. Sélectionnez la variable **Chemin du canal** as **Activation au niveau du canal*** > ***Canaux*** > ***TargetedSinglePlay***.
    1. Le **Rôle de canal** est renseigné avec le contenu **targetedsingleplay**.
    1. Définissez la **Priorité** sur **2**.
    1. Sélectionnez les **Événements pris en charge** : **Charge initiale**, **Écran inactif** et **Minuteur**, *comme illustré dans la figure ci-dessous.
@@ -130,13 +130,13 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    >[!CAUTION]
    >
-   Vous devez définir pour le canal **TargetedSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
+   >Vous devez définir pour le canal **TargetedSinglePlay** une priorité plus élevée que celle du canal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   Pour choisir le même jour, vous devez sélectionner le jour suivant et modifier manuellement la date en choisissant le même jour, mais à une heure ultérieure. L’utilisateur ne peut donc pas sélectionner une date antérieure. Reportez-vous à l’exemple ci-dessous :
+   >Pour choisir le même jour, vous devez sélectionner le jour suivant et modifier manuellement la date en choisissant le même jour, mais à une heure ultérieure. L’utilisateur ne peut donc pas sélectionner une date antérieure. Reportez-vous à l’exemple ci-dessous :
 
    ![new1](assets/new1.gif)
 
@@ -148,9 +148,9 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23h59 (comme
 
 >[!NOTE]
 >
-Pour en savoir plus sur AEM lecteur d’écran, consultez les ressources suivantes :
-[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
-[Utilisation du lecteur AEM Screens](working-with-screens-player.md)
+>Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
+>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+>[Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
 
 ## Gestion de la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
@@ -167,7 +167,7 @@ Supposons que vous souhaitiez afficher les contenus d’un canal uniquement le v
 
    >[!NOTE]
    >
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -187,7 +187,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 >[!NOTE]
 >
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 ### Tranches hebdomadaires {#week-parting}
 
@@ -197,7 +197,7 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 
    >[!NOTE]
    >
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -215,7 +215,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 >[!NOTE]
 >
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
 
 
 ### Tranches mensuelles {#month-parting}
@@ -226,7 +226,7 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 
    >[!NOTE]
    >
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -240,11 +240,11 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 >[!NOTE]
 >
-Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
 
 >[!NOTE]
 >
-Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
+>Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (2 h 00 de l’après-midi).
 
 ### Combinaison de tranches {#combined-parting}
 
@@ -254,7 +254,7 @@ Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu
 
    >[!NOTE]
    >
-   Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
+   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
 
 1. Saisissez l’expression dans la **Planification**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -270,4 +270,4 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 >[!NOTE]
 >
-Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.  Vous pouvez également utiliser la notation _sur 24 heures_ (14 h 00) au lieu de la notation *matin/après-midi* (AM/PM) (2 h 00 de l’après-midi).

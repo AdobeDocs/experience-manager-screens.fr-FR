@@ -1,22 +1,22 @@
 ---
 title: Canal d’urgence
-seo-title: Canal d’urgence
+seo-title: Emergency Channel
 description: Lisez ce cas d’utilisation pour en savoir plus sur la création et la gestion d’un canal d’urgence sur lequel l’auteur du contenu peut basculer depuis un canal de séquence dans certaines circonstances.
-seo-description: Lisez ce cas d’utilisation pour en savoir plus sur la création et la gestion d’un canal d’urgence sur lequel l’auteur du contenu peut basculer depuis un canal de séquence dans certaines circonstances.
+seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
 uuid: 612917c9-a832-453b-970c-f4365f7b105d
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 * **[Création et gestion des canaux](managing-channels.md)**
 * **[Création et gestion des emplacements](managing-locations.md)**
 * **[Création et gestion des planifications](managing-schedules.md)**
-* **[Enregistrement de périphériques](device-registration.md)**
+* **[Enregistrement d’appareils](device-registration.md)**
 
 ### Acteurs principaux {#primary-actors}
 
@@ -118,6 +118,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
       1. Cliquez sur **Enregistrer**
 
       Vous devrez procéder de la même manière pour affecter **EmergencyChannel** et définir sa **Priorité**.
+
    >[!NOTE]
    >
    >La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles.
@@ -143,21 +144,21 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Attribution d’une planification à chaque affichage**
 
-   1. Accédez à chaque affichage, par exemple **EmergencyChannel** --> **Emplacements** --> **Boutique** -->**StoreFront**.
+   1. Accédez à chaque affichage, par exemple : **EmergencyChannel** > **Emplacements** > **Magasin** >**StoreFront**.
 
    1. Pour ouvrir le tableau de bord des affichages, cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **...** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, puis sur **+Attribuer une planification**.
 
-   1. Sélectionnez le chemin d’accès à la planification (par exemple, ici, **EmergencyChannel** --> **Planifications** --> **StoreSchedule**).
+   1. Sélectionnez le chemin d’accès au planning (par exemple, ici, **EmergencyChannel** > **Planifications** >**StoreSchedule**).
 
    1. Cliquez sur **Enregistrer**.
 
    Vous pouvez afficher la planification affectée à l’affichage à partir du tableau de bord **StoreSchedule**.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
-1. **Enregistrement de périphériques**
+1. **Enregistrement d’appareils**
 
-   Terminez le processus d’enregistrement de périphériques et, une fois enregistré, vous verrez l’image suivante sur votre lecteur AEM Screens.
+   Terminez le processus d’enregistrement d’appareils et, une fois enregistré, vous verrez l’image suivante sur votre lecteur AEM Screens.
 
    ![new30](assets/new30.gif)
 
@@ -165,7 +166,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 Réalisez la procédure suivante en cas d’urgence :
 
-1. Accédez à **EmergencyChannel** --> **Planifications** --> **StoreSchedule** et sélectionnez **Tableau de bord** dans la barre d’actions.
+1. Accédez à **EmergencyChannel** > **Planifications** > **StoreSchedule** et sélectionnez **Tableau de bord** dans la barre d’actions.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

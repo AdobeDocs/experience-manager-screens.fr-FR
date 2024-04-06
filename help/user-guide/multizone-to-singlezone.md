@@ -1,25 +1,23 @@
 ---
 title: Cas d’utilisation des transitions Multizone vers Zone unique
-description: Suivez cette page pour en savoir plus sur le cas d’utilisation Multizone vers Zone unique.
-seo-description: Cas d’utilisation des transitions Multizone vers Zone unique.
+description: Consultez cette page pour en savoir plus sur le cas d’utilisation Transitions Multizone vers Zone unique .
 contentOwner: Jyotika Syal
-feature: Création dans Screens
+feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 39%
 
 ---
 
 # Transition Multizone vers Zone unique {#multizone-to-singlezone-use-case}
 
-
 ## Description du cas d’utilisation {#use-case-description}
 
-Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la configuration d’un canal de disposition multizone qui alterne avec un canal de disposition à zone unique. Le canal multizone comporte des fichiers image/vidéo de séquencement et indique comment configurer un projet qui alterne entre multizone et zone unique.
+Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la configuration d’un canal de disposition multizone qui alterne avec un canal de disposition à zone unique. Le canal multizone comporte des ressources image/vidéo de séquencement et indique comment configurer un projet qui alterne entre plusieurs zones et une seule zone, et inversement.
 
 ### Prérequis {#preconditions}
 
@@ -28,7 +26,7 @@ Avant de commencer ce cas d’utilisation, vous devez comprendre comment :
 * **[Création et gestion des canaux](managing-channels.md)**
 * **[Création et gestion des emplacements](managing-locations.md)**
 * **[Création et gestion des planifications](managing-schedules.md)**
-* **[Enregistrement de périphériques](device-registration.md)**
+* **[Enregistrement d’appareils](device-registration.md)**
 
 ### Acteurs principaux {#primary-actors}
 
@@ -45,9 +43,9 @@ Pour configurer un projet, procédez comme suit :
 
 1. **Création d’un canal Screens multizone**
 
-   1. Sélectionnez le dossier **Channels** (Canaux), puis cliquez sur **Créer** dans la barre d’actions pour ouvrir l’assistant afin de créer un canal.
+   1. Sélectionnez la variable **Canaux** et cliquez sur **Créer** depuis la barre d&#39;actions et en ouvrant l&#39;assistant pour créer un canal.
    1. Sélectionnez **Left-L Bar Split Screen Channel** dans l’assistant et créez le canal intitulé **MultiZoneLayout**.
-   1. Ajoutez du contenu au canal. Faites glisser les ressources vers chacune des zones. L’exemple suivant illustre un canal **MultiZoneLayout** comprenant une vidéo, une image et une bannière de texte (dans une séquence incorporée), comme illustré ci-dessous.
+   1. Ajoutez du contenu au canal. Faites glisser les ressources vers chacune des zones. L’exemple suivant illustre une **MultiZoneLayout** canal comprenant une vidéo, une image et une bannière de texte (dans une séquence incorporée), comme illustré ci-dessous.
 
    ![ressource](assets/mz-to-sz2.png)
 
@@ -60,7 +58,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/mz-to-sz3.png)
 
-1. Cliquez sur **Modifier** dans la barre d’actions pour ajouter du contenu à ce canal. Ajoutez à ce canal un composant **Canal** et une ressource image vers lesquels vous souhaitez basculer, comme illustré dans la figure ci-dessous :
+1. Cliquez sur **Modifier** depuis la barre d’actions pour ajouter du contenu à ce canal. Ajouter un **Canal** et une ressource image vers laquelle vous souhaitez basculer pour ce canal, comme illustré dans la figure ci-dessous :
 
    ![ressource](assets/mz-to-sz4.png)
 
@@ -68,22 +66,22 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/mz-to-sz5.png)
 
-1. Définissez la durée dans le champ **Séquence** sur **10 000 ms**.
+1. Définissez la durée à partir du **Séquence** champ à **1 000 millisecondes**.
 
    ![ressource](assets/mz-to-sz6.png)
 
-1. De même, ouvrez les paramètres de l’image (ressource que vous avez ajoutée) et définissez sa durée dans le champ **Séquence** sur **3000 ms**.
+1. De même, ouvrez les paramètres de l’image (ressource que vous avez ajoutée) et définissez sa durée à partir de la propriété **Séquence** champ à **3 000 millisecondes**.
 
    ![ressource](assets/mz-to-sz7.png)
 
 ## Vérification de l’aperçu {#checking-the-preview}
 
-Vous pouvez afficher la sortie souhaitée à partir du lecteur ou simplement en cliquant sur l’**Aperçu** dans l’éditeur.
+Vous pouvez afficher la sortie souhaitée à partir du lecteur ou simplement en sélectionnant **Aperçu** à partir de l’éditeur.
 
-La sortie indique comment une disposition multizone est lue pendant *10 000 ms*, puis passe à une disposition à zone unique dont la durée de lecture est de *3 000 ms*, pour ensuite revenir à la disposition multizone.
+La sortie montre comment une disposition multizone est lue pour *1 000 millisecondes* puis passe à une disposition à zone unique dont la durée de lecture est définie *3 000 millisecondes* puis revient à la disposition multizone.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
->Vous pouvez personnaliser votre transition de canal (de la disposition multizone à la disposition à zone unique ou vice versa), selon vos besoins.
+>Vous pouvez personnaliser votre transition de canal (de la disposition multizone à la disposition à zone unique ou inversement), selon vos besoins.

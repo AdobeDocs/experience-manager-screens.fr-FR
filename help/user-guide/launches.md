@@ -1,7 +1,7 @@
 ---
 title: Mise à jour du contenu à l’aide d’un lancement Screens
 seo-title: Content Update using Screens Launch
-description: Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de Lancement, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les périphériques ou lecteurs.
+description: Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de Lancement, et la définition de la date d’activation de ce canal permet au contenu d’être en ligne sur les appareils ou lecteurs.
 seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
@@ -14,10 +14,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
-workflow-type: ht
-source-wordcount: '1580'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 98%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 Les auteurs de contenu peuvent créer une version ultérieure du ou des canaux, connue sous le nom de **lancement Screens**, et en définir la date d’activation. Le contenu est ainsi en ligne sur des appareils ou des lecteurs à la date d’activation spécifiée.
 
-Grâce au ***lancement Screens***, les auteurs peuvent prévisualiser chaque canal du lancement et doivent être en mesure de lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
+Grâce au ***lancement Screens***, les auteurs peuvent prévisualiser chaque canal du lancement et doivent être en mesure de lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les appareils.
 
 Par exemple, si l’auteur souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 heures). Toute mise à jour ultérieure du contenu est envoyée pour révision.
 
-Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les périphériques ou lecteurs.
+Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h) le contenu sur les appareils ou lecteurs.
 
 ## Conditions requises {#requirements}
 
@@ -90,7 +90,7 @@ Cette section explique comment mettre en œuvre le lancement Screens dans votre 
 
 Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité de lancement Screens dans votre projet AEM Screens :
 
-1. Créez un canal de séquence dans votre projet AEM Screens, par exemple **LaunchesDemo** --> **Canaux** --> **FutureLaunch**, comme illustré ci-dessous.
+1. Créez un canal de séquence dans votre projet AEM Screens, par exemple **LaunchesDemo** > **Canaux** > **FutureLaunch**, comme illustré ci-dessous.
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité de lancem
    * **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Il est recommandé d’utiliser cette option lorsque la révision du lancement n’est pas requise.
    * **Convertir les pages approuvées** : cette option nécessite que le processus d’approbation du lancement s’exécute sur les canaux de lancement.. Seules les pages approuvées seront promues à la date d’activation définie.
 
-      >[!CAUTION]
-      >
-      >La date d’activation du lancement se conforme au fuseau horaire du lecteur/de l’appareil plutôt qu’à celui du serveur.
+     >[!CAUTION]
+     >
+     >La date d’activation du lancement se conforme au fuseau horaire du lecteur/de l’appareil plutôt qu’à celui du serveur.
 
 1. Vous verrez que votre lancement est créé. Vous pouvez cliquer sur **Ouvrir** pour afficher les pages dans l’éditeur ou sur **Terminé** pour revenir à votre projet.
 

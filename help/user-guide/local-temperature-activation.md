@@ -1,8 +1,8 @@
 ---
 title: Activation de la température de l’agence de voyages
-seo-title: Activation de la température de l’agence de voyages
+seo-title: Travel Center Temperature Activation
 description: Le cas d’utilisation suivant illustre l’utilisation de l’activation de la température locale de l’agence de voyages en fonction des valeurs renseignées dans Google Sheets.
-seo-description: Le cas d’utilisation suivant illustre l’utilisation de l’activation de la température locale de l’agence de voyages en fonction des valeurs renseignées dans Google Sheets.
+seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
 uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    >[!CAUTION]
    >
-   >Vous devez avoir défini vos **configurations** ContextHub **à l’aide de l’onglet** Propriétés **du canal -->** **Personnalisation.**
+   >Vous devez avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -90,4 +90,5 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
    1. Définissez une valeur inférieure à 50. Vous devriez voir une image de boissons fraîches. Si la valeur dans la feuille de calcul Google est supérieure ou égale à 50, vous devriez voir une image de boisson chaude.
+
    ![result3](assets/result3.gif)

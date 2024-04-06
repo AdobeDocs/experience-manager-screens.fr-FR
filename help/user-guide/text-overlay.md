@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '797'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ L’image suivante montre le projet **TextOverlayDemo** avec le canal **TextSamp
 
 Pour utiliser la superposition de texte dans un canal AEM Screens, procédez comme suit :
 
-1. Accédez à **TextOverlayDemo** --> **Canaux** --> **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ Pour apprendre à configurer et gérer les modifications de ressources axée sur
 
 Une fois que vous avez défini les configurations requises pour votre projet, suivez les étapes ci-dessous pour utiliser les valeurs d’une feuille de calcul Google Sheets :
 
-1. Accédez à **TextOverlayDemo** --> **Canaux** --> **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
 
 1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
@@ -118,7 +118,7 @@ Une fois que vous avez défini les configurations requises pour votre projet, su
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accédez à **TextOverlayDemo** --> **Canaux** --> **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -133,7 +133,7 @@ Une fois que vous avez défini les configurations requises pour votre projet, su
    >[!NOTE]
    >Si vous n’avez pas configuré vos configurations ContextHub, cette option sera désactivée pour votre projet.
 
-1. Saisissez **Valeur** dans le champ **Espace réservé**. Sélectionnez la ligne dont vous voulez obtenir la valeur à partir de votre tableur Google Sheets dans **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 du classeur Google Sheets. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
+1. Entrée **Valeur** dans le **Espace réservé** champ . Sélectionnez la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

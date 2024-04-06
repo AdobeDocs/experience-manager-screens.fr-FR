@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 96%
+source-wordcount: '2168'
+ht-degree: 99%
 
 ---
 
@@ -77,25 +77,25 @@ Suivez les étapes ci-dessous à partir de l’éditeur de canal :
 1. Cliquez sur le bouton de configuration (icône de clé à molette).
 1. Accédez à l’onglet **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
 
-## Enregistrement de périphériques {#device-registration}
+## Enregistrement d’appareils {#device-registration}
 
-### 1. Si je détecte des points de terminaison, tels que des requêtes d’intégration et d’enregistrement de périphériques, je peux créer un script pour un grand nombre de périphériques et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ?  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Si je détecte des points de terminaison, tels que des requêtes d’intégration et d’enregistrement d’appareils, je peux créer un script pour un grand nombre d’appareils et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ?  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
-L’enregistrement n’est actuellement possible que sur l’instance d’auteur. Bien qu’il ne soit pas authentifié, le service d’enregistrement crée uniquement un périphérique en attente dans AEM ; il n’enregistre pas réellement le périphérique ni n’affecte aucun affichage.
+L’enregistrement n’est actuellement possible que sur l’instance d’auteur. Bien qu’il ne soit pas authentifié, le service d’enregistrement crée uniquement un appareil en attente dans AEM ; il n’enregistre pas réellement l’appareil ni n’affecte aucun affichage.
 
-Pour enregistrer un périphérique (c’est-à-dire créer un utilisateur pour le périphérique dans AEM), vous devez tout de même vous authentifier auprès de l’application et suivre manuellement les instructions de l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, un utilisateur malveillant peut créer plusieurs périphériques en attente, mais il ne peut pas les enregistrer sans connexion à AEM.
+Pour enregistrer un appareil (c’est-à-dire créer un utilisateur pour l’appareil dans AEM), vous devez tout de même vous authentifier auprès de l’application et suivre manuellement les instructions de l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, un utilisateur malveillant peut créer plusieurs appareils en attente, mais il ne peut pas les enregistrer sans connexion à AEM.
 
 ### 2. Existe-t-il un moyen de transformer les requêtes HTTP GET en requêtes HTTP POST avec un type d’authentification donné ?  {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La requête d’enregistrement consiste dans une requête POST.
 
-Il est recommandé d’obtenir l’ID du périphérique de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s’agit pas pour l’instant d’un problème de sécurité. Notez que la requête GET est utilisée en l’absence de modification d’état sur le serveur et que la requête POST est appliquée dans le cas contraire.
+Il est recommandé d’obtenir l’ID de l’appareil de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s’agit pas pour l’instant d’un problème de sécurité. Notez que la requête GET est utilisée en l’absence de modification d’état sur le serveur et que la requête POST est appliquée dans le cas contraire.
 
 ### 3. Existe-t-il un moyen de refuser une requête d’enregistrement d’appareil ?  {#is-there-a-way-to-decline-a-device-registration-request}
 
 Vous ne pouvez pas refuser les requêtes d’enregistrement. Au lieu de cela, les demandes d’enregistrement doivent expirer au-delà d’un délai configuré dans `Adobe Experience Manager Web Console`. Par défaut, cette valeur est définie sur un jour et mise en mémoire cache.
 
-## Rapports de surveillance et d’intégrité des périphériques {#device-monitoring-and-health-reports}
+## Rapports de surveillance et d’intégrité des appareils {#device-monitoring-and-health-reports}
 
 ### 1. Comment résoudre le problème si mon lecteur AEM Screens affiche un écran noir ?  {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
@@ -113,21 +113,21 @@ Vous devez activer le filtre Autoriser vide du référent Apache Sling. Cette ac
 1. Cochez l’option **allow.empty**.
 1. Cliquez sur **Enregistrer**.
 
-### 3. Comment résoudre le problème si le périphérique et les journaux de la console affichent respectivement les messages d’erreur « ÉCHEC » et « ENAME_NOT_FOUND » pendant l’enregistrement du lecteur AEM Screens ?  {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. Comment résoudre le problème si l’appareil et les journaux de la console affichent respectivement les messages d’erreur « ÉCHEC » et « ENAME_NOT_FOUND » pendant l’enregistrement du lecteur AEM Screens ?  {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
 Ce problème peut se produire si le lecteur ne parvient pas à trouver le nom DNS du serveur AEM Screens. Vous pouvez essayer d’utiliser l’adresse IP pour vous connecter. Pour obtenir l’adresse IP du serveur, utilisez la syntaxe suivante : *arp &lt;nom_dns_serveur>*.
 
-### 4. AMS recommande-t-il de mettre en œuvre un outil de surveillance Android sur tous les périphériques ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ?  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS recommande-t-il de mettre en œuvre un outil de surveillance Android sur tous les appareils ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ?  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 Un outil de surveillance Android multiplateforme utilisant des API Android pures est déjà disponible dans ce kit. Aucun autre logiciel n’est nécessaire, mais, selon l’appareil employé, vous devrez peut-être signer à nouveau le fichier apk Android afin d’obtenir des privilèges système pour un cycle d’alimentation complet (API PowerManager). En l’absence de nouvelle signature avec les clés du fabricant, ce kit peut fermer, puis relancer l’application, mais pas le cycle d’alimentation.
 
 Pour plus d’informations sur la mise en œuvre du lecteur Android, reportez-vous à [**Mise en œuvre du lecteur Android**](implementing-android-player.md).
 
-### 5. Quels outils (logiciels) tiers de surveillance et d’alerte à distance Adobe/AMS recommande-t-il d’utiliser pour surveiller chaque périphérique ?   {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Quels outils (logiciels) tiers de surveillance et d’alerte à distance Adobe/AMS recommande-t-il d’utiliser pour surveiller chaque appareil ?   {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-Selon les résultats que vous souhaitez obtenir en dehors de la surveillance et des alertes, un nouveau service de notifications AEM Screens vous informe si un périphérique n’a pas envoyé de commande ping depuis longtemps. Les outils tiers dépendent du système d’exploitation utilisé et de ses fonctionnalités, ainsi que des besoins spécifiques du client.
+Selon les résultats que vous souhaitez obtenir en dehors de la surveillance et des alertes, un nouveau service de notifications AEM Screens vous informe si un appareil n’a pas envoyé de commande ping depuis longtemps. Les outils tiers dépendent du système d’exploitation utilisé et de ses fonctionnalités, ainsi que des besoins spécifiques du client.
 
-Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’activité des périphériques, reportez-vous à [**Service de notifications AEM Screens**](screens-notifications-service.md).
+Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’activité des appareils, reportez-vous à [**Service de notifications AEM Screens**](screens-notifications-service.md).
 
 ## Lecteur AEM Screens {#aem-screens-player}
 
@@ -152,7 +152,7 @@ Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json
 
 Pour activer l’option Rester éveillé sur un lecteur Android, procédez comme suit :
 
-1. Accédez aux paramètres du lecteur Android —> **À propos de**
+1. Accédez aux paramètres du lecteur Android > **A propos**
 1. Appuyez 7 fois sur le numéro de version pour activer les **options du mode Développeur** dans **Paramètres**.
 1. Accédez à **ces options**.
 1. Activez **Rester éveillé**.
@@ -177,23 +177,23 @@ Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qu
 
 1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
-### 6. Comment obtenir les informations concernant l’affichage et le périphérique à partir de l’API du lecteur ?
+### 6. Comment obtenir les informations concernant l’affichage et l’appareil à partir de l’API du lecteur ?
 
-Vous pouvez obtenir les informations sur l’affichage et le périphérique via :
+Vous pouvez obtenir les informations sur l’affichage et l’appareil via :
 
 * **une API JS interne** ;
-* **une boutique ContextHub** : Trois magasins ContextHub sont définis dans `/libs/screens/clientlibs/contexthub` pour exposer les canaux, les périphériques et les informations d’affichage.
+* **une boutique ContextHub** : Trois magasins ContextHub sont définis dans `/libs/screens/clientlibs/contexthub` pour exposer les canaux, les appareils et les informations d’affichage.
 
-   Suivez les étapes ci-dessous pour utiliser ces valeurs de stockage ContentHub :
+  Suivez les étapes ci-dessous pour utiliser ces valeurs de stockage ContentHub :
 
    * Modifiez les propriétés du canal et définissez le chemin ContextHub dans l’onglet de personnalisation sur la valeur (comme mentionné ci-dessus)
    * Dans le canal JS, vous pouvez utiliser :
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## Conseils pratiques de dépannage {#general-troubleshooting-tips}
 
@@ -203,7 +203,7 @@ Pour désactiver Livefyre afin d’éviter les erreurs de journal :
 
 1. ***Désactivez le lot Livefyre :***
 
-   * Accédez à `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`.
+   * Accédez à `https://<host>:<port>/system/console/bundles`.
    * Recherchez le lot AEM Livefyre : `com.adobe.cq.social.cq-social-livefyre`
    * Cliquez sur **Arrêter**.
 
@@ -243,14 +243,14 @@ Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.ad
 
 ### 4. Que devez-vous faire si, après avoir installé le package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 et les lots de base de Screens ne sont pas actifs ?
 
-Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8  pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=fr#availability) pour obtenir la version minimale du Feature Pack Screens.
+Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne. Consultez la section [Disponibilité](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=fr#availability) pour obtenir la version minimale de Screens Feature Pack.
 
-### 5. Comment configurer le service d’externaliseur de liens CQ dans Screens ?
+### 5. Comment configurer le service CQ Link Externalizer dans Screens ?
 
-Le service est utilisé pour définir le nom d’hôte public pour les instances d’auteur et de publication, et les valeurs sont ensuite utilisées pour mettre à jour les URL du serveur de périphériques et également pour le ciblage ContextHub.
+Le service est utilisé pour définir le nom d’hôte public pour les instances d’auteur et de publication, et les valeurs sont ensuite utilisées pour mettre à jour les URL du serveur d’appareils ainsi que pour le ciblage ContextHub.
 
-Le service d’externaliseur de liens CQ dans Screens peut être configuré à l’aide de :
+Le service CQ Link Externalizer dans Screens peut être configuré par ce biais :
 
 1. Accédez à `http://localhost:4502/system/console/configMgr`.
-1. Externalisateur de lien Day CQ
-1. Modifiez le nom d’hôte de la variable `author/publish` entrées si nécessaire
+1. Day CQ Link Externalizer
+1. Modifiez le nom d’hôte pour les entrées `author/publish` si nécessaire.

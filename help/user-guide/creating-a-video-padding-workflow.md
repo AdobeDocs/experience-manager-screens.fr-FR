@@ -1,8 +1,8 @@
 ---
 title: Création d’un processus de remplissage vidéo
-seo-title: Création d’un processus de remplissage vidéo
+seo-title: Creating a Video Padding Workflow
 description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
-seo-description: Consultez cette page pour en savoir plus sur la création d’un remplissage vidéo dans le processus pour vos ressources.
+seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 96%
 
 ---
 
@@ -61,11 +61,11 @@ Suivez les étapes ci-dessous pour créer et utiliser le processus :
 
 Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
-1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionnez **Processus** —> **Modèles** pour créer un nouveau modèle.
+1. Accédez à votre instance AEM et cliquez sur Outils à partir du rail latéral. Sélectionner **Workflow** > **Modèles** pour créer un modèle.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Cliquez sur **Modèles** —> **Créer** —> **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus**. Cliquez sur **Terminé** pour ajouter le modèle de processus.
+1. Cliquez sur **Modèles** > **Créer** > **Créer un modèle**. Saisissez le **Titre** **VideoRendition** et le **Nom** dans le champ **Ajouter un modèle de processus**. Cliquez sur **Terminé** pour ajouter le modèle de processus.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -101,7 +101,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
 Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM Screens :
 
-1. Accédez à un projet AEM Screens (**TestVideoRendition** —> **Canaux** —> **VideoRendition**).
+1. Accédez à un projet AEM Screens (**TestVideoRendition** > **Canaux** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

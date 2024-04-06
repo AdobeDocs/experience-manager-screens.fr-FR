@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -61,7 +61,7 @@ Pour configurer un projet et un canal, procédez comme suit :
 
 Une fois le projet configuré, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
-1. Accédez à l’affichage requis, par exemple, **DemoScreens** --> **Emplacements** --> **SanJose** --> **Lobby**.
+1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
@@ -110,7 +110,7 @@ Une fois un canal attribué à un affichage et un planning de périodicité conf
 
 Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie :
 
-1. Accédez à l’affichage requis, par exemple, **DemoScreens** --> **Emplacements** --> **SanJose** --> **Lobby**.
+1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 

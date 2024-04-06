@@ -1,30 +1,27 @@
 ---
 title: Analyses avec AEM Screens
-seo-title: Analyses avec AEM Screens
-description: Cette page décrit les analyses avec AEM Screens
-seo-description: Cette page décrit les analyses avec AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+description: Découvrez Adobe Analytics avec Adobe Experience Manager Screens.
+exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
-
 
 # Analyses avec AEM Screens {#analytics-screens}
 
 >[!NOTE]
 >
->Cette activité est généralement réalisée par un stratège opérationnel/marketing.
+>Les parties prenantes standard de cette activité sont les stratèges marketing/métier.
 
-AEM Screens permet de capturer, en local, tous les événements pouvant faire l’objet d’un suivi qui sont exécutés par chaque appareil de lecture. Ces données sont stockées en local jusqu’à ce qu’elles puissent être téléchargées dans le cloud en vue de leur traitement. Outre toutes les données d’événement, un deviceID et un horodatage sont ajoutés. Ainsi, il est possible de distinguer les données d’un lecteur de celles d’un autre lecteur et, au besoin, les données exécutées à différents moments de la journée peuvent être évaluées séparément.
+AEM Screens permet de capturer, en local, tous les événements pouvant faire l’objet d’un suivi qui sont exécutés par chaque appareil de lecture. Ces données sont stockées localement jusqu’à ce qu’elles puissent être chargées dans le cloud en vue de leur traitement. Outre toutes les données d’événement, un deviceID et un horodatage sont ajoutés. Cela permet de s’assurer que les données d’un lecteur peuvent être distinguées d’un autre lecteur et que les données exécutées à différents moments de la journée peuvent être évaluées séparément, si nécessaire.
 
-Il y a deux raisons fondamentales à la capture de ces données.
+Il existe deux raisons fondamentales à la capture de ces données.
 
-La première a trait aux **boucles de rétroaction et à l’apprentissage automatique**, tandis que la seconde implique la **création de graphiques, de tableaux de bord et de rapports** compréhensibles par un humain.
+Le premier implique **boucles de rétroaction et apprentissage automatique** tandis que la seconde implique la **création de graphiques, de tableaux de bord et de rapports** qui sont destinés à la consommation humaine.
 
-S’agissant de la boucle de rétroaction, les rapports visuels et les tableaux de bord ne constituent pas notre sujet de préoccupation principal. L’objectif est plutôt de définir des règles sur lesquelles AEM peut s’exécuter pour la modification de contenu. L’exploitation et le traitement de toutes les données d’événement de lecture Screens d’une période donnée nous permettent de définir une règle qui évalue l’efficacité d’image1 par rapport à image2. En combinant les données de ventes aux données de lecture, AEM peut déterminer qu’image1 a un impact bien plus important sur les ventes et demande automatiquement à tous les lecteurs de l’utiliser.
+Dans le cas de l’utilisation de la feedback loop, il n’est pas nécessaire de se préoccuper des rapports visuels ou des tableaux de bord, mais plutôt de définir des règles sur lesquelles AEM peut s’exécuter pour la modification du contenu. En consommant et en traitant toutes les données d’événement du lecteur Screens d’une période donnée, vous pouvez définir une règle qui évalue l’efficacité d’image1 par rapport à image2. En combinant les données de ventes aux données de lecture, AEM peut déterminer qu’image1 a un plus grand impact sur les ventes et demande automatiquement à tous les lecteurs d’utiliser image1.
 
 Le deuxième cas d’utilisation consiste à traiter les événements de lecture et les données d’utilisation compréhensibles par un humain au moyen de rapports et de tableaux de bord.
-Nous pouvons utiliser ces données pour créer une carte de fréquentation (heatmap) d’une expérience interactive afin de déterminer le cheminement préféré dans notre application. Nous pouvons également choisir de créer un tableau de bord qui représente, sous forme graphique, le nombre de fois où les consommateurs interagissent avec notre application.
-
+Vous pouvez utiliser ces données pour créer une carte thermique d’une expérience interactive afin de déterminer la carte de parcours préférée dans l’application. Vous pouvez également choisir de créer un tableau de bord qui donne une représentation graphique du nombre de fois où les consommateurs interagissent avec l’application.

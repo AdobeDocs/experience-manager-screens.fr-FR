@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1233'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ Cette page explique comment attribuer un canal à votre affichage.
 
 Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
-1. Accédez à l’affichage requis, par exemple, **DemoProject** --> **Emplacements** --> **SanJose** --> **StoreDisplay**.
+1. Accédez à l’affichage requis, par exemple : **DemoProject** > **Emplacements** > **SanJose** > **StoreDisplay**.
 
    ![image](assets/screen_shot_2018-08-23at25359pm.png)
 

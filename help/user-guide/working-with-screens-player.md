@@ -1,22 +1,22 @@
 ---
 title: Utilisation du lecteur AEM Screens
-seo-title: Utilisation du lecteur AEM Screens
-description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
-seo-description: Consultez cette page pour en savoir plus sur le lecteur Screens. Elle décrit également l’interface utilisateur d’administration et le sélecteur de canal.
+seo-title: Working with Screens Player
+description: Consultez cette page pour en savoir plus sur le lecteur Screens. Il explique également l’interface utilisateur d’administration et le sélecteur de canal.
+seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-feature: Administration d’AEM Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 79%
 
 ---
 
@@ -28,19 +28,19 @@ Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran 
 >
 >Appuyez sur ***Ctrl+Cmd+F*** pour quitter le mode plein écran du lecteur AEM Screens pour OS X.
 
-Une fois que vous attribuez un canal à un affichage, le lecteur AEM Screens affiche le contenu. Vous pouvez configurer les paramètres de votre lecteur en utilisant les préférences de l’interface utilisateur d’administration (du tableau de bord) ou du lecteur lui-même.
+Une fois que vous avez attribué un canal à un affichage, le lecteur AEM Screens affiche le contenu. Vous pouvez configurer les paramètres de votre lecteur à l’aide des préférences de l’interface utilisateur d’administration (du tableau de bord) ou du lecteur lui-même.
 
-## Utilisation du tableau de bord du périphérique {#using-the-device-dashboard}
+## Utilisation du tableau de bord de l’appareil {#using-the-device-dashboard}
 
-Vous pouvez configurer les préférences de votre périphérique à partir de son tableau de bord, accessible via votre instance de création AEM.
+Vous pouvez configurer les préférences de votre appareil à partir de son tableau de bord, accessible via votre instance de création AEM.
 
-1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple, ***Projet de test*** > ***Périphériques***.
+1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple : ***Test du projet*** > ***Périphériques***.
 
-   Sélectionnez **Périphériques** et **Gestionnaire de périphériques** dans la barre d’actions.
+   Sélectionnez **Appareils** et **Gestionnaire d’appareils** dans la barre d’actions.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Cliquez sur le périphérique pour ouvrir son tableau de bord.
+1. Cliquez sur l’appareil pour ouvrir son tableau de bord.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -50,7 +50,7 @@ Vous pouvez configurer les préférences de votre périphérique à partir de so
 
 ### L’interface utilisateur d’administration {#the-admin-ui}
 
-En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord du périphérique, l’utilisateur ne peut pas ouvrir l’interface utilisateur d’administration à partir du lecteur.
+En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ne peut pas ouvrir l’interface utilisateur d’administration à partir du lecteur.
 
 Pour afficher l’interface utilisateur d’administration du lecteur Screens, appuyez longuement sur l’angle supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens optimisé pour les écrans tactiles activée ou en utilisant la souris. Elle affiche les informations une fois l’enregistrement terminé et les canaux chargés.
 
@@ -74,9 +74,9 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 * Activez ou désactivez **Menu d’administration**, **Sélecteur de canal** et **Activity UI** (IU d’activité) pour le lecteur Screens.
 
-   Si la case **Activity UI** (IU d’activité) est cochée dans le menu **Configuration**, le lecteur AEM Screens affiche les *notifications d’activité du lecteur* dans le coin supérieur droit du lecteur, comme illustré ci-dessous.
+  Si la case **Activity UI** (IU d’activité) est cochée dans le menu **Configuration**, le lecteur AEM Screens affiche les *notifications d’activité du lecteur* dans le coin supérieur droit du lecteur, comme illustré ci-dessous.
 
-   ![image](/help/user-guide/assets/activity_ui.png)
+  ![image](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -88,9 +88,9 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 #### Accès aux options du menu Cache de contenu {#content-cache-options}
 
-Vous pouvez effacer le cache des canaux et des applications de l’IU d’administration dans le lecteur AEM Screens.
+Vous pouvez effacer le cache des canaux et des applications à partir de l’interface utilisateur d’administration du lecteur AEM Screens.
 
-Sélectionnez **Cache de contenu** à partir du rail latéral pour mettre à jour le cache.
+Sélectionnez la variable **Cache de contenu** à partir du rail latéral pour mettre à jour le cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -98,27 +98,27 @@ Sélectionnez **Cache de contenu** à partir du rail latéral pour mettre à jou
 
 En activant le **sélecteur de canal** à partir du panneau Préférences, l’utilisateur peut ouvrir la sélection ou les paramètres de canal du lecteur Screens.
 
-En outre, si vous désactivez cette option dans le tableau de bord du périphérique, l’utilisateur ne peut pas contrôler les préférences de canal à partir du lecteur Screens.
+En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ne peut pas contrôler les préférences de canal à partir du lecteur Screens.
 
-Vous pouvez activer/désactiver et contrôler les paramètres de canal de votre lecteur Screens.
+Vous pouvez permuter et contrôler les paramètres de votre canal à partir de votre lecteur Screens.
 
-Pour afficher le sélecteur de canal du lecteur, appuyez longuement sur l’angle inférieur gauche afin d’ouvrir le sélecteur de canal qui permet de basculer entre les canaux et qui offre d’autres fonctions.
+Pour afficher le sélecteur de canal à partir du lecteur, appuyez longuement sur le coin inférieur gauche afin d’ouvrir le sélecteur de canal qui permet de basculer entre les canaux et d’autres fonctionnalités.
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
->Vous pouvez également activer ou désactiver le menu Admin et le sélecteur de canal pour le lecteur à partir du lecteur Screens.
+>Vous pouvez également activer ou désactiver le menu d’administration et le sélecteur de canal pour le lecteur à partir du lecteur Screens.
 >
->(Voir *Modification des préférences à partir du lecteur Screens*, comme mentionné dans la section ci-dessous.)
+>(Voir *Modification des préférences à partir du lecteur Screens* comme mentionné dans la section ci-dessous).
 
 ### Gestions des préférences à partir du lecteur AEM Screens {#managing-preferences-from-the-aem-screens-player}
 
 Vous pouvez également modifier les paramètres de l’interface utilisateur d’administration et le sélecteur de canal à partir du lecteur.
 
-Procédez comme suit pour modifier les préférences de votre lecteur :
+Pour modifier les préférences de votre lecteur, procédez comme suit :
 
-1. Appuyez longuement dans le coin supérieur gauche du canal inactif pour ouvrir le panneau Admin.
+1. Appuyez longuement dans le coin supérieur gauche du canal inactif pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** dans le menu d’actions à gauche.
 1. Activez/désactivez la configuration pour l’**interface utilisateur d’administration** ou le **sélecteur de canal**.
 
@@ -131,7 +131,7 @@ Vous pouvez résoudre de nombreux problèmes liés au lecteur AEM Screens (mat�
 | **Numéros** | **Recommandations** |
 |---|---|
 | L’espace de stockage du lecteur est plein | Éliminez les fichiers inutiles |
-| Le lecteur a perdu le réseau | Utilisez un câble Cat-5/Cat-6. Pour une connexion Wi-Fi, réduisez la distance entre le routeur et le périphérique de lecture. |
+| Le lecteur a perdu le réseau | Utilisez un câble Cat-5/Cat-6. Pour une connexion Wi-Fi, réduisez la distance entre le routeur et l’appareil de lecture. |
 | Le lecteur AEM Screens s’est bloqué | Il est recommandé de disposer d’une application de contrôle qui vérifie que le lecteur AEM Screens fonctionne toujours. |
 | Perte des paramètres du lecteur AEM Screens | Vérifiez la connexion au serveur AEM |
 | Le lecteur AEM Screens ne démarre pas automatiquement après le redémarrage du lecteur | Vérifiez le dossier de démarrage ou de la procédure d’initialisation du système d’exploitation |
@@ -144,7 +144,7 @@ Il existe deux types de mises à jour du lecteur AEM Screens :
 | **Méthode** | **Détails** | **via À distance** | **Automatique** | **0 temps d’arrêt** |
 |---|---|---|---|---|
 | Mise à jour du micrologiciel | Application sur les lecteurs existants installés via la commande à distance. Après la mise à jour, le lecteur se rechargera automatiquement avec le contenu existant. | Oui | Personnalisé | Presque - 1 à 3 secondes |
-| Mises à jour du shell du lecteur | Il s’agit d’un nouveau fichier exécutable à déployer sur le lecteur. Cela requiert de copier à distance le nouveau fichier binaire sur le lecteur, d’arrêter la version en cours d’exécution et de démarrer la nouvelle version. Il peut être nécessaire de télécharger à nouveau le préchargement des modules. | Oui (via un shell distant) | Personnalisé | Non |
+| Mises à jour du shell du lecteur | Il s’agit d’un nouveau fichier exécutable à déployer sur le lecteur. Pour ce faire, vous devez copier à distance le nouveau fichier binaire sur le lecteur, arrêter l’exécution en cours et démarrer la nouvelle version. Cela peut nécessiter le retéléchargement du préchargement des modules. | Oui (via un shell distant) | Personnalisé | Non |
 
 ## Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection-guidelines-for-player-device}
 

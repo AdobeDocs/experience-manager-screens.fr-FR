@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 99%
+source-wordcount: '1143'
+ht-degree: 98%
 
 ---
 
@@ -181,7 +181,7 @@ Si vous obtenez un écran noir lorsque vous vous connectez en tant qu’utilisat
 
 Le chemin d’installation par défaut du lecteur Windows est le suivant :
 
-***C:\Users\&amp;lt;votre utilisateur>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 L’exemple de script dans les liens active et désactive le shell personnalisé. Vous devrez donc peut-être diviser le script en deux et activer/désactiver les lignes applicables ci-dessous :
 

@@ -1,8 +1,8 @@
 ---
 title: Activation de la réservation d’hébergements
-seo-title: Activation de la réservation d’hébergements
+seo-title: Hospitality Reservation Activation
 description: Le cas d’utilisation ci-dessous montre comment utiliser l’activation des réservations d’hébergements en fonction des valeurs renseignées dans Google Sheets.
-seo-description: Le cas d’utilisation ci-dessous montre comment utiliser l’activation des réservations d’hébergements en fonction des valeurs renseignées dans Google Sheets.
+seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
    >[!CAUTION]
    >
-   >Vous devez avoir défini vos **configurations** **ContextHub** à l’aide de l’onglet **Propriétés** --> **Personnalisation**.
+   >Vous devez avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
    1. Mettez à jour la valeur dans les colonnes **Restaurant1** et **Restaurant2**. Si **Restaurant1** > **Restaurant2,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
+
    ![result5](assets/result5.gif)

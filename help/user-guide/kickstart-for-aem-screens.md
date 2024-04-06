@@ -1,15 +1,15 @@
 ---
 title: Guide de démarrage rapide
-seo-title: Guide de démarrage rapide
-description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalétique numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
-feature: Présentation, Signalétique numérique
+seo-title: Kickstart Guide
+description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
+feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1320'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1308'
+ht-degree: 94%
 
 ---
 
@@ -29,13 +29,13 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 >[!IMPORTANT]
 >**Paramètres de configuration OSGi**
->Vous devez activer le référent vide pour autoriser le périphérique à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, le périphérique ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctions ne sont disponibles que si l’option Allow Empty d’Apache Sling Referrer Filter est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+>Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctions ne sont disponibles que si l’option Allow Empty d’Apache Sling Referrer Filter est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
 >Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
 
-1. Accédez au gestionnaire de **Configuration de la console web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console web**.
+1. Accédez à **Configuration de la console web Adobe Experience Manager** via l’instance AEM > icône marteau > **Opérations** > **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -108,7 +108,7 @@ Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**)
 Une fois que vous disposez du canal, vous devez créer un emplacement.
 
 >[!NOTE]
->***Les emplacements*** permettent de compartimenter vos diverses expériences de signalétique numérique et contiennent les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
+>***Emplacements*** compartimentez vos diverses expériences de signalétique digitale et contient les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
 
 Pour créer un emplacement pour votre projet, procédez comme suit :
 
@@ -128,7 +128,7 @@ L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locati
 Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 >[!NOTE]
->***L’affichage*** représente l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
+>***Affichage*** représente l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
 
 1. Accédez à l’emplacement **TestLocation** et sélectionnez-le.
 
@@ -152,7 +152,7 @@ Une fois que vous avez créé un emplacement, vous devez créer un affichage pou
 
 Une fois le projet configuré, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
-1. Accédez à l’affichage requis à partir de **DemoScreens** --> **Emplacements** --> **TestLocation** --> **LobbyDisplay**.
+1. Accédez à l’affichage requis à partir de **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay**.
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
@@ -198,22 +198,21 @@ Vous devez enregistrer votre appareil à l’aide du tableau de bord AEM.
 >1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://applications***.
 >1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
 
-
 Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous pour enregistrer un appareil Chrome.
 
 1. Accédez au dossier **Appareils** de votre projet à partir de votre instance AEM.
 
-1. Appuyez/cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
+1. Appuyez/cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-register1.png)
 
-1. Appuyez/cliquez sur **Enregistrement de périphérique** en haut à droite.
+1. Appuyez/cliquez sur **Enregistrement d’appareil** en haut à droite.
 
 1. Sélectionnez l’appareil requis et appuyez/cliquez sur **Enregistrer le périphérique**.
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Attendez que le périphérique envoie son code d’enregistrement et, simultanément, vérifiez le **Code d’enregistrement** depuis votre périphérique Chrome.
+1. Attendez que l’appareil envoie son code d’enregistrement et, simultanément, vérifiez le **Code d’enregistrement** depuis votre appareil Chrome.
    ![image](assets/kickstart/demo-register3.png)
 
 1. Si le **code d’enregistrement** est le même sur les deux machines, appuyez/cliquez sur **Valider** dans AEM.
@@ -222,11 +221,11 @@ Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous 
 
    ![image](assets/kickstart/demo-register4.png)
 
-1. Cliquez sur **Attribuer l’affichage** dans la boîte de dialogue **Périphérique enregistré**.
+1. Cliquez sur **Attribuer l’affichage** dans la boîte de dialogue **Appareil enregistré**.
 
    ![image](assets/kickstart/demo-register5.png)
 
-1. Sélectionnez le chemin d’accès à votre affichage via **DemoScreens** --> **Emplacements** --> **TestLocation** --> **LobbyDisplay**, puis cliquez sur **Attribuer**.
+1. Sélectionnez le chemin d’accès à votre affichage comme **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay** et cliquez sur **Attribuer**.
 
    ![image](assets/kickstart/demo-device6.png)
 

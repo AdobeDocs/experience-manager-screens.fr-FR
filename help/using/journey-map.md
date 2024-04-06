@@ -1,15 +1,14 @@
 ---
 title: Cartographie du parcours client
-seo-title: Cartographie du parcours client pour AEM Screens
-description: Cette page décrit la cartographie du parcours client d’AEM Screens
-seo-description: Cette page décrit la cartographie du parcours client d’AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+description: En savoir plus sur la carte des Parcours pour AEM Screens.
+seo-description: The page describes Journey Map for AEM Screens
+exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 5%
 
 ---
-
 
 # Cartographie du parcours utilisateur {#journey-map}
 
@@ -17,17 +16,17 @@ ht-degree: 100%
 >
 >Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
-Ce type de carte est conçu pour vous permettre d’examiner l’expérience utilisateur par rapport au contenu numérique diffusé par le réseau.
+Une carte de Parcours de l’expérience utilisateur est conçue pour fournir une visibilité sur la manière dont et pourquoi les utilisateurs expérimentent le contenu numérique diffusé par le réseau.
 
-## Création de la carte du parcours utilisateur {#building-map}
+## Création de la carte de Parcours UX {#building-map}
 
-Bien comprendre comment les utilisateurs interagissent avec un réseau de signalétique digitale dans un espace physique est un facteur essentiel pour assurer la réussite et la valeur de ce réseau. Cela permet également de comprendre comment les expériences digitales sont exploitées dans le cadre de tous les autres canaux avec lesquels un client peut être en contact.
+Une bonne compréhension de la manière dont les consommateurs interagissent avec un réseau de signalétique digitale dans un espace physique est essentielle au succès et à la valeur de ce réseau. Il permet également de comprendre comment l’expérience numérique est consommée dans le contexte de tous les autres canaux qu’un client peut rencontrer.
 
-La carte du parcours utilisateur est un excellent moyen de visualiser le cheminement d’un visiteur dans un espace physique, les éléments qu’il peut rencontrer, ainsi que la manière dont l’expérience numérique proposée par le réseau peut combler les éventuelles lacunes dans le parcours global.
+La carte de Parcours de l’expérience utilisateur est un bon moyen de visualiser le cheminement d’un visiteur dans un espace physique et les éléments qu’il peut rencontrer. Il permet également de voir comment l’expérience numérique fournie par le réseau peut combler les lacunes dans le parcours global.
 
-Dans cette phase du projet, nous pouvons choisir de définir des options et des dépendances pour le contenu dynamique ou interactif, de manière à pouvoir en réaliser un prototype ultérieurement. Cela inclut un storyboard pour chaque interaction, déclencheur de données ou segment de boucle que le réseau diffusera, ainsi que les IPC définis dans le résumé de stratégie.
+Au cours de cette phase du projet, vous pouvez choisir de définir des options et des dépendances pour le contenu dynamique ou interactif afin de pouvoir en réaliser le prototype ultérieurement. Cela inclut un storyboard pour chaque interaction, déclencheur de données ou segment de boucle que le réseau fournit, ainsi que les indicateurs de performance clés définis dans le résumé de stratégie.
 
-Il est vivement conseillé d’autoriser les chefs de projet et les principaux intervenants à tester le positionnement physique des éléments numériques aux différentes étapes du parcours en magasin, ainsi que les expériences digitales réelles qui peuvent être proposées.
+Laissez les chefs de projet et les principaux intervenants expérimenter le positionnement physique des éléments numériques le long de différentes parties du parcours de magasin et les expériences numériques qui sont diffusées.
 
 >[!NOTE]
-> Commencez à collecter des données d’analyse pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
+> Commencez à collecter des analyses pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles tentent d’atteindre. Le fait de connaître les performances du projet pilote aide l’équipe d’entreprise à déterminer les améliorations à apporter.

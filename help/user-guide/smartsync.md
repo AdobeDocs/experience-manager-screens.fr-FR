@@ -1,22 +1,22 @@
 ---
 title: Transition de ContentSync à SmartSync
-seo-title: Transition de ContentSync à SmartSync
+seo-title: Transitioning from ContentSync to SmartSync
 description: Consultez cette page pour en savoir plus sur la fonctionnalité SmartSync et sur la transition de ContentSync à SmartSync.
-seo-description: Consultez cette page pour en savoir plus sur la fonctionnalité SmartSync et sur la transition de ContentSync à SmartSync.
+seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Administration d’AEM Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -59,9 +59,9 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scree
 >
 >SmartSync est disponible pour le lecteur Screens avec les serveurs AEM 6.4.3 FP3 pris en charge.
 >
->Reportez-vous à la section [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur. Le tableau suivant décrit la version minimale du lecteur requise pour chaque plate-forme :
+>Reportez-vous à la section [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur. Le tableau suivant décrit la version minimale du lecteur requise pour chaque plateforme :
 
-| **Plate-forme** | **Version minimale du lecteur prise en charge** |
+| **Plateforme** | **Version minimale du lecteur prise en charge** |
 |---|---|
 | Android | 3.3.72 |
 | Chrome OS | 1.0.136 |
@@ -79,7 +79,7 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
    >
    >Tout le cache de contenu doit être effacé avant d’utiliser SmartSync pour la première fois.
 
-1. Accédez au gestionnaire de **Configuration de la console Web Adobe Experience Manager** via l’instance AEM —> icône en forme de marteau —> **Opérations** —> **Console Web**.
+1. Accédez à **Configuration de la console web Adobe Experience Manager** via l’instance AEM > icône marteau > **Opérations** > **Console web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

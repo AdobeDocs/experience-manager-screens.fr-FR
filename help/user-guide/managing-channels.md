@@ -1,16 +1,16 @@
 ---
 title: Création et gestion des canaux
-seo-title: Gestion des canaux
-description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
-seo-description: Lisez cette page pour en savoir plus sur la création et la gestion des canaux. Vous y trouverez également des informations sur le tableau de bord des canaux et sur la modification de contenu pour un canal.
-feature: Création dans Screens
+seo-title: Managing Channels
+description: Consultez cette page pour en savoir plus sur la création et la gestion des canaux. Il explique également le tableau de bord du canal et la modification du contenu d’un canal.
+seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1328'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 86%
 
 ---
 
@@ -51,9 +51,9 @@ Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui c
 
 Les options de modèles suivantes sont disponibles avec l’assistant :
 
-| **Option de modèle** | **Description** |
+| **Option Modèle** | **Description** |
 |---|---|
-| Dossier de canaux | Permet de créer un dossier où stocker une collection de canaux. |
+| Dossier de canaux | Permet de créer un dossier pour stocker une collection de canaux. |
 | Canal de séquence | Permet de créer un canal qui lit les composants de manière séquentielle (l’un après l’autre comme une série de diapositives). |
 | Canal d’application | Permet de présenter votre application web personnalisée dans le lecteur Screens. |
 | Canal d’écran partagé 1x1 | Permet d’afficher le composant dans une seule zone. |
@@ -69,7 +69,7 @@ Les options de modèles suivantes sont disponibles avec l’assistant :
 
 >[!IMPORTANT]
 >
-> Une fois que vous avez créé et ajouté du contenu au canal, l’étape suivante consiste à créer un emplacement et ensuite un affichage. En outre, vous devez attribuer ce canal à un affichage. Consultez les ressources ci-dessous à la fin de la section pour en savoir plus.
+> Une fois que vous avez créé et ajouté du contenu à votre canal, l’étape suivante consiste à créer un emplacement, puis à créer un affichage. De plus, vous devez attribuer ce canal à un affichage. Pour en savoir plus, consultez les ressources ci-dessous à la fin de la section .
 
 ## Utilisation des canaux {#working-with-channels}
 
@@ -94,12 +94,12 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 
 Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 
-1. Sélectionnez le canal vers lequel transférer la vidéo.
+1. Sélectionnez le canal vers lequel charger la vidéo.
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
-1. Sélectionnez **Vidéos** sous Ressources, puis faites glisser les vidéos choisies.
+1. Sélectionner **Vidéos** sous Ressources et effectuez un glisser-déposer des vidéos requises.
 
 >[!NOTE]
->Si vous rencontrez des problèmes lors du transfert des vidéos vers votre canal, reportez-vous à la section [Dépannage des vidéos](troubleshoot-videos.md).
+>Si vous rencontrez des problèmes lors du chargement des vidéos vers votre canal, reportez-vous à la section [Dépannage des vidéos](troubleshoot-videos.md).
 
 ### Affichage des propriétés {#viewing-properties}
 
@@ -159,9 +159,9 @@ Lorsque vous créez un canal, il peut être défini comme étant en ligne ou hor
 
 Un ***canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, alors qu’un ***canal hors ligne*** affiche le contenu en mémoire cache.
 
-Suivez les étapes ci-dessous pour que le canal soit en ligne :
+Pour mettre le canal en ligne, procédez comme suit :
 
-1. Accédez au canal en sélectionnant **TestProject** > **Canaux** > **TestChannel**.
+1. Accédez au canal comme **TestProject** > **Canaux** > **TestChannel**.
 
    Sélectionnez le canal.
 
@@ -190,9 +190,9 @@ Suivez les étapes ci-dessous pour que le canal soit en ligne :
 
 ![dashboard2](assets/dashboard2.gif)
 
-#### Mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique {#automatic-versus-manual-updates-from-the-device-dashboard}
+#### Mises à jour automatiques ou manuelles depuis le tableau de bord de l’appareil {#automatic-versus-manual-updates-from-the-device-dashboard}
 
-Le tableau suivant répertorie les événements associés aux mises à jour automatiques ou manuelles depuis le tableau de bord du périphérique.
+Le tableau suivant répertorie les événements associés aux mises à jour automatiques ou manuelles depuis le tableau de bord de l’appareil.
 
 <table>
  <tbody>
@@ -204,7 +204,7 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
   <tr>
    <td>Changement de canal en ligne</td>
    <td>Contenu mis à jour automatiquement</td>
-   <td><p>Contenu mis à jour sur "Périphérique : Configuration Push"</p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Appareil : Redémarrer</i></strong></p> </td>
+   <td><p>Contenu mis à jour sur « Appareil : Configuration Push »</p> <p>Ou,</p> <p>Contenu mis à jour sur <strong><i>Appareil : Redémarrer</i></strong></p> </td>
   </tr>
   <tr>
    <td>Changement du canal hors ligne, mais le "contenu Push" du canal n’est PAS déclenché (aucune recréation du package hors ligne)</td>
@@ -220,7 +220,7 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
    <td><p>Changement de configuration</p>
     <ul>
      <li>Affichage (canal forcé)</li>
-     <li>Périphérique</li>
+     <li>Appareil</li>
      <li>Affectations de canal (nouveau canal, canal supprimé)</li>
      <li>Affectation de canal (rôle, événement, planification)</li>
     </ul> </td>
@@ -232,9 +232,9 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
 
 ### Affichages attribués {#assigned-displays}
 
-Le panneau des affichages attribués indique quel affichage est associé à quel canal. Il fournit un instantané de l’affichage attribué et de sa résolution.
+Le panneau des affichages attribués indique quel affichage est associé à quel canal. Elle fournit un instantané de l’affichage affecté avec la résolution.
 
-Les affichages attribués sont affichés dans le panneau **Affichages attribués** comme illustré ci-dessous :
+Les affichages associés sont répertoriés dans la variable **Affichages attribués** , comme illustré ci-dessous :
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -242,9 +242,8 @@ Les affichages attribués sont affichés dans le panneau **Affichages attribués
 >Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
 >
 >* [Création et gestion des emplacements](managing-locations.md)
-* [Création et gestion des affichages](managing-displays.md)
-
-
+>* [Création et gestion des affichages](managing-displays.md)
+>
 
 Cliquez ensuite sur l’affichage dans le panneau **AFFICHAGES ATTRIBUÉS** pour voir les informations relatives à l’affichage, comme illustré ci-dessous :
 
@@ -252,9 +251,9 @@ Cliquez ensuite sur l’affichage dans le panneau **AFFICHAGES ATTRIBUÉS** pour
 
 ### Étapes suivantes {#the-next-steps}
 
-Une fois que vous savez créer un canal, lui ajouter du contenu et modifier ce contenu, l’étape suivante consiste à découvrir comment créer un emplacement et un affichage, ainsi qu’à attribuer un canal à cet affichage.
+L’étape suivante, après la création d’un canal et l’ajout/la modification de contenu dans votre canal, consiste à apprendre à créer un emplacement et un affichage. ainsi qu’à attribuer un canal à cet affichage.
 
-Consultez les ressources ci-après pour les étapes suivantes :
+Consultez les ressources suivantes pour les étapes suivantes :
 
 * [Création et gestion des canaux](managing-channels.md)
 * [Création et gestion des emplacements](managing-locations.md)

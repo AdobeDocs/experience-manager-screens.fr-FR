@@ -1,8 +1,8 @@
 ---
 title: Ajout de composants à un canal
-seo-title: Ajout de composants à un canal
+seo-title: Adding Components to a Channel
 description: Suivez cette page pour en savoir plus sur l’ajout de composants aux canaux d’un projet AEM Screens.
-seo-description: Suivez cette page pour en savoir plus sur l’ajout de composants aux canaux d’un projet AEM Screens.
+seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
 uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1466'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 91%
 
 ---
 
@@ -35,25 +35,25 @@ Lorsque vous créez un projet AEM Screens, vous pouvez voir la liste des compos
 
 Pour afficher les composants par défaut dans le projet Screens, procédez comme suit :
 
-1. Sélectionnez le canal. Par exemple, **We.Retail en magasin** > **Canaux** > **Canal inactif**.
+1. Sélectionnez le canal. Par exemple : **We.Retail En Magasin** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur AEM.
-1. Cliquez sur l’icône **+** de la barre latérale pour ouvrir les composants.
+1. Cliquez sur le bouton **+** dans la barre latérale pour ouvrir les composants.
 1. Tous les composants fournis par défaut dans un projet AEM Screens s’affichent, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Ajout d’un nouveau composant {#adding-a-new-component}
 
-AEM propose un certain nombre d’autres composants. Vous pouvez toujours ajouter d’autres composants (non fournis par défaut) au projet, à condition qu’ils soient compatibles avec AEM Screens.
+AEM fournit un certain nombre d’autres composants. Vous pouvez toujours ajouter d’autres composants (non fournis par défaut) au projet, à condition qu’ils soient compatibles avec AEM Screens.
 
 L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AEM Screens :
 
-1. Sélectionnez le canal dans lequel vous souhaitez ajouter un nouveau composant. Par exemple, **We.Retail en magasin** > **Canaux** > **Canal inactif**.
+1. Sélectionnez le canal dans lequel vous souhaitez ajouter un nouveau composant. Par exemple : **We.Retail En Magasin** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
 1. Sélectionnez le mode **Conception**.
-1. Sélectionnez l’éditeur de conception complet à droite et cliquez sur le symbole de paramètres pour ouvrir la boîte de dialogue **Conception ParSys**.
+1. Sélectionnez l’ensemble de l’éditeur de conception à droite, puis cliquez sur le symbole des paramètres pour ouvrir le **Conception ParSys** de la boîte de dialogue
 1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant montre l’ajout d’un composant **Livefyre** à un projet AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
@@ -93,7 +93,7 @@ L’exemple suivant illustre la manière dont un composant d’application doit 
 
 Le composant **Canal** permet d’ajouter un canal entier au projet.
 
-Le composant Canal présente les propriétés suivantes :
+Le composant Canal possède les propriétés suivantes :
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ La page incorporée présente les propriétés suivantes :
 
 Une séquence incorporée permet d’ajouter un canal de séquence incorporée dans le canal existant (avec d’autres ressources).
 
-La séquence incorporée présente les propriétés suivantes :
+La séquence incorporée présente les propriétés de page suivantes :
 
 <table>
  <tbody>
@@ -218,9 +218,9 @@ Pour en savoir plus sur la création d’un fragment d’expérience et son util
 
 ### Image {#image}
 
-Cette fonction permet d’ajouter une image au canal.
+Une image permet d’ajouter une image à votre canal.
 
-La ressource image présente trois onglets, à savoir **Image**, **Accessibilité** et **Séquence** :
+La ressource image comporte trois onglets, à savoir : **Image**, **Accessibilité**, et **Séquence**:
 
 | **Propriété** | **Description** |
 |---|---|
@@ -310,7 +310,7 @@ Le composant Transition présente les propriétés suivantes :
 
 Le composant Vidéo permet d’ajouter une vidéo au projet Screens.
 
-Le composant Vidéo présente les propriétés suivantes :
+Le composant vidéo présente les propriétés suivantes :
 
 <table>
  <tbody>
@@ -328,7 +328,7 @@ Le composant Vidéo présente les propriétés suivantes :
   </tr>
   <tr>
    <td><em><strong>Création de rendu</strong></em></td>
-   <td><p>Si le rapport d’aspect de la vidéo ne correspond pas à l’écran, vous pouvez modifier le rendu à l’aide des options <strong>Contenir</strong> ou <strong>Couverture</strong>.</p> <p><em>Contenir</em> signifie que l’intégralité de la vidéo est affichée et que les zones manquantes sont remplies d’une bordure noire.</p> <p><em>Couverture</em> signifie que la vidéo couvre toute la fenêtre, mais que certaines parties dépassant sur les côtés sont masquées.</p> </td>
+   <td><p>Si le rapport d’aspect de la vidéo ne correspond pas à l’écran, vous pouvez modifier le rendu à l’aide des options <strong>Contenir</strong> ou <strong>Couverture</strong>.</p> <p><em>Contenir</em> signifie que l’intégralité de la vidéo est affichée et que les zones manquantes sont remplies d’une bordure noire.</p> <p><em>Couverture</em> signifie que la vidéo couvre toute la fenêtre d’affichage, mais que certaines parties qui débordent sur les côtés sont masquées.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Taille</strong></em></td>

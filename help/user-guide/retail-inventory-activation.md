@@ -1,8 +1,8 @@
 ---
 title: Activation ciblée du stock de vente au détail
-seo-title: Activation ciblée du stock de vente au détail
+seo-title: Retail Inventory Targeted Activation
 description: Ce cas d’utilisation présente le stock de vente au détail de trois modèles de sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
-seo-description: Ce cas d’utilisation présente le stock de vente au détail de trois modèles de sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
+seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    1. Sélectionner le **Type de données** **Nombre**
 
-   1. Sélectionnez **googlesheets/value/1/1** dans la liste déroulante de **Nom de la deuxième propriété.**.
+   1. Sélectionner **googlesheets/value/1/1** dans la liste déroulante de **Second Property name**.
 
    1. Faites glisser **une autre comparaison : Propriété - Propriété** et déposez-la dans l’éditeur, puis cliquez sur l’icône de configuration pour modifier les propriétés.
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
@@ -94,7 +94,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    >[!CAUTION]
    >
-   >Vous devez avoir défini vos **configurations** ContextHub **à l’aide de l’onglet** Propriétés **du canal -->** **Personnalisation.**
+   >Vous devez avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

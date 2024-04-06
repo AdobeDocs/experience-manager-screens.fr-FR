@@ -1,22 +1,22 @@
 ---
 title: Utilisation d’une séquence incorporée dynamique
-seo-title: Utilisation d’une séquence incorporée dynamique
+seo-title: Using Dynamic Embedded Sequence
 description: Consultez cette page pour savoir comment implémenter des séquences incorporées dynamiques dans votre projet AEM Screens.
-seo-description: Consultez cette page pour savoir comment implémenter des séquences incorporées dynamiques dans votre projet AEM Screens.
+seo-description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
 uuid: 1f442489-2eeb-4dd8-b892-911fcccb3377
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '2537'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '2526'
+ht-degree: 93%
 
 ---
 
@@ -94,8 +94,6 @@ Vous pouvez télécharger les ressources suivantes (images et les ajouter aux re
 >* **[Gestion d’un canal](managing-channels.md)**
 >
 
-
-
 Séquence incorporée dynamique dans un projet AEM Screens implique trois tâches principales :
 
 1. **Configuration de la taxonomie du projet, y compris les canaux, emplacements et écrans**
@@ -121,12 +119,11 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Pour savoir comment créer un emplacement, reportez-vous à **[Création et gestion des emplacements](managing-locations.md)**.
 
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
 
-   1. Accédez à **Demo** —> **Emplacements** —> **Région A**.
+   1. Accédez à **Démonstration** > **Emplacements** > **Région A**.
    1. Sélectionnez **Région A**, puis cliquez sur **+ Créer** dans la barre d’actions.
    1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
    1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et le **Nom** **région** pour ce canal.
@@ -147,7 +144,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Créez Affichage et Canal sous chaque emplacement.**
 
-   1. Accédez à **Démo** —> **Emplacements** —> **Région A** —> **Magasin 1**.
+   1. Accédez à **Démonstration** > **Emplacements** > **Région A** > **Magasin 1**.
    1. Sélectionnez **Région 1** puis cliquez sur **+Créer** dans la barre d’actions.
    1. Sélectionnez **Affichage** dans l’assistant et créez l’affichage **AffichageMagasin1.**
    1. Répétez l’étape (b) et sélectionnez cette fois **Canal de séquence** dans l’assistant. Saisissez le **Titre** **CanalMagasin1** et le **Nom** **magasin.**
@@ -162,7 +159,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    De même, créez un affichage **AffichageMagasin2** et un canal **CanalMagasin2** sous **Magasin 2** (avec le nom **magasin**).
 
    >[!NOTE]
-   >
    >Veillez à utiliser le même nom pour les canaux créés dans **Magasin 1** et **Magasin 2**, à savoir **magasin**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -179,15 +175,14 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Ajoutez du contenu aux canaux dans leurs emplacements respectifs.**
 
-   Accédez à **Démo** -> **Emplacements** -> **Région A** -> **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal.
+   Accédez au **Démonstration** > **Emplacements** > **Région A** > **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal.
 
    >[!NOTE]
-   >
    >Vous pouvez utiliser le fichier ***Resources.zip*** de la section **Ressources** ci-dessus pour utiliser les images comme ressources pour le contenu de votre canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   De même, accédez à la **Démo** -> **Emplacements** -> **Région B** -> **Région B** et cliquez sur **Modifier** de la barre d’actions pour faire glisser les ressources vers votre canal, comme illustré ci-dessous :
+   De même, accédez à la **Démonstration** > **Emplacements** > **Région B** > **Région B** et cliquez sur **Modifier** à partir de la barre d’actions pour faire glisser les ressources vers votre canal, comme illustré ci-dessous :
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -208,10 +203,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Attribuer des canaux à une planification**
 
-   1. Accédez à **Demo** —> **Planifications** —> **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Accédez à **Démonstration** > **Planifications** > **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **+ Attribuer le canal** depuis le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution de canaux**.
    1. Sélectionnez **Canal de référence**. par chemin.
-   1. Sélectionnez le **Chemin du canal** **Démo** --> ***Canaux*** --> ***Global***.
+   1. Sélectionnez la variable **Chemin du canal** as **Démonstration** > ***Canaux*** > ***Global***.
    1. Définissez le **rôle du canal** sur **GlobalAdSegment**.
    1. Sélectionnez les **Événements pris en charge** **Chargement initial**, **écran d’inactivité** et **Interaction utilisateur**.
    1. Cliquez sur **Enregistrer**.
@@ -254,10 +249,10 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Attribution d’une planification à chaque affichage**
 
-   1. Accédez à chaque affichage, par exemple **Demo** —> **Emplacements** —> **Région A** —> **Magasin 1** —> **AffichageMagasin1**.
+   1. Accédez à chaque affichage, par exemple : **Démonstration** > **Emplacements** > **Région A** >**Magasin 1** >**Affichage magasin1**.
    1. Pour ouvrir le tableau de bord des affichages, cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **...** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, puis sur **+Attribuer une planification**.
-   1. Sélectionnez le chemin d’accès au calendrier (par exemple, ici, **Démo** —> **Planifications** —>**AdSchedule**).
+   1. Sélectionnez le chemin d’accès au planning (par exemple, ici, **Démonstration** > **Planifications** >**AdSchedule**).
    1. Cliquez sur **Enregistrer**.
 
 ## Affichage des résultats {#viewing-the-results}
@@ -272,18 +267,17 @@ Une fois que vous aurez configuré les canaux et l’affichage, veuillez lancer 
 >* [Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
 
-
 La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screens, selon le chemin d’affichage.
 
 **Scénario 1**:
 
-Si vous attribuez le chemin d’affichage **Démo** --> **Emplacements** --> **Région A** --> **Magasin 1** --> **AffichageMagasin1**, le contenu suivant s’affichera sur votre lecteur AEM Screens.
+Si vous attribuez le chemin d’affichage comme **Démonstration** > **Emplacements** > **Région A** > **Magasin 1** > **Affichage magasin1**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scénario 1**:
 
-Si vous attribuez le chemin d’affichage comme **Démo** --> **Emplacements** --> **Région B** --> **Magasin 3** --> **AffichageMagasin3**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
+Si vous attribuez le chemin d’affichage comme **Démonstration** > **Emplacements** > **Région B** > **Magasin 3** > **Store3Display**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -318,7 +312,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
 1. **Création de groupes**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Cliquez sur **Outils** --> **Sécurité** --> **Groupes**.
+   1. Cliquez sur **Outils** > **Sécurité** > **Groupes**.
    1. Cliquez sur **Créer un groupe** et saisissez **Global-Auteur** dans **ID**.
    1. Cliquez sur **Enregistrer et fermer**.
 
@@ -329,7 +323,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
 1. **Création d’utilisateurs et ajout d’utilisateurs à des groupes**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Cliquez sur **Outils** --> **Sécurité** --> **Utilisateurs**.
+   1. Cliquez sur **Outils** > **Sécurité** > **Utilisateurs**.
    1. Cliquez sur **Créer un utilisateur** et saisissez **Global-Utilisateur** dans **ID**.
    1. Saisissez le **mot de passe** et confirmez le mot de passe de cet utilisateur.
    1. Cliquez sur l’onglet **Groupes** et saisissez le nom du groupe dans **Sélectionner un groupe**, par exemple, saisissez **Global-Auteur** pour ajouter **Global-Utilisateur** à ce groupe spécifique.
@@ -338,7 +332,6 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
    De même, créez deux autres utilisateurs, comme **Région-Utilisateur** et **Magasin-Utilisateur**, puis ajoutez-les à **Région-Auteur** et à **Magasin-Auteur** respectivement.
 
    >[!NOTE]
-   >
    >Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
@@ -346,7 +339,7 @@ Suivez la procédure ci-dessous pour créer des groupes, des utilisateurs et mod
 1. **Ajouter tous les groupes aux contributeurs**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Cliquez sur **Outils** --> **Sécurité** --> **Groupes**.
+   1. Cliquez sur **Outils** > **Sécurité** > **Groupes**.
    1. Sélectionnez **Contributeurs** dans la liste et sélectionnez l’onglet **Membres**.
    1. Sélectionnez le **Groupe**, comme **Global-Auteur**, **Région-Auteur,** et **Magasin-Auteur** pour les contributeurs.
    1. Cliquez sur **Enregistrer et fermer**.
