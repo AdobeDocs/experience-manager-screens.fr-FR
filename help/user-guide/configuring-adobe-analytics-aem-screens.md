@@ -1,33 +1,30 @@
 ---
 title: Configuration d’Adobe Analytics avec AEM Screens
-seo-title: Configuration d’Adobe Analytics avec AEM Screens
-description: Consultez cette section pour en savoir plus sur le séquencement et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
-seo-description: Consultez cette section pour en savoir plus sur le séquencement et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: En savoir plus sur le séquencement et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: Administration d’AEM Screens
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '696'
-ht-degree: 100%
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 71%
 
 ---
 
 # Configuration d’Adobe Analytics avec AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4.
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et déposez une requête dans ce sens. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 Cette section couvre les sujets suivants :
 
@@ -36,7 +33,7 @@ Cette section couvre les sujets suivants :
 
 ## Séquencement dans Adobe Analytics avec AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon la planification définie par l’administrateur, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de découpages. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
+Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. En fonction du planning défini par l’administrateur, il coupe les données du magasin d’objets et les transfère ensuite dans le magasin de blocs. Il tente d’envoyer la quantité maximale de données lors de la connexion.
 
 ### Diagramme de séquencement {#sequencing-diagram}
 
@@ -84,7 +81,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td>Horodatage - UTC</td> 
-   <td>Date et heure de début de l’événement. Si vous ne les spécifiez PAS, l’heure de début de l’événement sera considérée comme l’heure de réception par le serveur.</td> 
+   <td>Date et heure de début de l’événement. Si vous ne l’avez pas spécifié, l’heure de l’événement est considérée comme l’heure de réception par le serveur</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -111,7 +108,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Catégorie principale (BUREAU, MOBILE, WEB, PROCESSUS, SDK, SERVICE, ECOSYSTEM) - Regroupement des types d’événements - <strong>Nous envoyons le Lecteur</strong></td> 
+   <td>Catégorie principale (ORDINATEUR DE BUREAU, MOBILE, WEB, PROCESSUS, SDK, SERVICE, ÉCOSYSTÈME) - Regroupement de types d’événements - <strong>Lecteur envoyé</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,7 +117,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-catégorie – Section d’un processus ou d’une zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
+   <td>Sous-catégorie - Section d’un workflow, ou Zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-type d’événement (création, mise à jour, suppression, publication, etc.) - Informations supplémentaires sur l’action de l’utilisateur</td> 
+   <td>Sous-type d’événement (créer, mettre à jour, supprimer, publier, etc.) - Informations supplémentaires sur l’action utilisateur</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -169,12 +166,12 @@ Le tableau suivant résume le modèle de données standard pour les événements
   </tr>
   <tr>
    <td> </td> 
-   <td>GUID du périphérique</td> 
+   <td>GUID de l’appareil</td> 
    <td>event.device_guid</td> 
    <td>facultatif</td> 
    <td>chaîne<br /> </td> 
    <td>UUID</td> 
-   <td>Identifie le GUID du périphérique (par exemple, ID d’ordinateur ou hachage de l’adresse IP + masque de sous-réseau + ID réseau + agent utilisateur) - Nous enverrons ici le nom d’utilisateur du lecteur généré au moment de l’enregistrement.</td> 
+   <td>Identifie le GUID de l’appareil (par exemple, l’ID de machine ou le hachage de l’adresse IP + le masque de sous-réseau + l’ID réseau + l’agent utilisateur). Ici, le nom d’utilisateur du lecteur généré au moment de l’enregistrement est envoyé.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>nombre</td> 
    <td> </td> 
-   <td>Nombre de fois que l’événement s’est produit : Ici, nous envoyons la durée de la vidéo</td> 
+   <td>Nombre de fois où l’événement s’est produit - La durée de la vidéo est envoyée</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -192,7 +189,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Valeur de l’événement (paramètres activés/désactivés, par exemple)</td> 
+   <td>Valeur de l’événement (par exemple, paramètres activé/désactivé)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -259,7 +256,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
   </tr>
   <tr>
    <td> </td> 
-   <td>Plate-forme</td> 
+   <td>Plateforme</td> 
    <td>source.platform</td> 
    <td>requis</td> 
    <td>chaîne</td> 
@@ -268,7 +265,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
   </tr>
   <tr>
    <td> </td> 
-   <td>Périphérique</td> 
+   <td>Appareil</td> 
    <td>source.device</td> 
    <td>requis avec exceptions</td> 
    <td>chaîne</td> 
@@ -291,7 +288,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>L’URL de la ressource, dont le rendu réellement lu</td> 
+   <td>URL de la ressource, y compris le rendu lu</td> 
   </tr>
   <tr>
    <td> </td> 

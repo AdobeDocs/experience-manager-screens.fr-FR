@@ -1,20 +1,21 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités Screens 20240116
-description: Suivez cette page pour obtenir des informations sur le pack de fonctionnalités AEM Screens 20240116, publié le 16 janvier 2024.
+description: En savoir plus sur le Feature Pack 20240116 d’AEM Screens, publié le 16 janvier 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=fr).
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM 6.5). Vous pouvez obtenir les informations de version les plus récentes à partir de [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilité {#availability}
 
@@ -24,7 +25,7 @@ Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens�
 
 ## Date de publication {#release-date}
 
-La date de publication du pack de fonctionnalités AEM Screens 202204 est le 16 janvier 2024.
+La date de publication du pack de fonctionnalités 202204 d’AEM Screens est le mercredi 16 janvier 2024.
 
 ### Nouveautés {#what-is-new}
 
@@ -36,6 +37,6 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 * Problème XSS sur `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
-#### Téléchargements du lecteur AEM Screens  {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens
 
 Pour télécharger le dernier lecteur AEM Screens, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

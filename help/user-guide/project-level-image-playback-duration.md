@@ -1,24 +1,22 @@
 ---
 title: Durée de lecture des images au niveau du projet
-seo-title: Durée de lecture des images au niveau du projet
-description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
-seo-description: 'Cette fonction permet de définir la durée de lecture des images au niveau du projet. '
+description: Découvrez comment définir la durée de lecture des images au niveau du projet.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 87%
 
 ---
 
 
-# Durée de lecture des images au niveau du projet{#project-level-image-playback}
+# Durée de lecture des images au niveau du projet {#project-level-image-playback}
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Cette fonction permet de définir la durée de lecture des images au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
+Cette fonctionnalité permet de définir la durée de lecture des images au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
 
-### Prérequis {#prerequisites}
+### Conditions préalables {#prerequisites}
 
 Avant de commencer à utiliser cette fonction, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
@@ -34,11 +32,11 @@ Avant de commencer à utiliser cette fonction, veillez à configurer un projet c
 
    ![ressources](assets/image_playback2.png)
 
-## Modification de l’attribution d’une durée de lecture des images au niveau d’un projet{#editing-project-level-image-playback-duration-assignment}
+## Modification de l’affectation de la durée de lecture d’images au niveau du projet {#editing-project-level-image-playback-duration-assignment}
 
 La section ci-après explique comment modifier la durée de lecture d’un contenu d’un projet AEM Screens.
 
-### Mise à jour de la durée de lecture des images au niveau d’un projet {#updating-the-playback-duration-for-images-in-a-project}
+### Mise à jour de la durée de lecture des images au niveau du projet {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]

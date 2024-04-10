@@ -1,20 +1,21 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités AEM Screens 202401
-description: Consultez cette page pour obtenir des informations sur le pack de fonctionnalités AEM Screens 202401, publié le 2 janvier 2024.
+description: Découvrez le Feature Pack 202401 d’AEM Screens, publié le 2 janvier 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 91%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=fr).
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM 6.5). Vous pouvez obtenir les informations de version les plus récentes à partir de [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilité {#availability}
 
@@ -24,7 +25,7 @@ Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens�
 
 ## Date de publication {#release-date}
 
-La date de publication du pack de fonctionnalités AEM Screens 202204 est le 2 janvier 2024.
+La date de publication du pack de fonctionnalités 202204 d’AEM Screens est le mercredi 2 janvier 2024.
 
 ### Nouveautés {#what-is-new}
 

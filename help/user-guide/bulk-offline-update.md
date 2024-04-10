@@ -1,23 +1,19 @@
 ---
 title: Mise à jour hors ligne en bloc
-seo-title: Mise à jour hors ligne en bloc
-description: Consultez cette page pour savoir comment mettre à jour tous les canaux en bloc.
-seo-description: Consultez cette page pour savoir comment mettre à jour tous les canaux en bloc.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: Découvrez comment mettre à jour tous les canaux en bloc.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 74%
 
 ---
 
@@ -28,15 +24,16 @@ Cette section traite des sujets suivants sur la Mise à jour hors ligne en bloc�
 * **Présentation**
 * **Utilisation de la mise à jour hors ligne en bloc**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé AEM 6.3 Feature Pack 3 ou AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Pour accéder à ce Feature Pack, vous devez contacter l’assistance d’Adobe et demander à y accéder. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Package Share.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-La fonction Mise à jour hors ligne en bloc vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
+Mise à jour hors ligne en bloc : permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
 
 Vous pouvez également planifier cette activité pour une période de trafic réseau plus faible.
 
@@ -53,7 +50,7 @@ Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir d
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
-1. Sélectionnez le projet et cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions pour mettre manuellement à jour le contenu du canal.
+1. Sélectionnez le projet, puis sélectionnez **Mettre à jour le contenu hors ligne** à partir de la barre d’actions afin que vous puissiez mettre à jour manuellement le contenu du canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -76,6 +73,6 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    >
    >Spécifiez le chemin du projet par rapport à votre canal.
 
-   **Fréquence de planification** Indiquez une heure, par exemple, 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
+   **Fréquence de planification** Spécifiez une heure, par exemple 17 h ou 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
-1. Cliquez sur **Enregistrer** pour enregistrer vos paramètres et votre contenu sera mis à jour au moment indiqué.
+1. Sélectionner **Enregistrer** pour enregistrer vos paramètres. Votre contenu est mis à jour à l’heure spécifiée.
