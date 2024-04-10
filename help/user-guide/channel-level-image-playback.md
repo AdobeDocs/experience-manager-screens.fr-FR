@@ -1,35 +1,31 @@
 ---
 title: Durée de lecture d’images en bloc d’un canal
-seo-title: Durée de lecture d’images en bloc d’un canal
-description: Cette page explique comment modifier la durée de lecture d’un composant d’image donné.
-seo-description: Cette page explique comment modifier la durée de lecture d’un composant d’image donné.
-uuid: 4ebb00a9-b04d-4dfe-9fee-2348a2e2c142
+description: Découvrez comment modifier la durée de lecture d’un composant d’image spécifique dans AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '362'
-ht-degree: 100%
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 45%
 
 ---
 
 # Durée de lecture d’images en bloc d’un canal {#channel-level-bulk-image-playback-duration}
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Une fois que vous avez créé un canal de séquence et que vous y avez ajouté des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration du canal. Chaque image peut toujours remplacer la valeur par défaut et présenter une autre durée de lecture. Pour ce faire, modifiez la durée de lecture du composant d’image concerné.
+Lorsque vous créez un canal de séquence et y ajoutez des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration du canal. Chaque image peut toujours remplacer la valeur par défaut et présenter une autre durée de lecture. Pour ce faire, modifiez la durée de lecture du composant d’image concerné.
 
 ### Prérequis {#prerequisites}
 
-Avant de commencer à implémenter cette fonctionnalité, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
+Avant de commencer à implémenter cette fonctionnalité, assurez-vous d’avoir configuré un projet comme condition préalable pour commencer à l’implémentation de cette fonctionnalité. par exemple,
 
 1. Créer un projet AEM Screens, **ChannelLevelPlayback**.
 
@@ -39,7 +35,7 @@ Avant de commencer à implémenter cette fonctionnalité, veillez à configurer 
 
 ## Modification de l’attribution d’une durée de lecture des images d’un canal {#editing-channel-level-image-playback-duration-assignment}
 
-La section suivante explique comment modifier la durée de lecture d’un contenu d’un canal AEM Screens.
+La section ci-dessous explique comment modifier la durée de lecture du contenu d’un canal AEM Screens.
 
 ### Mise à jour de la durée de lecture des images d’un canal {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -49,7 +45,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -57,23 +53,23 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Sélectionnez toutes les images du canal, puis cliquez sur l’icône en forme de clé à molette en haut à gauche (comme l’illustre la figure ci-dessous) pour ouvrir la boîte de dialogue de configuration de canal.
+1. Sélectionnez toutes les images du canal, puis cliquez sur l’icône en forme de clé à molette en haut à gauche (comme illustré dans la figure ci-dessous) afin de pouvoir ouvrir la boîte de dialogue de configuration de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **La boîte de dialogue Page** s’ouvre.
+1. La variable **Page** s’ouvre.
 
    >[!NOTE]
    >Par défaut, les images d’un canal sont définies sur une durée de lecture de 8 secondes.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Remplacez la **durée** 8 000 (ms) par 3 000 (ms), c’est-à-dire 3 secondes. Cochez la case en haut à droite de la boîte de dialogue **Page** pour enregistrer les modifications que vous avez apportées.
+   Modifiez la variable **Durée** de 8 000 (millisecondes) à 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite du **Page** pour enregistrer vos modifications.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Affichage du résultat {#viewing-the-result}
 
-Une fois que vous avez mis à jour la durée de lecture du canal (en l’occurrence, les trois images), vous constaterez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
+Après avoir mis à jour la durée de lecture du canal (dans cet exemple, les trois images), notez que les images sont désormais lues pendant 3 secondes au lieu de 8 secondes (valeur par défaut).
 
 ![channel_preview](assets/channel_preview.gif)

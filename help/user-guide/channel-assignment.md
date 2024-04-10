@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 37%
@@ -40,7 +40,7 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Vous pouvez configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous. Voir [Propriétés du canal](#channel-properties) pour en savoir plus sur les propriétés des canaux.
+   Vous pouvez configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous. Voir [Propriétés du canal](#channel-properties) pour plus d’informations sur les propriétés des canaux.
 
 ## Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 

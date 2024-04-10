@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 46%
+source-wordcount: '1447'
+ht-degree: 43%
 
 ---
 
@@ -102,7 +102,7 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
    >
    >1. Accédez à CRXDE Lite, puis à `/conf/screens/settings/cloudsettings`.
    >1. Vérifiez que `cloudsettings jcr:primaryType` se trouve dans `sling:Folder`. Si `jcr:primaryType` ne se trouve pas dans `sling:folder`, passez aux étapes suivantes.
-   >1. Clic droit `/conf/screens/settings` et créez un noeud avec *name* as **cloudsettings1** et *Type* as **sling:Folder** et enregistrez les modifications.
+   >1. Clic droit `/conf/screens/settings` et créez un noeud avec *name* as **`cloudsettings1`** et *Type* as **`sling:Folder`** et enregistrez les modifications.
    >1. Déplacez tous les nœuds sous `/conf/screens/settings/cloudsettings` vers `cloudsettings1`.
    >1. Supprimez `cloudsettings` et enregistrez.
    >1. Renommez `cloudsettings1` en `cloudsettings` et enregistrez.
@@ -110,10 +110,10 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
    >
    >Procédez comme suit dans les sections Création et Publication avant ou après la mise à niveau.
 
-   1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**, puis cliquez sur **Suivant**.
+   1. Saisissez le **Titre** as **Google Sheets**, **Nom de la boutique** as **`googlesheets`**, et **Type de magasin** as **c`ontexthub.generic-jsonp`** et cliquez sur **Suivant**.
 
       >[!CAUTION]
-      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le **Titre de configuration** **googlesheets** et le **Type de magasin** **contexthub.generic-jsonp**.
+      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez la variable **Titre de la configuration** as **`googlesheets`** et la variable **Type de magasin** as **c`ontexthub.generic-jsonp`**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
