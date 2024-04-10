@@ -1,16 +1,14 @@
 ---
 title: Création et gestion des canaux
-seo-title: Managing Channels
-description: Consultez cette page pour en savoir plus sur la création et la gestion des canaux. Il explique également le tableau de bord du canal et la modification du contenu d’un canal.
-seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+description: Découvrez comment créer et gérer des canaux. Il explique également le tableau de bord du canal et la modification du contenu d’un canal.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 86%
+source-wordcount: '1260'
+ht-degree: 56%
 
 ---
 
@@ -27,7 +25,7 @@ Vous découvrirez dans cette page comment créer et gérer des canaux pour AEM S
 
 ## Création d’un canal {#creating-a-new-channel}
 
-Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui créer un canal :
+Une fois que vous avez créé votre projet pour AEM Screens, suivez les étapes ci-dessous pour créer un canal pour votre projet :
 
 1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à `https://localhost:4502/screens.html/content/screens`.
 
@@ -45,7 +43,7 @@ Une fois le projet AEM Screens créé, suivez les étapes ci-dessous pour lui c
 
    ![demochannel](assets/create-project4.png)
 
-1. Un canal de séquence est maintenant ajouté à votre dossier **Canaux**.
+1. Un canal de séquence est maintenant ajouté à votre **Canaux** dossier.
 
 ### Types de canaux {#channel-types}
 
@@ -53,23 +51,23 @@ Les options de modèles suivantes sont disponibles avec l’assistant :
 
 | **Option Modèle** | **Description** |
 |---|---|
-| Dossier de canaux | Permet de créer un dossier pour stocker une collection de canaux. |
+| Dossier de canaux | Permet de créer un dossier pour stocker un ensemble de canaux. |
 | Canal de séquence | Permet de créer un canal qui lit les composants de manière séquentielle (l’un après l’autre comme une série de diapositives). |
-| Canal d’application | Permet de présenter votre application web personnalisée dans le lecteur Screens. |
-| Canal d’écran partagé 1x1 | Permet d’afficher le composant dans une seule zone. |
-| Canal d’écran partagé 1x2 | Permet d’afficher les ressources dans deux zones (division horizontale).. |
-| Canal d’écran partagé 2x1 | Permet d’afficher les ressources dans deux zones (division verticale).. |
-| Canal d’écran partagé 2x2 | Permet d’afficher les ressources dans quatre zones (division horizontale et verticale dans une matrice).. |
-| Canal d’écran partagé 2x3 | Permet d’afficher les ressources dans deux zones (division horizontale) où l’une des zones est plus grande que l’autre. |
-| Canal d’écran partagé barre en L gauche ou droite | Permet aux auteurs de contenus d’afficher différents types de ressources dans des zones de taille appropriée. |
+| Canal d’application | Vous permet de présenter votre application web personnalisée dans le lecteur Screens. |
+| Canal d’écran partagé 1x1 | Permet d’afficher un composant dans une seule zone. |
+| Canal d’écran partagé 1x2 | Permet d’afficher les ressources dans deux zones (division horizontale). |
+| Canal d’écran partagé 2x1 | Permet d’afficher les ressources dans deux zones (division verticale). |
+| Canal d’écran partagé 2x2 | Permet d’afficher les ressources dans quatre zones (division horizontale et verticale dans une matrice). |
+| Canal d’écran partagé 2x3 | Permet d’afficher les ressources dans deux zones (division horizontale) dont l’une est plus grande que l’autre. |
+| Canal d’écran partagé barre en L gauche ou droite | Permet aux auteurs de contenu d’afficher différents types de ressources dans des zones de taille appropriée. |
 
 >[!NOTE]
 >
->Les canaux d’écran partagé divisent l’affichage en plusieurs zones, ce qui permet de lire plusieurs expériences simultanément, côte à côte. Les expériences peuvent être des ressources/du texte statiques ou des séquences incorporées.
+>Les canaux d’écran partagé divisent l’affichage en plusieurs zones afin que vous puissiez lire plusieurs expériences simultanément, côte à côte. Les expériences peuvent être des ressources/du texte statiques ou des séquences incorporées.
 
 >[!IMPORTANT]
 >
-> Une fois que vous avez créé et ajouté du contenu à votre canal, l’étape suivante consiste à créer un emplacement, puis à créer un affichage. De plus, vous devez attribuer ce canal à un affichage. Pour en savoir plus, consultez les ressources ci-dessous à la fin de la section .
+> Une fois que vous avez créé et ajouté du contenu à votre canal, l’étape suivante consiste à créer un emplacement, puis à créer un affichage. De plus, vous devez attribuer ce canal à un affichage. Consultez les ressources ci-dessous à la fin de la section .
 
 ## Utilisation des canaux {#working-with-channels}
 
@@ -82,8 +80,8 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 
 Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes ci-dessous :
 
-1. Sélectionnez le canal à modifier (comme illustré ci-dessus).
-1. Cliquez sur **Modifier** dans l’angle supérieur gauche de la barre d’actions pour modifier les propriétés du canal. L’éditeur s’ouvre pour vous permettre d’ajouter au canal des ressources/composants que vous souhaitez publier.
+1. Sélectionnez le canal à modifier (comme illustré dans la figure ci-dessus).
+1. Cliquez sur **Modifier** dans le coin supérieur gauche de la barre d’actions afin de pouvoir modifier les propriétés du canal. L’éditeur s’ouvre. Il vous permet d’ajouter des ressources/composants à votre canal que vous souhaitez publier.
 
 >[!NOTE]
 >Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour en savoir plus.
@@ -95,27 +93,23 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 
 1. Sélectionnez le canal vers lequel charger la vidéo.
-1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
-1. Sélectionner **Vidéos** sous Ressources et effectuez un glisser-déposer des vidéos requises.
+1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Dans l’éditeur, sélectionnez **Vidéos** sous Ressources et effectuez un glisser-déposer des vidéos requises.
 
 >[!NOTE]
 >Si vous rencontrez des problèmes lors du chargement des vidéos vers votre canal, reportez-vous à la section [Dépannage des vidéos](troubleshoot-videos.md).
 
-### Affichage des propriétés {#viewing-properties}
-
-Pour afficher ou modifier les propriétés d’un canal, suivez les étapes ci-dessous :
+### Affichage ou modification des propriétés d’un canal {#viewing-properties}
 
 1. Cliquez sur le canal à modifier.
-1. Cliquez sur **Propriétés** dans la barre d’actions pour afficher ou modifier les propriétés du canal. Les onglets suivants vous permettent de modifier les options.
+1. Cliquez sur **Propriétés** dans la barre d’actions pour afficher/modifier les propriétés du canal. L&#39;onglet suivant permet de modifier les options.
 
 ![propriétés](assets/properties.gif)
 
 ### Affichage du tableau de bord {#viewing-dashboard}
 
-Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
-
 1. Sélectionnez le canal à modifier.
-1. Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le tableau de bord. Les panneaux **INFORMATIONS SUR LES CANAUX**, **AFFICHAGES ATTRIBUÉS** et **LANCEMENTS EN ATTENTE** s’ouvrent, comme illustré ci-dessous :
+1. Cliquez sur **Tableau de bord** dans la barre d’actions.
 
 ![Tableau de bord](assets/dashboard.gif)
 
@@ -123,7 +117,7 @@ Pour afficher le tableau de bord d’un canal, suivez les étapes ci-dessous :
 
 Le panneau Informations sur le canal fournit une description des propriétés ainsi qu’un aperçu du canal. Il vous permet également de voir si le canal est en ligne ou hors ligne.
 
-Cliquez sur l’icône (**...**) dans la barre d’actions **INFORMATIONS SUR LES CANAUX** pour afficher les propriétés, modifier le contenu ou mettre à jour la mémoire cache (contenu hors ligne) du canal.
+Cliquez sur (**..**) de la variable **INFORMATIONS SUR LES CANAUX** pour afficher les propriétés, modifier le contenu ou mettre à jour le cache (contenu hors ligne) du canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -134,11 +128,11 @@ Vous pouvez afficher le manifeste à partir du tableau de bord des canaux.
 >[!IMPORTANT]
 >Cette option est disponible uniquement avec AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
-Procédez comme suit pour activer cette option à partir du tableau de bord des canaux :
+Pour activer cette option à partir du tableau de bord des canaux, procédez comme suit :
 
 1. **Définir le canal sur Hors ligne**
    1. Sélectionnez le canal et choisissez **Propriétés** dans la barre d’actions.
-   1. Accédez à l’onglet **Canal** et assurez-vous de désélectionner l’option **Mode développeur (forcer le canal à être en ligne)**.
+   1. Accédez à **Canal** et assurez-vous de décocher la case **Mode Développeur (forcer le canal à être en ligne)** option
    1. Cliquez sur **Enregistrer et fermer**.
 1. **Mettre à jour le contenu hors ligne**
    1. Sélectionnez le canal et choisissez **Tableau de bord** dans la barre d’actions.
@@ -157,7 +151,7 @@ Vous devriez maintenant pouvoir voir l’option **Afficher le manifeste** depuis
 
 Lorsque vous créez un canal, il peut être défini comme étant en ligne ou hors ligne.
 
-Un ***canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, alors qu’un ***canal hors ligne*** affiche le contenu en mémoire cache.
+Un ***Canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, tandis qu’un ***Canal hors ligne*** affiche le contenu mis en cache.
 
 Pour mettre le canal en ligne, procédez comme suit :
 
@@ -167,7 +161,7 @@ Pour mettre le canal en ligne, procédez comme suit :
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher le statut du lecteur. Le panneau **INFORMATIONS SUR LES CANAUX** indique si le canal est en ligne ou hors ligne.
+   Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher l’état du lecteur. Le panneau **INFORMATIONS SUR LES CANAUX** indique si le canal est en ligne ou hors ligne.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -186,7 +180,7 @@ Pour mettre le canal en ligne, procédez comme suit :
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Si vous souhaitez reconfigurer votre canal pour le mettre hors ligne, décochez l’option Mode développeur dans l’onglet **Propriétés** (comme indiqué à l’étape (3)), puis, dans le panneau **INFORMATIONS SUR LE CANAL**, cliquez sur **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
+>Pour reconfigurer votre canal comme étant hors ligne, désélectionnez l’option Mode développeur dans la **Propriétés** (comme indiqué à l’étape (3)). Ensuite, à partir du **INFORMATIONS SUR LES CANAUX** clic sur le panneau **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -232,9 +226,9 @@ Le tableau suivant répertorie les événements associés aux mises à jour auto
 
 ### Affichages attribués {#assigned-displays}
 
-Le panneau des affichages attribués indique quel affichage est associé à quel canal. Elle fournit un instantané de l’affichage affecté avec la résolution.
+La variable **Affichages attribués** affiche l’affichage associé au canal. Elle fournit un instantané de l’affichage affecté avec la résolution.
 
-Les affichages associés sont répertoriés dans la variable **Affichages attribués** , comme illustré ci-dessous :
+Les affichages associés sont répertoriés dans la **Affichages attribués** , comme illustré ci-dessous :
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -245,7 +239,7 @@ Les affichages associés sont répertoriés dans la variable **Affichages attrib
 >* [Création et gestion des affichages](managing-displays.md)
 >
 
-Cliquez ensuite sur l’affichage dans le panneau **AFFICHAGES ATTRIBUÉS** pour voir les informations relatives à l’affichage, comme illustré ci-dessous :
+Cliquez également sur l’affichage dans le **AFFICHAGES ATTRIBUÉS** pour afficher les informations sur l’affichage, comme illustré ci-dessous :
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -1,15 +1,14 @@
 ---
 title: Guide de démarrage rapide
-seo-title: Kickstart Guide
-description: Suivez cette page pour créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
+description: Découvrez comment créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 94%
+source-wordcount: '1279'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 94%
 Cette section de démarrage rapide d’AEM Screens explique comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de commencer à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
+>Avant de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
 ## Prérequis {#prerequisites}
 
@@ -57,7 +56,8 @@ La première étape consiste à créer un projet AEM Screens.
 
 1. Accédez à votre instance Adobe Experience Manager (AEM) et cliquez sur **Screens**. Vous pouvez également y accéder directement depuis `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Cliquez sur **Créer un projet Screens** pour créer un projet Screens. Saisissez le titre **DemoScreens** et cliquez sur **Enregistrer**.
+1. Cliquez sur **Créer un projet Screens** vous pouvez ainsi créer un projet Screens.
+1. Saisissez le titre comme **DemoScreens**, puis cliquez sur **Enregistrer**.
 
    ![image](assets/kickstart/demo-1.png)
 
@@ -66,9 +66,9 @@ La première étape consiste à créer un projet AEM Screens.
 
 ### Création d’un canal {#creating-channel}
 
-Une fois que vous avez créé votre projet AEM Screens, vous devez créer un canal destiné à gérer le contenu.
+Une fois que vous avez créé votre projet AEM Screens, vous devez créer un canal où vous gérez le contenu.
 
-Pour créer un canal pour votre projet, procédez comme suit :
+Pour créer un canal pour votre projet, procédez comme suit :
 
 1. Une fois que vous avez créé un projet, sélectionnez le projet **DemoScreens** et sélectionnez le dossier **Canaux**, comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
 
@@ -87,7 +87,7 @@ Pour créer un canal pour votre projet, procédez comme suit :
 
 ### Ajout de contenu à un canal {#adding-content}
 
-Une fois que vous avez votre canal, vous devez y ajouter le contenu que le lecteur AEM Screens va afficher.
+Une fois votre canal en place, ajoutez du contenu à votre canal que le lecteur AEM Screens peut afficher.
 
 Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**) dans votre projet :
 
@@ -97,7 +97,7 @@ Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**)
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Cliquez sur l’icône qui fait passer le panneau latéral du côté gauche de la barre d’actions pour ouvrir les ressources et les composants.
+1. Cliquez sur l’icône qui fait basculer le panneau latéral sur le côté gauche de la barre d’actions pour ouvrir les ressources et les composants.
 
 1. Faites glisser et déposez les composants que vous souhaitez ajouter à votre canal.
 
@@ -105,19 +105,16 @@ Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**)
 
 ### Création d’un emplacement {#creating-location}
 
-Une fois que vous disposez du canal, vous devez créer un emplacement.
+Lorsque votre canal est en place, créez un emplacement.
 
 >[!NOTE]
 >***Emplacements*** compartimentez vos diverses expériences de signalétique digitale et contient les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
 
-Pour créer un emplacement pour votre projet, procédez comme suit :
+Pour créer un emplacement pour votre projet, procédez comme suit :
 
 1. Accédez au projet **DemoProject** que vous avez créé et sélectionnez le dossier **Emplacements**.
-
 1. Cliquez sur **+ Créer** dans la barre d’actions.
-
 1. Sélectionnez **Emplacement** dans l’assistant, puis cliquez sur **Suivant**.
-
 1. Saisissez le **nom** de votre emplacement (saisissez le titre **TestLocation**), puis cliquez sur **Créer**.
 
 L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locations** (Emplacements).
@@ -125,13 +122,12 @@ L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locati
 
 ### Création d’un affichage pour un emplacement {#creating-display}
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
+Une fois que vous avez créé un emplacement, créez un affichage pour celui-ci.
 
 >[!NOTE]
 >***Affichage*** représente l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
 
 1. Accédez à l’emplacement **TestLocation** et sélectionnez-le.
-
 1. Cliquez sur **Créer** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-disp1.png)
@@ -150,7 +146,7 @@ Une fois que vous avez créé un emplacement, vous devez créer un affichage pou
 
 ### Attribution d’un canal {#assigning-channel}
 
-Une fois le projet configuré, vous devez attribuer le canal à un affichage pour afficher le contenu.
+Une fois la configuration du projet terminée, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
 1. Accédez à l’affichage requis à partir de **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay**.
 
@@ -170,21 +166,21 @@ Une fois le projet configuré, vous devez attribuer le canal à un affichage pou
 
    >[!NOTE]
    >
-   >Les champs **Rôle du canal**, **Priorité** et **Méthodes d’interruption** sont tous renseignés par défaut. Consultez la section [Propriétés des canaux](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
+   >Les champs **Rôle du canal**, **Priorité** et **Méthodes d’interruption** sont tous renseignés par défaut. Voir [Propriétés du canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) pour plus d’informations sur les propriétés d’attribution de canaux.
 
    ![image](assets/kickstart/demo-assign3.png)
 
-   De plus, vous pouvez également sélectionner la **Fenêtre d’activation** et le **Planning de périodicité**.
+   Vous pouvez également sélectionner la variable **Fenêtre d’activation** et **Planning de périodicité**.
 
    >[!NOTE]
-   >Le *Planning de périodicité* permet de définir une planification récurrente pour votre canal. Vous configurez plusieurs plannings de périodicité pour un canal.
+   >La variable *Planning de périodicité* permet de définir une planification récurrente pour votre canal. Vous configurez plusieurs plannings de périodicité pour un canal.
    >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
 ### Enregistrement d’un appareil et attribution d’un appareil à un affichage {#registering-device}
 
-Vous devez enregistrer votre appareil à l’aide du tableau de bord AEM.
+Enregistrez votre appareil à l’aide du tableau de bord AEM.
 
 >[!IMPORTANT]
 >Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome. Pour l’installer, procédez comme suit :
@@ -192,11 +188,11 @@ Vous devez enregistrer votre appareil à l’aide du tableau de bord AEM.
 >1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 >1. Décompressez et enregistrez le fichier d’installation sur le disque.
 >1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
->1. Activez le **mode Développeur** dans l’angle supérieur droit de l’écran.
->1. Cliquez sur **Charger les fichiers décompressés** dans l’angle supérieur gauche et chargez le lecteur Chrome décompressé.
->1. Vérifiez si le module **Lecteur Chrome AEM Screens** est disponible dans la liste des extensions.
->1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://applications***.
->1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
+>1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
+>1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
+>1. Vérifier **Lecteur AEM Screens Chrome** s’il est disponible dans la liste des extensions.
+>1. Ouvrez un nouvel onglet et cliquez sur le bouton **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
+>1. Cliquez sur **AEM Screens** Module externe permettant de lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
 
 Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous pour enregistrer un appareil Chrome.
 
@@ -229,11 +225,11 @@ Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous 
 
    ![image](assets/kickstart/demo-device6.png)
 
-1. Une fois que l’appareil a été attribué, la confirmation suivante s’affiche.
+1. Une fois l’appareil attribué, la confirmation suivante s’affiche.
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement. Votre appareil enregistré devrait apparaître dans le tableau de bord des affichages.
+1. Sélectionner **Terminer** pour terminer le processus d’enregistrement. Vous pouvez désormais afficher votre appareil enregistré dans le tableau de bord de l’affichage.
 
    ![image](assets/kickstart/demo-register9.png)
 

@@ -1,31 +1,27 @@
 ---
 title: Notes de mise à jour du Feature Pack 201812
-seo-title: Notes de mise à jour du Feature Pack 201812
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201812, publié 16 janvier 2019.
-seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201812, publié 16 janvier 2019.
-uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
+description: Découvrez le Feature Pack 201812 d’AEM Screens, publié le 16 janvier 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: release-notes
-discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
-feature: Feature Pack
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 53%
 
 ---
 
-
-# Notes de mise à jour du Feature Pack 201812 {#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 201812{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 AEM Screens a publié AEM 6.3 Feature Pack 5 et AEM 6.4 Feature Pack 3 avec les détails suivants.
 
@@ -37,28 +33,28 @@ La date de publication d’AEM Screens Feature Pack 201812 est 16 janvier 201
 
 * **Superposition de texte sur les ressources du canal**:
 
-   La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en incluant un titre ou une description superposés à une image. Pour en savoir plus, reportez-vous à la section [**Superposition de texte**](text-overlay.md).
+  La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé au-dessus d’une image. Voir [**Superposition de texte**](text-overlay.md).
 
 * **Planification multiressource** :
 
-   La planification multiressource permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées. Pour en savoir plus, consultez la section **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
+  La planification multiressource permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées. Voir **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
 
 * **Disposition multizone** :
 
-   La disposition multizone permet de créer du contenu multizone et d’utiliser diverses ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran. Pour en savoir plus, consultez la section **[Disposition multizone](multi-zone-layout-aem-screens.md)**.
+  La disposition multizone permet de créer du contenu multizone et d’utiliser diverses ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran. Voir **[Disposition multizone](multi-zone-layout-aem-screens.md)**.
 
 * **Synchronisation intelligente des ressources avec les lecteurs**
 * **Créer/publier déploiement (Renforcement)**
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.3 Feature Pack 5 et AEM 6.4 Feature Pack 3 :
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 * iOS
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous aux [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).

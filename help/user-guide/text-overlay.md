@@ -1,23 +1,19 @@
 ---
 title: Superposition de texte
-seo-title: Text Overlay
-description: La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en incluant un titre ou une description superposés à une image. Consultez cette page pour en savoir plus.
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: Découvrez la superposition de texte dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé au-dessus d’une image.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 89%
+source-wordcount: '767'
+ht-degree: 58%
 
 ---
 
@@ -32,13 +28,13 @@ Cette section couvre les sujets suivants :
 
 >[!CAUTION]
 >
->La fonction **Superposition de texte** n’est disponible que si vous avez installé AEM 6.3 Feature Pack 5 ou AEM 6.4 Feature Pack 3.
+>La variable **Superposition de texte** Cette fonctionnalité n’est disponible que si vous avez installé AEM 6.3 Feature Pack 5 ou AEM 6.4 Feature Pack 3.
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en incluant un titre ou une description superposés à une image.
+La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé au-dessus d’une image.
 
-Pour savoir comment créer votre propre composant personnalisé, reportez-vous à la section **Extension d’un composant AEM Screens**.
+Pour savoir comment créer votre propre composant personnalisé, voir **Extension d’un composant AEM Screens**.
 
 Cette section explique uniquement l’utilisation et l’exploitation du composant affiche dans un projet AEM Screens et son application comme superposition de texte dans l’un de vos canaux de séquence.
 
@@ -48,7 +44,7 @@ La section ci-dessous décrit l’utilisation de la superposition de texte dans 
 
 **Prérequis**
 
-Avant de commencer à implémenter cette fonctionnalité, assurez-vous d’avoir configuré un projet, condition préalable pour commencer à implémenter la superposition de texte. Par exemple :
+Avant de mettre en oeuvre cette fonctionnalité, assurez-vous d’avoir configuré un projet comme condition préalable au démarrage de l’implémentation de la superposition de texte. Par exemple :
 
 * Créez un projet AEM Screens (dans cet exemple, **TextOverlayDemo**)
 
@@ -62,7 +58,7 @@ L’image suivante montre le projet **TextOverlayDemo** avec le canal **TextSamp
 
 Pour utiliser la superposition de texte dans un canal AEM Screens, procédez comme suit :
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ La section ci-après décrit l’utilisation des valeurs d’un magasin de donn�
 
 Vous devez définir des configurations ContextHub pour votre projet AEM Screens.
 
-Pour apprendre à configurer et gérer les modifications de ressources axée sur les données à l’aide d’un stockage de données, voir [Configuration de ContextHub dans AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html?lang=fr).
+Pour savoir comment configurer et gérer les modifications de ressources pilotées par les données à l’aide d’un entrepôt de données, voir [Configuration de ContextHub dans AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-Une fois que vous avez défini les configurations requises pour votre projet, suivez les étapes ci-dessous pour utiliser les valeurs d’une feuille de calcul Google Sheets :
+Après avoir configuré les configurations requises pour votre projet, procédez comme suit pour utiliser les valeurs des feuilles de calcul Google Sheets :
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et sélectionnez **Propriétés** dans la barre d’actions.
 
-1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub.
+1. Sélectionnez la variable **Personnalisation** pour pouvoir configurer les configurations ContextHub.
 
-   1. Sélectionnez le **Chemin d’accès ContextHub** sous **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
+   1. Sélectionnez la variable **Chemin ContextHub** as **libs** > **paramètres** > **cloudsettings** > **default** > **Configurations ContextHub** et sélectionnez **Sélectionner**.
 
-   1. Sélectionnez le **Chemin d’accès aux segments** **conf** > **screens** > **settings** > **wcm** > **segments** et cliquez sur **Sélectionner**.
+   1. Sélectionnez la variable **Chemin d’accès aux segments** as **conf** > **screens** > **paramètres** > **wcm** > **segments** et sélectionnez **Sélectionner**.
 
-   1. Cliquez sur **Enregistrer et fermer**.
+   1. Sélectionnez **Enregistrer et fermer**.
 
       >[!NOTE]
       >
@@ -118,27 +114,27 @@ Une fois que vous avez défini les configurations requises pour votre projet, su
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Ajoutez une image et ajoutez-lui un composant de superposition de texte, comme décrit dans la section [Utilisation de la superposition de texte](/help/user-guide/text-overlay.md#using-text-overlay) de cette page.
 
-1. Cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue **Image**.
+1. Sélectionner sur **Configurer** (icône de clé à molette) pour ouvrir la **Image** de la boîte de dialogue
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Accédez à l’onglet **ContextHub** depuis la boîte de dialogue **Image**. Cliquez sur **Ajouter**.
+1. Accédez à l’onglet **ContextHub** depuis la boîte de dialogue **Image**. Sélectionnez **Ajouter**.
 
    >[!NOTE]
-   >Si vous n’avez pas configuré vos configurations ContextHub, cette option sera désactivée pour votre projet.
+   >Si vous n’avez pas configuré votre configuration ContextHub, cette option est désactivée pour votre projet.
 
 1. Entrée **Valeur** dans le **Espace réservé** champ . Sélectionnez la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >À titre de référence, l’image suivante présente la valeur récupérée à partir de la feuille de calcul Google Sheets :
+   >À titre de référence, l’image suivante présente la valeur récupérée à partir des feuilles de calcul Google Sheets :
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
@@ -146,6 +142,6 @@ Une fois que vous avez défini les configurations requises pour votre projet, su
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Cliquez sur **Aperçu** pour afficher la sortie souhaitée.
+1. Sélectionnez **Aperçu**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

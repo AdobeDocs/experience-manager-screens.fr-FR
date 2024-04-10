@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du Feature Pack 202105
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202105, publié le 4 juin 2021.
+description: Découvrez le Feature Pack 202105 d’AEM Screens, publié le 4 juin 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
-workflow-type: ht
-source-wordcount: '399'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 75%
 
 ---
 
 # Notes de mise à jour du Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -24,7 +24,7 @@ Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
 Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Vous devez installer une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne une fois que vous avez installé les packages `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` et les `screens core bundles`.
+>Installez la version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne après avoir installé les packages. `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, et la variable `screens core bundles`.
 
 ## Date de publication {#release-date}
 
@@ -34,14 +34,14 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 4 juin�
 
 * **Verrouillage d’une page dans un canal AEM Screens**
 
-   AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, déjà implémentée dans AEM Sites. Adobe Experience Manager (AEM) vous permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cela s’avère utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant quelque temps.
+  AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, déjà implémentée dans AEM Sites. Adobe Experience Manager (AEM) permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cela s’avère utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant quelque temps.
 
 * **Nommage d’un appareil de lecteur AEM Screens**
 
-   Les lecteurs AEM Screens comprennent désormais la possibilité d’envoyer un nom d’appareil à Adobe Experience Manager (AEM).
-Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer un appareil, un nom d’utilisateur généré par le système est saisi dans le champ du titre. Un client peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
+  Les lecteurs AEM Screens comprennent désormais la possibilité d’envoyer un nom d’appareil à Adobe Experience Manager (AEM).
+Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer un périphérique, un nom d’utilisateur généré par le système est saisi dans le champ du titre. Un client peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
 
-   Reportez-vous à la documentation suivante pour savoir comment configurer le nom dans chaque système d’exploitation pris en charge :
+  Reportez-vous à la documentation suivante pour savoir comment configurer le nom dans chaque système d’exploitation pris en charge :
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
@@ -50,23 +50,23 @@ Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer u
 
 * **Génération de manifeste**
 
-   Génération plus rapide d’un manifeste de canal avec de meilleures performances, permettant de diminuer l’allocation de ressources nécessaire pour le serveur.
+  Génération plus rapide de manifeste de canal avec de meilleures performances, comme l’allocation de moins de ressources sur le serveur.
 
 ### Correctifs {#bug-fixes}
 
 * Le lecteur affichait un écran noir lors du passage à un canal contenant une séquence incorporée dynamique.
 * Les lecteurs Screens bloquent désormais le passage vers un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 8 :
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens 
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

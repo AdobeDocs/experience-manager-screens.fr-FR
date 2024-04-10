@@ -1,32 +1,28 @@
 ---
 title: Création et gestion des affichages
-seo-title: Gestion des affichages
-description: Lisez cette page pour en savoir plus sur la création d’un affichage et d’une configuration de périphérique. Vous y trouverez également des informations sur le tableau de bord des affichages.
-seo-description: Lisez cette page pour en savoir plus sur la création d’un affichage et d’une configuration de périphérique. Vous y trouverez également des informations sur le tableau de bord des affichages.
-uuid: dfde0740-5c8b-4e6c-bc83-bf8fbb31a16a
+description: Découvrez comment créer un affichage et une configuration de périphérique dans AEM Screens. En savoir plus sur le tableau de bord des affichages.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '775'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 46%
 
 ---
 
 # Création et gestion des affichages {#creating-and-managing-displays}
 
-Un affichage est un groupe virtuel d’écrans généralement positionnés les uns à côté des autres. L’affichage est en général permanent dans une installation. C’est l’objet avec lequel les auteurs de contenu travaillent. Ils le désignent par ailleurs toujours par le terme d’affichage logique pour le distinguer de ses équivalents physiques.
+Un affichage est un groupe virtuel d’écrans positionnés les uns à côté des autres. L&#39;affichage est permanent par rapport à une installation. Il s’agit de l’objet avec lequel les auteurs de contenu travaillent et font toujours référence à comme affichage logique plutôt qu’à leurs parties de compteur physiques.
 
 Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
-Vous découvrirez dans cette page comment créer et gérer des affichages pour Screens.
+Cette page présente la création et la gestion des affichages pour Screens.
 
 **Conditions préalables** :
 
@@ -39,59 +35,52 @@ Vous découvrirez dans cette page comment créer et gérer des affichages pour S
 
 >[!NOTE]
 >
->Vous devez créer un emplacement avant de créer un affichage. Pour savoir comment créer un emplacement, voir [Création et gestion des emplacements](managing-locations.md) pour plus d’informations.
-
-Pour créer un affichage dans votre emplacement, suivez les étapes ci-dessous.
+>Créez un emplacement avant de créer un affichage. Voir [Création et gestion des emplacements](managing-locations.md) pour plus d’informations.
 
 1. Accédez à l’emplacement souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Sélectionnez votre dossier d’emplacements, puis appuyez ou cliquez sur **Créer** en regard de l’icône « + » dans la barre d’actions. Un assistant s’ouvre.
-1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
-
+1. Sélectionnez votre dossier d’emplacement et sélectionnez **Créer** en regard de l’icône plus dans la barre d’actions.
+1. Sélectionner **Affichage** de la **Créer** assistant, puis sélectionnez **Suivant**.
 1. Saisissez le **nom** et le **titre** de l’emplacement de l’affichage.
-
-1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Sélectionnez la **résolution** souhaitée (par exemple, **Full HD**). Vous pouvez également sélectionner le nombre de périphériques horizontalement et verticalement.
-
-1. Cliquez sur **Créer**.
+1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choisissez la **Résolution**, par exemple **Full HD**. Sélectionnez le nombre de périphériques horizontalement et verticalement.
+1. Sélectionnez **Créer**.
 
 L’affichage (*StoreDisplay*) est créé et ajouté à l’affichage de l’emplacement (*SanJose*).
 
 ![Affichage](assets/display.gif)
 
-Une fois que l’affichage est en place, l’étape suivante est de créer une configuration de périphérique pour cet affichage. Suivez la section ci-dessous pour créer une configuration de périphérique.
+Lorsque l’affichage est en place, l’étape suivante consiste à créer une configuration de périphérique pour cet affichage particulier.
 
 >[!NOTE]
 >
 >**La prochaine étape** :
 >
->Une fois que vous avez créé un affichage pour votre emplacement, vous devez attribuer un canal à votre affichage de façon à exploiter le contenu.
+>Lorsque vous créez un affichage pour votre emplacement, vous devez lui attribuer un canal pour utiliser le contenu.
 >
 >Voir [Attribution de canaux](channel-assignment.md) pour savoir comment attribuer un canal à l’affichage.
 
-## Création d’une configuration de périphérique {#creating-a-new-device-config}
+## Création d’une configuration d’appareil {#creating-a-new-device-config}
 
-Une configuration de périphérique fonctionne comme un espace réservé pour un périphérique d’affichage numérique qui n’est pas encore installé.
-
-Suivez les étapes ci-dessous pour créer une configuration de périphérique.
+Une configuration d’appareil fonctionne comme un espace réservé pour un appareil d’affichage numérique qui n’est pas encore installé.
 
 1. Accédez à l’affichage souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Sélectionnez votre dossier d’affichage et appuyez ou cliquez ensuite sur **Afficher le tableau de bord** dans la barre d’actions.
-1. Appuyez/cliquez sur **+ Ajouter la configuration de périphériques** en haut à droite du panneau **Périphériques**.
+1. Sélectionnez votre dossier d’affichage et choisissez **Afficher le tableau de bord** dans la barre d’actions.
+1. Sélectionner **+ Ajouter la configuration de périphérique** en haut à droite de la **Périphériques** du panneau.
 
-1. Sélectionnez **Configuration du périphérique** comme modèle requis, puis appuyez/cliquez sur **Suivant**.
+1. Sélectionnez **Configuration de l’appareil** comme modèle requis, puis appuyez/cliquez sur **Suivant**.
 
 1. Saisissez les propriétés demandées, puis appuyez ou cliquez sur **Créer**.
 
-La configuration du périphérique est créée et ajoutée à l’affichage en cours (dans la démonstration suivante, la nouvelle configuration du périphérique s’appelle *DeviceConfig*).
+La configuration de l’appareil est créée et ajoutée à l’affichage en cours (dans la démonstration suivante, la nouvelle configuration de l’appareil s’appelle *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Une fois que vous avez ajouté la configuration de périphérique à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
+Une fois que vous avez ajouté la configuration d’appareil à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
 
 >[!NOTE]
 >
->Une fois que vous avez ajouté la configuration de périphérique à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
+>Une fois que vous avez ajouté la configuration d’appareil à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
 >
->Comme illustré dans la figure ci-dessous, si la configuration du périphérique est affichée comme non attribuée dans le volet **PÉRIPHÉRIQUES**, aucun canal n’est attribué à cette configuration du périphérique.
+>Comme illustré dans la figure ci-dessous, si la configuration du périphérique s’affiche comme non attribuée dans la variable **APPAREILS** , si aucun canal n’est affecté à cette configuration de périphérique spécifique.
 >
 >Vous devez d’abord comprendre comment créer et gérer des canaux. Voir [Création et gestion des canaux](managing-channels.md) pour en savoir plus.
 
@@ -99,15 +88,15 @@ Une fois que vous avez ajouté la configuration de périphérique à votre affic
 
 ## Tableau de bord des affichages {#display-dashboard}
 
-Le tableau de bord des affichages présente plusieurs panneaux pour gérer les périphériques d’affichage et la configuration de votre périphérique.
+Le tableau de bord des affichages présente plusieurs panneaux pour gérer les appareils d’affichage et la configuration de votre appareil.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
 >[!NOTE]
 >
->Vous pouvez sélectionner les listes de tableaux de bord et déclencher des actions en masse sur des éléments, au lieu de passer par chaque élément individuellement.
+>Vous pouvez sélectionner les listes du tableau de bord et déclencher des actions en bloc sur les éléments, au lieu de parcourir chaque élément individuellement.
 >
->Par exemple, l’illustration suivante montre comment vous pouvez sélectionner plusieurs canaux à partir du tableau de bord.
+>Par exemple, l’illustration suivante montre comment sélectionner plusieurs canaux à partir du tableau de bord d’affichage.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -115,35 +104,35 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les p
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Cliquez sur (**...**) en haut à droite du panneau **INFORMATIONS D’AFFICHAGE** pour afficher les propriétés et un aperçu de l’affichage.
+Cliquez sur (**..**) dans le coin supérieur droit du **AFFICHAGE DES INFORMATIONS** pour afficher les propriétés et un aperçu de l’affichage.
 
 
 #### Affichage des propriétés {#viewing-properties}
 
-Cliquez sur **Propriétés** pour afficher ou modifier les propriétés de votre affichage.
+Cliquez sur **Propriétés** vous pouvez ainsi afficher ou modifier les propriétés de votre affichage.
 
-Vous pouvez également régler la valeur du retardateur d’événements pour votre canal interactif dans la propriété **Délai d’inactivité** sous l’onglet **Affichage**. Par défaut, cette valeur est définie sur *300 secondes*.
+Vous pouvez également régler la valeur du minuteur d’événement pour votre canal interactif dans **Délai d’inactivité** propriété sous **Affichage** . Par défaut, cette valeur est définie sur *300 secondes*.
 
 Utilisez **CRXDE Lite** pour accéder à la propriété **idleTimeout**, à savoir `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Panneau Canaux attribués {#assigned-channels-panel}
 
-Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à ce périphérique.
+Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet appareil.
 
 
-### Panneau Périphériques {#devices-panel}
+### Panneau Appareils {#devices-panel}
 
-Le panneau **PÉRIPHÉRIQUES** fournit des informations sur les configurations des périphériques.
+Le panneau **APPAREILS** fournit des informations sur les configurations des appareils.
 
-Cliquez sur (**...**) en haut à droite du panneau **APPAREILS** pour ajouter des configurations d’appareils ou mettre à jour les appareils.
+Sélectionnez (**..**) dans le coin supérieur droit du **APPAREILS** afin que vous puissiez ajouter des configurations de périphérique et mettre à jour les périphériques.
 
-Cliquez sur la configuration du périphérique pour en afficher les propriétés, l‘attribuer ou le supprimer.
+Cliquez également sur la configuration du périphérique pour afficher les propriétés, attribuer un périphérique ou le supprimer complètement.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
 #### Étapes suivantes {#the-next-steps}
 
-Une fois que vous avez créé un affichage pour votre emplacement, vous devez lui attribuer un canal.
+Lorsque vous créez un affichage pour votre emplacement, attribuez-lui un canal.
 
 Reportez-vous à la section [Attribution des canaux](channel-assignment.md) pour plus de détails.

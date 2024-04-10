@@ -1,73 +1,69 @@
 ---
-title: Gestion des périphériques
-seo-title: Gestion des périphériques
-description: Cette page décrit la procédure d’attribution des périphériques.
-seo-description: Lisez cette page pour en savoir plus sur l’attribution des périphériques. La console Périphériques vous permet d’accéder au gestionnaire de périphériques afin d’attribuer votre périphérique à un affichage.
-uuid: 889cc11c-60f7-4966-82b5-9ebdd082a3c5
+title: Gestion des appareils
+description: Découvrez l’attribution et la gestion des périphériques dans AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 64%
 
 ---
 
-# Gestion des périphériques {#managing-devices}
+# Gestion des appareils {#managing-devices}
 
-Cette page décrit la procédure d’attribution des périphériques.
+Cette page décrit la procédure d’attribution des appareils.
 
-La console Périphériques vous permet d’accéder au gestionnaire de périphériques afin d’attribuer votre périphérique à un affichage.
+La console Périphériques vous permet d’accéder au gestionnaire de périphériques afin d’affecter votre périphérique à un affichage.
 
 >[!CAUTION]
 >
->Avant d’attribuer votre périphérique, vous devez l’enregistrer. Pour plus d’informations, reportez-vous à la section [Enregistrement des périphériques](device-registration.md).
+>Avant d’attribuer votre périphérique, vous devez l’enregistrer. Pour plus d’informations, reportez-vous à la section [Enregistrement des appareils](device-registration.md).
 
 ## Attribution des appareils {#device-assignment}
 
-Suivez les étapes ci-dessous pour attribuer un périphérique à un affichage :
+Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
-1. Accédez au dossier Périphériques de votre projet, par exemple :
+1. Accédez au dossier Appareils de votre projet, par exemple :
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Sélectionnez votre dossier **Périphériques** et appuyez ou cliquez ensuite sur **Gestionnaire de périphériques** dans la barre d’actions. Les périphériques attribués et non attribués s’affichent.
+1. Sélectionnez votre dossier **Appareils** et appuyez ou cliquez ensuite sur **Gestionnaire d’appareils** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Sélectionnez un périphérique non attribué dans la liste et appuyez/cliquez sur **Attribuer le périphérique** dans la barre d’actions.
+1. Sélectionnez un appareil non attribué dans la liste et appuyez/cliquez sur **Attribuer l’appareil** dans la barre d’actions.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Sélectionnez l’affichage auquel vous voulez attribuer le périphérique dans la liste, puis appuyez/cliquez sur le bouton **Attribuer**.
+1. Sélectionnez l’affichage auquel vous souhaitez attribuer le périphérique dans la liste, puis appuyez/cliquez sur le bouton **Attribuer**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
 1. Appuyez/cliquez sur **Terminer** pour terminer la procédure d’attribution.
 
 
-   Le tableau de bord des affichages montre le périphérique attribué dans le volet **PÉRIPHÉRIQUES**.
+   Le tableau de bord des affichages montre l’appareil attribué dans le volet **APPAREILS**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Cliquez sur (**...**) en haut à droite du panneau **PÉRIPHÉRIQUES** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
+   Cliquez sur (**..**) dans le coin supérieur droit du **APPAREILS** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
->Chaque fois que vous ajoutez un premier périphérique à un nouveau projet Screens, un groupe d’utilisateurs est créé.
+>Chaque fois que vous ajoutez un premier appareil à un nouveau projet Screens, un groupe d’utilisateurs est créé.
 >Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
->Ce groupe est ajouté en tant que membre au groupe **Contributeurs**, comme illustré dans la figure ci-dessous :
+>Ce groupe est ajouté en tant que membre du groupe **Contributeurs** , comme illustré dans la figure ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

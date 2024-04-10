@@ -1,30 +1,30 @@
 ---
 title: Notes de mise à jour du Feature Pack 201809
-seo-title: Notes de mise à jour du Feature Pack 201809
+seo-title: Release Notes for Feature Pack 201809
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201809, publié le 1er octobre 2018.
-seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201809, publié le 1er octobre 2018.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
-feature: Feature Pack
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 92%
 
 ---
-
 
 # Notes de mise à jour du Feature Pack 201809 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 AEM Screens ont publié AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4 avec les détails suivants.
 
@@ -45,7 +45,7 @@ La date de publication pour AEM Screens Feature Pack 201809 est le 1er octobre�
 
 * **Créer/publier déploiement (Renforcement)**
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4 :
 
@@ -54,6 +54,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.2 Feature Pack 2 
 * Android
 * iOS
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous aux [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).

@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du Feature Pack 202103
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202103, publié le 5 mars 2021.
-feature: Feature Pack
+description: En savoir plus sur AEM Screens Feature Pack 202103, publié le 5 mars 2021.
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 57%
 
 ---
-
 
 # Notes de mise à jour du Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -31,16 +31,16 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
 * **Enregistrement automatique des lecteurs dans AEM Screens**
 
-   L’enregistrement manuel en bloc de milliers de lecteurs est très lourd, chronophage et coûteux. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé prépartagée dans AEM qui peut être configurée dans un lecteur soit par le biais d’un fichier de configuration, soit par une solution MDM (Mobile Device Management).
+  L’enregistrement en masse de milliers de lecteurs manuellement est fastidieux et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé pré-partagée dans AEM. Cette clé peut être configurée dans un lecteur via un fichier de configuration ou une solution de gestion des périphériques mobiles (MDM).
 
-   Pour plus d’informations, consultez [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md).
+  Pour plus d’informations, consultez [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md).
 
 
-* **Approvisionnement en bloc d’un lecteur Android à l’aide d’Enterprise Mobility Management**
+* **Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise**
 
-   Lors du déploiement en bloc d’un lecteur Android, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Nous vous recommandons vivement d’utiliser une solution EMM (Enterprise Mobility Management) telle que VMWare Airwatch, MobileIron ou Samsung Knox pour configurer et gérer votre déploiement à distance. Le lecteur Android AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
+  Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’enregistrer manuellement chaque lecteur avec AEM. Il est vivement recommandé d’utiliser une solution EMM (Enterprise Mobility Management, par exemple), comme `VMWare Airwatch`, `MobileIron`, ou `Samsung Knox` pour configurer et gérer votre déploiement à distance. Le lecteur AEM Screens Android™ prend en charge la configuration standard EMM AppConfig pour permettre la mise en service à distance.
 
-   Pour plus d’informations, reportez-vous à [Approvisionnement en bloc d’un lecteur Android à l’aide d’une solution Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
+  Voir [Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise](/help/user-guide/implementing-android-player.md#implementation) pour plus d’informations.
 
 
 ### Correctifs {#bug-fixes}
@@ -51,7 +51,7 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
 * Les caches hors ligne n’étaient pas créés si l’affectation était paramétrée sur *OfflineConfig*.
 
-* Les mises à jour du lecteur Tizen ne s’appliquaient pas, car la politique de référent « strict-origin-when-cross-origin » n’était pas prise en charge.
+* Mises à jour de `Tizen` qui a échoué car la stratégie de référent strict-origin-when-cross-origin n’est pas prise en charge.
 
 * La modification du champ de planning de canal affecté *Répète* affectait le fonctionnement de l’interface utilisateur.
 
@@ -61,14 +61,14 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
 * L’échec de la requête de mise à jour de la configuration causait l’apparition d’un écran vide.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 7 :
 
 * Chrome OS
 * Windows
-* Linux
+* Linux®
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens 
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

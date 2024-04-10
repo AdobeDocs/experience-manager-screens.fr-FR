@@ -1,32 +1,28 @@
 ---
 title: Utilisation du lecteur AEM Screens
-seo-title: Working with Screens Player
-description: Consultez cette page pour en savoir plus sur le lecteur Screens. Il explique également l’interface utilisateur d’administration et le sélecteur de canal.
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: Découvrez comment utiliser le lecteur AEM Screens, l’interface utilisateur d’administration et le sélecteur de canal.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 79%
+source-wordcount: '1059'
+ht-degree: 56%
 
 ---
 
-# Utilisation du lecteur AEM Screens {#working-with-aem-screens-player}
+# Utilisation du lecteur AEM Screens
 
 Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran AEM Screens.
 
 >[!NOTE]
 >
->Appuyez sur ***Ctrl+Cmd+F*** pour quitter le mode plein écran du lecteur AEM Screens pour OS X.
+>Presse ***Ctrl+Cmd+F*** vous pouvez donc quitter le mode plein écran du lecteur AEM Screens OS X.
 
 Une fois que vous avez attribué un canal à un affichage, le lecteur AEM Screens affiche le contenu. Vous pouvez configurer les paramètres de votre lecteur à l’aide des préférences de l’interface utilisateur d’administration (du tableau de bord) ou du lecteur lui-même.
 
@@ -40,7 +36,7 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Cliquez sur l’appareil pour ouvrir son tableau de bord.
+1. Cliquez sur le périphérique pour ouvrir le tableau de bord du périphérique.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -50,27 +46,27 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
 ### L’interface utilisateur d’administration {#the-admin-ui}
 
-En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ne peut pas ouvrir l’interface utilisateur d’administration à partir du lecteur.
+En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord du périphérique, l’utilisateur ne peut pas ouvrir l’interface utilisateur d’administration à partir du lecteur.
 
-Pour afficher l’interface utilisateur d’administration du lecteur Screens, appuyez longuement sur l’angle supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens optimisé pour les écrans tactiles activée ou en utilisant la souris. Elle affiche les informations une fois l’enregistrement terminé et les canaux chargés.
+Pour afficher l’interface utilisateur d’administration du lecteur Screens, appuyez longuement sur le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou en utilisant la souris. Les informations s’affichent une fois l’enregistrement terminé et les canaux chargés.
 
 >[!NOTE]
 >
->En outre, vous pouvez afficher le temps de disponibilité du lecteur AEM Screens pour vérifier l’intégrité de l’application.
+>Vous pouvez également afficher le temps de disponibilité de l’application AEM Screens Player pour vérifier l’état d’intégrité de l’application.
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
 #### Accès aux options du menu de configuration {#configuration-options}
 
-Vous pouvez mettre à jour vos configurations en sélectionnant l’option **Configuration** dans le menu latéral, comme illustré ci-dessous :
+Vous pouvez mettre à jour vos configurations si vous sélectionnez l’option **Configuration** dans le menu latéral, comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-Le menu Configuration vous permet de modifier les paramètres suivants :
+Le menu Configuration vous permet de modifier les paramètres suivants :
 
 * Réinitialisez **Micrologiciel**, **Préférences** ou **Paramètres d’usine** dans cette boîte de dialogue.
 
-* Indiquez le nombre maximal de fichiers journaux à conserver pour un lecteur AEM Screens dans **Nombre max. de fichiers journaux à conserver**.
+* Spécifiez le nombre maximal de fichiers journaux à conserver pour un lecteur AEM Screens dans **Nombre max. de fichiers journaux à conserver**.
 
 * Activez ou désactivez **Menu d’administration**, **Sélecteur de canal** et **Activity UI** (IU d’activité) pour le lecteur Screens.
 
@@ -80,7 +76,7 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 >[!NOTE]
 >
->L’option **Mettre à jour le micrologiciel** fonctionne uniquement sur Cordova, comme les lecteurs Android.
+>La variable **Mettre à jour le micrologiciel** fonctionne uniquement sur Cordova, comme les lecteurs Android™.
 
 >[!NOTE]
 >
@@ -90,7 +86,7 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 Vous pouvez effacer le cache des canaux et des applications à partir de l’interface utilisateur d’administration du lecteur AEM Screens.
 
-Sélectionnez la variable **Cache de contenu** à partir du rail latéral pour mettre à jour le cache.
+Sélectionnez la variable **Cache de contenu** à partir du rail latéral afin que vous puissiez mettre à jour le cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -98,7 +94,7 @@ Sélectionnez la variable **Cache de contenu** à partir du rail latéral pour m
 
 En activant le **sélecteur de canal** à partir du panneau Préférences, l’utilisateur peut ouvrir la sélection ou les paramètres de canal du lecteur Screens.
 
-En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ne peut pas contrôler les préférences de canal à partir du lecteur Screens.
+En outre, si vous désactivez cette option dans le tableau de bord du périphérique, l’utilisateur ne peut pas contrôler les préférences de canal à partir du lecteur Screens.
 
 Vous pouvez permuter et contrôler les paramètres de votre canal à partir de votre lecteur Screens.
 
@@ -112,11 +108,11 @@ Pour afficher le sélecteur de canal à partir du lecteur, appuyez longuement su
 >
 >(Voir *Modification des préférences à partir du lecteur Screens* comme mentionné dans la section ci-dessous).
 
-### Gestions des préférences à partir du lecteur AEM Screens {#managing-preferences-from-the-aem-screens-player}
+### Gestions des préférences à partir du lecteur AEM Screens
 
 Vous pouvez également modifier les paramètres de l’interface utilisateur d’administration et le sélecteur de canal à partir du lecteur.
 
-Pour modifier les préférences de votre lecteur, procédez comme suit :
+Pour modifier les préférences du lecteur :
 
 1. Appuyez longuement dans le coin supérieur gauche du canal inactif pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** dans le menu d’actions à gauche.
@@ -124,7 +120,7 @@ Pour modifier les préférences de votre lecteur, procédez comme suit :
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Dépannage du lecteur AEM Screens {#troubleshooting-aem-screens-player}
+## Dépannage du lecteur AEM Screens
 
 Vous pouvez résoudre de nombreux problèmes liés au lecteur AEM Screens (matériels et logiciels) :
 
@@ -137,14 +133,14 @@ Vous pouvez résoudre de nombreux problèmes liés au lecteur AEM Screens (mat�
 | Le lecteur AEM Screens ne démarre pas automatiquement après le redémarrage du lecteur | Vérifiez le dossier de démarrage ou de la procédure d’initialisation du système d’exploitation |
 | Le lecteur AEM Screens affiche un contenu erroné/obsolète | Vérifiez la connexion réseau |
 
-### Mises à jour du lecteur AEM Screens {#updates-for-aem-screens-player}
+### Mises à jour du lecteur AEM Screens
 
 Il existe deux types de mises à jour du lecteur AEM Screens :
 
-| **Méthode** | **Détails** | **via À distance** | **Automatique** | **0 temps d’arrêt** |
+| **Méthode** | **Détails** | **par le biais de l’option À distance** | **Automatique** | **0 temps d’arrêt** |
 |---|---|---|---|---|
-| Mise à jour du micrologiciel | Application sur les lecteurs existants installés via la commande à distance. Après la mise à jour, le lecteur se rechargera automatiquement avec le contenu existant. | Oui | Personnalisé | Presque - 1 à 3 secondes |
-| Mises à jour du shell du lecteur | Il s’agit d’un nouveau fichier exécutable à déployer sur le lecteur. Pour ce faire, vous devez copier à distance le nouveau fichier binaire sur le lecteur, arrêter l’exécution en cours et démarrer la nouvelle version. Cela peut nécessiter le retéléchargement du préchargement des modules. | Oui (via un shell distant) | Personnalisé | Non |
+| Mise à jour du micrologiciel | Application sur les lecteurs existants installés par le biais d’une commande à distance. Après la mise à jour, le lecteur se recharge automatiquement avec le contenu existant. | Oui | Personnalisé | Presque - 1 à 3 secondes |
+| Mises à jour du shell du lecteur | Il s’agit d’un nouveau fichier exécutable à déployer sur le lecteur. Pour ce faire, vous devez copier à distance le nouveau fichier binaire sur le lecteur, arrêter l’exécution en cours et démarrer la nouvelle version. Cela peut nécessiter le téléchargement du préchargement des modules à nouveau. | Oui (par shell distant) | Personnalisé | Non |
 
 ## Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection-guidelines-for-player-device}
 
@@ -173,12 +169,12 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>De base</td>
-   <td>Processeur Intel® i3 double cœur ou Atom quadri-cœur d’entrée de gamme</td>
+   <td>Processeur Intel® Atom quadri-coeur double coeur, i3 ou quadri-coeur d’entrée de gamme</td>
    <td><p>4 Go de mémoire</p> <p>2 Mo de cache</p> </td>
-   <td><p>・Chrome OS 32 Go</p> <p>・Windows 128 Go</p> </td>
+   <td><p>*ChromeOS 32 Go</p> <p>*Windows 128 Go</p> </td>
    <td>Intégré</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet / Sans fil,<br /> 2 x USB</td>
+   <td>DVI<br /> Ethernet / sans fil<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Boucle plein écran standard<br /> </li>
@@ -187,9 +183,9 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Processeur quadri-cœur Intel® Core i5</td>
+   <td>Processeur quadri-coeur Intel® Core™ i5</td>
    <td><p>8 Go de mémoire</p> <p>4 Mo de cache</p> </td>
-   <td>128 Go</td>
+   <td>128 Go</td>
    <td>Intégré</td>
    <td>3840 x 2160 (4K)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 2 x USB</td>
@@ -202,7 +198,7 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Avancé</td>
-   <td>Processeur Intel® Core i7 quadri-cœur avec hyperthreading</td>
+   <td>Processeur Intel® Core™ i7 quadri-coeur avec hyperthreading</td>
    <td><p>16 Go de mémoire</p> <p>8 Mo de cache</p> </td>
    <td>256 Go</td>
    <td>Carte graphique dédiée</td>

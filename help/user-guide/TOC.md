@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
-breadcrumb-title: Guide d’AEM Screens
-user-guide-description: Apprenez à utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
+breadcrumb-title: Guide d’AEM Screens
+user-guide-description: Découvrez comment utiliser une solution d’affichage numérique qui vous permet de publier des expériences et des interactions numériques dynamiques et interactives.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=fr)
+   + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Termes clés](screens-glossary.md)
 + Notions de base sur les réseaux de signalétique numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
@@ -41,10 +41,10 @@ ht-degree: 100%
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
    + [Réplication des triggers de données sur les serveurs de publication](replicating-data-triggers.md)
    + [Configuration des agents de réplication Screens](configure-screens-replication.md)
-   + Observations relatives aux clients {#installing-client}
+   + Considérations spécifiques au client {#installing-client}
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
-      + [Lecteur Android](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
       + [Lecteur cloud](implementing-cloud-player.md)

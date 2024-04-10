@@ -1,13 +1,11 @@
 ---
 title: À propos de ce guide
-seo-title: Description on the Guide
-description: Suivez ce guide des bonnes pratiques AEM 6.5 pour les projets AEM Screens afin de planifier et d’exécuter des projets, depuis l’exposé sur la stratégie et la conception jusqu’au déploiement et après assistance.
-seo-description: This page describes the intent of the Best Practices Guide
+description: Découvrez les bonnes pratiques pour la planification et l’exécution des projets AEM Screens, depuis l’exposé stratégique et de conception jusqu’au déploiement et après assistance.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 38%
 
 ---
 
@@ -15,7 +13,7 @@ ht-degree: 100%
 
 Le guide des bonnes pratiques d’AEM Screens explique comment planifier et exécuter un projet AEM Screens.
 
-Ce document s’adresse à différentes catégories d’utilisateurs :
+L’audience prévue pour ce document est la suivante :
 
 * *Implémentateurs AEM*
 * *Intégrateurs A/V*
@@ -23,11 +21,11 @@ Ce document s’adresse à différentes catégories d’utilisateurs :
 * *Chefs de projet*
 * *Consultants*
 
-Il convient toutefois de préciser que ce guide constitue une précieuse source d’informations pour de nombreux autres rôles.
+Il convient toutefois de souligner que de nombreux autres rôles peuvent également bénéficier de la lecture de ce guide.
 
-AEM Screens, nouvelle extension d’Adobe Experience Manager (AEM), propose de nouveaux outils aux applications diverses. Il est donc essentiel d’identifier les points importants à prendre en compte et les facteurs de risque courants liés au développement et au déploiement d’AEM Screens.
+AEM Screens est une nouvelle extension de Adobe Experience Manager (AEM). Les outils étant nouveaux et leurs applications potentielles variées, il est essentiel d’identifier les points importants et les facteurs de risque communs impliqués dans le développement et le déploiement d’AEM Screens.
 
-Ce guide ne fournit pas seulement des informations complètes et des conseils pratiques pour imaginer, concevoir et intégrer des expériences client intentionnelles dans votre solution de signalétique digitale. Il explique également comment créer un impact positif sur vos activités en utilisant certaines des bonnes pratiques lors du déploiement d’un projet de signalétique digitale dans AEM Screens.
+Ce guide fournit des informations complètes et des conseils pratiques pour imaginer, concevoir et intégrer des expériences client intentionnelles dans votre mise en oeuvre de l’affichage dynamique. Il vous guide également à créer un impact positif sur votre entreprise à l’aide de certaines des bonnes pratiques suivies lors du déploiement d’un projet de signalétique digitale dans AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -38,11 +36,9 @@ Ce guide ne fournit pas seulement des informations complètes et des conseils pr
 > * **[Configurations d’AEM Platform](aem-platform-configurations.md)**
 > * **[Assistance et surveillance](support-monitoring.md)**
 
-
 >[!NOTE]
 >
 > Termes utilisés dans ce guide (dans le contexte d’AEM Screens) :
 >
 > * L’**expérience utilisateur** désigne les expériences de signalétique digitale proposées aux clients finaux.
-> * L’**interface utilisateur** vous permet de créer et de gérer vos projets dans Screens.
-
+> * **Interface utilisateur** est considéré comme l’interface utilisateur qui vous permet de créer et de gérer vos projets dans Screens.

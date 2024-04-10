@@ -2,9 +2,9 @@
 title: Configuration des instances de création et de publication dans AEM Screens
 description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 43%
 
 ---
@@ -132,7 +132,7 @@ Pour chaque instance de publication :
 1. Mettez à jour les URL du connecteur de topologie : ajoutez les URL de toutes les instances de publication participantes qui sont :
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Liste blanche des connecteurs de topologie**: s’adapter aux adresses IP ou aux sous-réseaux couvrant toutes les instances de publication. Veillez à whitelister l’adresse IP/le nom d’hôte de toutes les instances de publication sans le numéro de port.
+1. **Connecteur de topologie `Whitelist` Liste**: s’adapter aux adresses IP ou aux sous-réseaux couvrant toutes les instances de publication. Vérifiez que `whitelist` l’adresse IP/nom d’hôte de toutes les instances de publication sans le numéro de port.
 
 1. Activez **Arrêt automatique des boucles locales**
 
@@ -144,7 +144,7 @@ Pour toutes les instances de publication, accédez à `https://:/system/console/
 
 #### Étape 3 : configuration d’un cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
-Cette étape vous permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.
+Cette étape vous permet de créer un mot de passe chiffré pour la grappe ActiveMQ Artemis.
 L’utilisateur de grappe et le mot de passe de toutes les instances de publication de la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Chaque instance ayant sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge de Crypto pour créer une chaîne de mot de passe chiffrée. Ensuite, le mot de passe chiffré peut être utilisé dans la configuration OSGi pour ActiveMQ.
 
 Sur chaque instance de publication :
@@ -213,7 +213,7 @@ Après avoir configuré la topologie de publication, configurez les instances d�
 >
 >Pour commencer avec cet exemple, créez un projet AEM Screens, puis créez un emplacement, un affichage et un canal dans votre projet. Ajoutez du contenu à votre canal et affectez-le à un affichage.
 
-#### Étape 1 : démarrage d’un lecteur AEM Screens (appareil) {#step-starting-an-aem-screens-player-device}
+#### Étape 1 : démarrage d’un lecteur AEM Screens (appareil)
 
 1. Lancez une fenêtre du navigateur distincte.
 1. Accédez au lecteur Screens à l’aide du *navigateur web*, à savoir `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`, ou lancez l’application AEM Screens. Lorsque vous ouvrez le périphérique, notez que son état n’est pas enregistré.
@@ -280,7 +280,7 @@ Les points suivants résument la liste de contrôle de publication :
 * *Planification* : si vous utilisez une planification, veillez à ce qu’elle soit publiée.
 * *Dossier Emplacement, Planifications et Canal* : si les ressources correspondantes se trouvent dans un dossier.
 
-Suivez les étapes ci-dessous pour vérifier le comportement de création/publication :
+Suivez les étapes ci-dessous pour vérifier le comportement de création et de publication :
 
 1. Mettez à jour le contenu d’un canal sur l’instance d’auteur.
 1. Effectuer **Gérer la publication** pour publier de nouvelles modifications sur toutes les instances de publication.

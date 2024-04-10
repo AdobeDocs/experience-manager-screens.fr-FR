@@ -1,23 +1,19 @@
 ---
 title: Enregistrement d’appareils
-seo-title: Device Registration
-description: Cette page décrit le processus d’enregistrement des appareils dans un projet AEM Screens.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Découvrez le processus d’enregistrement des périphériques dans un projet AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 85%
+source-wordcount: '745'
+ht-degree: 57%
 
 ---
 
@@ -27,7 +23,7 @@ La page suivante décrit le processus d’enregistrement des appareils dans un p
 
 ## Enregistrement d’un appareil {#registering-a-device}
 
-Le processus d’enregistrement des appareils est effectué sur 2 machines distinctes :
+Le processus d’enregistrement des périphériques est effectué sur deux machines distinctes :
 
 * L’appareil à enregistrer, par exemple l’affichage du message
 * Serveur AEM utilisé pour enregistrer votre appareil
@@ -36,9 +32,9 @@ Le processus d’enregistrement des appareils est effectué sur 2 machines dist
 >
 >Une fois que vous avez téléchargé le dernier lecteur Windows (*.exe*), à partir de la page de téléchargement [du lecteur AEM 6.4](https://download.macromedia.com/screens/), suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
->1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
+>1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement de l’appareil.
+>1. Sélectionnez la variable **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ Le processus d’enregistrement des appareils est effectué sur 2 machines dist
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’un nouveau projet pour Screens dans le tableau de bord AEM, voir [Création et gestion d’un projet Screens](creating-a-screens-project.md).
+   >Pour plus d’informations sur la création d’un projet pour Screens dans le tableau de bord AEM, voir [Création et gestion de projet Screens](creating-a-screens-project.md).
 
 1. Appuyez/cliquez sur le bouton **Gestionnaire d’appareils** dans la barre d’actions.
 
@@ -84,17 +80,17 @@ Le processus d’enregistrement des appareils est effectué sur 2 machines dist
 
    >[!NOTE]
    >
-   >L’option **Enregistrer nouveau** vous permet d’enregistrer un nouvel appareil.
+   >La variable **Enregistrer nouveau** vous permet d’enregistrer un nouveau périphérique.
    >
    >Le bouton **Attribuer l’affichage** permet d’ajouter directement l’appareil à un affichage.
 
-   Si vous cliquez sur **Terminer**, vous devez attribuer l’appareil à un affichage.
+   Cliquez sur **Terminer**, vous devez attribuer le périphérique à un affichage.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création et la gestion d’un affichage pour votre projet Screens, consultez [Création et gestion des affichages](managing-displays.md).
+   >Pour en savoir plus sur la création et la gestion d’un affichage pour votre projet Screens, voir [Création et gestion des affichages](managing-displays.md).
 
 ### Attribution d’un appareil à un affichage {#assigning-device-to-a-display}
 
@@ -116,7 +112,7 @@ Si vous n’avez pas attribué l’appareil à un affichage, procédez comme sui
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   De plus, vous pouvez afficher le tableau de bord de l’affichage en cliquant sur **Terminer**.
+   Vous pouvez également afficher le tableau de bord de l’affichage en cliquant sur **Terminer**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -126,7 +122,7 @@ Une fois que vous avez enregistré des appareils sur votre lecteur, vous pouvez 
 
 1. Accédez à l’interface utilisateur du Gestionnaire de périphériques à partir de votre projet AEM Screens, par exemple : **DemoScreens** > **Périphériques**.
 
-1. Sélectionnez le dossier **Appareils** et cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
+1. Sélectionnez le dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -145,16 +141,16 @@ Une fois que vous avez enregistré des appareils sur votre lecteur, vous pouvez 
 
 ### Limites de la fonctionnalité de recherche {#limitations}
 
-* L’utilisateur pourra rechercher n’importe quel mot existant dans l’*ID d’appareil* ou le *Nom de l’appareil*.
+* L’utilisateur peut rechercher n’importe quel mot existant dans la variable *ID de périphérique* ou *Nom de l’appareil*.
 
   >[!NOTE]
   >Il est recommandé de créer les noms d’appareils à l’aide de plusieurs mots, tels que *Boston Store Lobby*, plutôt qu’en un seul, *BostonStoreLobby*.
 
-* Si vous créez des noms d’appareil tels que *Boston Store Lobby*, il est possible de rechercher n’importe quel mot *boston*, *store* ou *lobby*. Par contre, si le nom d’appareil est *BostonStoreLobby*, une recherche sur *boston* n’affichera pas les résultats.
+* Si vous créez des noms d’appareils tels que *Lobby du magasin Boston*, il recherche n’importe quel mot. *boston*, *store*, ou *lobby*. Cependant, si le nom de l’appareil est *BostonStoreLobby*, puis en recherchant *boston* n’affiche aucun résultat.
 
-* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les appareils dont le nom commence par *boston*, vous pouvez utiliser *boston**.
+* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez trouver tous les périphériques dont le nom commence par *boston*, vous pouvez utiliser *boston**.
 
-* Si le nom de l’appareil est *BostonStoreLobby* et que vous recherchez *boston*, le résultat ne sera pas renvoyé. Par contre, si vous utilisez *boston** dans vos critères de recherche, le résultat sera renvoyé.
+* Si le nom de l’appareil est *BostonStoreLobby* et la recherche *boston* ne renvoie pas le résultat, puis utilise *boston** dans vos critères de recherche renvoie le résultat.
 
 ## Restrictions relatives à l’enregistrement d’appareils {#limitations-on-device-registration}
 
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Ressources supplémentaires {#additional-resources}
+### Autres ressources {#additional-resources}
 
 Pour en savoir plus sur le lecteur AEM Screens, voir [Lecteur AEM Screens](working-with-screens-player.md).
