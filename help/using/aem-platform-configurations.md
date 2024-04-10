@@ -1,56 +1,56 @@
 ---
 title: Configurations d’AEM Platform
-seo-title: Configurations d’AEM Platform
 description: Cette page décrit les configurations d’AEM Platform
-seo-description: Cette page décrit les configurations d’AEM Platform
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 44%
 
 ---
 
-# Configurations d’AEM Platform {#platform-configurations}
+# Configurations d’AEM Platform  {#platform-configurations}
 
 >[!NOTE]
 >
 >Cette activité est généralement réalisée par l’implémentateur d’AEM.
 
-Suivez les instructions des sections ci-dessous pour configurer l’AEM Platform afin de commencer à utiliser AEM Screens.
+Commencez à utiliser AEM Screens en suivant les sections ci-dessous pour configurer AEM configurations de plateforme.
 
-## Configurations serveur {#server-configurations}
+## Configurations de serveur {#server-configurations}
 
-Pour les configurations serveur, consultez la page [Configurations serveur](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/configuring-screens-introduction.html#ServerConfiguration).
+Pour configurer les configurations de serveur, voir [Configurations de serveur](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
-## Création-Publication {#author-publish}
+## Auteur-Publication {#author-publish}
 
-Pour configurer les serveurs de création et de publication, consultez la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
+Voir [Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->S’il n’existe qu’une seule instance de création et une seule instance de publication, vous devez suivre la procédure décrite à la section **Configuration des agents de réplication sur l’auteur** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
+>S’il n’y a qu’un seul auteur et qu’une seule publication, vous ne suivez que les étapes de la section **Configuration des agents de réplication sur l’auteur** in [Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) page.
 
-## Configurations de Dispatcher {#dispatcher-configurations}
+## Configurations du Dispatcher {#dispatcher-configurations}
 
-Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager. L’utilisation de Dispatcher AEM contribue également à protéger le serveur AEM contre les attaques. Vous pouvez donc accroître la sécurité de l’instance AEM en utilisant Dispatcher conjointement à un serveur web de niveau élevé.
+Dispatcher est l’outil de mise en cache et d’équilibrage de charge Adobe Experience Manager. L’utilisation du Dispatcher AEM contribue également à protéger le serveur AEM contre les attaques. Vous pouvez donc accroître la sécurité de l’instance AEM en utilisant le Dispatcher avec un serveur web de niveau entreprise.
 
-Rendez-vous sur la page **[Configurations du Dispatcher pour AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**, où vous trouverez des instructions sur la configuration du Dispatcher pour un projet AEM Screens.
+Voir **[Configurations de Dispatcher pour AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** qui met en évidence les instructions de configuration de Dispatcher pour un projet AEM Screens.
 
 ## Installation de FFMpeg et rendus vidéo {#installing-ffmpeg}
 
 Installez FFMpeg en suivant les étapes relatives au système d’exploitation approprié (généralement RHEL) :
 
 1. Si vous effectuez l’installation en activant EPEL et RPMFusion, vous pouvez installer tous les codecs gstreamer afin d’étendre la prise en charge aux conversions FFMpeg.
-1. Si le codec AAC est marqué comme « expérimental », les conversions FFMpeg échoueront. Pour éviter cela, ajoutez -strict -2 aux profils vidéo (/etc/dam/video dans AEM 6.3 ; /libs/settings/dam/video dans AEM 6.4)
+1. Si le codec AAC est marqué comme expérimental, les conversions FFMpeg échouent. Pour éviter cela, ajoutez `-strict -2` aux profils vidéo (/etc/dam/video dans AEM 6.3 et déplacé vers /libs/settings/dam/video dans AEM 6.4)
+
    >[!NOTE]
    >
-   > Notez que -strict -2 doit être le dernier paramètre dans la liste des paramètres. Dans AEM 6.4, vous devez, en outre, copier les nœuds situés sous */libs/settings/dam/video* dans */conf/global/settings/dam/video*, comme indiqué sur la page [Rendus vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/generating-renditions.html).
+   >La variable `-strict -2` doit être le dernier paramètre de la liste des paramètres. En outre, dans AEM 6.4, vous devez copier les noeuds sous */libs/settings/dam/video* to */conf/global/settings/dam/video* comme mentionné dans [Rendus vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Vérifiez que les conversions vidéo sont en cours d’exécution et que la création des rendus est en cours.
 
 ## Restrictions de mot de passe {#password-restrictions}
 
-La stratégie de mot de passe d’AEM doit être désactivée sur l’instance AMS. Cela peut, par ailleurs, être configuré dans la console web à l’aide du service de périphérique de Screens *com.adobe.cq.screens.device.impl.DeviceService*.
-Reportez-vous à la section **Restrictions relatives aux mots de passe** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/author-and-publish.html).
+La stratégie de mot de passe de l’AEM doit être désactivée sur l’instance AMS. Vous pouvez également le configurer dans la console web à l’aide du service de périphérique Screens. *com.adobe.cq.screens.device.impl.DeviceService*
+Voir **Restrictions de mot de passe** dans[Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuration des environnements {#setting-up-environments}
 
@@ -61,14 +61,14 @@ Installez et exécutez les versions les plus récentes des packages suivants pou
 * AEM Cumulative Fix Pack
 
 Veuillez, en outre, identifier les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
-Installez les mêmes packages logiciels sur vos environnements de développement locaux. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
+Installez les mêmes packages logiciels sur votre environnement de développement local. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes créent des problèmes lors du déploiement et du test.
 
 >[!NOTE]
 >
->Pour installer la dernière version du Feature Pack pour AEM Screens, consultez les [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=fr&amp;topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.jsa).
+>Pour installer le dernier Feature Pack pour AEM Screens, voir [Notes de mise à jour](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Configuration des listes de contrôle d’accès {#setting-up-acls}
 
 Cette section explique comment séparer les projets, de sorte que chaque personne ou équipe gère son propre projet.
 
-Pour en savoir plus, voir [Configuration des listes de contrôle d’accès](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/setting-up-acls.html).
+Pour en savoir plus, voir [Configuration des listes de contrôle d’accès](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls).

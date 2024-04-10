@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 39%
+source-wordcount: '400'
+ht-degree: 36%
 
 ---
 
@@ -51,7 +51,7 @@ Pour configurer un projet, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’une disposition multizone dans votre canal, reportez-vous à [Disposition multizone](multi-zone-layout-aem-screens.md).
+   >Pour en savoir plus sur la création d’une disposition multizone dans votre canal, voir [Disposition multizone](multi-zone-layout-aem-screens.md).
 
 
 1. Créez un autre canal intitulé **TakeoverChannel** dans votre dossier **Channels** (Canaux).

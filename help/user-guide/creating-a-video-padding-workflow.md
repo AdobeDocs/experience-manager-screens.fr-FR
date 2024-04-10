@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: '576'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ La vidéo s’affichera sous la forme d’un objet de pixel 1 à pixel 1280 sur 
 
 ## Prérequis {#prerequisites}
 
-Avant de créer un processus pour la vidéo, veuillez remplir les conditions préalables suivantes :
+Avant de créer un workflow pour la vidéo, remplissez les conditions préalables suivantes :
 
 1. Téléchargez une vidéo dans le dossier **Ressources** de votre instance AEM
 1. Créez un projet AEM Screens (par exemple, **TestVideoRendition**) et un canal nommé (**VideoRendering**), comme illustré dans la figure ci-dessous :
@@ -85,7 +85,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
    Saisissez le format dans les **Types Mime** (***vidéo/mp4***) et la commande (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hd.mp4***) pour démarrer le processus dans le champ **Commandes**.
 
-   Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
+   Consultez les détails de la **Types MIME** et **Commandes** dans la note ci-dessous.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 

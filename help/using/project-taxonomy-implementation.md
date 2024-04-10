@@ -4,10 +4,10 @@ seo-title: Project Taxonomy
 description: Cette page décrit la taxonomie du projet
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ Veuillez tenir compte des éléments suivants avant de mettre en œuvre votre so
 * **Planification**
 * **Aperçu du contenu**
 
-Pour en savoir plus sur ces termes, consultez le [Glossaire](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=fr).
+Pour en savoir plus sur ces termes, voir [Glossaire](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=fr).
 
 >[!NOTE]
 >
@@ -36,14 +36,13 @@ Pour en savoir plus sur ces termes, consultez le [Glossaire](https://experiencel
 >* Une base de données de ressources matérielles pour remplir automatiquement un projet Screens
 >* Un fichier de configuration texte pour faire pointer automatiquement chaque lecteur vers une instance spécifique d’AEM
 
-
 ## Mettre en œuvre un projet AEM Screens {#creating-a-project}
 
 Un auteur AEM Screens est chargé de créer et de gérer une expérience utilisateur à l’aide des composants disponibles dans AEM Screens. L’auteur crée et révise le contenu, et fournit une interface utilisateur graphique conviviale en configurant, déployant et intégrant les segments disponibles d’AEM Screens.
 
 >[!NOTE]
 >
->Un auteur crée des canaux à partir des séquences données et connaît le public de la campagne ainsi que le résultat désiré. Ainsi, un auteur AEM Screens crée et orchestre l’expérience de l’utilisateur final en créant différents canaux et en attribuant des séquences dans une expérience de canal synchronisée.
+>Un auteur crée des canaux à partir des séquences données et connaît l’audience de la campagne et le focus souhaité. Ainsi, un auteur AEM Screens crée et orchestre l’expérience de l’utilisateur final en créant différents canaux et en attribuant des séquences dans une expérience de canal minutée.
 
 L’auteur commence généralement un projet AEM Screens en :
 

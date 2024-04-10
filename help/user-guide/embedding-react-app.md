@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 89%
 
 ---
 
@@ -65,7 +65,7 @@ Pour modifier le contenu dans l’application REACT :
 
 Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à AEM Screens :
 
-1. Créez un projet AEM Screens. Voir [Création et gestion de projets](creating-a-screens-project.md) pour en savoir plus.
+1. Créez un projet AEM Screens. Voir [Création et gestion de projets](creating-a-screens-project.md) pour plus d’informations.
 
 1. Créez un **Canal d’application** (de préférence) (ou un modèle 1x1 ou un canal multizone) dans le dossier **Canaux** de votre projet Screens.
 
@@ -76,7 +76,7 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
 
 1. Modifiez un canal de séquence et faites glisser et déposez un composant de page incorporé.
 
-   Voir [Ajout de composants à un canal](adding-components-to-a-channel.md) pour en savoir plus.
+   Voir [Ajout de composants à un canal](adding-components-to-a-channel.md) pour plus d’informations.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
 
 1. Enregistrez un lecteur sur ce projet et affectez-le à l’affichage. Vous devriez maintenant pouvoir voir votre application interactive s’exécuter sur AEM Screens.
 
-   Reportez-vous à la section [Enregistrement du périphérique](device-registration.md) pour en savoir plus sur l’enregistrement d’un périphérique.
+   Voir [Enregistrement de périphérique](device-registration.md) pour en savoir plus sur l’enregistrement d’un appareil.
 
 ## Intégration de l’application monopage avec Adobe Analytics avec la fonctionnalité hors ligne via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,12 +105,12 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
 
 1. Configuration d’Adobe Analytics dans AEM Screens.
 
-   Reportez-vous à la section [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour savoir comment effectuer le séquencement dans Adobe Analytics avec AEM Screens et envoyer des événements personnalisés à l’aide d’Adobe Analytics hors ligne.
+   Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour savoir comment effectuer le séquencement dans Adobe Analytics avec AEM Screens et envoyer des événements personnalisés à l’aide d’Adobe Analytics hors ligne.
 
 1. Modifiez votre application de réaction dans l’IDE/l’éditeur de votre choix (en particulier le composant de texte ou tout autre composant dont vous souhaitez qu’il commence à émettre des événements).
 1. Sur l’événement click ou tout autre événement que vous souhaitez capturer pour votre composant, ajoutez les informations d’analyse à l’aide du modèle de données standard.
 
-   Consultez [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour plus d’informations.
+   Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)s pour plus d’informations.
 
 1. Appelez l’API Analytics d’AEM Screens pour enregistrer l’événement hors ligne et l’envoyer en rafales à Adobe Analytics.
 

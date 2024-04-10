@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités Screens 20240116
-description: En savoir plus sur le Feature Pack 20240116 d’AEM Screens, publié le 16 janvier 2024.
+description: En savoir plus sur AEM Screens Feature Pack 20240116, publié le 16 janvier 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 87%
+source-wordcount: '154'
+ht-degree: 79%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM 6.5). Vous pouvez obtenir les informations de version les plus récentes à partir de [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes)
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM 6.5). Vous pouvez obtenir les informations les plus récentes sur la version à partir de [here](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilité {#availability}
 
@@ -39,4 +39,4 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

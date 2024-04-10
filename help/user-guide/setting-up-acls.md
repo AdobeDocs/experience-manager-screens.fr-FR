@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 29%
+source-wordcount: '491'
+ht-degree: 30%
 
 ---
 
@@ -97,7 +97,7 @@ Le tableau suivant récapitule les groupes avec une description et des autorisat
    <td><strong>Autorisations</strong></td>
   </tr>
   <tr>
-   <td>Administrateurs Screens<br /> <em>screens-administrateurs</em></td>
+   <td>Administrateurs Screens<br /> <em><code>screens-admins</code></em></td>
    <td>Accès au niveau administrateur pour les fonctionnalités AEM Screens</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ Le tableau suivant récapitule les groupes avec une description et des autorisat
     </ul> </td>
   </tr>
   <tr>
-   <td>Utilisateurs de Screens<br /> <em>screens-users</em></td>
+   <td>Utilisateurs de Screens<br /> <em><code>screens-users</code></em></td>
    <td>Créer et mettre à jour des canaux et des plannings et les affecter à des emplacements dans AEM Screens</td>
    <td>
     <ul>
      <li>Membre des contributeurs</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Opérateurs Screens<br /> <em>screens-opérateurs</em></td>
+   <td>Opérateurs Screens<br /> <em><code>screens-operators</code></em></td>
    <td>Création et mise à jour de la structure des emplacements et enregistrement des lecteurs dans AEM Screens</td>
    <td>
     <ul>
      <li>Membre des contributeurs</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Lecteurs Screens<br /> <em>screens-&lt;projet&gt;-devices</em></td>
+   <td>Lecteurs Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Les groupes de tous les lecteurs et de tous les lecteurs/périphériques sont automatiquement membres des contributeurs.</td>
    <td><p> Membre des contributeurs</p> </td>
   </tr>

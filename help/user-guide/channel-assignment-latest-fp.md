@@ -1,14 +1,14 @@
 ---
 title: Attribution de canaux - Dernier FP
-description: Découvrez l’attribution de canaux et le partage des journées.
+description: Découvrez l’attribution de canaux et les tranches horaires.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 47%
+source-wordcount: '1458'
+ht-degree: 45%
 
 ---
 
@@ -40,11 +40,11 @@ Pour configurer un projet et un canal, procédez comme suit :
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Consultez [Création et gestion des projets](creating-a-screens-project.md) pour savoir comment créer un projet AEM Screens.
+   >Voir [Création et gestion de projets](creating-a-screens-project.md) pour savoir comment créer un projet AEM Screens.
 
 1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux**.
 
-1. Sélectionnez le canal, puis sélectionnez **Modifier** à partir de la barre d’actions.
+1. Sélectionnez le canal, puis cliquez sur **Modifier** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -60,7 +60,7 @@ Pour configurer un projet et un canal, procédez comme suit :
 
 Une fois la configuration du projet terminée, vous devez attribuer le canal à un affichage pour afficher le contenu.
 
-1. Accédez à l’affichage requis, par exemple, . **DémoScreens** > **Emplacements** > **San José** > **Hall**.
+1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
@@ -84,7 +84,7 @@ Une fois la configuration du projet terminée, vous devez attribuer le canal à 
    >
    >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
 
-1. À partir du **Planification** , sélectionnez **Fenêtre d’activation** et **Planning de récurrence**.
+1. Dans la **Planification** , sélectionnez l’option **Fenêtre d’activation** et **Planning de périodicité**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -97,9 +97,9 @@ Une fois la configuration du projet terminée, vous devez attribuer le canal à 
 
 Cet exemple présente une sortie sur un lecteur Chrome. Une fois le canal attribué à votre écran, vous devez enregistrer l’appareil sur un lecteur.
 
-Voir [Enregistrement des appareils](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
+Voir [Enregistrement de périphérique](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
 
-Vous pouvez afficher la sortie suivante en fonction du lecteur de votre choix :
+Vous pouvez afficher la sortie suivante sur le lecteur de votre choix :
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -109,7 +109,7 @@ Une fois un canal attribué à un affichage et un planning de périodicité conf
 
 Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie :
 
-1. Accédez à l’affichage requis, par exemple, . **DémoScreens** > **Emplacements** > **San José** > **Hall**.
+1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
 1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
 
@@ -129,12 +129,12 @@ Les propriétés suivantes sont définies à partir de l’option **Paramètres*
 
 La sélection d’un canal vous permet de fournir une référence au canal souhaité, soit par nom de canal, soit par chemin de canal.
 
-* **Par chemin** - Vous fournissez une référence explicite à l’aide du chemin d’accès absolu du canal.
-* **Par nom** - Vous saisissez le nom du canal qui est résolu sur un canal réel par contexte. Cette fonctionnalité vous permet de créer une version locale d’un canal afin de résoudre dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
+* **Par chemin** - Vous fournissez une référence explicite à l’aide du chemin absolu du canal.
+* **Par nom** - Vous saisissez le nom du canal qui correspond à un canal réel en fonction du contexte. Cette fonctionnalité vous permet de créer une version locale d’un canal afin que vous puissiez résoudre dynamiquement le contenu spécifique à un emplacement. Par exemple, un canal portant le nom *offres du jour*, dont le contenu serait différent dans deux villes, mais avec le même rôle de canal sur tous les affichages.
 
 ### Rôle du canal {#role-channel}
 
-Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par différentes actions et est indépendant du canal réel qui remplit le rôle.
+Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions et est indépendant du canal qui remplit le rôle.
 
 ### Priorité {#priority-channel}
 
@@ -142,34 +142,34 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 >[!NOTE]
 >
->La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés en fonction de la priorité décroissante.
+>La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. En outre, les canaux attribués sont triés en fonction de leur priorité descendante.
 
 ### Événements pris en charge {#supported-events-channel}
 
-* **Charge Initiale** - Charge le canal au démarrage du lecteur. Il peut être affecté à plusieurs canaux avec un planning.
-* **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être affecté à plusieurs canaux avec un planning.
-* **Minuteur** - Doit être défini lorsqu’une planification est fournie.
-* **Interaction utilisateur** - Le lecteur bascule sur le canal spécifié s’il y a une interaction de l’utilisateur à l’écran (toucher) dans un canal inactif et se charge lorsque l’écran est touché.
+* **Charge initiale** charge le canal au démarrage du lecteur. Il peut être attribué à plusieurs canaux avec une planification.
+* **Écran inactif** charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux avec une planification.
+* **Minuteur** - Doit être défini lorsqu’un planning est fourni.
+* **Interaction de l’utilisateur** - Le lecteur bascule vers le canal spécifié s’il y a une interaction de l’utilisateur à l’écran (tactile) dans un canal inactif et se charge lorsque l’écran est touché.
 
 ### Méthode d’interruption {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or-->Pack de fonctionnalités 4 d’AEM 6.5.
+> Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
-En tant qu’auteur de contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela permet de choisir de couper le contenu non critique. Mais elle vous donne également la possibilité de laisser le contenu important être lu en entier avant de le couper à cause de la planification.
+En tant qu’auteur de contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de choisir de couper le contenu non essentiel. Mais il vous offre également la possibilité de laisser l’important contenu lire en intégralité avant de le réduire rapidement en raison de la planification.
 
 Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la boîte de dialogue **Attribution de canaux** :
 
-* **Immédiatement** - Chaque fois que le planning est activé ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et actualiser ou lire immédiatement le nouveau contenu
-* **Fin de l&#39;élément actif** - Lorsqu’un nouveau planning est activé ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre la fin de la lecture de l’élément actif de la séquence. Ensuite, vous pourrez uniquement actualiser ou lire le nouveau contenu.
+* **Immédiatement** - Lorsque la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
+* **Fin de l’élément actif** - Lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre la fin de la lecture de l’élément actuel dans la séquence. Ensuite, vous pouvez actualiser ou lire le nouveau contenu uniquement après cela.
 
   >[!NOTE]
   >Cette option est sélectionnée par défaut.
 
-* **À la fin de la séquence** - Lorsqu’un nouveau planning est activé ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre que la séquence entière atteigne sa fin. Ensuite, juste avant la séquence souhaitée, vous pouvez revenir au premier élément, actualiser ou lire le nouveau contenu.
+* **À la fin de la séquence** - Lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre que la séquence entière arrive à sa fin. Ensuite, juste avant la séquence souhaitée, vous pouvez revenir au premier élément, l’actualiser ou lire le nouveau contenu.
 
   >[!NOTE]
-  >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies sur l’affectation. La raison est que le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de s’actualiser. Le délai dépend de la durée de lecture de l’élément.
+  >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planification définies sur l’affectation. Cela est dû au fait que le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
 Les propriétés suivantes sont définies à partir de l’option **Planification** de la boîte de dialogue **Attribution de canaux**.
 
@@ -177,52 +177,52 @@ Les propriétés suivantes sont définies à partir de l’option **Planificatio
 
 ### Fenêtre d’activation {#activation-window}
 
-La fenêtre d’activation permet de sélectionner une **Date de début** et un **Date de fin** pour afficher votre contenu.
+La fenêtre d’activation vous permet de sélectionner une **Date de début** et un **Date de fin** pour afficher votre contenu.
 
 ### Planning de périodicité {#recurrence-schedule}
 
-La planification de récurrences vous permet de définir une planification de récurrences pour votre contenu. Sélectionner **+ Ajouter un planning** pour ajouter une planification de récurrences à votre canal.
+Le Planning de périodicité permet de définir une planification récurrente pour votre contenu. Sélectionner **+ Ajouter une planification** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Les plannings de périodicité introduisent *Partage des jours* vous pouvez ainsi définir une planification globale avec plusieurs canaux s’exécutant à des moments spécifiques de la journée et réutiliser simultanément cette configuration pour tous vos affichages.
+>Les plannings de périodicité s’affichent *Tranches horaires* qui vous permet de définir une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser simultanément ces canaux configurés pour tous vos affichages.
 
 Vous pouvez configurer les options suivantes :
 
-* **Nom** - Titre de votre planification de récurrences.
-* **Répéter** - Choisissez si le planning s’exécute **Quotidienne**, **Hebdomadaire**, **Mensuel**, ou **Annuel**.
-* **Démarrer** - Heure de début de votre planning.
-* **Fin** - Heure de fin de votre planning. Vous pouvez le définir par heure ou par durée.
+* **Nom** - Titre de votre planning de périodicité.
+* **Répéter** - Choisissez si la planification s’exécute **Qualité**, **Hebdomadaire**, **Mensuel**, ou **Annuel**.
+* **Début** - L’heure de début de votre planning.
+* **Fin** - L’heure de fin de votre planning. Vous pouvez le définir par heure ou par durée.
    * **Heure** - Le planning se termine à une heure spécifiée.
-   * **Durée** - Le planning s’exécute pendant une durée spécifique, en heures ou minutes.
+   * **Durée** - Le planning s’exécute pendant une durée spécifique en heures ou en minutes.
 
 ### Tranches horaires {#dayparting}
 
-Le Partage de journée consiste à fractionner une journée en plages horaires et à spécifier le contenu lu à l’heure souhaitée. AEM Screens vous permet de planifier les canaux en termes de Partage de jour au cours d’un jour, d’une semaine ou d’un mois, selon vos besoins.
+Les tranches horaires consistent à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois, selon vos besoins.
 
 Les exemples suivants présentent les tranches horaires dans les canaux selon trois scénarios différents :
 
 #### Diffusion du contenu au cours d’une même journée divisée en plusieurs tranches horaires {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Cet exemple montre comment un restaurant utilise DayParting pour présenter son menu du petit-déjeuner, du déjeuner et du dîner tous les jours.
+Cet exemple illustre la manière dont un restaurant utilise les tranches horaires pour afficher chaque jour le menu du petit déjeuner, du déjeuner et du dîner.
 
-Ici, chaque jour est divisé en différents créneaux horaires, de sorte que le contenu du canal soit lu selon l’heure spécifiée de la journée. Définissez les propriétés suivantes du planning de périodicité pour que votre canal lise le contenu conformément à ce cas d’utilisation.
+Ici, chaque jour est divisé en différents créneaux horaires, de sorte que le contenu du canal soit diffusé selon l’heure spécifiée. Définissez les propriétés suivantes du planning de périodicité pour que votre canal lise le contenu conformément à ce cas d’utilisation.
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
 | Petit déjeuner | Quotidienne | 06:00 | 11:00 |
-| Déjeuner | Quotidienne | 11:00 | 15:00 |
-| Dîner | Quotidienne | 15:00 | 20 H |
+| Déjeuner | Quotidienne | 11:00 | 15 heures |
+| Dîner | Quotidienne | 15 heures | 20 h |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le DayParting implémenté dans un casino où un événement en direct se produit tous les week-ends de 20h00 à 22h00 et où des plats spéciaux sont disponibles pour le menu du dîner après 22h00 à 1h00.
+Cet exemple présente les tranches horaires mises en oeuvre dans un casino où un événement se produit en direct chaque week-end à partir de 20 h et jusqu’à 22 h, et les plats du jour sont disponibles pour le menu du dîner après 22 h et jusqu’à 1 h du matin.
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Week-end | Hebdomadaire : samedi et dimanche | 20 H | 22 H |
-| Plats du jour | Tous les jours : du lundi au vendredi | 22 H | 01:00 |
+| Week-end | Hebdomadaire : samedi et dimanche | 20 h | 22 h |
+| Plats du jour | Quotidien : du lundi au vendredi | 22 h | 1:00 |
 
 >[!NOTE]
 >
->Vous pouvez également définir ***Priorité*** pour chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur minimale de la priorité peut être définie sur 0.
+>Vous pouvez également définir ***Priorité*** pour chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur minimale de priorité peut être définie sur 0.

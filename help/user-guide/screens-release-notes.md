@@ -13,10 +13,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 92%
+source-wordcount: '251'
+ht-degree: 70%
 
 ---
 
@@ -34,14 +34,14 @@ La date de publication pour AEM Screens Feature Pack 201809 est le 1er octobre�
 
 ### Nouveautés {#what-s-new}
 
-* **Reporting de preuve de lecture Adobe Analytics** : Pour en savoir plus, reportez-vous à [Intégration d’Adobe Analytics avec AEM Screens](adobe-analytics-integration-aem-screens.md).
+* **Création de rapports de preuve de lecture Adobe Analytics**: Voir [Intégration d’Adobe Analytics à AEM Screens](adobe-analytics-integration-aem-screens.md) pour en savoir plus.
 
-* **Adobe Analytics permet aux lecteurs de mettre en cache et d’envoyer des événements de lecture à Adobe Analytics** : pour en savoir plus, consultez [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md).
+* **Adobe Analytics Permet aux lecteurs de mettre en cache et d’envoyer des événements de lecture à Adobe Analytics**: Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour en savoir plus.
 
-* **Mise à jour en bloc du contenu hors ligne** : vous permet de mettre à jour tous les canaux en bloc, sans avoir à accéder à un canal particulier pour en mettre à jour le contenu. Pour en savoir plus, consultez la [Mise à jour hors ligne en bloc](bulk-offline-update.md).
+* **Mise à jour en bloc du contenu hors ligne** : vous permet de mettre à jour tous les canaux en bloc, sans avoir à accéder à un canal particulier pour en mettre à jour le contenu. Voir [Mise à jour hors ligne en bloc](bulk-offline-update.md) pour en savoir plus.
 
 * **Publication de canaux en bloc pour publier des instances**
-* **Mécanisme amélioré de journalisation du lecteur** : vous pouvez spécifier le nombre maximal de fichiers journaux pour un lecteur AEM Screens. Pour plus d’informations, reportez-vous à [Utilisation d’un lecteur AEM Screens](working-with-screens-player.md).
+* **Mécanisme amélioré de journalisation du lecteur** : vous pouvez spécifier le nombre maximal de fichiers journaux pour un lecteur AEM Screens. Voir [Utilisation d’un lecteur AEM Screens](working-with-screens-player.md) pour plus d’informations.
 
 * **Créer/publier déploiement (Renforcement)**
 

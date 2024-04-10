@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 97%
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >
 >Lorsque vous utilisez la fonction de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre zone géographique (y compris, mais sans s’y limiter, en indiquant clairement aux utilisateurs finaux que le lecteur utilise la reconnaissance vocale). Adobe Inc., ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API vocale web standard intégrée au moteur de navigation. En arrière-plan, cette API envoie une forme d’onde de votre voix aux serveurs de Google pour la convertir en texte. Ce texte est ensuite comparé par le lecteur à des mots-clés configurés.
 >
->Pour plus d’informations, consultez le [livre blanc de Google relatif à la confidentialité concernant l’API vocale web](https://www.google.com/chrome/privacy/whitepaper.html#speech).
+>Voir [Livre blanc sur la confidentialité de Google sur l’API vocale web](https://www.google.com/chrome/privacy/whitepaper.html#speech) pour plus d’informations.
 
 
 La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
@@ -49,7 +49,7 @@ Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir 
 
    >[!NOTE]
    >
-   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md).
+   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md)
 
    Ou,
 
@@ -173,7 +173,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
 Une fois les étapes précédentes effectuées, vous pouvez enregistrer votre appareil Chrome pour afficher la sortie.
 
 >[!NOTE]
->Voir [Enregistrement des appareils](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
+>Voir [Enregistrement de périphérique](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
 
 **Sortie désirée du canal de séquence**
 

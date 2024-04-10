@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '982'
+ht-degree: 97%
 
 ---
 
@@ -112,4 +112,4 @@ Une fois qu’un appareil a été enregistré dans l’environnement de créatio
 
 ### Étapes suivantes {#the-next-steps}
 
-Une fois que vous aurez compris la conception architecturale de la configuration de l’auteur et de la publication dans AEM Screens, reportez-vous à la section [Configuration de l’auteur et de la publication pour AEM Screens](author-and-publish.md) pour plus d’informations.
+Une fois que vous avez compris la conception architecturale de la configuration de création et de publication dans AEM Screens, reportez-vous à la section [Configuration de la création et de la publication pour AEM Screens](author-and-publish.md) pour plus d’informations.

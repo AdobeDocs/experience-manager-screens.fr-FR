@@ -1,18 +1,18 @@
 ---
 title: Application de transitions
-seo-title: Application de transitions
+seo-title: Applying Transitions
 description: Consultez cette page pour apprendre comment appliquer des transitions à vos projets Screens.
-seo-description: Consultez cette page pour apprendre comment appliquer des transitions à vos projets Screens.
+seo-description: Follow this page to learn how to apply transitions to your Screens projects.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Cette section décrit comment vous pouvez appliquer le composant **Transition** 
 
 >[!CAUTION]
 >
->Pour en savoir plus sur les propriétés du composant **Transition**, reportez-vous à [Transitions](adding-components-to-a-channel.md#transition).
+>Pour en savoir plus sur les propriétés de la variable **Transition** composant, voir [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Ajout d’un composant Transition aux ressources dans un canal {#adding-transition}
 

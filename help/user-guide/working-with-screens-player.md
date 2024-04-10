@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 56%
+source-wordcount: '1057'
+ht-degree: 55%
 
 ---
 
@@ -187,7 +187,7 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
    <td><p>8 Go de mémoire</p> <p>4 Mo de cache</p> </td>
    <td>128 Go</td>
    <td>Intégré</td>
-   <td>3840 x 2160 (4K)</td>
+   <td>3 840 x 2 160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 2 x USB</td>
    <td>
     <ul>
@@ -202,7 +202,7 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
    <td><p>16 Go de mémoire</p> <p>8 Mo de cache</p> </td>
    <td>256 Go</td>
    <td>Carte graphique dédiée</td>
-   <td>3840 x 2160 (4K)</td>
+   <td>3 840 x 2 160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 4 x USB</td>
    <td>
     <ul>

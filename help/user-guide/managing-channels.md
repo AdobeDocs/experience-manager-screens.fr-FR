@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 56%
+source-wordcount: '1258'
+ht-degree: 54%
 
 ---
 
@@ -84,7 +84,7 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 1. Cliquez sur **Modifier** dans le coin supérieur gauche de la barre d’actions afin de pouvoir modifier les propriétés du canal. L’éditeur s’ouvre. Il vous permet d’ajouter des ressources/composants à votre canal que vous souhaitez publier.
 
 >[!NOTE]
->Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour en savoir plus.
+>Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour plus d’informations.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -233,7 +233,7 @@ Les affichages associés sont répertoriés dans la **Affichages attribués** , 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->Pour en savoir plus sur la création d’un affichage à un emplacement donné, consultez :
+>Pour en savoir plus sur la création d’un affichage à un emplacement donné, voir :
 >
 >* [Création et gestion des emplacements](managing-locations.md)
 >* [Création et gestion des affichages](managing-displays.md)

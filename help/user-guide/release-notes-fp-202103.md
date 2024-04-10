@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 57%
+source-wordcount: '385'
+ht-degree: 50%
 
 ---
 
@@ -33,7 +33,7 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
   L’enregistrement en masse de milliers de lecteurs manuellement est fastidieux et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé pré-partagée dans AEM. Cette clé peut être configurée dans un lecteur via un fichier de configuration ou une solution de gestion des périphériques mobiles (MDM).
 
-  Pour plus d’informations, consultez [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md).
+  Voir [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md) pour plus d’informations.
 
 
 * **Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise**
@@ -69,6 +69,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 7�
 * Windows
 * Linux®
 
-#### Téléchargements du lecteur AEM Screens 
+#### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 62%
+source-wordcount: '679'
+ht-degree: 58%
 
 ---
 
@@ -55,8 +55,8 @@ Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentie
 
 >[!NOTE]
 >
->* Pour activer le **filtre de référents Apache Sling**, voir [Autorisation des requêtes de référents vides](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* Pour activer le service **HTTP**, reportez-vous au [service HTTP Apache Felix Jetty](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Pour activer la variable **Filtre de référent Apache Sling**, voir [Autorisation des requêtes de référents vides](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Pour activer la variable **HTTP** service, voir [Service HTTP Apache Felix Jetty](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 ### Prérequis {#prerequisites}
 

@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 97%
+source-wordcount: '776'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md).
+   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md)
 
    Le canal contient le contenu suivant, comme illustré ci-dessous.
 
@@ -70,7 +70,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment enregistrer un appareil, consultez [Enregistrement d’appareil](/help/user-guide/device-registration.md).
+   >Pour savoir comment enregistrer un appareil, voir [Enregistrement de périphérique](/help/user-guide/device-registration.md)
 
 1. À des fins de démonstration, cet exemple présente un appareil Chrome et un lecteur Windows comme deux appareils distincts. Les deux appareils pointent vers le même affichage.
    ![image1](assets/command-sync6.png)

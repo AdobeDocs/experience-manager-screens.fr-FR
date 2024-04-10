@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '461'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ Si **Restaurant1** > **Restaurant2**, la valeur affectée à **AdTarget** est de
 
 Avant de commencer à mettre en œuvre l’activation de la réservation, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation d’audience*** et l’***activation du ciblage pour les canaux*** dans un projet AEM Screens.
 
-Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
+Voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
 ## Flux de base {#basic-flow}
 
@@ -49,7 +49,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation des réservations
 
 1. **Configuration des segments dans les audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** dans la page **[Configuration de ContextHub dans la AEM Screens](configuring-context-hub.md)** pour plus d’informations).
+   1. Accédez aux segments de votre audience (voir ***Étape 2 : configuration de la segmentation de l’audience*** in **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
    1. Sélectionnez **Sheets A1 1** et cliquez sur **Modifier**.
 

@@ -1,10 +1,10 @@
 ---
 title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 53%
+source-wordcount: '190'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur 
 
 >[!NOTE]
 >
->Pour savoir comment utiliser la mise à jour hors ligne groupée, voir [Mise à jour de contenu en tant que service](/help/user-guide/content-update-as-a-service.md).
+>Pour savoir comment utiliser la mise à jour hors ligne en bloc, voir [Mise à jour de contenu en tant que service](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuration d’un workflow de placement direct {#configuring-workflow}
 

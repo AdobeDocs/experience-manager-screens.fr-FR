@@ -2,10 +2,10 @@
 title: Présentation et configurations de l’architecture des rendus adaptatifs
 description: Cette page décrit les configurations et l’aperçu de l’architecture dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 1. Vous devez ajouter la propriété d’expression avec la valeur contenant l’expression de la requête.
 
    >[!NOTE]
-   >Pour en savoir plus, voir [Utilisation de la syntaxe de requête multimédia](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries).
+   >Voir [Utilisation de la syntaxe des requêtes de média](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries) pour en savoir plus.
 
    Cliquez sur la **règle1** que vous avez créée, puis saisissez **expression** dans **Nom** et **(orientation:paysage)** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 

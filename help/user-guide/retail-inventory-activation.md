@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+source-wordcount: '630'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu apparaît à l�
 
 Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
 
-Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
+Voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
 ## Flux de base {#basic-flow}
 
@@ -50,7 +50,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
 1. **Configuration des audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** sur la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
+   1. Accédez aux segments de votre audience (voir ***Étape 2 : configuration de la segmentation de l’audience*** in **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
    1. Ajoutez trois nouveaux segments **For_Red**, **For_Green** et **For_Blue**.
 

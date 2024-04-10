@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 47%
+source-wordcount: '1402'
+ht-degree: 46%
 
 ---
 
@@ -27,14 +27,14 @@ AEM Screens fournit différents composants AEM qui peuvent être utilisés dan
 
 ### Affichage des composants AEM Screens {#viewing-aem-screens-components}
 
-Chaque fois que vous créez un projet AEM Screens, la liste des composants par défaut qui peuvent être ajoutés au projet s’affiche.
+Chaque fois que vous créez un projet AEM Screens, vous voyez une liste de composants par défaut qui peuvent être ajoutés au projet.
 
 Pour afficher les composants par défaut dans le projet Screens, procédez comme suit :
 
 1. Sélectionnez le canal. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
 
-1. Sélectionner **Modifier** à partir de la barre d’actions.
-1. Dans l’éditeur AEM, sélectionnez **+** dans la barre latérale.
+1. Sélectionner **Modifier** dans la barre d’actions.
+1. Dans l’éditeur d’AEM, sélectionnez la variable **+** dans la barre latérale.
 1. Tous les composants fournis par défaut dans un projet AEM Screens s’affichent, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,11 +45,11 @@ AEM fournit plusieurs autres composants. Vous pouvez toujours ajouter d’autres
 
 L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AEM Screens :
 
-1. Sélectionnez le canal dans lequel vous souhaitez ajouter un composant. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
+1. Sélectionnez le canal auquel vous souhaitez ajouter un composant. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
 
-1. Sélectionner **Modifier** à partir de la barre d’actions.
+1. Sélectionner **Modifier** dans la barre d’actions.
 1. Sélectionnez le mode **Conception**.
-1. Sélectionnez l’éditeur de conception complet à droite, puis sélectionnez le symbole des paramètres pour ouvrir le **Conception du système de paragraphes (Parsys)** boîte de dialogue.
+1. Sélectionnez l’ensemble de l’éditeur de conception à droite, puis sélectionnez le symbole des paramètres afin d’ouvrir le **Parsys Design** de la boîte de dialogue
 1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant montre l’ajout d’un composant **Livefyre** à un projet AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
@@ -68,7 +68,7 @@ La section suivante décrit les composants AEM Screens que vous pouvez utiliser
 
 ### Application {#application}
 
-Le **Application** vous permet d’ajouter une application à votre canal.
+La variable **Application** vous permet d’ajouter une application à votre canal.
 
 Le composant Application présente les propriétés suivantes :
 
@@ -83,11 +83,11 @@ L’exemple suivant illustre la manière dont un composant d’application doit 
 
 >[!NOTE]
 >
->Reportez-vous à l’exemple ci-dessus pour afficher les propriétés de chacun des composants suivants.
+>Consultez l’exemple ci-dessus pour afficher les propriétés de chacun des composants ci-dessous.
 
 ### Canal {#channel}
 
-Le **Canal** vous permet d’ajouter un canal entier à votre projet.
+La variable **Canal** vous permet d’ajouter un canal entier à votre projet.
 
 Le composant Canal possède les propriétés suivantes :
 
@@ -103,14 +103,14 @@ Le composant Canal possède les propriétés suivantes :
   </tr>
   <tr>
    <td><strong><em>Durée (millisecondes)</em></strong></td>
-   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute sur toute sa longueur dans un canal particulier.</td>
+   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute pendant toute sa durée dans un canal particulier.</td>
   </tr>
  </tbody>
 </table>
 
 ### Page incorporée {#embedded-page}
 
-Une **Page incorporée** vous permet d’ajouter une page incorporée à votre projet. Par exemple, il peut s’agir d’une application web ou d’un catalogue de produits.
+Un **Page incorporée** vous permet d’ajouter une page incorporée à votre projet. Par exemple, il peut s’agir d’une application web ou d’un catalogue de produits.
 
 La page incorporée présente les propriétés suivantes :
 
@@ -126,7 +126,7 @@ La page incorporée présente les propriétés suivantes :
   </tr>
   <tr>
    <td><strong><em>Durée (millisecondes)</em></strong></td>
-   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute sur toute sa longueur dans un canal particulier.</td>
+   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute pendant toute sa durée dans un canal particulier.</td>
   </tr>
  </tbody>
 </table>
@@ -135,11 +135,11 @@ La page incorporée présente les propriétés suivantes :
 
 >[!NOTE]
 >
->Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création de Screens .
+>Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création dans Screens .
 
-Une séquence incorporée vous permet d’ajouter un canal de séquence incorporé dans votre canal existant (avec d’autres ressources).
+Une séquence incorporée permet d’ajouter un canal de séquence incorporée dans votre canal existant (avec d’autres ressources).
 
-La séquence incorporée possède les propriétés de page suivantes :
+La séquence incorporée présente les propriétés de page suivantes :
 
 <table>
  <tbody>
@@ -153,20 +153,20 @@ La séquence incorporée possède les propriétés de page suivantes :
   </tr>
   <tr>
    <td><strong><em>Durée (millisecondes)</em></strong></td>
-   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute sur toute sa longueur dans un canal particulier.</td>
+   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute pendant toute sa durée dans un canal particulier.</td>
   </tr>
   <tr>
    <td><strong><em>Stratégie</em></strong></td>
-   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. Définition de la valeur sur <strong>original</strong> signifie que la sous-séquence s’exécute entièrement à chaque cycle de la séquence parent. L’autre valeur possible est . <strong>célibataire</strong>. Cette valeur n’affiche qu’un seul élément de la sous-séquence pour chaque exécution. Par exemple, le premier élément de la première boucle et le deuxième élément de la deuxième boucle.</td>
+   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. Définir la valeur sur <strong>original</strong> signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est <strong>single</strong>. Cette valeur n’affiche qu’un élément de la séquence secondaire à chaque exécution. Par exemple, le premier élément de la première boucle et le second élément de la deuxième boucle.</td>
   </tr>
  </tbody>
 </table>
 
 ### Séquence incorporée dynamique {#dynamic-embedded-sequence}
 
-Une séquence incorporée dynamique vous permet d’ajouter une séquence similaire à celle mentionnée ci-dessus, sauf par rôle de canal.
+Une séquence incorporée dynamique permet d’ajouter une séquence similaire à la séquence mentionnée ci-dessus, sauf par rôle de canal.
 
-Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création de Screens .
+Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création dans Screens .
 
 La séquence incorporée dynamique présente les propriétés suivantes :
 
@@ -182,18 +182,18 @@ La séquence incorporée dynamique présente les propriétés suivantes :
   </tr>
   <tr>
    <td><strong><em>Durée (millisecondes)</em></strong></td>
-   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute sur toute sa longueur dans un canal particulier.</td>
+   <td>Sélectionnez la durée complète du canal. La définition de la durée sur -1 indique que le canal incorporé s’exécute pendant toute sa durée dans un canal particulier.</td>
   </tr>
   <tr>
    <td><strong><em>Stratégie</em></strong></td>
-   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. Définition de la valeur sur <strong>original</strong> signifie que la sous-séquence s’exécute entièrement à chaque cycle de la séquence parent. L’autre valeur possible est . <strong>célibataire</strong>. Cette valeur n’affiche qu’un seul élément de la sous-séquence pour chaque exécution. Par exemple, le premier élément de la première boucle et le deuxième élément de la deuxième boucle.</td>
+   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. Définir la valeur sur <strong>original</strong> signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est <strong>single</strong>. Une telle valeur n’afficherait qu’un seul élément de la séquence secondaire à chaque exécution. Par exemple, le premier élément de la première boucle et le second élément de la deuxième boucle.</td>
   </tr>
  </tbody>
 </table>
 
 ### Fragment d’expérience {#experience-fragment}
 
-Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (groupe d’un ou de plusieurs composants, y compris un contenu et une disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Faites glisser et déposez le composant dans l’éditeur AEM et sélectionnez le fragment d’expérience.
+Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (groupe d’un ou de plusieurs composants, y compris le contenu et la disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Faites glisser le composant et déposez-le dans AEM’éditeur, puis sélectionnez le fragment d’expérience.
 
 Pour en savoir plus sur la création d’un fragment d’expérience et son application à un projet AEM Screens, voir [Utilisation de fragments d’expérience](experience-fragments-in-screens.md).
 
@@ -206,17 +206,17 @@ Pour en savoir plus sur la création d’un fragment d’expérience et son appl
 | ***Durée.*** | Sélectionnez la durée complète du fragment d’expérience lu dans le canal. |
 | **Configuration hors ligne** |
 | ***Bibliothèques côté client*** | Fichiers JavaScript et CSS. |
-| ***Fichiers statiques*** | Fichiers statiques que vous pouvez ajouter comme configurations hors ligne à votre fragment d’expérience. |
+| ***Fichiers statiques*** | Fichiers statiques que vous pouvez ajouter en tant que configurations hors ligne à votre fragment d’expérience. |
 
 >[!NOTE]
 >
->Le **Bibliothèques côté client** et le **Fichiers statiques** que vous ajoutez à partir de ce composant s’ajoutent aux déjà configurés **Bibliothèques côté client** et les fichiers statiques qui sont ajoutés à partir des fragments d’expérience **Propriétés**.
+>La variable **Bibliothèques côté client** et la variable **Fichiers statiques** que vous ajoutez à partir de ce composant s’ajoutent aux **Bibliothèques côté client** et les fichiers statiques ajoutés à partir du fichier **Propriétés**.
 
 ### Image {#image}
 
-Une image vous permet d’ajouter une image à votre canal.
+Une image permet d’ajouter une image à votre canal.
 
-La ressource image comporte trois onglets, à savoir **Image**, **Accessibilité**, et **Séquence**:
+La ressource image comporte trois onglets, à savoir : **Image**, **Accessibilité**, et **Séquence**:
 
 | **Propriété** | **Description** |
 |---|---|
@@ -227,7 +227,7 @@ La ressource image comporte trois onglets, à savoir **Image**, **Accessibilité
 | ***Description*** | Brève description de l’image. |
 | ***Taille*** | Taille de l’image. |
 | **Accessibilité** |
-| ***Texte de remplacement*** | Texte secondaire de l’image. |
+| ***Texte de remplacement*** | Texte de remplacement de l’image. |
 | **Séquence** |
 | ***Durée*** | Par défaut, la durée est définie sur *8 000 millisecondes*. Si vous souhaitez modifier la durée de lecture de l’image, mettez à jour le champ **Durée**. |
 
@@ -239,7 +239,7 @@ L’illustration suivante représente le composant de transition (ajouté par gl
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Sélectionnez l’icône de transition, puis le **Configurer** (icône clé à molette) pour ouvrir le **Transition** boîte de dialogue. Cette boîte de dialogue comprend trois onglets :
+Sélectionnez l’icône de transition et sélectionnez le **Configurer** (icône de clé à molette) pour ouvrir la **Transition** de la boîte de dialogue Cette boîte de dialogue comprend trois onglets :
 
 * **Transition**
 * **Séquence**
@@ -247,7 +247,7 @@ Sélectionnez l’icône de transition, puis le **Configurer** (icône clé à m
 
 >[!NOTE]
 >
->Par défaut, la séquence est définie sur 600 millisecondes. Vous pouvez mettre à jour la séquence de transition vers d’autres valeurs à l’aide du **Séquence** onglet.
+>Par défaut, la séquence est définie sur 600 millisecondes. Vous pouvez mettre à jour la séquence de transition vers d’autres valeurs à l’aide du **Séquence** .
 
 ![Transition](assets/transition.gif)
 
@@ -324,7 +324,7 @@ Le composant vidéo présente les propriétés suivantes :
   </tr>
   <tr>
    <td><em><strong>Création de rendu</strong></em></td>
-   <td><p>Si le rapport d’aspect de la vidéo ne correspond pas à l’écran, vous pouvez modifier le rendu à l’aide des options <strong>Contenir</strong> ou <strong>Couverture</strong>.</p> <p><em>Contient</em> signifie que la vidéo complète s’affiche et que les zones manquantes sont complétées par une bordure noire.</p> <p><em>Couverture</em> signifie que la vidéo couvre toute la fenêtre d’affichage, mais que certaines parties qui débordent sur les côtés sont masquées.</p> </td>
+   <td><p>Si le rapport d’aspect de la vidéo ne correspond pas à l’écran, vous pouvez modifier le rendu à l’aide des options <strong>Contenir</strong> ou <strong>Couverture</strong>.</p> <p><em>Contenir</em> signifie que la vidéo complète s’affiche et que les zones manquantes sont remplies d’une bordure noire.</p> <p><em>Couverture</em> signifie que la vidéo couvre toute la fenêtre d’affichage, mais que certaines parties qui débordent sur les côtés sont masquées.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Taille</strong></em></td>

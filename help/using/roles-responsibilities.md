@@ -1,15 +1,15 @@
 ---
 title: Rôles et responsabilités du projet AEM Screens
-seo-title: Rôles et responsabilités du projet AEM Screens
+seo-title: AEM Screens Project Roles  and Responsibilities
 description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-seo-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1263'
-ht-degree: 100%
+seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+exl-id: 9377625b-529a-4b46-89d9-f526de398639
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 97%
 
 ---
-
 
 # Rôles du projet et responsabilités {#roles-responsibilities}
 
@@ -17,7 +17,7 @@ En tant qu’implémentateur expérimenté d’AEM, les rôles *Auteurs*, *Déve
 
 Dans AEM Screens, la définition des rôles est encore plus précise ; chacun d’eux joue, en effet, un rôle important dans un projet type.
 
-Le diagramme ci-dessous montre les rôles auxquels nous ferons référence tout au long de ce guide.
+Le diagramme ci-dessous montre les rôles que nous verrons tout au long du guide.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -158,7 +158,7 @@ Le tableau suivant résume la **mise en œuvre du projet (état de préparation 
 |---|---|---|---|---|
 | Commande et stockage du matériel | RA | I | I | I |
 | Calendrier des activités d’intégration du point de vente | I | I | C | RA |
-| Organisation des tests d’acceptation utilisateur | I | C | RA |  |
+| Organisation des tests d’acceptation utilisateur | I | C | RA |   |
 | Configuration groupée du matériel | RA | I | C | I |
 | Accord sur l’assistance après le lancement | RA | C | RA | C |
 

@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour du Feature Pack 201907
-seo-title: Notes de mise à jour du Feature Pack 201907
+seo-title: Release Notes for Feature Pack 201907
 description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201907, publié le mercredi 31 juillet 2019.
-seo-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 201907, publié le mercredi 31 juillet 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,22 +10,22 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-feature: Feature Pack
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '386'
-ht-degree: 100%
+exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 84%
 
 ---
-
 
 # Notes de mise à jour du Feature Pack 201907 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 AEM Screens a publié AEM 6.4.5 Feature Pack 5 et AEM 6.5.1 Feature Pack 1 avec les détails suivants.
 
@@ -39,7 +39,7 @@ La date de publication d’AEM Screens Feature Pack 201907 est le mercredi 31 
 
 Le lecteur passe sur un canal qui présente les informations d’urgence sur réception d’un événement déclenché par le système d’urgence. Ce canal est le seul lu jusqu’à la fin de la situation d’urgence.
 
-Consultez le cas d’utilisation [Canal d’urgence](emergency-channel.md) pour la mise en œuvre.
+Voir [Canal d’urgence](emergency-channel.md) Cas d’utilisation de la mise en oeuvre.
 
 * Ciblage activé pour les composants asynchrones
 
@@ -61,14 +61,14 @@ Le gestionnaire de mise à jour analyse maintenant les fragments d’expérience
 
 * **Lancements**
 
-Les lancements permettent aux auteurs de contenu de créer une version ultérieure du ou des canaux. Avec l’aide des lancements, les auteurs peuvent prévisualiser chaque canal du lancement et doivent pouvoir lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les périphériques.
-Pour plus d’informations, voir [Lancements](launches.md).
+Les lancements permettent aux auteurs de contenu de créer une version ultérieure du ou des canaux. Avec l’aide des lancements, les auteurs peuvent prévisualiser chaque canal du lancement et doivent pouvoir lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les appareils.
+Voir [Lancements](launches.md) pour plus d’informations.
 
 * **Configurations hors ligne dans les fragments d’expérience**
 
-Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens. Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
+Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens. Voir [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés {#released-aem-screens-players}
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.5 Feature Pack 5 et AEM 6.5.1 Feature Pack 1 :
 
@@ -76,6 +76,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.5 Feature Pack 5 
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens  {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).

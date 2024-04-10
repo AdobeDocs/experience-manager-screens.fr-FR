@@ -5,23 +5,23 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 49%
 
 ---
 
 # Enregistrement automatique des lecteurs {#auto-registration}
 
-L’enregistrement en masse manuel de milliers de joueurs peut devenir fastidieux et augmenter le temps et les coûts. Pour simplifier ce processus, la fonction d’enregistrement en bloc vous permet de spécifier une clé prépartagée dans AEM qui peut être configurée dans un lecteur via un fichier de configuration ou une solution de gestion des appareils mobiles (MDM).
+L’enregistrement en masse de milliers de lecteurs manuellement peut devenir encombrant et ajouter du temps et des coûts. Pour simplifier ce processus, la fonction d’enregistrement en bloc vous permet de spécifier une clé pré-partagée dans AEM qui peut être configurée dans un lecteur via un fichier de configuration ou une solution de gestion des périphériques mobiles (MDM).
 
 ## Mise en œuvre de l’enregistrement automatique des lecteurs {#bulk-registering-implementation}
 
 Suivez les étapes ci-dessous pour mettre en œuvre l’enregistrement automatique des lecteurs :
 
-1. Connectez-vous à votre instance AEM, sélectionnez votre projet AEM Screens et cliquez sur **Propriétés** à partir de la barre d’actions.
-1. Sélectionner le **Avancé** afin de pouvoir afficher le **Enregistrement d’appareil** section.
+1. Connectez-vous à votre instance AEM et sélectionnez votre projet AEM Screens, puis cliquez sur **Propriétés** dans la barre d’actions.
+1. Sélectionnez la variable **Avancé** afin que vous puissiez afficher la **Enregistrement de périphériques** .
 
 1. Spécifiez un code d’enregistrement automatique dans le champ **Code d’enregistrement en bloc** et un affichage par défaut facultatif dans **Affectation d’affichage par défaut** pour les assigner au lecteur qui est enregistré automatiquement.
 
@@ -32,9 +32,9 @@ Suivez les étapes ci-dessous pour mettre en œuvre l’enregistrement automatiq
 1. Configurez vos lecteurs avec l’URL de serveur et le code d’enregistrement appropriés à l’aide d’un fichier MDM ou JSON de configuration.
 
    >[!NOTE]
-   >Pour plus d’informations, reportez-vous à la page de mise en œuvre du lecteur spécifique à votre système d’exploitation. Vous pouvez également utiliser l’interface utilisateur d’administration pour saisir le code d’enregistrement.
+   >Pour plus d’informations, consultez la page de mise en oeuvre du lecteur spécifique à votre système d’exploitation. Vous pouvez également utiliser l’interface utilisateur d’administration pour saisir le code d’enregistrement.
 
-1. Si le `registrationKey` L’attribut correspond à celui configuré dans AEM, le lecteur s’enregistre automatiquement et, si un affichage par défaut est configuré, le contenu est téléchargé et lu.
+1. Si la variable `registrationKey` correspond à celui configuré dans AEM, le lecteur s’enregistre automatiquement et, si un affichage par défaut est configuré, ce contenu est téléchargé et lu.
 
    ![image](/help/user-guide/assets/auto-registration/auto-register2.png)
 
@@ -42,7 +42,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre l’enregistrement automatiq
 
 Consultez la section ci-dessous pour connaître certaines des bonnes pratiques en matière de sécurité :
 
-* Assurez-vous que le code d’enregistrement n’est pas compromis : configurez le code dans AEM juste avant de commencer l’enregistrement en bloc et, une fois cette opération terminée, effacez ce champ et enregistrez-le dans AEM.
+* Assurez-vous que le code d’enregistrement n’est pas compromis. Configurez le code dans AEM juste avant de commencer l’enregistrement en masse. Une fois l’opération terminée, effacez ce champ et enregistrez-le dans AEM.
 
 * Si possible, vous pouvez configurer le chemin `/bin/screens/registration` pour qu’il soit accessible uniquement à partir de plages d’adresses IP connues.
 

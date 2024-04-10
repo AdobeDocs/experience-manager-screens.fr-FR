@@ -1,13 +1,13 @@
 ---
 title: Gestion du trafic réseau
 description: La page décrit les configurations de réseau standard et la gestion du trafic réseau.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
-
 
 # Gestion du trafic réseau {#managing-network-traffic}
 
@@ -21,7 +21,7 @@ Ce guide présente les serveurs proxy mis en œuvre par diverses structures de r
 
 ## Présentation des serveurs proxy {#proxy-servers}
 
-Une connexion Internet repose sur l’utilisation d’un serveur proxy. Un serveur proxy est un ordinateur dédié ou un système logiciel s’exécutant sur un ordinateur qui agit comme intermédiaire entre un terminal de point d’entrée, tel qu’un ordinateur, et un autre serveur à partir duquel un utilisateur ou un client demande un service. Le serveur proxy peut exister sur la même machine qu’un serveur de pare-feu ou sur un serveur distinct qui transfère les demandes par le biais du pare-feu.
+Une connexion Internet repose sur l’utilisation d’un serveur proxy. Un serveur proxy est un ordinateur dédié ou un système logiciel s’exécutant sur un ordinateur qui agit comme intermédiaire entre un appareil de point d’entrée, tel qu’un ordinateur, et un autre serveur à partir duquel un utilisateur ou un client demande un service. Le serveur proxy peut exister sur la même machine qu’un serveur de pare-feu ou sur un serveur distinct qui transfère les demandes par le biais du pare-feu.
 
 L’un des avantages du serveur proxy est que son cache peut servir tous les utilisateurs. Si un ou plusieurs sites Internet sont fréquemment demandés, ils sont susceptibles de se trouver dans le cache du proxy, ce qui contribue à réduire le temps de réponse pour l’utilisateur. Un proxy peut également consigner ses interactions, ce qui peut servir au dépannage.
 
@@ -29,7 +29,7 @@ Lorsqu’un serveur proxy reçoit une requête de ressource Internet (telle qu�
 
 ## Présentation des configurations réseau standard {#network-setups}
 
-Pour mettre en œuvre une configuration réseau, vous devez vous référer aux scénarios suivants avec leurs avantages et les détails de leurs déploiements.
+Pour mettre en oeuvre une configuration réseau, consultez les scénarios suivants avec leurs points forts et les détails de déploiement.
 
 Ce guide met en évidence quatre types de configurations réseau au sein d’une organisation :
 

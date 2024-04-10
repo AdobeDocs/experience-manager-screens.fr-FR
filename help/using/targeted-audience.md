@@ -1,12 +1,12 @@
 ---
 title: Public cible
-seo-title: Public cible d’AEM Screens
+seo-title: Target Audience for AEM Screens
 description: Cette page décrit le public cible du guide des bonnes pratiques d’AEM Screens
-seo-description: Cette page décrit le public cible du guide des bonnes pratiques d’AEM Screens
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ En tant qu’implémentateur expérimenté d’AEM, les rôles *Auteurs*, *Déve
 
 Dans AEM Screens, la définition des rôles est encore plus précise ; chacun d’eux joue, en effet, un rôle important dans un projet type.
 
-Le diagramme ci-dessous montre les rôles auxquels nous ferons référence tout au long de ce guide.
+Le diagramme ci-dessous montre les rôles que nous verrons tout au long du guide.
 
 ![](/help/assets/roles-used.png)
 

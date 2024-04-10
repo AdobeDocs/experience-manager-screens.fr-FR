@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 47%
+source-wordcount: '1452'
+ht-degree: 46%
 
 ---
 
@@ -47,7 +47,7 @@ Avant de commencer à définir les configurations ContextHub d’un projet AEM 
 >
 >Google Sheets est utilisé dans l’exemple suivant à titre d’exemple de système de base de données à partir duquel les valeurs sont récupérées et uniquement à des fins pédagogiques. Adobe n’approuve pas l’utilisation de Google Sheets dans des environnements de production.
 >
->Pour plus d’informations, reportez-vous à la section [Obtenir la clé d’API](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation Google.
+>Pour plus d’informations, voir [Obtenir la clé API](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation de Google.
 
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 

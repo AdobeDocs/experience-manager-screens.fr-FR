@@ -2,10 +2,10 @@
 title: Configuration des instances de création et de publication dans AEM Screens
 description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 43%
+source-wordcount: '1933'
+ht-degree: 42%
 
 ---
 
@@ -38,7 +38,7 @@ Avant de commencer à utiliser les serveurs de création et de publication, vous
 
 >[!NOTE]
 >
->Pour en savoir plus sur la présentation de l’architecture de création et de publication et sur la manière dont le contenu est créé sur une instance d’auteur AEM, puis répliqué par la suite vers plusieurs instances de publication, reportez-vous à la section [Présentation de l’architecture de création et de publication](author-publish-architecture-overview.md).
+>Pour en savoir plus sur la présentation de l’architecture de création et de publication et sur la manière dont le contenu est créé sur une instance d’auteur AEM, puis répliqué par la suite sur plusieurs instances de publication, voir [Présentation de l’architecture de création et de publication](author-publish-architecture-overview.md).
 
 La section suivante explique comment configurer les agents de réplication sur la topologie de création et de publication.
 
@@ -306,7 +306,7 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-La variable **Gérer la publication** permet de diffuser des mises à jour de contenu de l’auteur à la publication sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un de vos canaux, emplacement, périphérique, application ou planification. Pour en savoir plus sur cette fonction, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
+La variable **Gérer la publication** permet de diffuser des mises à jour de contenu de l’auteur à la publication sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un de vos canaux, emplacement, périphérique, application ou planification. Pour en savoir plus sur cette fonctionnalité, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
 
 ## Conseils de dépannage {#troubleshoot-tips}
 

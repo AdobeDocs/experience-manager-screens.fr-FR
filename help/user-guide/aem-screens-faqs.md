@@ -1,14 +1,14 @@
 ---
 title: Questions fréquentes sur AEM Screens
-description: Consultez les réponses aux questions fréquentes relatives à un projet AEM Screens.
+description: Lire les réponses aux questions fréquentes relatives à un projet AEM Screens.
 feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 59%
+source-wordcount: '2121'
+ht-degree: 58%
 
 ---
 
@@ -27,21 +27,21 @@ La section suivante permet de répondre à une partie des questions fréquemment
 * Vérifiez si l’aperçu d’affichage fonctionne.
 * Essayez d’enregistrer le lecteur en tant qu’extension de navigateur sur votre système pour le même affichage et vérifiez si cela fonctionne.
 * Lorsque le lecteur est en cours d’exécution sur votre système, accédez à `http://localhost:24502`. Vérifiez si tout le contenu est correctement téléchargé.
-* Vérifiez les ressources afin de vous assurer que les rendus appropriés sont créés et que le rendu correct est lu.
+* Vérifiez les ressources afin de vous assurer que les rendus appropriés sont créés et que le rendu correct est en cours de lecture.
 * Recherchez les contenus planifiés et vérifiez si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
-* Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Effectuez un clic droit et inspectez pour afficher les journaux de la console. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement afin d’afficher les journaux.
+* Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Cliquez avec le bouton droit de la souris et examinez les journaux de la console. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement afin d’afficher les journaux.
 
 ### 2. Comment résoudre le problème des écrans gris dans AEM Screens en créant un canal ou un planning par défaut ?
 
-Pour éviter les écrans vides ou gris du champ, créez un canal ou un planning global par défaut, affecté à chaque affichage avec la priorité la moins élevée (1). Au cas où un problème se produirait avec les mises à jour de contenu (en raison du réseau, du lecteur, du serveur ou de la réplication), puisque les lecteurs ont déjà ce contenu mis en cache sur le disque qui devrait fonctionner correctement et éviter les écrans gris.
+Pour éviter les écrans vierges ou gris dans le champ, créez un canal ou une planification globale par défaut, affecté à chaque affichage avec la priorité 1 la plus faible. En cas de problème avec les mises à jour de contenu (en raison du réseau, du lecteur, du serveur ou de la réplication), puisque les lecteurs ont déjà mis en cache ce contenu sur le disque qui doit être lu correctement et éviter les écrans gris.
 
-Tous les autres contenus, tels que les canaux ou les plannings, ont une priorité supérieure à 1, de sorte que l’autre contenu est prioritaire et que le contenu de canal ou de planning global (avec la priorité 1) n’est lu qu’en dernier recours.
+Tout autre contenu, tel que les canaux ou les plannings, a une priorité supérieure à 1. Par conséquent, l’autre contenu a la priorité et le canal global ou le contenu de planification (avec la priorité 1) est lu uniquement comme une option de réduction.
 
 ## Gestion de canaux {#channel-management}
 
 ### 1. Quelle est la différence entre un canal en ligne et un canal hors ligne ?  {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-Une ***Canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel alors qu’une ***Canal hors ligne*** affiche le contenu mis en cache.
+Un ***Canal en ligne*** affiche le contenu mis à jour dans l’environnement en temps réel, tandis qu’un ***Canal hors ligne*** affiche le contenu mis en cache.
 
 ### 2. Comment mettre un canal en ligne ?  {#how-do-i-make-a-channel-online}
 
@@ -49,7 +49,7 @@ Sélectionnez le canal, puis accédez aux propriétés correspondantes depuis la
 
 ### 3. À quoi le champ Rôle du canal sert-il ?  {#what-is-the-use-of-the-channel-role-field}
 
-Le rôle du canal est l’abstraction du canal réel qui est exécuté afin que l’auteur puisse se concentrer directement sur l’expérience générique. Vous pouvez le considérer comme un type de balise qui identifie de manière unique le canal dans son contexte (affichage ou planning).
+Le rôle du canal est l’abstraction du canal réel exécuté afin que l’auteur puisse se concentrer directement sur l’expérience générique. Vous pouvez le considérer comme un type de balise qui identifie de manière unique le canal dans son contexte (affichage ou planning).
 
 ### 4. Comment la résolution réelle du canal se produit-elle ?  {#how-does-actual-channel-resolution-happen}
 
@@ -62,32 +62,32 @@ Le rôle du canal est l’abstraction du canal réel qui est exécuté afin que 
 1. L’emplacement parent de l’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
 1. L’emplacement parent principal de l’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
 
-Et ainsi de suite, jusqu’à ce que vous atteigniez le dossier des emplacements et que vous vous arrêtiez là pour le moment (de sorte que vous ne puissiez pas référencer un canal qui se trouverait dans le dossier des canaux par exemple, uniquement les canaux de la sous-arborescence des emplacements).
+Etc., jusqu’à ce que vous accédiez au dossier des emplacements et que vous vous arrêtiez là pour le moment (vous ne pouvez donc pas référencer un canal qui se trouverait dans le dossier des canaux, par exemple, uniquement les canaux de la sous-arborescence des emplacements).
 
 ### 5. Comment configurer la configuration hors ligne de la bibliothèque cliente personnalisée dans le canal AEM Screens ?
 
-Lors de l’utilisation d’un code client personnalisé `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que le `clientlib` les fichiers sont chargés correctement dans le canal (`manifest.json`) et contient le chemin du . `clientlib`.
+Lors de l’utilisation d’un code client personnalisé créé `clientlib` dans un canal AEM Screens, les étapes suivantes sont nécessaires pour s’assurer que la variable `clientlib` Les fichiers sont chargés correctement dans le canal (`manifest.json`) et contient le chemin d’accès de la variable `clientlib`.
 
 Suivez les étapes ci-dessous à partir de l’éditeur de canal :
 
-1. Sélectionnez un canal, puis sélectionnez **Modifier** à partir de la barre d’actions.
+1. Sélectionnez un canal, puis cliquez sur **Modifier** dans la barre d’actions.
 1. Sélectionnez le composant où vous souhaitez ajouter la `clientlib` personnalisée.
-1. Sélectionnez le bouton de configuration (icône clé à molette).
+1. Sélectionnez le bouton de configuration (icône de clé à molette).
 1. Accédez à l’onglet **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
 
 ## Enregistrement d’appareils {#device-registration}
 
-### 1. Si je détecte des points d’entrée tels que des demandes d’intégration et d’enregistrement d’appareils, je peux créer des scripts pour de nombreux appareils et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ?  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Si je découvre des points de terminaison tels que des demandes d’intégration et d’enregistrement d’appareils, je peux créer un script pour de nombreux appareils et les enregistrer. Outre le verrouillage sur la connexion Wi-Fi d’une succursale, la sécurisation de ces requêtes est-elle possible ?  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
-L’enregistrement n’est actuellement possible que sur l’instance d’auteur. Bien que le service d’enregistrement ne soit pas authentifié, il ne crée qu’un appareil en attente dans AEM et n’enregistre pas réellement l’appareil ni n’attribue d’affichage.
+L’enregistrement n’est actuellement possible que sur l’instance d’auteur. Bien que le service d’enregistrement ne soit pas authentifié, il crée uniquement un périphérique en attente dans AEM et n’enregistre pas réellement le périphérique ni n’affecte aucun affichage.
 
-Pour enregistrer un appareil (création d’un utilisateur pour l’appareil dans AEM), authentifiez-vous auprès d’AEM et suivez actuellement manuellement l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, un utilisateur malveillant peut créer plusieurs appareils en attente, mais il ne peut pas les enregistrer sans connexion à AEM.
+Pour enregistrer un périphérique (création d’un utilisateur pour le périphérique dans AEM), authentifiez-vous sur AEM et suivez actuellement manuellement l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, un utilisateur malveillant peut créer plusieurs appareils en attente, mais il ne peut pas les enregistrer sans connexion à AEM.
 
 ### 2. Existe-t-il un moyen de transformer les requêtes HTTP GET en requêtes HTTP POST avec un type d’authentification donné ?  {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La requête d’enregistrement consiste dans une requête POST.
 
-Il est recommandé d’obtenir l’ID de l’appareil de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Ce n&#39;est pas une question de sécurité. Sémantiquement. Le GET est utilisé lorsqu’il n’y a aucun changement d’état sur le serveur et le POST est utilisé lorsqu’il y a un changement d’état.
+Il est recommandé d’obtenir l’ID de l’appareil de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Ce n&#39;est pas un problème de sécurité. sémantique. GET est utilisé lorsqu’il n’y a aucune modification d’état sur le serveur et POST est utilisé en cas de modification d’état.
 
 ### 3. Existe-t-il un moyen de refuser une requête d’enregistrement d’appareil ?  {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -105,7 +105,7 @@ Recherchez les possibilités suivantes pour résoudre le problème d’écran vi
 
 ### 2. Que faire si je ne peux pas enregistrer le lecteur AEM Screens et qu’il présente le statut d’échec ? 
 
-Activez l’option Filtre de référent Apache Sling Autoriser vide. Cette activation est nécessaire pour optimiser le fonctionnement du protocole de contrôle entre le lecteur et le serveur AEM Screens.
+Activez l’option Allow Empty d’Apache Sling Referrer Filter. Cette activation est nécessaire pour optimiser le fonctionnement du protocole de contrôle entre le lecteur et le serveur AEM Screens.
 
 1. Accédez à **Configuration de la console web Adobe Experience Manager**.
 1. Cochez l’option **allow.empty**.
@@ -115,17 +115,17 @@ Activez l’option Filtre de référent Apache Sling Autoriser vide. Cette activ
 
 Ce problème peut se produire si le lecteur ne parvient pas à trouver le nom DNS du serveur AEM Screens. Vous pouvez essayer d’utiliser l’adresse IP pour vous connecter. Pour obtenir l’adresse IP du serveur, utilisez la syntaxe suivante : *arp &lt;nom_dns_serveur>*.
 
-### 4. AMS recommande-t-il de mettre en œuvre un chien de garde Android™ sur tous les appareils ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ?  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS recommande-t-il de mettre en oeuvre un outil de surveillance Android™ sur tous les périphériques ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ?  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
-Un chien de garde Android™ multi-plateformes utilisant des API Android™ pures fait déjà partie de l&#39;apk. Aucun logiciel supplémentaire n&#39;est nécessaire. Cependant, en fonction du périphérique que vous utilisez, vous pouvez résigner l&#39;apk pour obtenir les privilèges système pour une mise hors tension complète (`Powermanager` api), si nécessaire. S&#39;il n&#39;est pas résigné à l&#39;aide des clés du fabricant, il quitte et redémarre l&#39;application, mais ne redémarre pas.
+Un watchdog Android™ multiplateforme utilisant des API Android™ pures fait déjà partie du kit. Aucun logiciel supplémentaire n’est nécessaire. Cependant, en fonction de l’appareil que vous utilisez, vous pouvez signer à nouveau le fichier apk afin d’obtenir des privilèges système pour un cycle d’alimentation complet (`Powermanager` api), le cas échéant. S&#39;il n&#39;est pas démissionné à l&#39;aide des clés du fabricant, il quitte et redémarre l&#39;application, mais ne met pas le cycle d&#39;alimentation en marche.
 
-Pour plus d’informations sur la mise en œuvre d’Android™ Player, voir [**Mise en œuvre d’Android™ Player**](implementing-android-player.md).
+Pour plus d’informations sur la mise en oeuvre d’Android™ Player, voir [**Mise en oeuvre d’Android™ Player**](implementing-android-player.md).
 
 ### 5. Quels outils (logiciels) tiers de surveillance et d’alerte à distance Adobe/AMS recommande-t-il d’utiliser pour surveiller chaque appareil ?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-Selon les résultats que vous souhaitez obtenir en dehors de la surveillance et des alertes, un nouveau service de notifications AEM Screens vous informe si un appareil n’a pas envoyé de commande ping depuis longtemps. Les outils tiers dépendent de votre système d’exploitation (SE), de ses fonctionnalités et des besoins spécifiques du client.
+Selon les résultats que vous souhaitez obtenir en dehors de la surveillance et des alertes, un nouveau service de notifications AEM Screens vous informe si un appareil n’a pas envoyé de commande ping depuis longtemps. Les outils tiers dépendent de votre système d’exploitation, de ses fonctionnalités et des besoins spécifiques du client.
 
-Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’activité des appareils, voir [**Service de notifications AEM Screens**](screens-notifications-service.md).
+Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’activité des périphériques, voir [**Service de notifications AEM Screens ns**](screens-notifications-service.md).
 
 ## Lecteur AEM Screens
 
@@ -136,24 +136,24 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
 1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
-1. Activer le **Mode Développeur** depuis le coin supérieur droit.
-1. Sélectionner **Charger décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
-1. Si disponible dans la liste des extensions, cochez **Lecteur AEM Screens Chrome** Plug-in.
-1. Ouvrez un nouvel onglet et cliquez sur **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
-1. Sélectionner le **AEM Screens** Plug-in. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
+1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
+1. Sélectionner **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
+1. Si elle est disponible dans la liste des extensions, cochez **Lecteur AEM Screens Chrome** module externe
+1. Ouvrez un nouvel onglet et cliquez sur le bouton **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
+1. Sélectionnez la variable **AEM Screens** module externe. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
 
-### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier via l’instance de publication avec un gestionnaire d’erreurs personnalisé ?
+### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier par le biais d’une instance de publication avec un gestionnaire d’erreurs personnalisé ?
 
-Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json*** au démarrage et lorsqu’il affiche un message d’erreur 404. Le lecteur lance une demande d’authentification pour l’authentification sur l’instance de publication. S’il existe un gestionnaire d’erreurs personnalisé dans l’instance de publication, veillez à renvoyer le code d’état 404 pour l’utilisateur anonyme sur . ***/content/screens/svc.ping.json***.
+Le lecteur AEM Screens envoie une requête à ***/content/screens/svc.ping.json*** au démarrage et lorsqu’il affiche un message d’erreur 404. Le lecteur lance une demande d’authentification auprès de l’instance de publication. S’il existe un gestionnaire d’erreurs personnalisé dans l’instance de publication, veillez à renvoyer le code d’état 404 pour l’utilisateur anonyme sur ***/content/screens/svc.ping.json***.
 
-### 3. Comment configurer l’écran de l’appareil pour qu’il reste activé dans un lecteur Android™ ? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3. Comment configurer l’écran de l’appareil pour qu’il reste actif dans un lecteur Android™ ? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
-Suivez les étapes ci-dessous pour activer Rester éveillé dans sur n’importe quel lecteur Android™ :
+Pour activer l’option Rester éveillé sur un lecteur Android™, procédez comme suit :
 
-1. Accédez à Paramètres du lecteur Android™ > **À propos de**.
-1. Appuyez sept fois sur le numéro de version pour activer **Options du développeur** dans **Paramètres**.
-1. Accéder à **Options du développeur**.
-1. Activer **Reste Éveillé**.
+1. Accédez aux paramètres du lecteur Android™ > **A propos**.
+1. Appuyez sept fois sur le numéro de build pour activer **Options de développement** in **Paramètres**.
+1. Accédez à **Options de développement**.
+1. Activer **Restez éveillé**.
 
 ### 4. Comment activer le mode fenêtre dans le lecteur Windows ? {#enable-player}
 
@@ -163,17 +163,17 @@ Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujour
 
 Procédez comme suit pour résoudre les problèmes d’un lecteur AEM Screens qui envoie continuellement des requêtes à `/content/screens/svc.json` et `/libs/granite/core/content/login.validate/j_security_check` :
 
-1. Lorsque le lecteur AEM Screens démarre, il le demande à `/content/screens/svc.json`. Lorsque le lecteur obtient un code d’état 404 dans la réponse, il lance une requête d’authentification à l’aide de . `/libs/granite/core/content/login.validate/j_security_check` contre le *publication* instance. Si l’instance de *publication* comporte un gestionnaire d’erreur personnalisé, veillez à retourner le code d’état 404 pour l’utilisateur anonyme sur `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
+1. Lorsque le lecteur AEM Screens démarre, il le demande à `/content/screens/svc.json`. Lorsque le lecteur reçoit un code d’état 404 dans la réponse, il lance une demande d’authentification à l’aide de la fonction `/libs/granite/core/content/login.validate/j_security_check` par rapport à *publier* instance. Si l’instance de *publication* comporte un gestionnaire d’erreur personnalisé, veillez à retourner le code d’état 404 pour l’utilisateur anonyme sur `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
 
-1. Vérifiez si la configuration de Dispatcher autorise ces requêtes dans le `/filters`.
+1. Vérifiez si votre configuration de Dispatcher autorise ces requêtes dans la variable `/filters`.
 
    Pour plus d’informations, voir la section [Configuration des filtres Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
 
-1. Vérifiez si vos règles de réécriture du Dispatcher réécrivent l’un des chemins d’écran vers un chemin différent.
+1. Vérifiez si les règles de réécriture de Dispatcher réécrivent les chemins d’accès à l’écran vers un autre chemin.
 
 1. Vérifiez si vous avez des règles `/etc/map` sur l’instance d’*auteur* ou de *publication* et si les chemins Screens correspondent à `sling:match` et sont redirigés en interne vers un autre chemin. La résolution de l’URL exacte dans `/system/console/jcrresolver` permet d’identifier si l’instance de *publication* réécrit ces URL vers un autre chemin d’accès.
 
-1. Vérifiez si la configuration d’usine de résolveur de ressource Apache Sling provoque des réécritures internes.
+1. Vérifiez si la configuration Apache Sling Resource Resolver Factory provoque des réécritures internes.
 
 ### 6. Comment obtenir les informations concernant l’affichage et l’appareil à partir de l’API du lecteur ?
 
@@ -202,21 +202,21 @@ Désactivez Livefyre pour éviter les erreurs de journal en procédant comme sui
 1. ***Désactivez le lot Livefyre :***
 
    * Accédez à `https://<host>:<port>/system/console/bundles`.
-   * Recherchez l’offre groupée AEM Livefyre : `com.adobe.cq.social.cq-social-livefyre`.
+   * Recherchez le lot AEM Livefyre : `com.adobe.cq.social.cq-social-livefyre`.
    * Sélectionner **Arrêter**.
 
 1. ***Désactivez l’interrogateur Livefyre :***
 
    * Dans CRXDE Lite, accédez à `/etc/importers/polling/livefyre-poller/jcr:content`.
-   * Ajout d’une propriété *activé* type *Booléen*.
-   * Définir **propriété activée** vers **faux**.
+   * Ajout d’une propriété *enabled* type *Booléen*.
+   * Définir **propriété activée** to **false**.
 
 ### 2. Comment ajouter des informations d’index Oak ?  {#add-oak-index-info}
 
 AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.
-Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+Si des *AVERTISSEMENTS de requête de traversée* apparaissent dans `error.log`, créez un index personnalisé pour votre requête. Voir [Configuration des index](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) pour plus d’informations.
 
-Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+Vous pouvez également voir une ressource supplémentaire sur [Documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. Que faut-il faire pour configurer des manifestes v3 ? {#configure-v3}
@@ -237,13 +237,13 @@ Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.ad
 
 * Accéder à l’onglet **Configuration hors ligne**.
 
-* Enter `clientlibs `et les dossiers pour les fichiers statiques qui doivent être ajoutés au manifeste.
+* Entrée `clientlibs `et les dossiers pour les fichiers statiques qui doivent être ajoutés au manifeste.
 
 ### 4. Que devez-vous faire si, après avoir installé le package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 et les lots de base de Screens ne sont pas actifs ?
 
-Installez une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) vous pouvez ainsi obtenir la version minimale du pack de fonctionnalités AEM Screens.
+Installez une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne. Voir [Disponibilité](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) pour obtenir la version minimale d’AEM Screens Feature Pack.
 
-### 5. Comment configurer le service CQ Link Externalizer dans Screens ?
+### 5. Comment configurer le service d’externaliseur de liens CQ dans Screens ?
 
 Le service est utilisé pour définir le nom d’hôte public pour les instances d’auteur et de publication, et les valeurs sont ensuite utilisées pour mettre à jour les URL du serveur d’appareils ainsi que pour le ciblage ContextHub.
 

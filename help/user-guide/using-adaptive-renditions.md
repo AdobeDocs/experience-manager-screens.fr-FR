@@ -2,10 +2,10 @@
 title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Cette page décrit comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '558'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous pour appliquer des rendus aux ressources, que vous
 
 1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple `seahorse.jpg`.
 
-1. Choisissez le modèle de dénomination du rendu, par exemple `landscape`, similaire à ce qui a été défini dans la propriété **motif** dans **CRXDE Lite**. Pour plus d’informations, voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
+1. Choisissez le modèle de dénomination du rendu, par exemple `landscape`, similaire à ce qui a été défini dans la propriété **motif** dans **CRXDE Lite**. Voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) pour plus d’informations.
 
 1. Cliquez sur **Ajouter le rendu** pour télécharger le rendu, comme illustré dans la figure ci-dessous.
 
@@ -49,7 +49,7 @@ Suivez les étapes ci-dessous pour appliquer des rendus aux ressources, que vous
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Pour en savoir plus sur la gestion de la publication et la diffusion de mises à jour de contenu de l’auteur à la publication sur appareil, voir [Mise à jour de contenu à la demande](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=fr).
+   >Voir [Mise à jour du contenu On-Demand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=fr) pour en savoir plus sur la gestion de la publication et la diffusion de mises à jour de contenu de l’auteur à la publication sur le périphérique.
 
 
 ## Stratégie de migration {#migration-strategy}

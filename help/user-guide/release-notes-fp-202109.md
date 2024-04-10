@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du Feature Pack 202109
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202109, publié le 23 septembre 2021.
+description: Découvrez le Feature Pack 202109 d’AEM Screens, publié le 23 septembre 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 99%
+source-wordcount: '897'
+ht-degree: 59%
 
 ---
 
 # Notes de mise à jour du Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -31,17 +31,17 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 sept
 
 * **Prise en charge des miniatures de vidéos**
 
-  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu peut définir une miniature de vidéos afin de pouvoir utiliser l’image en tant qu’espace réservé et de pouvoir tester correctement la lecture et le ciblage du contenu, alors que l’équipe concernée peut s’occuper de la finalisation de la vidéo elle-même. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
+  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. Ils testent également correctement la lecture et le ciblage du contenu, tandis que la vidéo est finalisée par l’équipe appropriée. L’image peut également être utilisée si la lecture de la vidéo échoue.
 Pour plus d’informations, voir [Prise en charge des miniatures de vidéos](/help/user-guide/thumbnail-support.md).
 
 * **Suivi de base de la lecture**
 
-  AEM Screens prend désormais en charge le suivi de base de la lecture. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). Les mesures permettent de détecter différents cas de figure (lecture bloquée, écran vide, problème de time-code, etc.). Cette fonctionnalité permet à l’équipe concernée de surveiller à distance si un lecteur lit correctement du contenu, d’améliorer sa réactivité en cas d’écran vide ou d’interruption d’expérience et de réduire les risques d’offrir une expérience bancale à l’utilisateur final.
-Pour plus d’informations, voir [Suivi de base de la lecture](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=fr#playback-monitoring).
+  AEM Screens prend désormais en charge le suivi de base de la lecture. Le lecteur signale désormais diverses mesures de lecture pour chaque ping (30 secondes par défaut). Selon les mesures, il détecte divers cas de périphérie (expérience bloquée, écran vide, problème de planification, etc.). Cette fonctionnalité permet à l’équipe de surveiller à distance si un lecteur lit correctement du contenu et améliore la réactivité aux écrans vierges ou aux expériences rompues sur le terrain. Cela réduit également le risque d’afficher une expérience rompue à l’utilisateur final.
+Pour plus d’informations, voir [Suivi de base de la lecture](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
 * **Mises à jour du rapport d’affectation de contenu**
 
-  Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les éléments améliorés liés au lecteur, tels que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
+  Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les entités améliorées liées au lecteur, telles que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
 Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 * **Rendus adaptatifs**
@@ -50,35 +50,35 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
 
-  En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+  En outre, en tant qu’auteur de contenu AEM Screens, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs. Vous pouvez également migrer vos appareils pour que les grands réseaux utilisent cette fonctionnalité dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
 
 * **Prise en charge des manifestes V3**
 
-  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
+  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
 
-   * Effacer tous les traitements de contenu hors ligne en attente, à la fois dans l’auteur et la publication.
+   * Effacez toutes les tâches de contenu hors ligne en attente dans l’auteur et dans la publication.
 
-      * Accédez à crx/de dans l’auteur et la publication.
+      * Accédez à CRXDE Lite dans les instances de création et de publication.
 
-      * Cliquez sur Outils > Requête .
+      * Cliquez sur Outils > Requête.
 
-      * Dans Requête, utilisez : `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * Dans la requête, utilisez `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * Cette opération répertorie tous les traitements de contenu hors ligne en cours d’exécution ou en attente dans la file d’attente.
+      * Cette section répertorie toutes les tâches de contenu hors ligne en cours d’exécution ou en attente dans la file d’attente.
 
-      * Attendez la fin du renvoi des traitements de contenu hors ligne par la requête.
+      * Attendez qu’il n’y ait plus de tâches de contenu hors ligne renvoyées par la requête.
 
-   * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+   * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   * Activer SmartSync dans `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
-   * Mettre à jour Dispatcher
+   * Mettez à jour Dispatcher.
 
-   * Mettre à jour le composant personnalisé
+   * Mettre à jour le composant personnalisé.
 
 
-   * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=fr#configuring-dispatcherv3).
-   * Si vous utilisez des composants personnalisés dans le cadre de versions Manifest v3, consultez la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=fr#custom-handlers).
+   * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+   * Si vous utilisez des composants personnalisés dans le cadre de versions Manifest v3, consultez la section [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correctifs {#bug-fixes}
@@ -103,7 +103,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Un lecteur doit signaler son état de lecture.
 
-* Le lecteur ne retélécharge pas les ressources lorsque le cache `ALL` est effacé.
+* Le lecteur ne retélécharge pas les ressources lorsque `ALL` Le cache est effacé.
 
 * En tant qu’administrateur du lecteur, vous pouvez désormais choisir un nom de lecteur.
 
@@ -118,7 +118,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 **Côté serveur**
 
 * La vidéo cible ne s’affiche pas.
-* Situation de compétition lors de la diffusion des données d’affichage dans les sous-séquences.
+* Conditions de race lors de la diffusion des données d&#39;affichage vers les séquences.
 
 * L’aperçu de canal ne fonctionne pas pour les canaux contenant des vidéos.
 
@@ -128,11 +128,11 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Mettre automatiquement à jour le manifeste du canal si la page référencée est publiée.
 
-* Les appareils supprimés ne bloquent désormais plus la file d’attente de réplication de Screens.
+* Les périphériques supprimés ne bloquent désormais pas la file d’attente de réplication Screens.
 
 * Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce problème a été résolu.
 
-* Les nouveaux composants d’image principaux sont désormais ajoutés au manifeste du canal.
+* Un nouveau composant d’image principal est maintenant ajouté au manifeste du canal.
 
 * Le téléchargement de rendus optimisés via SmartSync est désormais pris en charge.
 
@@ -146,20 +146,20 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Une séquence incorporée dynamique vide provoquait parfois un écran vide.
 
-* Le lecteur signale maintenant son état de lecture.
+* Le lecteur signale désormais son état de lecture.
 
 * La vidéo était lue dans `Tiny mode` et n’était pas lue comme vidéo plein écran sur l’appareil et le problème a été corrigé maintenant.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 9 :
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

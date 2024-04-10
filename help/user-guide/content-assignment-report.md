@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -18,21 +18,21 @@ La fonction Rapport d’affectation de contenu permet à un administrateur ou à
 
 ## Utilisation du rapport d’affectation de contenu {#using-content-assignment-report}
 
-Le rapport d’affectation de contenu permet à un auteur ou à un administrateur AEM Screens de télécharger le rapport contenant toutes les ressources, comme les images et les vidéos, pour tous les canaux créés dans un projet AEM Screens. En outre, ce rapport contient les informations relatives à l’ensemble des canaux affectés à tous les affichages désignés et, dorénavant, à tous les périphériques affectés à leurs affichages désignés.
+Le rapport d’affectation de contenu permet à un auteur ou à un administrateur AEM Screens de télécharger le rapport contenant toutes les ressources, comme les images et les vidéos, pour tous les canaux créés dans un projet AEM Screens. En outre, ce rapport contient les informations relatives à l’ensemble des canaux affectés à tous les affichages désignés et, dorénavant, à tous les appareils affectés à leurs affichages désignés.
 
-Le rapport d’affectation de contenu permet non seulement la prévisualisation de tous les canaux, ressources, écrans et périphériques du projet AEM Screens sélectionné, mais il apporte également une structure de haut niveau pour votre projet.
+Le rapport d’affectation de contenu permet non seulement la prévisualisation de tous les canaux, ressources, écrans et appareils du projet AEM Screens sélectionné, mais il apporte également une structure de haut niveau pour votre projet.
 
 
 ### Prérequis {#pre-reqs}
 
-Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des périphériques.
-Pour plus d’informations, référez-vous aux ressources ci-dessous :
+Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des appareils.
+Pour plus d’informations, consultez les ressources suivantes :
 
 1. [Création et gestion des projets](/help/user-guide/creating-a-screens-project.md)
 1. [Création et gestion des canaux](/help/user-guide/managing-channels.md)
 1. [Création et gestion des emplacements](/help/user-guide/managing-locations.md)
 1. [Création et gestion des affichages](/help/user-guide/managing-displays.md)
-1. [Création de périphériques](/help/user-guide/managing-devices.md)
+1. [Création d’appareils](/help/user-guide/managing-devices.md)
 1. [Attribution de canaux](/help/user-guide/channel-assignment-latest-fp.md)
 
 

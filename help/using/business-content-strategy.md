@@ -1,15 +1,15 @@
 ---
 title: Stratégie de contenu commercial pour [!UICONTROL AEM Screens]
-seo-title: Stratégie de contenu commercial pour [!UICONTROL AEM Screens]
+seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: Ce guide décrit la stratégie de contenu commercial
-seo-description: Ce guide décrit la stratégie de contenu commercial
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '443'
-ht-degree: 100%
+seo-description: The guide describes Business Content Strategy
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
-
 
 # Stratégie de contenu commercial {#business-content}
 
@@ -27,7 +27,7 @@ Pensez à la manière dont l’application Screens peut vous aider à atteindre 
 >
 >Vous devez tenir compte du fait que l’utilisation doit être possible hors ligne avec une bande passante limitée.
 
-Veuillez consulter les questions ci-dessous, auxquelles une réponse doit être donnée lors de l’établissement d’une stratégie de contenu pour votre projet AEM Screens :
+Voici quelques questions auxquelles vous devez répondre lors de la création d’une stratégie de contenu pour votre projet AEM Screens :
 
 * Quel est le public cible et quelle est la durée de maintien prévue ?
 * Quel contenu doit être présenté au public ?
@@ -40,9 +40,9 @@ Veuillez consulter les questions ci-dessous, auxquelles une réponse doit être 
 * Quelle est votre stratégie de mise à jour et de mise à niveau ?
 * À quelle fréquence faut-il proposer du nouveau contenu ?
 
-   >[!NOTE]
-   >
-   >Lors de la phase de prévente, il est important de commencer à poser des questions sur le contenu qui sera partagé, mais aussi sur l’emplacement actuel des données de contenu et sur la manière dont elles seront exploitées dans le projet Screens. Vous devez essayer d’approfondir le contenu lors de la phase de mise en œuvre. Veuillez toutefois établir, au préalable, quelles sont les données disponibles et quel est leur format.
+  >[!NOTE]
+  >
+  >Lors de la phase de prévente, il est important de commencer à poser des questions sur le contenu qui sera partagé, mais aussi sur l’emplacement actuel des données de contenu et sur la manière dont elles seront exploitées dans le projet Screens. Vous devez essayer d’approfondir le contenu lors de la phase de mise en œuvre. Veuillez toutefois établir, au préalable, quelles sont les données disponibles et quel est leur format.
 
 ## Points importants {#important-considerations}
 

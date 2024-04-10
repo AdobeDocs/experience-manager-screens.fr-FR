@@ -8,10 +8,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 92%
 
 ---
 
@@ -31,8 +31,7 @@ Pour télécharger le **lecteur AEM Screens**, consultez la page de [téléchar
 >
 >1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
-
+>1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement de l’appareil.
 
 ## Suivi de base de la lecture {#playback-monitoring}
 
@@ -79,10 +78,10 @@ Vous trouverez ci-dessous quelques limitations au suivi de base de la lecture :
 
 ### Ressources supplémentaires {#additional-resources}
 
-Reportez-vous aux rubriques suivantes pour obtenir des informations détaillées :
+Consultez les rubriques suivantes pour obtenir des informations détaillées :
 
-* Pour télécharger le lecteur Android, rendez-vous sur **Google Play**. Pour en savoir plus sur l’implémentation d’Android Watchdog, consultez [Mise en œuvre du lecteur Android](implementing-android-player.md).
+* Pour télécharger le lecteur Android, rendez-vous sur **Google Play**. Pour en savoir plus sur l’implémentation d’Android Watchdog, voir [Mise en oeuvre du lecteur Android](implementing-android-player.md).
 
-* Pour plus d’informations sur la mise en œuvre du lecteur Chrome OS, consultez [Console de gestion de Chrome](implementing-chrome-os-player.md).
+* Pour mettre en oeuvre le lecteur Chrome OS, voir [Console de gestion de Chrome](implementing-chrome-os-player.md) pour plus d’informations.
 
-* Pour configurer le lecteur Windows d’AEM Screens, consultez la section [Mise en œuvre du lecteur Windows](implementing-windows-player.md).
+* Pour configurer le lecteur Windows AEM Screens, voir [Mise en oeuvre du lecteur Windows](implementing-windows-player.md).

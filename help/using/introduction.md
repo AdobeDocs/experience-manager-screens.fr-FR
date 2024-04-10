@@ -2,10 +2,10 @@
 title: Présentation d’[!UICONTROL AEM Screens]
 description: Cette page est une section de présentation d’AEM Screens
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 69%
+source-wordcount: '661'
+ht-degree: 66%
 
 ---
 
@@ -32,7 +32,7 @@ Avec AEM Screens, la création et la gestion d’un réseau de signalétique dig
 
 >[!NOTE]
 >
->Pour en savoir plus sur les différentes fonctionnalités relatives à la gestion et au développement de projets AEM Screens, consultez le **[Guide de l’utilisateur d’AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Pour en savoir plus sur les différentes fonctionnalités du développement et de la gestion d’un projet AEM Screens, voir **[Guide de l’utilisateur d’AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites et AEM Screens {#aem-sites-screens}
 

@@ -5,10 +5,10 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 33%
+source-wordcount: '624'
+ht-degree: 27%
 
 ---
 
@@ -25,12 +25,12 @@ La page suivante fournit des instructions pour la configuration de Dispatcher po
 >S’il n’existe pas de Dispatcher, désactivez le servlet d’enregistrement dans la liste des composants OSGi.
 
 Avant de configurer Dispatcher pour un projet AEM Screens, vous devez connaître Dispatcher au préalable.
-Pour en savoir plus, consultez [Configuration de Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
+Voir [Configuration de Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) pour plus d’informations.
 
 ## Configuration de Dispatcher pour Manifest version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Reportez-vous à [Configurations de Dispatcher pour Manifest version v3](#configuring-dispatcherv3) pour la version v3 de Manifest.
+>Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Voir [Configurations de Dispatcher pour Manifest version v3](#configuring-dispatcherv3) pour manifest version v3.
 
 Les lecteurs ou appareils AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours aller vers la même instance de publication afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs/appareils AEM Screens.
 
@@ -53,7 +53,7 @@ Si vous disposez d’une instance de publication devant un Dispatcher, l’activ
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Par exemple, si vous utilisez AWS ALB, référez-vous à la section [Populations cibles de vos équilibreurs de charge d’application](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) pour activer la persistance au niveau de l’équilibreur ALB. Activez l’attractivité pour une journée.
+Par exemple, si vous utilisez AWS ALB, voir [Groupes cibles pour vos équilibreurs de charge d’application](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) pour activer l’attractivité au niveau de l’ALB. Activez l’attractivité pour une journée.
 
 ### Étape 1 : configuration des en-têtes du client {#step-configuring-client-headers}
 

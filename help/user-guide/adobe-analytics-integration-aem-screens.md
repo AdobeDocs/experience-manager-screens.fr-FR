@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '681'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Pour les clientes et clients du service cloud AEM Screens, contactez votre Responsable des relations Adobe pour activer Adobe Analytics dans Screens Cloud.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé la version minimale AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Pour les clients du service cloud AEM Screens, contactez votre gestionnaire de relations d’Adobe afin d’activer Adobe Analytics dans le cloud Screens.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Accédez à **Configuration de la console web Adobe Experience Manager** pour co
 
 >[!CAUTION]
 >
->Avant de configurer les propriétés, contactez le responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
+>Avant de configurer les propriétés, contactez votre responsable des relations avec les Adobes pour créer un ticket et obtenir un **Clé API Analytics** et **Projet Analytics** à utiliser avec AEM Screens.
 
 ![]()
 
@@ -81,7 +81,7 @@ Accédez à **Configuration de la console web Adobe Experience Manager** pour co
 
 >[!CAUTION]
 >
->Avant de configurer les propriétés, contactez le responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
+>Avant de configurer les propriétés, contactez votre responsable des relations avec les Adobes pour créer un ticket et obtenir un **Clé API Analytics** et **Projet Analytics** à utiliser avec AEM Screens.
 
 Le tableau suivant répertorie et décrit les propriétés permettant de configurer Adobe Analytics pour AEM Screens :
 

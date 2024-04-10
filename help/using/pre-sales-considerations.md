@@ -1,15 +1,15 @@
 ---
 title: Observations dans le cadre de la définition de la portée du projet
-seo-title: Observations dans le cadre de la définition de la portée du projet
+seo-title: Considerations as Projects are Scoped
 description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
-seo-description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+seo-description: The page describes Considerations as Projects are Scoped
+exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 95%
 
 ---
-
 
 # Observations dans le cadre de la définition de la portée du projet {#pre-sales-considerations}
 
@@ -33,4 +33,4 @@ Cette étape rassemble tous les efforts de prévente et d’investigation néces
 >
 >Identifiez, le plus tôt possible, les données nécessaires pour l’application, ainsi que leur provenance. Bien qu’un examen plus approfondi soit réalisé au cours de la mise en œuvre, prenez le temps, lors du *jour 0*, de déterminer les données que le client a l’intention d’utiliser, l’emplacement de stockage actuel de ces données, ainsi que la manière dont l’application en cours de création peut y accéder. Informer l’équipe de développement des obstacles qui peuvent entraver le bon déroulement du projet contribuera à faciliter la mise en œuvre.
 
-Pour plus d’informations, visionnez les tutoriels vidéo à la section [Observations dans le cadre de la définition du champ d’application du projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-considerations.html).
+Voir le tutoriel vidéo sur [Observations dans le cadre de la définition de la portée du projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-considerations.html) pour plus d’informations.

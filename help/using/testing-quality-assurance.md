@@ -1,11 +1,11 @@
 ---
 title: Tests et assurance qualité
-description: Découvrez les tests et l’assurance qualité pour AEM Screens dans le Guide des bonnes pratiques.
+description: Découvrez les tests et l’assurance qualité pour AEM Screens dans le guide des bonnes pratiques.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 61%
+source-wordcount: '332'
+ht-degree: 56%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 61%
 >[!NOTE]
 >Cette activité est généralement réalisée par un intégrateur A/V.
 
-À mesure que vous vous rapprochez du déploiement du réseau de signalétique numérique, créez un plan de test et d’assurance qualité qui traite de chaque élément du réseau, y compris tous les composants matériels, tous les composants logiciels et tous les composants réseau.
+À mesure que vous vous approchez du déploiement du réseau de signalétique digitale, créez un plan de test et d’assurance qualité qui s’adresse à chaque élément du réseau, y compris tous les composants matériels, logiciels et réseau.
 Au cours de cette phase, des systèmes de test complets doivent être mis au point et soumis à des tests exhaustifs.
 
-Une liste de contrôle doit être créée, qui identifie tous les indicateurs de performance clés définis précédemment et mesure les livrables par rapport à eux.
+Il est nécessaire de créer une liste de contrôle qui identifie tous les IPC définis précédemment et qui mesure les livrables par rapport à ces indicateurs.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Une liste de contrôle doit être créée, qui identifie tous les indicateurs de
 
 Les éléments suivants doivent être pris en compte :
 
-## 1. Considérations mécaniques {#mechanical-considerations}
+## 1. Facteurs mécaniques {#mechanical-considerations}
 
 Il est recommandé de tenir compte des facteurs mécaniques suivants :
 
@@ -36,7 +36,7 @@ Il est recommandé de tenir compte des facteurs mécaniques suivants :
 * Gestion des câbles
 * Mise en réseau des appareils
 
-## 2. Considérations relatives aux logiciels {#software-considerations}
+## 2. Facteurs logiciels {#software-considerations}
 
 Il est recommandé de tenir compte des facteurs logiciels suivants :
 
@@ -46,7 +46,7 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 * Dépendances de base de données (définies précédemment)
 
 
-## 3. Considérations relatives à la gestion des appareils {#device-management-considerations}
+## 3. Facteurs de gestion des périphériques {#device-management-considerations}
 
 AEM Screens dispose d’un module de centre de contrôle des appareils qui permet de gérer les points d’extrémité de l’application du lecteur Screens.
 
@@ -58,11 +58,11 @@ Ce module permet d’effectuer les opérations suivantes :
 1. Gérer les téléchargements de contenus
 1. Gérer les problèmes de redémarrage de l’application
 
-Pour en savoir plus sur le ***Centre de contrôle des appareils***, reportez-vous à la section [Dépannage du Centre de contrôle des appareils](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) du **Guide de l’utilisateur d’AEM Screens**.
+Pour en savoir plus sur ***Centre de contrôle des périphériques***, voir [Dépannage du Centre de contrôle des périphériques](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guide de l’utilisateur d’AEM Screens**.
 
 >[!CAUTION]
 >
->N’utilisez pas le Centre de contrôle des appareils pour :
+>N’utilisez pas le Centre de contrôle des périphériques pour :
 >
 >* installer de nouvelles versions de l’application du lecteur ;
 >* surveiller les ressources système ;
@@ -72,9 +72,9 @@ Pour en savoir plus sur le ***Centre de contrôle des appareils***, reportez-vou
 
 >[!NOTE]
 >
-> Adobe recommande d’utiliser des plateformes de gestion des appareils tierces dédiées pour tous les déploiements.
+> Adobe recommande que des plateformes tierces dédiées de gestion des périphériques soient utilisées pour tous les déploiements.
 
-La plateforme spécifique choisie dépend de plusieurs facteurs, dont les suivants : ***système d’exploitation cible***, ***exigences du projet***, et ***nombre de points d&#39;extrémité***.
+La plateforme choisie dépend de plusieurs facteurs, dont : ***système d&#39;exploitation cible***, ***exigences du projet***, et ***nombre de points de fin***.
 
 Voici quelques exemples :
 

@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plate-forme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -33,19 +33,18 @@ La date de publication du pack de fonctionnalités 202001 d’AEM Screens est l
 ### Nouveautés {#what-s-new}
 
 * **Synchronisation des commandes pour la lecture des ressources**
-La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
-Pour en savoir plus sur la synchronisation des commandes et sur la définition du maître et des clients, consultez [Utilisation de la synchronisation des commandes](using-command-sync.md).
+La synchronisation des commandes permet la lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
+Pour en savoir plus sur la synchronisation des commandes et sur la définition du maître et des clients, voir [Utilisation de la synchronisation des commandes](using-command-sync.md).
 
 * **Structure de contrôle de l’intégrité pour afficher l’état https et autoriser un référent vide**
 La structure de contrôle de l’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires (Autoriser les demandes de référents vides et Service HTTP Apache Felix Jetty) sont configurées avant d’exécuter un projet AEM Screens.
 
-   Pour en savoir plus sur la structure de contrôle de l’intégrité, reportez-vous à la section [Structure de contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+  Pour en savoir plus sur la structure de contrôle de l’intégrité, voir [Structure du contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Mises à jour des types de transition par défaut**
-Propriétés du composant de transition telles que 
-Le **type** est désormais défini par défaut sur **Fondu** et la **durée** sur **1600 ms**.
+Les propriétés du composant de transition, telles que **Type**, sont désormais définies sur **Fondu** et la **Durée** sur **1 600 ms**, par défaut.
 
-   Pour plus d’informations, voir le cas d’utilisation [Application de transitions](/help/user-guide/applying-transitions.md).
+  Voir [Application de transitions](/help/user-guide/applying-transitions.md) cas d’utilisation pour plus de détails.
 
 
 ### Lecteurs AEM Screens publiés {#released-aem-screens-players}
@@ -56,6 +55,6 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4 Feature Pack 7 
 * Windows
 * Android
 
-#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens  {#aem-screens-player-downloads}
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).

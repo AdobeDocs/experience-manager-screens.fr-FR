@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 55%
+source-wordcount: '312'
+ht-degree: 40%
 
 ---
 
@@ -35,25 +35,25 @@ La date de publication d’AEM Screens Feature Pack 201905 est le 16 mai 2019
 
 L’importateur de projet est une fonctionnalité disponible dans AEM Screens qui vous permet d’importer en bloc un ensemble d’emplacements d’une feuille de calcul CSV/XLS dans votre projet AEM Screens.
 
-Pour plus d’informations, reportez-vous au **[Nouvel outil d’importation de projets à partir d’un fichier](project-importer.md)**.
+Voir **[Nouvel importateur de projet à partir d’un fichier](project-importer.md)** pour plus d’informations.
 
 * **Transition de ContentSync à SmartSync**
 
 SmartSync minimise la charge/le stockage du serveur et le trafic réseau, ce qui permet de réduire les coûts.
 
-Pour plus d’informations, reportez-vous à **[Transition de ContentSync à SmartSync](smartsync.md)**.
+Voir **[Transition de ContentSync à SmartSync](smartsync.md)** pour plus d’informations.
 
 * **Canal d’urgence**
 
 Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur du contenu peut passer d’un canal de séquence s’il y a une condition préalable.
 
-Pour plus d’informations, consultez le cas d’utilisation du **[canal d’urgence](emergency-channel.md)**.
+Voir **[Canal d’urgence](emergency-channel.md)** Cas d’utilisation pour plus d’informations.
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 
 Cette section décrit comment incorporer une application interactive monopage à l’aide de REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM. L’éditeur peut être configuré par des professionnels dans AEM. Il décrit également comment intégrer votre application interactive à Adobe Analytics hors ligne.
 
-Pour plus d’informations, reportez-vous aux sections **[Intégration d’une application REACT à l’aide de l’éditeur d’application d’applications monopages AEM et Intégration d’AEM Screens Analytics](embedding-react-app.md)**.
+Voir **[Incorporation d’une application REACT à l’aide de l’éditeur SPA d’AEM et intégration à AEM Screens Analytics](embedding-react-app.md)** pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés
 
