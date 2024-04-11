@@ -1,24 +1,20 @@
 ---
 title: Création de composants
-seo-title: Création de composants
-description: Les composants AEM servent à stocker, mettre en forme et générer le rendu du contenu diffusé dans vos pages web. Suivez cette page pour en savoir plus sur la création de canaux et le rendu de composants.
-seo-description: Les composants AEM servent à stocker, mettre en forme et générer le rendu du contenu diffusé dans vos pages web. Suivez cette page pour en savoir plus sur la création de canaux et le rendu de composants.
-uuid: 66c76dd5-495a-4dcb-ad18-7f8a92669752
+description: Découvrez comment les composants d’AEM sont utilisés pour contenir, formater et générer le rendu du contenu mis à disposition sur vos pages web.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-feature: Développement dans Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+exl-id: 4d673039-4963-458a-89e9-023a993dd354
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 59%
 
 ---
-
 
 # Création de composants {#creating-components}
 
@@ -30,24 +26,24 @@ Les composants AEM servent à stocker, mettre en forme et générer le rendu du 
 
 ## Création de canaux {#authoring-channels}
 
-Le canal est l’objet central du contenu qui est diffusé à un ensemble d’écrans. Par conséquent, un auteur de contenu ouvre généralement un canal dans l’éditeur pour ajouter ou modifier du contenu. Étant donné que le canal est un nœud ***cq:Page***, il applique le même schéma UX traditionnel pour ajouter et modifier des composants dans le canal.
+Le canal est l’objet central du contenu diffusé à un ensemble d’affichages. Par conséquent, un auteur ou une autrice de contenu ouvre généralement un canal dans l’éditeur pour ajouter ou modifier du contenu. Parce que le canal est un ***`cq:Page`***, il suit le même schéma UX traditionnel pour ajouter et modifier des composants sur le canal.
 
-Cependant, dans la mesure où les composants d’un canal sont généralement rendus en mode Plein écran, l’expérience de création est dégradée lorsque vous essayez de modifier des composants uniques ou de composer de nouvelles séquences. Par conséquent, le canal dépend des sélecteurs pour effectuer le rendu des différentes vues des composants. L’environnement de création met à profit le sélecteur de modification pour activer le rendu de canal personnalisé.
+Cependant, comme les composants d’un canal sont généralement rendus en plein écran, l’expérience de création en pâtit lors de la tentative de modification de composants uniques ou de composition de nouvelles commandes. Par conséquent, le canal s’appuie sur des sélecteurs pour effectuer le rendu de différentes vues des composants. L’environnement de création utilise le sélecteur de modification pour activer le rendu de canal personnalisé.
 
 Par exemple, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-L’utilisateur ne doit pas se charger de l’ajout du sélecteur à l’URL au cours de l’édition. Une logique côté client écoute l’événement de changement de calque et ajoute le sélecteur si le canal présente le type de ressource dédié *screens/core/components/channel.*
+L’utilisateur ne doit pas se charger de l’ajout du sélecteur à l’URL au cours de l’édition. Une logique côté client écoute l’événement de changement de calque et ajoute le sélecteur si le canal possède le type de ressource dédié. *screens/core/components/channel*.
 
 ## Rendu des composants {#rendering-components}
 
-Pour garantir une création correcte, les composants doivent fournir les deux rendus suivants :
+Pour permettre une création correcte, les composants doivent fournir les deux rendus suivants :
 
 | **Component** | **Rendus** |
 |---|---|
 | *my-component/my-component.html* | rendu de production |
 | *my-component/edit.html* | modification du rendu dans une vue plus petite |
 
-Les composants intégrés tirent parti des catégories de bibliothèques clientes suivantes :
+Les composants intégrés utilisent les catégories de bibliothèques clientes suivantes :
 
 | **Component** | **Bibliothèque cliente** |
 |---|---|
@@ -58,4 +54,3 @@ Les composants intégrés tirent parti des catégories de bibliothèques cliente
 >[!NOTE]
 >
 >Pour développer des composants personnalisés, utilisez le ***[modèle d’exemple de composant AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
-

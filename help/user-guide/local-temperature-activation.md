@@ -1,23 +1,19 @@
 ---
 title: Activation de la température de l’agence de voyages
-seo-title: Travel Center Temperature Activation
-description: Le cas d’utilisation suivant illustre l’utilisation de l’activation de la température locale de l’agence de voyages en fonction des valeurs renseignées dans Google Sheets.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: Avec AEM Screens, découvrez comment ce cas pratique illustre l’utilisation de l’activation de la température locale de l’agence de voyages en fonction des valeurs renseignées dans les feuilles de calcul Google.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 89%
+source-wordcount: '449'
+ht-degree: 57%
 
 ---
 
@@ -27,7 +23,7 @@ Le cas d’utilisation suivant illustre l’utilisation de l’activation de la 
 
 ## Description {#description}
 
-Pour ce cas d’utilisation, si la valeur de votre feuille de calcul Google Sheets est inférieure à 50, une image avec des boissons chaudes apparaît, et si la valeur est supérieure ou égale à 50, une image avec des boissons fraîches apparaît. En cas de valeur différente ou d’absence de valeur, le lecteur affiche une image par défaut.
+Pour ce cas d’utilisation, si la valeur dans les feuilles de calcul Google est inférieure à 50, une image avec des boissons chaudes s’affiche. Si la valeur est supérieure ou égale à 50, une image avec des boissons fraîches s’affiche. S’il existe une autre valeur ou aucune valeur, le lecteur affiche une image par défaut.
 
 ## Prérequis {#preconditions}
 
@@ -42,7 +38,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 1. **Remplissage des feuilles de calcul Google Sheets**
 
    1. Accédez à la feuille de calcul Google appelée ContextHubDemo.
-   1. Ajoutez une colonne **Heading1** avec la valeur de température correspondante.
+   1. Ajoutez une colonne avec **`Heading1`** avec la valeur correspondante pour la température.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. Sélectionnez **Sheets A1 1** et cliquez sur **Modifier**.
 
-   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration pour modifier les propriétés.
+   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration.
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
 
    1. Sélectionnez l’**opérateur** **supérieur ou égal à** (greater-than-or-equal) dans le menu déroulant.
@@ -61,7 +57,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. De même, sélectionnez les feuilles **Sheets A1 2** et cliquez sur **Modifier**.
 
-   1. Sélectionnez la **propriété Comparaison - Valeur** et cliquez sur l’icône Configurer pour modifier les propriétés.
+   1. Sélectionnez la variable **Propriété de comparaison - Valeur** et cliquez sur l’icône de configuration.
    1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
 
    1. Sélectionnez l’**Opérateur** **inférieur à** (lower-than) dans le menu déroulant
@@ -89,6 +85,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 1. **Vérification de l’aperçu**
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
-   1. Définissez une valeur inférieure à 50. Vous devriez voir une image de boissons fraîches. Si la valeur dans la feuille de calcul Google est supérieure ou égale à 50, vous devriez voir une image de boisson chaude.
+   1. Définissez la valeur sur moins de 50. Vous devriez pouvoir voir une image d&#39;une boisson froide. Si la valeur de Google Sheets est supérieure ou égale à 50, une image de boisson chaude devrait s’afficher.
 
    ![result3](assets/result3.gif)

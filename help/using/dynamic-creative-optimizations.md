@@ -1,17 +1,15 @@
 ---
 title: Déclencheurs de données
-seo-title: Déclencheurs de données
-description: Cette page décrit les déclencheurs de données
-seo-description: Cette page décrit les déclencheurs de données
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+description: Découvrez les déclencheurs de données dans AEM Screens.
+exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 70%
 
 ---
 
-
-# Optimisations dynamiques des annonces (DCO) {#dynamic-creative}
+# Optimisations dynamiques des créations {#dynamic-creative}
 
 >[!NOTE]
 >
@@ -21,9 +19,9 @@ La technologie DCO (**Dynamic Creative Optimization**) permet de créer des exp�
 
 On parle également d’aplatissement du contenu côté client.
 
-La principale raison qui justifie le recours à cette technologie est de faire en sorte que chaque terminal ou appareil de lecture puisse utiliser des ensembles de données pour déterminer automatiquement le meilleur contenu à lire en fonction de divers facteurs.
+Cela permet de s’assurer que chaque appareil ou point de terminaison du lecteur peut utiliser des jeux de données pour déterminer automatiquement le meilleur contenu à lire en fonction de différents facteurs.
 
-Cela évite de recourir constamment à une intervention humaine lorsqu’il s’agit de créer du contenu, ce qui réduit le coût total de propriété lié à l’exploitation du réseau, et rend les expériences digitales plus pertinentes, plus contextuelles et plus efficaces.
+Cela évite d’avoir besoin d’une intervention humaine constante lors de la création de contenu. Cela permet également de réduire le coût total de propriété pour l’exploitation du réseau et de rendre les expériences numériques plus pertinentes, plus contextuelles et plus efficaces.
 
 Voici quelques exemples :
 
@@ -38,6 +36,5 @@ L’adoption d’une stratégie de marchandisage visuel incluant la technologie 
 
 Il existe deux principaux types de déclencheurs de données :
 
-* **Déclencheurs de données locaux** : ces déclencheurs de données se situent au niveau du périphérique. Par exemple, si vous touchez l’écran, un capteur est activé, ce qui déclenche un commutateur de canal ou de ressource de données local.
+* **Déclencheurs de données locaux** : ces déclencheurs de données se situent au niveau de l’appareil. Par exemple, si vous touchez l’écran, un capteur est activé, ce qui déclenche un commutateur de canal ou de ressource de données local.
 * **Déclencheurs de données distants** : cela suppose que les données déclenchent un commutateur de canal ou de ressource sur la base des valeurs renvoyées par une API de service web.
-
