@@ -1,36 +1,32 @@
 ---
 title: API REST
-seo-title: API REST
-description: AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Consultez cette page pour savoir comment parcourir la structure de contenu et envoyer des commandes aux périphériques au sein de l’environnement.
-seo-description: AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Consultez cette page pour savoir comment parcourir la structure de contenu et envoyer des commandes aux périphériques au sein de l’environnement.
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: Découvrez comment AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Découvrez également comment parcourir la structure de contenu et envoyer des commandes aux périphériques dans l’environnement.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Développement dans Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 57%
 
 ---
 
+# API REST{#rest-apis}
 
-# API REST {#rest-apis}
-
-AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux périphériques au sein de l’environnement.
+AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Il vous permet de parcourir la structure de contenu et d’envoyer des commandes aux périphériques de l’environnement.
 
 L’API est accessible à l’adresse suivante : [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
 ## Exploration de la structure de contenu {#navigating-content-structure}
 
-Le code JSON renvoyé par les appels d’API répertorie les entités associées à la ressource en cours. En suivant le lien vers lui-même (self-link) répertorié, chacune de ces entités est de nouveau accessible sous la forme d’une ressource REST.
+Le code JSON renvoyé par les appels d’API répertorie les entités associées à la ressource en cours. En suivant le lien d’auto-connexion répertorié, chacune de ces entités est à nouveau accessible en tant que ressource REST.
 
-Par exemple, pour accéder aux écrans de notre emplacement de démonstration, vous pouvez appeler :
+Par exemple, pour accéder aux affichages à l’emplacement du drapeau de démonstration, vous pouvez appeler ce qui suit :
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -108,7 +104,7 @@ Host: http://localhost:4502
 
 Le code JSON renvoyé par les appels d’API peut contenir la liste des actions disponibles sur la ressource.
 
-L’affichage, par exemple, répertorie une action *broadcast-command* qui permet d’envoyer une commande à tous les périphériques qui lui sont affectés.
+L’affichage, par exemple, répertorie une action *broadcast-command* qui permet d’envoyer une commande à tous les appareils qui lui sont affectés.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -153,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Pour déclencher cette action, vous pouvez appeler :
+Pour déclencher cette action, appelez le :
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -167,4 +163,3 @@ Ou à l’aide de curl :
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-
