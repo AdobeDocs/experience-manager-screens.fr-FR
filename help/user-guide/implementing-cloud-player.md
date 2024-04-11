@@ -11,7 +11,7 @@ exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 36%
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ AEM Screens propose traditionnellement des applications de lecteur natif distinc
 
 Le lecteur cloud représente une différence significative par rapport aux applications natives précédentes d’Adobe. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Cette approche transformative permet aux clients d’avoir un lecteur indépendant de la plateforme qui s’exécute directement dans un navigateur web.
 
-L’accès au lecteur cloud est aussi simple que la visite `https://player.adobescreens.com`. Les utilisateurs et utilisatrices peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur Cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante dans les offres d’affichage numérique de l’Adobe, ce qui le rend plus accessible, polyvalent et convivial que jamais auparavant.
+L’accès au lecteur cloud est aussi simple que la visite `https://player.adobescreens.com`. Les utilisateurs et utilisatrices peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante dans les offres d’affichage numérique de l’Adobe, ce qui le rend plus accessible, polyvalent et convivial que jamais auparavant.
 
 Cette section décrit l’implémentation de Cloud Player.
 
@@ -79,17 +79,17 @@ En fonction du type d’instance AEM, sélectionnez l’un des guides suivants p
 >
 ## Abandon des applications Chrome par Google
 >
-1. Applications Chrome sur le matériel Chrome OS :
+1. Applications Chrome sur le matériel Chrome OS :
 >
-Google a activement abandonné les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
+Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
 >
 1. Lecteur d’extension Chrome sous Mac, Windows et Linux® :
 >
-En raison du processus d’obsolescence de Google, à partir de Google Chrome version 114, le lecteur d’extension Chrome Screens n’est plus pris en charge. Adobe vous conseille d’effectuer la transition vers son lecteur cloud Screens pour répondre à toutes vos exigences en matière de développement et de test.
+En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Adobe vous conseille d’effectuer la transition vers son lecteur cloud Screens pour répondre à toutes vos exigences en matière de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
-Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications d’une seule page intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
+Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications d’une seule page intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
 
 Le lecteur cloud utilise une stratégie de mise en cache favorisant le réseau (Network First), ce qui signifie qu’il tente de récupérer du contenu du réseau (puis de mettre à jour le cache avec la dernière version), avant de revenir au contenu mis en cache s’il est disponible. Pour mettre en œuvre la prise en charge hors ligne de cette récupération de contenu, l’en-tête personnalisé doit être inclus dans la requête. Ensuite, la requête avec l’en-tête personnalisé est mise en cache sur le lecteur, ce qui facilite l’accès hors ligne au contenu tout en conservant la stratégie de mise en cache Réseau d’abord .
 
