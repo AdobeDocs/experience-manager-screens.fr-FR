@@ -1,16 +1,14 @@
 ---
 title: Utilisation du lecteur Chrome comme extension
-seo-title: Utilisation du lecteur Chrome comme extension
-description: Consultez cette page pour en savoir plus sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
-seo-description: 'null'
-feature: Administration d’AEM Screens
+description: Découvrez comment installer le lecteur Chrome en tant qu’extension de navigateur pour AEM Screens.
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 40%
 
 ---
 
@@ -20,44 +18,45 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 
 >[!CAUTION]
 >
-> Il est recommandé d’utiliser le lecteur Chrome comme extension de résolution des problèmes pour des démonstrations rapides, le débogage et la résolution des problèmes des clients. Ce mécanisme ne doit pas être utilisé pour les déploiements de production qui nécessitent le mode kiosque et une gestion centrale.
+> Il est recommandé d’utiliser le lecteur Chrome comme extension de résolution des problèmes pour des démonstrations rapides, le débogage et la résolution des problèmes des clients. N’utilisez pas ce mécanisme pour les déploiements de production qui nécessitent le mode kiosque et la gestion centrale.
 
-Consultez cette page pour en savoir plus sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
+Consultez cette page pour plus d’informations sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 
 1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
 
-1. Ouvrez le navigateur Chrome, cliquez sur le menu à 3 points et sélectionnez **Plus d’outils** dans **Extensions** situé dans le coin supérieur droit ou accédez directement à `chrome://extensions`.
+1. Ouvrez le navigateur Chrome, cliquez sur le menu à 3 points, puis sélectionnez **Autres outils** de **Extensions** dans le coin supérieur droit ou accédez directement à `chrome://extensions`.
 
-1. Activez le mode **Développeur** depuis l’angle supérieur droit.
+1. Activez l’option **Développeur** dans le coin supérieur droit.
 
-1. Cliquez sur **Charger les fichiers décompressés** dans l’angle supérieur gauche et chargez le lecteur Chrome décompressé.
+1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 
-1. Vérifiez si le module Lecteur Chrome AEM Screens est disponible dans la liste des extensions.
+1. Vérifiez si le module Lecteur Chrome AEM Screens est disponible dans la liste des extensions.
 
-1. Ouvrez un nouvel onglet et cliquez sur l’icône Applications dans l’angle supérieur gauche ou accédez directement à `chrome://apps`.
+1. Ouvrez un nouvel onglet et cliquez sur l’icône Applications dans le coin supérieur gauche ou accédez directement à `chrome://apps`.
 
-1. Cliquez sur le module **AEM Screens** pour lancer le lecteur Chrome.
+1. Cliquez sur **Module externe AEM Screens** vous pouvez donc lancer le lecteur Chrome.
+
    >[!NOTE]
    >
-   > Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
+   > Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
 
 
 ## Conseils de débogage avancés {#advanced-debugging-tips}
 
-1. Une fois que le lecteur a téléchargé le contenu localement, vous pouvez parcourir le contenu téléchargé localement en accédant à `http://localhost:24502`.
+1. Lorsque le lecteur a téléchargé du contenu localement, vous pouvez parcourir le contenu téléchargé localement en accédant à `http://localhost:24502`.
 
    >[!NOTE]
    >
-   > Si l’URL mentionnée ci-dessus ne fonctionne pas, cela signifie qu’aucun affichage n’a été affecté au lecteur ou que le contenu n’a pas été téléchargé correctement. Vérifiez l’onglet réseau du JSON de configuration du lecteur afin de voir si le lecteur obtient les détails corrects et pour tout problème réseau en matière de téléchargement.
+   > Si l’URL mentionnée ci-dessus ne fonctionne pas, cela signifie que le lecteur ne se voit pas attribuer un affichage ou que le contenu n’a pas été téléchargé correctement. Vérifiez l’onglet réseau du JSON de configuration du lecteur afin de voir si le lecteur obtient les détails corrects et pour tout problème réseau en matière de téléchargement.
 
-1. Vous pouvez cliquer avec le bouton droit et inspecter trois couches du lecteur Chrome
-   **Déboguer le contenu** : cliquez avec le bouton droit et examinez le contenu pour déboguer le contenu en cours d’exécution (un seul élément dénommé « Inspecter » devrait s’afficher dans le menu contextuel).
+1. Cliquez avec le bouton droit et examinez trois calques du lecteur Chrome.
+   **Déboguer le contenu**: cliquez avec le bouton droit et examinez le contenu pour déboguer le contenu en cours d’exécution (un seul élément appelé &quot;Inspect&quot; doit s’afficher dans le menu contextuel).
 
-   **Déboguer le microgiciel** : affichez l’interface utilisateur d’administration, puis cliquez avec le bouton droit et examinez le code du micrologiciel (lecteur) (vous devez avoir la possibilité d’inspecter, d’inspecter la page d’arrière-plan et de simuler le redémarrage du navigateur).
+   **Déboguer le microprogramme**: affichez l’interface utilisateur d’administration, puis cliquez avec le bouton droit et examinez le code du micrologiciel (lecteur) pour le déboguer. (Il doit y avoir une option pour inspecter et inspecter la page d’arrière-plan et simuler le redémarrage du navigateur.)
 
-   **Débloquer la page d’arrière-plan** : affichez l’interface utilisateur d’administration, puis cliquez avec le bouton droit et examinez la page d’arrière-plan (pour les services en arrière-plan tels que le serveur http).
+   **Déboguer la page d’arrière-plan**: affichez l’interface utilisateur d’administration, puis cliquez avec le bouton droit et examinez la page d’arrière-plan (pour les services en arrière-plan tels que le serveur http).
 
 ## Mise à niveau de l’extension du lecteur {#upgrading-player}
 
