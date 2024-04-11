@@ -1,23 +1,21 @@
 ---
 title: Activation des fragments d’expérience
-seo-title: Activation des fragments d’expérience
-description: Suivez cet exemple de cas d’utilisation pour en savoir plus sur l’activation des fragments d’expérience.
-seo-description: Suivez cet exemple de cas d’utilisation pour en savoir plus sur l’activation des fragments d’expérience.
-source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
+description: Exemple de cas d’utilisation pour vous aider à en savoir plus sur l’activation des fragments d’expérience en ce qui concerne AEM Screens.
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 51%
 
 ---
 
 
-# Activation des fragments d’expérience : expérience omnicanal {#experience-fragments-activation}
+# Activation des fragments d’expérience : expérience omnicanal {#experience-fragments-activation}
 
 ## Description du cas d’utilisation {#use-case-description}
 
 Un fragment d’expérience est un groupe d’un ou plusieurs composants comprenant un contenu et une disposition référencés dans les pages.
 
-Le cas d’utilisation suivant permet de mettre en œuvre un projet de démonstration à partir duquel le fragment d’expérience est exploité dans un projet AEM Screens. Les points essentiels de ce cas d’utilisation sont les suivants :
+Le cas d’utilisation suivant vous permet de mettre en oeuvre un projet de démonstration à partir duquel le fragment d’expérience est appliqué à un projet AEM Screens. Les points essentiels de ce cas pratique sont les suivants :
 
 * Augmentation de la taille du texte
 * Retournement des images
@@ -32,9 +30,9 @@ Le cas d’utilisation suivant permet de mettre en œuvre un projet de démonstr
 
 Créez un projet intitulé **DemoProject** et un canal de séquence intitulé **TestChannel** dans votre instance AEM Screens, comme illustré dans la figure ci-dessous.
 
-### Mise en œuvre du fragment d’expérience dans un projet AEM Screens {#experience-fragments-implementation}
+### Mise en oeuvre du fragment d’expérience dans un projet AEM Screens {#experience-fragments-implementation}
 
-Une fois que vous avez créé un fragment d’expérience, exploité ensuite dans votre projet AEM Screens, **DemoProject**, vous pouvez l’améliorer selon vos besoins.
+Une fois que vous avez créé un fragment d’expérience et l’avez appliqué dans votre projet AEM Screens, **DemoProject** vous pouvez améliorer le fragment d’expérience en fonction de vos besoins.
 
 ### Augmentation de la taille du texte {#increasing-text-size}
 

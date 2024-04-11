@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 69%
@@ -30,7 +30,7 @@ Ce tutoriel est destiné aux développeurs et aux développeuses qui découvrent
 
 Pour suivre ce tutoriel, vous avez besoin de :
 
-1. [AEM 6.5](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes) ainsi que le dernier pack de fonctionnalités Screens.
+1. [AEM 6.5](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes) Plus le dernier Feature Pack Screens.
 
 1. [Lecteur AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. Environnement de développement local
@@ -51,7 +51,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    **`mvn -PautoInstallPackage clean install`**
 
-   Démarrer HelloWorld SRC Screens `We.Retail` Exécuter le projet.
+   Démarrage de HelloWorld SRC Screens `We.Retail` Exécutez le projet.
 
 [Obtenir le fichier](assets/src-screens-weretail-run.zip)
 
@@ -62,7 +62,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    ![Packages Ui.Apps et Ui.Content Screens We.Retail Run installés via CRX Package Manager](assets/crx-packages.png)
 
-   Screens `We.Retail` Exécuter `Ui.Apps` et `Ui.Content` packages installés par le biais du gestionnaire de packages CRX.
+   Screens `We.Retail` Exécuter `Ui.Apps` et `Ui.Content` packages installés par le biais de CRX Package Manager.
 
 1. Le package **screens-weretail-run.ui.apps** installe le code sous `/apps/weretail-run`.
 
@@ -76,7 +76,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    Représentation du code ui.apps dans CRXDE Lite
 
-   Le **Hello World** composant n’est qu’un espace réservé. Au cours du tutoriel, une fonctionnalité est ajoutée pour permettre à un auteur ou une autrice de mettre à jour le message affiché par le composant.
+   La variable **Hello World** n’est qu’un espace réservé. Au cours du tutoriel, une fonctionnalité est ajoutée pour permettre à un auteur ou une autrice de mettre à jour le message affiché par le composant.
 
 1. Le package **screens-weretail-run.ui.content** installe le code sous :
 
@@ -84,11 +84,11 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le `We.Retail` Exécuter le projet. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
+   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour la variable `We.Retail` Exécutez le projet. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu sous tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
 
-1. **Accédez à AEM Screens > `We.Retail` Exécuter le projet :**
+1. **Accédez à AEM Screens > `We.Retail` Exécutez le projet :**
 
-   Dans le menu Démarrer d’AEM, sélectionnez l’icône Screens . Vérifier le `We.Retail` L’action Exécuter le projet s’affiche.
+   Dans le menu Démarrer d’AEM, sélectionnez l’icône Screens . Vérifiez les `We.Retail` Exécuter le projet s’affiche.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -99,7 +99,7 @@ Le composant Hello World est un composant simple qui permet à un utilisateur de
 AEM Screens présente des contraintes intéressantes qui ne sont pas nécessairement vraies pour les composants des sites WCM traditionnels.
 
 * La plupart des composants Screens doivent s’exécuter en mode plein écran sur les appareils de signalétique numérique cibles
-* La plupart des composants Screens doivent pouvoir être incorporés dans les canaux de séquence pour générer des diaporamas
+* La plupart des composants Screens doivent être incorporables dans les canaux de séquence pour générer des diaporamas.
 * La création doit permettre de modifier individuellement les composants d’un canal de séquence, de sorte que le rendu en mode plein écran est hors de question.
 
 1. Dans **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (ou l’IDE choisi), accédez à `/apps/weretail-run/components/content/helloworld.`
@@ -116,7 +116,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    Propriétés de /apps/weretail-run/components/content/helloworld
 
-   Le **Hello World** Le composant étend **foundation/components/parbase** afin qu’il puisse être utilisé correctement dans un canal de séquence.
+   La variable **Hello World** étend le composant **foundation/components/parbase** afin qu’il puisse être correctement utilisé dans un canal de séquence.
 
 1. Sous `/apps/weretail-run/components/content/helloworld`, créez un fichier appelé `helloworld.html.`
 
@@ -158,11 +158,11 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    </div>
    ```
 
-   Vous trouverez ci-dessus le balisage de production du composant Hello World. Un attribut `data-duration` est inclus, car le composant est utilisé sur un canal de séquence. L’attribut `data-duration` est utilisé par le canal de séquence pour savoir pendant combien de temps un élément de séquence doit être affiché.
+   L’illustration ci-dessus représente les balises de production du composant Hello World. Un attribut `data-duration` est inclus, car le composant est utilisé sur un canal de séquence. L’attribut `data-duration` est utilisé par le canal de séquence pour savoir pendant combien de temps un élément de séquence doit être affiché.
 
-   Le composant effectue le rendu d’un `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie du script HTL qui génère le contenu d’une propriété JCR nommée . `message`. Une boîte de dialogue est créée ultérieurement pour permettre à l’utilisateur de saisir une valeur pour le `message` texte de la propriété.
+   Le composant effectue le rendu d’un `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie du script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à l’utilisateur de saisir une valeur pour la variable `message` texte de la propriété.
 
-   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. BEM est la notation utilisée par . [Composants principaux AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. BEM est la notation utilisée par [Composants principaux d’AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Sous `/apps/weretail-run/components/content/helloworld`, créez un fichier appelé `edit.html.`
 
@@ -189,7 +189,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    </div>
    ```
 
-   Vous trouverez ci-dessus le balisage modifié pour le composant Hello World . Le premier bloc affiche une version modifiée du composant si le message de boîte de dialogue a été renseigné.
+   La balise ci-dessus est modifiée pour le composant Hello World. Le premier bloc affiche une version modifiée du composant si le message de boîte de dialogue a été renseigné.
 
    Le second bloc est rendu si aucun message de boîte de dialogue n’a été saisi. Dans ce cas, `cq-placeholder` et `data-emptytext` peuvent afficher le libellé ***Hello World*** en guise d’espace réservé. La chaîne du libellé peut être internationalisée en utilisant i18n afin de prendre en charge la création pour plusieurs paramètres régionaux.
 
@@ -250,7 +250,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
                                    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                                    defaultValue=""
                                    fieldDescription="Amount of time the image is shown in the sequence, in milliseconds"
-                                   fieldLabel="Duration (ms)"
+                                   fieldLabel="Duration (milliseconds)"
                                    min="0"
                                    name="./duration"/>
                            </items>
@@ -262,7 +262,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    </jcr:root>
    ```
 
-   Le champ de texte du message est enregistré dans une propriété nommée . `message` et que le champ numérique pour la durée est enregistré dans une propriété nommée . `duration`. Ces deux propriétés sont toutes deux référencées dans `/apps/weretail-run/components/content/helloworld/production.html` par HTL en tant que `${properties.message}` et `${properties.duration}`.
+   Le champ de texte du message est enregistré dans une propriété nommée `message` et que le champ numérique de la durée est enregistré dans une propriété nommée `duration`. Ces deux propriétés sont toutes deux référencées dans `/apps/weretail-run/components/content/helloworld/production.html` par HTL en tant que `${properties.message}` et `${properties.duration}`.
 
    ![Hello World - Boîte de dialogue terminée](assets/2018-04-29_at_5_21pm.png)
 
@@ -272,7 +272,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
 Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une implémentation d’AEM.
 
-Les composants d’AEM Screens s’affichent différemment en mode d’édition et en mode d’aperçu/de production. Deux bibliothèques clientes sont créées : l’une pour le mode d’édition, la seconde pour l’aperçu/la production.
+Les composants d’AEM Screens s’affichent différemment en mode d’édition et en mode d’aperçu/de production. Deux bibliothèques clientes sont créées : une pour le mode d’édition et l’autre pour l’aperçu/la production.
 
 1. Créez un dossier pour les bibliothèques côté client pour le composant Hello World.
 
@@ -280,7 +280,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-04-30_at_1046am.](assets/2018-04-30_at_1046am.png)
 
-1. Sous le `clientlibs` dossier, créez un nœud nommé . `shared` de type `cq:ClientLibraryFolder`.
+1. Sous la `clientlibs` créer un dossier, créer un noeud nommé `shared` de type `cq:ClientLibraryFolder`.
 
    ![2018-04-30_at_1115am](assets/2018-04-30_at_1115am.png)
 
@@ -334,19 +334,19 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
    }
    ```
 
-1. Copiez et collez le `shared` dossier de bibliothèques clientes pour créer une bibliothèque cliente nommée . `production`.
+1. Copiez et collez le `shared` dossier de bibliothèque cliente pour créer une bibliothèque cliente nommée `production`.
 
    ![Copie de la bibliothèque cliente partagée pour créer une nouvelle bibliothèque cliente de production](assets/copy-clientlib.gif)
 
    Copiez la bibliothèque cliente partagée pour créer une bibliothèque cliente de production.
 
-1. Mettre à jour `categories` propriété de la bibliothèque cliente de production à définir `cq.screens.components.production.`
+1. Mettez à jour le `categories` de la bibliothèque cliente de production à définir `cq.screens.components.production.`
 
    Cela permet de s’assurer que les styles sont chargés uniquement en mode Aperçu/Production.
 
    ![Propriétés de /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
-   Propriétés de `/apps/weretail-run/components/content/helloworld/clientlibs/production`.
+   Propriétés pour `/apps/weretail-run/components/content/helloworld/clientlibs/production`.
 
 1. Remplissez `/apps/weretail-run/components/content/helloworld/clientlibs/production/css/styles.less` avec les éléments suivants :
 
@@ -373,7 +373,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    Les styles ci-dessus affichent le message centré au milieu de l’écran, mais uniquement en mode Production.
 
-Une troisième catégorie de bibliothèque cliente : `cq.screens.components.edit` peut être utilisé pour ajouter des styles spécifiques en édition uniquement au composant.
+Une troisième catégorie de bibliothèque cliente : `cq.screens.components.edit` peut être utilisé pour ajouter des styles spécifiques à la modification au composant.
 
 | Catégorie de bibliothèque cliente | Utilisation |
 |---|---|
@@ -385,9 +385,9 @@ Une troisième catégorie de bibliothèque cliente : `cq.screens.components.edit
 
 AEM Screens utilise des [Modèles de page statiques](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) et des [Configurations de conception](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) pour les modifications globales. Les configurations de conception sont fréquemment utilisées pour configurer les composants autorisés pour le Parsys sur un canal. Il est recommandé de stocker ces configurations d’une manière spécifique à l’application.
 
-En dessous d’un `We.Retail` La page Exécuter la conception est créée pour stocker toutes les configurations spécifiques au `We.Retail` Exécuter le projet.
+Sous une `We.Retail` La page Exécuter la conception est créée et stocke toutes les configurations spécifiques à `We.Retail` Exécutez le projet.
 
-1. In **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs`, accédez à `/apps/settings/wcm/designs`.
+1. Dans **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs`, accédez à `/apps/settings/wcm/designs`.
 1. Créez un nœud sous le dossier designs, nommé `we-retail-run` avec un type de `cq:Page`.
 1. Sous la page `we-retail-run`, ajoutez un autre nœud nommé `jcr:content` de type `nt:unstructured`. Ajoutez les propriétés suivantes au nœud `jcr:content` :
 
@@ -399,15 +399,15 @@ En dessous d’un `We.Retail` La page Exécuter la conception est créée pour s
 
    ![Page de conception à /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1219pm.png)
 
-   Créer une page sur `/apps/settings/wcm/designs/we-retail-run`.
+   Page de conception à `/apps/settings/wcm/designs/we-retail-run`.
 
 ## Création d’un canal de séquence {#create-sequence-channel}
 
-Le composant Hello World doit être utilisé sur un canal de séquence. Pour tester le composant, un nouveau canal de séquence est créé.
+Le composant Hello World est à utiliser sur un canal de séquence. Pour tester le composant, un nouveau canal de séquence est créé.
 
-1. Dans le menu Démarrer AEM, accédez à **Screens** > **`We.Retail`Exécuter** > et sélectionnez **Canaux**.
+1. Dans le menu AEM, accédez à **Screens** > **`We.Retail`Exécuter** > et sélectionnez **Canaux**.
 
-1. Sélectionner le **Créer** bouton
+1. Sélectionnez la variable **Créer** button
 
    1. Choisir **Créer une entité**
 
@@ -424,8 +424,8 @@ Le composant Hello World doit être utilisé sur un canal de séquence. Pour tes
 
    ![idle-channel](assets/idle-channel.gif)
 
-1. Ouvrez les propriétés de page du canal inactif.
-1. Mettez à jour le champ Conception afin qu’il pointe vers . `/apps/settings/wcm/designs/we-retail-run`, la page de conception créée dans la section précédente.
+1. Ouvrez les propriétés de page pour le canal inactif.
+1. Mettez à jour le champ Conception afin qu’il pointe vers `/apps/settings/wcm/designs/we-retail-run`, la page de conception créée dans la section précédente.
 
    ![Configuration de conception /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1240pm.png)
 
@@ -435,9 +435,9 @@ Le composant Hello World doit être utilisé sur un canal de séquence. Pour tes
 
 1. Basculez le mode Page vers le mode **Conception**.
 
-   1. Sélectionner le **clé à molette** Icône dans le Parsys pour configurer les composants autorisés.
+   1. Sélectionnez la variable **clé** Icône dans le système de paragraphes (parsys) afin de pouvoir configurer les composants autorisés.
 
-   1. Sélectionner le **Screens** et le **`We.Retail`Exécuter - Contenu** groupe.
+   1. Sélectionnez la variable **Screens** et la variable **`We.Retail`Run - Content** groupe.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
@@ -453,9 +453,9 @@ Le composant Hello World doit être utilisé sur un canal de séquence. Pour tes
 
 ## Modèle pour les gestionnaires personnalisés {#custom-handlers}
 
-Si votre composant personnalisé utilise des ressources externes telles que des ressources (images, vidéos, polices et icônes), des rendus de ressources spécifiques ou des bibliothèques côté client (css et js), celles-ci ne sont pas automatiquement ajoutées à la configuration hors ligne. En effet, seule la balise de HTML est groupée par défaut.
+Si votre composant personnalisé utilise des ressources externes telles que des ressources (images, vidéos, polices et icônes), des rendus de ressources spécifiques ou des bibliothèques côté client (css et js), celles-ci ne sont pas automatiquement ajoutées à la configuration hors ligne. Cela est dû au fait que seule la balise de HTML est regroupée par défaut.
 
-Pour vous permettre de personnaliser et d’optimiser les ressources exactes téléchargées sur le lecteur, Adobe propose un mécanisme d’extension permettant aux composants personnalisés d’exposer leurs dépendances à la logique de mise en cache hors ligne dans AEM Screens.
+Pour vous permettre de personnaliser et d’optimiser les ressources exactes téléchargées sur le lecteur, Adobe propose un mécanisme d’extension pour les composants personnalisés afin d’exposer leurs dépendances à la logique de mise en cache hors ligne dans AEM Screens.
 
 La section ci-dessous présente le modèle des gestionnaires personnalisés de ressources hors ligne et les exigences minimales du fichier `pom.xml` pour ce projet spécifique.
 
@@ -559,7 +559,7 @@ Si votre composant personnalisé est destiné à inclure d’autres pages ou fra
 1. Au lieu d’étendre directement `foundation/components/parbase`, vous devez étendre l’une des options suivantes : `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
 2. Le nom de la propriété que vous utilisez pour référencer le contenu incorporé doit être `pagePath`.
 
-L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire suivant : ils peuvent prendre en charge le regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.). Pour ce faire, ils utilisent leurs options de configuration hors ligne dans la boîte de dialogue du composant, ce qui réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devez utiliser à cet effet. Cela peut parfois même supprimer complètement la nécessité d’en utiliser un en premier lieu.
+L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire qu’ils peuvent prendre en charge le regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.). Pour ce faire, ils utilisent leurs options de configuration hors ligne dans la boîte de dialogue du composant, ce qui réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devez utiliser à cet effet. Il peut parfois même supprimer complètement la nécessité d&#39;en utiliser un en premier lieu.
 
 ## Code terminé {#finished-code}
 

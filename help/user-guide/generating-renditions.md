@@ -1,62 +1,61 @@
 ---
 title: Rendus vidéo
-seo-title: Rendus vidéo
-description: Suivez cette page afin d’en savoir plus sur la génération des rendus Full HD pour votre projet Screens.
-seo-description: Suivez cette page afin d’en savoir plus sur la génération des rendus Full HD pour votre projet Screens.
-uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
+description: Découvrez comment générer des rendus Full HD pour votre projet AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 26%
 
 ---
 
 # Rendus vidéo {#video-renditions}
 
-Vous pouvez générer des rendus Full HD automatiques et manuels. La section suivante décrit le processus à suivre pour ajouter des rendus à vos ressources.
+Vous pouvez générer des rendus Full HD manuels et automatiques. La section suivante décrit le processus à suivre pour ajouter des rendus à vos ressources.
 
 ## Génération automatique de rendus Full HD  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Au cas où les rendus vidéo d’AEM Screens ne sont pas lus de façon optimale sur votre périphérique, contactez le fournisseur de votre matériel pour obtenir les caractéristiques de la vidéo. Cela vous aidera à obtenir de meilleures performances sur le périphérique et par conséquent à créer votre propre profil vidéo personnalisé où vous fournissez les paramètres appropriés pour que FFmpeg génère le rendu. Ultérieurement, suivez les étapes ci-dessous pour ajouter votre profil vidéo personnalisé à la liste des profils.
+>Si les rendus vidéo AEM Screens ne sont pas lus de manière optimale sur votre appareil, contactez le fournisseur du matériel pour connaître les spécifications de la vidéo. Cela permet d’obtenir les meilleures performances sur l’appareil et de créer ainsi votre propre profil vidéo personnalisé dans lequel vous fournissez les paramètres appropriés pour que FFMPEG génère votre rendu. Suivez ensuite les étapes ci-dessous pour ajouter votre profil vidéo personnalisé à la liste des profils.
 >
->En outre, voir [Dépannage des vidéos](troubleshoot-videos.md) pour déboguer et dépanner les problèmes de lecture de vidéos dans votre canal.
+>Voir aussi [Vidéos de dépannage](troubleshoot-videos.md) pour déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
-Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD :
+Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Processus**.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche) et cliquez sur l’icône en forme de marteau pour sélectionner **Workflow**.
 
-   Cliquez sur **Modèles** pour accéder à la gestion des modèles de processus.
+   Cliquez sur **Modèles**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Sélectionnez le modèle **Ressources de mise à jour de gestion des actifs numériques (DAM)**, puis cliquez sur Modifier dans la barre d’actions pour ouvrir la fenêtre **Ressources de mise à jour de gestion des actifs numériques**.
+1. Dans la gestion des modèles de workflow, sélectionnez la variable **Ressource de mise à jour de gestion des actifs numériques** modèle et clic **Modifier** dans la barre d’actions.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. Double-cliquez sur l’étape **Transcodage FFmpeg**.
+1. Dans le **Ressource de mise à jour de gestion des actifs numériques** , double-cliquez sur le **Transcodage FFmpeg** étape .
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Sélectionnez l’onglet **Processus** pour modifier les arguments du processus. Saisissez les profils Full HD pour la liste dans **Arguments** comme suit : ***,profile:fullhd-bp,profile:fullhd-hp*** et cliquez sur **OK**.
+1. Sélectionnez la variable **Processus** .
+1. Saisissez les profils Full HD dans la liste de **Arguments** comme suit :
+   ***`,profile:fullhd-bp,profile:fullhd-hp`***
+1. Cliquez sur **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Cliquez sur **Enregistrer** en haut à gauche de l’écran **Ressources de mise à jour de gestion des actifs numériques (DAM)**.
+1. Cliquez sur **Enregistrer** dans le coin supérieur gauche de la **Ressource de mise à jour de gestion des actifs numériques** écran.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Accédez à **Actifs** et téléchargez une nouvelle vidéo. Cliquez sur la vidéo, puis ouvrez le rail latéral Rendus où vous verrez les deux vidéos Full HD.
+1. Accédez à **Actifs** et téléchargez une nouvelle vidéo. Cliquez sur la vidéo et ouvrez le rail latéral Rendus . Notez les deux vidéos Full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -64,7 +63,7 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. Vous verrez deux nouveaux rendus Full HD.
+1. Notez deux nouveaux rendus Full HD.
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
@@ -72,13 +71,13 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD
 
 Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau et sélectionnez **Processus**.
+1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis cliquez sur l’icône en forme de marteau pour sélectionner les outils et sélectionner **Workflow**.
 
-   Cliquez sur **Modèles** pour accéder à la gestion des modèles de processus.
+   Cliquez sur **Modèles**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Sélectionnez le modèle **Ressources de mise à jour de gestion des actifs numériques**, puis cliquez sur **Démarrer le processus** pour ouvrir la boîte de dialogue **Exécuter le processus**.
+1. Dans la gestion des modèles de workflow, sélectionnez l’option **Ressources de mise à jour de Screens** et cliquez sur le bouton **Démarrer le processus** pour ouvrir le **Exécuter le workflow** de la boîte de dialogue
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
@@ -90,6 +89,6 @@ Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. Ouvrez le rail latéral **Rendus** ; vous remarquerez les nouveaux rendus Full HD.
+1. Ouvrez le **Rendus** rail latéral. Notez les nouveaux rendus Full HD.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

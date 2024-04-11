@@ -1,11 +1,11 @@
 ---
 title: Présentation et configurations de l’architecture des rendus adaptatifs
-description: Cette page décrit les configurations et l’aperçu de l’architecture dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
+description: Découvrez la présentation et les configurations architecturales dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 96%
+source-wordcount: '622'
+ht-degree: 43%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 96%
 
 ## Présentation {#introduction}
 
-Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client. Les appareils téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de l’expérience *principale*.
+Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de la *main* expérience.
 
 ## Objectif {#objective}
 
-En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Vous devez configurer les rendus adaptatifs avant qu’un auteur de contenu puisse utiliser cette fonctionnalité dans un canal AEM Screens.
+En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Configurez les rendus adaptatifs avant qu’un auteur de contenu ne puisse utiliser cette fonctionnalité dans un canal AEM Screens.
 
-## Présentation de l’architecture {#architectural-overview}
+## Aperçu de l’architecture {#architectural-overview}
 
-Les rendus adaptatifs sont basés sur l’idée d’avoir plusieurs rendus de ressources nommés selon une convention d’affectation des noms spécifique. La décision de lire un rendu spécifique est prise en évaluant les expressions de requête multimédia qui ne peuvent être résolues que sur les appareils dotés des fonctionnalités attendues.
+Les rendus adaptatifs sont basés sur l’idée d’avoir plusieurs rendus d’une ressource nommés selon une convention d’affectation de nom spécifique. La décision de lire un rendu spécifique est prise en évaluant les expressions de requête multimédia qui ne peuvent être résolues que sur les appareils dotés des fonctionnalités attendues.
 
-La possibilité d’avoir un modèle de dénomination pour les rendus associés définit une règle de mappage de rendu, telle qu’un portrait ou un paysage, comme illustré dans la figure ci-dessous. Après avoir calculé toutes les expressions disponibles, le lecteur Screens collecte les modèles de dénomination avec les règles correspondantes. Les modèles sont utilisés pour rechercher les rendus corrects pendant la lecture de la séquence en recherchant les modèles dans les noms de rendu.
+La possibilité d’avoir un modèle de dénomination de rendu associé définit une règle de mappage de rendu, telle qu’un portrait ou un paysage, comme illustré dans la figure ci-dessous. Après avoir calculé toutes les expressions disponibles, le lecteur Screens collecte les modèles de dénomination correspondant aux règles correspondantes. Les modèles sont utilisés pour rechercher les rendus corrects pendant la lecture de la séquence en recherchant les modèles dans les noms de rendu.
 
 ![image](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
@@ -41,14 +41,14 @@ Suivez les étapes ci-dessous pour configurer l’installation :
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si vous avez installé le dernier Feature Pack 202109, la structure de nœud **rendition-mapping** est prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Voir les [Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des informations sur le dernier Feature Pack.
-   >Pour les projets existants, assurez-vous que la configuration **rendu-mapping** est associée au projet Screens. Voir [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour en savoir plus.
+   >Si vous avez installé le dernier Feature Pack 202109, le **mapping de rendu** structure de noeud prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` en CRXDE Lite. Voir les [Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des informations sur le dernier Feature Pack.
+   >Pour les projets existants, assurez-vous que la configuration **rendu-mapping** est associée au projet Screens. Voir [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour plus d’informations.
 
 ### Ajout d’une propriété de mappage de rendu à un projet existant {#rendition-mapping-existing}
 
 1. Accédez à **CRXDE Lite**.
 
-1. Définissez explicitement l’association de mappage de rendu en ajoutant la propriété `sling:configRef` pointant vers `/conf/screens` au nœud de contenu du projet, comme illustré dans la figure ci-dessous.
+1. Définissez explicitement l’association de mappage de rendu en ajoutant `sling:configRef` pointant vers `/conf/screens` au noeud de contenu du projet, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -58,39 +58,37 @@ Suivez les étapes ci-dessous pour configurer l’installation :
 Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 
 1. Accédez à ce chemin `/conf/screens/sling:configs/rendition-mapping` à partir de **CRXDE Lite**.
-
-1. Créez un nœud sous **rendition-mapping**. Clic droit sur **mapping de rendu** et cliquez sur **Créer** > **Créer un noeud**, comme illustré dans la figure ci-dessous.
+1. Créez un nœud sous **rendition-mapping**. Clic droit **mapping de rendu** et cliquez sur **Créer** > **Créer un noeud**, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Saisissez le **nom** de votre règle de mappage telle que **règle1** et le **Type** de nœud en tant que **nt:unstructured** dans la boîte de dialogue **Créer un nœud**. Cliquez sur **OK**.
+1. Saisissez le **Nom** pour votre règle de mappage, telle que **rule1** et le noeud **Type** as **`nt:unstructured`** in **Créer un noeud** de la boîte de dialogue Cliquez sur **OK**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
 
-1. Vous devez ajouter la propriété d’expression avec la valeur contenant l’expression de la requête.
+1. Ajoutez la propriété expression avec la valeur contenant l’expression de la requête.
 
    >[!NOTE]
-   >Voir [Utilisation de la syntaxe des requêtes de média](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries) pour en savoir plus.
+   >Voir [Utilisation de la syntaxe des requêtes de média](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) pour en savoir plus.
 
-   Cliquez sur la **règle1** que vous avez créée, puis saisissez **expression** dans **Nom** et **(orientation:paysage)** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Cliquez sur **rule1** que vous avez créé et saisissez **expression** in **Nom** et **(orientation:paysage)** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
 1. Ajoutez la propriété motif avec la valeur contenant le modèle de dénomination de rendu.
 
    >[!NOTE]
-   >La valeur définie dans la propriété motif sera mise en correspondance avec le nouveau rendu de ressource et sera sélectionnée, si l’expression est évaluée sur true.
+   >La valeur définie dans la propriété pattern correspond au nouveau rendu de ressource et est sélectionnée si l’expression est évaluée sur true.
 
-   Pour ajouter la propriété de modèle, cliquez sur **règle1** que vous avez créée, puis saisissez **motif** dans **Nom** et **paysage** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Pour ajouter la propriété pattern, cliquez sur **rule1** que vous avez créé et saisissez **pattern** in **Nom** et **paysage** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Cliquez sur **Enregistrer tout** et vous verrez les propriétés sous le nœud que vous avez créé sous **rendu-mapping**.
+1. Cliquez sur **Enregistrer tout** et notez les propriétés sous le noeud que vous avez créé sous **mapping de rendu**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
-
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous avez ajouté des propriétés et des règles de mappage de rendu, en tant qu’auteur de contenu, vous pouvez configurer vos ressources pour utiliser les rendus adaptatifs et également migrer vos appareils pour les réseaux de grande taille afin de profiter de cette fonctionnalité, dans vos canaux AEM Screens. Voir [Utilisation des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+Après avoir ajouté des propriétés et des règles de mappage de rendu, vous pouvez configurer vos ressources en tant qu’auteur de contenu. Pour ce faire, utilisez les rendus adaptatifs et migrez également vos appareils pour que les grands réseaux utilisent cette fonctionnalité dans vos canaux AEM Screens. Voir [Utilisation de rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
