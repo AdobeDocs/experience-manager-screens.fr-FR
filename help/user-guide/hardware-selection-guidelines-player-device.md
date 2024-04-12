@@ -1,10 +1,10 @@
 ---
 title: Instructions de sélection du matériel pour les appareils de lecture
-description: Instructions de sélection du matériel pour les appareils de lecture
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Découvrez les instructions de sélection du matériel pour les appareils du lecteur AEM Screens.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ La section suivante présente les instructions de sélection du matériel pour u
 
 * Vous devez toujours vous procurer des composants de qualité ***professionnelle*** ou ***industrielle*** pour le lecteur PC comme pour le panneau d’affichage ou le projecteur.
 
-* Adressez-vous toujours à des fournisseurs qui desservent le marché de la signalisation numérique.
+* Adressez-vous toujours à des fournisseurs qui desservent le marché de la signalétique numérique.
 * Tenez toujours compte des facteurs environnementaux tels que la température ambiante et l’humidité relative.
 * Examinez toujours les exigences en matière d’alimentation et de conditionnement d’alimentation.
 * Examinez attentivement les besoins en performances et les ports d’E/S requis pour l’application.
@@ -41,12 +41,12 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>De base</td>
-   <td>Processeur Intel® i3 double cœur ou Atom quadri-cœur d’entrée de gamme</td>
+   <td>Processeur Intel® Atom quadri-coeur double coeur, i3 ou quadri-coeur d’entrée de gamme</td>
    <td><p>4 Go de mémoire</p> <p>2 Mo de cache</p> </td>
-   <td><p>・ChromeOS 32 Go</p> <p>・Windows 128 Go</p> </td>
+   <td><p>*ChromeOS 32 Go</p> <p>*Windows 128 Go</p> </td>
    <td>Intégré</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet / Sans fil,<br /> 2 x USB</td>
+   <td>DVI<br /> Ethernet / sans fil,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Boucle plein écran standard<br /> </li>
@@ -55,11 +55,11 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Processeur quadri-cœur Intel® Core i5</td>
+   <td>Processeur quadri-coeur Intel® Core™ i5</td>
    <td><p>8 Go de mémoire</p> <p>4 Mo de cache</p> </td>
-   <td>128 Go</td>
+   <td>128 Go</td>
    <td>Intégré</td>
-   <td>3840 x 2160 (4K)</td>
+   <td>3 840 x 2 160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 2 x USB</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Avancé</td>
-   <td>Processeur Intel® Core i7 quadri-cœur avec hyperthreading</td>
+   <td>Processeur Intel® Core™ i7 quadri-coeur avec hyperthreading</td>
    <td><p>16 Go de mémoire</p> <p>8 Mo de cache</p> </td>
    <td>256 Go</td>
    <td>Carte graphique dédiée</td>
-   <td>3840 x 2160 (4K)</td>
+   <td>3 840 x 2 160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 4 x USB</td>
    <td>
     <ul>

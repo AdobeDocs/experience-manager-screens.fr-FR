@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -40,7 +40,7 @@ Pour configurer un projet et un canal, procédez comme suit :
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Voir [Création et gestion de projets](creating-a-screens-project.md) pour savoir comment créer un projet AEM Screens.
+   >Pour savoir comment créer un projet AEM Screens, voir [Création et gestion de projets](creating-a-screens-project.md).
 
 1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux**.
 
@@ -82,14 +82,14 @@ Une fois la configuration du projet terminée, vous devez attribuer le canal à 
 
    >[!NOTE]
    >
-   >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
+   >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
 
 1. Dans la **Planification** , sélectionnez l’option **Fenêtre d’activation** et **Planning de périodicité**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Consultez la section [Propriétés des canaux](#channel-properties) pour en savoir plus sur les propriétés d’attribution de canaux.
+   >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
@@ -97,7 +97,7 @@ Une fois la configuration du projet terminée, vous devez attribuer le canal à 
 
 Cet exemple présente une sortie sur un lecteur Chrome. Une fois le canal attribué à votre écran, vous devez enregistrer l’appareil sur un lecteur.
 
-Voir [Enregistrement de périphérique](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
+Pour savoir comment enregistrer un appareil sur un lecteur AEM Screens, voir [Enregistrement de périphérique](device-registration.md).
 
 Vous pouvez afficher la sortie suivante sur le lecteur de votre choix :
 

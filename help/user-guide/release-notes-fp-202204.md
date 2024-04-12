@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités 202204
-description: Consultez cette page pour obtenir des informations sur le pack de fonctionnalités 202204 AEM Screens, publié le 26 avril 2022.
+description: Découvrez le Feature Pack 202204 d’AEM Screens, publié le 26 avril 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 93%
+source-wordcount: '298'
+ht-degree: 63%
 
 ---
 
-# Notes de mise à jour du pack de fonctionnalités 202204 {#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
+>Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -29,7 +29,7 @@ La date de publication du pack de fonctionnalités 202204 AEM Screens est le 26�
 
 ### Nouveautés {#what-is-new}
 
-* Une nouvelle fonctionnalité de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canaux ou à d’autres fonctionnalités telles que l’effacement du cache et le rechargement. Vous pouvez également afficher la version du micrologiciel local et les informations système sur le lecteur.
+* Une nouvelle fonctionnalité de contrôle à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canal ou à d’autres fonctionnalités telles que l’effacement du cache et le rechargement. Vous pouvez également afficher la version du micrologiciel local et les informations système sur le lecteur.
 
 ### Correctifs {#bug-fixes}
 
@@ -45,18 +45,18 @@ La date de publication du pack de fonctionnalités 202204 AEM Screens est le 26�
 
 * L’interface utilisateur de l’activité Lecteur fonctionne maintenant comme prévu.
 
-* Le lecteur ne parvenait pas à obtenir la dernière mise à jour avec la gestion de la publication. Ce problème est maintenant résolu.
+* Le lecteur ne parvenait pas à obtenir la dernière mise à jour au moyen de la gestion de la publication. Ce problème est maintenant résolu.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour le pack de fonctionnalités 11 AEM 6.5 :
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

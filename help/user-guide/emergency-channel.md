@@ -1,22 +1,18 @@
 ---
 title: Canal d’urgence
-seo-title: Emergency Channel
-description: Lisez ce cas d’utilisation pour en savoir plus sur la création et la gestion d’un canal d’urgence sur lequel l’auteur du contenu peut basculer depuis un canal de séquence dans certaines circonstances.
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: Découvrez comment créer et gérer un canal d’urgence que l’auteur du contenu peut basculer d’un canal de séquence s’il y a une condition préalable.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 93%
+source-wordcount: '710'
+ht-degree: 60%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 93%
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Cette section décrit un cas d’utilisation axé sur la création et la gestion d’un canal d’urgence vers lequel l’auteur du contenu peut basculer depuis un canal de séquence dans certaines circonstances.
+Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur du contenu peut passer d’un canal de séquence en cas de condition préalable.
 
 ### Prérequis {#preconditions}
 
@@ -52,7 +48,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Création d’un canal de séquence**
 
-   1. Sélectionnez le dossier **Channels** (Canaux), puis cliquez sur **Créer** pour ouvrir l’assistant afin de créer un canal.
+   1. Sélectionnez la variable **Canaux** et cliquez sur **Créer**.
 
    1. Sélectionnez **Canal de séquence** dans l’assistant et créez un canal appelé **MainAdChannel**.
 
@@ -61,14 +57,15 @@ Pour configurer un canal d’urgence, procédez comme suit :
 1. **Ajout de contenu à un canal de séquence**
 
    1. Sélectionnez le canal (**MainAdChannel**).
-   1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur. Faites glisser quelques ressources vers votre canal.
+   1. Cliquez sur **Modifier** dans la barre d’actions.
+   1. Faites glisser quelques ressources sur votre canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Création d’un canal d’urgence**
 
    1. Sélectionnez le dossier **Channels** (Canaux).
-   1. Cliquez sur **Créer** pour ouvrir l’assistant et créer un canal.
+   1. Cliquez sur **Créer**.
    1. Sélectionnez **Canal de séquence** dans l’assistant et créez un canal appelé **EmergencyChannel**.
 
    >[!NOTE]
@@ -80,7 +77,8 @@ Pour configurer un canal d’urgence, procédez comme suit :
 1. **Ajout de contenu à un canal d’urgence**
 
    1. Sélectionnez le canal (**Canal d’urgence)**.
-   1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur. Faites glisser vers votre canal la ressource que vous souhaitez exécuter en cas d’urgence.
+   1. Cliquez sur **Modifier** dans la barre d’actions.
+   1. Faites glisser vers votre canal la ressource que vous souhaitez exécuter en cas d’urgence.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -93,14 +91,15 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Création d’affichages dans votre emplacement**
 
-   Accédez à votre emplacement (**Boutique**) et cliquez sur **Créer** dans la barre d’actions. Suivez l’assistant pour créer deux **Affichages** appelés **StoreFront** et **StoreRear**.
+   Accédez à votre emplacement (**Boutique**) et cliquez sur **Créer** dans la barre d’actions. Après l’assistant, créez deux **Affichages** intitulé **StoreFront** et **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Création d’une planification**
 
    1. Accédez au dossier **Schedules** (Planifications).
-   1. Cliquez sur **Créer** dans la barre d’actions. Suivez l’assistant pour créer une planification appelée **StoreSchedule**.
+   1. Cliquez sur **Créer** dans la barre d’actions.
+   1. Après l’assistant, créez un planning intitulé **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -117,11 +116,11 @@ Pour configurer un canal d’urgence, procédez comme suit :
       1. Définissez les événements pris en charge **Chargement initial** et **Écran inactif**.
       1. Cliquez sur **Enregistrer**
 
-      Vous devrez procéder de la même manière pour affecter **EmergencyChannel** et définir sa **Priorité**.
+      De même, procédez de nouveau aux mêmes étapes pour affecter la variable **EmergencyChannel** et définissez ses **Priorité**.
 
    >[!NOTE]
    >
-   >La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles.
+   >La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celui qui a la valeur la plus élevée a toujours la priorité sur les valeurs les plus faibles.
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
@@ -146,7 +145,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Accédez à chaque affichage, par exemple : **EmergencyChannel** > **Emplacements** > **Magasin** >**StoreFront**.
 
-   1. Pour ouvrir le tableau de bord des affichages, cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Cliquez sur **...** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, puis sur **+Attribuer une planification**.
 
    1. Sélectionnez le chemin d’accès au planning (par exemple, ici, **EmergencyChannel** > **Planifications** >**StoreSchedule**).
@@ -158,13 +157,13 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Enregistrement d’appareils**
 
-   Terminez le processus d’enregistrement d’appareils et, une fois enregistré, vous verrez l’image suivante sur votre lecteur AEM Screens.
+   Procédez à l’enregistrement du périphérique. Une fois enregistré, vous pouvez afficher la sortie suivante sur votre lecteur AEM Screens.
 
    ![new30](assets/new30.gif)
 
 ## Basculer vers le canal d’urgence {#switching-to-emergency-channel}
 
-Réalisez la procédure suivante en cas d’urgence :
+En cas d’urgence, procédez comme suit :
 
 1. Accédez à **EmergencyChannel** > **Planifications** > **StoreSchedule** et sélectionnez **Tableau de bord** dans la barre d’actions.
 
@@ -178,12 +177,12 @@ Réalisez la procédure suivante en cas d’urgence :
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Dès que la priorité du canal est mise à jour, tous les lecteurs AEM Screens affichent le contenu **EmergencyChannel**, comme illustré ci-dessous.
+1. Lorsque la priorité du canal est mise à jour, tous les lecteurs AEM Screens affichent la variable **EmergencyChannel** contenu.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusion {#conclusion}
 
-**EmergencyChannel** continue d’afficher son contenu jusqu’à ce que l’auteur du contenu réinitialise la Valeur de priorité sur 1.
+La variable **EmergencyChannel** continue d’afficher son contenu jusqu’à ce que l’auteur du contenu réinitialise la valeur de priorité sur 1.
 
-Une fois que l’auteur du contenu a reçu une notification indiquant que l’urgence est terminée, il doit mettre à jour la priorité de **MainAdChannel**, ce qui entraîne la reprise de la lecture normale.
+Lorsque l’auteur du contenu reçoit les instructions indiquant que l’urgence a été effacée, il doit mettre à jour la priorité de la variable **MainAdChannel** ce qui entraîne la reprise de la lecture normale.
