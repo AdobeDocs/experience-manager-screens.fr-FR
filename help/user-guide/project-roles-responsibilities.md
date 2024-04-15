@@ -1,30 +1,29 @@
 ---
 title: '« Partie 1 : rôles du projet et responsabilités »'
-seo-title: '« Partie 1 : rôles du projet et responsabilités »'
-description: Suivez ce tutoriel pour mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalétique numérique.
-feature: Présentation
+description: Dans ce tutoriel, apprenez à mieux comprendre les rôles, les responsabilités et les calendriers requis pendant les cycles de vente et de vie du projet pour un projet de signalétique digitale.
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 44%
 
 ---
 
 # Partie 1 : rôles du projet et responsabilités {#part-project-roles-and-responsibilities}
 
-Cette page présente la 1re partie d’une série en 5 parties, conçue pour aider les membres de l’équipe à mieux comprendre les rôles, les responsabilités et les calendriers requis pendant les cycles de vente et de vie d’un projet de signalétique numérique.
+Cette page présente la première partie d’une série de 5 parties, conçue pour aider les membres de l’équipe à mieux comprendre les rôles, les responsabilités et les calendriers requis pendant le cycle de vente et de vie d’un projet de signalétique numérique.
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Le tutoriel suivant propose une présentation générale des rôles et des responsabilités du projet pour Adobe, les implémentateurs d’AEM et les intégrateurs audiovisuels. Vous pouvez accéder aux épisodes suivants pour apprendre en détail comment tirer parti des opportunités AEM Screens et positionner les déploiements pour une réussite à long terme.
+Le tutoriel suivant décrit les rôles et responsabilités du projet pour les Adobes, les implémentateurs d’AEM et les intégrateurs audio/visuel à un niveau élevé. Vous pouvez accéder aux épisodes suivants pour apprendre en détail comment tirer parti des opportunités AEM Screens et positionner les déploiements pour une réussite à long terme.
 
-Trois groupes principaux sont impliqués dans le cadre du processus d’exécution :
+Trois groupes principaux sont impliqués dans le processus de diffusion dans les cas suivants :
 
 * Adobe
-* Intégrateur A/V
+* Intégrateur audio/vidéo
 * Équipe de mise en œuvre AEM
 
 >[!NOTE]
@@ -33,7 +32,7 @@ Trois groupes principaux sont impliqués dans le cadre du processus d’exécuti
 
 ## Résumé des rôles impliqués dans un projet de signalétique numérique {#summary-of-roles-involved-in-a-digital-signage-project}
 
-La définition des paramètres de cas d’utilisation de l’application, en partenariat avec Adobe, l’implémentateur AEM et l’intégrateur audiovisuel déterminera le champ d’application du développement logiciel. Cela permet d’établir une approche échelonnée qui s’appuie sur des références de rendement et des mesures de réussite identifiées tout au long du projet.
+La définition de paramètres de cas d’utilisation d’application en partenariat avec Adobe, l’implémentateur AEM et l’intégrateur audio/visuel détermine la portée du développement logiciel. Ce processus permet de s’assurer qu’une approche par étapes est établie avec des références de performance et des mesures de succès toutes identifiées tout au long du projet.
 
 ### Adobe {#adobe}
 
@@ -45,11 +44,11 @@ Un **implémentateur d’AEM** est chargé d’effectuer des tâches de dévelop
 
 Les fonctionnalités personnalisées requises pour traiter les paramètres d’expérience utilisateur du client final sont également capturées et diffusées par le biais de ce processus.
 
-En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. Au cours d’une phase ultérieure, ils peuvent activer la prise en charge de la lecture de contenu localisé par le biais de balises de métadonnées et de modèles dynamiques. Par la suite, ils peuvent encore inclure la prise en charge d’éléments interactifs par le biais d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
+Les implémentateurs d’AEM déploient généralement des fonctionnalités personnalisées par phases au fil du temps vers les emplacements. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. La phase suivante inclut la possibilité de prendre en charge la lecture de contenu localisé par le biais de balises de métadonnées et de modèles dynamiques. D’autres phases incluent la prise en charge d’éléments interactifs par le biais d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
 
-#### Intégrateurs A/V {#av-integrators}
+#### Intégrateurs audio/vidéo {#av-integrators}
 
-L’**intégrateur A/V** est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements autour du matériel de signalétique numérique.
+Un **Intégrateur audio/vidéo** est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet pour concevoir, créer et gérer efficacement les déploiements autour du matériel de signalétique digitale.
 
 ## Partie 1 : tutoriel vidéo sur les rôles et responsabilités du projet {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -59,10 +58,10 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Découvrez les rôles et responsabilités d’Adobe, des intégrateurs AV et des implémentateurs AEM.*
+*Découvrez les rôles et les responsabilités des intégrateurs Adobe, audio/visuel et AEM implémentateurs.*
 
 ## La prochaine étape {#the-next-step}
 
-Une fois que vous avez compris les rôles et les responsabilités dans la mise en œuvre d’un projet de signalétique numérique, suivez le tutoriel suivant qui aborde en détails des sujets tels que les tests et les considérations préalables à la vente au fur et à mesure de la détermination de la portée du projet pour le développement des opportunités d’AEM Screens.
+Lorsque vous comprenez les rôles et les responsabilités du projet dans la mise en oeuvre d’un projet de signalétique digitale, suivez le tutoriel suivant. Il aborde des sujets tels que les tests et les considérations préalables à la vente, car le projet est défini lors du développement des opportunités AEM Screens.
 
 Accédez à la **[Partie 2 : observations dans le cadre de la définition de la portée du projet](project-considerations.md)** pour plus de détails.

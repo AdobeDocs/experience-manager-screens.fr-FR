@@ -1,13 +1,11 @@
 ---
 title: Observations dans le cadre de la définition de la portée du projet
-seo-title: Considerations as Projects are Scoped
-description: Cette page décrit les points dont il faut tenir compte dans le cadre de la définition du champ d’application d’un projet
-seo-description: The page describes Considerations as Projects are Scoped
+description: En savoir plus sur les considérations à prendre en compte lorsqu’un projet AEM Screens est défini.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 95%
+source-wordcount: '279'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +15,7 @@ ht-degree: 95%
 >Cette activité est généralement réalisée par un stratège opérationnel/marketing.
 
 Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement le champ d’application du projet. Le travail effectué lors du jour 0 détermine la suite du projet et a une incidence sur le succès global de l’application en cours de création.
-À ce stade, les principaux fournisseurs sont identifiés et regroupés pour faciliter l’établissement du plan du projet. Il convient également d’obtenir le ralliement des principaux intervenants au sein de l’entreprise cliente, tels que les directeurs commerciaux, responsables marketing et équipes informatiques, car ils auront tous un rôle important à jouer dans le développement de l’application et sa maintenance continue.
+À ce stade, les principaux fournisseurs sont identifiés et regroupés pour faciliter l’établissement du plan du projet. Au cours de cette étape, il est important que l’accord soit également établi avec les principaux intervenants du projet au sein de la société cliente. Ces parties prenantes comprennent les responsables commerciaux, les responsables marketing et les équipes informatiques. Ces personnes ont toutes un rôle important à jouer dans le développement de l’application et sa maintenance continue.
 
 ## Principaux éléments livrables {#key-deliverables}
 
@@ -31,6 +29,6 @@ Cette étape rassemble tous les efforts de prévente et d’investigation néces
 
 >[!NOTE]
 >
->Identifiez, le plus tôt possible, les données nécessaires pour l’application, ainsi que leur provenance. Bien qu’un examen plus approfondi soit réalisé au cours de la mise en œuvre, prenez le temps, lors du *jour 0*, de déterminer les données que le client a l’intention d’utiliser, l’emplacement de stockage actuel de ces données, ainsi que la manière dont l’application en cours de création peut y accéder. Informer l’équipe de développement des obstacles qui peuvent entraver le bon déroulement du projet contribuera à faciliter la mise en œuvre.
+>Identifiez dès que possible les données nécessaires à l’application et d’où elles proviennent. Une exploration plus approfondie se produit pendant la mise en oeuvre. Veillez toutefois à prendre du temps pendant la *Jour zéro* pour connaître les données que le client a l’intention d’utiliser. Découvrez où ces données sont actuellement stockées et comment elles sont accessibles par l’application en cours de création. Informer l’équipe de développement avant les défis permet de faciliter la mise en oeuvre.
 
-Voir le tutoriel vidéo sur [Observations dans le cadre de la définition de la portée du projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-considerations.html) pour plus d’informations.
+Voir le tutoriel vidéo [Observations dans le cadre de la définition de la portée du projet](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

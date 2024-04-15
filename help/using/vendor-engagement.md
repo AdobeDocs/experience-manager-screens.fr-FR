@@ -2,17 +2,17 @@
 title: Engagement du fournisseur
 description: Découvrez le guide des bonnes pratiques sur l’engagement des fournisseurs pour AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 34%
+ht-degree: 26%
 
 ---
 
 # Engagement du fournisseur {#vendor-engagement}
 
 >[!NOTE]
->Cette activité est généralement réalisée par un intégrateur A/V.
+>Cette activité est généralement réalisée par un intégrateur audio/vidéo.
 
 Dans cette activité, il est important d’identifier tous les fournisseurs clés nécessaires à l’assemblage et à la diffusion du réseau ainsi que toutes les dépendances des partenaires :
 

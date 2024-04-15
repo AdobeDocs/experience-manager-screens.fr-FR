@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du Feature Pack 202203
-description: Consultez cette page pour obtenir des informations sur le pack de fonctionnalités AEM Screens 202203, publié le 25 mars 2022.
+description: En savoir plus sur le Feature Pack 202203 AEM Screens, publié le 25 mars 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 92%
+source-wordcount: '267'
+ht-degree: 68%
 
 ---
 
-# Notes de mise à jour du Feature Pack 202112 {#release-notes-for-feature-pack}
+# Notes de mise à jour du Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
+>Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -41,23 +41,23 @@ Cette version comprend uniquement des correctifs de bugs.
 
 * Le canal SPA de Screens provoquait un écran blanc avec le lecteur Windows. Ce problème est maintenant résolu.
 
-* Le paramètre *wcmmode* a été supprimé de toutes les requêtes Screens sur l’instance de publication.
+* La variable *wcmmode* a été supprimé de toutes les requêtes Screens sur l’instance de publication.
 
 * L’interface utilisateur de l’activité Lecteur fonctionne maintenant comme prévu.
 
-* Le lecteur ne parvenait pas à obtenir la dernière mise à jour avec la gestion de la publication. Ce problème est maintenant résolu.
+* Le lecteur ne parvenait pas à effectuer la dernière mise à jour au moyen de la gestion de la publication. Ce problème est maintenant résolu.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour le pack de fonctionnalités 11 AEM 6.5 :
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 * iOS
 
-#### Téléchargements du lecteur AEM Screens  {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

@@ -1,23 +1,21 @@
 ---
 title: Rôles et responsabilités du projet AEM Screens
-seo-title: AEM Screens Project Roles  and Responsibilities
-description: Cette page décrit les rôles et responsabilités d’un projet AEM Screens
-seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+description: Découvrez les rôles et responsabilités des projets AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 97%
+source-wordcount: '1241'
+ht-degree: 68%
 
 ---
 
 # Rôles du projet et responsabilités {#roles-responsibilities}
 
-En tant qu’implémentateur expérimenté d’AEM, les rôles *Auteurs*, *Développeurs* et *Informaticiens/Techniciens* vous sont certainement familiers.
+En tant qu’implémentateur AEM expérimenté, vous avez probablement vu les rôles désignés comme *Auteurs*, *Développeurs*, et *Informaticiens/Techniciens*.
 
 Dans AEM Screens, la définition des rôles est encore plus précise ; chacun d’eux joue, en effet, un rôle important dans un projet type.
 
-Le diagramme ci-dessous montre les rôles que nous verrons tout au long du guide.
+Le diagramme suivant montre les rôles que vous pouvez vous attendre à voir dans le guide.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -39,13 +37,13 @@ Les implémentateurs d’AEM sont chargés d’effectuer des tâches de dévelop
 
 Les fonctionnalités personnalisées requises pour traiter les paramètres d’expérience utilisateur du client final sont également capturées et diffusées par le biais de ce processus.
 
-En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. Au cours d’une phase ultérieure, ils peuvent activer la prise en charge de la lecture de contenu localisé par le biais de balises de métadonnées et de modèles dynamiques. Par la suite, ils peuvent encore inclure la prise en charge d’éléments interactifs par le biais d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
+En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. La phase suivante inclut la possibilité de prendre en charge la lecture de contenu localisé par le biais de balises de métadonnées et de modèles dynamiques. D’autres phases incluent la prise en charge d’éléments interactifs par le biais d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
 
-### Intégrateurs A/V {#av-integrators}
+### Intégrateurs audio/vidéo {#av-integrators}
 
-L’intégrateur A/V est le fournisseur/partenaire matériel. C’est à lui qu’il appartient de préparer le site et d’aménager le point de vente. Cela implique notamment l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’un tiers sous contrat qui a accès à un centre d’exploitation de réseau. Dans de nombreux cas, l’intégrateur A/V est le maître d’ouvrage, compte tenu de son implication continue après le lancement.
+L’intégrateur audio/vidéo est le fournisseur/partenaire matériel. C’est à lui qu’il appartient de préparer le site et d’aménager le point de vente. Cela implique notamment l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’un tiers sous contrat qui a accès à un centre d’exploitation de réseau. Souvent, l’intégrateur audio/vidéo est le propriétaire du projet en raison de son implication continue après le lancement.
 
-L’intégrateur A/V est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements autour du matériel de signalétique digitale.
+L’intégrateur audio/vidéo est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet pour concevoir, créer et gérer efficacement les déploiements autour du matériel de signalétique digitale.
 
 #### Sélection du partenaire matériel {#selecting-hardware-partner}
 
@@ -55,9 +53,9 @@ Choisir le bon partenaire matériel revêt une importance capitale. Les question
 
 1. Quelle est la couverture globale ?
 
-1. S’agit-il d’une assistance 24 heures sur 24 ?
+1. S’agit-il d’une assistance 24 heures sur 24 ?
 
-1. Comment les appareils seront-ils gérés ?
+1. Comment les périphériques sont-ils gérés ?
 
 1. Quels sont les systèmes de surveillance et d’avertissement actifs ?
 
@@ -79,26 +77,26 @@ La gestion du contenu et des créations publicitaires peut être confiée à l�
 
 ### Chefs de projet {#project-managers}
 
-En règle générale, les chefs de projet gèrent l’intégralité de votre déploiement AEM Screens. Le chef de projet est la personne de référence pour l’ensemble de la mise en œuvre du projet. Il assume des responsabilités importantes : établir les calendriers, gérer les communications et les besoins de l’équipe, résoudre les problèmes, s’assurer que les objectifs sont atteints, etc.
+En règle générale, les chefs de projet gèrent l’intégralité de votre déploiement AEM Screens. Un chef de projet est la personne de référence pour l’ensemble de la mise en oeuvre du projet désigné. Elles assument des responsabilités importantes, telles que l&#39;établissement des calendriers, la gestion des besoins et des communications de l&#39;équipe, la résolution des défis et la réalisation des objectifs.
 
 >[!NOTE]
 >
->Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur le public cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Étapes du projet {#project-stages}
 
-Pour garantir la réussite du déploiement de la solution de signalétique digitale, il est d’usage de segmenter le projet en trois étapes.  Ces étapes sont généralement désignées sous le nom de **jours**. Il ne s’agit pas de jours au sens littéral du terme, mais plutôt de désignations pour chaque étape majeure du projet.
+Pour assurer la réussite du déploiement de la signalétique digitale, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement appelées **Days**. Il ne s’agit pas de jours au sens littéral du terme, mais plutôt de désignations pour chaque étape majeure du projet.
 
-1. La première étape est appelée *Jour 0*. Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement la portée du projet.
+1. La première étape est appelée *Jour 0*. Cette étape comprend tous les efforts de prévente et d’investigation nécessaires pour définir entièrement la portée du projet.
 1. La deuxième étape, ou *Jour 1*, fait référence à toutes les activités faisant partie de l’effort de déploiement.
 1. La troisième et dernière étape, ou *Jour 2*, fait référence à toutes les opérations en cours, ainsi qu’à tous les éléments de support dans le cadre de la solution globale.
 
 >[!NOTE]
 >
->Bien que ce guide mette principalement l’accent sur le *jour 1* et le *jour 2*, il est important de se pencher sur les trois étapes pour mener à bien un projet de signalétique digitale.
+>Bien que ce guide mette principalement l’accent sur *Jour 1* et *Jour 2*, une attention particulière aux trois étapes est nécessaire pour mener à bien un projet de signalétique digitale.
 >
->Vous pouvez également visionner une autre vidéo traitant du **[déploiement et de la gestion d’un projet](https://helpx.adobe.com/fr/experience-manager/6-5/screens/using/project-management-and-deployment.html)** pour en savoir plus sur la phase de préproduction, le lancement et l’avancement du projet.
+>Pour en savoir plus sur la préproduction, le lancement et la progression du projet, visionnez une vidéo sur **[Gestion de projet et déploiement](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Matrice RACI {#raci-chart}
 
@@ -106,13 +104,13 @@ Voici un exemple de matrice RACI qui utilise des définitions de rôle.
 
 >[!NOTE]
 >
->Cette matrice n’est pas destinée à être suivie à la lettre. Elle propose au lecteur un exemple des tâches courantes et des observations réalisées dans les projets AEM Screens.
+>Vous n’avez pas besoin de suivre exactement le graphique. Il est plutôt destiné à fournir un exemple de tâches courantes et de considérations dans un projet AEM Screens.
 
 ### Définitions RACI {#raci-definitions}
 
 * **Réalisateur** : effectue les tâches nécessaires à l’accomplissement du travail.
 
-* **Approbateur** : délègue le travail et est le dernier à passer la tâche en revue avant qu’elle ne soit terminée.
+* **Responsable**: délègue le travail et est le dernier à passer la tâche en revue avant qu’elle ne soit terminée.
 
 * **Consulté** : passe en revue la tâche ou le livrable de projet pour formuler des commentaires.
 
@@ -122,7 +120,7 @@ Vous trouverez, ci-dessous, un exemple de matrice RACI utilisant les différente
 
 Le tableau ci-dessous résume les **observations préalables à la vente pour le jour 0** :
 
-| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+| **Phase** | **Intégrateur audio/vidéo** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
 | Formation de l’équipe et sélection du fournisseur | I | I | RA | RA |
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
@@ -134,7 +132,7 @@ Le tableau ci-dessous résume les **observations préalables à la vente pour le
 
 Le tableau ci-dessous résume la **mise en œuvre du projet (conception de l’application) pour le jour 1** :
 
-| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+| **Phase** | **Intégrateur audio/vidéo** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | Alignement sur le plan et le calendrier du projet | RA | RA | C | C |
@@ -154,7 +152,7 @@ Le tableau ci-dessous résume la **mise en œuvre du projet (conception de l’a
 
 Le tableau suivant résume la **mise en œuvre du projet (état de préparation du point de vente) pour le jour 1** :
 
-| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+| **Phase** | **Intégrateur audio/vidéo** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
 | Commande et stockage du matériel | RA | I | I | I |
 | Calendrier des activités d’intégration du point de vente | I | I | C | RA |
@@ -164,12 +162,12 @@ Le tableau suivant résume la **mise en œuvre du projet (état de préparation 
 
 Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jour 1** :
 
-| **Phase** | **Intégrateur A/V** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
+| **Phase** | **Intégrateur audio/vidéo** | **Implémentateur d’AEM** | **Stratégie commerciale** | **Gestion de contenu** |
 |---|---|---|---|---|
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | L’aménagement du point de vente comprend les opérations de câblage | - | - | - | - |
 | Sélection du matériel de lecture | RAC | - | - | - |
-| Gestion des appareils du maître | RA | I | - | - |
+| Gestion des périphériques de l’instance principale | RA | I | - | - |
 | Commande, stockage et configuration des appareils | RA | CI | I | - |
 | Définition du processus d’assistance | RA | I | RA | C |
 
@@ -181,13 +179,13 @@ Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jou
 
 * **Développeur** : il s’agit généralement d’un membre de l’équipe de mise en œuvre d’AEM Screens ou le témoin est passé à l’équipe de développement interne.
 
-* **Technicien** : est soit engagé sous contrat par l’intégrateur A/V, soit membre de la même entreprise.
+* **Technicien**: est contracté par l’intégrateur audio/vidéo ou fait partie de la même entreprise.
 
 Le tableau suivant résume la **matrice RACI pour le jour 2 : assistance après le lancement** :
 
 | **Phase** | **Auteur** | **Développeur** | **Technicien** |
 |---|---|---|---|
-| *Jour 2 : assistance après le lancement* |
+| *Jour 2 : assistance après le lancement* |
 | Accord sur les rôles et les responsabilités | RA | RA | RA |
 | Assistance de niveau 1 | I | I | RA |
 | Assistance de niveau 2 | I | C | RA |

@@ -1,23 +1,21 @@
 ---
 title: Environnements pour [!UICONTROL AEM Screens]
-seo-title: Environnements pour [!UICONTROL AEM Screens]
-description: Cette page décrit les environnements adaptés à un projet AEM Screens.
-seo-description: Cette page présente les environnements adaptés à un projet AEM Screens.
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+description: En savoir plus sur les environnements d’un projet AEM Screens.
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 61%
 
 ---
 
 
 # Environnements {#environments}
 
-Identifiez, au préalable, les environnements AEM gérés par le client et que ce dernier s’attend à ce que vous utilisiez, tant dans le cadre du *développement* que du *déploiement*.
+Déterminer à l’avance quels environnements AEM le client possède et compte que vous utiliserez, à la fois pour *development* et *déploiement*.
 
 >[!NOTE]
 >
->Pour que les projets fonctionnent, AEM Screens a besoin de plusieurs packages. Tous les environnements doivent exécuter la même version d’Adobe Experience Manager.
+>Le fonctionnement d’AEM Screens nécessite plusieurs packages pour les projets. Tous les environnements doivent exécuter la même version d’Adobe Experience Manager.
 
 Suivez les instructions ci-dessous afin de configurer l’environnement pour votre projet AEM Screens :
 
@@ -29,6 +27,6 @@ Suivez les instructions ci-dessous afin de configurer l’environnement pour vot
 
 1. Identifiez les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
 
-1. Installez les mêmes packages logiciels sur vos environnements de développement locaux. 
+1. Installez les mêmes packages logiciels sur votre environnement de développement local.
 
-1. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
+1. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes créent des problèmes lors du déploiement et du test.

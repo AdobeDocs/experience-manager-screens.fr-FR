@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 50%
+source-wordcount: '626'
+ht-degree: 49%
 
 ---
 
@@ -30,7 +30,7 @@ Les principaux composants d’un programme de signalétique digitale requis pour
 * Stratégie de contenu
 * Exigences opérationnelles
 * Découverte de l’environnement informatique et réseau
-* Exigences A/V
+* Exigences audio/vidéo
 * Spécifications de l’équipement
 * Préparation du site
 
@@ -67,7 +67,7 @@ L’inclusion de stratégies basées sur les tranches horaires peut permettre au
 
 Il est également important de définir les opérations commerciales durant les conversations sur la stratégie de contenu. La formalisation des besoins d’assistance des clients finaux peut aider à gérer les attentes après le déploiement, en veillant à ce que les efforts d’assistance soient mesurés de manière appropriée.
 
-### Exigences A/V {#a-v-requirements}
+### Exigences audio/vidéo {#a-v-requirements}
 
 Les scénarios de montage doivent également être définis, tout comme les considérations relatives à l’accès des appareils pour l’entretien de l’appareil. Cela a une incidence non seulement sur les recommandations initiales en matière de main-d’oeuvre et d’équipement d’installation, mais aussi sur les besoins permanents en matière de service et de support.
 

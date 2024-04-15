@@ -10,26 +10,26 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 59%
+source-wordcount: '662'
+ht-degree: 46%
 
 ---
 
 # Partie 4 : gestion de projet et déploiement {#part-project-management-and-deployment}
 
-Cette page présente la quatrième partie d’une série de cinq articles et porte sur la préparation du déploiement et la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur A/V est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
+Cette page présente la quatrième partie d’une série de 5 parties, conçue pour couvrir la gestion de projet et la préparation au déploiement, ainsi que pour définir les principaux facteurs dont l’intégrateur audio/vidéo est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
 
 ## Présentation {#overview}
 
 Cette page traite de la phase de préproduction du projet, de son lancement et de sa progression.
 
-Il est important que tous les intervenants comprennent ce dont l’intégrateur AV est responsable, et qu’ils veillent à ce que des plans documentés soient élaborés en fonction des points discutés dans cet épisode.
+Il est important que toutes les parties prenantes comprennent ce dont l’intégrateur audio/vidéo est responsable, en s’assurant que des plans documentés sont élaborés en fonction des points discutés dans cet épisode.
 
 >[!NOTE]
 >
->L’identification à grande échelle d’un intégrateur AV ayant une expertise dans la gestion de projet des déploiements de signalétique digitale est importante pour le succès à long terme. Il est suggéré de comparer les plans de projet entre l’intégrateur A/V et l’implémentateur AEM. Cela permet d&#39;assurer l&#39;alignement au fur et à mesure de l&#39;élaboration et de la finalisation des plans.
+>L’identification d’un intégrateur audio/vidéo ayant une expertise dans la gestion de projet des déploiements de signalétique digitale à grande échelle est importante pour le succès à long terme. Il est conseillé de comparer les plans de projet entre l’intégrateur audio/vidéo et l’implémentateur AEM. Cela permet d&#39;assurer l&#39;alignement au fur et à mesure de l&#39;élaboration et de la finalisation des plans.
 >
 >Les partenaires qui adoptent une approche holistique de la gestion des phases de préproduction, de lancement et de progression du projet permettent de s’assurer que vos clients finaux sont en mesure de tirer le meilleur parti de leur investissement.
 
@@ -72,11 +72,11 @@ Une réunion de lancement est programmée pour confirmer qu’une opportunité d
 
 La dernière partie d’une initiative de Jour 1 consiste en la passation au centre des opérations réseau. Si un projet terminé comprend un service et une assistance du Jour 2, le gestionnaire de projet organise une réunion de passation au centre des opérations réseau avec les superviseurs de ces équipes.
 
-Cette réunion rassemble principalement des représentants de l’intégrateur A/V en charge de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les représentants de la gestion de projet de l’Adobe, de l’implémentateur de l’AEM et du client final sont impliqués en tandem, et l’intégrateur A/V définit le planning, la cadence et les péages. Les gestionnaires de projet sont généralement les mieux placés pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d’assistance essentielle provient probablement de l’ingénierie informatique et/ou A/V, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour tous les clients qui ont besoin de l’aide d’un centre d’assistance du centre des opérations réseau, la documentation doit être fournie aux superviseurs du centre pour qu’ils la téléchargent sur une plateforme de la base de connaissances.
+Cette réunion comprend principalement des représentants de l’intégrateur audio/vidéo issus de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les représentants de la gestion de projet de l’Adobe, de l’implémentateur d’AEM et du client final sont impliqués dans tandem, et l’intégrateur audio/vidéo définit la planification, la cadence et les points de contrôle. Les gestionnaires de projet sont généralement les mieux placés pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d’assistance essentielle provient probablement de l’ingénierie informatique et/ou audio/vidéo, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour tous les clients qui ont besoin de l’aide d’un centre d’assistance du centre des opérations réseau, la documentation doit être fournie aux superviseurs du centre pour qu’ils la téléchargent sur une plateforme de la base de connaissances.
 
 ## Partie 4 : tutoriel vidéo sur la gestion de projet et le déploiement {#part-video-tutorial-on-project-management-and-deployment}
 
-Découvrez la gestion de projet et la préparation au déploiement, ainsi que la définition des principaux facteurs dont l’intégrateur A/V est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
+Découvrez la gestion de projet et la préparation du déploiement, ainsi que la définition des principaux facteurs dont l’intégrateur audio/vidéo est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
 
 ### Gestion de projet et déploiement
 

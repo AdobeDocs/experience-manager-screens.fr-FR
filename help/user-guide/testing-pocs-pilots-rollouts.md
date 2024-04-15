@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 52%
+source-wordcount: '535'
+ht-degree: 51%
 
 ---
 
@@ -50,11 +50,11 @@ La section suivante contient une présentation des principaux termes utilisés d
 
 ### Preuve de concept (PDC) {#proof-of-concept-poc}
 
-L’objectif d’un point de vente est d’obtenir un retour initial sur les fonctionnalités clés d’une solution. Il permet également au client final et à l’intégrateur A/V d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d’oeuvre et en ressources. Un PDC permet également aux deux parties d’évaluer les performances de la solution, qui se mesure généralement par :
+L’objectif d’un point de vente est d’obtenir un retour initial sur les fonctionnalités clés d’une solution. Il permet également au client final et à l’intégrateur audio/vidéo d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d’oeuvre et en ressources. Un PDC permet également aux deux parties d’évaluer les performances de la solution, qui se mesure généralement par :
 
 ### Contrôle de la qualité {#quality-control}
 
-Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur A/V. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, met en oeuvre et supervise l’installation des composants matériels dans un &quot;environnement de laboratoire&quot; dans l’installation de l’intégrateur A/V. Cela permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
+Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur audio/vidéo. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, met en oeuvre et supervise l’installation des composants matériels dans un &quot;environnement de laboratoire&quot; dans l’installation de l’intégrateur audio/vidéo. Cela permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
 
 Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’exploitation. Les aspects des systèmes à tester sont les suivants :
 

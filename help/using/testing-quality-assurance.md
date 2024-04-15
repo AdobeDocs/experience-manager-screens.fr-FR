@@ -2,17 +2,17 @@
 title: Tests et assurance qualité
 description: Découvrez les tests et l’assurance qualité pour AEM Screens dans le guide des bonnes pratiques.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 56%
+source-wordcount: '333'
+ht-degree: 51%
 
 ---
 
 # Tests et assurance qualité {#testing-quality}
 
 >[!NOTE]
->Cette activité est généralement réalisée par un intégrateur A/V.
+>Cette activité est généralement réalisée par un intégrateur audio/vidéo.
 
 À mesure que vous vous approchez du déploiement du réseau de signalétique digitale, créez un plan de test et d’assurance qualité qui s’adresse à chaque élément du réseau, y compris tous les composants matériels, logiciels et réseau.
 Au cours de cette phase, des systèmes de test complets doivent être mis au point et soumis à des tests exhaustifs.
@@ -82,4 +82,4 @@ Voici quelques exemples :
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Intergiciel propriétaire de l’intégrateur A/V
+* Intergiciel propriétaire de l’intégrateur audio/vidéo

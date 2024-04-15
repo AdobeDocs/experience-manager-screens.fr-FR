@@ -1,15 +1,14 @@
 ---
 title: Création avec des triggers de données
-seo-title: Authoring with Data Triggers
-description: Consultez cette page pour apprendre à créer avec des triggers de données.
+description: Découvrez comment créer avec des triggers de données dans un canal AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 79%
 
 ---
 
@@ -50,11 +49,11 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Sélectionnez l’onglet **Personnalisation** pour définir les configurations ContextHub, puis le chemin d’accès ContextHub et de segments.
+1. Sélectionnez la variable **Personnalisation** pour pouvoir configurer les configurations ContextHub et sélectionner le chemin d’accès ContextHub et de segments.
 
-   1. Sélectionnez le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
+   1. Sélectionnez le **Chemin d’accès ContextHub** sous **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
 
-   1. Sélectionnez le **chemin d’accès aux segments** **conf** > **We.Retail** > **settings** > **wcm** > **segments** et cliquez sur **Sélectionner**.
+   1. Sélectionnez la variable **Chemin d’accès aux segments** as **conf** > **`We.Retail`** > **paramètres** > **wcm** > **segments** et cliquez sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 
@@ -68,7 +67,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    >[!NOTE]
    >
-   >Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+   >Si vous avez tout configuré correctement, vous voyez **Ciblage** dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
