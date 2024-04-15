@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 44%
+ht-degree: 38%
 
 ---
 
@@ -50,15 +50,15 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    1. Ajoutez trois nouveaux segments **For_Red**, **For_Green** et **For_Blue**.
 
-   1. Sélectionnez **For_Red** et cliquez sur **Modifier** dans la barre d’actions.
+   1. Sélectionner **For_Red** et sélectionnez **Modifier** dans la barre d’actions.
 
    1. Faites glisser et déposez le **Comparaison : Propriété - Propriété** à l’éditeur.
-   1. Cliquez sur le bouton **Configuration** Icône
+   1. Sélectionnez la variable **Configuration** Icône
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
    1. Sélectionnez l’**Opérateur** **supérieur à** (greater-than) dans le menu déroulant.
    1. Sélectionner **Type de données** as **nombre**.
    1. Sélectionner **googlesheets/value/1/1** dans la liste déroulante de **Second Property name**.
-   1. Glisser-déposer **autre comparaison : Propriété - Propriété** dans l’éditeur, puis cliquez sur l’icône **Configuration** Icône
+   1. Glisser-déposer **autre comparaison : Propriété - Propriété** dans l’éditeur, puis sélectionnez l’option **Configuration** Icône
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
    1. Sélectionnez l’**Opérateur** **supérieur à** (greater-than) dans le menu déroulant.
    1. Sélectionner **Type de données** as **nombre**.
@@ -79,7 +79,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    >Notez que pour les segments **For_Green** et **For_Green**, les données ne peuvent pas être résolues dans l’éditeur, car seule la première comparaison est actuellement valide, selon les valeurs de la feuille de calcul Google.
 
 1. Naviguez et sélectionnez votre **DataDrivenRetail** channel (canal de séquence).
-1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Sélectionner **Modifier** dans la barre d’actions.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -95,15 +95,15 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
 1. **Ajout d’une image par défaut**
 
-   1. Ajoutez une image par défaut à votre canal et cliquez sur **Ciblage**.
-   1. Sélectionnez **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
-   1. Cliquez sur **Commencer le ciblage**.
+   1. Ajoutez une image par défaut à votre canal et sélectionnez **Ciblage**.
+   1. Sélectionner **Marque** et la variable **Activité** dans le menu déroulant, sélectionnez **Commencer le ciblage**.
+   1. Sélectionnez **Commencer le ciblage**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Avant de commencer le ciblage, ajoutez les segments (**For_Green**, **For_Red**, et **For_Blue**) en cliquant sur **+ Ajouter un ciblage d’expérience** du rail latéral, comme illustré dans la figure ci-dessous.
+   >Avant de commencer le ciblage, ajoutez les segments (**For_Green**, **For_Red**, et **For_Blue**) en sélectionnant **+ Ajouter un ciblage d’expérience** du rail latéral, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -113,7 +113,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
 1. **Vérification de l’aperçu**
 
-   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
+   1. Sélectionner **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
    1. Modifiez la valeur des trois colonnes différentes. Notez les mises à jour de l’image d’affichage en fonction de la valeur de stock la plus élevée.
 
    ![retail_result](assets/retail_result.gif)

@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 51%
+source-wordcount: '738'
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 >Après avoir téléchargé le dernier lecteur Windows (*.exe*), depuis [Téléchargements du lecteur AEM 6.4](https://download.macromedia.com/screens/) , suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
 >1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
->1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
+>1. Accédez à **Configuration** dans le menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et sélectionnez **Enregistrer**.
 >1. Sélectionnez la variable **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
 >
 
@@ -49,15 +49,15 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
    >
    >Pour plus d’informations sur la création d’un projet pour Screens dans le tableau de bord AEM, voir [Création et gestion de projet Screens](creating-a-screens-project.md).
 
-1. Appuyez/cliquez sur le bouton **Gestionnaire d’appareils** dans la barre d’actions.
+1. Sélectionnez la variable **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Appuyez/cliquez sur le bouton **Enregistrement d’appareil** en haut à droite.
+1. Sélectionnez la variable **Enregistrement de périphérique** en haut à droite.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Sélectionnez l’appareil requis (comme pour l’étape 1) et appuyez/cliquez sur **Enregistrer l’appareil**.
+1. Sélectionnez le périphérique requis (comme pour l’étape 1) et sélectionnez **Enregistrer le périphérique**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Si le **Code d’enregistrement** est le même sur les deux machines, appuyez/cliquez sur le bouton **Valider** dans AEM, comme indiqué à l’étape (6).
-1. Saisissez le nom souhaité pour l’appareil, puis cliquez sur **Enregistrer**.
+1. Si la variable **Code d’enregistrement** est identique sur les deux machines, sélectionnez **Valider** dans AEM, comme indiqué à l’étape (6).
+1. Définissez le nom souhaité pour l’appareil, puis sélectionnez **Enregistrer**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Appuyez/cliquez sur **Terminer** pour terminer le processus d’enregistrement.
+1. Sélectionner **Terminer** pour terminer le processus d’enregistrement.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
    >
    >Le bouton **Attribuer l’affichage** permet d’ajouter directement l’appareil à un affichage.
 
-   Cliquez sur **Terminer**, affectez le périphérique à un affichage.
+   Si vous sélectionnez **Terminer**, affectez le périphérique à un affichage.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,7 +96,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
 Si vous n’avez pas attribué l’appareil à un affichage, procédez comme suit pour attribuer l’appareil à un affichage dans votre projet AEM Screens :
 
-1. Sélectionnez l’appareil et cliquez sur **Attribuer l’appareil** dans la barre d’actions.
+1. Sélectionnez le périphérique et sélectionnez **Attribuer le périphérique** dans la barre d’actions.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
@@ -104,15 +104,15 @@ Si vous n’avez pas attribué l’appareil à un affichage, procédez comme sui
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Cliquez sur **Attribuer** lorsque vous sélectionnez le chemin.
+1. Sélectionner **Attribuer** lorsque vous sélectionnez le chemin.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Cliquez sur **Terminer** une fois que l’appareil a été attribué, comme illustré dans la figure ci-dessous.
+1. Sélectionner **Terminer** une fois que l’appareil a été attribué, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Vous pouvez également afficher le tableau de bord de l’affichage en cliquant sur **Terminer**.
+   Vous pouvez également afficher le tableau de bord de l’affichage en sélectionnant **Terminer**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -122,7 +122,7 @@ Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez
 
 1. Accédez à l’interface utilisateur du Gestionnaire de périphériques à partir de votre projet AEM Screens, par exemple : **DemoScreens** > **Périphériques**.
 
-1. Sélectionnez le dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
+1. Sélectionnez la variable **Périphériques** et sélectionnez **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,7 +134,7 @@ Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez
 
    Ou,
 
-   Cliquez sur `/` (barre oblique) pour appeler la fonctionnalité de recherche.
+   Sélectionner `/` (barre oblique) pour appeler la fonctionnalité de recherche.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
 

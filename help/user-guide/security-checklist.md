@@ -5,10 +5,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 
@@ -29,4 +29,4 @@ La page Liste de contrôle de sécurité d’AEM Screens décrit les principales
 
 ### Téléchargement de la liste de contrôle de sécurité {#download-checklist}
 
-Pour télécharger la liste de contrôle de sécurité d’AEM Screens, cliquez [ici](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
+Pour télécharger la liste de contrôle de sécurité d’AEM Screens, sélectionnez [here](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).

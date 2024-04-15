@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 55%
@@ -36,7 +36,7 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Cliquez sur le périphérique pour ouvrir le tableau de bord du périphérique.
+1. Sélectionnez le périphérique pour pouvoir ouvrir le tableau de bord du périphérique.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 

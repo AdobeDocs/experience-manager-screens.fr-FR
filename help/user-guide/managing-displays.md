@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 40%
+source-wordcount: '659'
+ht-degree: 37%
 
 ---
 
@@ -66,9 +66,9 @@ Une configuration d’appareil fonctionne comme un espace réservé pour un appa
 1. Sélectionnez votre dossier d’affichage et choisissez **Afficher le tableau de bord** dans la barre d’actions.
 1. Sélectionner **+ Ajouter la configuration de périphérique** en haut à droite de la **Périphériques** du panneau.
 
-1. Sélectionnez **Configuration de l’appareil** comme modèle requis, puis appuyez/cliquez sur **Suivant**.
+1. Sélectionnez la variable **Configuration du périphérique** comme modèle requis et sélectionnez **Suivant**.
 
-1. Saisissez les propriétés demandées, puis appuyez ou cliquez sur **Créer**.
+1. Saisissez les propriétés demandées, puis sélectionnez **Créer**.
 
 La configuration de l’appareil est créée et ajoutée à l’affichage en cours (dans la démonstration suivante, la nouvelle configuration de l’appareil s’appelle *DeviceConfig*).
 
@@ -102,12 +102,12 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les a
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Cliquez sur (**..**) dans le coin supérieur droit du **AFFICHAGE DES INFORMATIONS** pour afficher les propriétés et un aperçu de l’affichage.
+Sélectionnez (**..**) dans le coin supérieur droit du **AFFICHAGE DES INFORMATIONS** pour afficher les propriétés et un aperçu de l’affichage.
 
 
 #### Affichage des propriétés {#viewing-properties}
 
-Cliquez sur **Propriétés** vous pouvez ainsi afficher ou modifier les propriétés de votre affichage.
+Sélectionner **Propriétés** vous pouvez ainsi afficher ou modifier les propriétés de votre affichage.
 
 Vous pouvez également régler la valeur du minuteur d’événement pour votre canal interactif dans **Délai d’inactivité** propriété sous **Affichage** . Par défaut, cette valeur est définie sur *300 secondes*.
 
@@ -125,7 +125,7 @@ Le panneau **APPAREILS** fournit des informations sur les configurations des app
 
 Sélectionnez (**..**) dans le coin supérieur droit du **APPAREILS** afin que vous puissiez ajouter des configurations de périphérique et mettre à jour les périphériques.
 
-Cliquez également sur la configuration du périphérique pour afficher les propriétés, attribuer un périphérique ou le supprimer complètement.
+Sélectionnez également la configuration du périphérique pour afficher les propriétés, attribuer un périphérique ou le supprimer complètement.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
@@ -57,7 +57,7 @@ Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir 
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
-1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et sélectionnez le canal. Cliquez sur **Modifier** dans la barre d’actions, puis ajoutez du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu aux canaux **ColdDrinks** et **HotDrinks**.
+1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et sélectionnez le canal. Sélectionner **Modifier** dans la barre d’actions, puis ajoutez du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu aux canaux **ColdDrinks** et **HotDrinks**.
 
    Les canaux contiennent maintenant des ressources (images), comme le montrent les figures ci-dessous.
 
@@ -85,7 +85,7 @@ Procédez comme suit pour ajouter des balises à votre canal :
 
 1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et sélectionnez le canal.
 
-1. Cliquez sur **Propriétés** dans la barre d’actions.
+1. Sélectionnez **Propriétés** dans la barre d’actions.
 
    ![image](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ Procédez comme suit pour ajouter des balises à votre canal :
 
    ![image](assets/voice-recognition/vr-emb-7.png)
 
-1. Une fois que vous avez terminé, cliquez sur **Enregistrer et fermer**.
+1. Sélectionner **Enregistrer et fermer** une fois que vous avez fini.
 
 
 ### Création de balises {#creating-tags}
@@ -116,18 +116,18 @@ Pour créer des balises, procédez comme suit :
 
 1. Accédez à votre instance AEM.
 
-1. Cliquez sur l’icône Outils > **Balisage**.
+1. Icône Sélectionner les outils > **Balisage**.
    ![image](assets/voice-recognition/vr-7.png)
 
-1. Cliquez sur **Créer** > **Créer un espace de noms**.
+1. Sélectionner **Créer** > **Créer un espace de noms**.
    ![image](assets/voice-recognition/vr-tag3.png)
 
-1. Entrez le nom de votre projet, par exemple, **VoiceDemo** et cliquez sur **Créer**.
+1. Saisissez le nom de votre projet, par exemple : **VoiceDemo** et sélectionnez **Créer**.
 
-1. Sélectionnez le projet **VoiceDemo** et cliquez sur **Créer une balise** dans la barre d’actions.
+1. Sélectionnez la variable **VoiceDemo** projet et sélectionnez **Créer une balise** dans la barre d’actions.
    ![image](assets/voice-recognition/vr-tag4.png)
 
-1. Saisissez le nom de votre balise, puis cliquez sur **Envoyer**.
+1. Saisissez le nom de votre balise et sélectionnez **Envoyer**.
    ![image](assets/voice-recognition/vr-tag5.png)
 
 Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.

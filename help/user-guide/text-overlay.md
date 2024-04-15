@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 58%
+ht-degree: 55%
 
 ---
 
@@ -58,11 +58,11 @@ L’image suivante montre le projet **TextOverlayDemo** avec le canal **TextSamp
 
 Pour utiliser la superposition de texte dans un canal AEM Screens, procédez comme suit :
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et sélectionnez **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Sélectionnez l’image et cliquez sur **Configurer** (icône en forme de clé) pour ouvrir la boîte de dialogue des propriétés.
+1. Sélectionnez l’image, puis cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ Après avoir configuré les configurations requises pour votre projet, procédez
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et sélectionnez **Modifier** dans la barre d’actions.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ Après avoir configuré les configurations requises pour votre projet, procédez
    >[!NOTE]
    >Si vous n’avez pas configuré votre configuration ContextHub, cette option est désactivée pour votre projet.
 
-1. Entrée **Valeur** dans le **Espace réservé** champ . Sélectionnez la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
+1. Entrée **Valeur** dans le **Espace réservé** champ . Sélectionnez la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Lorsque vous avez terminé, cochez la case.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

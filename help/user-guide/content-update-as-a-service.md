@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 81%
+ht-degree: 68%
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir d
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
-1. Sélectionnez le projet et cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions pour mettre manuellement à jour le contenu du canal.
+1. Sélectionnez le projet, puis sélectionnez **Mettre à jour le contenu hors ligne** depuis la barre d’actions pour mettre à jour manuellement le contenu du canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -63,7 +63,7 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
 
    **Chemin du projet** Spécifiez le chemin d’accès de votre projet AEM Screens. Le chemin est habituellement `/content/screens/<Name of your project>`.
 
-   *Par exemple*, `/content/screens/we-retail`. Vous pouvez trouver ce chemin dans l’URL en sélectionnant un projet sous AEM Screens (ne cliquez pas sur l’icône).
+   *Par exemple*, `/content/screens/we-retail`. Vous pouvez trouver ce chemin dans l’URL en sélectionnant un projet sous AEM Screens (ne sélectionnez pas l’icône).
 
    >[!NOTE]
    >

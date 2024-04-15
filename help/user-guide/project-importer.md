@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 49%
+ht-degree: 47%
 
 ---
 
@@ -23,13 +23,13 @@ Cette section décrit une fonctionnalité permettant d’importer en bloc un ens
 
 ## Présentation {#introduction}
 
-Lorsque vous configurez un projet AEM Screens pour la première fois dans votre entreprise, créez également tous les emplacements. Si votre projet implique de nombreux emplacements, une tâche fastidieuse implique de nombreux clics et attentes dans l’interface utilisateur.
+Lorsque vous configurez un projet AEM Screens pour la première fois dans votre entreprise, créez également tous les emplacements. Si votre projet implique de nombreux emplacements, une tâche fastidieuse nécessite beaucoup de sélection et d’attente dans l’interface utilisateur.
 
 Cette fonctionnalité a pour objectif de réduire le temps nécessaire à la configuration du projet et de résoudre ainsi des problèmes de budgétisation.
 
 En permettant à l’auteur de fournir une feuille de calcul en tant que fichier d’entrée et en laissant le système créer automatiquement l’arborescence de l’emplacement dans le serveur principal, cette fonction :
 
-* *offre de meilleures performances que les clics manuels dans l’interface utilisateur.*
+* *offre de meilleures performances que la sélection manuelle dans l’interface utilisateur.*
 * *permet aux clients d’exporter leurs emplacements depuis leur propre système et de les importer directement dans AEM*
 
 Cela permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d’AEM Screens à de nouveaux emplacements.
@@ -107,11 +107,11 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
 1. La variable **Importer** s’affiche. Sélectionnez le fichier de votre projet avec les emplacements ou sélectionnez le fichier (***minimal-file.xls***) que vous avez téléchargé à partir de la fonction *Conditions préalables* .
 
-   Une fois le fichier sélectionné, cliquez sur **Suivant**.
+   Après avoir sélectionné le fichier, sélectionnez **Suivant**.
 
    ![Screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Vérifiez le contenu du fichier (emplacements) dans l’assistant d’importation, puis cliquez sur **Importer**.
+1. Vérifiez le contenu du fichier (emplacements) dans l’assistant d’importation, puis sélectionnez **Importer**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

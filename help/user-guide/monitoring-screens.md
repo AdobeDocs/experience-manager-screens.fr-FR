@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -39,7 +39,7 @@ Suivez les étapes ci-dessous pour accéder au tableau de bord de l’appareil 
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Sélectionnez l’appareil (**NewTestDevice**) et cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Sélectionnez le périphérique (**NewTestDevice**) et sélectionnez **Tableau de bord** dans la barre d’actions.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Sélectionnez **Propriétés** pour afficher la boîte de dialogue Propriétés 
 
 Vous pouvez afficher la capture d’écran d’un lecteur à partir de l’appareil dans le panneau **CAPTURE D’ÉCRAN DU LECTEUR**.
 
-Cliquez sur (**...**) dans le coin supérieur droit du panneau Capture d’écran du lecteur et sélectionnez **Actualiser la capture d’écran** pour afficher l’instantané du lecteur en cours d’exécution.
+Sélectionnez (**...**) dans le coin supérieur droit du panneau Capture d’écran du lecteur et sélectionnez **Actualiser la capture d’écran** pour afficher l’instantané du lecteur en cours d’exécution.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Pour activer l’option Allow Empty d’Apache Sling Referrer Filter
 
 1. Accédez à **Configuration de la console web Adobe Experience Manager**, à savoir `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Cochez l’option **allow.empty**.
-1. Cliquez sur **Enregistrer**.
+1. Sélectionnez **Enregistrer**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 36%
+ht-degree: 33%
 
 ---
 
@@ -29,7 +29,7 @@ Une fois la vidéo téléchargée sur le canal, AEM devrait commencer à créer 
 Pour visionner la vidéo, procédez comme suit :
 
 1. Accédez à votre vidéo, par exemple `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Cliquez sur la vidéo, développez le menu supérieur gauche, puis cliquez sur **Rendus**.
+1. Sélectionnez la vidéo, développez le menu supérieur gauche, puis sélectionnez **Rendus**.
 
 Il doit y avoir différents rendus (MP4 ou M4V).
 
@@ -39,7 +39,7 @@ S’il n’existe aucun rendu, vérifiez que vous avez installé ffmpeg sur le s
 >
 >S’il n’existe aucun rendu, vérifiez que vous avez installé ffmpeg sur le système d’exploitation où AEM est exécuté.
 >
->Cliquez [ici](https://www.ffmpeg.org/download.html) pour installer ffmpeg.
+>Sélectionner [here](https://www.ffmpeg.org/download.html) pour installer ffmpeg.
 
 ## Ressources vidéo {#video-assets}
 
@@ -51,11 +51,11 @@ Vérifiez que ffmpeg est installé dans les profils vidéo.
 
 ### Vérification du profil vidéo {#checking-video-profile}
 
-1. Accédez au **Profil vidéo**, à savoir `http://localhost:4502/etc/dam/video.html`, et cliquez sur **Charger la vidéo de test**.
+1. Accédez au **Profil vidéo**, à savoir : `http://localhost:4502/etc/dam/video.html` et sélectionnez **Vidéo de test de téléchargement**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Téléchargez une vidéo de test et cliquez sur **Ok** vous pouvez donc commencer le transcodage.
+1. Téléchargez une vidéo de test et sélectionnez **Ok** vous pouvez donc commencer le transcodage.
 
    Si la vidéo transcodée échoue, développez la sortie ffmpeg pour comprendre les erreurs dans la sortie de console de ffmpeg.
 

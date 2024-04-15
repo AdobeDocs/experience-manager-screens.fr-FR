@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 45%
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/p_usecase2.png)
 
-1. Sélectionnez le canal **MainAdChannel** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
+1. Sélectionnez la variable **MainAdChannel** et sélectionnez **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
 
    ![ressource](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Pour configurer un projet, procédez comme suit :
 
 1. Créez un **TakeOver** canal qui prend le contrôle du contenu dans **MainAdChannel** et est lu tous les mercredis de 14h00 à 16h00.
 
-1. Sélectionnez la variable **TakeOver** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
+1. Sélectionnez la variable **TakeOver** et sélectionnez **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
 
    ![ressource](assets/p_usecase4.png)
 
@@ -69,12 +69,12 @@ Pour configurer un projet, procédez comme suit :
 
 **Affectation de canaux à un affichage**
 
-1. Sélectionnez l’affichage **MainLobbyDisplay** dans le dossier **Locations** (Emplacements). Cliquez sur **Attribuer le canal** à partir de la barre d’actions pour ouvrir la **Attribution de canaux** de la boîte de dialogue
+1. Sélectionnez l’affichage **MainLobbyDisplay** dans le dossier **Locations** (Emplacements). Sélectionner **Attribuer le canal** à partir de la barre d’actions pour ouvrir la **Attribution de canaux** de la boîte de dialogue
 
    >[!NOTE]
    >Pour savoir comment attribuer un canal à un affichage, voir **[Attribution de canaux](channel-assignment.md)**.
 
-1. Renseignez les champs (**Chemin du canal**, **Priorité** et **Événements pris en charge**) de la boîte de dialogue **Attribution de canaux** et cliquez sur **Enregistrer** pour attribuer le canal **MainAdChannel** à votre affichage.
+1. Renseignez les champs (**Chemin du canal**, **Priorité**, et **Événements pris en charge**) de la variable **Attribution de canaux** , puis sélectionnez **Enregistrer** pour affecter la variable **MainAdChannel** à votre affichage.
 
    * **Chemin du canal** : sélectionnez le chemin d’accès au canal **MainAdChannel**.
    * **Priorité** : Définissez la priorité de ce canal sur 1.
@@ -82,9 +82,9 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/p_usecase6.png)
 
-1. Sélectionnez l’affichage **TakeOver** dans le dossier **Locations** (Emplacements). Cliquez sur **Attribuer le canal** à partir de la barre d’actions afin de pouvoir attribuer le canal de prise de contrôle.
+1. Sélectionnez l’affichage **TakeOver** dans le dossier **Locations** (Emplacements). Sélectionner **Attribuer le canal** à partir de la barre d’actions afin de pouvoir attribuer le canal de prise de contrôle.
 
-1. Attribution de la variable **TakeOver** à votre affichage à une heure planifiée et en remplissant les champs suivants à partir de la fonction **Attribution de canaux** boîte de dialogue et clic **Enregistrer**:
+1. Attribution de la variable **TakeOver** à votre affichage à une heure planifiée et en remplissant les champs suivants à partir de la fonction **Attribution de canaux** , puis sélectionnez **Enregistrer**:
 
    * **Chemin du canal** : sélectionnez le chemin d’accès au canal **TakeOver**.
    * **Priorité** : Attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
@@ -101,7 +101,7 @@ Pour configurer un projet, procédez comme suit :
 
      ![ressource](assets/p_usecase7.png)
 
-     Accédez à l’affichage à partir de **TakeOver** > **Emplacements** > **MainLobby** > **MainLobbyDisplay** et cliquez sur **Tableau de bord** depuis la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
+     Accédez à l’affichage à partir de **TakeOver** > **Emplacements** > **MainLobby** > **MainLobbyDisplay** et sélectionnez **Tableau de bord** depuis la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
      >[!NOTE]
      >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.

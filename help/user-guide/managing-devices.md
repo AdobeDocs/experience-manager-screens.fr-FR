@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 57%
+source-wordcount: '238'
+ht-degree: 41%
 
 ---
 
@@ -36,26 +36,26 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Sélectionnez votre dossier **Appareils** et appuyez ou cliquez ensuite sur **Gestionnaire d’appareils** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
+1. Sélectionnez votre **Périphériques** et sélectionnez **Gestionnaire de périphériques** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Sélectionnez un appareil non attribué dans la liste et appuyez/cliquez sur **Attribuer l’appareil** dans la barre d’actions.
+1. Sélectionnez un périphérique non attribué dans la liste, puis sélectionnez l’option **Attribuer le périphérique** dans la barre d’actions.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Sélectionnez l’affichage auquel vous souhaitez attribuer le périphérique dans la liste, puis appuyez/cliquez sur le bouton **Attribuer**.
+1. Sélectionnez l’affichage auquel vous souhaitez attribuer le périphérique dans la liste, puis sélectionnez le **Attribuer**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Appuyez/cliquez sur **Terminer** pour terminer la procédure d’attribution.
+1. Sélectionnez la variable **Terminer** pour terminer le processus d’affectation.
 
 
    Le tableau de bord des affichages montre l’appareil attribué dans le volet **APPAREILS**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Cliquez sur (**..**) dans le coin supérieur droit du **APPAREILS** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
+   Sélectionnez le (**..**) dans le coin supérieur droit du **APPAREILS** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

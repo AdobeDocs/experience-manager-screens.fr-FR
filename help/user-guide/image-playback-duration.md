@@ -2,7 +2,7 @@
 title: Durée de lecture des images
 description: Découvrez la durée de lecture des images dans AEM Screens.
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 53%
@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Sélectionner **Modifier** dans la barre d’actions.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 

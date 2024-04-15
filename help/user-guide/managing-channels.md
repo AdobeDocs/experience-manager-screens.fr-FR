@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1256'
-ht-degree: 54%
+ht-degree: 49%
 
 ---
 
@@ -31,15 +31,15 @@ Après avoir créé votre projet pour AEM Screens, suivez les étapes ci-dessous
 
 1. Accédez à votre projet Screens et sélectionnez le dossier **Canaux**.
 
-1. Cliquez sur **Créer** dans la barre d’actions.
+1. Sélectionner **Créer** dans la barre d’actions.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Sélectionnez le modèle **Canal de séquence** dans l’assistant **Créer** et cliquez sur **Suivant**.
+1. Sélectionnez la variable **Canal de séquence** du modèle **Créer** assistant et sélectionnez **Suivant**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Saisissez le titre **ScreensChannel** et cliquez sur **Créer**.
+1. Saisissez le Titre **ScreensChannel** et sélectionnez **Créer**.
 
    ![demochannel](assets/create-project4.png)
 
@@ -81,7 +81,7 @@ Vous pouvez modifier, copier, prévisualiser, supprimer un canal, et afficher se
 Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes ci-dessous :
 
 1. Sélectionnez le canal à modifier (comme illustré dans la figure ci-dessus).
-1. Cliquez sur **Modifier** dans le coin supérieur gauche de la barre d’actions afin de pouvoir modifier les propriétés du canal. L’éditeur s’ouvre. Il vous permet d’ajouter des ressources/composants à votre canal que vous souhaitez publier.
+1. Sélectionner **Modifier** dans le coin supérieur gauche de la barre d’actions afin de pouvoir modifier les propriétés du canal. L’éditeur s’ouvre. Il vous permet d’ajouter des ressources/composants à votre canal que vous souhaitez publier.
 
 >[!NOTE]
 >Vous pouvez ajouter des composants à votre canal. Voir **[Ajout de composants à un canal](adding-components-to-a-channel.md)** pour plus d’informations.
@@ -93,7 +93,7 @@ Pour ajouter du contenu à un canal ou modifier son contenu, suivez les étapes 
 Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 
 1. Sélectionnez le canal vers lequel charger la vidéo.
-1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Sélectionner **Modifier** dans la barre d’actions.
 1. Dans l’éditeur, sélectionnez **Vidéos** sous Ressources et effectuez un glisser-déposer des vidéos requises.
 
 >[!NOTE]
@@ -101,15 +101,15 @@ Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 
 ### Affichage ou modification des propriétés d’un canal {#viewing-properties}
 
-1. Cliquez sur le canal à modifier.
-1. Cliquez sur **Propriétés** dans la barre d’actions pour afficher/modifier les propriétés du canal. L&#39;onglet suivant permet de modifier les options.
+1. Sélectionnez le canal à modifier.
+1. Sélectionner **Propriétés** dans la barre d’actions pour afficher/modifier les propriétés du canal. L&#39;onglet suivant permet de modifier les options.
 
 ![propriétés](assets/properties.gif)
 
 ### Affichage du tableau de bord {#viewing-dashboard}
 
 1. Sélectionnez le canal à modifier.
-1. Cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Sélectionner **Tableau de bord** dans la barre d’actions.
 
 ![Tableau de bord](assets/dashboard.gif)
 
@@ -117,7 +117,7 @@ Suivez les étapes ci-dessous pour charger des vidéos vers votre canal :
 
 Le panneau Informations sur le canal fournit une description des propriétés ainsi qu’un aperçu du canal. Il vous permet également de voir si le canal est en ligne ou hors ligne.
 
-Cliquez sur (**..**) de la variable **INFORMATIONS SUR LES CANAUX** pour afficher les propriétés, modifier le contenu ou mettre à jour le cache (contenu hors ligne) du canal.
+Sélectionnez le (**..**) de la variable **INFORMATIONS SUR LES CANAUX** pour afficher les propriétés, modifier le contenu ou mettre à jour le cache (contenu hors ligne) du canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,11 +133,11 @@ Pour activer cette option à partir du tableau de bord des canaux, procédez com
 1. **Définir le canal sur Hors ligne**
    1. Sélectionnez le canal et choisissez **Propriétés** dans la barre d’actions.
    1. Accédez à **Canal** et assurez-vous de décocher la case **Mode Développeur (forcer le canal à être en ligne)** option
-   1. Cliquez sur **Enregistrer et fermer**.
+   1. Sélectionner **Enregistrer et fermer**
 1. **Mettre à jour le contenu hors ligne**
    1. Sélectionnez le canal et choisissez **Tableau de bord** dans la barre d’actions.
-   1. Accédez au panneau **INFORMATIONS SUR LES CANAUX** et cliquez sur *...*
-   1. Cliquez sur **Mettre à jour le contenu hors ligne**.
+   1. Accédez à **INFORMATIONS SUR LES CANAUX** et sélectionnez *..*
+   1. Sélectionner **Mettre à jour le contenu hors ligne**
 
 Vous devriez maintenant pouvoir voir l’option **Afficher le manifeste** depuis le panneau **INFORMATIONS SUR LES CANAUX** dans le tableau de bord des canaux.
 
@@ -161,17 +161,17 @@ Pour mettre le canal en ligne, procédez comme suit :
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Cliquez sur **Tableau de bord** dans la barre d’actions pour afficher l’état du lecteur. Le panneau **INFORMATIONS SUR LES CANAUX** indique si le canal est en ligne ou hors ligne.
+   Sélectionner **Tableau de bord** dans la barre d’actions pour afficher l’état du lecteur. Le panneau **INFORMATIONS SUR LES CANAUX** indique si le canal est en ligne ou hors ligne.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Cliquez sur **Propriétés** dans la barre d’actions et accédez à l’onglet **Canal** comme illustré ci-dessous :
+1. Sélectionner **Propriétés** à partir de la barre d’actions et accédez à la **Canal** comme illustré ci-dessous :
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Vérifiez le mode **Développeur** **(forcer le canal à être en ligne)** pour que le canal soit en ligne.
 
-   Cliquez sur **Enregistrer et Fermer** pour enregistrer.
+   Sélectionner **Enregistrer et fermer** pour enregistrer votre option.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -180,7 +180,7 @@ Pour mettre le canal en ligne, procédez comme suit :
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Pour reconfigurer votre canal comme étant hors ligne, désélectionnez l’option Mode développeur dans la **Propriétés** (comme indiqué à l’étape (3)). Ensuite, à partir du **INFORMATIONS SUR LES CANAUX** clic sur le panneau **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
+>Pour reconfigurer votre canal comme étant hors ligne, désélectionnez l’option Mode développeur dans la **Propriétés** (comme indiqué à l’étape (3)). Ensuite, à partir du **INFORMATIONS SUR LES CANAUX** sélection de panneau **Mettre à jour le contenu hors ligne**, comme illustré dans la figure ci-dessous.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -239,7 +239,7 @@ Les affichages associés sont répertoriés dans la **Affichages attribués** , 
 >* [Création et gestion des affichages](managing-displays.md)
 >
 
-Cliquez également sur l’affichage dans le **AFFICHAGES ATTRIBUÉS** pour afficher les informations sur l’affichage, comme illustré ci-dessous :
+Sélectionnez également l’affichage dans le **AFFICHAGES ATTRIBUÉS** pour afficher les informations sur l’affichage, comme illustré ci-dessous :
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -47,7 +47,7 @@ Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen, envo
 
 Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 
-1. Cliquez sur le bouton menu de votre télécommande.
+1. Sélectionnez le bouton de menu sur votre télécommande.
 1. Accédez à **network** > **Nom de l’appareil** vous pouvez ainsi attribuer un nom au lecteur.
 
 ### Configuration des mises à jour sur l’appareil Samsung {#config-updates}
@@ -55,11 +55,11 @@ Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 Suivez les étapes ci-dessous sur le périphérique Samsung afin de pouvoir terminer l’installation du lecteur AEM Screens sur le périphérique :
 
 1. Accédez à votre appareil Samsung et activez-le.
-1. Cliquez sur le bouton **MENU** de la télécommande de l’appareil et faites défiler la liste jusqu’à **System** (Système) dans la barre de navigation de gauche.
+1. Sélectionnez la variable **MENU** à partir de la télécommande de l’appareil et faites défiler l’écran jusqu’à **Système** dans la barre de navigation de gauche.
 1. Faites défiler la page vers le bas et sélectionnez l’option **Play via** (Lecture sur) et remplacez-la par l’option **URL Launcher** (Lancement d’URL).
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 1. Lorsque le lanceur d’URL est défini, appuyez sur la touche **Accueil** à partir de votre télécommande.
-1. Accédez à **URL Launcher Settings** (Paramètres du lanceur d’URL), saisissez l’adresse IP de votre serveur hôte local et cliquez sur **Done** (Terminé).
+1. Accédez au **Paramètres du lanceur d’URL** et saisissez l’adresse IP de votre serveur localhost, puis sélectionnez **Terminé**.
 
    >[!NOTE]
    >Le lecteur Tizen doit maintenant pouvoir se connecter au serveur http.

@@ -5,10 +5,10 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 66%
+source-wordcount: '1270'
+ht-degree: 50%
 
 ---
 
@@ -46,7 +46,7 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
    ![image](assets/config/empty-ref2.png)
 
-1. Cliquez sur **Save** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+1. Sélectionner **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
 ## Création d’une expérience de signalétique numérique en 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
@@ -54,10 +54,10 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 La première étape consiste à créer un projet AEM Screens.
 
-1. Accédez à votre instance Adobe Experience Manager (AEM) et cliquez sur **Screens**. Vous pouvez également y accéder directement depuis `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Accédez à votre instance Adobe Experience Manager (AEM) et sélectionnez **Screens**. Vous pouvez également y accéder directement depuis `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Cliquez sur **Créer un projet Screens** vous pouvez ainsi créer un projet Screens.
-1. Saisissez le titre comme **DemoScreens**, puis cliquez sur **Enregistrer**.
+1. Sélectionner **Créer un projet Screens** vous pouvez ainsi créer un projet Screens.
+1. Saisissez le titre comme **DemoScreens**, puis sélectionnez **Enregistrer**.
 
    ![image](assets/kickstart/demo-1.png)
 
@@ -70,14 +70,14 @@ Après avoir créé votre projet AEM Screens, créez un canal où vous gérez le
 
 Pour créer un canal pour votre projet, procédez comme suit :
 
-1. Après avoir créé un projet, sélectionnez l’option **DemoScreens** et sélectionnez le projet **Canaux** , comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
+1. Après avoir créé un projet, sélectionnez l’option **DemoScreens** et sélectionnez le projet **Canaux** , comme illustré dans la figure ci-dessous. Sélectionner **+ Créer** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-2.png)
 
-1. Sélectionnez le **Canal de séquence** dans l’assistant et cliquez sur **Suivant**.
+1. Choisissez la **Canal de séquence** dans l’assistant, puis sélectionnez **Suivant**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Saisissez le **titre** **TestChannel** et cliquez sur **Créer**.
+1. Saisissez le **Titre** as **TestChannel** et sélectionnez **Créer**.
 
    ![image](assets/kickstart/demo-4.png)
 
@@ -93,11 +93,11 @@ Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**)
 
 1. Accédez au projet **DemoProject** que vous avez créé et sélectionnez le canal **TestChannel** dans le **dossier de canaux**.
 
-1. Cliquez sur **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de **TestChannel** s’ouvre.
+1. Sélectionner **Modifier** dans la barre d’actions (voir la figure ci-dessous). L’éditeur de **TestChannel** s’ouvre.
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Cliquez sur l’icône qui fait basculer le panneau latéral sur le côté gauche de la barre d’actions pour ouvrir les ressources et les composants.
+1. Sélectionnez l’icône qui fait basculer le panneau latéral sur le côté gauche de la barre d’actions pour ouvrir les ressources et les composants.
 
 1. Faites glisser et déposez les composants que vous souhaitez ajouter à votre canal.
 
@@ -113,9 +113,9 @@ Lorsque votre canal est en place, créez un emplacement.
 Pour créer un emplacement pour votre projet, procédez comme suit :
 
 1. Accédez au projet **DemoProject** que vous avez créé et sélectionnez le dossier **Emplacements**.
-1. Cliquez sur **+ Créer** dans la barre d’actions.
-1. Sélectionnez **Emplacement** dans l’assistant, puis cliquez sur **Suivant**.
-1. Saisissez le **nom** de votre emplacement (saisissez le titre **TestLocation**), puis cliquez sur **Créer**.
+1. Sélectionner **+ Créer** dans la barre d’actions.
+1. Sélectionner **Emplacement** dans l’assistant, puis sélectionnez **Suivant**.
+1. Saisissez le **Nom** pour votre emplacement (saisissez le titre **TestLocation**) et sélectionnez **Créer**.
 
 L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locations** (Emplacements).
 
@@ -128,15 +128,15 @@ Une fois que vous avez créé un emplacement, créez un affichage pour celui-ci.
 >***Affichage*** représente l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
 
 1. Accédez à l’emplacement **TestLocation** et sélectionnez-le.
-1. Cliquez sur **Créer** dans la barre d’actions.
+1. Sélectionner **Créer** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-disp1.png)
 
-1. Sélectionnez **Affichage** à partir de l’assistant **Créer** et cliquez sur **Suivant**.
+1. Sélectionner **Affichage** de la **Créer** assistant et sélectionnez **Suivant**.
 
    ![image](assets/kickstart/demo-disp2.png)
 
-1. Saisissez le **Titre** **LobbyDisplay** et cliquez sur **Créer**.
+1. Saisissez le **Titre** as **LobbyDisplay** et sélectionnez **Créer**.
 
    ![image](assets/kickstart/demo-disp3.png)
 
@@ -150,13 +150,13 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 
 1. Accédez à l’affichage requis à partir de **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay**.
 
-1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
+1. Sélectionner **Attribuer le canal** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-assign1.png)
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   Sélectionner **Tableau de bord** dans la barre d’actions, puis sélectionnez **+Attribuer le canal** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
 
    ![image](assets/kickstart/demo-assign2.png)
 
@@ -176,7 +176,7 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
    >La variable *Planning de périodicité* permet de définir une planification récurrente pour votre canal. Vous configurez plusieurs plannings de périodicité pour un canal.
    >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
-1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
+1. Sélectionner **Enregistrer** une fois que vous avez configuré vos préférences.
 
 ### Enregistrement d’un appareil et attribution d’un appareil à un affichage {#registering-device}
 
@@ -185,43 +185,43 @@ Enregistrez votre appareil à l’aide du tableau de bord AEM.
 >[!IMPORTANT]
 >Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome. Pour l’installer, procédez comme suit :
 >
->1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
+>1. Sélectionner [here](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur Chrome.
 >1. Décompressez et enregistrez le fichier d’installation sur le disque.
 >1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
 >1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
->1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
+>1. Sélectionner **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 >1. Vérifier **Lecteur AEM Screens Chrome** s’il est disponible dans la liste des extensions.
->1. Ouvrez un nouvel onglet et cliquez sur le bouton **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
->1. Cliquez sur **AEM Screens** Module externe permettant de lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
+>1. Ouvrez un nouvel onglet et sélectionnez **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
+>1. Sélectionner **AEM Screens** Module externe permettant de lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
 
 Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous pour enregistrer un appareil Chrome.
 
 1. Accédez au dossier **Appareils** de votre projet à partir de votre instance AEM.
 
-1. Appuyez/cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
+1. Sélectionnez la variable **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-register1.png)
 
-1. Appuyez/cliquez sur **Enregistrement d’appareil** en haut à droite.
+1. Sélectionnez la variable **Enregistrement de périphérique** en haut à droite.
 
-1. Sélectionnez l’appareil requis et appuyez/cliquez sur **Enregistrer le périphérique**.
+1. Sélectionnez l’appareil requis et sélectionnez **Enregistrer le périphérique**.
 
    ![image](assets/kickstart/demo-register2.png)
 
 1. Attendez que l’appareil envoie son code d’enregistrement et, simultanément, vérifiez le **Code d’enregistrement** depuis votre appareil Chrome.
    ![image](assets/kickstart/demo-register3.png)
 
-1. Si le **code d’enregistrement** est le même sur les deux machines, appuyez/cliquez sur **Valider** dans AEM.
+1. Si la variable **Code d’enregistrement** est identique sur les deux machines, sélectionnez **Valider** dans AEM.
 
-1. Définissez le nom souhaité **ChromeDeviceforDemo** pour l’appareil, puis cliquez sur **Enregistrer**.
+1. Définissez le nom souhaité sur **ChromeDeviceforDemo** pour le périphérique, puis sélectionnez **Enregistrer**.
 
    ![image](assets/kickstart/demo-register4.png)
 
-1. Cliquez sur **Attribuer l’affichage** dans la boîte de dialogue **Appareil enregistré**.
+1. Sélectionner **Attribuer l’affichage** de la **Enregistrement de périphérique réussi** de la boîte de dialogue
 
    ![image](assets/kickstart/demo-register5.png)
 
-1. Sélectionnez le chemin d’accès à votre affichage comme **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay** et cliquez sur **Attribuer**.
+1. Sélectionnez le chemin d’accès à votre affichage comme **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay** et sélectionnez **Attribuer**.
 
    ![image](assets/kickstart/demo-device6.png)
 

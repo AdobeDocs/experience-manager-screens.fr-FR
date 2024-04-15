@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 61%
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ Cette section décrit comment mettre en œuvre le lecteur Chrome OS Player à l�
 Pour installer la console de gestion de Chrome, exécutez la procédure suivante :
 
 1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour Chrome Management Console. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=fr&amp;ref_topic=2935995).
-1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=fr).
+1. Enregistrez votre appareil Chrome OS dans le domaine. Attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, sélectionnez [here](https://support.google.com/chrome/a/answer/1360534?hl=fr).
 1. Le lecteur Chrome est disponible dans le Chrome Web Store.
 
 >[!NOTE]
@@ -65,7 +65,7 @@ Pour activer le mode de kiosque, procédez comme suit :
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Sélectionnez **Gestion des appareils** > **Gestion de Chrome** > **Paramètres d’appareil**.
-1. Faites défiler l’écran jusqu’à **Paramètres du kiosque** et cliquez sur **Gérer les applications du kiosque**.
+1. Faites défiler jusqu’à **Paramètres du kiosque** et sélectionnez **Gestion des applications kiosque**.
 
    ![kiosque](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ Pour activer le mode de kiosque, procédez comme suit :
 
 1. Connectez-vous à la console de développement de Chrome.
 1. Sélectionnez **Gestion des appareils** > **Appareils Chrome** et sélectionnez l’appareil à contrôler.
-1. Cliquez sur **Activité du système et dépannage**.
+1. Sélectionner **Activité du système et dépannage**.
 1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier l’état du périphérique et les informations relatives à son intégrité.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ Le lecteur AEM Screens est une application du kiosque, qui permet également de 
 Suivez les étapes ci-dessous pour configurer les différentes options du lecteur :
 
 1. Connectez-vous à la console de gestion de Chrome.
-1. Sélectionnez **Gestion des appareils** > **Gestion de Chrome** > **Gestion des applications**. Le lecteur AEM Screens s’affiche dans la liste.
-1. Cliquez sur l’application **Lecteur AEM Screens**.
-1. Cliquez sur **Paramètres du kiosque** et sélectionnez votre organisation (*si vous utilisez un environnement de test*).
-1. Cliquez sur **charger le fichier de configuration** et téléchargez la stratégie de configuration (*Fichier JSon*).
-1. Cliquez sur **Enregistrer**. Redémarrez l’appareil afin de pouvoir synchroniser la stratégie.
+1. Sélectionner **Gestion des appareils** > **Gestion de Chrome** > **Gestion des applications**. Le lecteur AEM Screens s’affiche dans la liste.
+1. Sélectionner l’application **Lecteur AEM Screens**.
+1. Sélectionner **Paramètres du kiosque** et sélectionnez votre organisation (*si vous utilisez un environnement de test*).
+1. Sélectionner **charger le fichier de configuration** et téléchargez la stratégie de configuration (*Fichier JSon*).
+1. Sélectionnez **Enregistrer**. Redémarrez l’appareil afin de pouvoir synchroniser la stratégie.
 
 >[!NOTE]
 >

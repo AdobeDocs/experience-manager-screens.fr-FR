@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 57%
@@ -109,7 +109,7 @@ Activez l’option Allow Empty d’Apache Sling Referrer Filter. Cette activatio
 
 1. Accédez à **Configuration de la console web Adobe Experience Manager**.
 1. Cochez l’option **allow.empty**.
-1. Cliquez sur **Enregistrer**.
+1. Sélectionnez **Enregistrer**.
 
 ### 3. Comment résoudre le problème si l’appareil et les journaux de la console affichent respectivement les messages d’erreur « ÉCHEC » et « ENAME_NOT_FOUND » pendant l’enregistrement du lecteur AEM Screens ? 
 
@@ -133,13 +133,13 @@ Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’ac
 
 Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome réel. Pour l’installer, procédez comme suit :
 
-1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
+1. Sélectionner [here](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur Chrome.
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
 1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
 1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
 1. Sélectionner **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 1. Si elle est disponible dans la liste des extensions, cochez **Lecteur AEM Screens Chrome** module externe
-1. Ouvrez un nouvel onglet et cliquez sur le bouton **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
+1. Ouvrez un nouvel onglet et sélectionnez **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
 1. Sélectionnez la variable **AEM Screens** module externe. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
 
 ### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier par le biais d’une instance de publication avec un gestionnaire d’erreurs personnalisé ?

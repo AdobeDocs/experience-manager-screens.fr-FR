@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 67%
+ht-degree: 52%
 
 ---
 
@@ -45,17 +45,17 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** *(canal de séquence)* créé dans un canal AEM Screens.
 
-1. Sélectionnez le canal **DataDrivenRetail** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Sélectionner le canal **DataDrivenRetail** et sélectionnez **Propriétés** dans la barre d’actions.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Sélectionnez la variable **Personnalisation** pour pouvoir configurer les configurations ContextHub et sélectionner le chemin d’accès ContextHub et de segments.
 
-   1. Sélectionnez le **Chemin d’accès ContextHub** sous **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
+   1. Sélectionnez la variable **Chemin ContextHub** as **libs** > **paramètres** > **cloudsettings** > **default** > **Configurations ContextHub** et sélectionnez **Sélectionner**.
 
-   1. Sélectionnez la variable **Chemin d’accès aux segments** as **conf** > **`We.Retail`** > **paramètres** > **wcm** > **segments** et cliquez sur **Sélectionner**.
+   1. Sélectionnez la variable **Chemin d’accès aux segments** as **conf** > **`We.Retail`** > **paramètres** > **wcm** > **segments** et sélectionnez **Sélectionner**.
 
-   1. Cliquez sur **Enregistrer et fermer**.
+   1. Sélectionnez **Enregistrer et fermer**.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Accédez à **DataDrivenRetail** et sélectionnez-le dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions. Faites glisser les ressources et déposez-les dans votre éditeur de canal.
+1. Naviguez et sélectionnez le **DataDrivenRetail** de **DataDrivenAssets** > **Canaux** et sélectionnez **Modifier** dans la barre d’actions. Faites glisser les ressources et déposez-les dans votre éditeur de canal.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Cliquez sur **Ciblage**.
+1. Sélectionner **Ciblage**.
 
-1. Sélectionnez **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
+1. Sélectionner **Marque** et la variable **Activité** dans le menu déroulant, sélectionnez **Commencer le ciblage**.
 
 ### En savoir plus : exemples de cas d’utilisation {#learn-more-example-use-cases}
 

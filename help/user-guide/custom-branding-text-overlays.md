@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 44%
+ht-degree: 34%
 
 ---
 
@@ -67,7 +67,7 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
 
 1. Copiez le chemin vers votre projet. Dans ce cas, le chemin est : `/apps/settings/wcm/designs/customstyle`.
 
-1. Accédez au canal intitulé **DemoBrand** (créé à l’étape(1)), puis cliquez sur **Propriétés** dans la barre d’actions après avoir sélectionné le canal.
+1. Accédez au canal intitulé **DemoBrand** (créé à l’étape(1)) et sélectionnez **Propriétés** dans la barre d’actions après la sélection du canal.
 
 1. Accédez à l’onglet **Avancé** et cliquez sur le champ **Conception**.
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ Pour créer une valorisation de marque et des styles personnalisés pour les sup
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Cliquez sur **Enregistrer et fermer** pour mettre à jour le chemin de la conception.
+1. Sélectionner **Enregistrer et fermer** pour mettre à jour le chemin de conception.
 
    >[!IMPORTANT]
    >Vous pouvez éventuellement superposer les modèles Screens existants pour injecter vos propres conceptions par défaut ou créer entièrement votre propre modèle. Pour plus d’informations, voir les étapes ci-dessous.
@@ -108,9 +108,9 @@ Une fois les étapes précédentes terminées, vous pouvez mettre à jour votre 
 
 Pour voir la conception mise à jour avec la superposition de texte, procédez comme suit :
 
-1. Accédez à votre projet AEM Screens intitulé **`customstyle`** > **Canaux** > **DemoBrand**. Sélectionnez le canal et cliquez sur **Modifier** dans la barre d’actions.
+1. Accédez à votre projet AEM Screens intitulé **`customstyle`** > **Canaux** > **DemoBrand**. Sélectionnez le canal et choisissez **Modifier** dans la barre d’actions.
 
-1. La conception ayant été ajoutée à votre champ **Conceptions** comme mentionné ci-dessus, cliquez sur **Aperçu** pour voir les styles actuels de l’image avec la superposition de texte.
+1. Puisque vous avez maintenant ajouté la conception à votre **Conceptions** , comme mentionné ci-dessus, sélectionnez **Aperçu** pour afficher le style actuel sur l’image avec la superposition de texte.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

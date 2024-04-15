@@ -2,9 +2,9 @@
 title: Configuration des instances de création et de publication dans AEM Screens
 description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1923'
 ht-degree: 41%
 
 ---
@@ -248,7 +248,7 @@ Pour répliquer l’utilisateur de l’appareil, procédez comme suit :
 
 1. Accédez à la page d’administration des utilisateurs. Par exemple, `https://localhost:4502/useradmin`.
 1. Recherchez le **`screens-devices-master`** groupe.
-1. Cliquez avec le bouton droit sur le groupe, puis sélectionnez **Activer**.
+1. Cliquez avec le bouton droit sur le groupe et sélectionnez **Activer**.
 
 >[!CAUTION]
 >

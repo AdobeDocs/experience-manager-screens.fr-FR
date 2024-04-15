@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 58%
+ht-degree: 56%
 
 ---
 
@@ -76,7 +76,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/empty-ref2.png)
 
-1. Cliquez sur **Save** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+1. Sélectionner **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
 
 #### Service HTTP Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/config-1.png)
 
-1. Cliquez sur **Enregistrer** pour activer le service *http*.
+1. Sélectionner **Enregistrer** pour activer la variable *http* service.
 
 #### Activation de l’interface utilisateur tactile pour AEM Screens {#enable-touch-ui-for-aem-screens}
 

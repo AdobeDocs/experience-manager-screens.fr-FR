@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -30,7 +30,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Cliquez sur **Groupes**, puis saisissez un ID (par exemple, Acme).
+1. Sélectionner **Groupes** et saisissez un identifiant (Acme, par exemple).
 
    Vous pouvez également utiliser ce lien `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
@@ -38,11 +38,11 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Sélectionner **Contributeurs** dans la liste et double-cliquez dessus.
+1. Sélectionner **Contributeurs** dans la liste et double-sélectionnez-la.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Ajoutez la variable **Acme** (projet que vous avez créé) **Ajouter des membres au groupe**. Cliquez sur **Enregistrer**.
+1. Ajoutez la variable **Acme** (projet que vous avez créé) **Ajouter des membres au groupe**. Sélectionnez **Enregistrer**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
 1. Configuration des autorisations pour le groupe **Acme** en utilisant ceci `(http://localhost:4502/useradmin)`.
 
-   Sélectionnez le groupe **Acme** et cliquez sur les **autorisations**.
+   Sélectionner le groupe **Acme** et sélectionnez la variable **permissions**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 30%
@@ -47,7 +47,7 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 
 1. Accédez à votre projet AEM Screens et sélectionnez le projet **DemoScreens**.
 
-1. Cliquez sur **Rapport d’affectation de contenu** dans la barre d’actions.
+1. Sélectionner **Rapport d’affectation de contenu** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
    >[!NOTE]
    >Les données affichées dans la feuille de calcul sont triées par ordre alphabétique dans un format facile à lire.
 
-1. Cliquez sur l’un des canaux de la **Canaux** ouvre la colonne **Contenu** . De son côté, il vous dirige directement vers ce canal et vous donne des informations sur les ressources (images et vidéos) associées à ce canal spécifique.
+1. Sélectionnez l’un des canaux dans la fonction **Canaux** ouvre la colonne **Contenu** . De son côté, il vous dirige directement vers ce canal et vous donne des informations sur les ressources (images et vidéos) associées à ce canal spécifique.
 
    ![image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

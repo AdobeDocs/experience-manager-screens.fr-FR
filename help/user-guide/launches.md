@@ -10,10 +10,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 32%
+ht-degree: 27%
 
 ---
 
@@ -101,29 +101,29 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité de lancem
 
    ![Image](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Sélectionnez le canal **FutureLaunch** et cliquez sur **Créer un lancement** dans la barre d’actions.
+1. Sélectionner le canal **FutureLaunch** et sélectionnez **Créer un lancement** dans la barre d’actions.
 
    ![Image](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez soit sélectionner le canal déjà visible dans l’assistant, soit cliquer sur **+ Ajouter un canal** de façon à ajouter le canal pour lequel vous souhaitez créer le lancement.
+1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez sélectionner le canal déjà visible dans l’assistant ou sélectionner **+ Ajouter des canaux** pour ajouter le canal pour lequel vous souhaitez créer le lancement.
 
-1. Cliquez sur **Suivant** dans l’assistant **Créer un lancement**. L’option **Inclure les sous-pages** est sélectionnée par défaut.
+1. Sélectionner **Suivant** de la **Créer un lancement** assistant. L’option **Inclure les sous-pages** est sélectionnée par défaut.
 
    ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Vous pouvez utiliser **+ Ajouter des canaux** pour ajouter un autre canal pour lequel vous souhaitez créer le lancement.
 
-   Pour utiliser l’option **Ajouter un canal**, accédez au canal pour lequel vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**.
+   Pour utiliser **Ajout de canaux** , accédez au canal pour lequel vous souhaitez créer le lancement et sélectionnez **Sélectionner**.
 
    La variable **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs canaux ou un dossier pour ajouter le lancement.
 
    ![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Après avoir sélectionné le ou les canaux, cliquez sur **Suivant**.
+   Après avoir sélectionné le ou les canaux, sélectionnez **Suivant**.
 
 
-1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
+1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Sélectionnez **Créer**.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Sélectionnez le lancement, puis cliquez sur **Propriétés du lancement** dans le panneau **LANCEMENTS EN ATTENTE**.
+1. Sélectionnez le lancement, puis sélectionnez **Propriétés de lancement** de la **LANCEMENTS EN ATTENTE** du panneau.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 

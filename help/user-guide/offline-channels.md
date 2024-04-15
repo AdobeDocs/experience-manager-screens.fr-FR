@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 46%
+ht-degree: 41%
 
 ---
 
@@ -79,9 +79,9 @@ Suivez les étapes ci-dessous pour tester la configuration de ContentSync :
 
 1. Ouvrez `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. Sélectionner votre configuration dans la liste
-1. Cliquer sur Effacer le cache
-1. Cliquer sur Mettre à jour le cache
-1. Cliquer sur Télécharger tout le module
+1. Sélectionner Effacer le cache
+1. Sélectionner Mettre à jour le cache
+1. Sélectionner Télécharger tout
 1. Extraire le fichier zip
 1. Démarrer un serveur local dans le dossier extrait
 1. Ouvrir la page de démarrage et vérifier l’état de l’application
@@ -95,16 +95,16 @@ Pour activer la configuration hors ligne d’un canal, procédez comme suit :
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Accédez au tableau de bord des canaux.
-1. Cliquez sur **..** dans le **INFORMATIONS SUR LES CANAUX** Panneau.
+1. Sélectionner **..** dans le **INFORMATIONS SUR LES CANAUX** Panneau.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Accédez aux propriétés du canal.
-1. Sous l’onglet (Canal), assurez-vous que la case à cocher est désactivée, puis cliquez sur **Enregistrer et fermer**.
+1. Sous l’onglet (Canal), assurez-vous que la case à cocher est désactivée, puis sélectionnez **Enregistrer et fermer**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Avant que le contenu ne soit correctement déployé sur l’appareil, cliquez sur **Mettre à jour le contenu hors ligne**.
+   Avant que le contenu ne soit correctement déployé sur l’appareil, sélectionnez l’option **Mettre à jour le contenu hors ligne**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

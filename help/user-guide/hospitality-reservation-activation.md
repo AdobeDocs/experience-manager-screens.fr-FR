@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 42%
+ht-degree: 31%
 
 ---
 
@@ -46,17 +46,17 @@ Suivez les étapes du cas d’utilisation ci-dessous pour mettre en oeuvre l’a
 1. **Configuration des segments dans les audiences selon les besoins**
 
    1. Accédez aux segments de votre audience (voir ***Étape 2 : configuration de la segmentation de l’audience*** in **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
-   1. Sélectionnez **Sheets A1 1** et cliquez sur **Modifier**.
-   1. Sélectionnez la propriété de comparaison et cliquez sur le bouton **Configuration** Icône
+   1. Sélectionnez la variable **Sheets A1 1** et sélectionnez **Modifier**.
+   1. Sélectionnez la propriété de comparaison et sélectionnez l’événement **Configuration** Icône
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la propriété**.
    1. Sélectionnez la variable **Opérateur** as **equal** dans le menu déroulant.
    1. Saisissez la **valeur** **1**.
-   1. De même, sélectionnez les feuilles **Sheets A1 2** et cliquez sur **Modifier**.
-   1. Sélectionnez la propriété de comparaison et cliquez sur le bouton **Configuration** Icône
+   1. De même, sélectionnez la variable **Sheets A1 2** et sélectionnez **Modifier**.
+   1. Sélectionnez la propriété de comparaison et sélectionnez l’événement **Configuration** Icône
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la propriété**.
    1. Sélectionnez la variable **Opérateur** as **2**.
 
-1. Naviguez et sélectionnez votre canal (), puis cliquez sur **Modifier** dans la barre d’actions. Dans l’exemple suivant, **DataDrivenRestaurant**, la fonctionnalité est illustrée au moyen d’un canal de séquence.
+1. Recherchez et sélectionnez votre canal (), puis sélectionnez **Modifier** dans la barre d’actions. Dans l’exemple suivant, **DataDrivenRestaurant**, la fonctionnalité est illustrée au moyen d’un canal de séquence.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Suivez les étapes du cas d’utilisation ci-dessous pour mettre en oeuvre l’a
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Sélectionnez **Ciblage** dans l’éditeur. Sélectionnez ensuite **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
+1. Sélectionner **Ciblage** dans l’éditeur, puis sélectionnez **Marque** et la variable **Activité** dans le menu déroulant, sélectionnez **Commencer le ciblage**.
 1. **Vérification de l’aperçu**
 
-   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
+   1. Sélectionner **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
    1. Mettez à jour la valeur dans **`Restaurant1`** et **`Restaurant2`** colonnes. If **`Restaurant1`** > **`Restaurant2`,** vous devriez pouvoir afficher une image de *Steak* autrement, *Thaï* image de la nourriture s’affiche sur votre écran.
 
    ![result5](assets/result5.gif)

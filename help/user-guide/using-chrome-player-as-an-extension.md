@@ -5,10 +5,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 40%
+ht-degree: 36%
 
 ---
 
@@ -22,21 +22,21 @@ Le lecteur Chrome OS peut être installé en tant que module du navigateur Chro
 
 Consultez cette page pour plus d’informations sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 
-1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
+1. Sélectionner [here](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur Chrome.
 
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
 
-1. Ouvrez le navigateur Chrome, cliquez sur le menu à 3 points, puis sélectionnez **Autres outils** de **Extensions** dans le coin supérieur droit ou accédez directement à `chrome://extensions`.
+1. Ouvrez le navigateur Chrome, sélectionnez le menu à 3 points, puis sélectionnez **Autres outils** de **Extensions** dans le coin supérieur droit ou accédez directement à `chrome://extensions`.
 
 1. Activez l’option **Développeur** dans le coin supérieur droit.
 
-1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
+1. Sélectionner **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 
 1. Vérifiez si le module Lecteur Chrome AEM Screens est disponible dans la liste des extensions.
 
-1. Ouvrez un nouvel onglet et cliquez sur l’icône Applications dans le coin supérieur gauche ou accédez directement à `chrome://apps`.
+1. Ouvrez un nouvel onglet et sélectionnez l’icône Applications dans le coin supérieur gauche ou accédez directement à `chrome://apps`.
 
-1. Cliquez sur **Module externe AEM Screens** vous pouvez donc lancer le lecteur Chrome.
+1. Sélectionner **Module externe AEM Screens** vous pouvez donc lancer le lecteur Chrome.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Suivez les étapes ci-dessous pour mettre à niveau l’extension du lecteur si 
 1. Renommez l’ancien dossier avec les fichiers du lecteur
 1. Extrayez le nouveau fichier compressé au même emplacement que l’ancien dossier.
 1. Lancez Chrome et accédez à `chrome://extensions`
-1. Vérifiez l’icône du lecteur et cliquez sur le bouton Actualiser ou Charger de nouveau.
+1. Cochez l’icône du lecteur et sélectionnez le bouton Actualiser ou Charger à nouveau .

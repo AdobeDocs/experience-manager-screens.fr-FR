@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 47%
+ht-degree: 42%
 
 ---
 
@@ -51,13 +51,13 @@ Lors de la création d’un canal, vous pouvez utiliser différents modèles pou
 **Création d’un canal**
 
 1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis **Screens**. Vous pouvez également utiliser le lien d’accès direct : `http://localhost:4502/screens.html/content/screens`.
-1. Accédez au dossier **Channels** (Canaux) et cliquez sur **Créer** dans la barre d’actions.
+1. Accédez à **Canaux** et sélectionnez **Créer** dans la barre d’actions.
 
 1. Sélectionnez **Canal d’écran partagé 1x2** dans l’assistant **Créer**.
 
-1. Cliquez sur **Suivant** et saisissez le **titre** **MultiZone**.
+1. Sélectionner **Suivant** et saisissez la variable **title** as **MultiZone**.
 
-1. Cliquez sur **Créer** pour terminer la création du canal.
+1. Sélectionner **Créer** pour terminer la création du canal.
 
 ### Utilisation de ressources uniques dans une ou plusieurs zones {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo 
 1. **Ajout de contenu au canal**
 
    1. Accédez à **Zones** > **Canaux**> **MultiZone**.
-   1. Sélectionnez la variable **MultiZone** canal et clic **Modifier** dans la barre d’actions.
+   1. Sélectionnez la variable **MultiZone** canal et sélectionnez **Modifier** dans la barre d’actions.
 
 1. **Ajout d’images au canal**
 
@@ -80,17 +80,17 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 
 1. **Créer un dossier de canaux**
 
-   1. Accédez à **Zones** > **MultiZone** > **Canaux** et cliquez sur **Créer** dans la barre d’actions.
-   1. Sélectionnez **Dossier de canaux** dans l’assistant de **Création** et cliquez sur **Suivant**.
-   1. Saisissez le titre **EmbeddedChannels** et cliquez sur **Créer**.
+   1. Accédez à **Zones** > **MultiZone** > **Canaux** et sélectionnez **Créer** dans la barre d’actions.
+   1. Sélectionner **Dossier Canaux** de la **Créer** assistant et sélectionnez **Suivant**.
+   1. Saisissez le titre comme **EmbeddedChannels** et sélectionnez **Créer**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Ajout de deux autres canaux au dossier de canaux**
 
-   1. Accédez à **Zones** > **Canaux** > **EmbeddedChannels** et cliquez sur **Créer** dans la barre d’actions.
+   1. Accédez à **Zones** > **Canaux** > **EmbeddedChannels** et sélectionnez **Créer** dans la barre d’actions.
    1. Sélectionner **Canal de séquence** de la **Créer** pour créer un canal intitulé **`Zone1`**.
-   1. Sélectionner **`Zone1`** et cliquez sur **Modifier** dans la barre d’actions.
+   1. Sélectionner **`Zone1`** et sélectionnez **Modifier** dans la barre d’actions.
    1. Faites glisser quelques images sur ce canal.
    1. De même, créez un autre canal de séquence intitulé **`Zone2`** in **EmbeddedChannels** dossier.
    1. Faites glisser une vidéo sur ce canal.
@@ -110,10 +110,10 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 1. **Ajout de séquences incorporées (composant) au canal principal (MultiZone)**
 
    1. Accédez à **Zones** > **Canaux** > **MultiZone**.
-   1. Cliquez sur **Modifier** dans la barre d’actions.
+   1. Sélectionner **Modifier** dans la barre d’actions.
    1. Faites glisser le composant **Séquence incorporée** dans les deux zones.
    1. Sélectionnez la séquence incorporée dans l’une des zones.
-   1. Cliquez sur l’icône **Configurer** (clé à molette) pour accéder à l’une des séquences incorporées dans l’éditeur.
+   1. Sélectionnez la variable **Configurer** (clé à molette) à l’une des séquences incorporées dans l’éditeur.
    1. Sélectionnez le chemin du canal comme **Zones** > **Canaux** > **EmbeddedChannels** > **`Zone1`**, comme illustré dans la figure ci-dessous.
    1. De même, ajoutez le **`Zone2`** à un autre composant de séquence incorporée dans l’éditeur.
 

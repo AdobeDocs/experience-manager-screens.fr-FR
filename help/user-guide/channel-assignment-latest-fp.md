@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 39%
+source-wordcount: '1448'
+ht-degree: 36%
 
 ---
 
@@ -62,13 +62,13 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 
 1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
-1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
+1. Sélectionner **Attribuer le canal** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** dans la barre d’actions et cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   Sélectionner **Tableau de bord** dans la barre d’actions, puis sélectionnez **+Attribuer le canal** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
    >
    >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
 
-1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
+1. Sélectionner **Enregistrer** une fois que vous avez configuré vos préférences.
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie 
 
 1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
-1. Appuyez/cliquez sur **Attribuer le canal** dans la barre d’actions.
+1. Sélectionner **Attribuer le canal** dans la barre d’actions.
 
    Ou,
 
-   Appuyez/cliquez sur **Tableau de bord** et cliquez sur **Chronologie** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   Sélectionner **Tableau de bord** et sélectionnez **Chronologie** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

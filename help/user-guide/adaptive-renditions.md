@@ -2,7 +2,7 @@
 title: Présentation et configurations de l’architecture des rendus adaptatifs
 description: Découvrez la présentation et les configurations architecturales dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 43%
@@ -58,11 +58,11 @@ Suivez les étapes ci-dessous pour configurer l’installation :
 Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 
 1. Accédez à ce chemin `/conf/screens/sling:configs/rendition-mapping` à partir de **CRXDE Lite**.
-1. Créez un nœud sous **rendition-mapping**. Clic droit **mapping de rendu** et cliquez sur **Créer** > **Créer un noeud**, comme illustré dans la figure ci-dessous.
+1. Créez un nœud sous **rendition-mapping**. Clic droit **mapping de rendu** et sélectionnez **Créer** > **Créer un noeud**, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Saisissez le **Nom** pour votre règle de mappage, telle que **rule1** et le noeud **Type** as **`nt:unstructured`** in **Créer un noeud** de la boîte de dialogue Cliquez sur **OK**.
+1. Saisissez le **Nom** pour votre règle de mappage, telle que **rule1** et le noeud **Type** as **`nt:unstructured`** in **Créer un noeud** de la boîte de dialogue Sélectionnez **OK**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
    >[!NOTE]
    >Voir [Utilisation de la syntaxe des requêtes de média](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) pour en savoir plus.
 
-   Cliquez sur **rule1** que vous avez créé et saisissez **expression** in **Nom** et **(orientation:paysage)** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Sélectionner **rule1** que vous avez créé et saisissez **expression** in **Nom** et **(orientation:paysage)** in **Valeur**, comme illustré ci-dessous. Sélectionnez **Ajouter**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
    >[!NOTE]
    >La valeur définie dans la propriété pattern correspond au nouveau rendu de ressource et est sélectionnée si l’expression est évaluée sur true.
 
-   Pour ajouter la propriété pattern, cliquez sur **rule1** que vous avez créé et saisissez **pattern** in **Nom** et **paysage** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Pour ajouter la propriété pattern, sélectionnez **rule1** que vous avez créé et saisissez **pattern** in **Nom** et **paysage** in **Valeur**, comme illustré ci-dessous. Sélectionnez **Ajouter**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Cliquez sur **Enregistrer tout** et notez les propriétés sous le noeud que vous avez créé sous **mapping de rendu**.
+1. Sélectionner **Enregistrer tout** et notez les propriétés sous le noeud que vous avez créé sous **mapping de rendu**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
