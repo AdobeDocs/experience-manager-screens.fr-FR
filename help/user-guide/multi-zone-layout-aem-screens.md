@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 49%
+source-wordcount: '1126'
+ht-degree: 47%
 
 ---
 
@@ -33,6 +33,8 @@ La page suivante décrit l’utilisation de la disposition multizone et aborde l
 
 En fonction des exigences du projet, il est parfois nécessaire de disposer de plusieurs zones au sein d’un canal et dus modifier comme une unité entière. Par exemple, une séquence de produits avec un flux de médias sociaux associé qui s’exécute dans trois zones distinctes sur un seul canal.
 
+>[!NOTE]
+>Dans les canaux multizones, la planification au niveau des ressources n’est pas recommandée en raison de conflits potentiels et de comportements inattendus. Si une planification au niveau des ressources est nécessaire, il est conseillé de créer un canal de séquence distinct et d’appliquer une logique de planification à ce canal. Ensuite, incorporez le canal de séquence dans le canal multizone.
 
 ### Conditions préalables {#prerequisites}
 
