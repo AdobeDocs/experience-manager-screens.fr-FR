@@ -1,16 +1,14 @@
 ---
 title: Utilisation de la synchronisation des commandes
-seo-title: Using Command Sync
-description: Suivez cette page pour en savoir plus sur l’utilisation de la synchronisation des commandes.
-seo-description: Follow this page to learn about how to use Command Sync.
+description: En savoir plus sur l’utilisation de la synchronisation des commandes dans AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 92%
+source-wordcount: '748'
+ht-degree: 55%
 
 ---
 
@@ -24,7 +22,7 @@ La page suivante décrit l’utilisation de la synchronisation des commandes. La
 
 ## Présentation {#overview}
 
-Les solutions de signalétique numérique doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est à ce stade que la synchronisation des commandes entre en jeu.
+Les solutions de signalétique digitale doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est là que la synchronisation des commandes entre en jeu.
 
 Pour utiliser la synchronisation des commandes, un lecteur agit comme *principal* et envoie une commande, tandis que tous les autres lecteurs agissent comme *clients* et procèdent à la lecture lorsqu’ils reçoivent la commande.
 
@@ -54,7 +52,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Créez un emplacement **Lobby**, puis, par la suite, un affichage intitulé **LobbyDisplay** dans le dossier **Locations**, comme illustré dans la figure ci-dessous.
+1. Création d’un emplacement **Lobby** puis un affichage intitulé **LobbyDisplay** dans le **Emplacements** , comme illustré dans la figure ci-dessous.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez afficher le canal affecté à l’affichage à partir du tableau de bord.
@@ -64,7 +62,8 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    >
    >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
-1. Accédez au dossier **Appareils** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions pour enregistrer les appareils.
+1. Accédez à **Périphériques** dossier.
+1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,30 +76,29 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Mise à jour des paramètres de canal
 
-1. Accédez à **ChannelLobby** et cliquez sur **Modifier** dans la barre d’actions pour mettre à jour les paramètres du canal.
-
+1. Accédez à **ChannelLobby**.
+1. Cliquez sur **Modifier** dans la barre d’actions.
 1. Sélectionnez l’ensemble du canal comme illustré ci-dessous.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Cliquez sur l’icône de clé à molette pour ouvrir la boîte de dialogue **Page**.
+1. Cliquez sur l’icône de clé à molette.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Entrez le mot-clé *synchronisé* dans le champ **Stratégie**.
-
+1. Dans le **Page** , saisissez la *synchronisé* dans le **Stratégie** champ .
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configurer un lecteur principal {#setting-up-primary}
 
 1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
-Les deux appareils (Chrome et lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.
+Notez les deux appareils (Chrome et lecteur Windows) dans **APPAREILS** , comme illustré dans les sections suivantes :
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Dans le panneau **APPAREILS**, sélectionnez l’appareil à définir comme principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Définir en tant qu’appareil principal**.
+1. Dans la **APPAREILS** , sélectionnez le périphérique que vous souhaitez définir comme principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Défini comme périphérique principal**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Entrez l’adresse IP dans **Définir en tant qu’appareil principal** et cliquez sur **Enregistrer**.
+1. Saisissez l’adresse IP dans **Défini comme périphérique principal** et cliquez sur **Enregistrer**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -111,16 +109,16 @@ Les deux appareils (Chrome et lecteur Windows) apparaissent dans le panneau **AP
 ### Synchronisation avec l’appareil principal {#sync-up-primary}
 
 1. Une fois l’appareil Chrome défini comme principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
-Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans le panneau **APPAREILS** et cliquez sur **Synchroniser avec l’appareil principal**, comme illustré ci-dessous.
+Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans la **APPAREILS** et cliquez sur **Synchronisation avec l’appareil principal**, comme illustré dans la figure ci-dessous.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Sélectionnez l’appareil dans la liste et cliquez sur **Enregistrer**.
 
    >[REMARQUE :]
-   > La boîte de dialogue **Synchroniser avec l’appareil principal** affiche la liste des appareils principaux. Vous pouvez sélectionner celui que vous désirez.
+   > La variable **Synchronisation avec l’appareil principal** La boîte de dialogue affiche la liste des appareils principaux. Sélectionnez la préférence.
 
-1. Une fois que l’appareil (le lecteur Windows) est synchronisé avec le lecteur principal (le lecteur Chrome), il apparaît comme synchronisé dans le panneau **APPAREILS**.
+1. Lorsque l’appareil (le lecteur Windows) est synchronisé avec l’instance principale (le lecteur Chrome), vous pouvez voir l’appareil synchronisé dans la variable **APPAREILS** du panneau.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
@@ -132,15 +130,15 @@ Une fois que vous avez synchronisé un ou plusieurs appareils avec un appareil p
 >
 >Si vous désynchronisez un appareil principal, cela annule également la liaison de tous les appareils clients qui lui sont associés.
 
-Pour annuler la synchronisation avec l’appareil principal, procédez comme suit :
+Pour supprimer la synchronisation du périphérique principal, procédez comme suit :
 
 1. Accédez au panneau **APPAREILS** et sélectionnez l’appareil.
 
-1. Cliquez sur **Désynchroniser le ou les appareils** pour désynchroniser le client de l’appareil principal.
+1. Cliquez sur **Désynchroniser les appareils** vous pouvez donc désynchroniser le client avec l’appareil principal.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
 1. Cliquez sur **Confirmer** pour désynchroniser l’appareil sélectionné de l’appareil principal.
 
    >[REMARQUE :]
-   > Si vous sélectionnez l’appareil principal et que vous utilisez l’option de désynchronisation, tous les appareils connectés à l’appareil principal seront désynchronisés en une seule étape.
+   > Si vous sélectionnez l’appareil principal et utilisez l’option de désynchronisation, tous les appareils connectés à l’appareil principal sont désynchronisés en une seule étape.

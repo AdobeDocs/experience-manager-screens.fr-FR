@@ -1,14 +1,14 @@
 ---
 title: Reconnaissance vocale dans AEM Screens
-description: Cette page décrit la fonction de reconnaissance vocale d’AEM Screens.
+description: Découvrez la reconnaissance vocale et comment l’utiliser dans AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 90%
+source-wordcount: '1090'
+ht-degree: 57%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 90%
 >
 >**Informations importantes concernant la confidentialité**
 >
->Lorsque vous utilisez la fonction de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre zone géographique (y compris, mais sans s’y limiter, en indiquant clairement aux utilisateurs finaux que le lecteur utilise la reconnaissance vocale). Adobe Inc., ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API vocale web standard intégrée au moteur de navigation. En arrière-plan, cette API envoie une forme d’onde de votre voix aux serveurs de Google pour la convertir en texte. Ce texte est ensuite comparé par le lecteur à des mots-clés configurés.
+>Lorsque vous utilisez la fonction de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre région (notamment, mais sans s’y limiter, en indiquant clairement aux utilisateurs finaux que le lecteur utilise la reconnaissance vocale). Adobe ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API vocale web standard intégrée au moteur de navigation. En arrière-plan, cette API envoie une forme d’onde de votre discours aux serveurs Google pour la conversion de la parole en texte, et ce texte est comparé par le lecteur aux mots-clés configurés.
 >
 >Voir [Livre blanc sur la confidentialité de Google sur l’API vocale web](https://www.google.com/chrome/privacy/whitepaper.html#speech) pour plus d’informations.
 
 
 La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la voix pour interagir avec leurs écrans. Certains cas pratiques similaires prévoient la recherche de recommandations de produits dans les magasins ainsi que la commande de plats indiqués dans les menus des restaurants. Cette fonctionnalité accroît l’accessibilité pour les utilisateurs et peut améliorer considérablement l’expérience client.
+Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans. Certains cas pratiques similaires prévoient la recherche de recommandations de produits dans les magasins ainsi que la commande de plats indiqués dans les menus des restaurants. Cette fonctionnalité accroît l’accessibilité pour les utilisateurs et peut améliorer considérablement l’expérience client.
 
 >[!NOTE]
 >Le matériel du lecteur doit prendre en charge l’entrée vocale, par exemple à l’aide d’un microphone.
@@ -53,11 +53,11 @@ Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir 
 
    Ou,
 
-   Vous pouvez créer trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks**, ainsi qu’un canal d’écran partagé 1x2 supplémentaire **SplitScreen**, comme illustré dans la figure ci-dessous.
+   Vous pouvez créer trois canaux de séquence **Principal**, **ColdDrinks**, et **HotDrinks**, et un autre canal d’écran partagé 1x2 **SplitScreen** comme illustré dans la figure ci-dessous.
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
-1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et sélectionnez le canal. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir l’éditeur et ajouter du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu aux canaux **ColdDrinks** et **HotDrinks**.
+1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et sélectionnez le canal. Cliquez sur **Modifier** dans la barre d’actions, puis ajoutez du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu aux canaux **ColdDrinks** et **HotDrinks**.
 
    Les canaux contiennent maintenant des ressources (images), comme le montrent les figures ci-dessous.
 
@@ -79,7 +79,7 @@ Avant d’utiliser la fonction de reconnaissance vocale, assurez-vous d’avoir 
 
 ### Configuration de balises pour les canaux {#setting-tags}
 
-Une fois le contenu ajouté aux canaux, vous devez accéder à chacun d’eux et ajouter les balises appropriées pour déclencher la reconnaissance vocale.
+Après avoir ajouté du contenu à vos canaux, accédez à chacun d’eux et ajoutez les balises appropriées pour déclencher la reconnaissance vocale.
 
 Procédez comme suit pour ajouter des balises à votre canal :
 
@@ -89,9 +89,9 @@ Procédez comme suit pour ajouter des balises à votre canal :
 
    ![image](assets/voice-recognition/vr-5.png)
 
-1. Accédez à l’onglet **Concepts de base** et sélectionnez une balise existante dans le champ **Balises**, ou créez-en une.
+1. Accédez au **Principes de base** , puis sélectionnez une balise existante dans le **Balises** ou créez-en un.
 
-   Vous pouvez créer une balise en lui donnant un nouveau nom et appuyer sur la touche `return`, comme illustré dans la figure ci-dessous :
+   Vous pouvez créer une balise en lui donnant un nouveau nom, puis appuyer sur . `return` comme illustré dans la figure ci-dessous :
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -141,7 +141,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
    >[!NOTE]
    >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
-1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay**. De plus, si vous utilisez le canal **SplitScreen** pour votre projet, assurez-vous de l’attribuer également à l’affichage.
+1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay**. En outre, si vous utilisez la variable **SplitScreen** canal de votre projet, veillez à l’affecter également à l’affichage.
 
    >[!NOTE]
    >Si vous avez créé un canal d’écran partagé, attribuez aussi le canal **SplitScreen** à votre affichage.
@@ -173,14 +173,14 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
 Une fois les étapes précédentes effectuées, vous pouvez enregistrer votre appareil Chrome pour afficher la sortie.
 
 >[!NOTE]
->Voir [Enregistrement de périphérique](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
+>Voir [Enregistrement de périphérique](device-registration.md).
 
 **Sortie désirée du canal de séquence**
 
 Le canal **Main** lit son contenu, mais lorsque vous utilisez le mot-clé **hot** (chaud) comme dans *Je voudrais une boisson chaude*, le canal commence à lire le contenu du canal **HotDrinks**.
 
-De même, si vous utilisez un mot-clé **cold** (froid) comme dans *Je voudrais avoir quelque chose de froid*, le canal commence à lire le contenu du canal **ColdDrinks**.
+De même, si vous utilisez un mot-clé **froid** par exemple *J&#39;aimerais avoir quelque chose de froid.*, le canal commence à lire le contenu de la variable **ColdDrinks** canal.
 
 **Sortie désirée du canal SplitScreen**
 
-Le canal **Main** lit son contenu, mais lorsque vous utilisez les mots-clés **hot** et **cold** ensemble, comme dans *Je voudrais voir le menu des boissons chaudes et froides*, le canal commence à lire le contenu du canal **SplitScreen**. Si vous dites *Revenir au menu principal*, le processus revient au canal principal.
+La variable **Principal** est en train de lire son contenu. Cependant, lorsque vous utilisez des mots-clés **hot** et **froid** par exemple *Je voudrais voir le menu des boissons chaudes et froides*, le canal lit le contenu de la variable **SplitScreen** canal. Si vous dites *Retour au menu principal*, la fonction revient au **Principal** canal.

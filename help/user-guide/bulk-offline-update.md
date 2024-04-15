@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 74%
@@ -29,11 +29,11 @@ Cette section traite des sujets suivants sur la Mise à jour hors ligne en bloc�
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
 
 ## Vue d’ensemble {#overview}
 
-Mise à jour hors ligne en bloc : permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
+Mise à jour hors ligne en bloc, vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
 
 Vous pouvez également planifier cette activité pour une période de trafic réseau plus faible.
 
@@ -50,7 +50,7 @@ Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir d
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
-1. Sélectionnez le projet, puis sélectionnez **Mettre à jour le contenu hors ligne** à partir de la barre d’actions afin que vous puissiez mettre à jour manuellement le contenu du canal.
+1. Sélectionnez le projet, puis cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions afin de pouvoir mettre à jour manuellement le contenu du canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -73,6 +73,6 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    >
    >Spécifiez le chemin du projet par rapport à votre canal.
 
-   **Fréquence de planification** Spécifiez une heure, par exemple 17 h ou 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
+   **Fréquence des planifications** Indiquez une heure, par exemple, 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
-1. Sélectionner **Enregistrer** pour enregistrer vos paramètres. Votre contenu est mis à jour à l’heure spécifiée.
+1. Sélectionner **Enregistrer** pour enregistrer vos paramètres. Votre contenu est mis à jour au moment spécifié.

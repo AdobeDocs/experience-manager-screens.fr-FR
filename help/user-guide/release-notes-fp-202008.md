@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202008
-description: En savoir plus sur AEM Screens Feature Pack 202008, publié le 3 septembre 2020.
+description: En savoir plus sur le Feature Pack 202008 AEM Screens, publié le 3 septembre 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 70%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 70%
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 

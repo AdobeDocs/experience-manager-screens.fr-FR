@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 43%
+source-wordcount: '1454'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 >
 >Cette section décrit l’attribution et la planification des canaux pour le Feature Pack AEM Screens 6.5.5 et versions ultérieures.
 
-Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
+Lorsque vous avez configuré un affichage, affectez un canal à un affichage pour afficher votre contenu.
 
 Cette page montre l’attribution d’un canal à votre affichage, les propriétés du canal et les tranches horaires.
 
@@ -95,7 +95,7 @@ Une fois la configuration du projet terminée, vous devez attribuer le canal à 
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
-Cet exemple présente une sortie sur un lecteur Chrome. Une fois le canal attribué à votre écran, vous devez enregistrer l’appareil sur un lecteur.
+Cet exemple présente une sortie sur un lecteur Chrome. Lorsque vous avez attribué le canal à votre affichage, enregistrez le périphérique sur un lecteur.
 
 Pour savoir comment enregistrer un appareil sur un lecteur AEM Screens, voir [Enregistrement de périphérique](device-registration.md).
 

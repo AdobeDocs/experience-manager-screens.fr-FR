@@ -1,15 +1,13 @@
 ---
-title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
-seo-title: Dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
-description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
-seo-description: Ce guide décrit les dépendances de l’expérience utilisateur pour [!UICONTROL AEM Screens]
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+title: Dépendances UX pour AEM Screens
+description: En savoir plus sur les dépendances de l’expérience utilisateur pour AEM Screens.
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 77%
 
 ---
-
 
 # Dépendances de l’expérience utilisateur {#ux-dependencies}
 
@@ -31,14 +29,12 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
    * S’agit-il d’une solution d’orientation ?
    * Affiche-t-elle des publicités ?
 
-1. Comment les connexions et le câblage réseau sont-ils configurés ?
+1. Comment sont configurées les connexions et le câblage réseau ?
 
-1. À quelle fréquence les ordinateurs et la connexion seront-ils allumés et éteints ?
+1. À quelle fréquence les ordinateurs et les connexions sont-ils allumés et éteints ?
 
 1. La conception de l’installation prend-elle en charge l’accessibilité ?
 
-1. Plusieurs périphériques sont-ils nécessaires pour un seul affichage (zones multiples, panneaux de très grande taille, etc.) ?
+1. Plusieurs appareils sont-ils nécessaires pour un seul affichage (zones multiples, panneaux de très grande taille, etc.) ?
 
 1. Quels sont les facteurs environnementaux, tels que la luminosité, la température et la saison ?
-
-

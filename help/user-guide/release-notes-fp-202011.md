@@ -1,21 +1,21 @@
 ---
 title: Notes de mise à jour du Feature Pack 202011
-description: Consultez cette page pour obtenir des informations sur AEM Screens Feature Pack 202011, publié le 30 novembre 2020.
+description: En savoir plus sur le Feature Pack 202011 AEM Screens, publié le 30 novembre 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 87%
+source-wordcount: '284'
+ht-degree: 73%
 
 ---
 
 # Notes de mise à jour du Feature Pack 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
+>Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
@@ -49,16 +49,16 @@ Voir [Recherche d’un périphérique à partir du Gestionnaire de périphériqu
 
   L’intervalle de ping par défaut est maintenant défini sur 30 secondes dans cette version.
 
-### Lecteurs AEM Screens publiés {#released-aem-screens-players}
+### Lecteurs AEM Screens publiés
 
 Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 6 :
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### Téléchargements du lecteur AEM Screens   {#aem-screens-player-downloads}
+#### Téléchargements du lecteur AEM Screens
 
 Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

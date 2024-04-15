@@ -1,13 +1,11 @@
 ---
 title: Spécifications de l’appareil
-seo-title: Device Specifications
-description: Cette page décrit les spécifications de l’appareil
-seo-description: The page describes device specifications
+description: En savoir plus sur les spécifications des appareils dans le cadre d’AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 95%
+source-wordcount: '209'
+ht-degree: 69%
 
 ---
 
@@ -25,9 +23,9 @@ Sur la base des informations collectées au *jour 0*, confirmez les information
 
 * Quels logiciels et système d’exploitation doivent être installés sur les appareils d’affichage ?
 
-* Une connexion Internet sera-t-elle requise sur les lecteurs pour synchroniser les écrans avec les serveurs AEM ?
+* Une connexion Internet est-elle requise sur les lecteurs pour synchroniser les écrans avec les serveurs AEM ?
 
-* Quand le contenu sera-t-il mis à jour sur les lecteurs ?
+* Quand le contenu des lecteurs est-il mis à jour ?
 
 * Si vous diffusez des vidéos, veillez à bien comprendre les spécifications de votre appareil afin que le contenu s’affiche correctement.
 
@@ -40,4 +38,4 @@ Sur la base des informations collectées au *jour 0*, confirmez les information
 
 >[!NOTE]
 >
->Il est également important de valider les spécifications du matériel sélectionné pour s’assurer qu’il peut prendre en charge l’application en cours de développement. Par exemple, si l’application est destinée à exécuter cinq vidéos HD à la fois, cela sera-t-il possible sur le matériel ?
+>Il est également important de valider les spécifications du matériel sélectionné pour s’assurer qu’il peut prendre en charge l’application en cours de développement. Par exemple, si l’application est destinée à exécuter cinq vidéos haute définition en même temps, le matériel la prend-il en charge ?

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 46%
@@ -16,7 +16,6 @@ ht-degree: 46%
 # Canal de prise de contrôle à usage unique {#single-use-takeover-channel}
 
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle unique lu une fois pendant une période spécifique.
-
 
 ## Description du cas d’utilisation {#use-case-description}
 
