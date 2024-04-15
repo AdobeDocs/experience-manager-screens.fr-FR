@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 57%
 
 ---
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Prise en charge des manifestes V3**
 
-  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, vous devez :
+  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, procédez comme suit :
 
    * Effacez toutes les tâches de contenu hors ligne en attente dans l’auteur et dans la publication.
 

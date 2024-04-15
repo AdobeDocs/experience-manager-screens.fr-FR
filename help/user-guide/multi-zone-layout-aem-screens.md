@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 47%
 
 ---
@@ -150,7 +150,7 @@ Vous devez affecter les canaux à l’affichage de façon à visualiser le conte
    1. Sélectionnez **Enregistrer**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. De même, vous devez attribuer les deux autres canaux incorporés (**`Zone1`** et **`Zone2`**) à cet affichage.
+   1. De même, affectez les deux autres canaux incorporés (**`Zone1`** et **`Zone2`**) à cet affichage.
    1. Une fois que vous avez affecté les trois canaux à l’événement **Lobby** , vous devriez pouvoir visualiser les canaux affectés à partir du tableau de bord d’affichage.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)

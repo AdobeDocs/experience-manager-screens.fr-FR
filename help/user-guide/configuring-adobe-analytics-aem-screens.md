@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 71%
@@ -24,7 +24,7 @@ ht-degree: 71%
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
 
 Cette section couvre les sujets suivants :
 
@@ -33,7 +33,7 @@ Cette section couvre les sujets suivants :
 
 ## Séquencement dans Adobe Analytics avec AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. En fonction du planning défini par l’administrateur, il coupe les données du magasin d’objets et les transfère ensuite dans le magasin de blocs. Il tente d’envoyer la quantité maximale de données lors de la connexion.
+Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de blocs. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
 
 ### Diagramme de séquencement {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td>Horodatage - UTC</td> 
-   <td>Date et heure de début de l’événement. Si vous ne l’avez pas spécifié, l’heure de l’événement est considérée comme l’heure de réception par le serveur</td> 
+   <td>Date et heure de début de l’événement. Si vous n’avez pas spécifié cette date, l’heure de début de l’événement est considérée comme l’heure de réception par le serveur.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Catégorie principale (ORDINATEUR DE BUREAU, MOBILE, WEB, PROCESSUS, SDK, SERVICE, ÉCOSYSTÈME) - Regroupement de types d’événements - <strong>Lecteur envoyé</strong></td> 
+   <td>Catégorie principale (BUREAU, MOBILE, WEB, PROCESSUS, SDK, SERVICE, ECOSYSTEM) - Regroupement des types d’événements - <strong>Lecteur envoyé</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -117,7 +117,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-catégorie - Section d’un workflow, ou Zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
+   <td>Sous-catégorie : section d’un workflow, ou zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -135,7 +135,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-type d’événement (créer, mettre à jour, supprimer, publier, etc.) - Informations supplémentaires sur l’action utilisateur</td> 
+   <td>Sous-type d’événement (création, mise à jour, suppression, publication, etc.) - Plus de détails sur l’action de l’utilisateur</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -171,7 +171,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne<br /> </td> 
    <td>UUID</td> 
-   <td>Identifie le GUID de l’appareil (par exemple, l’ID de machine ou le hachage de l’adresse IP + le masque de sous-réseau + l’ID réseau + l’agent utilisateur). Ici, le nom d’utilisateur du lecteur généré au moment de l’enregistrement est envoyé.</td> 
+   <td>Identifie le GUID de l’appareil (par exemple, l’ID de l’ordinateur ou le hachage de l’adresse IP + masque de sous-réseau + identifiant réseau + agent utilisateur). Ici, le nom d’utilisateur du lecteur généré au moment de l’enregistrement est envoyé.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -180,7 +180,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>nombre</td> 
    <td> </td> 
-   <td>Nombre de fois où l’événement s’est produit - La durée de la vidéo est envoyée</td> 
+   <td>Nombre de fois où l’événement s’est produit : la durée de la vidéo est envoyée</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -189,7 +189,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Valeur de l’événement (par exemple, paramètres activé/désactivé)</td> 
+   <td>Valeur de l’événement (par exemple, paramètres activés/désactivés)</td> 
   </tr>
   <tr>
    <td> </td> 

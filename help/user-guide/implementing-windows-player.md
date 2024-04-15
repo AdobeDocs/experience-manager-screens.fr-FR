@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 57%
+ht-degree: 54%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 
 La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
-Une fois l’application téléchargée, suivez les étapes du lecteur pour terminer l’installation ad hoc :
+Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
@@ -71,7 +71,7 @@ Une fois l’application téléchargée, suivez les étapes du lecteur pour term
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement un contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 

@@ -5,10 +5,10 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 70%
+source-wordcount: '1276'
+ht-degree: 66%
 
 ---
 
@@ -62,15 +62,15 @@ La première étape consiste à créer un projet AEM Screens.
    ![image](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Une fois le projet créé, il vous ramène à la page d’accueil du projet Screens. Vous pouvez sélectionner votre projet. Un projet comporte cinq dossiers différents intitulés **Applications**, **Canaux**, **Appareils**, **Emplacements** et **Planifications**.
+   >Une fois le projet créé, il vous ramène à la page d’accueil du projet AEM Screens. Vous pouvez sélectionner votre projet. Un projet comporte cinq dossiers différents intitulés **Applications**, **Canaux**, **Appareils**, **Emplacements** et **Planifications**.
 
 ### Création d’un canal {#creating-channel}
 
-Une fois que vous avez créé votre projet AEM Screens, vous devez créer un canal où vous gérez le contenu.
+Après avoir créé votre projet AEM Screens, créez un canal où vous gérez le contenu.
 
 Pour créer un canal pour votre projet, procédez comme suit :
 
-1. Une fois que vous avez créé un projet, sélectionnez le projet **DemoScreens** et sélectionnez le dossier **Canaux**, comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
+1. Après avoir créé un projet, sélectionnez l’option **DemoScreens** et sélectionnez le projet **Canaux** , comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
 
    ![image](assets/kickstart/demo-2.png)
 
@@ -146,7 +146,7 @@ Une fois que vous avez créé un emplacement, créez un affichage pour celui-ci.
 
 ### Attribution d’un canal {#assigning-channel}
 
-Une fois la configuration du projet terminée, vous devez attribuer le canal à un affichage pour afficher le contenu.
+Une fois la configuration du projet terminée, affectez le canal à un affichage pour afficher le contenu.
 
 1. Accédez à l’affichage requis à partir de **DemoScreens** > **Emplacements** > **TestLocation** > **LobbyDisplay**.
 

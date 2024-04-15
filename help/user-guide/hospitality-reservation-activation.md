@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 48%
+source-wordcount: '442'
+ht-degree: 42%
 
 ---
 
@@ -29,7 +29,7 @@ Si la valeur de **`Restaurant1`** > **`Restaurant2`**, puis **AdTarget** est la 
 
 ## Prérequis {#preconditions}
 
-Avant de commencer à mettre en œuvre l’activation de la réservation, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation d’audience*** et l’***activation du ciblage pour les canaux*** dans un projet AEM Screens.
+Avant de commencer à mettre en oeuvre l’activation de la réservation, apprenez à configurer ***Entrepôt de données***, ***Segmentation de l’audience*** et ***Activation du ciblage des canaux*** dans un projet AEM Screens.
 
 Voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 

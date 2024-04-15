@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 43%
+source-wordcount: '1445'
+ht-degree: 42%
 
 ---
 
@@ -41,7 +41,7 @@ Le diagramme ci-dessous illustre visuellement comment les configurations Context
 
 ## Prérequis {#preconditions}
 
-Avant de commencer à définir les configurations ContextHub d’un projet AEM Screens, vous devez configurer Google Sheets (à des fins de démonstration).
+Avant de commencer à configurer les configurations ContextHub pour un projet AEM Screens, configurez les feuilles de calcul Google (à des fins de démonstration).
 
 >[!IMPORTANT]
 >

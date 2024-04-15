@@ -1,23 +1,19 @@
 ---
 title: Activation ciblée du stock de vente au détail
-seo-title: Retail Inventory Targeted Activation
-description: Ce cas d’utilisation présente le stock de vente au détail de trois modèles de sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
-seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
-uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
+description: Découvrez ce cas pratique AEM Screens qui présente le stock de vente au détail de trois sweat-shirts de couleurs différentes.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 90%
+source-wordcount: '578'
+ht-degree: 44%
 
 ---
 
@@ -29,11 +25,11 @@ Le cas d’utilisation ci-dessous montre trois images différentes en fonction d
 
 Ce cas d’utilisation présente le stock de vente au détail de trois modèles de sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
 
-Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu apparaît à l’écran en fonction du plus grand nombre d’articles disponibles.
+Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu s’affiche à l’écran en fonction de la valeur la plus élevée du nombre de sweaters disponible.
 
 ## Prérequis {#preconditions}
 
-Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, vous devez apprendre à configurer le ***magasin de données***, la ***segmentation de l’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
+Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, découvrez comment configurer ***Entrepôt de données***, ***Segmentation de l’audience*** et ***Activation du ciblage des canaux*** dans un projet AEM Screens.
 
 Voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
@@ -56,23 +52,17 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    1. Sélectionnez **For_Red** et cliquez sur **Modifier** dans la barre d’actions.
 
-   1. Faites glisser **Comparaison : Propriété - Propriété** et déposez-le dans l’éditeur, puis cliquez sur l’icône de configuration pour modifier les propriétés.
-   1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété.**
-
-   1. Sélectionnez l’**opérateur** **supérieur à** dans le menu déroulant.
-
-   1. Sélectionner le **Type de données** **Nombre**
-
-   1. Sélectionner **googlesheets/value/1/1** dans la liste déroulante de **Second Property name**.
-
-   1. Faites glisser **une autre comparaison : Propriété - Propriété** et déposez-la dans l’éditeur, puis cliquez sur l’icône de configuration pour modifier les propriétés.
+   1. Faites glisser et déposez le **Comparaison : Propriété - Propriété** à l’éditeur.
+   1. Cliquez sur le bouton **Configuration** Icône
    1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
-
-   1. Sélectionnez l’**opérateur** **supérieur à** dans le menu déroulant.
-
-   1. Sélectionnez le **Type de données** **nombre**
-
-   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante **Nom de la deuxième propriété**
+   1. Sélectionnez l’**Opérateur** **supérieur à** (greater-than) dans le menu déroulant.
+   1. Sélectionner **Type de données** as **nombre**.
+   1. Sélectionner **googlesheets/value/1/1** dans la liste déroulante de **Second Property name**.
+   1. Glisser-déposer **autre comparaison : Propriété - Propriété** dans l’éditeur, puis cliquez sur l’icône **Configuration** Icône
+   1. Sélectionnez **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
+   1. Sélectionnez l’**Opérateur** **supérieur à** (greater-than) dans le menu déroulant.
+   1. Sélectionner **Type de données** as **nombre**.
+   1. Sélectionner **googlesheets/value/1/0** dans la liste déroulante de **Second Property name**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -80,15 +70,16 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   De la même manière, modifiez et ajoutez des règles de propriétés de comparaison au segment **For_Green**, comme illustré ci-dessous :
+   De même, modifiez et ajoutez des règles de propriété de comparaison à **For_Green** comme illustré dans la figure ci-dessous :
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Vous remarquerez que pour les segments **For_Blue** et **For_Green**, les données ne peuvent pas être résolues dans l’éditeur car seule la première comparaison est actuellement valide, selon les valeurs de la feuille de calcul Google.
+   >Notez que pour les segments **For_Green** et **For_Green**, les données ne peuvent pas être résolues dans l’éditeur, car seule la première comparaison est actuellement valide, selon les valeurs de la feuille de calcul Google.
 
-1. Recherchez et sélectionnez votre canal **DataDrivenRetail** (canal de séquence), puis cliquez sur **Modifier** dans la barre d’actions.
+1. Naviguez et sélectionnez votre **DataDrivenRetail** channel (canal de séquence).
+1. Cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -100,20 +91,19 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    >[!NOTE]
    >
-   >Vous devez sélectionner à la fois la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
+   >Sélectionnez les deux **Marque** et la variable **Zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
 
 1. **Ajout d’une image par défaut**
 
    1. Ajoutez une image par défaut à votre canal et cliquez sur **Ciblage**.
    1. Sélectionnez **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
-
    1. Cliquez sur **Commencer le ciblage**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Avant de commencer le ciblage, vous devez ajouter les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
+   >Avant de commencer le ciblage, ajoutez les segments (**For_Green**, **For_Red**, et **For_Blue**) en cliquant sur **+ Ajouter un ciblage d’expérience** du rail latéral, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -123,7 +113,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
 1. **Vérification de l’aperçu**
 
-   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
-   1. Modifiez la valeur des trois colonnes et notez que l’image d’affichage est mise à jour en fonction de la valeur de stock la plus élevée.
+   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
+   1. Modifiez la valeur des trois colonnes différentes. Notez les mises à jour de l’image d’affichage en fonction de la valeur de stock la plus élevée.
 
    ![retail_result](assets/retail_result.gif)

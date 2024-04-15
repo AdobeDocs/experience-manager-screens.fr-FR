@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 34%
+ht-degree: 31%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 
 La méthode ad hoc vous permet d’installer le dernier lecteur Android™ (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
-Une fois l’application téléchargée, suivez les étapes du lecteur pour terminer l’installation ad hoc :
+Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
@@ -124,7 +124,7 @@ Voir [Exemple de stratégie JSON](#example-json) et un tableau décrivant l’ut
 
 1. Utilisez un explorateur de fichiers MDM ou ADB ou Android™ Studio pour déposer ce fichier JSON de stratégie dans *sdcard* sur l’appareil Android™.
 
-1. Une fois le fichier déployé, utilisez le MDM pour installer l’application du lecteur.
+1. Lorsque le fichier est déployé, utilisez le MDM pour installer l’application du lecteur.
 
 1. Lorsque l’application du lecteur est lancée, ce fichier de configuration est lu et pointe vers le serveur d’AEM approprié où il est enregistré puis contrôlé.
 
@@ -181,7 +181,7 @@ Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’e
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android™, envoyant ainsi le nom d’appareil attribué à AEM (Adobe Experience Manager). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Android™, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Android™, procédez comme suit :
 

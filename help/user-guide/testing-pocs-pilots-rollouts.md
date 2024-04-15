@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 51%
+source-wordcount: '536'
+ht-degree: 40%
 
 ---
 
@@ -56,13 +56,13 @@ L’objectif d’un point de vente est d’obtenir un retour initial sur les fon
 
 Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur audio/vidéo. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, met en oeuvre et supervise l’installation des composants matériels dans un &quot;environnement de laboratoire&quot; dans l’installation de l’intégrateur audio/vidéo. Cela permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
 
-Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’exploitation. Les aspects des systèmes à tester sont les suivants :
+Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée de la documentation, des workflows et des formations à des fins de référence lors de la prise en charge du Jour 2. Les aspects des systèmes à tester sont les suivants :
 
-* Intégrations des implémentateurs d’AEM
-* Intégrations de systèmes tiers
-* Logiciels
-* Matériel
-* Connectivité
+* AEM les intégrations des implémentateurs ou des implémentateurs.
+* Intégrations de systèmes tiers.
+* Logiciel.
+* Matériel.
+* Connectivité.
 * Processus de déploiement de contenus, dont les déploiements manuels, automatisés et conditionnels.
 
 ## Partie 3 : tutoriel vidéo sur les tests, preuves de concept, pilotes et déploiements {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet global, 
 
 ## La prochaine étape {#the-next-step}
 
-Une fois que vous aurez effectué des tests, des preuves de concept, des programmes pilotes et des déploiements, consultez le tutoriel suivant, qui aborde en détail la gestion de projet et les processus connexes.
+Lorsque vous avez terminé les tests, les preuves de concept, les programmes pilotes et les déploiements, suivez le tutoriel suivant qui aborde en profondeur la gestion de projet et les processus impliqués.
 
 Accédez à **[Partie 4 : gestion de projet et déploiement](project-management-and-deployment.md)** pour plus d’informations.

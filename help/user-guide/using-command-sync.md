@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 55%
+source-wordcount: '740'
+ht-degree: 50%
 
 ---
 
@@ -108,8 +108,8 @@ Notez les deux appareils (Chrome et lecteur Windows) dans **APPAREILS** , comme 
 
 ### Synchronisation avec l’appareil principal {#sync-up-primary}
 
-1. Une fois l’appareil Chrome défini comme principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
-Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans la **APPAREILS** et cliquez sur **Synchronisation avec l’appareil principal**, comme illustré dans la figure ci-dessous.
+1. Une fois que vous avez défini l’appareil Chrome comme principal, synchronisez l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
+Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans la **APPAREILS** et cliquez sur **Synchronisation avec l’appareil principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans la **APP
 
 ### Désynchronisation du lecteur principal {#desync-up-primary}
 
-Une fois que vous avez synchronisé un ou plusieurs appareils avec un appareil principal, vous pouvez les désynchroniser.
+Une fois que vous avez synchronisé un ou plusieurs appareils avec un appareil principal, vous pouvez désynchroniser l’attribution à partir de cet appareil.
 
 >[!NOTE]
 >

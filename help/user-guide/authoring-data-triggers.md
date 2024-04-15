@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 75%
+source-wordcount: '373'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ Cette section explique comment activer le ciblage dans vos canaux.
 
 ## Prérequis {#prereqs}
 
-Avant de suivre les étapes ci-dessous afin d’activer le ciblage dans les canaux, vous devez connaître les [termes clés de la section Configuration dans AEM Screens](configuring-context-hub.md) qui sont nécessaires pour comprendre ContextHub et le ciblage dans AEM Screens.
+Avant de suivre les étapes ci-dessous pour activer le ciblage dans les canaux, découvrez la [Termes clés de la configuration dans AEM Screens](configuring-context-hub.md) requis pour comprendre ContextHub et le ciblage dans AEM Screens.
 
 >[!IMPORTANT]
 >

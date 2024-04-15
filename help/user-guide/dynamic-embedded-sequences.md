@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 53%
 
 ---
@@ -45,7 +45,7 @@ Référencer une *Canal par rôle*, vous permet de créer une version locale d�
 >
 >Une séquence incorporée dynamique est semblable à une séquence incorporée, mais permet à l’utilisateur de suivre une hiérarchie où les modifications/mises à jour effectuées sur un canal sont propagées aux autres canaux liés. Elle respecte une hiérarchie parent-enfant et comprend également des ressources telles que des images ou des vidéos.
 >
->Les ***séquences incorporées dynamiques*** permettent d’afficher du contenu spécifique à l’emplacement, tandis que les ***séquences incorporées*** affichent uniquement un diaporama général du contenu. En outre, lors de la configuration des séquences incorporées dynamiques, vous devez configurer le canal à l’aide du rôle et du nom du canal. Pour une mise en oeuvre pratique, reportez-vous aux étapes ci-dessous.
+>Les ***séquences incorporées dynamiques*** permettent d’afficher du contenu spécifique à l’emplacement, tandis que les ***séquences incorporées*** affichent uniquement un diaporama général du contenu. En outre, lors de la configuration des séquences incorporées dynamiques, configurez le canal à l’aide du rôle et du nom du canal. Pour une mise en oeuvre pratique, reportez-vous aux étapes ci-dessous.
 >
 >Pour en savoir plus sur l’implémentation de séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) dans AEM Screens.
 

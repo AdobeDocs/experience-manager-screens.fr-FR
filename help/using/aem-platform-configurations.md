@@ -2,9 +2,9 @@
 title: Configurations d’AEM Platform
 description: Cette page décrit les configurations d’AEM Platform
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 44%
 
 ---
@@ -44,7 +44,7 @@ Installez FFMpeg en suivant les étapes relatives au système d’exploitation a
 
    >[!NOTE]
    >
-   >La variable `-strict -2` doit être le dernier paramètre de la liste des paramètres. En outre, dans AEM 6.4, vous devez copier les noeuds sous */libs/settings/dam/video* to */conf/global/settings/dam/video* comme mentionné dans [Rendus vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >La variable `-strict -2` doit être le dernier paramètre de la liste des paramètres. En outre, dans AEM 6.4, copiez les noeuds sous */libs/settings/dam/video* to */conf/global/settings/dam/video* comme mentionné dans [Rendus vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Vérifiez que les conversions vidéo sont en cours d’exécution et que la création des rendus est en cours.
 
 ## Restrictions de mot de passe {#password-restrictions}

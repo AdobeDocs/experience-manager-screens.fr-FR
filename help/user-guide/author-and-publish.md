@@ -2,10 +2,10 @@
 title: Configuration des instances de création et de publication dans AEM Screens
 description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 42%
+source-wordcount: '1924'
+ht-degree: 41%
 
 ---
 
@@ -28,11 +28,11 @@ Avant de commencer à utiliser les serveurs de création et de publication, vous
 
 >[!NOTE]
 >
->Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4 Screens Feature Pack 2. Pour accéder à ce Feature Pack, vous devez contacter l’assistance d’Adobe et demander à y accéder. Une fois que vous disposez de l’autorisation, vous pouvez la télécharger à partir du partage de modules.
+>Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4 Screens Feature Pack 2. Pour accéder à ce Feature Pack, contactez l’assistance Adobe et demandez l’accès. Une fois que vous disposez de l’autorisation, vous pouvez la télécharger à partir du partage de modules.
 
 >[!IMPORTANT]
 >
->Si vous souhaitez utiliser plusieurs instances de publication avec Dispatcher, vous devez mettre à jour Dispatcher. Pour plus d’informations, voir [Activation des sessions persistantes](dispatcher-configurations-aem-screens.md#enable-sticky-session).
+>Si vous souhaitez utiliser plusieurs instances de publication avec Dispatcher, mettez à jour Dispatcher. Voir [Activation des sessions persistantes](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Configuration des instances de création et de publication {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ Vous pouvez configurer un exemple simple dans lequel vous hébergez une instance
 
 ## Configuration des agents de réplication en mode de création {#setting-replication-agents}
 
-Pour créer des agents de réplication, vous devez apprendre à créer un agent de réplication standard.
+Pour créer des agents de réplication, apprenez à créer un agent de réplication standard.
 
 Trois agents de réplication sont nécessaires pour Screens :
 

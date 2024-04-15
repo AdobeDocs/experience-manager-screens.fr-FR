@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 37%
+source-wordcount: '1174'
+ht-degree: 35%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 37%
 >[!IMPORTANT]
 >Cette section décrit l’attribution et la planification des canaux pour les Feature Packs antérieurs à la version AEM 6.5.5 Screens.
 
-Une fois que vous avez configuré un affichage, vous devez lui attribuer un canal pour afficher votre contenu.
+Lorsque vous avez configuré un affichage, affectez un canal à un affichage pour afficher votre contenu.
 
 Cette page explique comment attribuer un canal à votre affichage.
 

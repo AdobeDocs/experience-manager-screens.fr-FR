@@ -4,9 +4,9 @@ description: Découvrez comment configurer les agents de réplication Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 35%
 
 ---
@@ -50,7 +50,7 @@ Pour activer les utilisateurs et mettre à jour le mot de passe de `screens-rece
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Une fois l’utilisateur activé, le **`screens-receiver-user`** as **Activé** sous le **État** champ .
+   Lorsque vous avez activé l’utilisateur, la variable **`screens-receiver-user`** as **Activé** sous le **État** champ .
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
@@ -125,7 +125,7 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
 1. Cliquez sur **OK**.
 
-1. Une fois les étapes précédentes effectuées, vous pouvez cliquer sur **Tester la connexion** pour vérifier la connexion.
+1. Une fois les étapes précédentes effectuées, cliquez sur **Tester la connexion** pour vérifier la connexion.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

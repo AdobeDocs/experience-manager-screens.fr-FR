@@ -1,30 +1,26 @@
 ---
 title: Création et gestion des emplacements
-seo-title: Gestion des emplacements
-description: Utilisez les informations de cette page pour en savoir plus sur la création et la gestion des emplacements.
-seo-description: Utilisez les informations de cette page pour en savoir plus sur la création et la gestion des emplacements.
-uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
+description: En savoir plus sur la création et la gestion des emplacements liés à AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-feature: Création dans Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 54%
 
 ---
 
 # Création et gestion des emplacements {#creating-and-managing-locations}
 
-Les emplacements hébergent la configuration des affichages en fonction des endroits où se trouvent les différents écrans.
+Les emplacements hébergent la configuration des affichages en fonction de l’emplacement des différents écrans.
 
-Cette page décrit la création et la gestion des emplacements pour Screens.
+Cette page présente la création et la gestion des emplacements pour Screens.
 
 **Conditions préalables** :
 
@@ -34,22 +30,20 @@ Cette page décrit la création et la gestion des emplacements pour Screens.
 
 ## Création d’un emplacement {#creating-a-new-location}
 
-Une fois que vous avez créé votre projet, procédez comme suit pour créer un emplacement pour le projet Screens :
+Après avoir créé votre projet pour Screens, procédez comme suit pour créer un emplacement pour un projet Screens :
 
 1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`.
 1. Accédez au projet Screens, puis cliquez sur **Emplacements**.
-1. Cliquez sur **Créer** en regard de l’icône plus (+) de la barre d’actions. Un assistant s’ouvre.
+1. Cliquez sur **Créer** en regard de l’icône plus dans la barre d’actions.
 1. Sélectionnez l’**emplacement** du modèle à partir de l’Assistant et cliquez sur **Suivant**.
-
 1. Saisissez les propriétés pour **Titre et balises**, **Autres titres et description**, **Heure d’activation/de désactivation** et **URL Vanity**.
-
 1. Cliquez sur **Créer** pour créer l’emplacement et l’ajouter au dossier des emplacements.
 
-Suivez les étapes ci-dessous pour comprendre la création d’un emplacement dans le cadre d’un projet AEM Screens. À des fins de démonstration, le nouvel emplacement (SanJose) est créé sous *DemoProject*.
+Pour comprendre la création d’un emplacement pour un projet AEM Screens, reportez-vous aux étapes ci-dessous. À des fins de démonstration, le nouvel emplacement (SanJose) est créé sous *DemoProject*.
 
 ![player2](assets/player2.gif)
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
+Après avoir créé un emplacement, créez un affichage pour celui-ci.
 
 ### Modification des propriétés d’un emplacement {#editing-properties-for-a-location}
 
@@ -62,6 +56,6 @@ Pour modifier/accéder aux propriétés d’un emplacement :
 
 #### Étapes suivantes {#the-next-steps}
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
+Après avoir créé un emplacement, créez un affichage pour celui-ci.
 
-Pour plus d’informations, voir [Création et gestion des affichages](managing-displays.md).
+Voir [Création et gestion des affichages](managing-displays.md).

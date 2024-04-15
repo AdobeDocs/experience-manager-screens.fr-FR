@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 57%
+source-wordcount: '1088'
+ht-degree: 52%
 
 ---
 
@@ -35,7 +35,7 @@ Un auteur de contenu peut configurer un affichage pour permettre la reconnaissan
 >[!IMPORTANT]
 > La fonction de reconnaissance vocale n’est disponible que sur les lecteurs Chrome OS et Windows.
 
-Pour mettre en œuvre la reconnaissance vocale dans votre projet AEM Screens, vous devez activer la reconnaissance vocale pour l’affichage et associer chaque canal à une balise unique afin de déclencher une transition de canal.
+Pour mettre en oeuvre la reconnaissance vocale dans votre projet AEM Screens, activez la reconnaissance vocale pour l’affichage et associez chaque canal à une balise unique afin de déclencher une transition de canal.
 
 La section suivante décrit l’activation et l’utilisation de la fonctionnalité de reconnaissance vocale dans un projet AEM Screens.
 
@@ -97,7 +97,7 @@ Procédez comme suit pour ajouter des balises à votre canal :
 
    Ou,
 
-   Vous pouvez également créer au préalable des balises à partir de votre instance AEM pour votre projet et les sélectionner également. Une fois que vous avez suivi les étapes décrites dans [Création de balises](#creating-tags), vous pouvez sélectionner la balise à partir de l’emplacement et l’ajouter à votre canal, comme indiqué dans la figure ci-dessous :
+   Vous pouvez également créer au préalable des balises à partir de votre instance AEM pour votre projet et les sélectionner également. Une fois que vous avez suivi les étapes décrites à la section [Création de balises](#creating-tags), vous pouvez sélectionner la balise à partir de l’emplacement et l’ajouter à votre canal, comme illustré dans la figure ci-dessous :
 
    ![image](assets/voice-recognition/vr-tag1.png)
 

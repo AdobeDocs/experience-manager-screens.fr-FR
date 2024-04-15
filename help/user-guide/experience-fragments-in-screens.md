@@ -10,10 +10,10 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 42%
+source-wordcount: '1095'
+ht-degree: 41%
 
 ---
 
@@ -113,7 +113,7 @@ Pour appliquer le contenu à partir de **`We.Retail`** à votre **TestChannel** 
 
    >[!NOTE]
    >
-   >Après avoir créé le fragment Screens, vous pouvez en modifier les propriétés. Sélectionnez le fragment et cliquez sur **Propriétés** dans la barre d’actions.
+   >Après avoir créé un fragment AEM Screens, vous pouvez en modifier les propriétés. Sélectionnez le fragment et cliquez sur **Propriétés** dans la barre d’actions.
 
    **Modification des propriétés d’un fragment Screens**
 

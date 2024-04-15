@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 57%
+source-wordcount: '743'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
 >[!NOTE]
 >
->Une fois que vous avez téléchargé le dernier lecteur Windows (*.exe*), à partir de la page de téléchargement [du lecteur AEM 6.4](https://download.macromedia.com/screens/), suivez les étapes du lecteur pour terminer l’installation ad hoc :
+>Après avoir téléchargé le dernier lecteur Windows (*.exe*), depuis [Téléchargements du lecteur AEM 6.4](https://download.macromedia.com/screens/) , suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
 >1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
@@ -84,7 +84,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
    >
    >Le bouton **Attribuer l’affichage** permet d’ajouter directement l’appareil à un affichage.
 
-   Cliquez sur **Terminer**, vous devez attribuer le périphérique à un affichage.
+   Cliquez sur **Terminer**, affectez le périphérique à un affichage.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ Si vous n’avez pas attribué l’appareil à un affichage, procédez comme sui
 
 ## Recherche d’un appareil à partir du gestionnaire d’appareils {#search-device}
 
-Une fois que vous avez enregistré des appareils sur votre lecteur, vous pouvez les afficher depuis l’interface utilisateur du Gestionnaire d’appareils.
+Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez les afficher dans l’interface utilisateur du Gestionnaire de périphériques.
 
 1. Accédez à l’interface utilisateur du Gestionnaire de périphériques à partir de votre projet AEM Screens, par exemple : **DemoScreens** > **Périphériques**.
 

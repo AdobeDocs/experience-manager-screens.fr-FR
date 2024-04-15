@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 52%
+source-wordcount: '317'
+ht-degree: 39%
 
 ---
 
@@ -51,7 +51,7 @@ Dans un projet, il existe cinq types de dossiers, comme illustré dans la figure
 
 ## Affichage des propriétés {#viewing-properties}
 
-Après avoir créé le projet Screens, sélectionnez-le et cliquez sur **Propriétés** dans la barre d’action pour modifier ses propriétés.
+Une fois le projet Screens créé, sélectionnez-le, puis cliquez sur **Propriétés** dans la barre d’actions pour pouvoir modifier les propriétés de votre projet.
 
 Les options suivantes vous permettent de modifier les propriétés de votre projet **TestScreens**.
 
@@ -74,4 +74,4 @@ Les étapes suivantes montrent la création d’un dossier d’applications dans
 
 ### Étapes suivantes {#the-next-steps}
 
-Une fois que vous aurez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer le contenu de votre canal.
+Lorsque vous avez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer du contenu dans votre canal.

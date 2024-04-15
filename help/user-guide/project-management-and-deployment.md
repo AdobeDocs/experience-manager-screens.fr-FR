@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
@@ -86,6 +86,4 @@ Découvrez la gestion de projet et la préparation du déploiement, ainsi que la
 
 ## La prochaine étape {#the-next-step}
 
-Une fois que vous aurez pris connaissance des principales considérations relatives à la gestion de projet pour les déploiements d’AEM Screens ;
-
-Accédez à **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** vous comprenez donc l’assistance du Jour 2 et les processus impliqués.
+Lorsque vous en avez terminé avec les principales considérations relatives à la gestion de projet pour les déploiements AEM Screens, accédez à **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** vous comprenez donc l’assistance du Jour 2 et les processus impliqués.

@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 43%
+source-wordcount: '976'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Avant de commencer avec les serveurs de création et de publication, vous devez 
 
 >[!NOTE]
 >
->Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4 Screens Feature Pack 2. Pour accéder à ce Feature Pack, vous devez contacter l’assistance d’Adobe et demander à y accéder. Une fois que vous avez l’autorisation, téléchargez-la à partir de Package Share.
+>Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4 Screens Feature Pack 2. Pour accéder à ce Feature Pack, contactez l’assistance Adobe et demandez l’accès. Une fois que vous avez l’autorisation, téléchargez-la à partir de Package Share.
 
 ## Présentation {#introduction}
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 63%
+source-wordcount: '561'
+ht-degree: 53%
 
 ---
 
@@ -46,7 +46,7 @@ Avant de créer un workflow pour la vidéo, remplissez les conditions préalable
 
 ## Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow-1}
 
-Pour créer un processus de remplissage vidéo, vous devez créer un processus pour votre vidéo, puis l’utiliser dans le canal de votre projet AEM Screens.
+Pour créer un workflow de remplissage vidéo, créez un workflow pour votre vidéo, puis utilisez-le dans votre canal de projet AEM Screens.
 
 Suivez les étapes ci-dessous pour créer et utiliser le processus :
 
@@ -67,7 +67,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Une fois le modèle de processus créé, sélectionnez le modèle (**VideoRendition**), puis cliquez sur **Modifier** dans la barre d’actions.
+1. Après avoir créé le modèle de workflow, sélectionnez le modèle (**VideoRendition**), puis cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -107,7 +107,7 @@ Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM S
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Une fois la vidéo téléchargée, cliquez sur **Prévisualiser** pour afficher la sortie.
+1. Une fois la vidéo téléchargée, cliquez sur **Aperçu** pour afficher la sortie.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

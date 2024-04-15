@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ Les sections suivantes décrivent comment déboguer et dépanner la lecture vid�
 
 ## Rendus de la gestion des actifs numériques (DAM) {#dam-renditions}
 
-Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
+Une fois la vidéo téléchargée sur le canal, AEM devrait commencer à créer des rendus pour celui-ci. Les vidéos sont répertoriées sous la catégorie Ressources.
 
 Pour visionner la vidéo, procédez comme suit :
 

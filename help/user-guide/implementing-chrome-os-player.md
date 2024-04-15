@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -37,7 +37,7 @@ Pour installer la console de gestion de Chrome, exécutez la procédure suivante
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome, ce qui envoie le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Chrome, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
 

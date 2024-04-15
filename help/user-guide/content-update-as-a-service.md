@@ -1,12 +1,12 @@
 ---
 title: Mise à jour de contenu en tant que service
-description: Découvrez Content Update as a Service.
+description: Découvrez la mise à jour de contenu en tant que service.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 81%
@@ -25,11 +25,11 @@ Cette section couvre les sujets suivants relatifs à la mise à jour de contenu 
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## Vue d’ensemble {#overview}
 
-Mise à jour hors ligne en bloc : permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
+Mise à jour hors ligne en bloc, vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
 
 Vous pouvez également planifier cette activité pour une période de trafic réseau plus faible.
 
@@ -69,6 +69,6 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    >
    >Spécifiez le chemin du projet par rapport à votre canal.
 
-   **Fréquence de planification** Spécifiez une heure, par exemple 17 h ou 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
+   **Fréquence des planifications** Indiquez une heure, par exemple, 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
-1. Sélectionner **Enregistrer** vous pouvez donc enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure spécifiée.
+1. Sélectionner **Enregistrer** vous pouvez donc enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure indiquée.

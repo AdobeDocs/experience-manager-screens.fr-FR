@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 41%
+source-wordcount: '1452'
+ht-degree: 39%
 
 ---
 
@@ -58,7 +58,7 @@ Pour configurer un projet et un canal, procédez comme suit :
 
 ### Attribution d’un canal à un affichage {#assigning-channel-to-display}
 
-Une fois la configuration du projet terminée, vous devez attribuer le canal à un affichage pour afficher le contenu.
+Une fois la configuration du projet terminée, affectez le canal à un affichage pour afficher le contenu.
 
 1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
@@ -105,7 +105,7 @@ Vous pouvez afficher la sortie suivante sur le lecteur de votre choix :
 
 ## Mode Chronologie {#timeline-view}
 
-Une fois un canal attribué à un affichage et un planning de périodicité configuré, vous pouvez afficher la chronologie à partir du panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+Lorsque vous avez affecté un canal à un affichage et configuré un planning de périodicité, vous pouvez afficher la chronologie à partir de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
 
 Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie :
 

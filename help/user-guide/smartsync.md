@@ -1,22 +1,18 @@
 ---
 title: Transition de ContentSync à SmartSync
-seo-title: Transitioning from ContentSync to SmartSync
-description: Consultez cette page pour en savoir plus sur la fonctionnalité SmartSync et sur la transition de ContentSync à SmartSync.
-seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
-uuid: c0619b56-1f6f-465a-a428-6df28e40b555
+description: En savoir plus sur cette fonctionnalité SmartSync et sur la transition de ContentSync à SmartSync.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 93%
+source-wordcount: '431'
+ht-degree: 69%
 
 ---
 
@@ -32,7 +28,7 @@ Il s’exécute à la fois côté serveur et côté client.
 
 **Côté serveur** :
 
-* Le contenu des canaux, y compris les ressources, est mis en cache dans */var/contentsync*.
+* Le contenu des canaux, y compris les ressources, est mis en cache dans *`/var/contentsync`*.
 * Le cache est exposé aux lecteurs via un manifeste qui décrit le contenu disponible pour un affichage.
 
 **Côté client** :
@@ -41,10 +37,10 @@ Il s’exécute à la fois côté serveur et côté client.
 
 ### Avantages de SmartSync {#benefits-of-using-smartsync}
 
-La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Screens. On peut citer, entre autres :
+La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Screens, tels que :
 
-* Une réduction spectaculaire du trafic réseau et des besoins de stockage côté serveur
-* Le lecteur télécharge intelligemment les ressources uniquement si la ressource est manquante ou a été modifiée.
+* Réduction spectaculaire du trafic réseau et des exigences de stockage côté serveur.
+* Le lecteur télécharge intelligemment les ressources uniquement si la ressource est manquante ou modifiée.
 * Optimisations du stockage côté serveur et côté client
 
 >[!NOTE]
@@ -63,7 +59,7 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scree
 
 | **Plateforme** | **Version minimale du lecteur prise en charge** |
 |---|---|
-| Android | 3.3.72 |
+| Android™ | 3.3.72 |
 | Chrome OS | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -85,11 +81,11 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
 
 1. La **configuration de la console web d’Adobe Experience Manager** s’ouvre. Recherchez *offlinecontentservice*.
 
-   Pour rechercher la propriété **Screens Offline Content Services**, appuyez sur **Command+F** pour **Mac** et **Ctrl+F** pour **Windows**.
+   Pour rechercher la variable **Service de contenu hors ligne Screens** propriété, appuyez sur **Commande + F** pour **Mac**, et **Ctrl+F** pour **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. Cliquez sur **Enregistrer** pour activer la propriété **Screens Offline Content Services** et, par conséquent, utiliser SmartSync pour AEM Screens.
-1. Une fois que vous avez activé SmartSync, vous devez accéder à votre projet et cliquer sur **Mettre à jour le contenu hors ligne** *(dans la barre d’actions),* comme illustré ci-dessous.
+1. Lorsque vous avez activé SmartSync, accédez à votre projet et cliquez sur **Mettre à jour le contenu hors ligne** *(dans la barre d’actions),* comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

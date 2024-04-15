@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 46%
+source-wordcount: '661'
+ht-degree: 40%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 Un affichage est un groupe virtuel d’écrans positionnés les uns à côté des autres. L&#39;affichage est permanent par rapport à une installation. Il s’agit de l’objet avec lequel les auteurs de contenu travaillent et font toujours référence à comme affichage logique plutôt qu’à leurs parties de compteur physiques.
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
+Lorsque vous créez un emplacement, vous devez créer un affichage pour celui-ci.
 
 Cette page présente la création et la gestion des affichages pour Screens.
 
@@ -54,7 +54,7 @@ Lorsque l’affichage est en place, l’étape suivante consiste à créer une c
 >
 >**La prochaine étape** :
 >
->Lorsque vous créez un affichage pour votre emplacement, vous devez lui attribuer un canal pour utiliser le contenu.
+>Lorsque vous créez un affichage pour votre emplacement, attribuez-lui un canal pour utiliser le contenu.
 >
 >Voir [Attribution de canaux](channel-assignment.md) pour savoir comment attribuer un canal à l’affichage.
 
@@ -74,11 +74,9 @@ La configuration de l’appareil est créée et ajoutée à l’affichage en cou
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Une fois que vous avez ajouté la configuration d’appareil à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
-
 >[!NOTE]
 >
->Une fois que vous avez ajouté la configuration d’appareil à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
+>Lorsqu’une configuration de périphérique est définie sur votre affichage à l’emplacement , l’étape suivante consiste à attribuer un canal à votre affichage.
 >
 >Comme illustré dans la figure ci-dessous, si la configuration du périphérique s’affiche comme non attribuée dans la variable **APPAREILS** , si aucun canal n’est affecté à cette configuration de périphérique spécifique.
 >

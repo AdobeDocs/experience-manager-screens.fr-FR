@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 27%
 
 ---
@@ -94,7 +94,7 @@ Désactiver la mise en cache de Dispatcher pour ***Chemin /content/screens***.
 
 Les lecteurs Screens utilisent des sessions authentifiées, de sorte que Dispatcher ne met en cache aucune des demandes de lecteurs Screens pour `channels/assets`.
 
-Pour activer le cache des ressources afin qu’elles soient diffusées à partir du cache de Dispatcher, vous devez :
+Pour activer le cache des ressources afin qu’elles soient diffusées à partir du cache de Dispatcher, procédez comme suit :
 
 * ajouter `/allowAuthorization 1` dans la section `/cache` ;
 * ajouter les règles ci-dessous à la section `/rules` de `/cache`.

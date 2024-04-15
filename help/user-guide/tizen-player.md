@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 58%
+ht-degree: 55%
 
 ---
 
@@ -43,7 +43,7 @@ Suivez les étapes ci-dessous :
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement d’attribuer un nom à votre lecteur Tizen, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
 Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 
@@ -58,7 +58,7 @@ Suivez les étapes ci-dessous sur le périphérique Samsung afin de pouvoir term
 1. Cliquez sur le bouton **MENU** de la télécommande de l’appareil et faites défiler la liste jusqu’à **System** (Système) dans la barre de navigation de gauche.
 1. Faites défiler la page vers le bas et sélectionnez l’option **Play via** (Lecture sur) et remplacez-la par l’option **URL Launcher** (Lancement d’URL).
    ![image](/help/user-guide/assets/tizen/rms-2.png)
-1. Une fois le lanceur d’URL défini, appuyez sur le bouton **Home** (Accueil) de votre télécommande.
+1. Lorsque le lanceur d’URL est défini, appuyez sur la touche **Accueil** à partir de votre télécommande.
 1. Accédez à **URL Launcher Settings** (Paramètres du lanceur d’URL), saisissez l’adresse IP de votre serveur hôte local et cliquez sur **Done** (Terminé).
 
    >[!NOTE]

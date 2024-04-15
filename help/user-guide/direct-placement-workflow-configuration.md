@@ -1,9 +1,9 @@
 ---
 title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 46%
 
 ---
@@ -32,7 +32,7 @@ En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur 
 
 >[!IMPORTANT]
 >
->Avant de commencer la configuration, vous devez installer le `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Une fois le package installé, vous devez pouvoir le visualiser et y accéder à partir de votre instance AEM > Outils (icône) > **Workflow** > **Modèles de processus**.
+>Avant de commencer la configuration, installez le `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Une fois le package installé, vous devez pouvoir le visualiser et y accéder à partir de votre instance AEM > Outils (icône) > **Workflow** > **Modèles de processus**.
 
 Suivez les étapes ci-dessous pour configurer le workflow de placement direct :
 

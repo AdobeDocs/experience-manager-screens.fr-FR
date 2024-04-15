@@ -2,7 +2,7 @@
 title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Découvrez comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 36%
@@ -26,7 +26,7 @@ Une fois que le développeur a ajouté les propriétés et les règles de mappag
 ## Utilisation de rendus adaptatifs dans les canaux {#using-adaptive-renditions}
 
 >[!NOTE]
->Une fois que vous avez ajouté [Propriété de mappage de rendu au projet Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) et [règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), en tant qu’auteur de contenu, vous êtes maintenant prêt à appliquer les rendus à vos ressources.
+>Après avoir ajouté [Propriété de mappage de rendu au projet Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) et [règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), en tant qu’auteur de contenu, vous êtes maintenant prêt à appliquer les rendus à vos ressources.
 
 ### Application de rendu aux ressources {#apply-renditions-assets}
 
