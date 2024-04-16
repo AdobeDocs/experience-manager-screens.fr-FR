@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 36%
+ht-degree: 32%
 
 ---
 
@@ -43,8 +43,8 @@ Pour configurer un projet, procédez comme suit :
 
 1. **Création d’un canal Screens multizone**
 
-   1. Sélectionnez la variable **Canaux** et sélectionnez **Créer** depuis la barre d&#39;actions et en ouvrant l&#39;assistant pour créer un canal.
-   1. Sélectionnez **Left-L Bar Split Screen Channel** dans l’assistant et créez le canal intitulé **MultiZoneLayout**.
+   1. Cliquez sur le bouton **Canaux** et cliquez sur **Créer** depuis la barre d&#39;actions et en ouvrant l&#39;assistant pour créer un canal.
+   1. Cliquez sur **Canal d’écran partagé Barre-L gauche** à partir de l’assistant et créez le canal intitulé **MultiZoneLayout**.
    1. Ajoutez du contenu au canal. Faites glisser les ressources vers chacune des zones. L’exemple suivant illustre une **MultiZoneLayout** canal comprenant une vidéo, une image et une bannière de texte (dans une séquence incorporée), comme illustré ci-dessous.
 
    ![ressource](assets/mz-to-sz2.png)
@@ -58,7 +58,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/mz-to-sz3.png)
 
-1. Sélectionner **Modifier** depuis la barre d’actions pour ajouter du contenu à ce canal. Ajouter un **Canal** et une ressource image vers laquelle vous souhaitez basculer pour ce canal, comme illustré dans la figure ci-dessous :
+1. Cliquez sur **Modifier** depuis la barre d’actions pour ajouter du contenu à ce canal. Ajouter un **Canal** et une ressource image vers laquelle vous souhaitez basculer pour ce canal, comme illustré dans la figure ci-dessous :
 
    ![ressource](assets/mz-to-sz4.png)
 

@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -47,7 +47,7 @@ Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen, envo
 
 Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 
-1. Sélectionnez le bouton de menu sur votre télécommande.
+1. Cliquez sur le bouton menu de votre télécommande.
 1. Accédez à **network** > **Nom de l’appareil** vous pouvez ainsi attribuer un nom au lecteur.
 
 ### Configuration des mises à jour sur l’appareil Samsung {#config-updates}
@@ -55,11 +55,11 @@ Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 Suivez les étapes ci-dessous sur le périphérique Samsung afin de pouvoir terminer l’installation du lecteur AEM Screens sur le périphérique :
 
 1. Accédez à votre appareil Samsung et activez-le.
-1. Sélectionnez la variable **MENU** à partir de la télécommande de l’appareil et faites défiler l’écran jusqu’à **Système** dans la barre de navigation de gauche.
-1. Faites défiler la page vers le bas et sélectionnez l’option **Play via** (Lecture sur) et remplacez-la par l’option **URL Launcher** (Lancement d’URL).
+1. Cliquez sur le bouton **MENU** de la télécommande de l’appareil et faites défiler la liste jusqu’à **System** (Système) dans la barre de navigation de gauche.
+1. Faites défiler l’écran vers le bas et cliquez sur **Lecture via** et définissez-la sur **Lanceur d’URL** .
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 1. Lorsque le lanceur d’URL est défini, appuyez sur la touche **Accueil** à partir de votre télécommande.
-1. Accédez au **Paramètres du lanceur d’URL** et saisissez l’adresse IP de votre serveur localhost, puis sélectionnez **Terminé**.
+1. Accédez à **URL Launcher Settings** (Paramètres du lanceur d’URL), saisissez l’adresse IP de votre serveur hôte local et cliquez sur **Done** (Terminé).
 
    >[!NOTE]
    >Le lecteur Tizen doit maintenant pouvoir se connecter au serveur http.
@@ -145,29 +145,29 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 
 1. Accédez à l’adresse du serveur, entrez l’URL MagicInfo et appuyez sur **Done** (Terminé).
 
-1. Configurez TLS, si nécessaire. Accédez au port, sélectionnez le numéro de port sur le serveur, puis sélectionnez **Enregistrer**.
+1. Configurez TLS, si nécessaire. Accédez au port, cliquez sur le numéro de port du serveur, puis cliquez sur **Enregistrer**.
 
-1. Accédez au **Appareil** et recherchez le périphérique que vous avez configuré. Lorsqu’un appareil est trouvé, cochez la case, puis sélectionnez **Approuver**.
+1. Accédez au **Appareil** et recherchez le périphérique que vous avez configuré. Lorsqu’un appareil est trouvé, cochez la case, puis cliquez sur **Approuver**.
 
    >![image](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Renseignez les informations requises et sélectionnez un groupe d’appareils. Sélectionnez **OK**.
+1. Renseignez les informations requises, puis cliquez sur un groupe d’appareils. Cliquez sur **OK**.
 
    >![image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Lorsque l’appareil est approuvé, il apparaît dans la liste des appareils. Sélectionner *Informations* sur la zone de votre périphérique, comme illustré ci-dessous.
+1. Lorsque l’appareil est approuvé, il apparaît dans la liste des appareils. Cliquez sur *Informations* sur la zone de votre périphérique, comme illustré ci-dessous.
 
    >![image](/help/user-guide/assets/tizen/rms-6.png)
 
-1. La boîte de dialogue présentant les informations sur l’appareil s’affiche. Sélectionnez la variable **Informations sur le périphérique** et sélectionnez **Modifier**.
+1. La boîte de dialogue présentant les informations sur l’appareil s’affiche. Cliquez sur le bouton **Informations sur le périphérique** et cliquez sur **Modifier**.
 
    >![image](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Modifiez les options de l’appareil et sélectionnez l’onglet **Setup** (Configuration). Accédez à **Lanceur d’URL** et saisissez l’URL hébergeant le wgt et `SSSP config file` pour pouvoir installer un `SSSP` , comme illustré dans la figure ci-dessous.
+1. Modifiez les options du périphérique et cliquez sur le bouton **Configuration** . Accédez à **Lanceur d’URL** et saisissez l’URL hébergeant le wgt et `SSSP config file` pour pouvoir installer un `SSSP` , comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Sélectionnez **Enregistrer**.
+1. Cliquez sur **Save**.
 
 ### Utiliser la commande à distance Screens {#using-remote-control}
 

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 46%
@@ -63,7 +63,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
 1. Accédez à **Périphériques** dossier.
-1. Sélectionner **Gestionnaire de périphériques** dans la barre d’actions.
+1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,11 +77,11 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 ### Mise à jour des paramètres de canal
 
 1. Accédez à **ChannelLobby**.
-1. Sélectionner **Modifier** dans la barre d’actions.
-1. Sélectionnez l’ensemble du canal comme illustré ci-dessous.
+1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Cliquez sur l’ensemble du canal comme illustré dans la figure ci-dessous.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Sélectionnez l’icône de clé à molette.
+1. Cliquez sur l’icône de clé à molette.
    ![image1](assets/command-sync/command-sync8-1.png)
 
 1. Dans le **Page** , saisissez la *synchronisé* dans le **Stratégie** champ .
@@ -90,15 +90,15 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Configurer un lecteur principal {#setting-up-primary}
 
-1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay** et sélectionnez **Tableau de bord** dans la barre d’actions.
+1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
 Notez les deux appareils (Chrome et lecteur Windows) dans **APPAREILS** , comme illustré dans les sections suivantes :
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Dans la **APPAREILS** , sélectionnez le périphérique que vous souhaitez définir comme principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Sélectionner **Défini comme périphérique principal**.
+1. Dans la **APPAREILS** , cliquez sur le périphérique que vous souhaitez définir comme principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Défini comme périphérique principal**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Saisissez l’adresse IP dans **Défini comme périphérique principal** et sélectionnez **Enregistrer**.
+1. Saisissez l’adresse IP dans **Défini comme périphérique principal** et cliquez sur **Enregistrer**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,11 +109,11 @@ Notez les deux appareils (Chrome et lecteur Windows) dans **APPAREILS** , comme 
 ### Synchronisation avec l’appareil principal {#sync-up-primary}
 
 1. Une fois que vous avez défini l’appareil Chrome comme principal, synchronisez l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
-Sélectionnez l’autre appareil (dans ce cas, le lecteur Windows) dans la **APPAREILS** et sélectionnez **Synchronisation avec l’appareil principal**.
+Cliquez sur l’autre périphérique (ici, le lecteur Windows) dans la **APPAREILS** et cliquez sur **Synchronisation avec l’appareil principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Sélectionnez l’appareil dans la liste, puis sélectionnez **Enregistrer**.
+1. Cliquez sur le périphérique dans la liste, puis cliquez sur **Enregistrer**.
 
    >[REMARQUE :]
    > La variable **Synchronisation avec l’appareil principal** La boîte de dialogue affiche la liste des appareils principaux. Sélectionnez la préférence.
@@ -132,13 +132,13 @@ Une fois que vous avez synchronisé un ou plusieurs appareils avec un appareil p
 
 Pour supprimer la synchronisation du périphérique principal, procédez comme suit :
 
-1. Accédez au panneau **APPAREILS** et sélectionnez l’appareil.
+1. Accédez au **APPAREILS** et cliquez sur l’appareil.
 
-1. Sélectionner **Désynchroniser les appareils** vous pouvez donc désynchroniser le client avec l’appareil principal.
+1. Cliquez sur **Désynchroniser les appareils** vous pouvez donc désynchroniser le client avec l’appareil principal.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Sélectionner **Confirmer** pour désynchroniser l’appareil sélectionné et l’appareil principal.
+1. Cliquez sur **Confirmer** pour désynchroniser l’appareil sélectionné de l’appareil principal.
 
    >[REMARQUE :]
-   > Si vous sélectionnez l’appareil principal et utilisez l’option de désynchronisation, tous les appareils connectés à l’appareil principal sont désynchronisés en une seule étape.
+   > Si vous cliquez sur l’appareil principal et que vous utilisez l’option de désynchronisation, tous les appareils connectés à l’appareil principal sont désynchronisés en une seule étape.

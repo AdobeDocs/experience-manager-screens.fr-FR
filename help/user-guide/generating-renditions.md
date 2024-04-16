@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -30,13 +30,13 @@ Vous pouvez générer des rendus Full HD manuels et automatiques. La section sui
 
 Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD :
 
-1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche) et sélectionnez l’icône en forme de marteau pour sélectionner **Workflow**.
+1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur l’icône en forme de marteau pour cliquer sur **Workflow**.
 
-   Sélectionner **Modèles**.
+   Cliquez sur **Modèles**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Dans la gestion des modèles de workflow, sélectionnez la variable **Ressource de mise à jour de gestion des actifs numériques** model et select **Modifier** dans la barre d’actions.
+1. Dans la gestion des modèles de workflow, cliquez sur le bouton **Ressource de mise à jour de gestion des actifs numériques** modèle et clic **Modifier** dans la barre d’actions.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD 
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Sélectionnez la variable **Processus** .
+1. Cliquez sur le bouton **Processus** .
 1. Saisissez les profils Full HD dans la liste de **Arguments** comme suit :
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Sélectionnez **OK**.
+1. Cliquez sur **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Sélectionner **Enregistrer** dans le coin supérieur gauche de la **Ressource de mise à jour de gestion des actifs numériques** écran.
+1. Cliquez sur **Enregistrer** dans le coin supérieur gauche de la **Ressource de mise à jour de gestion des actifs numériques** écran.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Accédez à **Actifs** et téléchargez une nouvelle vidéo. Sélectionnez la vidéo et ouvrez le rail latéral Rendus . Notez les deux vidéos Full HD.
+1. Accédez à **Actifs** et téléchargez une nouvelle vidéo. Cliquez sur la vidéo et ouvrez le rail latéral Rendus . Notez les deux vidéos Full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD 
 
 Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
-1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche) et sélectionnez l’icône en forme de marteau afin de sélectionner les outils et de **Workflow**.
+1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur l’icône en forme de marteau afin de cliquer sur Outils et sur **Workflow**.
 
-   Sélectionner **Modèles**.
+   Cliquez sur **Modèles**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Dans la gestion des modèles de workflow, sélectionnez l’option **Ressources de mise à jour de Screens** et sélectionnez le modèle **Démarrer le processus** pour ouvrir le **Exécuter le workflow** de la boîte de dialogue
+1. Dans la gestion des modèles de workflow, cliquez sur le bouton **Ressources de mise à jour de Screens** et cliquez sur le bouton **Démarrer le processus** pour ouvrir le **Exécuter le workflow** de la boîte de dialogue
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Sélectionnez la vidéo de votre choix dans le **Payload** et sélectionnez **Exécuter**.
+1. Cliquez sur la vidéo de votre choix dans la **Payload** et cliquez sur **Exécuter**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Accédez à **Ressources**, accédez à votre ressource en descendant dans la hiérarchie, puis sélectionnez-la.
+1. Accédez à **Actifs**, recherchez votre ressource en descendant dans la hiérarchie, puis cliquez dessus.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

@@ -5,10 +5,10 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 37%
+ht-degree: 40%
 
 ---
 
@@ -30,7 +30,7 @@ Suivez les étapes ci-dessous pour répliquer les triggers de données sur le se
 
 ### Étape 1 : réplication des configurations ContextHub {#replicating-contexthub-configurations}
 
-1. Accédez à **Outils** > **Déploiement** > **Distribution** > **Publier l’agent** et sélectionnez l’agent de publication pour pouvoir configurer vos paramètres.
+1. Accédez à **Outils** > **Déploiement** > **Distribution** > **Publier l’agent** et cliquez sur l’agent de publication pour pouvoir configurer vos paramètres.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Suivez les étapes ci-dessous pour répliquer les triggers de données sur le se
    >
    >Vous pouvez également utiliser `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` pour accéder directement à l’écran afin de configurer et de tester la connexion.
 
-1. Sélectionner **Tester la connexion** à partir de la barre d’actions afin que vous puissiez valider la communication de l’auteur avec l’instance de publication, comme illustré ci-dessous :
+1. Cliquez sur **Tester la connexion** à partir de la barre d’actions afin que vous puissiez valider la communication de l’auteur avec l’instance de publication, comme illustré ci-dessous :
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -46,9 +46,9 @@ Suivez les étapes ci-dessous pour répliquer les triggers de données sur le se
    >
    >Si le test échoue, corrigez la configuration de l’agent de réplication entre l’instance d’auteur et l’instance de publication. Voir [Dépannage du test de la connexion](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) pour plus d’informations.
 
-1. Sélectionnez **Ajouter** dans l’arborescence de l’**Agent de distribution** et sélectionnez le chemin de configuration de votre projet, par exemple `/conf/screens/settings/cloudsettings/configuration`.
+1. Cliquez sur **Ajouter** de la **Agent de distribution** arborescence d’écran et cliquez sur le chemin de configuration de votre projet, par exemple : `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Sélectionnez **Envoyer**.
+1. Cliquez sur **Envoyer**.
 
 ### Réplication des audiences {#replicating-audiences}
 
@@ -58,11 +58,11 @@ Suivez les étapes ci-dessous pour répliquer les triggers de données sur le se
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. Sélectionnez toutes les audiences et tous les segments dans l’interface utilisateur.
+1. Cliquez sur toutes les audiences et tous les segments dans l’interface utilisateur.
 
-1. Sélectionner **Gérer la publication** dans la barre d’actions.
+1. Cliquez sur **Gérer la publication** dans la barre d’actions.
 
-1. Sélectionner **Suivant** et **Publier**.
+1. Cliquez sur **Suivant** et **Publier**.
 
 ### Réplication des activités  {#replicating-activities}
 
@@ -70,11 +70,11 @@ Suivez les étapes ci-dessous pour répliquer les triggers de données sur le se
 
 1. Explorez le dossier de votre projet, c’est-à-dire `/content/campaigns/screens/…`.
 
-1. Sélectionnez toutes les activités dans l’interface utilisateur.
+1. Cliquez sur toutes les activités de l’interface utilisateur.
 
-1. Sélectionner **Gérer la publication** dans la barre d’actions.
+1. Cliquez sur **Gérer la publication** dans la barre d’actions.
 
-1. Sélectionner **Suivant** et **Publier**.
+1. Cliquez sur **Suivant** et **Publier**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Si le test de la connexion échoue lors de la réplication des configurations Co
 
 1. Accédez à Outils > **Déploiement** > **Distribution** > **Publier l’agent**.
 
-1. Sélectionner **Modifier** dans la barre d’actions et assurez-vous que l’URL du point de terminaison dans **Points de terminaison de l’importateur** pointe également vers l’URL du serveur de publication dans l’agent de distribution.
+1. Cliquez sur **Modifier** dans la barre d’actions et assurez-vous que l’URL du point de terminaison dans **Points de terminaison de l’importateur** pointe également vers l’URL du serveur de publication dans l’agent de distribution.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Si vous n’utilisez pas les informations d’identification d’administrateur par défaut, vous devez configurer l’agent de distribution avec un nom d’utilisateur et un mot de passe différents.
@@ -110,10 +110,10 @@ Si le test de la connexion échoue lors de la réplication des configurations Co
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Enregistrer**
    1. Utilisation `Cmd +F` pour rechercher **Agent de distribution Apache Sling - Fabrique d’agents de transfert** pour ouvrir les configurations et rechercher **Fournisseur secret de transport**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Mettez à jour `(name=default)` avec `(name=slingTransportSecretProvider)`.
-   1. Sélectionner **Enregistrer** et relancez le test de la connexion à partir de l’événement **Agent de distribution** à partir de votre instance AEM.
+   1. Cliquez sur **Enregistrer** et relancez le test de connexion à partir de l’écran **Agent de distribution** à partir de votre instance AEM.

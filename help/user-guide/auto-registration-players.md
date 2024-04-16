@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -20,13 +20,13 @@ L’enregistrement en masse de milliers de lecteurs manuellement peut devenir en
 
 Suivez les étapes ci-dessous pour mettre en œuvre l’enregistrement automatique des lecteurs :
 
-1. Connectez-vous à votre instance AEM et sélectionnez votre projet AEM Screens, puis sélectionnez **Propriétés** dans la barre d’actions.
-1. Sélectionnez la variable **Avancé** afin que vous puissiez afficher la **Enregistrement de périphériques** .
+1. Connectez-vous à votre instance AEM et cliquez sur votre projet AEM Screens, puis sur **Propriétés** dans la barre d’actions.
+1. Cliquez sur le bouton **Avancé** afin que vous puissiez afficher la **Enregistrement de périphériques** .
 
 1. Spécifiez un code d’enregistrement automatique dans le champ **Code d’enregistrement en bloc** et un affichage par défaut facultatif dans **Affectation d’affichage par défaut** pour les assigner au lecteur qui est enregistré automatiquement.
 
    >[!NOTE]
-   >Entrez le code de votre choix et sélectionnez un affichage par défaut si nécessaire.
+   >Saisissez le code de votre choix et cliquez sur un affichage par défaut, le cas échéant.
 
    ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Configurez vos lecteurs avec l’URL de serveur et le code d’enregistrement appropriés à l’aide d’un fichier MDM ou JSON de configuration.

@@ -6,10 +6,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
@@ -91,8 +91,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créer un affichage sous Emplacement**
 
    1. Accédez à **Channel Level Activation** > **Emplacements** > **Région**.
-   1. Sélectionner **Région** et sélectionnez **+ Créer** dans la barre d’actions.
-   1. Sélectionnez **Afficher** dans l’assistant et créez un affichage intitulé **RegionDisplay.**
+   1. Cliquez sur **Région** et cliquez sur **+ Créer** dans la barre d’actions.
+   1. Cliquez sur **Affichage** à partir de l’assistant et créez un affichage intitulé **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    Pour **MainAdChannel :**
 
-   1. Accédez à **Activation au niveau du canal** > **Emplacements** > **Région** > **RegionDisplay** et sélectionnez **Attribuer le canal** dans la barre d’actions.
-   1. La boîte de dialogue **Attribution de canaux** s’ouvre.
-   1. Sélectionner **Canal de référence** par chemin.
-   1. Sélectionnez la variable **Chemin du canal** as **Activation au niveau du canal** > ***Canaux*** > ***MainAdChannel***.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. La boîte de dialogue **Attribution de canaux** s’ouvre.
+   1. Cliquez sur **Canal de référence** par chemin.
+   1. Cliquez sur le bouton **Chemin du canal** as **Activation au niveau du canal** > ***Canaux*** > ***MainAdChannel***.
    1. Le **Rôle du canal** est défini comme **mainadchannel**.
-   1. Sélectionnez la **Priorité** **1**.
-   1. Sélectionnez les **Événements pris en charge** : **Chargement initial** et **Écran inactif**.
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur le bouton **Priorité** as **1**.
+   1. Cliquez sur le bouton **Événements pris en charge** as **Charge initiale** et **Écran inactif**.
+   1. Cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Vous pouvez également attribuer un canal à partir du tableau de bord d’affichage en accédant à **Activation au niveau du canal** > **Emplacements** > **Région** > **RegionDisplay** et sélection **Tableau de bord** dans la barre d’actions. Sélectionner **+ Attribuer le canal** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
+   >Vous pouvez également attribuer un canal à partir du tableau de bord d’affichage en accédant à **Activation au niveau du canal** > **Emplacements** > **Région** > **RegionDisplay** et sélection **Tableau de bord** dans la barre d’actions. Cliquez sur **+ Attribuer un canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    De même, affectez le canal **TargetedSinglePlay** afin qu’il soit affiché** :
 
-   1. Accédez à **Activation au niveau du canal** > **Emplacements** > **Région** > **RegionDisplay** et sélectionnez **Attribuer le canal** dans la barre d’actions.
-   1. La boîte de dialogue **Attribution de canaux** s’ouvre.
-   1. Sélectionner **Canal de référence** par chemin.
-   1. Sélectionnez la variable **Chemin du canal** as **Activation au niveau du canal*** > ***Canaux*** > ***TargetedSinglePlay***.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. La boîte de dialogue **Attribution de canaux** s’ouvre.
+   1. Cliquez sur **Canal de référence** par chemin.
+   1. Cliquez sur le bouton **Chemin du canal** as **Activation au niveau du canal*** > ***Canaux*** > ***TargetedSinglePlay***.
    1. Le **Rôle de canal** est renseigné avec le contenu **targetedsingleplay**.
    1. Définissez la **Priorité** sur **2**.
-   1. Sélectionnez la variable **Événements pris en charge** as **Charge initiale**, **Écran inactif**, et **Minuteur**, comme illustré dans la figure ci-dessous.
+   1. Cliquez sur le bouton **Événements pris en charge** as **Charge initiale**, **Écran inactif**, et **Minuteur**, comme illustré dans la figure ci-dessous.
    1. Choisissez la date indiquée dans **actif depuis** comme le 27 novembre 2018 à 23 h 59 et en **actif jusqu’à** le 28 novembre 2018 à 12h05
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Enregistrer**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    >[!NOTE]
    >
-   >Pour choisir le même jour, sélectionnez le jour suivant, puis modifiez manuellement la date pour qu’elle soit le même jour, mais pour une heure ultérieure. Cela empêche l’utilisateur de sélectionner une date antérieure. Considérez l’exemple suivant :
+   >Pour choisir le même jour, cliquez sur le jour suivant, puis modifiez manuellement la date pour qu’elle soit le même jour, mais pour une heure ultérieure. Cela empêche l’utilisateur de sélectionner une date antérieure. Considérez l’exemple suivant :
 
    ![new1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Supposons que vous souhaitiez afficher le contenu d’un canal uniquement le ven
 
 ### Tranches horaires {#day-parting}
 
-1. Sélectionnez le canal, puis cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
 
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
@@ -190,7 +190,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Tranches hebdomadaires {#week-parting}
 
-1. Sélectionnez le canal, puis cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
 
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
@@ -219,7 +219,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Tranches mensuelles {#month-parting}
 
-1. Sélectionnez le canal, puis cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
 
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 
@@ -247,7 +247,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Combinaison de tranches {#combined-parting}
 
-1. Sélectionnez le canal, puis cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
 
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir la planification de périodicité.
 

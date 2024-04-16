@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 45%
+ht-degree: 49%
 
 ---
 
@@ -48,25 +48,25 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Création d’un canal de séquence**
 
-   1. Sélectionnez la variable **Canaux** et sélectionnez **Créer**.
+   1. Cliquez sur le bouton **Canaux** et cliquez sur **Créer**.
 
-   1. Sélectionnez **Canal de séquence** dans l’assistant et créez un canal appelé **MainAdChannel**.
+   1. Cliquez sur **Canal de séquence** à partir de l’assistant et créez le canal intitulé **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Ajout de contenu à un canal de séquence**
 
-   1. Sélectionnez le canal (**MainAdChannel**).
-   1. Sélectionner **Modifier** dans la barre d’actions.
+   1. Cliquez sur le canal (**MainAdChannel**).
+   1. Cliquez sur **Modifier** dans la barre d’actions.
    1. Faites glisser quelques ressources sur votre canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Création d’un canal d’urgence**
 
-   1. Sélectionnez le dossier **Channels** (Canaux).
-   1. Sélectionnez **Créer**.
-   1. Sélectionnez **Canal de séquence** dans l’assistant et créez un canal appelé **EmergencyChannel**.
+   1. Cliquez sur le bouton **Canaux** dossier.
+   1. Cliquez sur **Créer**.
+   1. Cliquez sur **Canal de séquence** à partir de l’assistant et créez le canal intitulé **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -76,8 +76,8 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Ajout de contenu à un canal d’urgence**
 
-   1. Sélectionnez le canal (**Canal d’urgence)**.
-   1. Sélectionner **Modifier** dans la barre d’actions.
+   1. Cliquez sur le canal (**Canal d’urgence)**.
+   1. Cliquez sur **Modifier** dans la barre d’actions.
    1. Faites glisser vers votre canal la ressource que vous souhaitez exécuter en cas d’urgence.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -85,36 +85,36 @@ Pour configurer un canal d’urgence, procédez comme suit :
 1. **Création d’un emplacement**
 
    1. Accédez au dossier **Locations** (Emplacements).
-   1. Sélectionner **Créer** dans la barre d’actions et créez un emplacement intitulé **Magasin** dans l’assistant.
+   1. Cliquez sur **Créer** à partir de la barre d’actions, puis créez un emplacement appelé **Boutique** à partir de l’assistant.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Création d’affichages dans votre emplacement**
 
-   Accédez à votre emplacement (**Magasin**) et sélectionnez **Créer** dans la barre d’actions. Après l’assistant, créez deux **Affichages** intitulé **StoreFront** et **StoreRear**.
+   Accédez à votre emplacement (**Boutique**) et cliquez sur **Créer** dans la barre d’actions. Après l’assistant, créez deux **Affichages** intitulé **StoreFront** et **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Création d’une planification**
 
    1. Accédez au dossier **Schedules** (Planifications).
-   1. Sélectionner **Créer** dans la barre d’actions.
+   1. Cliquez sur **Créer** dans la barre d’actions.
    1. Après l’assistant, créez un planning intitulé **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Affectation des deux affichages à votre planification et définition de priorités
 
-   1. Sélectionner le planning **(StoreSchedule)** et sélectionnez **Tableau de bord** dans la barre d’actions.
+   1. Cliquez sur le planning **(StoreSchedule)** et cliquez sur **Tableau de bord** dans la barre d’actions.
 
-   1. Sélectionner **+ Attribuer le canal** de la **CANAUX ATTRIBUÉS** du panneau.
+   1. Cliquez sur **+ Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS**.
 
    1. Dans la boîte de dialogue **Attribution de canaux** :
 
-      1. Sélectionnez le chemin d’accès à **MainAdChannel**.
+      1. Cliquez sur le chemin d’accès au **MainAdChannel**
       1. Définissez la **priorité** sur 2.
       1. Définissez les événements pris en charge **Chargement initial** et **Écran inactif**.
-      1. Sélectionnez **Enregistrer**.
+      1. Cliquez sur **Enregistrer**
 
       De même, procédez de nouveau aux mêmes étapes pour affecter la variable **EmergencyChannel** et définissez ses **Priorité**.
 
@@ -124,16 +124,16 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Sélectionner **+ Attribuer le canal** de la **CANAUX ATTRIBUÉS** du panneau.
+1. Cliquez sur **+ Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS**.
 
 1. Dans la boîte de dialogue **Attribution de canaux** :
 
-   1. Sélectionnez le chemin d’accès à **EmergencyChannel**.
+   1. Cliquez sur le chemin d’accès au **EmergencyChannel**
    1. Définissez la **priorité** sur 1.
 
    1. Définissez les Événements pris en charge **Charge initiale**, **Écran inactif** et **Interaction utilisateur**
 
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Enregistrer**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -145,12 +145,12 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Accédez à chaque affichage, par exemple : **EmergencyChannel** > **Emplacements** > **Magasin** >**StoreFront**.
 
-   1. Sélectionner **Tableau de bord** dans la barre d’actions.
-   1. Sélectionner **..** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** panneau et sélectionnez ensuite **+Attribuer une planification**.
+   1. Cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Cliquez sur **...** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, puis sur **+Attribuer une planification**.
 
-   1. Sélectionnez le chemin d’accès au planning (par exemple, ici, **EmergencyChannel** > **Planifications** >**StoreSchedule**).
+   1. Cliquez sur le chemin d’accès au planning (par exemple, ici, **EmergencyChannel** > **Planifications** >**StoreSchedule**).
 
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Enregistrer**.
 
    Vous pouvez afficher la planification affectée à l’affichage à partir du tableau de bord **StoreSchedule**.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -165,15 +165,15 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 En cas d’urgence, procédez comme suit :
 
-1. Accédez à **EmergencyChannel** > **Planifications** > **StoreSchedule** et sélectionnez **Tableau de bord** dans la barre d’actions.
+1. Accédez à **EmergencyChannel** > **Planifications** > **StoreSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Sélectionnez la variable **EmergencyChannel** de la **StoreSchedule** tableau de bord et sélectionnez **Modifier l’affectation**.
+1. Cliquez sur le bouton **EmergencyChannel** de la **StoreSchedule** tableau de bord et cliquez sur **Modifier l’affectation**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Mettez à jour le **Priorité** de **EmergencyChannel** to **3** de la **Attribution de canaux** , puis sélectionnez **Enregistrer**.
+1. Définissez la **Priorité** de **EmergencyChannel** sur **3** depuis la boîte de dialogue **Attribution de canaux** et cliquez sur **Enregistrer**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 

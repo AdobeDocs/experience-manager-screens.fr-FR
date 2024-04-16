@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -32,11 +32,11 @@ Suivez les étapes ci-dessous pour attribuer un canal à un affichage :
 
    ![image](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Sélectionner **Attribuer le canal** dans la barre d’actions.
+1. Cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    ou
 
-   Sélectionner **Tableau de bord** et sélectionnez **+Attribuer le canal** de la **CANAUX ATTRIBUÉS** pour ouvrir le panneau **Attribution de canaux** de la boîte de dialogue
+   Cliquez sur **Tableau de bord** et cliquez sur **+Attribuer le canal** de la **CANAUX ATTRIBUÉS** pour ouvrir le panneau **Attribution de canaux** de la boîte de dialogue
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 En tant qu’auteur de contenu, spécifiez le moment où un canal est interrompu afin que vous puissiez choisir de couper le contenu non critique, mais éventuellement de laisser la lecture du contenu important avant de l’interrompre en raison de la planification.
 
-Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la boîte de dialogue **Attribution de canaux** :
+Cliquez sur l’une des options suivantes disponibles pour définir la méthode d’interruption à partir de la variable **Attribution de canaux** boîte de dialogue :
 
 * **Immédiatement** - Chaque fois que la planification est activée ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
 * **À la fin de l’élément actif** - Lorsqu’une nouvelle planification est activée ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre la fin de la lecture de l’élément actuel dans la séquence. Ce n’est qu’après cela que vous pouvez actualiser ou lire le nouveau contenu.

@@ -2,10 +2,10 @@
 title: Rôles et responsabilités du projet AEM Screens
 description: Découvrez les rôles et responsabilités des projets AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -47,7 +47,7 @@ L’intégrateur audio/vidéo est chargé de procéder aux investigations auprè
 
 #### Sélection du partenaire matériel {#selecting-hardware-partner}
 
-Choisir le bon partenaire matériel revêt une importance capitale. Les questions suivantes doivent être prises en compte :
+Il est essentiel de cliquer sur le bon partenaire matériel. Les questions suivantes doivent être prises en compte :
 
 1. Quels sont les termes du contrat de niveau de service ?
 

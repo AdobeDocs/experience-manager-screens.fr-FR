@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -83,7 +83,7 @@ Suivez les étapes ci-dessous pour configurer les paramètres de notification é
    >
    >Vous ne pouvez saisir qu’une seule adresse e-mail. Pour envoyer un email en bloc, créez un groupe ou une liste de distribution avec les utilisateurs concernés.
 
-1. Sélectionner **Enregistrer** pour configurer l’activité de moniteur par e-mail pour votre appareil AEM Screens.
+1. Cliquez sur **Enregistrer** pour configurer l’activité du moniteur par e-mail pour votre appareil AEM Screens.
 
 ## Notification par e-mail {#email-notification}
 

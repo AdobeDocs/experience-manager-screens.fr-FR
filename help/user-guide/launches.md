@@ -10,10 +10,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -101,29 +101,29 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité de lancem
 
    ![Image](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Sélectionner le canal **FutureLaunch** et sélectionnez **Créer un lancement** dans la barre d’actions.
+1. Cliquez sur le canal **FutureLaunch** et cliquez sur **Créer un lancement** dans la barre d’actions.
 
    ![Image](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez sélectionner le canal déjà visible dans l’assistant ou sélectionner **+ Ajouter des canaux** pour ajouter le canal pour lequel vous souhaitez créer le lancement.
+1. L’assistant **Créer un lancement** s’ouvre. Vous pouvez cliquer sur le canal déjà visible dans l’assistant ou cliquer sur **+ Ajouter des canaux** pour ajouter le canal pour lequel vous souhaitez créer le lancement.
 
-1. Sélectionner **Suivant** de la **Créer un lancement** assistant. L’option **Inclure les sous-pages** est sélectionnée par défaut.
+1. Cliquez sur **Suivant** dans l’assistant **Créer un lancement**. L’option **Inclure les sous-pages** est sélectionnée par défaut.
 
    ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Vous pouvez utiliser **+ Ajouter des canaux** pour ajouter un autre canal pour lequel vous souhaitez créer le lancement.
 
-   Pour utiliser **Ajout de canaux** , accédez au canal pour lequel vous souhaitez créer le lancement et sélectionnez **Sélectionner**.
+   Pour utiliser l’option **Ajouter un canal**, accédez au canal pour lequel vous souhaitez créer le lancement, puis cliquez sur **Sélectionner**.
 
-   La variable **Sélectionner** est désactivée si vous essayez de sélectionner plusieurs canaux ou un dossier pour ajouter le lancement.
+   La variable **Sélectionner** est désactivée si vous essayez de cliquer sur plusieurs canaux ou sur un dossier pour ajouter le lancement.
 
    ![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Après avoir sélectionné le ou les canaux, sélectionnez **Suivant**.
+   Après avoir cliqué sur le ou les canaux, cliquez sur **Suivant**.
 
 
-1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Sélectionnez **Créer**.
+1. Saisissez le **Titre du lancement** **SummerPromotions** et vous n’aurez pas besoin de définir la **Date de lancement**, comme illustré dans la figure ci-dessous. Cliquez sur **Créer**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité de lancem
      >
      >La date d’activation du lancement se conforme au fuseau horaire du lecteur/de l’appareil plutôt qu’à celui du serveur.
 
-1. Notez que votre lancement est créé. Vous pouvez sélectionner **Ouvrir** pour afficher les pages dans l’éditeur ou sélectionner **Terminé** pour revenir à votre projet.
+1. Notez que votre lancement est créé. Vous pouvez cliquer sur **Ouvrir** pour afficher les pages dans l’éditeur ou sur **Terminé** pour revenir à votre projet.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ Une fois le lancement créé, vous pouvez mettre à jour les propriétés telles
 
 Pour modifier les propriétés de lancement, procédez comme suit :
 
-1. Accédez au canal **FutureLaunch** *(lancement en attente)*, puis sélectionnez le canal comme illustré dans la figure ci-dessous.
+1. Accédez au canal **FutureLaunch** *(lancement en attente)*, puis cliquez sur le canal comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Sélectionner **Tableau de bord** à partir de la barre d’actions, le **LANCEMENTS EN ATTENTE** du tableau de bord des canaux.
+1. Cliquez sur **Tableau de bord** à partir de la barre d’actions, le **LANCEMENTS EN ATTENTE** du tableau de bord des canaux.
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Sélectionnez le lancement, puis sélectionnez **Propriétés de lancement** de la **LANCEMENTS EN ATTENTE** du panneau.
+1. Cliquez sur le lancement, puis sur **Propriétés de lancement** de la **LANCEMENTS EN ATTENTE** du panneau.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ Pour modifier les propriétés de lancement, procédez comme suit :
 
 Après avoir créé le lancement, vous pouvez ajouter ou supprimer des canaux pour celui-ci à l’aide de l’option **Modifier le lancement**.
 
-Lorsque vous avez terminé, sélectionnez **Enregistrer** pour revenir à **FutureLaunch** canal.
+Lorsque vous avez terminé, cliquez sur **Enregistrer** pour revenir à **FutureLaunch** canal.
 
 ### Promotion manuelle du lancement Screens{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ Vous pouvez choisir les ressources que vous souhaitez promouvoir manuellement da
    * **Promouvoir les pages modifiées** - Seules les ressources de lancement modifiées sont promues. Utilisez cette option lorsque la révision du lancement n’est pas requise.
    * **Promouvoir les pages approuvées** - Cette option nécessite que le workflow d’approbation du lancement s’exécute sur les canaux de lancement. Seules les pages approuvées sont promues à la date d’activation définie.
    * **Convertir la page active** - Cette option nécessite que le workflow d’approbation du lancement s’exécute uniquement pour la page active.
-1. Sélectionner **Suivant** dans le **Convertir le lancement** assistant.
-1. Sélectionner **Convertir** pour promouvoir le lancement.
+1. Cliquez sur **Suivant** dans l’assistant **Promotion du lancement**.
+1. Cliquez sur **Promouvoir** pour promouvoir le lancement.
 
 ### Suppression du lancement Screens
 

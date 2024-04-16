@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
@@ -32,12 +32,12 @@ Cette page présente la création et la gestion des emplacements pour Screens.
 
 Après avoir créé votre projet pour Screens, procédez comme suit pour créer un emplacement pour un projet Screens :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`.
-1. Accédez au projet Screens et sélectionnez **Emplacements**.
-1. Sélectionner **Créer** en regard de l’icône plus dans la barre d’actions.
-1. Sélectionner le modèle **Emplacement** dans l’assistant, puis sélectionnez **Suivant**.
+1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur Screens. Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`.
+1. Accédez au projet Screens, puis cliquez sur **Emplacements**.
+1. Cliquez sur **Créer** en regard de l’icône plus dans la barre d’actions.
+1. Cliquez sur le modèle. **Emplacement** dans l’assistant, puis cliquez sur **Suivant**.
 1. Saisissez les propriétés pour **Titre et balises**, **Autres titres et description**, **Heure d’activation/de désactivation** et **URL Vanity**.
-1. Sélectionner **Créer** et l’emplacement est créé et ajouté à votre dossier d’emplacements.
+1. Cliquez sur **Créer** pour créer l’emplacement et l’ajouter au dossier des emplacements.
 
 Pour comprendre la création d’un emplacement pour un projet AEM Screens, reportez-vous aux étapes ci-dessous. À des fins de démonstration, le nouvel emplacement (SanJose) est créé sous *DemoProject*.
 
@@ -49,8 +49,8 @@ Après avoir créé un emplacement, créez un affichage pour celui-ci.
 
 Pour modifier/accéder aux propriétés d’un emplacement :
 
-1. Sélectionnez l’emplacement.
-1. Sélectionnez **Propriétés** dans la barre d’actions.
+1. Cliquez sur l’emplacement.
+1. Cliquez sur **Propriétés** dans la barre d’actions.
 
 ![player3](assets/player3.gif)
 

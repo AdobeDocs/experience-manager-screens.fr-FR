@@ -2,10 +2,10 @@
 title: Durée de lecture des images au niveau du projet
 description: Découvrez comment définir la durée de lecture des images au niveau du projet.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 33%
+ht-degree: 36%
 
 ---
 
@@ -43,10 +43,10 @@ La section ci-après explique comment modifier la durée de lecture d’un conte
 
 Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de lecture des images d’un projet :
 
-1. Accédez à votre projet **ProjectLevelPlayback** et sélectionnez **Propriétés** dans la barre d’actions.
+1. Accédez au projet **ProjectLevelPlayback** et cliquez sur **Propriétés** dans la barre d’actions.
    ![ressources](assets/image_playback3.png)
 
-1. Sélectionnez toutes les images du canal et cliquez sur l’icône en forme de clé à molette en haut à gauche (comme illustré dans la figure ci-dessous) afin d’ouvrir la boîte de dialogue de configuration de canal.
+1. Cliquez sur toutes les images du canal, puis sur l’icône en forme de clé à molette en haut à gauche (comme illustré dans la figure ci-dessous) pour ouvrir la boîte de dialogue Configuration de canal .
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 39%
+ht-degree: 33%
 
 ---
 
@@ -46,25 +46,25 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    1. Accédez aux segments de votre audience (voir ***Étape 2 : configuration de la segmentation de l’audience*** in **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
-   1. Sélectionnez la variable **Sheets A1 1** et sélectionnez **Modifier**.
+   1. Cliquez sur le bouton **Sheets A1 1** et cliquez sur **Modifier**.
 
-   1. Sélectionnez la propriété de comparaison et cliquez sur l’icône de configuration.
-   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
+   1. Cliquez sur la propriété de comparaison, puis sur l’icône de configuration.
+   1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
 
-   1. Sélectionnez l’**opérateur** **supérieur ou égal à** (greater-than-or-equal) dans le menu déroulant.
-
-   1. Saisissez la **valeur** **50**
-
-   1. De même, sélectionnez la variable **Sheets A1 2** et sélectionnez **Modifier**.
-
-   1. Sélectionnez la variable **Propriété de comparaison - Valeur** et sélectionnez l’icône de configuration.
-   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
-
-   1. Sélectionnez l’**Opérateur** **inférieur à** (lower-than) dans le menu déroulant
+   1. Cliquez sur le bouton **Opérateur** as **supérieur ou égal à** dans le menu déroulant
 
    1. Saisissez la **valeur** **50**
 
-1. Recherchez et sélectionnez votre canal (), puis sélectionnez **Modifier** dans la barre d’actions. Dans l’exemple ci-dessous, **DataDrivenWeather**, la fonctionnalité est illustrée au moyen d’un canal de séquence.
+   1. De même, sélectionnez la variable **Sheets A1 2** et cliquez sur **Modifier**.
+
+   1. Cliquez sur le bouton **Propriété de comparaison - Valeur** et sélectionnez l’icône de configuration.
+   1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**
+
+   1. Cliquez sur le bouton **Opérateur** as **less-than** dans le menu déroulant
+
+   1. Saisissez la **valeur** **50**
+
+1. Naviguez et sélectionnez votre canal (), puis cliquez sur **Modifier** dans la barre d’actions. Dans l’exemple ci-dessous, **DataDrivenWeather**, la fonctionnalité est illustrée au moyen d’un canal de séquence.
 
    >[!NOTE]
    >
@@ -78,13 +78,13 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Sélectionner **Ciblage** dans l’éditeur, puis sélectionnez **Marque** et la variable **Activité** dans le menu déroulant, sélectionnez **Commencer le ciblage**.
+1. Cliquez sur **Ciblage** dans l’éditeur, puis cliquez sur **Marque** et la variable **Activité** dans le menu déroulant et cliquez sur **Commencer le ciblage**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Vérification de l’aperçu**
 
-   1. Sélectionner **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
+   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
    1. Définissez la valeur sur moins de 50. Vous devriez pouvoir voir une image d&#39;une boisson froide. Si la valeur de Google Sheets est supérieure ou égale à 50, une image de boisson chaude devrait s’afficher.
 
    ![result3](assets/result3.gif)

@@ -2,10 +2,10 @@
 title: Prise en charge des miniatures pour les vidéos dans AEM Screens
 description: Découvrez comment ajouter la prise en charge des miniatures pour les vidéos dans AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Suivez les étapes ci-dessous pour utiliser des miniatures dans les vidéos :
 
 1. Accédez à un canal AEM Screens existant ou créez-en un.
 
-1. Sélectionnez le canal et choisissez **Modifier** dans la barre d’actions.
+1. Cliquez sur le canal, puis sur **Modifier** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Suivez les étapes ci-dessous pour utiliser des miniatures dans les vidéos :
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Sélectionnez la vidéo et sélectionnez l’option *clé* Icône
+1. Cliquez sur la vidéo, puis sur le bouton *clé* Icône
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ Suivez les étapes ci-dessous pour utiliser des miniatures dans les vidéos :
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Faites glisser et déposez une image du sélecteur de ressources vers le **Miniature** Zone de dépôt et sélectionnez **Terminé**.
+1. Faites glisser une image à partir du sélecteur de ressources vers la zone de dépôt **Miniature** et cliquez sur **Terminé**.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Sélectionnez **Aperçu**.
+1. Cliquez sur **Aperçu**. 
 
 1. Si une vidéo est définie sur le composant, elle est lue. Si ce n’est pas le cas, et que la miniature est définie, alors la miniature s’affiche. Sinon, le composant est considéré comme non configuré et est ignoré.
 

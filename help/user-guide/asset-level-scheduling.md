@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 54%
@@ -50,7 +50,7 @@ La planification au niveau des ressources s’effectue en configurant l’onglet
 
 Suivez les étapes ci-dessous pour effectuer une planification au niveau des ressources :
 
-1. Sélectionnez un canal, puis cliquez sur **Modifier** dans la barre d’actions.
+1. Cliquez sur n’importe quel canal, puis sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
    >* créer un projet, voir [Création d’un projet](creating-a-screens-project.md).
    >* créer et ajouter du contenu à un canal, voir [Gestion des canaux](managing-channels.md).
 
-1. Sélectionner **Modifier** vous pouvez donc ouvrir l’éditeur de canal et sélectionner une ressource à laquelle vous souhaitez appliquer la planification.
+1. Cliquez sur **Modifier** vous pouvez alors ouvrir l’éditeur de canal et cliquer sur une ressource à laquelle vous souhaitez appliquer la planification.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Sélectionnez la ressource, puis cliquez sur en haut à gauche. **Configurer** (icône de clé à molette).
+1. Cliquez sur la ressource, puis sur en haut à gauche. **Configurer** (icône de clé à molette).
 
-   Sélectionnez la variable **Activation** .
+   Cliquez sur l’onglet **Activation**.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Vous pouvez spécifier la date à l’aide des champs **Actif à partir de** et **Actif jusqu’à** du sélecteur de date.
 
-   Si vous sélectionnez l’option **Actif à partir de** et **Actif jusqu’à** date et heure, la ressource affiche et effectue une boucle uniquement entre cette date/heure de début et cette date/heure de fin, respectivement.
+   Si vous cliquez sur le bouton **Actif à partir de** et **Actif jusqu’à** date et heure, la ressource affiche et effectue une boucle uniquement entre cette date/heure de début et cette date/heure de fin, respectivement.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h 
 
 ### Tranches horaires {#day-parting}
 
-1. Sélectionnez la ressource et cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
+1. Cliquez sur la ressource et cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
@@ -111,7 +111,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Tranches hebdomadaires {#week-parting}
 
-1. Sélectionnez la ressource, puis cliquez sur **Configurer** (icône de clé à molette).
+1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
@@ -136,7 +136,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Tranches mensuelles {#month-parting}
 
-1. Sélectionnez la ressource, puis cliquez sur **Configurer** (icône de clé à molette).
+1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
@@ -159,7 +159,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 ### Combinaison de tranches {#combined-parting}
 
-1. Sélectionnez la ressource, puis cliquez sur **Configurer** (icône de clé à molette).
+1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
@@ -189,7 +189,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Activation multiressource*** permet à l’utilisateur de sélectionner plusieurs ressources et d’appliquer une planification de lecture à toutes les ressources sélectionnées.
+***Activation multiressource*** permet à l’utilisateur de cliquer sur plusieurs ressources et d’appliquer une planification de lecture à toutes les ressources sélectionnées.
 
 ### Prérequis {#prerequisites}
 
@@ -200,21 +200,21 @@ Pour utiliser l’activation de plusieurs ressources, créez un projet AEM Scre
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Pour sélectionner plusieurs ressources et planifier leur affichage dans un projet AEM Screens, procédez comme suit :
+Pour cliquer sur plusieurs ressources et planifier leur affichage dans un projet AEM Screens, procédez comme suit :
 
-1. Sélectionner **MultiAssetChannel**, puis sélectionnez **Modifier** dans la barre d’actions.
+1. Cliquez sur **MultiAssetChannel**, puis cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Sélectionnez plusieurs ressources dans l’éditeur, puis sélectionnez **Modifier l’activation** (icône en haut à gauche).
+1. Cliquez sur plusieurs ressources dans l’éditeur, puis sur **Modifier l’activation** (icône en haut à gauche).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Sélectionnez la date et l’heure dans **Actif à partir de** et **Actif jusqu’à** dans la boîte de dialogue **Activation du composant**. Sélectionnez l’icône en forme de coche lorsque vous avez terminé de sélectionner les plannings.
+1. Cliquez sur la date et l’heure indiquées dans **Actif à partir de** et **Actif jusqu’à** de la **Activation des composants** de la boîte de dialogue Cliquez sur l’icône en forme de coche lorsque vous avez terminé de sélectionner les planifications.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Sélectionnez Actualiser pour vérifier les ressources auxquelles une planification multiressource est appliquée.
+1. Cliquez sur Actualiser pour vérifier les ressources auxquelles une planification multiressource est appliquée.
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ Cela permet à l’auteur de contenu de désigner la lecture d’une ressource s
 
 Le remplacement global pour une heure de début universelle est effectué en configurant l’onglet **Activation** lors de l’accès aux propriétés d’une ressource. Suivez les étapes ci-dessous pour effectuer un remplacement global pour la planification des ressources :
 
-1. Sélectionnez un canal, puis cliquez sur **Modifier** dans la barre d’actions afin de pouvoir ajouter ou modifier du contenu dans votre canal.
+1. Cliquez sur n’importe quel canal, puis sur **Modifier** dans la barre d’actions afin de pouvoir ajouter ou modifier du contenu dans votre canal.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Sélectionnez **Modifier**.
-1. Dans l’éditeur de canal, sélectionnez une ressource dont vous souhaitez appliquer le planning.
+1. Cliquez sur **Modifier**.
+1. Dans l’éditeur de canal, cliquez sur une ressource dont vous souhaitez appliquer le planning.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

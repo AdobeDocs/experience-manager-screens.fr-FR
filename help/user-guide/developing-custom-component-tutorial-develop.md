@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -88,7 +88,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
 1. **Accédez à AEM Screens > `We.Retail` Exécutez le projet :**
 
-   Dans le menu Démarrer d’AEM, sélectionnez l’icône Screens . Vérifiez les `We.Retail` Exécuter le projet s’affiche.
+   Dans le menu Démarrer d&#39;AEM, cliquez sur l&#39;icône Screens . Vérifiez les `We.Retail` Exécuter le projet s’affiche.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ Sous une `We.Retail` La page Exécuter la conception est créée et stocke toute
 
 Le composant Hello World est à utiliser sur un canal de séquence. Pour tester le composant, un nouveau canal de séquence est créé.
 
-1. Dans le menu AEM, accédez à **Screens** > **`We.Retail`Exécuter** > et sélectionnez **Canaux**.
+1. Dans le menu AEM, accédez à **Screens** > **`We.Retail`Exécuter** > et cliquez sur **Canaux**.
 
-1. Sélectionnez la variable **Créer** button
+1. Cliquez sur le bouton **Créer**
 
    1. Choisir **Créer une entité**
 
@@ -435,9 +435,9 @@ Le composant Hello World est à utiliser sur un canal de séquence. Pour tester 
 
 1. Basculez le mode Page vers le mode **Conception**.
 
-   1. Sélectionnez la variable **clé** Icône dans le système de paragraphes (parsys) afin de pouvoir configurer les composants autorisés.
+   1. Cliquez sur l’icône en forme de **clé à molette** dans les paramètres pour configurer les composants autorisés.
 
-   1. Sélectionnez la variable **Screens** et la variable **`We.Retail`Run - Content** groupe.
+   1. Cliquez sur le bouton **Screens** et la variable **`We.Retail`Run - Content** groupe.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

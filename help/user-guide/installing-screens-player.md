@@ -6,10 +6,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
@@ -28,8 +28,8 @@ Pour télécharger le **lecteur AEM Screens**, consultez la page de [téléchar
 >Après avoir téléchargé le dernier lecteur (*.exe*), suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
 >1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
->1. Accédez à **Configuration** dans le menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et sélectionnez **Enregistrer**.
->1. Sélectionner **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+>1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
+>1. Cliquez sur **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
 
 ## Suivi de base de la lecture {#playback-monitoring}
 

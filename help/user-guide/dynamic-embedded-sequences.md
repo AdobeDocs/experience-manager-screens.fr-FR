@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -118,9 +118,9 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
 
    1. Accédez à **Démonstration** > **Emplacements** > **Région A**.
-   1. Sélectionner **Région A** et sélectionnez **+ Créer** dans la barre d’actions.
-   1. Sélectionnez **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
-   1. Répétez l’étape (b) et sélectionnez maintenant **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et le **Nom** **région** pour ce canal.
+   1. Cliquez sur **Région A** et cliquez sur **+ Créer** dans la barre d’actions.
+   1. Cliquez sur **Emplacement** de l’assistant avec **Titre** as **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** pour **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
+   1. Répétez l’étape (b) et cliquez maintenant sur **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et le **Nom** **région** pour ce canal.
 
    >[!CAUTION]
    >
@@ -139,9 +139,9 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créez Affichage et Canal sous chaque emplacement.**
 
    1. Accédez à **Démonstration** > **Emplacements** > **Région A** > **Magasin 1**.
-   1. Sélectionner **Magasin 1** et sélectionnez **+ Créer** dans la barre d’actions.
-   1. Sélectionner **Affichage** à partir de l’assistant et créez **`Store1Display`**.
-   1. Répétez l’étape (b) et sélectionnez cette fois **Canal de séquence** dans l’assistant. Saisissez le **Titre** as **`Store1Channel`** et la variable **Nom** as **store**.
+   1. Cliquez sur **Magasin 1** et cliquez sur **+ Créer** dans la barre d’actions.
+   1. Cliquez sur **Affichage** à partir de l’assistant et créez **`Store1Display`**.
+   1. Répétez l’étape (b) et cliquez cette fois sur **Canal de séquence** dans l’assistant. Saisissez le **Titre** as **`Store1Channel`** et la variable **Nom** as **store**.
 
    >[!CAUTION]
    >
@@ -169,14 +169,14 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Ajoutez du contenu aux canaux dans leurs emplacements respectifs.**
 
-   Accédez au **Démonstration** > **Emplacements** > **Région A** > **Région A** et sélectionnez **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal.
+   Accédez au **Démonstration** > **Emplacements** > **Région A** > **Région A** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser-déposer les ressources à ajouter au canal.
 
    >[!NOTE]
    >Vous pouvez utiliser le fichier ***Resources.zip*** de la section **Ressources** ci-dessus pour utiliser les images comme ressources pour le contenu de votre canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   De même, accédez à la **Démonstration** > **Emplacements** > **Région B** > **Région B** et sélectionnez **Modifier** à partir de la barre d’actions pour faire glisser les ressources vers votre canal, comme illustré ci-dessous :
+   De même, accédez à la **Démonstration** > **Emplacements** > **Région B** > **Région B** et cliquez sur **Modifier** à partir de la barre d’actions pour faire glisser les ressources vers votre canal, comme illustré ci-dessous :
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Créer un calendrier**
 
-   Naviguez et sélectionnez **Planifications** dans votre projet AEM Screens. Sélectionnez **Créer** dans la barre d’actions.
+   Naviguez et cliquez sur **Planifications** dans votre projet AEM Screens. Cliquez ensuite sur **Créer** dans la barre d’actions.
 
    L’image suivante montre le **AdSchedule** créé dans le projet **Demo**.
 
@@ -197,29 +197,29 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Attribuer des canaux à une planification**
 
-   1. Accédez à **Démonstration** > **Planifications** > **AdSchedule** et sélectionnez **Tableau de bord** dans la barre d’actions.
-   1. Sélectionner **+ Attribuer le canal** de **CANAUX ATTRIBUÉS** pour ouvrir le panneau **Attribution de canaux** de la boîte de dialogue
-   1. Sélectionner **Canal de référence** par chemin.
-   1. Sélectionnez la variable **Chemin du canal** as **Démonstration** > ***Canaux*** > ***Global***.
+   1. Accédez à **Démonstration** > **Planifications** > **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Cliquez sur **+ Attribuer le canal** de **CANAUX ATTRIBUÉS** pour ouvrir le panneau **Attribution de canaux** de la boîte de dialogue
+   1. Cliquez sur **Canal de référence** par chemin.
+   1. Cliquez sur le bouton **Chemin du canal** as **Démonstration** > ***Canaux*** > ***Global***.
    1. Définissez le **rôle du canal** sur **GlobalAdSegment**.
-   1. Sélectionnez les **Événements pris en charge** **Chargement initial**, **écran d’inactivité** et **Interaction utilisateur**.
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur le bouton **Événements pris en charge** as **Charge initiale**, **Écran inactif**, et **Interaction de l’utilisateur**.
+   1. Cliquez sur **Enregistrer**.
 
    **Attribution d’un canal par rôle pour la région :**
 
-   1. Sélectionner **+ Attribuer le canal** de **CANAUX ATTRIBUÉS** du panneau.
-   1. Dans la boîte de dialogue Attribution de canaux , sélectionnez **Canal de référence** par nom.
+   1. Cliquez sur **+ Attribuer le canal** de **CANAUX ATTRIBUÉS** du panneau.
+   1. Dans la boîte de dialogue Attribution de canaux, cliquez sur **Canal de référence** par nom.
    1. Saisissez comme **Nom du canal** **région***.
    1. Définissez le **rôle du canal** sur **RegionAdSegment**.
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Enregistrer**.
 
    **Attribution d’un canal par rôle pour le magasin :**
 
-   1. Sélectionner **+ Attribuer le canal** de **CANAUX ATTRIBUÉS** du panneau.
-   1. Dans la boîte de dialogue Attribution de canaux , sélectionnez **Canal de référence** par nom.
+   1. Cliquez sur **+ Attribuer le canal** de **CANAUX ATTRIBUÉS** du panneau.
+   1. Dans la boîte de dialogue Attribution de canaux, cliquez sur **Canal de référence** par nom.
    1. Saisissez le **Nom du canal** **magasin**.
    1. Définissez le **Rôle du canal** sur **StoreAdSegment**.
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Enregistrer**.
 
    L’image suivante montre les canaux attribués par chemin et par rôle.
 
@@ -229,7 +229,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    Accédez au **Global** Canal que vous avez initialement créé dans **Démonstration** projet.
 
-   Sélectionner **Modifier** dans la barre d’actions.
+   Cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -237,17 +237,17 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    Ouvrez les propriétés de l’un des composants et saisissez le rôle **d’attribution de canaux** sous la forme **RegionAdSegment**.
 
-   De même, sélectionnez les autres composants et ouvrez les propriétés pour entrer dans le **Rôle d’attribution de canaux** as **StoreAdSegment**.
+   De même, cliquez sur les autres composants et ouvrez les propriétés pour entrer dans le **Rôle d’attribution de canaux** as **StoreAdSegment**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
 1. **Attribution d’une planification à chaque affichage**
 
    1. Accédez à chaque affichage, par exemple : **Démonstration** > **Emplacements** > **Région A** >**Magasin 1** >**`Store1Display`**.
-   1. Sélectionner **Tableau de bord** dans la barre d’actions.
-   1. Dans le tableau de bord, sélectionnez **..** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** puis sélectionnez **+Attribuer une planification**.
-   1. Sélectionnez le chemin d’accès au planning (par exemple, ici, **Démonstration** > **Planifications** > **AdSchedule**).
-   1. Sélectionnez **Enregistrer**.
+   1. Cliquez sur **Tableau de bord** dans la barre d’actions.
+   1. Dans le tableau de bord, cliquez sur **..** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** puis cliquez sur **+Attribuer une planification**.
+   1. Cliquez sur le chemin d’accès au planning (par exemple, ici, **Démonstration** > **Planifications** > **AdSchedule**).
+   1. Cliquez sur **Enregistrer**.
 
 ## Affichage des résultats {#viewing-the-results}
 
@@ -306,9 +306,9 @@ Suivez les étapes ci-dessous pour créer des groupes, des utilisateurs et modif
 1. **Création de groupes**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Sélectionner **Outils** > **Sécurité** > **Groupes**.
-   1. Sélectionner **Créer un groupe** et saisissez **Global-Auteur** in **ID**.
-   1. Sélectionnez **Enregistrer et fermer**.
+   1. Cliquez sur **Outils** > **Sécurité** > **Groupes**.
+   1. Cliquez sur **Créer un groupe** et saisissez **Global-Auteur** dans **ID**.
+   1. Cliquez sur **Enregistrer et fermer**.
 
    De même, créez deux autres groupes comme **Région-Auteur** et **Magasin-Auteur**.
 
@@ -317,11 +317,11 @@ Suivez les étapes ci-dessous pour créer des groupes, des utilisateurs et modif
 1. **Création d’utilisateurs et ajout d’utilisateurs à des groupes**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Sélectionner **Outils** > **Sécurité** > **Utilisateurs**.
-   1. Sélectionner **Créer un utilisateur** et saisissez **Global-User** in **ID**.
+   1. Cliquez sur **Outils** > **Sécurité** > **Utilisateurs**.
+   1. Cliquez sur **Créer un utilisateur** et saisissez **Global-Utilisateur** dans **ID**.
    1. Saisissez le **mot de passe** et confirmez le mot de passe de cet utilisateur.
-   1. Sélectionnez la variable **Groupes** et saisissez le nom du groupe dans **Sélectionner un groupe**, par exemple, saisissez **Global-Auteur** ajouter **Global-User** à ce groupe spécifique.
-   1. Sélectionnez **Enregistrer et fermer**.
+   1. Cliquez sur le bouton **Groupes** et saisissez le nom du groupe dans **Cliquez sur Groupe**, par exemple, saisissez **Global-Auteur** ajouter **Global-User** à ce groupe spécifique.
+   1. Cliquez sur **Enregistrer et fermer**.
 
    De même, créez deux autres utilisateurs, comme **Région-Utilisateur** et **Magasin-Utilisateur**, puis ajoutez-les à **Région-Auteur** et à **Magasin-Auteur** respectivement.
 
@@ -333,15 +333,15 @@ Suivez les étapes ci-dessous pour créer des groupes, des utilisateurs et modif
 1. **Ajouter tous les groupes aux contributeurs**
 
    1. Accédez à **Adobe Experience Manager**.
-   1. Sélectionner **Outils** > **Sécurité** > **Groupes**.
-   1. Sélectionnez **Contributeurs** dans la liste et sélectionnez l’onglet **Membres**.
-   1. Sélectionnez le **Groupe**, comme **Global-Auteur**, **Région-Auteur,** et **Magasin-Auteur** pour les contributeurs.
-   1. Sélectionnez **Enregistrer et fermer**.
+   1. Cliquez sur **Outils** > **Sécurité** > **Groupes**.
+   1. Cliquez sur **Contributeurs** dans la liste, puis cliquez sur **Membres** .
+   1. Cliquez sur le bouton **Groupe** par exemple **Global-Auteur**, **Region-Auteur,** et **Store-Author** aux contributeurs.
+   1. Cliquez sur **Enregistrer et fermer**.
 
 1. **Accès aux autorisations pour chaque groupe**
 
    1. Accédez à l’*utilisateur admin* et utilisez cette interface utilisateur pour modifier les autorisations de différents groupes.
-   1. Recherchez **Global-Auteur** et sélectionnez **Autorisations** , comme illustré dans la figure ci-dessous.
+   1. Recherchez **Global-Auteur** et cliquez sur l’onglet **Autorisations**, comme illustré dans la figure ci-dessous.
    1. De même, vous pouvez accéder aux autorisations pour **Région-Auteur** et **Magasin-Auteur**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)

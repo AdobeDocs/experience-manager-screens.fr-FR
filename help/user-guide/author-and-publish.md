@@ -2,7 +2,7 @@
 title: Configuration des instances de création et de publication dans AEM Screens
 description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 41%
@@ -66,23 +66,23 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Sélectionnez la **Réplication** dans l’arborescence de navigation de gauche.
+1. Cliquez sur le bouton **Réplication** dans l’arborescence de navigation de gauche.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Sélectionnez la variable **Agents sur l’auteur** de la **Réplication** et sélectionnez **Nouveau** pour créer un agent de réplication standard.
+1. Cliquez sur le bouton **Agents sur l’auteur** de la **Réplication** et cliquez sur **Nouveau** pour créer un agent de réplication standard.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Saisissez le **Titre** et **Nom** pour créer l’agent de réplication, puis sélectionnez **Créer**.
+1. Saisissez le **Titre** et **Nom** pour créer l’agent de réplication, puis cliquez sur **Créer**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Cliquez avec le bouton droit sur l’agent de réplication et sélectionnez **Ouvrir** pour modifier les paramètres.
+1. Cliquez avec le bouton droit sur l’agent de réplication, puis cliquez sur **Ouvrir** pour modifier les paramètres.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Sélectionnez **Modifier**.
+1. Cliquez sur **Modifier**.
 
 1. Dans le **Paramètres de l’agent** , saisissez les détails.
 
@@ -128,7 +128,7 @@ Configurez la détection Apache Sling basée sur Oak pour toutes les instances d
 Pour chaque instance de publication :
 
 1. Accédez à `https://<host>:<port>/system/console/configMgr`.
-1. Sélectionnez la Configuration du **Service de détection Apache Sling basé sur Oak**.
+1. Cliquez sur **Service de détection Apache Sling basé sur Oak** Configuration.
 1. Mettez à jour les URL du connecteur de topologie : ajoutez les URL de toutes les instances de publication participantes qui sont :
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -151,7 +151,7 @@ Sur chaque instance de publication :
 
 1. Dans la console OSGi, accédez à **MAIN** > **Prise en charge de Crypto** (`https://<host>:<port>/system/console/crypto`).
 1. Saisissez le mot de passe en texte brut (identique pour toutes les instances) dans **Texte brut**
-1. Sélectionner **Protect**.
+1. Cliquez sur **Protéger**.
 1. Copiez la valeur **Texte protégé** dans le bloc-notes ou l’éditeur de texte. Cette valeur peut être utilisée dans la configuration OSGi pour ActiveMQ.
 
 Comme chaque instance de publication possède par défaut des clés de chiffrement uniques, effectuez cette étape sur chaque instance pub et enregistrez la clé unique pour la configuration suivante.
@@ -166,7 +166,7 @@ Comme chaque instance de publication possède par défaut des clés de chiffreme
 Sur chaque instance de publication :
 
 1. Accédez au gestionnaire de configuration OSGi `https://<host>:<port>/system/console/configMgr`
-1. Sélectionnez la Configuration du **Fournisseur JMS Apache ActiveMQ Artemis**
+1. Cliquez sur **Fournisseur JMS Apache ActiveMQ Artemis** Configuration
 1. Mettez à jour les éléments suivants :
 
    * ***Mot de passe du cluster*** : utilisez la valeur chiffrée de l’étape précédente pour chaque instance
@@ -191,7 +191,7 @@ Suivez les étapes ci-dessous sur chaque instance de publication :
 
 Par exemple, l’image suivante s’affiche lors d’une configuration réussie d’ActiveMQ Artemis Server.
 
-Si vous ne voyez pas la configuration suivante de */system/console/mq*, puis accédez à */system/console/mq* et sélectionnez **Redémarrer** pour redémarrer le courtier.
+Si vous ne voyez pas la configuration suivante de */system/console/mq*, accédez à */system/console/mq* et cliquez sur **Redémarrer** pour redémarrer le courtier.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -200,7 +200,7 @@ Si vous ne voyez pas la configuration suivante de */system/console/mq*, puis acc
 Suivez les étapes de chaque instance de publication :
 
 1. Accédez à **Console OSGi** > **Configuration Manager**
-1. Sélectionnez **Filtre de référent Apache Sling**
+1. Cliquez sur **Filtre de référent Apache Sling**
 1. Mettez à jour la configuration et **cochez Autoriser valeur vide**
 
 ### Configuration des instances de création et de publication {#configuring-author-and-publish-instance}
@@ -224,19 +224,19 @@ Après avoir configuré la topologie de publication, configurez les instances d�
 
 #### Étape 2 : enregistrement d’un appareil sur l’auteur {#step-registering-a-device-on-author}
 
-1. Accédez à `https://localhost:4502/screens.html/content/screens/we-retail` ou sélectionnez votre projet et accédez à Appareils > Gestionnaire d’appareils.
-1. Sélectionnez **Enregistrer l’appareil**.
-1. Sélectionner **Enregistrement de périphérique**.
-1. Sélectionnez le périphérique que vous souhaitez enregistrer, puis sélectionnez **Enregistrer le périphérique**.
-1. Vérifiez le code d’enregistrement, puis sélectionnez **Valider**.
-1. Saisissez un titre pour votre périphérique, puis sélectionnez **Enregistrer**.
+1. Accédez à `https://localhost:4502/screens.html/content/screens/we-retail` ou cliquez sur votre projet et accédez à Périphériques > Gestionnaire de périphériques.
+1. Cliquez sur **Enregistrer le périphérique**.
+1. Cliquez sur **Enregistrement de périphérique**.
+1. Cliquez sur le périphérique que vous souhaitez enregistrer, puis cliquez sur **Enregistrer le périphérique**.
+1. Vérifiez le code d’enregistrement, puis cliquez sur **Valider**.
+1. Saisissez un titre pour votre périphérique, puis cliquez sur **Enregistrer**.
 
 #### Étape 3 : attribution de l’appareil à un affichage {#step-assigning-the-device-to-display}
 
-1. Sélectionner **Attribuer l’affichage** à partir de la boîte de dialogue de l’étape précédente.
-1. Sélectionnez le chemin d’affichage de votre canal dans le dossier **Emplacements**.
-1. Sélectionner **Attribuer**.
-1. Sélectionner **Terminer** pour terminer le processus, et le périphérique est désormais attribué.
+1. Cliquez sur **Attribuer l’affichage** dans la boîte de dialogue de l’étape précédente.
+1. Cliquez sur le chemin d’affichage de votre canal dans la **Emplacements** dossier.
+1. Cliquez sur **Attribuer**.
+1. Cliquez sur **Terminer** pour achever le workflow. L’appareil est désormais attribué.
 
 Vérifiez votre lecteur et notez le contenu que vous avez ajouté à votre canal.
 
@@ -248,7 +248,7 @@ Pour répliquer l’utilisateur de l’appareil, procédez comme suit :
 
 1. Accédez à la page d’administration des utilisateurs. Par exemple, `https://localhost:4502/useradmin`.
 1. Recherchez le **`screens-devices-master`** groupe.
-1. Cliquez avec le bouton droit sur le groupe et sélectionnez **Activer**.
+1. Cliquez avec le bouton droit sur le groupe, puis cliquez sur **Activer**.
 
 >[!CAUTION]
 >
@@ -257,14 +257,14 @@ Pour répliquer l’utilisateur de l’appareil, procédez comme suit :
 Vous pouvez également activer l’appareil à partir de la console de gestion des appareils. Suivez les étapes ci-dessous :
 
 1. Accédez à votre projet Screens > **Périphériques**.
-1. Sélectionner **Gestionnaire de périphériques** dans la barre d’actions.
-1. Sélectionnez le périphérique et sélectionnez **Activer** dans la barre d’actions, comme illustré dans la figure ci-dessous.
+1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
+1. Cliquez sur le périphérique, puis sur **Activer** dans la barre d’actions, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Une fois le périphérique activé, vous pouvez également modifier ou mettre à jour l’URL du serveur. Sélectionner **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, vos modifications sont propagées au lecteur AEM Screens.
+>Une fois le périphérique activé, vous pouvez également modifier ou mettre à jour l’URL du serveur. Cliquez sur **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, vos modifications sont propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -293,16 +293,16 @@ Suivez les étapes ci-dessous pour vérifier le comportement de création et de 
 #### Étape 5 : pointage de l’appareil vers l’instance de publication dans le panneau d’administration {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Affichez l’interface utilisateur d’administration du lecteur Screens en appuyant longuement dans le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou à l’aide de la souris.
-1. Sélectionnez la variable **Configuration** dans le panneau latéral.
+1. Cliquez sur l’option **Configuration** dans le panneau latéral.
 1. Remplacez l’instance d’auteur par instance de publication dans **Serveur**.
 
 Affichez les modifications dans votre lecteur AEM Screens.
 
 Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de la console de gestion des appareils en procédant comme suit :
 
-1. Accédez à votre projet AEM Screens et sélectionnez le dossier **Appareils**.
-1. Sélectionner **Gestionnaire de périphériques** dans la barre d’actions.
-1. Sélectionnez le périphérique et sélectionnez **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, et vos modifications sont propagées au lecteur AEM Screens.
+1. Accédez à votre projet AEM Screens et cliquez sur le bouton **Périphériques** dossier.
+1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
+1. Cliquez sur le périphérique, puis sur **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, et vos modifications sont propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

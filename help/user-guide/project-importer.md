@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -101,17 +101,17 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Sélectionnez le projet** DemoProjectImporter **>** Créer **>** Importez les emplacements** depuis la barre latérale.
+1. Cliquez sur le projet ** DemoProjectImporter **>** Créer **>** Importez les emplacements** depuis la barre latérale.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. La variable **Importer** s’affiche. Sélectionnez le fichier de votre projet avec les emplacements ou sélectionnez le fichier (***minimal-file.xls***) que vous avez téléchargé à partir de la fonction *Conditions préalables* .
+1. La variable **Importer** s’affiche. Cliquez sur le fichier de votre projet avec les emplacements ou cliquez sur le fichier (***minimal-file.xls***) que vous avez téléchargé à partir de la fonction *Conditions préalables* .
 
-   Après avoir sélectionné le fichier, sélectionnez **Suivant**.
+   Une fois le fichier sélectionné, cliquez sur **Suivant**.
 
    ![Screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Vérifiez le contenu du fichier (emplacements) dans l’assistant d’importation, puis sélectionnez **Importer**.
+1. Vérifiez le contenu du fichier (emplacements) dans l’assistant d’importation, puis cliquez sur **Importer**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

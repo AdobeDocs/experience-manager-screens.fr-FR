@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 55%
+ht-degree: 54%
 
 ---
 
@@ -32,11 +32,11 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
 1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple : ***Test du projet*** > ***Périphériques***.
 
-   Sélectionnez **Appareils** et **Gestionnaire d’appareils** dans la barre d’actions.
+   Cliquez sur **Périphériques** et **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Sélectionnez le périphérique pour pouvoir ouvrir le tableau de bord du périphérique.
+1. Cliquez sur le périphérique pour ouvrir le tableau de bord du périphérique.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Pour afficher l’interface utilisateur d’administration du lecteur Screens, a
 
 #### Accès aux options du menu de configuration {#configuration-options}
 
-Vous pouvez mettre à jour vos configurations si vous sélectionnez l’option **Configuration** dans le menu latéral, comme illustré dans la figure ci-dessous :
+Vous pouvez mettre à jour vos configurations si vous cliquez sur le bouton **Configuration** dans le menu latéral, comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 Vous pouvez effacer le cache des canaux et des applications à partir de l’interface utilisateur d’administration du lecteur AEM Screens.
 
-Sélectionnez la variable **Cache de contenu** à partir du rail latéral afin que vous puissiez mettre à jour le cache.
+Cliquez sur le bouton **Cache de contenu** à partir du rail latéral afin que vous puissiez mettre à jour le cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

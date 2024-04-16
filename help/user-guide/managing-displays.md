@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 37%
@@ -38,11 +38,11 @@ Cette page présente la création et la gestion des affichages pour Screens.
 >Créez un emplacement avant de créer un affichage. Voir [Création et gestion des emplacements](managing-locations.md) pour plus d’informations.
 
 1. Accédez à l’emplacement souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Sélectionnez votre dossier d’emplacement et sélectionnez **Créer** en regard de l’icône plus dans la barre d’actions.
-1. Sélectionner **Affichage** de la **Créer** assistant, puis sélectionnez **Suivant**.
+1. Cliquez sur votre dossier d’emplacement, puis sur **Créer** en regard de l’icône plus dans la barre d’actions.
+1. Cliquez sur **Affichage** de la **Créer** assistant, puis cliquez sur **Suivant**.
 1. Saisissez le **nom** et le **titre** de l’emplacement de l’affichage.
 1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choisissez la **Résolution**, par exemple **Full HD**. Sélectionnez le nombre de périphériques horizontalement et verticalement.
-1. Sélectionnez **Créer**.
+1. Cliquez sur **Créer**.
 
 L’affichage (*StoreDisplay*) est créé et ajouté à l’affichage de l’emplacement (*SanJose*).
 
@@ -63,12 +63,12 @@ Lorsque l’affichage est en place, l’étape suivante consiste à créer une c
 Une configuration d’appareil fonctionne comme un espace réservé pour un appareil d’affichage numérique qui n’est pas encore installé.
 
 1. Accédez à l’affichage souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Sélectionnez votre dossier d’affichage et choisissez **Afficher le tableau de bord** dans la barre d’actions.
-1. Sélectionner **+ Ajouter la configuration de périphérique** en haut à droite de la **Périphériques** du panneau.
+1. Cliquez sur votre dossier d’affichage, puis sur **Afficher le tableau de bord** dans la barre d’actions.
+1. Cliquez sur **+ Ajouter la configuration de périphérique** en haut à droite de la **Périphériques** du panneau.
 
-1. Sélectionnez la variable **Configuration du périphérique** comme modèle requis et sélectionnez **Suivant**.
+1. Cliquez sur le bouton **Configuration du périphérique** comme modèle requis et cliquez sur **Suivant**.
 
-1. Saisissez les propriétés demandées, puis sélectionnez **Créer**.
+1. Saisissez les propriétés demandées, puis cliquez sur **Créer**.
 
 La configuration de l’appareil est créée et ajoutée à l’affichage en cours (dans la démonstration suivante, la nouvelle configuration de l’appareil s’appelle *DeviceConfig*).
 
@@ -92,9 +92,9 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les a
 
 >[!NOTE]
 >
->Vous pouvez sélectionner les listes du tableau de bord et déclencher des actions en bloc sur les éléments, au lieu de parcourir chaque élément individuellement.
+>Vous pouvez cliquer sur les listes du tableau de bord et déclencher des actions en bloc sur les éléments, au lieu de parcourir chaque élément individuellement.
 >
->Par exemple, l’illustration suivante montre comment sélectionner plusieurs canaux à partir du tableau de bord d’affichage.
+>Par exemple, l’image suivante montre comment cliquer sur plusieurs canaux à partir du tableau de bord d’affichage.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les a
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Sélectionnez (**..**) dans le coin supérieur droit du **AFFICHAGE DES INFORMATIONS** pour afficher les propriétés et un aperçu de l’affichage.
+Cliquez sur (**..**) dans le coin supérieur droit du **AFFICHAGE DES INFORMATIONS** pour afficher les propriétés et un aperçu de l’affichage.
 
 
 #### Affichage des propriétés {#viewing-properties}
 
-Sélectionner **Propriétés** vous pouvez ainsi afficher ou modifier les propriétés de votre affichage.
+Cliquez sur **Propriétés** vous pouvez ainsi afficher ou modifier les propriétés de votre affichage.
 
 Vous pouvez également régler la valeur du minuteur d’événement pour votre canal interactif dans **Délai d’inactivité** propriété sous **Affichage** . Par défaut, cette valeur est définie sur *300 secondes*.
 
@@ -123,9 +123,9 @@ Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet appareil.
 
 Le panneau **APPAREILS** fournit des informations sur les configurations des appareils.
 
-Sélectionnez (**..**) dans le coin supérieur droit du **APPAREILS** afin que vous puissiez ajouter des configurations de périphérique et mettre à jour les périphériques.
+Cliquez sur (**..**) dans le coin supérieur droit du **APPAREILS** afin que vous puissiez ajouter des configurations de périphérique et mettre à jour les périphériques.
 
-Sélectionnez également la configuration du périphérique pour afficher les propriétés, attribuer un périphérique ou le supprimer complètement.
+Cliquez également sur la configuration du périphérique pour afficher les propriétés, attribuer un périphérique ou le supprimer complètement.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

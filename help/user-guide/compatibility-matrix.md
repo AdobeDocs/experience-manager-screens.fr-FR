@@ -4,10 +4,10 @@ description: En savoir plus sur les lecteurs AEM Screens et leur version AEM Scr
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -45,7 +45,7 @@ La section suivante répertorie les lecteurs Adobe Experience Manager (AEM) Scre
 
 ### Lien de téléchargement {#download-link}
 
-Sélectionnez le lien de téléchargement du lecteur iOS :
+Cliquez sur le lien de téléchargement du lecteur iOS :
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Lien de téléchargement {#download-link-1}
 
-Sélectionnez le lien de téléchargement du lecteur Windows 10 :
+Cliquez sur le lien de téléchargement du lecteur Windows 10 :
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Lien de téléchargement {#download-link-2}
 
-Sélectionnez le lien de téléchargement du lecteur Android™ :
+Cliquez sur le lien de téléchargement du lecteur Android™ :
 
 aem-screens-player-android-3.3.0.apk.zip
 

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 55%
@@ -58,15 +58,15 @@ L’image suivante montre le projet **TextOverlayDemo** avec le canal **TextSamp
 
 Pour utiliser la superposition de texte dans un canal AEM Screens, procédez comme suit :
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et sélectionnez **Modifier** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Sélectionnez l’image, puis cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
+1. Cliquez sur l’image, puis sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Sélectionnez l’option **Superposition de texte** dans la barre de navigation de la boîte de dialogue, comme illustré dans la figure ci-dessous.
+1. Cliquez sur le bouton **Superposition de texte** dans la barre de navigation de la boîte de dialogue, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ Pour savoir comment configurer et gérer les modifications de ressources piloté
 
 Après avoir configuré les configurations requises pour votre projet, procédez comme suit pour utiliser les valeurs des feuilles de calcul Google Sheets :
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et sélectionnez **Propriétés** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
 
-1. Sélectionnez la variable **Personnalisation** pour pouvoir configurer les configurations ContextHub.
+1. Cliquez sur le bouton **Personnalisation** pour pouvoir configurer les configurations ContextHub.
 
-   1. Sélectionnez la variable **Chemin ContextHub** as **libs** > **paramètres** > **cloudsettings** > **default** > **Configurations ContextHub** et sélectionnez **Sélectionner**.
+   1. Cliquez sur le bouton **Chemin ContextHub** as **libs** > **paramètres** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
 
-   1. Sélectionnez la variable **Chemin d’accès aux segments** as **conf** > **screens** > **paramètres** > **wcm** > **segments** et sélectionnez **Sélectionner**.
+   1. Cliquez sur le bouton **Chemin d’accès aux segments** as **conf** > **screens** > **paramètres** > **wcm** > **segments** et cliquez sur **Sélectionner**.
 
-   1. Sélectionnez **Enregistrer et fermer**.
+   1. Cliquez sur **Enregistrer et fermer**.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ Après avoir configuré les configurations requises pour votre projet, procédez
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et sélectionnez **Modifier** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Modifier** dans la barre d’actions.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Ajoutez une image et ajoutez-lui un composant de superposition de texte, comme décrit dans la section [Utilisation de la superposition de texte](/help/user-guide/text-overlay.md#using-text-overlay) de cette page.
 
-1. Sélectionner sur **Configurer** (icône de clé à molette) pour ouvrir la **Image** de la boîte de dialogue
+1. Cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue **Image**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Accédez à l’onglet **ContextHub** depuis la boîte de dialogue **Image**. Sélectionnez **Ajouter**.
+1. Accédez à l’onglet **ContextHub** depuis la boîte de dialogue **Image**. Cliquez sur **Ajouter**.
 
    >[!NOTE]
    >Si vous n’avez pas configuré votre configuration ContextHub, cette option est désactivée pour votre projet.
 
-1. Entrée **Valeur** dans le **Espace réservé** champ . Sélectionnez la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Lorsque vous avez terminé, cochez la case.
+1. Entrée **Valeur** dans le **Espace réservé** champ . Cliquez sur la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille de calcul Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles de calcul Google. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Après avoir configuré les configurations requises pour votre projet, procédez
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Sélectionnez **Aperçu**.
+1. Cliquez sur **Aperçu**. 
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

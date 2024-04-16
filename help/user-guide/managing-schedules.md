@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -32,12 +32,12 @@ Vous pouvez créer une planification pour votre projet Screens qui peut gérer t
 
 Suivez les étapes ci-dessous pour créer la planification pour votre canal :
 
-1. Sélectionnez le lien Adobe Experience Manager (en haut à gauche), puis Screens. Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`.
-1. Accédez au projet Screens et sélectionnez **Planifications**.
-1. Sélectionner **Créer** dans la barre d’actions.
-1. Sélectionner **Planification** de la **Créer** assistant et sélectionnez **Suivant**.
+1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur Screens. Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`.
+1. Accédez au projet Screens et cliquez sur **Planifications**.
+1. Cliquez sur **Créer** dans la barre d’actions.
+1. Cliquez sur **Planification** de la **Créer** assistant et cliquez sur **Suivant**.
 
-1. Saisissez le **Nom** et **Titre** et sélectionnez **Créer**.
+1. Saisissez le **Nom** et **Titre** et cliquez sur **Créer**.
 
 Vous pouvez voir un dossier de planification avec le nom et le titre désignés dans votre projet.
 
@@ -52,14 +52,14 @@ Suivez les étapes ci-dessous pour afficher le tableau de bord de planification.
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Sélectionner **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur **Tableau de bord** dans la barre d’actions.
 
    Vous pouvez afficher trois panneaux différents, tels que **INFORMATIONS SUR LA PLANIFICATION**, **CANAUX ATTRIBUÉS**, et **AFFICHAGES ATTRIBUÉS**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panneau Informations sur la planification** Sélectionnez Propriétés dans le coin supérieur droit du panneau INFORMATIONS SUR LA PLANIFICATION pour afficher/modifier les propriétés du planning.
+   **Panneau Informations sur la planification** Cliquez sur Propriétés dans le coin supérieur droit du panneau INFORMATIONS SUR LA PLANIFICATION pour afficher/modifier les propriétés du planning.
 
-   **Panneau Canaux attribués** Sélectionnez +Attribuer le canal dans le coin supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canaux .
+   **Panneau Canaux attribués** Cliquez sur +Attribuer le canal dans le coin supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canaux .
 
-   **Panneau Affichages attribués** Sélectionnez l’un des affichages dans le panneau AFFICHAGES ATTRIBUÉS pour ouvrir le tableau de bord de l’affichage.
+   **Panneau Affichages attribués** Cliquez sur l’un des affichages dans le panneau AFFICHAGES ATTRIBUÉS pour ouvrir le tableau de bord de l’affichage.

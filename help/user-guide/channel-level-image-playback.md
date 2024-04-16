@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 45%
@@ -45,7 +45,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Sélectionner **Modifier** dans la barre d’actions.
+1. Cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -53,7 +53,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Sélectionnez toutes les images du canal, puis cliquez sur l’icône en forme de clé à molette en haut à gauche (comme illustré dans la figure ci-dessous) afin de pouvoir ouvrir la boîte de dialogue de configuration de canal.
+1. Cliquez sur toutes les images du canal, puis sur l’icône en forme de clé à molette en haut à gauche (comme illustré dans la figure ci-dessous) pour ouvrir la boîte de dialogue Configuration de canal .
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

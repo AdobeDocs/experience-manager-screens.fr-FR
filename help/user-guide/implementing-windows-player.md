@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -48,7 +48,7 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Sélectionnez **Enregistrer**.
+1. Cliquez sur **Save**.
 
 ### Méthode ad hoc {#ad-hoc-method}
 
@@ -57,7 +57,7 @@ La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*)
 Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
-1. Accédez à **Configuration** dans le menu d’actions de gauche, saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter et sélectionnez **Enregistrer**.
+1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 1. Accédez au **Appareil** **Enregistrement** dans le menu d’actions de gauche, afin que vous puissiez vérifier l’état du processus d’enregistrement du périphérique.
 
 >[!NOTE]
@@ -75,7 +75,7 @@ Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows, en
 
 Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
-1. Sélectionner **start** > **run**.
+1. Cliquez sur **start** > **run**.
 1. Entrée `system.cpl`.
 1. Utilisez l’onglet Nom de l’ordinateur pour définir le nom d’hôte de l’ordinateur.
 

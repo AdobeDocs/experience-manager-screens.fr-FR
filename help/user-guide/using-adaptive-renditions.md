@@ -2,10 +2,10 @@
 title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Découvrez comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 36%
+ht-degree: 32%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 36%
 
 ## Présentation {#introduction}
 
-Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de la *main* expérience.
+Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de la *main* expérience.
 
 ## Objectif {#objective}
 
@@ -35,12 +35,12 @@ Pour appliquer des rendus aux ressources que vous souhaitez utiliser dans le can
 1. Accédez au dossier **Ressources** dans votre instance AEM.
 1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple `seahorse.jpg`.
 1. Choisissez le modèle de dénomination du rendu, par exemple `landscape`, similaire à ce qui a été défini dans la propriété **motif** dans **CRXDE Lite**. Voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) pour plus d’informations.
-1. Sélectionner **Ajouter un rendu** pour charger le rendu, comme illustré dans la figure ci-dessous.
+1. Cliquez sur **Ajouter un rendu** pour charger le rendu, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Sélectionnez le fichier de ressource renommé. Le rendu que vous ajoutez doit contenir le modèle (défini à l’étape 3), par exemple `seahorse-landscape.png`.
-1. Une fois la ressource ajoutée, sélectionnez-la, puis **Gérer la publication** à partir de la barre d’actions pour publier la ressource.
+1. Cliquez sur le fichier de ressource renommé. Le rendu que vous ajoutez doit contenir le modèle (défini à l’étape 3), par exemple `seahorse-landscape.png`.
+1. Une fois la ressource ajoutée, cliquez sur celle-ci, puis sur **Gérer la publication** à partir de la barre d’actions pour publier la ressource.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

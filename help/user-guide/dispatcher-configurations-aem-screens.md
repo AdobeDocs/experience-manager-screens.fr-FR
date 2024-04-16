@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 27%
@@ -49,7 +49,7 @@ Si vous souhaitez utiliser plusieurs instances de publication devant un seul Dis
  }
 ```
 
-Si vous disposez d’une instance de publication devant un Dispatcher, l’activation de l’affinité au niveau de Dispatcher n’aide pas, car l’équilibreur de charge peut envoyer chaque requête à Dispatcher. Dans ce cas, sélectionnez **Activer** in **Attractivité** pour l’activer au niveau de l’équilibreur de charge, comme illustré dans la figure ci-dessous :
+Si vous disposez d’une instance de publication devant un Dispatcher, l’activation de l’affinité au niveau de Dispatcher n’aide pas, car l’équilibreur de charge peut envoyer chaque requête à Dispatcher. Dans ce cas, cliquez sur **Activer** in **Attractivité** pour l’activer au niveau de l’équilibreur de charge, comme illustré dans la figure ci-dessous :
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

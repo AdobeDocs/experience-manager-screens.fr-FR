@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 45%
+ht-degree: 49%
 
 ---
 
@@ -77,11 +77,11 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
    >
    >Veillez à ajouter l’événement d’interaction utilisateur lors de l’attribution du canal à l’affichage.
 
-1. Sélectionner **Modifier** à partir de la barre d’actions afin de pouvoir modifier les propriétés du canal.
+1. Cliquez sur **Modifier** à partir de la barre d’actions afin de pouvoir modifier les propriétés du canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Faites glisser et déposez le **Page incorporée** , ou réutilisez le composant existant dans un canal d’application, puis sélectionnez la page d’accueil sous l’application mysamplespa, par exemple : ***/content/mysamplespa/en/home***.
+1. Faites glisser et déposez le **Page incorporée** , ou réutilisez le composant existant dans un canal d’application, puis cliquez sur la page d’accueil sous l’application mysamplespa, par exemple : ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
    Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour plus d’informations sur l’exécution du séquencement dans Adobe Analytics avec AEM Screens et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
 
 1. Modifiez votre application de réaction dans l’IDE/l’éditeur de votre choix (en particulier le composant de texte ou tout autre composant dont vous souhaitez qu’il commence à émettre des événements).
-1. Sur l’événement select ou tout autre événement que vous souhaitez capturer pour votre composant, ajoutez les informations d’analyse à l’aide du modèle de données standard.
+1. Sur l’événement click ou tout autre événement que vous souhaitez capturer pour votre composant, ajoutez les informations d’analyse à l’aide du modèle de données standard.
 
    Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour plus d’informations.
 

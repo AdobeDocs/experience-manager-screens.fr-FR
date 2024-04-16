@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Sélectionnez **Enregistrer**.
+1. Cliquez sur **Save**.
 
 
 ### Méthode ad hoc {#ad-hoc-method}
@@ -57,7 +57,7 @@ La méthode ad hoc vous permet d’installer le dernier lecteur Android™ (*.ex
 Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
-1. Accédez à **Configuration** dans le menu d’actions de gauche, saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter et sélectionnez **Enregistrer**.
+1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 
 1. Accédez au **Appareil** **Enregistrement** dans le menu d’actions de gauche, afin que vous puissiez vérifier l’état du processus d’enregistrement du périphérique.
 
@@ -195,7 +195,7 @@ Suivez les étapes ci-dessous pour autoriser la mise en service en masse dans le
 1. Assurez-vous que votre appareil Android™ prend en charge les services Google Play.
 1. Inscrivez vos appareils de lecteur Android™ à votre solution EMM préférée qui prend en charge AppConfig.
 1. Connectez-vous à votre console EMM et extrayez l’application du lecteur AEM Screens de Google Play.
-1. Sélectionnez Configuration gérée ou l’option associée.
+1. Cliquez sur l’option de configuration gérée ou associée.
 1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées, par exemple le code d’enregistrement en bloc et du serveur.
 1. Configurez ces paramètres, enregistrez-les et déployez la stratégie sur les appareils.
 

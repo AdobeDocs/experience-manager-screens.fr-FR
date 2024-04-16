@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -26,19 +26,19 @@ Vous pouvez publier et dépublier le contenu à partir d’AEM Screens. La fonct
 Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’auteur à la publication sur le périphérique pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
-1. Sélectionner **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le projet sur votre instance de publication.
+1. Cliquez sur **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le projet sur votre instance de publication.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. L’assistant de **Gérer la publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Sélectionnez **Suivant**.
+1. L’assistant de **Gérer la publication** démarre. Vous pouvez cliquer sur le bouton **Action** et planifiez également l’heure de publication pour maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Cochez la case pour sélectionner l’intégralité du projet dans la **`Manage Publication`** assistant.
+1. Cochez la case pour que vous puissiez cliquer sur l’intégralité du projet à partir de la **`Manage Publication`** assistant.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Sélectionner **+ Inclure les enfants** dans la barre d’actions et désélectionnez toutes les options afin de publier tous les modules de votre projet et sélectionnez **Ajouter** pour publier.
+1. Cliquez sur **+ Inclure les enfants** dans la barre d’actions et désélectionnez toutes les options afin de publier tous les modules de votre projet, puis cliquez sur **Ajouter** pour publier.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Par exemple, l’image suivante montre comment gérer et mettre à jour uniqueme
    1. **Inclure uniquement les pages déjà publiées**: cette option permet de gérer les mises à jour uniquement sur les pages qui ont été publiées auparavant.
 
 
-1. Dans la **`Manage Publication wizard`**, sélectionnez **Publier**.
+1. Dans la **`Manage Publication wizard`**, cliquez sur **Publier**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,9 +72,9 @@ Par exemple, l’image suivante montre comment gérer et mettre à jour uniqueme
    >    1. Le processus ne fonctionne pas si l’auteur n’effectue pas le processus de réplication (le contenu est toujours téléchargé vers l’instance de publication) après avoir sélectionné la variable **Publier** dans le workflow de gestion des publications.
 
    >[!CAUTION]
-   >Si, en tant qu’auteur ou créateur de contenu, vous souhaitez voir les modifications apportées aux périphériques connectés à l’instance d’auteur, sélectionnez **Mettre à jour le contenu hors ligne** depuis le tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne n’est mis à jour que dans l’instance d’auteur.
+   >Si, en tant qu’auteur ou créateur de contenu, vous souhaitez voir les modifications apportées aux appareils connectés à l’instance d’auteur, cliquez sur **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne n’est mis à jour que dans l’instance d’auteur.
 
-1. Accédez au projet et sélectionnez **Mettre à jour le contenu hors ligne** dans la barre d’actions. Cette action transfère la même commande à l’instance de publication, de sorte que les fichiers compressés hors ligne soient également créés sur votre instance de publication.
+1. Accédez au projet et cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions. Cette action transfère la même commande à l’instance de publication, de sorte que les fichiers compressés hors ligne soient également créés sur votre instance de publication.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -95,16 +95,16 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu à part
 >
 >Suivez cette section uniquement si un canal contient des modifications. Si un canal ne comporte aucune modification après le contenu hors ligne de la mise à jour précédente, le processus de gestion des publications pour un canal individuel ne fonctionne pas.
 
-1. Accédez à votre projet AEM Screens et sélectionnez le canal.
-1. Sélectionner **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le canal sur votre instance de publication.
+1. Accédez à votre projet AEM Screens et cliquez sur le canal.
+1. Cliquez sur **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le canal sur votre instance de publication.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. L’assistant de **Gérer la publication** démarre. Vous pouvez sélectionner l’**Action** et programmer l’heure de publication sur maintenant ou plus tard. Sélectionnez **Suivant**.
+1. L’assistant de **Gérer la publication** démarre. Vous pouvez cliquer sur le bouton **Action** et planifiez également l’heure de publication pour maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Sélectionner **Publier** de la **`Manage Publication`** assistant.
+1. Cliquez sur **Publier** de la **`Manage Publication`** assistant.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 41%
@@ -36,26 +36,26 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Sélectionnez votre **Périphériques** et sélectionnez **Gestionnaire de périphériques** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
+1. Cliquez sur **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Sélectionnez un périphérique non attribué dans la liste, puis sélectionnez l’option **Attribuer le périphérique** dans la barre d’actions.
+1. Cliquez sur un périphérique non attribué dans la liste, puis cliquez sur le bouton **Attribuer le périphérique** dans la barre d’actions.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Sélectionnez l’affichage auquel vous souhaitez attribuer le périphérique dans la liste, puis sélectionnez le **Attribuer**.
+1. Cliquez sur l’affichage auquel vous souhaitez attribuer le périphérique dans la liste, puis cliquez sur le bouton **Attribuer**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Sélectionnez la variable **Terminer** pour terminer le processus d’affectation.
+1. Cliquez sur le bouton **Terminer** pour terminer le processus d’affectation.
 
 
    Le tableau de bord des affichages montre l’appareil attribué dans le volet **APPAREILS**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Sélectionnez le (**..**) dans le coin supérieur droit du **APPAREILS** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
+   Cliquez sur (**..**) dans le coin supérieur droit du **APPAREILS** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

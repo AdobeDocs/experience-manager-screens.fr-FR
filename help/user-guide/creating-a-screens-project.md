@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 35%
@@ -24,15 +24,15 @@ Vous pouvez également accéder directement à : `http://localhost:4502/screens
 
 >[!NOTE]
 >**Conseil de navigation :**
->Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, une fois que vous avez sélectionné une entité spécifique, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
+>Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, une fois que vous avez cliqué sur une entité spécifique, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
 
 ## Création d’un projet Screens
 
-1. Sélectionnez **Screens** dans votre instance AEM.
-1. Sélectionner **Créer un projet Screens**.
-1. Saisissez le titre comme **TestScreens** et sélectionnez **Enregistrer**.
+1. Cliquez sur **Screens** à partir de votre instance AEM.
+1. Cliquez sur **Créer un projet Screens**.
+1. Saisissez le titre **TestScreens** et cliquez sur **Créer**.
 
-Le projet est à présent créé et vous êtes redirigé vers la console du projet Screens. Vous pouvez sélectionner votre projet.
+Le projet est à présent créé et vous êtes redirigé vers la console du projet Screens. Vous pouvez maintenant cliquer sur votre projet.
 
 Dans un projet, il existe cinq types de dossiers, comme illustré dans la figure ci-dessous :
 
@@ -51,7 +51,7 @@ Dans un projet, il existe cinq types de dossiers, comme illustré dans la figure
 
 ## Affichage des propriétés {#viewing-properties}
 
-Une fois le projet Screens créé, sélectionnez-le, puis sélectionnez **Propriétés** dans la barre d’actions pour pouvoir modifier les propriétés de votre projet.
+Après avoir créé le projet Screens, cliquez sur le projet, puis sur **Propriétés** dans la barre d’actions pour pouvoir modifier les propriétés de votre projet.
 
 Les options suivantes vous permettent de modifier les propriétés de votre projet **TestScreens**.
 
@@ -63,10 +63,10 @@ Vous pouvez également créer votre propre dossier personnalisé sous **Planific
 
 Pour créer un dossier personnalisé :
 
-1. Sélectionnez votre projet et sélectionnez **Créer** en regard de l’icône plus dans la barre d’actions.
-1. La variable **Créer** l’assistant s’ouvre et sélectionnez l’option appropriée.
-1. Sélectionnez **Suivant**.
-1. Saisissez les propriétés et sélectionnez **Créer**.
+1. Cliquez sur votre projet, puis sur **Créer** en regard de l’icône plus dans la barre d’actions.
+1. La variable **Créer** s’ouvre, puis cliquez sur l’option appropriée.
+1. Cliquez sur **Suivant**.
+1. Saisissez les propriétés, puis cliquez sur **Créer**.
 
 Les étapes suivantes montrent la création d’un dossier d’applications dans votre **Applications** page principale dans **TestScreens**.
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 46%
+ht-degree: 43%
 
 ---
 
@@ -31,10 +31,10 @@ Chaque fois que vous créez un projet AEM Screens, vous voyez une liste de compo
 
 Pour afficher les composants par défaut dans le projet Screens, procédez comme suit :
 
-1. Sélectionnez le canal. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
+1. Cliquez sur le canal. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
 
-1. Sélectionner **Modifier** dans la barre d’actions.
-1. Dans l’éditeur d’AEM, sélectionnez la variable **+** dans la barre latérale.
+1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Dans l’éditeur d’AEM, cliquez sur le bouton **+** dans la barre latérale.
 1. Tous les composants fournis par défaut dans un projet AEM Screens s’affichent, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM fournit plusieurs autres composants. Vous pouvez toujours ajouter d’autres
 
 L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AEM Screens :
 
-1. Sélectionnez le canal auquel vous souhaitez ajouter un composant. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
+1. Cliquez sur le canal auquel vous souhaitez ajouter un composant. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
 
-1. Sélectionner **Modifier** dans la barre d’actions.
-1. Sélectionnez le mode **Conception**.
-1. Sélectionnez l’ensemble de l’éditeur de conception à droite, puis sélectionnez le symbole des paramètres afin d’ouvrir le **Parsys Design** de la boîte de dialogue
-1. Vous pouvez sélectionner les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant montre l’ajout d’un composant **Livefyre** à un projet AEM Screens.
+1. Cliquez sur **Modifier** dans la barre d’actions.
+1. Cliquez sur **Conception** mode .
+1. Cliquez sur l’ensemble de l’éditeur de conception à droite, puis cliquez sur le symbole des paramètres pour ouvrir la **Parsys Design** de la boîte de dialogue
+1. Vous pouvez cliquer sur les composants à importer dans votre projet AEM Screens. L’exemple suivant montre l’ajout d’un composant **Livefyre** à un projet AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ La section suivante décrit les composants AEM Screens que vous pouvez utiliser
 
 >[!NOTE]
 >
->Pour afficher les propriétés d’un composant, sélectionnez-le et sélectionnez l’icône en forme de marteau pour ouvrir/afficher les propriétés.
+>Pour afficher les propriétés d’un composant, cliquez sur le composant, puis sur l’icône en forme de marteau pour ouvrir/afficher les propriétés.
 
 ### Application {#application}
 
@@ -74,8 +74,8 @@ Le composant Application présente les propriétés suivantes :
 
 | **Propriété** | **Description** |
 |---|---|
-| ***Chemin de l’application*** | Sélectionnez le chemin absolu où se trouve l’application. |
-| ***Durée (millisecondes)*** | Sélectionnez la durée de l’application. Par défaut, la durée est définie sur -1, ce qui signifie que l’élément s’exécute indéfiniment (il s’agit par conséquent d’une application sur une seule page). Si vous définissez une valeur supérieure à 0 pour la durée, l’élément s’affiche pendant la durée spécifiée avant que l’élément suivant n’apparaisse. |
+| ***Chemin de l’application*** | Cliquez sur le chemin absolu où se trouve l’application. |
+| ***Durée (millisecondes)*** | Cliquez sur la durée de l’application. Par défaut, la durée est définie sur -1, ce qui signifie que l’élément s’exécute indéfiniment (il s’agit par conséquent d’une application sur une seule page). Si vous définissez une valeur supérieure à 0 pour la durée, l’élément s’affiche pendant la durée spécifiée avant que l’élément suivant n’apparaisse. |
 
 L’exemple suivant illustre la manière dont un composant d’application doit être incorporé avec l’aperçu de ses propriétés :
 
@@ -193,7 +193,7 @@ La séquence incorporée dynamique présente les propriétés suivantes :
 
 ### Fragment d’expérience {#experience-fragment}
 
-Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (groupe d’un ou de plusieurs composants, y compris le contenu et la disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Faites glisser le composant et déposez-le dans AEM’éditeur, puis sélectionnez le fragment d’expérience.
+Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (groupe d’un ou de plusieurs composants, y compris le contenu et la disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Faites glisser le composant et déposez-le dans AEM’éditeur, puis cliquez sur le fragment d’expérience.
 
 Pour en savoir plus sur la création d’un fragment d’expérience et son application à un projet AEM Screens, voir [Utilisation de fragments d’expérience](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ La ressource image comporte trois onglets, à savoir : **Image**, **Accessibilit
 | **Propriété** | **Description** |
 |---|---|
 | **Image** |
-| ***Ressource image*** | Sélectionnez la ressource image. |
+| ***Ressource image*** | Cliquez sur la ressource image. |
 | ***Titre*** | Titre de l’image. |
 | ***Lier à*** | Ajoutez un lien vers l’image. |
 | ***Description*** | Brève description de l’image. |
@@ -239,7 +239,7 @@ L’illustration suivante représente le composant de transition (ajouté par gl
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Sélectionnez l’icône de transition et sélectionnez le **Configurer** (icône de clé à molette) pour ouvrir la **Transition** de la boîte de dialogue Cette boîte de dialogue comprend trois onglets :
+Cliquez sur l’icône de transition, puis sur le **Configurer** (icône de clé à molette) pour ouvrir la **Transition** de la boîte de dialogue Cette boîte de dialogue comprend trois onglets :
 
 * **Transition**
 * **Séquence**
@@ -316,7 +316,7 @@ Le composant vidéo présente les propriétés suivantes :
   </tr>
   <tr>
    <td><em><strong>Contenu vidéo</strong></em></td>
-   <td>Sélectionnez le lien vers la vidéo.</td>
+   <td>Cliquez sur le lien vers la vidéo.</td>
   </tr>
   <tr>
    <td><em><strong>Durée</strong></em></td>

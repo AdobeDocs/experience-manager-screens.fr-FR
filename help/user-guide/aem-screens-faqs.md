@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
-ht-degree: 57%
+ht-degree: 55%
 
 ---
 
@@ -45,7 +45,7 @@ Un ***Canal en ligne*** affiche le contenu mis à jour dans l’environnement en
 
 ### 2. Comment mettre un canal en ligne ?  {#how-do-i-make-a-channel-online}
 
-Sélectionnez le canal, puis accédez aux propriétés correspondantes depuis la barre d’actions. Cochez **Mode Développeur (forcer la mise en ligne du canal)** sous l’onglet **Canal** pour mettre le canal en ligne.
+Cliquez sur le canal et accédez aux propriétés du canal à partir de la barre d’actions. Cochez **Mode Développeur (forcer la mise en ligne du canal)** sous l’onglet **Canal** pour mettre le canal en ligne.
 
 ### 3. À quoi le champ Rôle du canal sert-il ?  {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ Lors de l’utilisation d’un code client personnalisé créé `clientlib` dans
 
 Suivez les étapes ci-dessous à partir de l’éditeur de canal :
 
-1. Sélectionnez un canal, puis cliquez sur **Modifier** dans la barre d’actions.
-1. Sélectionnez le composant où vous souhaitez ajouter la `clientlib` personnalisée.
-1. Sélectionnez le bouton de configuration (icône de clé à molette).
+1. Cliquez sur un canal, puis sur **Modifier** dans la barre d’actions.
+1. Cliquez sur le composant dans lequel vous souhaitez ajouter le `clientlib`.
+1. Cliquez sur le bouton de configuration (icône de clé à molette).
 1. Accédez à l’onglet **Configuration hors ligne** et ajoutez le chemin d’accès à votre bibliothèque cliente personnalisée dans **Bibliothèques côté client**.
 
 ## Enregistrement d’appareils {#device-registration}
@@ -109,7 +109,7 @@ Activez l’option Allow Empty d’Apache Sling Referrer Filter. Cette activatio
 
 1. Accédez à **Configuration de la console web Adobe Experience Manager**.
 1. Cochez l’option **allow.empty**.
-1. Sélectionnez **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
 
 ### 3. Comment résoudre le problème si l’appareil et les journaux de la console affichent respectivement les messages d’erreur « ÉCHEC » et « ENAME_NOT_FOUND » pendant l’enregistrement du lecteur AEM Screens ? 
 
@@ -133,14 +133,14 @@ Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’ac
 
 Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome réel. Pour l’installer, procédez comme suit :
 
-1. Sélectionner [here](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur Chrome.
+1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
-1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
+1. Ouvrez le navigateur Chrome et cliquez sur **Extensions** ou accédez directement à ***chrome://extensions***.
 1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
-1. Sélectionner **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
+1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 1. Si elle est disponible dans la liste des extensions, cochez **Lecteur AEM Screens Chrome** module externe
-1. Ouvrez un nouvel onglet et sélectionnez **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
-1. Sélectionnez la variable **AEM Screens** module externe. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
+1. Ouvrez un nouvel onglet et cliquez sur le bouton **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
+1. Cliquez sur le bouton **AEM Screens** module externe. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
 
 ### 2. Comment résoudre le problème si le lecteur Screens ne parvient pas à s’authentifier par le biais d’une instance de publication avec un gestionnaire d’erreurs personnalisé ?
 
@@ -203,7 +203,7 @@ Désactivez Livefyre pour éviter les erreurs de journal en procédant comme sui
 
    * Accédez à `https://<host>:<port>/system/console/bundles`.
    * Recherchez le lot AEM Livefyre : `com.adobe.cq.social.cq-social-livefyre`.
-   * Sélectionner **Arrêter**.
+   * Cliquez sur **Arrêter**.
 
 1. ***Désactivez l’interrogateur Livefyre :***
 

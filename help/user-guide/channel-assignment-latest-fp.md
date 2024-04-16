@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -44,7 +44,7 @@ Pour configurer un projet et un canal, procédez comme suit :
 
 1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux**.
 
-1. Sélectionnez le canal, puis cliquez sur **Modifier** dans la barre d’actions.
+1. Cliquez sur le canal, puis sur **Modifier** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 
 1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
-1. Sélectionner **Attribuer le canal** dans la barre d’actions.
+1. Cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Sélectionner **Tableau de bord** dans la barre d’actions, puis sélectionnez **+Attribuer le canal** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
+   Cliquez sur **Tableau de bord** dans la barre d’actions, puis cliquez sur **+Attribuer le canal** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
    >
    >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
 
-1. Dans la **Planification** , sélectionnez l’option **Fenêtre d’activation** et **Planning de périodicité**.
+1. Dans la **Planification** , cliquez sur l’option **Fenêtre d’activation** et **Planning de périodicité**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
 
-1. Sélectionner **Enregistrer** une fois que vous avez configuré vos préférences.
+1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie 
 
 1. Accédez à l’affichage requis, par exemple : **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
-1. Sélectionner **Attribuer le canal** dans la barre d’actions.
+1. Cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    Ou,
 
-   Sélectionner **Tableau de bord** et sélectionnez **Chronologie** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
+   Cliquez sur **Tableau de bord** et cliquez sur **Chronologie** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ La fenêtre d’activation vous permet de sélectionner une **Date de début** e
 
 ### Planning de périodicité {#recurrence-schedule}
 
-Le Planning de périodicité permet de définir une planification récurrente pour votre contenu. Sélectionner **+ Ajouter une planification** pour ajouter un planning de périodicité à votre canal.
+Le Planning de périodicité permet de définir une planification récurrente pour votre contenu. Cliquez sur **+ Ajouter une planification** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.

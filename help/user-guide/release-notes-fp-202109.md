@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 57%
+ht-degree: 55%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Rendus adaptatifs**
 
-  Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client.
+  Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client.
 
   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
 
@@ -60,7 +60,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
       * Accédez à CRXDE Lite dans les instances de création et de publication.
 
-      * Choisissez Outils > Requête.
+      * Cliquez sur Outils > Requête.
 
       * Dans la requête, utilisez `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

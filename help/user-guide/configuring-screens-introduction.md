@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
@@ -42,7 +42,7 @@ Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentie
    ![ressources](assets/health-check1.png)
 
 
-2. Sélectionner **Exécution des contrôles d’intégrité sélectionnés** vous pouvez donc exécuter la validation de deux propriétés répertoriées ci-dessus.
+2. Cliquez sur **Exécution des contrôles d’intégrité sélectionnés** vous pouvez donc exécuter la validation de deux propriétés répertoriées ci-dessus.
 
    Si les deux filtres sont activés, le **service d’intégrité de la configuration de Screens** affiche le **résultat** comme étant **OK** avec les deux configurations activées.
 
@@ -76,7 +76,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/empty-ref2.png)
 
-1. Sélectionner **Enregistrer** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
+1. Cliquez sur **Save** pour activer l’option Allow Empty d’Apache Sling Referrer Filter.
 
 
 #### Service HTTP Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/config-1.png)
 
-1. Sélectionner **Enregistrer** pour activer la variable *http* service.
+1. Cliquez sur **Enregistrer** pour activer le service *http*.
 
 #### Activation de l’interface utilisateur tactile pour AEM Screens {#enable-touch-ui-for-aem-screens}
 

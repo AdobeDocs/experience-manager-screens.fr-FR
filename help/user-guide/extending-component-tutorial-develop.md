@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
@@ -192,7 +192,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    La propriété `sling:hideChildren`= `"[linkURL,size]`&quot; est utilisée sur le nœud `items` pour veiller à ce que les champs **linkURL** et **size** soient masqués dans la boîte de dialogue. Supprimer ces nœuds de la boîte de dialogue Poster n’est pas suffisant. La propriété `sling:hideResource="{Boolean}true"` de l’onglet d’accessibilité sert à masquer l’ensemble de l’onglet.
 
-   Deux champs de sélection sont ajoutés à la boîte de dialogue pour permettre aux auteurs de contrôler la position et la couleur du texte du titre et de la description.
+   Deux champs de clic sont ajoutés à la boîte de dialogue pour permettre aux auteurs de contrôler la position et la couleur du texte du titre et de la description.
 
    ![Poster : structure finale de la boîte de dialogue](assets/2018-05-03_at_4_49pm.png)
 
