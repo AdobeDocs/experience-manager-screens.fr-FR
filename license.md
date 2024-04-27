@@ -1,23 +1,19 @@
 ---
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 8330c85b68e9fd3877a04455f38b908459036805
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 # Licence MIT
 
 © Copyright 2021 Adobe. All rights reserved.
 
-L&#39;autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), de traiter dans le Logiciel sans restriction, y compris, sans s&#39;y limiter, les droits d&#39;utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente des copies du Logiciel, et d&#39;autoriser les personnes à qui le Logiciel est fourni à le faire, sous les conditions suivantes :
+L&#39;autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), pour traiter dans le Logiciel sans restriction. Cela inclut sans s’y limiter les droits d’utilisation, de copie, d’édition, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du Logiciel. Et, pour permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’AUCUNE DEMANDE, DE DOMMAGES OU D’AUTRE RESPONSABILITÉ. QUE CE SOIT DANS LE CADRE D&#39;UN CONTRAT, D&#39;UN TRI OU D&#39;UNE AUTRE FAÇON, EN PROVENANCE, EN DEHORS OU EN CONNEXION AVEC LE LOGICIEL. OU L’UTILISATION OU D’AUTRES OPÉRATIONS DU LOGICIEL.
