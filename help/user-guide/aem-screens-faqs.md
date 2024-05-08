@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 40%
+source-wordcount: '2134'
+ht-degree: 39%
 
 ---
 
@@ -177,7 +177,7 @@ Suivez les étapes ci-dessous pour résoudre les problèmes liés à un lecteur 
 
 ### 6. Comment obtenir les informations concernant l’affichage et l’appareil à partir de l’API du lecteur ?
 
-Vous pouvez obtenir les informations sur l’affichage et l’appareil via :
+Vous pouvez obtenir les détails de l’affichage et de l’appareil en procédant comme suit :
 
 * **une API JS interne** ;
 * **une boutique ContextHub** : Trois magasins ContextHub sont définis dans `/libs/screens/clientlibs/contexthub` pour exposer les canaux, les appareils et les informations d’affichage.
@@ -247,7 +247,7 @@ Installez une version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur
 
 Le service est utilisé pour définir le nom d’hôte public pour les instances d’auteur et de publication, et les valeurs sont ensuite utilisées pour mettre à jour les URL du serveur d’appareils ainsi que pour le ciblage ContextHub.
 
-Le service CQ Link Externalizer dans Screens peut être configuré par ce biais :
+Le service d’externaliseur de liens CQ dans Screens peut être configuré à l’aide des options suivantes :
 
 1. Accédez à `http://localhost:4502/system/console/configMgr`.
 1. Day CQ Link Externalizer

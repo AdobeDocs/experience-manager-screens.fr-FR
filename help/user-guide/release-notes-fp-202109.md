@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 39%
+source-wordcount: '916'
+ht-degree: 37%
 
 ---
 
@@ -93,7 +93,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Les noms et rôles des canaux numériques étaient laissés vide.
 
-* Téléchargez des rendus optimisés via SmartSync.
+* Téléchargez des rendus optimisés au moyen de SmartSync.
 
 * Le mappage a été transformé en liste de clés de rendu.
 
@@ -134,7 +134,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Un nouveau composant d’image principal est maintenant ajouté au manifeste du canal.
 
-* Le téléchargement de rendus optimisés via SmartSync est désormais pris en charge.
+* Le téléchargement de rendus optimisés au moyen de SmartSync est désormais pris en charge.
 
 * Lire le rendu optimisé pour toutes les ressources.
 

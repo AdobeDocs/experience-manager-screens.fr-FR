@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 43%
+source-wordcount: '1404'
+ht-degree: 42%
 
 ---
 
@@ -235,7 +235,7 @@ La ressource image comporte trois onglets, à savoir : **Image**, **Accessibilit
 
 Le composant Transition vous permet d’ajouter une transition à votre projet Screens.
 
-L’illustration suivante représente le composant de transition (ajouté par glisser-déplacer) dans l’éditeur.
+L’image suivante montre le composant de transition (ajouté par glisser-déposer) dans l’éditeur.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 

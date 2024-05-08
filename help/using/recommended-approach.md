@@ -2,10 +2,10 @@
 title: Approche recommandée
 description: Découvrez l’approche recommandée dans un projet AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -29,7 +29,7 @@ si la solution envisagée est ambitieuse, il est recommandé de diviser les livr
 * **Définition de programmes pilotes, de déploiements et de validations de principe** : 
 élaborez des validations de principe et adaptez-les suivant les besoins au moyen d’un programme pilote et d’un déploiement.
 
-* **Définition préalable de la stratégie de contenu** : élaborez une stratégie de contenu, sans oublier les objectifs à court et à long terme. Alignez également les objectifs et les indicateurs de performance clés de la marque sur les améliorations de fonctionnalités.
+* **Stratégie de contenu prédéfinie**: élaborez une stratégie de contenu, y compris des objectifs à court et à long terme. Alignez également les objectifs et les indicateurs de performance clés de la marque sur les améliorations de fonctionnalités.
 
   >[!NOTE]
   >

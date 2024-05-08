@@ -3,9 +3,9 @@ title: Événements pilotés par les données
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ Les événements pilotés par les données sont classés dans les quatre catégo
 
 #### Données en état de fonctionnement {#data-in-operational}
 
-Vous pouvez également les classer dans Interruption de canal et Espace réservé.
+Cet événement peut être classé dans Interruption du canal et Espace réservé.
 
 #### Données en présentation {#data-in-presentation}
 

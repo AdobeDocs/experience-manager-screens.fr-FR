@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 50%
 
 ---
@@ -64,7 +64,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 #### Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
 
-1. Accédez à **Configuration de la console web Adobe Experience Manager** via l’instance AEM > icône marteau > **Opérations** > **Console web**.
+1. Accédez à **Configuration de la console web Adobe Experience Manager** par le biais de l’AEM instance > icône marteau > **Opérations** > **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 #### Service HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Accédez à **Configuration de la console web Adobe Experience Manager** via l’instance AEM > icône marteau > **Opérations** > **Console web**.
+1. Accédez à **Configuration de la console web Adobe Experience Manager** par le biais de l’AEM instance > icône marteau > **Opérations** > **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 

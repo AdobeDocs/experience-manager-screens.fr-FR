@@ -2,17 +2,17 @@
 title: Tests et assurance qualité
 description: Découvrez les tests et l’assurance qualité pour AEM Screens dans le guide des bonnes pratiques.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 50%
+source-wordcount: '334'
+ht-degree: 28%
 
 ---
 
 # Tests et assurance qualité {#testing-quality}
 
 >[!NOTE]
->Cette activité est généralement réalisée par un intégrateur audio/vidéo.
+>Une partie prenante standard de cette activité est un intégrateur audio/vidéo.
 
 À mesure que vous vous approchez du déploiement du réseau de signalétique digitale, créez un plan de test et d’assurance qualité qui s’adresse à chaque élément du réseau, y compris tous les composants matériels, logiciels et réseau.
 Au cours de cette phase, des systèmes de test complets doivent être mis au point et soumis à des tests exhaustifs.
@@ -21,7 +21,7 @@ Il est nécessaire de créer une liste de contrôle qui identifie tous les IPC d
 
 >[!NOTE]
 >
->Cette phase doit également servir d’outil pour la création d’un guide d’installation et d’utilisation qui pourra être livré avec l’équipement et conservé sur site pour consultation future.
+>Cette phase doit également être utilisée comme outil pour créer un guide d’installation et d’utilisation. Les deux peuvent ensuite être livrés avec l’équipement et conservés sur site à des fins de référence ultérieure.
 
 Les éléments suivants doivent être pris en compte :
 
@@ -48,9 +48,9 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 
 ## 3. Facteurs de gestion des périphériques {#device-management-considerations}
 
-AEM Screens dispose d’un module de centre de contrôle des appareils qui permet de gérer les points d’extrémité de l’application du lecteur Screens.
+AEM Screens comprend un module de centre de contrôle des périphériques qui permet de gérer les points de terminaison de l’application du lecteur Screens.
 
-Cela fait référence à tout appareil matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.
+Il fait référence à tout *player* Périphérique matériel sur lequel l’application du lecteur Screens est installée et enregistré sur une instance d’AEM.
 Ce module permet :
 
 1. Surveiller les journaux d’erreurs de l’application du lecteur
@@ -58,7 +58,7 @@ Ce module permet :
 1. Gérer les téléchargements de contenus
 1. Gérer les problèmes de redémarrage de l’application
 
-Pour en savoir plus sur ***Centre de contrôle des périphériques***, voir [Dépannage du Centre de contrôle des périphériques](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guide de l’utilisateur d’AEM Screens**.
+Pour en savoir plus sur les ***Centre de contrôle des périphériques***, voir [Dépannage du Centre de contrôle des périphériques](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guide de l’utilisateur d’AEM Screens**.
 
 >[!CAUTION]
 >

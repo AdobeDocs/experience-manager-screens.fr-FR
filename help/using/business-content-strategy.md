@@ -2,10 +2,10 @@
 title: Stratégie de contenu commercial pour AEM Screens
 description: En savoir plus sur la stratégie marketing et la stratégie de contenu commercial en ce qui concerne AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 50%
+source-wordcount: '433'
+ht-degree: 47%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->Cette activité est généralement réalisée par un stratège opérationnel/marketing.
+>Un stratège opérationnel/marketing est un acteur typique de cette activité.
 
 Le contenu est un facteur majeur de l’engagement. Lors de la phase de prévente, il est important de définir une stratégie de contenu commercial qui prenne en compte la manière dont l’application utilise les ressources matérielles, logicielles et de connectivité pour fournir la valeur souhaitée aux clients.
 

@@ -2,10 +2,10 @@
 title: Dépendances UX pour AEM Screens
 description: En savoir plus sur les dépendances de l’expérience utilisateur pour AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 77%
+source-wordcount: '138'
+ht-degree: 69%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->Cette activité est généralement réalisée par un stratège opérationnel/marketing.
+>Un stratège opérationnel/marketing est un acteur typique de cette activité.
 
 Les dépendances de l’expérience utilisateur définissent les stratégies mises en place pour le placement et le mode de diffusion du contenu, de sorte qu’il ait un impact maximal.
 

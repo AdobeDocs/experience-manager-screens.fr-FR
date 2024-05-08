@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 77%
+source-wordcount: '1698'
+ht-degree: 76%
 
 ---
 
@@ -70,7 +70,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
 ## Créer le composant Poster {#poster-cmp}
 
-Le composant Poster étend le composant AEM Screens Image prêt à l’emploi. Un mécanisme de Sling, `sling:resourceSuperType`, est utilisé pour hériter des fonctionnalités de base du composant Image sans avoir à utiliser la fonction Copier/Coller. Vous trouverez plus d’informations sur les notions de base du [traitement des requêtes Sling ici.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+Le composant Poster étend le composant AEM Screens Image prêt à l’emploi. Un mécanisme de Sling, `sling:resourceSuperType`, est utilisé pour hériter des fonctionnalités de base du composant Image sans avoir à utiliser la fonction Copier/Coller. Vous trouverez plus d’informations sur les notions de base du [traitement des requêtes Sling ici.](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 Le composant Poster s’affiche en plein écran en mode d’aperçu/de production. En mode d’édition, il est important de rendre le composant différemment pour faciliter la création du canal de séquence.
 
@@ -339,7 +339,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    La propriété `categories` est une chaîne qui identifie la bibliothèque cliente. La catégorie `cq.screens.components` est utilisée en mode d’édition et en mode d’aperçu/de production. Ainsi, tout CSS/JS défini dans la clientlib `shared` est chargé dans tous les modes.
 
-   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La propriété `allowProxy` garantit le référencement de CSS et JS de la bibliothèque cliente par le biais d’un préfixe `/etc.clientlibs`. Vous trouverez [ici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs) plus d’informations sur la propriété allowProxy.
+   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La variable `allowProxy` garantit que la bibliothèque cliente CSS et JS est référencée au moyen d’un préfixe de `/etc.clientlibs`. Vous trouverez [ici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs) plus d’informations sur la propriété allowProxy.
 
 1. Créez un fichier appelé `css.txt` sous le dossier partagé.
 

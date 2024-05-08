@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 69%
+source-wordcount: '435'
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ Il s’exécute à la fois côté serveur et côté client.
 **Côté serveur** :
 
 * Le contenu des canaux, y compris les ressources, est mis en cache dans *`/var/contentsync`*.
-* Le cache est exposé aux lecteurs via un manifeste qui décrit le contenu disponible pour un affichage.
+* Le cache est exposé aux lecteurs au moyen d’un manifeste qui décrit le contenu disponible pour un affichage.
 
 **Côté client** :
 
@@ -75,7 +75,7 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
    >
    >Tout le cache de contenu doit être effacé avant d’utiliser SmartSync pour la première fois.
 
-1. Accédez à **Configuration de la console web Adobe Experience Manager** via l’instance AEM > icône marteau > **Opérations** > **Console web**.
+1. Accédez à **Configuration de la console web Adobe Experience Manager** par le biais de l’AEM instance > icône marteau > **Opérations** > **Console web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

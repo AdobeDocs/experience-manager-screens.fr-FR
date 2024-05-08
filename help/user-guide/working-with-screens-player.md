@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 51%
+source-wordcount: '1059'
+ht-degree: 50%
 
 ---
 
@@ -28,7 +28,7 @@ Une fois que vous avez attribué un canal à un affichage, le lecteur AEM Screen
 
 ## Utilisation du tableau de bord de l’appareil {#using-the-device-dashboard}
 
-Vous pouvez configurer les préférences de votre appareil à partir de son tableau de bord, accessible via votre instance de création AEM.
+Vous pouvez configurer les préférences de votre appareil à partir du tableau de bord du périphérique, accessible par le biais de votre instance de création AEM.
 
 1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple : ***Test du projet*** > ***Périphériques***.
 

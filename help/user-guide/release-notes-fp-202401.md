@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 65%
+source-wordcount: '225'
+ht-degree: 58%
 
 ---
 
@@ -35,7 +35,7 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 * Problème XSS dans le champ « Texte inactif » du périphérique AEM Screens. (SCRNS-2614)
 
-* Problème XSS sur `screens/dashboard/device.html` via le boîte de dialogue d’action `Clear cache`. (SCRNS-2632)
+* Problème XSS à `screens/dashboard/device.html` au moyen de la fonction `Clear cache` boîte de dialogue d’action. (SCRNS-2632)
 
 * Problème XSS dans la configuration du lecteur Screens sur `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -45,7 +45,7 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 * XSS reflété avec le paramètre `item` sur `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* XSS reflété sur `screens/dashboard/device.html` via le paramètre `returnPage`. (SCRNS-3056)
+* XSS reflété dans `screens/dashboard/device.html` au moyen de la fonction `returnPage` . (SCRNS-3056)
 
 * Redirection ouverte sur assign-device-wizard.html. (SCRNS-3444)
 

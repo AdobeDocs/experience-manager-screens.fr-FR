@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 70%
+source-wordcount: '2139'
+ht-degree: 68%
 
 ---
 
@@ -60,7 +60,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Packages Ui.Apps et Ui.Content Screens We.Retail Run installés via CRX Package Manager](assets/crx-packages.png)
+   ![Packages Ui.Apps et Ui.Content Screens We.Retail Run installés par le biais du gestionnaire de modules CRX](assets/crx-packages.png)
 
    Screens `We.Retail` Exécuter `Ui.Apps` et `Ui.Content` packages installés par le biais de CRX Package Manager.
 
@@ -296,7 +296,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    La propriété catégories est une chaîne qui identifie la bibliothèque cliente. La catégorie cq.screens.components est utilisé en mode Edition et Aperçu/Production. Par conséquent, tout fichier CSS/JS défini dans la bibliothèque sharedclientlib est chargé dans tous les modes.
 
-   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La propriété allowProxy garantit que la bibliothèque cliente CSS et JS est référencée par le biais d’un préfixe of/etc.clientlibs.
+   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La propriété allowProxy garantit que la bibliothèque cliente CSS et JS est référencée au moyen d’un préfixe of/etc.clientlibs.
 
 1. Créez un fichier appelé `css.txt` sous le dossier partagé.
 

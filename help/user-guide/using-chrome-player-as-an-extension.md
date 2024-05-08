@@ -5,16 +5,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 36%
+source-wordcount: '453'
+ht-degree: 19%
 
 ---
 
 # Utilisation du lecteur Chrome comme extension {#using-chrome-player}
 
-Le lecteur Chrome OS peut être installé en tant que module externe de navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome réel.
+Le lecteur Chrome OS peut être installé en tant que module externe de navigateur Chrome en mode développeur sans nécessiter de périphérique de lecteur Chrome réel.
 
 >[!CAUTION]
 >
@@ -22,7 +22,7 @@ Le lecteur Chrome OS peut être installé en tant que module externe de navigate
 
 Consultez cette page pour plus d’informations sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 
-1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
+1. Cliquez sur [here](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur Chrome.
 
 1. Décompressez et enregistrez le fichier d’installation sur le disque.
 
@@ -32,7 +32,7 @@ Consultez cette page pour plus d’informations sur l’installation du lecteur 
 
 1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 
-1. Vérifiez si le module Lecteur Chrome AEM Screens est disponible dans la liste des extensions.
+1. Vérifiez si le module du lecteur AEM Screens Chrome est disponible dans la liste des extensions.
 
 1. Ouvrez un nouvel onglet et cliquez sur l’icône Applications dans le coin supérieur gauche ou accédez directement à `chrome://apps`.
 
@@ -49,9 +49,9 @@ Consultez cette page pour plus d’informations sur l’installation du lecteur 
 
    >[!NOTE]
    >
-   > Si l’URL mentionnée ci-dessus ne fonctionne pas, cela signifie que le lecteur ne se voit pas attribuer un affichage ou que le contenu n’a pas été téléchargé correctement. Vérifiez l’onglet réseau du JSON de configuration du lecteur afin de voir si le lecteur obtient les détails corrects et pour tout problème réseau en matière de téléchargement.
+   > Si l’URL mentionnée ci-dessus ne fonctionne pas, cela signifie que le lecteur ne se voit pas attribuer un affichage ou que le contenu n’a pas été téléchargé correctement. Consultez l’onglet réseau du fichier JSON de configuration du lecteur pour voir si le lecteur obtient les détails corrects et pour tout problème réseau en cours de téléchargement.
 
-1. Cliquez avec le bouton droit et examinez trois calques du lecteur Chrome.
+1. Cliquez avec le bouton droit de la souris et examinez trois calques du lecteur Chrome.
    **Déboguer le contenu**: cliquez avec le bouton droit et examinez le contenu pour déboguer le contenu en cours d’exécution (un seul élément appelé &quot;Inspect&quot; doit s’afficher dans le menu contextuel).
 
    **Déboguer le microprogramme**: affichez l’interface utilisateur d’administration, puis cliquez avec le bouton droit et examinez le code du micrologiciel (lecteur) pour le déboguer. (Il doit y avoir une option pour inspecter et inspecter la page d’arrière-plan et simuler le redémarrage du navigateur.)
@@ -66,4 +66,4 @@ Suivez les étapes ci-dessous pour mettre à niveau l’extension du lecteur si 
 1. Renommez l’ancien dossier avec les fichiers du lecteur
 1. Extrayez le nouveau fichier compressé au même emplacement que l’ancien dossier.
 1. Lancez Chrome et accédez à `chrome://extensions`
-1. Vérifiez l’icône du lecteur et cliquez sur le bouton Actualiser ou Charger de nouveau.
+1. Cochez l’icône du lecteur et cliquez sur le bouton Actualiser ou Charger à nouveau .
