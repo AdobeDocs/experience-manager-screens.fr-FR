@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 49%
 
 La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans. Certains cas pratiques similaires prévoient la recherche de recommandations de produits dans les magasins ainsi que la commande de plats indiqués dans les menus des restaurants. Cette fonctionnalité accroît l’accessibilité pour les utilisateurs et peut améliorer considérablement l’expérience client.
+Un auteur de contenu peut configurer un affichage pour qu’il soit activé pour la voix. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans. Certains cas pratiques similaires prévoient la recherche de recommandations de produits dans les magasins ainsi que la commande de plats indiqués dans les menus des restaurants. Cette fonctionnalité accroît l’accessibilité pour les utilisateurs et peut améliorer considérablement l’expérience client.
 
 >[!NOTE]
 >Le matériel du lecteur doit prendre en charge l’entrée vocale, par exemple à l’aide d’un microphone.

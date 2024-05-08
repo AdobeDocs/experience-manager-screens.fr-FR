@@ -2,10 +2,10 @@
 title: Présentation et configurations de l’architecture des rendus adaptatifs
 description: Découvrez la présentation et les configurations architecturales dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 37%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 40%
 
 ## Présentation {#introduction}
 
-Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de la *main* expérience.
+Les rendus adaptatifs permettent aux périphériques de cliquer automatiquement sur le meilleur rendu pour un périphérique en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer sur la conception de la *main* expérience uniquement.
 
 ## Objectif {#objective}
 
@@ -41,7 +41,7 @@ Suivez les étapes ci-dessous pour configurer l’installation :
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si vous avez installé le dernier Feature Pack 202109, le **mapping de rendu** structure de noeud prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` en CRXDE Lite. Voir les [Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des informations sur le dernier Feature Pack.
+   >Si vous avez installé le dernier Feature Pack 202109, le **mapping de rendu** structure de noeud prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` en CRXDE Lite. Voir [Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des détails sur le dernier Feature Pack.
    >Pour les projets existants, assurez-vous que la configuration **rendu-mapping** est associée au projet Screens. Voir [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour plus d’informations.
 
 ### Ajout d’une propriété de mappage de rendu à un projet existant {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
    >[!NOTE]
    >Voir [Utilisation de la syntaxe des requêtes de média](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) pour en savoir plus.
 
-   Cliquez sur **rule1** que vous avez créé et saisissez **expression** in **Nom** et **(orientation:paysage)** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Cliquez sur **rule1** que vous avez créé, puis saisissez la variable **expression** in **Nom** et **(orientation:paysage)** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
    >[!NOTE]
    >La valeur définie dans la propriété pattern correspond au nouveau rendu de ressource et est sélectionnée si l’expression est évaluée sur true.
 
-   Pour ajouter la propriété pattern, cliquez sur **rule1** que vous avez créé et saisissez **pattern** in **Nom** et **paysage** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Pour ajouter la propriété pattern, cliquez sur **rule1** que vous avez créé, puis saisissez la variable **pattern** in **Nom** et **paysage** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 
 ## Étapes suivantes {#next-steps}
 
-Après avoir ajouté des propriétés et des règles de mappage de rendu, vous pouvez configurer vos ressources en tant qu’auteur de contenu. Pour ce faire, utilisez les rendus adaptatifs et migrez également vos appareils pour que les grands réseaux utilisent cette fonctionnalité dans vos canaux AEM Screens. Voir [Utilisation de rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+Après avoir ajouté des propriétés et des règles de mappage de rendu, vous pouvez configurer vos ressources en tant qu’auteur de contenu. Vous pouvez utiliser les rendus adaptatifs et également migrer vos appareils pour que les grands réseaux utilisent cette fonctionnalité dans vos canaux AEM Screens. Voir [Utilisation de rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.

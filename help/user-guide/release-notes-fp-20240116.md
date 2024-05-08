@@ -5,23 +5,23 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 68%
+source-wordcount: '154'
+ht-degree: 40%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager 6.5 (AEM 6.5). Vous pouvez obtenir les informations les plus récentes sur la version à partir de [here](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager 6.5 (AEM 6.5). Vous pouvez obtenir les informations les plus récentes sur la version à partir de [here](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilité {#availability}
 
 Le pack de fonctionnalités 11.2 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.11.2 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP11.2**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.2 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11.2**.
 
 ## Date de publication {#release-date}
 
@@ -39,4 +39,4 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

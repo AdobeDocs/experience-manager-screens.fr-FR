@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
@@ -91,7 +91,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 ### Configurer un lecteur principal {#setting-up-primary}
 
 1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
-Notez les deux appareils (Chrome et lecteur Windows) dans **APPAREILS** , comme illustré dans les sections suivantes :
+Notez les deux appareils (Chrome et Lecteur Windows) dans **APPAREILS** , comme illustré dans les sections suivantes :
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Dans la **APPAREILS** , cliquez sur le périphérique que vous souhaitez définir comme principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Défini comme périphérique principal**.

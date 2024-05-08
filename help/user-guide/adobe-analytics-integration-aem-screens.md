@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 54%
+source-wordcount: '672'
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et demandez l’accès. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
+>Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et demandez l’accès. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID.
 
 Cette section couvre les sujets suivants :
 
@@ -45,8 +45,8 @@ Cette section décrit les fonctionnalités suivantes liées à la connexion d’
 * Permet de créer des rapports de preuve de lecture par ressource
 * Veille à ce que tous les événements du lecteur soient capturés et horodatés
 * Veille à ce que tous les événements du lecteur soient stockés localement s’il n’est pas connecté à un réseau
-* Permet de créer des boucles de rétroaction pour suivre les événements de lecture à long terme
-* Permet au système de modifier le contenu et les dispositions selon les critères de réussite définis par l’auteur du contenu
+* Il est possible de créer des boucles de commentaires qui effectuent le suivi des événements de lecture au fil du temps.
+* Permet au système de modifier le contenu et les mises en page en fonction de critères de réussite définis par l’auteur de contenu.
 
 Ainsi, l’intégration d’Adobe Analytics avec AEM Screens permet de réaliser les *objectifs* suivants :
 
@@ -55,7 +55,7 @@ Ainsi, l’intégration d’Adobe Analytics avec AEM Screens permet de réalise
 
 ## Particularités architecturales {#architectural-details}
 
-Un client AEM Screens souhaite comprendre quel contenu a été affiché à quelle heure et pendant combien de temps (agrégé). Il s’agit d’une fonctionnalité courante de la solution d’affichage numérique. Au lieu de créer une application d’analyse distincte, AEM Screens utilise Adobe Analytics. La combinaison nous permet d’obtenir quelque chose d’unique sur le marché : des analyses cross-canal qui permettent de mettre en relation le contenu affiché à l’emplacement avec d’autres sources de données.
+Un client AEM Screens souhaite comprendre quel contenu a été affiché à quelle heure et pendant combien de temps (agrégé). Cette nécessité est une fonctionnalité commune à une solution de signalisation. Au lieu de créer une application d’analyse distincte, AEM Screens utilise Adobe Analytics. La combinaison nous permet d’obtenir quelque chose d’unique sur le marché : des analyses cross-canal qui permettent de mettre en relation le contenu affiché à l’emplacement avec d’autres sources de données.
 
 Le diagramme architectural suivant explique comment Adobe Analytics s’intègre avec AEM Screens :
 
@@ -119,7 +119,7 @@ Le tableau suivant répertorie et décrit les propriétés permettant de configu
 
 #### Utilisation d’Adobe Analytics Service dans AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Ce scénario appelle l’API Analytics par le biais d’appels REST d’un service d’analyse du microprogramme. Il permet également d’AEM aux composants principaux Screens de créer et d’envoyer explicitement des événements spécifiques à un cas d’utilisation particulier. Tout cela tout en permettant l’extensibilité où tout message personnalisé peut être envoyé à Analytics à partir d’un canal développé de manière personnalisée.
+Ce scénario appelle l’API Analytics par le biais d’appels REST d’un service d’analyse du microprogramme. Il permet également d’AEM des composants principaux Screens pour créer et envoyer des événements spécifiques à un cas d’utilisation particulier. Toutes ces fonctionnalités tout en permettant l’extensibilité où tout message personnalisé peut être envoyé à Analytics à partir d’un canal développé de manière personnalisée.
 
 Les événements Analytics sont stockés hors ligne dans indexedDB, puis segmentés et envoyés ultérieurement vers le cloud.
 

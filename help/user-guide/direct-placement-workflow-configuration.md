@@ -1,10 +1,10 @@
 ---
 title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 46%
+ht-degree: 40%
 
 ---
 
@@ -22,7 +22,7 @@ Cette section couvre les sujets suivants :
 
 La configuration d’un workflow de placement direct consiste à mapper un canal de projet AEM Screens avec un dossier spécifique de ressources et permet de les placer dans ce dossier. Adobe recommande de déclencher une mise à jour hors ligne en bloc pour terminer la publication.
 
-En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur l’option **Mettre à jour le contenu hors ligne**.
+En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur **Mettre à jour le contenu hors ligne**.
 
 >[!NOTE]
 >

@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 52%
+source-wordcount: '375'
+ht-degree: 44%
 
 ---
 
@@ -33,9 +33,10 @@ La date de publication d’AEM Screens Feature Pack 201907 est le mercredi 31 
 
 * **Le Déclencheur de données entraîne la modification des ressources dans un canal AEM Screens**
 
-Le lecteur passe sur un canal qui présente les informations d’urgence sur réception d’un événement déclenché par le système d’urgence. Ce canal est le seul lu jusqu’à la fin de la situation d’urgence.
+Le lecteur passe à un canal qui affiche les informations d’urgence. Le système d’urgence envoie ces informations lorsqu’il reçoit un événement. Ce canal est le seul lu jusqu’à la fin de la situation d’urgence.
 
-Voir [Canal d’urgence](emergency-channel.md) Cas d’utilisation de la mise en oeuvre.
+
+Voir [Canal d’urgence](emergency-channel.md) cas d’utilisation pour la mise en oeuvre.
 
 * Ciblage activé pour les composants asynchrones
 

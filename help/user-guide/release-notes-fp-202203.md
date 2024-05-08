@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 68%
+source-wordcount: '274'
+ht-degree: 38%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 68%
 
 Le pack de fonctionnalités 11 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.11 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP11**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11**.
 
 ## Date de publication {#release-date}
 
@@ -33,19 +33,19 @@ Cette version comprend uniquement des correctifs de bugs.
 
 ### Correctifs {#bug-fixes}
 
-* Le ciblage/la personnalisation ne fonctionnait pas. Ce problème est maintenant résolu.
+* Le ciblage/la personnalisation ne fonctionnait pas. Ce bogue a maintenant été corrigé.
 
-* L’e-mail de surveillance de Screens ne fonctionnait pas après FP10. Ce problème est maintenant résolu.
+* L’e-mail de surveillance de Screens ne fonctionnait pas après FP10. Ce bogue a maintenant été corrigé.
 
-* Le lecteur Windows ne fonctionnait plus lors de la prise d’une capture d’écran en mode portrait. Ce problème est maintenant résolu.
+* Le lecteur Windows se bloquait lors d’une capture d’écran en mode portrait. Ce bogue a maintenant été corrigé.
 
-* Le canal SPA de Screens provoquait un écran blanc avec le lecteur Windows. Ce problème est maintenant résolu.
+* Le canal SPA de Screens provoquait un écran blanc avec le lecteur Windows. Ce bogue a maintenant été corrigé.
 
 * La variable *wcmmode* a été supprimé de toutes les requêtes Screens sur l’instance de publication.
 
 * L’interface utilisateur de l’activité Lecteur fonctionne maintenant comme prévu.
 
-* Le lecteur ne parvenait pas à effectuer la dernière mise à jour au moyen de la gestion de la publication. Ce problème est maintenant résolu.
+* Le lecteur ne parvenait pas à effectuer la dernière mise à jour au moyen de la gestion de la publication. Ce bogue a maintenant été corrigé.
 
 ### Lecteurs AEM Screens publiés
 

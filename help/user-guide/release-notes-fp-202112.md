@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 66%
+source-wordcount: '326'
+ht-degree: 39%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 66%
 
 Le Feature Pack 10 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP10**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP10**.
 
 ## Date de publication {#release-date}
 
@@ -37,7 +37,7 @@ La date de publication du pack de fonctionnalités AEM Screens 202112 est le 12
 
 * Correction des erreurs de téléchargement simultané dans SmartSync
 
-* En tant que développeur, affichez les rendus de ressources que vous souhaitez répertorier uniquement en tant qu’entrées de rendu sous les ressources correspondantes dans le manifeste afin de garantir l’extensibilité, la clarté et la facilité de la gestion des manifestes.
+* En tant que développeur, affichez les rendus de ressources que vous souhaitez répertorier uniquement en tant qu’entrées de rendu sous les ressources correspondantes dans le manifeste. Cela garantit l’extensibilité, la clarté et la facilité de la gestion des manifestes.
 
 ### Correctifs {#bug-fixes}
 
@@ -45,11 +45,11 @@ La date de publication du pack de fonctionnalités AEM Screens 202112 est le 12
 
 * Collectez les journaux du lecteur On-Premise et analysez-les pour détecter un écran noir.
 
-* Le lecteur affichant un écran vide avec le canal d’écran partagé est maintenant corrigé.
+* Le lecteur qui affiche un écran vierge avec un canal d’écran partagé est maintenant corrigé.
 
-* Correction des documents de gestionnaires personnalisés en ajoutant le lot de base sur Public Maven.
+* Correction des documents de gestionnaire personnalisés en ajoutant un lot principal sur le Maven public.
 
-* Le lecteur ne mettait pas à jour la version du micrologiciel après la mise à niveau. Ce problème est maintenant résolu.
+* Le lecteur ne mettait pas à jour la version du micrologiciel après la mise à niveau. Ce bogue a maintenant été corrigé.
 
 * La prévisualisation de lʼaffichage est bloquée sur la configuration précédente du lecteur.
 

@@ -9,10 +9,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 41%
+source-wordcount: '250'
+ht-degree: 34%
 
 ---
 
@@ -37,7 +37,7 @@ La date de publication pour AEM Screens Feature Pack 201809 est le 1er octobre�
 * **Mise à jour en bloc de contenu hors ligne**: vous permet de mettre à jour tous les canaux en masse et d’éviter les difficultés de navigation vers un canal particulier et de mettre à jour le contenu. Voir [Mise à jour hors ligne en bloc](bulk-offline-update.md) pour en savoir plus.
 
 * **Publication de canaux en bloc sur toutes les instances de publication**
-* **Mécanisme amélioré de journalisation du lecteur** : vous pouvez spécifier le nombre maximal de fichiers journaux pour un lecteur AEM Screens. Voir [Utilisation d’un lecteur AEM Screens](working-with-screens-player.md) pour plus d’informations.
+* **Mécanisme amélioré de journalisation du lecteur**: vous pouvez spécifier le nombre maximal de fichiers journaux pour un lecteur AEM Screens. Voir [Utilisation d’un lecteur AEM Screens](working-with-screens-player.md) pour plus d’informations.
 
 * **Créer/publier déploiement (Renforcement)**
 

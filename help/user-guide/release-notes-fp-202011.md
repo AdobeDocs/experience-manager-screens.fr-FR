@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 73%
+source-wordcount: '287'
+ht-degree: 42%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 AEM Screens inclus dans le Feature Pack 6 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.6 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP6**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.6 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP6**.
 
 ## Date de publication {#release-date}
 
@@ -37,12 +37,12 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Lecteur Tizen**
 
-  Un nouveau lecteur, appelé lecteur Tizen, a été introduit avec le dernier Feature Pack pour AEM Screens 6.5.6.
+  Un nouveau lecteur, appelé lecteur Tizen, a été introduit avec le dernier Feature Pack pour AEM Screens 6.5.6.
 Voir [Mise en oeuvre du lecteur Tizen](/help/user-guide/tizen-player.md) pour plus d’informations.
 
 * **Fonctionnalité de recherche à partir du Gestionnaire d’appareils**
 
-  Une nouvelle fonctionnalité de recherche est désormais disponible dans l’interface utilisateur du Gestionnaire d’appareils avec le dernier Feature Pack pour AEM Screens 6.5.6.
+  Une nouvelle fonctionnalité de recherche est désormais disponible dans l’interface utilisateur du Gestionnaire de périphériques avec le dernier Feature Pack pour AEM Screens 6.5.6.
 Voir [Recherche d’un périphérique à partir du Gestionnaire de périphériques](/help/user-guide/device-registration.md#search-device) pour plus d’informations.
 
 * **Intervalle de ping par défaut**

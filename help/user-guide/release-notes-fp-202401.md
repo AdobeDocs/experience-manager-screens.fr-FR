@@ -1,27 +1,27 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités AEM Screens 202401
-description: Découvrez le Feature Pack 202401 d’AEM Screens publié le 2 janvier 2024.
+description: Découvrez le Feature Pack 202401 d’AEM Screens publié le 20 janvier 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 85%
+source-wordcount: '221'
+ht-degree: 65%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager 6.5 (AEM 6.5). Obtenez les informations les plus récentes sur la version [here](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager 6.5 (AEM 6.5). Obtenez les informations les plus récentes sur la version [here](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilité {#availability}
 
-Le pack de fonctionnalités 11.1 d’AEM 6.5 a été publié pour AEM Screens.
+Le pack de fonctionnalités 11.1 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.11.1 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP11.1**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.1 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11.1**.
 
 ## Date de publication {#release-date}
 

@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -224,11 +224,11 @@ Pour cliquer sur plusieurs ressources et planifier leur affichage dans un projet
 
 ## Remplacement global pour une heure de début universelle {#global-override-scheduling}
 
-***Remplacement global pour une heure de début universelle*** est un paramètre qui permet à l’auteur de contenu de définir la lecture d’une image ou d’une ressource vidéo selon une heure spécifique. Le paramètre d’heure/de fuseau horaire d’un lecteur individuel n’est pas utilisé.
+***Remplacement global pour l’heure de début universelle***, est un paramètre qui permet à l’auteur de contenu de définir la lecture d’une image ou d’une ressource vidéo selon une heure spécifique. Le paramètre d’heure/de fuseau horaire d’un lecteur individuel n’est pas utilisé.
 
 En règle générale, la lecture est déterminée par l’heure locale d’un lecteur donné, mais grâce au remplacement global, une heure de début spécifique et universelle peut être utilisée pour lancer la lecture de la ressource.
 
-Cela permet à l’auteur de contenu de désigner la lecture d’une ressource spécifique comme ayant lieu à une date/heure spécifique, indépendamment de l’horloge locale, sur les lecteurs auxquels le contenu est affecté.
+Cela permet à l’auteur de contenu de désigner la lecture d’une ressource spécifique à une date/heure spécifique, quelle que soit l’heure locale des lecteurs auxquels le contenu est affecté.
 
 Le remplacement global pour une heure de début universelle est effectué en configurant l’onglet **Activation** lors de l’accès aux propriétés d’une ressource. Suivez les étapes ci-dessous pour effectuer un remplacement global pour la planification des ressources :
 

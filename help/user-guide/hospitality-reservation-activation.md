@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 26%
@@ -23,7 +23,7 @@ Le cas d’utilisation ci-dessous montre comment utiliser l’activation des ré
 
 ## Description {#description}
 
-Pour ce cas d’utilisation, la feuille de calcul Google est renseignée avec le pourcentage de réservation de deux restaurants. **`Restaurant1`** et **`Restaurant2`**. Une formule est appliquée à partir des valeurs de `Restaurant1` et `Restaurant2` et selon la formule, la valeur 1 ou 2 est affectée à la variable **AdTarget** Colonne.
+Pour ce cas pratique, la feuille de calcul Google est renseignée avec le pourcentage de réservation de deux restaurants. **`Restaurant1`** et **`Restaurant2`**. Une formule est appliquée à partir des valeurs de `Restaurant1` et `Restaurant2` et selon la formule, la valeur 1 ou 2 est affectée à la variable **AdTarget** Colonne.
 
 Si la valeur de **`Restaurant1`** > **`Restaurant2`**, puis **AdTarget** est la valeur affectée **1** other **AdTarget** est la valeur affectée **2**. Valeur 1 générée *Steak food* Option et Valeur 2 donne l’affichage de *La cuisine thaïlandaise* sur votre écran d’affichage.
 

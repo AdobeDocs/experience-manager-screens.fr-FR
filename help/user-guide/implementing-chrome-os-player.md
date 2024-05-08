@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -34,12 +34,12 @@ Pour installer la console de gestion de Chrome, exécutez la procédure suivante
 
 ## Nommage du lecteur Chrome OS {#name-chrome}
 
-Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome, ce qui envoie le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Chrome, mais également d’attribuer facilement le contenu approprié.
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement d’attribuer un nom à votre lecteur Chrome, mais également d’attribuer facilement un contenu approprié.
 
 >[!NOTE]
 >Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
-Pour configurer le nom dans le lecteur Chrome, procédez comme suit :
+Suivez les étapes ci-dessous pour configurer le nom dans le lecteur Chrome :
 
 1. Vous pouvez éventuellement autoriser les intégrateurs audio/vidéo ou les administrateurs informatiques à définir l’ID de ressource et l’emplacement dans le cadre de l’inscription à l’entreprise.
 
@@ -145,7 +145,7 @@ Le tableau ci-dessous récapitule les politiques avec leurs fonctions.
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette option pour afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
-| cloudMode | Définissez cette valeur sur true si vous souhaitez que le lecteur Chrome se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à l’AEM on-premise. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Chrome se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à l’AEM on-premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 >[!NOTE]

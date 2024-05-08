@@ -1,30 +1,30 @@
 ---
 title: Guide de démarrage rapide
-description: Découvrez comment créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalisation numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
+description: Découvrez comment créer un projet AEM Screens de démonstration. Cela vous permet de créer une expérience de signalétique digitale à partir de l’installation et de configurer un nouveau projet pour afficher votre contenu dans le lecteur AEM Screens.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 56%
+source-wordcount: '1282'
+ht-degree: 44%
 
 ---
 
 # Guide de démarrage rapide {#kickstart-guide}
 
-Cette section de démarrage rapide d’AEM Screens explique comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
+Cette section de démarrage rapide d’AEM Screens explique comment configurer et exécuter un projet AEM Screens. Il vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu tel que des ressources et/ou des vidéos à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
+>Avant de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID.
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
-Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Screens et de publier du contenu sur le lecteur Screens.
+Suivez les étapes ci-dessous pour créer un exemple de projet pour AEM Screens et publier davantage de contenu sur le lecteur Screens.
 
 >[!NOTE]
->Le tutoriel suivant présente la lecture du contenu de votre canal dans le lecteur Chrome OS.
+>Le tutoriel suivant présente la lecture du contenu de votre canal dans un lecteur Chrome OS.
 
 >[!IMPORTANT]
 >**Paramètres de configuration OSGi**
@@ -162,7 +162,7 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 
 1. La boîte de dialogue **Attribution de canaux** s’ouvre.
 
-1. À partir de l’option **Paramètres**, choisissez le canal **par chemin** et les **Événements pris en charge** **Chargement initial** et **Écran inactif**.
+1. Dans la **Paramètres** , choisissez le canal **par chemin** et **Événements pris en charge** par exemple **Charge initiale** et **Écran inactif**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
    Vous pouvez également cliquer sur le bouton **Fenêtre d’activation** et **Planning de périodicité**.
 
    >[!NOTE]
-   >La variable *Planning de périodicité* permet de définir une planification récurrente pour votre canal. Vous configurez plusieurs plannings de périodicité pour un canal.
+   >La variable *Planning de périodicité* permet de définir une planification récurrente pour votre canal. Vous pouvez configurer plusieurs calendriers de périodicité pour un canal.
    >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
@@ -183,11 +183,11 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 Enregistrez votre appareil à l’aide du tableau de bord AEM.
 
 >[!IMPORTANT]
->Le lecteur Chrome OS peut être installé en tant que module du navigateur Chrome en mode Développeur sans que vous ayez à utiliser de lecteur Chrome. Pour l’installer, procédez comme suit :
+>Le lecteur Chrome OS peut être installé en tant que module externe de navigateur Chrome en mode Développeur sans nécessiter de périphérique de lecture Chrome réel. Pour l’installer, procédez comme suit :
 >
 >1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 >1. Décompressez et enregistrez le fichier d’installation sur le disque.
->1. Ouvrez le navigateur Chrome et cliquez sur **Extensions** ou accédez directement à ***chrome://extensions***.
+>1. Ouvrez le navigateur Chrome, puis cliquez sur **Extensions** ou accédez directement à ***chrome://extensions***.
 >1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
 >1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
 >1. Vérifier **Lecteur AEM Screens Chrome** s’il est disponible dans la liste des extensions.

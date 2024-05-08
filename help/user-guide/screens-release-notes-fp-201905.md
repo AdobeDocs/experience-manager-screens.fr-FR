@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 40%
 
 ---
@@ -45,9 +45,9 @@ Voir **[Transition de ContentSync à SmartSync](smartsync.md)** pour plus d’in
 
 * **Canal d’urgence**
 
-Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur du contenu peut passer d’un canal de séquence s’il y a une condition préalable.
+Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur de contenu peut passer d’un canal de séquence s’il y a une condition préalable.
 
-Voir **[Canal d’urgence](emergency-channel.md)** Cas d’utilisation pour plus d’informations.
+Voir **[Canal d’urgence](emergency-channel.md)** cas d’utilisation pour plus de détails.
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 

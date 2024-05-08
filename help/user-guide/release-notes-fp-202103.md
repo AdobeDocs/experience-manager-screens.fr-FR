@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 47%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 AEM Screens inclus dans le Feature Pack 7 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.7 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP7**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.7 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP7**.
 
 ## Date de publication {#release-date}
 
@@ -38,7 +38,7 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
 * **Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise**
 
-  Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’enregistrer manuellement chaque lecteur avec AEM. Il est vivement recommandé d’utiliser une solution EMM (Enterprise Mobility Management, par exemple), comme `VMWare Airwatch`, `MobileIron`, ou `Samsung Knox` pour configurer et gérer votre déploiement à distance. Le lecteur AEM Screens Android™ prend en charge la configuration standard EMM AppConfig pour permettre la mise en service à distance.
+  Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’enregistrer chaque lecteur manuellement avec AEM. Il est vivement recommandé d’utiliser une solution EMM (Enterprise Mobility Management, par exemple), comme `VMWare Airwatch`, `MobileIron`, ou `Samsung Knox` pour configurer et gérer votre déploiement à distance. Le lecteur AEM Screens Android™ prend en charge la configuration standard EMM AppConfig pour permettre la mise en service à distance.
 
   Voir [Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise](/help/user-guide/implementing-android-player.md#implementation) pour plus d’informations.
 
@@ -47,19 +47,19 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
 * Performances améliorées pour le calcul de `clientlib` et de `asset hashes`.
 
-* La migration SmartSync interrompait le lecteur si le cache n’était pas invalidé.
+* La migration SmartSync interrompt le lecteur si le cache n’a pas été invalidé.
 
 * Les caches hors ligne n’étaient pas créés si l’affectation était paramétrée sur *OfflineConfig*.
 
 * Mises à jour de `Tizen` qui a échoué car la stratégie de référent strict-origin-when-cross-origin n’est pas prise en charge.
 
-* La modification du champ de planning de canal affecté *Répète* affectait le fonctionnement de l’interface utilisateur.
+* Modification de la planification du canal affecté *Répéter* endommageait l’interface utilisateur.
 
 * La mise à jour du contenu hors ligne échouait avec des exceptions de requête.
 
-* Le délai entre les transitions au cours de l’interaction dans l’expérience interactive est maintenant corrigé.
+* Le délai entre les transitions au cours de l’interaction dans une expérience interactive est maintenant fixe.
 
-* L’échec de la requête de mise à jour de la configuration causait l’apparition d’un écran vide.
+* Une demande de mise à jour de configuration ayant échoué provoquait des écrans vierges.
 
 ### Lecteurs AEM Screens publiés
 

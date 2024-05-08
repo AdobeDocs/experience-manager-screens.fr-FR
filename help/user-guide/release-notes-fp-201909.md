@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 38%
+source-wordcount: '286'
+ht-degree: 37%
 
 ---
 
@@ -28,7 +28,7 @@ La date de publication d’AEM Screens Feature Pack 201909 est le lundi 7 oct
 
 * **Mises à jours : amélioration de l’interface utilisateur de création de projet Screens**
 
-  L’interface utilisateur mise à jour pour la création d’un projet AEM Screens est désormais disponible. Vous pouvez créer un projet Screens en peu de clics simples. En outre, l’onglet Propriétés de chaque projet dispose désormais d’une interface utilisateur plus intuitive.
+  Une interface utilisateur mise à jour pour la création d’un projet AEM Screens est désormais disponible. Vous pouvez créer un projet Screens en quelques clics simples. En outre, l’onglet Propriétés de chaque projet dispose désormais d’une interface utilisateur plus intuitive.
 
   Voir [Création d’un projet Screens](creating-a-screens-project.md) pour plus d’informations.
 

@@ -1,6 +1,6 @@
 ---
 title: Canal d’urgence
-description: Découvrez comment créer et gérer un canal d’urgence que l’auteur du contenu peut basculer d’un canal de séquence s’il y a une condition préalable.
+description: Découvrez comment créer et gérer un canal d’urgence que l’auteur de contenu peut basculer d’un canal de séquence s’il y a une condition préalable.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 49%
@@ -20,7 +20,7 @@ ht-degree: 49%
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur du contenu peut passer d’un canal de séquence en cas de condition préalable.
+Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur de contenu peut passer d’un canal de séquence en cas de condition préalable.
 
 ### Prérequis {#preconditions}
 
@@ -183,6 +183,6 @@ En cas d’urgence, procédez comme suit :
 
 ### Conclusion {#conclusion}
 
-La variable **EmergencyChannel** continue d’afficher son contenu jusqu’à ce que l’auteur du contenu réinitialise la valeur de priorité sur 1.
+La variable **EmergencyChannel** continue d’afficher son contenu jusqu’à ce que l’auteur de contenu réinitialise la valeur de priorité sur 1.
 
 Lorsque l’auteur du contenu reçoit les instructions indiquant que l’urgence a été effacée, il doit mettre à jour la priorité de la variable **MainAdChannel** ce qui entraîne la reprise de la lecture normale.

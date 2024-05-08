@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ Le cas d’utilisation ci-dessous montre trois images différentes en fonction d
 
 ## Description {#description}
 
-Ce cas d’utilisation présente le stock de vente au détail de trois modèles de sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
+Ce cas pratique présente le stock de vente au détail de trois sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
 
 Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu s’affiche à l’écran en fonction de la valeur la plus élevée du nombre de sweaters disponible.
 

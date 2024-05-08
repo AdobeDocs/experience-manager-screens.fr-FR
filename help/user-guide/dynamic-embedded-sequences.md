@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -261,9 +261,9 @@ Une fois la configuration des canaux et l’affichage terminés, lancez le lecte
 >* [Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
 
-La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screens, selon le chemin d’affichage.
+La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screens, en fonction du chemin d’affichage.
 
-**Scénario 1**:
+**Scénario 1** :
 
 Si vous attribuez le chemin d’affichage comme **Démonstration** > **Emplacements** > **Région A** > **Magasin 1** > **`Store1Display`**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
 

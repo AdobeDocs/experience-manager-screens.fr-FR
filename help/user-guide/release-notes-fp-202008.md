@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du Feature Pack 202008
-description: En savoir plus sur le Feature Pack 202008 AEM Screens, publié le 3 septembre 2020.
+description: En savoir plus sur le Feature Pack 202008 d’AEM Screens, publié le 3 septembre 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 65%
+source-wordcount: '342'
+ht-degree: 47%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 65%
 
 AEM Screens inclus dans le Feature Pack 5 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
 ## Date de publication {#release-date}
 
@@ -38,7 +38,7 @@ La date de publication du Feature Pack 202008 d’AEM Screens est le 3 septe
 
 * **Planning de périodicité**
 
-  Le Planning de périodicité permet de définir une planification récurrente pour votre canal. Vous configurez plusieurs plannings de périodicité pour un canal.
+  Le Planning de périodicité permet de définir une planification récurrente pour votre canal. Vous pouvez configurer plusieurs calendriers de périodicité pour un canal.
 
   Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
@@ -46,7 +46,7 @@ La date de publication du Feature Pack 202008 d’AEM Screens est le 3 septe
 
   La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-  Un auteur de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans.
+  Un auteur de contenu peut configurer un affichage pour qu’il soit activé pour la voix. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans.
 
   Voir [Reconnaissance vocale](voice-recognition.md) pour plus d’informations.
 

@@ -8,10 +8,10 @@ user-guide-description: Apprenez à utiliser une solution d’affichage dynamiqu
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/using/about-guide)
    + [Termes clés](screens-glossary.md)
 + Notions de base sur les réseaux de signalétique numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)

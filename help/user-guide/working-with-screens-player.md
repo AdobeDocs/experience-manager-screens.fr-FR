@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 54%
+ht-degree: 51%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
 En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord du périphérique, l’utilisateur ne peut pas ouvrir l’interface utilisateur d’administration à partir du lecteur.
 
-Pour afficher l’interface utilisateur d’administration du lecteur Screens, appuyez longuement sur le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou en utilisant la souris. Les informations s’affichent une fois l’enregistrement terminé et les canaux chargés.
+Pour afficher l’interface utilisateur d’administration à partir du lecteur Screens, appuyez longuement sur le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou en utilisant la souris. Les informations s’affichent une fois l’enregistrement terminé et les canaux chargés.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Le menu Configuration vous permet de modifier les paramètres suivants :
 
 * Activez ou désactivez **Menu d’administration**, **Sélecteur de canal** et **Activity UI** (IU d’activité) pour le lecteur Screens.
 
-  Si la case **Activity UI** (IU d’activité) est cochée dans le menu **Configuration**, le lecteur AEM Screens affiche les *notifications d’activité du lecteur* dans le coin supérieur droit du lecteur, comme illustré ci-dessous.
+  Si la variable **Interface utilisateur des activités** est activé à partir de la fonction **Configuration** , le lecteur AEM Screens affiche la variable *notifications d’activité du lecteur* dans le coin supérieur droit du lecteur, comme illustré dans la figure ci-dessous.
 
   ![image](/help/user-guide/assets/activity_ui.png)
 

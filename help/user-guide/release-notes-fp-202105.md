@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 62%
+source-wordcount: '400'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 62%
 
 Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP8**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
 >Installez la version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne après avoir installé les packages. `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, et la variable `screens core bundles`.
@@ -34,7 +34,7 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 4 juin�
 
 * **Verrouillage d’une page dans un canal AEM Screens**
 
-  AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, déjà implémentée dans AEM Sites. Adobe Experience Manager (AEM) permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cela s’avère utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant quelque temps.
+  AEM Screens prend désormais en charge la fonction *Verrouillage d’une page*, déjà implémentée dans AEM Sites. Adobe Experience Manager (AEM) vous permet de verrouiller une page, de sorte que personne d’autre ne puisse en modifier le contenu. Cette fonctionnalité est utile lorsque vous apportez de nombreuses modifications à une page spécifique ou lorsque vous devez figer une page pendant un court moment.
 
 * **Nommage d’un appareil de lecteur AEM Screens**
 
@@ -55,7 +55,7 @@ Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer u
 ### Correctifs {#bug-fixes}
 
 * Le lecteur affichait un écran noir lors du passage à un canal contenant une séquence incorporée dynamique.
-* Les lecteurs Screens bloquent désormais le passage vers un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
+* Les lecteurs Screens bloquent désormais le passage à un canal rompu, ce qui évite une erreur 404 ou une page contenant un message d’erreur.
 
 ### Lecteurs AEM Screens publiés
 

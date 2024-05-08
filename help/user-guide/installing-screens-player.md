@@ -6,20 +6,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 52%
+source-wordcount: '503'
+ht-degree: 44%
 
 ---
 
 # Installation du lecteur AEM Screens {#installing-player}
 
-Cette page décrit comment installer le lecteur AEM Screens.
+Cette page décrit comment installer le lecteur AEM Screens.
 
 ## Lecteur Screens disponible {#available-players}
 
-Le lecteur AEM Screens est disponible pour Android, Chrome OS et Windows.
+Le lecteur AEM Screens est disponible pour Android™, Chrome OS et Windows.
 
 Pour télécharger le **lecteur AEM Screens**, consultez la page de [téléchargement du lecteur AEM 6.5](https://download.macromedia.com/screens/).
 
@@ -29,11 +29,11 @@ Pour télécharger le **lecteur AEM Screens**, consultez la page de [téléchar
 >
 >1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+>1. Cliquez sur le bouton **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
 
 ## Suivi de base de la lecture {#playback-monitoring}
 
-Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. Sur la base de ces mesures, il peut détecter divers cas de périphérie, tels que des problèmes de blocage, d’écran vide et de planification. Cela nous permet de comprendre et de résoudre les problèmes liés à l’appareil et d’accélérer ainsi l’examen des problèmes et les mesures correctives.
+Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. Sur la base de ces mesures, il peut détecter divers cas de périphérie, tels que des problèmes de blocage, d’écran vide et de planification. Il nous permet de comprendre et de résoudre les problèmes liés à l’appareil, et donc d’accélérer les enquêtes et les mesures correctives à votre intention.
 
 La surveillance de base de la lecture dans un lecteur AEM Screens vous permet d’effectuer les opérations suivantes :
 
@@ -63,17 +63,17 @@ Les propriétés suivantes sont incluses dans chaque `ping` :
 >|---|---|
 >| isContentRendering {boolean} | true si le GPU peut confirmer qu’il lit du contenu réel (en fonction de l’analyse des pixels) |
 
-### Restrictions {#limitations}
+### Limites {#limitations}
 
-Vous trouverez ci-dessous quelques limitations au suivi de base de la lecture :
+Vous trouverez ci-dessous quelques limites à la surveillance de lecture de base :
 
 * Le lecteur signale son propre état de lecture au serveur ; il nécessite donc une connexion principale.
 
-* La variable `isContentRendering` qui vérifie le GPU est trop gourmand en ressources pour être activé par défaut et nécessite une inclusion explicite dans les préférences du lecteur. Adobe recommande de ne pas l’utiliser avec des vidéos en production.
+* La variable `isContentRendering` qui vérifie le GPU est beaucoup plus gourmand en ressources à activer par défaut et nécessite une inclusion explicite dans les préférences du lecteur. Adobe recommande de ne pas l’utiliser avec des vidéos en production.
 
 * Cette fonctionnalité est uniquement prise en charge pour les canaux de séquence et ne couvre pas encore le cas d’utilisation des canaux interactifs (SPA).
 
-* Les mesures ne sont pas encore entièrement exposées aux clients. Adobe s’efforce d’activer prochainement des mécanismes de reporting et d’alerte de type tableau de bord.
+* Les mesures ne sont pas encore entièrement exposées aux clients, mais Adobe s’efforce prochainement d’activer des mécanismes de reporting et d’alerte de type tableau de bord.
 
 ### Autres ressources {#additional-resources}
 

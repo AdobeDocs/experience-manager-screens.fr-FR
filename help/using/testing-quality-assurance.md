@@ -2,10 +2,10 @@
 title: Tests et assurance qualité
 description: Découvrez les tests et l’assurance qualité pour AEM Screens dans le guide des bonnes pratiques.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 51%
+source-wordcount: '332'
+ht-degree: 50%
 
 ---
 
@@ -51,7 +51,7 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 AEM Screens dispose d’un module de centre de contrôle des appareils qui permet de gérer les points d’extrémité de l’application du lecteur Screens.
 
 Cela fait référence à tout appareil matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.
-Ce module permet d’effectuer les opérations suivantes :
+Ce module permet :
 
 1. Surveiller les journaux d’erreurs de l’application du lecteur
 1. Gestion des captures d’écran distantes

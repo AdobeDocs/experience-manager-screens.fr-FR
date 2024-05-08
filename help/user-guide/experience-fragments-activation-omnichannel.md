@@ -1,10 +1,10 @@
 ---
 title: Activation des fragments d’expérience
 description: Exemple de cas d’utilisation pour vous aider à en savoir plus sur l’activation des fragments d’expérience en ce qui concerne AEM Screens.
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 51%
+ht-degree: 49%
 
 ---
 

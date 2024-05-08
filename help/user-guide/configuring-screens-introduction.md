@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 58%
+source-wordcount: '682'
+ht-degree: 50%
 
 ---
 
@@ -28,7 +28,7 @@ Cette page indique comment installer et configurer les lecteurs Screens sur vos 
 
 ## Structure du contrôle de l’intégrité {#health-check-framework}
 
-La structure du contrôle de l’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires sont configurées avant d’exécuter un projet AEM Screens.
+La structure de contrôle de l’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires sont configurées avant d’exécuter un projet AEM Screens.
 
 Elle permet à l’utilisateur de vérifier les deux contrôles de configuration suivants afin d’exécuter un projet AEM Screens, c’est-à-dire de vérifier l’état des deux filtres suivants :
 
@@ -93,7 +93,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/config-1.png)
 
-1. Cliquez sur **Enregistrer** pour activer le service *http*.
+1. Cliquez sur **Enregistrer** pour activer la variable *Http* service.
 
 #### Activation de l’interface utilisateur tactile pour AEM Screens {#enable-touch-ui-for-aem-screens}
 
@@ -116,7 +116,7 @@ L’AEM en cours d’exécution en production utilise la variable **NOSAMPLECONT
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Cette opération est nécessaire pour que le lecteur AEM Screens joue des chaînes en ligne.
+Cette suppression est nécessaire pour que le lecteur AEM Screens puisse lire les canaux en ligne.
 
 #### Restrictions de mot de passe {#password-restrictions}
 

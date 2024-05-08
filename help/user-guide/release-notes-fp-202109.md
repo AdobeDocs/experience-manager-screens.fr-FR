@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 55%
+source-wordcount: '912'
+ht-degree: 39%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 
 Le Feature Pack 9 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.9 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP9**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.9 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP9**.
 
 ## Date de publication {#release-date}
 
@@ -31,7 +31,7 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 sept
 
 * **Prise en charge des miniatures de vidéos**
 
-  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. Ils testent également correctement la lecture et le ciblage du contenu, tandis que la vidéo est finalisée par l’équipe appropriée. L’image peut également être utilisée si la lecture de la vidéo échoue.
+  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. Ils testent également correctement la lecture et le ciblage du contenu, tandis que l’équipe appropriée finalise la vidéo réelle. L’image peut également être utilisée si la lecture de la vidéo échoue.
 Pour plus d’informations, voir [Prise en charge des miniatures de vidéos](/help/user-guide/thumbnail-support.md).
 
 * **Suivi de base de la lecture**
@@ -41,12 +41,12 @@ Pour plus d’informations, voir [Suivi de base de la lecture](https://experienc
 
 * **Mises à jour du rapport d’affectation de contenu**
 
-  Le rapport d’affectation de contenu est désormais optimisé et amélioré avec une expérience utilisateur améliorée. Le rapport téléchargeable présente les entités améliorées liées au lecteur, telles que les emplacements, les affichages et les appareils, dans un seul onglet de feuille de calcul, ainsi que les informations sur les fournisseurs de contenu, telles que les canaux et les ressources dans un autre onglet.
+  Le rapport d’affectation de contenu est désormais optimisé et amélioré grâce à une expérience utilisateur améliorée. Le rapport téléchargeable présente des entités améliorées liées au lecteur. Ces entités incluent des emplacements, des affichages et des périphériques dans un seul onglet de feuille de calcul. Il inclut également les informations du fournisseur de contenu telles que les canaux et les ressources dans un autre onglet.
 Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 * **Rendus adaptatifs**
 
-  Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client.
+  Les rendus adaptatifs permettent à l’appareil de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client.
 
   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
 
@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
    * Mettez à jour Dispatcher.
 
-   * Mettre à jour le composant personnalisé.
+   * Mettez à jour le composant personnalisé.
 
 
    * Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
@@ -109,7 +109,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * La suppression de l’affectation de canal de l’affichage n’est pas répercutée sur le lecteur.
 
-* Si le lecteur est rechargé pendant le téléchargement de la mise à jour du canal, le lecteur ignore la mise à jour.
+* Si le lecteur est rechargé pendant le téléchargement de la mise à jour du canal, il ignore la mise à jour.
 
 * Le composant de page incorporé respecte désormais l’événement tactile.
 
@@ -126,11 +126,11 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Les miniatures vidéo s’affichent vides avec les rendus adaptatifs activés.
 
-* Mettre automatiquement à jour le manifeste du canal si la page référencée est publiée.
+* Mettez automatiquement à jour le manifeste du canal si la page référencée est publiée.
 
 * Les périphériques supprimés ne bloquent désormais pas la file d’attente de réplication Screens.
 
-* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce problème a été résolu.
+* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce bogue a maintenant été corrigé.
 
 * Un nouveau composant d’image principal est maintenant ajouté au manifeste du canal.
 
@@ -140,13 +140,13 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Ajout de la prise en charge de plusieurs types de fournisseurs de contenu
 
-* La stratégie de lecture de séquence incorporée était rompue et ce problème a maintenant été corrigé.
+* La stratégie de lecture de séquence incorporée a été interrompue et ce bogue est maintenant corrigé.
 
 * Manifeste hors ligne utilisant le paramètre de requête `wcmmode` pour l’entrée HTML, ce qui rend la mise en cache impossible.
 
 * Une séquence incorporée dynamique vide provoquait parfois un écran vide.
 
-* Le lecteur signale désormais son état de lecture.
+* Le lecteur indique désormais son état de lecture.
 
 * La vidéo était lue dans `Tiny mode` et n’était pas lue comme vidéo plein écran sur l’appareil et le problème a été corrigé maintenant.
 

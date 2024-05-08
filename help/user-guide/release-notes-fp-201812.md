@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 40%
 
 ---
@@ -33,7 +33,7 @@ La date de publication d’AEM Screens Feature Pack 201812 est 16 janvier 201
 
 * **Superposition de texte sur les ressources du canal**:
 
-  La superposition de texte est une fonctionnalité disponible dans AEM Screens qui vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé au-dessus d’une image. Voir [**Superposition de texte**](text-overlay.md).
+  La superposition de texte est une fonctionnalité disponible dans AEM Screens. Il vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé sur une image. Voir [**Superposition de texte**](text-overlay.md).
 
 * **Planification multiressource** :
 

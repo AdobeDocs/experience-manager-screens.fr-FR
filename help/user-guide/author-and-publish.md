@@ -2,10 +2,10 @@
 title: Configuration des instances de création et de publication dans AEM Screens
 description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -220,7 +220,7 @@ Après avoir configuré la topologie de publication, configurez les instances d�
 
 >[!NOTE]
 >
->Vous pouvez ouvrir un lecteur AEM Screens en utilisant l’application que vous avez téléchargée ou le navigateur web.
+>Vous pouvez ouvrir un lecteur AEM Screens à l’aide de l’application AEM Screens que vous avez téléchargée ou à l’aide du navigateur web.
 
 #### Étape 2 : enregistrement d’un appareil sur l’auteur {#step-registering-a-device-on-author}
 
@@ -292,7 +292,7 @@ Suivez les étapes ci-dessous pour vérifier le comportement de création et de 
 
 #### Étape 5 : pointage de l’appareil vers l’instance de publication dans le panneau d’administration {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Affichez l’interface utilisateur d’administration du lecteur Screens en appuyant longuement dans le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou à l’aide de la souris.
+1. Affichez l’interface utilisateur d’administration du lecteur Screens en appuyant longuement dans le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou en utilisant la souris.
 1. Cliquez sur l’option **Configuration** dans le panneau latéral.
 1. Remplacez l’instance d’auteur par instance de publication dans **Serveur**.
 

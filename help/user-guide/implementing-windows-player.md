@@ -1,6 +1,6 @@
 ---
-title: Mise en œuvre du lecteur Windows 10
-description: Découvrez comment configurer le lecteur AEM Screens Windows 10.
+title: Mise en oeuvre du lecteur Windows
+description: Découvrez comment configurer le lecteur Windows dans AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 54%
+source-wordcount: '1117'
+ht-degree: 44%
 
 ---
 
-# Mise en œuvre du lecteur Windows 10 {#implementing-windows-player}
+# Mise en oeuvre du lecteur Windows {#implementing-windows-player}
 
-Cette section décrit la configuration du lecteur AEM Screens Windows 10. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
+Cette section décrit la configuration du lecteur Windows dans AEM Screens. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
 
 ## Installation du lecteur Windows {#installing-windows-player}
 
@@ -28,7 +28,7 @@ Pour mettre en oeuvre le lecteur Windows pour AEM Screens, installez le lecteur 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
->Il n’existe pas de mode fenêtre dans le lecteur Windows. Celui-ci est toujours en mode Plein écran.
+>Il n’existe pas de mode fenêtre dans le lecteur Windows. Il est toujours en mode Plein écran.
 
 ### Configuration de l’environnement pour le Service Pack AEM Screens 6.5.5 {#fp-environment-setup}
 
@@ -52,7 +52,7 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 
 ### Méthode ad hoc {#ad-hoc-method}
 
-La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Visitez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
+La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*). Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
 Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
@@ -68,12 +68,12 @@ Après avoir téléchargé l’application, suivez les étapes du lecteur pour t
 
 ## Nommage du lecteur Windows {#name-windows}
 
-Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement un contenu approprié.
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Windows, ce qui envoie le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Windows, mais également d’attribuer facilement un contenu approprié.
 
 >[!NOTE]
 >Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
 
-Pour configurer le nom dans le lecteur Windows, procédez comme suit :
+Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
 1. Cliquez sur **start** > **run**.
 1. Entrée `system.cpl`.
@@ -86,7 +86,7 @@ Consultez cette section pour savoir comment modifier les options par défaut dan
 ## Installation à l’aide de l’interface de ligne de commande (PowerShell) {#install-powershell}
 
 1. Créez un emplacement personnalisé **dédié** pour le lecteur Screens, par exemple :
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. Installer
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. Ouvrez
@@ -104,7 +104,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Enregistrement groupé du lecteur Windows {#bulk-registration}
 
-Lors de l’implémentation du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. Au lieu de cela, vous pouvez mettre à jour le fichier de configuration JSON une fois qu’il est testé et prêt à être déployé.
+Lors de la mise en oeuvre du lecteur Windows, vous n’avez pas besoin de configurer manuellement chaque lecteur. Au lieu de cela, vous pouvez mettre à jour le fichier de configuration JSON une fois qu’il est testé et prêt à être déployé.
 
 La configuration permet de s’assurer que tous les lecteurs envoient un ping au même serveur fourni dans le fichier de configuration. Enregistrez manuellement chaque lecteur.
 
@@ -126,9 +126,9 @@ Le tableau suivant résume les attributs de politique et inclut un exemple de po
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
-| enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs puissent changer de canal sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette option pour afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
-| cloudMode | Définissez cette valeur sur true si vous souhaitez que le lecteur Windows se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à l’AEM on-premise. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Windows se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à l’AEM on-premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 #### Exemple de fichier JSON de politique {#example-policy-json-file}
@@ -163,7 +163,7 @@ Pour activer le mode Kiosque, procédez comme suit :
    Voir ***Configuration de Shell Launcher*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** par Microsoft® Prise en charge de Windows pour plus d’informations.
 
 1. Créez un utilisateur non administratif (si vous n’en avez pas déjà) à utiliser pour Kiosque. Il peut s’agir d’un utilisateur local ou de domaine.
-1. Installez le lecteur Windows pour cet utilisateur Kiosque à partir de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
+1. Installez le lecteur Windows pour cet utilisateur Kiosque à partir de la fonction [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) page.
 1. Voir [Utilisation de Shell Launcher pour créer un kiosque Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) pour modifier votre script PowerShell pour plus d’informations.
 
    Modifiez le script PowerShell afin de pouvoir remplacer le nom d’utilisateur par celui que vous avez créé. Assurez-vous que le chemin d’accès au fichier exécutable de l’application est correct. Cela définit le shell personnalisé en tant qu’application du lecteur Windows pour l’utilisateur kiosque et définit la valeur par défaut explorer.exe pour les autres utilisateurs.
@@ -173,9 +173,9 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 ### Résolution des problèmes {#troubleshooting}
 
-Si vous obtenez un écran noir après vous être connecté en tant qu’utilisateur Kiosque, cela signifie que vous avez peut-être spécifié incorrectement le chemin d’accès au fichier exécutable du lecteur Windows. Connectez-vous à nouveau en tant qu’administrateur, puis vérifiez et réexécutez le script.
+Si vous obtenez un écran noir après vous être connecté en tant qu’utilisateur Kiosque, cela signifie que vous avez peut-être mal spécifié le chemin d’accès au fichier exécutable du lecteur Windows. Connectez-vous à nouveau en tant qu’administrateur, puis vérifiez et réexécutez le script.
 
-Le chemin d’installation par défaut du lecteur Windows est le suivant :
+Le chemin d’installation par défaut du lecteur Windows est le suivant :
 
 ***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
