@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 63%
+ht-degree: 62%
 
 ---
 
@@ -25,7 +25,7 @@ Cette section décrit comment mettre en œuvre le lecteur Chrome OS Player à l�
 Pour configurer la console de gestion de Chrome, procédez comme suit :
 
 1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour la console de gestion de Chrome. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=fr&amp;ref_topic=2935995).
-1. Enregistrez votre appareil Chrome OS dans le domaine et attendez 15 minutes que l’appareil se synchronise avec la console de gestion Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=fr).
+1. Enregistrez votre appareil Chrome OS dans le domaine et attendez 15 minutes que l’appareil se synchronise avec la console de gestion Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez sur [here](https://support.google.com/chrome/a/answer/1360534?hl=fr).
 1. Le lecteur Chrome est disponible dans le Chrome Web Store.
 
 >[!NOTE]

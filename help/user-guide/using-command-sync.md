@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 44%
+source-wordcount: '756'
+ht-degree: 37%
 
 ---
 
@@ -20,13 +20,13 @@ La page suivante décrit l’utilisation de la synchronisation des commandes. La
 >
 >Cette fonctionnalité ne prend pas en charge les séquences incorporées, les séquences incorporées dynamiques, les canaux d’application ni les transitions.
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Les solutions de signalétique digitale doivent prendre en charge les murs vidéo et la lecture synchronisée pour prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. C’est là que la synchronisation des commandes entre en jeu.
+Les solutions de signalétique digitale doivent prendre en charge les murs vidéo et la lecture synchronisée. Ce scénario est vrai si vous essayez de prendre en charge des scénarios tels que les comptes à rebours du Nouvel An ou les vidéos volumineuses découpées pour être lues sur plusieurs écrans. Dans de tels scénarios, la synchronisation des commandes entre en jeu.
 
-Pour utiliser la synchronisation des commandes, un lecteur agit comme *principal* et envoie une commande, tandis que tous les autres lecteurs agissent comme *clients* et procèdent à la lecture lorsqu’ils reçoivent la commande.
+Pour utiliser la synchronisation des commandes, un lecteur agit comme un *primary* et envoie la commande et tous les autres lecteurs agissent comme *clients* et jouent quand ils reçoivent la commande.
 
-Le lecteur *principal* envoie une commande à tous les clients enregistrés lorsqu’il est sur le point de démarrer la lecture d’un élément. La payoad liée à cette opération peut être l’index de l’élément à lire et/ou le code html externe de l’élément à lire.
+Le lecteur *principal* envoie une commande à tous les clients enregistrés lorsqu’il est sur le point de démarrer la lecture d’un élément. La charge utile de cette action peut être l’index de l’élément à lire, ou le code HTML externe de l’élément à lire, ou les deux.
 
 ## Mise en œuvre de la synchronisation des commandes {#using-command-sync}
 
@@ -38,7 +38,7 @@ La section suivante décrit l’utilisation de la synchronisation des commandes 
 
 ### Configuration du projet {#setting-up}
 
-Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour le projet.
+Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
 
 1. L’exemple suivant présente un projet de démonstration nommé **CommandSyncDemo** et un canal de séquence **ChannelLobby**.
 
@@ -46,7 +46,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
    >[!NOTE]
    >
-   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md)
+   >Pour savoir comment créer un canal ou ajouter du contenu à un canal, voir [Création et gestion des canaux](/help/user-guide/managing-channels.md).
 
    Le canal contient le contenu suivant, comme illustré ci-dessous.
 
@@ -62,14 +62,14 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    >
    >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
-1. Accédez à **Périphériques** dossier.
+1. Accédez au **Périphériques** dossier.
 1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
 
    ![image1](assets/command-sync5.png)
 
    >[!NOTE]
    >
-   >Pour savoir comment enregistrer un appareil, voir [Enregistrement de périphérique](/help/user-guide/device-registration.md)
+   >Pour savoir comment enregistrer un appareil, voir [Enregistrement d’appareil](/help/user-guide/device-registration.md).
 
 1. À des fins de démonstration, cet exemple présente un appareil Chrome et un lecteur Windows comme deux appareils distincts. Les deux appareils pointent vers le même affichage.
    ![image1](assets/command-sync6.png)
@@ -90,7 +90,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Configurer un lecteur principal {#setting-up-primary}
 
-1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions.
+1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Emplacements**  > **Lobby** > **LobbyDisplay**. Cliquez ensuite sur **Tableau de bord** dans la barre d’actions.
 Notez les deux appareils (Chrome et Lecteur Windows) dans **APPAREILS** , comme illustré dans les sections suivantes :
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -104,7 +104,7 @@ Notez les deux appareils (Chrome et Lecteur Windows) dans **APPAREILS** , comme 
 
 >[!NOTE]
 >
->Vous pouvez configurer plusieurs appareils en tant que principaux.
+>Vous pouvez configurer plusieurs appareils comme appareils principaux.
 
 ### Synchronisation avec l’appareil principal {#sync-up-primary}
 

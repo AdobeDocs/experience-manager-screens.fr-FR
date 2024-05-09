@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 19%
@@ -40,7 +40,7 @@ Consultez cette page pour plus d’informations sur l’installation du lecteur 
 
    >[!NOTE]
    >
-   > Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
+   > Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
 
 
 ## Conseils de débogage avancés {#advanced-debugging-tips}
@@ -62,7 +62,7 @@ Consultez cette page pour plus d’informations sur l’installation du lecteur 
 
 Suivez les étapes ci-dessous pour mettre à niveau l’extension du lecteur si une nouvelle version du lecteur est publiée. Vous pouvez également suivre les instructions ci-dessous pour tester des scénarios de mise à niveau :
 
-1. Fermez toutes les instances de Chrome et du lecteur en cours d’exécution
+1. Fermez toutes les instances de Chrome et de lecteur en cours d’exécution.
 1. Renommez l’ancien dossier avec les fichiers du lecteur
 1. Extrayez le nouveau fichier compressé au même emplacement que l’ancien dossier.
 1. Lancez Chrome et accédez à `chrome://extensions`
