@@ -1,11 +1,11 @@
 ---
 title: Durée de lecture des images
-description: Découvrez la durée de lecture des images dans AEM Screens.
+description: Découvrez la durée de lecture des images dans AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 53%
+source-wordcount: '322'
+ht-degree: 72%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 53%
 
 ## Vue d’ensemble {#overview}
 
-Après avoir créé un canal de séquence et y avoir ajouté des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration du canal. Chaque image peut toujours remplacer la valeur par défaut et présenter une autre durée de lecture. Pour ce faire, modifiez la durée de lecture du composant d’image concerné.
+Après avoir créé un canal de séquence et y avoir ajouté des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration du canal. Toute image individuelle peut toujours remplacer la valeur par défaut et avoir une durée de lecture différente. Pour ce faire, modifiez la durée de lecture du composant d’image spécifique.
 
-### Prérequis {#prerequisites}
+### Conditions préalables {#prerequisites}
 
-Avant de mettre en oeuvre cette fonctionnalité, assurez-vous d’avoir configuré un projet comme condition préalable pour commencer à l’implémentation. Par exemple :
+Avant d’implémenter cette fonctionnalité, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
 1. Créer un projet AEM Screens (en l’occurrence, **ChannelLevelPlayback**)
-1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux**
+1. Créez un canal de séquence sous la forme **PlaybackChannel** sous le **Canaux** folder
 1. Ajouter un contenu à **PlaybackChannel**
 
 ## Modification de l’attribution d’une durée de lecture des images d’un canal {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **La boîte de dialogue Page** s’ouvre.
+1. La boîte de dialogue **Page** s’ouvre.
 
    >[!NOTE]
    >
@@ -56,11 +56,11 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifiez la variable **Durée** de 8 000 (millisecondes) à 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite du **Page** pour enregistrer vos modifications.
+   Remplacez la **durée** 8 000 (millisecondes) par 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite de la boîte de dialogue **Page** pour pouvoir enregistrer les modifications que vous avez apportées.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Affichage du résultat {#viewing-the-result}
+### Afficher le résultat {#viewing-the-result}
 
 Lorsque vous avez mis à jour la durée de lecture du canal (dans cet exemple, les trois images), notez que les images sont désormais lues pendant 3 secondes au lieu de 8 secondes (valeur par défaut).
 

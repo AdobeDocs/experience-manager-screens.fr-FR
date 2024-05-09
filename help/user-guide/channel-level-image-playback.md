@@ -1,6 +1,6 @@
 ---
-title: Durée de lecture d’images en bloc d’un canal
-description: Découvrez comment modifier la durée de lecture d’un composant d’image spécifique dans AEM Screens.
+title: Durée de lecture d’images en bloc au niveau du canal
+description: Découvrez comment modifier la durée de lecture d’un composant d’image spécifique dans AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
@@ -10,32 +10,32 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 45%
+source-wordcount: '340'
+ht-degree: 70%
 
 ---
 
-# Durée de lecture d’images en bloc d’un canal {#channel-level-bulk-image-playback-duration}
+# Durée de lecture d’images en bloc au niveau du canal {#channel-level-bulk-image-playback-duration}
 
 ## Vue d’ensemble {#overview}
 
-Lorsque vous créez un canal de séquence et y ajoutez des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration du canal. Chaque image peut toujours remplacer la valeur par défaut et présenter une autre durée de lecture. Pour ce faire, modifiez la durée de lecture du composant d’image concerné.
+Lorsque vous avez créé un canal de séquence et que vous y avez ajouté des images, toutes les images supposent par défaut la durée de lecture définie dans la configuration au niveau du canal. Toute image individuelle peut toujours remplacer la valeur par défaut et avoir une durée de lecture différente. Pour ce faire, modifiez la durée de lecture du composant d’image spécifique.
 
-### Prérequis {#prerequisites}
+### Conditions préalables {#prerequisites}
 
-Avant de commencer à implémenter cette fonctionnalité, assurez-vous d’avoir configuré un projet comme condition préalable pour commencer à l’implémentation de cette fonctionnalité. par exemple,
+Avant de commencer à implémenter cette fonctionnalité, veillez à configurer un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
 1. Créer un projet AEM Screens, **ChannelLevelPlayback**.
 
-1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux**.
+1. Créez un canal de séquence sous la forme **PlaybackChannel** sous le **Canaux** dossier.
 
 1. Ajouter un contenu à **PlaybackChannel**.
 
 ## Modification de l’attribution d’une durée de lecture des images d’un canal {#editing-channel-level-image-playback-duration-assignment}
 
-La section ci-dessous explique comment modifier la durée de lecture du contenu d’un canal AEM Screens.
+La section suivante explique comment vous pouvez modifier la durée de lecture d’un contenu d’un canal AEM Screens.
 
 ### Mise à jour de la durée de lecture des images d’un canal {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -57,18 +57,18 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. La variable **Page** s’ouvre.
+1. La boîte de dialogue **Page** s’ouvre.
 
    >[!NOTE]
    >Par défaut, les images d’un canal sont définies sur une durée de lecture de 8 secondes.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifiez la variable **Durée** de 8 000 (millisecondes) à 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite du **Page** pour enregistrer vos modifications.
+   Remplacez la **durée** 8 000 (millisecondes) par 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite de la boîte de dialogue **Page** pour enregistrer vos modifications.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Affichage du résultat {#viewing-the-result}
+### Afficher le résultat {#viewing-the-result}
 
 Après avoir mis à jour la durée de lecture du canal (dans cet exemple, les trois images), notez que les images sont désormais lues pendant 3 secondes au lieu de 8 secondes (valeur par défaut).
 
