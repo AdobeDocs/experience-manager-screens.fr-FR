@@ -1,6 +1,6 @@
 ---
-title: Implémentation de Cloud Player
-description: Découvrez la mise en oeuvre du lecteur cloud.
+title: Implémenter Cloud Player
+description: Découvrez comment mettre en œuvre Cloud Player.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -8,20 +8,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 43%
+source-wordcount: '854'
+ht-degree: 74%
 
 ---
 
-# Implémentation de Cloud Player  {#implementing-cloud-player}
+# Implémenter Cloud Player {#implementing-cloud-player}
 
-AEM Screens propose traditionnellement des applications de lecteur natif distinctes pour différentes plateformes, notamment ChromeOS, Windows, Android™ et `Tizen`. Cependant, en réponse aux besoins changeants des utilisateurs, Adobe a introduit une solution innovante : AEM Screens Cloud Player.
+AEM Screens propose traditionnellement des applications de lecteur natives distinctes pour différentes plateformes, notamment ChromeOS, Windows, Android™ et `Tizen`. Cependant, en réponse aux besoins changeants de nos utilisateurs et utilisatrices, nous avons introduit une solution innovante : Cloud Player AEM Screens.
 
-Le lecteur cloud représente une différence significative par rapport aux applications natives précédentes d’Adobe. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Cette approche transformative permet aux clients d’avoir un lecteur indépendant de la plateforme qui s’exécute directement dans un navigateur web.
+Cloud Player représente une différence significative par rapport à nos applications natives précédentes. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Grâce à cette approche transformatrice, nos clientes et clients disposent d’un lecteur indépendant des plateformes qui s’exécute directement dans un navigateur web.
 
-L’accès au lecteur cloud est aussi simple que la visite `https://player.adobescreens.com`. Les utilisateurs et utilisatrices peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante dans les offres d’affichage numérique de l’Adobe, ce qui le rend plus accessible, polyvalent et convivial que jamais auparavant.
+L’accès à Cloud Player est aussi simple que de consulter `https://player.adobescreens.com`. Les utilisateurs et utilisatrices peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante de nos offres de signalétique numérique et rend le lecteur plus accessible, polyvalent et convivial que jamais.
 
 Cette section décrit l’implémentation de Cloud Player.
 
@@ -34,46 +34,49 @@ Cette section décrit l’implémentation de Cloud Player.
 L’installation de Cloud Player peut varier selon les plateformes. En règle générale, toute plateforme disposant d’un navigateur moderne peut exécuter l’application Cloud Player en procédant comme suit :
 
 1. Ouvrez le navigateur et saisissez l’[URL de Cloud Player](https://player.adobescreens.com/content/dam/universal-player/firmware.html) dans la barre d’adresses.
-1. Le navigateur vérifie si le lecteur cloud peut être installé, puis affiche une icône d’installation dans la barre d’adresse.
+1. Le navigateur vérifie que le lecteur cloud est installable, puis affiche une icône d’installation dans la barre d’adresse.
 
    ![image](/help/user-guide/assets/cloud-player-install.png)
 
-1. Cliquez sur l’icône d’installation et cliquez sur le bouton d’installation dans la boîte de dialogue de confirmation. Cloud Player est installé en tant qu’application autonome sur votre appareil et peut être lancé à l’aide d’une icône.
+1. Cliquez sur l’icône d’installation et sur le bouton d’installation dans la boîte de dialogue de confirmation. Cloud Player est installé en tant qu’application autonome sur votre appareil et peut être lancé à l’aide d’une icône.
 
 >[!NOTE]
 >
 >### Option d’installation de Cloud Player {#cloud-player-install-option}
 >
-1. L’option d’installation d’un PWA est également connue sous le nom de fonctionnalité &quot;Ajouter à l’écran d’accueil&quot; ou A2HS. La prise en charge de l’installation de PWA à partir du web varie en fonction du navigateur et de la plateforme.
-1. Chaque navigateur comporte des critères différents pour vérifier si l’application PWA peut être ou non installée. En règle générale, le navigateur vérifie ces éléments (plus de détails ici) :
+1. L’option d’installation d’une PWA est également connue sous le nom de fonctionnalité « Ajouter à l’écran d’accueil » ou A2HS. La prise en charge de l’installation de PWA à partir du Web varie en fonction du navigateur et de la plateforme.
+1. Chaque navigateur comporte des critères différents pour vérifier si l’application PWA peut être ou non installée. En règle générale, le navigateur peut vérifier (plus de détails ici) :
 >
-* Si l’application dispose d’un fichier json manifeste avec un minimum de clés requises pour installer l’application sur la plateforme, c’est-à-dire son nom, ses icônes, son nom, son adresse start_url, affichez
-* Si l’application comporte un fichier de service worker avec un écouteur d’événement de récupération
+* Si l’application dispose d’un fichier json manifeste avec un minimum de clés requises pour installer l’application sur la plateforme, c’est-à-dire son nom, ses icônes, son adresse start_url, afficher
+* Si l’application comporte un fichier de worker de service avec un listener d’événement de récupération.
 * L’application doit être diffusée via https
 >
-1. L’option d’installation peut être visible à différents emplacements dans différents navigateurs et types d’appareils. Certains navigateurs peuvent masquer l’icône d’installation dans la barre de menus des options.
+1. L’option d’installation peut être visible à différents emplacements dans différents navigateurs et types de périphériques. Certains navigateurs peuvent masquer l’icône d’installation dans la barre de menus des options.
 
 ## Approvisionnement en bloc de Cloud Player {#bulk-provisioning}
 
 Pour effectuer l’approvisionnement en bloc de Cloud Player sur plusieurs appareils :
 
-1. Choisissez une solution MDM qui prend en charge l’exécution d’un navigateur avec une URL en mode kiosque.
+1. Choisissez une solution MDM qui prend en charge l’exécution d’un navigateur avec une URL en mode Kiosk.
 1. Vous pouvez appliquer les mêmes configurations à tous les appareils en procédant comme suit :
 
-   1. Hébergez config.json sur un serveur de sorte qu’il soit accessible, par exemple : `https://<config_server_host>/config.json`
-   1. Pour installer le lecteur cloud et appliquer les configurations hébergées, utilisez l’URL du lecteur cloud telle que : `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. L’application Cloud Player recherche config.json à la racine de &lt;config_server_host>, analyse le fichier config.json pour obtenir les configurations personnalisées et appliquer ces configurations.
-   1. Ces configurations sont appliquées à chaque rechargement du lecteur.
+   1. Hébergez config.json sur un serveur de sorte qu’il soit accessible, par exemple : `https://<config_server_host>/config.json`.
+   1. Pour installer Cloud Player et appliquer les configurations hébergées, utilisez l’URL de Cloud Player, par exemple : `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`.
+   1. L’application Cloud Player recherche config.json à la racine de &lt;config_server_host>, analyse ensuite le fichier config.json pour obtenir les configurations personnalisées et appliquer ces configurations.
+   1. Ces configurations seront appliquées à chaque rechargement du lecteur.
 
 ## Approvisionnement en bloc sur le système d’exploitation Chrome {#bulk-provisioning-chrome}
 
-Pour en savoir plus sur la mise en service en bloc sur Chrome OS, voir [Installation de Cloud Player sur Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
+En savoir plus sur la mise en service en masse sur Chrome OS. Voir [Installation de Cloud Player sur Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## Configuration requise sur les instances AEM {#bulk-provisioning-config-aem}
 
 Selon le type d’instance AEM, cliquez sur l’un des guides suivants pour activer l’AEM et le lecteur cloud CORS :
-* [AEM On-Promise/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
-* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
+
+* [AEM sur site/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+
 
 >[!NOTE]
 >
@@ -81,17 +84,17 @@ Selon le type d’instance AEM, cliquez sur l’un des guides suivants pour acti
 >
 1. Applications Chrome sur le matériel Chrome OS :
 >
-Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers le lecteur cloud Screens.
+Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Cloud Player Screens.
 >
-1. Lecteur d’extension Chrome sous Mac, Windows et Linux® :
+1. Lecteur d’extension Chrome sur Mac, Windows et Linux® :
 >
-En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Adobe vous conseille d’effectuer la transition vers son lecteur cloud Screens pour répondre à toutes vos exigences en matière de développement et de test.
+En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Cloud Player Screens pour toutes vos exigences de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
-Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications d’une seule page intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
+Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications monopages intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
 
-Le lecteur cloud utilise une stratégie de mise en cache favorisant le réseau (Network First), ce qui signifie qu’il tente de récupérer du contenu du réseau (puis de mettre à jour le cache avec la dernière version), avant de revenir au contenu mis en cache s’il est disponible. Pour mettre en œuvre la prise en charge hors ligne de cette récupération de contenu, l’en-tête personnalisé doit être inclus dans la requête. Ensuite, la requête avec l’en-tête personnalisé est mise en cache sur le lecteur, ce qui facilite l’accès hors ligne au contenu tout en conservant la stratégie de mise en cache Réseau d’abord .
+Le lecteur cloud utilise une stratégie de mise en cache Network First, qui signifie qu’il tente de récupérer du contenu du réseau (puis de mettre à jour le cache avec la dernière version), en revenant au contenu mis en cache s’il est disponible. Pour mettre en œuvre la prise en charge hors ligne de cette récupération de contenu, l’en-tête personnalisé doit être inclus dans la requête. Ensuite, la requête avec l’en-tête personnalisé sera mise en cache sur le lecteur, ce qui facilite l’accès hors ligne au contenu tout en conservant la stratégie de mise en cache Network First (réseau en priorité).
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header
@@ -110,6 +113,6 @@ fetch(externalUrl, {
   }); 
 ```
 
-## Feedback
+## Commentaires
 
-Adobe valorise vos commentaires. Partagez vos réflexions avec nous à travers ceci [formulaire](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).
+Nous apprécions vos commentaires. Faites-nous part de ce que vous pensez via ce [formulaire](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).
