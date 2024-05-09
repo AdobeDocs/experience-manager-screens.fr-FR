@@ -2,10 +2,10 @@
 title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Découvrez comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 32%
+source-wordcount: '541'
+ht-degree: 22%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 32%
 
 ## Présentation {#introduction}
 
-Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clients de se concentrer uniquement sur la conception de la *main* expérience.
+Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client. Les périphériques téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles. Il permet aux clients de se concentrer sur la conception de la *main* expérience.
 
 ## Objectif {#objective}
 
-En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
+En tant qu’auteur de contenu Scrasse, vous pouvez désormais configurer des rendus de ressources spécifiques à l’appareil pour qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
 Une fois que le développeur a ajouté les propriétés et les règles de mappage de rendu, vous êtes prêt à appliquer le mappage de rendu aux ressources, puis à les inclure dans un canal AEM Screens.
 
 >[!IMPORTANT]
@@ -26,15 +26,15 @@ Une fois que le développeur a ajouté les propriétés et les règles de mappag
 ## Utilisation de rendus adaptatifs dans les canaux {#using-adaptive-renditions}
 
 >[!NOTE]
->Après avoir ajouté [Propriété de mappage de rendu au projet Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) et [règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), en tant qu’auteur de contenu, vous êtes maintenant prêt à appliquer les rendus à vos ressources.
+>Après avoir ajouté la variable [Propriété de mappage de rendu au projet Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) et [règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), en tant qu’auteur de contenu, vous êtes maintenant prêt à appliquer les rendus à vos ressources.
 
 ### Application de rendu aux ressources {#apply-renditions-assets}
 
-Pour appliquer des rendus aux ressources que vous souhaitez utiliser dans le canal Screens, procédez comme suit.
+Pour appliquer des rendus aux ressources que vous souhaitez utiliser dans le canal Tour Screens, procédez comme suit.
 
 1. Accédez au dossier **Ressources** dans votre instance AEM.
-1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple `seahorse.jpg`.
-1. Choisissez le modèle de dénomination du rendu, par exemple `landscape`, similaire à ce qui a été défini dans la propriété **motif** dans **CRXDE Lite**. Voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) pour plus d’informations.
+1. Créez une version de la ressource qui convient le mieux à l’affichage de la signalétique, par exemple : `seahorse.jpg`.
+1. Choisissez le modèle de dénomination du rendu, par exemple :`landscape`, similaire à ce qui a été défini dans **pattern** dans **CRXDE Lite**. Pour plus d’informations, voir [Ajout de règles de mappage de rendu](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
 1. Cliquez sur **Ajouter un rendu** pour charger le rendu, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)

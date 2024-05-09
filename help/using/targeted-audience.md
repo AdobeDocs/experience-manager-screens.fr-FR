@@ -1,19 +1,19 @@
 ---
-title: Public cible
+title: Audience cible
 description: En savoir plus sur l’audience cible du guide des bonnes pratiques d’AEM Screens.
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 55%
+source-wordcount: '493'
+ht-degree: 45%
 
 ---
 
 
-# Public cible {#target-audience}
+# Audience cible {#target-audience}
 
-En tant qu’implémentateur AEM expérimenté, vous avez probablement vu les rôles désignés comme *Auteurs*, *Développeurs*, et *Informaticiens/Techniciens*.
+En tant qu’implémentateur AEM expérimenté, vous avez probablement vu les rôles désignés comme *Auteurs*, *Développeurs*, et *Techniciens informatiques*.
 
-Dans AEM Screens, la définition des rôles est encore plus précise ; chacun d’eux joue, en effet, un rôle important dans un projet type.
+Dans un projet AEM Screens type, les rôles sont affinés dans la mesure où ils jouent chacun un rôle important dans le projet.
 
 Le diagramme ci-dessous montre les rôles que vous pouvez vous attendre à voir dans le guide.
 
@@ -24,7 +24,7 @@ Le diagramme ci-dessous montre les rôles que vous pouvez vous attendre à voir 
 
 ## Définition des rôles {#roles}
 
-Vous trouverez, dans cette section, un aperçu du public cible :
+La section suivante présente un aperçu de l’audience cible :
 
 ### Adobe {#adobe-audience}
 
@@ -36,22 +36,22 @@ Les implémentateurs d’AEM sont chargés d’effectuer des tâches de dévelop
 
 Les fonctionnalités personnalisées requises pour traiter les paramètres d’expérience utilisateur du client final sont également capturées et diffusées par le biais de ce processus.
 
-En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. La phase suivante inclut la possibilité de prendre en charge la lecture de contenu localisé par le biais de balises de métadonnées et de modèles dynamiques. D’autres phases incluent la prise en charge d’éléments interactifs au moyen d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
+En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. La phase suivante inclut la possibilité de prendre en charge la lecture de contenu localisé par le biais de modèles dynamiques et de balises de métadonnées. D’autres phases intègrent la prise en charge des éléments interactifs au moyen d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
 
-### Intégrateurs audio/vidéo {#av-integrators}
+### Intégrateurs audio-vidéo {#av-integrators}
 
-L’intégrateur audio/vidéo est le fournisseur/partenaire matériel. C’est à lui qu’il appartient de préparer le site et d’aménager le point de vente. Cela implique notamment l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’un tiers sous contrat qui a accès à un centre d’exploitation de réseau. Souvent, l’intégrateur audio/vidéo est le propriétaire du projet en raison de son implication continue après le lancement.
+L’intégrateur audio-vidéo est le partenaire fournisseur matériel. Cette partie traite de la conception au détail et de la préparation du site, y compris l’acquisition, la configuration et le déploiement du matériel. Il s’agit généralement d’un tiers sous contrat qui a accès à un centre d’exploitation de réseau. Souvent, l’intégrateur audio-vidéo est le propriétaire du projet en raison de son implication continue après le lancement.
 
-L’intégrateur audio/vidéo est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet pour concevoir, créer et gérer efficacement les déploiements autour du matériel de signalétique digitale.
+L’intégrateur audio-vidéo est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences, de déterminer la portée du projet afin de concevoir, de créer et de gérer efficacement les déploiements autour du matériel de signalétique digitale.
 
-### Stratège opérationnel {#business-strategist}
+### Personne chargée de la stratégie opérationnelle
 
 Les stratèges opérationnels représentent les décideurs de l’entreprise. Les titulaires de ce rôle sont fortement impliqués dans les étapes de découverte et de définition des exigences. Ce rôle constitue le principal élément moteur du projet.
 
 Ces stratèges définissent les exigences et configurent les mesures IPC. Le rôle de stratège opérationnel peut être confié à une personne occupant l’un des postes suivants :
 
 * Directeur commercial ou
-* marketing Responsable de la stratégie digitale Gestionnaire du contenu ou des créations publicitaires
+* Sales Manager, Digital Strategy Manager, Creative ou Content Management.
 
 L’équipe de gestion du contenu et des créations publicitaires travaille en étroite collaboration avec l’équipe en charge de la stratégie et transforme les exigences en expériences client. Ils dirigent la conception globale de l’expérience client et organisent le contenu sur lequel la marque fonde son identité.
 
@@ -60,9 +60,9 @@ La gestion du contenu et des créations publicitaires peut être confiée à l�
 * Agence publicitaire ou
 * Chef de marque
 
-### Chefs de projet {#project-managers}
+### Personnes chargées de la gestion de projet {#project-managers}
 
-En règle générale, les chefs de projet gèrent l’intégralité de votre déploiement AEM Screens. Un chef de projet est la personne de référence pour l’ensemble de la mise en oeuvre du projet désigné. Elles assument des responsabilités importantes, telles que l&#39;établissement des calendriers, la gestion des besoins et des communications de l&#39;équipe, la résolution des défis et la réalisation des objectifs.
+En règle générale, les chefs de projet gèrent l’intégralité de votre déploiement AEM Screens. Un chef de projet est la personne de référence pour l’ensemble de la mise en oeuvre du projet désigné. Elles assument des responsabilités importantes, telles que l’établissement des calendriers, la gestion des besoins de l’équipe et les communications. Elles relèvent également les défis et veillent à ce que les objectifs soient atteints.
 
 >[!NOTE]
->Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur l’audience cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur l’audience cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.

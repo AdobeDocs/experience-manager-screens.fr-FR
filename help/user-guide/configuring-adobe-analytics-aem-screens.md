@@ -1,6 +1,6 @@
 ---
-title: Configuration d’Adobe Analytics avec AEM Screens
-description: En savoir plus sur le séquencement et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
+title: Configuration d’Adobe Analytics avec AEM Screens
+description: Découvrez le séquencement et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 71%
+source-wordcount: '625'
+ht-degree: 80%
 
 ---
 
-# Configuration d’Adobe Analytics avec AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# Configuration d’Adobe Analytics avec AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 <!-- OBSOLETE NOTE>
 >[!CAUTION]
@@ -33,7 +33,7 @@ Cette section couvre les sujets suivants :
 
 ## Séquencement dans Adobe Analytics avec AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de blocs. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
+La variable ***processus de séquencement*** commence par un service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données de l’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de blocs. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
 
 ### Diagramme de séquencement {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td>UUID</td> 
-   <td>ID unique qui identifie l’instance d’un événement</td> 
+   <td>Identifiant unique qui identifie une instance d’un événement</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td>Horodatage - UTC</td> 
-   <td>Date et heure de début de l’événement. Si vous n’avez pas spécifié cette date, l’heure de début de l’événement est considérée comme l’heure de réception par le serveur.</td> 
+   <td>Date et heure de début de l’événement. Si vous n’avez pas spécifié cette heure, l’heure de début de l’événement est considérée comme l’heure par le serveur lorsqu’elle a été reçue.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Catégorie principale (BUREAU, MOBILE, WEB, PROCESSUS, SDK, SERVICE, ECOSYSTEM) - Regroupement des types d’événements - <strong>Lecteur envoyé</strong></td> 
+   <td>Catégorie principale (BUREAU, MOBILE, WEB, PROCESSUS, SDK, SERVICE, RÉSEAU) - Regroupement des types d’événements - <strong>Lecteur envoyé</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -117,7 +117,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-catégorie : section d’un workflow, ou zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
+   <td>Sous-catégorie - Section d’un processus, d’une zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -135,7 +135,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-type d’événement (création, mise à jour, suppression, publication, etc.) - Plus de détails sur l’action de l’utilisateur</td> 
+   <td>Sous-type d’événement (création, mise à jour, suppression, publication, etc.) : plus de détails sur l’action de l’utilisateur ou l’utilisatrice</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,7 +144,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>booléen</td> 
    <td> </td> 
-   <td>L’événement a été généré lorsque l’action était hors ligne/en ligne (vrai/faux).</td> 
+   <td>L’événement a été généré alors que l’action était hors ligne/en ligne (true/false).</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -171,7 +171,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne<br /> </td> 
    <td>UUID</td> 
-   <td>Identifie le GUID de l’appareil (par exemple, l’ID de l’ordinateur ou le hachage de l’adresse IP + masque de sous-réseau + identifiant réseau + agent utilisateur). Ici, le nom d’utilisateur du lecteur généré au moment de l’enregistrement est envoyé.</td> 
+   <td>Identifie le GUID de l’appareil (par exemple, ID d’ordinateur ou hachage de l’adresse IP + masque de sous-réseau + ID réseau + agent utilisateur) - Ici, le nom d’utilisateur du lecteur généré au moment de l’enregistrement est envoyé.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -180,7 +180,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>nombre</td> 
    <td> </td> 
-   <td>Nombre de fois où l’événement s’est produit : la durée de la vidéo est envoyée</td> 
+   <td>Nombre de fois où l’événement s’est produit - La durée de la vidéo est envoyée.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -207,7 +207,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>URL de la propriété web ou du schéma mobile (doit inclure une URL complète)</td> 
+   <td>URL de la propriété web ou du schéma mobile - doit inclure une URL complète</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -288,7 +288,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>URL de la ressource, y compris le rendu lu</td> 
+   <td>URL de la ressource, dont le rendu lu</td> 
   </tr>
   <tr>
    <td> </td> 

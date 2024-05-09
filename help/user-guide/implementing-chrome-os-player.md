@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 62%
 
 ---
@@ -41,7 +41,7 @@ Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Chrome, env
 
 Suivez les étapes ci-dessous pour configurer le nom dans le lecteur Chrome :
 
-1. Vous pouvez éventuellement autoriser les intégrateurs audio/vidéo ou les administrateurs informatiques à définir l’ID de ressource et l’emplacement dans le cadre de l’inscription à l’entreprise.
+1. Vous pouvez éventuellement autoriser les intégrateurs audio-vidéo ou les administrateurs informatiques à définir l’ID de ressource et l’emplacement dans le cadre de l’inscription à l’entreprise.
 
    ![image](/help/user-guide/assets/chrome-device/chrome1.png)
 
