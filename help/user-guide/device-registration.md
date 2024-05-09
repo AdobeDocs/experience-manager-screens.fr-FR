@@ -1,6 +1,6 @@
 ---
 title: Enregistrement d’appareils
-description: Découvrez le processus d’enregistrement des périphériques dans un projet AEM Screens.
+description: Découvrez le processus d’enregistrement des appareils dans un projet AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 36%
+source-wordcount: '722'
+ht-degree: 56%
 
 ---
 
@@ -23,23 +23,23 @@ La page suivante décrit le processus d’enregistrement des appareils dans un p
 
 ## Enregistrement d’un appareil {#registering-a-device}
 
-Le processus d’enregistrement des périphériques est effectué sur deux machines distinctes :
+Le processus d’enregistrement des appareils est effectué sur deux machines distinctes :
 
-* L’appareil à enregistrer, par exemple l’affichage du message
-* Serveur AEM utilisé pour enregistrer votre appareil
+* L’appareil à enregistrer, par exemple votre affichage de signalétique.
+* Le serveur AEM utilisé pour enregistrer votre appareil.
 
 >[!NOTE]
 >
->Après avoir téléchargé le dernier lecteur Windows (*.exe*), depuis [Téléchargements du lecteur AEM 6.4](https://download.macromedia.com/screens/) , suivez les étapes du lecteur pour terminer l’installation ad hoc :
+>Après avoir téléchargé le dernier lecteur Windows (*.exe*), à partir de la fonction [Téléchargements du lecteur AEM 6.4](https://download.macromedia.com/screens/) , suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
->1. Appuyez longuement dans le coin supérieur gauche pour ouvrir le panneau d’administration.
+>1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
 >1. Cliquez sur le bouton **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. Sur votre appareil, démarrez le lecteur AEM Screens. L’interface utilisateur d’enregistrement s’affiche.
+1. Sur votre appareil, démarrez le lecteur AEM Screens. L’interface utilisateur d’enregistrement s’affiche.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -47,7 +47,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la création d’un projet pour Screens dans le tableau de bord AEM, voir [Création et gestion de projet Screens](creating-a-screens-project.md).
+   >Pour en savoir plus sur la création d’un projet pour Screens dans le tableau de bord AEM, voir [Création et gestion d’un projet Screens](creating-a-screens-project.md).
 
 1. Cliquez sur le bouton **Gestionnaire de périphériques** dans la barre d’actions.
 
@@ -69,7 +69,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Si la variable **Code d’enregistrement** est identique sur les deux machines, cliquez sur **Valider** dans AEM, comme indiqué à l’étape (6).
+1. Si la variable **Code d’enregistrement** est identique sur les deux machines, cliquez sur l’icône **Valider** dans AEM, comme indiqué à l’étape (6).
 1. Saisissez le nom souhaité pour l’appareil, puis cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -80,7 +80,7 @@ Le processus d’enregistrement des périphériques est effectué sur deux machi
 
    >[!NOTE]
    >
-   >La variable **Enregistrer nouveau** vous permet d’enregistrer un nouveau périphérique.
+   >L’option **Enregistrer nouveau** vous permet d’enregistrer un nouvel appareil.
    >
    >Le bouton **Attribuer l’affichage** permet d’ajouter directement l’appareil à un affichage.
 
@@ -120,7 +120,7 @@ Si vous n’avez pas attribué l’appareil à un affichage, procédez comme sui
 
 Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez les afficher dans l’interface utilisateur du Gestionnaire de périphériques.
 
-1. Accédez à l’interface utilisateur du Gestionnaire de périphériques à partir de votre projet AEM Screens, par exemple : **DemoScreens** > **Périphériques**.
+1. Accédez à l’interface utilisateur du Gestionnaire d’appareils à partir de votre projet AEM Screens, par exemple **DemoScreens** > **Appareils**.
 
 1. Cliquez sur le bouton **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
 
@@ -141,26 +141,26 @@ Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez
 
 ### Limites de la fonctionnalité de recherche {#limitations}
 
-* L’utilisateur peut rechercher n’importe quel mot existant dans la variable *ID de périphérique* ou *Nom de l’appareil*.
+* L’utilisateur peut rechercher n’importe quel mot existant dans la variable *identifiant de l’appareil* ou *Nom de l’appareil*.
 
   >[!NOTE]
-  >Il est recommandé de créer les noms d’appareils à l’aide de plusieurs mots, tels que *Boston Store Lobby*, plutôt qu’en un seul, *BostonStoreLobby*.
+  >Il est recommandé de créer les noms de périphériques à l’aide de plusieurs mots, tels que *`Boston Store Lobby`* plutôt qu’un seul *`BostonStoreLobby`*.
 
-* Si vous créez des noms d’appareils tels que *Lobby du magasin Boston*, il recherche n’importe quel mot. *boston*, *store*, ou *lobby*. Cependant, si le nom de l’appareil est *BostonStoreLobby*, puis en recherchant *boston* n’affiche aucun résultat.
+* Si vous avez créé des noms d’appareils tels que *`Boston Store Lobby`*, il recherche n’importe quel mot. *`boston`*, *`store`*, ou *`lobby`*. Cependant, si le nom de l’appareil est *`BostonStoreLobby`*, puis en recherchant *`boston`* n’affiche aucun résultat.
 
-* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez trouver tous les périphériques dont le nom commence par *boston*, vous pouvez utiliser *boston**.
+* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez trouver tous les périphériques dont le nom commence par *`boston`*, vous pouvez utiliser *`boston`**.
 
-* Si le nom de l’appareil est *BostonStoreLobby* et la recherche *boston* ne renvoie pas le résultat, puis utilise *boston** dans vos critères de recherche renvoie le résultat.
+* Si le nom de l’appareil est *`BostonStoreLobby`* et la recherche *`boston`* ne renvoie pas le résultat, puis utilise *`boston`** dans vos critères de recherche renvoie le résultat.
 
 ## Restrictions relatives à l’enregistrement d’appareils {#limitations-on-device-registration}
 
-Les restrictions de mot de passe utilisateur à l’échelle du système peuvent entraîner un échec de l’enregistrement du périphérique. L’enregistrement du périphérique utilise un mot de passe généré de manière aléatoire pour créer l’utilisateur du périphérique.
+Les restrictions de mot de passe utilisateur à l’échelle du système peuvent entraîner l’échec de l’enregistrement de l’appareil. L’enregistrement de l’appareil utilise un mot de passe généré de manière aléatoire pour créer l’utilisateur ou l’utilisatrice de l’appareil.
 
-Si le mot de passe est limité par la variable *AuthorizableActionProvider* , la création de l’utilisateur du périphérique peut échouer.
+Si la variable *AuthorizableActionProvider* La configuration limite le mot de passe, ce qui peut entraîner l’échec de la création de l’utilisateur de l’appareil.
 
 >[!NOTE]
 >
->Le mot de passe aléatoire généré actuellement est composé de 36 caractères ASCII, compris entre 33 et 122 (inclut presque tous les caractères spéciaux).
+>Le mot de passe aléatoire généré actuel est composé de 36 caractères ASCII, entre 33 et 122 (inclut quasiment tous les caractères spéciaux).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

@@ -1,6 +1,6 @@
 ---
 title: Création et gestion des affichages
-description: Découvrez comment créer un affichage et une configuration de périphérique dans AEM Screens. En savoir plus sur le tableau de bord des affichages.
+description: Découvrez comment créer un affichage et une configuration d’appareil dans AEM Screens. Découvrez également le tableau de bord des affichages.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,20 +9,20 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 37%
+source-wordcount: '661'
+ht-degree: 53%
 
 ---
 
 # Création et gestion des affichages {#creating-and-managing-displays}
 
-Un affichage est un groupe virtuel d’écrans positionnés les uns à côté des autres. L&#39;affichage est permanent par rapport à une installation. Il s’agit de l’objet avec lequel les auteurs de contenu travaillent et font toujours référence à comme affichage logique plutôt qu’à leurs parties de compteur physiques.
+Un affichage est un groupe virtuel d’écrans positionnés les uns à côté des autres. L’affichage est généralement permanent par rapport à une installation. Il s’agit de l’objet avec lequel les auteurs de contenu travaillent et font toujours référence à comme affichage logique plutôt qu’à leurs parties de compteur physiques.
 
 Lorsque vous créez un emplacement, vous devez créer un affichage pour celui-ci.
 
-Cette page présente la création et la gestion des affichages pour Screens.
+Vous découvrirez dans cette page comment créer et gérer des affichages pour Screens.
 
 **Conditions préalables** :
 
@@ -40,15 +40,15 @@ Cette page présente la création et la gestion des affichages pour Screens.
 1. Accédez à l’emplacement souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Cliquez sur votre dossier d’emplacement, puis sur **Créer** en regard de l’icône plus dans la barre d’actions.
 1. Cliquez sur **Affichage** de la **Créer** assistant, puis cliquez sur **Suivant**.
-1. Saisissez le **nom** et le **titre** de l’emplacement de l’affichage.
-1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choisissez la **Résolution**, par exemple **Full HD**. Sélectionnez le nombre de périphériques horizontalement et verticalement.
+1. Saisissez votre **Nom** et **Titre** pour votre emplacement d’affichage.
+1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choisissez la **résolution** souhaitée, par exemple, **Full HD**. Choisissez le nombre d’appareils horizontalement et verticalement.
 1. Cliquez sur **Créer**.
 
 L’affichage (*StoreDisplay*) est créé et ajouté à l’affichage de l’emplacement (*SanJose*).
 
 ![Affichage](assets/display.gif)
 
-Lorsque l’affichage est en place, l’étape suivante consiste à créer une configuration de périphérique pour cet affichage particulier.
+Lorsque l’affichage est en place, l’étape suivante consiste à créer une configuration de périphérique pour cet affichage.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Lorsque l’affichage est en place, l’étape suivante consiste à créer une c
 
 ## Création d’une configuration d’appareil {#creating-a-new-device-config}
 
-Une configuration d’appareil fonctionne comme un espace réservé pour un appareil d’affichage numérique qui n’est pas encore installé.
+Une configuration d’appareil fonctionne comme un espace réservé pour un appareil de signalétique numérique qui n’est pas encore installé.
 
 1. Accédez à l’affichage souhaité, par exemple `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
 1. Cliquez sur votre dossier d’affichage, puis sur **Afficher le tableau de bord** dans la barre d’actions.
@@ -78,15 +78,15 @@ La configuration de l’appareil est créée et ajoutée à l’affichage en cou
 >
 >Lorsqu’une configuration de périphérique est définie sur votre affichage à l’emplacement , l’étape suivante consiste à attribuer un canal à votre affichage.
 >
->Comme illustré dans la figure ci-dessous, si la configuration du périphérique s’affiche comme non attribuée dans la variable **APPAREILS** , si aucun canal n’est affecté à cette configuration de périphérique spécifique.
+>Comme illustré dans la figure ci-dessous, si la configuration de l’appareil est affichée comme non attribuée dans le panneau **APPAREILS**, aucun canal n’est attribué à cette configuration de l’appareil.
 >
->Vous devez d’abord comprendre comment créer et gérer des canaux. Voir [Création et gestion des canaux](managing-channels.md) pour en savoir plus.
+>Vous devez avoir une connaissance préalable de la création et de la gestion des canaux. Voir [Création et gestion des canaux](managing-channels.md) pour en savoir plus.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Tableau de bord des affichages {#display-dashboard}
 
-Le tableau de bord des affichages présente plusieurs panneaux pour gérer les appareils d’affichage et la configuration de votre appareil.
+Le tableau de bord des affichages vous fournit différents panneaux pour la gestion des périphériques d’affichage. Il vous permet également de configurer votre appareil.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -102,16 +102,16 @@ Le tableau de bord des affichages présente plusieurs panneaux pour gérer les a
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Cliquez sur (**..**) dans le coin supérieur droit du **AFFICHAGE DES INFORMATIONS** pour afficher les propriétés et un aperçu de l’affichage.
+Cliquez sur les points de suspension (**...**) dans le coin supérieur droit du panneau **INFORMATIONS SUR L’AFFICHAGE** pour pouvoir afficher les propriétés et un aperçu de l’affichage.
 
 
 #### Affichage des propriétés {#viewing-properties}
 
-Cliquez sur **Propriétés** vous pouvez ainsi afficher ou modifier les propriétés de votre affichage.
+Cliquez sur **Propriétés** pour pouvoir afficher ou modifier les propriétés de votre affichage.
 
-Vous pouvez également régler la valeur du minuteur d’événement pour votre canal interactif dans **Délai d’inactivité** propriété sous **Affichage** . Par défaut, cette valeur est définie sur *300 secondes*.
+En outre, vous pouvez ajuster la valeur du minuteur d’événement pour votre canal interactif sous le **Affichage** . Par défaut, cette valeur est définie sur *300 secondes*.
 
-Utilisez **CRXDE Lite** pour accéder à la propriété **idleTimeout**, à savoir `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Utilisation **CRXDE Lite**, pour accéder au **idleTimeout** , à savoir : `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Panneau Canaux attribués {#assigned-channels-panel}
@@ -121,16 +121,16 @@ Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet appareil.
 
 ### Panneau Appareils {#devices-panel}
 
-Le panneau **APPAREILS** fournit des informations sur les configurations des appareils.
+La variable **APPAREILS** Le panneau fournit des informations sur les configurations de l’appareil.
 
 Cliquez sur (**..**) dans le coin supérieur droit du **APPAREILS** afin que vous puissiez ajouter des configurations de périphérique et mettre à jour les périphériques.
 
-Cliquez également sur la configuration du périphérique pour afficher les propriétés, attribuer un périphérique ou le supprimer complètement.
+Cliquez également sur la configuration de l’appareil pour afficher les propriétés, attribuer un appareil ou le supprimer.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
 #### Étapes suivantes {#the-next-steps}
 
-Lorsque vous créez un affichage pour votre emplacement, attribuez-lui un canal.
+Lorsque vous avez créé un affichage pour votre emplacement, attribuez-lui un canal.
 
 Reportez-vous à la section [Attribution des canaux](channel-assignment.md) pour plus de détails.

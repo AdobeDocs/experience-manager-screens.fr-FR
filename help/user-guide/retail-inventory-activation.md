@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 31%
+source-wordcount: '577'
+ht-degree: 30%
 
 ---
 
@@ -23,15 +23,15 @@ Le cas d’utilisation ci-dessous montre trois images différentes en fonction d
 
 ## Description {#description}
 
-Ce cas pratique présente le stock de vente au détail de trois sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
+Ce cas pratique présente le stock de vente au détail de trois sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans les feuilles de calcul Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) dont le nombre est le plus élevé s’affiche.
 
-Pour ce cas d’utilisation, le sweat-shirt rouge, vert ou bleu s’affiche à l’écran en fonction de la valeur la plus élevée du nombre de sweaters disponible.
+Le pull-over rouge, vert ou bleu est affiché en fonction de la valeur la plus élevée du nombre de sweaters disponibles.
 
 ## Prérequis {#preconditions}
 
 Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, découvrez comment configurer ***Entrepôt de données***, ***Segmentation de l’audience*** et ***Activation du ciblage des canaux*** dans un projet AEM Screens.
 
-Voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
+Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
 ## Flux de base {#basic-flow}
 
@@ -46,7 +46,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
 1. **Configuration des audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (voir ***Étape 2 : configuration de la segmentation de l’audience*** in **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
+   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** dans la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
    1. Ajoutez trois nouveaux segments **For_Red**, **For_Green** et **For_Blue**.
 
@@ -55,22 +55,22 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
    1. Faites glisser et déposez le **Comparaison : Propriété - Propriété** à l’éditeur.
    1. Cliquez sur le bouton **Configuration** Icône
    1. Cliquez sur **googlesheets/value/1/2** dans la liste déroulante de **First Property name**.
-   1. Cliquez sur le bouton **Opérateur** as **supérieur à** dans le menu déroulant.
-   1. Cliquez sur **Type de données** as **nombre**.
+   1. Cliquez sur le bouton **Opérateur** et en tant que **supérieur à** dans le menu déroulant.
+   1. Cliquez sur **Type de données** et en tant que **nombre**.
    1. Cliquez sur **googlesheets/value/1/1** dans la liste déroulante de **Second Property name**.
    1. Glisser-déposer **autre comparaison : Propriété - Propriété** dans l’éditeur, puis cliquez sur l’icône **Configuration** Icône
    1. Cliquez sur **googlesheets/value/1/2** dans la liste déroulante de **First Property name**.
-   1. Cliquez sur le bouton **Opérateur** as **supérieur à** dans le menu déroulant.
-   1. Cliquez sur **Type de données** as **nombre**.
+   1. Cliquez sur le bouton **Opérateur** et en tant que **supérieur à** dans le menu déroulant.
+   1. Cliquez sur **Type de données** et en tant que **nombre**.
    1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Second Property name**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   De la même manière, modifiez et ajoutez des règles de propriétés de comparaison au segment **For_Blue**, comme illustré ci-dessous :
+   De même, modifiez et ajoutez des règles de propriétés de comparaison à la variable **For_Blue** comme illustré dans la figure ci-dessous :
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   De même, modifiez et ajoutez des règles de propriété de comparaison à **For_Green** comme illustré dans la figure ci-dessous :
+   De même, modifiez et ajoutez des règles de propriétés de comparaison à la variable **For_Green** comme illustré dans la figure ci-dessous :
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -85,7 +85,7 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    >[!CAUTION]
    >
-   >Vous devez avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
+   >Vous devez déjà avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -114,6 +114,6 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 1. **Vérification de l’aperçu**
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
-   1. Modifiez la valeur des trois colonnes différentes. Notez les mises à jour de l’image d’affichage en fonction de la valeur de stock la plus élevée.
+   1. Modifiez la valeur des trois colonnes différentes. Notez les mises à jour de l’image d’affichage selon la valeur la plus élevée de l’inventaire.
 
    ![retail_result](assets/retail_result.gif)

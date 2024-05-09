@@ -2,35 +2,35 @@
 title: Réseau d’entreprise fermé
 description: Réseau d’entreprise fermé
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 53%
+source-wordcount: '710'
+ht-degree: 77%
 
 ---
 
 # Réseau d’entreprise fermé (câblé/sans fil) {#enclosed-corporate-networks}
 
-La configuration de réseau d’entreprise fermé s’applique aux petites, grandes et grandes entreprises. Elle peut être plus complexe du point de vue théorique ; la configuration logique est présentée dans la figure ci-dessous.
+La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Elle peut être plus complexe du point de vue théorique ; la configuration logique est présentée dans la figure ci-dessous.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Connexion d’un lecteur AEM Screens à un accès Internet direct
+## Connecter un lecteur AEM Screens à un accès internet direct
 
-Procédez selon les étapes ci-dessous pour vous assurer que les lecteurs AEM Screens sont correctement connectés dans cette configuration :
+Pour vous assurer que les lecteurs AEM Screens sont correctement connectés dans cette configuration, procédez comme suit :
 
 1. Veillez à ce que chacun des lecteurs AEM Screens soit connecté au réseau des routeurs.
-1. Testez la connexion Internet en appelant une URL dans le navigateur de votre système.
+1. Testez la connexion internet en appelant une URL dans le navigateur de votre système.
 
    >[!NOTE]
-   >Si une erreur s’affiche, vérifiez les paramètres réseau. Il existe essentiellement deux options pour une connexion réseau appropriée :
+   >Si vous recevez une erreur, vérifiez les paramètres réseau. Il existe essentiellement deux options pour une connexion réseau appropriée :
    >* DHCP
    >* Configuration IP manuelle
 
-1. Assurez-vous que le paramètre de l’adaptateur réseau correspond bien à vos paramètres de routeur et vérifiez si le nombre maximal d’adresses IP disponibles dans votre réseau n’est pas atteint.
+1. Assurez-vous que le paramètre de l’adaptateur réseau correspond bien à vos paramètres de routeur et vérifiez si le nombre maximal d’adresses IP disponibles dans votre réseau n’est pas atteint.
 
-1. Vérifiez si le routeur est correctement connecté au réseau étendu du FAI (liaison Internet). Vous pouvez également l’identifier à l’aide d’un voyant sur les routeurs standard.
+1. Assurez-vous que le routeur est correctement connecté au réseau étendu du FAI (liaison internet). Cette connexion peut également être identifiée à l’aide d’un voyant sur les routeurs standard.
 1. Si l’appel de l’URL aboutit, vous pouvez continuer à installer AEM Screens et vous enregistrer. Lancez AEM Screens.
 
    >[!NOTE]
@@ -42,15 +42,15 @@ Procédez selon les étapes ci-dessous pour vous assurer que les lecteurs AEM Sc
 
 ## Configuration de réseaux d’entreprise fermés {#requirements-enclosed-networks}
 
-La configuration de réseau d’entreprise fermé peut être séparée logiquement en deux blocs :
+La configuration de réseau d’entreprise fermé peut être séparée logiquement en deux blocs :
 
 * Réseau étendu (WAN)
 * Réseau local interne (LAN).
 
 ### Réseau étendu {#wan-connection}
 
-Au-delà de l’accessibilité du réseau, les performances de la connexion Internet résident dans la capacité à fournir une bande passante suffisante pour qu’AEM Screens télécharge le contenu de manière fluide.
-*Bande passante suffisante* Dépend du nombre d’écrans d’AEM connectés et de l’utilisation d’autres appareils consommateurs sur le réseau, comme les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+Au-delà de l’accessibilité du réseau, les performances de la connexion internet résident dans la capacité à fournir une bande passante suffisante pour qu’AEM Screens télécharge le contenu de manière fluide.
+*Bande passante suffisante* dépend du nombre d’AEM Screens connectées. Elle dépend également de l’utilisation d’autres consommateurs sur le réseau, comme les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
 
 >[!NOTE]
 >
@@ -60,29 +60,29 @@ Au-delà de l’accessibilité du réseau, les performances de la connexion Inte
 
 Au-delà de l’accessibilité, les performances du réseau local tiennent à la capacité à fournir une bande passante suffisante pour qu’AEM Screens télécharge le contenu de manière fluide.
 
-Les réseaux locaux des entreprises atteignent généralement un débit de 1 000 Mbit/s, de sorte qu’il devrait y avoir suffisamment de bande passante pour connecter de nombreux appareils au système avec de bonnes performances. Lors de l’utilisation d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante du réseau.
+Les réseaux locaux des entreprises atteignent généralement un débit de 1 000 Mbit/s, de sorte qu’il devrait y avoir suffisamment de bande passante pour connecter de nombreux appareils au système avec de bonnes performances. Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante du réseau.
 
 Par exemple, les composants réseau doivent correspondre au moins à la norme standard de 100 Mbit/s et à la bande passante fournie par l’accès Internet/la spécification du routeur.
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
-Les réseaux d’entreprise disposent de plusieurs appareils connectés, sont séparés en divers sous-réseaux et disposent de connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
+Généralement, les réseaux d’entreprise présentent plusieurs appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
 Ce schéma est simplifié et convient le plus souvent aux environnements disponibles pour le client.
 
-Si une solution Wi-Fi est envisagée pour connecter Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité. Si un répéteur Wi-Fi est requis, Adobe recommande les technologies de point d’accès Wi-Fi maillé telles que Google Nest Mesh Wi-Fi, ou un dispositif similaire.
+Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité. Si un répéteur Wi-Fi est requis, il est fortement recommandé d’utiliser des technologies de point d’accès Wi-Fi maillé comme Google Nest Mesh Wi-Fi, ou un dispositif similaire.
 D’autres technologies de répéteurs de signaux Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
-## Téléchargement de médias et de ressources {#download}
+## Télécharger des médias et des ressources {#download}
 
-AEM Screens offre un avantage important aux utilisateurs de signalétique digitale. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. L’essentiel du trafic réseau a lieu lorsqu’un nouveau contenu doit être affiché sur un dispositif d’affichage spécifique.
+AEM Screens offre un grand avantage aux utilisateurs et utilisatrices de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. L’essentiel du trafic réseau a lieu lorsqu’un nouveau contenu doit être affiché sur un dispositif d’affichage spécifique.
 
-Pour les opérations normales, par exemple, une liste de lecture définie qui se met à jour fréquemment au cours de la journée, offre un fonctionnement presque indépendant du réseau, une fois tous les fichiers enregistrés sur le lecteur.
+Pour les opérations normales, par exemple une liste de lecture définie qui ne change pas très souvent au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 
-Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d’autres déclencheurs et un contenu dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
+Dans les scénarios où il y a plus d’interactions avec des capteurs ou des déclencheurs et du contenu dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 
 Le tableau suivant présente un aperçu des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
->Ces informations vous permettent de visualiser la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces requêtes additionne et prolonge le temps de téléchargement.
+>Ces informations vous permettent de visualiser la consommation de chaque appareil du réseau en demandant et en téléchargeant une source Internet. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/enclosed-network-download.png)
