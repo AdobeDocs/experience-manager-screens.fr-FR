@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 35%
+source-wordcount: '324'
+ht-degree: 34%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez également accéder directement à : `http://localhost:4502/screens
 
 >[!NOTE]
 >**Conseil de navigation :**
->Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, une fois que vous avez cliqué sur une entité spécifique, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
+>Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, après avoir cliqué sur une entité spécifique, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
 
 ## Création d’un projet Screens
 
@@ -46,7 +46,7 @@ Dans un projet, il existe cinq types de dossiers, comme illustré dans la figure
 
 >[!NOTE]
 >
->Par défaut, la structure initiale contient le **Planifications**, **Emplacements**, **Applications**, **Canaux**, et **Périphériques** pages primaires, mais cela peut être ajusté manuellement si nécessaire. Vous pouvez supprimer les options si celles disponibles ne sont pas pertinentes pour votre projet.
+>Par défaut, la structure initiale contient le **Planifications**, **Emplacements**, **Applications**, **Canaux**, et **Périphériques** pages primaires, mais cette structure peut être ajustée manuellement si nécessaire. Vous pouvez supprimer les options si celles disponibles ne sont pas pertinentes pour votre projet.
 
 
 ## Affichage des propriétés {#viewing-properties}

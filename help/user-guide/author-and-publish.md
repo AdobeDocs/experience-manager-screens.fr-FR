@@ -1,16 +1,16 @@
 ---
-title: Configuration des instances de création et de publication dans AEM Screens
-description: Découvrez comment configurer une instance d’auteur et une instance de publication pour AEM Screens.
+title: Configurer les instances de création et de publication dans AEM Screens
+description: Découvrez comment configurer une instance de création et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 40%
+source-wordcount: '1940'
+ht-degree: 67%
 
 ---
 
 
-# Configuration des instances de création et de publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
+# Configurer les instances de création et de publication dans AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Cette page met l’accent sur les sujets suivants :
 
@@ -18,9 +18,9 @@ Cette page met l’accent sur les sujets suivants :
 * **Configuration de la topologie de publication**
 * **Gestion de la publication : diffusion des mises à jour de contenu de l’auteur à la publication sur l’appareil**
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
-Avant de commencer à utiliser les serveurs de création et de publication, vous devez connaître au préalable :
+Avant de vous familiariser avec les serveurs de création et de publication, vous devez connaître au préalable :
 
 * **Topologie AEM**
 * **Création et gestion de projet AEM Screens**
@@ -28,7 +28,7 @@ Avant de commencer à utiliser les serveurs de création et de publication, vous
 
 >[!NOTE]
 >
->Cette fonctionnalité d’AEM Screens n’est disponible que si vous avez installé AEM 6.4 Screens Feature Pack 2. Pour accéder à ce Feature Pack, contactez l’assistance Adobe et demandez l’accès. Une fois que vous disposez de l’autorisation, vous pouvez la télécharger à partir du partage de modules.
+>Cette fonctionnalité AEM Screens n’est disponible que si vous avez installé le pack de fonctionnalités 2 pour AEM 6.4 Screens. Pour accéder à ce Feature Pack, contactez l’assistance Adobe et demandez l’accès. Une fois que vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir du partage de packages.
 
 >[!IMPORTANT]
 >
@@ -38,21 +38,21 @@ Avant de commencer à utiliser les serveurs de création et de publication, vous
 
 >[!NOTE]
 >
->Pour en savoir plus sur la présentation de l’architecture de création et de publication et sur la manière dont le contenu est créé sur une instance d’auteur AEM, puis répliqué par la suite sur plusieurs instances de publication, voir [Présentation de l’architecture de création et de publication](author-publish-architecture-overview.md).
+>Pour en savoir plus sur la vue d’ensemble de l’architecture de création et de publication et sur la manière dont le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication, reportez-vous à [Vue d’ensemble de l’architecture de création et de publication](author-publish-architecture-overview.md).
 
-La section suivante explique comment configurer les agents de réplication sur la topologie de création et de publication.
+La section suivante explique comment configurer des agents de réplication sur la topologie Auteur et Publication.
 
-Vous pouvez configurer un exemple simple dans lequel vous hébergez une instance d’auteur et deux instances de publication :
+Vous pouvez configurer un exemple simple, où vous hébergez une instance de création et deux instances de publication :
 
-* Auteur > localhost:4502
-* Publier 1 (pub1) > localhost:4503
-* Publier 2 (pub2) > localhost:4504
+* Création > localhost:4502.
+* Publication 1 (pub1) > localhost:4503.
+* Publication 2 (pub2) > localhost:4504.
 
 ## Configuration des agents de réplication en mode de création {#setting-replication-agents}
 
 Pour créer des agents de réplication, apprenez à créer un agent de réplication standard.
 
-Trois agents de réplication sont nécessaires pour Screens :
+Trois agents de réplication sont nécessaires pour Screens :
 
 1. **Agent de réplication par défaut ***(spécifié comme*** Agent de réplication standard**)
 1. **Agent de réplication Screens**
@@ -84,15 +84,15 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
 1. Cliquez sur **Modifier**.
 
-1. Dans le **Paramètres de l’agent** , saisissez les détails.
+1. Dans la boîte de dialogue **Paramètres de l’agent**, saisissez les détails.
 
    >[!NOTE]
    >
-   >L’utilisateur doit vérifier **Activé** pour activer l’agent de réplication. Cochez cette option sur les agents de réplication par défaut, Screens et inverse.
+   >L’utilisateur doit vérifier **Activé** pour activer l’agent de réplication. Vous devez cocher cette option sur les agents de réplication par défaut, Screens et inverse.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. Accédez au **Transport** et saisissez la variable **URI**, **Utilisateur**, et **Password**.
+1. Accédez à l’onglet **Transport** et saisissez l’**URI**, l’**utilisateur ou l’utilisatrice** et le **mot de passe**.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
@@ -101,18 +101,18 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
    >Vous pouvez également copier et renommer un agent de réplication par défaut existant.
 
 
-#### Création d’agents de réplication standard  {#creating-standard-replication-agents}
+#### Création d’agents de réplication standard {#creating-standard-replication-agents}
 
-1. Créez un agent de réplication standard pour pub1 (l’agent par défaut prêt à l’emploi doit déjà être configuré). Par exemple, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*.
+1. Créez un agent de réplication standard pour pub1 (un agent par défaut prêt à l’emploi doit déjà être configuré). Par exemple, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*.
 1. Créez un agent de réplication standard pour pub2. Vous pouvez copier l’agent de réplication pour pub1 et mettre à jour le transport à utiliser pour pub2 en modifiant le port dans la configuration du transport. Par exemple, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Création d’agents de réplication Screens {#creating-screens-replication-agents}
 
-1. Créez un agent de réplication AEM Screens pour pub1. Par défaut, il existe un agent de réplication Screens qui pointe vers le port 4503. Activez-le.
-1. Créez un agent de réplication AEM Screens pour pub2. Copiez l’agent de réplication Screens pour pub1 et modifiez le port afin qu’il pointe sur 4504 pour pub2.
+1. Créez l’agent de réplication AEM Screens pour pub1. Par défaut, il existe un agent de réplication Screens qui pointe vers le port 4503. Activez-le.
+1. Créez l’agent de réplication AEM Screens pour pub2. Copiez l’agent de réplication Screens pour pub1 et modifiez le port afin qu’il pointe sur 4504 pour pub2.
 
    >[!NOTE]
-   >Pour savoir comment configurer les agents de réplication Screens, voir [Configuration des agents de réplication Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Pour savoir comment configurer les agents de réplication Screens, voir [Configuration de l’agent de réplication Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Création d’agents de réplication inverse Screens {#creating-screens-reverse-replication-agents}
 
@@ -125,36 +125,36 @@ Pour créer un agent de réplication par défaut, procédez comme suit :
 
 Configurez la détection Apache Sling basée sur Oak pour toutes les instances de publication dans la topologie
 
-Pour chaque instance de publication :
+Pour chaque instance de publication :
 
 1. Accédez à `https://<host>:<port>/system/console/configMgr`.
 1. Cliquez sur **Service de détection Apache Sling basé sur Oak** Configuration.
-1. Mettez à jour les URL du connecteur de topologie : ajoutez les URL de toutes les instances de publication participantes qui sont :
+1. Mettez à jour les URL des connecteurs de topologie : ajoutez les URL de toutes les instances de publication participantes, à savoir :
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Connecteur de topologie `Whitelist` Liste**: s’adapter aux adresses IP ou aux sous-réseaux couvrant toutes les instances de publication. Vérifiez que `whitelist` l’adresse IP/nom d’hôte de toutes les instances de publication sans le numéro de port.
+1. **Liste `Whitelist` des connecteurs de topologie** : à adapter aux adresses IP ou aux sous-réseaux couvrant les instances de publication. Veillez à placer sur la liste `whitelist` l’adresse IP/le nom d’hôte de toutes les instances de publication sans le numéro de port.
 
 1. Activez **Arrêt automatique des boucles locales**
 
-La configuration doit être identique pour chaque instance de publication et l’arrêt automatique de la boucle locale empêche une boucle infinie.
+La configuration doit être identique pour chaque instance de publication et l’arrêt automatique des boucles locales empêche la création d’une boucle infinie.
 
 #### Étape 2 : vérification de la topologie de publication {#step-verify-publish-topology}
 
-Pour toutes les instances de publication, accédez à `https://:/system/console/topology`. Chaque instance de publication doit être représentée dans la topologie sous **Connecteurs de topologie sortants**.
+Pour toutes les instances de publication, accédez à `https://:/system/console/topology`. Vous devriez voir chaque instance de publication représentée dans la topologie sous **Connecteurs de topologie sortants**.
 
 #### Étape 3 : configuration d’un cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
 Cette étape vous permet de créer un mot de passe chiffré pour la grappe ActiveMQ Artemis.
-L’utilisateur de grappe et le mot de passe de toutes les instances de publication de la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Chaque instance ayant sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge de Crypto pour créer une chaîne de mot de passe chiffrée. Ensuite, le mot de passe chiffré peut être utilisé dans la configuration OSGi pour ActiveMQ.
+Le nom d’utilisateur ou d’utilisatrice et le mot de passe du cluster de toutes les instances de publication de la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Chaque instance ayant sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Le mot de passe chiffré sera ensuite utilisé dans la configuration OSGi pour ActiveMQ.
 
 Sur chaque instance de publication :
 
-1. Dans la console OSGi, accédez à **MAIN** > **Prise en charge de Crypto** (`https://<host>:<port>/system/console/crypto`).
+1. Dans la console OSGi, accédez à **PRINCIPAL** > **Prise en charge du chiffrement** (`https://<host>:<port>/system/console/crypto`).
 1. Saisissez le mot de passe en texte brut (identique pour toutes les instances) dans **Texte brut**
 1. Cliquez sur **Protéger**.
-1. Copiez la valeur **Texte protégé** dans le bloc-notes ou l’éditeur de texte. Cette valeur peut être utilisée dans la configuration OSGi pour ActiveMQ.
+1. Copier la valeur **Texte protégé** dans un bloc-notes ou un éditeur de texte. Cette valeur peut être utilisée dans la configuration OSGi pour ActiveMQ.
 
-Comme chaque instance de publication possède par défaut des clés de chiffrement uniques, effectuez cette étape sur chaque instance pub et enregistrez la clé unique pour la configuration suivante.
+Comme chaque instance de publication possède par défaut des clés de chiffrement uniques, vous devez effectuer cette étape sur chaque instance de publication et enregistrer la clé unique pour la configuration suivante.
 
 >[!NOTE]
 >
@@ -169,21 +169,21 @@ Sur chaque instance de publication :
 1. Cliquez sur **Fournisseur JMS Apache ActiveMQ Artemis** Configuration
 1. Mettez à jour les éléments suivants :
 
-   * ***Mot de passe du cluster*** : utilisez la valeur chiffrée de l’étape précédente pour chaque instance
+   * ***Mot de passe du cluster***: utiliser la valeur chiffrée de l’étape précédente par instance respective
    * ***Sujets*** : `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Vérifiez le cluster d’artéfacts ActiveMQ Artemis {#verify-activemq-artemis-cluster}
 
 Suivez les étapes ci-dessous sur chaque instance de publication :
 
-1. Accédez à la console OSGi > Principal > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
+1. Accédez à la Console OSGi > Principal > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. Vérifiez et contrôlez afin d’afficher les ports des autres instances sous Informations sur le cluster > Topologie > nœuds=2, membres=2.
 1. Envoyez un message de test (en haut de l’écran sous Informations sur le courtier)
 1. Entrez les modifications suivantes dans les champs :
 
    1. **Destination** : /com.adobe.cq.screens/devTestTopic
    1. **Texte** : Hello World
-   1. Afficher la variable `error.log` de chaque instance afin que vous puissiez voir que le message a été envoyé et reçu dans la grappe.
+   1. Affichez le fichier `error.log` de chaque instance pour vérifier que le message a été envoyé et reçu par l’ensemble du cluster.
 
 >[!NOTE]
 >
@@ -197,7 +197,7 @@ Si vous ne voyez pas la configuration suivante de */system/console/mq*, accédez
 
 #### Suppression des exigences d’en-tête de référent {#remove-referrer-header-requirement}
 
-Suivez les étapes de chaque instance de publication :
+Suivez les étapes de chaque instance de publication :
 
 1. Accédez à **Console OSGi** > **Configuration Manager**
 1. Cliquez sur **Filtre de référent Apache Sling**
@@ -205,22 +205,22 @@ Suivez les étapes de chaque instance de publication :
 
 ### Configuration des instances de création et de publication {#configuring-author-and-publish-instance}
 
-Après avoir configuré la topologie de publication, configurez les instances d’auteur et de publication pour afficher les résultats pratiques de l’implémentation :
+Une fois que vous aurez configuré la topologie de publication, configurez les instances de création et de publication afin d’afficher les résultats concrets de l’implémentation :
 
 >[!NOTE]
 >
 >**Conditions préalables**
 >
->Pour commencer avec cet exemple, créez un projet AEM Screens, puis créez un emplacement, un affichage et un canal dans votre projet. Ajoutez du contenu à votre canal et affectez-le à un affichage.
+>Pour commencer avec cet exemple, créez un projet AEM Screens, puis créez un emplacement, un affichage et un canal dans votre projet. Ajoutez du contenu à votre canal et affectez-le à un affichage.
 
 #### Étape 1 : démarrage d’un lecteur AEM Screens (appareil)
 
 1. Lancez une fenêtre du navigateur distincte.
-1. Accédez au lecteur Screens à l’aide du *navigateur web*, à savoir `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`, ou lancez l’application AEM Screens. Lorsque vous ouvrez le périphérique, notez que son état n’est pas enregistré.
+1. Accédez au lecteur Screens à l’aide du *navigateur web*, à savoir `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`, ou lancez l’application AEM Screens. Lorsque vous ouvrez l’appareil, vous remarquez que son état est non enregistré.
 
 >[!NOTE]
 >
->Vous pouvez ouvrir un lecteur AEM Screens à l’aide de l’application AEM Screens que vous avez téléchargée ou à l’aide du navigateur web.
+>Vous pouvez ouvrir un lecteur AEM Screens à l’aide de l’application AEM Screens que vous avez téléchargée ou à l’aide du navigateur Web.
 
 #### Étape 2 : enregistrement d’un appareil sur l’auteur {#step-registering-a-device-on-author}
 
@@ -238,16 +238,16 @@ Après avoir configuré la topologie de publication, configurez les instances d�
 1. Cliquez sur **Attribuer**.
 1. Cliquez sur **Terminer** pour achever le workflow. L’appareil est désormais attribué.
 
-Vérifiez votre lecteur et notez le contenu que vous avez ajouté à votre canal.
+Vérifiez votre lecteur et vous verrez le contenu que vous avez ajouté à votre canal.
 
 #### Étape 4 : publication de la configuration de l’appareil sur les instances de publication {#step-publishing-device-configuration-to-publish-instances}
 
 **Vérification de l’appareil**
 
-Pour répliquer l’utilisateur de l’appareil, procédez comme suit :
+Pour répliquer l’utilisateur ou l’utilisatrice de l’appareil, procédez comme suit :
 
-1. Accédez à la page d’administration des utilisateurs. Par exemple, `https://localhost:4502/useradmin`.
-1. Recherchez le **`screens-devices-master`** groupe.
+1. Accédez à la page d’administration des utilisateurs et utilisatrices. Par exemple, `https://localhost:4502/useradmin`.
+1. Recherchez le groupe **`screens-devices-master`**.
 1. Cliquez avec le bouton droit sur le groupe, puis cliquez sur **Activer**.
 
 >[!CAUTION]
@@ -256,7 +256,7 @@ Pour répliquer l’utilisateur de l’appareil, procédez comme suit :
 
 Vous pouvez également activer l’appareil à partir de la console de gestion des appareils. Suivez les étapes ci-dessous :
 
-1. Accédez à votre projet Screens > **Périphériques**.
+1. Accédez à votre projet Screens > **Appareils**.
 1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
 1. Cliquez sur le périphérique, puis sur **Activer** dans la barre d’actions, comme illustré dans la figure ci-dessous.
 
@@ -264,37 +264,37 @@ Vous pouvez également activer l’appareil à partir de la console de gestion d
 
 >[!NOTE]
 >
->Une fois le périphérique activé, vous pouvez également modifier ou mettre à jour l’URL du serveur. Cliquez sur **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, vos modifications sont propagées au lecteur AEM Screens.
+>Une fois l’appareil activé, vous pouvez également modifier ou mettre à jour l’URL du serveur. Dans la barre d’actions, cliquez sur **Modifier l’URL du serveur**, comme illustré dans la figure ci-dessous. Vos modifications sont propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
 ### Liste de contrôle de publication {#publishing-check-list}
 
-Les points suivants résument la liste de contrôle de publication :
+Les points suivants récapitulent la Liste de contrôle de publication :
 
-* *Utilisateur de l’appareil Screens* : stocké en tant qu’utilisateur AEM, il est activé à partir de **Outils** > **Sécurité** > **Utilisateurs**. L’utilisateur est précédé du préfixe &quot;screens&quot; avec une longue chaîne sérialisée.
+* *Utilisateur du périphérique Screens* - Ces informations sont stockées en tant qu’utilisateur AEM et peuvent être activées à partir de **Outils** > **Sécurité** > **Utilisateurs**. L’utilisateur ou l’utilisatrice comporte le préfixe « screens » avec une longue chaîne sérialisée.
 
 * *Projet* : le projet AEM Screens.
-* *Emplacement* : emplacement auquel l’appareil est connecté.
-* *Canaux* : un ou plusieurs canaux affichés à l’emplacement
-* *Planification* : si vous utilisez une planification, veillez à ce qu’elle soit publiée.
-* *Dossier Emplacement, Planifications et Canal* : si les ressources correspondantes se trouvent dans un dossier.
+* *Emplacement* - Emplacement auquel l’appareil est connecté.
+* *Canaux* - Un ou plusieurs canaux affichés à l’emplacement.
+* *Planification* - Si vous utilisez un planning, assurez-vous que ce planning est publié.
+* *Dossier Emplacement, Planifications et Canal* - Si les ressources correspondantes se trouvent dans un dossier.
 
-Suivez les étapes ci-dessous pour vérifier le comportement de création et de publication :
+Pour vérifier le comportement de création et de publication, procédez comme suit :
 
-1. Mettez à jour le contenu d’un canal sur l’instance d’auteur.
-1. Effectuer **Gérer la publication** pour publier de nouvelles modifications sur toutes les instances de publication.
-1. Presse **Activer** pour activer l’appareil à partir de **Gestionnaire de périphériques**.
-1. **Modifier l’URL** de l’URL de l’instance d’auteur à l’une des URL des instances de publication.
+1. Mettez à jour du contenu d’un canal sur l’instance de création.
+1. Exécutez **Gérer la publication** pour publier de nouvelles modifications sur toutes les instances de publication.
+1. Appuyez sur **Activer** pour activer l’appareil à partir du **Gestionnaire d’appareils**.
+1. Sélectionner **Modifier l’URL** de l’URL de l’instance d’auteur à l’une des URL des instances de publication.
 1. Vérifiez que le contenu du canal mis à jour s’affiche sur le lecteur AEM Screens.
 1. Répétez ces étapes en utilisant une autre instance de publication.
 
 
 #### Étape 5 : pointage de l’appareil vers l’instance de publication dans le panneau d’administration {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Affichez l’interface utilisateur d’administration du lecteur Screens en appuyant longuement dans le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou en utilisant la souris.
+1. Affichez l’interface utilisateur d’administration du lecteur Screens en appuyant longuement dans le coin supérieur gauche afin d’ouvrir le menu Admin, sur votre lecteur AEM Screens tactile ou à l’aide de la souris.
 1. Cliquez sur l’option **Configuration** dans le panneau latéral.
-1. Remplacez l’instance d’auteur par instance de publication dans **Serveur**.
+1. Changez l’instance de création en instance de publication dans **Serveur**.
 
 Affichez les modifications dans votre lecteur AEM Screens.
 
@@ -302,15 +302,15 @@ Vous pouvez également mettre à jour/modifier l’URL du serveur à partir de l
 
 1. Accédez à votre projet AEM Screens et cliquez sur le bouton **Périphériques** dossier.
 1. Cliquez sur **Gestionnaire d’appareils** dans la barre d’actions.
-1. Cliquez sur le périphérique, puis sur **Modifier l’URL du serveur** dans la barre d’actions, comme illustré dans la figure ci-dessous, et vos modifications sont propagées au lecteur AEM Screens.
+1. Cliquez sur le périphérique, puis, dans la barre d’actions, cliquez sur **Modifier l’URL du serveur**, comme illustré dans la figure ci-dessous. Vos modifications sont propagées au lecteur AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-La variable **Gérer la publication** permet de diffuser des mises à jour de contenu de l’auteur à la publication sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un de vos canaux, emplacement, périphérique, application ou planification. Pour en savoir plus sur cette fonctionnalité, voir [Mise à jour du contenu On-Demand](on-demand-content.md).
+La fonction **Gérer les publications** permet de diffuser des mises à jour de contenu de l’instance de création à celle de publication, puis à l’appareil. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, appareils, applications ou plannings. Pour en savoir plus sur cette fonction, voir la section [Mise à jour du contenu à la demande](on-demand-content.md).
 
 ## Conseils de dépannage {#troubleshoot-tips}
 
-Consultez la section ci-dessous pour obtenir des réponses aux questions fréquentes sur la configuration de l’auteur/de la publication.
+Consultez la section ci-dessous pour obtenir des réponses aux questions fréquentes sur la configuration de création/publication.
 
 ### Comment ajouter une redirection de https vers http après l’enregistrement et l’affectation initiaux ? {#add-redirect}
 
@@ -320,7 +320,7 @@ Définissez l’option `Proxy/Load Balancer Connection in the Jetty configuratio
 ### Comment mettre à jour le contenu hors ligne et les problèmes de téléchargement du lecteur avec des ressources en dehors de `/content/dam/projects/<project>` ? {#update-offline-content}
 
 **Solution**
-Donnez des autorisations de lecture à l’utilisateur du service de mise à jour hors ligne en bloc et `screens-devices-master` groupe pour tous `/content/dam` ou les ressources spécifiques que vous souhaitez utiliser, si vous souhaitez être plus restrictif.
+Donnez des droits de lecture au profil utilisateur bulk-offline-update-screens-service et au groupe `screens-devices-master` pour tout le `/content/dam` ou les ressources spécifiques que vous voulez utiliser, si vous souhaitez faire preuve de davantage de restriction.
 
 ### Comment résoudre les erreurs « Agent de réplication Screens » ? {#replication-agent}
 

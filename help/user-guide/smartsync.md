@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 64%
+source-wordcount: '443'
+ht-degree: 58%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 64%
 
 Cette section présente la fonctionnalité SmartSync et explique comment elle minimise la charge/le stockage du serveur et le trafic réseau afin de réduire les coûts.
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 SmartSync est le tout dernier mécanisme utilisé par AEM Screens. Il remplace la méthode actuelle utilisée pour mettre en cache les canaux hors ligne et les diffuser au lecteur.
 
 Il s’exécute à la fois côté serveur et côté client.
 
-**Côté serveur** :
+**Côté serveur**
 
 * Le contenu des canaux, y compris les ressources, est mis en cache dans *`/var/contentsync`*.
 * Le cache est exposé aux lecteurs au moyen d’un manifeste qui décrit le contenu disponible pour un affichage.
 
-**Côté client** :
+**Côté client**
 
 * Le lecteur met à jour son contenu en fonction du manifeste généré ci-dessus.
 
@@ -55,7 +55,7 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scree
 >
 >SmartSync est disponible pour le lecteur Screens avec les serveurs AEM 6.4.3 FP3 pris en charge.
 >
->Voir [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur. Le tableau suivant décrit la version minimale du lecteur requise pour chaque plateforme :
+>Reportez-vous à la section [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) pour télécharger le dernier lecteur. Le tableau suivant décrit la version minimale du lecteur requise pour chaque plateforme :
 
 | **Plateforme** | **Version minimale du lecteur prise en charge** |
 |---|---|
