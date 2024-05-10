@@ -2,10 +2,10 @@
 title: Dépendances UX pour AEM Screens
 description: En savoir plus sur les dépendances de l’expérience utilisateur pour AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 69%
+source-wordcount: '139'
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
 
 1. Comment l’organisation du point de vente doit-elle être alignée sur la stratégie de contenu ?
 
-1. Les interactions (écran tactile, détection de mouvement) seront-elles requises ?
+1. Les interactions (écran tactile, détection de mouvement) seront-elles requises ?
 
 1. Quel est l’objectif de la solution d’affichage numérique ?
 

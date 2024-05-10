@@ -1,6 +1,6 @@
 ---
-title: Mettre en œuvre Android Player
-description: Découvrez l’implémentation d’Android Watchdog, une solution qui vous permet de récupérer le lecteur Android suite à une panne.
+title: Implémenter le lecteur Android&trade;
+description: Découvrez l’implémentation d’Android&trade; Watchdog, une solution qui vous permet de restaurer le lecteur Android™ en cas de panne.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 72%
+source-wordcount: '1471'
+ht-degree: 71%
 
 ---
 
@@ -57,7 +57,7 @@ La méthode ad hoc vous permet d’installer le dernier lecteur Android™ (*.ex
 Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
-1. Accédez à **Configuration** depuis le menu d’actions de gauche, saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
+1. Accédez à **Configuration** dans le menu d’actions de gauche, saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 
 1. Accédez au lien **Enregistrement** des **appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 

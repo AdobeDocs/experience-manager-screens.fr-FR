@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 23%
+source-wordcount: '367'
+ht-degree: 20%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 23%
 
 Vous pouvez générer des rendus Full HD manuels et automatiques. La section suivante décrit le processus à suivre pour ajouter des rendus à vos ressources.
 
-## Génération automatique de rendus Full HD  {#automatically-generating-full-hd-renditions}
+## Génération automatique de rendus Full HD {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Si les rendus vidéo AEM Screens ne sont pas lus de manière optimale sur votre appareil, contactez le fournisseur du matériel pour connaître les spécifications de la vidéo. Cela permet d’obtenir les meilleures performances sur l’appareil et de créer ainsi votre propre profil vidéo personnalisé dans lequel vous fournissez les paramètres appropriés pour que FFMPEG génère votre rendu. Suivez ensuite les étapes ci-dessous pour ajouter votre profil vidéo personnalisé à la liste des profils.
+>Si les rendus vidéo AEM Screens ne sont pas lus de manière optimale sur votre appareil, contactez le fournisseur du matériel pour connaître les spécifications de la vidéo. Cela vous permet d’obtenir les meilleures performances sur l’appareil. Cela vous permet de créer votre propre profil vidéo personnalisé dans lequel vous fournissez les paramètres appropriés pour FFMPEG afin de générer votre rendu. Suivez ensuite les étapes ci-dessous pour ajouter votre profil vidéo personnalisé à la liste des profils.
 >
 >Voir aussi [Vidéos de dépannage](troubleshoot-videos.md) pour déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
 
@@ -69,7 +69,7 @@ Suivez les étapes ci-dessous pour générer automatiquement des rendus Full HD 
 
 ## Génération manuelle de rendus Full HD {#manually-generating-full-hd-renditions}
 
-Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
+Suivez les étapes ci-dessous pour générer manuellement des rendus Full HD :
 
 1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur l’icône en forme de marteau afin de cliquer sur Outils et sur **Workflow**.
 

@@ -1,6 +1,6 @@
 ---
-title: Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics
-description: Découvrez comment incorporer une application interactive monopage à l’aide de REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM.
+title: Incorporer une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégrer à AEM Screens Analytics
+description: Découvrez comment incorporer une application monopage interactive en utilisant REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM.
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 49%
+source-wordcount: '674'
+ht-degree: 79%
 
 ---
 
-# Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
+# Incorporer une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégrer à AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-Vous pouvez incorporer une application interactive monopage à l’aide de REACT (ou Angular). Pour ce faire, utilisez l’éditeur SPA d’AEM qui est configuré par les professionnels d’. Vous pouvez également apprendre à intégrer votre application interactive à Adobe Analytics hors ligne.
+Vous pouvez incorporer une application monopage interactive à l’aide de REACT (ou d’Angular). Pour ce faire, utilisez l’éditeur SPA d’AEM que les professionnels d’configurent. Vous pouvez également apprendre à intégrer votre application interactive à Adobe Analytics hors ligne.
 
 ## Utilisation de l’éditeur d’applications monopages AEM {#using-the-aem-spa-editor}
 
@@ -29,9 +29,9 @@ Suivez les étapes ci-dessous pour utiliser l’éditeur d’applications monopa
 
    >[!NOTE]
    >
-   >Cet archétype crée un projet Adobe Experience Manager minimal qui s’appuie sur des bonnes pratiques pour que vous puissiez démarrer vos propres projets d’application monopage (SPA). Les propriétés qui doivent être fournies lors de l’utilisation de cet archétype vous permettent de nommer comme vous le souhaitez toutes les parties de ce projet.
+   >Cet archétype crée un projet Adobe Experience Manager minimal qui s’appuie sur des bonnes pratiques pour que vous puissiez démarrer vos propres projets d’application monopage (SPA). Les propriétés qui doivent être fournies lors de l’utilisation de cet archétype permettent de nommer comme vous le souhaitez toutes les parties de ce projet.
 
-1. Pour créer un projet d’archétype de l’éditeur d’AEM, suivez les instructions du fichier Lisez-moi :
+1. Pour créer un projet d’archétype de l’éditeur SPA d’AEM, suivez les instructions du fichier Lisez-moi :
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -46,7 +46,7 @@ Suivez les étapes ci-dessous pour utiliser l’éditeur d’applications monopa
 
    >[!NOTE]
    >
-   >Cette documentation utilise la méthode **GroupId** as ***com.adobe.aem.screens*** et la variable **ArtifactId** as ***Mon exemple de SPA*** (valeurs par défaut). Vous pouvez choisir les vôtres selon vos besoins.
+   >Nous utilisons comme **GroupId** ***com.adobe.aem.screens*** et comme **ArtifactId** ***My Sample SPA*** (valeurs par défaut). Vous pouvez choisir les vôtres selon vos besoins.
 
 1. Une fois le projet créé, utilisez un IDE ou un éditeur de votre choix et importez le projet Maven généré.
 1. Déployez sur votre instance AEM locale à l’aide de la commande ***mvn clean install -PautoInstallPackage***.
@@ -55,33 +55,33 @@ Suivez les étapes ci-dessous pour utiliser l’éditeur d’applications monopa
 
 Pour modifier le contenu dans l’application REACT :
 
-1. Accédez à `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (remplacez le nom d’hôte, le port et le nom du projet, le cas échéant).
-1. Vous devez pouvoir modifier le texte affiché dans l’application Hello world.
+1. Accédez à `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (remplacez le nom d’hôte, le port et le nom du projet, selon le cas).
+1. Vous pouvez modifier le texte affiché dans l’application Hello World.
 
 ### Ajout de l’application interactive REACT à AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
 Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à AEM Screens :
 
-1. Créez un projet AEM Screens. Voir [Création et gestion de projets](creating-a-screens-project.md) pour plus d’informations.
-1. Créez un **Canal d’application** (de préférence) (modèle 1x1 ou canal multizone) dans la variable **Canaux** de votre projet AEM Screens.
+1. Créez un projet AEM Screens. Pour plus d’informations, voir [Création et gestion des projets](creating-a-screens-project.md).
+1. Créez un **Canal d’application** (de préférence) (ou un modèle 1x1 ou un canal multizone) dans le dossier **Canaux** de votre projet AEM Screens.
 
    >[!NOTE]
-   >**Canaux de séquence** sont déconseillés pour ce cas d’utilisation, car ils s’accompagnent par nature d’une logique de diaporama qui entre en conflit avec la nature interactive de l’expérience.
-   >Voir [Création et gestion des canaux](managing-channels.md) pour plus d’informations.
+   >Les **canaux de séquence** sont déconseillés pour ce cas d’utilisation, car ils sont intrinsèquement accompagnés d’une logique de diaporama qui va entrer en conflit avec la nature interactive de l’expérience.
+   >Pour plus d’informations, voir [Création et gestion des canaux](managing-channels.md).
 
 1. Modifiez un canal de séquence et faites glisser et déposez un composant de page incorporé.
 
-   Voir [Ajout de composants à un canal](adding-components-to-a-channel.md) pour plus d’informations.
+   Voir [Ajout de composants à un canal](adding-components-to-a-channel.md) pour en savoir plus.
 
    >[!NOTE]
    >
    >Veillez à ajouter l’événement d’interaction utilisateur lors de l’attribution du canal à l’affichage.
 
-1. Cliquez sur **Modifier** à partir de la barre d’actions afin de pouvoir modifier les propriétés du canal.
+1. Cliquez sur **Modifier** dans la barre d’actions pour modifier les propriétés du canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Faites glisser et déposez le **Page incorporée** , ou réutilisez le composant existant dans un canal d’application, puis cliquez sur la page d’accueil sous l’application mysamplespa, par exemple : ***/content/mysamplespa/en/home***.
+1. Faites glisser et déposez le **Page incorporée** ou réutiliser le composant existant dans un canal d’application, puis cliquez sur la page d’accueil sous l’application mysamplespa, par exemple : ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,9 +90,9 @@ Suivez les étapes ci-dessous pour ajouter l’application interactive REACT à 
    >[!NOTE]
    >Veillez à ajouter l’événement d’interaction utilisateur lors de l’attribution du canal à l’affichage.
 
-1. Enregistrez un lecteur sur ce projet et affectez-le à l’affichage. Vous devriez maintenant pouvoir voir votre application interactive s’exécuter sur AEM Screens.
+1. Enregistrez un lecteur sur ce projet et affectez-le à l’affichage. Vous pouvez désormais voir votre application interactive s’exécuter sur AEM Screens.
 
-   Voir [Enregistrement de périphérique](device-registration.md) pour plus d’informations sur l’enregistrement d’un périphérique.
+   Voir [Enregistrement des appareils](device-registration.md) pour plus d’informations sur l’enregistrement d’un appareil.
 
 ## Intégration de l’application monopage avec Adobe Analytics avec la fonctionnalité hors ligne via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -100,14 +100,14 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
 
 1. Configuration d’Adobe Analytics dans AEM Screens.
 
-   Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour plus d’informations sur l’exécution du séquencement dans Adobe Analytics avec AEM Screens et l’envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne.
+   Consultez [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour savoir comment effectuer le séquencement dans Adobe Analytics avec AEM Screens et envoyer des événements personnalisés à l’aide d’Adobe Analytics hors ligne.
 
-1. Modifiez votre application de réaction dans l’IDE/l’éditeur de votre choix (en particulier le composant de texte ou tout autre composant dont vous souhaitez qu’il commence à émettre des événements).
+1. Modifiez votre application de réaction dans l’IDE/l’éditeur de votre choix (en particulier le composant de texte ou tout autre composant que vous souhaitez commencer à émettre des événements).
 1. Sur l’événement click ou tout autre événement que vous souhaitez capturer pour votre composant, ajoutez les informations d’analyse à l’aide du modèle de données standard.
 
-   Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour plus d’informations.
+   Consultez [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour plus d’informations.
 
-1. Appelez l’API AEM Screens Analytics afin de pouvoir enregistrer l’événement hors ligne et l’envoyer en rafales à Adobe Analytics.
+1. Appelez l’API Analytics d’AEM Screens pour enregistrer l’événement hors ligne et l’envoyer en rafales à Adobe Analytics.
 
    Par exemple :
 

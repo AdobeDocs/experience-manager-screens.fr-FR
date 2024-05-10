@@ -1,16 +1,15 @@
 ---
 title: Prise en charge post-lancement
 description: Découvrez la prise en charge post-lancement d’AEM Screens dans le guide des bonnes pratiques.
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 83%
+source-wordcount: '370'
+ht-degree: 67%
 
 ---
 
 
 # Prise en charge post-lancement {#post-launch-support}
-
 
 Ne négligez pas la prise en charge post-lancement à un stade précoce.
 
@@ -28,31 +27,31 @@ En outre, pour garantir un succès à long terme, il est essentiel d’établir 
 >
 >Définissez des paramètres opérationnels inclus au début des budgets opérationnels et alignez les responsabilités avec l’implémentateur AEM et l’intégrateur audio-vidéo.
 >
->* Le déploiement d’un réseau publicitaire avec de nombreuses parties prenantes est-il lié à un réseau monétisé ? Cela peut exiger des délais de résolution beaucoup plus courts que dans le cas d’un réseau de communications d’entreprise.
+>* Le déploiement d’un réseau publicitaire avec de nombreuses parties prenantes est-il lié à un réseau monétisé ? Cette situation peut exiger des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise.
 >* L’application est-elle très visible pour l’équipe de direction de la clientèle finale ? Des traitements différents peuvent être réservés aux sites à forte visibilité.
 >* S’agit-il d’une application vitale pour les activités commerciales de l’entreprise ? C’est le cas, par exemple, des panneaux de menus pour une chaîne de restauration rapide. Dans ce cas, la clientèle finale peut exiger une résolution des problèmes sur site, avec des temps de réponse courts, ainsi qu’une redondance du matériel de lecture.
 
 ## Observations et requêtes post-lancement {#considerations-queries}
 
-Voici quelques observations et questions qui vous aident à définir le cadre de la prise en charge post-lancement :
+Quelques considérations et questions qui vous aident à définir la prise en charge après le lancement :
 
-1. Le déploiement d’un réseau publicitaire avec de nombreuses parties prenantes est-il lié à un réseau monétisé ? Cela peut exiger des délais de résolution beaucoup plus courts que dans le cas d’un réseau de communications d’entreprise.
+1. Le déploiement d’un réseau publicitaire avec de nombreuses parties prenantes est-il lié à un réseau monétisé ? Cette situation peut exiger des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise.
  
    >[!NOTE]
    >
-   > Cela exige des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise.
+   >Indique des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise.
 
 1. L’application est-elle très visible pour l’équipe de direction de la clientèle finale ?
 
    >[!NOTE]
    >
-   > Cela exige des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise. Des traitements différents peuvent être réservés aux sites à forte visibilité.
+   >Indique des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise. Des traitements différents peuvent être réservés aux sites à forte visibilité.
 
 1. S’agit-il d’une application vitale pour les activités commerciales de l’entreprise ? C’est le cas, par exemple, des panneaux de menus pour une chaîne de restauration rapide. 
 
    >[!NOTE]
    >
-   > Dans ce cas, la clientèle finale peut exiger une résolution des problèmes sur site, avec des temps de réponse courts, ainsi qu’une redondance du matériel de lecture.
+   >Dans ce cas, la clientèle finale peut exiger une résolution des problèmes sur site, avec des temps de réponse courts, ainsi qu’une redondance du matériel de lecture.
 
 1. Qui sera le principal point de contact pour les questions de prise en charge ?
 

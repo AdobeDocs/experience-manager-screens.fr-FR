@@ -2,18 +2,18 @@
 title: Rôles et responsabilités du projet AEM Screens
 description: Découvrez les rôles et responsabilités des projets AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 71%
+source-wordcount: '1241'
+ht-degree: 61%
 
 ---
 
 # Rôles du projet et responsabilités {#roles-responsibilities}
 
-En tant qu’implémentateur AEM expérimenté, vous avez probablement vu les rôles désignés comme *Auteurs*, *Développeurs*, et *Informaticiens/Techniciens*.
+En tant qu’implémentateur AEM expérimenté, vous avez probablement vu les rôles désignés comme *Auteurs*, *Développeurs*, et *Techniciens informatiques*.
 
-Dans AEM Screens, la définition des rôles est encore plus précise ; chacun d’eux joue, en effet, un rôle important dans un projet type.
+Dans un projet AEM Screens type, les rôles sont affinés dans la mesure où ils jouent chacun un rôle important dans le projet.
 
 Le diagramme suivant montre les rôles que vous pouvez vous attendre à voir dans le guide.
 
@@ -25,7 +25,7 @@ Le diagramme suivant montre les rôles que vous pouvez vous attendre à voir dan
 
 ## Définition des rôles {#roles}
 
-Vous trouverez, dans cette section, un aperçu de l’audience cible :
+La section suivante présente un aperçu de l’audience cible :
 
 ### Adobe {#adobe-audience}
 
@@ -37,13 +37,13 @@ Les implémentateurs d’AEM sont chargés d’effectuer des tâches de dévelop
 
 Les fonctionnalités personnalisées requises pour traiter les paramètres d’expérience utilisateur du client final sont également capturées et diffusées par le biais de ce processus.
 
-En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. La phase suivante inclut la possibilité de prendre en charge la lecture de contenu localisé par le biais de balises de métadonnées et de modèles dynamiques. D’autres phases incluent la prise en charge d’éléments interactifs au moyen d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
+En règle générale, les implémentateurs d’AEM déploient des fonctionnalités personnalisées par phases. Par exemple, ils peuvent, dans un premier temps, implémenter la prise en charge de la lecture de contenu graphique statique ou de contenu vidéo en boucle de base. La phase suivante inclut la possibilité de prendre en charge la lecture de contenu localisé par le biais de modèles dynamiques et de balises de métadonnées. D’autres phases intègrent la prise en charge des éléments interactifs au moyen d’écrans tactiles, de capteurs, de déclencheurs dynamiques, etc.
 
 ### Intégrateurs audio-vidéo {#av-integrators}
 
-L’intégrateur audio-vidéo est le fournisseur/partenaire matériel. C’est à lui qu’il appartient de préparer le site et d’aménager le point de vente. Cela implique notamment l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’un tiers sous contrat qui a accès à un centre d’exploitation de réseau. Souvent, l’intégrateur audio-vidéo est le propriétaire du projet en raison de son implication continue après le lancement.
+L’intégrateur audio-vidéo est le partenaire fournisseur matériel. Il s’agit de la partie qui s’occupe de la conception de vente au détail et de la préparation du site, y compris l’acquisition, la configuration et le déploiement du matériel. Il s’agit généralement d’un tiers sous contrat qui a accès à un centre d’exploitation de réseau. Souvent, l’intégrateur audio-vidéo est le propriétaire du projet en raison de son implication continue après le lancement.
 
-L’intégrateur audio-vidéo est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences. Il détermine la portée du projet pour concevoir, créer et gérer efficacement les déploiements autour du matériel de signalétique digitale.
+L’intégrateur audio-vidéo est chargé de procéder aux investigations auprès des clients finaux afin de définir les exigences, de déterminer la portée du projet afin de concevoir, de créer et de gérer efficacement les déploiements autour du matériel de signalétique digitale.
 
 #### Sélection du partenaire matériel {#selecting-hardware-partner}
 
@@ -77,7 +77,7 @@ La gestion du contenu et des créations publicitaires peut être confiée à l�
 
 ### Personnes chargées de la gestion de projet {#project-managers}
 
-En règle générale, les chefs de projet gèrent l’intégralité de votre déploiement AEM Screens. Un chef de projet est la personne de référence pour l’ensemble de la mise en oeuvre du projet désigné. Elles assument des responsabilités importantes, telles que l&#39;établissement des calendriers, la gestion des besoins et des communications de l&#39;équipe, la résolution des défis et la réalisation des objectifs.
+En règle générale, les chefs de projet gèrent l’intégralité de votre déploiement AEM Screens. Un chef de projet est la personne de référence pour l’ensemble de la mise en oeuvre du projet désigné. Elles assument des responsabilités importantes, telles que la définition des calendriers et la gestion des besoins de l’équipe. Elles ont également une incidence sur la communication, la résolution des défis et la réalisation des objectifs.
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ En règle générale, les chefs de projet gèrent l’intégralité de votre dé
 
 ## Étapes du projet {#project-stages}
 
-Pour garantir la réussite du déploiement de la solution de signalétique numérique, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement appelées **Days**. Il ne s’agit pas de jours au sens littéral du terme, mais plutôt de désignations pour chaque étape majeure du projet.
+Pour assurer la réussite du déploiement de la signalétique digitale, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement appelées **Days**. Ce ne sont pas des jours littéraux, mais des désignations pour chaque étape majeure du projet.
 
-1. La première étape est appelée *Jour 0*. Cette étape comprend tous les efforts de prévente et d’investigation nécessaires pour définir entièrement la portée du projet.
+1. La première étape est appelée *Jour 0*. Cette étape comprend tous les efforts de prévente et de découverte nécessaires pour définir la portée du projet.
 1. La deuxième étape, ou *Jour 1*, fait référence à toutes les activités faisant partie de l’effort de déploiement.
-1. La troisième et dernière étape, ou *Jour 2*, fait référence à toutes les opérations en cours, ainsi qu’à tous les éléments de support dans le cadre de la solution globale.
+1. La troisième et dernière étape est la suivante : *Jour 2*. Il fait référence à toutes les opérations en cours et aux éléments de support dans le cadre de la solution totale.
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ Le tableau suivant résume la **mise en œuvre du projet (matériel) pour le jou
 
 * **Auteur** : gestion du contenu + stratégie
 
-* **Développeur** : il s’agit généralement d’un membre de l’équipe de mise en œuvre d’AEM Screens ou le témoin est passé à l’équipe de développement interne.
+* **Développeur**: en règle générale, membre de l’équipe de mise en oeuvre d’AEM Screens ou remise à une équipe de développement interne.
 
 * **Technicien**: est contracté par l’intégrateur audio-vidéo ou fait partie de la même entreprise.
 
