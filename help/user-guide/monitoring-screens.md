@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 68%
 
 ---
 
@@ -144,13 +144,13 @@ AEM fournit une surveillance intégrée pour :
 
 * *Pulsation* toutes les 5 secondes pour indiquer que le lecteur AEM Screens est en cours de fonctionnement.
 * *Copie d’écran* du lecteur qui affiche ce qui s’affiche sur le lecteur.
-* Version du *micrologiciel du lecteur AEM Screens* installée sur le lecteur.
+* La variable *Micrologiciel du lecteur AEM Screens* La version est installée sur le lecteur.
 * *Espace de stockage libre* sur le lecteur.
 
 Recommandations pour la surveillance à distance avec des logiciels tiers :
 
-* Utilisation du processeur sur les lecteurs.
-* Vérifiez si le processus du lecteur AEM Screens est exécuté.
+* Utilisation du processeur dans les lecteurs.
+* Vérifiez si le processus du lecteur AEM Screens est en cours d’exécution.
 * Redémarrage à distance du lecteur.
 * Notifications en temps réel.
 

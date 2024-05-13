@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 91%
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section couvre les sujets suivants relatifs à la mise à jour de contenu 
 
 ## Vue d’ensemble {#overview}
 
-La fonction Mise à jour hors ligne en bloc vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
+Mise à jour hors ligne en bloc vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
 
 Vous pouvez également planifier cette activité pour une période de trafic réseau plus faible.
 
@@ -39,14 +39,14 @@ Vous pouvez également planifier cette activité pour une période de trafic ré
 
 ## Utilisation de la mise à jour hors ligne en bloc {#using-bulk-offline-update}
 
-Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir de l’interface utilisateur ou programmer la mise à jour en bloc à partir des services OSGi.
+Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir de l’interface utilisateur ou planifier la mise à jour en bloc à partir des services OSGi.
 
 ### Utilisation de l’interface utilisateur d’AEM Screens {#using-aem-screens-user-interface}
 
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
-1. Cliquez sur le projet, puis sur **Mettre à jour le contenu hors ligne** depuis la barre d’actions pour mettre à jour manuellement le contenu du canal.
+1. Cliquez sur le projet, puis sur **Mettre à jour le contenu hors ligne** dans la barre d’actions pour mettre à jour manuellement le contenu du canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 

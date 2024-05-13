@@ -2,10 +2,10 @@
 title: Durée de lecture des images au niveau du projet
 description: Découvrez comment définir la durée de lecture des images au niveau du projet.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 85%
+source-wordcount: '329'
+ht-degree: 73%
 
 ---
 
@@ -21,7 +21,7 @@ Cette fonctionnalité vous permet de définir la durée de lecture des images au
 Avant de commencer à utiliser cette fonctionnalité, configurez un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
 1. Créer un projet AEM Screens (dans cet exemple, **ProjectLevelPlayback**).
-1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux**.
+1. Créez un canal de séquence sous la forme **PlayBackChannel** sous le **Canaux** dossier.
 1. Ajouter du contenu à **PlayBackChannel**.
 
    ![ressources](assets/image_playback1.png)
@@ -64,7 +64,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de le
 
 ### Afficher le résultat {#viewing-the-result}
 
-Après avoir mis à jour la durée de lecture du canal (en l’occurrence, les trois images), vous constatez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
+Après avoir mis à jour la durée de lecture du canal (dans cet exemple, les trois images), notez que les images sont désormais lues pendant 3 secondes au lieu de 8 secondes (valeur par défaut).
 
 ![channel_preview](assets/channel_preview.gif)
 

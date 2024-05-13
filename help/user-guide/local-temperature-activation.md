@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 43%
+source-wordcount: '444'
+ht-degree: 40%
 
 ---
 
@@ -74,7 +74,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    >[!CAUTION]
    >
-   >Vous devez avoir défini vos **configurations** **ContextHub** à l’aide de l’onglet **Propriétés** du canal > **Personnalisation**.
+   >Votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** doit déjà être configuré.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 1. **Vérification de l’aperçu**
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
-   1. Définissez la valeur sur moins de 50. Vous devriez pouvoir voir une image d&#39;une boisson froide. Si la valeur de Google Sheets est supérieure ou égale à 50, une image de boisson chaude devrait s’afficher.
+   1. Définissez la valeur sur moins de 50. Vous pouvez voir une image d&#39;une boisson froide. Si la valeur de Google Sheets est supérieure ou égale à 50, une image de boisson chaude devrait s’afficher.
 
    ![result3](assets/result3.gif)

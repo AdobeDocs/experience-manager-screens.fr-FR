@@ -1,7 +1,7 @@
 ---
 title: Activation des fragments d’expérience
 description: Exemple de cas d’utilisation pour vous aider à en savoir plus sur l’activation des fragments d’expérience en ce qui concerne AEM Screens.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 49%
@@ -32,7 +32,7 @@ Créez un projet intitulé **DemoProject** et un canal de séquence intitulé **
 
 ### Mise en oeuvre du fragment d’expérience dans un projet AEM Screens {#experience-fragments-implementation}
 
-Une fois que vous avez créé un fragment d’expérience et l’avez appliqué dans votre projet AEM Screens, **DemoProject** vous pouvez améliorer le fragment d’expérience en fonction de vos besoins.
+Une fois que vous avez créé un fragment d’expérience et l’avez appliqué dans votre projet AEM Screens, **DemoProject**, vous pouvez améliorer le fragment d’expérience en fonction de vos besoins.
 
 ### Augmentation de la taille du texte {#increasing-text-size}
 

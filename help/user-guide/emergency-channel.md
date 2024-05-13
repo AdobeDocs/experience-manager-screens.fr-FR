@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 53%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 53%
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Cette section décrit un exemple de cas d’utilisation qui met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur de contenu peut passer d’un canal de séquence en cas de condition préalable.
+Cette section décrit un exemple de cas d’utilisation. Il met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur de contenu peut passer d’un canal de séquence, s’il y a une condition préalable.
 
 ### Prérequis {#preconditions}
 
@@ -84,7 +84,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Création d’un emplacement**
 
-   1. Accédez au dossier **Locations** (Emplacements).
+   1. Accédez au **Emplacements** dossier.
    1. Cliquez sur **Créer** à partir de la barre d’actions, puis créez un emplacement appelé **Boutique** à partir de l’assistant.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ En cas d’urgence, procédez comme suit :
 
 La variable **EmergencyChannel** continue d’afficher son contenu jusqu’à ce que l’auteur de contenu réinitialise la valeur de priorité sur 1.
 
-Lorsque l’auteur du contenu reçoit les instructions indiquant que l’urgence a été effacée, il doit mettre à jour la priorité de la variable **MainAdChannel** ce qui entraîne la reprise de la lecture normale.
+Lorsque l’auteur du contenu reçoit les instructions indiquant que l’urgence a été effacée, il doit mettre à jour la priorité de la variable **MainAdChannel**. Cela entraîne la reprise de la lecture normale.

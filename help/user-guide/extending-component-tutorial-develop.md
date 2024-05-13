@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 76%
+source-wordcount: '1700'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ Ce tutoriel est destiné aux développeurs et aux développeuses qui découvrent
 
 ![Composant Poster personnalisé](assets/2018-05-07_at_4_09pm.png)
 
-Le composant Poster personnalisé est créé en étendant le composant Image.
+A `Custom Poster` est créé en étendant le composant Image .
 
 ## Conditions préalables {#prerequisites}
 
@@ -40,11 +40,11 @@ Les éléments suivants sont requis afin de terminer ce tutoriel :
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. Les IDE [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. Les IDE [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuration du projet {#project-setup}
 
-Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/adobe/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/adobe/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Téléchargez et installez les packages suivants à l’aide de la **gestion des packages CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -68,7 +68,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    AEM Screens `We.Retail Run Ui.Apps` et `Ui.Content` Packages installés par le biais de CRX Package Manager
 
-## Créer le composant Poster {#poster-cmp}
+## Création du composant Poster {#poster-cmp}
 
 Le composant Poster étend le composant AEM Screens Image prêt à l’emploi. Un mécanisme de Sling, `sling:resourceSuperType`, est utilisé pour hériter des fonctionnalités de base du composant Image sans avoir à utiliser la fonction Copier/Coller. Vous trouverez plus d’informations sur les notions de base du [traitement des requêtes Sling ici.](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
@@ -133,7 +133,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Boîte de dialogue copiée depuis `/libs/wcm/foundation/components/image/cq:dialog` to `/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image` Le composant est un supertype pour WCM Foundation. `image` composant. Le composant `poster` hérite donc des fonctionnalités des deux. La boîte de dialogue du composant Poster est composée d’une combinaison des boîtes de dialogue Screens et Foundation. Les fonctionnalités de la **fusion de ressources Sling** permettent de masquer les champs et les onglets inutiles de boîte de dialogue hérités des composants de supertype.
+   AEM Screens `image` Le composant est un supertype pour WCM Foundation. `image` composant. Par conséquent, la variable `poster` hérite des fonctionnalités des deux. La boîte de dialogue du composant Poster est composée d’une combinaison des boîtes de dialogue Screens et Foundation. Les fonctionnalités de la **fusion de ressources Sling** permettent de masquer les champs et les onglets inutiles de boîte de dialogue hérités des composants de supertype.
 
 1. Mettez à jour le `cq:dialog` sous `/apps/weretail-run/components/content/poster` avec les modifications suivantes représentées en XML :
 
@@ -240,7 +240,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    La propriété `sling:hideChildren`= `"[linkURL,size]`&quot; est utilisée sur le nœud `items` pour veiller à ce que les champs **linkURL** et **size** soient masqués dans la boîte de dialogue. Supprimer ces nœuds de la boîte de dialogue Poster n’est pas suffisant. La propriété `sling:hideResource="{Boolean}true"` de l’onglet d’accessibilité sert à masquer l’ensemble de l’onglet.
 
-   Deux champs de clic sont ajoutés à la boîte de dialogue pour permettre aux auteurs de contrôler la position et la couleur du texte du titre et de la description.
+   Deux champs de clic sont ajoutés à la boîte de dialogue, Position du texte et Couleur du texte, pour permettre aux auteurs de contrôler la position du texte et la couleur du titre et de la description.
 
    ![Poster : structure finale de la boîte de dialogue](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,11 +280,11 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Les balises `The h1` et h2 affichent le titre et la description en fonction des propriétés du composant : `${properties.jcr:title}` et `${properties.jcr:description}`.
 
-   Les balises `h1` et `h2` sont entourées par un wrapper div comportant trois classes CSS avec des variantes de &quot;`cmp-poster__text`&quot;. La valeur des propriétés `textPosition` et `textColor` est utilisée pour modifier la classe CSS rendue en fonction des sélections de l’auteur concernant la boîte de dialogue. Dans la section suivante, les CSS des bibliothèques clientes sont écrites pour permettre l’affichage de ces modifications.
+   Autour de la `h1` et `h2` Les balises sont un wrapper div comportant trois classes CSS avec des variantes de &quot;`cmp-poster__text`.&quot; La valeur des propriétés `textPosition` et `textColor` est utilisée pour modifier la classe CSS rendue en fonction des sélections de l’auteur concernant la boîte de dialogue. Dans la section suivante, les CSS des bibliothèques clientes sont écrites pour permettre l’affichage de ces modifications.
 
    Un logo est également inclus comme superposition dans le composant. Dans cet exemple, le chemin d’accès à la variable` We.Retail` Le logo est codé en dur dans la gestion des ressources numériques. Selon le cas d’utilisation, il peut être plus judicieux de créer un champ de boîte de dialogue pour faire du chemin d’accès au logo une valeur renseignée de façon dynamique.
 
-   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. BEM est la notation utilisée par [Composants principaux d’AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. La notation BEM est celle utilisée par les [composants principaux d’AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Sous `/apps/weretail-run/components/content/poster`, créez un fichier appelé `edit.html.`
 
@@ -308,7 +308,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
    </div>
    ```
 
-   La variable **edit** Le balisage du composant Poster est affiché directement au-dessus. Le script HTL remplace `/libs/screens/core/components/content/image/edit.html`. La balise est similaire à la balise `production.html`. Elle affiche le titre et la description au-dessus de l’image.
+   La variable **edit** Le balisage du composant Poster s’affiche directement au-dessus. Le script HTL remplace `/libs/screens/core/components/content/image/edit.html`. La balise est similaire à la balise `production.html`. Elle affiche le titre et la description au-dessus de l’image.
 
    L’élément `aem-Screens-editWrapper` est ajouté de sorte que le composant ne soit pas affiché en plein écran dans l’éditeur. L’attribut `data-emptytext` garantit l’affichage d’un espace réservé en l’absence de contenu ou d’image.
 
@@ -337,9 +337,9 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    Propriétés pour /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   La propriété `categories` est une chaîne qui identifie la bibliothèque cliente. La catégorie `cq.screens.components` est utilisée en mode d’édition et en mode d’aperçu/de production. Ainsi, tout CSS/JS défini dans la clientlib `shared` est chargé dans tous les modes.
+   La propriété `categories` est une chaîne qui identifie la bibliothèque cliente. La catégorie `cq.screens.components` est utilisée en mode d’édition et en mode d’aperçu/de production. Par conséquent, tout CSS/JS défini dans la variable `shared` clientlib est chargé dans tous les modes.
 
-   Il est recommandé de ne jamais exposer directement les chemins d’accès à /apps dans un environnement de production. La variable `allowProxy` garantit que la bibliothèque cliente CSS et JS est référencée au moyen d’un préfixe de `/etc.clientlibs`. Vous trouverez [ici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs) plus d’informations sur la propriété allowProxy.
+   La bonne pratique consiste à ne jamais exposer directement des chemins à `/apps` dans un environnement de production. La variable `allowProxy` garantit que la bibliothèque cliente CSS et JS est référencée par le biais d’un préfixe de `/etc.clientlibs`. Vous trouverez [ici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs) plus d’informations sur la propriété allowProxy.
 
 1. Créez un fichier appelé `css.txt` sous le dossier partagé.
 
@@ -362,7 +362,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -418,7 +418,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. Mettez à jour le `categories` de la bibliothèque cliente de production à définir `cq.screens.components.production.`
+1. Mettre à jour la propriété `categories` de la bibliothèque cliente de production pour la définir comme `cq.screens.components.production.`
 
    La catégorie `cq.screens.components.production` veille à ce que les styles ne soient chargés qu’en mode d’aperçu/de production.
 
@@ -431,7 +431,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -489,9 +489,9 @@ Une troisième catégorie de bibliothèque cliente : `cq.screens.components.edit
 | `cq.screens.components.edit` | Styles et scripts utilisés uniquement en mode d’édition |
 | `cq.screens.components.production` | Styles et scripts utilisés uniquement en mode de production |
 
-## Ajouter un composant Poster à un canal de séquence {#add-sequence-channel}
+## Ajout d’un composant Poster à un canal de séquence {#add-sequence-channel}
 
-Le composant Poster est destiné à être utilisé sur un canal de séquence. Le package de démarrage de ce tutoriel comportait un canal inactif. Le canal inactif est préconfiguré pour autoriser les composants du groupe. **`We.Retail Run - Content`**. Le groupe du composant Poster est défini sur `We.Retail Run - Content` et peut être ajouté au canal.
+Le composant Poster est utilisé sur un canal de séquence. Le module de démarrage de ce tutoriel comprenait un canal inactif. Le canal inactif est préconfiguré pour autoriser les composants du groupe. **`We.Retail Run - Content`**. Le groupe du composant Poster est défini sur `We.Retail Run - Content` et peut être ajouté au canal.
 
 1. Ouvrez le canal inactif à partir du `We.Retail` Exécutez le projet : **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Faites glisser une nouvelle instance du composant **Poster** depuis la barre latérale et déposez-la sur la page.
@@ -508,7 +508,7 @@ Le composant Poster est destiné à être utilisé sur un canal de séquence. Le
 
 ## Assemblage {#putting-it-all-together}
 
-La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
+La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un affichage de position et finalement attribué à un lecteur Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 

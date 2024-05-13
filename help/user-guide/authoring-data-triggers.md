@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 53%
+source-wordcount: '374'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ Une fois les étapes précédentes effectuées, vous êtes prêt à activer le c
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
-1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** *(canal de séquence)* créé dans un canal AEM Screens.
+1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** *(canal de séquence)* créé dans un canal AEM Screens.
 
 1. Cliquez sur le canal **DataDrivenRetail** et cliquez sur **Propriétés** dans la barre d’actions.
 
@@ -67,7 +67,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    >[!NOTE]
    >
-   >Si vous avez tout configuré correctement, vous voyez **Ciblage** dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+   >Si vous avez tout configuré correctement, la variable **Ciblage** dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

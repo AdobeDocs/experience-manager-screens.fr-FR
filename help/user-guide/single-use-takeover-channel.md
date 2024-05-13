@@ -1,15 +1,15 @@
 ---
 title: Canal de prise de contrôle à usage unique
-description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
+description: Suivez ce cas pratique pour créer un canal de prise de contrôle à usage unique.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 87%
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/single-takeover4.png)
 
-1. Configurez un emplacement et un affichage pour vos canaux. Par exemple, l’emplacement **Lobby** et l’affichage **MainLobbyDisplay** suivants sont configurés pour ce projet.
+1. Configurez un emplacement et un affichage pour vos canaux. Par exemple, les éléments suivants **Lobby** emplacement et **MainLobbyDisplay** sont configurés pour ce projet.
 
    ![ressource](assets/single-takeover5.png)
 
@@ -93,12 +93,12 @@ Pour configurer un projet, procédez comme suit :
      >[!NOTE]
      >La priorité peut être une valeur supérieure à la valeur de priorité du canal normalement lu.
    * **Événements pris en charge**: cliquez sur le bouton **Écran inactif** et **Minuteur**.
-   * **Planification** : Entrez le texte de la planification selon laquelle ce canal doit exécuter l’affichage. Par exemple, le texte ici permet au contenu d’être lu 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
+   * **Planification**: saisissez le texte du planning selon lequel ce canal doit s’exécuter sur l’affichage. Par exemple, le texte ici permet au contenu d’être lu 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
 Le texte dans le **Planning** mentionné dans cet exemple est *le 31 décembre après 23 h 58 et également le 1er janvier avant 00 h 01*.
 
      ![ressource](assets/single-takeover8.png)
 
-     Accédez à l’affichage à partir de **SingleUseTakeOver** > **Emplacements** > **Lobby** > **MainLobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions pour afficher les canaux attribués avec leurs priorités, comme illustré ci-dessous.
+     Accédez à l’affichage à partir de **SingleUseTakeOver** > **Emplacements** > **Lobby** > **MainLobbyDisplay**. Cliquez sur **Tableau de bord** depuis la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
      >[!NOTE]
      >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.

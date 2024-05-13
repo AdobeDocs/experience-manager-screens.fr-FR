@@ -5,17 +5,17 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 91%
+source-wordcount: '1179'
+ht-degree: 83%
 
 ---
 
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
->Cette section décrit l’attribution et la planification des canaux pour les Feature Packs antérieurs à la version AEM 6.5.5 Screens.
+>Cette section décrit l’attribution et la planification des canaux pour les Feature Packs antérieurs à AEM version 6.5.5 Screens.
 
 Lorsque vous avez configuré un affichage, affectez un canal à un affichage pour afficher votre contenu.
 
@@ -40,13 +40,13 @@ Pour attribuer un canal à un affichage, procédez comme suit :
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Vous pouvez configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous. Voir la section [Propriétés des canaux](#channel-properties) pour plus d’informations sur les propriétés des canaux.
+   Vous pouvez configurer les propriétés à partir de la boîte de dialogue **Attribution de canaux** en suivant la section ci-dessous. Voir [Propriétés du canal](#channel-properties) pour plus d’informations sur les propriétés des canaux.
 
 ## Présentation des propriétés des canaux à partir de l’attribution de canaux {#channel-properties}
 
 ### Canal de référence {#ref-channel}
 
-Le canal de référence vous permet de fournir une référence pour le canal souhaité, en utilisant soit le nom, soit le chemin du canal.
+Un canal de référence vous permet de fournir une référence au canal souhaité, soit par nom de canal, soit par chemin de canal.
 
 * **Par chemin** : vous fournissez une référence explicite à l’aide du chemin absolu du canal.
 
@@ -54,7 +54,7 @@ Le canal de référence vous permet de fournir une référence pour le canal sou
 
 ### Rôle du canal {#role-channel}
 
-Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
+Le rôle du canal définit le contexte de l’affichage. Le rôle cible diverses actions et est indépendant du canal qui remplit le rôle.
 
 ### Priorité {#priority-channel}
 
@@ -76,7 +76,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 >
 > Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or -->le pack de fonctionnalités 4 d’AEM 6.5.
 
-En tant qu’auteur de contenu, spécifiez le moment où un canal est interrompu afin que vous puissiez choisir de couper le contenu non critique, mais éventuellement de laisser la lecture du contenu important avant de l’interrompre en raison de la planification.
+En tant qu’auteur de contenu, indiquez quand un canal est interrompu. Cela vous permet de couper le contenu non critique si vous le souhaitez, mais éventuellement de laisser la lecture du contenu important avant de l’interrompre en raison de la planification.
 
 Cliquez sur l’une des options suivantes disponibles pour définir la méthode d’interruption à partir de la variable **Attribution de canaux** boîte de dialogue :
 
@@ -162,7 +162,7 @@ Vous créez des tranches horaires selon le mois, de sorte que le contenu du cana
 
 #### Diffusion de contenu pour les canaux ayant la même priorité {#playing-content-for-channels-with-same-priority}
 
-Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’hiver selon le même planning pendant le mois de décembre. Toutefois, puisque la priorité du canal B est définie sur 2 au cours de cette semaine, c’est son contenu qui est diffusé plutôt que celui du canal A.
+Cet exemple présente les tranches horaires d’un magasin qui affiche sa collection d’hiver selon le même planning pendant le mois de décembre. Mais comme la priorité du canal B est définie sur 2, au cours de cette semaine, le canal B lit son contenu plutôt que le canal A.
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|

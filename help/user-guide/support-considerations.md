@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 44%
+source-wordcount: '608'
+ht-degree: 38%
 
 ---
 
@@ -41,17 +41,16 @@ La planification comprend :
 
 ## Récapitulatif des principaux points à prendre en compte pour l’assistance du Jour 2 {#summary-of-key-considerations-involved-in-day-support}
 
-Voici quelques points essentiels à prendre en compte pour l’assistance du Jour 2 :
+Voici quelques points essentiels à prendre en compte pour l’assistance du Jour 2 :
 
-* Pour garantir l’alignement et une transition en douceur de la mise en oeuvre à l’assistance opérationnelle, l’implémentateur d’AEM travaille avec l’intégrateur audio-vidéo pour s’assurer que les scripts d’assistance appropriés sont définis dans le plan d’assistance du Jour 2.
+* Pour garantir l’alignement et une transition fluide de la mise en oeuvre à la prise en charge opérationnelle, l’implémentateur d’AEM travaille avec l’intégrateur audio-vidéo. Ensemble, ils s’assurent que les scripts d’assistance appropriés sont définis dans le cadre du plan d’assistance du Jour 2.
 * Des exigences telles que la gestion à distance des appareils, la disponibilité du service d’assistance et le support technique sur site sont pratiquement données à ce stade de l’évolution du secteur de l’affichage numérique. Au-delà de ce besoin de base, les intégrateurs audio-vidéo doivent également explorer les variables de coûts entre les modèles de surveillance et de prise en charge proactifs et réactifs.
-
 * Des exigences telles que la gestion à distance des appareils, la disponibilité du service d’assistance et le support technique sur site sont pratiquement données à ce stade de l’évolution du secteur de l’affichage numérique. Au-delà de ce besoin de base, les intégrateurs audio-vidéo doivent également explorer les variables de coûts entre les modèles de surveillance et de prise en charge proactifs et réactifs.
 * Pour garantir un succès à long terme, il est essentiel d’établir un contrat de niveau de prise en charge du Jour 2 (également appelé &quot;S.L.A.&quot;) en partenariat avec l’intégrateur audio-vidéo. Les contrats de niveau de service détaillent les services d’assistance après le déploiement et aident à définir les attentes des clients.
-* La base de connaissances est une ressource essentielle à une gestion efficace de plusieurs réseaux. SharePoint est une plateforme couramment utilisée pour ce type de ressource. La base de connaissances comprend des questions et réponses pré-écrites que les agents des centres d’exploitation de réseau doivent suivre afin de garantir un traitement homogène des demandes de résolution des problèmes entrantes. Les bases de connaissances comprennent généralement des documents de référence pour les configurations du système et les emplacements des sites, dont des feuilles de calcul pour le matériel et des documents de référence pour les logiciels des systèmes.
+* La base de connaissances est une ressource essentielle à une gestion efficace de plusieurs réseaux. SharePoint est une plateforme couramment utilisée pour ce type de ressource. La base de connaissances comprend des questions et réponses pré-écrites que les agents des centres d’exploitation de réseau doivent suivre afin de garantir un traitement homogène des demandes de résolution des problèmes entrantes. Les bases de connaissances incluent généralement des documents de référence pour les configurations système et les emplacements de site. La base de connaissances peut parfois inclure des feuilles de calcul pour le matériel et des documents de référence pour les logiciels de systèmes.
 * Les capacités de surveillance et de gestion dépendent largement des systèmes d’exploitation et des capacités d’écran du lecteur multimédia. Les systèmes d’exploitation Windows offrent le niveau de détail le plus élevé. Pour les déploiements exécutés sur des appareils Android™ ou iOS, la gestion des périphériques mobiles (également appelée MDM) est utilisée.
 * Certains fabricants d’écrans offrent la possibilité de surveiller les écrans indépendamment des lecteurs de contenu multimédia, tandis que d’autres nécessitent un appareil externe.
-* Les intégrateurs audio-vidéo utilisent un mélange de technologies, de sorte que les solutions restent flexibles pour répondre au mieux aux besoins du client final.
+* Les intégrateurs audio-vidéo utilisent une combinaison de technologies, ce qui garantit que les solutions restent flexibles pour répondre au mieux aux besoins du client final.
 
 ## Partie 5 : tutoriel vidéo sur les facteurs liés à l’assistance {#part-video-tutorial-on-support-considerations}
 
