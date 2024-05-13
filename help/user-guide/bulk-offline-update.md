@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez également planifier cette activité pour une période de trafic ré
 
 ## Utilisation de la mise à jour hors ligne en bloc {#using-bulk-offline-update}
 
-Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir de l’interface utilisateur ou programmer la mise à jour en bloc à partir des services OSGi.
+Vous pouvez utiliser manuellement la mise à jour hors ligne en bloc à partir de l’interface utilisateur ou planifier la mise à jour en bloc à partir des services OSGi.
 
 ### Utilisation de l’interface utilisateur d’AEM Screens {#using-aem-screens-user-interface}
 

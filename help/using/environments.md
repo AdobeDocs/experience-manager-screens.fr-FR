@@ -1,10 +1,10 @@
 ---
 title: Environnements pour [!UICONTROL AEM Screens]
 description: En savoir plus sur les environnements d’un projet AEM Screens.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 61%
+ht-degree: 67%
 
 ---
 
@@ -27,6 +27,6 @@ Suivez les instructions ci-dessous afin de configurer l’environnement pour vot
 
 1. Identifiez les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
 
-1. Installez les mêmes packages logiciels sur votre environnement de développement local.
+1. Installez les mêmes packages logiciels dans votre environnement de développement local.
 
-1. Demandez à votre client d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes créent des problèmes lors du déploiement et du test.
+1. Demandez à votre client ou cliente d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.

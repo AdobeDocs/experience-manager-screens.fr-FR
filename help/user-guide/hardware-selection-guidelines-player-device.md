@@ -1,10 +1,10 @@
 ---
 title: Instructions de sélection du matériel pour les appareils de lecture
 description: Découvrez les instructions de sélection du matériel pour les appareils du lecteur AEM Screens.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 73%
+source-wordcount: '228'
+ht-degree: 82%
 
 ---
 
@@ -41,9 +41,9 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>De base</td>
-   <td>Processeur Intel® Atom quadri-coeur double coeur, i3 ou quadri-coeur d’entrée de gamme</td>
+   <td>Processeur Intel® i3 double cœur ou Atom quadri-cœur d’entrée de gamme</td>
    <td><p>4 Go de mémoire</p> <p>2 Mo de cache</p> </td>
-   <td><p>*ChromeOS 32 Go</p> <p>*Windows 128 Go</p> </td>
+   <td><p>*ChromeOS 32 Go</p> <p>*Windows 128 Go</p> </td>
    <td>Intégré</td>
    <td>1920 x 1080</td>
    <td>DVI<br /> Ethernet / sans fil,<br /> 2xUSB</td>
@@ -55,11 +55,11 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Processeur quadri-coeur Intel® Core™ i5</td>
+   <td>Processeur quadri-cœur Intel® Core i5</td>
    <td><p>8 Go de mémoire</p> <p>4 Mo de cache</p> </td>
-   <td>128 Go</td>
+   <td>128 Go</td>
    <td>Intégré</td>
-   <td>3 840 x 2 160 (<code>4K</code>)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 2 x USB</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Avancé</td>
-   <td>Processeur Intel® Core™ i7 quadri-coeur avec hyperthreading</td>
+   <td>Processeur Intel® Core i7 quadri-cœur avec hyperthreading</td>
    <td><p>16 Go de mémoire</p> <p>8 Mo de cache</p> </td>
    <td>256 Go</td>
    <td>Carte graphique dédiée</td>
-   <td>3 840 x 2 160 (<code>4K</code>)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sans fil,<br /> 4 x USB</td>
    <td>
     <ul>

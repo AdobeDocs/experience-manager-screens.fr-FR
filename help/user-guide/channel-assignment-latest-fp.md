@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 86%
+source-wordcount: '1447'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Cette section décrit l’attribution et la planification des canaux pour le Feature Pack AEM Screens 6.5.5 et versions ultérieures.
+>Cette section décrit l’attribution et la planification des canaux pour AEM Feature Pack Screens 6.5.5 et versions ultérieures.
 
 Lorsque vous avez configuré un affichage, affectez un canal à un affichage pour afficher votre contenu.
 
@@ -134,7 +134,7 @@ La sélection d’un canal de référence permet de fournir une référence pour
 
 ### Rôle du canal {#role-channel}
 
-Le rôle du canal définit le contexte de l’affichage. Le rôle est ciblé par diverses actions ; il est indépendant du canal qui remplit le rôle.
+Le rôle du canal définit le contexte de l’affichage. Diverses actions ciblent le rôle . Elle est indépendante du canal qui remplit le rôle.
 
 ### Priorité {#priority-channel}
 
@@ -158,7 +158,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 En tant qu’auteur de contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de choisir de couper le contenu non essentiel. Mais cela vous offre également la possibilité de laisser le contenu important être lu en intégralité avant de le couper en raison du planning.
 
-Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la boîte de dialogue **Attribution de canaux** :
+Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la variable **Attribution de canaux** boîte de dialogue :
 
 * **Immédiatement** : chaque fois que le planning est activé ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
 * **Fin de l’élément actif** : lorsqu’un nouveau planning est activé ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre la fin de la lecture de l’élément actuel dans la séquence. Ensuite, ce n’est qu’après cela que vous pouvez actualiser ou lire le nouveau contenu.
@@ -185,11 +185,11 @@ Le planning de périodicité permet de définir un planning récurrent pour votr
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Les plannings de périodicité s’accompagnent de *tranches horaires*, ce qui permet de définir un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et de réutiliser simultanément cette configuration pour tous vos affichages.
+>Les plannings de périodicité s’affichent *Tranches horaires*. Vous définissez une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et vous pouvez les réutiliser pour tous vos affichages simultanément.
 
 Vous pouvez configurer les options suivantes :
 
-* **Nom** : titre de votre planning de périodicité.
+* **Nom** - Titre de votre planning de périodicité.
 * **Répéter** : indiquez si la planification s’exécute de manière **quotidienne**, **hebdomadaire**, **mensuelle** ou **annuelle**.
 * **Début** : heure de début de votre planning.
 * **Fin** : heure de fin de votre planning. Vous pouvez le définir par heure ou par durée.

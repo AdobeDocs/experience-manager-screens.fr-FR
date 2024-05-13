@@ -8,10 +8,10 @@ user-guide-description: Apprenez à utiliser une solution de signalétique numé
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 98%
+source-wordcount: '520'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
    + [Partie 4 : gestion de projet et déploiement](project-management-and-deployment.md)
    + [Partie 5 : facteurs liés à l’assistance](support-considerations.md)
 + Configuration et administration {#administering}
-   + [Configurations de serveurs Screens](configuring-screens-introduction.md)
+   + [Configuration du serveur Screens](configuring-screens-introduction.md)
    + [Paramétrage des configurations Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Installation du lecteur Screens](installing-screens-player.md)
    + [Connexion à un lecteur Screens](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 98%
    + [Transition de ContentSync à SmartSync](smartsync.md)
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
    + [Répliquer des déclencheurs de données sur les serveurs de publication](replicating-data-triggers.md)
-   + [Configuration des agents de réplication Screens](configure-screens-replication.md)
+   + [Configuration des agents de réplication sur Screens](configure-screens-replication.md)
    + Considérations spécifiques au client {#installing-client}
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
@@ -100,7 +100,7 @@ ht-degree: 98%
       + [Application de transitions](applying-transitions.md)
       + [Transitions Multizone vers Zone unique](multizone-to-singlezone.md)
       + [Canal de prise de contrôle à usage unique](single-use-takeover-channel.md)
-      + [Canal de prise de contrôle à usage permanent](perpetual-takeover-channel.md)
+      + [Utilisation permanente du canal de prise de contrôle](perpetual-takeover-channel.md)
 + Ressources du développeur et ressources d’API {#developing}
    + [API REST](rest-api.md)
    + [Développer un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)
