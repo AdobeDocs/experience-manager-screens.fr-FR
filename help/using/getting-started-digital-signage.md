@@ -2,10 +2,10 @@
 title: Principes de base de la signalétique numérique pour [!UICONTROL AEM Screens]
 description: Découvrez les principes de base d’un projet de signalétique numérique.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 91%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Avant de passer aux meilleures pratiques de mise en œuvre d’AEM Screens, il convient de considérer le projet comme un projet de signalétique digitale, plutôt que comme un projet de développement logiciel traditionnel.
 
-Cette section fournit des recommandations sur les éléments qui sont essentiels avant la mise en œuvre d’un projet AEM Screens.
+Cette section fournit des recommandations sur les principaux éléments essentiels à la mise en oeuvre d’un projet AEM Screens.
 
 ## Éléments clés d’un projet de signalétique numérique {#key-elements}
 
@@ -40,14 +40,14 @@ La définition des éléments clés est une étape essentielle avant la mise en 
    La connectivité met l’accent sur les questions suivantes :
    * Réseau (cellulaire ou Wi-Fi) ou autonome ?
       * Devez-vous autoriser les mises à jour de contenu USB ?
-      * Devez-vous autoriser la collecte de données d’utilisation ?
+      * Devez-vous autoriser l’utilisation de la collecte de données ?
 
 1. **Installation**
 
    L’installation comprend les éléments suivants :
    * Modes d’affichage : paysage ou portrait
    * Comment l’écran est-il monté ?
-      * Portrait ou paysage
+      * Orientation du portrait par rapport à l’orientation paysage
       * Boîtier complet
       * Plaque de recouvrement
    * Support de l’appareil
@@ -79,7 +79,7 @@ La définition des éléments clés est une étape essentielle avant la mise en 
 
 1. **Environnement**
 
-   L’environnement met l’accent sur les points suivants :
+   L’environnement met l’accent sur :
    * Emplacement de l’affichage ?
       * Intérieur ou extérieur
       * Hors d’atteinte ou directement accessible

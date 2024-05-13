@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 37%
+source-wordcount: '448'
+ht-degree: 33%
 
 ---
 
@@ -23,9 +23,9 @@ Le cas d’utilisation ci-dessous montre comment utiliser l’activation des ré
 
 ## Description {#description}
 
-Pour ce cas pratique, la feuille de calcul Google est renseignée avec le pourcentage de réservation de deux restaurants. **`Restaurant1`** et **`Restaurant2`**. Une formule est appliquée à partir des valeurs de `Restaurant1` et `Restaurant2` et selon la formule, la valeur 1 ou 2 est affectée à la variable **AdTarget** Colonne.
+Pour ce cas pratique, la feuille de calcul Google est renseignée avec le pourcentage de réservation de deux restaurants. **`Restaurant1`** et **`Restaurant2`**. Une formule est appliquée à partir des valeurs de `Restaurant1` et `Restaurant2` et, selon la formule, la valeur 1 ou 2 est affectée à la variable **AdTarget** Colonne.
 
-Si la valeur de **`Restaurant1`** > **`Restaurant2`**, puis **AdTarget** est la valeur affectée **1** other **AdTarget** est la valeur affectée **2**. Valeur 1 générée *Steak food* Option et Valeur 2 donne l’affichage de *La cuisine thaïlandaise* sur votre écran d’affichage.
+Si la valeur de **`Restaurant1`** > **`Restaurant2`**, puis **AdTarget** est la valeur affectée **1** other **AdTarget** est la valeur affectée **2**. La valeur 1 génère une *Steak food* et Valeur 2 donnent un affichage de la valeur *La cuisine thaïlandaise* sur votre écran d’affichage.
 
 ## Prérequis {#preconditions}
 
@@ -66,7 +66,7 @@ Suivez les étapes du cas d’utilisation ci-dessous pour mettre en oeuvre l’a
 
    >[!CAUTION]
    >
-   >Vous devez avoir défini vos **configurations** **ContextHub** à l’aide de l’onglet **Propriétés** du canal > **Personnalisation**.
+   >Votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** a déjà dû être configuré.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

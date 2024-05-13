@@ -2,18 +2,18 @@
 title: Approche recommandée
 description: Découvrez l’approche recommandée dans un projet AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 44%
+source-wordcount: '424'
+ht-degree: 38%
 
 ---
 
 # Approche recommandée {#recommended-approach}
 
-Il est recommandé de considérer tout projet AEM Screens au niveau de l’entreprise comme une activité sur le long terme. Une durée de projet d’une ou plusieurs années est probable, en particulier si la solution permet une interaction utilisateur complexe ou si elle est déployée sur divers appareils et emplacements.
+Il est recommandé de considérer tout projet AEM Screens au niveau de l’entreprise comme une entreprise à long terme. Une durée de projet d’une ou plusieurs années est probable, en particulier si la solution permet une interaction utilisateur complexe ou si elle est déployée sur divers appareils et emplacements.
 
-## Consignes préalables au développement d’une stratégie de signalétique numérique {#signage-strategy}
+## Consignes relatives au développement d’une stratégie de signalétique digitale {#signage-strategy}
 
 Voici quelques recommandations dont vous devez tenir compte avant de développer et de déployer un projet de signalétique numérique :
 
@@ -35,7 +35,7 @@ si la solution envisagée est ambitieuse, il est recommandé de diviser les livr
   >
   > Les coûts initiaux sont souvent plus élevés sur un projet AEM Screens en raison de la nécessité d’investir dans du matériel, des installations et des conceptions de site. Par conséquent, le fait de simplifier les solutions de contenu initiales peut aider à gérer les attentes de budget.
 
-* **Estimation des livrables à grande échelle**: si la solution est diffusée à grande échelle, il est recommandé de déployer les composants de l’application dans des emplacements pilotes choisis avec soin pour une utilisation expérimentale. Une fois l’application validée, vous pouvez la déployer sur de nouveaux appareils et à d’autres emplacements.
+* **Estimation des livrables à grande échelle**: si la solution est diffusée à grande échelle, déployez les composants de l’application dans des emplacements pilotes choisis avec soin pour une utilisation expérimentale. Une fois l’application validée, vous pouvez la déployer sur de nouveaux appareils et à d’autres emplacements.
 
   >[!NOTE]
   >

@@ -1,6 +1,6 @@
 ---
 title: Configuration de ContextHub dans AEM Screens
-description: Découvrez ContextHub dans le moteur de ciblage afin de pouvoir définir le magasin de données pour le changement de contenu du déclencheur de données.
+description: Découvrez ContextHub dans le moteur de ciblage afin de pouvoir définir un entrepôt de données pour le changement de contenu du déclencheur de données.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 82%
+source-wordcount: '1450'
+ht-degree: 66%
 
 ---
 
@@ -33,9 +33,9 @@ Avant de vous attaquer aux détails de la création et de la gestion des canaux 
 
 **Audience** : définit la règle.
 
-**Segment** : version de la ressource à lire pour la règle donnée. Par exemple, si la température est inférieure à 50 degrés Fahrenheit, l’écran affiche une image d’une boisson chaude. Dans le cas contraire, une boisson froide est affichée.
+**Segment** - Version d’une ressource à lire pour la règle donnée. Par exemple, si la température est inférieure à 50 degrés Fahrenheit, l’écran affiche une image d’une boisson chaude. Dans le cas contraire, une boisson froide est affichée.
 
-Le diagramme ci-dessous illustre visuellement comment les configurations ContextHub coïncident avec l’activité, l’audience et les canaux.
+Le diagramme suivant fournit une représentation visuelle de la façon dont les configurations ContextHub coïncident avec l’activité, l’audience et les canaux.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
@@ -53,7 +53,7 @@ Avant de commencer à configurer les configurations ContextHub pour un projet AE
 
 Vous pouvez configurer le magasin de données en tant qu’événement d’E/S local ou d’événement de base de données local.
 
-L’exemple suivant concerne les déclencheurs de données au niveau des ressources. Il montre comment un événement de base de données local configure un magasin de données, tel qu’une feuille Excel, en utilisant les configurations ContextHub et le chemin d’accès aux segments vers le canal AEM Screens.
+L’exemple suivant de déclencheurs de données au niveau des ressources présente un événement de base de données local. L’événement configure un entrepôt de données, tel qu’une feuille Excel, qui vous permet d’utiliser les configurations ContextHub et le chemin des segments vers le canal AEM Screens.
 
 Après avoir configuré correctement la feuille `google`, comme illustré dans l’exemple ci-dessous :
 
@@ -67,13 +67,13 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
 >[!NOTE]
 >
->L’exemple spécifique ci-dessous présente les feuilles de calcul Google comme un magasin de données chargé de déclencher un changement de ressource si la valeur est supérieure à 100 ou inférieure à 50.
+>L’exemple spécifique ci-dessous présente les feuilles de calcul Google comme un entrepôt de données qui déclenche une modification de ressource si la valeur est supérieure à 100 ou inférieure à 50.
 
 ## Étape 2 : paramétrage des configurations de magasin {#step-setting-store-configurations}
 
 1. **Accès à ContextHub**
 
-   Accédez à votre instance AEM et cliquez sur l’icône Outils dans la barre latérale gauche. Cliquez sur **Sites** > **ContextHub**, comme illustré ci-dessous.
+   Accédez à votre instance AEM et cliquez sur l’icône des outils dans la barre latérale gauche. Cliquez sur **Sites** > **ContextHub**, comme illustré ci-dessous.
 
    ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
       >[!CAUTION]
       >
-      >Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
+      >Si vous créez vos feuilles de calcul Google pour stocker des configurations en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionne pas d’usine.
 
 1. **Configuration de la segmentation du magasin**
 
@@ -166,7 +166,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
    1. Dans votre instance AEM, accédez à **Personnalisation** > **Audiences** > **screens**.
 
-   1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
+   1. Cliquez sur **Créer** > **Créez un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
    1. Saisissez le **Titre** `**Higherthan50**`, puis cliquez sur **Créer**. De la même manière, créez un autre segment intitulé `**Lowerthan50**`.
 
@@ -219,7 +219,7 @@ Une zone sera créée dans votre marque.
 
 ## Étape 5 : création de segments dans une activité {#step-setting-up-audience-segmentation}
 
-Après avoir configuré un magasin de données et défini votre activité (marque et zone), procédez comme suit pour créer des segments dans l’activité.
+Après avoir configuré un entrepôt de données et défini votre activité (marque et zone), suivez les étapes ci-dessous pour créer des segments dans votre activité.
 
 1. **Création de segments dans les activités**
 
@@ -289,7 +289,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
-1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenChannel** créé dans un canal AEM Screens.
+1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenChannel** créé dans un canal AEM Screens.
 
 1. Cliquez sur le canal **TargetChannel** et cliquez sur **Propriétés** dans la barre d’actions.
 
@@ -304,7 +304,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
       >[!NOTE]
       >
-      >Utilisez le chemin ContextHub et le chemin des segments où vous avez initialement enregistré vos segments et configurations ContextHub.
+      >Utilisez le chemin ContextHub et le chemin d’accès Segments , où vous avez initialement enregistré vos configurations et segments ContextHub.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
       >[!NOTE]
       >
-      >Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+      >Si vous avez tout configuré correctement, la variable **Ciblage** dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 

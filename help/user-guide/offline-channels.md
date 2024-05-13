@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 67%
+source-wordcount: '427'
+ht-degree: 50%
 
 ---
 
@@ -67,7 +67,7 @@ Le workflow du processus est le suivant :
   </tr>
   <tr>
    <td><code>copy</code></td> 
-   <td>copier la structure spécifiée à partir du chemin</td> 
+   <td>copier la structure spécifiée à partir du chemin ;</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -77,14 +77,14 @@ Le workflow du processus est le suivant :
 
 Suivez les étapes ci-dessous pour tester la configuration de ContentSync :
 
-1. Ouvrez `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. Ouvrez `https://localhost:4502/libs/cq/contentsync/content/console.html`.
 1. Cliquez sur votre configuration dans la liste.
-1. Cliquer sur Effacer le cache
-1. Cliquer sur Mettre à jour le cache
-1. Cliquer sur Télécharger tout le module
-1. Extraire le fichier zip
-1. Démarrer un serveur local dans le dossier extrait
-1. Ouvrir la page de démarrage et vérifier l’état de l’application
+1. Cliquez sur **Effacer le cache**.
+1. Cliquez sur **Mettre à jour le cache**.
+1. Cliquez sur **Télécharger complet**.
+1. Extrayez le fichier zip.
+1. Démarrez un serveur local dans le dossier extrait.
+1. Ouvrez votre page de démarrage et vérifiez l’état de votre application.
 
 ## Activation de la configuration hors ligne d’un canal {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Pour activer la configuration hors ligne d’un canal, procédez comme suit :
 
 >[!NOTE]
 >
->Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales relatives au fichier `pom.xml` pour ce projet spécifique, voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) dans **Développement d’un composant personnalisé pour AEM Screens**.
+>Découvrez le modèle des gestionnaires personnalisés de ressources hors ligne. En savoir plus sur les exigences minimales du `pom.xml` pour le projet. Voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Développement d’un composant personnalisé pour AEM Screens**.

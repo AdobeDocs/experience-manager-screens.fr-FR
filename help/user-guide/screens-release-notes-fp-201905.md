@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 79%
+source-wordcount: '311'
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,7 @@ Voir **[Canal d’urgence](emergency-channel.md)** cas d’utilisation pour plus
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 
-Cette section décrit comment incorporer une application monopage interactive en utilisant REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM. L’éditeur peut être configuré par des personnes professionnelles dans AEM. Elle décrit également comment intégrer votre application interactive à Adobe Analytics hors ligne.
+Cette section décrit comment incorporer une application monopage interactive en utilisant REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM. Les professionnels d’AEM peuvent configurer l’éditeur. Elle décrit également comment intégrer votre application interactive à Adobe Analytics hors ligne.
 
 Pour plus d’informations, reportez-vous aux sections **[Intégration d’une application REACT à l’aide de l’éditeur de SPA AEM et Intégration à AEM Screens Analytics](embedding-react-app.md)**.
 

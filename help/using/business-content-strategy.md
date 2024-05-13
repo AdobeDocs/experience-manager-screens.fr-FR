@@ -2,10 +2,10 @@
 title: Stratégie de contenu commercial pour AEM Screens
 description: En savoir plus sur la stratégie marketing et la stratégie de contenu commercial en ce qui concerne AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 47%
+source-wordcount: '437'
+ht-degree: 41%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 47%
 >
 >Un stratège opérationnel/marketing est un acteur typique de cette activité.
 
-Le contenu est un facteur majeur de l’engagement. Lors de la phase de prévente, il est important de définir une stratégie de contenu commercial qui prenne en compte la manière dont l’application utilise les ressources matérielles, logicielles et de connectivité pour fournir la valeur souhaitée aux clients.
+Le contenu est un facteur majeur de l’engagement. Lors de la phase de prévente, il est important de définir une stratégie de contenu commercial. Cette stratégie tient compte de la manière dont l’application utilise les ressources matérielles, logicielles et de connectivité pour fournir la valeur souhaitée aux clients de votre client.
 
-Une stratégie de contenu commercial bien définie définit un chemin pour créer, distribuer et suivre l’utilisation du contenu par rapport au parcours de l’acheteur et aux points de contact marketing dans l’entonnoir de vente. Il est essentiel de transmettre le message adapté à chaque client au moment opportun.
+Une stratégie de contenu commercial bien définie permet de créer, distribuer et suivre l’utilisation du contenu par rapport au parcours de l’acheteur. Il tient également compte des points de contact marketing dans l’entonnoir de vente. Il est essentiel de transmettre le message adapté à chaque client au moment opportun.
 
-Pensez à la manière dont l’application Screens peut vous aider à atteindre cet objectif et à déterminer des indicateurs de performance clés (IPC) afin de mesurer l’efficacité de l’application dans le cadre de la diffusion de ce contenu.
+Pensez à la manière dont l’application Screens peut vous aider à atteindre cette stratégie et à déterminer des indicateurs de performance clés pour mesurer le succès de l’application dans la diffusion de ce contenu.
 
 >[!NOTE]
 >
