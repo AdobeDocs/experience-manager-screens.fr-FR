@@ -1,6 +1,6 @@
 ---
 title: Disposition multizone
-description: La disposition multizone permet de créer du contenu multizone et d’utiliser diverses ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran dans AEM Screens.
+description: Découvrez comment créer du contenu multizone et utiliser diverses ressources telles que des vidéos, des images et du texte qui se combinent dans un seul écran dans AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 76%
+source-wordcount: '1127'
+ht-degree: 64%
 
 ---
 
@@ -34,7 +34,7 @@ La ***disposition multizone*** permet de créer du contenu multizone et d’util
 En fonction des exigences du projet, il est parfois nécessaire de disposer de plusieurs zones au sein d’un canal et dus modifier comme une unité entière. Par exemple, une séquence de produits avec un flux de médias sociaux associé qui s’exécute dans trois zones distinctes sur un seul canal.
 
 >[!NOTE]
->Dans les canaux multizones, la planification au niveau des ressources n’est pas recommandée en raison de conflits potentiels et de comportements inattendus. Si une planification au niveau des ressources est nécessaire, il est conseillé de créer un canal de séquence distinct et d’appliquer une logique de planification à ce canal. Ensuite, incorporez le canal de séquence dans le canal multizone.
+>Dans les canaux multizones, la planification au niveau des ressources n’est pas recommandée en raison de conflits potentiels et de comportements inattendus. Si une planification au niveau des ressources est nécessaire, créez un canal de séquence distinct et appliquez une logique de planification au sein de ce canal. Ensuite, incorporez le canal de séquence dans le canal multizone.
 
 ### Conditions préalables {#prerequisites}
 
@@ -46,12 +46,12 @@ Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséd
 
 ## Créer une disposition multizone {#creating-multi-zone-layout}
 
-Lors de la création d’un canal, vous pouvez utiliser des modèles différents afin de créer des zones dans votre canal. Vous pouvez ajouter une image, une vidéo ou un canal incorporé qui permet d’afficher plusieurs ressources dans une séquence.
+Lors de la création d’un canal, vous pouvez utiliser des modèles différents afin de créer des zones dans votre canal. Vous pouvez ajouter une seule image, une seule vidéo ou un seul canal incorporé qui permet l’affichage de plusieurs ressources dans une séquence.
 
 **Création d’un canal**
 
 1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis **Screens**. Vous pouvez également utiliser le lien d’accès direct : `http://localhost:4502/screens.html/content/screens`.
-1. Accédez au dossier **Channels** (Canaux) et cliquez sur **Créer** dans la barre d’actions.
+1. Accédez au **Canaux** et cliquez sur **Créer** dans la barre d’actions.
 
 1. Cliquez sur **Canal d’écran partagé 1x2** de la **Créer** assistant.
 
@@ -91,7 +91,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Accédez à **Zones** > **Canaux** > **EmbeddedChannels** et cliquez sur **Créer** dans la barre d’actions.
    1. Cliquez sur **Canal de séquence** de la **Créer** pour créer un canal intitulé **`Zone1`**.
    1. Cliquez sur **`Zone1`** et cliquez sur **Modifier** dans la barre d’actions.
-   1. Faites glisser quelques images sur ce canal.
+   1. Faites glisser et déposez quelques images sur ce canal.
    1. De même, créez un autre canal de séquence intitulé **`Zone2`** dans le dossier **EmbeddedChannels**.
    1. Faites glisser une vidéo sur ce canal.
 
@@ -125,14 +125,14 @@ Créez un emplacement et un affichage afin de pouvoir afficher le contenu dans l
 
 1. **Création d’un emplacement**
 
-   1. Accédez au dossier **Zones** > **Emplacements**.
+   1. Accédez au **Zones** > **Emplacements** dossier.
    1. Cliquez sur le bouton **Emplacements** et cliquez sur **Créer** dans la barre d’actions.
    1. Cliquez sur **Emplacement** de la **Créer** assistant et cliquez sur **Suivant**.
    1. Saisissez le **Titre** **SanJose**, puis cliquez sur **Créer**.
 
 1. **Création d’un affichage**
 
-   1. Accédez au dossier **Zones** > **Emplacements**.
+   1. Accédez au **Zones** > **Emplacements** dossier.
    1. Cliquez sur le bouton **SanJose** emplacement et cliquez sur **Créer** dans la barre d’actions.
    1. Cliquez sur **Affichage** de la **Créer** assistant et cliquez sur **Suivant**.
    1. Saisissez le **Titre** **Lobby**, puis cliquez sur **Créer**.
@@ -162,11 +162,11 @@ Vous devez affecter les canaux à l’affichage de façon à visualiser le conte
 
 ### Enregistrement de l’appareil {#registering-device}
 
-Une fois que vous avez configuré un emplacement et un affichage, suivez les étapes ci-dessous pour enregistrer l’appareil et lui affecter l’affichage.
+Lorsque vous avez configuré un emplacement et un affichage, suivez les étapes ci-dessous pour enregistrer le périphérique et lui attribuer l’affichage.
 
 1. **Enregistrement de l’appareil**
 
-   1. Accédez à **Zones** > dossier **Appareils**.
+   1. Accédez au **Zones** > **Périphériques** dossier.
    1. Cliquez sur le bouton **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
    1. Cliquez sur **Enregistrement de périphérique** et cliquez sur l’appareil en attente dans la liste.
 

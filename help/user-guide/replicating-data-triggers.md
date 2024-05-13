@@ -5,20 +5,20 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 93%
+source-wordcount: '523'
+ht-degree: 73%
 
 ---
 
 # Répliquer des déclencheurs de données sur les serveurs de publication {#replicating-data-triggers}
 
-Lorsque vous utilisez ContextHub et le moteur de ciblage AEM pour personnaliser le contenu en fonction des déclencheurs de données dans une configuration de création/publication, toutes les configurations liées à ContextHub et à la personnalisation ne sont pas automatiquement répliquées avec les canaux lors de leur publication.
+Lors de l’utilisation de ContextHub et du moteur de ciblage AEM pour personnaliser le contenu en fonction des déclencheurs de données dans une configuration de création/publication, toutes les configurations liées à ContextHub et à la personnalisation ne sont pas automatiquement répliquées avec les canaux lors de la publication.
 
 Cette page permet de découvrir les étapes manuelles requises pour publier ces configurations séparément.
 
-Cela se résume essentiellement à la publication manuelle des éléments suivants :
+Ce processus se résume essentiellement à la publication manuelle des éléments suivants :
 
 1. Configurations du magasin ContextHub et des modules d’interface utilisateur
 1. Audiences personnalisées
@@ -64,7 +64,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données sur 
 
 1. Cliquez sur **Suivant** et **Publier**.
 
-### Répliquer les activités  {#replicating-activities}
+### Répliquer les activités {#replicating-activities}
 
 1. Accédez à votre instance AEM > **Personnalisation** > **Activités** ou utilisez `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` pour y arriver directement.
 
@@ -92,12 +92,12 @@ Si la réplication est réussie, vous devez voir la structure suivante sur l’i
 
 Si le test de la connexion échoue lors de la réplication des configurations ContextHub, suivez la section ci-dessous pour résoudre le problème :
 
-1. Accédez à Outils > **Déploiement** > **Distribution** > **Publier l’agent**.
+1. Accédez à **Outils** > **Déploiement** > **Distribution** > **Publier l’agent**.
 
-1. Cliquez sur **Modifier** dans la barre d’actions et vérifiez que l’URL du point d’entrée dans le champ **Points d’entrée de l’importateur** pointe également vers l’URL du serveur de publication dans l’agent de distribution.
+1. Cliquez sur **Modifier** dans la barre d’actions et assurez-vous que l’URL du point de terminaison dans la variable **Points de terminaison de l’importateur** pointe également vers l’URL du serveur de publication dans l’agent de distribution.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Si vous n’utilisez pas les informations d’identification d’administration par défaut, vous devez configurer l’agent de distribution avec un nom d’utilisateur ou d’utilisatrice et un mot de passe différents.
+1. Si vous n’utilisez pas les informations d’identification d’administrateur par défaut, vous devez configurer l’agent de distribution avec un nom d’utilisateur et un mot de passe différents.
 
    Suivez les étapes ci-dessous :
 

@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 73%
+source-wordcount: '704'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page décrit la création et la gestion des Live Copies des canaux.
 
 Une ***Live Copy*** est une copie du contenu spécifique d’un site pour laquelle une relation directe avec la source d’origine est conservée. Ces relations en direct permettent à la Live Copy d’hériter des propriétés du contenu et de la page de la source.
 
-Cette page décrit la création d’une Live Copy d’un canal, l’affichage des propriétés, la vérification de l’état et la propagation des modifications d’un canal à sa Live Copy.
+Cette page décrit la création d’une Live Copy d’un canal, l’affichage des propriétés, la vérification de l’état et la propagation des modifications d’un canal à sa Live Copy.
 
 
 ## Création d’une Live Copy {#creating-a-live-copy}
@@ -41,7 +41,7 @@ Procédez comme suit pour créer la Live Copy d’un canal dans le dossier de v
 
 Vous pouvez également suivre les étapes ci-dessous pour obtenir une représentation visuelle afin de créer une Live Copy d’un canal.
 
-L’exemple suivant illustre la création d’une Live Copy (***IdleLiveCopy***) pour le ***Canal inactif***, dont le dossier de destination est ***Canaux***.
+L’exemple suivant illustre la création d’une Live Copy (***IdleLiveCopy***) pour ***Canal inactif*** avec le dossier de destination comme ***Canaux***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,7 +51,7 @@ Une Live Copy est une copie d’un canal qui existe.
 
 Pour afficher le contenu de votre Live Copy, procédez comme suit :
 
-1. Accédez au projet Screens et cliquez sur l’emplacement où vous avez créé la Live Copy à l’origine, comme illustré dans la section ci-dessus. (Ici, l’emplacement qui a été sélectionné est le dossier **Canaux**)
+1. Accédez au projet Screens et cliquez sur l’emplacement où vous avez créé une Live Copy à l’origine, comme illustré dans la section ci-dessus. (Ici, l’emplacement a été choisi comme **Canaux** folder)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Vous pouvez également afficher les propriétés de votre canal de Live Copy.
 
 Le mode **Statut de la Live Copy**, comme illustré ci-dessous, permet d’afficher le statut des relations de tous les éléments du canal.
 
-1. Cliquez sur **Modifier** pour sélectionner le **Statut de la Live Copy** et afficher l’association du contenu de votre canal avec le canal d’origine (à partir duquel la Live Copy est générée).
+1. Cliquez sur **Modifier** afin que vous puissiez choisir la variable **État de Live Copy**. Vous pouvez également afficher l’association du contenu de votre canal avec le canal d’origine à partir duquel la Live Copy est générée.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ L’exemple suivant montre que vous cliquez sur l’image en mode d’édition e
 
 ### Propagation des modifications au canal de Live Copy {#propagating-changes-to-the-live-copy-channel}
 
-Si vous apportez des modifications ou des mises à jour au canal d’origine, propagez également ces modifications à votre canal Live Copy.
+Si vous apportez des modifications ou des mises à jour au canal d’origine, propagez également ces modifications à votre canal de Live Copy.
 
 Suivez les étapes ci-dessous pour vous assurer que vos modifications sont propagées du canal d’origine au canal de Live Copy :
 

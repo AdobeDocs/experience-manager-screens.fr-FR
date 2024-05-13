@@ -4,10 +4,10 @@ description: Découvrez comment configurer les agents de réplication Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 86%
+source-wordcount: '465'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ Cette page décrit comment configurer les agents de réplication Screens.
 
 ## Objectif {#objective}
 
-Un agent de réplication Screens est chargé de transférer les données de commande comme *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, et de nombreuses autres valeurs de ce type, de la publication vers l’auteur. Il est essentiel de le configurer pour que l’auteur puisse afficher le ping de l’appareil.
+L’agent de réplication Screens est chargé d’apporter des données de commandes telles que *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, et de nombreuses autres valeurs de ce type, de la publication à l’auteur. Il est essentiel de configurer cet agent afin que l’auteur puisse afficher le ping de l’appareil.
 
 >[!NOTE]
 >Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe
 >[!NOTE]
 >Pour des raisons de sécurité, il est recommandé d’éviter d’utiliser le mot de passe d’administration pour `screens-receiver-user`.
 
-1. Accédez à votre instance de création AEM.
+1. Accédez à votre instance d’auteur AEM.
 
 1. Cliquez sur Outils > **Sécurité** > **Utilisateurs et utilisatrices**.
 
@@ -93,7 +93,7 @@ Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe
 Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent de réplication Screens :
 
 >[!IMPORTANT]
->Vous devez effectuer les étapes suivantes sur TOUS les agents de réplication Screens existants.
+>Effectuez les étapes suivantes sur TOUS les agents de réplication AEM Screens existants.
 
 1. Accédez à votre instance AEM.
 1. Cliquez sur Outils > **Déploiement** > **Réplication**.
@@ -104,7 +104,7 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Recherchez tous les agents de réplication AEM Screens sur l’instance de création et cliquez sur le lien, comme illustré ci-dessous.
+1. Recherchez tous les agents de réplication AEM Screens sur l’auteur et cliquez sur le lien, comme illustré dans la figure ci-dessous.
 
    >[!NOTE]
    >Recherchez tous les agents de réplication AEM Screens. Le nom de l’agent de réplication Screens comprend la lettre **S** dans le titre.
@@ -129,4 +129,4 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Si la vérification de la connexion réussit, vous avez terminé la configuration de l’agent de réplication Screens.
+   Si la vérification de la connexion est réussie, vous avez terminé la configuration de l’agent de réplication Screens.
