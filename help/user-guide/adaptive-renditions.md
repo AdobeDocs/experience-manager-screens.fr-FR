@@ -5,7 +5,7 @@ exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -70,7 +70,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 1. Ajoutez la propriété expression avec la valeur contenant l’expression de la requête.
 
    >[!NOTE]
-   >Voir [Utilisation de la syntaxe des requêtes de média](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) pour en savoir plus.
+   >Pour en savoir plus, voir [Utilisation de la syntaxe de requête multimédia](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
    Cliquez sur **rule1** que vous avez créé, puis saisissez la variable **expression** in **Nom** et **(orientation:paysage)** in **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 

@@ -5,7 +5,7 @@ exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 36%
 
 Il est recommandé de considérer tout projet AEM Screens au niveau de l’entreprise comme une activité sur le long terme. Une durée de projet d’une ou plusieurs années est probable, en particulier si la solution permet une interaction utilisateur complexe ou si elle est déployée sur divers appareils et emplacements.
 
-## Conseils avant de développer une stratégie de signalétique digitale {#signage-strategy}
+## Consignes préalables au développement d’une stratégie de signalétique numérique {#signage-strategy}
 
-Consultez les quelques recommandations avant de développer et de déployer un projet de signalétique digitale :
+Voici quelques recommandations dont vous devez tenir compte avant de développer et de déployer un projet de signalétique numérique :
 
 * **Contrôle d’étendue** : 
 si la solution envisagée est ambitieuse, il est recommandé de diviser les livrables en phases discrètes pour contrôler la portée du projet.
@@ -39,7 +39,7 @@ si la solution envisagée est ambitieuse, il est recommandé de diviser les livr
 
   >[!NOTE]
   >
-  > Commencez à collecter des analyses pendant le projet pilote afin que les équipes commerciales puissent valider le succès de la solution par rapport aux mesures spécifiques qu’elles tentent d’atteindre. Le fait de connaître les performances du projet pilote aide l’équipe d’entreprise à déterminer les améliorations à apporter.
+  > Commencez à collecter des analyses pendant le projet pilote afin que les équipes commerciales puissent valider le succès de la solution par rapport aux mesures spécifiques qu’elles tentent d’atteindre. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
 
 * **Diviser les éléments livrables en tâches mesurables**: le fractionnement de la diffusion des fonctionnalités en tâches mesurables permet de recueillir des commentaires, fournit des cibles plus réalisables et réduit les risques globaux du projet.
 

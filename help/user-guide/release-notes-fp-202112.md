@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour du Feature Pack 202112
-description: En savoir plus sur le Feature Pack 202112 AEM Screens, publié le 12 janvier 2022.
+description: En savoir plus sur le pack de fonctionnalités 202112 AEM Screens, publié le jeudi 12 janvier 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 39%
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 39%
 
 Le Feature Pack 10 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP10**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.10 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP10**.
 
 ## Date de publication {#release-date}
 

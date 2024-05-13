@@ -13,7 +13,7 @@ exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -29,7 +29,7 @@ Pour ce cas d’utilisation, si la valeur dans les feuilles de calcul Google est
 
 Avant de commencer à mettre en oeuvre l’activation de la température locale de l’agence de voyages, apprenez à configurer ***Entrepôt de données***, ***Segmentation de l’audience*** et ***Activation du ciblage des canaux*** dans un projet AEM Screens.
 
-Voir [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
+Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
 ## Flux de base {#basic-flow}
 
@@ -44,7 +44,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
 1. **Configuration des segments dans les audiences selon les besoins**
 
-   1. Accédez aux segments de votre audience (voir ***Étape 2 : configuration de la segmentation de l’audience*** in **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
+   1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** dans la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
 
    1. Cliquez sur le bouton **Sheets A1 1** et cliquez sur **Modifier**.
 
@@ -74,7 +74,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
 
    >[!CAUTION]
    >
-   >Vous devez avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
+   >Vous devez avoir défini vos **configurations** **ContextHub** à l’aide de l’onglet **Propriétés** du canal > **Personnalisation**.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

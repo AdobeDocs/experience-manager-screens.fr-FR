@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour du Feature Pack 202203
-description: En savoir plus sur le Feature Pack 202203 AEM Screens, publié le 25 mars 2022.
+description: En savoir plus sur le pack de fonctionnalités 202203 AEM Screens, publié le samedi 25 mars 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 Le pack de fonctionnalités 11 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11**.
 
 ## Date de publication {#release-date}
 

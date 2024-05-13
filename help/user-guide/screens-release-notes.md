@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 201809
-description: Découvrez le Feature Pack 201809 d’AEM Screens, publié le 1er octobre 2018.
+title: Notes de mise à jour du pack de fonctionnalités 201809
+description: Découvrez le pack de fonctionnalités 201809 d’AEM Screens, publié le mardi 1 octobre 2018.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,11 +12,11 @@ exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 34%
+ht-degree: 52%
 
 ---
 
-# Notes de mise à jour du Feature Pack 201809 {#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 201809 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -26,20 +26,20 @@ AEM Screens ont publié AEM 6.4.2 Feature Pack 2 et AEM 6.3.3 Feature Pack 4
 
 ## Date de publication {#release-date}
 
-La date de publication pour AEM Screens Feature Pack 201809 est le 1er octobre 2018.
+La date de publication pour le pack de fonctionnalités 201809 d’AEM Screens est le 1er octobre 2018.
 
 ### Nouveautés {#what-s-new}
 
-* **Création de rapports de preuve de lecture Adobe Analytics**: Voir [Intégration d’Adobe Analytics à AEM Screens](adobe-analytics-integration-aem-screens.md) pour en savoir plus.
+* **Création de rapports de preuve de lecture Adobe Analytics** : pour en savoir plus, reportez-vous à [Intégration d’Adobe Analytics avec AEM Screens](adobe-analytics-integration-aem-screens.md).
 
 * **Adobe Analytics : activation des lecteurs pour mettre en cache et envoyer `playback` Événements vers Adobe Analytics**: Voir [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md) pour en savoir plus.
 
 * **Mise à jour en bloc de contenu hors ligne**: vous permet de mettre à jour tous les canaux en masse et d’éviter les difficultés de navigation vers un canal particulier et de mettre à jour le contenu. Voir [Mise à jour hors ligne en bloc](bulk-offline-update.md) pour en savoir plus.
 
 * **Publication de canaux en bloc sur toutes les instances de publication**
-* **Mécanisme amélioré de journalisation du lecteur**: vous pouvez spécifier le nombre maximal de fichiers journaux pour un lecteur AEM Screens. Voir [Utilisation d’un lecteur AEM Screens](working-with-screens-player.md) pour plus d’informations.
+* **Mécanisme amélioré de journalisation du lecteur**: vous pouvez spécifier le nombre maximal de fichiers journaux pour un lecteur AEM Screens. Pour plus d’informations, reportez-vous à [Utilisation d’un lecteur AEM Screens](working-with-screens-player.md).
 
-* **Créer/publier déploiement (Renforcement)**
+* **Déploiement sur un environnement de création/publication (Renforcement)**
 
 ### Lecteurs AEM Screens publiés
 

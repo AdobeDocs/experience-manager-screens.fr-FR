@@ -7,7 +7,7 @@ exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 35%
+ht-degree: 86%
 
 ---
 
@@ -20,23 +20,23 @@ Cette page décrit comment configurer les agents de réplication Screens.
 Un agent de réplication Screens est chargé de transférer les données de commande comme *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, et de nombreuses autres valeurs de ce type, de la publication vers l’auteur. Il est essentiel de le configurer pour que l’auteur puisse afficher le ping de l’appareil.
 
 >[!NOTE]
->Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
-Renseignez les deux sections si vous souhaitez terminer la configuration de l’agent de réplication Screens :
+Effectuez les deux étapes si vous souhaitez réaliser la configuration de l’agent de réplication Screens :
 
 1. [Activation des utilisateurs et mise à jour du mot de passe](#enable-users)
 1. [Mise à jour des paramètres de l’agent de réplication Screens](#replicate-agent)
 
 ## Activation des utilisateurs et mise à jour du mot de passe {#enable-users}
 
-Pour activer les utilisateurs et mettre à jour le mot de passe de `screens-receiver-user`:
+Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe pour `screens-receiver-user`, procédez comme suit :
 
 >[!NOTE]
->Pour des raisons de sécurité, il est recommandé d’éviter d’utiliser le mot de passe administrateur pour `screens-receiver-user`.
+>Pour des raisons de sécurité, il est recommandé d’éviter d’utiliser le mot de passe d’administration pour `screens-receiver-user`.
 
-1. Accédez à votre instance d’auteur AEM.
+1. Accédez à votre instance de création AEM.
 
-1. Cliquez sur Outils > **Sécurité** > **Utilisateurs**.
+1. Cliquez sur Outils > **Sécurité** > **Utilisateurs et utilisatrices**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -58,14 +58,14 @@ Pour activer les utilisateurs et mettre à jour le mot de passe de `screens-rece
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Cliquez sur **Modifier le mot de passe** under **Paramètres du compte** de la **Détails** , comme illustré dans la figure ci-dessous.
+1. Cliquez sur **Modifier le mot de passe** dans **Paramètres du compte** de l’onglet **Détails**, comme illustré ci-dessous.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Saisissez un nouveau mot de passe dans le champ **Modifier le mot de passe** , puis cliquez sur **Enregistrer**.
+1. Saisissez un nouveau mot de passe dans la boîte de dialogue **Modifier le mot de passe**, puis cliquez sur **Enregistrer**.
 
    >[!NOTE]
-   >Saisissez le mot de passe utilisateur admin existant dans **Votre mot de passe** champ .
+   >Vous devez saisir le mot de passe utilisateur d’administration existant dans le champ **Votre mot de passe**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -82,7 +82,7 @@ Pour activer les utilisateurs et mettre à jour le mot de passe de `screens-rece
 1. Cliquez sur le bouton **`screens-receiver-user`** et cliquez sur **Désactiver** dans la barre d’actions.
 
    >[!IMPORTANT]
-   > Désactivation **`screens-receiver-user`** désactive uniquement cet utilisateur de l’instance de création et tous les utilisateurs de l’instance de publication restent actifs. Ne pas cliquer **Désactiver** dans la barre d’actions, car la désactivation supprime également l’utilisateur des instances de publication.
+   > La désactivation de **`screens-receiver-user`** désactive uniquement cette personne de l’instance de création. Tous les utilisateurs et toutes les utilisatrices de l’instance de publication restent actifs. Ne cliquez pas sur **Désactiver** dans la barre d’actions, car la désactivation supprime également l’utilisateur ou l’utilisatrice des instances de publication.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
@@ -90,24 +90,24 @@ Pour activer les utilisateurs et mettre à jour le mot de passe de `screens-rece
 
 ## Mise à jour des paramètres de l’agent de réplication Screens {#replicate-agent}
 
-Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent de réplication AEM Screens :
+Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent de réplication Screens :
 
 >[!IMPORTANT]
->Effectuez les étapes suivantes sur TOUS les agents de réplication AEM Screens existants.
+>Vous devez effectuer les étapes suivantes sur TOUS les agents de réplication Screens existants.
 
 1. Accédez à votre instance AEM.
 1. Cliquez sur Outils > **Déploiement** > **Réplication**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Cliquez sur **Agents sur l’auteur**.
+1. Cliquez sur **Agents sur l’instance de création**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Recherchez tous les agents de réplication AEM Screens sur l’auteur et cliquez sur le lien, comme illustré dans la figure ci-dessous.
+1. Recherchez tous les agents de réplication AEM Screens sur l’instance de création et cliquez sur le lien, comme illustré ci-dessous.
 
    >[!NOTE]
-   >Recherchez tous les agents de réplication AEM Screens. Le nom de l’agent de réplication Screens comprend la lettre **s** dans le titre.
+   >Recherchez tous les agents de réplication AEM Screens. Le nom de l’agent de réplication Screens comprend la lettre **S** dans le titre.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
@@ -119,7 +119,7 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Accédez à **Transport** à partir de la **Paramètres de l’agent** et mettre à jour la boîte de dialogue **Utilisateur** to **`screens-receiver-user`** et saisissez le même mot de passe que celui défini précédemment à l’étape (8) de [Activation des utilisateurs et mise à jour du mot de passe](#enable-users).
+1. Accédez à l’onglet **Transfert** à partir de la boîte de dialogue **Paramètres d’agent**, mettez à jour l’**Utilisateur ou l’utilisatrice** avec **`screens-receiver-user`**, puis saisissez le même mot de passe que celui que vous avez défini à l’étape (8) intitulée [Activation des utilisateurs et utilisatrices et mise à jour du mot de passe](#enable-users).
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 

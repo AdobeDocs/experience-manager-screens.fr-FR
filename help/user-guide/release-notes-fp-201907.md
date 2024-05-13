@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 201907
-description: Découvrez le Feature Pack 201907 d’AEM Screens, publié le 31 juillet 2019.
+title: Notes de mise à jour du pack de fonctionnalités 201907
+description: Découvrez le pack de fonctionnalités 201907 d’AEM Screens, publié le jeudi 31 juillet 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
@@ -13,11 +13,11 @@ exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 44%
+ht-degree: 53%
 
 ---
 
-# Notes de mise à jour du Feature Pack 201907 {#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 201907 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ AEM Screens a publié AEM 6.4.5 Feature Pack 5 et AEM 6.5.1 Feature Pack 1 a
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 201907 est le mercredi 31 juillet 2019.
+La date de publication du pack de fonctionnalités 201907 d’AEM Screens est le 31 juillet 2019.
 
 ### Nouveautés {#what-s-new}
 
@@ -58,12 +58,12 @@ Le gestionnaire de mise à jour analyse désormais les fragments d’expérience
 
 * **Lancements**
 
-Les lancements permettent aux auteurs de contenu de créer des versions ultérieures des canaux. Grâce aux lancements, les auteurs peuvent prévisualiser chaque canal du lancement et doivent pouvoir lancer une demande de révision. Le groupe des approbateurs reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les appareils.
+Les lancements permettent aux auteurs de contenu de créer des versions ultérieures des canaux. Grâce aux lancements, les auteurs peuvent prévisualiser chaque canal du lancement et doivent pouvoir lancer une demande de révision. Le groupe des approbateurs et approbatrices reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les appareils.
 Voir [Lancements](launches.md) pour plus d’informations.
 
 * **Configurations hors ligne dans les fragments d’expérience**
 
-Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens. Voir [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
+Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens. Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés
 

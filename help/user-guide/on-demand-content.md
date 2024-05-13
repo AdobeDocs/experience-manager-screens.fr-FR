@@ -1,6 +1,6 @@
 ---
-title: Mise à jour du contenu On-Demand
-description: Découvrez la mise à jour du contenu On-Demand pour la gestion des publications.
+title: Mise à jour du contenu à la demande
+description: Découvrez la mise à jour du contenu à la demande pour la gestion des publications.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer
@@ -9,23 +9,23 @@ exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 24%
+ht-degree: 75%
 
 ---
 
-# Mise à jour du contenu On-Demand {#on-demand}
+# Mise à jour du contenu à la demande {#on-demand}
 
-Cette section décrit le contenu On-Demand pour la gestion des publications.
+Cette section décrit le contenu à la demande pour la gestion des publications.
 
-## Gestion de la publication : diffusion des mises à jour de contenu de l’auteur à la publication sur le périphérique {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Gestion de la publication : diffusion des mises à jour de contenu de l’instance de création vers l’instance de publication vers l’appareil. {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Vous pouvez publier et dépublier le contenu à partir d’AEM Screens. La fonction Gérer la publication vous permet de diffuser des mises à jour de contenu de l’auteur à publier sur le périphérique. Vous pouvez publier/annuler la publication de contenu pour l’ensemble du projet AEM Screens ou uniquement pour l’un de vos canaux, emplacement, périphérique, application ou planification.
+Vous pouvez publier le contenu et annuler sa publication à partir d’AEM Screens. La fonctionnalité Gérer les publications vous permet de diffuser des mises à jour de contenu de création vers l’instance de publication vers l’appareil. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, appareils, applications ou plannings.
 
-### Gestion de la publication pour un projet AEM Screens {#managing-publication-for-an-aem-screens-project}
+### Gestion de la publication pour un projet AEM Screens {#managing-publication-for-an-aem-screens-project}
 
-Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’auteur à la publication sur le périphérique pour un projet AEM Screens :
+Pour diffuser des mises à jour de contenu de l’instance de création vers l’instance de publication vers l’appareil pour un projet AEM Screens, procédez comme suit :
 
-1. Accédez à votre projet AEM Screens.
+1. Accédez à votre projet AEM Screens.
 1. Cliquez sur **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le projet sur votre instance de publication.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
@@ -42,21 +42,24 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu de l’
 
    >[!NOTE]
    >
-   >Par défaut, toutes les cases sont cochées et vous devez les décocher manuellement pour publier tous les modules de votre projet.
+   >Par défaut, toutes les cases seront cochées et vous devrez les décocher manuellement pour publier tous les modules de votre projet.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
    **Comprendre la boîte de dialogue Inclure les enfants**
 
-   Les étapes mentionnées ci-dessus montrent comment publier l’intégralité du contenu. Si vous souhaitez utiliser les trois autres alternatives disponibles, vous devez cocher cette option particulière.
-Par exemple, l’image suivante montre comment gérer et mettre à jour uniquement les pages modifiées de votre projet :
+   Les étapes mentionnées ci-dessus montrent comment publier l’intégralité du contenu. Si vous voulez utiliser les trois autres alternatives disponibles, vous devez cocher cette option.
+Par exemple, l’image suivante montre comment vous pouvez gérer et mettre à jour uniquement les pages modifiées de votre projet :
    ![image](assets/author-publish-manage.png)
 
-   Suivez les explications ci-dessous pour comprendre les options disponibles :
+   Suivez les explications ci-dessous pour comprendre les options disponibles :
 
-   1. **Inclure uniquement les enfants immédiats**: cette option vous permet de gérer les mises à jour uniquement sur les sous-noeuds de la structure de votre projet.
-   1. **Inclure uniquement les pages modifiées**: cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet où les modifications se trouvent dans la structure de votre projet.
-   1. **Inclure uniquement les pages déjà publiées**: cette option permet de gérer les mises à jour uniquement sur les pages qui ont été publiées auparavant.
+   1. **Inclure uniquement les enfants directs** :
+cette option vous permet de gérer les mises à jour uniquement sur les sous-nœuds de la structure de votre projet.
+   1. **Inclure uniquement les pages modifiées** :
+cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet où les modifications se trouvent dans la structure de votre projet.
+   1. **Inclure uniquement les pages déjà publiées** :
+cette option vous permet de gérer les mises à jour uniquement sur les pages qui ont déjà été publiées.
 
 
 1. Dans la **`Manage Publication wizard`**, cliquez sur **Publier**.
@@ -68,7 +71,7 @@ Par exemple, l’image suivante montre comment gérer et mettre à jour uniqueme
    >Patientez quelques secondes/minutes pour que le contenu atteigne l’instance de publication.
    >
    >
-   >    1. Le workflow ne fonctionne pas s’il n’y a aucune modification dans le projet et rien pour **Mettre à jour le contenu hors ligne**.
+   >    1. Le workflow ne fonctionne pas si le projet ne contient aucune modification et qu’il n’y a pas lieu de **mettre à jour le contenu hors ligne**.
    >    1. Le processus ne fonctionne pas si l’auteur n’effectue pas le processus de réplication (le contenu est toujours téléchargé vers l’instance de publication) après avoir sélectionné la variable **Publier** dans le workflow de gestion des publications.
 
    >[!CAUTION]
@@ -81,15 +84,15 @@ Par exemple, l’image suivante montre comment gérer et mettre à jour uniqueme
 
    >[!NOTE]
    >
-   >Une fois que vous avez terminé le processus de gestion de la publication, et si un lecteur pointe vers l’instance d’auteur, déclenchez la mise à jour du contenu hors ligne dans l’auteur. Cela crée la mise à jour hors ligne sur l’instance d’auteur.
+   >Une fois que vous avez terminé le workflow de gestion de la publication, et si un lecteur pointe vers l’instance de création, déclenchez la mise à jour du contenu hors ligne dans l’instance de création. La mise à jour hors ligne est créée sur l’instance de création.
 
    >[!CAUTION]
    >
-   >Déclenchez la mise à jour du contenu hors ligne dans l’instance d’auteur si un lecteur est enregistré sur le serveur de création. La mise à jour du contenu hors ligne n’est pas requise pour le lecteur enregistré sur l’instance de publication.
+   >Déclenchez la mise à jour du contenu hors ligne dans l’instance de création si un lecteur est enregistré sur le serveur de création. La mise à jour du contenu hors ligne n’est pas requise pour le lecteur enregistré sur l’instance de publication.
 
-### Gestion des publications pour un canal {#managing-publication-for-a-channel}
+### Gestion de la publication pour un canal {#managing-publication-for-a-channel}
 
-Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu à partir de l’instance Auteur > Publier > Appareil pour un canal dans un projet AEM Screens :
+Pour diffuser des mises à jour de contenu de l’instance de création vers l’instance de publication puis vers l’appareil pour un canal dans un projet AEM Screens, procédez comme suit :
 
 >[!NOTE]
 >
@@ -112,7 +115,7 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu à part
    >
    >Patientez quelques secondes/minutes pour que le contenu atteigne l’instance de publication.
 
-1. Déclenchement **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal envoie uniquement le contenu hors ligne à l’instance d’auteur, mais pas à l’instance de publication. Les étapes 1 à 4 permettent de transférer du contenu hors ligne vers l’instance de publication.
+1. Le déclenchement de **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal envoie le contenu hors ligne vers l’instance de création uniquement, mais pas vers l’instance de publication. Les étapes 1 à 4 permettent d’envoyer le contenu hors ligne vers l’instance de publication.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
@@ -120,7 +123,7 @@ Suivez les étapes ci-dessous pour diffuser des mises à jour de contenu à part
    >
    >Publiez d’abord, puis déclenchez la mise à jour du contenu hors ligne, comme indiqué dans les étapes précédentes.
 
-### Réaffectation de canal et de périphérique : {#channel-and-device-re-assignment}
+### Réaffectation de canal et d’appareil : {#channel-and-device-re-assignment}
 
 Si vous avez réaffecté un appareil, publiez l’affichage initial et le nouvel affichage, une fois que l’appareil a été réaffecté au nouvel affichage.
 

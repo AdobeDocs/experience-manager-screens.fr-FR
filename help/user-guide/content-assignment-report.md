@@ -8,7 +8,7 @@ exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -26,7 +26,7 @@ Le rapport d’affectation de contenu permet non seulement de prévisualiser tou
 ### Conditions préalables {#pre-reqs}
 
 Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des périphériques.
-Pour plus d’informations, consultez les ressources suivantes :
+Pour plus d’informations, référez-vous aux ressources ci-dessous :
 
 1. [Création et gestion des projets](/help/user-guide/creating-a-screens-project.md)
 1. [Création et gestion des canaux](/help/user-guide/managing-channels.md)

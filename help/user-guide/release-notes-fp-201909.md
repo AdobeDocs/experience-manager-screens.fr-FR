@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 201909
-description: En savoir plus sur le Feature Pack 201909 AEM Screens, publié le 31 juillet 2019.
+title: Notes de mise à jour du pack de fonctionnalités 201909
+description: En savoir plus sur le pack de fonctionnalités 201909 AEM Screens, publié le jeudi 31 juillet 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,44 +8,44 @@ exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 37%
+ht-degree: 76%
 
 ---
 
-# Notes de mise à jour du Feature Pack 201909{#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 201909{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
 >Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
-AEM Screens a publié AEM 6.4.6 Feature Pack 6 et AEM 6.5.2 Feature Pack 2 avec les détails suivants.
+AEM Screens a publié le pack de fonctionnalité 6 AEM 6.4.6 et le pack de fonctionnalités 2 AEM 6.5.2 avec les détails suivants.
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 201909 est le lundi 7 octobre 2019.
+La date de publication du pack de fonctionnalités 201909 AEM Screens est le 7 octobre 2019.
 
 ### Nouveautés {#what-s-new}
 
-* **Mises à jours : amélioration de l’interface utilisateur de création de projet Screens**
+* **Amélioration des mises à jour de l’interface utilisateur pour créer un projet Screens**
 
-  Une interface utilisateur mise à jour pour la création d’un projet AEM Screens est désormais disponible. Vous pouvez créer un projet Screens en quelques clics simples. En outre, l’onglet Propriétés de chaque projet dispose désormais d’une interface utilisateur plus intuitive.
+  Une interface utilisateur mise à jour pour la création d’un projet AEM Screens est désormais disponible. Vous pouvez créer un projet Screens en quelques clics simples. De plus, l’onglet Propriétés de chaque projet comporte désormais une interface utilisateur plus intuitive.
 
-  Voir [Création d’un projet Screens](creating-a-screens-project.md) pour plus d’informations.
+  Consultez [Création d’un nouveau projet Screens](creating-a-screens-project.md) pour plus d’informations.
 
-* **Tableau de bord des périphériques amélioré**
+* **Tableau de bord amélioré pour les appareils**
 
-  Le tableau de bord du périphérique affiche les informations, l’état, les captures d’écran, les journaux, les préférences et les détails du périphérique qui vous permettent de surveiller les activités et les fonctions du périphérique. Les panneaux ont été mis à jour.
+  La tableau de bord de l’appareil affiche les informations relatives à l’appareil, son statut, ses copies d’écran, ses journaux, ses préférences, ainsi que les détails nécessaires pour surveiller les activités et les fonctions de l’appareil. Les panneaux ont été mis à jour.
 
-  Voir [Dépannage du Centre de contrôle des périphériques](monitoring-screens.md) pour plus d’informations.
+  Pour plus d’informations, consultez [Dépannage du Centre de contrôle des appareils](monitoring-screens.md).
 
-* **Activation du délai d’expiration pour autoriser l’interaction clavier**
+* **Activer le délai d’expiration pour autoriser l’interaction clavier**
 
-  Activez les périphériques de contrôle à distance comme alternative au panneau tactile. L’interaction tactile et le délai d’expiration de l’activité gèrent les saisies au clavier.
+  Activez les appareils de contrôle à distance comme alternative au panneau tactile. L’interaction tactile et le délai d’expiration de l’activité gèrent les saisies au clavier.
 
 * **Configurations hors ligne dans les fragments d’expérience**
 
-  Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration du fragment d’expérience Screens.
-Voir [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
+  Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration d’un fragment d’expérience Screens.
+Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés
 

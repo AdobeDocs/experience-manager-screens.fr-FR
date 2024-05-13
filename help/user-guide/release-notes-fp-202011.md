@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 202011
-description: En savoir plus sur le Feature Pack 202011 AEM Screens, publié le 30 novembre 2020.
+title: Notes de mise à jour du Pack de fonctionnalités 202011
+description: En savoir plus sur le pack de fonctionnalités 202011 AEM Screens, publié le mardi 30 novembre 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: b080a697-0e65-4ae1-a161-669c3098246b
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 42%
+ht-degree: 53%
 
 ---
 
-# Notes de mise à jour du Feature Pack 202011 {#release-notes-for-feature-pack}
+# Notes de mise à jour du Pack de fonctionnalités 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
@@ -21,11 +21,11 @@ ht-degree: 42%
 
 AEM Screens inclus dans le Feature Pack 6 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.6 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP6**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.6 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP6**.
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202011 d’AEM Screens est le 30 novembre 2020.
+La date de publication du Pack de fonctionnalités 202011 d’AEM Screens est le 30 novembre 2020.
 
 ### Nouveautés {#what-is-new}
 
@@ -38,12 +38,12 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 * **Lecteur Tizen**
 
   Un nouveau lecteur, appelé lecteur Tizen, a été introduit avec le dernier Feature Pack pour AEM Screens 6.5.6.
-Voir [Mise en oeuvre du lecteur Tizen](/help/user-guide/tizen-player.md) pour plus d’informations.
+Voir [Mise en œuvre du lecteur Tizen](/help/user-guide/tizen-player.md) pour plus d’informations.
 
 * **Fonctionnalité de recherche à partir du Gestionnaire d’appareils**
 
   Une nouvelle fonctionnalité de recherche est désormais disponible dans l’interface utilisateur du Gestionnaire de périphériques avec le dernier Feature Pack pour AEM Screens 6.5.6.
-Voir [Recherche d’un périphérique à partir du Gestionnaire de périphériques](/help/user-guide/device-registration.md#search-device) pour plus d’informations.
+Pour plus d’informations, voir [Recherche d’un appareil à partir du Gestionnaire d’appareils](/help/user-guide/device-registration.md#search-device).
 
 * **Intervalle de ping par défaut**
 

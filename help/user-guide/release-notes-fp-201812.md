@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 201812
-description: Découvrez le Feature Pack 201812 d’AEM Screens, publié le 16 janvier 2019.
+title: Notes de mise à jour du pack de fonctionnalités 201812
+description: Découvrez le pack de fonctionnalités 201812 d’AEM Screens, publié le 16 janvier 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,21 +13,21 @@ exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 40%
+ht-degree: 61%
 
 ---
 
-# Notes de mise à jour du Feature Pack 201812{#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 201812{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
 >Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
-AEM Screens a publié AEM 6.3 Feature Pack 5 et AEM 6.4 Feature Pack 3 avec les détails suivants.
+AEM Screens a publié le pack de fonctionnalité 5 AEM 6.3 et le pack de fonctionnalités 3 AEM 6.4 avec les détails suivants.
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 201812 est 16 janvier 2019.
+La date de publication du pack de fonctionnalités 201812 d’AEM Screens est 16 janvier 2019.
 
 ### Nouveautés {#what-s-new}
 
@@ -37,7 +37,7 @@ La date de publication d’AEM Screens Feature Pack 201812 est 16 janvier 201
 
 * **Planification multiressource** :
 
-  La planification multiressource permet à l’utilisateur de cliquer sur plusieurs ressources et d’appliquer une planification de lecture à toutes les ressources sélectionnées. Voir **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
+  La planification multiressource permet à l’utilisateur de cliquer sur plusieurs ressources et d’appliquer une planification de lecture à toutes les ressources sélectionnées. Voir la section **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
 
 * **Disposition multizone** :
 

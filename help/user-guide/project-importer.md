@@ -1,6 +1,6 @@
 ---
 title: Nouvel importateur de projet à partir d’un fichier
-description: Cette fonctionnalité vous permet d’importer en bloc un ensemble d’emplacements à partir d’une feuille de calcul CSV/XLS dans votre projet AEM Screens.
+description: Cette fonctionnalité permet d’importer en bloc un ensemble d’emplacements dans votre projet AEM Screens depuis une feuille de calcul CSV/XLS.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 49%
+ht-degree: 85%
 
 ---
 
@@ -55,15 +55,15 @@ Le modèle de données de l’Importateur de projet est décrit ci-dessous :
 | ***`template {string}`*** | Titre facultatif à utiliser pour la page |
 | ***`[./jcr:description] {string}`*** | Description facultative à utiliser pour la page |
 
-La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
+La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 
-* **path {string}** - Le chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire, *`/foo`* est importé dans *`/content/screens/<project>/locations/foo`*)
-* **modèle {string}** - Le modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est &quot;location&quot;, mais il sera étendu ultérieurement à tous les modèles Screens (`display`, `sequencechannel`, etc.)
-* **[./*] {string}** - Toute propriété facultative à définir sur l’emplacement (c’est-à-dire, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La version actuelle ne permet aucun filtrage.
+* **path {string}** : chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire *`/foo`* est importé dans *`/content/screens/<project>/locations/foo`*).
+* **template {string}** : modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est « location », mais il sera étendu ultérieurement à tous les modèles Screens (`display`, `sequencechannel`, etc.).
+* **[./*] {string}** : toute propriété facultative à définir sur l’emplacement (c’est-à-dire, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La version actuelle ne permet aucun filtrage.
 
 >[!NOTE]
 >
->Toute colonne qui ne correspond pas aux conditions ci-dessus est ignorée. Par exemple, si une autre colonne est définie dans votre feuille (fichier CSV/XLS) autre que **path**, **modèle**, **title**, et **description** dans votre fichier , ces champs sont ignorés. Et, **Importateur de projet** ne valide pas ces champs supplémentaires pour l’importation de votre projet dans votre projet AEM Screens.
+>Toute colonne qui ne correspond pas aux conditions ci-dessus est simplement ignorée. Par exemple, si une autre colonne est définie dans votre feuille (fichier CSV/XLS) autre que **path**, **template**, **title** et **description** dans votre fichier, ces champs sont ignorés. Par ailleurs, l’**Importateur de projet** ne valide pas ces champs supplémentaires pour l’importation de votre projet dans votre projet AEM Screens.
 
 ## Utilisation de l’importateur de projet {#using-project-importer}
 
@@ -79,9 +79,9 @@ La section suivante décrit l’utilisation de l’importateur de projets dans u
 
 ### Conditions préalables {#prerequisites}
 
-* Créez un projet intitulé **DemoProjectImport**
+* Créez un projet intitulé **DemoProjectImport**.
 
-* Utilisez un exemple de fichier CSV ou Excel à importer.
+* Utilisez en exemple un fichier CSV ou Excel que vous devez importer.
 
 A des fins de démonstration, vous pouvez télécharger un fichier Excel depuis la section ci-dessous.
 
@@ -89,7 +89,7 @@ A des fins de démonstration, vous pouvez télécharger un fichier Excel depuis 
 
 ### Importation du fichier avec un minimum de champs obligatoires {#importing-the-file-with-minimum-required-fields}
 
-Pour importer un fichier dans un dossier d’emplacement avec un minimum de champs obligatoires, procédez comme suit :
+Pour importer un fichier dans un dossier d’emplacement avec un minimum de champs obligatoires, procédez comme suit :
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. La variable **Importer** s’affiche. Cliquez sur le fichier de votre projet avec les emplacements ou cliquez sur le fichier (***minimal-file.xls***) que vous avez téléchargé à partir de la fonction *Conditions préalables* .
+1. L’assistant **Importation** s’affiche. Cliquez sur le fichier de votre projet avec les emplacements ou cliquez sur le fichier (***minimal-file.xls***) que vous avez téléchargé à partir de la fonction *Conditions préalables* .
 
    Une fois le fichier sélectionné, cliquez sur **Suivant**.
 
@@ -115,6 +115,6 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. Par conséquent, vous pouvez désormais afficher tous les emplacements importés dans votre projet.
+1. Par conséquent, vous pouvez maintenant afficher tous les emplacements importés dans votre projet.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)

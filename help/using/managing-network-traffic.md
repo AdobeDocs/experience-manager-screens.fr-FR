@@ -5,7 +5,7 @@ exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Ce guide présente les serveurs proxy, suivis des différentes structures résea
 >**Configuration requise pour le réseau AEM Screens**
 >AEM Screens communique directement avec l’as a Cloud Service AEM. Il est donc nécessaire d’établir une connexion stable entre les deux noeuds. Les pare-feu sont obligatoires pour l&#39;accès commercial à Internet. En tant que client, déterminez les ports de communication qui doivent être ouverts dans ces pare-feu et autres composants réseau liés à la sécurité informatique.
 
-## Présentation des serveurs proxy {#proxy-servers}
+## Vue d’ensemble des serveurs proxy {#proxy-servers}
 
 Une connexion Internet repose sur l’utilisation d’un serveur proxy. Un serveur proxy est un ordinateur dédié ou un système logiciel s’exécutant sur un ordinateur. Il agit comme intermédiaire entre un périphérique de point d’entrée, tel qu’un ordinateur, et un autre serveur à partir duquel un utilisateur ou un client demande un service. Le serveur proxy peut exister sur la même machine qu’un serveur de pare-feu ou sur un serveur distinct qui transfère les demandes par le biais du pare-feu.
 
@@ -29,7 +29,7 @@ Lorsqu’un serveur proxy reçoit une requête de ressource Internet (telle qu�
 
 ## Présentation des configurations réseau standard {#network-setups}
 
-Pour mettre en oeuvre une configuration réseau, consultez les scénarios suivants avec leurs points forts et les détails de déploiement.
+Pour mettre en œuvre une configuration réseau, consultez les scénarios suivants avec leurs avantages et les détails de leurs déploiements.
 
 Ce guide met en évidence quatre types de configurations réseau au sein d’une organisation :
 

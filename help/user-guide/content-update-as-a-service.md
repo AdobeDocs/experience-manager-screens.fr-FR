@@ -9,7 +9,7 @@ exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 75%
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section couvre les sujets suivants relatifs à la mise à jour de contenu 
 
 ## Vue d’ensemble {#overview}
 
-Mise à jour hors ligne en bloc, vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
+La fonction Mise à jour hors ligne en bloc vous permet de mettre à jour tous les canaux en bloc. Cela évite d’avoir à naviguer vers un canal particulier pour en mettre à jour le contenu. Vous pouvez plutôt mettre à jour tout le contenu des canaux d’un projet spécifique en un seul instant.
 
 Vous pouvez également planifier cette activité pour une période de trafic réseau plus faible.
 
@@ -45,7 +45,7 @@ Vous pouvez manuellement utiliser la mise à jour hors ligne en bloc à partir d
 
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
-1. Accédez à votre projet AEM Screens.
+1. Accédez à votre projet AEM Screens.
 1. Cliquez sur le projet, puis sur **Mettre à jour le contenu hors ligne** depuis la barre d’actions pour mettre à jour manuellement le contenu du canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
@@ -69,6 +69,6 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    >
    >Spécifiez le chemin du projet par rapport à votre canal.
 
-   **Fréquence des planifications** Indiquez une heure, par exemple, 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
+   **Fréquence de planning** Indiquez une heure, par exemple, 17 h 00, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
 1. Cliquez sur **Enregistrer** vous pouvez donc enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure indiquée.

@@ -13,7 +13,7 @@ exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 45%
+ht-degree: 67%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 
 Le lecteur Screens fournit une prise en charge hors ligne des canaux à l’aide du ***ContentSync*** technologie.
 
-Les lecteurs utilisent un serveur http local pour diffuser le contenu décompressé.
+Les lecteurs utilisent un serveur HTTP local pour diffuser le contenu décompressé.
 
 Lorsqu’un canal est configuré pour s’exécuter *en ligne*, le lecteur diffuse les ressources du canal en accédant au serveur AEM. Cependant, lorsque le canal est configuré pour s’exécuter *hors ligne*, le lecteur diffuse les ressources de canal à partir d’un serveur http local.
 
@@ -35,12 +35,12 @@ Le workflow du processus est le suivant :
 
 ## Gestionnaires de mise à jour {#update-handlers}
 
-***ContentSync*** utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique. AEM Screens utilise les gestionnaires de mise à jour suivants :
+***ContentSync*** utilise des gestionnaires de mise à jour pour analyser et collecter toutes les pages et tous les actifs nécessaires à un projet spécifique. AEM Screens utilise les gestionnaires de mise à jour suivants :
 
 ### Options communes {#common-options}
 
-* *type*: type de gestionnaire de mise à jour à utiliser
-* *path*: chemin d’accès à la ressource
+* *type* : type de gestionnaire de mise à jour à utiliser
+* *path* : chemin d’accès à la ressource
 * *[targetRootDirectory]* : dossier cible dans le fichier zip
 
 <table>
@@ -88,9 +88,9 @@ Suivez les étapes ci-dessous pour tester la configuration de ContentSync :
 
 ## Activation de la configuration hors ligne d’un canal {#enabling-offline-config-for-a-channel}
 
-Pour activer la configuration hors ligne d’un canal, procédez comme suit :
+Pour activer la configuration hors ligne d’un canal, procédez comme suit :
 
-1. Inspect le contenu du canal et vérifiez s’il est demandé à une instance AEM (en ligne).
+1. Inspectez le contenu du canal et vérifiez s’il est demandé par une instance AEM (en ligne).
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -118,4 +118,4 @@ Pour activer la configuration hors ligne d’un canal, procédez comme suit :
 
 >[!NOTE]
 >
->Pour en savoir plus sur le modèle des gestionnaires personnalisés de ressources hors ligne et sur les exigences minimales du `pom.xml` pour ce projet spécifique, voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Développement d’un composant personnalisé pour AEM Screens**.
+>Pour en savoir plus sur le modèle des gestionnaires de ressources hors ligne personnalisés et sur les exigences minimales relatives au fichier `pom.xml` pour ce projet spécifique, voir [Modèle pour les gestionnaires personnalisés](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) dans **Développement d’un composant personnalisé pour AEM Screens**.

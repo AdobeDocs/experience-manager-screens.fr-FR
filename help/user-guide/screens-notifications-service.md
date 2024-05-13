@@ -1,6 +1,6 @@
 ---
-title: Service de notifications AEM Screens
-description: Découvrez comment surveiller l’activité des périphériques pour AEM Screens.
+title: Service de notifications AEM Screens
+description: Découvrez comment surveiller l’activité des appareils pour AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,15 +12,15 @@ exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 19%
+ht-degree: 95%
 
 ---
 
-# Service de notifications AEM Screens{#aem-screens-notifications-service}
+# Service de notifications AEM Screens{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***Service de notifications AEM Screens*** décrit l’activité du moniteur de périphérique.
+Le ***service de notifications AEM Screens*** décrit comment surveiller l’activité des appareils.
 
 Cette section couvre les sujets suivants :
 
@@ -44,63 +44,63 @@ Ce service peut être configuré dans la console web OSGi.
 
 ## Configuration des paramètres d’e-mail {#configuring-email-settings}
 
-Suivez les étapes ci-dessous pour configurer les paramètres de notification électronique :
+Pour configurer les paramètres de notification par e-mail, procédez comme suit :
 
 1. Ouvrez le gestionnaire de **configuration de la console Web d’Adobe Experience Manager**.
 1. Ouvrez le **Service de surveillance par e-mail des appareils Screens**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. Définissez les champs suivants afin de pouvoir configurer vos paramètres pour l&#39;email :
+1. Définissez les champs suivants pour configurer les paramètres d’e-mail :
 
-   **Chemin des périphériques** Saisissez le chemin d’accès aux projets Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
+   **Chemin d’accès aux appareils** Saisissez le chemin d’accès aux projets Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
 
-   Par exemple, si votre projet est **`We.Retail`**, utilisez le chemin du projet comme ***/home/users/screens/we-retail***.
-
-   >[!NOTE]
-   >
-   >Spécifiez le chemin du projet, où se trouvent les utilisateurs de l’appareil.
-
-   **Fréquence des planifications** - Spécifiez une heure (par exemple, 17 h 00 ou 17 h 00) ou une fréquence en heures (par exemple, 1) à laquelle ce moniteur doit envoyer des emails.
-
-   **Délai d’expiration du ping** - Cela spécifie l’intervalle en minutes après lequel un appareil doit être considéré comme inaccessible.
-
-   **Serveur SMTP** - Spécifie le serveur SMTP utilisé pour envoyer des emails.
-
-   **Port SMTP** - Saisissez le port SMTP.
-
-   **Utiliser TLS** - Transport Layer Security (TLS) vous permet d’utiliser une communication sécurisée avec le serveur SMTP.
-
-   Adobe vous recommande d’utiliser TLS pour établir une connexion sécurisée aux serveurs de messagerie d’entreprise. Vérifiez auprès de votre administrateur de messagerie les valeurs appropriées.
-
-   **username** - Indiquez le nom d’utilisateur pour l’envoi des emails.
-
-   **password** - Indiquez le mot de passe d’envoi des emails.
-
-   **Destinataire** - Indiquez l&#39;adresse email du destinataire.
+   Par exemple, si votre projet est **`We.Retail`**, vous utiliserez le chemin du projet ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
-   >Vous ne pouvez saisir qu’une seule adresse e-mail. Pour envoyer un email en bloc, créez un groupe ou une liste de distribution avec les utilisateurs concernés.
+   >Spécifiez le chemin du projet, où se trouvent les utilisateurs et utilisatrices de l’appareil.
+
+   **Fréquence de planning** Indiquez une heure (par exemple, 17 h 00 ou 17:00) ou une fréquence en heures (par exemple, 1) à laquelle ce moniteur doit envoyer des e-mails.
+
+   **Délai d’expiration du ping** Indique l’intervalle en minutes après lequel un appareil doit être considéré comme inaccessible.
+
+   **Serveur SMTP** Spécifie le serveur SMTP utilisé pour envoyer des e-mails.
+
+   **Port SMTP** Saisissez le port SMTP.
+
+   **Utiliser TLS** Le protocole TLS (Transport Layer Security) vous permet de communiquer de manière sécurisée avec le serveur SMTP.
+
+   Adobe recommande d’utiliser TLS pour établir une connexion sécurisée aux serveurs de messagerie d’entreprise. Vérifiez auprès de votre administrateur ou administratrice de messagerie les valeurs appropriées.
+
+   **Nom d’utilisateur ou d’utilisatrice** Indiquez le nom d’utilisateur ou d’utilisatrice utilisé pour l’envoi des e-mails.
+
+   **Mot de passe** Indiquez le mot de passe utilisé pour l’envoi des e-mails.
+
+   **Personne destinataire** Indiquez l’adresse e-mail de la personne destinataire.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez saisir qu’une seule adresse e-mail. Pour envoyer un e-mail en bloc, créez un groupe ou une liste de distribution contenant les utilisateurs et utilisatrices concernés.
 
 1. Cliquez sur **Enregistrer** pour configurer l’activité du moniteur par e-mail pour votre appareil AEM Screens.
 
 ## Notification par e-mail {#email-notification}
 
-Une fois la configuration définie pour vos notifications par e-mail, vous recevez une notification par e-mail contenant le lien vers le périphérique réel signalé comme inactif.
+Une fois la configuration définie pour vos notifications par e-mail, vous recevrez une notification par e-mail qui contiendra le lien vers l’appareil physique signalé comme inactif.
 
-Ce lien vous permet d’accéder directement au tableau de bord du périphérique.
+Ce lien vous mènera directement au tableau de bord de l’appareil.
 
-Les emails ne sont envoyés que si au moins un appareil n’a pas envoyé de ping pendant le délai d’expiration du ping donné et n’a toujours pas envoyé de ping au moment de la génération de l’email.
+Les e-mails ne sont envoyés que s’il existe au moins un appareil qui n’a pas renvoyé de ping pendant le délai d’expiration du ping spécifié et ne renvoie toujours pas de ping au moment de la génération de l’e-mail.
 
 ### Exemples de cas d’utilisation {#example-use-cases}
 
-L’exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance des emails des périphériques Screens.
+L’exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance par e-mail des appareils Screens.
 
 **Scénario 1**
 
-Définissez la fréquence de planification sur 1:00 et le délai d’expiration du ping sur 60. Ensuite, si votre appareil AEM Screens ne fait pas l’objet d’un ping entre 12h00 et 13h00, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.
+Définissez la fréquence de planning sur 13 h 00. et le délai d’expiration du test ping sur 60. Ensuite, si votre appareil AEM Screens n’effectue pas de ping entre 12 h 00 et 13 h 00, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.
 
 **Scénario 2**
 
-Vous définissez la fréquence de planification sur 1 et le délai d’expiration du ping sur 60. Ensuite, si votre appareil AEM Screens ne fait pas l’objet d’un ping une fois à un moment donné de la journée, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.
+Définissez la fréquence de planning sur 1 et le délai d’expiration du test ping sur 60. Ensuite, si votre appareil AEM Screens n’effectue pas de ping une fois à un moment donné de la journée, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.

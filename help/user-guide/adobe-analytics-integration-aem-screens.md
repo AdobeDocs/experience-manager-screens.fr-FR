@@ -13,7 +13,7 @@ exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 46%
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et demandez l’accès. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID.
+>Pour accéder à l’un de ces Feature Packs, contactez l’assistance Adobe et demandez l’accès. Vous pouvez télécharger le dernier Feature Pack pour AEM Screens à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID.
 
 Cette section couvre les sujets suivants :
 
@@ -33,7 +33,7 @@ Cette section couvre les sujets suivants :
 * **Particularités architecturales**
 * **Configuration des propriétés**
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 ***AEM Screens*** utilise Adobe Analytics. Vous pouvez ainsi obtenir un résultat unique sur le marché : des analyses cross-canal qui permettent de mettre en corrélation le contenu affiché à l’emplacement avec d’autres sources de données.
 
@@ -73,13 +73,13 @@ Accédez à **Configuration de la console web Adobe Experience Manager** vous po
 
 >[!CAUTION]
 >
->Avant de configurer les propriétés, contactez votre responsable des relations avec les Adobes pour créer un ticket et obtenir un **Clé API Analytics** et **Projet Analytics** à utiliser avec AEM Screens.
+>Avant de configurer les propriétés, contactez le ou la responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
 
 ### Configuration des propriétés {#configuring-the-properties}
 
 >[!CAUTION]
 >
->Avant de configurer les propriétés, contactez votre responsable des relations avec les Adobes pour créer un ticket et obtenir un **Clé API Analytics** et **Projet Analytics** à utiliser avec AEM Screens.
+>Avant de configurer les propriétés, contactez le ou la responsable des relations Adobe pour créer un ticket et obtenir une **clé d’API Analytics**, ainsi qu’un **projet Analytics** afin de l’utiliser avec AEM Screens.
 
 Le tableau suivant répertorie et décrit les propriétés permettant de configurer Adobe Analytics pour AEM Screens :
 
@@ -125,4 +125,4 @@ Les événements Analytics sont stockés hors ligne dans indexedDB, puis segment
 
 >[!NOTE]
 >
->Pour en savoir plus sur la variable ***Séquençage*** et ***Modèle de données standard pour les événements***, voir **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Pour en savoir plus sur le ***séquencement*** et le ***modèle de données standard d’événements***, voir **[Configuration d’Adobe Analytics pour AEM Screens](configuring-adobe-analytics-aem-screens.md)**.

@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 202004
-description: En savoir plus sur le Feature Pack 202004 AEM Screens, publié le 20 avril 2020.
+title: Notes de mise à jour du pack de fonctionnalités 202004
+description: En savoir plus sur le pack de fonctionnalités 202004 AEM Screens, publié le mardi 20 avril 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 31%
+ht-degree: 40%
 
 ---
 
-# Notes de mise à jour du Feature Pack 202004 {#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 202004 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -22,11 +22,11 @@ ht-degree: 31%
 
 AEM 6.4 Feature Pack 8 et AEM 6.5 Feature Pack 4 ont été publiés pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou AEM Screens 6.5.4 à partir de la [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.4.8 ou AEM Screens 6.5.4 à partir de la [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2020.
+La date de publication du pack de fonctionnalités 202004 AEM Screens est le 20 avril 2022.
 
 ### Nouveautés {#what-s-new}
 
@@ -40,7 +40,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
   Le flux d’expérience utilisateur de l’auteur de contenu a été amélioré et le nombre de clics pour utiliser la publication ultérieure a été réduit.
 
-  Voir **[Mise à jour de contenu à l’aide d’un lancement Screens](launches.md)** pour plus d’informations.
+  Pour plus d’informations, voir **[Mise à jour du contenu à l’aide d’un lancement Screens](launches.md)**.
 
 * **Tableau de bord des canaux**
 
@@ -51,7 +51,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
   Vous pouvez afficher le fichier de manifeste à partir du tableau de bord des canaux.
 
-  Voir **[Affichage du manifeste](/help/user-guide/managing-channels.md#view-manifest)**.
+  Consultez **[Affichage du manifeste](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Superposition de texte**
 
@@ -63,7 +63,7 @@ La date de publication d’AEM Screens Feature Pack 202004 est le 20 avril 2
 
   Avec cette version du Feature Pack, les améliorations du délai de synchronisation des commandes entre les modifications de ressources sont répercutées.
 
-  Voir **[Synchronisation des commandes](using-command-sync.md)** pour plus d’informations.
+  Pour plus d’informations, reportez-vous à **[Synchronisation des commandes](using-command-sync.md)**.
 
 ### Lecteurs AEM Screens publiés
 

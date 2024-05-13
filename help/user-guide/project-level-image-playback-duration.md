@@ -5,7 +5,7 @@ contentOwner: jsyal
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 36%
+ht-degree: 85%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 36%
 
 ## Vue d’ensemble {#overview}
 
-Cette fonctionnalité vous permet de définir la durée de lecture des images au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
+Cette fonctionnalité vous permet de définir la durée de lecture des images au niveau du projet. Par défaut, toutes les images héritent de cette durée de lecture. Si aucune durée n’est définie au niveau du projet, la lecture par défaut de 8 secondes se poursuit.
 
 ### Conditions préalables {#prerequisites}
 
-Avant d’utiliser cette fonctionnalité, configurez un projet comme condition préalable pour commencer à mettre en oeuvre cette fonctionnalité. par exemple,
+Avant de commencer à utiliser cette fonctionnalité, configurez un projet comme condition préalable du lancement de sa mise en œuvre. Par exemple :
 
-1. Créez un projet AEM Screens (dans cet exemple, **ProjectLevelPlayback**).
-1. Créez un canal de séquence sous la forme **PlayBackChannel** under **Canaux** dossier.
+1. Créer un projet AEM Screens (dans cet exemple, **ProjectLevelPlayback**).
+1. Créer un canal de séquence **PlaybackChannel** sous le dossier **Canaux**.
 1. Ajouter du contenu à **PlayBackChannel**.
 
    ![ressources](assets/image_playback1.png)
@@ -30,7 +30,7 @@ Avant d’utiliser cette fonctionnalité, configurez un projet comme condition p
 
    ![ressources](assets/image_playback2.png)
 
-## Modification de l’attribution d’une durée de lecture des images d’un projet {#editing-project-level-image-playback-duration-assignment}
+## Modification de l’attribution d’une durée de lecture des images au niveau d’un projet {#editing-project-level-image-playback-duration-assignment}
 
 La section ci-après explique comment modifier la durée de lecture d’un contenu d’un projet AEM Screens.
 
@@ -39,7 +39,7 @@ La section ci-après explique comment modifier la durée de lecture d’un conte
 
 >[!NOTE]
 >
->Si vous souhaitez mettre à jour une image ou une durée de lecture au niveau du canal, reportez-vous à la section [Durée de lecture des images au niveau du canal](channel-level-image-playback.md).
+>Si vous souhaitez mettre à jour une image ou une durée de lecture au niveau d’un canal, voir [Durée de lecture des images au niveau d’un canal](channel-level-image-playback.md).
 
 Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de lecture des images d’un projet :
 
@@ -50,7 +50,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de le
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. La variable **Page** s’ouvre.
+1. La boîte de dialogue **Page** s’ouvre.
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour la durée de le
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifiez la variable **Durée** de 8 000 (millisecondes) à 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite du **Page** pour enregistrer vos modifications.
+   Remplacez la **durée** 8 000 (millisecondes) par 3 000 (millisecondes), c’est-à-dire 3 secondes. Cochez la case en haut à droite du **Page** pour enregistrer vos modifications.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Affichage du résultat {#viewing-the-result}
+### Afficher le résultat {#viewing-the-result}
 
-Après avoir mis à jour la durée de lecture du canal (dans cet exemple, les trois images), notez que les images sont désormais lues pendant 3 secondes au lieu de 8 secondes (valeur par défaut).
+Après avoir mis à jour la durée de lecture du canal (en l’occurrence, les trois images), vous constatez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
 
 ![channel_preview](assets/channel_preview.gif)
 

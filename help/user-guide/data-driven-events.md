@@ -6,7 +6,7 @@ contentOwner: jsyal
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 16%
+ht-degree: 43%
 
 ---
 
@@ -19,7 +19,7 @@ Dans la signalétique digitale, les événements pilotés par les données inter
 
 AEM Screens permet l’utilisation d’événements pilotés par les données par l’intermédiaire de ContextHub. ContextHub vous permet d’utiliser le temps réel.
 
-### Catégorisation des événements pilotés par les données {#categorizing-data-driven-events}
+### Catégoriser des événements pilotés par les données {#categorizing-data-driven-events}
 
 Les événements pilotés par les données sont classés dans les quatre catégories suivantes :
 
@@ -34,7 +34,7 @@ Cet événement peut être classé dans Interruption du canal et Espace réserv�
 
 #### Données en présentation {#data-in-presentation}
 
-Les données s’exécutent dans le canal temporaire et, après un déclencheur, modifie une ressource dans un canal.
+Les données s’exécutent dans le canal temporaire et, après un déclencheur, modifient une ressource dans un canal.
 
 #### Données exploitables {#data-out-actionable}
 

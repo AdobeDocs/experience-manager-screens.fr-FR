@@ -13,7 +13,7 @@ exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 54%
+ht-degree: 61%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section couvre les sujets suivants :
 
 * **Validation de la sortie pour le processus**
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Le cas d’utilisation suivant implique de placer une vidéo (par exemple : 1280 x 720) dans un canal où l’affichage est de 1920 x 1080 et où la vidéo doit être placée à 0x0 (en haut à gauche). La vidéo ne doit pas être étirée ni modifiée d’aucune manière et n’utilisez pas **la couverture** dans le composant vidéo.
 
@@ -37,7 +37,7 @@ La vidéo s’affiche sous la forme d’un objet de pixel 1 à pixel 1280 sur et
 
 ## Conditions préalables {#prerequisites}
 
-Avant de créer un workflow pour la vidéo, remplissez les conditions préalables suivantes :
+Avant de créer un workflow pour la vidéo, veuillez remplir les conditions préalables suivantes :
 
 1. Téléchargez une vidéo dans le dossier **Ressources** de votre instance AEM
 1. Créez un projet AEM Screens (par exemple, **TestVideoRendition**) et un canal nommé (**VideoRendering**), comme illustré dans la figure ci-dessous :
@@ -82,7 +82,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 1. Cliquez sur l’onglet **Arguments**.
 1. Dans le **Ligne de commande - Propriétés des étapes** , saisissez le format dans la zone **Types MIME** (en tant que ***video/mp4***) et la commande comme (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Cette commande lance le workflow dans la fonction **Commandes** champ .
 
-   Consultez les détails de la **Types MIME** et **Commandes** dans la note ci-dessous.
+   Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
@@ -97,9 +97,9 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
 ### Utilisation du processus dans un projet AEM Screens {#using-the-workflow-in-an-aem-screens-project}
 
-Suivez les étapes ci-dessous pour utiliser le processus dans votre projet AEM Screens :
+Pour utiliser le workflow dans votre projet AEM Screens, procédez comme suit :
 
-1. Accédez à un projet AEM Screens (**TestVideoRendition** > **Canaux** >**VideoRendition**).
+1. Accédez à un projet AEM Screens (**TestVideoRendition** > **Canaux** > **VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

@@ -8,7 +8,7 @@ exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 42%
+ht-degree: 67%
 
 ---
 
@@ -40,7 +40,7 @@ Suivez les étapes ci-dessous :
 
 ### Attribution d’un nom au lecteur Tizen {#name-tizen}
 
-Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen, envoyant ainsi le nom d’appareil attribué à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Tizen, mais également d’attribuer facilement le contenu approprié.
+Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Tizen et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Tizen, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
 >Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
@@ -64,7 +64,7 @@ Suivez les étapes ci-dessous sur le périphérique Samsung afin de pouvoir term
    >[!NOTE]
    >Le lecteur Tizen doit pouvoir se connecter au serveur HTTP.
 
-1. Le lecteur AEM Screens installe et se lance automatiquement sur votre périphérique Samsung.
+1. Le lecteur AEM Screens est automatiquement installé et lancé sur votre appareil Samsung.
 
    >[!NOTE]
    >L’appareil Tizen et le serveur `http` doivent pouvoir se connecter les uns aux autres, c’est-à-dire que le serveur doit être accessible au lecteur Tizen.
@@ -73,33 +73,33 @@ Suivez les étapes ci-dessous sur le périphérique Samsung afin de pouvoir term
 ## Exonération des agents utilisateur avec le problème de cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Cette section s’applique à Adobe Experience Manager (AEM) 6.5.5 à AEM 6.5.7**
+>**Cette section s’applique à Adobe Experience Manager (AEM) versions 6.5.5 à 6.5.7**
 >
->Certains moteurs de navigateur sont incompatibles avec la variable *`SameSite=None`* utilisé dans le jeton de connexion émis par AEM 6.5.5 vers AEM 6.5.7. En règle générale, le problème peut être résolu en mettant à niveau le navigateur vers la dernière version disponible. Il arrive que de telles mises à niveau ne soient pas possibles, par exemple avec des affichages intelligents, des décodeurs ou d’autres périphériques avec des moteurs de navigation intégrés.
+>Certains moteurs de navigation sont incompatibles avec l’attribut *`SameSite=None`* utilisé dans le jeton de connexion émis par AEM versions 6.5.5 à 6.5.7. Le problème peut en général être résolu en mettant à jour le navigateur vers la dernière version disponible. Parfois, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans intelligents, des décodeurs ou d’autres appareils avec des moteurs de navigation intégrés.
 
 Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l’utilisation de l’attribut *SameSite=None* :
 
 1. Mettez à niveau vers le Service Pack Adobe Experience Manager (AEM) 6.5.7.
 
-1. Une fois AEM redémarré, accédez à `/system/console/configMgr` et recherchez **Gestionnaire d’authentification des jetons Adobe Granite**. Définissez la valeur **SameSite** sur **None**.
+1. Une fois AEM redémarré, accédez à `/system/console/configMgr` et recherchez **Adobe Granite Token Authentication Handler**. Définissez la valeur **SameSite** sur **None**.
 
-1. Vous devriez voir une nouvelle option. *`User agents to be exempted from samesite attribute`*. Renseignez cette option avec une expression régulière correspondant à l’agent utilisateur incompatible avec la variable *SameSite=None* attribut.
+1. Vous devriez voir une nouvelle option *`User agents to be exempted from samesite attribute`*. Renseignez cette option avec une expression régulière correspondant à l’agent utilisateur incompatible avec la variable *SameSite=None* attribut.
 
    >[!NOTE]
    >
-   >Consultez [SameSite=None : clients incompatibles connus](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations. Pour le lecteur Tizen, utilisez l’expression régulière : `(.*)Tizen(.*)`.
+   >Consultez [SameSite=None : clients incompatibles connus](https://www.chromium.org/updates/same-site/incompatible-clients) pour plus d’informations. Pour le lecteur Tizen, utilisez l’expression régulière : `(.*)Tizen(.*)`.
 
-1. Enregistrez le lecteur Tizen dans votre instance AEM 6.5.5 ou ultérieure, il doit alors s’enregistrer et afficher le contenu normalement.
+1. Enregistrez le lecteur Tizen dans votre instance AEM 6.5.5 ou ultérieure ; il doit alors s’enregistrer et afficher le contenu normalement.
 
 ## Mise en service à distance du lecteur Tizen {#remote-provisioning}
 
-La mise en service à distance du lecteur Tizen vous permet de déployer des centaines et des milliers d’affichages Samsung Tizen sans effort. Cela évite d’avoir à configurer manuellement chaque lecteur avec l’URL du serveur et le code d’enregistrement en masse, ou d’autres paramètres. Si AEM Screens est as a Cloud Service, configurez le mode cloud et le jeton cloud.
+La mise en service à distance du lecteur Tizen vous permet de déployer des centaines et des milliers d’affichages Samsung Tizen sans effort. Cela évite d’avoir à configurer manuellement chaque lecteur avec l’URL du serveur et le code d’enregistrement en bloc, ou d’autres paramètres. Si AEM Screens as a Cloud Service est présent, configurez le mode cloud et le jeton cloud.
 
 Cette fonctionnalité vous permet de configurer à distance le lecteur Tizen et de mettre à jour ces configurations de manière centralisée, si nécessaire. Tout ce dont vous avez besoin est le serveur `HTTP` utilisé pour héberger l’application Tizen `(wgt and xml file)` et un éditeur de texte pour enregistrer le code `config.json` avec les paramètres appropriés.
 
 Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.
 Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.
-Le lecteur Tizen installe et au lancement (et à chaque redémarrage), vérifie et applique les paramètres dans la variable `config.json` fichier .
+Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
 
 ### Exemple de politique JSON {#example-json}
 
@@ -118,8 +118,8 @@ Le lecteur Tizen installe et au lancement (et à chaque redémarrage), vérifie 
 Le tableau ci-dessous récapitule les politiques avec leurs fonctions.
 
 >[!NOTE]
->Les configurations de la stratégie de l’interface utilisateur d’administration du lecteur sont strictement appliquées et ne sont pas remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une stratégie spécifique, ne spécifiez pas la stratégie dans la configuration de la stratégie.
->Par exemple, si vous souhaitez autoriser une configuration manuelle pour la planification du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de la stratégie. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
+>Les configurations de la stratégie de l’interface utilisateur d’administration du lecteur sont strictement appliquées et ne sont pas remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.
+>Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
 
 | **Nom de la politique** | **Objectif** |
 |---|---|
@@ -130,7 +130,7 @@ Le tableau ci-dessous récapitule les politiques avec leurs fonctions.
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
 | enableOSD | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs puissent changer de canal sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
 | enableActivityUI | Activez cette option pour afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
-| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à l’AEM on-premise. |
+| cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 
@@ -147,7 +147,7 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 
 1. Configurez TLS, si nécessaire. Accédez au port, cliquez sur le numéro de port du serveur, puis cliquez sur **Enregistrer**.
 
-1. Accédez au **Appareil** et recherchez le périphérique que vous avez configuré. Lorsqu’un appareil est trouvé, cochez la case, puis cliquez sur **Approuver**.
+1. Accédez à l’onglet **Appareil** et recherchez l’appareil que vous avez configuré. Lorsqu’un appareil est trouvé, cochez la case, puis cliquez sur **Approuver**.
 
    >![image](/help/user-guide/assets/tizen/rms-3.png)
 
@@ -155,7 +155,7 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 
    >![image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Lorsque l’appareil est approuvé, il apparaît dans la liste des appareils. Cliquez sur *Informations* sur la zone de votre périphérique, comme illustré ci-dessous.
+1. Une fois l’appareil approuvé, il apparaît dans la liste des appareils. Cliquez sur *Informations* sur la zone de votre périphérique, comme illustré ci-dessous.
 
    >![image](/help/user-guide/assets/tizen/rms-6.png)
 
@@ -163,7 +163,7 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 
    >![image](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Modifiez les options du périphérique et cliquez sur le bouton **Configuration** . Accédez à **Lanceur d’URL** et saisissez l’URL hébergeant le wgt et `SSSP config file` pour pouvoir installer un `SSSP` , comme illustré dans la figure ci-dessous.
+1. Modifiez les options du périphérique et cliquez sur le bouton **Configuration** . Accédez à la section **Lanceur d’URL** et saisissez l’URL hébergeant le wgt et le `SSSP config file` pour installer une application `SSSP`, comme illustré ci-dessous.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 

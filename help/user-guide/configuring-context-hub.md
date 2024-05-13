@@ -1,6 +1,6 @@
 ---
 title: Configuration de ContextHub dans AEM Screens
-description: Découvrez ContextHub dans le moteur de ciblage afin de pouvoir définir l’entrepôt de données pour le changement de contenu du déclencheur de données.
+description: Découvrez ContextHub dans le moteur de ciblage afin de pouvoir définir le magasin de données pour le changement de contenu du déclencheur de données.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -13,27 +13,27 @@ exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 40%
+ht-degree: 82%
 
 ---
 
 # Configuration de ContextHub dans AEM Screens {#configuring-contexthub-in-aem-screens}
 
-Cette section met l’accent sur la création et la gestion des modifications de ressources pilotées par les données à l’aide d’un entrepôt de données.
+Cette section met l’accent sur la création et la gestion des modifications de ressources liées aux données à l’aide d’un magasin de données.
 
 ## Termes clés {#key-terms}
 
-Avant d’entrer dans les détails de la création et de la gestion des canaux pilotés par l’inventaire dans votre projet AEM Screens, découvrez certains des termes clés des différents scénarios.
+Avant de vous attaquer aux détails de la création et de la gestion des canaux pilotés par l’inventaire dans votre projet AEM Screens, vous devez connaître quelques-uns des termes clés importants et pertinents pour les différents scénarios.
 
-**Marque** - Description de votre projet de haut niveau.
+**Marque** : description de votre projet de haut niveau.
 
-**Zone** : nom de votre projet AEM Screens, par exemple signalétique digitale
+**Zone** : fait référence au nom de votre projet AEM Screens, comme par exemple signalétique numérique publicitaire.
 
-**Activité** - Définit les règles de catégorie telles que Basé sur l’inventaire, Basé sur la météo ou Basé sur la disponibilité du service.
+**Activité** : définit les règles de catégorie telles que Basé sur l’inventaire, Basé sur la météo ou Basé sur la disponibilité du service.
 
-**Audience** - Définit la règle.
+**Audience** : définit la règle.
 
-**Segment** - Version de la ressource à lire pour la règle donnée. Par exemple, si la température est inférieure à 50 degrés Fahrenheit, l’écran affiche une image d’une boisson chaude, autrement une boisson froide.
+**Segment** : version de la ressource à lire pour la règle donnée. Par exemple, si la température est inférieure à 50 degrés Fahrenheit, l’écran affiche une image d’une boisson chaude. Dans le cas contraire, une boisson froide est affichée.
 
 Le diagramme ci-dessous illustre visuellement comment les configurations ContextHub coïncident avec l’activité, l’audience et les canaux.
 
@@ -47,19 +47,19 @@ Avant de commencer à configurer les configurations ContextHub pour un projet AE
 >
 >Google Sheets est utilisé dans l’exemple suivant à titre d’exemple de système de base de données à partir duquel les valeurs sont récupérées et uniquement à des fins pédagogiques. Adobe n’approuve pas l’utilisation de Google Sheets dans des environnements de production.
 >
->Pour plus d’informations, voir [Obtenir la clé API](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation de Google.
+>Pour plus d’informations, reportez-vous à la section [Obtenir la clé API](https://developers.google.com/maps/documentation/javascript/get-api-key) dans la documentation Google.
 
 ## Étape 1 : configuration d’un magasin de données {#step-setting-up-a-data-store}
 
 Vous pouvez configurer le magasin de données en tant qu’événement d’E/S local ou d’événement de base de données local.
 
-L’exemple suivant de triggers de données au niveau des ressources présente un événement de base de données local qui configure un entrepôt de données, tel qu’une feuille Excel, qui vous permet d’utiliser les configurations ContextHub et le chemin d’accès aux segments vers le canal AEM Screens.
+L’exemple suivant concerne les déclencheurs de données au niveau des ressources. Il montre comment un événement de base de données local configure un magasin de données, tel qu’une feuille Excel, en utilisant les configurations ContextHub et le chemin d’accès aux segments vers le canal AEM Screens.
 
-Après avoir configuré la variable `google` , comme illustré dans l’exemple ci-dessous :
+Après avoir configuré correctement la feuille `google`, comme illustré dans l’exemple ci-dessous :
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-La validation suivante correspond à ce que vous voyez lorsque vous vérifiez votre connexion en saisissant les deux valeurs, `*google sheet ID*` et `*API key*` au format ci-dessous :
+La validation suivante correspond à ce que vous verrez si vous vérifiez votre connexion en saisissant les deux valeurs `*google sheet ID*` et `*API key*`, au format indiqué ci-dessous :
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
@@ -67,17 +67,17 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
 
 >[!NOTE]
 >
->L’exemple spécifique ci-dessous présente les feuilles de calcul Google Sheets comme un entrepôt de données qui déclenche une modification de ressource si la valeur est supérieure à 100 ou inférieure à 50.
+>L’exemple spécifique ci-dessous présente les feuilles de calcul Google comme un magasin de données chargé de déclencher un changement de ressource si la valeur est supérieure à 100 ou inférieure à 50.
 
 ## Étape 2 : paramétrage des configurations de magasin {#step-setting-store-configurations}
 
 1. **Accès à ContextHub**
 
-   Accédez à votre instance AEM et cliquez sur l’icône Outils dans la barre latérale gauche. Cliquez sur **Sites** > **ContextHub**, comme illustré dans la figure ci-dessous.
+   Accédez à votre instance AEM et cliquez sur l’icône Outils dans la barre latérale gauche. Cliquez sur **Sites** > **ContextHub**, comme illustré ci-dessous.
 
    ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
-1. **Création d’une configuration de magasin ContextHub**
+1. **Création une configuration de magasin ContextHub**
 
    1. Accédez au conteneur de configuration intitulé **screens**.
 
@@ -102,25 +102,25 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
    >
    >1. Accédez à CRXDE Lite, puis à `/conf/screens/settings/cloudsettings`.
    >1. Vérifiez que `cloudsettings jcr:primaryType` se trouve dans `sling:Folder`. Si `jcr:primaryType` ne se trouve pas dans `sling:folder`, passez aux étapes suivantes.
-   >1. Clic droit `/conf/screens/settings` et créez un noeud avec *name* as **`cloudsettings1`** et *Type* as **`sling:Folder`** et enregistrez les modifications.
+   >1. Cliquez avec le bouton droit sur `/conf/screens/settings` et créez un nœud avec le *nom* **`cloudsettings1`** et le *type* **`sling:Folder`**, puis enregistrez les modifications.
    >1. Déplacez tous les nœuds sous `/conf/screens/settings/cloudsettings` vers `cloudsettings1`.
    >1. Supprimez `cloudsettings` et enregistrez.
    >1. Renommez `cloudsettings1` en `cloudsettings` et enregistrez.
-   >1. Observez que `/conf/screens/settings/cloudsettings` has `jcr:primaryType` as `sling:Folder`.
+   >1. Observez que `/conf/screens/settings/cloudsettings` dispose du `jcr:primaryType` `sling:Folder`.
    >
-   >Procédez comme suit dans les sections Création et Publication avant ou après la mise à niveau.
+   >Vous devez suivre ces étapes dans l’instance de création et de publication avant ou après la mise à niveau.
 
-   1. Saisissez le **Titre** as **Google Sheets**, **Nom de la boutique** as **`googlesheets`**, et **Type de magasin** as **c`ontexthub.generic-jsonp`** et cliquez sur **Suivant**.
+   1. Saisissez le **Titre** **Google Sheets**, le **Nom du magasin** **`googlesheets`** et le **Type de magasin** **c`ontexthub.generic-jsonp`**, puis cliquez sur **Suivant**.
 
       >[!CAUTION]
-      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez la variable **Titre de la configuration** as **`googlesheets`** et la variable **Type de magasin** as **c`ontexthub.generic-jsonp`**.
+      >Si vous utilisez Adobe Experience Manager (AEM) 6.4, saisissez le **Titre de configuration** **`googlesheets`** et le **Type de magasin** **c`ontexthub.generic-jsonp`**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
    1. Entrez votre configuration json spécifique. Par exemple, vous pouvez utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer**. La configuration du magasin s’affiche sous le titre **Google Sheets** dans la configuration ContextHub.
 
       >[!IMPORTANT]
-      >Veillez à remplacer le code par votre `*<Sheet ID>*` et `*<API Key>*`, récupéré lors de la configuration des feuilles de calcul Google Sheets.
+      >Veillez à remplacer le code par l’`*<Sheet ID>*` et la `*<API Key>*`, que vous avez récupérés lors de la configuration des Google Sheets.
 
       ```
        {
@@ -140,17 +140,17 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
 
       >[!NOTE]
       >
-      >Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en millisecondes).
+      >Dans l’exemple de code ci-dessus, **pollInterval** définit la fréquence d’actualisation des valeurs (en ms).
       >
-      >Remplacez le code par votre `*<Sheet ID>*` et `*<API Key>*`, récupéré lors de la configuration des feuilles de calcul Google Sheets.
+      >Remplacez le code par l’`*<Sheet ID>*` et la `*<API Key>*`, que vous avez récupérés lors de la configuration des Google Sheets.
 
       >[!CAUTION]
       >
-      >Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionne pas d’usine.
+      >Si vous créez des configurations de magasin Google Sheets en dehors du dossier global (par exemple, dans votre propre dossier de projet), le ciblage ne fonctionnera pas immédiatement.
 
 1. **Configuration de la segmentation du magasin**
 
-   1. Accédez à **Configuration du magasin ContentHub** et créez une autre configuration de magasin dans le conteneur de configuration AEM Screens, puis définissez la variable **Titre** as **segmentation-contexthub**, **Nom de la boutique** as **segmentation** et **Type de magasin** as **aem.segmentation**.
+   1. Accédez à **Configuration du magasin ContentHub** et créez une autre configuration de magasin dans le conteneur de configuration AEM Screens, puis définissez le **Titre** sur **segmentation-contexthub**, le **Nom du magasin** sur **segmentation** et le **Type de magasin** sur **aem.segmentation**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
@@ -168,7 +168,7 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
 
    1. Cliquez sur **Créer** > **Créer un segment ContextHub.** La boîte de dialogue **Nouveau segment ContextHub** s’ouvre.
 
-   1. Saisissez le **Titre** as `**Higherthan50**` et cliquez sur **Créer**. De même, créez un autre segment intitulé `**Lowerthan50**`.
+   1. Saisissez le **Titre** `**Higherthan50**`, puis cliquez sur **Créer**. De la même manière, créez un autre segment intitulé `**Lowerthan50**`.
 
       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
@@ -179,15 +179,15 @@ La validation suivante correspond à ce que vous voyez lorsque vous vérifiez vo
 
    ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. De même, définissez la variable **Chemin ContextHub** et **Chemin d’accès aux segments** pour `**Lowerthan50**` également.
+   1. De même, définissez le **Chemin d’accès ContextHub** et le **Chemin d’accès aux segments** pour le segment `**Lowerthan50**`.
 
 ## Étape 4 : configuration de la marque et de la zone {#setting-brand-area}
 
-Pour créer une marque dans vos activités et zones sous la marque, procédez comme suit :
+Pour créer une marque dans vos activités et une zone dans votre marque :
 
 1. **Création d’une marque dans les activités**
 
-   1. Accédez à l’instance AEM à partir de l’instance **Personnalisation** > **Activités**.
+   1. Dans votre instance AEM, accédez à **Personnalisation** > **Activités**.
 
    1. Cliquez sur **Créer** > **Créer une marque**.
 
@@ -201,7 +201,7 @@ Pour créer une marque dans vos activités et zones sous la marque, procédez co
       >[!CAUTION]
       >
       >Problème connu :
-      >Pour ajouter une zone, supprimez l’élément principal de l’URL, comme
+      >Pour ajouter une zone, supprimez le principal de l’URL, par exemple
       >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Création d’une zone dans votre marque**
@@ -215,11 +215,11 @@ Pour créer une marque dans vos activités et zones sous la marque, procédez co
    1. Cliquez sur **Zone** de la **Créer une page** assistant et cliquez sur **Suivant**.
 
    1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.
-Une zone est créée dans votre marque.
+Une zone sera créée dans votre marque.
 
 ## Étape 5 : création de segments dans une activité {#step-setting-up-audience-segmentation}
 
-Après avoir configuré un entrepôt de données et défini votre activité (marque et zone), suivez les étapes ci-dessous pour créer des segments dans votre activité.
+Après avoir configuré un magasin de données et défini votre activité (marque et zone), procédez comme suit pour créer des segments dans l’activité.
 
 1. **Création de segments dans les activités**
 
@@ -239,7 +239,7 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
    ![image](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Cliquez sur **Suivant**, puis sur **Enregistrer**. `**ValueCheck50**` l’activité est maintenant créée et configurée.
+   1. Cliquez sur **Suivant**, puis sur **Enregistrer**. L’activité `**ValueCheck50**` est désormais créée et configurée.
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -253,12 +253,12 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
 
-   1. Cliquez sur l’icône de clé à molette pour ouvrir la fenêtre **Comparaison d’une propriété avec une valeur** de la boîte de dialogue
+   1. Cliquez sur l’icône en forme de clé à molette pour ouvrir la boîte de dialogue **Comparer une propriété et une valeur**.
 
    1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
 
       >[!NOTE]
-      > La variable **googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne , comme indiqué dans `google` les feuilles de la figure ci-dessous :
+      > L’élément **googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne renseignée dans `google` Sheets représentée ci-dessous :
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -272,7 +272,7 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
-   De même, modifiez les valeurs de propriété en `**Lowerthan50**`.
+   De même, modifiez les valeurs de propriété en indiquant `**Lowerthan50**`.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
 
@@ -289,7 +289,7 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
 Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
-1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenChannel** créé dans un canal AEM Screens.
+1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenChannel** créé dans un canal AEM Screens.
 
 1. Cliquez sur le canal **TargetChannel** et cliquez sur **Propriétés** dans la barre d’actions.
 
@@ -312,7 +312,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
       >[!NOTE]
       >
-      >Si vous avez tout configuré correctement, vous voyez **Ciblage** dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
+      >Si vous avez tout correctement configuré, l’option **Ciblage** s’affiche dans la liste déroulante de l’éditeur, comme illustré dans la figure ci-dessous.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 

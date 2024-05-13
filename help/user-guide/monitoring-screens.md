@@ -13,7 +13,7 @@ exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 36%
+ht-degree: 71%
 
 ---
 
@@ -25,11 +25,11 @@ Vous pouvez surveiller les performances de votre lecteur AEM Screens et de votre
 
 Vous pouvez surveiller l’activité et ainsi résoudre les problèmes liés à votre lecteur AEM Screens à l’aide du tableau de bord du périphérique.
 
-### Tableau de bord du périphérique {#device-dashboard}
+### Tableau de bord de l’appareil {#device-dashboard}
 
-Suivez les étapes ci-dessous pour accéder au tableau de bord de l’appareil :
+Pour accéder au tableau de bord de l’appareil, procédez comme suit :
 
-1. Accédez au tableau de bord du périphérique à partir de votre projet, par exemple : ***Test du projet*** > ***Périphériques***.
+1. Accédez au tableau de bord de l’appareil à partir de votre projet, par exemple, ***Projet de test*** > ***Appareils***.
 
    Cliquez sur **Périphériques** et **Gestionnaire de périphériques** dans la barre d’actions.
 
@@ -43,21 +43,21 @@ Suivez les étapes ci-dessous pour accéder au tableau de bord de l’appareil 
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
-1. La page affiche les informations sur le périphérique, son activité et les détails sur le périphérique qui vous permettent de surveiller les activités et les fonctions du périphérique.
+1. La page affiche les informations sur l’appareil, son activité et les détails le concernant pour vous permettre de surveiller les activités et les fonctions de l’appareil.
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 
-### Surveillance de l’activité du périphérique {#monitor-device-activity}
+### Surveillance de l’activité de l’appareil {#monitor-device-activity}
 
-La variable **Activité** affiche le dernier ping de votre lecteur AEM Screens avec l’horodatage. Le dernier ping correspond à la dernière fois que le périphérique a contacté le serveur.
+La variable **Activité** affiche le dernier ping de votre lecteur AEM Screens avec l’horodatage. Le dernier ping correspond à la dernière fois où l’appareil a contacté le serveur.
 
 ![chlimage_1](assets/chlimage_1.png)
 
 Cliquez également sur **Collecter les journaux** dans le coin supérieur droit de la **Activité** pour afficher les journaux de votre lecteur.
 
-### Mettre à jour les détails du périphérique {#update-device-details}
+### Mise à jour des détails d’un appareil {#update-device-details}
 
-Vérifiez les **Détails du périphérique** pour afficher l’adresse IP du périphérique, l’utilisation du stockage, la version du micrologiciel et le temps de disponibilité de votre périphérique.
+Consultez le panneau **Détails de l’appareil** pour pouvoir afficher l’adresse IP de l’appareil, l’utilisation du stockage, la version du micrologiciel et le temps de disponibilité du lecteur de votre appareil.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
@@ -67,9 +67,9 @@ Cliquez également sur **..** dans le coin supérieur droit du **Détails du pé
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### Mise à jour des informations sur le périphérique {#update-device-information}
+### Mise à jour des informations sur un appareil {#update-device-information}
 
-Vérifiez les **INFORMATIONS SUR LE PÉRIPHÉRIQUE** du panneau. Vous pouvez y afficher la mise à jour de configuration, le modèle de périphérique, le système d’exploitation du périphérique et les informations sur le shell.
+Consultez le panneau **INFORMATIONS SUR L’APPAREIL**. Vous pouvez afficher ici la mise à jour de configuration, le modèle de l’appareil, le système d’exploitation de l’appareil et les informations sur le shell.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
@@ -95,10 +95,10 @@ Cliquez sur (**..**) dans le coin supérieur droit du panneau Capture d’écran
 
 ### Gestion des préférences {#manage-preferences}
 
-Le panneau **PRÉFÉRENCES** permet à l’utilisateur de modifier les préférences de l’**interface utilisateur d’administration**, du **sélecteur de canal** et du **débogage à distance** pour l’appareil.
+Le panneau **PRÉFÉRENCES** permet à l’utilisateur ou l’utilisatrice de modifier les préférences de l’**interface utilisateur d’administration**, du **sélecteur de canal** et du **débogage à distance** pour l’appareil.
 
 >[!NOTE]
->Pour en savoir plus sur ces options, voir [Lecteur AEM Screens](working-with-screens-player.md).
+>Pour en savoir plus sur ces options, voir [Lecteur AEM Screens](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
@@ -122,13 +122,13 @@ Cliquez également sur **Paramètres** dans le coin supérieur droit pour mettre
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Dépannage des paramètres OSGi {#troubleshoot-osgi-settings}
+## Résolution des incidents des paramètres d’OSGi {#troubleshoot-osgi-settings}
 
-Activez le référent vide pour permettre au périphérique de publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran.
+Activez le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran.
 
 Actuellement, certaines de ces fonctions ne sont disponibles que si l’option *Allow Empty d’Apache Sling Referrer Filter* est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
 
-Pour activer l’option Allow Empty d’Apache Sling Referrer Filter
+Pour activer l’option Autoriser un filtre de référent vide d’Apache Sling, procédez comme suit :
 
 1. Accédez à **Configuration de la console web Adobe Experience Manager**, à savoir `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Cochez l’option **allow.empty**.
@@ -138,24 +138,24 @@ Pour activer l’option Allow Empty d’Apache Sling Referrer Filter
 
 ### Recommandations {#recommendations}
 
-La section suivante recommande de surveiller les liens réseau, les serveurs et les lecteurs afin de comprendre l’état de santé et de réagir aux problèmes.
+La section suivante recommande de surveiller les liens réseau, les serveurs et les lecteurs afin de comprendre l’intégrité et de réagir aux problèmes.
 
-AEM fournit une surveillance intégrée pour :
+AEM fournit une surveillance intégrée pour :
 
-* *Heartbeat* toutes les 5 secondes pour indiquer que le lecteur AEM Screens est en cours de fonctionnement.
-* *Capture d’écran* du lecteur qui affiche ce qui s’affiche sur le lecteur.
-* La variable *Micrologiciel du lecteur AEM Screens* version installée sur le lecteur.
+* *Pulsation* toutes les 5 secondes pour indiquer que le lecteur AEM Screens est en cours de fonctionnement.
+* *Copie d’écran* du lecteur qui affiche ce qui s’affiche sur le lecteur.
+* Version du *micrologiciel du lecteur AEM Screens* installée sur le lecteur.
 * *Espace de stockage libre* sur le lecteur.
 
-Recommendations pour la surveillance à distance avec des logiciels tiers :
+Recommandations pour la surveillance à distance avec des logiciels tiers :
 
 * Utilisation du processeur sur les lecteurs.
 * Vérifiez si le processus du lecteur AEM Screens est exécuté.
-* Redémarrez/redémarrez à distance le lecteur.
+* Redémarrage à distance du lecteur.
 * Notifications en temps réel.
 
 Il est recommandé de déployer le matériel et le système d’exploitation du lecteur de manière à permettre une connexion distante afin de diagnostiquer les problèmes et de redémarrer le lecteur.
 
 #### Autres ressources {#additional-resources}
 
-Voir [Configuration et dépannage de la lecture vidéo](troubleshoot-videos.md) si vous souhaitez déboguer et résoudre les problèmes liés à la lecture de vidéos dans votre canal.
+Voir [Configuration et dépannage de la lecture vidéo](troubleshoot-videos.md) pour déboguer et dépanner les vidéos lues sur votre canal.

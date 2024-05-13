@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour du Feature Pack 202105
-description: Découvrez le Feature Pack 202105 d’AEM Screens, publié le 4 juin 2021.
+description: Découvrez le pack de fonctionnalités 202105 d’AEM Screens, publié le 4 juin 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 35%
+ht-degree: 52%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 35%
 
 Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP8**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.8 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Installez la version minimale d’AEM 6.5 Feature Pack 8 pour que le connecteur AMS fonctionne après avoir installé les packages. `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, et la variable `screens core bundles`.
+>Installez une version minimale du pack de fonctionnalités 8 d’AEM 6.5 pour que le connecteur AMS fonctionne une fois que vous avez installé les packages `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, et les `screens core bundles`.
 
 ## Date de publication {#release-date}
 
@@ -39,7 +39,7 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 4 juin�
 * **Nommage d’un appareil de lecteur AEM Screens**
 
   Les lecteurs AEM Screens comprennent désormais la possibilité d’envoyer un nom d’appareil à Adobe Experience Manager (AEM).
-Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer un périphérique, un nom d’utilisateur généré par le système est saisi dans le champ du titre. Un client peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
+Par défaut, lorsque l’enregistrement en bloc est utilisé pour enregistrer un appareil, un nom d’utilisateur ou d’utilisatrice généré par le système est saisi dans le champ du titre. Un client ou une cliente peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
 
   Consultez la documentation suivante pour plus d’informations sur la configuration du nom dans chaque système d’exploitation pris en charge :
 
@@ -50,7 +50,7 @@ Par défaut, lorsque l’enregistrement en masse est utilisé pour enregistrer u
 
 * **Génération de manifeste**
 
-  Génération plus rapide de manifeste de canal avec de meilleures performances, comme l’allocation de moins de ressources sur le serveur.
+  Génération plus rapide d’un manifeste de canal avec de meilleures performances, permettant de diminuer l’allocation de ressources nécessaire pour le serveur.
 
 ### Correctifs {#bug-fixes}
 

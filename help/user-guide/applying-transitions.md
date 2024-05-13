@@ -9,7 +9,7 @@ exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -19,7 +19,7 @@ Cette section décrit comment vous pouvez appliquer le composant **Transition** 
 
 >[!CAUTION]
 >
->Pour en savoir plus sur les propriétés de la variable **Transition** composant, voir [Transitions](adding-components-to-a-channel.md#transition).
+>Pour en savoir plus sur les propriétés du composant **Transition**, reportez-vous à [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Ajout d’un composant Transition aux ressources dans un canal {#adding-transition}
 

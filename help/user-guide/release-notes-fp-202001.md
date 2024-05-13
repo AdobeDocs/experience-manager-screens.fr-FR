@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 202001
-description: Découvrez le Feature Pack 202001 d’AEM Screens, publié le 31 janvier 2020.
+title: Notes de mise à jour du pack de fonctionnalités 202001
+description: Découvrez le pack de fonctionnalités 202001 d’AEM Screens, publié le 31 janvier 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 26%
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 26%
 
 Le pack de fonctionnalités 3 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.3 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP3**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.3 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP3**.
 
 ## Date de publication {#release-date}
 
@@ -33,7 +33,7 @@ La date de publication du pack de fonctionnalités 202001 d’AEM Screens est l
 * **Synchronisation des commandes pour la lecture des ressources**
 
 La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
-Pour en savoir plus sur la synchronisation des commandes et sur la définition des clients et de l’instance principale, voir [Utilisation de la synchronisation des commandes](using-command-sync.md).
+Pour en savoir plus sur la synchronisation des commandes et sur la définition du principal et des clients, voir [Utilisation de la synchronisation des commandes](using-command-sync.md).
 
 * **Structure de contrôle de l’intégrité pour afficher l’état de https et autoriser un référent vide**
 
@@ -42,9 +42,9 @@ La structure de contrôle de l’intégrité permet à l’utilisateur de vérif
 Pour en savoir plus sur la structure de contrôle de l’intégrité, voir [Structure du contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Mises à jour des types de transition par défaut**
-Les propriétés du composant de transition, telles que **Type** est désormais défini sur **Fondu** et la variable **Durée** as **1 600 millisecondes**, par défaut.
+Les propriétés du composant de transition, telles que **Type**, sont désormais définies sur **Fondu** et la **Durée** sur **1 600 millisecondes**, par défaut.
 
-  Voir [Application de transitions](/help/user-guide/applying-transitions.md) cas d’utilisation pour plus de détails.
+  Pour plus d’informations, voir le cas d’utilisation [Application de transitions](/help/user-guide/applying-transitions.md).
 
 
 ### Lecteurs AEM Screens publiés

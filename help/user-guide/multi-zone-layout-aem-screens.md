@@ -1,6 +1,6 @@
 ---
 title: Disposition multizone
-description: Découvrez comment créer du contenu multizone et utiliser diverses ressources telles que des vidéos, des images et du texte qui peuvent être regroupées en un seul écran dans AEM Screens.
+description: La disposition multizone permet de créer du contenu multizone et d’utiliser diverses ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran dans AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 49%
+ht-degree: 76%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 49%
 
 La page suivante décrit l’utilisation de la disposition multizone et aborde les sujets suivants :
 
-* Présentation
-* Création d’une disposition multizone
-* Prérequis
+* Vue d’ensemble
+* Créer une disposition multizone
+* Conditions préalables
 * Utilisation de ressources uniques dans une ou plusieurs zones
 * Utilisation de contenu séquentiel dans une ou plusieurs zones
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-***Disposition multizone*** permet de créer du contenu multizone et d’utiliser différentes ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran. Il est possible d’importer des images, des vidéos et du texte, et de les mélanger de façon à créer une expérience digitale intuitive.
+La ***disposition multizone*** permet de créer du contenu multizone et d’utiliser diverses ressources telles que des vidéos, des images et du texte, qui peuvent être regroupées en un seul écran. Il est possible d’importer des images, des vidéos et du texte, et de les mélanger de façon à créer une expérience digitale intuitive.
 
 En fonction des exigences du projet, il est parfois nécessaire de disposer de plusieurs zones au sein d’un canal et dus modifier comme une unité entière. Par exemple, une séquence de produits avec un flux de médias sociaux associé qui s’exécute dans trois zones distinctes sur un seul canal.
 
@@ -38,15 +38,15 @@ En fonction des exigences du projet, il est parfois nécessaire de disposer de p
 
 ### Conditions préalables {#prerequisites}
 
-Avant de commencer à implémenter cette fonctionnalité, vous devez posséder des connaissances conceptuelles sur :
+Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséder des connaissances conceptuelles concernant les aspects suivants :
 
-* [Création d’un projet AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Création d’un affichage](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Création d’un projet AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Création d’un affichage](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Affectation d’un canal à un affichage](/help/user-guide/channel-assignment.md)
 
-## Création d’une disposition multizone {#creating-multi-zone-layout}
+## Créer une disposition multizone {#creating-multi-zone-layout}
 
-Lors de la création d’un canal, vous pouvez utiliser différents modèles pour créer des zones dans le canal. Vous pouvez ajouter une image, une vidéo ou un canal incorporé qui permet d’afficher plusieurs ressources dans une séquence.
+Lors de la création d’un canal, vous pouvez utiliser des modèles différents afin de créer des zones dans votre canal. Vous pouvez ajouter une image, une vidéo ou un canal incorporé qui permet d’afficher plusieurs ressources dans une séquence.
 
 **Création d’un canal**
 
@@ -65,7 +65,7 @@ Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo 
 
 1. **Ajout de contenu au canal**
 
-   1. Accédez à **Zones** > **Canaux**> **MultiZone**.
+   1. Accédez à **Zones** > **Canaux** > **MultiZone**.
    1. Cliquez sur le bouton **MultiZone** canal et clic **Modifier** dans la barre d’actions.
 
 1. **Ajout d’images au canal**
@@ -92,18 +92,18 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Cliquez sur **Canal de séquence** de la **Créer** pour créer un canal intitulé **`Zone1`**.
    1. Cliquez sur **`Zone1`** et cliquez sur **Modifier** dans la barre d’actions.
    1. Faites glisser quelques images sur ce canal.
-   1. De même, créez un autre canal de séquence intitulé **`Zone2`** in **EmbeddedChannels** dossier.
+   1. De même, créez un autre canal de séquence intitulé **`Zone2`** dans le dossier **EmbeddedChannels**.
    1. Faites glisser une vidéo sur ce canal.
 
-   La figure suivante montre les canaux **`Zone1`** et **`Zone2`**:
+   La figure suivante montre les canaux **`Zone1`** et **`Zone2`** :
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
-   Les images ajoutées à l’éditeur de **`Zone1`** le canal de séquence est illustré ci-dessous :
+   Les images ajoutées à l’éditeur du canal de séquence **`Zone1`** sont présentées ci-dessous :
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   La vidéo a été ajoutée à l’éditeur de **`Zone2`** le canal de séquence est illustré ci-dessous :
+   La vidéo ajoutée à l’éditeur du canal de séquence **`Zone2`** est présentée ci-dessous :
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -115,7 +115,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Cliquez sur la séquence incorporée dans l’une des zones.
    1. Cliquez sur l’icône **Configurer** (clé à molette) pour accéder à l’une des séquences incorporées dans l’éditeur.
    1. Cliquez sur le chemin du canal comme **Zones** > **Canaux** > **EmbeddedChannels** > **`Zone1`**, comme illustré dans la figure ci-dessous.
-   1. De même, ajoutez le **`Zone2`** à un autre composant de séquence incorporée dans l’éditeur.
+   1. De même, ajoutez **`Zone2`** à un autre composant de séquence incorporée dans l’éditeur.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
@@ -125,14 +125,14 @@ Créez un emplacement et un affichage afin de pouvoir afficher le contenu dans l
 
 1. **Création d’un emplacement**
 
-   1. Accédez à **Zones** > **Emplacements** dossier.
+   1. Accédez au dossier **Zones** > **Emplacements**.
    1. Cliquez sur le bouton **Emplacements** et cliquez sur **Créer** dans la barre d’actions.
    1. Cliquez sur **Emplacement** de la **Créer** assistant et cliquez sur **Suivant**.
    1. Saisissez le **Titre** **SanJose**, puis cliquez sur **Créer**.
 
 1. **Création d’un affichage**
 
-   1. Accédez à **Zones** > **Emplacements** dossier.
+   1. Accédez au dossier **Zones** > **Emplacements**.
    1. Cliquez sur le bouton **SanJose** emplacement et cliquez sur **Créer** dans la barre d’actions.
    1. Cliquez sur **Affichage** de la **Créer** assistant et cliquez sur **Suivant**.
    1. Saisissez le **Titre** **Lobby**, puis cliquez sur **Créer**.
@@ -143,7 +143,7 @@ Vous devez affecter les canaux à l’affichage de façon à visualiser le conte
 
 1. **Affectation du canal à l’affichage**
 
-   1. Accédez à **Zones** > **Emplacements** > **SanJose**> **Lobby**.
+   1. Accédez à **Zones** > **Emplacements** > **SanJose** > **Lobby**.
    1. Cliquez sur le bouton **Lobby** afficher et cliquer sur **Attribuer le canal** dans la barre d’actions.
    1. Entrez le chemin du canal **MultiZone** dans **Chemin du canal**.
    1. Définissez les **Événements pris en charge** suivants : **Chargement initial**, **Écran inactif** et **Minuteur**.
@@ -151,27 +151,27 @@ Vous devez affecter les canaux à l’affichage de façon à visualiser le conte
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. De même, affectez les deux autres canaux incorporés (**`Zone1`** et **`Zone2`**) à cet affichage.
-   1. Une fois que vous avez affecté les trois canaux à l’événement **Lobby** , vous devriez pouvoir visualiser les canaux affectés à partir du tableau de bord d’affichage.
+   1. Une fois que vous avez affecté les trois canaux à l’affichage **Lobby**, vous devez pouvoir visualiser les canaux affectés à partir du tableau de bord des affichages.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
       >[!IMPORTANT]
       >
-      >Après avoir affecté le canal principal (dans ce cas, **MultiZone**) à l’affichage, il est obligatoire d’attribuer les deux autres canaux incorporés. **`Zone1`** et **`Zone2`** également au même affichage.
+      >Une fois que vous avez affecté le canal principal (dans ce cas, **MultiZone**) à l’affichage, il est obligatoire de lui affecter également les deux autres canaux incorporés **`Zone1`** et **`Zone2`**.
 
 ### Enregistrement de l’appareil {#registering-device}
 
-Lorsque vous avez configuré un emplacement et un affichage, suivez les étapes ci-dessous pour enregistrer le périphérique et lui attribuer un affichage.
+Une fois que vous avez configuré un emplacement et un affichage, suivez les étapes ci-dessous pour enregistrer l’appareil et lui affecter l’affichage.
 
 1. **Enregistrement de l’appareil**
 
-   1. Accédez à **Zones** > **Périphériques** dossier.
+   1. Accédez à **Zones** > dossier **Appareils**.
    1. Cliquez sur le bouton **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
    1. Cliquez sur **Enregistrement de périphérique** et cliquez sur l’appareil en attente dans la liste.
 
       >[!NOTE]
-      > Le titre de l’appareil doit correspondre au jeton de l’appareil (champ **Jeton**) figurant dans l’onglet **Enregistrement du périphérique**.
+      > Le titre de l’appareil doit correspondre au jeton de l’appareil (champ **Jeton**) figurant dans l’onglet **Enregistrement des appareils**.
 
    1. Si le titre correspond au jeton de l’appareil, cliquez sur l’appareil, puis sur **Enregistrer le périphérique** dans la barre d’actions.
    1. Si le code d’enregistrement correspond au code figurant dans l’onglet **Enregistrement d’appareil** du lecteur Screens, cliquez sur **Valider** dans la barre d’actions.
@@ -182,11 +182,11 @@ Lorsque vous avez configuré un emplacement et un affichage, suivez les étapes 
    >[!NOTE]
    >Si vous essayez d’afficher le contenu dans le lecteur Screens, veillez à cliquer sur **Mettre à jour le contenu hors ligne** dans le tableau de bord des canaux pour chacun des canaux affectés à l’affichage.
 
-### Affichage du résultat {#viewing-the-result}
+### Afficher le résultat {#viewing-the-result}
 
-Lorsque vous implémentez des mises en page multizone à l’aide des étapes précédentes, la sortie suivante s’affiche.
+Une fois que vous avez mis en œuvre des dispositions multizone en suivant les étapes précédentes, la sortie suivante s’affiche.
 
-Vérifiez le lecteur Screens afin de pouvoir visualiser la sortie qui affiche le contenu dans deux zones différentes. Les zones de gauche et de droite (toutes deux utilisent la séquence incorporée comme composant).
+Utilisez le lecteur Screens afin de visualiser la sortie qui affiche le contenu dans deux zones différentes : Les zones de gauche et de droite (toutes deux utilisent la séquence incorporée comme composant).
 
 La zone de gauche est un canal de séquence et celle de droite inclut une vidéo.
 

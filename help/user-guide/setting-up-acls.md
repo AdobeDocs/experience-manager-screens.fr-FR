@@ -1,6 +1,6 @@
 ---
 title: Configuration des listes de contrôle d’accès
-description: Découvrez comment séparer les projets à l’aide des listes de contrôle d’accès afin que chaque personne ou équipe gère son propre projet.
+description: Découvrez comment séparer les projets à l’aide des listes de contrôle d’accès de sorte que chacune des personnes ou équipes gère son propre projet.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,7 +12,7 @@ exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 28%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 28%
 
 La section suivante explique comment séparer les projets à l’aide des listes de contrôle d’accès de sorte que chacune des personnes ou équipes gère son propre projet.
 
-En tant qu’administrateur d’AEM, vous souhaitez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chacun des utilisateurs se voit attribuer des rôles spécifiques en fonction des exigences du projet.
+En tant qu’administrateur ou administratrice d’AEM, vous devez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets et que chaque utilisateur ou utilisatrice est affecté à des rôles spécifiques en fonction des exigences du projet.
 
 ## Configuration des autorisations {#setting-up-permissions}
 
@@ -42,7 +42,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Ajoutez la variable **Acme** (projet que vous avez créé) **Ajouter des membres au groupe**. Cliquez sur **Enregistrer**.
+1. Ajoutez le projet **Acme** (le projet que vous avez créé) pour **Ajouter des membres au groupe**. Cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,11 +50,11 @@ Les étapes suivantes résument le processus de configuration de listes de contr
    >
    >Si vous souhaitez que les membres de l’équipe de projet enregistrent les lecteurs (ce qui implique de créer un utilisateur pour chaque lecteur), recherchez le groupe administrateurs-utilisateurs et ajoutez le groupe ACME aux administrateurs-utilisateurs.
 
-1. Ajoutez tous les utilisateurs qui travaillent sur la **Acme** Projet vers **Acme** groupe.
+1. Ajoutez tous les utilisateurs et toutes les utilisatrices qui travaillent sur le projet **Acme** au groupe **Acme**.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Configuration des autorisations pour le groupe **Acme** en utilisant ceci `(http://localhost:4502/useradmin)`.
+1. Configurez les autorisations du groupe **Acme** à l’aide de ce `(http://localhost:4502/useradmin)`.
 
    Cliquez sur le groupe **Acme** et cliquez sur le bouton **permissions**.
 
@@ -62,32 +62,32 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
 ### Autorisations {#permissions}
 
-Le tableau suivant résume le chemin avec les autorisations au niveau du projet :
+Le tableau ci-dessous résume le chemin avec les autorisations au niveau du projet :
 
 | **Chemin** | **Autorisation** | **Description** |
 |---|---|---|
-| `/apps/<project>` | LECTURE | Permet d’accéder aux fichiers du projet, le cas échéant. |
-| `/content/dam/<project>` | ALL | Permet d’accéder au stockage des ressources du projet telles que les images ou la vidéo dans la gestion des ressources numériques. |
+| `/apps/<project>` | READ | Permet d’accéder aux fichiers du projet, le cas échéant. |
+| `/content/dam/<project>` | ALL | Permet un accès pour stocker les ressources du projet telles que les images ou les vidéos dans la gestion des ressources numériques (DAM). |
 | `/content/screens/<project>` | ALL | Supprime l’accès à tous les autres projets sous /content/screens. |
-| `/content/screens/svc` | LECTURE | Permet d’accéder au service d’enregistrement. |
-| `/libs/screens` | LECTURE | Permet d’accéder à DCC. |
+| `/content/screens/svc` | READ | Permet d’accéder au service d’enregistrement. |
+| `/libs/screens` | READ | Permet d’accéder à DCC. |
 | `/var/contentsync/content/screens/` | ALL | Permet de mettre à jour le contenu hors ligne du projet. |
 
 >[!NOTE]
 >
->Parfois, vous pouvez séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans un tel scénario, créez deux groupes et ajoutez le groupe d’auteurs aux contributeurs et le groupe d’administrateurs aux contributeurs et aux administrateurs-utilisateurs.
+>Vous pouvez parfois séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans un tel scénario, créez deux groupes et ajoutez le groupe d’auteurs et d’autrices aux contributeurs et contributrices et le groupe d’administrateurs et d’administratrices aux contributeurs et contributrices et aux utilisateurs-administrateurs et utilisatrices-administratrices.
 
 ### Création de groupes {#creating-groups}
 
-La création d’un projet doit également créer des groupes d’utilisateurs par défaut avec un ensemble de base d’autorisations attribuées. Étendez les autorisations aux rôles typiques définis dans AEM Screens.
+La création d’un projet doit également créer des groupes d’utilisateurs et d’utilisatrices par défaut avec un ensemble élémentaire d’autorisations affectées. Étendez les autorisations aux rôles classiques définis dans AEM Screens.
 
-Vous pouvez par exemple créer les groupes spécifiques aux projets suivants :
+Par exemple, vous pouvez créer les groupes spécifiques aux projets suivants :
 
 * Administrateurs de projet Screens
 * Opérateurs de projet Screens (enregistrement des lecteurs et gestion des emplacements et des appareils)
-* Utilisateurs de projet Screens (utilisation des canaux, des plannings et des affectations de canal)
+* Utilisateurs et utilisatrices de projet Screens (utilisation des canaux, plannings et affectations de canaux)
 
-Le tableau suivant récapitule les groupes avec une description et des autorisations pour un projet AEM Screens :
+Le tableau ci-dessous résume les groupes avec la description et les autorisations pour un projet AEM Screens :
 
 <table>
  <tbody>
@@ -97,12 +97,12 @@ Le tableau suivant récapitule les groupes avec une description et des autorisat
    <td><strong>Autorisations</strong></td>
   </tr>
   <tr>
-   <td>Administrateurs Screens<br /> <em><code>screens-admins</code></em></td>
-   <td>Accès au niveau administrateur pour les fonctionnalités AEM Screens</td>
+   <td>Administrateurs et administratrices de Screens<br /> <em><code>screens-admins</code></em></td>
+   <td>Accès au niveau administrateur pour les fonctionnalités AEM Screens</td>
    <td>
     <ul>
-     <li>Membre des contributeurs</li>
-     <li>Membre des utilisateurs-administrateurs</li>
+     <li>Membre des contributeurs et contributrices</li>
+     <li>Membre des utilisateurs-administrateurs et utilisatrices-administratrices</li>
      <li>ALL /content/screens</li>
      <li>ALL /content/dam</li>
      <li>ALL /content/experience-fragments</li>
@@ -110,22 +110,22 @@ Le tableau suivant récapitule les groupes avec une description et des autorisat
     </ul> </td>
   </tr>
   <tr>
-   <td>Utilisateurs de Screens<br /> <em><code>screens-users</code></em></td>
-   <td>Créer et mettre à jour des canaux et des plannings et les affecter à des emplacements dans AEM Screens</td>
+   <td>Utilisateurs et utilisatrices de Screens<br /> <em><code>screens-users</code></em></td>
+   <td>Créer et mettre à jour des canaux et des plannings et les affecter à des emplacements dans AEM Screens</td>
    <td>
     <ul>
-     <li>Membre des contributeurs</li>
+     <li>Membre des contributeurs et contributrices</li>
      <li><code>&lt;project&gt; /content/screens</code></li>
      <li><code>&lt;project&gt; /content/dam</code></li>
      <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Opérateurs Screens<br /> <em><code>screens-operators</code></em></td>
-   <td>Création et mise à jour de la structure des emplacements et enregistrement des lecteurs dans AEM Screens</td>
+   <td>Opérateurs et opératrices de Screens<br /> <em><code>screens-operators</code></em></td>
+   <td>Créer et mettre à jour la structure des emplacements et enregistrer des lecteurs dans AEM Screens</td>
    <td>
     <ul>
-     <li>Membre des contributeurs</li>
+     <li>Membre des contributeurs et contributrices</li>
      <li><code>jcr:all /home/users/screens</code></li>
      <li><code>jcr:all /home/groups/screens</code></li>
      <li><code>&lt;project&gt; /content/screens</code></li>
@@ -133,8 +133,8 @@ Le tableau suivant récapitule les groupes avec une description et des autorisat
   </tr>
   <tr>
    <td>Lecteurs Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Les groupes de tous les lecteurs et de tous les lecteurs/périphériques sont automatiquement membres des contributeurs.</td>
-   <td><p> Membre des contributeurs</p> </td>
+   <td>Les groupes contenant tous les lecteurs et tous les lecteurs/appareils sont automatiquement membres des contributeurs et contributrices.</td>
+   <td><p> Membre des contributeurs et contributrices</p> </td>
   </tr>
  </tbody>
 </table>

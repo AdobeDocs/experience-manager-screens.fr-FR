@@ -1,6 +1,6 @@
 ---
 title: Utiliser des fragments d’expérience
-description: Découvrez comment utiliser des fragments d’expérience dans AEM Screens.
+description: Apprenez à utiliser des fragments d’expérience dans AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,11 +13,11 @@ exl-id: 13c0d75e-435f-433e-8886-f451df863517
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 32%
+ht-degree: 62%
 
 ---
 
-# Utilisation de fragments d’expérience {#using-experience-fragments}
+# Utiliser des fragments d’expérience {#using-experience-fragments}
 
 Cette page aborde les sujets suivants :
 
@@ -25,17 +25,17 @@ Cette page aborde les sujets suivants :
 * **Utilisation de fragments d’expérience dans AEM Screens**
 * **Propagation des modifications apportées à la page**
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Un ***fragment d’expérience*** est un groupe d’un ou plusieurs composants comprenant un contenu et une disposition pouvant être référencés dans les pages. Les fragments d’expérience peuvent contenir n’importe quel composant, par exemple un ou plusieurs composants pouvant contenir tout élément dans un système de paragraphes référencé dans l’expérience complète ou demandé par un point de terminaison tiers.
+Un ***fragment d’expérience*** est un groupe d’un ou plusieurs composants comprenant un contenu et une disposition pouvant être référencés dans les pages. Les fragments d’expérience peuvent contenir n’importe quel composant, par exemple, un ou plusieurs composants pouvant contenir un élément dans un système de paragraphes, qui sera référencé dans l’expérience complète ou demandé par un point d’entrée tiers.
 
 
 ## Utilisation de fragments d’expérience dans AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->L’exemple suivant utilise **`We.Retail`** comme projet de démonstration à partir duquel le fragment d’expérience est appliqué à partir d’un **Sites** vers un projet AEM Screens.
+>L’exemple ci-dessous utilise **`We.Retail`** comme projet de démonstration : le fragment d’expérience issu d’une page **Sites** est appliqué à un projet AEM Screens.
 
-Par exemple, le workflow suivant illustre l’utilisation de fragments d’expérience provenant de `We.Retail` dans Sites. Vous pouvez choisir une page web et utiliser ce contenu dans votre canal AEM Screens dans l’un de vos projets.
+Par exemple, le workflow ci-après illustre l’utilisation de fragments d’expérience de `We.Retail` dans Sites. Vous pouvez choisir une page web et utiliser son contenu dans votre canal AEM Screens dans l’un de vos projets.
 
 ### Prérequis {#pre-requisites}
 
@@ -47,7 +47,7 @@ Par exemple, le workflow suivant illustre l’utilisation de fragments d’expé
 1. Saisissez le titre **DemoProject**.
 1. Cliquez sur **Enregistrer**.
 
-A **DemoProject** est ajouté à votre AEM Screens.
+Un projet **DemoProject** est ajouté à AEM Screens.
 
 ***Création d’un canal***
 
@@ -58,28 +58,28 @@ A **DemoProject** est ajouté à votre AEM Screens.
 
 1. Saisissez le **titre** **TestChannel** et cliquez sur **Créer**.
 
-A **TestChannel** est ajouté à la variable **DemoProject**.\
+Un **TestChannel** est ajouté à votre **DemoProject**.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
 ### Création d’un fragment d’expérience {#creating-an-experience-fragment}
 
-Pour appliquer le contenu à partir de **`We.Retail`** à votre **TestChannel** in **DemoProject**.
+Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans le canal **TestChannel** de **DemoProject**.
 
-1. **Accédez à une page Sites dans We.Retail**
+1. **Accéder à une page Sites dans We.Retail**
 
    1. Accédez à Sites, puis cliquez sur **`We.Retail`** > **États-Unis** > **Anglais** > **Matériel** et cliquez sur cette page afin de pouvoir l’utiliser comme fragment d’expérience pour votre canal Screens.
 
    1. Cliquez sur **Modifier** dans la barre d’actions afin de pouvoir ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
 
-1. **Réutilisation du contenu**
+1. **Réutiliser du contenu**
 
    1. Cliquez sur le fragment que vous souhaitez inclure dans votre canal.
    1. Cliquez sur la dernière icône à droite pour ouvrir le **Convertir en fragment d’expérience** de la boîte de dialogue
 
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
-1. **Création d’un fragment d’expérience**
+1. **Créer un fragment d’expérience**
 
    1. Choisissez l’**action** **Créer un fragment d’expérience**.
 
@@ -121,9 +121,9 @@ Pour appliquer le contenu à partir de **`We.Retail`** à votre **TestChannel** 
 
    1. Cliquez sur le bouton **Configuration hors ligne** , comme illustré dans la figure ci-dessous.
 
-   Vous pouvez ajouter la variable **Bibliothèques côté client** (Java™ et css) et **Fichiers statiques** à votre fragment d’expérience.
+   Vous pouvez ajouter les **bibliothèques côté client** (Java™ et css) et les **fichiers statiques** à votre fragment d’expérience.
 
-   L’exemple suivant illustre l’ajout de bibliothèques côté client et de polices dans le cadre de fichiers statiques à votre fragment d’expérience.  ![fragment](assets/fragment.gif)
+   L’exemple ci-dessous illustre l’ajout de bibliothèques côté client et de polices en tant que fichiers statiques au fragment d’expérience. ![fragment](assets/fragment.gif)
 
 1. **Utilisation du fragment d’expérience comme composant dans un canal Screens**
 
@@ -151,7 +151,7 @@ Pour appliquer le contenu à partir de **`We.Retail`** à votre **TestChannel** 
 
    >[!NOTE]
    >
-   >Pour ajouter des bibliothèques côté client ou des fichiers statiques à ce que vous avez configuré à l’étape (4), vous pouvez les ajouter à partir de la **Configuration hors ligne** dans le **Fragment d’expérience** de la boîte de dialogue
+   >Si vous souhaitez ajouter des bibliothèques côté client ou des fichiers statiques à ce que vous avez configuré à l’étape (4), vous pouvez les ajouter à partir de l’onglet **Configuration hors ligne** de la boîte de dialogue **Fragment d’expérience**.
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
@@ -159,25 +159,25 @@ Pour appliquer le contenu à partir de **`We.Retail`** à votre **TestChannel** 
 
 ### Validation du résultat {#validating-the-result}
 
-Une fois les étapes précédentes terminées, vous pouvez valider votre fragment d’expérience dans **ChannelOne** par :
+Une fois les étapes précédentes terminées, vous pouvez valider le fragment d’expérience dans **ChannelOne** en effectuant ce qui suit :
 
 1. accédant à **TestChannel** ;
 1. sélectionnant l’**Aperçu** dans la barre d’actions.
 
-Affichez le contenu à partir du **Sites** (Live Copy du fragment d’expérience) dans votre canal, comme illustré dans la figure ci-dessous :\
+Vous voyez le contenu de la page **Sites** (Live Copy du fragment d’expérience) dans votre canal, comme illustré ci-dessous :\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
 ## Propagation des modifications apportées à la page {#propagating-changes-from-the-master-page}
 
 Une ***Live Copy*** désigne la copie (de la source), gérée par des actions de synchronisation telles que définies par les configurations de déploiement.
 
-Parce que le fragment d’expérience que vous avez créé est une Live Copy de la **Sites** et que vous modifiez ce fragment à partir de la page principale, vous affichez les modifications dans votre canal. Vous pouvez également afficher la destination où vous avez utilisé le fragment d’expérience.
+Comme le fragment d’expérience que vous avez créé est une Live Copy des pages **Sites** et que vous modifiez ce fragment à partir de la page principale, vous affichez les modifications dans votre canal. Vous pouvez également afficher la destination où vous avez utilisé le fragment d’expérience.
 
 >[!NOTE]
 >
->Pour plus d’informations sur la Live Copy, voir Réutilisation de contenu : Multi-site Manager et Live Copy.
+>Pour plus d’informations sur les Live Copy, voir Réutilisation de contenu : Multi Site Manager et Live Copy.
 
-Pour propager les modifications du canal principal vers votre canal de destination, procédez comme suit :
+Pour propager les modifications du canal principal vers votre canal de destination :
 
 1. Cliquez sur le fragment d’expérience dans la **Sites** (principal) et cliquez sur l’icône en forme de crayon afin de pouvoir modifier les éléments du fragment d’expérience.
 
@@ -209,7 +209,7 @@ Pour propager les modifications du canal principal vers votre canal de destinati
 
 Pour confirmer les modifications dans votre canal, procédez comme suit :
 
-1. Accédez au **Screens** > **Canaux** > **TestChannel**.
+1. Accédez à **Screens** > **Canaux** > **TestChannel**.
 
 1. Cliquez sur **Aperçu** dans la barre d’actions.
 

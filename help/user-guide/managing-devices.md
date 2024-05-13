@@ -1,6 +1,6 @@
 ---
-title: Gestion des appareils
-description: Découvrez l’attribution et la gestion des périphériques dans AEM Screens.
+title: Gérer les appareils
+description: Découvrez l’attribution et la gestion des appareils dans AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,15 +12,15 @@ exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 41%
+ht-degree: 67%
 
 ---
 
-# Gestion des appareils {#managing-devices}
+# Gérer les appareils {#managing-devices}
 
 Cette page décrit la procédure d’attribution des appareils.
 
-La console Périphériques vous permet d’accéder au gestionnaire de périphériques afin d’affecter votre périphérique à un affichage.
+La console Appareils vous permet d’accéder au gestionnaire d’appareils afin d’attribuer votre appareil à un affichage.
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Cliquez sur (**..**) dans le coin supérieur droit du **APPAREILS** pour ajouter une configuration de périphérique ou mettre à jour les périphériques.
+   Cliquez sur (**...**) en haut à droite du panneau **APPAREILS** pour ajouter une configuration d’appareil ou mettre à jour les appareils.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -63,7 +63,7 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 >
 >Chaque fois que vous ajoutez un premier appareil à un nouveau projet Screens, un groupe d’utilisateurs est créé.
 >Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
->Ce groupe est ajouté en tant que membre du groupe **Contributeurs** , comme illustré dans la figure ci-dessous :
+>Ce groupe est ajouté en tant que membre au groupe **Contributeurs et contributrices**, comme illustré ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

@@ -1,15 +1,15 @@
 ---
-title: Observations dans le cadre de la définition de la portée du projet
+title: Considérations relatives à la définition du champ d’application du projet
 description: En savoir plus sur les considérations à prendre en compte lorsqu’un projet AEM Screens est défini.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
-# Observations dans le cadre de la définition de la portée du projet {#pre-sales-considerations}
+# Considérations relatives à la définition du champ d’application du projet {#pre-sales-considerations}
 
 >[!NOTE]
 >Un stratège opérationnel/marketing est un acteur typique de cette activité.
@@ -31,4 +31,4 @@ Cette étape comprend tous les efforts de prévente et d’investigation nécess
 >
 >Identifiez dès que possible les données nécessaires à l’application et d’où elles proviennent. Une exploration plus approfondie se produit pendant la mise en oeuvre. Veillez toutefois à prendre du temps pendant la *Jour zéro* pour connaître les données que le client a l’intention d’utiliser. Découvrez où ces données sont actuellement stockées et comment l’application en cours de création peut y accéder. Informer l’équipe de développement avant les défis permet de faciliter la mise en oeuvre.
 
-Regarder la vidéo [Observations dans le cadre de la définition de la portée du projet](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Regarder la vidéo [Observations dans le cadre de la définition de la portée du projet](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

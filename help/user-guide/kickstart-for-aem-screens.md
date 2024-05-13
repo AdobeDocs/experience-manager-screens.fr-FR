@@ -1,6 +1,6 @@
 ---
 title: Guide de démarrage rapide
-description: Découvrez comment créer un projet AEM Screens de démonstration. Cela vous permet de créer une expérience de signalétique digitale à partir de l’installation et de configurer un nouveau projet pour afficher votre contenu dans le lecteur AEM Screens.
+description: Apprenez à créer un projet AEM Screens de démonstration. Cela vous permet de créer une expérience de signalétique digitale à partir de l’installation et de configurer un nouveau projet pour afficher votre contenu dans le lecteur AEM Screens.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 44%
+ht-degree: 61%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 44%
 Cette section de démarrage rapide d’AEM Screens explique comment configurer et exécuter un projet AEM Screens. Il vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu tel que des ressources et/ou des vidéos à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de travailler sur les détails du projet, assurez-vous d’avoir installé le dernier Feature Pack pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID.
+>Avant de commencer à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier pack de fonctionnalités pour AEM Screens. Vous pouvez télécharger le dernier Feature Pack à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID.
 
 ## Conditions préalables {#prerequisites}
 
@@ -56,8 +56,8 @@ La première étape consiste à créer un projet AEM Screens.
 
 1. Accédez à votre instance Adobe Experience Manager (AEM) et cliquez sur **Screens**. Vous pouvez également y accéder directement depuis `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Cliquez sur **Créer un projet Screens** vous pouvez ainsi créer un projet Screens.
-1. Saisissez le titre comme **DemoScreens**, puis cliquez sur **Enregistrer**.
+1. Cliquez sur **Créer un projet Screens** afin de créer un projet Screens.
+1. Saisissez le titre **DemoScreens** et cliquez sur **Enregistrer**.
 
    ![image](assets/kickstart/demo-1.png)
 
@@ -68,7 +68,7 @@ La première étape consiste à créer un projet AEM Screens.
 
 Après avoir créé votre projet AEM Screens, créez un canal où vous gérez le contenu.
 
-Pour créer un canal pour votre projet, procédez comme suit :
+Pour créer un canal pour votre projet, procédez comme suit :
 
 1. Après avoir créé un projet, cliquez sur l’icône **DemoScreens** et cliquez sur le bouton **Canaux** , comme illustré dans la figure ci-dessous. Cliquez sur **+ Créer** dans la barre d’actions.
 
@@ -105,12 +105,12 @@ Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**)
 
 ### Création d’un emplacement {#creating-location}
 
-Lorsque votre canal est en place, créez un emplacement.
+Une fois que vous disposez du canal, vous devez créer un emplacement.
 
 >[!NOTE]
->***Emplacements*** compartimentez vos diverses expériences de signalétique digitale et contient les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
+>Les ***emplacements*** permettent de compartimenter vos diverses expériences de signalétique numérique et contiennent les configurations de leurs affichages en fonction de l’endroit où se trouvent les différents écrans.
 
-Pour créer un emplacement pour votre projet, procédez comme suit :
+Pour créer un emplacement pour votre projet, procédez comme suit :
 
 1. Accédez au **DemoProject** vous avez créé et cliquez sur le bouton **Emplacements** dossier.
 1. Cliquez sur **+ Créer** dans la barre d’actions.
@@ -122,10 +122,10 @@ L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locati
 
 ### Création d’un affichage pour un emplacement {#creating-display}
 
-Une fois que vous avez créé un emplacement, créez un affichage pour celui-ci.
+Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
 
 >[!NOTE]
->***Affichage*** représente l’expérience numérique qui s’exécute sur un ou plusieurs écrans.
+>L’***affichage*** représente l’expérience digitale qui s’exécute sur un ou plusieurs écrans.
 
 1. Accédez au **TestLocation** et cliquez dessus.
 1. Cliquez sur **Créer** dans la barre d’actions.
@@ -173,7 +173,7 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
    Vous pouvez également cliquer sur le bouton **Fenêtre d’activation** et **Planning de périodicité**.
 
    >[!NOTE]
-   >La variable *Planning de périodicité* permet de définir une planification récurrente pour votre canal. Vous pouvez configurer plusieurs calendriers de périodicité pour un canal.
+   >Le *Planning de périodicité* permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs calendriers de périodicité pour un canal.
    >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
@@ -190,9 +190,9 @@ Enregistrez votre appareil à l’aide du tableau de bord AEM.
 >1. Ouvrez le navigateur Chrome, puis cliquez sur **Extensions** ou accédez directement à ***chrome://extensions***.
 >1. Activez l’option **Mode Développeur** dans le coin supérieur droit.
 >1. Cliquez sur **Chargement décompressé** dans le coin supérieur gauche et chargez le lecteur Chrome décompressé.
->1. Vérifier **Lecteur AEM Screens Chrome** s’il est disponible dans la liste des extensions.
->1. Ouvrez un nouvel onglet et cliquez sur le bouton **Applications** dans le coin supérieur gauche ou accédez directement à ***chrome://apps***.
->1. Cliquez sur **AEM Screens** Module externe permettant de lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Presse **Échap** pour quitter le mode plein écran.
+>1. Vérifiez si le plug-in **Lecteur Chrome AEM Screens** est disponible dans la liste des extensions.
+>1. Ouvrez un nouvel onglet et cliquez sur l’icône **Applications** dans l’angle supérieur gauche de l’écran ou accédez directement à ***chrome://apps***.
+>1. Cliquez sur le plug-in **AEM Screens** afin de lancer le lecteur Chrome. Par défaut, le lecteur est lancé en mode plein écran. Appuyez sur **Échap** pour quitter le mode plein écran.
 
 Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous pour enregistrer un appareil Chrome.
 
@@ -225,11 +225,11 @@ Une fois que votre lecteur Chrome OS est activé, suivez les étapes ci-dessous 
 
    ![image](assets/kickstart/demo-device6.png)
 
-1. Une fois l’appareil attribué, la confirmation suivante s’affiche.
+1. Une fois que l’appareil a été attribué, la confirmation suivante s’affiche.
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Cliquez sur **Terminer** pour terminer le processus d’enregistrement. Vous pouvez désormais afficher votre appareil enregistré dans le tableau de bord de l’affichage.
+1. Cliquez sur **Terminer** pour terminer le processus d’enregistrement. Votre appareil enregistré apparaît dans le tableau de bord des affichages.
 
    ![image](assets/kickstart/demo-register9.png)
 

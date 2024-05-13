@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 202103
-description: En savoir plus sur AEM Screens Feature Pack 202103, publié le 5 mars 2021.
+title: Notes de mise à jour du pack de fonctionnalités 202103
+description: Découvrez le pack de fonctionnalités 202103 AEM Screens, publié le 5 mars 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 24%
+ht-degree: 55%
 
 ---
 
-# Notes de mise à jour du Feature Pack 202103 {#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
@@ -21,26 +21,26 @@ ht-degree: 24%
 
 AEM Screens inclus dans le Feature Pack 7 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.7 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP7**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.7 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP7**.
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars 2021.
+La date de publication du pack de fonctionnalités 202103 d’AEM Screens est le 5 mars 2021.
 
 ### Nouveautés {#what-is-new}
 
 * **Enregistrement automatique des lecteurs dans AEM Screens**
 
-  L’enregistrement en masse de milliers de lecteurs manuellement est fastidieux et ajoute du temps et des coûts. Pour simplifier ce processus, la fonction Enregistrement automatique des lecteurs vous permet de spécifier une clé pré-partagée dans AEM. Cette clé peut être configurée dans un lecteur via un fichier de configuration ou une solution de gestion des périphériques mobiles (MDM).
+  L’enregistrement manuel en bloc de milliers de lecteurs est lourd, chronophage et coûteux. Pour simplifier ce processus, la fonctionnalité Enregistrement automatique des lecteurs vous permet de spécifier une clé prépartagée dans AEM. Cette clé peut être configurée dans un lecteur via un fichier de configuration ou une solution de gestion des appareils mobiles (MDM).
 
-  Voir [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md) pour plus d’informations.
+  Pour plus d’informations, consultez [Enregistrement automatique des lecteurs](/help/user-guide/auto-registration-players.md).
 
 
-* **Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise**
+* **Approvisionneer en bloc un lecteur Android™ à l’aide d’Enterprise Mobility Management**
 
-  Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’enregistrer chaque lecteur manuellement avec AEM. Il est vivement recommandé d’utiliser une solution EMM (Enterprise Mobility Management, par exemple), comme `VMWare Airwatch`, `MobileIron`, ou `Samsung Knox` pour configurer et gérer votre déploiement à distance. Le lecteur AEM Screens Android™ prend en charge la configuration standard EMM AppConfig pour permettre la mise en service à distance.
+  Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’enregistrer chaque lecteur manuellement avec AEM. Il est vivement recommandé d’utiliser une solution EMM (Enterprise Mobility Management, par exemple), comme `VMWare Airwatch`, `MobileIron`, ou `Samsung Knox` pour configurer et gérer votre déploiement à distance. Le lecteur Android™ AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
 
-  Voir [Approvisionnement en masse d’Android™ Player à l’aide de la gestion de la mobilité d’entreprise](/help/user-guide/implementing-android-player.md#implementation) pour plus d’informations.
+  Pour plus d’informations, reportez-vous à [Approvisionnement en bloc d’un lecteur Android™ à l’aide d’une solution Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
 
 
 ### Correctifs {#bug-fixes}
@@ -51,7 +51,7 @@ La date de publication du Feature Pack 202103 d’AEM Screens est le 5 mars�
 
 * Les caches hors ligne n’étaient pas créés si l’affectation était paramétrée sur *OfflineConfig*.
 
-* Mises à jour de `Tizen` qui a échoué car la stratégie de référent strict-origin-when-cross-origin n’est pas prise en charge.
+* Les mises à jour du lecteur `Tizen` ne s’appliquaient pas, car la politique de référent « strict-origin-when-cross-origin » n’était pas prise en charge.
 
 * Modification de la planification du canal affecté *Répéter* endommageait l’interface utilisateur.
 

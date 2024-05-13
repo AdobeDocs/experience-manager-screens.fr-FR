@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour du Feature Pack 201905
-description: En savoir plus sur le Feature Pack 201905 AEM Screens, publié le 16 mai 2019.
+title: Notes de mise à jour du pack de fonctionnalités 201905
+description: En savoir plus sur le pack de fonctionnalités 201905 AEM Screens, publié le 16 mai 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,35 +13,35 @@ exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 40%
+ht-degree: 79%
 
 ---
 
-# Notes de mise à jour du Feature Pack 201905 {#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 201905 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
 
-AEM Screens a publié AEM 6.3.3.3 Feature Pack 6 et AEM 6.4.4.0 Feature Pack 4 avec les détails suivants.
+AEM Screens a publié le pack de fonctionnalité 6 AEM 6.3.3.3 et le pack de fonctionnalités 4 AEM 6.4.4.0 avec les détails suivants.
 
 ## Date de publication {#release-date}
 
-La date de publication d’AEM Screens Feature Pack 201905 est le 16 mai 2019.
+La date de publication du packs de fonctionnalité 201905 AEM Screens est le 16 mai 2019.
 
 ### Nouveautés {#what-s-new}
 
 * **Importateur de projet**
 
-L’importateur de projet est une fonctionnalité disponible dans AEM Screens qui vous permet d’importer en bloc un ensemble d’emplacements d’une feuille de calcul CSV/XLS dans votre projet AEM Screens.
+L’Importateur de projet est une fonctionnalité disponible dans AEM Screens qui vous permet d’importer en bloc un ensemble d’emplacements à partir d’une feuille de calcul CSV/XLS dans votre projet AEM Screens.
 
-Voir **[Nouvel importateur de projet à partir d’un fichier](project-importer.md)** pour plus d’informations.
+Pour plus d’informations, voir **[Nouvel importateur de projets à partir d’un fichier](project-importer.md)**.
 
 * **Transition de ContentSync à SmartSync**
 
 SmartSync minimise la charge/le stockage du serveur et le trafic réseau, ce qui permet de réduire les coûts.
 
-Voir **[Transition de ContentSync à SmartSync](smartsync.md)** pour plus d’informations.
+Pour plus d’informations, reportez-vous à **[Transition de ContentSync à SmartSync](smartsync.md)**.
 
 * **Canal d’urgence**
 
@@ -51,9 +51,9 @@ Voir **[Canal d’urgence](emergency-channel.md)** cas d’utilisation pour plus
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 
-Cette section décrit comment incorporer une application interactive monopage à l’aide de REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM. L’éditeur peut être configuré par des professionnels dans AEM. Il décrit également comment intégrer votre application interactive à Adobe Analytics hors ligne.
+Cette section décrit comment incorporer une application monopage interactive en utilisant REACT (ou Angular) à l’aide de l’éditeur SPA d’AEM. L’éditeur peut être configuré par des personnes professionnelles dans AEM. Elle décrit également comment intégrer votre application interactive à Adobe Analytics hors ligne.
 
-Voir **[Incorporation d’une application REACT à l’aide de l’éditeur SPA d’AEM et intégration à AEM Screens Analytics](embedding-react-app.md)** pour plus d’informations.
+Pour plus d’informations, reportez-vous aux sections **[Intégration d’une application REACT à l’aide de l’éditeur de SPA AEM et Intégration à AEM Screens Analytics](embedding-react-app.md)**.
 
 ### Lecteurs AEM Screens publiés
 
