@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ Dans la mesure du possible, évitez toute référence directe à une version sp�
 Dans un article, faites toujours référence au produit par son nom complet. **Adobe Experience Manager** la première fois qu’elle est utilisée. Par la suite, il peut être appelé **AEM**.
 
 Day, le logiciel Day, CQ et CRX ne doivent pas être utilisés, sauf lorsqu’il est impossible de faire autrement, par exemple dans les noms de classe ou en faisant référence à l’historique d’AEM.
+
