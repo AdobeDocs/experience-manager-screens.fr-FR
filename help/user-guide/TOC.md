@@ -8,9 +8,9 @@ user-guide-description: Apprenez à utiliser une solution de signalétique numé
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 95%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 95%
       + [Durée de lecture d’images en bloc au niveau du canal](channel-level-image-playback.md)
       + [Synchronisation des commandes](using-command-sync.md)
       + [Création avec des triggers de données](authoring-data-triggers.md)
+      + [Utilisation des balises](tagging.md)
       + [Reconnaissance vocale](voice-recognition.md)
       + [Rapport d’affectation de contenu](content-assignment-report.md)
       + [Prise en charge des miniatures pour les vidéos](thumbnail-support.md)
