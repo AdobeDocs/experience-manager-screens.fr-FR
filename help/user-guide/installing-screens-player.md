@@ -1,25 +1,25 @@
 ---
 title: Installation du lecteur Screens
-description: Découvrez comment installer correctement un lecteur AEM Screens.
+description: Découvrez comment installer correctement un lecteur AEM Screens.
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Installation du lecteur AEM Screens {#installing-player}
+# Installer le lecteur AEM Screens {#installing-player}
 
-Cette page décrit comment installer le lecteur AEM Screens.
+Cette page détaille comment installer un lecteur AEM Screens.
 
 ## Lecteur Screens disponible {#available-players}
 
-Le lecteur AEM Screens est disponible pour Android™, Chrome OS et Windows.
+Le lecteur AEM Screens est disponible pour Android™, Chrome OS et Windows.
 
 Pour télécharger le **lecteur AEM Screens**, consultez la page des [téléchargements du lecteur AEM 6.5](https://download.macromedia.com/screens/).
 
@@ -29,13 +29,13 @@ Pour télécharger le **lecteur AEM Screens**, consultez la page des [télécha
 >
 >1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur le bouton **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+>1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement de l’appareil.
 
 ## Suivi de base de la lecture {#playback-monitoring}
 
-Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. Sur la base de ces mesures, il peut détecter différents cas de figure, tels que des problèmes de lecture bloquée, d’écran vide et de planning. Il nous permet de comprendre et de résoudre les problèmes liés à l’appareil, et donc d’accélérer les enquêtes et les mesures correctives à votre intention.
+Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. Sur la base de ces mesures, il peut détecter différents cas de figure, tels que des problèmes de lecture bloquée, d’écran vide et de planning. Cela nous permet de comprendre et de résoudre les problèmes liés à l’appareil et d’accélérer ainsi l’examen de vos problèmes et la mise en place de correctifs.
 
-La surveillance de base de la lecture dans un lecteur AEM Screens vous permet d’effectuer les opérations suivantes :
+La surveillance de base de la lecture d’un lecteur AEM Screens vous permet d’effectuer les opérations suivantes :
 
 * Surveiller à distance si un lecteur lit correctement le contenu
 
@@ -65,22 +65,22 @@ Les propriétés suivantes sont incluses dans chaque `ping` :
 
 ### Limites {#limitations}
 
-Vous trouverez ci-dessous quelques limites à la surveillance de lecture de base :
+Vous trouverez ci-dessous quelques limitations concernant la surveillance de base de la lecture :
 
-* Le lecteur signale son propre état de lecture au serveur ; il nécessite donc une connexion principale.
+* Le lecteur signale son propre état de lecture au serveur ; il nécessite donc une connexion active.
 
-* La variable `isContentRendering` qui vérifie le GPU est beaucoup plus gourmand en ressources à activer par défaut et nécessite une inclusion explicite dans les préférences du lecteur. Adobe vous recommande de ne pas l’utiliser avec les vidéos en production.
+* La propriété `isContentRendering` qui vérifie le GPU nécessite actuellement trop de ressources pour être activée par défaut et nécessite une activation explicite dans les préférences du lecteur. Adobe vous recommande de ne pas l’utiliser avec les vidéos en production.
 
 * Cette fonctionnalité est uniquement prise en charge pour les canaux de séquence et ne couvre pas encore le cas d’utilisation des canaux interactifs (SPA).
 
-* Les mesures ne sont pas encore entièrement exposées aux clients, mais Adobe s’efforce prochainement d’activer des mécanismes de reporting et d’alerte de type tableau de bord.
+* Les mesures ne sont pas encore entièrement accessibles aux clientes et aux clients. Adobe travaille à la mise en place prochaine d’un mécanisme de création de rapports et d’alertes, de type tableau de bord.
 
 ### Autres ressources {#additional-resources}
 
-Consultez les rubriques suivantes pour obtenir des informations détaillées :
+Reportez-vous aux rubriques suivantes pour obtenir des informations détaillées :
 
 * Pour télécharger le lecteur Android™, rendez-vous sur **Google Play**. Pour en savoir plus sur l’implémentation d’Android™ Watchdog, voir [Implémenter le lecteur Android™](implementing-android-player.md).
 
 * Pour plus d’informations sur la mise en œuvre du lecteur Chrome OS, voir [Console de gestion de Chrome](implementing-chrome-os-player.md).
 
-* Pour configurer le lecteur Windows AEM Screens, voir [Mise en oeuvre du lecteur Windows](implementing-windows-player.md).
+* Pour configurer le lecteur Windows dans AEM Screens, voir [Implémentation du lecteur Windows](implementing-windows-player.md).

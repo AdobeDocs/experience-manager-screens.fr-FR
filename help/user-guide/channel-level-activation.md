@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1791'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Cette section aborde les sujets suivants :
 * Vue d’ensemble
 * Fenêtre d’activation
 * Utilisation de l’activation au niveau des canaux comme lecture d’événement unique
-* Gestion de la périodicité des ressources dans un canal
+* Gérer la périodicité des ressources dans un canal
    * Tranches horaires
    * Tranches hebdomadaires
    * Tranches mensuelles
@@ -47,15 +47,15 @@ La section suivante explique la création d’une lecture d’événement unique
 
 Avant de commencer à implémenter cette fonctionnalité, veillez à ce que les conditions préalables suivantes soient satisfaites avant de commencer à implémenter l’activation au niveau du canal :
 
-* Créez un projet AEM Screens, dans cet exemple : **Activation au niveau du canal**.
+* Créez un projet AEM Screens, dans cet exemple, **Channel Level Activation**.
 
-* Création d’un canal comme **MainAdChannel** sous le **Canaux** dossier.
+* Créez un canal appelé **MainAdChannel** dans le dossier **Canaux**.
 
-* Créez un autre canal comme **TargetedSinglePlay** sous le **Canaux** dossier.
+* Créez un autre canal appelé **TargetedSinglePlay** dans le dossier **Canaux**.
 
 * Ajoutez les ressources appropriées aux deux canaux.
 
-L’image suivante montre la variable **Activation au niveau du canal** projet avec **MainAdChannel** et **TargetedSinglePlay** canaux dans la **Canaux** dossier.
+L’image ci-après montre le projet **Channel Level Activation** avec les canaux **MainAdChannel** et **TargetedSinglePlay** dans le dossier **Canaux**.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -91,8 +91,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créer un affichage sous Emplacement**
 
    1. Accédez à **Channel Level Activation** > **Emplacements** > **Région**.
-   1. Cliquez sur **Région** et cliquez sur **+ Créer** dans la barre d’actions.
-   1. Cliquez sur **Affichage** à partir de l’assistant et créez un affichage intitulé **RegionDisplay.**
+   1. Cliquez sur **Zone géographique** et sur **+ Créer** dans la barre d’actions.
+   1. Cliquez sur **Affichage** dans l’assistant et créez un affichage intitulé **RegionDisplay**.
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -101,45 +101,45 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    Pour **MainAdChannel :**
 
    1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
-   1. Dans le **Attribution de canaux** boîte de dialogue, cliquez sur **Canal de référence** par chemin.
-   1. Cliquez sur le bouton **Chemin du canal**, puis cliquez sur **Activation au niveau du canal** > ***Canaux*** > ***MainAdChannel***.
+   1. Dans la boîte de dialogue **Attribution de canaux**, cliquez sur **Canal de référence** en fonction du chemin.
+   1. Cliquez sur **Chemin du canal**, puis sur **Channel Level Activation** > ***Canaux*** > ***MainAdChannel***.
    1. Le **Rôle du canal** est défini comme **mainadchannel**.
-   1. Cliquez sur le bouton **Priorité** et définissez sur **1**.
-   1. Cliquez sur le bouton **Événements pris en charge** par exemple **Charge initiale** et **Écran inactif**.
+   1. Cliquez sur **Priorité** et définissez la valeur sur **1**.
+   1. Cliquez sur **Événements pris en charge** : **Chargement initial** et **Écran inactif**.
    1. Cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Vous pouvez également attribuer le canal à partir du tableau de bord de l’affichage. Accédez à **Activation au niveau du canal** > **Emplacements** > **Région** > **RegionDisplay**. Dans la barre d’actions, sélectionnez **Tableau de bord**. Dans la **CANAUX ET PLANIFICATIONS AFFECTÉS** panneau, cliquez sur **+ Attribuer le canal**.
+   >Vous pouvez également attribuer le canal à partir du tableau de bord de l’affichage. Accédez à **Channel Level Activation** > **Emplacements** > **Zone géographique** > **RegionDisplay**. Dans la barre d’actions, sélectionnez **Tableau de bord**. Dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**, cliquez sur **+ Attribuer le canal**.
 
    De même, affectez le canal **TargetedSinglePlay** afin qu’il soit affiché** :
 
-   1. Accédez à **Channel Level Activation** > **Emplacements** > **Région** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
-   1. Dans le **Attribution de canaux** , cliquez sur **Canal de référence** par chemin.
-   1. Cliquez sur le bouton **Chemin du canal**, puis cliquez sur **Activation au niveau du canal** > ***Canaux*** > ***TargetedSinglePlay***.
+   1. Accédez à **Channel Level Activation** > **Emplacements** > **Zone géographique** > **RegionDisplay** puis cliquez sur **Affecter un canal** dans la barre d’actions.
+   1. Dans la boîte de dialogue **Attribution de canaux**, cliquez sur **Canal de référence** en fonction du chemin.
+   1. Cliquez sur **Chemin du canal**, puis sur **Channel Level Activation** > ***Canaux*** > ***TargetedSinglePlay***.
    1. Le **Rôle de canal** est renseigné avec le contenu **targetedsingleplay**.
-   1. Définissez la variable **Priorité** to **2**.
-   1. Cliquez sur le bouton **Événements pris en charge**, et définissez **Charge initiale**, **Écran inactif**, et **Minuteur**, comme illustré dans la figure ci-dessous.
-   1. Dans **actif depuis**, défini sur le 27 novembre 2018, à 23 h 59, et dans **actif jusqu’à**, fixée au 28 novembre 2018 à 12h05.
+   1. Définissez la **Priorité** sur **2**.
+   1. Cliquez sur **Événements pris en charge** et définissez **Chargement initial**, **Écran inactif** et **Minuteur**, comme illustré dans la figure ci-dessous.
+   1. Dans **Actif à partir de**, définissez le 27 novembre 2018 à 23 h 59 et dans **Actif jusqu’à**, le 28 novembre 2018 à 00 h 05.
    1. Cliquez sur **Enregistrer**.
 
    >[!CAUTION]
    >
-   >Définissez la priorité de la variable **TargetedSinglePlay** canal supérieur à **MainAdSegment** canal.
+   >Vous devez définir pour le canal **TargetSinglePlay** une priorité plus élevée que le canal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Pour choisir le même jour, cliquez sur le jour suivant, puis modifiez manuellement la date pour qu’elle soit le même jour, mais pour une heure ultérieure. La personne ne peut donc pas sélectionner une date antérieure. Considérez l’exemple suivant :
+   >Pour choisir le jour-même, cliquez sur le jour suivant et modifiez manuellement la date en choisissant le jour-même, mais à une heure ultérieure. La personne ne peut donc pas sélectionner une date antérieure. Considérez l’exemple suivant :
 
    ![new1](assets/new1.gif)
 
 ## Affichage des résultats {#viewing-the-results}
 
-Une fois la configuration des canaux et l’affichage terminés, lancez le lecteur AEM Screens pour afficher le contenu.
+Une fois que vous aurez configuré les canaux et l’affichage, lancez le lecteur AEM Screens pour afficher le contenu.
 
 Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 h 59 (comme défini dans le planning), le canal **TargetedSinglePlay** affiche son contenu jusqu’à 00 h 05, puis le canal **MainAdChannel** reprend la lecture de son contenu.
 
@@ -150,15 +150,15 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 h 59 (c
 >[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
 
 
-## Gestion de la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
+## Gérer la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
 
-Vous pouvez planifier l’exécution quotidienne, hebdomadaire ou mensuelle des ressources d’un canal à certains intervalles, selon vos besoins.
+Vous pouvez planifier l’activation périodique des ressources d’un canal à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher le contenu d’un canal uniquement le vendredi de 13 h 00 à 22 h 00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle périodique souhaité pour votre ressource.
+Supposons que vous souhaitiez afficher les contenus d’un canal uniquement le vendredi de 13 h 00 à 22 h 00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle périodique souhaité pour votre ressource.
 
 ### Tranches horaires {#day-parting}
 
-1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal et sur **Tableau de bord** dans la barre d’actions.
 
 1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir le planning de périodicité.
 
@@ -170,7 +170,7 @@ Supposons que vous souhaitiez afficher le contenu d’un canal uniquement le ven
 
 #### Exemples d’expressions pour les tranches horaires {#example-one}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -179,7 +179,7 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 | Après 12 h 15 et avant 12 h 45. | La ressource du canal est lue après 12 h 15 tous les jours pendant 30 minutes. |
 | Avant 12 h 15 et après 12 h 45. | La ressource du canal est lue avant 12 h 15 et après 12 h 45 tous les jours. |
 | Lun,Mar,Mer ou Lun-Mer | La ressource du canal est lue du lundi au mercredi. |
-| le premier jour de janvier après 14 h 00, le deuxième jour de janvier et le troisième jour de janvier avant 3 h 00. | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
+| puis le premier jour de janvier après 14 h 00, ainsi que le deuxième jour de janvier et le troisième jour de janvier avant 03 h 00, | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
 | Le 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 03 h 00. | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
 
 >[!NOTE]
@@ -200,7 +200,7 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 
 #### Exemples d’expressions pour les tranches hebdomadaires {#example-two}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -229,7 +229,7 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 
 #### Exemples d’expressions pour les tranches mensuelles {#example-three}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -257,12 +257,12 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 
 #### Exemples d’expressions de combinaison de tranches {#example-four}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Après 6 h 00 et avant 18 h 00 les lundis et mercredis de janvier à mars | la ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis de janvier à fin mars |
-| le premier jour de janvier après 14 h 00, le deuxième jour de janvier et le troisième jour de janvier avant 3 h 00. | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
+| Après 6 h 00 et avant 18 h 00 les lundis et mercredis de janvier à mars | La ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars. |
+| puis le premier jour de janvier après 14 h 00, ainsi que le deuxième jour de janvier et le troisième jour de janvier avant 03 h 00, | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
 | Le 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 03 h 00. | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
 
 >[!NOTE]

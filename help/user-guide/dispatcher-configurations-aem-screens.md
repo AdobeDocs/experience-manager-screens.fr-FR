@@ -1,22 +1,22 @@
 ---
 title: Configurations de Dispatcher pour AEM Screens
-description: Cette page met en évidence les instructions relatives à la configuration d’un Dispatcher pour un projet AEM Screens.
+description: Cette page décrit les instructions de configuration de Dispatcher pour un projet AEM Screens.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Configurations de Dispatcher pour AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher est un outil de mise en cache de Adobe Experience Manager ou d’équilibrage de charge, ou les deux.
+Dispatcher est l’outil de mise en cache d’Adobe Experience Manager ou de répartition de charge, ou les deux.
 
-La page suivante fournit des instructions pour la configuration d’un Dispatcher pour un projet AEM Screens.
+La page suivante décrit les instructions de configuration de Dispatcher pour un projet AEM Screens.
 
 >[!NOTE]
 >
@@ -24,17 +24,17 @@ La page suivante fournit des instructions pour la configuration d’un Dispatche
 >
 >En l’absence de Dispatcher, désactivez la servlet d’enregistrement dans la liste des composants OSGi.
 
-Avant de configurer Dispatcher pour un projet AEM Screens, vous devez connaître Dispatcher au préalable.
+Avant de configurer Dispatcher pour un projet AEM Screens, vous devez le connaître au préalable.
 Pour en savoir plus, voir [Configuration de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration?lang=fr).
 
 ## Configuration de Dispatcher pour Manifest version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Voir [Configurations de Dispatcher pour Manifest version v3](#configuring-dispatcherv3) pour Manifest version v3.
+>Les configurations de Dispatcher suivantes s’appliquent uniquement à la version v2 de Manifest. Voir [Configurations de Dispatcher pour la version v3 de Manifest](#configuring-dispatcherv3) pour la version v3 de Manifest.
 
-Les lecteurs ou appareils AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Si vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance de publication afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs ou appareils AEM Screens.
+Les lecteurs ou appareils AEM Screens utilisent une session authentifiée pour accéder aux ressources dans les instances de publication. Ainsi, lorsque vous disposez de plusieurs instances de publication, les requêtes doivent toujours être envoyées à la même instance de publication afin que la session authentifiée soit valide pour toutes les requêtes provenant des lecteurs et appareils AEM Screens.
 
-Suivez les étapes ci-dessous pour configurer Dispatcher pour un projet AEM Screens.
+Pour configurer Dispatcher pour un projet AEM Screens, suivez les étapes ci-dessous.
 
 ### Activation des sessions persistantes {#enable-sticky-session}
 
@@ -49,7 +49,7 @@ Si vous souhaitez utiliser plusieurs instances de publication sous l’égide d�
  }
 ```
 
-Si une instance de publication est placée sous l’égide d’un Dispatcher, l’activation de la persistance dans le Dispatcher n’est pas efficace car il est possible que l’équilibreur de charge envoie chaque requête au Dispatcher. Dans ce cas, cliquez sur **Activer** in **Attractivité** pour l’activer au niveau de l’équilibreur de charge, comme illustré dans la figure ci-dessous :
+Si une instance de publication est placée sous l’égide d’un Dispatcher, l’activation de la persistance dans le Dispatcher n’est pas efficace car il est possible que l’équilibreur de charge envoie chaque requête au Dispatcher. Dans ce cas, cliquez sur **Activer** dans le champ **Persistance** pour l’activer au niveau de la répartition de charge, comme indiqué dans la figure ci-dessous :
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
@@ -94,7 +94,7 @@ Désactivez la mise en cache de Dispatcher pour le chemin ***/content/screens pa
 
 Les lecteurs Screens utilisent une session authentifiée, de sorte que Dispatcher ne met en cache aucune de leurs demandes pour `channels/assets`.
 
-Pour activer le cache des ressources afin qu’elles soient diffusées à partir du cache de Dispatcher, procédez comme suit :
+Pour activer le cache des ressources afin qu’elles soient diffusées à partir du cache de Dispatcher, vous devez procéder comme suit :
 
 * ajouter `/allowAuthorization 1` dans la section `/cache` ;
 * ajouter les règles ci-dessous à la section `/rules` de `/cache`.
@@ -129,11 +129,11 @@ Pour activer le cache des ressources afin qu’elles soient diffusées à partir
 
 ## Configuration de Dispatcher pour Manifest version v3 {#configuring-dispatcherv3}
 
-Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatchers qui frontent les instances de publication pour le fonctionnement de Screens.
+Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatchers placés devant les instances de publication pour le fonctionnement de Screens.
 
 ### Conditions préalables pour Manifest version v3{#prerequisites3}
 
-Suivez ces deux conditions préalables avant de configurer un Dispatcher (manifeste version v3) pour AEM Screens :
+Respectez ces deux conditions préalables avant de configurer Dispatcher (Manifest version v3) pour AEM Screens :
 
 * Vérifiez que vous utilisez `v3 manifests`. Accédez à `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` et assurez-vous que `Enable ContentSync Cache` n’est pas coché.
 
@@ -173,10 +173,10 @@ Suivez ces deux conditions préalables avant de configurer un Dispatcher (manife
 
 * Ajoutez `/allowAuthorized "1"` à la section `/cache` dans `publish_farm.any`.
 
-* Tous les lecteurs AEM Screens utilisent une session authentifiée pour se connecter à AEM (auteur/publication). Par défaut, un Dispatcher ne met pas en cache ces URL. Vous devez donc les activer.
+* Tous les lecteurs AEM Screens utilisent une session authentifiée pour se connecter à AEM (création/publication). Par défaut, Dispatcher ne met pas en cache ces URL. Vous devez donc les activer.
 
-* Ajouter `statfileslevel "10"` to `/cache` dans `publish_farm.any`
-Cette règle prend en charge la mise en cache de jusqu’à dix niveaux à partir du docroot du cache et invalidez en conséquence lorsque le contenu est publié plutôt que d’invalider tout. N’hésitez pas à modifier ce niveau en fonction de la profondeur de votre structure de contenu.
+* Ajoutez `statfileslevel "10"` à la section `/cache` dans `publish_farm.any`.
+Cela prend en charge la mise en cache de dix niveaux maximum à partir de la racine docroot du cache et invalide en conséquence lorsque le contenu est publié plutôt que de tout invalider. N’hésitez pas à modifier ce niveau en fonction de la profondeur de votre structure de contenu.
 
 * Ajoutez le code suivant à `/invalidate section in publish_farm.any`
 
@@ -231,7 +231,7 @@ Cette règle prend en charge la mise en cache de jusqu’à dix niveaux à parti
 
 ### Ajouter une règle d’invalidation pour segment.js {#invalidsegmentjs}
 
-Si vous utilisez des campagnes ciblées avec AEM Screens, le `segments.js file` diffusé par Dispatcher doit être invalidé lorsque vous ajoutez et publiez de nouveaux segments sur AEM. Sans cette règle d’invalidation, les nouvelles campagnes ciblées ne fonctionnent pas sur le lecteur AEM Screens (le contenu par défaut s’affiche à la place).
+Si vous utilisez des campagnes ciblées avec AEM Screens, le `segments.js file` diffusé par Dispatcher doit être invalidé lorsque vous ajoutez et publiez de nouveaux segments sur AEM. Sans cette règle d’invalidation, les nouvelles campagnes ciblées ne fonctionnent pas sur le lecteur AEM Screens (le contenu par défaut s’affiche à la place).
 
 * Ajoutez une règle d’invalidation à `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Voici la règle à ajouter :
 

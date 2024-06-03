@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 >[!CAUTION]
 >
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 AEM Screens a publié le pack de fonctionnalité 5 AEM 6.3 et le pack de fonctionnalités 3 AEM 6.4 avec les détails suivants.
 
@@ -33,11 +33,11 @@ La date de publication du pack de fonctionnalités 201812 d’AEM Screens est 1
 
 * **Superposition de texte sur les ressources du canal**:
 
-  La superposition de texte est une fonctionnalité disponible dans AEM Screens. Il vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé sur une image. Voir [**Superposition de texte**](text-overlay.md).
+  La superposition de texte est une fonctionnalité disponible dans AEM Screens. Celle-ci vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposés au-dessus d’une image. Voir [**Superposition de texte**](text-overlay.md).
 
-* **Planification multiressource** :
+* **Planification à ressources multiples** :
 
-  La planification multiressource permet à l’utilisateur de cliquer sur plusieurs ressources et d’appliquer une planification de lecture à toutes les ressources sélectionnées. Voir la section **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
+  La planification à ressources multiples permet à l’utilisateur ou à l’utilisatrice de sélectionner plusieurs ressources et d’appliquer une planification d’exécution à toutes les ressources sélectionnées. Voir la section **Planification multiressource** dans **[Planification des ressources](asset-level-scheduling.md)**.
 
 * **Disposition multizone** :
 
@@ -57,4 +57,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.3 Feature Pack 5 et
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, consultez [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).

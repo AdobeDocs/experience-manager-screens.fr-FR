@@ -3,9 +3,9 @@ title: Configurations de plateforme AEM
 description: Cette page décrit les configurations d’AEM Platform
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->Un participant type à cette activité est un implémentateur AEM.
+>Cette activité est généralement réalisée par la personne chargée de l’implémentation d’AEM.
 
 Commencez à utiliser AEM Screens en lisant les sections ci-dessous pour configurer les configurations de plateforme AEM.
 
@@ -27,7 +27,7 @@ Voir [Configuration des instances de création et de publication dans AEM Scree
 
 >[!NOTE]
 >
->S’il n’y a qu’un seul auteur et qu’une seule publication, vous pouvez uniquement suivre les étapes de la section **Configuration des agents de réplication sur l’auteur** in [Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) page.
+>S’il n’existe qu’une seule instance de création et de publication, vous devez suivre la procédure décrite à la section **Configuration des agents de réplication sur l’instance de création** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Configurations de Dispatcher {#dispatcher-configurations}
 
@@ -44,13 +44,13 @@ Installez FFMpeg en suivant les étapes relatives au système d’exploitation a
 
    >[!NOTE]
    >
-   >`-strict -2` doit être le dernier paramètre de la liste des paramètres. En outre, dans AEM 6.4, copiez les noeuds sous */libs/settings/dam/video* to */conf/global/settings/dam/video* comme mentionné dans [Rendus vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >`-strict -2` doit être le dernier paramètre de la liste des paramètres. Dans AEM 6.4, vous devez, en outre, copier les nœuds situés sous */libs/settings/dam/video* dans */conf/global/settings/dam/video* , comme indiqué dans les [Rendus vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Vérifiez que les conversions vidéo sont en cours d’exécution et que la création des rendus est en cours.
 
 ## Restrictions relatives aux mots de passe {#password-restrictions}
 
-La politique de mot de passe d’AEM doit être désactivée sur l’instance AMS. Il peut également être configuré dans la console web à l’aide du service de périphérique Screens. *com.adobe.cq.screens.device.impl.DeviceService*
-Voir **Restrictions de mot de passe** dans[Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+La politique de mot de passe d’AEM doit être désactivée sur l’instance AMS. Cela peut, par ailleurs, être configuré dans la console web à l’aide du service d’appareil de Screens *com.adobe.cq.screens.device.impl.DeviceService*.
+Reportez-vous à la section **Restrictions relatives aux mots de passe** sur la page [Configuration des instances de création et de publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Configuration des environnements {#setting-up-environments}
 
@@ -61,7 +61,7 @@ Installez et exécutez les versions les plus récentes des packages suivants pou
 * AEM Cumulative Fix Pack
 
 Veuillez, en outre, identifier les packages de développement (les composants WCM Core, par exemple) ou les kits d’outils tiers (SAP Hybris, par exemple) qui sont éventuellement requis.
-Installez les mêmes packages logiciels dans votre environnement de développement local. Demandez à votre client ou cliente d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
+Installez les mêmes packages logiciels sur votre environnement de développement local. Demandez à votre client ou cliente d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
 
 >[!NOTE]
 >
@@ -71,4 +71,4 @@ Installez les mêmes packages logiciels dans votre environnement de développeme
 
 Cette section explique comment séparer les projets, de sorte que chaque personne ou équipe gère son propre projet.
 
-Voir [Configuration des listes de contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/setting-up-acls) pour plus d’informations.
+Pour en savoir plus, voir [Configuration des listes de contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/setting-up-acls).

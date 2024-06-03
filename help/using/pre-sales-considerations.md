@@ -1,21 +1,21 @@
 ---
-title: Considérations relatives à la définition du champ d’application du projet
-description: En savoir plus sur les considérations à prendre en compte lorsqu’un projet AEM Screens est défini.
+title: Considérations relatives à la définition de la portée du projet
+description: En savoir plus sur les considérations à prendre en compte lorsque la portée d’un projet AEM Screens est définie.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
-# Considérations relatives à la définition du champ d’application du projet {#pre-sales-considerations}
+# Considérations relatives à la définition de la portée du projet {#pre-sales-considerations}
 
 >[!NOTE]
->Un stratège opérationnel/marketing est un acteur typique de cette activité.
+>Cette activité est généralement réalisée par une personne spécialisée dans la stratégie opérationnelle/marketing.
 
-Cette étape comprend tous les efforts de prévente et d’investigation nécessaires pour définir entièrement la portée du projet. Le travail effectué lors du jour 0 détermine la suite du projet et a une incidence sur le succès global de l’application en cours de création.
-À ce stade, les principaux fournisseurs sont identifiés et regroupés pour faciliter l’établissement du plan du projet. Au cours de cette étape, il est important que l’accord soit également établi avec les principaux intervenants du projet au sein de la société cliente. Ces parties prenantes comprennent les responsables commerciaux, les responsables marketing et les équipes informatiques. Ces personnes ont toutes un rôle important à jouer dans le développement de l’application et sa maintenance continue.
+Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement le champ d’application du projet. Le travail effectué lors du jour 0 détermine la suite du projet et a une incidence sur le succès global de l’application en cours de création.
+À ce stade, les principaux fournisseurs sont identifiés et regroupés pour faciliter l’établissement du plan du projet. Au cours de cette étape, il est important que l’accord soit également établi avec les principales parties prenantes du projet au sein de la société cliente. Ces parties prenantes comprennent les personnes responsables des ventes et du marketing, et les équipes informatiques. Ces personnes ont toutes un rôle important à jouer dans le développement de l’application et sa maintenance continue.
 
 ## Principaux éléments livrables {#key-deliverables}
 
@@ -29,6 +29,6 @@ Cette étape comprend tous les efforts de prévente et d’investigation nécess
 
 >[!NOTE]
 >
->Identifiez dès que possible les données nécessaires à l’application et d’où elles proviennent. Une exploration plus approfondie se produit pendant la mise en oeuvre. Veillez toutefois à prendre du temps pendant la *Jour zéro* pour connaître les données que le client a l’intention d’utiliser. Découvrez où ces données sont actuellement stockées et comment l’application en cours de création peut y accéder. Informer l’équipe de développement avant les défis permet de faciliter la mise en oeuvre.
+>Identifiez, le plus tôt possible, les données nécessaires pour l’application, ainsi que leur provenance. Une exploration plus approfondie se produit pendant la mise en œuvre. Veillez toutefois à prendre du temps pendant le *Jour 0* pour connaître les données que le client ou la cliente a l’intention d’utiliser. Découvrez où ces données sont actuellement stockées et comment l’application en cours de création peut y accéder. Informer l’équipe de développement avant les défis permet de faciliter la mise en œuvre.
 
-Regarder la vidéo [Observations dans le cadre de la définition de la portée du projet](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Regardez la vidéo [Observations dans le cadre de la définition de la portée du projet](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

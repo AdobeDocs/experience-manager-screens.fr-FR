@@ -1,26 +1,26 @@
 ---
-title: Canal de prise de contrôle permanente
-description: Découvrez comment créer un canal de prise de contrôle permanente.
+title: Canal de prise de contrôle perpétuelle
+description: Découvrez comment créer un canal de prise de contrôle perpétuelle.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Canal de prise de contrôle permanente {#perpetual-takeover-channel}
+# Canal de prise de contrôle perpétuelle {#perpetual-takeover-channel}
 
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Ce cas pratique explique comment créer un canal qui *prend le relai* du canal de lecture normal pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu de manière permanente pour un jour et une heure spécifiques.
-Par exemple, il existe un canal de prise de contrôle permanente lu tous les vendredis de 9h00 à 10h00. Pendant cette période, aucun autre canal ne doit être lu. L’exemple suivant illustre la création d’un canal de prise de contrôle permanente qui permet au contenu d’être lu tous les mercredis pendant deux heures, de 14h00 à 16h00.
+Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu de manière permanente pour un jour et une heure spécifiques.
+Par exemple, il existe un canal de prise de contrôle permanente lu tous les vendredis de 9h00 à 10h00. Pendant cette période, aucun autre canal ne doit être lu. L’exemple suivant présente la création d’un canal de prise de contrôle permanente qui lit le contenu tous les mercredis pendant 2 heures, de 14 h 00 à 16 h 00.
 
 ### Prérequis {#preconditions}
 
@@ -49,7 +49,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/p_usecase2.png)
 
-1. Cliquez sur le bouton **MainAdChannel** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
+1. Cliquez sur **MainAdChannel**, puis sur **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
 
    ![ressource](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Pour configurer un projet, procédez comme suit :
 
 1. Créez un canal **TakeOver** qui prend le contrôle du contenu dans **MainAdChannel** et qui est lu tous les mercredis de 14 h 00 à 16 h 00.
 
-1. Cliquez sur le bouton **TakeOver** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
+1. Cliquez sur **TakeOver**, puis sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
 
    ![ressource](assets/p_usecase4.png)
 
@@ -69,27 +69,27 @@ Pour configurer un projet, procédez comme suit :
 
 **Affectation de canaux à un affichage**
 
-1. Cliquez sur l&#39;affichage **MainLobbyDisplay** de la **Emplacements** dossier. Cliquez sur **Attribuer un canal** dans la barre d’actions pour ouvrir la boîte de dialogue **Attribution de canaux**.
+1. Cliquez sur l’affichage **MainLobbyDisplay** dans le dossier **Emplacements**. Cliquez sur **Attribuer un canal** dans la barre d’actions pour ouvrir la boîte de dialogue **Attribution de canaux**.
 
    >[!NOTE]
    >Pour savoir comment attribuer un canal à un affichage, consultez **[Attribution de canaux](channel-assignment.md)**.
 
 1. Renseignez les champs (**Chemin du canal**, **Priorité** et **Événements pris en charge**) de la boîte de dialogue **Attribution de canaux** et cliquez sur **Enregistrer** pour attribuer le canal **MainAdChannel** à votre affichage.
 
-   * **Chemin du canal**: cliquez sur le chemin d’accès au **MainAdChannel** channel
-   * **Priorité** : Définissez la priorité de ce canal sur 1.
-   * **Événements pris en charge**: cliquez sur le bouton **Charge initiale** et **Écran inactif**.
+   * **Chemin du canal** : cliquez sur le chemin d’accès au canal **MainAdChannel**.
+   * **Priorité** : définissez la priorité de ce canal sur 1.
+   * **Événements pris en charge** : cliquez sur le **Chargement initial** et l’**Écran inactif**.
 
    ![ressource](assets/p_usecase6.png)
 
-1. Cliquez sur l&#39;affichage **TakeOver** de la **Emplacements** dossier. Cliquez sur **Attribuer un canal** dans la barre d’actions pour attribuer le canal de prise de contrôle.
+1. Cliquez sur l’affichage **TakeOver** dans le dossier **Emplacements**. Cliquez sur **Attribuer un canal** dans la barre d’actions pour attribuer le canal de prise de contrôle.
 
-1. Attribution de la variable **TakeOver** vers votre affichage à une heure planifiée. Renseignez ensuite les champs suivants à partir du **Attribution de canaux** , puis sélectionnez **Enregistrer**:
+1. Attribuez le canal **TakeOver** à votre affichage à une heure planifiée. Renseignez ensuite les champs suivants à partir de l’**Attribution de canaux**, puis sélectionnez **Enregistrer** :
 
-   * **Chemin du canal**: cliquez sur le chemin d’accès au **TakeOver** channel
+   * **Chemin du canal** : cliquez sur le chemin d’accès au canal **TakeOver**.
    * **Priorité** : attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
-   * **Événements pris en charge**: cliquez sur le bouton **Écran inactif** et **Minuteur**.
-   * **Planification**: saisissez le texte du planning selon lequel ce canal doit s’exécuter sur l’affichage. Le texte de la **Planification** mentionnée dans cet exemple est *le mercredi après 14 h 00 et avant 16 h 00*.
+   * **Événements pris en charge** : cliquez sur l’**Écran inactif** et le **Minuteur**.
+   * **Planning** : saisissez le texte du planning selon lequel ce canal doit exécuter l’affichage. Le texte de la **Planification** mentionnée dans cet exemple est *le mercredi après 14 h 00 et avant 16 h 00*.
 
      >[!NOTE]
      >Pour en savoir plus sur les expressions que vous pouvez ajouter au **Planning**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
@@ -101,7 +101,7 @@ Pour configurer un projet, procédez comme suit :
 
      ![ressource](assets/p_usecase7.png)
 
-     Accédez à l’affichage à partir de **TakeOver** > **Emplacements** > **MainLobby** > **MainLobbyDisplay**, puis cliquez sur **Tableau de bord** depuis la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
+     Accédez à l’affichage à partir de **TakeOver** > **Emplacements** > **MainLobby** > **MainLobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions pour afficher les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
      >[!NOTE]
      >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.
@@ -111,7 +111,7 @@ Maintenant, le canal **TakeOver** prend le contrôle du canal **MainAdChannel** 
 
 ## Exemples d’expressions {#example-expressions}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -119,8 +119,8 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 | Après 14 h 00. | Le canal est lu tous les jours après 14 h 00. |
 | Après 12 h 15 et avant 12 h 45. | Le canal est lu après 12 h 15 tous les jours pendant 30 minutes. |
 | Avant 12 h 15 et après 12 h 45. | Le canal est lu avant 12 h 15 et après 12 h 45 tous les jours. |
-| le premier jour de janvier après 14 h 00, le deuxième jour de janvier et le troisième jour de janvier avant 3 h 00. | la lecture du canal commence après 14 h 00 le 1er janvier, et se poursuit toute la journée du 02 janvier jusqu’à 3 h 00 le 3 janvier |
-| les 1er et 2 jours de janvier après 14 h 00 et les 2 et 3 jours de janvier avant 3 h 00. | la lecture du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier |
+| puis le premier jour de janvier après 14 h 00, ainsi que le deuxième jour de janvier et le troisième jour de janvier avant 03 h 00, | la lecture du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier |
+| puis pendant 1-2 jours après 14 h 00 et 2-3 jours avant 03 h 00, | la lecture du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
 
 >[!NOTE]
 >

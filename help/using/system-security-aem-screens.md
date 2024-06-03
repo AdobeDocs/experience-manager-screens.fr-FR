@@ -1,10 +1,10 @@
 ---
 title: Liste de contrôle de sécurité d’AEM Screens
-description: En savoir plus sur la liste de contrôle de sécurité pour AEM Screens.
+description: En savoir plus sur la liste de contrôle de sécurité pour AEM Screens.
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Cette section décrit l’article technique. (en attente d’un article techniqu
 
 ## Questions fréquentes sur la sécurité d’AEM Screens {#faqs-screens}
 
-Les questions fréquentes suivantes supposent une architecture de lecteur authentifiée et enregistrée. Il utilise HTTPS comme protocole de communication entre le lecteur et AEM serveur.
+Les questions fréquentes suivantes supposent que l’architecture du lecteur est authentifiée et enregistrée. Celle-ci utilise HTTPS comme protocole de communication entre le lecteur et le serveur AEM.
 
 ### Question fréquente 1 {#faq1}
 
@@ -41,7 +41,7 @@ Dois-je utiliser le protocole HTTP ou HTTPS ?
 
 **Réponse**
 
-Utilisez le protocole HTTPS. Ce protocole est obligatoire si vous êtes concerné par la sécurité. Avec le protocole HTTPS, la communication est chiffrée entre le lecteur et le serveur, et l’interception ou la modification du contenu est impossible.
+Utilisez le protocole HTTPS. C’est un protocole essentiel si vous vous préoccupez de la sécurité. Avec le protocole HTTPS, la communication est chiffrée entre le lecteur et le serveur, et l’interception ou la modification du contenu est impossible.
 
 
 ### Question fréquente 3 {#faq3}
@@ -50,7 +50,7 @@ Lors d’un téléchargement de contenu, existe-t-il une sorte de signature du c
 
 **Réponse**
 
-Chaque ressource est signée (SHA) par le serveur. Le lecteur le valide ensuite pour le même hachage afin de garantir son intégrité.
+Chaque ressource est signée (SHA) par le serveur. Le lecteur la valide ensuite avec le même hachage afin de garantir son intégrité.
 Si le hachage ne correspond pas, le logiciel effectue trois tentatives de validation. Après trois tentatives, la commande de téléchargement est considérée comme non valide.
 
 
@@ -73,7 +73,7 @@ Un lecteur compromis physiquement peut théoriquement être manipulé pour lire 
 
 Mettez les appareils hors de portée, de préférence dans un boîtier sécurisé, doté d’un câblage également sécurisé. Désactivez aussi les ports de télécommande infrarouge.
 
-Si le système d’exploitation du périphérique n’est pas mis à jour régulièrement, il peut être exposé à des failles de sécurité et permettre des attaques à distance sur le réseau.
+Si le système d’exploitation de l’appareil n’est pas mis à jour régulièrement, il peut être exposé à des failles de sécurité et ainsi permettre des attaques à distance via le réseau.
 
 >[!NOTE]
 >

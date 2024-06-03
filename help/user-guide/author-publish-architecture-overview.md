@@ -1,6 +1,6 @@
 ---
-title: Présentation de l’architecture de création et de publication
-description: L’architecture d’AEM Screens ressemble à l’architecture AEM Sites traditionnelle. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication.
+title: Vue d’ensemble de l’architecture de création et de publication
+description: L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication.
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,13 +10,13 @@ role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '986'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Présentation de l’architecture de création et de publication {#author-and-publish-architectural-overview}
+# Vue d’ensemble de l’architecture de création et de publication {#author-and-publish-architectural-overview}
 
 Cette page met l’accent sur les sujets suivants :
 
@@ -34,13 +34,13 @@ Avant de commencer avec les serveurs de création et de publication, vous devez 
 
 >[!NOTE]
 >
->Cette fonctionnalité AEM Screens n’est disponible que si vous avez installé le pack de fonctionnalités 2 pour AEM 6.4 Screens. Pour accéder à ce Feature Pack, contactez l’assistance Adobe et demandez l’accès. Lorsque vous disposez de l’autorisation, téléchargez-la à partir de Partage de modules.
+>Cette fonctionnalité AEM Screens n’est disponible que si vous avez installé le pack de fonctionnalités 2 pour AEM 6.4 Screens. Pour accéder à ce pack de fonctionnalités, contactez l’assistance d’Adobe et demandez à y accéder. Lorsque vous disposez de l’autorisation, téléchargez-la à partir de Partage de modules.
 
 ## Présentation {#introduction}
 
-L’architecture d’AEM Screens ressemble à l’architecture AEM Sites traditionnelle. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Les périphériques sur AEM Screens peuvent désormais se connecter à une ferme de publication AEM au moyen d’un équilibreur de charge. Plusieurs instances de publication AEM peuvent être ajoutées afin de continuer la mise à l’échelle la batterie de serveurs de publication.
+L’architecture d’AEM Screens ressemble à l’architecture classique d’AEM Sites. Le contenu est créé sur une instance de création AEM avant d’être répliqué sur plusieurs instances de publication. Les appareils sur AEM Screens peuvent désormais se connecter à une batterie de serveurs de publication AEM via la répartition de charge. Plusieurs instances de publication AEM peuvent être ajoutées afin de continuer la mise à l’échelle de la batterie de serveurs de publication.
 
-*Par exemple*, un auteur de contenu AEM Screens émet une commande sur le système de création pour un périphérique particulier. Ce périphérique est configuré pour interagir avec une ferme de publication. Vous pouvez également interagir avec un auteur de contenu AEM Screens qui obtient des informations sur les appareils configurés pour interagir avec les fermes de publication.
+*Par exemple*, un auteur ou une autrice de contenu AEM Screens émet une commande sur le système de création pour un appareil particulier. Ce périphérique est configuré pour interagir avec une batterie de publication. Ou pour interagir avec un auteur ou une autrice de contenu AEM Screens qui obtient des informations sur les appareils configurés pour interagir avec les batteries de publication.
 
 Le diagramme suivant illustre l’environnement de création et l’environnement de publication.
 
@@ -53,13 +53,13 @@ Il existe cinq composants architecturaux qui facilitent cette solution :
 * ***Réplication du contenu*** de l’instance de création à l’instance de publication pour l’affichage par les appareils
 
 * Réplication ***inverse*** du contenu binaire de l’environnement de publication (reçu des appareils) vers l’environnement de création.
-* ***Envoi*** des commandes de l’auteur à publier au moyen d’API REST spécifiques.
+* ***Envoi*** de commandes de l’instance de création vers l’instance de publication via des API REST spécifiques.
 * ***Messagerie*** entre les instances de publication pour synchroniser les commandes et les mises à jour des informations sur les appareils.
-* ***Interrogation*** par l’auteur des instances de publication pour obtenir des informations sur les périphériques au moyen d’API REST spécifiques.
+* ***Interrogation*** par l’auteur ou l’autrice des instances de publication pour obtenir des informations sur les appareils via des API REST spécifiques.
 
 ### Réplication (transfert) du contenu et des configurations {#replication-forward-of-content-and-configurations}
 
-Les agents de réplication standard servent à répliquer le contenu du canal, les configurations d’emplacement et les configurations d’appareil AEM Screens. Cette fonctionnalité permet aux auteurs de mettre à jour le contenu d’un canal et éventuellement de passer par un processus d’approbation avant de publier les mises à jour du canal. Un agent de réplication doit être créé pour chaque instance de publication de la batterie de serveurs de publication.
+Les agents de réplication standard servent à répliquer le contenu du canal, les configurations d’emplacement et les configurations d’appareil AEM Screens. Cette fonctionnalité permet aux auteurs et autrices de mettre à jour le contenu d’un canal et, éventuellement, de passer par un processus d’approbation avant de publier les mises à jour du canal. Un agent de réplication doit être créé pour chaque instance de publication de la batterie de serveurs de publication.
 
 Le diagramme suivant illustre le processus de réplication :
 
@@ -73,13 +73,13 @@ Le diagramme suivant illustre le processus de réplication :
 
 Des agents de réplication spécifiques personnalisés Screens sont créés pour envoyer des commandes de l’instance Auteur à l’appareil AEM Screens. Les instances de publication AEM servent d’intermédiaire pour transférer ces commandes à l’appareil.
 
-Ce workflow permet aux auteurs de continuer à gérer l’appareil, par exemple d’envoyer des mises à jour de l’appareil et de prendre des captures d’écran à partir de l’environnement de création. Les agents de réplication AEM Screens ont une configuration de transport personnalisée, comme les agents de réplication standard.
+Ce processus permet aux auteurs et autrices de continuer à gérer l’appareil, par exemple d’envoyer des mises à jour à l’appareil et de prendre des captures d’écran à partir de l’environnement de création. Les agents de réplication AEM Screens ont une configuration de transport personnalisée, comme les agents de réplication standard.
 
 ### Messagerie entre les instances de publication {#messaging-between-publish-instances}
 
-Souvent, une commande n’est censée être envoyée à un appareil qu’une seule fois. Toutefois, dans une architecture de publication équilibrée en charge, l’instance de publication à laquelle l’appareil se connecte est inconnue.
+Souvent, une commande n’est censée être envoyée à un appareil qu’une seule fois. Toutefois, dans une architecture de publication à charge répartie, l’instance de publication à laquelle l’appareil se connecte est inconnue.
 
-Par conséquent, l’instance de création envoie le message à toutes les instances de publication. Cependant, un seul message doit ensuite être relayé à l’appareil. Pour garantir un message correct, une communication doit avoir lieu entre les instances de publication. Cette communication est réalisée à l’aide de *Apache ActiveMQ Artemis*. Chaque instance de publication est placée dans une topologie à couplage faible à l’aide du service de découverte Sling basé sur Oak. ActiveMQ est configuré de sorte que chaque instance de publication puisse communiquer et créer une file de messages unique. L’appareil AEM Screens interroge la batterie de serveurs de publication AEM via la répartition de charge et sélectionne la commande qui se trouve au sommet de la file.
+Par conséquent, l’instance de création envoie le message à toutes les instances de publication. Cependant, seul un message unique doit être relayé à l’appareil. Pour garantir un message correct, une communication doit avoir lieu entre les instances de publication. Cette communication est réalisée en utilisant *Apache ActiveMQ Artemis*. Chaque instance de publication est placée dans une topologie à couplage faible à l’aide du service de découverte Sling basé sur Oak. ActiveMQ est configuré de sorte que chaque instance de publication puisse communiquer et créer une file de messages unique. L’appareil AEM Screens interroge la batterie de serveurs de publication AEM via la répartition de charge et sélectionne la commande qui se trouve au sommet de la file.
 
 ### Réplication inverse {#reverse-replication}
 
@@ -87,12 +87,12 @@ Dans de nombreux cas, après une commande, on attend une certaine réponse de la
 
 * Créez un agent de réplication inverse pour chaque instance de publication, semblable aux agents de réplication standard et aux agents de réplication Screens.
 * Une configuration de lanceur de workflow écoute les nœuds modifiés sur l’instance de publication AEM et déclenche à son tour un workflow pour placer la réponse de l’appareil dans la boîte d’envoi de l’instance de publication.
-* Dans ce contexte, une réplication inverse n’est utilisée que pour les données binaires (telles que les fichiers journaux et les captures d’écran) fournies par les périphériques. L’interrogation des données non binaires est récupérée.
+* Dans ce contexte, une réplication inverse n’est utilisée que pour les données binaires (fichiers journaux et captures d’écran, par exemple) fournies par les appareils. L’interrogation des données non binaires est récupérée.
 * La réplication inverse interrogée à partir de l’instance de création AEM récupère la réponse et l’enregistre dans l’instance de création.
 
 ### Interrogation des instances de publication {#polling-of-publish-instances}
 
-Les instances d’auteur doivent être en mesure d’interroger les appareils pour obtenir une pulsation et connaître l’état d’intégrité d’un appareil connecté.
+L’instance de création doit pouvoir interroger les appareils pour obtenir une pulsation et connaître le statut d’intégrité d’un appareil connecté.
 
 Les appareils envoient un ping à l’équilibreur de charge et sont routés vers une instance de publication. Le statut de l’appareil est ensuite révélé par l’instance de publication AEM via une API de publication diffusée à l’adresse **api/screens-dcc/devices/static** pour tous les appareils actifs et **api/screens-dcc/devices/&lt;device_id>/status.json** pour un appareil unique.
 
@@ -100,12 +100,12 @@ L’instance de création interroge toutes les instances de publication et fusio
 
 ## Enregistrement {#registration}
 
-L’enregistrement continue d’être généré sur l’instance de création AEM. L’appareil AEM Screens pointe vers l’instance d’auteur et l’enregistrement est terminé.
+L’enregistrement continue d’être généré sur l’instance de création AEM. L’appareil AEM Screens pointe vers l’instance de création et l’enregistrement est terminé.
 
-Une fois qu’un appareil a été enregistré dans l’environnement de création, la configuration de l’appareil et les affectations de canal/planning sont répliquées dans les instances de publication AEM. La configuration du périphérique AEM Screens est alors mise à jour afin de pointer vers l’équilibreur de charge situé devant la batterie de publication AEM. Cet arrangement est conçu pour être une configuration unique. Une fois que le périphérique Screens est connecté à l’environnement de publication, il peut continuer à recevoir des commandes provenant de l’environnement de création. Il ne doit pas être nécessaire de connecter directement l’appareil AEM Screens à l’environnement de création AEM.
+Une fois qu’un appareil a été enregistré dans l’environnement de création, la configuration de l’appareil et les affectations de canal/planning sont répliquées dans les instances de publication AEM. La configuration de l’appareil AEM Screens est ensuite mise à jour afin de pointer vers la répartition de charge situé en amont de la batterie de serveurs de publication AEM. Cet arrangement est destiné à être configuré une seule fois. Une fois que l’appareil Screens est connecté à l’environnement de publication, il peut continuer à recevoir des commandes provenant de l’environnement de création. Il ne devrait pas être nécessaire de connecter directement l’appareil AEM Screens à l’environnement de création AEM.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
 ### Étapes suivantes {#the-next-steps}
 
-Lorsque vous comprenez la conception architecturale de la configuration de l’auteur et de la publication dans AEM Screens, reportez-vous à la section [Configuration de la création et de la publication pour AEM Screens](author-and-publish.md) pour plus d’informations.
+Lorsque vous avez compris la conception architecturale de la configuration de création et de publication dans AEM Screens, reportez-vous à la section [Configurer des instances de création et de publication pour AEM Screens](author-and-publish.md) afin d’en savoir plus.

@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités 201909
-description: En savoir plus sur le pack de fonctionnalités 201909 AEM Screens, publié le jeudi 31 juillet 2019.
+description: En savoir plus sur le pack de fonctionnalités 201909 AEM Screens, publié le 31 juillet 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 AEM Screens a publié le pack de fonctionnalité 6 AEM 6.4.6 et le pack de fonctionnalités 2 AEM 6.5.2 avec les détails suivants.
 
@@ -28,7 +28,7 @@ La date de publication du pack de fonctionnalités 201909 AEM Screens est le 7�
 
 * **Amélioration des mises à jour de l’interface utilisateur pour créer un projet Screens**
 
-  Une interface utilisateur mise à jour pour la création d’un projet AEM Screens est désormais disponible. Vous pouvez créer un projet Screens en quelques clics simples. De plus, l’onglet Propriétés de chaque projet comporte désormais une interface utilisateur plus intuitive.
+  Une interface d’utilisation mise à jour pour la création de projet AEM Screens est disponible. Vous pouvez créer un projet Screens très simplement et en quelques clics. De plus, l’onglet Propriétés de chaque projet comporte désormais une interface utilisateur plus intuitive.
 
   Consultez [Création d’un nouveau projet Screens](creating-a-screens-project.md) pour plus d’informations.
 
@@ -57,4 +57,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.6 Feature Pack 6 
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, consultez [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).

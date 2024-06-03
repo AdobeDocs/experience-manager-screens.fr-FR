@@ -10,15 +10,15 @@ role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
 source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Utiliser la commande à distance Screens {#implementing-remote-control}
 
-La fonctionnalité de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canal ou à des fonctionnalités telles qu’Effacer le cache et recharger. En outre, elle vous permet de voir la version locale du micrologiciel et les informations système du lecteur. Cette fonctionnalité est particulièrement utile car il peut être difficile de connecter une souris. Ou opérez sur des appareils de production hors de portée, et plus encore si le lecteur a perdu toute connexion avec AEM. Elle est également utile lorsque vous utilisez Samsung RMS, car la différence de résolution peut rendre difficile la localisation et l’ouverture de l’interface utilisateur d’administration à l’aide de la souris.
+La fonctionnalité de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canal ou à des fonctionnalités telles qu’Effacer le cache et recharger. En outre, elle vous permet de voir la version locale du micrologiciel et les informations système du lecteur. Cette fonctionnalité est particulièrement utile, car il peut être difficile de connecter une souris. Ou d’utiliser sur des appareils de production hors de portée, et encore plus si le lecteur a perdu toute connexion avec AEM. Cela est également utile lorsque vous utilisez Samsung RMS, car la différence de résolution peut rendre difficiles la localisation et l’ouverture de l’interface d’utilisation de l’administration à l’aide d’une souris.
 
 ## Combinaisons de touches courantes de commande à distance {#using-common-remote-control}
 
@@ -47,7 +47,7 @@ La figure suivante illustre l’utilisation des touches sur une télécommande S
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande n’active pas l’interface utilisateur d’administration et le sélecteur de canal. Vous ne pouvez pas utiliser les touches fléchées pour naviguer dans l’interface utilisateur d’administration ou les canaux. Cependant, vous pouvez toujours vider le cache et recharger le lecteur. Vous pouvez désactiver la fonctionnalité de commande à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif en utilisant ce code :
+>Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande ne pourra pas basculer entre l’interface d’utilisation de l’administration et le sélecteur de canal. Vous ne pouvez pas utiliser les touches fléchées pour naviguer dans l’interface d’utilisation de l’administration ou les canaux. Cependant, vous pouvez toujours vider le cache et recharger le lecteur. Vous pouvez désactiver la fonctionnalité de commande à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif en utilisant ce code :
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

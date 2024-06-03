@@ -1,27 +1,27 @@
 ---
-title: Notes de mise à jour du Feature Pack 202109
+title: Notes de mise à jour du pack de fonctionnalités 202109
 description: Découvrez le pack de fonctionnalités 202109 d’AEM Screens, publié le 23 septembre 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Notes de mise à jour du Feature Pack 202109 {#release-notes-for-feature-pack}
+# Notes de mise à jour du pack de fonctionnalités 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
 Le Feature Pack 9 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.9 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP9**.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.9 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP9**.
 
 ## Date de publication {#release-date}
 
@@ -31,7 +31,7 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 sept
 
 * **Prise en charge des miniatures de vidéos**
 
-  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. Ils testent également correctement la lecture et le ciblage du contenu, tandis que l’équipe appropriée finalise la vidéo réelle. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
+  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur ou une autrice de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. L’auteur ou l’autrice teste également correctement la lecture et le ciblage du contenu, tandis que l’équipe appropriée finalise la vidéo réelle. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
 Pour plus d’informations, voir [Prise en charge des miniatures de vidéos](/help/user-guide/thumbnail-support.md).
 
 * **Suivi de base de la lecture**
@@ -41,12 +41,12 @@ Pour plus d’informations, voir [Suivi de base de la lecture](https://experienc
 
 * **Mises à jour du rapport d’affectation de contenu**
 
-  Le rapport d’affectation de contenu est désormais optimisé et amélioré grâce à une expérience utilisateur améliorée. Le rapport téléchargeable présente des entités améliorées liées au lecteur. Ces entités incluent des emplacements, des affichages et des périphériques dans un seul onglet de feuille de calcul. Il inclut également les informations du fournisseur de contenu telles que les canaux et les ressources dans un autre onglet.
+  Le rapport d’attribution de contenu est désormais optimisé et amélioré avec une expérience d’utilisation améliorée. Le rapport téléchargeable présente des entités améliorées liées au lecteur. Ces entités incluent des emplacements, des affichages et des appareils dans un seul onglet de feuille de calcul. Il inclut également les informations du fournisseur de contenu telles que les canaux et les ressources dans un autre onglet.
 Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 * **Rendus adaptatifs**
 
-  Les rendus adaptatifs permettent à l’appareil de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client.
+  Les rendus adaptatifs permettent à l’appareil de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client ou la cliente.
 
   En tant que développeur AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu. Voir [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md) pour plus d’informations.
 
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * **Prise en charge des manifestes V3**
 
-  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, procédez comme suit :
+  Vous pouvez désormais configurer Dispatcher pour les manifestes version v3. Pour activer le manifeste v3, procédez comme suit :
 
    * Effacer tous les traitements de contenu hors ligne en attente à la fois dans l’instance création et l’instance de publication.
 
@@ -91,11 +91,11 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Amélioration du ping pour la réauthentification si la réponse n’est pas un fichier JSON valide.
 
-* Les noms et rôles des canaux numériques étaient laissés vide.
+* Les noms et rôles des canaux numériques étaient laissés vides.
 
 * Téléchargez des rendus optimisés au moyen de SmartSync.
 
-* Le mappage a été transformé en liste de clés de rendu.
+* Transformation du mappage en liste de clés de rendu.
 
 * Suppression de l’accès à `cmd.exe` et `reg.exe` dans le lecteur Windows.
 
@@ -130,23 +130,23 @@ Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user
 
 * Les appareils supprimés ne bloquent désormais plus la file d’attente de réplication de Screens.
 
-* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce bogue a maintenant été corrigé.
+* Le manifeste ne contenait pas de contenu ciblé ni de pages incorporées Sites. Ce bug est maintenant résolu.
 
-* Un nouveau composant d’image principal est maintenant ajouté au manifeste du canal.
+* Un nouveau composant d’image principal est désormais ajouté au manifeste du canal.
 
-* Le téléchargement de rendus optimisés au moyen de SmartSync est désormais pris en charge.
+* Le téléchargement de rendus optimisés via SmartSync est désormais pris en charge.
 
 * Lire le rendu optimisé pour toutes les ressources.
 
 * Ajout de la prise en charge de plusieurs types de fournisseurs de contenu
 
-* La stratégie de lecture de séquence incorporée a été interrompue et ce bogue est maintenant corrigé.
+* La stratégie de lecture de séquence incorporée était rompue et ce bug a maintenant été corrigé.
 
 * Manifeste hors ligne utilisant le paramètre de requête `wcmmode` pour l’entrée HTML, ce qui rend la mise en cache impossible.
 
 * Une séquence incorporée dynamique vide provoquait parfois un écran vide.
 
-* Le lecteur indique désormais son état de lecture.
+* Le lecteur signale maintenant son statut de lecture.
 
 * La vidéo était lue dans `Tiny mode` et n’était pas lue comme vidéo plein écran sur l’appareil et le problème a été corrigé maintenant.
 
@@ -162,4 +162,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 9�
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Avant de commencer à implémenter cette fonctionnalité, veillez à configurer 
 
 1. Créer un projet AEM Screens, **ChannelLevelPlayback**.
 
-1. Créez un canal de séquence sous la forme **PlaybackChannel** sous le **Canaux** dossier.
+1. Créez un canal de séquence **PlaybackChannel** dans le dossier **Canaux**.
 
 1. Ajouter un contenu à **PlaybackChannel**.
 
@@ -53,7 +53,7 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Cliquez sur toutes les images du canal, puis sur l’icône en forme de clé à molette en haut à gauche (comme illustré dans la figure ci-dessous) pour ouvrir la boîte de dialogue Configuration de canal .
+1. Cliquez sur toutes les images du canal, puis sur l’icône en forme de clé à molette en haut à gauche (comme l’illustre la figure ci-dessous) pour pouvoir ouvrir la boîte de dialogue de configuration de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -70,6 +70,6 @@ Suivez les étapes ci-dessous pour savoir comment mettre à jour l’attribution
 
 ### Afficher le résultat {#viewing-the-result}
 
-Après avoir mis à jour la durée de lecture du canal (dans cet exemple, les trois images), notez que les images sont désormais lues pendant 3 secondes au lieu de 8 secondes (valeur par défaut).
+Après avoir mis à jour la durée de lecture du canal (en l’occurrence, les trois images), vous constatez que la durée de lecture de ces images n’est pas de 8 secondes (valeur par défaut), mais de 3 secondes.
 
 ![channel_preview](assets/channel_preview.gif)

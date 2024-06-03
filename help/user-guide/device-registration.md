@@ -11,9 +11,9 @@ role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Le processus d’enregistrement des appareils est effectué sur deux machines d
 
 >[!NOTE]
 >
->Après avoir téléchargé le dernier lecteur Windows (*.exe*), à partir de la fonction [Téléchargements du lecteur AEM 6.4](https://download.macromedia.com/screens/) , suivez les étapes du lecteur pour terminer l’installation ad hoc :
+>Après avoir téléchargé le dernier lecteur Windows (*.exe*), à partir de la page [Téléchargements du lecteur AEM 6.4](https://download.macromedia.com/screens/), suivez les étapes du lecteur pour terminer l’installation ad hoc :
 >
 >1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
->1. Cliquez sur le bouton **Enregistrement** à partir du menu d’actions de gauche et des étapes ci-dessous pour terminer le processus d’enregistrement du périphérique.
+>1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement de l’appareil.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -57,7 +57,7 @@ Le processus d’enregistrement des appareils est effectué sur deux machines d
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Cliquez sur le périphérique requis (comme pour l’étape 1), puis cliquez sur **Enregistrer le périphérique**.
+1. Cliquez sur l’appareil requis (comme pour l’étape 1) et cliquez sur **Enregistrer le périphérique**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,7 +69,7 @@ Le processus d’enregistrement des appareils est effectué sur deux machines d
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Si la variable **Code d’enregistrement** est identique sur les deux machines, cliquez sur l’icône **Valider** dans AEM, comme indiqué à l’étape (6).
+1. Si le **Code d’enregistrement** est le même sur les deux machines, cliquez sur le bouton **Valider** dans AEM, comme indiqué à l’étape (6).
 1. Saisissez le nom souhaité pour l’appareil, puis cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -84,7 +84,7 @@ Le processus d’enregistrement des appareils est effectué sur deux machines d
    >
    >Le bouton **Attribuer l’affichage** permet d’ajouter directement l’appareil à un affichage.
 
-   Cliquez sur **Terminer**, affectez le périphérique à un affichage.
+   Si vous cliquez sur **Terminer**, attribuez l’appareil à un affichage.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -94,13 +94,13 @@ Le processus d’enregistrement des appareils est effectué sur deux machines d
 
 ### Attribution d’un appareil à un affichage {#assigning-device-to-a-display}
 
-Si vous n’avez pas attribué l’appareil à un affichage, procédez comme suit pour attribuer l’appareil à un affichage dans votre projet AEM Screens :
+Si vous n’avez pas attribué l’appareil à un affichage, procédez comme suit pour attribuer l’appareil à un affichage dans votre projet AEM Screens :
 
-1. Cliquez sur le périphérique, puis sur **Attribuer le périphérique** dans la barre d’actions.
+1. Cliquez sur l’appareil, puis sur **Attribuer le périphérique** dans la barre d’actions.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Cliquez sur le chemin de l’affichage dans **Chemin de configuration de l’affichage/du périphérique**.
+1. Cliquez sur le chemin d’accès de l’affichage dans **Chemin de configuration de l’écran/appareil**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
@@ -118,11 +118,11 @@ Si vous n’avez pas attribué l’appareil à un affichage, procédez comme sui
 
 ## Recherche d’un appareil à partir du gestionnaire d’appareils {#search-device}
 
-Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez les afficher dans l’interface utilisateur du Gestionnaire de périphériques.
+Lorsque vous avez enregistré des appareils sur votre lecteur, vous pouvez les afficher depuis l’interface d’utilisation du Gestionnaire de périphériques.
 
-1. Accédez à l’interface utilisateur du Gestionnaire d’appareils à partir de votre projet AEM Screens, par exemple **DemoScreens** > **Appareils**.
+1. Accédez à l’interface utilisateur du Gestionnaire de périphériques à partir de votre projet AEM Screens, par exemple **DemoScreens** > **Appareils**.
 
-1. Cliquez sur le bouton **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
+1. Cliquez sur le dossier **Appareils**, puis sur **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ Lorsque vous avez enregistré des périphériques sur votre lecteur, vous pouvez
 
    Ou,
 
-   Sélectionner `/` (barre oblique) pour appeler la fonctionnalité de recherche.
+   Sélectionnez `/` (barre oblique) pour appeler la fonctionnalité de recherche.
 
-   ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
+   ![Image](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### Limites de la fonctionnalité de recherche {#limitations}
 
-* L’utilisateur peut rechercher n’importe quel mot existant dans la variable *identifiant de l’appareil* ou *Nom de l’appareil*.
+* L’utilisateur ou l’utilisatrice peut rechercher n’importe quel mot existant dans l’*ID d’appareil* ou le *Nom de l’appareil*.
 
   >[!NOTE]
-  >Il est recommandé de créer les noms de périphériques à l’aide de plusieurs mots, tels que *`Boston Store Lobby`* plutôt qu’un seul *`BostonStoreLobby`*.
+  >Il est recommandé de créer les noms d’appareils à l’aide de plusieurs mots, comme *`Boston Store Lobby`*, plutôt qu’en un seul, comme *`BostonStoreLobby`*.
 
-* Si vous avez créé des noms d’appareils tels que *`Boston Store Lobby`*, il recherche n’importe quel mot. *`boston`*, *`store`*, ou *`lobby`*. Cependant, si le nom de l’appareil est *`BostonStoreLobby`*, puis en recherchant *`boston`* n’affiche aucun résultat.
+* Si vous avez créé des noms d’appareils tels que *`Boston Store Lobby`*, n’importe quel mot est recherché : *`boston`*, *`store`*, ou *`lobby`*. Cependant, si le nom de l’appareil est *`BostonStoreLobby`*, une recherche portant sur *`boston`* ne renvoie aucun résultat.
 
-* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez trouver tous les périphériques dont le nom commence par *`boston`*, vous pouvez utiliser *`boston`**.
+* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les appareils dont le nom commence par *`boston`*, vous pouvez utiliser *`boston`**.
 
-* Si le nom de l’appareil est *`BostonStoreLobby`* et la recherche *`boston`* ne renvoie pas le résultat, puis utilise *`boston`** dans vos critères de recherche renvoie le résultat.
+* Si le nom de l’appareil est *`BostonStoreLobby`*, la recherche de *`boston`* ne renvoie pas de résultat. Par contre, l’utilisation de *`boston`** dans vos critères de recherche renvoie un résultat.
 
 ## Restrictions relatives à l’enregistrement d’appareils {#limitations-on-device-registration}
 
 Les restrictions de mot de passe utilisateur à l’échelle du système peuvent entraîner l’échec de l’enregistrement de l’appareil. L’enregistrement de l’appareil utilise un mot de passe généré de manière aléatoire pour créer l’utilisateur ou l’utilisatrice de l’appareil.
 
-Si la variable *AuthorizableActionProvider* La configuration limite le mot de passe, ce qui peut entraîner l’échec de la création de l’utilisateur de l’appareil.
+Si la configuration *AuthorizableActionProvider* limite le mot de passe, la création de l’utilisateur ou de l’utilisatrice de l’appareil peut échouer.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Autres ressources {#additional-resources}
 
-Pour en savoir plus sur le lecteur AEM Screens, voir [Lecteur AEM Screens](working-with-screens-player.md).
+Pour en savoir plus sur le lecteur AEM Screens, voir [Lecteur AEM Screens](working-with-screens-player.md).

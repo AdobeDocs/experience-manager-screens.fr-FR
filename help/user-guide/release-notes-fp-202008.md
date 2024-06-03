@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités 202008
-description: En savoir plus sur le pack de fonctionnalités 202008 AEM Screens, publié le vendredi 3 septembre 2020.
+description: En savoir plus sur le pack de fonctionnalités 202008 AEM Screens, publié le 3 septembre 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 64%
 
 >[!CAUTION]
 >
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 ## Disponibilité {#availability}
 
-AEM Screens inclus dans le Feature Pack 5 d’AEM 6.5.
+AEM Screens inclus dans le pack de fonctionnalités 5 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.5 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités.
 
 ## Date de publication {#release-date}
 
@@ -38,15 +38,15 @@ La date de publication du pack de fonctionnalités 202008 d’AEM Screens est 
 
 * **Planning de périodicité**
 
-  Le planning de périodicité permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs calendriers de périodicité pour un canal.
+  Le planning de périodicité permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.
 
   Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 * **Fonctionnalités de reconnaissance vocale pour AEM Screens**
 
-  La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
+  La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-  Un auteur de contenu peut configurer un affichage pour qu’il soit activé pour la voix. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans.
+  Un auteur ou une autrice de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonctionnalité permet aux clientes et clients d’utiliser la voix pour interagir avec leurs écrans.
 
   Voir [Reconnaissance vocale](voice-recognition.md) pour plus d’informations.
 
@@ -71,4 +71,4 @@ Les lecteurs AEM Screens suivants sont publiés pour la version d’AEM Screens
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/index.html)**.

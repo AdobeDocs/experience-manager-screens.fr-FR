@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Cette section couvre les sujets suivants :
 
 ## Vue d’ensemble {#overview}
 
-La superposition de texte est une fonctionnalité disponible dans AEM Screens. Il vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposé sur une image.
+La superposition de texte est une fonctionnalité disponible dans AEM Screens. Celle-ci vous permet de créer une expérience attrayante dans un canal de séquence en fournissant un titre ou une description superposés au-dessus d’une image.
 
 Pour savoir comment créer votre propre composant personnalisé, voir **Extension d’un composant AEM Screens**.
 
-Cette section explique uniquement comment utiliser et appliquer le composant Poster dans un projet AEM Screens. Il s’affiche également sous la forme d’une superposition de texte dans l’un de vos canaux de séquence.
+Cette section explique uniquement l’utilisation et l’application du composant Affiche dans un projet AEM Screens. Elle explique également son application comme superposition de texte dans l’un de vos canaux de séquence.
 
 ## Utilisation de la superposition de texte {#using-text-overlay}
 
@@ -48,11 +48,11 @@ Avant d’implémenter cette fonctionnalité, assurez-vous d’avoir configuré 
 
 * Créez un projet AEM Screens (dans cet exemple, **TextOverlayDemo**)
 
-* Créez un canal de séquence intitulé **TextSample** sous le **Canaux** folder
+* Créez un canal de séquence portant le titre **TextSample** dans le dossier **Canaux**.
 
 * Ajoutez du contenu à votre canal **TextSample**
 
-L’image suivante montre la variable **TextOverlayDemo** avec la propriété **TextSample** du canal **Canaux** dossier.
+L’image suivante montre le projet **TextOverlayDemo** avec le canal **TextSample** dans le dossier **Canaux**.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -62,11 +62,11 @@ Pour utiliser la superposition de texte dans un canal AEM Screens, procédez co
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Cliquez sur l’image, puis sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
+1. Cliquez sur l’image et sur **Configurer** (icône en forme de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Cliquez sur le bouton **Superposition de texte** dans la barre de navigation de la boîte de dialogue, comme illustré dans la figure ci-dessous.
+1. Cliquez sur l’option **Superposition de texte** dans la barre de navigation de la boîte de dialogue, comme illustré dans la figure ci-dessous.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -84,11 +84,11 @@ Vous pouvez ajouter du texte à la zone de texte ou encore des styles typographi
 
 >[!NOTE]
 >
->Lorsque vous utilisez des outils affinés, veillez à identifier la position correcte en pixels en utilisant (px) comme suffixe, par exemple 200 px. Le résultat de cette expression est de 200 pixels à partir du point de départ.
+>Lors de l’utilisation d’outils d’ajustement affinés, veillez à identifier la position correcte en pixels en utilisant (px) comme suffixe, par exemple 200 px. Le résultat de cette expression sera de 200 pixels à partir du point de départ.
 
 ## Utilisation des valeurs ContextHub dans la superposition de texte {#using-text-overlay-context-hub}
 
-La section suivante décrit l’utilisation des valeurs d’un magasin de données, par exemple des feuilles de calcul Google Sheets dans le composant de superposition de texte.
+La section ci-après décrit l’utilisation des valeurs d’un magasin de données, par exemple, des feuilles de calcul Google Sheets dans le composant de superposition de texte.
 
 **Conditions préalables**
 
@@ -98,13 +98,13 @@ Pour apprendre à configurer et à gérer les modifications de ressources axées
 
 Après avoir défini les configurations requises pour votre projet, suivez les étapes ci-dessous pour utiliser les valeurs d’une feuille de calcul Google Sheets :
 
-1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Accédez à **TextOverlayDemo** > **Canaux** > **TextSample** et cliquez sur **Propriétés** dans la barre d’actions.
 
-1. Cliquez sur le bouton **Personnalisation** pour pouvoir configurer les configurations ContextHub.
+1. Cliquez sur l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
-   1. Cliquez sur le bouton **Chemin ContextHub** as **libs** > **paramètres** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Sélectionner**.
+   1. Cliquez sur le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub**, puis sur **Sélectionner**.
 
-   1. Cliquez sur le bouton **Chemin d’accès aux segments** as **conf** > **screens** > **paramètres** > **wcm** > **segments** et cliquez sur **Sélectionner**.
+   1. Cliquez sur le **Chemin d’accès aux segments** **conf** > **screens** > **settings** > **wcm** > **segments**, puis sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 
@@ -129,7 +129,7 @@ Après avoir défini les configurations requises pour votre projet, suivez les �
    >[!NOTE]
    >Si vous n’avez pas défini votre configuration ContextHub, cette option est désactivée pour votre projet.
 
-1. Saisissez **Valeur** dans le champ **Espace réservé**. Cliquez sur la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille de calcul Google. **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles Google. Maintenant, saisissez le **Valeur par défaut** as **20**, comme illustré dans la figure ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
+1. Saisissez **Valeur** dans le champ **Espace réservé**. Cliquez sur la ligne dans laquelle vous souhaitez obtenir la valeur de votre feuille Google Sheet dans **Variable ContextHub**. Dans ce cas, la valeur est récupérée à partir de la ligne 2 et de la colonne 1 des feuilles Google Sheet. Définissez maintenant la **Valeur par défaut** sur **20**, comme illustré dans la figure ci-dessous. Une fois que vous avez terminé, cliquez sur la coche.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Après avoir défini les configurations requises pour votre projet, suivez les �
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Cliquez sur **Aperçu**. 
+1. Cliquez sur **Prévisualisation**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

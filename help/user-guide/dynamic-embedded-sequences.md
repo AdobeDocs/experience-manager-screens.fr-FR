@@ -10,9 +10,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2451'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,25 +27,25 @@ L’utilisation de séquences incorporées dynamiques couvre les rubriques suiva
 
 ## Vue d’ensemble {#overview}
 
-***Séquences incorporées dynamiques*** sont créés pour les grands projets qui respectent une hiérarchie parent-enfant, où l’enfant est référencé dans un dossier d’emplacement et non dans un dossier de canaux. Cela permet à l’utilisateur d’incorporer une séquence à l’intérieur d’un canal par ***Rôle de canal***. Cela permet à l’utilisateur ou l’utilisatrice de définir des espaces réservés spécifiques à un emplacement pour différents bureaux à l’aide d’une séquence incorporée dans un canal principal.
+Les ***séquences incorporées dynamiques*** sont créées pour les projets de grande envergure qui respectent la hiérarchie enfant-parent, où l’enfant est référencé dans un dossier d’emplacement et non dans un dossier de canal. Cela permet à l’utilisateur d’incorporer une séquence à l’intérieur d’un canal par ***Rôle de canal***. Cela permet à l’utilisateur ou l’utilisatrice de définir des espaces réservés spécifiques à un emplacement pour différents bureaux à l’aide d’une séquence incorporée dans un canal principal.
 
-Lorsque vous attribuez un canal à un affichage, vous avez la possibilité de spécifier le chemin d’accès de l’affichage. Vous pouvez également spécifier le rôle du canal qui correspond à un canal réel en fonction du contexte.
+Lorsque vous attribuez un canal à un affichage, vous avez la possibilité de spécifier le chemin d’accès de l’affichage. Ou vous pouvez indiquer le rôle du canal, qui désignera un canal réel en fonction du contexte.
 
-Pour utiliser la séquence incorporée dynamique, il faut affecter un canal par ***rôle de canal***. Le rôle du canal définit le contexte de l’affichage. Le rôle cible diverses actions et est indépendant du canal qui remplit le rôle. Cette section décrit un cas d’utilisation qui définit les canaux par rôle et comment vous pouvez appliquer ce contenu dans un canal global. Vous pouvez également considérer le rôle comme un identifiant pour l’attribution ou comme un alias pour le canal dans le contexte.
+Pour utiliser la séquence incorporée dynamique, il faut affecter un canal par ***rôle de canal***. Le rôle du canal définit le contexte de l’affichage. Le rôle cible diverses actions ; il est indépendant du canal qui remplit le rôle. Cette section décrit un cas d’utilisation qui définit les canaux par rôle et comment vous pouvez appliquer ce contenu dans un canal global. Vous pouvez également considérer le rôle comme un identifiant pour l’attribution ou comme un alias pour le canal dans le contexte.
 
 ### Avantages de l’utilisation de séquences incorporées dynamiques {#benefits-of-using-dynamic-embedded-sequences}
 
-En plaçant un canal de séquence à l’intérieur d’un emplacement au lieu du dossier de canaux, les auteurs locaux ou régionaux peuvent modifier le contenu qui les intéresse. Il permet également de ne pas modifier les canaux situés plus haut dans la hiérarchie.
+Le placement d’un canal de séquence à l’intérieur d’un emplacement au lieu du dossier de canaux permet aux auteurs et autrices locaux ou régionaux de modifier le contenu qui les intéresse. Il permet également de ne pas modifier des canaux situés à un niveau supérieur de la hiérarchie.
 
-Référencer une *Canal par rôle*, vous permet de créer une version locale d’un canal. Cela permet de résoudre dynamiquement le contenu spécifique à l’emplacement et de créer également un canal global qui utilise le contenu pour les canaux spécifiques à l’emplacement.
+Référencer un *canal par rôle* vous permet de créer une version locale d’un canal. Cela permet de résoudre dynamiquement un contenu spécifique à un emplacement et vous permet également de créer un canal global qui utilise le contenu pour les canaux spécifiques à un emplacement.
 
 >[!NOTE]
 >
 >**Séquences incorporées ou Séquences incorporées dynamiques**
 >
->Une séquence incorporée dynamique est similaire à une séquence incorporée, mais permet à l’utilisateur de suivre une hiérarchie où les modifications et mises à jour apportées à un canal sont propagées aux autres canaux dans la relation. Il suit une hiérarchie parent-enfant et inclut également des ressources telles que des images ou des vidéos.
+>Une séquence incorporée dynamique est semblable à une séquence incorporée, mais permet aux personnes de suivre une hiérarchie où les modifications et les mises à jour effectuées sur un canal sont propagées aux autres canaux liés. Elle respecte une hiérarchie parent-enfant et comprend également des ressources telles que des images ou des vidéos.
 >
->Les ***séquences incorporées dynamiques*** permettent d’afficher du contenu spécifique à l’emplacement, tandis que les ***séquences incorporées*** affichent uniquement un diaporama général du contenu. En outre, lors de la configuration des séquences incorporées dynamiques, configurez le canal à l’aide du rôle et du nom du canal. Reportez-vous aux étapes ci-dessous pour la mise en œuvre.
+>Les ***séquences incorporées dynamiques*** permettent d’afficher du contenu spécifique à l’emplacement, tandis que les ***séquences incorporées*** affichent uniquement un diaporama général du contenu. De plus, lors de la configuration des séquences incorporées dynamiques, configurez le canal à l’aide du rôle et du nom du canal. Reportez-vous aux étapes ci-dessous pour la mise en œuvre.
 >
 >Pour en savoir plus sur l’implémentation de séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) dans AEM Screens.
 
@@ -57,7 +57,7 @@ L’exemple suivant fournit une solution en se concentrant sur les termes clés 
 
 >[!NOTE]
 >
->Pour en savoir plus sur l’attribution des canaux, voir **[Attribution de canaux](channel-assignment.md)** dans la section Création de la documentation AEM Screens.
+>Pour en savoir plus sur l’attribution des canaux, voir **[Attribution des canaux](channel-assignment.md)** dans la section Création de la documentation relative à AEM Screens.
 
 ## Utilisation d’une séquence incorporée dynamique {#using-dynamic-embedded-sequence-2}
 
@@ -68,10 +68,10 @@ La section suivante explique la création d’une séquence incorporée dynamiqu
 Avant de commencer à implémenter cette fonctionnalité, assurez-vous que les conditions préalables suivantes sont satisfaites avant de commencer à implémenter des séquences incorporées dynamiques :
 
 * Créer un projet AEM Screens (dans cet exemple, **Demo**).
-* Créez un **Global** sous **Canaux** dossier.
-* Ajouter du contenu à votre canal **Global** (*Consultez **Resources.zip**pour connaître les ressources appropriées*).
+* Créez un canal **global** dans le dossier **Canaux**.
+* Ajoutez du contenu à votre canal **Global** (*Consultez **Resources.zip**pour connaître les ressources appropriées*).
 
-L’image suivante montre la variable **Démonstration** projet avec **Global** du canal **Canaux** dossier.
+L’image suivante montre le projet **Démo** avec le canal **global** dans le dossier **Canaux**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Ressources {#resources}
@@ -108,7 +108,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    >
    >Lors de la création du dossier d’emplacement **Région A**, veillez à saisir le **Titre** **Région A**. Vous pouvez laisser le champ **Nom** vide, afin que le nom **région-a** soit automatiquement sélectionné.
    >
-   >Il en va de même pour la création du dossier d’emplacement. **Région B**, comme illustré ci-dessous :
+   >Il en va de même pour la création du dossier d’emplacement **Région B**, comme illustré ci-dessous :
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -118,13 +118,13 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créez deux emplacements et un canal sous chaque dossier d’emplacement.**
 
    1. Accédez à **Demo** > **Emplacements** > **Région A**.
-   1. Cliquez sur **Région A** et cliquez sur **+ Créer** dans la barre d’actions.
-   1. Cliquez sur **Emplacement** de l’assistant avec **Titre** as **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** avec la propriété **Titre** as **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
-   1. Répétez l’étape (b) et cliquez maintenant sur **Canal de séquence** dans l’assistant. Saisissez le **Titre** as **Région A** et **Nom** comme la propriété **region** pour ce canal.
+   1. Cliquez sur **Région A**, puis cliquez sur **+Créer** dans la barre d’actions.
+   1. Cliquez sur **Emplacement** dans l’assistant avec le **Titre** **Magasin 1**. De même, créez un autre emplacement dans l’assistant intitulé **Magasin 2** avec le **Titre** **Magasin 2**. Vous pouvez laisser le champ **Nom** vide lors de la création de **Magasin 1** et **Magasin 2**.
+   1. Répétez l’étape (b) et cliquez maintenant sur **Canal de séquence** dans l’assistant. Saisissez le **Titre** **Région A** et le **Nom** **région** pour ce canal.
 
    >[!CAUTION]
    >
-   >Assurez-vous que lors de la création du canal **Région A**, saisissez la variable **Titre** as **Région A** et la variable **Nom** as a **region**.
+   >Lors de la création du canal **Région A**, saisissez le **Titre** **Région A** et le **Nom** **région**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -139,8 +139,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 1. **Créez Affichage et Canal sous chaque emplacement.**
 
    1. Accédez à **Demo** > **Emplacements** > **Région A** > **Magasin 1**.
-   1. Cliquez sur **Magasin 1** et cliquez sur **+ Créer** dans la barre d’actions.
-   1. Cliquez sur **Affichage** à partir de l’assistant et créez **`Store1Display`**.
+   1. Cliquez sur **Magasin 1** puis cliquez sur **+Créer** dans la barre d’actions.
+   1. Cliquez sur **Affichage** dans l’assistant et créez **`Store1Display`**.
    1. Répétez l’étape (b) et cliquez cette fois sur **Canal de séquence** dans l’assistant. Saisissez le **Titre** **`Store1Channel`** et le **Nom** **magasin**.
 
    >[!CAUTION]
@@ -189,26 +189,26 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Créer un planning**
 
-   Naviguez et cliquez sur le **Planifications** dans votre projet AEM Screens. Cliquez ensuite sur **Créer** dans la barre d’actions.
+   Accédez au dossier **Plannings** et cliquez dessus dans votre projet AEM Screens. Cliquez ensuite sur **Créer** dans la barre d’actions.
 
-   L’image suivante montre la variable **AdSchedule** créé dans le **Démonstration** projet.
+   L’image suivante montre le **AdSchedule** créé dans le projet **Démo**.
 
    ![screen_shot_2018-09-13at33307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **Attribuer des canaux à une planification**
 
    1. Accédez à **Demo** > **Plannings** > **AdSchedule** et cliquez sur **Tableau de bord** dans la barre d’actions.
-   1. Cliquez sur **+ Attribuer le canal** de la **CANAUX ATTRIBUÉS** pour ouvrir le panneau **Attribution de canaux** de la boîte de dialogue
-   1. Cliquez sur **Canal de référence** par chemin.
-   1. Cliquez sur le bouton **Chemin du canal**, comme **Démonstration** > ***Canaux*** > ***Global***.
-   1. Saisissez le **Rôle du canal**, comme **GlobalAdSegment**.
-   1. Cliquez sur le bouton **Événements pris en charge**, comme **Charge initiale**, **Écran inactif**, et **Interaction de l’utilisateur**.
+   1. Cliquez sur **+Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS** pour ouvrir la boîte de dialogue **Attribution de canaux**.
+   1. Cliquez sur **Canal de référence** en fonction du chemin d’accès.
+   1. Cliquez sur le **Chemin du canal** **Démo** > ***Canaux*** > ***Global***.
+   1. Définissez le **rôle du canal** sur **GlobalAdSegment**.
+   1. Cliquez sur les **Événements pris en charge** **Chargement initial**, **Écran d’inactivité** et **Interaction utilisateur**.
    1. Cliquez sur **Enregistrer**.
 
    **Attribution d’un canal par rôle pour la région :**
 
    1. Cliquez sur **+ Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS**.
-   1. Dans la boîte de dialogue Attribution de canaux, cliquez sur **Canal de référence** par nom.
+   1. Dans la boîte de dialogue Attribution de canaux, cliquez sur **Canal de référence** en fonction du nom.
    1. Saisissez comme **Nom du canal** **région***.
    1. Définissez le **rôle du canal** sur **RegionAdSegment**.
    1. Cliquez sur **Enregistrer**.
@@ -216,7 +216,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    **Attribution d’un canal par rôle pour le magasin :**
 
    1. Cliquez sur **+ Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS**.
-   1. Dans la boîte de dialogue Attribution de canaux, cliquez sur **Canal de référence** par nom.
+   1. Dans la boîte de dialogue Attribution de canaux, sélectionnez **Canal de référence** en fonction du nom.
    1. Saisissez le **Nom du canal** **magasin**.
    1. Définissez le **Rôle du canal** sur **StoreAdSegment**.
    1. Cliquez sur **Enregistrer**.
@@ -227,7 +227,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 1. **Configuration d’une séquence incorporée dynamique sur le canal global.**
 
-   Accédez au **Global** Canal que vous avez initialement créé dans **Démonstration** projet.
+   Accédez au canal **Global** que vous avez initialement créé dans le projet **Démo**.
 
    Cliquez sur **Modifier** dans la barre d’actions.
 
@@ -237,7 +237,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    Ouvrez les propriétés de l’un des composants et saisissez le **rôle d’attribution de canaux** sous la forme **RegionAdSegment**.
 
-   De même, cliquez sur les autres composants et ouvrez les propriétés pour entrer dans le **Rôle d’attribution de canaux** as **StoreAdSegment**.
+   De même, cliquez sur l’autre composant et ouvrez les propriétés pour saisir le **rôle d’attribution de canaux** **StoreAdSegment**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
@@ -246,32 +246,32 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Accédez à chaque affichage, par exemple **Demo** > **Emplacements** > **Région A** >**Magasin 1** >**`Store1Display`**.
    1. Cliquez sur **Tableau de bord** dans la barre d’actions.
    1. Sur le tableau de bord, cliquez sur les points de suspension **...** dans le panneau **CANAUX ET PLANNINGS ATTRIBUÉS**, puis sur **+Attribuer un planning**.
-   1. Cliquez sur le chemin d’accès au planning (par exemple, ici, **Démonstration** > **Planifications** > **AdSchedule**).
+   1. Cliquez sur le chemin d’accès au planning (par exemple, ici, **Démo** > **Plannings** > **AdSchedule**).
    1. Cliquez sur **Enregistrer**.
 
 ## Affichage des résultats {#viewing-the-results}
 
-Une fois la configuration des canaux et l’affichage terminés, lancez le lecteur AEM Screens pour afficher le contenu.
+Une fois que vous aurez configuré les canaux et l’affichage, lancez le lecteur AEM Screens pour afficher le contenu.
 
 >[!NOTE]
 >
 >Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
 >
->* [Téléchargement du lecteur AEM Screens](https://download.macromedia.com/screens/)
+>* [Télécharger le lecteur AEM Screens](https://download.macromedia.com/screens/)
 >* [Utilisation du lecteur AEM Screens](working-with-screens-player.md)
 
 
-La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screens, en fonction du chemin d’affichage.
+La sortie suivante confirme le contenu de votre canal dans le lecteur AEM Screens, selon le chemin d’affichage.
 
 **Scénario 1** :
 
-Si vous attribuez le chemin d’affichage comme **Démonstration** > **Emplacements** > **Région A** > **Magasin 1** > **`Store1Display`**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
+Si vous attribuez le chemin d’affichage **Démo** > **Emplacements** > **Région A** > **Magasin 1** > **`Store1Display`**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scénario 1**:
 
-Si vous attribuez le chemin d’affichage comme **Démonstration** > **Emplacements** > **Région B** > **Magasin 3** > **`Store3Display`**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
+Si vous attribuez le chemin d’affichage **Démo** > **Emplacements** > **Région B** > **Magasin 3** > **`Store3Display`**, le contenu suivant s’affiche sur votre lecteur AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -319,11 +319,11 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
    1. Accédez à **Adobe Experience Manager**.
    1. Cliquez sur **Outils** > **Sécurité** > **Utilisateurs ou utilisatrices**.
    1. Cliquez sur **Créer un utilisateur** et saisissez **Global-Utilisateur** dans **ID**.
-   1. Entrée **Password** et confirmez le mot de passe de cet utilisateur.
-   1. Cliquez sur le bouton **Groupes** et saisissez le nom du groupe dans **Cliquez sur Groupe**, par exemple, saisissez **Global-Auteur** ajouter **Global-User** à ce groupe spécifique.
+   1. Saisissez le **mot de passe** et confirmez le mot de passe de cette personne.
+   1. Cliquez sur l’onglet **Groupes** et saisissez le nom du groupe dans **Cliquer sur un groupe**, par exemple, saisissez **Global-Auteur/Autrice** pour ajouter **Global-Utilisateur/Utilisatrice** à ce groupe spécifique.
    1. Cliquez sur **Enregistrer et fermer**.
 
-   De même, créez deux autres utilisateurs, tels que **Region-User** et **Store-User**, puis ajoutez-les à **Région-Auteur** et **Store-Author** respectivement.
+   De même, créez deux autres utilisateurs ou utilisatrices, comme **Région-Utilisateur/Utilisatrice** et **Magasin-Utilisateur/Utilisatrice**, puis ajoutez-les à **Région-Auteur/Autrice** et à **Magasin-Auteur/Autrice** respectivement.
 
    >[!NOTE]
    >Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.
@@ -334,14 +334,14 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
 
    1. Accédez à **Adobe Experience Manager**.
    1. Cliquez sur **Outils** > **Sécurité** > **Groupes**.
-   1. Cliquez sur **Contributeurs** dans la liste, puis cliquez sur l’icône **Membres** .
-   1. Cliquez sur le bouton **Groupe** par exemple **Global-Auteur**, **Region-Auteur,** et **Store-Author** aux contributeurs.
+   1. Cliquez sur **Contributeurs et contributrices** dans la liste, puis sur l’onglet **Membres**.
+   1. Cliquez sur le **Groupe**, comme **Global-Auteur/Autrice**, **Région-Auteur/Autrice**, et **Magasin-Auteur/Autrice** pour les contributeurs et contributrices.
    1. Cliquez sur **Enregistrer et fermer**.
 
 1. **Accès aux autorisations pour chaque groupe**
 
-   1. Accédez au *Administrateur d’utilisateur* et utilisez cette interface utilisateur pour modifier les autorisations de différents groupes.
-   1. Recherchez **Global-Auteur** et cliquez sur le bouton **Autorisations** , comme illustré dans la figure ci-dessous.
+   1. Accédez à l’*administration des utilisateurs et utilisatrices* et utilisez cette interface d’utilisation pour modifier les autorisations de différents groupes.
+   1. Recherchez **Global-Auteur/Autrice** et cliquez sur l’onglet **Autorisations**, comme illustré dans la figure ci-dessous.
    1. De même, vous pouvez accéder aux autorisations pour **Région-Auteur** et **Magasin-Auteur**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
@@ -358,7 +358,7 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
    Consultez la figure suivante pour comprendre les étapes :
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   L’exemple suivant montre que la variable **Global-User** a accès au **Canal global**. Et l’accès aux **Région A** et **Région B** avec les quatre magasins, à savoir **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**.
+   L’exemple suivant montre que la variable **Global-User/Utilisatrice** a accès au **Canal global**. Et qu’elle a accès aux **Région A** et **Région B** avec les quatre magasins, à savoir **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**.
 
    ![Global](assets/global.gif)
 
@@ -374,7 +374,7 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   L’exemple suivant montre que l’utilisateur de la région a accès aux deux **Région A** et **Région B**. Et l&#39;accès aux quatre magasins, à savoir : **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**, mais n’accède pas à la variable **Global** Canal.
+   L’exemple suivant montre que la variable Région-Utilisateur/utilisatrice a accès aux **Région A** et **Région B**. Et qu’elle a accès aux quatre magasins, à savoir **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**, mais pas au canal **global**.
 
    ![région](assets/region.gif)
 
@@ -391,7 +391,7 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   L’exemple suivant montre que la variable **Store-User** a accès uniquement à **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**. Toutefois, il ne dispose pas des autorisations nécessaires pour accéder à la variable **Global** ou région (**Région A** et **Région B**).
+   L’exemple suivant montre que la variable **Magasin-Utilisateur/Utilisatrice** a accès uniquement à **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**. Toutefois, elle ne dispose pas des autorisations nécessaires pour accéder au canal **global** ou de région (**Région A** et **Région B**).
 
    ![store](assets/store.gif)
 

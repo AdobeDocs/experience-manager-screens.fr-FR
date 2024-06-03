@@ -1,11 +1,11 @@
 ---
-title: Dépendances UX pour AEM Screens
-description: En savoir plus sur les dépendances de l’expérience utilisateur pour AEM Screens.
+title: Dépendances de l’expérience utilisateur pour AEM Screens
+description: En savoir plus sur les dépendances de l’expérience utilisateur pour AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->Un stratège opérationnel/marketing est un acteur typique de cette activité.
+>Cette activité est généralement réalisée par une personne spécialisée dans la stratégie opérationnelle/marketing.
 
 Les dépendances de l’expérience utilisateur définissent les stratégies mises en place pour le placement et le mode de diffusion du contenu, de sorte qu’il ait un impact maximal.
 
@@ -21,7 +21,7 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
 
 1. Comment l’organisation du point de vente doit-elle être alignée sur la stratégie de contenu ?
 
-1. Les interactions (écran tactile, détection de mouvement) seront-elles requises ?
+1. Les interactions (écran tactile, détection de mouvement) seront-elles requises ?
 
 1. Quel est l’objectif de la solution d’affichage numérique ?
 
@@ -29,9 +29,9 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
    * S’agit-il d’une solution d’orientation ?
    * Affiche-t-elle des publicités ?
 
-1. Comment sont configurées les connexions et le câblage réseau ?
+1. Comment les connexions et le câblage réseau sont-ils configurés ?
 
-1. À quelle fréquence les ordinateurs et les connexions sont-ils allumés et éteints ?
+1. À quelle fréquence les ordinateurs et la connexion seront-ils allumés et éteints ?
 
 1. La conception de l’installation prend-elle en charge l’accessibilité ?
 

@@ -1,6 +1,6 @@
 ---
 title: Activation ciblée du stock de vente au détail
-description: Découvrez ce cas pratique AEM Screens qui présente le stock de vente au détail de trois sweat-shirts de couleurs différentes.
+description: Découvrez ce cas d’utilisation AEM Screens qui présente le stock de vente au détail de trois sweatshirts de couleurs différentes.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Le cas d’utilisation ci-dessous montre trois images différentes en fonction d
 
 ## Description {#description}
 
-Ce cas pratique présente le stock de vente au détail de trois sweat-shirts de couleurs différentes. Selon le nombre de sweat-shirts disponibles en stock enregistré dans les feuilles de calcul Google Sheets, l’image (sweat-shirt rouge, vert ou bleu) dont le nombre est le plus élevé s’affiche.
+Ce cas d’utilisation présente le stock de vente au détail de trois modèles de sweatshirts de couleurs différentes. Selon le nombre de sweatshirts disponibles en stock enregistré dans Google Sheets, l’image (sweatshirt rouge, vert ou bleu) avec le plus grand nombre est affichée à l’écran.
 
-Le pull-over rouge, vert ou bleu est affiché en fonction de la valeur la plus élevée du nombre de sweaters disponibles.
+Le sweatshirt rouge, vert ou bleu est affiché en fonction de la valeur la plus élevée du nombre de sweatshirts disponibles.
 
 ## Prérequis {#preconditions}
 
-Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, découvrez comment configurer ***Entrepôt de données***, ***Segmentation de l’audience*** et ***Activation du ciblage des canaux*** dans un projet AEM Screens.
+Avant de commencer à implémenter l’activation du ciblage du stock de vente au détail, apprenez à configurer le ***magasin de données***, la ***segmentation d’audience*** et l’***activation du ciblage des canaux*** dans un projet AEM Screens.
 
 Consultez [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md) pour plus d’informations.
 
@@ -50,60 +50,60 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 
    1. Ajoutez trois nouveaux segments **For_Red**, **For_Green** et **For_Blue**.
 
-   1. Cliquez sur **For_Red** et cliquez sur **Modifier** dans la barre d’actions.
+   1. Cliquez sur **For_Red**, puis sur **Modifier** dans la barre d’actions.
 
-   1. Faites glisser et déposez le **Comparaison : Propriété - Propriété** à l’éditeur.
-   1. Cliquez sur le bouton **Configuration** Icône
-   1. Cliquez sur **googlesheets/value/1/2** dans la liste déroulante de **First Property name**.
-   1. Cliquez sur le bouton **Opérateur** et en tant que **supérieur à** dans le menu déroulant.
-   1. Cliquez sur **Type de données** et en tant que **nombre**.
-   1. Cliquez sur **googlesheets/value/1/1** dans la liste déroulante de **Second Property name**.
-   1. Glisser-déposer **autre comparaison : Propriété - Propriété** dans l’éditeur, puis cliquez sur l’icône **Configuration** Icône
-   1. Cliquez sur **googlesheets/value/1/2** dans la liste déroulante de **First Property name**.
-   1. Cliquez sur le bouton **Opérateur** et en tant que **supérieur à** dans le menu déroulant.
-   1. Cliquez sur **Type de données** et en tant que **nombre**.
-   1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Second Property name**.
+   1. Faites glisser **Comparaison : Propriété - Propriété** et déposez-le dans l’éditeur.
+   1. Cliquez sur l’icône **Configuration**.
+   1. Cliquez sur **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
+   1. Cliquez sur l’**opérateur** **supérieur à** dans le menu déroulant.
+   1. Cliquez sur **Type de données** **Nombre**.
+   1. Cliquez sur **googlesheets/value/1/1** dans la liste déroulante **Nom de la deuxième propriété**.
+   1. Faites glisser **autre comparaison : Propriété - Propriété** et déposez-le dans l’éditeur, puis cliquez sur l’icône **Configuration**.
+   1. Cliquez sur **googlesheets/value/1/2** dans la liste déroulante de **Nom de la première propriété**.
+   1. Cliquez sur l’**opérateur** **supérieur à** dans le menu déroulant.
+   1. Cliquez sur **Type de données** **Nombre**.
+   1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante **Nom de la deuxième propriété**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   De même, modifiez et ajoutez des règles de propriétés de comparaison à la variable **For_Blue** comme illustré dans la figure ci-dessous :
+   De la même manière, modifiez et ajoutez des règles de comparaison des propriétés au segment **For_Blue** , comme illustré ci-dessous :
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   De même, modifiez et ajoutez des règles de propriétés de comparaison à la variable **For_Green** comme illustré dans la figure ci-dessous :
+   De la même manière, modifiez et ajoutez des règles de comparaison des propriétés au segment **For_Green**, comme illustré ci-dessous :
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Notez que pour les segments **For_Green** et **For_Green**, les données ne peuvent pas être résolues dans l’éditeur, car seule la première comparaison est actuellement valide, selon les valeurs de la feuille de calcul Google.
+   >Vous remarquerez que pour les segments **For_Blue** et **For_Green**, les données ne peuvent pas être résolues dans l’éditeur car seule la première comparaison est actuellement valide, selon les valeurs de la feuille de calcul Google Sheet.
 
-1. Naviguez et cliquez sur votre **DataDrivenRetail** channel (canal de séquence).
+1. Accédez à votre canal **DataDrivenRetail** (canal de séquence)et cliquez dessus.
 1. Cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >Vous devez déjà avoir configuré votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** .
+   >Vous devez avoir défini vos **configurations** **ContextHub** à l’aide des **Propriétés** du canal > onglet **Personnalisation**.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
    >
-   >Cliquez sur les deux **Marque** et la variable **Zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
+   >Cliquez à la fois sur la **marque** et la **zone** pour que les activités soient correctement répertoriées au démarrage du processus de ciblage.
 
 1. **Ajout d’une image par défaut**
 
    1. Ajoutez une image par défaut à votre canal et cliquez sur **Ciblage**.
-   1. Cliquez sur **Marque** et la variable **Activité** dans le menu déroulant et cliquez sur **Commencer le ciblage**.
+   1. Cliquez sur **Marque** et sur l’**Activité** dans le menu déroulant, puis sur **Commencer le ciblage**.
    1. Cliquez sur **Commencer le ciblage**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Avant de commencer le ciblage, ajoutez les segments (**For_Green**, **For_Red**, et **For_Blue**) en sélectionnant **+ Ajouter un ciblage d’expérience** du rail latéral, comme illustré dans la figure ci-dessous.
+   >Avant de commencer le ciblage, ajoutez les segments (**For_Green**, **For_Red** et **For_Blue**) en cliquant sur **+ Ajouter le ciblage d’expérience** dans le rail latéral, comme illustré ci-dessous.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -114,6 +114,6 @@ Pour mettre en œuvre le cas d’utilisation de l’activation du stock de vente
 1. **Vérification de l’aperçu**
 
    1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google Sheet et mettez à jour sa valeur.
-   1. Modifiez la valeur des trois colonnes différentes. Notez les mises à jour de l’image d’affichage selon la valeur la plus élevée de l’inventaire.
+   1. Modifiez la valeur des trois colonnes différentes. Notez les mises à jour de l’image d’affichage selon la valeur la plus élevée du stock.
 
    ![retail_result](assets/retail_result.gif)

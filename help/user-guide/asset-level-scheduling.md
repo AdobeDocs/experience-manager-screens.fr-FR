@@ -1,14 +1,14 @@
 ---
 title: Activation au niveau des ressources
-description: Découvrez comment activer une ressource spécifique dans un canal pour une période planifiée, le tout dans le fuseau horaire local du lecteur.
+description: Découvrez comment activer une ressource spécifique dans un canal pour une période planifiée, dans le fuseau horaire local du lecteur.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1477'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ Cette section aborde les sujets suivants :
 
 ## Vue d’ensemble {#overview}
 
-***Activation au niveau des ressources*** vous permet d’activer une ressource spécifique dans un canal pendant une période planifiée, le tout dans le fuseau horaire local du lecteur. Cette fonctionnalité est disponible pour les images, vidéos, transitions, pages et canaux incorporés (dynamiques ou statiques).
+L’***activation au niveau des ressources*** permet d’activer une ressource spécifique dans un canal pour une période planifiée, dans le fuseau horaire local du lecteur. Cette fonctionnalité est disponible pour les images, les vidéos, les transitions, les pages et les canaux incorporés (dynamiques ou statiques).
 
 *Par exemple*, vous souhaitez qu’une promotion spéciale s’affiche uniquement pendant la Happy Hour (de 14h00 à 17h00) les lundis et les mercredis.
 
-Grâce à cette fonctionnalité, vous pouvez non seulement spécifier une date et une heure de début et de fin, mais également un modèle de périodicité.
+Avec cette fonctionnalité, vous pouvez non seulement spécifier la date et l’heure de début et de fin, mais également un modèle de périodicité.
 
 ## Fenêtre d’activation {#single-event-playback}
 
-L’activation au niveau des ressources s’effectue en configurant la variable **Activation** lors de l’accès aux propriétés d’une ressource.
+L’activation au niveau des ressources s’effectue en configurant l’onglet **Activation** lors de l’accès aux propriétés d’une ressource.
 
 Suivez les étapes ci-dessous pour effectuer une planification au niveau des ressources :
 
-1. Cliquez sur n’importe quel canal, puis sur **Modifier** dans la barre d’actions.
+1. Cliquez sur un canal, puis sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -58,14 +58,14 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
    >
    >Pour apprendre en détail comment
    >
-   >* Créez un projet. Voir [Création d’un projet](creating-a-screens-project.md).
-   >* Créez et ajoutez du contenu à un canal. Voir [Gestion des canaux](managing-channels.md).
+   >* Créer un projet. Voir [Création d’un projet](creating-a-screens-project.md).
+   >* Créer et ajouter du contenu à un canal. Voir [Gestion des canaux](managing-channels.md).
 
-1. Cliquez sur **Modifier** vous pouvez alors ouvrir l’éditeur de canal et cliquer sur une ressource à laquelle vous souhaitez appliquer la planification.
+1. Cliquez sur **Modifier** pour ouvrir l’éditeur de canal. Cliquez ensuite sur une ressource à laquelle vous souhaitez appliquer la planification.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Cliquez sur la ressource, puis sur en haut à gauche. **Configurer** (icône de clé à molette).
+1. Cliquez sur la ressource, puis sur **Configurer** en haut à gauche (icône de clé à molette).
 
    Cliquez sur l’onglet **Activation**.
 
@@ -73,19 +73,19 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 1. Vous pouvez spécifier la date à l’aide des champs **Actif à partir de** et **Actif jusqu’à** du sélecteur de date.
 
-   Si vous cliquez sur le bouton **Actif à partir de** et **Actif jusqu’à** date et heure, la ressource affiche et effectue une boucle uniquement entre cette date/heure de début et cette date/heure de fin, respectivement.
+   Si vous cliquez sur la date et l’heure dans **Actif à partir de** et **Actif jusqu’à**, la ressource s’affiche et forme une boucle uniquement entre cette date/heure de début et cette date/heure de fin, respectivement.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Gestion de la périodicité pour les ressources {#handling-recurrence-in-assets}
 
-Vous pouvez planifier l’exécution périodique des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
+Vous pouvez planifier l’activation périodique des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
 Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h 00 à 22 h 00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle périodique souhaité pour votre ressource.
 
 ### Tranches horaires {#day-parting}
 
-1. Cliquez sur la ressource et cliquez sur **Configurer** (icône de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
+1. Cliquez sur la ressource et sur l’icône **Configurer** (en forme de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
 
@@ -96,7 +96,7 @@ Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h
 
 #### Exemples d’expressions pour les tranches horaires {#example-one}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -122,7 +122,7 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 
 #### Exemples d’expressions pour les tranches hebdomadaires {#example-two}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -147,7 +147,7 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 
 #### Exemples d’expressions pour les tranches mensuelles {#example-three}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
@@ -170,11 +170,11 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 
 #### Exemples d’expressions de combinaison de tranches {#example-four}
 
-Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
+Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez ajouter au planning lors de l’attribution d’un canal à un affichage.
 
 | **Expression** | **Interprétation** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | la ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis de janvier à fin mars |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | La ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars. |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
 
@@ -189,7 +189,7 @@ Le tableau suivant résume quelques exemples d’expressions que vous pouvez ajo
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Activation multiressource*** permet à l’utilisateur de cliquer sur plusieurs ressources et d’appliquer une planification de lecture à toutes les ressources sélectionnées.
+L’***activation multiressource*** permet à la personne de cliquer sur plusieurs ressources et d’appliquer un planning d’exécution à toutes les ressources sélectionnées.
 
 ### Conditions préalables {#prerequisites}
 
@@ -200,9 +200,9 @@ Pour utiliser l’activation de plusieurs ressources, créez un projet AEM Scre
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Pour cliquer sur plusieurs ressources et planifier leur affichage dans un projet AEM Screens, procédez comme suit :
+Pour cliquer sur plusieurs ressources et planifier leur affichage dans un projet AEM Screens, procédez comme suit :
 
-1. Cliquez sur **MultiAssetChannel**, puis cliquez sur **Modifier** dans la barre d’actions.
+1. Cliquez sur **MultiAssetChannel**, puis sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
@@ -210,11 +210,11 @@ Pour cliquer sur plusieurs ressources et planifier leur affichage dans un projet
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Cliquez sur la date et l’heure indiquées dans **Actif à partir de** et **Actif jusqu’à** de la **Activation des composants** de la boîte de dialogue Cliquez sur l’icône en forme de coche lorsque vous avez terminé de sélectionner les planifications.
+1. Cliquez sur la date et l’heure dans **Actif à partir de** et **Actif jusqu’à** dans la boîte de dialogue **Activation du composant**. Cliquez sur l’icône en forme de coche lorsque vous avez terminé de sélectionner les planifications.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Cliquez sur Actualiser pour vérifier les ressources auxquelles le planning multiressource est appliqué.
+1. Cliquez sur Actualiser pour vérifier les ressources auxquelles un planning multiressource est appliqué.
 
    >[!NOTE]
    >
@@ -224,23 +224,23 @@ Pour cliquer sur plusieurs ressources et planifier leur affichage dans un projet
 
 ## Remplacement global pour une heure de début universelle {#global-override-scheduling}
 
-***Remplacement global pour l’heure de début universelle***, est un paramètre qui permet à l’auteur de contenu de définir la lecture d’une image ou d’une ressource vidéo selon une heure spécifique. Le paramètre d’heure/de fuseau horaire d’un lecteur individuel n’est pas utilisé.
+***Remplacement global pour une heure de début universelle*** est un paramètre qui permet à l’auteur ou l’autrice de contenu de définir la lecture d’une image ou d’une ressource vidéo selon une heure spécifique. Le paramètre d’heure/de fuseau horaire d’un lecteur individuel n’est pas utilisé.
 
 Normalement, l’heure locale d’un lecteur donné détermine la lecture. Mais avec le remplacement global, une heure de début spécifique et universelle peut être utilisée pour lancer la lecture de la ressource.
 
-Ainsi, l’auteur de contenu peut désigner la lecture d’une ressource spécifique. Elles peuvent le faire se produire à une date/heure spécifique, quelle que soit l’horloge locale, sur les lecteurs qui disposent du contenu affecté.
+Ainsi, l’auteur ou l’autrice de contenu peut désigner la lecture d’une ressource spécifique, et peut désigner la lecture à une date/heure spécifique, quelle que soit l’heure locale, sur les lecteurs auxquels le contenu a été attribué.
 
-***Remplacement global pour l’heure de début universelle*** s’effectue en configurant la variable **Activation** lors de l’accès aux propriétés d’une ressource. Suivez les étapes ci-dessous pour effectuer un remplacement global pour la planification des ressources :
+Le ***remplacement global pour une heure de début universelle*** est effectué en configurant l’onglet **Activation** lors de l’accès aux propriétés d’une ressource. Suivez les étapes ci-dessous pour effectuer un remplacement global pour la planification des ressources :
 
-1. Cliquez sur n’importe quel canal, puis sur **Modifier** dans la barre d’actions afin de pouvoir ajouter ou modifier du contenu dans votre canal.
+1. Cliquez sur un canal, puis sur **Modifier** dans la barre d’actions pour ajouter ou modifier du contenu dans votre canal.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Cliquez sur **Modifier**.
-1. Dans l’éditeur de canal, cliquez sur une ressource dont vous souhaitez appliquer le planning.
+1. Dans l’éditeur de canal, cliquez sur une ressource à laquelle vous souhaitez appliquer le planning.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Pour un remplacement global, saisissez l’heure d’activation dans la variable **Remplacement du fuseau horaire** pour la ressource. Si vous ne saisissez rien dans cette zone, le fuseau horaire appliqué sera celui du lecteur.
+1. Pour un remplacement global, saisissez l’heure d’activation dans la section **Remplacement du fuseau horaire** pour la ressource. Si vous ne saisissez rien dans cette zone, le fuseau horaire appliqué sera celui du lecteur.
 
 

@@ -3,9 +3,9 @@ title: Transition vers Platform
 description: Découvrez la transition vers Platform dans AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->Un participant type à cette activité est un implémentateur AEM.
+>Cette activité est généralement réalisée par la personne chargée de l’implémentation d’AEM.
 
-Alors que votre projet est passé d’une vision stratégique à une réalité maquette, vous devez vous préparer à la création réelle d’un projet Screens dans AEM que vous pouvez déployer.
+Votre projet est passé du stade de vision stratégique à celui de maquette. Vous devez vous préparer à la création proprement dite du projet Screens dans AEM en vue de son déploiement.
 
 Ce projet implique l’alignement de configurations spécifiques à la plateforme sur des exigences définies de manière approximative lors de la phase de prototypage.
 
@@ -23,7 +23,7 @@ Par exemple, comment et à quel moment utiliser les éléments suivants :
 
 * des **fragments d’expérience** pour créer des groupes de contenu ;
 * des **fragments de contenu** pour créer des variantes de texte ;
-* **ContextHub** pour créer des entrepôts de données externes, SPA pour les expériences interactives.
+* **ContextHub** pour créer des magasins de données externes, des applications monopages pour les expériences interactives ;
 * des **services OSGi** pour les alertes réseau ;
 * un **lien vers les ressources** pour l’approvisionnement Creative Cloud ;
 * des **dossiers réseau** pour l’allocation de ressources ;

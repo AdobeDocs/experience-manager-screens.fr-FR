@@ -3,16 +3,16 @@ title: Tests et assurance qualité
 description: Découvrez les tests et l’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Tests et assurance qualité {#testing-quality}
 
 >[!NOTE]
->Une partie prenante standard de cette activité est un intégrateur audio-vidéo.
+>Cette activité est généralement réalisée par une personne chargée de l’intégration Audio/Vidéo.
 
 À mesure que la date du déploiement du réseau de signalétique digitale se rapproche, créez un plan de test et d’assurance qualité qui porte sur chaque élément du réseau, notamment l’ensemble des composants matériels, logiciels et réseau.
 Au cours de cette phase, des systèmes de test complets doivent être mis au point et soumis à des tests exhaustifs.
@@ -48,21 +48,21 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 
 ## 3. Facteurs de gestion des appareils {#device-management-considerations}
 
-AEM Screens comprend un module de centre de contrôle des périphériques qui permet de gérer les points de terminaison de l’application du lecteur Screens.
+AEM Screens dispose d’un module de centre de contrôle des appareils qui permet de gérer les points d’entrée de l’application du lecteur Screens.
 
-Il fait référence à tout *player* Périphérique matériel sur lequel l’application du lecteur Screens est installée et enregistré sur une instance d’AEM.
-Ce module permet :
+Cela fait référence à tout appareil matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.
+Ce module vous permet d’effectuer les opérations suivantes :
 
 1. Surveiller les journaux d’erreurs de l’application du lecteur
 1. Gérer les captures d’écran distantes
 1. Gérer les téléchargements de contenus
 1. Gérer les problèmes de redémarrage de l’application
 
-Pour en savoir plus sur les ***Centre de contrôle des périphériques***, voir [Dépannage du Centre de contrôle des périphériques](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guide de l’utilisateur d’AEM Screens**.
+Pour en savoir plus sur le ***Centre de contrôle des appareils***, voir [Dépannage du Centre de contrôle des appareils](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) dans le **Guide d’utilisation d’AEM Screens**.
 
 >[!CAUTION]
 >
->N’utilisez pas le Centre de contrôle des périphériques pour :
+>N’utilisez pas le Centre de contrôle des appareils pour effectuer ce qui suit :
 >
 >* installer de nouvelles versions de l’application du lecteur ;
 >* surveiller les ressources système ;
@@ -82,4 +82,4 @@ Voici quelques exemples :
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Intergiciel propriétaire de l’intégrateur audio-vidéo
+* Middleware propriétaire de l’intégrateur ou intégratrice audiovisuel

@@ -11,9 +11,9 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 71%
 
 Cette section décrit la configuration du lecteur Android™. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
 
-Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur suite à une panne. Les applications doivent s’enregistrer auprès du service Watchdog, puis envoyer régulièrement des messages au service lui indiquant qu’elles sont actives. Si le service watchdog ne reçoit pas de message de maintien en vie dans un délai spécifié, il tente de redémarrer l’appareil. Il le fait pour une récupération propre (s’il dispose des privilèges suffisants) ou pour redémarrer l’application.
+Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur suite à une panne. Les applications doivent s’enregistrer auprès du service Watchdog, puis envoyer régulièrement des messages au service lui indiquant qu’elles sont actives. Si le service Watchdog ne reçoit pas de message persistant dans un délai spécifié, il tente de redémarrer l’appareil. Il le fait pour une récupération propre (s’il dispose des privilèges suffisants) ou pour redémarrer l’application.
 
 ## Installer le lecteur Android™ {#installing-android-player}
 
@@ -29,10 +29,10 @@ Pour implémenter le lecteur Android™ pour AEM Screens, installez le lecteur 
 
 Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
-### Configuration de l’environnement pour le Service Pack AEM Screens 6.5.5 {#fp-environment-setup}
+### Configuration de l’environnement pour le pack de services AEM Screens 6.5.5 {#fp-environment-setup}
 
 >[!NOTE]
->Configurez un environnement pour le lecteur Android™ si vous utilisez le Service Pack AEM Screens 6.5.5.
+>Vous devez configurer un environnement pour le lecteur Android™ si vous utilisez le pack de services AEM Screens 6.5.5.
 
 Définissez la valeur de **SameSite attribute for the login-token cookies** de **Lax** sur **None** dans **Configuration de la console Web Adobe
 Experience Manager** sur toutes les instances de création et de publication AEM.
@@ -54,10 +54,10 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 
 La méthode ad hoc vous permet d’installer le dernier lecteur Android™ (*.exe*). Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.macromedia.com/screens/).
 
-Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
+Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
-1. Accédez à **Configuration** dans le menu d’actions de gauche, saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
+1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 
 1. Accédez au lien **Enregistrement** des **appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 
@@ -69,7 +69,7 @@ Après avoir téléchargé l’application, suivez les étapes du lecteur pour t
 
 ## Implémenter Android™ Watchdog {#implementing-android-watchdog}
 
-En raison de l’architecture d’Android™, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Signez le fichier apk à l’aide des clés de signature du fabricant, sinon le watchdog peut redémarrer l’application du lecteur et ne pas redémarrer l’appareil.
+En raison de l’architecture d’Android™, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Signez le fichier apk à l’aide des clés de signature du fabricant. Sinon, Watchdog peut redémarrer l’application du lecteur et ne redémarre pas l’appareil.
 
 ### Signature de `apks` Android™ à l’aide des clés du fabricant {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -83,12 +83,12 @@ Pour accéder à certaines des API privilégiées d’Android™ telles que *Pow
 
 Pour signer le fichier apk Android™ à l’aide des clés du fabricant, procédez comme suit :
 
-1. Téléchargez le fichier apk à partir de Google Play ou du [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/) page
-1. Procurez-vous les clés de plateforme du fabricant pour obtenir un fichier *pk8* et un fichier *pem*.
+1. Télécharger le fichier apk à partir de Google Play ou de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+1. Obtenir les clés de plateforme du fabricant pour obtenir un fichier *pk8* et un fichier *pem*
 
-1. Recherchez la variable `apksigner` outil dans le SDK Android™ à l’aide de la recherche `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Rechercher l’outil `apksigner` dans le SDK Android™ à l’aide de l’outil find `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Recherchez le chemin d’accès à l’outil d’alignement zip dans le SDK Android™
+1. Rechercher le chemin d’accès à l’outil d’alignement zip dans le SDK Android™
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Installez ***aemscreensaligned.apk*** via adb install sur l’appareil.
 
@@ -96,13 +96,13 @@ Pour signer le fichier apk Android™ à l’aide des clés du fabricant, procé
 
 Le service Android Watchdog est mis en œuvre en tant que plug-in Cordova via *AlarmManager*.
 
-Le diagramme suivant illustre la mise en oeuvre du service watchdog :
+Le diagramme suivant illustre la mise en œuvre du service Watchdog :
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
 **1. Initialisation** : au moment de l’initialisation du plug-in Cordova, les autorisations sont vérifiées pour voir si vous disposez des autorisations système et donc de l’autorisation Redémarrer. Si ces deux critères sont satisfaits, une tentative en attente d’exécution de Redémarrer est créée. Dans le cas contraire, une tentative en attente de redémarrage de l’application (en fonction de son activité de lancement) est créée.
 
-**2. Minuteur de maintien en activité** : un minuteur de maintien en activité est utilisé pour déclencher un événement toutes les 15 secondes. Dans cet événement, annulez l’intention en attente existante (pour redémarrer l’application) et enregistrez une nouvelle intention en attente pendant les mêmes 60 secondes à l’avenir (en remettant à plus tard le redémarrage).
+**2. Minuteur de maintien en activité** : un minuteur de maintien en activité est utilisé pour déclencher un événement toutes les 15 secondes. Dans cet événement, vous devez annuler la tentative en attente existante (pour redémarrer l’application) et enregistrer une nouvelle tentative identique en attente pour 60 secondes plus tard (en remettant à plus tard le redémarrage).
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Le diagramme suivant illustre la mise en oeuvre du service watchdog :
 
 ## Approvisionnement en bloc du lecteur Android™ {#bulk-provision-android-player}
 
-Lors du déploiement en masse du lecteur Android™, il est nécessaire de configurer le lecteur pour qu’il pointe vers une instance AEM et configure d’autres propriétés sans les saisir manuellement dans l’interface utilisateur d’administration.
+Lors du déploiement en masse du lecteur Android™, vous devez pouvoir configurer le lecteur pour qu’il pointe vers une instance AEM et pouvoir configurer d’autres propriétés sans les saisir manuellement par le biais de l’interface d’utilisation de l’administration.
 
 >[!NOTE]
 >Cette fonctionnalité est disponible sur le lecteur Android™ version 42.0.372.
@@ -124,7 +124,7 @@ Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au ta
 
 1. Utilisez un explorateur de fichiers MDM ou ADB ou Android™ Studio pour déposer ce fichier de politique JSON dans le dossier *sdcard* de l’appareil Android™.
 
-1. Lorsque le fichier est déployé, utilisez le MDM pour installer l’application du lecteur.
+1. Lorsque le fichier déployé, utilisez le MDM pour installer l’application du lecteur.
 
 1. Lorsque l’application du lecteur est lancée, ce fichier de configuration est lu et pointe vers le serveur AEM approprié où il est enregistré puis contrôlé.
 
@@ -141,7 +141,7 @@ Le tableau suivant résume les attributs de politique et inclut un exemple de po
 | *resolution* | Résolution de l’appareil. |
 | *rebootSchedule* | La programmation du redémarrage s’applique à toutes les plates-formes. |
 | *enableAdminUI* | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur *false* une fois qu’elle est entièrement configurée et en production. |
-| *enableOSD* | Activez l’interface utilisateur du sélecteur de canal pour que les utilisateurs puissent changer de canal sur l’appareil. Envisagez de la définir sur *false* après avoir été entièrement configuré et en production. |
+| *enableOSD* | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices changent de canaux sur l’appareil. Pensez à la définir sur *false* une fois qu’elle est entièrement configurée et en production. |
 | *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | *enableNativeVideo* | Activez cette option afin d’utiliser l’accélération matérielle native pour la lecture vidéo (Android™ uniquement). |
 
@@ -174,16 +174,16 @@ Le tableau suivant résume les attributs de politique et inclut un exemple de po
 
 ## Approvisionnement en bloc d’un lecteur Android™ à l’aide d’Enterprise Mobility Management {#bulk-provisioning}
 
-Lors du déploiement en masse du lecteur Android™, il devient fastidieux d’enregistrer chaque lecteur manuellement avec AEM. Utiliser une solution EMM (Enterprise Mobility Management, par exemple) [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron ou Samsung Knox afin que vous puissiez configurer et gérer votre déploiement à distance. Le lecteur Android™ AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
+Lors du déploiement en masse d’un lecteur Android™, il devient fastidieux d’enregistrer manuellement chaque lecteur dans AEM. Utilisez une solution EMM (Enterprise Mobility Management), par exemple [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron ou Samsung Knox afin que vous puissiez configurer et gérer votre déploiement à distance. Le lecteur Android™ AEM Screens prend en charge la norme EMM AppConfig pour permettre l’approvisionnement à distance.
 
 ## Nommer un lecteur Android™ {#name-android}
 
 Vous pouvez attribuer un nom d’appareil convivial à votre lecteur Android™ et envoyer le nom d’appareil choisi à Adobe Experience Manager (AEM). Cette fonctionnalité vous permet non seulement de nommer votre lecteur Android™, mais également d’attribuer facilement le contenu approprié.
 
 >[!NOTE]
->Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, le nom du lecteur ne peut plus être modifié.
+>Vous ne pouvez choisir le nom du lecteur qu’avant l’enregistrement. Une fois le lecteur enregistré, son nom ne peut plus être modifié.
 
-Pour configurer le nom dans le lecteur Android™, procédez comme suit :
+Pour configurer le nom dans le lecteur Android™, procédez comme suit :
 
 1. Accédez à **Paramètres** > **À propos de l’appareil**.
 1. Modifiez et définissez le nom de votre appareil pour nommer votre lecteur Android™.
@@ -195,12 +195,12 @@ Pour autoriser l’approvisionnement en bloc dans le lecteur Android™, procéd
 1. Assurez-vous que votre appareil Android™ prend en charge les services Google Play.
 1. Enregistrez vos appareils de lecteur Android™ dans votre solution EMM préférée prenant en charge AppConfig.
 1. Connectez-vous à votre console EMM et extrayez l’application du lecteur AEM Screens de Google Play.
-1. Cliquez sur l’option de configuration gérée ou associée.
+1. Cliquez sur la configuration gérée ou l’option associée.
 1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées, par exemple le code d’enregistrement en bloc et du serveur.
-1. Configurez ces paramètres, enregistrez-les et déployez la stratégie sur les appareils.
+1. Configurez ces paramètres, enregistrez-les et déployez la politique sur les appareils.
 
    >[!NOTE]
-   >Les périphériques doivent recevoir l’application avec la configuration. Il doit pointer vers le serveur AEM correct avec la configuration sélectionnée. Si vous choisissez de configurer le code d’enregistrement en bloc et que vous le conservez comme configuré dans AEM, le lecteur doit pouvoir s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
+   >Les appareils doivent recevoir l’application avec la configuration. Elle doit pointer vers le serveur AEM correct avec la configuration sélectionnée. Si vous choisissez de configurer le code d’enregistrement en bloc et que vous le conservez tel que configuré dans AEM, le lecteur doit être en mesure de s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
 
 En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si celle-ci prend en charge AppConfig. Les plus populaires, par exemple [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm),et [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) parmi d’autres prennent en charge cette norme du secteur.
 

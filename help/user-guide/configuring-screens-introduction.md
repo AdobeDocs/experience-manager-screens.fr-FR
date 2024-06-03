@@ -1,6 +1,6 @@
 ---
 title: Configurer et déployer AEM Screens
-description: Le lecteur AEM Screens est disponible pour Android&trade, Chrome OS, iOS et Windows. Découvrez la configuration et le déploiement d’AEM Screens.
+description: Le lecteur AEM Screens est disponible pour Android&trade;, Chrome OS, iOS et Windows. Découvrez la configuration et le déploiement d’AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Cette page indique comment installer et configurer les lecteurs Screens sur vos 
 
 >[!IMPORTANT]
 >
->Le lecteur AEM Screens n’utilise pas le jeton CSRF (Cross Site Request Forgery). Par conséquent, pour configurer le serveur AEM à utiliser pour AEM Screens, ignorez le filtre de référent en autorisant les référents vides.
+>Le lecteur AEM Screens n’utilise pas le jeton CSRF (Cross-Site Request Forgery). Par conséquent, pour configurer le serveur AEM à utiliser pour AEM Screens, ignorez le filtre de référent en autorisant les référents vides.
 
-## Structure du contrôle de l’intégrité {#health-check-framework}
+## Framework du contrôle de l’intégrité {#health-check-framework}
 
-La structure de contrôle de l’intégrité permet à l’utilisateur de vérifier si deux configurations nécessaires sont configurées avant d’exécuter un projet AEM Screens.
+Le framework de contrôle de l’intégrité permet à l’utilisateur ou l’utilisatrice de vérifier si deux configurations nécessaires sont configurées avant d’exécuter un projet AEM Screens.
 
 Elle permet à l’utilisateur de vérifier les deux contrôles de configuration suivants afin d’exécuter un projet AEM Screens, c’est-à-dire de vérifier l’état des deux filtres suivants :
 
@@ -42,7 +42,7 @@ Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentie
    ![ressources](assets/health-check1.png)
 
 
-2. Cliquez sur **Exécution des contrôles d’intégrité sélectionnés** vous pouvez donc exécuter la validation de deux propriétés répertoriées ci-dessus.
+2. Cliquez sur **Exécuter les contrôles d’intégrité sélectionnés** pour exécuter la validation des deux propriétés répertoriées ci-dessus.
 
    Si les deux filtres sont activés, le **service d’intégrité de la configuration de Screens** affiche le **résultat** comme étant **OK** avec les deux configurations activées.
 
@@ -64,7 +64,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 #### Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
 
-1. Accédez à **Configuration de la console web Adobe Experience Manager** par le biais de l’AEM instance > icône marteau > **Opérations** > **Console web**.
+1. Accédez à la **Configuration de la console web Adobe Experience Manager** via Instance AEM > icône en forme de marteau > **Opérations** > **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
 #### Service HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Accédez à **Configuration de la console web Adobe Experience Manager** par le biais de l’AEM instance > icône marteau > **Opérations** > **Console web**.
+1. Accédez à la **Configuration de la console web Adobe Experience Manager** via Instance AEM > icône en forme de marteau > **Opérations** > **Console web**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -93,11 +93,11 @@ Les points clés suivants permettent de configurer le serveur AEM en vue de son 
 
    ![image](assets/config/config-1.png)
 
-1. Cliquez sur **Enregistrer** pour activer la variable *Http* service.
+1. Cliquez sur **Enregistrer** pour activer le service *Http*.
 
-#### Activation de l’interface utilisateur tactile pour AEM Screens {#enable-touch-ui-for-aem-screens}
+#### Activer l’interface utilisateur tactile pour AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens nécessite une interface utilisateur tactile et ne fonctionne pas avec l’interface utilisateur classique de Adobe Experience Manager (AEM).
+AEM Screens nécessite une IU TACTILE et ne fonctionne pas avec l’IU Classique d’Adobe Experience Manager (AEM).
 
 1. Accédez à `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`.
 1. Veillez à ce que le **mode d’IU de création par défaut** soit défini sur **TACTILE**, comme illustré dans la figure ci-dessous.
@@ -116,7 +116,7 @@ L’exécution d’AEM en production permet d’utiliser le mode d’exécution�
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Cette suppression est nécessaire pour que le lecteur AEM Screens puisse lire les canaux en ligne.
+Cette suppression est nécessaire pour que le lecteur AEM Screens joue des canaux en ligne.
 
 #### Restrictions relatives aux mots de passe {#password-restrictions}
 

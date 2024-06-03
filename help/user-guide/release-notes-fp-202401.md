@@ -1,27 +1,27 @@
 ---
 title: Notes de mise à jour du pack de fonctionnalités AEM Screens 202401
-description: Découvrez le pack de fonctionnalités AEM Screens 202401 publié le mercredi 2 janvier 2024.
+description: Découvrez le pack de fonctionnalités AEM Screens 202401 publié le 2 janvier 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe vous recommande d’effectuer la mise à niveau vers la dernière version de Adobe Experience Manager 6.5 (AEM 6.5). Obtenez les informations les plus récentes sur la version [here](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
+>Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Obtenez des informations sur la dernière version en cliquant [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilité {#availability}
 
-Le pack de fonctionnalités 11.1 d’AEM 6.5 a été publié pour AEM Screens.
+Le pack de fonctionnalités 11.1 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.1 à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) à l’aide de votre Adobe ID. Accédez au **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack intitulé **AEM 6.5 Screens FP11.1**.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.11.1 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP11.1**.
 
 ## Date de publication {#release-date}
 
@@ -35,7 +35,7 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 * Problème XSS dans le champ « Texte inactif » du périphérique AEM Screens. (SCRNS-2614)
 
-* Problème XSS à `screens/dashboard/device.html` au moyen de la fonction `Clear cache` boîte de dialogue d’action. (SCRNS-2632)
+* Problème XSS sur `screens/dashboard/device.html` à l’aide de la boîte de dialogue d’action `Clear cache`. (SCRNS-2632)
 
 * Problème XSS dans la configuration du lecteur Screens sur `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -45,7 +45,7 @@ Cette version comprend uniquement des correctifs de sécurité.
 
 * XSS reflété avec le paramètre `item` sur `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* XSS reflété dans `screens/dashboard/device.html` au moyen de la fonction `returnPage` . (SCRNS-3056)
+* XSS reflété dans `screens/dashboard/device.html` à l’aide de la fonction `returnPage`. (SCRNS-3056)
 
 * Redirection ouverte sur assign-device-wizard.html. (SCRNS-3444)
 

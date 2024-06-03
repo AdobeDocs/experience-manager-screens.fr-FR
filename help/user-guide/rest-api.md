@@ -1,6 +1,6 @@
 ---
 title: API REST
-description: Découvrez comment AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Découvrez également comment parcourir la structure de contenu et envoyer des commandes aux périphériques dans l’environnement.
+description: Découvrez comment AEM Screens fournit une API RESTful simple conforme à la spécification Siren. Découvrez également comment parcourir la structure de contenu et envoyer des commandes aux appareils au sein de l’environnement.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,23 +10,23 @@ role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
 source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # API REST{#rest-apis}
 
-AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Il vous permet de parcourir la structure de contenu et d’envoyer des commandes aux périphériques de l’environnement.
+AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux appareils au sein de l’environnement.
 
 L’API est accessible à l’adresse suivante : [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
 ## Exploration de la structure de contenu {#navigating-content-structure}
 
-Le code JSON renvoyé par les appels d’API répertorie les entités associées à la ressource en cours. En suivant le lien d’auto-connexion répertorié, chacune de ces entités est à nouveau accessible en tant que ressource REST.
+Le code JSON renvoyé par les appels d’API répertorie les entités associées à la ressource en cours. En suivant le lien vers lui-même (self-link) répertorié, chacune de ces entités est de nouveau accessible sous la forme d’une ressource REST.
 
-Par exemple, pour accéder aux affichages à l’emplacement du drapeau de démonstration, vous pouvez appeler ce qui suit :
+Par exemple, pour accéder aux écrans de l’emplacement de démonstration, vous pouvez appeler :
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -149,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Pour déclencher cette action, appelez le :
+Pour déclencher cette action, appelez :
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1

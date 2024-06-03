@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Cette section couvre les sujets suivants :
 
 ## Séquencement dans Adobe Analytics avec AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-La variable ***processus de séquencement*** commence par un service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données de l’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de blocs. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
+Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur ou l’administratrice, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de découpages. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
 
 ### Diagramme de séquencement {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td>UUID</td> 
-   <td>Identifiant unique qui identifie une instance d’un événement</td> 
+   <td>ID unique qui identifie l’instance d’un événement</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td>Horodatage - UTC</td> 
-   <td>Date et heure de début de l’événement. Si vous n’avez pas spécifié cette heure, l’heure de début de l’événement est considérée comme l’heure par le serveur lorsqu’elle a été reçue.</td> 
+   <td>Date et heure de début de l’événement. Si vous ne l’indiquez pas, l’heure de début de l’événement est considérée comme l’heure de réception par le serveur.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,7 +144,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>booléen</td> 
    <td> </td> 
-   <td>L’événement a été généré alors que l’action était hors ligne/en ligne (true/false).</td> 
+   <td>L’événement a été généré lorsque l’action était hors ligne/en ligne (true/false).</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -207,7 +207,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>facultatif</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>URL de la propriété web ou du schéma mobile - doit inclure une URL complète</td> 
+   <td>URL de la propriété web ou du schéma mobile (doit inclure une URL complète).</td> 
   </tr>
   <tr>
    <td> </td> 

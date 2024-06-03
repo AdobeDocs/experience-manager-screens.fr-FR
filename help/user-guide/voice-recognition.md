@@ -1,31 +1,31 @@
 ---
-title: Reconnaissance vocale dans AEM Screens
-description: Découvrez la reconnaissance vocale et comment l’utiliser dans AEM Screens.
+title: Reconnaissance vocale dans AEM Screens
+description: Découvrez la reconnaissance vocale et comment l’utiliser dans AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1092'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-# Reconnaissance vocale dans AEM Screens {#voice-recognition}
+# Reconnaissance vocale dans AEM Screens {#voice-recognition}
 
 >[!IMPORTANT]
 >
 >**Informations importantes concernant la confidentialité**
 >
->Lorsque vous utilisez la fonction de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre région. Ces instructions incluent, sans s’y limiter, la notification visible aux utilisateurs finaux que le lecteur utilise la reconnaissance vocale). Adobe ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API vocale Web standard intégrée au moteur de navigation. En arrière-plan, cette API envoie une forme d’onde de votre discours aux serveurs Google pour la conversion de la parole en texte. Le lecteur compare le texte au texte des mots-clés configurés.
+>Lorsque vous utilisez la fonctionnalité de reconnaissance vocale, suivez toutes les directives légales et éthiques applicables à votre région. Ces instructions incluent, sans s’y limiter, la notification visible aux utilisateurs et utilisatrices finaux indiquant que le lecteur utilise la reconnaissance vocale). Adobe ne reçoit, ne stocke ni ne traite aucune information relative à la voix. Les lecteurs AEM Screens utilisent l’API vocale web standard intégrée au moteur de navigation. En arrière-plan, cette API envoie une forme d’onde de votre discours aux serveurs Google pour la conversion de la parole en texte. Le lecteur compare le texte aux mots-clés configurés.
 >
->Voir [Livre blanc sur la confidentialité de Google sur l’API vocale web](https://www.google.com/chrome/privacy/whitepaper.html#speech) pour plus d’informations.
+>Pour plus d’informations, consultez l’[article technique de Google relatif à la confidentialité concernant l’API vocale web](https://www.google.com/chrome/privacy/whitepaper.html#speech).
 
 
-La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
+La fonction de reconnaissance vocale permet de modifier le contenu d’un canal AEM Screens par interaction vocale.
 
-Un auteur de contenu peut configurer un affichage pour qu’il soit activé pour la voix. Cette fonction permet aux clients d’utiliser la parole pour interagir avec leurs écrans. Certains cas pratiques similaires prévoient la recherche de recommandations de produits dans les magasins ainsi que la commande de plats indiqués dans les menus des restaurants. Cette fonctionnalité accroît l’accessibilité pour les utilisateurs et peut améliorer considérablement l’expérience client.
+Un auteur ou une autrice de contenu peut configurer un affichage pour permettre la reconnaissance vocale. Cette fonctionnalité permet aux clientes et clients d’utiliser la voix pour interagir avec leurs écrans. Certains cas pratiques similaires prévoient la recherche de recommandations de produits dans les magasins ainsi que la commande de plats indiqués dans les menus des restaurants. Cette fonctionnalité accroît l’accessibilité pour les utilisateurs et peut améliorer considérablement l’expérience client.
 
 >[!NOTE]
 >Le matériel du lecteur doit prendre en charge l’entrée vocale, par exemple à l’aide d’un microphone.
@@ -35,13 +35,13 @@ Un auteur de contenu peut configurer un affichage pour qu’il soit activé pour
 >[!IMPORTANT]
 > La fonction de reconnaissance vocale n’est disponible que sur les lecteurs Chrome OS et Windows.
 
-Pour mettre en oeuvre la reconnaissance vocale dans votre projet AEM Screens, activez la reconnaissance vocale pour l’affichage et associez chaque canal à une balise unique afin de déclencher une transition de canal.
+Pour mettre en œuvre la reconnaissance vocale dans votre projet AEM Screens, activez la reconnaissance vocale pour l’affichage et associez chaque canal à une balise unique afin de déclencher une transition de canal.
 
 La section suivante décrit l’activation et l’utilisation de la fonctionnalité de reconnaissance vocale dans un projet AEM Screens.
 
 ## Affichage du contenu en mode Plein écran ou Canal d’écran partagé {#sequence-channel}
 
-Avant d’utiliser une fonction de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour votre projet.
+Avant d’utiliser une fonctionnalité de reconnaissance vocale, assurez-vous d’avoir un projet et un canal avec du contenu configuré pour le projet.
 
 1. L’exemple suivant présente un projet de démonstration nommé **VoiceDemo** et trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks**, comme illustré dans la figure ci-dessous.
 
@@ -53,11 +53,11 @@ Avant d’utiliser une fonction de reconnaissance vocale, assurez-vous d’avoir
 
    Ou,
 
-   Vous pouvez créer trois canaux de séquence **Principal**, **ColdDrinks**, et **HotDrinks**, et un autre canal d’écran partagé 1x2 **SplitScreen** comme illustré dans la figure ci-dessous.
+   Vous pouvez créer trois canaux de séquence **Main**, **ColdDrinks** et **HotDrinks**, ainsi qu’un canal d’écran partagé 1x2 supplémentaire **SplitScreen**, comme illustré dans la figure ci-dessous.
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
-1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et cliquez sur le canal. Cliquez sur **Modifier** dans la barre d’actions, puis ajoutez du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu aux deux **ColdDrinks** et la variable **HotDrinks** canal.
+1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Main** et cliquez sur le canal. Cliquez sur **Modifier** dans la barre d’actions, puis ajoutez du contenu (images/vidéos) selon vos besoins. De même, ajoutez du contenu aux canaux **ColdDrinks** et **HotDrinks**.
 
    Les canaux contiennent maintenant des ressources (images), comme le montrent les figures ci-dessous.
 
@@ -73,35 +73,35 @@ Avant d’utiliser une fonction de reconnaissance vocale, assurez-vous d’avoir
 
    ![image](assets/voice-recognition/vr-2.png)
 
-   Si vous avez ajouté le canal d’écran partagé à votre projet, accédez à **SplitScreen** et effectuez un glisser-déposer de deux séquences incorporées. Ajoutez des chemins aux **ColdDrinks** et **HotDrinks** comme illustré dans la figure ci-dessous.
+   Si vous avez ajouté le canal d’écrans partagés à votre projet, accédez à **SplitScreen** et glissez-déposez les deux séquences incorporées. Ajoutez des chemins aux canaux **ColdDrinks** et **HotDrinks** comme illustré dans la figure ci-dessous.
    ![image](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Configuration de balises pour les canaux {#setting-tags}
 
-Après avoir ajouté du contenu à vos canaux, accédez à chacun d’eux et ajoutez les balises appropriées pour déclencher la reconnaissance vocale.
+Une fois le contenu ajouté aux canaux, accédez à chacun d’eux et ajoutez les balises appropriées pour déclencher la reconnaissance vocale.
 
 Procédez comme suit pour ajouter des balises à votre canal :
 
-1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Principal** et cliquez sur le canal.
+1. Accédez à chacun des canaux et ajoutez du contenu. Par exemple, accédez à **VoiceDemo** > **Canaux** > **Main** et cliquez sur le canal.
 
 1. Cliquez sur **Propriétés** dans la barre d’actions.
 
    ![image](assets/voice-recognition/vr-5.png)
 
-1. Accédez au **Principes de base** , puis cliquez sur une balise existante dans le **Balises** ou créez-en un.
+1. Accédez à l’onglet **Concepts de base** et cliquez sur une balise existante dans le champ **Balises**, ou créez-en une.
 
-   Vous pouvez créer une balise en lui donnant un nouveau nom, puis appuyer sur . `return` comme illustré dans la figure ci-dessous :
+   Vous pouvez créer une balise en lui donnant un nouveau nom et appuyer sur la touche `return`, comme illustré dans la figure ci-dessous :
 
    ![image](assets/voice-recognition/vr-6.png)
 
    Ou,
 
-   Vous pouvez également créer au préalable des balises à partir de votre instance AEM pour votre projet et les sélectionner. Une fois que vous avez suivi les étapes décrites à la section [Création de balises](#creating-tags), vous pouvez cliquer sur la balise de l’emplacement et l’ajouter à votre canal, comme illustré dans la figure ci-dessous :
+   Vous pouvez également créer au préalable des balises à partir de votre instance AEM pour votre projet et les sélectionner également. Une fois que vous avez suivi les étapes décrites dans [Création de balises](#creating-tags), vous pouvez sélectionner la balise à partir de l’emplacement et l’ajouter à votre canal, comme indiqué dans la figure ci-dessous :
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
-1. De même, ajoutez une balise intitulée **hot** à la fonction **HotDrinks** canal.
+1. De même, ajoutez une balise intitulée **hot** au canal **HotDrinks**.
 
 1. Si vous utilisez un canal d’écran partagé, ajoutez les deux balises (**hot** et **cold**) aux propriétés du canal **SplitScreen**, comme indiqué dans la figure ci-dessous.
 
@@ -116,7 +116,7 @@ Pour créer des balises, procédez comme suit :
 
 1. Accédez à votre instance AEM.
 
-1. Cliquez sur l’icône Outils > **Balisage**.
+1. Cliquez sur l’icône Outils > **Balisage**.
    ![image](assets/voice-recognition/vr-7.png)
 
 1. Cliquez sur **Créer** > **Créer un espace de noms**.
@@ -124,7 +124,7 @@ Pour créer des balises, procédez comme suit :
 
 1. Entrez le nom de votre projet, par exemple, **VoiceDemo** et cliquez sur **Créer**.
 
-1. Cliquez sur le bouton **VoiceDemo** projet et cliquez sur **Créer une balise** dans la barre d’actions.
+1. Cliquez sur le projet **VoiceDemo**, puis sur **Créer une balise** dans la barre d’actions.
    ![image](assets/voice-recognition/vr-tag4.png)
 
 1. Saisissez le nom de votre balise, puis cliquez sur **Envoyer**.
@@ -141,7 +141,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
    >[!NOTE]
    >Pour savoir comment attribuer un canal à un affichage, voir [Création et gestion des affichages](/help/user-guide/managing-displays.md).
 
-1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay**. En outre, si vous utilisez la variable **SplitScreen** canal de votre projet, veillez à l’affecter également à l’affichage.
+1. Attribuez les canaux **Main**, **ColdDrinks** et **HotDrinks** à votre **LobbyDisplay**. De plus, si vous utilisez le canal **SplitScreen** pour votre projet, assurez-vous de l’attribuer également à l’affichage.
 
    >[!NOTE]
    >Si vous avez créé un canal d’écran partagé, attribuez aussi le canal **SplitScreen** à votre affichage.
@@ -161,7 +161,7 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
 
 1. Une fois que vous avez attribué des canaux à un affichage, accédez au **LobbyDisplay** et cliquez sur l’affichage. Cliquez sur **Propriétés** dans la barre d’actions.
 
-1. Accédez au **Affichage** et activez l’option **Voix activée** option sous **Contenu**.
+1. Accédez à l’onglet **Affichage** et activez l’option **Voix activée** dans **Contenu**.
 
    ![image](assets/voice-recognition/vr-disp.png)
 
@@ -170,17 +170,17 @@ Vous pouvez désormais utiliser ces balises dans votre projet AEM Screens.
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content}
 
-Une fois les étapes précédentes effectuées, vous pouvez enregistrer votre appareil Chrome pour afficher la sortie.
+Lorsque les étapes précédentes sont effectuées, vous pouvez enregistrer votre appareil Chrome pour afficher la sortie.
 
 >[!NOTE]
->Voir [Enregistrement de périphérique](device-registration.md).
+>Voir [Enregistrement des appareils](device-registration.md).
 
 **Sortie désirée du canal de séquence**
 
-La variable **Principal** est en train de lire son contenu. Cependant, lorsque vous utilisez des mots avec le mot-clé **hot**, par exemple *Je voudrais une boisson chaude.*, le canal commence à lire le contenu de la variable **HotDrinks** canal.
+Le canal **Main** lit son contenu. Toutefois, lorsque vous utilisez le mot-clé **hot** (chaud) comme dans *Je voudrais une boisson chaude*, le canal commence à lire le contenu du canal **HotDrinks**.
 
-De même, si vous utilisez un mot-clé **froid** par exemple *J&#39;aimerais avoir quelque chose de froid.*, le canal commence à lire le contenu de la variable **ColdDrinks** canal.
+De même, si vous utilisez un mot-clé **cold** (froid) comme dans *Je voudrais avoir quelque chose de froid*, le canal commence à lire le contenu du canal **ColdDrinks**.
 
 **Sortie désirée du canal SplitScreen**
 
-La variable **Principal** est en train de lire son contenu. Cependant, lorsque vous utilisez des mots avec le mot-clé **hot** et **froid** ensemble, par exemple *Je voudrais voir le menu des boissons chaudes et froides*, le canal lit le contenu de la variable **SplitScreen** canal. Si vous dites *Revenir au menu principal*, la fonction revient au **Principal** canal.
+Le canal **Main** lit son contenu. Toutefois, lorsque vous utilisez les mots-clés **hot** (chaud) et **cold** (froid) ensemble comme dans *Je voudrais voir le menu des boissons chaudes et froides*, le canal commence à lire le contenu du canal **SplitScreen**. Si vous dites *Revenir au menu principal*, le processus revient au canal **Main**.
