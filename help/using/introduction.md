@@ -1,17 +1,17 @@
 ---
 title: Présentation d’AEM Screens
-description: Découvrez AEM Screens et ce qu’il peut vous apporter.
+description: Découvrez AEM Screens et son utilité.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
 # Présentation d’AEM Screens {#introduction}
 
-**AEM Screens** est une solution d’affichage numérique qui vous permet de créer, de publier et de lire des expériences numériques dynamiques et interactives. Elle implique différents types d’écrans sur site, de concert avec une stratégie de marketing numérique omnicanal exhaustive.
+**AEM Screens** est une solution de signalétique numérique qui vous permet de créer, de publier et de lire des expériences numériques dynamiques et interactives. Elle implique différents types d’écrans sur site, de concert avec une stratégie de marketing numérique omnicanal exhaustive.
 
 AEM Screens vous permet de créer ce qui suit :
 

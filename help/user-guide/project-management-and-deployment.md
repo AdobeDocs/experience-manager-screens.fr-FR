@@ -13,13 +13,13 @@ exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 50%
+ht-degree: 74%
 
 ---
 
-# Partie 4 : gestion de projet et déploiement {#part-project-management-and-deployment}
+# Partie 4 : gestion et déploiement de projets {#part-project-management-and-deployment}
 
-Cette page présente la quatrième partie d’une série de 5 parties, conçue pour couvrir la gestion de projet et la préparation au déploiement, ainsi que pour définir les principaux facteurs dont l’intégrateur audio-vidéo est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
+Cette page présente la quatrième partie d’une série de cinq articles et porte sur la préparation du déploiement et la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
 
 ## Vue d’ensemble {#overview}
 
@@ -29,7 +29,7 @@ Il est important que toutes les parties prenantes comprennent ce dont l’intég
 
 >[!NOTE]
 >
->L’identification d’un intégrateur audio-vidéo ayant une expertise dans la gestion de projet des déploiements de signalétique digitale à grande échelle est importante pour le succès à long terme. Il est conseillé de comparer les plans de projet entre l’intégrateur audio-vidéo et l’implémentateur AEM. Cela permet d’assurer l’alignement au fur et à mesure de l’élaboration et de la finalisation des plans. 
+>L’identification à grande échelle d’un intégrateur ou intégratrice audiovisuel ayant une expertise dans la gestion de projets des déploiements de signalétique numérique est importante pour le succès à long terme. Il est suggéré de comparer les plans de projet entre l’intégrateur ou l’intégratrice audiovisuel et la personne en charge de l’implémentation d’AEM. Cela permet d’assurer l’alignement au fur et à mesure de l’élaboration et de la finalisation des plans. 
 >
 >Les partenaires qui adoptent une approche holistique de la gestion des phases de préproduction, de lancement et de progression du projet aideront votre clientèle finale à tirer le meilleur parti de leur investissement.
 
@@ -72,11 +72,11 @@ Une réunion de lancement est programmée pour confirmer qu’une opportunité d
 
 La dernière partie d’une initiative de Jour 1 consiste en la passation au centre des opérations réseau. Si un projet terminé comprend un service et une assistance du Jour 2, le chef de projet organise une réunion de passation au centre des opérations réseau avec les superviseurs de ces équipes.
 
-Cette réunion comprend principalement des représentants de l’intégrateur audio-vidéo issus de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les représentants de la gestion de projet de l’Adobe, de l’implémentateur d’AEM et du client final sont impliqués dans tandem, et l’intégrateur audio-vidéo définit la planification, la cadence et les points de contrôle. Les chefs de projet sont généralement les mieux placés pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d’assistance essentielle provient probablement de l’ingénierie informatique et/ou audio-vidéo, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour la clientèle qui a besoin du soutien d’un centre d’assistance fourni par un centre des opérations réseau, la documentation devra être fournie aux personnes chargées de la supervision du centre afin qu’elles la chargent sur une plateforme de base de connaissances.
+Cette réunion rassemble principalement des personnes qui représentent l’intégrateur ou intégratrice audiovisuel en charge de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les personnes qui représentent la gestion de projets d’Adobe, la personne en charge de l’implémentation d’AEM et la clientèle finale interviennent généralement en tandem, avec l’intégrateur ou intégratrice audiovisuel qui définit le planning, la cadence et les « toll gates » (points de contrôle). Les chefs de projet sont généralement les mieux placés pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d’assistance essentielle sera probablement fournie par l’ingénierie informatique et/ou audiovisuelle, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour la clientèle qui a besoin du soutien d’un centre d’assistance fourni par un centre des opérations réseau, la documentation devra être fournie aux personnes chargées de la supervision du centre afin qu’elles la chargent sur une plateforme de base de connaissances.
 
 ## Partie 4 : tutoriel vidéo sur la gestion de projets et le déploiement {#part-video-tutorial-on-project-management-and-deployment}
 
-Découvrez la gestion de projet et la préparation du déploiement, ainsi que la définition des principaux facteurs dont l’intégrateur audio-vidéo est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
+Découvrez les principes de la préparation du déploiement et de la gestion de projets, ainsi qu’une définition des principaux facteurs dont l’intégrateur ou intégratrice audiovisuel est responsable dans le cadre de la gestion de projets et de la préparation au déploiement.
 
 ### Gestion de projet et déploiement
 
@@ -84,6 +84,6 @@ Découvrez la gestion de projet et la préparation du déploiement, ainsi que la
 
 *Apprenez-en plus sur la gestion de projet et la préparation du déploiement (préproduction du projet, lancement du projet, progression du projet).*
 
-## La prochaine étape {#the-next-step}
+## Étape suivante {#the-next-step}
 
 Lorsque vous en avez terminé avec les principales considérations relatives à la gestion de projet pour les déploiements AEM Screens, accédez à **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** vous comprenez donc l’assistance du Jour 2 et les processus impliqués.

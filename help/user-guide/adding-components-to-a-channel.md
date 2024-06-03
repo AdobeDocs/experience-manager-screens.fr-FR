@@ -13,7 +13,7 @@ exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 70%
+ht-degree: 81%
 
 ---
 
@@ -34,7 +34,7 @@ Pour afficher les composants par défaut dans le projet Screens, procédez comme
 1. Cliquez sur le canal. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions.
-1. Dans l’éditeur d’AEM, cliquez sur le bouton **+** dans la barre latérale.
+1. Dans l’éditeur AEM, cliquez sur l’icône **+** dans la barre latérale.
 1. Tous les composants fournis par défaut dans un projet AEM Screens s’affichent, comme illustré dans la figure ci-dessous.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM fournit plusieurs autres composants. Vous pouvez toujours ajouter d’autres
 
 L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AEM Screens :
 
-1. Cliquez sur le canal auquel vous souhaitez ajouter un composant. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
+1. Cliquez sur le canal dans lequel vous souhaitez ajouter un composant. Par exemple : **`We.Retail In Store`** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions.
-1. Cliquez sur **Conception** mode .
-1. Cliquez sur l’ensemble de l’éditeur de conception à droite, puis cliquez sur le symbole des paramètres pour ouvrir la **Parsys Design** de la boîte de dialogue
-1. Vous pouvez cliquer sur les composants à importer dans votre projet AEM Screens. L’exemple suivant illustre l’ajout de la variable **Livefyre** à un projet AEM Screens.
+1. Cliquez sur le mode **Conception**.
+1. Cliquez sur l’ensemble de l’éditeur de conception à droite, puis sur le symbole des paramètres afin d’ouvrir la boîte de dialogue **Conception parsys**.
+1. Vous pouvez cliquer sur les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant illustre l’ajout de la variable **Livefyre** à un projet AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ La section suivante décrit les composants AEM Screens que vous pouvez utiliser
 
 >[!NOTE]
 >
->Pour afficher les propriétés d’un composant, cliquez sur le composant, puis sur l’icône en forme de marteau pour ouvrir/afficher les propriétés.
+>Pour afficher les propriétés d’un composant, cliquez dessus, puis sur l’icône en forme de marteau afin d’ouvrir/d’afficher les propriétés.
 
 ### Application {#application}
 
@@ -193,7 +193,7 @@ La séquence incorporée dynamique présente les propriétés suivantes :
 
 ### Fragment d’expérience {#experience-fragment}
 
-Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (un groupe d’un ou plusieurs composants comprenant un contenu et une disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Faites glisser le composant et déposez-le dans AEM’éditeur, puis cliquez sur le fragment d’expérience.
+Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (un groupe d’un ou plusieurs composants comprenant un contenu et une disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Glissez-déposez le composant vers l’éditeur AEM, puis cliquez sur le fragment d’expérience.
 
 Pour en savoir plus sur la création d’un fragment d’expérience et son utilisation dans un projet AEM Screens, reportez-vous à [Utilisation de fragments d’expérience](experience-fragments-in-screens.md).
 
@@ -235,11 +235,11 @@ La ressource image comporte trois onglets, à savoir : **Image**, **Accessibili
 
 Le composant Transition permet d’ajouter une transition au projet Screens.
 
-L’image suivante montre le composant de transition (ajouté par glisser-déposer) dans l’éditeur.
+L’illustration suivante représente le composant de transition (ajouté par glisser-déposer) dans l’éditeur.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Cliquez sur l’icône de transition, puis sur le **Configurer** (icône de clé à molette) pour ouvrir la **Transition** de la boîte de dialogue Cette boîte de dialogue comprend trois onglets :
+Cliquez sur l’icône de transition, puis sur **Configurer** (icône en forme de clé à molette) pour ouvrir la boîte de dialogue **Transition**. Cette boîte de dialogue comprend trois onglets :
 
 * **Transition**
 * **Séquence**

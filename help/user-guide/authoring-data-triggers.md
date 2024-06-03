@@ -1,6 +1,6 @@
 ---
-title: Création avec des triggers de données
-description: Découvrez comment créer avec des triggers de données dans un canal AEM Screens.
+title: Création avec des déclencheurs de données
+description: Découvrez comment créer avec des déclencheurs de données dans un canal AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 50%
+ht-degree: 88%
 
 ---
 
-# Création avec des triggers de données {#authoring-with-data-triggers}
+# Création avec des déclencheurs de données {#authoring-with-data-triggers}
 
 Cette section explique comment activer le ciblage dans vos canaux.
 
@@ -20,9 +20,9 @@ Cette section explique comment activer le ciblage dans vos canaux.
 >
 >La version minimale prenant en charge les triggers de données dans un canal AEM Screens est AEM 6.5.3 Feature Pack 3.
 
-## Prérequis {#prereqs}
+## Conditions préalables {#prereqs}
 
-Avant de suivre les étapes ci-dessous pour activer le ciblage dans les canaux, découvrez la [Termes clés de la configuration dans AEM Screens](configuring-context-hub.md) requis pour comprendre ContextHub et le ciblage dans AEM Screens.
+Avant de suivre les étapes ci-dessous afin d’activer le ciblage dans les canaux, apprenez les [termes clés de la configuration dans AEM Screens](configuring-context-hub.md) qui sont nécessaires pour comprendre ContextHub et le ciblage dans AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Suivez les liens ci-dessous pour en savoir plus :
 1. **[Configuration du magasin de données](configuring-context-hub.md)**
 1. **[Configuration de la segmentation de l’audience](configuring-context-hub.md)**
 
-Une fois les étapes précédentes effectuées, vous êtes prêt à activer le ciblage dans vos canaux.
+Après avoir suivi les étapes précédentes, vous pouvez activer le ciblage dans vos canaux.
 
 ## Présentation de la création avec des triggers de données {#author-targeting}
 
@@ -45,15 +45,15 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenRetail** *(canal de séquence)* créé dans un canal AEM Screens.
 
-1. Cliquez sur le canal **DataDrivenRetail** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Cliquez sur le canal **DataDrivenRetail**, puis sur **Propriétés** dans la barre d’actions.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Cliquez sur le bouton **Personnalisation** pour définir les configurations ContextHub et cliquer sur le chemin ContextHub et Segments .
+1. Cliquez sur l’onglet **Personnalisation** pour définir les configurations ContextHub et cliquez sur le chemin ContextHub et Segments.
 
-   1. Cliquez sur le bouton **Chemin ContextHub** as **libs** > **paramètres** > **cloudsettings** > **default** > **Configurations ContextHub** et cliquez sur **Cliquez sur**.
+   1. Cliquez sur le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub**, puis sur **Sélectionner**.
 
-   1. Cliquez sur le bouton **Chemin d’accès aux segments** as **conf** > **`We.Retail`** > **paramètres** > **wcm** > **segments** et cliquez sur **Cliquez sur**.
+   1. Cliquez sur le **Chemin d’accès aux segments** **conf** > **`We.Retail`****settings** > **wcm** > **segments**, puis sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 
@@ -63,7 +63,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Naviguez et cliquez sur le **DataDrivenRetail** de **DataDrivenAssets** > **Canaux** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser les ressources et déposez-les dans votre éditeur de canal.
+1. Accédez à **DataDrivenRetail** et cliquez dessus dans **DataDrivenAssets** > **Canaux**, puis cliquez sur **Modifier** dans la barre d’actions. Faites glisser les ressources et déposez-les dans votre éditeur de canal.
 
    >[!NOTE]
    >
@@ -73,7 +73,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Cliquez sur **Ciblage**.
 
-1. Cliquez sur **Marque** et la variable **Activité** dans le menu déroulant et cliquez sur **Commencer le ciblage**.
+1. Cliquez sur **Marque** et l’**Activité** dans le menu déroulant, puis sur **Commencer le ciblage**.
 
 ### En savoir plus : exemples de cas d’utilisation {#learn-more-example-use-cases}
 

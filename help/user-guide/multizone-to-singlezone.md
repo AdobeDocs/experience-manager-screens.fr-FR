@@ -9,7 +9,7 @@ exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 63%
+ht-degree: 74%
 
 ---
 
@@ -43,8 +43,8 @@ Pour configurer un projet, procédez comme suit :
 
 1. **Création d’un canal Screens multizone**
 
-   1. Cliquez sur le bouton **Canaux** et cliquez sur **Créer** depuis la barre d&#39;actions et en ouvrant l&#39;assistant pour créer un canal.
-   1. Cliquez sur **Canal d’écran partagé Barre-L gauche** à partir de l’assistant et créez le canal intitulé **MultiZoneLayout**.
+   1. Cliquez sur le dossier **Canaux**, puis sur **Créer** dans la barre d’actions pour ouvrir l’assistant afin de créer un canal.
+   1. Cliquez sur **Canal d’écran partagé barre en L à gauche** dans l’assistant et créez le canal intitulé **MultiZoneLayout**.
    1. Ajoutez du contenu au canal. Faites glisser les ressources vers chacune des zones. L’exemple suivant illustre un canal **MultiZoneLayout** comprenant une vidéo, une image et une bannière de texte (dans une séquence incorporée), comme illustré ci-dessous.
 
    ![ressource](assets/mz-to-sz2.png)

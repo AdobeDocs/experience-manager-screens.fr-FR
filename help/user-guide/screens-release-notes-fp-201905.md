@@ -13,7 +13,7 @@ exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens assure la prise en charge de la maintenance de la plateforme AEM 6.3 Screens.
+>Il est recommandé d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
 AEM Screens a publié le pack de fonctionnalité 6 AEM 6.3.3.3 et le pack de fonctionnalités 4 AEM 6.4.4.0 avec les détails suivants.
 
@@ -45,9 +45,9 @@ Pour plus d’informations, reportez-vous à **[Transition de ContentSync à Sma
 
 * **Canal d’urgence**
 
-Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur de contenu peut passer d’un canal de séquence s’il y a une condition préalable.
+Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence vers lequel peut basculer l’auteur ou l’autrice du contenu depuis un canal de séquence en cas de condition préalable.
 
-Voir **[Canal d’urgence](emergency-channel.md)** cas d’utilisation pour plus de détails.
+Pour plus d’informations, consultez le cas d’utilisation du **[canal d’urgence](emergency-channel.md)**.
 
 * **Incorporation d’une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégration à AEM Screens Analytics**
 
@@ -65,4 +65,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.3.3.3 Feature Pack 
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, voir **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)**.
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section **[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)**.

@@ -1,17 +1,17 @@
 ---
 title: Instructions de sélection du matériel pour les appareils de lecture
-description: Découvrez les instructions de sélection du matériel pour les appareils du lecteur AEM Screens.
+description: Découvrez les instructions de sélection du matériel pour les appareils de lecture AEM Screens.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection}
 
-La section suivante présente les instructions de sélection du matériel pour un lecteur AEM Screens.
+La section suivante présente les instructions de sélection du matériel pour un lecteur AEM Screens.
 
 ## Points importants {#important-considerations}
 
@@ -46,7 +46,7 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
    <td><p>*ChromeOS 32 Go</p> <p>*Windows 128 Go</p> </td>
    <td>Intégré</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet / sans fil,<br /> 2xUSB</td>
+   <td>DVI<br /> Ethernet / Sans fil,<br /> 2 x USB</td>
    <td>
     <ul>
      <li>Boucle plein écran standard<br /> </li>

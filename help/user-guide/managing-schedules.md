@@ -12,7 +12,7 @@ exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 62%
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ Lorsqu’ils sont combinés avec des ***tranches horaires***, les plannings perm
 
 >[!NOTE]
 >
->Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé le pack de fonctionnalités 1 d’AEM 6.3 Sites. Pour accéder à ce Feature Pack, contactez l’assistance Adobe et demandez l’accès. Lorsque vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Partage de modules.
+>Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé le pack de fonctionnalités 1 d’AEM 6.3 Sites. Pour accéder à ce pack de fonctionnalités, contactez l’assistance d’Adobe et demandez à y accéder. Lorsque vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Partage de modules.
 
 ## Création d’une planning {#creating-a-schedule}
 
@@ -32,10 +32,10 @@ Vous pouvez créer pour votre projet Screens un planning qui peut gérer toutes 
 
 Pour créer un planning pour votre canal, procédez comme suit :
 
-1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur Screens. Vous pouvez également utiliser le lien d’accès direct : `http://localhost:4502/screens.html/content/screens`.
+1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur Screens. Vous pouvez également utiliser le lien d’accès direct : `http://localhost:4502/screens.html/content/screens`.
 1. Accédez au projet Screens et cliquez sur **Planifications**.
 1. Cliquez sur **Créer** dans la barre d’actions.
-1. Cliquez sur **Planification** de la **Créer** assistant et cliquez sur **Suivant**.
+1. Cliquez sur **Planning** dans l’assistant **Créer**, puis sur **Suivant**.
 
 1. Saisissez le **Nom** et le **Titre**, puis cliquez sur **Créer**.
 

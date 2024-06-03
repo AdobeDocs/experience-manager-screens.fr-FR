@@ -13,7 +13,7 @@ exl-id: 13c0d75e-435f-433e-8886-f451df863517
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 52%
+ht-degree: 79%
 
 ---
 
@@ -37,7 +37,7 @@ Un ***fragment d’expérience*** est un groupe d’un ou plusieurs composants c
 
 Par exemple, le workflow suivant illustre l’utilisation de fragments d’expérience provenant de `We.Retail` dans Sites. Vous pouvez choisir une page web et utiliser son contenu dans votre canal AEM Screens dans l’un de vos projets.
 
-### Prérequis {#pre-requisites}
+### Conditions préalables {#pre-requisites}
 
 **Création d’un projet de démonstration avec un canal**
 
@@ -49,9 +49,9 @@ Par exemple, le workflow suivant illustre l’utilisation de fragments d’expé
 
 Un projet **DemoProject** est ajouté à AEM Screens.
 
-***Création d’un canal***
+***Créer un canal***
 
-1. Accédez au **DemoProject** vous avez créé et cliquez sur le bouton **Canaux** dossier.
+1. Accédez au projet **DemoProject** que vous avez créé et cliquez sur le dossier **Canaux**.
 
 1. Cliquez sur **Créer** dans la barre d’actions pour ouvrir l’assistant.
 1. Sélectionnez le modèle **Canal de séquence** dans l’assistant et cliquez sur **Suivant**.
@@ -70,21 +70,21 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    1. Accédez à Sites, puis cliquez sur **`We.Retail`** > **États-Unis** > **Anglais** > **Matériel** et cliquez sur cette page afin de pouvoir l’utiliser comme fragment d’expérience pour votre canal Screens.
 
-   1. Cliquez sur **Modifier** dans la barre d’actions afin de pouvoir ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
+   1. Cliquez sur **Modifier** dans la barre d’actions pour ouvrir la page que vous souhaitez utiliser comme fragment d’expérience pour votre canal Screens.
 
 1. **Réutiliser du contenu**
 
-   1. Cliquez sur le fragment que vous souhaitez inclure dans votre canal.
-   1. Cliquez sur la dernière icône à droite pour ouvrir le **Convertir en fragment d’expérience** de la boîte de dialogue
+   1. Cliquez sur le fragment à inclure dans votre canal.
+   1. Cliquez sur la dernière icône à droite pour ouvrir la boîte de dialogue **Convertir en fragment d’expérience**.
 
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Créer un fragment d’expérience**
 
-   1. Choisissez l’**action** **Créer un fragment d’expérience**.
+   1. Choisissez l’**Action** **Créer un fragment d’expérience**.
 
-   1. Cliquez sur le bouton **Chemin d’accès parent**.
-   1. Cliquez sur le bouton **Modèle**. Sélectionnez ici le modèle **Fragment d’expérience - Variation Screens** (valeur dans le champ `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
+   1. Cliquez sur le **chemin d’accès parent**.
+   1. Cliquez sur le **modèle**. Sélectionnez ici le modèle **Fragment d’expérience - Variation Screens** (valeur dans le champ `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Saisissez le **Titre du fragment** **ScreensFragment**.
 
@@ -97,7 +97,7 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 1. **Création d’une Live Copy du fragment d’expérience**
 
    1. Accédez à la page d’accueil d’AEM.
-   1. Cliquez sur **Fragments d’expérience** et mettez en surbrillance le **ScreensFragment** et cliquez sur **Variation en tant que Live Copy**, comme illustré dans la figure ci-dessous :
+   1. Cliquez sur **Fragments d’expérience** et mettez en surbrillance **ScreensFragment**. Cliquez ensuite sur **Variation comme Live Copy**, comme illustré ci-dessous :
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
@@ -105,7 +105,7 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    d. Saisissez le **Titre** et le **Nom** **Screens**.
 
-   e. **Créer** afin de pouvoir créer la Live Copy.
+   e. Cliquez sur **Créer** afin de pouvoir créer la Live Copy.
 
    f. Cliquez **Terminé** afin que vous puissiez revenir au **ScreensFragment** page.
 
@@ -113,13 +113,13 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    >[!NOTE]
    >
-   >Après avoir créé un fragment AEM Screens, vous pouvez en modifier les propriétés. Cliquez sur le fragment, puis sur **Propriétés** dans la barre d’actions.
+   >Après avoir créé un fragment AEM Screens, vous pouvez en modifier les propriétés. Cliquez sur le fragment, puis sur **Propriétés** dans la barre d’actions.
 
    **Modification des propriétés d’un fragment Screens**
 
    1. Accédez au fragment **ScreensFragment** (que vous avez créé lors des étapes précédentes) et cliquez sur **Propriétés** dans la barre d’actions.
 
-   1. Cliquez sur le bouton **Configuration hors ligne** , comme illustré dans la figure ci-dessous.
+   1. Cliquez sur l’onglet **Configuration hors ligne**, comme illustré ci-dessous.
 
    Vous pouvez ajouter la variable **Bibliothèques côté client** (Java™ et CSS) et **Fichiers statiques** à votre fragment d’expérience.
 
@@ -128,14 +128,14 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 1. **Utilisation du fragment d’expérience comme composant dans un canal Screens**
 
    1. Accédez au canal Screens où vous souhaitez utiliser le fragment **Screens**.
-   1. Cliquez sur le bouton **TestChannel** et cliquez sur **Modifier** dans la barre d’actions.
+   1. Cliquez sur **TestChannel**, puis sur **Modifier** dans la barre d’actions.
 
    1. Cliquez sur l’icône des composants dans l’onglet latéral.
    1. Faites glisser le **fragment d’expérience** et déposez-le dans votre canal.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Cliquez sur le bouton **Fragment d’expérience** et cliquez sur l’icône en haut à gauche (clé à molette) pour ouvrir la **Fragment d’expérience** de la boîte de dialogue
+   e. Cliquez sur le composant **Fragment d’expérience**, puis sur l’icône en haut à gauche (clé à molette) pour ouvrir la boîte de dialogue **Fragment d’expérience**.
 
    f. Cliquez sur le **Screens** Live Copy du fragment créé dans *Étape 3* in **Chemin**.
 
@@ -147,7 +147,7 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    h. Saisissez la valeur en millisecondes dans **Durée**.
 
-   i. Cliquez sur le bouton **Configuration hors ligne** de la **Fragments d’expérience** pour définir les bibliothèques côté client et les fichiers statiques.
+   i. Cliquez sur la **Configuration hors ligne** dans la boîte de dialogue **Fragments d’expérience** pour définir les bibliothèques côté client et les fichiers statiques.
 
    >[!NOTE]
    >
@@ -155,7 +155,7 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. Cliquez sur la coche pour terminer l’opération.
+   j. Cliquez sur la coche pour terminer le processus.
 
 ### Validation du résultat {#validating-the-result}
 
@@ -179,7 +179,7 @@ Parce que le fragment d’expérience que vous avez créé est une Live Copy de 
 
 Pour propager les modifications du canal principal vers votre canal de destination :
 
-1. Cliquez sur le fragment d’expérience dans la **Sites** (principal) et cliquez sur l’icône en forme de crayon afin de pouvoir modifier les éléments du fragment d’expérience.
+1. Cliquez sur le fragment d’expérience sur la page (principale) **Sites** et cliquez sur l’icône en forme de crayon pour modifier les éléments du fragment d’expérience.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
@@ -195,7 +195,7 @@ Pour propager les modifications du canal principal vers votre canal de destinati
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Cliquez sur le fragment d’expérience, puis sur l’icône Déployer afin de propager les modifications au fragment utilisé dans votre canal.
+1. Cliquez sur le fragment d’expérience, puis sur l’icône Déploiement pour propager les modifications sur le fragment utilisé dans votre canal.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 

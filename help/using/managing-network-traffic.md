@@ -5,7 +5,7 @@ exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 64%
+ht-degree: 82%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 64%
 
 Une configuration réseau peut avoir différentes structures. Cette section décrit les configurations réseau les plus courantes et les approches généralisées appliquées au sein d’une organisation.
 
-Ce guide présente les serveurs proxy, suivis des différentes structures réseau configurées au sein de différentes organisations.
+Ce guide présente une introduction aux serveurs proxy suivie des diverses structures de réseaux configurées au sein de différentes organisations.
 
 >[!NOTE]
 >**Configuration requise pour le réseau AEM Screens**
->AEM Screens communique directement avec l’as a Cloud Service AEM. Il est donc nécessaire d’établir une connexion stable entre les deux noeuds. Les pare-feu sont obligatoires pour l&#39;accès commercial à Internet. En tant que client, déterminez les ports de communication qui doivent être ouverts dans ces pare-feu et autres composants réseau liés à la sécurité informatique.
+>AEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Des pare-feu sont obligatoires pour un accès à l’internet commercial. En tant que client ou cliente, déterminez les ports de communication qui doivent être ouverts dans ces pare-feu et pour les autres composants réseau liés à la sécurité informatique.
 
 ## Vue d’ensemble des serveurs proxy {#proxy-servers}
 
-Une connexion Internet repose sur l’utilisation d’un serveur proxy. Un serveur proxy est un ordinateur dédié ou un système logiciel s’exécutant sur un ordinateur. Il agit comme intermédiaire entre un périphérique de point d’entrée, tel qu’un ordinateur, et un autre serveur à partir duquel un utilisateur ou un client demande un service. Le serveur proxy peut exister sur la même machine qu’un serveur de pare-feu ou sur un serveur distinct qui transfère les demandes par le biais du pare-feu.
+Une connexion Internet repose sur l’utilisation d’un serveur proxy. Un serveur proxy est un ordinateur dédié ou un système logiciel s’exécutant sur un ordinateur. Il agit comme intermédiaire entre un périphérique de point d’entrée, tel qu’un ordinateur, et un autre serveur à partir duquel un utilisateur ou une utilisatrice, ou un client ou une cliente, demande un service. Le serveur proxy peut exister sur la même machine qu’un serveur de pare-feu ou sur un serveur distinct qui transfère les demandes par le biais du pare-feu.
 
 L’un des avantages du serveur proxy est que son cache peut servir tous les utilisateurs. Si un ou plusieurs sites Internet sont fréquemment demandés, ils sont susceptibles d’être dans le cache du proxy. Cette mise en cache améliore davantage le temps de réponse des utilisateurs. Un proxy peut également consigner ses interactions, ce qui peut servir au dépannage.
 

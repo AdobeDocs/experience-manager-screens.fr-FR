@@ -13,7 +13,7 @@ exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 64%
+ht-degree: 86%
 
 ---
 
@@ -48,12 +48,12 @@ Avant de débuter la mise en œuvre de cette fonctionnalité, vous devez posséd
 
 Lors de la création d’un canal, vous pouvez utiliser des modèles différents afin de créer des zones dans votre canal. Vous pouvez ajouter une seule image, une seule vidéo ou un seul canal incorporé qui permet l’affichage de plusieurs ressources dans une séquence.
 
-**Création d’un canal**
+**Créer un canal**
 
-1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis **Screens**. Vous pouvez également utiliser le lien d’accès direct : `http://localhost:4502/screens.html/content/screens`.
+1. Cliquez sur le lien Adobe Experience Manager (en haut à gauche), puis sur **Screens**. Vous pouvez également utiliser le lien d’accès direct : `http://localhost:4502/screens.html/content/screens`.
 1. Accédez au **Canaux** et cliquez sur **Créer** dans la barre d’actions.
 
-1. Cliquez sur **Canal d’écran partagé 1x2** de la **Créer** assistant.
+1. Cliquez sur **Canal d’écran partagé 1x2** dans l’assistant **Créer**.
 
 1. Cliquez sur **Suivant** et saisissez le **titre** **MultiZone**.
 
@@ -66,7 +66,7 @@ Vous pouvez utiliser des ressources uniques telles qu’une image ou une vidéo 
 1. **Ajout de contenu au canal**
 
    1. Accédez à **Zones** > **Canaux** > **MultiZone**.
-   1. Cliquez sur le bouton **MultiZone** canal et clic **Modifier** dans la barre d’actions.
+   1. Cliquez sur le canal **Multizone** et cliquez sur **Modifier** dans la barre d’actions.
 
 1. **Ajout d’images au canal**
 
@@ -81,7 +81,7 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 1. **Créer un dossier de canaux**
 
    1. Accédez à **Zones** > **MultiZone** > **Canaux** et cliquez sur **Créer** dans la barre d’actions.
-   1. Cliquez sur **Dossier Canaux** de la **Créer** assistant et cliquez sur **Suivant**.
+   1. Cliquez sur **Dossier de canaux** dans l’assistant **Créer**, puis sur **Suivant**.
    1. Saisissez le titre **EmbeddedChannels** et cliquez sur **Créer**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
@@ -89,8 +89,8 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
 1. **Ajout de deux autres canaux au dossier de canaux**
 
    1. Accédez à **Zones** > **Canaux** > **EmbeddedChannels** et cliquez sur **Créer** dans la barre d’actions.
-   1. Cliquez sur **Canal de séquence** de la **Créer** pour créer un canal intitulé **`Zone1`**.
-   1. Cliquez sur **`Zone1`** et cliquez sur **Modifier** dans la barre d’actions.
+   1. Cliquez sur **Canal de séquence** dans l’assistant **Créer** pour créer un canal intitulé **`Zone1`**.
+   1. Cliquez sur **`Zone1`**, puis sur **Modifier** dans la barre d’actions.
    1. Faites glisser et déposez quelques images sur ce canal.
    1. De même, créez un autre canal de séquence intitulé **`Zone2`** dans le dossier **EmbeddedChannels**.
    1. Faites glisser une vidéo sur ce canal.
@@ -114,27 +114,27 @@ Si vous souhaitez que les zones affichent une séquence d’images et une vidéo
    1. Faites glisser le composant **Séquence incorporée** dans les deux zones.
    1. Cliquez sur la séquence incorporée dans l’une des zones.
    1. Cliquez sur l’icône **Configurer** (clé à molette) pour accéder à l’une des séquences incorporées dans l’éditeur.
-   1. Cliquez sur le chemin du canal comme **Zones** > **Canaux** > **EmbeddedChannels** > **`Zone1`**, comme illustré dans la figure ci-dessous.
+   1. Cliquez sur le chemin du canal **Zones** > **Canaux** > **EmbeddedChannels** > **`Zone1`**, comme illustré ci-dessous.
    1. De même, ajoutez **`Zone2`** à un autre composant de séquence incorporée dans l’éditeur.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### Création d’un emplacement et d’un affichage {#creating-location}
 
-Créez un emplacement et un affichage afin de pouvoir afficher le contenu dans le lecteur AEM Screens.
+Vous devez créer un emplacement et un affichage afin de visualiser le contenu dans le lecteur AEM Screens.
 
 1. **Création d’un emplacement**
 
    1. Accédez au **Zones** > **Emplacements** dossier.
-   1. Cliquez sur le bouton **Emplacements** et cliquez sur **Créer** dans la barre d’actions.
-   1. Cliquez sur **Emplacement** de la **Créer** assistant et cliquez sur **Suivant**.
+   1. Cliquez sur le dossier **Emplacements**, puis sur **Créer** dans la barre d’actions.
+   1. Cliquez sur **Emplacement** à partir de l’assistant **Créer**, puis sur **Suivant**.
    1. Saisissez le **Titre** **SanJose**, puis cliquez sur **Créer**.
 
 1. **Création d’un affichage**
 
    1. Accédez au **Zones** > **Emplacements** dossier.
-   1. Cliquez sur le bouton **SanJose** emplacement et cliquez sur **Créer** dans la barre d’actions.
-   1. Cliquez sur **Affichage** de la **Créer** assistant et cliquez sur **Suivant**.
+   1. Cliquez sur l’emplacement **SanJose**, puis sur **Créer** dans la barre d’actions.
+   1. Cliquez sur **Affichage** à partir de l’assistant **Créer**, puis sur **Suivant**.
    1. Saisissez le **Titre** **Lobby**, puis cliquez sur **Créer**.
 
 ### Affectation de canaux à l’affichage {#channel-channel}
@@ -144,13 +144,13 @@ Vous devez affecter les canaux à l’affichage de façon à visualiser le conte
 1. **Affectation du canal à l’affichage**
 
    1. Accédez à **Zones** > **Emplacements** > **SanJose** > **Lobby**.
-   1. Cliquez sur le bouton **Lobby** afficher et cliquer sur **Attribuer le canal** dans la barre d’actions.
+   1. Cliquez sur l’affichage **Lobby**, puis sur **Attribuer le canal** dans la barre d’actions.
    1. Entrez le chemin du canal **MultiZone** dans **Chemin du canal**.
    1. Définissez les **Événements pris en charge** suivants : **Chargement initial**, **Écran inactif** et **Minuteur**.
    1. Cliquez sur **Enregistrer**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. De même, affectez les deux autres canaux incorporés (**`Zone1`** et **`Zone2`**) à cet affichage.
+   1. De même, attribuez les deux autres canaux incorporés (**`Zone1`** et **`Zone2`**) à cet affichage.
    1. Une fois que vous avez affecté les trois canaux à l’affichage **Lobby**, vous devez pouvoir visualiser les canaux affectés à partir du tableau de bord des affichages.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
@@ -167,17 +167,17 @@ Lorsque vous avez configuré un emplacement et un affichage, suivez les étapes 
 1. **Enregistrement de l’appareil**
 
    1. Accédez au **Zones** > **Périphériques** dossier.
-   1. Cliquez sur le bouton **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions.
-   1. Cliquez sur **Enregistrement de périphérique** et cliquez sur l’appareil en attente dans la liste.
+   1. Cliquez sur le dossier **Appareils**, puis sur **Gestionnaire de périphériques** dans la barre d’actions.
+   1. Cliquez sur **Enregistrement de périphérique**, puis sur l’appareil en attente dans la liste.
 
       >[!NOTE]
-      > Le titre de l’appareil doit correspondre au jeton de l’appareil (champ **Jeton**) figurant dans l’onglet **Enregistrement des appareils**.
+      > Le titre de l’appareil doit correspondre au jeton de l’appareil (champ **Jeton**) figurant dans l’onglet **Enregistrement de périphérique**.
 
    1. Si le titre correspond au jeton de l’appareil, cliquez sur l’appareil, puis sur **Enregistrer le périphérique** dans la barre d’actions.
    1. Si le code d’enregistrement correspond au code figurant dans l’onglet **Enregistrement d’appareil** du lecteur Screens, cliquez sur **Valider** dans la barre d’actions.
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Saisissez le **Titre** as **`Chrome-Device1`** et cliquez sur **Enregistrer**.
-   1. Cliquez sur **Attribuer l’affichage** et cliquez sur le chemin d’accès à la configuration du périphérique.
+   1. Saisissez le **Titre** **`Chrome-Device1`**, puis cliquez sur **Enregistrer**.
+   1. Cliquez sur **Attribuer l’affichage**, puis sur le chemin de la configuration de l’appareil.
 
    >[!NOTE]
    >Si vous essayez d’afficher le contenu dans le lecteur Screens, veillez à cliquer sur **Mettre à jour le contenu hors ligne** dans le tableau de bord des canaux pour chacun des canaux affectés à l’affichage.

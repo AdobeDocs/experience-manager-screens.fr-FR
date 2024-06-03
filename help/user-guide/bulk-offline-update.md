@@ -13,7 +13,7 @@ exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez utiliser manuellement la mise à jour hors ligne en bloc à partir d
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Accédez à votre projet AEM Screens.
-1. Cliquez sur le projet, puis sur **Mettre à jour le contenu hors ligne** dans la barre d’actions afin de pouvoir mettre à jour manuellement le contenu du canal.
+1. Cliquez sur le projet, puis sur **Mettre à jour le contenu hors ligne** dans la barre d’actions pour mettre manuellement à jour le contenu du canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 

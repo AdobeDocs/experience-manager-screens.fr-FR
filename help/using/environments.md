@@ -1,21 +1,21 @@
 ---
 title: Environnements pour [!UICONTROL AEM Screens]
-description: En savoir plus sur les environnements d’un projet AEM Screens.
+description: Découvrez les environnements d’un projet AEM Screens.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 67%
+ht-degree: 93%
 
 ---
 
 
 # Environnements {#environments}
 
-Déterminer à l’avance quels environnements AEM le client possède et compte que vous utiliserez, à la fois pour *development* et *déploiement*.
+Identifiez à l’avance les environnements AEM dont dispose le client ou la cliente et que ces derniers s’attendent à ce que vous utilisiez, tant dans le cadre du *développement* que du *déploiement*.
 
 >[!NOTE]
 >
->Le fonctionnement d’AEM Screens nécessite plusieurs packages pour les projets. Tous les environnements doivent exécuter la même version d’Adobe Experience Manager.
+>Pour que les projets fonctionnent, AEM Screens a besoin de plusieurs packages. Tous les environnements doivent exécuter la même version d’Adobe Experience Manager.
 
 Suivez les instructions ci-dessous afin de configurer l’environnement pour votre projet AEM Screens :
 

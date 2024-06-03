@@ -5,7 +5,7 @@ exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -15,8 +15,8 @@ Le guide des bonnes pratiques d’AEM Screens vous explique comment planifier et
 
 L’audience prévue de ce document comprend les personnes suivantes :
 
-* *Implémentateurs AEM*
-* *Intégrateurs audio-vidéo*
+* *Personnes chargées de l’implémentation AEM*
+* *Intégrateurs et intégratrices audiovisuel*
 * *Stratèges opérationnels*
 * *Chefs de projet*
 * *Consultants*

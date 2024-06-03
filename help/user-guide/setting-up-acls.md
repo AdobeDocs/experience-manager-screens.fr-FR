@@ -12,7 +12,7 @@ exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 76%
+ht-degree: 80%
 
 ---
 
@@ -38,7 +38,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Cliquez sur **Contributeurs** dans la liste et double-cliquez dessus.
+1. Cliquez sur **Contributeurs ou contributrices** dans la liste et double-cliquez dessus.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -56,7 +56,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
 1. Configurez les autorisations du groupe **Acme** à l’aide de ce `(http://localhost:4502/useradmin)`.
 
-   Cliquez sur le groupe **Acme** et cliquez sur le bouton **permissions**.
+   Cliquez sur le groupe **Acme** et sur les **autorisations**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

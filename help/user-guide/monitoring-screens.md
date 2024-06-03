@@ -1,6 +1,6 @@
 ---
-title: Dépannage du Centre de contrôle des appareils
-description: Découvrez comment surveiller les performances de votre lecteur AEM Screens et de votre périphérique et résoudre les problèmes qui s’y rattachent à l’aide du tableau de bord du périphérique.
+title: Résolution de problèmes dans le Centre de contrôle des périphériques
+description: Découvrez comment surveiller les performances et résoudre les problèmes de l’activité de votre lecteur AEM Screens et du périphérique de lecture à l’aide du tableau de bord du périphérique.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,17 +13,17 @@ exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
-# Dépannage du Centre de contrôle des appareils {#troubleshooting-device-control-center}
+# Résolution de problèmes dans le Centre de contrôle des périphériques {#troubleshooting-device-control-center}
 
-Vous pouvez surveiller les performances de votre lecteur AEM Screens et de votre périphérique et résoudre les problèmes qui s’y rattachent à l’aide du tableau de bord du périphérique. Cette page fournit des informations sur la façon de surveiller et de résoudre les problèmes de performances perçus pour le lecteur Screens et les appareils attribués.
+Vous pouvez surveiller les performances et résoudre les problèmes concernant l’activité de votre lecteur AEM Screens et le périphérique de lecture à l’aide du tableau de bord du périphérique. Cette page fournit des informations sur la façon de surveiller et de résoudre les problèmes de performances perçus pour le lecteur Screens et les appareils attribués.
 
 ## Surveillance et dépannage à partir du centre de contrôle des appareils {#monitor-and-troubleshoot-from-device-control-center}
 
-Vous pouvez surveiller l’activité et ainsi résoudre les problèmes liés à votre lecteur AEM Screens à l’aide du tableau de bord du périphérique.
+Vous pouvez surveiller l’activité et ainsi résoudre les problèmes concernant votre lecteur AEM Screens, à l’aide du tableau de bord du périphérique.
 
 ### Tableau de bord de l’appareil {#device-dashboard}
 
@@ -31,7 +31,7 @@ Pour accéder au tableau de bord de l’appareil, procédez comme suit :
 
 1. Accédez au tableau de bord de l’appareil à partir de votre projet, par exemple, ***Projet de test*** > ***Appareils***.
 
-   Cliquez sur **Périphériques** et **Gestionnaire de périphériques** dans la barre d’actions.
+   Cliquez sur **Périphériques** et sur **Gestionnaire de périphériques** dans la barre d’actions.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -49,11 +49,11 @@ Pour accéder au tableau de bord de l’appareil, procédez comme suit :
 
 ### Surveillance de l’activité de l’appareil {#monitor-device-activity}
 
-La variable **Activité** affiche le dernier ping de votre lecteur AEM Screens avec l’horodatage. Le dernier ping correspond à la dernière fois où l’appareil a contacté le serveur.
+Le panneau **Activité** affiche le dernier ping de votre lecteur AEM Screens avec la date et l’heure. Le dernier ping correspond à la dernière fois où l’appareil a contacté le serveur.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Cliquez également sur **Collecter les journaux** dans le coin supérieur droit de la **Activité** pour afficher les journaux de votre lecteur.
+Cliquez également sur **Collecter les journaux** dans le coin supérieur droit du panneau **Activité** afin de consulter les journaux de votre lecteur.
 
 ### Mise à jour des détails d’un appareil {#update-device-details}
 
@@ -63,7 +63,7 @@ Consultez le panneau **Détails de l’appareil** pour pouvoir afficher l’adre
 
 Cliquez également sur **Effacer le cache** et **Mettre à jour** pour effacer le cache de votre appareil et mettre à jour la variable [micrologiciel](screens-glossary.md) version de ce panneau, respectivement.
 
-Cliquez également sur **..** dans le coin supérieur droit du **Détails du périphérique** pour redémarrer ou actualiser l’état de votre lecteur.
+Cliquez également sur les points de suspension **...** dans le coin supérieur droit du panneau **Détails du périphérique** pour redémarrer ou actualiser le statut de votre lecteur.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -73,11 +73,11 @@ Consultez le panneau **INFORMATIONS SUR L’APPAREIL**. Vous pouvez afficher ici
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Cliquez également sur (**..**) dans le coin supérieur droit du panneau Informations sur le périphérique pour afficher les propriétés ou mettre à jour le périphérique.
+Cliquez également sur les points de suspension (**...**) dans le coin supérieur droit du panneau Informations sur l’appareil pour afficher les propriétés ou mettre à jour l’appareil.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Cliquez sur **Propriétés** afin que vous puissiez afficher la **Propriétés de l’appareil** de la boîte de dialogue Vous pouvez modifier le titre de l’appareil ou sélectionner l’option **manuelle** ou **automatique** pour les mises à jour de configuration.
+Cliquez sur **Propriétés** pour afficher la boîte de dialogue **Propriétés de l’appareil**. Vous pouvez modifier le titre de l’appareil ou sélectionner l’option **manuelle** ou **automatique** pour les mises à jour de configuration.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Cliquez sur **Propriétés** afin que vous puissiez afficher la **Propriétés d
 
 Vous pouvez afficher la capture d’écran d’un lecteur à partir de l’appareil dans le panneau **CAPTURE D’ÉCRAN DU LECTEUR**.
 
-Cliquez sur (**..**) dans le coin supérieur droit du panneau Capture d’écran du lecteur, puis cliquez sur **Actualiser la capture d’écran** pour afficher l’instantané du lecteur en cours d’exécution.
+Cliquez sur les points de suspension (**...**) dans le coin supérieur droit du panneau Capture d’écran du lecteur, puis cliquez sur **Actualiser la capture d’écran** pour afficher l’instantané du lecteur en cours d’exécution.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -102,7 +102,7 @@ Le panneau **PRÉFÉRENCES** permet à l’utilisateur ou l’utilisatrice de mo
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Cliquez également sur **Paramètres** dans le coin supérieur droit pour mettre à jour les préférences du périphérique. Vous pouvez mettre à jour les préférences suivantes :
+Cliquez également sur **Paramètres** dans le coin supérieur droit pour mettre à jour les préférences de l’appareil. Vous pouvez mettre à jour les préférences suivantes :
 
 * **URL du serveur**
 * **Résolution**
@@ -113,7 +113,7 @@ Cliquez également sur **Paramètres** dans le coin supérieur droit pour mettre
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->Vous pouvez cliquer sur l’un des niveaux de journal suivants :
+>Vous pouvez cliquer sur l’un des niveaux de journal suivants :
 >* **Désactiver**
 >* **Déboguer**
 >* **Infos**

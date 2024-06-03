@@ -9,7 +9,7 @@ exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 75%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ La page suivante présente un cas d’utilisation qui met l’accent sur la conf
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Ce cas pratique explique comment créer un canal qui *prend le relai* du canal de lecture normal pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu’une fois et pour une durée spécifique.
+Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu’une fois et pour une durée spécifique.
 
 Par exemple, il existe un canal de prise de contrôle unique lu le vendredi de 9 h 00 à 10 h 00. Pendant cette période, aucun autre canal ne doit être lu. Avant et après cette période, le canal de prise de contrôle à usage unique n’est pas lu. L’exemple suivant présente la création d’un canal de prise de contrôle unique qui permet au contenu d’être lu pendant 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
 
@@ -50,7 +50,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/single-takeover2.png)
 
-1. Cliquez sur le bouton **MainAdChannel** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
+1. Cliquez sur **MainAdChannel**, puis sur **Modifier** dans la barre d’actions. Faites glisser et déposez certaines ressources (images, vidéos, séquences incorporées) sur votre canal.
 
    ![ressource](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ Pour configurer un projet, procédez comme suit :
 
 1. Créez un canal **TakeOver** qui prend le contrôle du contenu dans **MainAdChannel** et qui est lu uniquement à un jour et à une heure spécifiques.
 
-1. Cliquez sur le bouton **TakeOver** et cliquez sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
+1. Cliquez sur **TakeOver**, puis sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
 
    ![ressource](assets/single-takeover4.png)
 
@@ -72,7 +72,7 @@ Pour configurer un projet, procédez comme suit :
 
 **Affectation de canaux à un affichage**
 
-1. Cliquez sur l&#39;affichage **MainLobbyDisplay** de la **Emplacements** dossier. Cliquez sur **Attribuer le canal** dans la barre d’actions.
+1. Cliquez sur l’affichage **MainLobbyDisplay** dans le dossier **Emplacements**. Cliquez sur **Attribuer le canal** dans la barre d’actions.
 
    ![ressource](assets/single-takeover6.png)
 
@@ -83,17 +83,17 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/single-takeover7.png)
 
-1. Cliquez sur l&#39;affichage **TakeOver** de la **Emplacements** dossier. Cliquez sur **Attribuer un canal** dans la barre d’actions pour attribuer le canal de prise de contrôle à usage unique.
+1. Cliquez sur l’affichage **TakeOver** dans le dossier **Emplacements**. Cliquez sur **Attribuer un canal** dans la barre d’actions pour attribuer le canal de prise de contrôle à usage unique.
 
 1. Attribuez le canal **TakeOver** à votre affichage à une heure planifiée et renseignez les champs suivants de la boîte de dialogue **Attribution de canaux**, puis cliquez sur **Enregistrer** :
 
-   * **Chemin du canal**: cliquez sur le chemin d’accès au canal TakeOver ;
+   * **Chemin du canal** : cliquez sur le chemin d’accès au canal TakeOver.
    * **Priorité** : attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
 
      >[!NOTE]
      >La priorité peut être une valeur supérieure à la valeur de priorité du canal normalement lu.
-   * **Événements pris en charge**: cliquez sur le bouton **Écran inactif** et **Minuteur**.
-   * **Planification**: saisissez le texte du planning selon lequel ce canal doit s’exécuter sur l’affichage. Par exemple, le texte ici permet au contenu d’être lu 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
+   * **Événements pris en charge** : cliquez sur l’**Écran inactif** et le **Minuteur**.
+   * **Planning** : saisissez le texte du planning selon lequel ce canal doit exécuter l’affichage. Par exemple, le texte ici permet au contenu d’être lu 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
 Le texte dans le **Planning** mentionné dans cet exemple est *le 31 décembre après 23 h 58 et également le 1er janvier avant 00 h 01*.
 
      ![ressource](assets/single-takeover8.png)

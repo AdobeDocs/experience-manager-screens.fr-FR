@@ -4,7 +4,7 @@ description: Cette page décrit la configuration d’un workflow de placement di
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Cette section couvre les sujets suivants :
 
 La configuration d’un workflow de placement direct consiste à mapper un canal de projet AEM Screens avec un dossier spécifique de ressources et permet de les placer dans ce dossier. Adobe recommande de déclencher une mise à jour hors ligne en bloc pour terminer la publication.
 
-En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur **Mettre à jour le contenu hors ligne**.
+En tant qu’auteur ou autrice de contenu, vous pouvez également cliquer manuellement sur l’option **Mettre à jour le contenu hors ligne**.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ En tant qu’auteur de contenu, vous pouvez également cliquer manuellement sur 
 
 >[!IMPORTANT]
 >
->Avant de commencer la configuration, installez le `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Une fois le package installé, il devrait être possible de voir le workflow et d’y accéder à partir de votre instance AEM > Outils (icône) > **Workflow** > **Modèles de workflow**.
+>Avant de démarrer la configuration, installez le `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Une fois le package installé, il devrait être possible de voir le workflow et d’y accéder à partir de votre instance AEM > Outils (icône) > **Workflow** > **Modèles de workflow**.
 
 Pour configurer le workflow de placement direct, procédez comme suit :
 

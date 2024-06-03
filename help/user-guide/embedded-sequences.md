@@ -13,7 +13,7 @@ exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 63%
+ht-degree: 75%
 
 ---
 
@@ -47,8 +47,8 @@ Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 1. Cliquez sur **Modifier** dans la barre d’actions.
 1. En mode d’éditeur, cliquez sur l’icône de composants dans la barre de gauche pour ajouter la page incorporée. Faites glisser et déposez la **séquence incorporée** dans l’éditeur.
 1. Double-cliquez sur le composant **Séquence incorporée** pour ajouter le canal à votre canal de séquence d’origine.
-1. Cliquez sur le bouton **Chemin du canal** du canal.
-1. Cliquez sur le bouton **Durée (millisecondes)** pour votre canal incorporé dans le **Séquence** . Par défaut, la durée est définie sur **-1**, ce qui signifie que le canal incorporé est entièrement exécuté. Si l’utilisateur ou l’utilisatrice spécifie une durée, la séquence secondaire est interrompue (c’est-à-dire coupée) à l’heure indiquée.
+1. Cliquez sur le **chemin du canal**.
+1. Cliquez sur la **durée (en millisecondes)** de votre canal incorporé dans l’onglet **Séquence**. Par défaut, la durée est définie sur **-1**, ce qui signifie que le canal incorporé est entièrement exécuté. Si l’utilisateur ou l’utilisatrice spécifie une durée, la séquence secondaire est interrompue (c’est-à-dire coupée) à l’heure indiquée.
 
 1. Définissez la **Stratégie de lecture limitée** sur **normal**.
 
@@ -62,13 +62,13 @@ Par défaut, elle est définie sur **normal**. La définition de la valeur sur *
 >
 >1. Accédez à l’affichage et cliquez sur l’affichage dans la **Emplacements** dossier.
 >1. Cliquez sur **Tableau de bord** dans la barre d’actions.
->1. Dans le tableau de bord d’affichage, cliquez sur **+ Attribuer des canaux** de la **CANAUX ATTRIBUÉS ET PANNEAUX PLANIFIÉS** pour ouvrir la **Boîte de dialogue Attribution de canaux**.
+>1. Dans le tableau de bord des affichages, cliquez sur **+ Attribuer des canaux** dans **CANAUX ATTRIBUÉS ET PANNEAUX PLANIFIÉS** pour ouvrir la **boîte de dialogue Attribution de canaux**.
 >
 >1. Cliquez sur le chemin du canal utilisé dans la séquence incorporée, dans la variable **Chemin du canal**.
 >1. Veillez à ce que la **priorité** soit inférieure au canal principal.
 >
->1. Ne cliquez pas sur **Événements pris en charge**.
->1. Cliquez sur **Enregistrer** une fois terminé.
+>1. Ne cliquez sur aucun **événement pris en charge**.
+>1. Lorsque vous avez terminé les modifications, cliquez sur **Enregistrer**.
 >
 
 L’exemple suivant illustre l’ajout d’une séquence incorporée (**Canal inactif - Nuit**) à un canal existant (**Canal inactif**).
@@ -90,7 +90,7 @@ Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 1. Cliquez sur le canal dans lequel vous souhaitez incorporer une séquence dynamique. Par exemple, **`We.Retail`en magasin** > **Canaux** > **Canal inactif**.
 
 1. Cliquez sur **Modifier** dans la barre d’actions.
-1. En mode éditeur, cliquez sur l’icône de composants dans la barre de gauche pour ajouter la séquence incorporée dynamique. Faites glisser et déposez la **séquence incorporée** **dynamique** dans l’éditeur.
+1. En mode d’édition, cliquez sur l’icône de composants dans la barre de gauche afin d’ajouter la séquence incorporée dynamique. Faites glisser et déposez la **séquence incorporée** **dynamique** dans l’éditeur.
 
 1. Double-cliquez sur le composant **séquence incorporée** **dynamique** pour ajouter la page à votre canal de séquence.
 
@@ -99,4 +99,4 @@ Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 
 1. Cliquez sur le bouton **Durée (millisecondes)** dans le **Séquence** de votre canal incorporé dans la séquence.
 
-![dernier](assets/latest.gif)
+![Plus récent](assets/latest.gif)

@@ -13,7 +13,7 @@ exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '1450'
-ht-degree: 66%
+ht-degree: 82%
 
 ---
 
@@ -88,9 +88,9 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
    1. **Accédez** à **ContextHubDemo** > **Créer** **Configuration ContentHub**, puis cliquez sur **Enregistrer**.
 
       >[!NOTE]
-      > Cliquez ensuite sur **Enregistrer**, vous êtes dans la variable **Configuration ContextHub** écran.
+      > Après avoir cliqué sur **Enregistrer**, vous vous trouvez ensuite sur l’écran **Configuration ContextHub**.
 
-   1. Dans la **Configuration ContextHub** écran, cliquez sur **Créer** > **Configuration du magasin ContentHub**
+   1. Sur l’écran **Configuration ContextHub**, cliquez sur **Créer** > **Configuration de magasin ContextHub**.
 
    ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -117,7 +117,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Entrez votre configuration json spécifique. Par exemple, vous pouvez utiliser le fichier json suivant à des fins de démonstration, puis cliquer sur **Enregistrer**. La configuration du magasin s’affiche sous le titre **Google Sheets** dans la configuration ContextHub.
+   1. Entrez votre configuration json spécifique. Vous pouvez par exemple utiliser le code json ci-dessous à des fins de démonstration et cliquer sur **Enregistrer**. La configuration du magasin s’affiche sous le titre **Google Sheets** dans la configuration ContextHub.
 
       >[!IMPORTANT]
       >Veillez à remplacer le code par l’`*<Sheet ID>*` et la `*<API Key>*`, que vous avez récupérés lors de la configuration des Google Sheets.
@@ -172,10 +172,10 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Cliquez sur le segment. `**Higherthan50**` et cliquez sur **Propriétés** dans la barre d’actions.
+   1. Sélectionnez le segment `**Higherthan50**`, puis cliquez sur **Propriétés** dans la barre d’actions.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Cliquez sur le bouton **Personnalisation** à partir de la **Propriétés du segment**. Définissez le **Chemin d’accès ContextHub** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et le **Chemin d’accès aux segments** sur `/conf/screens/settings/wcm/segments`, puis cliquez sur **Enregistrer**, comme illustré dans la figure ci-dessous.
+   1. Sélectionnez l’onglet **Personnalisation** dans **Propriétés du segment**. Définissez le **Chemin d’accès ContextHub** sur `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` et le **Chemin d’accès aux segments** sur `/conf/screens/settings/wcm/segments`, puis cliquez sur **Enregistrer**, comme illustré dans la figure ci-dessous.
 
    ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -191,7 +191,7 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
    1. Cliquez sur **Créer** > **Créer une marque**.
 
-   1. Cliquez sur **Marque** de la **Créer une page** assistant et cliquez sur **Suivant**.
+   1. Dans l’assistant **Créer une page**, cliquez sur **Marque**, puis sur **Suivant**.
 
    1. Saisissez le **Titre** **ScreensBrand**, puis cliquez sur **Créer**. Votre marque a été créée, comme illustré ci-dessous.
 
@@ -208,11 +208,11 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
    Pour créer une zone dans la marque, procédez comme suit :
 
-   1. Cliquez sur **Créer** puis **Créer une zone**.
+   1. Cliquez sur **Créer**, puis sur **Créer une zone**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Cliquez sur **Zone** de la **Créer une page** assistant et cliquez sur **Suivant**.
+   1. Sélectionnez **Zone** dans l’assistant **Créer une page**, puis cliquez sur **Suivant**.
 
    1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.
 Une zone sera créée dans votre marque.
@@ -227,15 +227,15 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
    1. Cliquez sur **Créer** > **Créer une activité.** L’**assistant Configurer l’activité** s’ouvre.
 
-   1. Saisissez le **titre** **ValueCheck50** et le **nom** **valuecheck50**. Cliquez sur le bouton **Moteur de ciblage** as **ContextHub (AEM)** dans la liste déroulante, puis cliquez sur **Suivant**.
+   1. Saisissez le **titre** **ValueCheck50** et le **nom** **valuecheck50**. Sélectionnez le **Moteur de ciblage** **ContextHub (AEM)** dans la liste déroulante, puis cliquez sur **Suivant**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. Cliquez sur **Ajouter une expérience** de la `**Configure Activity**` assistant.
+   1. Cliquez sur **Ajouter une expérience** dans l’assistant `**Configure Activity**`.
 
-   1. Dans la **Audiences**, cliquez sur le `**Higherthan50**` et cliquez sur **Ajouter une expérience** et saisissez la variable **Titre** as `**higherthan50**` **Nom** as `**higherthan50**`. Cliquez sur **OK**.
+   1. Dans **Audiences**, cliquez sur `**Higherthan50**`, puis sur **Ajouter une expérience** et saisissez le **Titre** `**higherthan50**` et le **Nom** `**higherthan50**`. Cliquez sur **OK**.
 
-   1. Dans la **Audiences**, cliquez sur le `**Lowerthan50**` et cliquez sur **Ajouter une expérience** et saisissez la variable **Titre** as `**lowerthan50**` **Nom** as `**lowerthan50**`. Cliquez sur **OK**.
+   1. Dans **Audiences**, cliquez sur `**Lowerthan50**`, puis sur **Ajouter une expérience** et saisissez le **Titre** `**lowerthan50**` et le **Nom** `**lowerthan50**`. Cliquez sur **OK**.
 
    ![image](/help/user-guide/assets/context-hub/context-hub15.png)
 
@@ -249,20 +249,20 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
    1. Dans votre instance AEM, accédez à **Personnalisation** > **Audiences** > **screens**.
 
-   1. Cliquez sur le segment. `**Higherthan50**`, puis cliquez sur **Modifier** dans la barre d’actions.
+   1. Sélectionnez le segment `**Higherthan50**` et cliquez sur **Modifier** dans la barre d’actions.
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
 
    1. Cliquez sur l’icône en forme de clé à molette pour ouvrir la boîte de dialogue **Comparer une propriété et une valeur**.
 
-   1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
+   1. Sélectionnez **googlesheets/value/1/0** dans la liste déroulante du **Nom de la propriété**.
 
       >[!NOTE]
       > L’élément **googlesheets/value/1/0** fait référence à la ligne 2 et à la colonne renseignée dans `google` Sheets représentée ci-dessous :
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Cliquez sur le bouton **Opérateur** as **supérieur à** dans le menu déroulant.
+   1. Sélectionnez l’**Opérateur** **supérieur à** dans le menu déroulant.
 
    1. Saisissez la **Valeur** **70**.
 
@@ -276,11 +276,11 @@ Après avoir configuré un entrepôt de données et défini votre activité (mar
 
    1. Faites glisser le composant **Comparaison : Propriété - Valeur** et déposez-le dans l’éditeur.
 
-   1. Cliquez sur l’icône de clé à molette.
+   1. Cliquez sur l’icône en forme de clé à molette.
 
-   1. Dans le **Comparaison d’une propriété avec une valeur** , cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
+   1. Dans la boîte de dialogue **Comparer une propriété avec une valeur**, sélectionnez **googlesheets/value/1/0** dans la liste déroulante du **Nom de la propriété**.
 
-   1. Cliquez sur le bouton **Opérateur** as **less-than** dans le menu déroulant.
+   1. Sélectionnez l’**Opérateur** **inférieur à** dans le menu déroulant.
 
    1. Saisissez la **Valeur** **50**.
 
@@ -291,11 +291,11 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 1. Accédez à l’un des canaux AEM Screens. Les étapes suivantes montrent comment activer le ciblage à l’aide de **DataDrivenChannel** créé dans un canal AEM Screens.
 
-1. Cliquez sur le canal **TargetChannel** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Sélectionnez le canal **TargetChannel** et cliquez sur **Propriétés** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. Cliquez sur le bouton **Personnalisation** pour pouvoir configurer les configurations ContextHub.
+1. Cliquez sur l’onglet **Personnalisation** pour définir les configurations ContextHub.
 
    1. Définissez le **Chemin d’accès ContextHub** sur `/conf/screens/settings/wcm/segments` et le **Chemin d’accès de segments** sur `/conf/screens/settings/wcm/segments`.
    1. Définissez la marque sur **ScreensBrand** dans la liste déroulante. **Définissez la référence de zone** sur **ScreensValue**.
@@ -308,7 +308,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Naviguez et cliquez sur le **TargetChannel** canal et clic **Modifier** dans la barre d’actions.
+   1. Accédez au canal **TargetChannel** et sélectionnez-le, puis cliquez sur **Modifier** dans la barre d’actions.
 
       >[!NOTE]
       >

@@ -8,7 +8,7 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!IMPORTANT]
 >Cette section décrit l’attribution et la planification des canaux pour les Feature Packs antérieurs à AEM version 6.5.5 Screens.
 
-Lorsque vous avez configuré un affichage, affectez un canal à un affichage pour afficher votre contenu.
+Lorsque que vous avez configuré un affichage, attribuez-lui un canal pour afficher votre contenu.
 
 Cette page explique comment attribuer un canal à votre affichage.
 
@@ -36,7 +36,7 @@ Pour attribuer un canal à un affichage, procédez comme suit :
 
    ou
 
-   Cliquez sur **Tableau de bord** et cliquez sur **+Attribuer le canal** de la **CANAUX ATTRIBUÉS** pour ouvrir le panneau **Attribution de canaux** de la boîte de dialogue
+   cliquez sur **Tableau de bord** et sur **+Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS** pour pouvoir ouvrir la boîte de dialogue **Attribution des canaux**.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -76,7 +76,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 >
 > Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or -->le pack de fonctionnalités 4 d’AEM 6.5.
 
-En tant qu’auteur de contenu, indiquez quand un canal est interrompu. Cela vous permet de couper le contenu non critique si vous le souhaitez, mais éventuellement de laisser la lecture du contenu important avant de l’interrompre en raison de la planification.
+En tant que personne chargée de créer du contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de couper le contenu non critique si vous le souhaitez, mais éventuellement de laisser la lecture du contenu important avant de l’interrompre en raison de la planification.
 
 Cliquez sur l’une des options suivantes disponibles pour définir la méthode d’interruption à partir de la variable **Attribution de canaux** boîte de dialogue :
 

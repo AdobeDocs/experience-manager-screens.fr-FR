@@ -1,6 +1,6 @@
 ---
-title: Création d’un processus de remplissage vidéo
-description: En savoir plus sur la création d’un remplissage vidéo dans le workflow pour vos ressources.
+title: Créer un workflow de remplissage vidéo
+description: En savoir plus sur la création d’un remplissage vidéo dans le workflow de vos ressources.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
@@ -13,11 +13,11 @@ exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 55%
+ht-degree: 87%
 
 ---
 
-# Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow}
+# Créer un workflow de remplissage vidéo {#creating-a-video-padding-workflow}
 
 Cette section couvre les sujets suivants :
 
@@ -44,9 +44,9 @@ Avant de créer un workflow pour la vidéo, veuillez remplir les conditions pré
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## Création d’un processus de remplissage vidéo {#creating-a-video-padding-workflow-1}
+## Créer un workflow de remplissage vidéo {#creating-a-video-padding-workflow-1}
 
-Pour créer un workflow de remplissage vidéo, créez un workflow pour votre vidéo, puis utilisez-le dans votre canal de projet AEM Screens.
+Pour créer un workflow de remplissage vidéo, vous devez créer un workflow pour votre vidéo, puis l’utiliser dans le canal de votre projet AEM Screens.
 
 Suivez les étapes ci-dessous pour créer et utiliser le processus :
 
@@ -59,7 +59,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
 1. Accédez à votre instance AEM.
 1. Cliquez sur les outils dans le rail latéral.
-1. Cliquez sur **Workflow** > **Modèles** vous pouvez donc créer un modèle.
+1. Cliquez sur **Workflow** > **Modèles** pour créer un modèle.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -67,31 +67,31 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Après avoir créé le modèle de workflow, cliquez sur le modèle (**VideoRendition**), puis cliquez sur **Modifier** dans la barre d’actions.
+1. Une fois le modèle de workflow créé, sélectionnez le modèle (**VideoRendition**), puis cliquez sur **Modifier** dans la barre d’actions.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Faites glisser et déposez le **`Command Line`** à votre workflow.
+1. Faites glisser et déposez le composant **`Command Line`** dans votre workflow.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Cliquez sur le bouton **`Command Line`** et ouvrez la boîte de dialogue des propriétés.
+1. Sélectionnez le composant **`Command Line`** et ouvrez la boîte de dialogue Propriétés.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Cliquez sur l’onglet **Arguments**.
-1. Dans le **Ligne de commande - Propriétés des étapes** , saisissez le format dans la zone **Types MIME** (en tant que ***video/mp4***) et la commande comme (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Cette commande lance le workflow dans la fonction **Commandes** champ .
+1. Dans la boîte de dialogue **Ligne de commande - Propriétés des étapes**, saisissez le format suivant dans la zone **Types MIME** : ***video/mp4***, et la commande suivante : ***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***. Cette commande démarre le workflow dans le champ **Commandes**.
 
    Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Cliquez sur le workflow (**VideoRenditions**).
-1. Cliquez sur **Démarrer le processus** dans la barre d’actions.
+1. Sélectionnez **Démarrer le workflow** dans la barre d’actions.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Dans le **Exécuter le workflow** , cliquez sur le chemin d’accès de votre ressource dans la **Payload** (en tant que ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) et saisissez la variable **Titre** as ***RunVideo*** et cliquez sur **Exécuter**.
+1. Dans la boîte de dialogue **Exécuter le workflow**, cliquez sur le chemin d’accès de votre ressource dans **Payload** (***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***), saisissez le **Titre** ***RunVideo***, puis cliquez sur **Exécuter**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -107,7 +107,7 @@ Pour utiliser le workflow dans votre projet AEM Screens, procédez comme suit :
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Une fois la vidéo téléchargée, cliquez sur **Aperçu** pour afficher la sortie.
+1. Une fois que vous avez chargé la vidéo, cliquez sur **Prévisualiser** pour afficher la sortie.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

@@ -7,7 +7,7 @@ exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 64%
+ht-degree: 78%
 
 ---
 
@@ -42,7 +42,7 @@ Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe
 
 1. Recherchez **`screens-receiver-user`**.
 
-1. Cliquez sur le bouton **`screens-receiver-user`** et cliquez sur **Activer** dans la barre d’actions.
+1. Cliquez sur **`screens-receiver-user`**, puis sur **Activer** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
@@ -50,11 +50,11 @@ Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Lorsque vous avez activé l’utilisateur, la variable **`screens-receiver-user`** as **Activé** sous le **État** champ .
+   Lorsque vous avez activé l’utilisateur ou l’utilisatrice, vous voyez que **`screens-receiver-user`** est **Activé** dans le champ **Statut**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication4.png)
+   ![Image](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Cliquez sur le bouton **`screens-receiver-user`** et cliquez sur **Propriétés** dans la barre d’actions.
+1. Cliquez sur **`screens-receiver-user`**, puis sur **Propriétés** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
@@ -71,7 +71,7 @@ Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe
 
 1. Cliquez sur **Enregistrer et fermer**.
 
-1. Cliquez sur le bouton **`screens-receiver-user`** et cliquez sur **Activer** dans la barre d’actions.
+1. Cliquez sur **`screens-receiver-user`**, puis sur **Activer** dans la barre d’actions.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
@@ -79,7 +79,7 @@ Pour activer les utilisateurs et utilisatrices et mettre à jour le mot de passe
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Cliquez sur le bouton **`screens-receiver-user`** et cliquez sur **Désactiver** dans la barre d’actions.
+1. Cliquez sur **`screens-receiver-user`**, puis sur **Désactiver** dans la barre d’actions.
 
    >[!IMPORTANT]
    > La désactivation de **`screens-receiver-user`** désactive uniquement cette personne de l’instance de création. Tous les utilisateurs et toutes les utilisatrices de l’instance de publication restent actifs. Ne cliquez pas sur **Désactiver** dans la barre d’actions, car la désactivation supprime également l’utilisateur ou l’utilisatrice des instances de publication.
@@ -125,7 +125,7 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
 
 1. Cliquez sur **OK**.
 
-1. Une fois les étapes précédentes effectuées, cliquez sur **Tester la connexion** pour vérifier la connexion.
+1. Après avoir effectué les étapes précédentes, cliquez sur **Tester la connexion** pour vérifier la connexion.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

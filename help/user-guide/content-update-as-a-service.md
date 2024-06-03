@@ -9,7 +9,7 @@ exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -71,4 +71,4 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
 
    **Fréquence de planning** Indiquez une heure, par exemple, 17 h 00, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
-1. Cliquez sur **Enregistrer** vous pouvez donc enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure indiquée.
+1. Cliquez sur **Enregistrer** pour pouvoir enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure indiquée.

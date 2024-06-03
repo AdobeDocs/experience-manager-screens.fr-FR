@@ -8,7 +8,7 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '1447'
-ht-degree: 79%
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 >
 >Cette section décrit l’attribution et la planification des canaux pour AEM Feature Pack Screens 6.5.5 et versions ultérieures.
 
-Lorsque vous avez configuré un affichage, affectez un canal à un affichage pour afficher votre contenu.
+Lorsque que vous avez configuré un affichage, attribuez-lui un canal pour afficher votre contenu.
 
 Cette page montre l’attribution d’un canal à votre affichage, les propriétés du canal et les tranches horaires.
 
@@ -40,7 +40,7 @@ Pour configurer un projet et un canal, procédez comme suit :
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Pour savoir comment créer un projet AEM Screens, voir [Création et gestion de projets](creating-a-screens-project.md).
+   >Pour savoir comment créer un projet AEM Screens, voir [Création et gestion de projets](creating-a-screens-project.md).
 
 1. Créez un canal de séquence intitulé **Cafeteria** dans le dossier **Canaux**.
 
@@ -58,7 +58,7 @@ Pour configurer un projet et un canal, procédez comme suit :
 
 ### Attribution d’un canal à un affichage {#assigning-channel-to-display}
 
-Une fois la configuration du projet terminée, affectez le canal à un affichage pour afficher le contenu.
+Lorsque le projet est configuré, attribuez le canal à un affichage pour afficher le contenu.
 
 1. Accédez à l’affichage requis, par exemple, **DemoScreens** > **Emplacements** > **SanJose** > **Lobby**.
 
@@ -68,7 +68,7 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 
    Ou,
 
-   Cliquez sur **Tableau de bord** dans la barre d’actions, puis cliquez sur **+Attribuer le canal** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
+   Cliquez sur **Tableau de bord** dans la barre d’actions, puis sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,8 +84,8 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
    >
    >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
 
-1. Dans la **Planification** , cliquez sur l’option **Fenêtre d’activation** et **Planning de périodicité**.
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+1. Dans l’option **Planning**, cliquez sur la **fenêtre d’activation** et le **planning de périodicité**.
+   ![Image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
@@ -95,9 +95,9 @@ Une fois la configuration du projet terminée, affectez le canal à un affichage
 
 ### Affichage du contenu dans le lecteur Chrome {#viewing-content-output}
 
-Cet exemple présente une sortie sur un lecteur Chrome. Lorsque vous avez attribué le canal à votre affichage, enregistrez le périphérique sur un lecteur.
+Cet exemple présente une sortie sur un lecteur Chrome. Lorsque vous avez attribué le canal à votre affichage, vous devez enregistrer l’appareil sur un lecteur.
 
-Pour savoir comment enregistrer un appareil sur un lecteur AEM Screens, voir [Enregistrement de périphérique](device-registration.md).
+Voir [Enregistrement des appareils](device-registration.md) pour savoir comment enregistrer un appareil sur un lecteur AEM Screens.
 
 Vous pouvez afficher la sortie suivante sur le lecteur choisi :
 
@@ -115,9 +115,9 @@ Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie 
 
    Ou,
 
-   Cliquez sur **Tableau de bord** et cliquez sur **Chronologie** de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
+   Cliquez sur **Tableau de bord**, puis sur **Chronologie** dans le panneau **CANAUX ET PLANNINGS AFFECTÉS**.
 
-   ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
+   ![Image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Présentation des propriétés des canaux figurant dans la boîte de dialogue Attribution des canaux {#channel-properties}
 
@@ -156,7 +156,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 >[!IMPORTANT]
 > Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or-->le pack de fonctionnalités 4 d’AEM 6.5.
 
-En tant qu’auteur de contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de choisir de couper le contenu non essentiel. Mais cela vous offre également la possibilité de laisser le contenu important être lu en intégralité avant de le couper en raison du planning.
+En tant que personne chargée de créer du contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de choisir de couper le contenu non essentiel. Mais cela vous offre également la possibilité de laisser le contenu important être lu en intégralité avant de le couper en raison du planning.
 
 Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la variable **Attribution de canaux** boîte de dialogue :
 

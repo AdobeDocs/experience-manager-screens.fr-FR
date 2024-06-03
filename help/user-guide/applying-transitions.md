@@ -1,6 +1,6 @@
 ---
 title: Application de transitions
-description: Découvrez comment appliquer des transitions à vos projets AEM Screens.
+description: Découvrez comment appliquer des transitions à vos projets AEM Screens.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -9,7 +9,7 @@ exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 45%
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Pour ajouter un composant de transition à votre projet AEM Screens, procédez 
 >
 >**Prérequis**
 >
->Créez un projet AEM Screens **TestProject** avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour afficher la sortie.
+>Créez un projet AEM Screens **TestProject** avec un canal **TestTransition**. Configurez également un emplacement et un affichage pour visualiser la sortie.
 
 1. Accédez au canal **TestTransition** et cliquez sur **Modifier** dans la barre d’actions.
 
@@ -52,8 +52,8 @@ Pour ajouter un composant de transition à votre projet AEM Screens, procédez 
 
    >[!NOTE]
    >
-   >Par défaut, les propriétés du composant de transition, telles que **Type** est défini sur **Fondu** et la variable **Durée** est défini sur *1 600 millisecondes*. En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle elle est appliquée.
+   >Par défaut, les propriétés du composant de transition, telles que **Type**, sont définies sur **Fondu** et la **Durée** sur *1 600 millisecondes*. En outre, il n’est pas conseillé de définir une durée de transition plus longue que la ressource à laquelle cette durée s’applique.
 
-1. En outre, si vous ajoutez une **Séquence incorporée** (qui inclut un canal de séquence) à cet éditeur de canal, vous pouvez ajouter un composant de transition à la fin. Cela permet de s’assurer que le contenu est lu dans le bon ordre, comme dans l’image suivante :
+1. De plus, si vous ajoutez un composant **Séquence incorporée** (qui inclut un canal de séquence) à cet éditeur de canal, vous pouvez ajouter un composant de transition à la fin. Cela permet de s’assurer que le contenu est lu dans le bon ordre, comme dans l’image suivante :
 
    ![image3](assets/transitions5.png)

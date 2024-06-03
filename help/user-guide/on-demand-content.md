@@ -9,7 +9,7 @@ exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 60%
+ht-degree: 81%
 
 ---
 
@@ -26,19 +26,19 @@ Vous pouvez publier le contenu et annuler sa publication à partir d’AEM Scree
 Pour diffuser des mises à jour de contenu de l’instance de création vers l’instance de publication vers l’appareil pour un projet AEM Screens, procédez comme suit :
 
 1. Accédez à votre projet AEM Screens.
-1. Cliquez sur **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le projet sur votre instance de publication.
+1. Cliquez sur **Gérer la publication** dans la barre d’actions pour publier le projet vers l’instance de publication.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. La variable **Gérer la publication** L’assistant s’ouvre. Vous pouvez cliquer sur le bouton **Action** et planifiez également l’heure de publication pour maintenant ou plus tard. Cliquez sur **Suivant**.
+1. La variable **Gérer la publication** L’assistant s’ouvre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Cochez la case pour que vous puissiez cliquer sur l’intégralité du projet à partir de la **`Manage Publication`** assistant.
+1. Cochez la case pour cliquer sur l’intégralité du projet dans l’assistant **`Manage Publication`**.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Cliquez sur **+ Inclure les enfants** dans la barre d’actions et désélectionnez toutes les options afin de publier tous les modules de votre projet, puis cliquez sur **Ajouter** pour publier.
+1. Cliquez sur **+ Inclure les enfants** dans la barre d’actions et décochez toutes les options pour publier tous les modules de votre projet, puis cliquez sur **Ajouter** pour publier.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ cette option vous permet de gérer les mises à jour uniquement sur les pages mo
 cette option vous permet de gérer les mises à jour uniquement sur les pages qui ont déjà été publiées.
 
 
-1. Dans la **`Manage Publication wizard`**, cliquez sur **Publier**.
+1. Dans l’**`Manage Publication wizard`**, cliquez sur **Publier**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -98,16 +98,16 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 >
 >Suivez cette section uniquement si un canal contient des modifications. Si un canal ne comporte aucune modification après le contenu hors ligne de la mise à jour précédente, le processus de gestion des publications pour un canal individuel ne fonctionne pas.
 
-1. Accédez à votre projet AEM Screens et cliquez sur le canal.
-1. Cliquez sur **Gérer la publication** à partir de la barre d’actions afin de pouvoir publier le canal sur votre instance de publication.
+1. Accédez à votre projet AEM Screens et cliquez sur le canal.
+1. Cliquez sur **Gérer la publication** dans la barre d’actions pour publier le canal sur votre instance de publication.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. La variable **Gérer la publication** L’assistant s’ouvre. Vous pouvez cliquer sur le bouton **Action** et planifiez également l’heure de publication pour maintenant ou plus tard. Cliquez sur **Suivant**.
+1. La variable **Gérer la publication** L’assistant s’ouvre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Cliquez sur **Publier** de la **`Manage Publication`** assistant.
+1. Cliquez sur **Publier** dans l’assistant **`Manage Publication`**.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -125,6 +125,6 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
 ### Réaffectation de canal et d’appareil : {#channel-and-device-re-assignment}
 
-Si vous avez réaffecté un appareil, publiez l’affichage initial et le nouvel affichage, une fois que l’appareil a été réaffecté au nouvel affichage.
+Si vous avez réassigné un appareil, vous devez publier à la fois l’affichage initial et le nouvel affichage, une fois que l’appareil a été réassigné au nouvel affichage.
 
-De même, si vous avez réaffecté un canal, publiez à la fois l’affichage initial et le nouvel affichage, une fois le canal réaffecté au nouvel affichage.
+De même, si vous avez réassigné un canal, vous devez publier à la fois l’affichage initial et le nouvel affichage, une fois que le canal a été réassigné au nouvel affichage.

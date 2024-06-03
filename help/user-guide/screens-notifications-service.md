@@ -12,7 +12,7 @@ exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -38,7 +38,7 @@ Cette section couvre les sujets suivants :
 
 ## Vue d’ensemble {#overview}
 
-***Service de notifications AEM Screens*** permet aux administrateurs de recevoir un e-mail si un lecteur AEM Screens ne effectue pas de test ping pendant une période configurable.
+Le ***service de notifications AEM Screens*** permet aux administrateurs et administratrices de recevoir un e-mail si le lecteur AEM Screens n’effectue pas de test ping pendant une période configurable.
 
 Ce service peut être configuré dans la console web OSGi.
 

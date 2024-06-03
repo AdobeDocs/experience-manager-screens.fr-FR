@@ -8,7 +8,7 @@ exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
@@ -46,7 +46,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données sur 
    >
    >Si le test échoue, corrigez la configuration de l’agent de réplication entre l’instance de création et l’instance de publication. Pour plus d’informations, voir [Dépannage du test de la connexion](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
 
-1. Cliquez sur **Ajouter** de la **Agent de distribution** arborescence d’écran et cliquez sur le chemin de configuration de votre projet, par exemple : `/conf/screens/settings/cloudsettings/configuration`.
+1. Cliquez sur **Ajouter** dans l’arborescence de l’**Agent de distribution** et sélectionnez le chemin de configuration de votre projet, par exemple `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Cliquez sur **Envoyer**.
 
@@ -58,7 +58,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données sur 
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. Cliquez sur toutes les audiences et tous les segments dans l’interface utilisateur.
+1. Sélectionnez toutes les audiences et tous les segments dans l’interface d’utilisation.
 
 1. Cliquez sur **Gérer la publication** dans la barre d’actions.
 
@@ -70,7 +70,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données sur 
 
 1. Explorez le dossier de votre projet, c’est-à-dire `/content/campaigns/screens/…`.
 
-1. Cliquez sur toutes les activités de l’interface utilisateur.
+1. Sélectionnez toutes les activités dans l’interface d’utilisation.
 
 1. Cliquez sur **Gérer la publication** dans la barre d’actions.
 

@@ -12,7 +12,7 @@ exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 64%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ La console Appareils vous permet d’accéder au gestionnaire d’appareils afin
 
 >[!CAUTION]
 >
->Avant d’attribuer votre périphérique, enregistrez-le. Voir [Enregistrement de périphérique](device-registration.md).
+>Avant d’attribuer votre appareil, enregistrez-le. Voir [Enregistrement des appareils](device-registration.md).
 
 ## Attribution des appareils {#device-assignment}
 
@@ -36,19 +36,19 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Cliquez sur **Périphériques** et cliquez sur **Gestionnaire de périphériques** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
+1. Cliquez sur votre dossier **Appareils** et sur **Gestionnaire de périphériques** dans la barre d’actions. Les appareils attribués et non attribués s’affichent.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Cliquez sur un périphérique non attribué dans la liste, puis cliquez sur le bouton **Attribuer le périphérique** dans la barre d’actions.
+1. Cliquez sur un appareil non attribué dans la liste et sur **Attribuer le périphérique** dans la barre d’actions.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Cliquez sur l’affichage auquel vous souhaitez attribuer le périphérique dans la liste, puis cliquez sur le bouton **Attribuer**.
+1. Cliquez sur l’affichage auquel vous voulez attribuer l’appareil dans la liste, puis sur le bouton **Attribuer**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Cliquez sur le bouton **Terminer** pour terminer le processus d’affectation.
+1. Cliquez sur **Terminer** pour terminer le processus d’attribution.
 
 
    Le tableau de bord des affichages montre l’appareil attribué dans le volet **APPAREILS**.
@@ -69,4 +69,4 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
 ### Étapes suivantes {#the-next-steps}
 
-Une fois que vous êtes familiarisé avec l’attribution d’un canal à un affichage, voir[Surveiller et résoudre les problèmes](monitoring-screens.md).
+Une fois que la procédure d’attribution d’un canal à un affichage n’a plus de secret pour vous, consultez [Surveiller et résoudre les problèmes](monitoring-screens.md).

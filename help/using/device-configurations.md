@@ -1,11 +1,11 @@
 ---
 title: Spécifications de l’appareil
-description: En savoir plus sur les spécifications des appareils dans le cadre d’AEM Screens.
+description: En savoir plus sur les spécifications des appareils dans le cadre d’AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 60%
+ht-degree: 90%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->Une partie prenante standard de cette activité est un intégrateur audio-vidéo.
+>Cette activité est généralement réalisée par une personne chargée de l’intégration Audio/Vidéo.
 
 Sur la base des informations collectées au *jour 0*, confirmez les informations suivantes avant de commencer le développement :
 
@@ -23,9 +23,9 @@ Sur la base des informations collectées au *jour 0*, confirmez les information
 
 * Quels logiciels et système d’exploitation doivent être installés sur les appareils d’affichage ?
 
-* Une connexion Internet est-elle requise sur les lecteurs pour synchroniser les écrans avec les serveurs AEM ?
+* Une connexion Internet est-elle requise sur les lecteurs pour synchroniser les écrans avec les serveurs AEM ?
 
-* Quand le contenu des lecteurs est-il mis à jour ?
+* Quand le contenu est-il mis à jour sur les lecteurs ?
 
 * Si vous exécutez des vidéos, veillez à comprendre les spécifications de votre appareil afin que le contenu s’affiche correctement.
 
@@ -38,4 +38,4 @@ Sur la base des informations collectées au *jour 0*, confirmez les information
 
 >[!NOTE]
 >
->Il est également important de valider les spécifications du matériel sélectionné pour s’assurer qu’il peut prendre en charge l’application en cours de développement. Par exemple, si l’application est destinée à exécuter cinq vidéos haute définition en même temps, le matériel la prend-il en charge ?
+>Il est également important de valider les spécifications du matériel sélectionné pour s’assurer qu’il peut prendre en charge l’application en cours de développement. Par exemple, si l’application est destinée à exécuter cinq vidéos haute définition à la fois, cela est-il possible sur le matériel ?

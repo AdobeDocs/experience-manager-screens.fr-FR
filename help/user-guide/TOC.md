@@ -11,7 +11,7 @@ role: User
 source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
    + [Partie 2 : observations dans le cadre de la définition de la portée du projet](project-considerations.md)
    + [Partie 3 : tests, preuves de concept, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
-   + [Partie 4 : gestion de projet et déploiement](project-management-and-deployment.md)
+   + [Partie 4 : gestion et déploiement de projets](project-management-and-deployment.md)
    + [Partie 5 : facteurs liés à l’assistance](support-considerations.md)
 + Configuration et administration {#administering}
    + [Configuration du serveur Screens](configuring-screens-introduction.md)
@@ -57,8 +57,8 @@ ht-degree: 95%
       + [Intégration d’Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exemples de cas de création et d’utilisation {#authoring}
-   + Configuration d’un projet Screens {#setting-up-projects}
-      + [Création et gestion des projets](creating-a-screens-project.md)
+   + Configurer un projet Screens {#setting-up-projects}
+      + [Créer et gérer des projets](creating-a-screens-project.md)
       + [Création et gestion des canaux](managing-channels.md)
       + [Création et gestion des affichages](managing-displays.md)
       + [Création et gestion des emplacements](managing-locations.md)
@@ -75,7 +75,7 @@ ht-degree: 95%
       + [Activation au niveau des ressources](asset-level-scheduling.md)
       + [Activation au niveau des canaux](channel-level-activation.md)
       + [Créer et gérer une Live Copy](managing-livecopy.md)
-      + [Création d’un processus de remplissage vidéo](creating-a-video-padding-workflow.md)
+      + [Créer un workflow de remplissage vidéo](creating-a-video-padding-workflow.md)
       + [Ajout de composants à un canal](adding-components-to-a-channel.md)
       + [Séquences incorporées](embedded-sequences.md)
       + [Disposition multizone](multi-zone-layout-aem-screens.md)
@@ -83,19 +83,19 @@ ht-degree: 95%
       + [Séquence incorporée dynamique](dynamic-embedded-sequences.md)
       + [Durée de lecture d’images en bloc au niveau du canal](channel-level-image-playback.md)
       + [Synchronisation des commandes](using-command-sync.md)
-      + [Création avec des triggers de données](authoring-data-triggers.md)
+      + [Création avec des déclencheurs de données](authoring-data-triggers.md)
       + [Utilisation des balises](tagging.md)
       + [Reconnaissance vocale](voice-recognition.md)
-      + [Rapport d’affectation de contenu](content-assignment-report.md)
+      + [Rapport d’attribution de contenu](content-assignment-report.md)
       + [Prise en charge des miniatures pour les vidéos](thumbnail-support.md)
-      + [Utilisation des rendus adaptatifs dans AEM Screens](using-adaptive-renditions.md)
+      + [Utilisation des rendus adaptatifs dans AEM Screens](using-adaptive-renditions.md)
    + Gestion de mises à jour de contenus {#content-updates}
       + [Mise à jour du contenu à la demande](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
       + [Mise à jour du contenu à l’aide d’un lancement Screens](launches.md)
    + Exemples de cas d’utilisation {#use-case-examples}
       + [Canaux d’urgence](emergency-channel.md)
-      + [Activation de la température de l’agence de voyages](local-temperature-activation.md)
+      + [Activation de la température pour une agence de voyages](local-temperature-activation.md)
       + [Activation de la réservation d’hébergements](hospitality-reservation-activation.md)
       + [Activation ciblée du stock de vente au détail](retail-inventory-activation.md)
       + [Application de transitions](applying-transitions.md)
@@ -115,19 +115,19 @@ ht-degree: 95%
    + [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md)
 + Dépannage et questions fréquentes {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
-   + [Dépannage du Centre de contrôle des appareils](monitoring-screens.md)
+   + [Résolution de problèmes dans le Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
    + [Notes de mise à jour du pack de fonctionnalités 202401](release-notes-fp-202401.md)
    + [Notes de mise à jour du pack de fonctionnalités 20240116](release-notes-fp-20240116.md)
    + [Notes de mise à jour du pack de fonctionnalités 20240215](release-notes-fp-20240215.md)
-   + [Notes de mise à jour du Feature Pack 202204](release-notes-fp-202204.md)
+   + [Notes de mise à jour du pack de fonctionnalités 202204](release-notes-fp-202204.md)
    + [Notes de mise à jour du Feature Pack 202203](release-notes-fp-202203.md)
-   + [Notes de mise à jour du Feature Pack 202112](release-notes-fp-202112.md)
+   + [Notes de mise à jour du pack de fonctionnalités 202112](release-notes-fp-202112.md)
    + [Notes de mise à jour du Feature Pack 202109](release-notes-fp-202109.md)
-   + [Notes de mise à jour du Feature Pack 202105](release-notes-fp-202105.md)
+   + [Notes de mise à jour du pack de fonctionnalités 202105](release-notes-fp-202105.md)
    + [Notes de mise à jour du pack de fonctionnalités 202103](release-notes-fp-202103.md)
-   + [Notes de mise à jour du Pack de fonctionnalités 202011](release-notes-fp-202011.md)
+   + [Notes de mise à jour du pack de fonctionnalités 202011](release-notes-fp-202011.md)
    + [Notes de mise à jour du pack de fonctionnalités 202008](release-notes-fp-202008.md)
    + [Notes de mise à jour du pack de fonctionnalités 202004](release-notes-fp-202004.md)
    + [Notes de mise à jour du pack de fonctionnalités 202001](release-notes-fp-202001.md)

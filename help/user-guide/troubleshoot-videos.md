@@ -12,7 +12,7 @@ exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 68%
+ht-degree: 80%
 
 ---
 
@@ -24,7 +24,7 @@ Les sections ci-après décrivent comment déboguer et résoudre les problèmes 
 
 ## Rendus de la gestion des actifs numériques (DAM) {#dam-renditions}
 
-Une fois la vidéo téléchargée sur le canal, AEM devrait commencer à créer des rendus pour celui-ci. Les vidéos sont répertoriées sous la catégorie Ressources.
+Une fois la vidéo chargée dans le canal, AEM doit commencer à créer des rendus. Les vidéos sont répertoriées sous la catégorie Ressources.
 
 Pour visionner la vidéo, procédez comme suit :
 
@@ -73,11 +73,11 @@ Vérifiez que FFMPEG est installé et les profils vidéo.
 
 Vérifiez la liste des profils de la conception de page si le composant vidéo n’est pas correctement configuré.
 
-1. Accédez à votre canal et cliquez sur le **Conception** mode .
+1. Accédez à votre canal et cliquez sur le mode **Conception**.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Cliquez sur la vidéo et ouvrez le **Modifier** boîte de dialogue. Ouvrez l’onglet **Profils**.
+1. Cliquez sur la vidéo et ouvrez la boîte de dialogue **Modifier**. Ouvrez l’onglet **Profils**.
 
    >[!NOTE]
    >Cliquez sur différents profils (au moins le profil &quot;H.264 haute qualité&quot; doit être présent).
@@ -91,9 +91,9 @@ Si la vidéo n’est pas lue sous Safari, elle ne fonctionnera pas dans les lect
 Pour utiliser un workflow de gestion des ressources numériques pour créer des rendus Full HD, procédez comme suit :
 
 1. Accédez à l’*administration des modèles de workflow*, à savoir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Cliquez sur le bouton **Ressources de mise à jour de Screens** modèle.
-1. Cliquez sur **Démarrer le processus** dans la barre d’actions.
-1. Dans la **Exécuter le workflow** , cliquez sur votre ressource vidéo dans la boîte de dialogue **Payload**.
+1. Cliquez sur le modèle **Ressource de mise à jour de Screens**.
+1. Cliquez sur **Démarrer le workflow** dans la barre d’actions.
+1. Dans la boîte de dialogue **Exécuter le workflow**, cliquez sur votre ressource vidéo dans la **Payload**.
 1. Cliquez sur **Exécuter**.
 
 >[!NOTE]
@@ -102,7 +102,7 @@ Pour utiliser un workflow de gestion des ressources numériques pour créer des 
 
 #### Dépanner l’indicateur de politique de lecture automatique {#troubleshooting-autoplay-policy-flag}
 
-Si le lecteur AEM Screens sélectionne la vidéo mais ne l’affiche pas, résolvez les problèmes liés à l’indicateur Stratégie de lecture automatique .
+Si le lecteur AEM Screens sélectionne la vidéo mais ne l’affiche pas, vous devez résoudre les problèmes liés à l’indicateur de politique de lecture automatique.
 
 Pour résoudre le problème d’indicateur de politique de lecture automatique de Google, procédez comme suit :
 
@@ -119,7 +119,7 @@ Pour résoudre le problème d’indicateur de politique de lecture automatique d
 
 Pour lire des vidéos en mode synchrone sur plusieurs appareils, utilisez la stratégie absolue pour la séquence dont fait partie la vidéo.
 
-#### Exigences {#requirements}
+#### Conditions requises {#requirements}
 
 * 2+ joueurs identiques
 * Matériel similaire, dans l’idéal
@@ -135,7 +135,7 @@ La stratégie absolue :
 
 Pour configurer une stratégie absolue, procédez comme suit :
 
-1. Accédez à l’auteur de votre canal et cliquez sur le composant de séquence comme illustré dans la figure ci-dessous.
+1. Accédez à votre canal de création et cliquez sur le composant de séquence, comme illustré ci-dessous.
 1. Ouvrez sa boîte de dialogue de configuration.
 1. Modifiez la **Stratégie** et ajoutez « absolue ».
 

@@ -5,15 +5,15 @@ exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
-# Prototypage de l’expérience utilisateur {#prototypes}
+# Prototypage de l’expérience client {#prototypes}
 
 >[!NOTE]
 >
->Un stratège opérationnel/marketing est un acteur typique de cette activité.
+>Cette activité est généralement réalisée par une personne spécialisée dans la stratégie opérationnelle/marketing.
 
 Il est important de tester les idées, les hypothèses et les dépendances définies précédemment dans le cadre de la cartographie du parcours d’expérience utilisateur en utilisant le prototypage de l’expérience utilisateur.
 
