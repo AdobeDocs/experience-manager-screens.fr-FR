@@ -3,9 +3,9 @@ title: Balisage sur Screens Cloud
 description: Cette page décrit comment créer, gérer et utiliser des balises dans Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ L’utilisateur peut créer des balises sur Screens Cloud et les utiliser pour c
 
 ## Création et gestion des balises {#create-and-manage-tags}
 
-![Balise de création VIDÉO](assets/tagging/create-tag.mp4).
+![créer une balise](assets/tagging/create-tag.gif).
 
 Utilisez le même menu d’actions pour renommer une balise ou les supprimer.
 
@@ -35,13 +35,13 @@ Utilisez le même menu d’actions pour renommer une balise ou les supprimer.
 
 Utilisez les balises créées sur les affichages et lecteurs. Vous pouvez en baliser une avec au maximum 30 balises.
 
-![Affectation de balises de gestion VIDÉO](assets/tagging/assign-tags-to-players.mp4).
+![gestion des affectations de balises](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtrage par balises {#filter-by-tags}
 
 Sélectionnez des balises pour filtrer la liste des affichages ou lecteurs.
 
-![Filtre VIDÉO par balises](assets/tagging/filter-by-tags.mp4).
+![filtrer par balises](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
