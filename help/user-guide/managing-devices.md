@@ -10,17 +10,17 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Gérer les appareils {#managing-devices}
 
-Cette page décrit l’attribution du périphérique.
+Cette page décrit la procédure d’attribution des appareils.
 
-La console Appareils vous permet d’accéder au gestionnaire d’appareils afin d’attribuer votre appareil à un affichage.
+La console Appareils vous permet d’accéder au gestionnaire de périphériques afin d’attribuer votre appareil à un affichage.
 
 >[!CAUTION]
 >

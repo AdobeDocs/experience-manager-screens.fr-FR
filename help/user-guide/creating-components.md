@@ -10,9 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les composants AEM servent à stocker, mettre en forme et générer le rendu du 
 
 >[!NOTE]
 >
->Pour en savoir plus sur la création de composants AEM, voir Développement de composants AEM.
+>Pour plus d’informations sur la création de composants AEM, voir Développer des composants AEM.
 
 ## Création de canaux {#authoring-channels}
 
@@ -48,7 +48,7 @@ Les composants intégrés utilisent les catégories de bibliothèques clientes s
 | **Component** | **Bibliothèque cliente** |
 |---|---|
 | *cq.screens.components.edit* | CSS et JS devant être chargés lors de la création |
-| *cq.screens.components.production* | CSS et JS devant être chargés lorsque le canal est en cours d’exécution |
+| *cq.screens.components.production* | CSS et JS devant être chargés lorsque le canal est en cours d’exécution. |
 | *cq.screens.components* | CSS et JS partagés |
 
 >[!NOTE]

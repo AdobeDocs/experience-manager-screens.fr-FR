@@ -2,9 +2,9 @@
 title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Pour configurer le workflow de placement direct, procédez comme suit :
 
 1. Accédez à AEM Screens à partir de votre instance AEM et créez un projet Screens intitulé **Workflow de ressources**.
 
-1. Créez un canal intitulé **Workflow-Assets** sous le **Canaux** dossier.
+1. Créez un canal appelé **Workflow-Ressources** dans le dossier **Canaux**.
 

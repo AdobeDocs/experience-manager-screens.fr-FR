@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Consultez le panneau **Détails de l’appareil** pour pouvoir afficher l’adre
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Cliquez également sur **Effacer le cache** et **Mettre à jour** pour effacer le cache de votre appareil et mettre à jour la variable [micrologiciel](screens-glossary.md) version de ce panneau, respectivement.
+Cliquez également sur **Effacer le cache** et **Mettre à jour** pour respectivement effacer le cache de votre appareil et mettre à jour la version du [micrologiciel](screens-glossary.md) à partir de ce panneau.
 
 Cliquez également sur les points de suspension **...** dans le coin supérieur droit du panneau **Détails du périphérique** pour redémarrer ou actualiser le statut de votre lecteur.
 
@@ -144,13 +144,13 @@ AEM fournit une surveillance intégrée pour :
 
 * *Pulsation* toutes les 5 secondes pour indiquer que le lecteur AEM Screens est en cours de fonctionnement.
 * *Copie d’écran* du lecteur qui affiche ce qui s’affiche sur le lecteur.
-* La variable *Micrologiciel du lecteur AEM Screens* La version est installée sur le lecteur.
+* Version du *micrologiciel du lecteur AEM Screens* installée sur le lecteur.
 * *Espace de stockage libre* sur le lecteur.
 
 Recommandations pour la surveillance à distance avec des logiciels tiers :
 
 * Utilisation du processeur dans les lecteurs.
-* Vérifiez si le processus du lecteur AEM Screens est en cours d’exécution.
+* Vérifiez si le processus du lecteur AEM Screens est exécuté.
 * Redémarrage à distance du lecteur.
 * Notifications en temps réel.
 

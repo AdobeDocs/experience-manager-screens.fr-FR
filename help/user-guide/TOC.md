@@ -9,9 +9,9 @@ feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
    + [Partie 4 : gestion et déploiement de projets](project-management-and-deployment.md)
    + [Partie 5 : facteurs liés à l’assistance](support-considerations.md)
 + Configuration et administration {#administering}
-   + [Configuration du serveur Screens](configuring-screens-introduction.md)
+   + [Configurer le serveur Screens](configuring-screens-introduction.md)
    + [Paramétrage des configurations Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Installation du lecteur Screens](installing-screens-player.md)
    + [Connexion à un lecteur Screens](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
    + [Transition de ContentSync à SmartSync](smartsync.md)
    + [Nouvel importateur de projet à partir d’un fichier](project-importer.md)
    + [Répliquer des déclencheurs de données sur les serveurs de publication](replicating-data-triggers.md)
-   + [Configuration des agents de réplication sur Screens](configure-screens-replication.md)
+   + [Configurer les agents de réplication sur Screens](configure-screens-replication.md)
    + Considérations spécifiques au client {#installing-client}
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
@@ -62,7 +62,7 @@ ht-degree: 96%
       + [Création et gestion des canaux](managing-channels.md)
       + [Création et gestion des affichages](managing-displays.md)
       + [Création et gestion des emplacements](managing-locations.md)
-      + [Création et gestion des plannings](managing-schedules.md)
+      + [Créer et gérer les plannings](managing-schedules.md)
       + [Gérer les appareils](managing-devices.md)
       + Attribution de canaux {#assigning-channels}
          + [Attribution de canaux](channel-assignment-latest-fp.md)
@@ -84,7 +84,7 @@ ht-degree: 96%
       + [Durée de lecture d’images en bloc au niveau du canal](channel-level-image-playback.md)
       + [Synchronisation des commandes](using-command-sync.md)
       + [Création avec des déclencheurs de données](authoring-data-triggers.md)
-      + [Utilisation des balises](tagging.md)
+      + [Utiliser les balises](tagging.md)
       + [Reconnaissance vocale](voice-recognition.md)
       + [Rapport d’attribution de contenu](content-assignment-report.md)
       + [Prise en charge des miniatures pour les vidéos](thumbnail-support.md)
@@ -101,7 +101,7 @@ ht-degree: 96%
       + [Application de transitions](applying-transitions.md)
       + [Transitions Multizone vers Zone unique](multizone-to-singlezone.md)
       + [Canal de prise de contrôle à usage unique](single-use-takeover-channel.md)
-      + [Utilisation permanente du canal de prise de contrôle](perpetual-takeover-channel.md)
+      + [Canal de prise de contrôle perpétuelle](perpetual-takeover-channel.md)
 + Ressources du développeur et ressources d’API {#developing}
    + [API REST](rest-api.md)
    + [Développer un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)

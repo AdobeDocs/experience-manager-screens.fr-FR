@@ -10,15 +10,15 @@ role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Configuration et dépannage de la lecture vidéo {#video-playback-configuration-and-troubleshooting}
 
-Lorsque vous téléchargez une vidéo dans la gestion des ressources numériques et l’ajoutez à votre canal, il se peut que vous rencontriez des problèmes de lecture de la vidéo dans le lecteur AEM Screens.
+Lorsque vous chargez une vidéo dans la gestion des ressources numériques (DAM) et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur AEM Screens.
 
 Les sections ci-après décrivent comment déboguer et résoudre les problèmes liés à la lecture vidéo dans votre canal.
 
@@ -33,13 +33,13 @@ Pour visionner la vidéo, procédez comme suit :
 
 Il doit y avoir différents rendus (MP4 ou M4V).
 
-S’il n’existe aucun rendu, assurez-vous que FFMPEG est installé sur le système d’exploitation sur lequel AEM est en cours d’exécution.
+S’il n’existe aucun rendu, vérifiez que vous avez installé FFMPEG sur le système d’exploitation où AEM est exécuté.
 
 >[!CAUTION]
 >
->S’il n’existe aucun rendu, assurez-vous que FFMPEG est installé sur le système d’exploitation sur lequel AEM est en cours d’exécution.
+>S’il n’existe aucun rendu, vérifiez que vous avez installé FFMPEG sur le système d’exploitation où AEM est exécuté.
 >
->Cliquez sur [here](https://www.ffmpeg.org/download.html) pour installer FFMPEG.
+>Cliquez [ici](https://www.ffmpeg.org/download.html) pour installer FFMPEG.
 
 ## Ressources vidéo {#video-assets}
 
@@ -57,7 +57,7 @@ Vérifiez que FFMPEG est installé et les profils vidéo.
 
 1. Chargez une vidéo de test et cliquez sur **OK** pour commencer le transcodage.
 
-   Si la vidéo transcodée échoue, développez la sortie FFMPEG pour comprendre les erreurs dans la sortie console de FFMPEG.
+   En cas d’échec du transcodage vidéo, développez la sortie FFMPEG pour comprendre les erreurs dans la sortie de la console de FFMPEG.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ Vérifiez la liste des profils de la conception de page si le composant vidéo n
 1. Cliquez sur la vidéo et ouvrez la boîte de dialogue **Modifier**. Ouvrez l’onglet **Profils**.
 
    >[!NOTE]
-   >Cliquez sur différents profils (au moins le profil &quot;H.264 haute qualité&quot; doit être présent).
+   >Cliquez sur différents profils (au moins un profil H.264 de haute qualité « High Quality H.264 » doit être présent).
 
 ### Vérifier la vidéo dans le lecteur web {#checking-the-video-in-the-web-player}
 
 Utilisez le **lecteur web** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` pour valider la lecture dans les navigateurs (Chrome et Safari). Chrome est utilisé sur les appareils Android™, tandis que Safari est le navigateur d’OS X et d’iOS.
 
-Si la vidéo n’est pas lue sous Safari, elle ne fonctionnera pas dans les lecteurs OS X et iOS. Ce problème est probablement un problème de codage et la vidéo doit être réencodée.
+Si la vidéo n’est pas lue sous Safari, elle ne fonctionnera pas dans les lecteurs OS X et iOS. Il s’agit probablement d’un problème d’encodage et la vidéo doit être réencodée.
 
 Pour utiliser un workflow de gestion des ressources numériques pour créer des rendus Full HD, procédez comme suit :
 
@@ -107,13 +107,13 @@ Si le lecteur AEM Screens sélectionne la vidéo mais ne l’affiche pas, vous 
 Pour résoudre le problème d’indicateur de politique de lecture automatique de Google, procédez comme suit :
 
 1. Accédez à ***chrome://flags/#autoplay-policy***
-1. Changez la **politique de lecture automatique** de **par défaut** à **aucun geste requis de la part de l’utilisateur**
+1. Changer la **Politique de lecture automatique** de **Par défaut** à **Aucune action requise de la part de l’utilisateur ou de l’utilisatrice**
 
-1. Relancez votre navigateur Web et mettez à jour le lecteur
+1. Relancer votre navigateur web et mettre à jour le lecteur
 
 >[!NOTE]
 >
->Pour en savoir plus sur les bonnes pratiques à appliquer aux utilisateurs ayant recours aux nouvelles stratégies de lecture automatique dans Chrome. Voir *Modification de la stratégie de lecture automatique* at `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Pour en savoir plus sur les bonnes pratiques à appliquer aux personnes ayant recours aux nouvelles politiques de lecture automatique dans Chrome, voir *Modifications de la politique de lecture automatique* sur `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synchroniser des vidéos sur plusieurs lecteurs {#syncing-video-across-multiple-players}
 

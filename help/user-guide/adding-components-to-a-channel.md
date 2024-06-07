@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour afficher les composants par défaut dans le projet Screens, procédez comme
 
 ### Ajout d’un nouveau composant {#adding-a-new-component}
 
-AEM fournit plusieurs autres composants. Vous pouvez toujours ajouter d’autres composants (non inclus par défaut) à votre projet, étant donné que ces composants sont compatibles avec AEM Screens.
+AEM fournit plusieurs autres composants. Vous pouvez toujours ajouter d’autres composants (non fournis par défaut) au projet, à condition qu’ils soient compatibles avec AEM Screens.
 
 L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AEM Screens :
 
@@ -50,7 +50,7 @@ L’exemple suivant illustre l’ajout d’un composant Livefyre à un projet AE
 1. Cliquez sur **Modifier** dans la barre d’actions.
 1. Cliquez sur le mode **Conception**.
 1. Cliquez sur l’ensemble de l’éditeur de conception à droite, puis sur le symbole des paramètres afin d’ouvrir la boîte de dialogue **Conception parsys**.
-1. Vous pouvez cliquer sur les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant illustre l’ajout de la variable **Livefyre** à un projet AEM Screens.
+1. Vous pouvez cliquer sur les composants que vous souhaitez importer dans le projet AEM Screens. L’exemple suivant montre l’ajout d’un composant **Livefyre** à un projet AEM Screens.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -70,12 +70,12 @@ La section suivante décrit les composants AEM Screens que vous pouvez utiliser
 
 Le composant **Application** permet d’ajouter une application au canal.
 
-Le composant d’application possède les propriétés suivantes :
+Le composant d’application présente les propriétés suivantes :
 
 | **Propriété** | **Description** |
 |---|---|
 | ***Chemin de l’application*** | Cliquez sur le chemin absolu où se trouve l’application. |
-| ***Durée (ms)*** | Cliquez sur la durée de l’application. Par défaut, la durée est définie sur -1, ce qui signifie que l’élément s’exécute indéfiniment (c’est-à-dire, une application d’une seule page). Si vous définissez une valeur supérieure à 0 pour la durée, l’élément s’affiche pendant la durée spécifiée avant que l’élément suivant n’apparaisse. |
+| ***Durée (ms)*** | Cliquez sur la durée de l’application. Par défaut, la durée est définie sur -1, ce qui signifie que l’élément s’exécute indéfiniment (il s’agit par conséquent d’une application sur une seule page). Si vous définissez une valeur supérieure à 0 pour la durée, l’élément s’affiche pendant la durée spécifiée avant que l’élément suivant n’apparaisse. |
 
 L’exemple suivant illustre la manière dont un composant d’application doit être incorporé avec l’aperçu de ses propriétés :
 
@@ -83,7 +83,7 @@ L’exemple suivant illustre la manière dont un composant d’application doit 
 
 >[!NOTE]
 >
->Consultez l’exemple ci-dessus pour afficher les propriétés de chacun des composants ci-dessous.
+>Reportez-vous à l’exemple ci-dessus pour afficher les propriétés de chacun des composants suivants.
 
 ### Canal {#channel}
 
@@ -135,9 +135,9 @@ La page incorporée présente les propriétés suivantes :
 
 >[!NOTE]
 >
->Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création dans Screens .
+>Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création dans Screens.
 
-Une séquence incorporée permet d’ajouter un canal de séquence incorporée dans votre canal existant (avec d’autres ressources).
+Une séquence incorporée permet d’ajouter un canal de séquence incorporée dans le canal existant (avec d’autres ressources).
 
 La séquence incorporée présente les propriétés de page suivantes :
 
@@ -157,16 +157,16 @@ La séquence incorporée présente les propriétés de page suivantes :
   </tr>
   <tr>
    <td><strong><em>Stratégie</em></strong></td>
-   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. La définition de la valeur sur la variable <strong>original</strong> signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est <strong>unique</strong>. Une telle valeur n’affiche qu’un élément de la séquence secondaire à chaque exécution. Par exemple, le premier élément de la première boucle et le second élément de la deuxième boucle.</td>
+   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. La définition de cette valeur sur <strong>original</strong> implique que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parent. L’autre valeur possible est <strong>unique</strong>. Cette valeur n’affiche qu’un élément de la séquence secondaire à chaque exécution. Par exemple, le premier élément de la première boucle et le second élément de la deuxième boucle.</td>
   </tr>
  </tbody>
 </table>
 
 ### Séquence incorporée dynamique {#dynamic-embedded-sequence}
 
-Une séquence incorporée dynamique permet d’ajouter une séquence similaire à la séquence mentionnée ci-dessus, sauf par rôle de canal.
+Une séquence incorporée dynamique permet d’ajouter une séquence semblable à la séquence incorporée susvisée, mais via le rôle du canal.
 
-Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création dans Screens .
+Pour en savoir plus sur les séquences incorporées, voir [Séquences incorporées](embedded-sequences.md) sous la section Création dans Screens.
 
 La séquence incorporée dynamique présente les propriétés suivantes :
 
@@ -186,14 +186,14 @@ La séquence incorporée dynamique présente les propriétés suivantes :
   </tr>
   <tr>
    <td><strong><em>Stratégie</em></strong></td>
-   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. La définition de la valeur sur la variable <strong>original</strong> signifie que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parente. L’autre valeur possible est <strong>unique</strong>. Une telle valeur n’afficherait qu’un seul élément de la séquence secondaire à chaque exécution. Par exemple, le premier élément de la première boucle et le second élément de la deuxième boucle.</td>
+   <td>Définissez-la sur <strong>original</strong> ou <strong>seul(e)</strong>. La définition de cette valeur sur <strong>original</strong> implique que la séquence secondaire s’exécute entièrement à chaque cycle de la séquence parent. L’autre valeur possible est <strong>unique</strong>. Une telle valeur n’afficherait qu’un seul élément de la séquence secondaire à chaque exécution. Par exemple, le premier élément de la première boucle et le second élément de la deuxième boucle.</td>
   </tr>
  </tbody>
 </table>
 
 ### Fragment d’expérience {#experience-fragment}
 
-Un fragment d’expérience vous permet d’ajouter un fragment d’expérience (un groupe d’un ou plusieurs composants comprenant un contenu et une disposition pouvant être référencés dans les pages) à votre canal AEM Screens. Glissez-déposez le composant vers l’éditeur AEM, puis cliquez sur le fragment d’expérience.
+Un fragment d’expérience permet d’ajouter un fragment d’expérience (groupe d’un ou de plusieurs composants, y compris le contenu et la disposition pouvant être référencés dans les pages) au canal AEM Screens. Glissez-déposez le composant vers l’éditeur AEM, puis cliquez sur le fragment d’expérience.
 
 Pour en savoir plus sur la création d’un fragment d’expérience et son utilisation dans un projet AEM Screens, reportez-vous à [Utilisation de fragments d’expérience](experience-fragments-in-screens.md).
 
@@ -206,7 +206,7 @@ Pour en savoir plus sur la création d’un fragment d’expérience et son util
 | ***Durée*** | Sélectionnez la durée complète du fragment d’expérience lu dans le canal. |
 | **Configuration hors ligne** |
 | ***Bibliothèques côté client*** | Fichiers JavaScript et CSS. |
-| ***Fichiers statiques*** | Fichiers statiques que vous pouvez ajouter en tant que configurations hors ligne à votre fragment d’expérience. |
+| ***Fichiers statiques*** | Fichiers statiques que vous pouvez ajouter en tant que configurations hors ligne au fragment d’expérience. |
 
 >[!NOTE]
 >
@@ -293,7 +293,7 @@ Le composant Transition présente les propriétés suivantes :
   </tr>
   <tr>
    <td><strong><em>Actif jusqu’à</em></strong></td>
-   <td>L’horodatage décrit jusqu’à quel moment la transition peut être active.</td>
+   <td>L’horodatage indique le moment jusqu’auquel la transition peut être active.</td>
   </tr>
   <tr>
    <td><strong><em>Planning</em></strong></td>

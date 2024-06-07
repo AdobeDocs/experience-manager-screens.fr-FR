@@ -1,5 +1,5 @@
 ---
-title: Utiliser un workflow pour automatiser les mises à jour des ressources pour un canal AEM Screens
+title: Utiliser un workflow pour automatiser les mises à jour des ressources pour un canal AEM Screens
 description: Découvrez comment créer un workflow pour traiter automatiquement les ressources chargées dans Adobe Experience Manager et les affecter dynamiquement à un canal Screens.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -8,16 +8,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Utiliser un workflow pour automatiser les mises à jour des ressources pour un canal AEM Screens {#automate-channel-updates-workflow}
+# Utiliser un workflow pour automatiser les mises à jour des ressources pour un canal AEM Screens {#automate-channel-updates-workflow}
 
-Découvrez comment créer un processus pour traiter automatiquement les ressources chargées vers Adobe Experience Manager et les affecter dynamiquement à un canal Screens. Dans cet exemple, un workflow est déclenché lorsqu’une image est ajoutée à un dossier spécifique. Le workflow applique une superposition de texte dynamique (processus de filigrane) et attribue l’image à un canal Screens. Cet exemple peut être appliqué à de nombreux scénarios d’automatisation.
+Découvrez comment créer un workflow pour traiter automatiquement les ressources chargées dans Adobe Experience Manager et les affecter dynamiquement à un canal Screens. Dans cet exemple, un workflow est déclenché lorsqu’une image est ajoutée à un dossier spécifique. Le workflow applique une superposition de texte dynamique (processus de filigrane) et attribue l’image à un canal Screens. Cet exemple peut être appliqué à de nombreux scénarios d’automatisation.
 
 ## Conditions préalables {#prerequisites}
 
@@ -38,7 +38,7 @@ La vidéo ci-dessous explique comment installer un exemple de package de code qu
 
 ## Modèle de workflow {#workflow-model}
 
-Un schéma de métadonnées de dossier personnalisé a été créé pour capturer le canal Screens cible dans lequel les images doivent être ajoutées. Deux modèles de workflows sont utilisés pour automatiser le traitement des ressources. La variable **Ressource de mise à jour de gestion des actifs numériques** Le workflow est modifié pour appeler un workflow personnalisé, Traitement des ressources de démonstration **Screens , qui examine le dossier contenant la ressource pour déterminer le canal Screens cible. Le processus **Traitement des ressources de démo Screens** est également responsable de l’application du filigrane à l’image.
+Un schéma de métadonnées de dossier personnalisé a été créé pour capturer le canal Screens cible dans lequel les images doivent être ajoutées. Deux modèles de workflows sont utilisés pour automatiser le traitement des ressources. Le workflow **Ressource de mise à jour de la gestion des ressources numériques** est modifié pour appeler un workflow personnalisé, **Traitement des ressources d’une démonstration Screens, qui inspecte le dossier contenant la ressource pour déterminer le canal Screens cible. Le processus **Traitement des ressources de démo Screens** est également responsable de l’application du filigrane à l’image.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

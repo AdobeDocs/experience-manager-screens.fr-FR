@@ -3,9 +3,9 @@ title: Spécifications de l’appareil
 description: En savoir plus sur les spécifications des appareils dans le cadre d’AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sur la base des informations collectées au *jour 0*, confirmez les information
 
 * Quand le contenu est-il mis à jour sur les lecteurs ?
 
-* Si vous exécutez des vidéos, veillez à comprendre les spécifications de votre appareil afin que le contenu s’affiche correctement.
+* Si vous diffusez des vidéos, veillez à bien comprendre les spécifications de votre appareil afin que le contenu s’affiche correctement.
 
 * Compte tenu des exigences d’environnement exposées ci-dessus, est-il préférable d’opter pour une solution de stockage sur disque dur ou SSD ?
 

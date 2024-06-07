@@ -3,17 +3,17 @@ title: Approche recommandée
 description: Découvrez l’approche recommandée dans un projet AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Approche recommandée {#recommended-approach}
 
-Il est recommandé de considérer tout projet AEM Screens au niveau de l’entreprise comme une entreprise à long terme. Il est probable que le projet s’étende sur une ou plusieurs années, notamment si la solution permet des interactions complexes de l’utilisateur ou de l’utilisatrice ou si elle est déployée sur divers appareils et emplacements.
+La bonne pratique consiste à considérer tout projet AEM Screens au niveau de l’entreprise comme une activité sur le long terme. Il est probable que le projet s’étende sur une ou plusieurs années, notamment si la solution permet des interactions complexes avec les utilisateurs et utilisatrices ou si elle est déployée sur divers appareils et emplacements.
 
-## Consignes relatives au développement d’une stratégie de signalétique digitale {#signage-strategy}
+## Consignes pour le développement d’une stratégie de signalétique numérique {#signage-strategy}
 
 Voici quelques recommandations dont vous devez tenir compte avant de développer et de déployer un projet de signalétique numérique :
 
@@ -36,7 +36,8 @@ si la solution envisagée est ambitieuse, il est recommandé de diviser les livr
   >
   > Les coûts initiaux sont souvent plus élevés sur un projet AEM Screens en raison de la nécessité d’investir dans du matériel, des installations et des conceptions de site. Par conséquent, le fait de simplifier les solutions de contenu initiales peut aider à gérer les attentes de budget.
 
-* **Estimation des livrables à grande échelle**: si la solution est diffusée à grande échelle, déployez les composants de l’application dans des emplacements pilotes choisis avec soin pour une utilisation expérimentale. Une fois l’application validée, vous pouvez la déployer sur de nouveaux appareils et à d’autres emplacements.
+* **Estimation des livrables à grande échelle** :
+si la solution est diffusée à grande échelle, déployez les composants de l’application dans des emplacements pilotes choisis avec soin pour une utilisation expérimentale. Une fois l’application validée, vous pouvez la déployer sur de nouveaux appareils et à d’autres emplacements.
 
   >[!NOTE]
   >
@@ -48,4 +49,5 @@ diviser la diffusion des fonctionnalités en tâches mesurables permet de recuei
 * **Développement d’une feuille de route** :
 si votre client ou cliente souhaite se doter d’un produit riche en fonctionnalités, proposez une « tranche » des fonctionnalités prévues en début de projet, puis planifiez le déploiement d’autres fonctionnalités pour les phases ultérieures. Proposer un premier livrable comportant de nombreuses fonctionnalités entraîne des risques accrus et est plus difficile à valider auprès du client ou de la cliente.
 
-* **Présentation de la portée des intégrations personnalisées**: les composants interactifs avec interaction tactile, capteur de mouvement ou technologie RFID nécessitent un développement personnalisé important dans la méthode de mise en oeuvre. Un diaporama, une publicité vidéo ou un menu statique peut être diffusé sous la forme de contenu graphique ou HTML sur un canal Screens.
+* **Présentation de l’étendue des intégrations personnalisées** :
+les composants interactifs avec interaction tactile, capteur de mouvement ou technologie RFID nécessitent un développement personnalisé important au niveau de la méthode d’implémentation. Un diaporama, une publicité vidéo ou un menu statique peuvent être diffusés sous la forme de contenu graphique ou HTML sur un canal Screens.

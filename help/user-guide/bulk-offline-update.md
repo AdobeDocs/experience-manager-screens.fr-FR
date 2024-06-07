@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez également planifier cette activité pour une période de trafic ré
 
 ## Utilisation de la mise à jour hors ligne en bloc {#using-bulk-offline-update}
 
-Vous pouvez utiliser manuellement la mise à jour hors ligne en bloc à partir de l’interface utilisateur ou planifier la mise à jour en bloc à partir des services OSGi.
+Vous pouvez manuellement utiliser la mise à jour hors ligne en masse à partir de l’interface d’utilisation ou programmer la mise à jour en masse à partir des services OSGi.
 
 ### Utilisation de l’interface utilisateur d’AEM Screens {#using-aem-screens-user-interface}
 
@@ -59,7 +59,7 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
 Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc pour un projet AEM Screens :
 
 1. Configuration de la console Web d’Adobe Experience Manager.
-1. Recherchez des services de mise à jour hors ligne en bloc.
+1. Recherchez des services de mise à jour hors ligne en masse.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

@@ -10,9 +10,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Cette section décrit un exemple de cas d’utilisation. Il met l’accent sur la création et la gestion d’un canal d’urgence que l’auteur de contenu peut passer d’un canal de séquence, s’il y a une condition préalable.
+Cette section décrit un exemple de cas d’utilisation. Elle met l’accent sur la création et la gestion d’un canal d’urgence vers lequel peut basculer l’auteur ou l’autrice du contenu à partir d’un canal de séquence en cas de condition préalable.
 
 ### Prérequis {#preconditions}
 
@@ -58,7 +58,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
    1. Cliquez sur le canal (**MainAdChannel**).
    1. Cliquez sur **Modifier** dans la barre d’actions.
-   1. Faites glisser quelques ressources sur votre canal.
+   1. Faites un glisser-déposer de quelques ressources sur votre canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
@@ -84,7 +84,7 @@ Pour configurer un canal d’urgence, procédez comme suit :
 
 1. **Création d’un emplacement**
 
-   1. Accédez au **Emplacements** dossier.
+   1. Accédez au dossier **Emplacements**.
    1. Cliquez sur **Créer** à partir de la barre d’actions, puis créez un emplacement appelé **Boutique** à partir de l’assistant.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ En cas d’urgence, procédez comme suit :
 
 **EmergencyChannel** continue d’afficher son contenu jusqu’à ce que l’auteur ou l’autrice du contenu réinitialise la Valeur de priorité sur 1.
 
-Lorsque l’auteur du contenu reçoit les instructions indiquant que l’urgence a été effacée, il doit mettre à jour la priorité de la variable **MainAdChannel**. Cela entraîne la reprise de la lecture normale.
+Lorsque l’auteur ou l’autrice du contenu a reçu une notification indiquant que l’urgence est terminée, la priorité de **MainAdChannel** doit être mise à jour. Cela entraîne la reprise de la lecture normale.

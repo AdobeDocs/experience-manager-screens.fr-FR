@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. La variable **Gérer la publication** L’assistant s’ouvre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant **Gérer la publication** démarre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -42,7 +42,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
    >[!NOTE]
    >
-   >Par défaut, toutes les cases sont cochées et vous devez les décocher manuellement pour publier tous les modules de votre projet.
+   >Par défaut, toutes les cases seront cochées et vous devrez les décocher manuellement pour publier tous les modules de votre projet.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -72,10 +72,10 @@ cette option vous permet de gérer les mises à jour uniquement sur les pages qu
    >
    >
    >    1. Le workflow ne fonctionne pas si le projet ne contient aucune modification et qu’il n’y a pas lieu de **mettre à jour le contenu hors ligne**.
-   >    1. Le processus ne fonctionne pas si l’auteur n’effectue pas le processus de réplication (le contenu est toujours téléchargé vers l’instance de publication) après avoir sélectionné la variable **Publier** dans le workflow de gestion des publications.
+   >    1. Le processus ne fonctionne pas si l’auteur ou l’autrice n’effectue pas le processus de réplication (le contenu est toujours en cours de chargement vers l’instance de publication) après avoir sélectionné le bouton **Publier** dans le workflow de gestion de la publication.
 
    >[!CAUTION]
-   >En tant que créateur de contenu, si vous souhaitez voir les modifications apportées aux périphériques connectés à l’instance d’auteur, cliquez sur **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, la mise à jour du contenu hors ligne n’est effectuée que dans l’instance de création.
+   >Si, en tant que créateur ou créatrice de contenu, vous souhaitez voir les modifications apportées aux appareils connectés à l’instance de création, cliquez sur **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne n’est mis à jour que dans l’instance de création.
 
 1. Accédez au projet et cliquez sur **Mettre à jour le contenu hors ligne** dans la barre d’actions. Cette action transfère la même commande à l’instance de publication, de sorte que les fichiers compressés hors ligne soient également créés sur votre instance de publication.
 
@@ -103,7 +103,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. La variable **Gérer la publication** L’assistant s’ouvre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant **Gérer la publication** s’ouvre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

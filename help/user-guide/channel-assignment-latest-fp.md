@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Cette section décrit l’attribution et la planification des canaux pour AEM Feature Pack Screens 6.5.5 et versions ultérieures.
+>Cette section décrit l’attribution et la planification des canaux pour le pack de fonctionnalités AEM 6.5.5 Screens et versions ultérieures.
 
 Lorsque que vous avez configuré un affichage, attribuez-lui un canal pour afficher votre contenu.
 
@@ -35,9 +35,9 @@ Procédez comme indiqué dans les sections ci-dessous pour créer un projet AEM 
 
 Pour configurer un projet et un canal, procédez comme suit :
 
-1. Créez un projet AEM Screens intitulé **DemoScreens**.
+1. Créez un projet AEM Screens intitulé **DemoScreens**.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+   ![Image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
    >Pour savoir comment créer un projet AEM Screens, voir [Création et gestion de projets](creating-a-screens-project.md).
@@ -82,14 +82,14 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
+   >Pour en savoir plus sur les propriétés d’attribution de canaux, voir la section [Propriétés des canaux](#channel-properties).
 
 1. Dans l’option **Planning**, cliquez sur la **fenêtre d’activation** et le **planning de périodicité**.
    ![Image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les propriétés d’attribution de canaux, voir [Propriétés du canal](#channel-properties) .
+   >Pour en savoir plus sur les propriétés d’attribution de canaux, voir la section [Propriétés des canaux](#channel-properties).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
@@ -105,7 +105,7 @@ Vous pouvez afficher la sortie suivante sur le lecteur choisi :
 
 ## Mode Chronologie {#timeline-view}
 
-Lorsque vous avez affecté un canal à un affichage et configuré un planning de périodicité, vous pouvez afficher la chronologie à partir de la **CANAUX ET PLANIFICATIONS AFFECTÉS** du panneau.
+Lorsque vous avez attribué un canal à un affichage et configuré un planning de périodicité, vous pouvez afficher la chronologie à partir du panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
 Suivez les étapes ci-dessous pour accéder à l’affichage de la chronologie :
 
@@ -134,7 +134,7 @@ La sélection d’un canal de référence permet de fournir une référence pour
 
 ### Rôle du canal {#role-channel}
 
-Le rôle du canal définit le contexte de l’affichage. Diverses actions ciblent le rôle . Elle est indépendante du canal qui remplit le rôle.
+Le rôle du canal définit le contexte de l’affichage. Diverses actions ciblent le rôle. Il est indépendant du canal qui remplit le rôle.
 
 ### Priorité {#priority-channel}
 
@@ -158,7 +158,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 En tant que personne chargée de créer du contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de choisir de couper le contenu non essentiel. Mais cela vous offre également la possibilité de laisser le contenu important être lu en intégralité avant de le couper en raison du planning.
 
-Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la variable **Attribution de canaux** boîte de dialogue :
+Sélectionnez l’une des options suivantes disponibles pour définir la méthode d’interruption dans la boîte de dialogue **Attribution de canaux** :
 
 * **Immédiatement** : chaque fois que le planning est activé ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
 * **Fin de l’élément actif** : lorsqu’un nouveau planning est activé ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre la fin de la lecture de l’élément actuel dans la séquence. Ensuite, ce n’est qu’après cela que vous pouvez actualiser ou lire le nouveau contenu.
@@ -181,15 +181,15 @@ La fenêtre d’activation permet de sélectionner une **Date de début** et une
 
 ### Planning de périodicité {#recurrence-schedule}
 
-Le planning de périodicité permet de définir un planning récurrent pour votre contenu. Cliquez sur **+ Ajouter une planification** pour ajouter un planning de périodicité à votre canal.
+Le planning de périodicité permet de définir un planning récurrent pour votre contenu. Cliquez sur **+ Ajouter un planning** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Les plannings de périodicité s’affichent *Tranches horaires*. Vous définissez une planification globale avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et vous pouvez les réutiliser pour tous vos affichages simultanément.
+>Les plannings de périodicité proposent des *Tranches horaires*. Vous définissez un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et réutilisez simultanément cette configuration pour tous vos affichages.
 
 Vous pouvez configurer les options suivantes :
 
-* **Nom** - Titre de votre planning de périodicité.
+* **Nom** : titre de votre planning de périodicité.
 * **Répéter** : indiquez si la planification s’exécute de manière **quotidienne**, **hebdomadaire**, **mensuelle** ou **annuelle**.
 * **Début** : heure de début de votre planning.
 * **Fin** : heure de fin de votre planning. Vous pouvez le définir par heure ou par durée.

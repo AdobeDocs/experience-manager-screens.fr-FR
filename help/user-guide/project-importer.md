@@ -11,9 +11,9 @@ role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Cette fonctionnalité a pour objectif de réduire le temps nécessaire à la con
 En permettant à l’auteur de fournir une feuille de calcul en tant que fichier d’entrée et en laissant le système créer automatiquement l’arborescence de l’emplacement dans le serveur principal, cette fonction :
 
 * *présente de meilleures performances par rapport à la sélection manuelle dans l’interface d’utilisation ;*
-* *permet au client d’exporter ses emplacements depuis son propre système et de les importer directement dans AEM*
+* *permet aux clientes et clients d’exporter leurs emplacements depuis leur propre système et de les importer directement dans AEM.*
 
-Ce processus permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d’AEM Screens existant à de nouveaux emplacements.
+Ce processus permet d’économiser du temps et de l’argent lors de la configuration initiale du projet ou lors de l’extension d’AEM Screens à de nouveaux emplacements.
 
 ## Vue d’ensemble de l’architecture {#architectural-overview}
 
@@ -51,14 +51,14 @@ Le modèle de données de l’Importateur de projet est décrit ci-dessous :
 | **Propriété** | **Description** |
 |---|---|
 | ***`path {string*}`*** | Chemin des ressources de l’emplacement |
-| ***`[./jcr:title] {string*}`*** | Le nom du modèle à utiliser (c’est-à-dire l’emplacement de la variable *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | Nom du modèle à utiliser (emplacement *screens/core/templates/location*) |
 | ***`template {string}`*** | Titre facultatif à utiliser pour la page |
 | ***`[./jcr:description] {string}`*** | Description facultative à utiliser pour la page |
 
 La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 
 * **path {string}** : chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire *`/foo`* est importé dans *`/content/screens/<project>/locations/foo`*).
-* **modèle {string}** - Le modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est &quot;location&quot;, mais cette valeur sera étendue ultérieurement à tous les modèles Screens (`display`, `sequencechannel`, etc.)
+* **template {string}** : modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est « location », mais cette valeur sera étendue ultérieurement à tous les modèles Screens (`display`, `sequencechannel`, etc.).
 * **[./*] {string}** : toute propriété facultative à définir sur l’emplacement (c’est-à-dire, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La version actuelle ne permet aucun filtrage.
 
 >[!NOTE]
@@ -89,7 +89,7 @@ A des fins de démonstration, vous pouvez télécharger un fichier Excel depuis 
 
 ### Importation du fichier avec un minimum de champs obligatoires {#importing-the-file-with-minimum-required-fields}
 
-Pour importer un fichier dans un dossier d’emplacement avec le minimum de champs obligatoires, procédez comme suit :
+Pour importer un fichier dans un dossier d’emplacement avec un minimum de champs obligatoires, procédez comme suit :
 
 >[!NOTE]
 >

@@ -1,13 +1,13 @@
 ---
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Documentation d’Adobe Experience Manager Screens
 
-Ce référentiel est destiné à la documentation Adobe Experience Manager Screens.
+Il s’agit du référentiel relatif à la documentation d’Adobe Experience Manager Screens.
 
 Vos contributions à la documentation sont les bienvenues. Reportez-vous aux ressources suivantes :
 

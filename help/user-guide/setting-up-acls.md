@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 La section suivante explique comment séparer les projets à l’aide des listes de contrôle d’accès de sorte que chacune des personnes ou équipes gère son propre projet.
 
-En tant qu’administrateur d’AEM, vous souhaitez vous assurer que les membres de l’équipe d’un projet n’interfèrent pas avec les autres projets. Chaque utilisateur se voit attribuer des rôles spécifiques en fonction des exigences du projet.
+En tant qu’administrateur ou administratrice d’AEM, vous devez vous assurer que les personnes membres de l’équipe d’un projet n’interfèrent pas avec les autres projets. Chaque utilisateur ou utilisatrice doit avoir des rôles spécifiques en fonction des exigences du projet.
 
 ## Configuration des autorisations {#setting-up-permissions}
 
@@ -42,7 +42,7 @@ Les étapes suivantes résument le processus de configuration de listes de contr
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Ajoutez la variable **Acme** (projet que vous avez créé) **Ajouter des membres au groupe**. Cliquez sur **Enregistrer**.
+1. Ajoutez le projet **Acme** (le projet que vous avez créé) pour **Ajouter des personnes membres au groupe**. Cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -66,12 +66,12 @@ Le tableau ci-dessous résume le chemin avec les autorisations au niveau du proj
 
 | **Chemin** | **Autorisation** | **Description** |
 |---|---|---|
-| `/apps/<project>` | READ | Accédez aux fichiers du projet, le cas échéant. |
-| `/content/dam/<project>` | ALL | Permet d’accéder au stockage des ressources du projet telles que les images ou la vidéo dans la gestion des ressources numériques. |
+| `/apps/<project>` | READ | Permet d’accéder aux fichiers du projet, le cas échéant. |
+| `/content/dam/<project>` | ALL | Permet un accès pour stocker les ressources du projet telles que les images ou les vidéos dans la gestion des ressources numériques (DAM). |
 | `/content/screens/<project>` | ALL | Supprime l’accès à tous les autres projets sous /content/screens. |
-| `/content/screens/svc` | READ | Accédez au service d’enregistrement. |
-| `/libs/screens` | READ | Accédez à DCC. |
-| `/var/contentsync/content/screens/` | ALL | Vous aide à mettre à jour le contenu hors ligne du projet. |
+| `/content/screens/svc` | READ | Permet d’accéder au service d’enregistrement. |
+| `/libs/screens` | READ | Permet d’accéder à DCC. |
+| `/var/contentsync/content/screens/` | ALL | Aide à mettre à jour le contenu hors ligne du projet. |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ Le tableau ci-dessous résume les groupes avec la description et les autorisatio
   </tr>
   <tr>
    <td>Lecteurs Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Tous les lecteurs et tous les lecteurs/appareils sont automatiquement membres des contributeurs.</td>
+   <td>Tous les lecteurs et tous les lecteurs/appareils sont automatiquement membres des contributeurs et contributrices.</td>
    <td><p> Membre des contributeurs et contributrices</p> </td>
   </tr>
  </tbody>

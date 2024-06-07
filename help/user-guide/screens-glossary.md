@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 83%
 
 **Appareil** : un appareil peut exécuter le logiciel du lecteur pour produire une sortie visuelle. Il peut contrôler l’affichage d’une partie recadrée, redimensionnée ou traduite de l’expérience ou du contenu communs. La configuration d’écran est associée à un affichage, mais peut être remplacée si un problème technique survient.
 
-**Affichage** : un affichage est un regroupement virtuel d’écrans généralement positionnés les uns à côté des autres. L’affichage est généralement permanent par rapport à une installation. Cet objet est ce avec quoi les auteurs de contenu travaillent et font toujours référence à un affichage logique plutôt qu’à leurs parties de compteur physiques.
+**Affichage** : un affichage est un regroupement virtuel d’écrans généralement positionnés les uns à côté des autres. L’affichage est généralement permanent par rapport à une installation. Les auteurs et autrices utilisent ce contenu d’objet et se réfèrent toujours à un affichage logique plutôt qu’à leurs contreparties physiques.
 
 **Micrologiciel** : micrologiciel est le terme utilisé pour désigner le logiciel qui s’exécute dans l’appareil au sein de l’application du lecteur dans un affichage web. Il s’agit d’une couche JavaScript qui exécute le contenu dans un canal dans des iFrames et qui permet d’accéder aux fonctionnalités natives par le biais de plug-ins. Le micrologiciel peut être mis à jour sans mettre à jour l’application du lecteur.
 
-**Live Copy** : une Live Copy est une copie du contenu spécifique d’un site pour laquelle des relations en direct avec la source d’origine sont conservées. Cette relation dynamique permet à la Live Copy d’hériter du contenu et des propriétés de page de la source.
+**Live Copy** : une Live Copy est une copie du contenu spécifique d’un site pour laquelle des relations en direct avec la source d’origine sont conservées. Ces relations en direct permettent à la Live Copy d’hériter des propriétés du contenu et de la page de la source.
 
-**Dossier d’emplacement** - Les emplacements ou les emplacements dans le dossier des emplacements hébergent la configuration des affichages en fonction de l’emplacement des différents écrans.
+**Emplacement/Dossier d’emplacement** : emplacements ou emplacements à l’intérieur du dossier d’emplacement hébergeant la configuration des affichages selon l’emplacement des différents écrans.
 
 **Logiciel de lecture** : le lecteur est un logiciel qui s’exécute sur un appareil qui vous permet d’afficher un canal sur un écran.
 
@@ -36,4 +36,4 @@ ht-degree: 83%
 
 **Canal de séquence** : un canal de séquence est une page que vous pouvez créer et qui peut contenir les composants à afficher un par un dans un diaporama.
 
-**Zones** - Les zones sont une segmentation d’affichages utilisés comme entités adressables principales pour les canaux. Dans les cas où les affichages s’étendent à plusieurs écrans, il est préférable d’établir des espaces correspondants aux dimensions de l’écran, en particulier si la bordure physique des écrans est visible.
+**Zones** : les zones constituent une segmentation d’affichages utilisés comme entités adressables principales pour les canaux. Dans les cas où les affichages s’étendent à plusieurs écrans, il est préférable d’établir des espaces correspondants aux dimensions de l’écran, en particulier si la bordure physique des écrans est visible.

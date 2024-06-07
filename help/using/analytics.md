@@ -3,9 +3,9 @@ title: Analytics avec AEM Screens
 description: Découvrez Adobe Analytics avec Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 >
 >Cette activité est généralement réalisée par des personnes spécialisées dans la stratégie opérationnelle/marketing.
 
-AEM Screens peut capturer localement chaque événement pouvant faire l’objet d’un suivi exécuté par chaque appareil de lecture. Ces données sont stockées en local jusqu’à ce qu’elles puissent être téléchargées dans le cloud en vue de leur traitement. Outre toutes les données d’événement, un deviceID et un horodatage sont ajoutés. Cette fonctionnalité permet de s’assurer que les données d’un lecteur sont distinctes d’un autre lecteur. De plus, les données s’exécutent à différents moments de la journée peuvent être évaluées séparément, si vous le souhaitez.
+AEM Screens peut capturer, en local, tous les événements pouvant faire l’objet d’un suivi qui sont exécutés par chaque appareil de lecture. Ces données sont stockées en local jusqu’à ce qu’elles puissent être téléchargées dans le cloud en vue de leur traitement. Outre toutes les données d’événement, un deviceID et un horodatage sont ajoutés. Cette fonctionnalité permet de s’assurer que les données d’un lecteur sont distinctes d’un autre lecteur. De plus, les données exécutées à différents moments de la journée peuvent être évaluées séparément, si vous le souhaitez.
 
 Il y a deux raisons fondamentales à la capture de ces données.
 

@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Le cas d’utilisation ci-dessous montre comment utiliser l’activation des ré
 
 ## Description {#description}
 
-Pour ce cas d’utilisation, la feuille de calcul Google Sheet est renseignée avec le pourcentage de réservation de deux restaurants : **`Restaurant1`** et **`Restaurant2`**. Une formule est appliquée à partir des valeurs de `Restaurant1` et `Restaurant2` et, selon la formule, la valeur 1 ou 2 est affectée à la variable **AdTarget** Colonne.
+Pour ce cas d’utilisation, la feuille de calcul Google Sheet est renseignée avec le pourcentage de réservation de deux restaurants : **`Restaurant1`** et **`Restaurant2`**. Une formule est appliquée en fonction des valeurs de `Restaurant1` et `Restaurant2` et selon la formule, la valeur 1 ou 2 est affectée à la colonne **AdTarget**.
 
-Si **`Restaurant1`** > **`Restaurant2`**, la valeur attribuée à **AdTaget** est de **1**, sinon une valeur de **2** est attribuée à **AdTarget**. La valeur 1 génère une *Steak food* et Valeur 2 donnent un affichage de la valeur *La cuisine thaïlandaise* sur votre écran d’affichage.
+Si la valeur de **`Restaurant1`** > **`Restaurant2`**, alors la valeur **1** est affectée à **AdTaget**, sinon la valeur **2** est affectée à **AdTarget**. La valeur 1 génère l’option *Steak food* et la valeur 2 fait apparaître l’option *Thai food* sur votre écran.
 
 ## Prérequis {#preconditions}
 
@@ -66,7 +66,7 @@ Pour mettre en œuvre l’activation des réservations d’hébergements pour vo
 
    >[!CAUTION]
    >
-   >Votre **ContextHub** **Configurations** utilisation du canal **Propriétés** > **Personnalisation** a déjà dû être configuré.
+   >Vos **configurations** **ContextHub** utilisant l’onglet **Propriétés** > **Personnalisation** du canal doivent déjà avoir été effectuées à ce stade.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

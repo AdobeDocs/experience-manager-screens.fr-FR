@@ -10,9 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1700'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Ce tutoriel est destiné aux développeurs et aux développeuses qui découvrent
 
 ![Composant Poster personnalisé](assets/2018-05-07_at_4_09pm.png)
 
-A `Custom Poster` est créé en étendant le composant Image .
+Un composant `Custom Poster` est créé en étendant le composant Image.
 
 ## Conditions préalables {#prerequisites}
 
@@ -68,11 +68,11 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    Packages AEM Screens `We.Retail Run Ui.Apps` et `Ui.Content` installés avec le gestionnaire de packages CRX.
 
-## Création du composant Poster {#poster-cmp}
+## Créer le composant Poster {#poster-cmp}
 
 Le composant Poster étend le composant Image intégré d’AEM Screens. Un mécanisme de Sling, `sling:resourceSuperType`, est utilisé pour hériter des fonctionnalités de base du composant Image sans avoir à utiliser la fonction Copier/Coller. Vous trouverez plus d’informations sur les notions de base du [traitement des requêtes Sling ici.](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
-Le composant Poster s’affiche en plein écran en mode d’aperçu/de production. En mode d’édition, il est important de rendre le composant différemment pour faciliter la création du canal de séquence.
+Le composant Poster s’affiche en plein écran en mode d’aperçu/de production. En mode d’édition, il est important d’effectuer le rendu du composant différemment afin de faciliter la création du canal de séquence.
 
 1. Dans **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (ou un IDE de votre choix), sous `/apps/weretail-run/components/content`, créez un composant `cq:Component` intitulé `poster`.
 
@@ -133,7 +133,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Boîte de dialogue copiée à partir de `/libs/wcm/foundation/components/image/cq:dialog` vers `/apps/weretail-run/components/content/poster`.
 
-   Le composant `image` AEM Screens est un supertype du composant `image` WCM Foundation. Par conséquent, la variable `poster` hérite des fonctionnalités des deux. La boîte de dialogue du composant Poster est composée d’une combinaison des boîtes de dialogue Screens et Foundation. Les fonctionnalités de la **fusion de ressources Sling** permettent de masquer les champs et les onglets inutiles de boîte de dialogue hérités des composants de supertype.
+   Le composant `image` AEM Screens est un supertype du composant `image` WCM Foundation. Le composant `poster` hérite donc des fonctionnalités des deux. La boîte de dialogue du composant Poster est composée d’une combinaison des boîtes de dialogue Screens et Foundation. Les fonctionnalités de la **fusion de ressources Sling** permettent de masquer les champs et les onglets inutiles de boîte de dialogue hérités des composants de supertype.
 
 1. Mettez à jour `cq:dialog` dans `/apps/weretail-run/components/content/poster` avec les modifications suivantes représentées en XML :
 
@@ -240,7 +240,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    La propriété `sling:hideChildren`= `"[linkURL,size]`&quot; est utilisée sur le nœud `items` pour veiller à ce que les champs **linkURL** et **size** soient masqués dans la boîte de dialogue. Supprimer ces nœuds de la boîte de dialogue Poster n’est pas suffisant. La propriété `sling:hideResource="{Boolean}true"` de l’onglet d’accessibilité sert à masquer l’ensemble de l’onglet.
 
-   Deux champs de clic sont ajoutés à la boîte de dialogue, Position du texte et Couleur du texte, pour permettre aux auteurs de contrôler la position du texte et la couleur du titre et de la description.
+   Deux champs de clic sont ajoutés à la boîte de dialogue, Position du texte et Couleur du texte, pour permettre aux auteurs et autrices de contrôler la position du texte et la couleur du titre et de la description.
 
    ![Poster : structure finale de la boîte de dialogue](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,7 +280,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Les balises `The h1` et h2 affichent le titre et la description en fonction des propriétés du composant : `${properties.jcr:title}` et `${properties.jcr:description}`.
 
-   Autour de la `h1` et `h2` Les balises sont un wrapper div comportant trois classes CSS avec des variantes de &quot;`cmp-poster__text`.&quot; La valeur des propriétés `textPosition` et `textColor` est utilisée pour modifier la classe CSS rendue en fonction des sélections de l’auteur concernant la boîte de dialogue. Dans la section suivante, les CSS des bibliothèques clientes sont écrites pour permettre l’affichage de ces modifications.
+   Les balises `h1` et `h2` sont entourées par un wrapper div comportant trois classes CSS avec des variantes de « `cmp-poster__text` ». La valeur des propriétés `textPosition` et `textColor` est utilisée pour modifier la classe CSS rendue en fonction des sélections de l’auteur concernant la boîte de dialogue. Dans la section suivante, les CSS des bibliothèques clientes sont écrites pour permettre l’affichage de ces modifications.
 
    Un logo est également inclus comme superposition dans le composant. Dans cet exemple, le chemin d’accès du logo ` We.Retail` est codé en dur dans DAM. Selon le cas d’utilisation, il peut être plus judicieux de créer un champ de boîte de dialogue pour faire du chemin d’accès au logo une valeur renseignée de façon dynamique.
 
@@ -308,7 +308,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
    </div>
    ```
 
-   La variable **edit** Le balisage du composant Poster s’affiche directement au-dessus. Le script HTL remplace `/libs/screens/core/components/content/image/edit.html`. La balise est similaire à la balise `production.html`. Elle affiche le titre et la description au-dessus de l’image.
+   La balise **modifier** du composant Poster est affichée directement au-dessus. Le script HTL remplace `/libs/screens/core/components/content/image/edit.html`. La balise est similaire à la balise `production.html`. Elle affiche le titre et la description au-dessus de l’image.
 
    L’élément `aem-Screens-editWrapper` est ajouté de sorte que le composant ne soit pas affiché en plein écran dans l’éditeur. L’attribut `data-emptytext` garantit l’affichage d’un espace réservé en l’absence de contenu ou d’image.
 
@@ -337,9 +337,9 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    Propriétés pour /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   La propriété `categories` est une chaîne qui identifie la bibliothèque cliente. La catégorie `cq.screens.components` est utilisée en mode d’édition et en mode d’aperçu/de production. Par conséquent, tout CSS/JS défini dans la variable `shared` clientlib est chargé dans tous les modes.
+   La propriété `categories` est une chaîne qui identifie la bibliothèque cliente. La catégorie `cq.screens.components` est utilisée en mode d’édition et en mode d’aperçu/de production. Ainsi, tout CSS/JS défini dans la bibliothèque cliente `shared` est chargé dans tous les modes.
 
-   La bonne pratique consiste à ne jamais exposer directement des chemins à `/apps` dans un environnement de production. La variable `allowProxy` garantit que la bibliothèque cliente CSS et JS est référencée par le biais d’un préfixe de `/etc.clientlibs`. Vous trouverez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs) plus d’informations sur la propriété allowProxy.
+   Il est recommandé de ne jamais exposer directement les chemins d’accès à `/apps` dans un environnement de production. La propriété `allowProxy` garantit le référencement de CSS et JS de la bibliothèque cliente par le biais d’un préfixe `/etc.clientlibs`. Vous trouverez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs) plus d’informations sur la propriété allowProxy.
 
 1. Créez un fichier appelé `css.txt` sous le dossier partagé.
 
@@ -489,11 +489,11 @@ Il est possible d’utiliser une troisième catégorie de bibliothèque cliente 
 | `cq.screens.components.edit` | Styles et scripts utilisés uniquement en mode d’édition |
 | `cq.screens.components.production` | Styles et scripts utilisés uniquement en mode de production |
 
-## Ajout d’un composant Poster à un canal de séquence {#add-sequence-channel}
+## Ajouter un composant Poster à un canal de séquence {#add-sequence-channel}
 
-Le composant Poster est utilisé sur un canal de séquence. Le module de démarrage de ce tutoriel comprenait un canal inactif. Le canal inactif est préconfiguré pour autoriser les composants du groupe. **`We.Retail Run - Content`**. Le groupe du composant Poster est défini sur `We.Retail Run - Content` et peut être ajouté au canal.
+Le composant Poster est destiné à être utilisé sur un canal de séquence. Le package de démarrage de ce tutoriel comportait un canal inactif. Le canal inactif est préconfiguré pour autoriser les composants du groupe **`We.Retail Run - Content`**. Le groupe du composant Poster est défini sur `We.Retail Run - Content` et peut être ajouté au canal.
 
-1. Ouvrez le canal inactif à partir du `We.Retail` Exécutez le projet : **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Ouvrez le canal inactif à partir du projet `We.Retail` Run : **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**.
 1. Faites glisser une nouvelle instance du composant **Poster** depuis la barre latérale et déposez-la sur la page.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
@@ -508,7 +508,7 @@ Le composant Poster est utilisé sur un canal de séquence. Le module de démarr
 
 ## Assemblage {#putting-it-all-together}
 
-La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un affichage de position et finalement attribué à un lecteur Screens.
+La vidéo ci-dessous montre le composant terminé et comment l’ajouter à un canal de séquence. Le canal est ensuite ajouté à un emplacement, puis affecté à un lecteur Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 

@@ -10,9 +10,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
    **Fréquence de planning** Indiquez une heure (par exemple, 17 h 00 ou 17:00) ou une fréquence en heures (par exemple, 1) à laquelle ce moniteur doit envoyer des e-mails.
 
-   **Délai d’expiration du ping** - Ce champ spécifie l’intervalle en minutes après lequel un appareil doit être considéré comme inaccessible.
+   **Délai d’expiration du ping** Ce champ indique l’intervalle en minutes après lequel un appareil doit être considéré comme inaccessible.
 
    **Serveur SMTP** Spécifie le serveur SMTP utilisé pour envoyer des e-mails.
 
@@ -91,14 +91,14 @@ Une fois la configuration définie pour vos notifications par e-mail, vous recev
 
 Ce lien vous mènera directement au tableau de bord de l’appareil.
 
-Les emails ne sont envoyés que si :
+Les e-mails ne sont envoyés que si :
 
-* il existe au moins un appareil qui n’a pas effectué de ping pendant le délai d’expiration du ping donné, et
-* n’est toujours pas ping au moment de la génération de l’email.
+* au moins un appareil qui n’a pas effectué de ping pendant le délai d’expiration du ping donné existe, et
+* qu’il n’a toujours pas de ping au moment de la génération de l’e-mail.
 
 ### Exemples de cas d’utilisation {#example-use-cases}
 
-L’exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance des emails des périphériques Screens.
+L’exemple suivant décrit quelques scénarios à titre de référence pour configurer les propriétés à partir du service de surveillance par e-mail des appareils Screens.
 
 **Scénario 1**
 
@@ -106,4 +106,4 @@ Définissez la fréquence de planning sur 13 h 00. et le délai d’expiration
 
 **Scénario 2**
 
-Définissez la fréquence de planning sur 1 et le délai d’expiration du test ping sur 60. Si votre appareil AEM Screens ne fait pas l’objet d’une commande ping à la fois à un moment donné de la journée, vous recevez une notification par e-mail confirmant l’inactivité de l’appareil.
+Définissez la fréquence de planning sur 1 et le délai d’expiration du test ping sur 60. Ensuite, si votre appareil AEM Screens n’effectue pas de ping une fois à un moment donné de la journée, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.

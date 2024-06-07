@@ -1,15 +1,15 @@
 ---
 title: Canal de prise de contrôle à usage unique
-description: Suivez ce cas pratique pour créer un canal de prise de contrôle à usage unique.
+description: Suivez ce cas d’utilisation pour créer un canal de prise de contrôle à usage unique.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour configurer un projet, procédez comme suit :
 
    ![ressource](assets/single-takeover4.png)
 
-1. Configurez un emplacement et un affichage pour vos canaux. Par exemple, les éléments suivants **Lobby** emplacement et **MainLobbyDisplay** sont configurés pour ce projet.
+1. Configurez un emplacement et un affichage pour vos canaux. Par exemple, l’emplacement **Lobby** et l’affichage **MainLobbyDisplay** suivants sont configurés pour ce projet.
 
    ![ressource](assets/single-takeover5.png)
 
@@ -98,7 +98,7 @@ Le texte dans le **Planning** mentionné dans cet exemple est *le 31 décembre 
 
      ![ressource](assets/single-takeover8.png)
 
-     Accédez à l’affichage à partir de **SingleUseTakeOver** > **Emplacements** > **Lobby** > **MainLobbyDisplay**. Cliquez sur **Tableau de bord** depuis la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
+     Accédez à l’affichage à partir de **Prise de contrôle à usage unique** > **Emplacements** > **Lobby** > **MainLobbyDisplay**. Cliquez sur **Tableau de bord** à partir de la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
      >[!NOTE]
      >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.

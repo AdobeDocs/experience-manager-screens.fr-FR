@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ Cette section couvre les sujets suivants :
 
 Le cas d’utilisation suivant implique de placer une vidéo (par exemple : 1280 x 720) dans un canal où l’affichage est de 1920 x 1080 et où la vidéo doit être placée à 0x0 (en haut à gauche). La vidéo ne doit pas être étirée ni modifiée d’aucune manière et n’utilisez pas **la couverture** dans le composant vidéo.
 
-La vidéo s’affiche sous la forme d’un objet de pixel 1 à pixel 1280 sur et de pixel 1 à pixel 720 vers le bas. Le reste du canal est la couleur par défaut.
+La vidéo s’affiche sous la forme d’un objet du pixel 1 au pixel 1 280 en largeur et du pixel 1 au pixel 720 en hauteur. Le reste du canal est la couleur par défaut.
 
 ## Conditions préalables {#prerequisites}
 
 Avant de créer un workflow pour la vidéo, veuillez remplir les conditions préalables suivantes :
 
-1. Chargement d’une vidéo dans le **Ressources** dossier dans votre instance AEM
+1. Chargez une vidéo dans le dossier **Ressources** de votre instance AEM.
 1. Créez un projet AEM Screens (par exemple, **TestVideoRendition**) et un canal nommé (**VideoRendering**), comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -58,12 +58,12 @@ Suivez les étapes ci-dessous pour créer et utiliser le processus :
 Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
 1. Accédez à votre instance AEM.
-1. Cliquez sur les outils dans le rail latéral.
+1. Cliquez sur Outils dans le volet latéral.
 1. Cliquez sur **Workflow** > **Modèles** pour créer un modèle.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Cliquez sur **Modèles** > **Créer** > **Créer un modèle**. Saisissez le **Titre** (par exemple **VideoRendition**) et **Nom** dans le **Ajouter un modèle de processus**. Cliquez sur **Terminé** pour ajouter le modèle de processus.
+1. Cliquez sur **Modèles** > **Créer** > **Créer un modèle**. Saisissez le **Titre** (tel que **VideoRendition**) et le **Nom** dans le champ **Ajouter un modèle de workflow**. Cliquez sur **Terminé** pour ajouter le modèle de processus.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -115,7 +115,7 @@ Pour utiliser le workflow dans votre projet AEM Screens, procédez comme suit :
 
 Vous pouvez valider votre sortie en procédant comme suit :
 
-* Vérification de l’aperçu de la vidéo dans la chaîne
+* Vérifier la prévisualisation de la vidéo dans le canal
 * Accédez au répertoire ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré dans la figure ci-dessous :
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

@@ -11,9 +11,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Ce tutoriel porte sur les points suivants relatifs à un déploiement réussi d�
 
 >[!NOTE]
 >
->Les cycles de vente standard pour le déploiement à l’échelle d’un système de signalétique numérique peuvent varier de 9 à 18 mois. De nombreux facteurs influent sur le délai final. Certains de ces facteurs incluent la manière dont le client final mesure le succès et la façon dont il avertit les risques de ses partenaires commerciaux lorsqu’une nouvelle solution est introduite.
+>Les cycles de vente standard pour le déploiement à l’échelle d’un système de signalétique numérique peuvent varier de 9 à 18 mois. De nombreux facteurs influent sur la chronologie finale. Certains facteurs incluent la façon dont la clientèle finale mesure le succès et le degré de réticence à la prise de risque de ses partenaires commerciaux lorsqu’une nouvelle solution est présentée.
 
 Par exemple, les parties prenantes d’un programme de signalétique numérique dans un environnement de vente au détail peuvent inclure les éléments suivants :
 
@@ -46,7 +46,7 @@ Par exemple, les parties prenantes d’un programme de signalétique numérique 
 
 ## Résumé des principaux termes utilisés dans un plan de projet global {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-La section suivante présente un aperçu des termes clés utilisés dans un plan de projet global, les termes clés incluent le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
+La section suivante contient une vue d’ensemble des principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
 
 ### Preuve de concept (PDC) {#proof-of-concept-poc}
 
@@ -54,9 +54,9 @@ L’objectif d’une preuve de concept est d’obtenir un retour initial sur les
 
 ### Contrôle de la qualité {#quality-control}
 
-Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique des intégrateurs audio-vidéo. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, met en oeuvre et supervise l’installation des composants matériels dans un &quot;environnement de laboratoire&quot; dans l’installation de l’intégrateur audio-vidéo. Cet arrangement permet un examen et des tests approfondis de l’ensemble de la solution pour le contrôle de la qualité.
+Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur ou l’intégratrice audiovisuel. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, implémente et supervise l’installation des composants matériels dans un « environnement de laboratoire » dans les locaux de l’intégrateur ou de l’intégratrice audiovisuel. Cet arrangement permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
 
-Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée de la documentation, des workflows et des formations à des fins de référence lors de la prise en charge du Jour 2. Les aspects des systèmes à tester sont les suivants :
+Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’assistance (Jour 2). Les aspects des systèmes à tester sont les suivants :
 
 * Intégrations des personnes chargées de l’implémentation d’AEM.
 * Intégrations de systèmes tiers.
@@ -67,7 +67,7 @@ Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique cr�
 
 ## Partie 3 : tutoriel vidéo sur les tests, preuves de concept, pilotes et déploiements {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Suivez le tutoriel ci-dessous pour comprendre les tests, les bons à tirer du concept, les programmes pilotes et les déploiements.
+Consultez le tutoriel ci-dessous pour comprendre les tests, les preuves de concept, les programmes pilotes et les déploiements.
 
 En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son ensemble, vous aiderez à gérer les attentes et à identifier les points naturels sur lesquels on évaluera l’investissement dans un déploiement d’AEM Screens.
 

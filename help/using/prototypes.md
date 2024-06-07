@@ -3,9 +3,9 @@ title: Prototypes
 description: Cette page décrit les prototypes d’un projet AEM Screens
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ Différents cas d’utilisation ont été créés pour servir de référence ou 
 
 
 >[!NOTE]
-> Pendant la phase de conception de l’expérience utilisateur, vérifiez que les données extraites par la conception de l’interface utilisateur sont prises en charge de manière adéquate.
+> Pendant la phase de conception de l’expérience d’utilisation, vérifiez que les données extraites par la conception de l’interface d’utilisation sont prises en charge de manière adéquate.
 > Par exemple, il est peu probable que tous les décideurs connaissent la structure de données de leur base de données produit. Ils peuvent ainsi choisir sur leur solution d’expérience utilisateur des descripteurs qui ne sont pas des champs principaux de la couche de données. Identifier le plus tôt possible à quel endroit une manipulation des données peut s’avérer nécessaire et communiquer cette information à la cliente ou au client permet d’éviter les malentendus par la suite. Si la cliente ou le client décide d’étendre ou de modifier l’étiquetage de l’interface utilisateur une fois que le développement a commencé, la prise en compte des modifications exigera davantage d’efforts.
