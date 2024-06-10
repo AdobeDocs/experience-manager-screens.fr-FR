@@ -4,9 +4,9 @@ description: Cette page décrit comment créer, gérer et utiliser des balises d
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
 source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ L’utilisateur ou l’utilisatrice peut créer des balises sur Screens Cloud e
 
 ## Créer et gérer des balises {#create-and-manage-tags}
 
-![créer une balise](assets/tagging/create-tag.gif).
+![Création d’une balise](assets/tagging/create-tag.gif).
 
 Utilisez le même menu Action pour renommer une balise ou la supprimer.
 
@@ -35,13 +35,13 @@ Utilisez le même menu Action pour renommer une balise ou la supprimer.
 
 Utilisez les balises créées sur les affichages et lecteurs. Vous pouvez en baliser un avec au maximum 30 balises.
 
-![gestion des affectations de balises](assets/tagging/assign-tags-to-players.gif).
+![Gestion des affectations de balises](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtrer par balises {#filter-by-tags}
 
 Sélectionnez des balises pour filtrer la liste des affichages ou lecteurs.
 
-![filtrer par balises](assets/tagging/filter-by-tags.gif).
+![Filtrage par balises](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
