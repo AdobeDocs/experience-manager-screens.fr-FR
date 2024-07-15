@@ -3,7 +3,7 @@ title: Stratégie de contenu commercial pour AEM Screens
 description: En savoir plus sur le marketing et la stratégie de contenu commercial concernant AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 

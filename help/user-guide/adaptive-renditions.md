@@ -3,7 +3,7 @@ title: Vue d’ensemble et configurations de l’architecture des rendus adaptat
 description: Découvrez la vue d’ensemble de l’architecture et les configurations dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 
    Cliquez sur la **règle1** que vous avez créée, puis saisissez l’**expression** dans **Nom** et **(orientation:landscape)** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
-   ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+   ![Image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
 1. Ajoutez la propriété motif avec la valeur contenant le modèle de dénomination de rendu.
 

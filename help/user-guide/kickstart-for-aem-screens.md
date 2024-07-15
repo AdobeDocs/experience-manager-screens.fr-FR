@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 100%
 
@@ -156,7 +156,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
 
    Ou,
 
-   Cliquez sur **Tableau de bord** dans la barre d’actions et sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
+   Cliquez sur **Tableau de bord** dans la barre d’actions, puis sur **+Attribuer le canal** dans le panneau **CANAUX ET PLANIFICATIONS AFFECTÉS**.
 
    ![image](assets/kickstart/demo-assign2.png)
 
@@ -187,7 +187,7 @@ Enregistrez votre appareil à l’aide du tableau de bord AEM.
 >
 >1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 >1. Décompressez-la et enregistrez-la sur le disque.
->1. Ouvrez le navigateur Chrome et sélectionnez **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
+>1. Ouvrez le navigateur Chrome et cliquez sur **Extensions** dans le menu ou accédez directement à ***chrome://extensions***.
 >1. Activez le **mode Développement** dans l’angle supérieur droit de l’écran.
 >1. Cliquez sur **Charger les fichiers décompressés** dans l’angle supérieur gauche et chargez le lecteur Chrome décompressé.
 >1. Vérifiez si le plug-in **Lecteur Chrome AEM Screens** est disponible dans la liste des extensions.

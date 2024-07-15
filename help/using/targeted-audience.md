@@ -2,7 +2,7 @@
 title: Audience cible
 description: Découvrez l’audience cible du guide des bonnes pratiques d’AEM Screens.
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 

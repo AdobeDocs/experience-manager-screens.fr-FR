@@ -11,7 +11,7 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ La méthode ad hoc vous permet d’installer le dernier lecteur Windows (*.exe*)
 Après avoir téléchargé l’application, suivez les étapes du lecteur pour terminer l’installation ad hoc :
 
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
-1. Accédez à **Configuration** depuis le menu d’actions de gauche, saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
+1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 1. Accédez au lien **Enregistrement** **des appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 
 >[!NOTE]

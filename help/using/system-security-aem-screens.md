@@ -2,7 +2,7 @@
 title: Liste de contrôle de sécurité d’AEM Screens
 description: En savoir plus sur la liste de contrôle de sécurité pour AEM Screens.
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 

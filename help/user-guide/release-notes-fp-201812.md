@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -57,4 +57,4 @@ Les lecteurs AEM Screens suivants sont publiés pour AEM 6.3 Feature Pack 5 et
 
 #### Téléchargements du lecteur AEM Screens
 
-Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, consultez [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).
+Pour télécharger le dernier lecteur AEM Screens et en savoir plus sur les correctifs, reportez-vous à la section [**Téléchargements du lecteur AEM Screens**](https://download.macromedia.com/screens/).

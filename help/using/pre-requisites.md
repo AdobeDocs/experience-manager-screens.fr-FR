@@ -3,7 +3,7 @@ title: Conditions préalables à l’utilisation d’[!UICONTROL AEM Screens]
 description: Découvrez les conditions préalables au démarrage d’un projet AEM Screens.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 

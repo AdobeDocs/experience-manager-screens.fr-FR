@@ -2,7 +2,7 @@
 title: Prise en charge post-lancement
 description: Découvrez la prise en charge post-lancement d’AEM Screens dans le guide des bonnes pratiques.
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 

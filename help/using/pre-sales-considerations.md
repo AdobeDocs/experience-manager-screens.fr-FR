@@ -3,7 +3,7 @@ title: Considérations relatives à la définition de la portée du projet
 description: En savoir plus sur les considérations à prendre en compte lorsque la portée d’un projet AEM Screens est définie.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 

@@ -2,7 +2,7 @@
 title: Instructions de sélection du matériel pour les appareils de lecture
 description: Découvrez les instructions de sélection du matériel pour les appareils de lecture AEM Screens.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: Suivi de l’assistance
 description: Découvrez le suivi de l’assistance dans le cadre du guide des bonnes pratiques d’AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

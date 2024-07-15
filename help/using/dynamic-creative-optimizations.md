@@ -3,7 +3,7 @@ title: Déclencheurs de données
 description: Découvrez les déclencheurs de données dans AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 

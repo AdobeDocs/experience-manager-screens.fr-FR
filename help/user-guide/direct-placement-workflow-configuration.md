@@ -2,7 +2,7 @@
 title: Configuration d’un workflow de placement direct
 description: Cette page décrit la configuration d’un workflow de placement direct.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 

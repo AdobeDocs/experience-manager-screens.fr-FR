@@ -3,7 +3,7 @@ title: Taxonomie du projet
 description: En savoir plus sur la taxonomie du projet concernant AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 

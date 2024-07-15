@@ -3,7 +3,7 @@ title: Dépendances de l’expérience utilisateur pour AEM Screens
 description: En savoir plus sur les dépendances de l’expérience utilisateur pour AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
