@@ -44,14 +44,14 @@ L’installation de Cloud Player peut varier selon les plateformes. En règle g�
 >
 >### Option d’installation de Cloud Player {#cloud-player-install-option}
 >
-1. L’option d’installation d’une PWA est également connue sous le nom de fonctionnalité « Ajouter à l’écran d’accueil » ou A2HS. La prise en charge de l’installation de PWA à partir du web varie en fonction du navigateur et de la plateforme.
-1. Chaque navigateur comporte des critères différents pour vérifier si l’application PWA peut être ou non installée. En règle générale, le navigateur peut vérifier (plus de détails ici) :
+>1. L’option d’installation d’une PWA est également connue sous le nom de fonctionnalité « Ajouter à l’écran d’accueil » ou A2HS. La prise en charge de l’installation de PWA à partir du web varie en fonction du navigateur et de la plateforme.
+>1. Chaque navigateur comporte des critères différents pour vérifier si l’application PWA peut être ou non installée. En règle générale, le navigateur peut vérifier (plus de détails ici) :
 >
-* Si l’application dispose d’un fichier JSON manifeste avec un minimum de clés requises pour l’installation de l’application sur la plateforme, c’est-à-dire nom, icônes, start_url, affichage.
-* Si l’application comporte un fichier de worker de service avec un listener d’événement de récupération.
-* L’application doit être diffusée via https.
+>* Si l’application dispose d’un fichier JSON manifeste avec un minimum de clés requises pour l’installation de l’application sur la plateforme, c’est-à-dire nom, icônes, start_url, affichage.
+>* Si l’application comporte un fichier de worker de service avec un listener d’événement de récupération.
+>* L’application doit être diffusée via https.
 >
-1. L’option d’installation peut être visible à différents emplacements dans différents navigateurs et types d’appareils. Certains navigateurs peuvent masquer l’icône d’installation dans la barre de menus des options.
+>1. L’option d’installation peut être visible à différents emplacements dans différents navigateurs et types d’appareils. Certains navigateurs peuvent masquer l’icône d’installation dans la barre de menus des options.
 
 ## Approvisionnement en bloc de Cloud Player {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ En fonction du type d’instance AEM, cliquez sur l’un des guides suivants pou
 
 >[!NOTE]
 >
-## Abandon des applications Chrome par Google
+>## Abandon des applications Chrome par Google
 >
-1. Applications Chrome sur le matériel Chrome OS :
+>1. Applications Chrome sur le matériel Chrome OS :
 >
-Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Cloud Player Screens.
+>Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Cloud Player Screens.
 >
-1. Lecteur d’extension Chrome sur Mac, Windows et Linux® :
+>1. Lecteur d’extension Chrome sur Mac, Windows et Linux® :
 >
-En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Cloud Player Screens pour toutes vos exigences de développement et de test.
+>En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Cloud Player Screens pour toutes vos exigences de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
