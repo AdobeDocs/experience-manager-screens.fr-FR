@@ -8,9 +8,9 @@ user-guide-description: Apprenez à utiliser une solution de signalétique numé
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 100%
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
    + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/using/about-guide)
    + [Termes clés](screens-glossary.md)
+   + [Terminologie et concepts de Screens](screens-concepts-feature-video-understand.md)
 + Notions de base sur les réseaux de signalétique numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
    + [Partie 2 : observations dans le cadre de la définition de la portée du projet](project-considerations.md)

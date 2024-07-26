@@ -10,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
+source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '133'
+ht-degree: 98%
 
 ---
 
@@ -52,4 +52,5 @@ ht-degree: 100%
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
 + Assistance et maintenance {#ongoing-support}
    + [Assistance et surveillance](support-monitoring.md)
-   + [Assistance et maintenance de la plateforme pour le jour 2](day-two-support-maintenance.md)
+   + [Assistance après le lancement](post-launch-support.md)
+   + [Assistance et maintenance de la plateforme pour le Jour 2](day-two-support-maintenance.md)
