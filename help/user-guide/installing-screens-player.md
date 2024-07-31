@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
@@ -57,6 +57,7 @@ Les propriétés suivantes sont incluses dans chaque `ping` :
 | lastContentChange {string} | date et heure de la dernière modification du contenu |
 
 >[!NOTE]
+>
 >Vous pouvez éventuellement activer une propriété plus avancée à partir des préférences du lecteur (activer le suivi de la lecture), à savoir :
 >
 >| Propriété | Description |
