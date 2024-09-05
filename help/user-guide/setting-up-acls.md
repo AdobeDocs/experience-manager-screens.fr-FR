@@ -1,6 +1,6 @@
 ---
 title: Configuration des listes de contrôle d’accès
-description: Découvrez comment séparer les projets à l’aide des listes de contrôle d’accès de sorte que chacune des personnes ou équipes gère son propre projet.
+description: Découvrez comment séparer les projets à l’aide des listes de contrôle d’accès (ACL) afin que chaque personne ou équipe gère son propre projet.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 90%
 
 ---
 
-# Configuration des listes de contrôle d’accès {#setting-up-acls}
+# Configuration des listes de contrôle d’accès (ACL) {#setting-up-acls}
 
-La section suivante explique comment séparer les projets à l’aide des listes de contrôle d’accès de sorte que chacune des personnes ou équipes gère son propre projet.
+La section suivante explique comment séparer les projets à l’aide des listes de contrôle d’accès (ACL) afin que chaque personne ou équipe gère son propre projet.
 
 En tant qu’administrateur ou administratrice d’AEM, vous devez vous assurer que les personnes membres de l’équipe d’un projet n’interfèrent pas avec les autres projets. Chaque utilisateur ou utilisatrice doit avoir des rôles spécifiques en fonction des exigences du projet.
 
