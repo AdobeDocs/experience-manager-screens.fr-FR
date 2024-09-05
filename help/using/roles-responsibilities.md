@@ -2,10 +2,10 @@
 title: Rôles et responsabilités dans un projet AEM Screens
 description: Découvrez les rôles et les responsabilités dans les projets AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 98%
 
 ---
 
@@ -44,6 +44,10 @@ En règle générale, les implémentateurs d’AEM déploient des fonctionnalit�
 L’intégrateur ou l’intégratrice audiovisuel constitue le partenaire et fournisseur matériel. Cette personne s’occupe de la préparation du site et de l’aménagement du point de vente, incluant l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’une personne tierce sous contrat qui a accès à un centre d’exploitation du réseau. L’intégrateur ou l’intégratrice audiovisuel est souvent la personne propriétaire du projet, compte tenu de son implication continue après le lancement.
 
 L’intégrateur ou l’intégratrice audiovisuel est la personne chargée d’enquêter auprès des clientes et clients finaux afin de définir les exigences et de déterminer la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements concernant le matériel de signalétique numérique.
+
+>[!NOTE]
+>
+> Vous devez disposer d’un intégrateur vidéo audio dans le cadre de votre déploiement AEM Screens.
 
 #### Sélection du partenaire matériel {#selecting-hardware-partner}
 
