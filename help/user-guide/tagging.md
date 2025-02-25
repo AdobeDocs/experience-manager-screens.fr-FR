@@ -3,10 +3,10 @@ title: Balisage sur Screens Cloud
 description: Cette page décrit comment créer, gérer et utiliser des balises dans Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 82%
+source-wordcount: '139'
+ht-degree: 88%
 
 ---
 
@@ -32,14 +32,13 @@ Utilisez le même menu Action pour renommer une balise ou la supprimer.
 
 ## Gérer les affectations de balises {#manage-tags-assignments}
 
-Utilisez les balises créées sur les affichages et lecteurs.
+Utilisez les balises créées sur les affichages et les lecteurs.
 
 ![Gestion des affectations de balises](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
-> 
-> Un affichage ou un lecteur peut comporter 100 balises au maximum.
-> Au plus 30 éléments peuvent être balisés en une seule fois.
+>  
+>Au plus 30 éléments peuvent être balisés en une seule fois.
 
 ## Filtrer par balises {#filter-by-tags}
 
