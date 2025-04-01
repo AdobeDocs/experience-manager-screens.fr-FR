@@ -4,10 +4,11 @@ description: Découvrez le pack de fonctionnalités 20250327 AEM Screens publi
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 9934df069cf7625b55d82cef58ee8fea08b585a1
+exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
+source-git-commit: 658acac989ed06f33dae10a6145ada31ff57811d
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 35%
+source-wordcount: '227'
+ht-degree: 36%
 
 ---
 
@@ -39,7 +40,4 @@ La date de publication du pack de fonctionnalités 20250327 d’AEM Screens es
 
 ### Correctifs {#bug-fixes}
 
-* Conflit de packages avec le pack de services 21 et le pack de fonctionnalités Screens. (SCRNS-4638)
-
 * Le tableau de bord Screens ne fonctionne pas. (SCRNS-4749)
-
