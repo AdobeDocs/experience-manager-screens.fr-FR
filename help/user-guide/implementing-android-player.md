@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 99%
 
 ---
 
 # Implémenter le lecteur Android™ {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
 
 Cette section décrit la configuration du lecteur Android™. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
 
@@ -94,7 +97,7 @@ Pour signer le fichier apk Android™ à l’aide des clés du fabricant, procé
 
 ## Comprendre les services Android™ Watchdog {#android-watchdog-services}
 
-Le service watchdog Android™ est mis en oeuvre en tant que module externe Cordova à l’aide de *AlarmManager*.
+Le service de surveillance cross-Android™ est implémenté sous la forme d’un plug-in Cordova à l’aide de *AlarmManager*.
 
 Le diagramme suivant illustre la mise en œuvre du service Watchdog :
 
