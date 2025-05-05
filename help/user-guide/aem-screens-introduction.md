@@ -57,7 +57,7 @@ Les illustrations ci-dessous définissent les personnages et leur rôle dans le 
 
 * **Principes d’implémentation guidée**
 
-  Suivez le parcours de formation guidé **[Principes d’implémentation d’Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a&amp;lang=fr)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans Experience Manager Screens.
+  Suivez le parcours de formation guidé **[Principes d’implémentation d’Experience Manager Screens](https://experienceleague.adobe.com/fr?launch=AEM-7a&amp;lang=fr)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans Experience Manager Screens.
 
 * **Guide des bonnes pratiques pour les projets Experience Manager Screens**
 
