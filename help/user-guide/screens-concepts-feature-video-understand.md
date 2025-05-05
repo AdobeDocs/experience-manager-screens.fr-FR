@@ -26,7 +26,7 @@ ht-degree: 93%
 
 Pour suivre les vidéos, vous avez besoin des éléments suivants :
 
-1. **AEM 6.4** ou **AEM 6.3* + **Pack de fonctionnalités 1 de Screens**
+1. **AEM 6.4** ou **AEM 6.3* + &#x200B;** Pack de fonctionnalités 1 de Screens**
 
 1. Un lecteur Screens
 
