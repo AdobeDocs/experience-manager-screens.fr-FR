@@ -73,7 +73,7 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 
 ### Tests, PDC, pilotes et déploiements
 
->[!VIDEO](https://video.tv.adobe.com/v/28405)
+>[!VIDEO](https://video.tv.adobe.com/v/32813?captions=fre_fr)
 
 *Découvrez les principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.*
 

@@ -56,7 +56,7 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 
 ### Partie 1 : rôles du projet et responsabilités
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/32830?captions=fre_fr)
 
 *Découvrez les rôles et responsabilités d’Adobe, des intégrateurs et intégratrices audiovisuels et des personnes en charge de l’implémentation d’AEM.*
 

@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Terminologie et concepts de Screens {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/40170?quality=9&captions=fre_fr)
 
 
 ## Canaux et plannings de création - Partie 1 {#channels-and-schedules-part-2}
@@ -34,11 +34,11 @@ Pour télécharger le lecteur AEM Screens, cliquez [ici](https://download.macrom
 
 La vidéo ci-dessous détaille la création d’un canal, la création de contenu et l’ajout d’un canal à un planning réutilisable. Il reprend dans les grandes lignes la première moitié du [Guide de démarrage de Screens](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39367?quality=9&captions=fre_fr)
 
 ## Afficher les affectations et l’enregistrement des appareils - Partie 2 {#display-and-device-pt2}
 
 La vidéo ci-dessous montre la création d’un emplacement, d’un affichage et d’une configuration d’appareil. La vidéo présente également les étapes d’enregistrement d’un appareil et d’affectation d&#39;un appareil à un affichage. Il reprend dans les grandes lignes la seconde moitié du Guide [de démarrage rapide de](kickstart-for-aem-screens.md)Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39388?quality=9&captions=fre_fr)
 
