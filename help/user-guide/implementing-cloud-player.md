@@ -67,15 +67,15 @@ Pour effectuer l’approvisionnement en bloc de Cloud Player sur plusieurs appar
 
 ## Approvisionnement en bloc sur le système d’exploitation Chrome {#bulk-provisioning-chrome}
 
-En savoir plus sur la mise en service en masse sur Chrome OS. Voir [Installation de Cloud Player sur Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+En savoir plus sur la mise en service en masse sur Chrome OS. Voir [Installation de Cloud Player sur Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_fr` >
 
 ## Configuration requise sur les instances AEM {#bulk-provisioning-config-aem}
 
 En fonction du type d’instance AEM, cliquez sur l’un des guides suivants pour activer CORS entre AEM et Cloud Player :
 
-* [AEM On-Promise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM On-Promise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_fr` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_fr` -->
 
 
 >[!NOTE]
