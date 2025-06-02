@@ -8,10 +8,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
 workflow-type: tm+mt
 source-wordcount: '854'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,9 +47,9 @@ L’installation de Cloud Player peut varier selon les plateformes. En règle g�
 >1. L’option d’installation d’une PWA est également connue sous le nom de fonctionnalité « Ajouter à l’écran d’accueil » ou A2HS. La prise en charge de l’installation de PWA à partir du web varie en fonction du navigateur et de la plateforme.
 >1. Chaque navigateur comporte des critères différents pour vérifier si l’application PWA peut être ou non installée. En règle générale, le navigateur peut vérifier (plus de détails ici) :
 >
->* Si l’application dispose d’un fichier JSON manifeste avec un minimum de clés requises pour l’installation de l’application sur la plateforme, c’est-à-dire nom, icônes, start_url, affichage.
->* Si l’application comporte un fichier de worker de service avec un listener d’événement de récupération.
->* L’application doit être diffusée via https.
+>    * Si l’application dispose d’un fichier JSON manifeste avec un minimum de clés requises pour l’installation de l’application sur la plateforme, c’est-à-dire nom, icônes, start_url, affichage.
+>    * Si l’application comporte un fichier de worker de service avec un listener d’événement de récupération.
+>    * L’application doit être diffusée via https.
 >
 >1. L’option d’installation peut être visible à différents emplacements dans différents navigateurs et types d’appareils. Certains navigateurs peuvent masquer l’icône d’installation dans la barre de menus des options.
 
@@ -67,15 +67,15 @@ Pour effectuer l’approvisionnement en bloc de Cloud Player sur plusieurs appar
 
 ## Approvisionnement en bloc sur le système d’exploitation Chrome {#bulk-provisioning-chrome}
 
-En savoir plus sur la mise en service en masse sur Chrome OS. Voir [Installation de Cloud Player sur Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_fr` >
+En savoir plus sur la mise en service en masse sur Chrome OS. Voir [Installation de Cloud Player sous le système d’exploitation Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## Configuration requise sur les instances AEM {#bulk-provisioning-config-aem}
 
 En fonction du type d’instance AEM, cliquez sur l’un des guides suivants pour activer CORS entre AEM et Cloud Player :
 
-* [AEM On-Promise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_fr` -->
+* [AEM On-Promise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_fr` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -84,11 +84,11 @@ En fonction du type d’instance AEM, cliquez sur l’un des guides suivants pou
 >
 >1. Applications Chrome sur le matériel Chrome OS :
 >
->Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Cloud Player Screens.
+>   Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Cloud Player Screens.
 >
 >1. Lecteur d’extension Chrome sur Mac, Windows et Linux® :
 >
->En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Cloud Player Screens pour toutes vos exigences de développement et de test.
+>   En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Cloud Player Screens pour toutes vos exigences de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
