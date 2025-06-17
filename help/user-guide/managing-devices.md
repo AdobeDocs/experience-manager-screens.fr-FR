@@ -62,8 +62,8 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 >[!NOTE]
 >
 >Chaque fois que vous ajoutez un premier appareil à un nouveau projet Screens, un groupe d’utilisateurs est créé.
->>Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
->>Ce groupe est ajouté en tant que membre au groupe **Contributeurs et contributrices**, comme illustré ci-dessous :
+>&#x200B;>Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
+>&#x200B;>Ce groupe est ajouté en tant que membre au groupe **Contributeurs et contributrices**, comme illustré ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

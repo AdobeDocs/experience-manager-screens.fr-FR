@@ -69,7 +69,7 @@ Avant de commencer à implémenter cette fonctionnalité, assurez-vous que les c
 
 * Créer un projet AEM Screens (dans cet exemple, **Demo**).
 * Créez un canal **global** dans le dossier **Canaux**.
-* Ajoutez du contenu à votre canal **Global** (*Consultez **Resources.zip**pour connaître les ressources appropriées*).
+* Ajoutez du contenu à votre canal **Global** (*Consultez **Resources.zip**&#x200B;pour connaître les ressources appropriées*).
 
 L’image suivante montre le projet **Démo** avec le canal **global** dans le dossier **Canaux**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)

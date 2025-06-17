@@ -28,8 +28,8 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 >[!IMPORTANT]
 >**Paramètres de configuration OSGi**
->>Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
->>Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
+>&#x200B;>Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+>&#x200B;>Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}

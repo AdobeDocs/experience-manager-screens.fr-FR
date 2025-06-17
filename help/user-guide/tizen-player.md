@@ -119,7 +119,7 @@ Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 
 >[!NOTE]
 >Les configurations de la politique de l’interface d’administration du lecteur sont appliquées de manière stricte et ne peuvent pas être remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.
->>Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
+>&#x200B;>Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
 
 | **Nom de la politique** | **Objectif** |
 |---|---|

@@ -39,7 +39,7 @@ Utilisez les balises créées sur les affichages et les lecteurs.
 >[!NOTE]
 >
 > 30 balises au maximum peuvent être attribuées à un affichage ou à un lecteur.
-> > Au plus 30 éléments peuvent être balisés en une seule fois.
+> &#x200B;> Au plus 30 éléments peuvent être balisés en une seule fois.
 
 ## Filtrer par balises {#filter-by-tags}
 

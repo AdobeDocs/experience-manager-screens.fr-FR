@@ -146,8 +146,8 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 h 59 (c
 >[!NOTE]
 >
 >Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
->>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
->>[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
+>&#x200B;>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+>&#x200B;>[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
 
 
 ## Gérer la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
