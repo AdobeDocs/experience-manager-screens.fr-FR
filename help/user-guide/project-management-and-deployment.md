@@ -1,5 +1,5 @@
 ---
-title: '« Partie 4 : gestion de projets et déploiement »'
+title: 'Partie 4 : gestion et déploiement de projets'
 description: Apprenez-en plus sur la gestion de projets et la préparation au déploiement (préproduction du projet, lancement du projet, progression du projet) pour AEM Screens.
 contentOwner: jsyal
 content-type: reference
@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 95%
 
 ---
 
@@ -41,9 +41,9 @@ Pour garantir la réussite du déploiement de la solution de signalétique numé
 
 La première étape est appelée ***Jour 0***. Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires lors de la définition du champ d’application d’un projet. La deuxième étape, ou ***Jour 1***, fait référence à toutes les activités faisant partie de l’effort de déploiement. Enfin, le ***Jour 2*** correspond à l’ensemble des opérations et éléments d’assistance courants dans le cadre de la solution totale.
 
-Les activités du Jour 0 comprennent les activités de pré-vente, la détection des clientes et clients, l’analyse des besoins des applications et la définition de la portée du projet. Cette étape peut également inclure l’engagement initial et la définition des besoins du projet pour la gestion de projet, et ce en vue du déploiement.
+Les activités du ***Jour zéro*** comprennent la phase de prévente, la détection des clients, l’analyse des besoins en applications et la définition de la portée du projet. Cette étape peut également inclure l’engagement initial et la définition des besoins du projet pour la gestion de projet, et ce en vue du déploiement.
 
-Le Jour zéro comprend huit étapes clés couvrant tous les aspects de la progression de la gestion du projet :
+Toutes les ***Jour zéro*** se composent de huit étapes clés couvrant tous les aspects de la montée en réputation de la gestion de projet :
 
 * Définition de la portée des travaux
 * Définition du calendrier du projet
@@ -80,7 +80,7 @@ Découvrez les principes de la préparation du déploiement et de la gestion de 
 
 ### Gestion de projet et déploiement
 
->[!VIDEO](https://video.tv.adobe.com/v/32793?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Apprenez-en plus sur la gestion de projet et la préparation du déploiement (préproduction du projet, lancement du projet, progression du projet).*
 

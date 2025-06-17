@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -114,9 +114,9 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Accédez à votre fichier *static.css* dans CRXDE Lite, puis ajoutez la police, par exemple `font-family: "Lucida Console", Courier, monospace;`, à ce fichier, comme illustré ci-dessous.
+1. Accédez à votre fichier *static.css* dans CRXDE Lite, puis ajoutez la police telle que `font-family: "Lucida Console", Courier, monospace;` à ce fichier, comme illustré ci-dessous.
 
-   ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
+   ![Image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. Lorsque vous enregistrez les modifications et chargez à nouveau la prévisualisation, vous voyez une mise à jour de la police de superposition de texte, comme illustré dans la figure ci-dessous.
 

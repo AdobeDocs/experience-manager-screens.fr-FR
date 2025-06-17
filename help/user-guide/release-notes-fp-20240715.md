@@ -4,10 +4,11 @@ description: Découvrez le pack de fonctionnalités 20240715 AEM Screens publi
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 971b3d3768602929e213abdf9ae407fe9015ab4b
+exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 55%
+source-wordcount: '148'
+ht-degree: 58%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 55%
 
 >[!CAUTION]
 >Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
->FeaturePack (FP) version 11.4 est compatible avec ServicePack (SP) jusqu&#39;à la version 20.
+>>FeaturePack (FP) version 11.4 est compatible avec ServicePack (SP) jusqu&#39;à la version 20.
 
 
 ## Disponibilité {#availability}
@@ -30,8 +31,8 @@ La date de publication du pack de fonctionnalités 20240715 d’AEM Screens est
 
 ### Nouveautés {#what-is-new}
 
-* Cette version comprend uniquement des correctifs de sécurité.
+Cette version comprend uniquement des correctifs de sécurité.
 
 ### Correctifs {#bug-fixes}
 
-* Problème XSS à /libs/screens/clientlibs/libs/scripts/scroll/tests/index.html (SCRNS-4359)
+Problème XSS à `/libs/screens/clientlibs/libs/scripts/scroll/tests/index.html` (SCRNS-4359)

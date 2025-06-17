@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Cliquez sur l’onglet **Arguments**.
-1. Dans la boîte de dialogue **Ligne de commande - Propriétés des étapes**, saisissez le format suivant dans la zone **Types MIME** : ***video/mp4***, et la commande suivante : ***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***. Cette commande démarre le workflow dans le champ **Commandes**.
+1. Dans la boîte de dialogue **Ligne de commande - Propriétés des étapes**, saisissez le format dans le champ **Types MIME** (sous la forme ***video/mp4***) et la commande sous la forme (***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***). Cette commande démarre le workflow dans le champ **Commandes**.
 
    Veuillez consulter les détails sur les **types Mime** et les **Commandes** dans la note ci-dessous.
 

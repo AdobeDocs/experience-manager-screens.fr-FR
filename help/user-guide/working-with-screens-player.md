@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
 En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur ou l’utilisatrice peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ou l’utilisatrice ne peut pas ouvrir l’interface d’utilisation de l’administration à partir du lecteur.
 
-Pour afficher l’interface d’utilisation de l’administration du lecteur Screens, appuyez longuement sur l’angle supérieur gauche afin d’ouvrir le menu d’administration, sur votre lecteur AEM Screens optimisé pour les écrans tactiles ou en utilisant la souris. Elle affiche les informations une fois l’enregistrement terminé et les canaux chargés.
+Pour afficher l’interface d’utilisation de l’administration du lecteur Screens, appuyez longuement sur l’angle supérieur gauche afin d’ouvrir le menu d’administration, sur votre lecteur AEM Screens optimisé pour les écrans tactiles ou en utilisant la souris. Les informations s’affichent une fois l’enregistrement terminé et les canaux chargés.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ La section suivante présente les directives de sélection du matériel pour un 
 * Vous devez toujours vous procurer des composants de qualité ***professionnelle*** ou ***industrielle*** pour le lecteur PC comme pour le panneau d’affichage ou le projecteur.
 
 * Adressez-vous toujours à des fournisseurs qui desservent le marché de la signalétique numérique.
-* Tenez toujours compte des facteurs environnementaux tels que la température ambiante et l’humidité relative.
+* Tenez toujours compte des facteurs environnementaux, tels que la température ambiante et l&#39;humidité relative.
 * Examinez toujours les exigences en matière d’alimentation et de conditionnement d’alimentation.
 * Examinez attentivement les besoins en performances et les ports d’E/S requis pour l’application.
 

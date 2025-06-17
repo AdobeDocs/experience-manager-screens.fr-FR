@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '987'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Ce processus permet aux auteurs et autrices de continuer à gérer l’appareil,
 
 ### Messagerie entre les instances de publication {#messaging-between-publish-instances}
 
-Souvent, une commande n’est censée être envoyée à un appareil qu’une seule fois. Toutefois, dans une architecture de publication à charge répartie, l’instance de publication à laquelle l’appareil se connecte est inconnue.
+Souvent, une commande n’est censée être envoyée à un appareil qu’une seule fois. Cependant, dans une architecture de publication avec équilibrage de charge, l’instance de publication à laquelle l’appareil se connecte est inconnue.
 
 Par conséquent, l’instance de création envoie le message à toutes les instances de publication. Cependant, seul un message unique doit être relayé à l’appareil. Pour garantir un message correct, une communication doit avoir lieu entre les instances de publication. Cette communication est réalisée en utilisant *Apache ActiveMQ Artemis*. Chaque instance de publication est placée dans une topologie à couplage faible à l’aide du service de découverte Sling basé sur Oak. ActiveMQ est configuré de sorte que chaque instance de publication puisse communiquer et créer une file de messages unique. L’appareil AEM Screens interroge la batterie de serveurs de publication AEM via la répartition de charge et sélectionne la commande qui se trouve au sommet de la file.
 

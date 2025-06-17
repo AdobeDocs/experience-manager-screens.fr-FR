@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Utiliser la commande à distance Screens {#implementing-remote-control}
 
-La fonctionnalité de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canal ou à des fonctionnalités telles qu’Effacer le cache et recharger. En outre, elle vous permet de voir la version locale du micrologiciel et les informations système du lecteur. Cette fonctionnalité est particulièrement utile, car il peut être difficile de connecter une souris. Ou d’utiliser sur des appareils de production hors de portée, et encore plus si le lecteur a perdu toute connexion avec AEM. Cela est également utile lorsque vous utilisez Samsung RMS, car la différence de résolution peut rendre difficiles la localisation et l’ouverture de l’interface d’utilisation de l’administration à l’aide d’une souris.
+La fonction de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canaux ou à des fonctionnalités telles que Effacer le cache et recharger. En outre, elle vous permet de voir la version locale du micrologiciel et les informations système du lecteur. Cette fonctionnalité est particulièrement utile, car il peut être difficile de connecter une souris. Ou d’utiliser sur des appareils de production hors de portée, et encore plus si le lecteur a perdu toute connexion avec AEM. Cela est également utile lorsque vous utilisez Samsung RMS, car la différence de résolution peut rendre difficiles la localisation et l’ouverture de l’interface d’utilisation de l’administration à l’aide d’une souris.
 
 ## Combinaisons de touches courantes de commande à distance {#using-common-remote-control}
 

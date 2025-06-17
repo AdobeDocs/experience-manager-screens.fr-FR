@@ -4,10 +4,11 @@ description: Découvrez le pack de fonctionnalités 20250327 AEM Screens publi
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
+exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 35%
+source-wordcount: '232'
+ht-degree: 36%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 35%
 
 >[!CAUTION]
 >Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
->Adobe vous recommande d’utiliser FP11.6 avec SP(servicepack) >= 21.
+>>Adobe vous recommande d’utiliser FP11.6 avec SP(servicepack) >= 21.
 
 ## Disponibilité {#availability}
 
@@ -35,7 +36,7 @@ La date de publication du pack de fonctionnalités 20250327 d’AEM Screens es
 
 * **Mise à jour concernant les lecteurs AEM Screens**
    * Le lecteur AEM Screens basé sur Linux est officiellement obsolète. Il est conseillé aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
-   * Aucune autre mise à jour ou amélioration ne sera apportée au lecteur AEM Screens basé sur Android. Les utilisateurs sont invités à migrer vers un autre système d’exploitation pris en charge par AEM Screens.
+   * Aucune autre mise à jour ou amélioration n’est apportée au lecteur AEM Screens basé sur Android. Nous recommandons aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
 
 ### Correctifs {#bug-fixes}
 

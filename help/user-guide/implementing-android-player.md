@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 97%
+source-wordcount: '1492'
+ht-degree: 94%
 
 ---
 
@@ -76,7 +76,7 @@ En raison de l’architecture d’Android™, le redémarrage de l’appareil re
 
 ### Signature de `apks` Android™ à l’aide des clés du fabricant {#signage-of-android-apks-using-manufacturer-keys}
 
-Pour accéder à certaines des API privilégiées d’Android™ telles que *PowerManager* ou *HDMIControlServices*, vous devez signer le `apk` Android™ à l’aide des clés du fabricant.
+Pour accéder à certaines des API privilégiées d’Android™, telles que *PowerManager* ou *HDMIControlServices*, signez le `apk` Android™ à l’aide des clés du fabricant.
 
 >[!CAUTION]
 >
@@ -132,7 +132,7 @@ Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au ta
 1. Lorsque l’application du lecteur est lancée, ce fichier de configuration est lu et pointe vers le serveur AEM approprié où il est enregistré puis contrôlé.
 
    >[!NOTE]
-   >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant que le fichier de configuration ne soit supprimé, il vous suffit de désinstaller et de réinstaller l’application sur l’appareil.
+   >Ce fichier est *en lecture seule* la première fois que l’application est lancée et ne peut pas être utilisé pour les configurations suivantes. Si le lecteur est lancé avant l’abandon du fichier de configuration, il suffit de désinstaller et de réinstaller l’application sur l’appareil.
 
 ### Attributs de politique {#policy-attributes}
 
@@ -145,7 +145,7 @@ Le tableau suivant résume les attributs de politique et inclut un exemple de po
 | *rebootSchedule* | La programmation du redémarrage s’applique à toutes les plates-formes. |
 | *enableAdminUI* | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur *false* une fois qu’elle est entièrement configurée et en production. |
 | *enableOSD* | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices changent de canaux sur l’appareil. Pensez à la définir sur *false* une fois qu’elle est entièrement configurée et en production. |
-| *enableActivityUI* | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
+| *enableActivityUI* | Activez cette option pour afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | *enableNativeVideo* | Activez cette option afin d’utiliser l’accélération matérielle native pour la lecture vidéo (Android™ uniquement). |
 
 ### Exemple de politique JSON {#example-json}

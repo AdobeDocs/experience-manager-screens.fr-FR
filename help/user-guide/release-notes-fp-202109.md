@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ La date de publication du Feature Pack 202109 d’AEM Screens est le 23 sept
 
 * **Prise en charge des miniatures de vidéos**
 
-  Les miniatures de vidéos sont désormais prises en charge dans AEM Screens. Un auteur ou une autrice de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. L’auteur ou l’autrice teste également correctement la lecture et le ciblage du contenu, tandis que l’équipe appropriée finalise la vidéo réelle. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
+  La prise en charge des miniatures pour les vidéos est désormais disponible dans AEM Screens. Un auteur ou une autrice de contenu définit une miniature pour les vidéos afin que l’image soit utilisée comme espace réservé. L’auteur ou l’autrice teste également correctement la lecture et le ciblage du contenu, tandis que l’équipe appropriée finalise la vidéo réelle. L’image peut également être utilisée au cas où la lecture de la vidéo échouerait.
 Pour plus d’informations, voir [Prise en charge des miniatures de vidéos](/help/user-guide/thumbnail-support.md).
 
 * **Suivi de base de la lecture**

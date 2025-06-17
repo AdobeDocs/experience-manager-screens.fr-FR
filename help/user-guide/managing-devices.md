@@ -1,5 +1,5 @@
 ---
-title: Gérer les appareils
+title: Gestion des appareils
 description: Découvrez l’attribution et la gestion des appareils dans AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 92%
 
 ---
 
-# Gérer les appareils {#managing-devices}
+# Gestion des appareils {#managing-devices}
 
 Cette page décrit la procédure d’attribution des appareils.
 
@@ -40,7 +40,7 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Cliquez sur un appareil non attribué dans la liste et sur **Attribuer le périphérique** dans la barre d’actions.
+1. Cliquez sur un appareil non affecté dans la liste, puis, dans la barre d’actions, cliquez sur **Attribuer un appareil**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 >[!NOTE]
 >
 >Chaque fois que vous ajoutez un premier appareil à un nouveau projet Screens, un groupe d’utilisateurs est créé.
->Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
->Ce groupe est ajouté en tant que membre au groupe **Contributeurs et contributrices**, comme illustré ci-dessous :
+>>Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
+>>Ce groupe est ajouté en tant que membre au groupe **Contributeurs et contributrices**, comme illustré ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

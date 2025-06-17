@@ -2,10 +2,10 @@
 title: Principes de base de la signalétique numérique pour [!UICONTROL AEM Screens]
 description: Découvrez les principes de base d’un projet de signalétique numérique.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ La définition des éléments clés est une étape essentielle avant la mise en 
 
 1. **Connectivité**
 
-   La connectivité met l’accent sur les questions suivantes :
+   La connectivité soulève les questions suivantes :
    * Réseau (cellulaire ou Wi-Fi) ou autonome ?
       * Devez-vous autoriser les mises à jour de contenu USB ?
       * Devez-vous autoriser la collecte de données d’utilisation ?

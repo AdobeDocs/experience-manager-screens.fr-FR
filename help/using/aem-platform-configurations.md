@@ -2,10 +2,10 @@
 title: Configurations de plateforme AEM
 description: Cette page décrit les configurations d’AEM Platform
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Consultez **[Configurations de Dispatcher pour AEM Screens](https://experiencel
 Installez FFMpeg en suivant les étapes relatives au système d’exploitation approprié (généralement RHEL) :
 
 1. Si vous effectuez l’installation en activant EPEL et RPMFusion, vous pouvez installer tous les codecs gstreamer afin d’étendre la prise en charge aux conversions FFMpeg.
-1. Si le codec AAC est marqué comme « expérimental », les conversions FFMpeg échouent. Pour éviter cela, ajoutez `-strict -2` aux profils vidéo (/etc/dam/video dans AEM 6.3 ; /libs/settings/dam/video dans AEM 6.4).
+1. Si le codec AAC est marqué comme « expérimental », les conversions FFMpeg échouent. Pour éviter ce problème, ajoutez des `-strict -2` aux profils vidéo (`/etc/dam/video` dans AEM 6.3 et déplacés vers `/libs/settings/dam/video in AEM 6.4`)
 
    >[!NOTE]
    >

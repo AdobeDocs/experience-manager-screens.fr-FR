@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -310,7 +310,7 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
    1. Cliquez sur **Créer un groupe** et saisissez **Global-Auteur** dans **ID**.
    1. Cliquez sur **Enregistrer et fermer**.
 
-   De même, créez deux autres groupes comme **Région-Auteur** et **Magasin-Auteur**.
+   De même, créez deux autres groupes, tels que **Region-Author** et **Store-Author**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
@@ -318,12 +318,12 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
 
    1. Accédez à **Adobe Experience Manager**.
    1. Cliquez sur **Outils** > **Sécurité** > **Utilisateurs ou utilisatrices**.
-   1. Cliquez sur **Créer un utilisateur** et saisissez **Global-Utilisateur** dans **ID**.
+   1. Cliquez sur **Créer un utilisateur** puis, dans **ID**, saisissez **Global-User**.
    1. Saisissez le **mot de passe** et confirmez le mot de passe de cette personne.
    1. Cliquez sur l’onglet **Groupes** et saisissez le nom du groupe dans **Cliquer sur un groupe**, par exemple, saisissez **Global-Auteur/Autrice** pour ajouter **Global-Utilisateur/Utilisatrice** à ce groupe spécifique.
    1. Cliquez sur **Enregistrer et fermer**.
 
-   De même, créez deux autres utilisateurs ou utilisatrices, comme **Région-Utilisateur/Utilisatrice** et **Magasin-Utilisateur/Utilisatrice**, puis ajoutez-les à **Région-Auteur/Autrice** et à **Magasin-Auteur/Autrice** respectivement.
+   De même, créez deux autres utilisateurs, tels que **Region-User** et **Store-User**, puis ajoutez-les respectivement à **Region-Author** et **Store-Author**.
 
    >[!NOTE]
    >Il est recommandé de commencer par ajouter des utilisateurs à un groupe, puis d’attribuer des autorisations à chaque groupe d’utilisateurs.

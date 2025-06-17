@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 100%
+source-wordcount: '1698'
+ht-degree: 97%
 
 ---
 
@@ -133,7 +133,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    Boîte de dialogue copiée à partir de `/libs/wcm/foundation/components/image/cq:dialog` vers `/apps/weretail-run/components/content/poster`.
 
-   Le composant `image` AEM Screens est un supertype du composant `image` WCM Foundation. Le composant `poster` hérite donc des fonctionnalités des deux. La boîte de dialogue du composant Poster est composée d’une combinaison des boîtes de dialogue Screens et Foundation. Les fonctionnalités de la **fusion de ressources Sling** permettent de masquer les champs et les onglets inutiles de boîte de dialogue hérités des composants de supertype.
+   Le composant `image` AEM Screens est un supertype du composant `image` WCM Foundation. Le composant `poster` hérite donc des fonctionnalités des deux. La boîte de dialogue du composant Poster est composée d’une combinaison des boîtes de dialogue Screens et Foundation. Les fonctionnalités du **`Sling Resource Merger`** sont utilisées pour masquer les champs de boîte de dialogue et les onglets non pertinents hérités des composants supertypés.
 
 1. Mettez à jour `cq:dialog` dans `/apps/weretail-run/components/content/poster` avec les modifications suivantes représentées en XML :
 
@@ -308,7 +308,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
    </div>
    ```
 
-   La balise **modifier** du composant Poster est affichée directement au-dessus. Le script HTL remplace `/libs/screens/core/components/content/image/edit.html`. La balise est similaire à la balise `production.html`. Elle affiche le titre et la description au-dessus de l’image.
+   Le balisage **modifié** du composant Poster est visible directement au-dessus. Le script HTL remplace `/libs/screens/core/components/content/image/edit.html`. La balise est similaire à la balise `production.html`. Elle affiche le titre et la description au-dessus de l’image.
 
    L’élément `aem-Screens-editWrapper` est ajouté de sorte que le composant ne soit pas affiché en plein écran dans l’éditeur. L’attribut `data-emptytext` garantit l’affichage d’un espace réservé en l’absence de contenu ou d’image.
 
@@ -355,7 +355,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Il est possible d’utiliser Sass ou d’autres pré-compilateurs, mais la compilation doit être réalisée en dehors d’AEM.
+   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
 
 1. Remplissez `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` avec les éléments suivants :
 

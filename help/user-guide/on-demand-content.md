@@ -6,22 +6,22 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '822'
+ht-degree: 90%
 
 ---
 
-# Mise à jour du contenu à la demande {#on-demand}
+# Mise à jour de contenu à la demande {#on-demand}
 
 Cette section décrit le contenu à la demande pour la gestion des publications.
 
-## Gestion de la publication : diffusion des mises à jour de contenu de l’instance de création vers l’instance de publication vers l’appareil. {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Gérer la publication : diffuser des mises à jour de contenu de l’auteur à publier sur l’appareil {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Vous pouvez publier le contenu et annuler sa publication à partir d’AEM Screens. La fonctionnalité Gérer les publications vous permet de diffuser des mises à jour de contenu de création vers l’instance de publication vers l’appareil. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, appareils, applications ou plannings.
+Vous pouvez publier le contenu et annuler sa publication à partir d’AEM Screens. **Gérer la publication** vous permet de diffuser des mises à jour de contenu de l’auteur à publier sur l’appareil. Vous pouvez publier/annuler la publication de contenu pour l’ensemble de votre projet AEM Screens ou uniquement pour l’un de vos canaux, emplacements, appareils, applications ou plannings.
 
-### Gestion de la publication pour un projet AEM Screens {#managing-publication-for-an-aem-screens-project}
+### Gérer la publication d’un projet AEM Screens {#managing-publication-for-an-aem-screens-project}
 
 Pour diffuser des mises à jour de contenu de l’instance de création vers l’instance de publication vers l’appareil pour un projet AEM Screens, procédez comme suit :
 
@@ -46,7 +46,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
-   **Comprendre la boîte de dialogue Inclure les enfants**
+   **Boîte de dialogue Comprendre l’inclusion des enfants**
 
    Les étapes mentionnées ci-dessus montrent comment publier l’intégralité du contenu. Si vous voulez utiliser les trois autres alternatives disponibles, vous devez cocher cette option.
 Par exemple, l’image suivante montre comment vous pouvez gérer et mettre à jour uniquement les pages modifiées de votre projet :
@@ -72,7 +72,7 @@ cette option vous permet de gérer les mises à jour uniquement sur les pages qu
    >
    >
    >    1. Le workflow ne fonctionne pas si le projet ne contient aucune modification et qu’il n’y a pas lieu de **mettre à jour le contenu hors ligne**.
-   >    1. Le processus ne fonctionne pas si l’auteur ou l’autrice n’effectue pas le processus de réplication (le contenu est toujours en cours de chargement vers l’instance de publication) après avoir sélectionné le bouton **Publier** dans le workflow de gestion de la publication.
+   >    1. Le workflow ne fonctionne pas si l’auteur ne termine pas le processus de réplication (le contenu est chargé sur l’instance de publication) après avoir sélectionné le bouton **Publier** dans le workflow de gestion de la publication.
 
    >[!CAUTION]
    >Si, en tant que créateur ou créatrice de contenu, vous souhaitez voir les modifications apportées aux appareils connectés à l’instance de création, cliquez sur **Mettre à jour le contenu hors ligne** dans le tableau de bord du canal ou en sélectionnant le projet. Dans ce cas, le contenu hors ligne n’est mis à jour que dans l’instance de création.
@@ -90,7 +90,7 @@ cette option vous permet de gérer les mises à jour uniquement sur les pages qu
    >
    >Déclenchez la mise à jour du contenu hors ligne dans l’instance de création si un lecteur est enregistré sur le serveur de création. La mise à jour du contenu hors ligne n’est pas requise pour le lecteur enregistré sur l’instance de publication.
 
-### Gestion de la publication pour un canal {#managing-publication-for-a-channel}
+### Gérer la publication d’un canal {#managing-publication-for-a-channel}
 
 Pour diffuser des mises à jour de contenu de l’instance de création vers l’instance de publication puis vers l’appareil pour un canal dans un projet AEM Screens, procédez comme suit :
 
@@ -123,7 +123,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
    >
    >Publiez d’abord, puis déclenchez la mise à jour du contenu hors ligne, comme indiqué dans les étapes précédentes.
 
-### Réaffectation de canal et d’appareil : {#channel-and-device-re-assignment}
+### Réaffectation de canal et d’appareil : {#channel-and-device-re-assignment}
 
 Si vous avez réassigné un appareil, vous devez publier à la fois l’affichage initial et le nouvel affichage, une fois que l’appareil a été réassigné au nouvel affichage.
 

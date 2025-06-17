@@ -1,6 +1,6 @@
 ---
-title: Créer et gérer les plannings
-description: Découvrez les plannings qui permettent d’organiser les canaux en groupes réutilisables. Ainsi, vous n’avez pas à répéter leur attribution individuellement.
+title: Créer et gérer des planifications
+description: Découvrez les plannings qui vous permettent d’organiser les canaux en groupes réutilisables afin de ne pas avoir à répéter leur affectation individuellement.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
-# Créer et gérer les plannings {#creating-and-managing-schedules}
+# Créer et gérer des plannings {#creating-and-managing-schedules}
 
 Les **plannings** dans AEM Screens vous permettent d’organiser les canaux en groupes réutilisables. Cela signifie que vous n’avez pas à répéter leur attribution individuellement pour chaque affichage sur lequel vous souhaitez afficher votre contenu.
 
@@ -26,7 +26,7 @@ Lorsqu’ils sont combinés avec des ***tranches horaires***, les plannings perm
 >
 >Cette fonctionnalité d’AEM Screens est disponible uniquement si vous avez installé le pack de fonctionnalités 1 d’AEM 6.3 Sites. Pour accéder à ce pack de fonctionnalités, contactez l’assistance d’Adobe et demandez à y accéder. Lorsque vous disposez des autorisations nécessaires, vous pouvez le télécharger à partir de Partage de modules.
 
-## Création d’une planning {#creating-a-schedule}
+## Créer un planning {#creating-a-schedule}
 
 Vous pouvez créer pour votre projet Screens un planning qui peut gérer toutes les activités de votre cas d’utilisation.
 
@@ -42,7 +42,7 @@ Suivez les étapes ci-dessous pour créer un planning pour votre canal :
 Vous voyez un dossier de plannings avec le nom et le titre de votre projet.
 
 
-## Affichage du tableau de bord {#viewing-dashboard}
+## Afficher le tableau de bord {#viewing-dashboard}
 
 Lorsque vous avez créé le dossier de plannings dans votre projet, vous pouvez afficher les détails du tableau de bord des plannings.
 
@@ -58,8 +58,8 @@ Procédez comme suit pour afficher le tableau de bord des plannings. L’exemple
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panneau Informations sur le planning** Cliquez sur Propriétés dans le coin supérieur droit du panneau INFORMATIONS SUR LE PLANNING pour afficher/modifier les propriétés du planning.
+   **Panneau d’informations sur la planification** - Cliquez sur Propriétés dans le coin supérieur droit du panneau d’informations sur la planification pour afficher/modifier les propriétés de la planification.
 
-   **Panneau Canaux attribués** Cliquez sur +Attribuer le canal dans le coin supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canaux.
+   **Panneau Canaux attribués** - Cliquez sur +Attribuer un canal dans le coin supérieur droit du panneau CANAUX ATTRIBUÉS pour ouvrir la boîte de dialogue Attribution de canal.
 
-   **Panneau Affichages attribués** Cliquez sur l’un des affichages dans le panneau AFFICHAGES ATTRIBUÉS pour ouvrir le tableau de bord de l’affichage.
+   **Panneau Affichages attribués** - Cliquez sur l’un des affichages du panneau AFFICHAGES ATTRIBUÉS pour ouvrir le tableau de bord d’affichage.

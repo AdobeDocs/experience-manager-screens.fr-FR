@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '619'
+ht-degree: 88%
 
 ---
 
@@ -57,9 +57,9 @@ Le modèle de données de l’Importateur de projet est décrit ci-dessous :
 
 La feuille de calcul (fichier CSV/XLS) requiert donc les colonnes suivantes :
 
-* **path {string}** : chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès correspond au dossier d’emplacement du projet (c’est-à-dire *`/foo`* est importé dans *`/content/screens/<project>/locations/foo`*).
-* **template {string}** : modèle à utiliser pour le nouvel emplacement, pour l’instant la seule valeur autorisée est « location », mais cette valeur sera étendue ultérieurement à tous les modèles Screens (`display`, `sequencechannel`, etc.).
-* **[./*] {string}** : toute propriété facultative à définir sur l’emplacement (c’est-à-dire, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La version actuelle ne permet aucun filtrage.
+* **path{string}** - Chemin d’accès de l’emplacement à importer, où la racine du chemin d’accès est le dossier d’emplacement du projet (c’est-à-dire *`/foo`* est importé dans *`/content/screens/<project>/locations/foo`*)
+* **modèle{string}** - Le modèle à utiliser pour le nouvel emplacement. Pour l’instant, la seule valeur autorisée est « location », mais cette valeur sera étendue à tous les modèles `Screens` à l’avenir (`display`, `sequencechannel`, etc.)
+* **[./*] {string}** - Toute propriété facultative à définir à l’emplacement (c’est-à-dire `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La version actuelle ne permet aucun filtrage.
 
 >[!NOTE]
 >

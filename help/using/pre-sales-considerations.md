@@ -2,10 +2,10 @@
 title: Considérations relatives à la définition de la portée du projet
 description: En savoir plus sur les considérations à prendre en compte lorsque la portée d’un projet AEM Screens est définie.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!NOTE]
 >Cette activité est généralement réalisée par une personne spécialisée dans la stratégie opérationnelle/marketing.
 
-Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement le champ d’application du projet. Le travail effectué lors du jour 0 détermine la suite du projet et a une incidence sur le succès global de l’application en cours de création.
+Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement le champ d’application du projet. Les travaux terminés le `Day Zero` jettent les bases du projet et ont une incidence directe sur le succès global de la demande.
 À ce stade, les principaux fournisseurs sont identifiés et regroupés pour faciliter l’établissement du plan du projet. Au cours de cette étape, il est important que l’accord soit également établi avec les principales parties prenantes du projet au sein de la société cliente. Ces parties prenantes comprennent les personnes responsables des ventes et du marketing, et les équipes informatiques. Ces personnes ont toutes un rôle important à jouer dans le développement de l’application et sa maintenance continue.
 
 ## Principaux éléments livrables {#key-deliverables}

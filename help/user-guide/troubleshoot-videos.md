@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ Pour configurer une stratégie absolue, procédez comme suit :
 
 1. Ouvrez les préférences **Date et heure** pour chaque lecteur OS X.
 1. Activez l’option **Définir automatiquement la date et l’heure**.
-1. Collez value 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com dans la liste déroulante ou exécutez simplement *sudo ntpdate -u -v 0.pool.ntp.org*.
+1. Collez la valeur 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com dans la liste déroulante ou exécutez simplement *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. Démarrez deux lecteurs ou plus.
 
 Il peut s’écouler un certain temps avant que les lecteurs ne commencent une nouvelle séquence synchronisée.

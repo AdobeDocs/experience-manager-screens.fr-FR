@@ -6,10 +6,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Cliquez sur **Chemin du canal**, puis sur **Channel Level Activation** > ***Canaux*** > ***MainAdChannel***.
    1. Le **Rôle du canal** est défini comme **mainadchannel**.
    1. Cliquez sur **Priorité** et définissez la valeur sur **1**.
-   1. Cliquez sur **Événements pris en charge** : **Chargement initial** et **Écran inactif**.
+   1. Cliquez sur les **Événements pris en charge** tels que **Charge initiale** et **Écran inactif**.
    1. Cliquez sur **Enregistrer**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
@@ -146,8 +146,8 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 h 59 (c
 >[!NOTE]
 >
 >Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
->[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
->[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
+>>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+>>[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
 
 
 ## Gérer la périodicité des ressources dans un canal {#handling-recurrence-in-assets}

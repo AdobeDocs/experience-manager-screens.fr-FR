@@ -5,9 +5,9 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ Si le test de la connexion échoue lors de la réplication des configurations Co
    Suivez les étapes ci-dessous :
 
    1. Accédez à Outils > **Opérations** > **Console web** `http://localhost:4502/system/console/configMgr`pour ouvrir l’**écran de la console web Adobe Experience Manager**.
-   1. Recherchez **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**.
+   1. Recherchez **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 

@@ -1,27 +1,27 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Guide des bonnes pratiques pour les projets AEM Screens
+user-guide-title: Bonnes pratiques pour les projets AEM Screens
 breadcrumb-title: Guide des bonnes pratiques pour AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 98%
+source-wordcount: '131'
+ht-degree: 80%
 
 ---
 
 
-# Guide des bonnes pratiques pour les projets AEM Screens {#using}
+# Bonnes pratiques pour les projets AEM Screens {#using}
 
 + [À propos de ce guide](about-guide.md)
-+ Présentation {#overview}
++ Vue d’ensemble {#overview}
    + [Présentation d’AEM Screens](introduction.md)
    + [Rôles et responsabilités du projet](roles-responsibilities.md)
    + [Prérequis](pre-requisites.md)
@@ -52,5 +52,5 @@ ht-degree: 98%
    + [Stratégie d’engagement des fournisseurs](vendor-engagement.md)
 + Assistance et maintenance {#ongoing-support}
    + [Assistance et surveillance](support-monitoring.md)
-   + [Assistance après le lancement](post-launch-support.md)
+   + [Prise en charge après le lancement](post-launch-support.md)
    + [Assistance et maintenance de la plateforme pour le Jour 2](day-two-support-maintenance.md)

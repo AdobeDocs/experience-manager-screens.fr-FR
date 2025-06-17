@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 90%
+ht-degree: 85%
 
 ---
 
 # Configuration des listes de contrôle d’accès (ACL) {#setting-up-acls}
 
-La section suivante explique comment séparer les projets à l’aide des listes de contrôle d’accès (ACL) afin que chaque personne ou équipe gère son propre projet.
+La section suivante explique comment séparer les projets à l’aide de listes de contrôle d’accès (ACL) afin que chaque personne ou équipe gère son propre projet.
 
 En tant qu’administrateur ou administratrice d’AEM, vous devez vous assurer que les personnes membres de l’équipe d’un projet n’interfèrent pas avec les autres projets. Chaque utilisateur ou utilisatrice doit avoir des rôles spécifiques en fonction des exigences du projet.
 
@@ -75,7 +75,7 @@ Le tableau ci-dessous résume le chemin avec les autorisations au niveau du proj
 
 >[!NOTE]
 >
->Vous pouvez parfois séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans un tel scénario, créez deux groupes et ajoutez le groupe d’auteurs et d’autrices aux contributeurs et contributrices et le groupe d’administrateurs et d’administratrices aux contributeurs et contributrices et aux utilisateurs-administrateurs et utilisatrices-administratrices.
+>Vous pouvez parfois séparer les fonctions de création (telles que la gestion des ressources et la création de canaux) des fonctions d’administration (telles que l’enregistrement des lecteurs). Dans un tel scénario, créez deux groupes et ajoutez le groupe de l’auteur aux contributeurs et le groupe d’administrateurs aux contributeurs et aux administrateurs-utilisateurs.
 
 ### Création de groupes {#creating-groups}
 

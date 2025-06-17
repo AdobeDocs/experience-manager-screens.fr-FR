@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -114,6 +114,7 @@ Cliquez également sur **Paramètres** dans le coin supérieur droit pour mettre
 
 >[!NOTE]
 >Vous pouvez cliquer sur l’un des niveaux de journal suivants :
+>
 >* **Désactiver**
 >* **Déboguer**
 >* **Infos**
@@ -126,7 +127,7 @@ Cliquez également sur **Paramètres** dans le coin supérieur droit pour mettre
 
 Activez le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran.
 
-Actuellement, certaines de ces fonctions ne sont disponibles que si l’option *Allow Empty d’Apache Sling Referrer Filter* est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+Actuellement, certaines de ces fonctionnalités ne sont disponibles que si le *`Apache Sling Referrer Filter Allow Empty`* est activé dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
 
 Pour activer l’option Autoriser un filtre de référent vide d’Apache Sling, procédez comme suit :
 

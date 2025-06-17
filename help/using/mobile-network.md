@@ -2,10 +2,10 @@
 title: Réseau mobile direct
 description: Découvrez la configuration de réseau mobile direct dans AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Dans le prolongement de cette réflexion, le package de données nécessaire doi
 
 Au-delà de l’accessibilité, les performances du réseau local tiennent à la capacité à fournir une bande passante suffisante pour utiliser AEM Screens de manière fluide. Pour les réseaux locaux, la vitesse recommandée est de 100 Mbit/s au moins, de sorte qu’il y ait suffisamment de bande passante pour connecter de nombreux appareils avec de bonnes performances système.
 
-Si vous utilisez d’autres composants réseau actifs, il est obligatoire qu’ils correspondent aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante de l’accès Internet ou de la spécification du routeur. Sinon, la bande passante totale est limitée par le maillon le plus faible de la chaîne réseau.
+Lors de l’utilisation d’autres composants réseau actifs, il est obligatoire qu’ils correspondent tous aux exigences de bande passante du réseau. Par exemple, les composants réseau doivent correspondre au moins à la norme 100 Mbit/s et à la bande passante de l’accès Internet ou de la spécification du routeur. Sinon, la bande passante totale est limitée par le maillon le plus faible de la chaîne réseau.
 
 ## Télécharger des médias et des ressources {#download}
 

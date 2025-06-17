@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -61,7 +61,7 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
 
 1. Ajoutez les propriétés suivantes :
 
-   **Chemin du projet** Spécifiez le chemin d’accès de votre projet AEM Screens. Le chemin est habituellement `/content/screens/<Name of your project>`.
+   **Chemin du projet** - Indique le chemin de votre projet AEM Screens. Le chemin est habituellement `/content/screens/<Name of your project>`.
 
    *Par exemple*, `/content/screens/we-retail`. Vous pouvez trouver ce chemin dans l’URL en sélectionnant un projet sous AEM Screens (ne cliquez pas sur l’icône).
 
@@ -69,6 +69,6 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    >
    >Spécifiez le chemin du projet par rapport à votre canal.
 
-   **Fréquence de planning** Indiquez une heure, par exemple, 17 h 00, à laquelle ce service doit mettre à jour le contenu hors ligne.
+   **Fréquence de planification** - Indique une heure, par exemple 17 h ou 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
 
 1. Cliquez sur **Enregistrer** pour pouvoir enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure indiquée.

@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
 
 1. Définissez les champs suivants pour configurer les paramètres d’e-mail :
 
-   **Chemin d’accès aux appareils** Saisissez le chemin d’accès aux projets Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
+   **Chemin d’accès aux appareils** - Saisissez le chemin d’accès aux projets Screens que vous souhaitez surveiller. Le chemin est habituellement `/home/users/screens/<Name of your project>`.
 
    Par exemple, si votre projet est **`We.Retail`**, vous utiliserez le chemin du projet ***/home/users/screens/we-retail***.
 

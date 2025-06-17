@@ -2,10 +2,10 @@
 title: Rôles et responsabilités dans un projet AEM Screens
 description: Découvrez les rôles et les responsabilités dans les projets AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1254'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ L’intégrateur ou l’intégratrice audiovisuel est la personne chargée d’e
 
 >[!NOTE]
 >
-> Vous devez disposer d’un intégrateur vidéo audio dans le cadre de votre déploiement AEM Screens.
+> Vous devez disposer d’un intégrateur audio/vidéo dans le cadre de votre déploiement AEM Screens.
 
 #### Sélection du partenaire matériel {#selecting-hardware-partner}
 
@@ -114,7 +114,7 @@ Voici un exemple de matrice RACI qui utilise des définitions de rôle.
 
 * **Personne responsable** : effectue les tâches nécessaires à l’accomplissement du travail.
 
-* **Approbateur ou approbatrice** : délègue le travail et est la dernière personne à réviser la tâche avant que celle-ci ne soit terminée.
+* **Responsables** : les délégués travaillent et sont les derniers à examiner la tâche avant qu’elle ne soit terminée.
 
 * **Consulté** : passe en revue la tâche ou le livrable de projet pour formuler des commentaires.
 
@@ -130,7 +130,7 @@ Le tableau ci-dessous résume les **observations préalables à la vente pour le
 | Accord sur les rôles et les responsabilités | RA | RA | RA | RA |
 | Alignement sur les objectifs stratégiques | CI | I | RA | RA |
 | Besoins en termes de création de rapports et identification du retour sur investissement | I | C | RA | C |
-| Inspection du site et configuration matérielle requise | RA | I | C | C |
+| Visites de site et configuration matérielle requise | RA | I | C | C |
 | Définition du processus d’assistance | C | I | RA | I |
 | Définition de l’étendue des travaux et du plan du projet | RA | RA | C | C |
 

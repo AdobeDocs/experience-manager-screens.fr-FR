@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. La feuille de calcul téléchargée se compose de deux onglets, **Emplacements** et **Contenu**. L’onglet Emplacements comprend quatre colonnes, **Emplacements**, **Affichages**, **Canaux** et **Appareils**. Vous pouvez examiner plus en détail ces quatre entités se rapportant à votre projet AEM Screens.
+1. La feuille de calcul téléchargée se compose de deux onglets, tels que **Emplacements** et **Contenu**. L’onglet Emplacements comprend quatre colonnes, **Emplacements**, **Affichages**, **Canaux** et **Appareils**. Vous pouvez examiner plus en détail ces quatre entités se rapportant à votre projet AEM Screens.
 
    ![image](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

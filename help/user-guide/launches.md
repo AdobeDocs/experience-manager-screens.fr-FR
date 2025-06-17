@@ -1,5 +1,5 @@
 ---
-title: Mise à jour du contenu à l’aide d’un lancement Screens
+title: Mises à jour de contenu avec Screens Launch
 description: Découvrez comment créer une version ultérieure des canaux, connue sous le nom de lancement, et définir une date d’activation pour le lancement afin de rendre le contenu actif sur les appareils ou lecteurs.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 100%
+source-wordcount: '1568'
+ht-degree: 97%
 
 ---
 
-# Mise à jour du contenu à l’aide d’un lancement Screens {#launches}
+# Mises à jour de contenu avec Screens Launch {#launches}
 
 Les auteurs et autrices de contenu peuvent créer une version ultérieure des canaux et définir la date d’activation de ce lancement. Cette fonctionnalité permet de mettre en ligne le contenu sur des appareils ou des lecteurs à la date d’activation spécifiée.
 
@@ -58,7 +58,7 @@ Par exemple, le serveur est en PST et les périphériques en EST. Le décalage h
 
 Il est donc égal à 3 heures 56 minutes (14 160 secondes).
 
-Ainsi, lorsque vous planifiez un lancement, la promotion commencera plus tôt en prenant en compte ce décalage. Dans l’équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps. Vous pouvez utiliser une estimation correcte de ce décalage lorsque vous connaissez la différence de temps maximale entre le serveur et n’importe quel lecteur.
+Ainsi, lorsque vous planifiez un lancement, la promotion commencera plus tôt en prenant en compte ce décalage. Dans l’équation ci-dessus, la plupart des éléments ne prennent pas beaucoup de temps. Vous pouvez utiliser une estimation correcte pour ce décalage lorsque vous connaissez la différence de temps maximale entre le serveur et n’importe quel lecteur.
 
 >[!NOTE]
 >

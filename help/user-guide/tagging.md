@@ -3,10 +3,10 @@ title: Balisage sur Screens Cloud
 description: Cette page décrit comment créer, gérer et utiliser des balises dans Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 2fb092c530ec335d754802a0a8af2b63ec8549d2
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 81%
+source-wordcount: '150'
+ht-degree: 76%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->La fonctionnalité de **balisage** n’est disponible que si elle est activée pour votre client ou cliente. Contactez l’équipe d’ingénierie AEM Screens pour l’activer.
+>La fonctionnalité de **balisage** n’est disponible que si elle est activée pour votre client ou cliente. Contactez le service Ingénierie AEM Screens pour l’activer.
 
 ## Présentation {#introduction}
 
@@ -39,7 +39,7 @@ Utilisez les balises créées sur les affichages et les lecteurs.
 >[!NOTE]
 >
 > 30 balises au maximum peuvent être attribuées à un affichage ou à un lecteur.
-> Au plus 30 éléments peuvent être balisés en une seule fois.
+> > Au plus 30 éléments peuvent être balisés en une seule fois.
 
 ## Filtrer par balises {#filter-by-tags}
 

@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 100%
+source-wordcount: '1118'
+ht-degree: 96%
 
 ---
 
@@ -127,7 +127,7 @@ Le tableau suivant résume les attributs de politique et inclut un exemple de po
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
 | enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette règle pour afficher la progression des activités, comme le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
+| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | cloudMode | Définissez cette valeur sur true si vous souhaitez que le lecteur Windows se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
@@ -160,11 +160,11 @@ Pour activer le mode Kiosque, procédez comme suit :
 
 1. Activez Shell Launcher.
 
-   Pour plus d’informations, voir ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://learn.microsoft.com/fr-fr/windows/iot/iot-enterprise/customize/shell-launcher)** de l’assistance Microsoft® Windows.
+   Pour plus d’informations, voir ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** de l’assistance Microsoft® Windows.
 
 1. Créez un utilisateur ou une utilisatrice sans droits d’administration (si vous n’en avez pas déjà) à utiliser pour Kiosque. Il peut s’agir d’un profil utilisateur local ou de domaine.
 1. Installez le lecteur Windows pour cet utilisateur ou cette utilisatrice Kiosque à partir de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
-1. Pour plus d’informations, voir [Utilisation de Shell Launcher pour créer un kiosque Windows 10](https://learn.microsoft.com/fr-fr/windows/configuration/assigned-access/shell-launcher/?tabs=intune) afin de modifier votre script PowerShell.
+1. Pour plus d’informations, voir [Utilisation de Shell Launcher pour créer un kiosque Windows 10](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) afin de modifier votre script PowerShell.
 
    Modifiez le script PowerShell pour pouvoir remplacer le nom d’utilisateur ou d’utilisatrice par celui que vous avez créé. Assurez-vous que le chemin d’accès au fichier exécutable de l’application est correct. Le shell personnalisé est défini comme application du lecteur Windows pour l’utilisateur ou l’utilisatrice Kiosque et la valeur par défaut explorer.exe est définie pour les autres utilisateurs et utilisatrices.
 
@@ -183,7 +183,7 @@ L’exemple de script dans les liens active et désactive le shell personnalisé
 
 >[!NOTE]
 >
->Dans certains environnements Windows, les scripts PowerShell peuvent être restreints par la politique (en particulier les scripts non signés). Pour exécuter votre script, désactivez provisoirement cette restriction puis réactivez-la pour exécuter le script. Ouvrez une fenêtre PowerShell et utilisez ces commandes.
+>Certains environnements Windows restreignent les scripts PowerShell par stratégie, en particulier si les scripts ne sont pas signés. Pour exécuter votre script, désactivez provisoirement cette restriction puis réactivez-la pour exécuter le script. Ouvrez une fenêtre PowerShell et utilisez ces commandes.
 >
 >*`set-executionpolicy unrestricted`* : pour supprimer temporairement les restrictions.
 >

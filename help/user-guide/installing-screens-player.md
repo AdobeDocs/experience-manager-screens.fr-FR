@@ -6,10 +6,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Pour télécharger le **lecteur AEM Screens**, consultez la page des [télécha
 
 ## Suivi de base de la lecture {#playback-monitoring}
 
-Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. Sur la base de ces mesures, il peut détecter différents cas de figure, tels que des problèmes de lecture bloquée, d’écran vide et de planning. Cela nous permet de comprendre et de résoudre les problèmes liés à l’appareil et d’accélérer ainsi l’examen de vos problèmes et la mise en place de correctifs.
+Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. En fonction de ces mesures, il peut détecter divers cas de périphérie, tels que des problèmes de lecture bloquée, d’écran vide et de planification. Cela nous permet de comprendre et de résoudre les problèmes liés à l’appareil et d’accélérer ainsi l’examen de vos problèmes et la mise en place de correctifs.
 
 La surveillance de base de la lecture d’un lecteur AEM Screens vous permet d’effectuer les opérations suivantes :
 
@@ -50,8 +50,8 @@ Les propriétés suivantes sont incluses dans chaque `ping` :
 | Propriété | Description |
 |---|---|
 | id {string} | identifiant du lecteur |
-| activeChannel {string} | chemin du canal en cours de lecture ou valeur nulle si rien n’est planifié |
-| activeElements {string} | chaîne séparée par des virgules, éléments actuellement visibles dans tous les canaux de séquence de lecture (plusieurs dans le cas d’une disposition multizone) |
+| {string} activeChannel | chemin du canal en cours de lecture ou valeur nulle si rien n’est planifié |
+| {string} activeElements | chaîne séparée par des virgules, éléments actuellement visibles dans tous les canaux de séquence de lecture (plusieurs dans le cas d’une disposition multizone) |
 | isDefaultContent {boolean} | true si le canal de lecture est considéré comme un canal par défaut ou de secours (c’est-à-dire qu’il a la priorité 1 et aucune planification) |
 | hasContentChanged {boolean} | true si le contenu a changé au cours des 5 dernières minutes, false dans le cas contraire |
 | lastContentChange {string} | date et heure de la dernière modification du contenu |
