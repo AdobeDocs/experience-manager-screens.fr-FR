@@ -8,10 +8,10 @@ user-guide-description: Apprenez à utiliser une solution de signalétique numé
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
    + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/using/about-guide)
    + [Termes clés](screens-glossary.md)
    + [Terminologie et concepts de Screens](screens-concepts-feature-video-understand.md)
-+ Notions de base sur les réseaux de signalétique numérique {#digital-signage-network}
++ Principes de base du réseau de signalétique numérique {#digital-signage-network}
    + [Partie 1 : rôles du projet et responsabilités](project-roles-responsibilities.md)
    + [Partie 2 : observations dans le cadre de la définition de la portée du projet](project-considerations.md)
    + [Partie 3 : tests, preuves de concept, pilotes et déploiements](testing-pocs-pilots-rollouts.md)
@@ -51,14 +51,14 @@ ht-degree: 100%
       + [Lecteur cloud](implementing-cloud-player.md)
       + [Enregistrement automatique des lecteurs](auto-registration-players.md)
       + [Utiliser la commande à distance](implementing-remote-control.md)
-   + Instances d’auteur et de publication {#author-publish}
+   + Auteur/Publication {#author-publish}
       + [Présentation de l’architecture des instances d’auteur et de publication](author-publish-architecture-overview.md)
       + [Configuration d’instances d’auteur et de publication](author-and-publish.md)
-   + Intégration d’Adobe Analytics avec AEM Screens {#analytics-integration}
+   + Intégration d’Analytics à AEM Screens {#analytics-integration}
       + [Intégration d’Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuration d’Adobe Analytics avec AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Exemples de cas de création et d’utilisation {#authoring}
-   + Configurer un projet Screens {#setting-up-projects}
++ Exemples de cas d’utilisation et de création {#authoring}
+   + Configuration d’un projet Screens {#setting-up-projects}
       + [Créer et gérer des projets](creating-a-screens-project.md)
       + [Création et gestion des canaux](managing-channels.md)
       + [Création et gestion des affichages](managing-displays.md)
@@ -68,7 +68,7 @@ ht-degree: 100%
       + Attribution de canaux {#assigning-channels}
          + [Attribution de canaux](channel-assignment-latest-fp.md)
          + [Attribution de canaux : anciennes versions de Feature Packs AEM Screens](channel-assignment.md)
-   + Utilisation de fonctionnalités de base du produit {#product-features}
+   + Utiliser les fonctionnalités de base du produit {#product-features}
       + [Superposition de texte](text-overlay.md)
       + [Mise à jour hors ligne en bloc](bulk-offline-update.md)
       + [Service de notifications AEM Screens](screens-notifications-service.md)
@@ -90,7 +90,7 @@ ht-degree: 100%
       + [Rapport d’attribution de contenu](content-assignment-report.md)
       + [Prise en charge des miniatures pour les vidéos](thumbnail-support.md)
       + [Utilisation des rendus adaptatifs dans AEM Screens](using-adaptive-renditions.md)
-   + Gestion de mises à jour de contenus {#content-updates}
+   + Gestion des mises à jour de contenu {#content-updates}
       + [Mise à jour du contenu à la demande](on-demand-content.md)
       + [Mise à jour de contenus en tant que service](content-update-as-a-service.md)
       + [Mise à jour du contenu à l’aide d’un lancement Screens](launches.md)
@@ -103,7 +103,7 @@ ht-degree: 100%
       + [Transitions Multizone vers Zone unique](multizone-to-singlezone.md)
       + [Canal de prise de contrôle à usage unique](single-use-takeover-channel.md)
       + [Canal de prise de contrôle perpétuelle](perpetual-takeover-channel.md)
-+ Ressources du développeur et ressources d’API {#developing}
++ Ressources du développeur et de l’API {#developing}
    + [API REST](rest-api.md)
    + [Développer un composant personnalisé pour AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canaux hors ligne](offline-channels.md)
@@ -114,11 +114,12 @@ ht-degree: 100%
    + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
    + [Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte](custom-branding-text-overlays.md)
    + [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md)
-+ Dépannage et questions fréquentes {#troubleshooting}
++ Résolution des problèmes et FAQ {#troubleshooting}
    + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
    + [Résolution de problèmes dans le Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
+   + [Notes de mise à jour du pack de fonctionnalités 20251007](release-notes-fp-20251007.md)
    + [Notes de mise à jour du pack de fonctionnalités 20250327](release-notes-fp-20250327.md)
    + [Notes de mise à jour du pack de fonctionnalités 20250224](release-notes-fp-20250224.md)
    + [Notes de mise à jour du pack de fonctionnalités 20240715](release-notes-fp-20240715.md)
