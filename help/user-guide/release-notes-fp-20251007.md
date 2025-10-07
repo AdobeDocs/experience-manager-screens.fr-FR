@@ -4,19 +4,18 @@ description: En savoir plus sur le pack de fonctionnalités 20251007 d’AEM Scr
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 7ade4e2c50ecf4585bc11b25b0c2ac56597497cb
+source-git-commit: b7ce4b726e9e9a2d70d852f40af3b9681c96bbd1
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 34%
+source-wordcount: '178'
+ht-degree: 25%
 
 ---
 
 # Notes de mise à jour du pack de fonctionnalités 20251007 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>Utilisez FP11.7 avec SP(servicepack) version 22 ou ultérieure.
+>Adobe vous recommande d’effectuer une mise à niveau vers la dernière version de Adobe Experience Manager (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
+>>Utilisez FP11.7 avec SP(servicepack) version 22 ou ultérieure.
 
 ## Disponibilité {#availability}
 
