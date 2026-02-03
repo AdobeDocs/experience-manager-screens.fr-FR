@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1103'
+ht-degree: 94%
 
 ---
 
@@ -143,6 +143,10 @@ Il existe deux types de mises à jour du lecteur AEM Screens :
 | Mises à jour du shell du lecteur | Un nouveau fichier exécutable déployé sur le lecteur. Cette fonctionnalité nécessite de copier à distance le nouveau fichier binaire sur le lecteur, arrêter l’exécution en cours et démarrer la nouvelle version. Cela peut nécessiter un nouveau téléchargement du préchargement des packages. | Oui (par shell distant) | Personnalisé | Non |
 
 ## Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**OBSOLÈTE :** ce guide de sélection du matériel est obsolète et ne doit pas être utilisé pour les nouveaux déploiements. Les spécifications matérielles et les recommandations doivent être fournies par un intégrateur AV qualifié, en fonction de vos besoins de déploiement et de vos cas d’utilisation spécifiques.
 
 La section suivante présente les directives de sélection du matériel pour un projet Screens :
 
