@@ -2,10 +2,10 @@
 title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Découvrez comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 
@@ -13,11 +13,14 @@ ht-degree: 100%
 
 ## Présentation {#introduction}
 
+>[!CAUTION]
+>Cette fonctionnalité est uniquement prise en charge sur AEM on-premise (AEM 6.x). Il n’est pas pris en charge sur AEM as a Cloud Service.
+
 Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client ou la cliente. Les appareils téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles. Cela permet aux clientes et clients de se concentrer sur la conception de la *principale* expérience.
 
 ## Objectif {#objective}
 
-En tant qu’auteur ou autrice de contenu AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
+En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
 Une fois qu’un développeur ou qu’une développeuse ajoute les propriétés et les règles de mappage de rendu, vous pouvez appliquer le mappage de rendu aux ressources et les inclure ensuite dans un canal AEM Screens.
 
 >[!IMPORTANT]
