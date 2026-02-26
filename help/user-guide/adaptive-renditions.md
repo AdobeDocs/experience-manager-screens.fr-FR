@@ -2,10 +2,10 @@
 title: Vue d’ensemble et configurations de l’architecture des rendus adaptatifs
 description: Découvrez la vue d’ensemble de l’architecture et les configurations dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
@@ -13,7 +13,10 @@ ht-degree: 100%
 
 ## Présentation {#introduction}
 
-Les rendus adaptatifs permettent aux appareils de sélectionner automatiquement le meilleur rendu pour un appareil en fonction des règles définies par le client ou la cliente. Les appareils téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clientes et aux clients de se concentrer uniquement sur la conception de l’expérience *principale*.
+>[!CAUTION]
+>Cette fonctionnalité est uniquement prise en charge sur AEM on-premise (AEM 6.5). Il n’est pas pris en charge sur AEM as a Cloud Service.
+
+Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le meilleur rendu pour un appareil en fonction des règles définies par le client ou la cliente. Les appareils téléchargent et lisent automatiquement le rendu le plus approprié d’une ressource en fonction de ces règles, ce qui permet aux clientes et aux clients de se concentrer uniquement sur la conception de l’expérience *principale*.
 
 ## Objectif {#objective}
 
@@ -72,7 +75,7 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
    >[!NOTE]
    >Pour en savoir plus, voir [Utilisation de la syntaxe de requête multimédia](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
-   Cliquez sur la **règle1** que vous avez créée, puis saisissez l’**expression** dans **Nom** et **(orientation:landscape)** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
+   Cliquez sur **règle1** que vous avez créée, puis saisissez la **expression** dans **Nom** et la **(orientation:landscape)** dans **Valeur**, comme illustré ci-dessous. Cliquez sur **Ajouter**.
 
    ![Image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
