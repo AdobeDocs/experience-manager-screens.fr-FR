@@ -1,5 +1,5 @@
 ---
-title: '« Partie 3 : tests, preuves de concept, pilotes et déploiements »'
+title: 'Partie 3 : tests, preuves de concept, pilotes et déploiements'
 description: Découvrez les principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
 contentOwner: jsyal
 content-type: reference
@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 
 ### Tests, PDC, pilotes et déploiements
 
->[!VIDEO](https://video.tv.adobe.com/v/32813?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Découvrez les principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.*
 

@@ -3,7 +3,7 @@ title: Balisage sur Screens Cloud
 description: Cette page décrit comment créer, gérer et utiliser des balises dans Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 76%
@@ -39,7 +39,7 @@ Utilisez les balises créées sur les affichages et les lecteurs.
 >[!NOTE]
 >
 > 30 balises au maximum peuvent être attribuées à un affichage ou à un lecteur.
-> &#x200B;> Au plus 30 éléments peuvent être balisés en une seule fois.
+> Au plus 30 éléments peuvent être balisés en une seule fois.
 
 ## Filtrer par balises {#filter-by-tags}
 

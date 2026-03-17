@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 93%
 
 ---
 
@@ -85,7 +85,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
    >Pour en savoir plus sur les propriétés d’attribution de canaux, voir la section [Propriétés des canaux](#channel-properties).
 
 1. Dans l’option **Planning**, cliquez sur la **fenêtre d’activation** et le **planning de périodicité**.
-   ![Image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Le rôle du canal définit le contexte de l’affichage. Diverses actions ciblen
 
 ### Priorité {#priority-channel}
 
-La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B et que A a une priorité de 1 et B une priorité de 2, alors le canal B s’affiche, car il a une priorité plus élevée que A.
+La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il y a deux canaux A et B. A a une priorité de 1 et B a une priorité de 2, puis le canal B est affiché, car il a une priorité plus élevée que A.
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 * **Charge initiale** : charge le canal au démarrage du lecteur. Il peut être attribué à plusieurs canaux avec un planning.
 * **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux avec un planning.
-* **Minuteur** : doit être défini lorsqu’un planning est fourni.
+* **Retardateur** : doit être défini lorsqu’un planning est fourni.
 * **Interaction de l’utilisateur ou l’utilisatrice** : le lecteur bascule vers le canal spécifié s’il y a une interaction de l’utilisateur ou de l’utilisatrice avec l’écran (tactile) dans un canal inactif et se charge lorsque l’écran est touché.
 
 ### Méthode d’interruption {#interruption-method-channel}
@@ -210,18 +210,18 @@ Chaque jour est divisé en différentes tranches horaires, de sorte que le conte
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Petit déjeuner | Quotidienne | 6 h 00 | 11 h 00 |
-| Déjeuner | Quotidienne | 11 h 00 | 15 h 00 |
-| Dîner | Quotidienne | 15 h 00 | 20 h 00 |
+| Petit déjeuner | Quotidienne | 6:00 | 11 :00 |
+| Déjeuner | Quotidienne | 11 :00 | 15:00 |
+| Dîner | Quotidienne | 15:00 | 20:00 |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple présente les tranches horaires suivies dans un casino où un événement se produit en direct chaque week-end à partir de 20 h 00 et jusqu’à 22 h 00, et les plats du jour sont disponibles pour le menu du dîner après 22 h 00 et jusqu’à 1 h 00 du matin.
+Cet exemple montre le DayParting implémenté dans un casino où un événement en direct se produit tous les week-ends de 20 :00 à 22 :00 et où des plats spéciaux sont disponibles pour le menu du dîner après 22 :00 jusqu’à 13 :00.
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Week-end | Hebdomadaire : samedi et dimanche | 20 h 00 | 22 h 00 |
-| Plats du jour | Quotidien : du lundi au vendredi | 22 h 00 | 1 h 00 |
+| Week-end | Hebdomadaire : samedi et dimanche | 20:00 | 22:00 |
+| Plats du jour | Quotidien : du lundi au vendredi | 22:00 | 1:00 |
 
 >[!NOTE]
 >

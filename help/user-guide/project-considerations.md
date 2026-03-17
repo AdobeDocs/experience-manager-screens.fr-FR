@@ -1,5 +1,5 @@
 ---
-title: '« Partie 2 : observations dans le cadre de la définition de la portée du projet »'
+title: 'Partie 2 : observations dans le cadre de la définition de la portée du projet'
 description: Découvrez la stratégie de contenu, les couches E/S, les types de ressources et la segmentation d’audience dans AEM Screens. Découvrez les parties de la journée, les exigences opérationnelles et les considérations de préparation du site.
 contentOwner: jsyal
 content-type: reference
@@ -7,13 +7,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Pour vous aider à comprendre l’intention de la clientèle finale concernant l
 * Les animations sont-elles lues en tant que programmes vidéo ou HTML ?
 * Existe-t-il des intégrations tierces à partir de services d’abonnement à des contenus, de réseaux sociaux, d’agrégation RSS ou d’appels d’API ?
 * Quelles sont les exigences de résolution d’image ?
-* Les écrans possèdent-ils des formats standard 16:9 ou personnalisés ? Portrait ou Paysage ?
+* Les écrans ont-ils des proportions 16:9 standard ou sont-ils personnalisés ? Portrait ou Paysage ?
 * Des murs vidéo multiécrans sont-ils requis ? Dans ce cas, quelles sont les configurations ?
 * Le contenu est-il lié aux recettes d’exploitation ou de publicité et nécessite-t-il des stratégies de basculement pour éviter les temps d’inactivité ?
 

@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 84%
 
 ---
 
@@ -29,12 +29,14 @@ Cette section couvre les sujets suivants :
 * **Notification par e-mail**
 * **Exemple de cas d’utilisation**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## Vue d’ensemble {#overview}
 
@@ -61,7 +63,7 @@ Pour configurer les paramètres de notification par e-mail, procédez comme suit
    >
    >Spécifiez le chemin du projet, où se trouvent les utilisateurs et utilisatrices de l’appareil.
 
-   **Fréquence de planning** Indiquez une heure (par exemple, 17 h 00 ou 17:00) ou une fréquence en heures (par exemple, 1) à laquelle ce moniteur doit envoyer des e-mails.
+   **Fréquence de planification** - Spécifiez une heure (par exemple, 17:00 ou 17:00) ou une fréquence en heures (par exemple, 1) à laquelle ce moniteur doit envoyer des e-mails.
 
    **Délai d’expiration du ping** Ce champ indique l’intervalle en minutes après lequel un appareil doit être considéré comme inaccessible.
 
@@ -102,7 +104,7 @@ L’exemple suivant décrit quelques scénarios à titre de référence pour con
 
 **Scénario 1**
 
-Définissez la fréquence de planning sur 13 h 00. et le délai d’expiration du test ping sur 60. Ensuite, si votre appareil AEM Screens n’effectue pas de ping entre 12 h 00 et 13 h 00, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.
+Vous définissez la fréquence de la planification sur 1 :00 et le délai d’expiration du ping sur 60. Ensuite, si votre appareil AEM Screens n’émet pas de ping entre 12 :00 et 13 :00, vous recevez une notification par e-mail qui confirme l’inactivité de l’appareil.
 
 **Scénario 2**
 

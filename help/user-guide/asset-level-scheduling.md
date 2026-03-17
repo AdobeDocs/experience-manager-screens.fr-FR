@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 100%
+source-wordcount: '1490'
+ht-degree: 86%
 
 ---
 
@@ -29,12 +29,14 @@ Cette section aborde les sujets suivants :
 * Activation multiressource
 * Remplacement global pour une heure de début universelle
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## Vue d’ensemble {#overview}
 
@@ -42,7 +44,7 @@ L’***activation au niveau des ressources*** permet d’activer une ressource s
 
 *Par exemple*, vous souhaitez qu’une promotion spéciale s’affiche uniquement pendant la Happy Hour (de 14h00 à 17h00) les lundis et les mercredis.
 
-Avec cette fonctionnalité, vous pouvez non seulement spécifier la date et l’heure de début et de fin, mais également un modèle de périodicité.
+Avec cette fonctionnalité, vous pouvez non seulement spécifier la date et l’heure de début et de fin, mais également un modèle de récurrence.
 
 ## Fenêtre d’activation {#single-event-playback}
 
@@ -81,13 +83,13 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 Vous pouvez planifier l’activation périodique des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h 00 à 22 h 00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle périodique souhaité pour votre ressource.
+Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 :00 à 22 :00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle de périodicité souhaité pour votre ressource.
 
 ### Tranches horaires {#day-parting}
 
 1. Cliquez sur la ressource et sur l’icône **Configurer** (en forme de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
@@ -100,20 +102,20 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Avant 8 h 00. | La ressource du canal est lue avant 8 h 00 tous les jours. |
-| Après 14 h 00. | La ressource du canal est lue après 14 h 00 tous les jours. |
-| Après 12 h 15 et avant 12 h 45. | La ressource du canal est lue après 12 h 15 tous les jours pendant 30 minutes. |
-| Avant 12 h 15 et après 12 h 45. | La ressource du canal est lue avant 12 h 15 et après 12 h 45 tous les jours. |
+| avant 8:00 | la ressource dans le canal est lue avant 8 heures :00 tous les jours |
+| après 14:00 | la ressource dans la chaîne est lue après 14 :00 tous les jours |
+| après 12 :15 et avant 12 :45 | la ressource dans la chaîne est lue après 12 :15 tous les jours pendant 30 minutes |
+| avant 12:15 également après 12:45 | la ressource dans la chaîne est lue avant 12 :15 tous les jours, puis également après 12 :45. |
 
 >[!NOTE]
 >
->Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
 
 ### Tranches hebdomadaires {#week-parting}
 
 1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
@@ -138,7 +140,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
@@ -161,7 +163,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version de texte naturel pour spécifier votre planification de périodicité.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
@@ -175,11 +177,11 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | **Expression** | **Interprétation** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | La ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars. |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la ressource du canal commence à être lue après 14 :00 le 1er janvier, et continue à être lue toute la journée du 2 janvier jusqu’à 3 :00 le 3 janvier |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la ressource dans le canal démarre le lecteur après 14 :00 le 1er janvier, continue la lecture jusqu’à 3 :00 le 2 janvier, puis recommence le 2 janvier à 14 :00 et continue jusqu’à 3 :00 le 3 janvier |
 
 >[!NOTE]
->Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.*(14:00).
 
 
 ## Activation multiressource {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 L’***activation multiressource*** permet à la personne de cliquer sur plusieurs ressources et d’appliquer un planning d’exécution à toutes les ressources sélectionnées.
 

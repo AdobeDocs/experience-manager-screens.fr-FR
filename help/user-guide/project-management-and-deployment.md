@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '675'
 ht-degree: 95%
 
 ---
@@ -29,7 +29,7 @@ Il est important que toutes les parties prenantes comprennent ce dont l’intég
 
 >[!NOTE]
 >
->L’identification à grande échelle d’un intégrateur ou intégratrice audiovisuel ayant une expertise dans la gestion de projets des déploiements de signalétique numérique est importante pour le succès à long terme. Il est suggéré de comparer les plans de projet entre l’intégrateur ou l’intégratrice audiovisuel et la personne en charge de l’implémentation d’AEM. Cela permet d’assurer l’alignement au fur et à mesure de l’élaboration et de la finalisation des plans. 
+>L’identification à grande échelle d’un intégrateur ou intégratrice audiovisuel ayant une expertise dans la gestion de projets des déploiements de signalétique numérique est importante pour le succès à long terme. Il est suggéré de comparer les plans de projet entre l’intégrateur ou l’intégratrice audiovisuel et la personne en charge de l’implémentation d’AEM. Cela permet d’assurer l’alignement au fur et à mesure de l’élaboration et de la finalisation des plans.
 >
 >Les partenaires qui adoptent une approche holistique de la gestion des phases de préproduction, de lancement et de progression du projet aideront votre clientèle finale à tirer le meilleur parti de leur investissement.
 
@@ -80,7 +80,7 @@ Découvrez les principes de la préparation du déploiement et de la gestion de 
 
 ### Gestion de projet et déploiement
 
->[!VIDEO](https://video.tv.adobe.com/v/32793?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Apprenez-en plus sur la gestion de projet et la préparation du déploiement (préproduction du projet, lancement du projet, progression du projet).*
 

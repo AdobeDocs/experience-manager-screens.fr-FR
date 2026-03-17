@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 99%
 
 ---
@@ -201,10 +201,10 @@ Pour en savoir plus sur la création d’un fragment d’expérience et son util
 
 | **Propriété** | **Description** |
 |---|---|
-| **Fragment d’expérience** |
+| **Fragment d’expérience** | |
 | ***Fragment d’expérience*** | Sélectionnez le fragment d’expérience. |
 | ***Durée*** | Sélectionnez la durée complète du fragment d’expérience lu dans le canal. |
-| **Configuration hors ligne** |
+| **Configuration hors ligne** |  |
 | ***Bibliothèques côté client*** | Fichiers JavaScript et CSS. |
 | ***Fichiers statiques*** | Fichiers statiques que vous pouvez ajouter en tant que configurations hors ligne au fragment d’expérience. |
 
@@ -220,15 +220,15 @@ La ressource image comporte trois onglets, à savoir : **Image**, **Accessibili
 
 | **Propriété** | **Description** |
 |---|---|
-| **Image** |
+| **Image** |  |
 | ***Ressource image*** | Cliquez sur la ressource image. |
 | ***Titre*** | Titre de l’image. |
 | ***Lier à*** | Ajoutez un lien vers l’image. |
 | ***Description*** | Brève description de l’image. |
 | ***Taille*** | Taille de l’image. |
-| **Accessibilité** |
+| **Accessibilité** |  |
 | ***Texte de remplacement*** | Texte secondaire de l’image. |
-| **Séquence** |
+| **Séquence** |  |
 | ***Durée*** | Par défaut, la durée est définie sur *8 000 ms*. Si vous souhaitez modifier la durée de lecture de l’image, mettez à jour le champ **Durée**. |
 
 ### Transition {#transition}

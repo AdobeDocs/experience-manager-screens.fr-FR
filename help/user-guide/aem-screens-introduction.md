@@ -5,14 +5,14 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 96%
 
 ---
 
-# Qu’est-ce qu’Adobe Experience Manager Screens ? {#what-is-aem-screens}
+# Qu’est-ce qu’Adobe Experience Manager Screens ?{#what-is-aem-screens}
 
 **Experience Manager Screens** : solution de signalétique numérique qui vous permet de publier des expériences et des interactions numériques dynamiques et interactives qui incluent différents types d’écrans, le tout sur une plateforme de marketing numérique exhaustive.
 
@@ -26,7 +26,7 @@ Pour apprendre à configurer et à créer votre projet Experience Manager Scre
 
 Experience Manager Screens est une solution web puissante qui vous permet de créer des tableaux de menus numériques dédiés, des recommandations de produits et même des images de style de vie pour arrière-plan afin d’élargir l’interaction client. Il vous permet d’offrir des expériences de marque unifiées et utiles dans des lieux physiques, tels que des magasins, des hôtels, des banques, des établissements de santé et d’éducation, et bien plus encore, à partir de la même plateforme Experience Manager. Screens offre de nombreuses applications uniques. Par exemple, des affichages interactifs, des composants d’orientation, du branding, et l’ajout d’une ambiance à votre environnement pour les clientes, les clients ainsi que les employées et les employés en fonction du domaine dans lequel ces éléments sont déployés.
 
-Avec Experience Manager Screens, la création et la gestion d’une application sont simples et intuitives. Une *application* héberge des pages web créées pour Experience Manager Screens par des clients ou des partenaires d’implémentation. Les *emplacements* gèrent des hiérarchies prédéfinies et contiennent des *affichages*. Chaque affichage comprend un tableau de bord, auquel sont associés différents appareils et écrans. Le contenu d’Experience Manager Screens est géré dans des *canaux*. Experience Manager Screens Player produit du contenu dans les canaux sur les affichages.
+Avec Experience Manager Screens, la création et la gestion d’une application sont simples et intuitives. Une *application* héberge des pages web créées pour Experience Manager Screens par des clients ou des partenaires d’implémentation. *Emplacements* gérer des hiérarchies prédéfinies et contenir des *affichages*. Chaque affichage comprend un tableau de bord, auquel sont associés différents appareils et écrans. Le contenu d’Experience Manager Screens est géré dans des *canaux*. Experience Manager Screens Player produit du contenu dans les canaux sur les affichages.
 
 Pour comprendre les termes clés associés à Experience Manager Screens, consultez le [Glossaire](screens-glossary.md).
 
@@ -57,12 +57,14 @@ Les illustrations ci-dessous définissent les personnages et leur rôle dans le 
 
 * **Principes d’implémentation guidée**
 
-  Suivez le parcours de formation guidé **[Principes d’implémentation d’Experience Manager Screens](https://experienceleague.adobe.com/fr?launch=AEM-7a&amp;lang=fr)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans Experience Manager Screens.
+  Suivez le parcours de formation guidé **[Principes d’implémentation d’Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a&lang=fr)**, qui couvre les fonctionnalités fondamentales et avancées prises en charge dans Experience Manager Screens.
 
 * **Guide des bonnes pratiques pour les projets Experience Manager Screens**
 
   Suivez le **[Guide des bonnes pratiques pour les projets Experience Manager Screens](/help/using/about-guide.md)**, qui sert à identifier les obstacles les plus courants survenant lors de l’implémentation d’un projet Experience Manager Screens. Ce document est principalement focalisé sur les rôles et les responsabilités d’un projet. Il aborde principalement la matrice RACI pour les différents rôles, les configurations de la plateforme Experience Manager, et l’assistance et la surveillance.
 
-<!-- DEAD LINK * **New Adobe Customer Support Experience**
+<!-- 
+DEAD LINK * **New Adobe Customer Support Experience**
 
-   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. -->
+   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. 
+-->

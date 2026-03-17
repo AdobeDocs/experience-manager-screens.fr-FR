@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 94%
 
 ---
 
@@ -34,9 +34,9 @@ Avant de créer un modèle personnalisé dans une disposition multizone, vous de
 
    | **Nom de la disposition** | **Description** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Une disposition paysage à trois zones qui vous permet de créer trois zones : <br>* Zone 1 qui couvre 20 % de l’écran horizontal et vertical à partir de la gauche.<br>* Zone 2 qui couvre 80 % de l’écran horizontal et 20 % de l’écran vertical justifié à droite.<br>* Zone 3 qui couvre 100 % de l’écran horizontal et 80 % de l’écran vertical. Le format est 16:9. |
-   | `Upper20-PortraitHD2Zone` | Un modèle portrait à deux zones qui couvre 20 % de l’écran à partir du haut, avec un format 16:9. |
-   | `Right20-LandscapeSD3Zone` | Un modèle à trois zones qui couvre 20 % de l’écran à partir de la droite, avec un format 4:3. |
+   | `Left20-LandscapeHD3Zone` | Une disposition paysage à trois zones qui vous permet de créer trois zones : <br>* Zone 1 qui couvre 20 % de l’écran horizontal et vertical à partir de la gauche.<br>* Zone 2 qui couvre 80 % de l’écran horizontal et 20 % de l’écran vertical justifié à droite.<br>* Zone 3 qui couvre 100 % de l’écran horizontal et 80 % de l’écran vertical. Le format est de 16 :9 |
+   | `Upper20-PortraitHD2Zone` | Modèle de portrait à deux zones qui couvre 20 % de l’écran depuis le haut, avec un format de 16:9 |
+   | `Right20-LandscapeSD3Zone` | Modèle à trois zones qui couvre 20 % de l’écran depuis la droite, avec un format de 4:3 |
 
    >[!IMPORTANT]
    >Les zones définies dans la disposition personnalisée ne correspondent pas nécessairement aux proportions globales de l’ensemble de la disposition. La convention d’affectation de noms appliquée dans ce document définit les proportions de l’ensemble de la disposition personnalisée.
@@ -47,7 +47,7 @@ Appliquez la procédure décrite dans la section ci-dessous pour créer un modè
 
 * **`Left20`** : la zone supérieure sur la gauche qui couvre 20 % de l’écran horizontal et vertical.
 * **`Landscape`** : l’orientation de l’écran.
-* **`HD`** : le format 16:9.
+* **`HD`** - Rapport d’aspect de 16 :9.
 * **`3Zone`** : les trois zones de l’affichage.
 
 ## Représentation visuelle de la disposition multizone {#multi-layout-visual-one}

@@ -1,13 +1,13 @@
 ---
-title: '« Partie 1 : rôles du projet et responsabilités »'
+title: 'Partie 1 : rôles du projet et responsabilités'
 description: Dans ce tutoriel, vous comprendrez les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalétique numérique.
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ La définition des paramètres de cas d’utilisation de l’application, en par
 
 ### Adobe {#adobe}
 
-Adobe comprend les ressources Adobe Managed Services telles que le CSE (Customer Success Engineer) et l’assistance Adobe.
+Adobe comprend des ressources Adobe Managed Services telles que le CSE (Customer Success Engineer) et l’assistance Adobe.
 
 #### Implémentateurs d’AEM {#aem-implementors}
 
@@ -56,7 +56,7 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 
 ### Partie 1 : rôles du projet et responsabilités
 
->[!VIDEO](https://video.tv.adobe.com/v/32830?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Découvrez les rôles et responsabilités d’Adobe, des intégrateurs et intégratrices audiovisuels et des personnes en charge de l’implémentation d’AEM.*
 

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 90%
 
 ---
@@ -25,7 +25,8 @@ Cette section couvre les sujets suivants relatifs à la mise à jour de contenu 
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. 
+-->
 
 ## Vue d’ensemble {#overview}
 
@@ -69,6 +70,6 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    >
    >Spécifiez le chemin du projet par rapport à votre canal.
 
-   **Fréquence de planification** - Indique une heure, par exemple 17 h ou 17 h, à laquelle ce service doit mettre à jour le contenu hors ligne.
+   **Fréquence de planification** - Indique une heure, par exemple 17 :00 ou 17 :00 à laquelle ce service doit mettre à jour le contenu hors ligne.
 
 1. Cliquez sur **Enregistrer** pour pouvoir enregistrer vos paramètres. Tout votre contenu est mis à jour à l’heure indiquée.
