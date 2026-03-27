@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2364'
+ht-degree: 95%
 
 ---
 
@@ -42,9 +42,9 @@ Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide 
 
 Le code source d’un projet Screens est généralement géré sous la forme d’un projet Maven multimodule. Pour accélérer le tutoriel, un projet a été prégénéré à l’aide de l’[Archétype de projet AEM 13](https://github.com/adobe/aem-project-archetype). Vous trouverez plus de détails sur la [création d’un projet avec l’archétype de projet Maven AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
-1. Téléchargez et installez les packages suivants à l’aide du [gestionnaire de packages CRX](http://localhost:4502/crx/packmgr/index.jsp) :
+1. Téléchargez et installez les packages suivants à l’aide du [gestionnaire de modules CRX](http://localhost:4502/crx/packmgr/index.jsp) :
 
-[Obtenir le fichier](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+   [Obtenir le fichier](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtenir le fichier](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **Facultatif** Si vous travaillez avec Eclipse ou un autre IDE, vous pouvez télécharger le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
@@ -53,16 +53,16 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    Démarrez le projet HelloWorld SRC Screens `We.Retail` Run.
 
-[Obtenir le fichier](assets/src-screens-weretail-run.zip)
+   [Obtenir le fichier](assets/src-screens-weretail-run.zip)
 
-1. Dans le [gestionnaire de packages CRX](http://localhost:4502/crx/packmgr/index.jsp), vérifiez que les deux packages suivants sont installés :
+1. Dans le [gestionnaire de modules CRX](http://localhost:4502/crx/packmgr/index.jsp), vérifiez que les deux packages suivants sont installés :
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Packages Screens We.Retail Run Ui.Apps and Ui.Content installés via le gestionnaire de modules CRX](assets/crx-packages.png)
+   ![Packages Screens We.Retail Run Ui.Apps et Ui.Content installés via le gestionnaire de modules CRX](assets/crx-packages.png)
 
-   Packages Screens `We.Retail` Run `Ui.Apps` et `Ui.Content` installés par le biais du gestionnaire de packages CRX.
+   Packages Screens `We.Retail` Run `Ui.Apps` et `Ui.Content` installés par le biais du gestionnaire de modules CRX.
 
 1. Le package **screens-weretail-run.ui.apps** installe le code sous `/apps/weretail-run`.
 
@@ -84,7 +84,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet `We.Retail` Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu de tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
+   Ce package contient le contenu de départ et la structure de configuration nécessaires au projet. **`/conf/we-retail-run`** contient toutes les configurations du projet `We.Retail` Run. **`/content/dam/we-retail-run`** inclut le démarrage de ressources numériques pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu de tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
 
 1. **Accédez au projet AEM Screens > `We.Retail` Run :**
 
@@ -160,7 +160,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    Ci-dessus se trouve le balisage de production du composant Hello World. Un attribut `data-duration` est inclus, car le composant est utilisé sur un canal de séquence. L’attribut `data-duration` est utilisé par le canal de séquence pour savoir pendant combien de temps un élément de séquence doit être affiché.
 
-   Le composant effectue le rendu d’un `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie de script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à la personne de saisir une valeur pour le texte de la propriété `message`.
+   Le composant effectue le rendu d’une `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie du script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à la personne de saisir une valeur pour le texte de la propriété `message`.
 
    Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. La notation BEM est celle utilisée par les [composants principaux d’AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -270,7 +270,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
 ## Création de bibliothèques côté client {#clientlibs}
 
-Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une implémentation d’AEM.
+Les bibliothèques côté client offrent un mécanisme d’organisation et de gestion des fichiers CSS et JavaScript nécessaires à une mise en œuvre d’AEM.
 
 Les composants d’AEM Screens s’affichent différemment en mode d’édition et en mode de prévisualisation/de production. Deux bibliothèques clientes sont créées, l’une pour le mode d’édition et l’autre pour le mode de prévisualisation/production.
 
@@ -312,7 +312,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
+   Au lieu d’écrire directement le code CSS, ce tutoriel utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS populaire qui prend en charge les variables, mixins et fonctions CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
 
 1. Remplissez `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` avec les éléments suivants :
 
@@ -578,7 +578,7 @@ L’utilisation de ces deux composants principaux Screens s’accompagne égale
 
 ## Code terminé {#finished-code}
 
-Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** et **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sont les packages AEM compilés. Le fichier **SRC-screens-weretail-run-0.0.1.zip &#x200B;** est le code source non compilé qui peut être déployé à l’aide de Maven.
+Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** et **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sont les packages AEM compilés. Le fichier **SRC-screens-weretail-run-0.0.1.zip **est le code source non compilé qui peut être déployé à l’aide de Maven.
 
 [Obtenir le fichier](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

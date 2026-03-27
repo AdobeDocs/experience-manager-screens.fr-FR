@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 97%
+source-wordcount: '1846'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Les éléments suivants sont requis afin de terminer ce tutoriel :
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE Lite. Les IDE [Eclipse](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. [Les IDE Eclipse](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour terminer le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuration du projet {#project-setup}
 
@@ -48,7 +48,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
 1. Téléchargez et installez les packages suivants à l’aide de la **gestion des packages CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-[Obtenir le fichier](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+   [Obtenir le fichier](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obtenir le fichier](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Éventuellement,** si vous utilisez Eclipse ou un autre IDE, téléchargez le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
@@ -57,16 +57,16 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    SRC Start Screens `We.Retail` Run Project
 
-[Obtenir le fichier](assets/start-poster-screens-weretail-run.zip)
+   [Obtenir le fichier](assets/start-poster-screens-weretail-run.zip)
 
 1. Dans **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp`, les deux packages suivants sont installés :
 
    1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
    1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![Packages Screens We.Retail Run Ui.Apps et Ui.Content installés avec le gestionnaire de packages CRX](assets/crx-packages.png)
+   ![Packages Screens We.Retail Run Ui.Apps et Ui.Content installés avec le gestionnaire de modules CRX](assets/crx-packages.png)
 
-   Packages AEM Screens `We.Retail Run Ui.Apps` et `Ui.Content` installés avec le gestionnaire de packages CRX.
+   Packages AEM Screens `We.Retail Run Ui.Apps` et `Ui.Content` installés avec le gestionnaire de modules CRX.
 
 ## Créer le composant Poster {#poster-cmp}
 
@@ -129,7 +129,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
    1. Copiez la boîte de dialogue depuis : `/libs/wcm/foundation/components/image/cq:dialog`
    1. Collez la boîte de dialogue sous `/apps/weretail-run/components/content/poster`
 
-   ![Boîte de dialogue copiée depuis /libs/wcm/foundation/components/image/cq:dialog vers /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
+   ![Boîte de dialogue copiée de /libs/wcm/foundation/components/image/cq:dialog vers /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
    Boîte de dialogue copiée à partir de `/libs/wcm/foundation/components/image/cq:dialog` vers `/apps/weretail-run/components/content/poster`.
 
@@ -355,7 +355,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
+   Au lieu d’écrire directement le code CSS, ce tutoriel utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS populaire qui prend en charge les variables, mixins et fonctions CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
 
 1. Remplissez `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` avec les éléments suivants :
 
