@@ -8,10 +8,10 @@ user-guide-description: Apprenez à utiliser une solution de signalétique numé
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+source-wordcount: '581'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 + [Présentation de Screens](aem-screens-introduction.md)
 + Aperçu et guide de démarrage rapide {#overview}
    + [Guide de démarrage rapide](kickstart-for-aem-screens.md)
-   + [Guide des bonnes pratiques pour Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/using/about-guide)
+   + [Guide des bonnes pratiques de Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/using/about-guide)
    + [Termes clés](screens-glossary.md)
    + [Terminologie et concepts de Screens](screens-concepts-feature-video-understand.md)
 + Principes de base du réseau de signalétique numérique {#digital-signage-network}
@@ -45,7 +45,7 @@ ht-degree: 92%
    + Considérations spécifiques au client {#installing-client}
       + [Lecteur Chrome OS](implementing-chrome-os-player.md)
       + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [™ Player](implementing-android-player.md)
       + [Lecteur Windows](implementing-windows-player.md)
       + [Lecteur Tizen](tizen-player.md)
       + [Lecteur cloud](implementing-cloud-player.md)
@@ -119,6 +119,7 @@ ht-degree: 92%
    + [Résolution de problèmes dans le Centre de contrôle des périphériques](monitoring-screens.md)
    + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
+   + [Notes de mise à jour du Feature Pack 20260318](release-notes-fp-20260318.md)
    + [Notes de mise à jour du pack de fonctionnalités 20251007](release-notes-fp-20251007.md)
    + [Notes de mise à jour du pack de fonctionnalités 20250327](release-notes-fp-20250327.md)
    + [Notes de mise à jour du pack de fonctionnalités 20250224](release-notes-fp-20250224.md)
