@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 21%
@@ -15,6 +15,7 @@ ht-degree: 21%
 # Notes de mise à jour du Feature Pack 20260318 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe vous recommande d’effectuer une mise à niveau vers la dernière version de Adobe Experience Manager (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
 >Utilisez FP11.8 avec SP(servicepack) version 22 ou ultérieure.
 
@@ -22,7 +23,7 @@ ht-degree: 21%
 
 AEM Screens a publié le Feature Pack 11.8 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.8 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **&#x200B;**&#x200B;et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP11.8**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.8 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP11.8**.
 
 ## Date de publication {#release-date}
 
