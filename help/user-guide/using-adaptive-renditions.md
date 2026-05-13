@@ -2,10 +2,13 @@
 title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Découvrez comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 96%
+source-wordcount: 584
+ht-degree: 84%
 
 ---
 
@@ -53,7 +56,7 @@ Pour appliquer des rendus aux ressources que vous souhaitez utiliser dans le can
 ## Stratégie de migration {#migration-strategy}
 
 >[!IMPORTANT]
->Pour les réseaux volumineux, Adobe recommande que la migration soit réalisée progressivement afin d’atténuer les risques. Cela est dû au fait que la fonction peut introduire des modifications dans le format de stockage de manifeste et de fichier. L’ajout de `sling:configRef` à l’ensemble du projet implique la mise à jour de tous les lecteurs vers le pack de fonctionnalités 6.5.9. Si vous avez mis à jour certains lecteurs, ajoutez `sling:configRef` uniquement aux dossiers d’affichages, d’emplacements ou de canaux dont tous les lecteurs ont été mis à jour vers le pack de fonctionnalités 6.5.9.
+>Pour les réseaux volumineux, Adobe recommande que la migration soit réalisée progressivement afin d’atténuer les risques. Cela est dû au fait que la fonction peut introduire des modifications dans le format de stockage de manifeste et de fichier. L’ajout du `sling:configRef` à l’ensemble du projet implique la mise à jour de tous les lecteurs vers le Feature Pack 6.5.9. Si vous avez mis à jour certains lecteurs, ajoutez le `sling:configRef` uniquement aux dossiers d’affichages, d’emplacements ou de canaux dont tous les lecteurs ont été mis à jour vers le Feature Pack 6.5.9.
 
 Le diagramme suivant illustre la stratégie de migration pour les réseaux de taille importante :
 

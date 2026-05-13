@@ -2,10 +2,15 @@
 title: Approche recommandée
 description: Découvrez l’approche recommandée dans un projet AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: 436
+ht-degree: 52%
 
 ---
 
@@ -17,37 +22,40 @@ La bonne pratique consiste à considérer tout projet AEM Screens au niveau de 
 
 Voici quelques recommandations dont vous devez tenir compte avant de développer et de déployer un projet de signalétique numérique :
 
-* **Contrôle d’étendue** : 
-si la solution envisagée est ambitieuse, il est recommandé de diviser les livrables en phases discrètes pour contrôler la portée du projet.
+* **Contrôle de l’étendue** :
+Si la solution souhaitée est ambitieuse, il est recommandé de diviser les éléments livrables en phases discrètes pour contrôler la portée du projet.
 
-* **Cas d’utilisation définis** : les phases du projet doivent proposer des cas d’utilisation très précis, avec des critères de réussite clairement définis.
+* **Cas D’Utilisation Définis** :
+Les phases de projet doivent fournir des cas d’utilisation clairement définis avec des critères de réussite clairement identifiés.
 
-* **Livrables incrémentiels** : concentrez-vous sur la diffusion incrémentielle des fonctionnalités.
+* **Éléments livrables incrémentiels** :
+Concentrez-vous sur la diffusion progressive des fonctionnalités.
 
-* **Estimation du résultat souhaité** : commencez par les fonctionnalités prêtes à l’emploi d’AEM Screens avant de créer des composants et des intégrations personnalisés. Examinez avec les autres membres du projet s’il est possible d’atteindre le résultat souhaité à l’aide des composants et des fonctionnalités standard fournis avec les AEM Screens.
+* **Estimation du résultat souhaité** :
+Commencez par utiliser les fonctionnalités AEM Screens prêtes à l’emploi avant de créer des composants et des intégrations personnalisés. Examinez avec les autres membres du projet s’il est possible d’atteindre le résultat souhaité à l’aide des composants et des fonctionnalités standard fournis avec les AEM Screens.
 
-* **Définition de programmes pilotes, de déploiements et de validations de principe** : 
-élaborez des validations de principe et adaptez-les suivant les besoins au moyen d’un programme pilote et d’un déploiement.
+* **définition des pilotes, des déploiements et des POC** :
+Développez une preuve de concept (PDC) et adaptez-la si nécessaire au moyen d’un pilote et d’un déploiement.
 
-* **Définition préalable de la stratégie de contenu** :
-élaborez une stratégie de contenu, sans oublier les objectifs à court et à long terme. Alignez également les objectifs et KPI de la marque sur les améliorations de fonctionnalités.
+* **Prédéfinition de la stratégie de contenu** :
+Établissez une stratégie de contenu, y compris des objectifs à court et à long terme. Alignez également les objectifs et KPI de la marque sur les améliorations de fonctionnalités.
 
   >[!NOTE]
   >
   > Les coûts initiaux sont souvent plus élevés sur un projet AEM Screens en raison de la nécessité d’investir dans du matériel, des installations et des conceptions de site. Par conséquent, le fait de simplifier les solutions de contenu initiales peut aider à gérer les attentes de budget.
 
-* **Estimation des livrables à grande échelle** :
-si la solution est diffusée à grande échelle, déployez les composants de l’application dans des emplacements pilotes choisis avec soin pour une utilisation expérimentale. Une fois l’application validée, vous pouvez la déployer sur de nouveaux appareils et à d’autres emplacements.
+* **Estimation des livrables à grande échelle** :
+Si la solution est diffusée à grande échelle, déployez les composants de l’application vers des emplacements pilotes soigneusement choisis pour une utilisation à titre d’essai. Une fois l’application validée, vous pouvez la déployer sur de nouveaux appareils et à d’autres emplacements.
 
   >[!NOTE]
   >
   > Commencez à collecter des données d’analyse pendant le projet pilote afin que les équipes commerciales puissent valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
 
-* **Division des livrables en tâches mesurables** :
-diviser la diffusion des fonctionnalités en tâches mesurables permet de recueillir des commentaires, de proposer des objectifs plus réalisables et de réduire les risques globaux du projet.
+* **Diviser les livrables en tâches mesurables** :
+La division de la diffusion des fonctionnalités en tâches mesurables permet de recueillir des commentaires, de fournir des objectifs plus réalisables et de réduire les risques globaux du projet.
 
-* **Développement d’une feuille de route** :
-si votre client ou cliente souhaite se doter d’un produit riche en fonctionnalités, proposez une « tranche » des fonctionnalités prévues en début de projet, puis planifiez le déploiement d’autres fonctionnalités pour les phases ultérieures. Proposer un premier livrable comportant de nombreuses fonctionnalités entraîne des risques accrus et est plus difficile à valider auprès du client ou de la cliente.
+* **Élaboration d’une feuille de route** :
+Si votre client souhaite un produit riche en fonctionnalités, proposez une tranche des fonctionnalités prévues au début du projet et planifiez d’autres fonctionnalités pour les phases ultérieures. Proposer un premier livrable comportant de nombreuses fonctionnalités entraîne des risques accrus et est plus difficile à valider auprès du client ou de la cliente.
 
-* **Présentation de l’étendue des intégrations personnalisées** :
-les composants interactifs avec interaction tactile, capteur de mouvement ou technologie RFID nécessitent un développement personnalisé important au niveau de la méthode d’implémentation. Un diaporama, une publicité vidéo ou un menu statique peuvent être diffusés sous la forme de contenu graphique ou HTML sur un canal Screens.
+* **Présentation de la portée des intégrations personnalisées** :
+Les composants interactifs avec interaction écran tactile, capteur de mouvement ou RFID nécessitent un développement personnalisé important dans la méthode d’implémentation. Un diaporama, une publicité vidéo ou un menu statique peuvent être diffusés sous la forme de contenu graphique ou HTML sur un canal Screens.

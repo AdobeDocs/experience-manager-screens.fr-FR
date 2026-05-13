@@ -2,9 +2,13 @@
 title: Présentation d’AEM Screens
 description: Découvrez AEM Screens et son utilité.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/UticeR0hdyxXrG1P5qrwzrJLhZ3h5BRCfjamUzzu-XE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: 690
 ht-degree: 100%
 
 ---
@@ -26,7 +30,7 @@ AEM Screens fournit, en outre, de nombreuses applications exclusives pour sa cl
 * **Valorisation de la marque**
 * **Ajout d’ambiance à votre environnement**
 
-Avec AEM Screens, la création et la gestion d’un réseau de signalétique digitale s’avèrent à la fois simples et intuitives. Une application de lecture héberge des canaux de contenu créés pour AEM Screens par des clients ou des partenaires de mise en œuvre. Les *emplacements* gèrent une hiérarchie d’emplacements prédéfinie et contiennent des affichages. Chaque *affichage* comprend un tableau de bord, auquel sont associés différents appareils et écrans. Le contenu d’AEM Screens est géré dans des *canaux*. *AEM Screens Player* effectue le rendu du contenu figurant dans les canaux sur des dispositifs d’affichage.
+Avec AEM Screens, la création et la gestion d’un réseau de signalétique digitale s’avèrent à la fois simples et intuitives. Une application de lecture héberge des canaux de contenu créés pour AEM Screens par des clients ou des partenaires d’implémentation. Les *emplacements* gèrent une hiérarchie d’emplacements prédéfinie et contiennent des affichages. Chaque *affichage* comprend un tableau de bord, auquel sont associés différents appareils et écrans. Le contenu d’AEM Screens est géré dans des *canaux*. *AEM Screens Player* effectue le rendu du contenu figurant dans les canaux sur des dispositifs d’affichage.
 
 >[!NOTE]
 >
@@ -38,7 +42,7 @@ Avec AEM Screens, la création et la gestion d’un réseau de signalétique dig
 >
 >Si votre équipe en charge de la mise en œuvre a déjà travaillé avec des applications AEM Sites, il est important de comprendre la différence entre AEM Sites et AEM Screens.
 
-AEM Screens fournit une plateforme de création/lecture unifiée pour le déploiement de contenu sur des appareils de signalétique digitale installés dans l’espace public. Bien que le créateur de l’expérience s’efforce de maintenir la cohérence entre le contenu présenté sur le web et sur site, il convient de noter quelques différences.
+AEM Screens fournit une plateforme de création/lecture unifiée pour le déploiement de contenu sur des appareils de signalétique digitale installés dans l’espace public. Bien que le créateur de l’expérience s’efforce de maintenir la cohérence entre le contenu présenté sur le Web et sur site, il convient de noter quelques différences.
 
 * **Durée d’arrêt** : en règle générale, les pages web sont conçues pour fournir une grande quantité d’informations pouvant être exploitées sur une période relativement longue. À l’inverse, les expériences digitales sur site doivent anticiper les besoins de l’utilisateur, ou de l’utilisatrice et fournir des informations claires et concises quant à l’intérêt que présente une interaction pour ceux-ci. Cette attention se traduit par des expériences plus ciblées, mieux étudiées et plus pertinentes.
 
@@ -48,7 +52,7 @@ AEM Screens fournit une plateforme de création/lecture unifiée pour le déploi
 
 * **Segmentation de boucle multimédia** : en configurant chaque appareil de lecture de sorte qu’il dispose de son propre segment de boucle, vous avez la garantie que le contenu localisé peut être facilement créé, publié et lu dans l’ensemble de l’expérience digitale. Les ressources multimédias contenues dans les canaux de séquence incorporés sont ajoutées au segment de boucle précédent et offrent la possibilité de cibler un segment de boucle multimédia pour chaque regroupement d’emplacements.
 
-* **Expériences interactives** : une application kiosque tactile peut être créée et diffusée dans un canal Screens à l’aide d’AEM et de l’éditeur de SPA. Il est recommandé d’appliquer des propriétés de conception omnicanal cohérentes, un minuteur d’inactivité pour réinitialiser l’expérience, ainsi qu’un appel à l’action clair pour les tâches que l’application peut exécuter. La page de destination doit se composer d’éléments numériques clés, conçus pour transmettre la valeur du contenu, attirer l’utilisateur vers l’écran et susciter son engagement.
+* **Expériences interactives** : une application kiosque tactile peut être créée et diffusée dans un canal Screens à l’aide d’AEM et de l’éditeur de SPA. Il est recommandé d’appliquer des propriétés de conception omnicanal cohérentes, un retardateur d’inactivité pour réinitialiser l’expérience, ainsi qu’un appel à l’action clair pour les tâches que l’application peut exécuter. La page de destination doit se composer d’éléments numériques clés, conçus pour transmettre la valeur du contenu, attirer l’utilisateur vers l’écran et susciter son engagement.
 
 AEM Screens fournit une structure permettant de déployer du contenu sur des appareils physiques. Le contenu est affecté à des canaux dans Screens et les écrans peuvent proposer du contenu multimédia ou des applications tactiles. Dans cette structure, une application AEM Sites peut être diffusée sous la forme de contenu par le biais d’un canal.
 

@@ -6,10 +6,17 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 99%
+source-wordcount: 1808
+ht-degree: 70%
 
 ---
 
@@ -121,8 +128,8 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    1. Cliquez sur **Chemin du canal**, puis sur **Channel Level Activation** > ***Canaux*** > ***TargetedSinglePlay***.
    1. Le **Rôle de canal** est renseigné avec le contenu **targetedsingleplay**.
    1. Définissez la **Priorité** sur **2**.
-   1. Cliquez sur **Événements pris en charge** et définissez **Chargement initial**, **Écran inactif** et **Minuteur**, comme illustré dans la figure ci-dessous.
-   1. Dans **Actif à partir de**, définissez le 27 novembre 2018 à 23 h 59 et dans **Actif jusqu’à**, le 28 novembre 2018 à 00 h 05.
+   1. Cliquez sur **Événements pris en charge** et définissez **Chargement initial**, **Écran inactif** et **Retardateur**, comme illustré dans la figure ci-dessous.
+   1. En **actif à partir du**, fixé au 27 novembre 2018, à 23 :59, et en **actif jusqu’au**, fixé au 28 novembre 2018, à 12 :05.
    1. Cliquez sur **Enregistrer**.
 
    >[!CAUTION]
@@ -141,26 +148,25 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
 Une fois que vous aurez configuré les canaux et l’affichage, lancez le lecteur AEM Screens pour afficher le contenu.
 
-Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 h 59 (comme défini dans le planning), le canal **TargetedSinglePlay** affiche son contenu jusqu’à 00 h 05, puis le canal **MainAdChannel** reprend la lecture de son contenu.
+Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 :59 (comme défini dans le planning), le canal **TargetedSinglePlay** affiche son contenu jusqu’à 12 :05, puis le **MainAdChannel** reprend la lecture de son contenu.
 
 >[!NOTE]
 >
->Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :
->&#x200B;>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
->&#x200B;>[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
+>Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+>[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
 
 
 ## Gérer la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
 
 Vous pouvez planifier l’activation périodique des ressources d’un canal à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher les contenus d’un canal uniquement le vendredi de 13 h 00 à 22 h 00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle périodique souhaité pour votre ressource.
+Supposons que vous souhaitiez afficher le contenu d’un canal uniquement le vendredi de 13:00 à 22:00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle de périodicité souhaité pour votre ressource.
 
 ### Tranches horaires {#day-parting}
 
 1. Cliquez sur le canal et sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir le planning de périodicité.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version en langage naturel pour définir la planification de récurrence.
 
    >[!NOTE]
    >
@@ -174,23 +180,23 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Avant 8 h 00. | La ressource du canal est lue avant 8 h 00 tous les jours. |
-| Après 14 h 00. | La ressource du canal est lue après 14 h 00 tous les jours. |
-| Après 12 h 15 et avant 12 h 45. | La ressource du canal est lue après 12 h 15 tous les jours pendant 30 minutes. |
-| Avant 12 h 15 et après 12 h 45. | La ressource du canal est lue avant 12 h 15 et après 12 h 45 tous les jours. |
+| avant 8:00 | la ressource dans le canal est lue avant 8 heures :00 tous les jours |
+| après 14:00 | la ressource dans la chaîne est lue après 14 :00 tous les jours |
+| après 12 :15 et avant 12 :45 | la ressource dans la chaîne est lue après 12 :15 tous les jours pendant 30 minutes |
+| avant 12:15 également après 12:45 | la ressource dans la chaîne est lue avant 12 :15 tous les jours, puis également après 12 :45. |
 | Lun,Mar,Mer ou Lun-Mer | La ressource du canal est lue du lundi au mercredi. |
-| puis le premier jour de janvier après 14 h 00, ainsi que le deuxième jour de janvier et le troisième jour de janvier avant 03 h 00, | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
-| Le 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 03 h 00. | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
+| le premier jour de janvier après 14 :00, le deuxième jour de janvier et le troisième jour de janvier avant 3 :00. | la ressource du canal commence à être lue après 14 :00 le 1er janvier, et continue à être lue toute la journée du 2 janvier jusqu’à 3 :00 le 3 janvier |
+| les 1 à 2 jours de janvier après 14 heures:00 ainsi que les 2 à 3 jours de janvier avant 3 :00 heures. | la ressource dans le canal démarre le lecteur après 14 :00 le 1er janvier, continue la lecture jusqu’à 3 :00 le 2 janvier, puis recommence le 2 janvier à 14 :00 et continue jusqu’à 3 :00 le 3 janvier |
 
 >[!NOTE]
 >
->Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
 
 ### Tranches hebdomadaires {#week-parting}
 
-1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal et sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir le planning de périodicité.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version en langage naturel pour définir la planification de récurrence.
 
    >[!NOTE]
    >
@@ -205,21 +211,21 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | **Expression** | **Interprétation** |
 |---|---|
 | Lun,Mar,Mer ou Lun-Mer | La ressource du canal est lue du lundi au mercredi. |
-| Avant 8 h 00. | La ressource du canal est lue avant 8 h 00 tous les jours. |
-| Après 14 h 00. | La ressource du canal est lue après 14 h 00 tous les jours. |
-| Après 12 h 15 et avant 12 h 45. | La ressource du canal est lue après 12 h 15 tous les jours pendant 30 minutes. |
-| Avant 12 h 15 et après 12 h 45. | Le canal est lu avant 12 h 15 et après 12 h 45 tous les jours. |
+| avant 8:00 | la ressource dans le canal est lue avant 8 heures :00 tous les jours |
+| après 14:00 | la ressource dans la chaîne est lue après 14 :00 tous les jours |
+| après 12 :15 et avant 12 :45 | la ressource dans la chaîne est lue après 12 :15 tous les jours pendant 30 minutes |
+| avant 12:15 également après 12:45 | la chaîne joue avant 12 :15 tous les jours, puis également après 12 :45. |
 
 >[!NOTE]
 >
->Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
 
 
 ### Tranches mensuelles {#month-parting}
 
-1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal et sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir le planning de périodicité.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version en langage naturel pour définir la planification de récurrence.
 
    >[!NOTE]
    >
@@ -241,13 +247,13 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 >[!NOTE]
 >
->Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
 
 ### Combinaison de tranches {#combined-parting}
 
-1. Cliquez sur le canal, puis sur **Tableau de bord** dans la barre d’actions.
+1. Cliquez sur le canal et sur **Tableau de bord** dans la barre d’actions.
 
-1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version de texte naturel pour définir le planning de périodicité.
+1. Après avoir renseigné la date et l’heure de début et la date et l’heure de fin dans la boîte de dialogue **Attribution de canaux**, vous pouvez utiliser une expression ou une version en langage naturel pour définir la planification de récurrence.
 
    >[!NOTE]
    >
@@ -261,10 +267,10 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Après 6 h 00 et avant 18 h 00 les lundis et mercredis de janvier à mars | La ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars. |
-| puis le premier jour de janvier après 14 h 00, ainsi que le deuxième jour de janvier et le troisième jour de janvier avant 03 h 00, | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier. |
-| Le 1er et 2 janvier après 14 h 00 et le 2-3 janvier avant 03 h 00. | La lecture de la ressource du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
+| après le 6:00 et avant le 18:00 le lundi, mer de Jan-Mar | La ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars. |
+| le premier jour de janvier après 14 :00, le deuxième jour de janvier et le troisième jour de janvier avant 3 :00. | la ressource du canal commence à être lue après 14 :00 le 1er janvier, et continue à être lue toute la journée du 2 janvier jusqu’à 3 :00 le 3 janvier |
+| les 1 à 2 jours de janvier après 14 heures:00 ainsi que les 2 à 3 jours de janvier avant 3 :00 heures. | la ressource dans le canal démarre le lecteur après 14 :00 le 1er janvier, continue la lecture jusqu’à 3 :00 le 2 janvier, puis recommence le 2 janvier à 14 :00 et continue jusqu’à 3 :00 le 3 janvier |
 
 >[!NOTE]
 >
->Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).

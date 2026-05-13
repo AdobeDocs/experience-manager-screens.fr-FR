@@ -9,9 +9,14 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/cZb1svpBrUxCzPaEFjs0K7P09FxObz3-ctPMNqSjP5M
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: 995
 ht-degree: 96%
 
 ---
@@ -69,11 +74,11 @@ Le diagramme suivant illustre le processus de réplication :
 >
 >Un agent de réplication doit être créé pour chaque instance de publication de la batterie de serveurs de publication.
 
-### Agents et commandes de réplication Screens {#screens-replication-agents-and-commands}
+### Commandes et agents et de réplication Screens {#screens-replication-agents-and-commands}
 
-Des agents de réplication spécifiques personnalisés Screens sont créés pour envoyer des commandes de l’instance Auteur à l’appareil AEM Screens. Les instances de publication AEM servent d’intermédiaire pour transférer ces commandes à l’appareil.
+Des agents de réplication spécifiques personnalisés Screens sont créés pour envoyer des commandes de l’instance de création à l’appareil AEM Screens. Les instances de publication AEM servent d’intermédiaire pour transférer ces commandes à l’appareil.
 
-Ce processus permet aux auteurs et autrices de continuer à gérer l’appareil, par exemple d’envoyer des mises à jour à l’appareil et de prendre des captures d’écran à partir de l’environnement de création. Les agents de réplication AEM Screens ont une configuration de transport personnalisée, comme les agents de réplication standard.
+Ce processus permet aux auteurs et autrices de continuer à gérer l’appareil, par exemple d’envoyer des mises à jour à l’appareil et de prendre des captures d’écran à partir de l’environnement de création. Les agents de réplication AEM Screens ont une configuration de transport personnalisée, comme les agents de réplication standard.
 
 ### Messagerie entre les instances de publication {#messaging-between-publish-instances}
 
@@ -86,7 +91,7 @@ Par conséquent, l’instance de création envoie le message à toutes les insta
 Dans de nombreux cas, après une commande, on attend une certaine réponse de la part de l’appareil Screens, qui sera transmise à l’instance de création. Pour ce faire, on a recours à la ***réplication inverse*** AEM.
 
 * Créez un agent de réplication inverse pour chaque instance de publication, semblable aux agents de réplication standard et aux agents de réplication Screens.
-* Une configuration de lanceur de workflow écoute les nœuds modifiés sur l’instance de publication AEM et déclenche à son tour un workflow pour placer la réponse de l’appareil dans la boîte d’envoi de l’instance de publication.
+* Une configuration de lanceur de workflows écoute les nœuds modifiés sur l’instance de publication AEM et déclenche à son tour un workflow pour placer la réponse de l’appareil dans la boîte d’envoi de l’instance de publication.
 * Dans ce contexte, une réplication inverse n’est utilisée que pour les données binaires (fichiers journaux et captures d’écran, par exemple) fournies par les appareils. L’interrogation des données non binaires est récupérée.
 * La réplication inverse interrogée à partir de l’instance de création AEM récupère la réponse et l’enregistre dans l’instance de création.
 
@@ -96,7 +101,7 @@ L’instance de création doit pouvoir interroger les appareils pour obtenir une
 
 Les appareils envoient un ping à l’équilibreur de charge et sont routés vers une instance de publication. Le statut de l’appareil est ensuite révélé par l’instance de publication AEM via une API de publication diffusée à l’adresse **api/screens-dcc/devices/static** pour tous les appareils actifs et **api/screens-dcc/devices/&lt;device_id>/status.json** pour un appareil unique.
 
-L’instance de création interroge toutes les instances de publication et fusionne les réponses d’état de l’appareil en un seul état. La tâche planifiée qui interroge l’auteur est `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` et peut être configurée en se basant sur une expression cron.
+L’instance de création interroge toutes les instances de publication et fusionne les réponses de statut de l’appareil en un seul statut. La tâche planifiée qui interroge l’auteur est `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` et peut être configurée en se basant sur une expression cron.
 
 ## Enregistrement {#registration}
 

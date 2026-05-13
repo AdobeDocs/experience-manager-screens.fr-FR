@@ -10,10 +10,15 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 97%
+source-wordcount: 781
+ht-degree: 92%
 
 ---
 
@@ -31,7 +36,7 @@ Pour accéder au tableau de bord de l’appareil, procédez comme suit :
 
 1. Accédez au tableau de bord de l’appareil à partir de votre projet, par exemple, ***Projet de test*** > ***Appareils***.
 
-   Cliquez sur **Périphériques** et sur **Gestionnaire de périphériques** dans la barre d’actions.
+   Cliquez sur **Appareils** et **Gestionnaire d’appareils** dans la barre d’actions.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -73,7 +78,7 @@ Consultez le panneau **INFORMATIONS SUR L’APPAREIL**. Vous pouvez afficher ici
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Cliquez également sur les points de suspension (**...**) dans le coin supérieur droit du panneau Informations sur l’appareil pour afficher les propriétés ou mettre à jour l’appareil.
+Cliquez également sur (**...**) dans le coin supérieur droit du panneau Informations sur l’appareil pour afficher les propriétés ou mettre à jour l’appareil.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -89,7 +94,7 @@ Cliquez sur **Propriétés** pour afficher la boîte de dialogue **Propriétés 
 
 Vous pouvez afficher la capture d’écran d’un lecteur à partir de l’appareil dans le panneau **CAPTURE D’ÉCRAN DU LECTEUR**.
 
-Cliquez sur les points de suspension (**...**) dans le coin supérieur droit du panneau Capture d’écran du lecteur, puis cliquez sur **Actualiser la capture d’écran** pour afficher l’instantané du lecteur en cours d’exécution.
+Clic (**...**) dans le coin supérieur droit du panneau Capture d’écran du lecteur et cliquez sur **Actualiser la capture d’écran** pour afficher l’instantané du lecteur en cours d’exécution.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 

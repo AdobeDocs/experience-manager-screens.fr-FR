@@ -9,10 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/h0uMKe14q8sbQZON0H3KCUPbUjD1ex9vfpVsceR3bJw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 93%
+source-wordcount: 352
+ht-degree: 90%
 
 ---
 
@@ -43,7 +47,7 @@ Pour le lecteur Tizen, vous pouvez utiliser soit la télécommande matérielle, 
 1. Lorsque l’interface utilisateur d’administration est ouverte, vous pouvez utiliser les flèches vers le haut et vers le bas pour naviguer entre les onglets et afficher les informations.
 1. Une fois le sélecteur de canal ouvert, vous pouvez utiliser les touches fléchées Haut et Bas pour parcourir les canaux. Vous pouvez également appuyer sur la touche `Enter` (ou le bouton au centre des flèches sur la télécommande) pour changer de canal.
 
-La figure suivante illustre l’utilisation des touches sur une télécommande Samsung :
+Le diagramme suivant illustre l’utilisation des touches sur une télécommande Samsung :
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]

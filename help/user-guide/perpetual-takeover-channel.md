@@ -6,10 +6,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 100%
+source-wordcount: 875
+ht-degree: 61%
 
 ---
 
@@ -20,7 +26,7 @@ La page suivante présente un cas d’utilisation qui met l’accent sur la conf
 ## Description du cas d’utilisation {#use-case-description}
 
 Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu de manière permanente pour un jour et une heure spécifiques.
-Par exemple, il existe un canal de prise de contrôle permanente lu tous les vendredis de 9h00 à 10h00. Pendant cette période, aucun autre canal ne doit être lu. L’exemple suivant présente la création d’un canal de prise de contrôle permanente qui lit le contenu tous les mercredis pendant 2 heures, de 14 h 00 à 16 h 00.
+Par exemple, il existe un canal de prise de contrôle permanente qui est lu tous les vendredis de 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. L’exemple suivant illustre la création d’un canal de prise de contrôle perpétuel qui permet à la lecture du contenu tous les mercredis pendant deux heures:00 de 14 heures à 16 :00.
 
 ### Prérequis {#preconditions}
 
@@ -57,7 +63,7 @@ Pour configurer un projet, procédez comme suit :
    >[!NOTE]
    >Le canal **MainAdChannel** de cet exemple illustre un canal de séquence qui lit le contenu en continu.
 
-1. Créez un canal **TakeOver** qui prend le contrôle du contenu dans **MainAdChannel** et qui est lu tous les mercredis de 14 h 00 à 16 h 00.
+1. Créez un canal **TakeOver** qui prend en charge le contenu dans **MainAdChannel** et qui est lu tous les mercredis de 14 :00 à 16 :00.
 
 1. Cliquez sur **TakeOver**, puis sur **Modifier** dans la barre d’actions. Faites glisser certaines ressources vers votre canal. L’exemple suivant présente une image de zone unique ajoutée à ce canal.
 
@@ -88,26 +94,26 @@ Pour configurer un projet, procédez comme suit :
 
    * **Chemin du canal** : cliquez sur le chemin d’accès au canal **TakeOver**.
    * **Priorité** : attribuez à ce canal une priorité supérieure à celle du canal **MainAdChannel**. Par exemple, la priorité définie dans cet exemple est 8.
-   * **Événements pris en charge** : cliquez sur l’**Écran inactif** et le **Minuteur**.
-   * **Planning** : saisissez le texte du planning selon lequel ce canal doit exécuter l’affichage. Le texte de la **Planification** mentionnée dans cet exemple est *le mercredi après 14 h 00 et avant 16 h 00*.
+   * **Événements pris en charge** : cliquez sur **Écran inactif** et **Retardateur**.
+   * **Planning** : saisissez le texte du planning selon lequel ce canal doit exécuter l’affichage. Le texte de l’**Annexe** mentionné dans cet exemple est *le mercredi après le 14:00 et avant le 16:00*.
 
      >[!NOTE]
      >Pour en savoir plus sur les expressions que vous pouvez ajouter au **Planning**, consultez la section [Exemples d’expressions](#example-expressions) ci-dessous.
    * **actif à partir de** : Date et heure de début.
    * **actif jusqu’à** : Date et heure de fin.
 
-     Par exemple, le texte du **Planning** et les heures et les dates **actif à partir de** et **actif jusqu’à** permettent au contenu d’être lu tous les mercredis de 14 h 00 à 16 h 00.
+     Par exemple, le texte dans les dates et heures **Planifier** et **Actif à partir de** et **Actif jusqu’à** permet au contenu d’être lu tous les mercredis de 14 :00 à 16 :00.
 
 
-     ![ressource](assets/p_usecase7.png)
+     ![Ressource](assets/p_usecase7.png)
 
      Accédez à l’affichage à partir de **TakeOver** > **Emplacements** > **MainLobby** > **MainLobbyDisplay** et cliquez sur **Tableau de bord** dans la barre d’actions pour afficher les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
      >[!NOTE]
      >Il est obligatoire de définir la priorité du canal de prise de contrôle sur le niveau le plus élevé.
 
-     ![Ressource](assets/p_usecase8.png)
-Maintenant, le canal **TakeOver** prend le contrôle du canal **MainAdChannel** à 14 h 00 pendant deux heures jusqu’à 16 h 00 tous les mercredis et lit son contenu du 9 janvier 2020 au 31 janvier 2020.
+     ![ressource](assets/p_usecase8.png)
+Désormais, le canal **TakeOver** prend le contrôle du canal **MainAdChannel** à 14 :00 pendant deux heures jusqu’à 16 :00 tous les mercredis et diffuse son contenu du 9 janvier 2020 au 31 janvier 2020.
 
 ## Exemples d’expressions {#example-expressions}
 
@@ -115,13 +121,13 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| Avant 8 h 00. | Le canal est lu avant 8 h 00 tous les jours. |
-| Après 14 h 00. | Le canal est lu tous les jours après 14 h 00. |
-| Après 12 h 15 et avant 12 h 45. | Le canal est lu après 12 h 15 tous les jours pendant 30 minutes. |
-| Avant 12 h 15 et après 12 h 45. | Le canal est lu avant 12 h 15 et après 12 h 45 tous les jours. |
-| puis le premier jour de janvier après 14 h 00, ainsi que le deuxième jour de janvier et le troisième jour de janvier avant 03 h 00, | la lecture du canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée du 2 janvier jusqu’à 3 h 00 le 3 janvier |
-| puis pendant 1-2 jours après 14 h 00 et 2-3 jours avant 03 h 00, | la lecture du canal commence après 14 h 00 le 1er janvier, se poursuit jusqu’à 3 h 00 le 2 janvier, puis recommence le 2 janvier à 14 h 00 et se poursuit jusqu’à 3 h 00 le 3 janvier. |
+| avant 8:00 | la chaîne passe avant 8:00h tous les jours |
+| après 14:00 | la chaîne joue après 14:00 tous les jours |
+| après 12 :15 et avant 12 :45 | la chaîne passe après 12 :15 tous les jours pendant 30 minutes |
+| avant 12:15 également après 12:45 | la chaîne joue avant 12 :15 tous les jours, puis également après 12 :45. |
+| le premier jour de janvier après 14 :00, le deuxième jour de janvier et le troisième jour de janvier avant 3 :00. | la chaîne commence à jouer après 14 :00 01 janvier, et continue à jouer toute la journée du 2 janvier jusqu’à 3 :00 03 janvier |
+| les 1 à 2 jours de janvier après 14 heures:00 ainsi que les 2 à 3 jours de janvier avant 3:00 heures. | le canal démarre le lecteur après 14 :00 01 janvier, continue la lecture jusqu’à 3 :00 02 janvier, puis recommence le 2 janvier à 14 :00 02 et continue jusqu’à 3 :00 03 janvier |
 
 >[!NOTE]
 >
->Vous pouvez également utiliser la notation d’_heure militaire_ (14:00) au lieu de *A.M./P.M.* (14 h 00).
+>Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).

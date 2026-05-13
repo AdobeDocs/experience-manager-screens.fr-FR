@@ -6,10 +6,16 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qceJ4N3M62xz-CCA9XhetBuzfU4dBHJSpmhMH88wPxI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 90%
+source-wordcount: 826
+ht-degree: 82%
 
 ---
 
@@ -54,12 +60,12 @@ Par exemple, l’image suivante montre comment vous pouvez gérer et mettre à j
 
    Suivez les explications ci-dessous pour comprendre les options disponibles :
 
-   1. **Inclure uniquement les enfants directs** :
-cette option vous permet de gérer les mises à jour uniquement sur les sous-nœuds de la structure de votre projet.
-   1. **Inclure uniquement les pages modifiées** :
-cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet où les modifications se trouvent dans la structure de votre projet.
-   1. **Inclure uniquement les pages déjà publiées** :
-cette option vous permet de gérer les mises à jour uniquement sur les pages qui ont déjà été publiées.
+   1. **Inclure seulement les enfants immédiats** :
+Cette option vous permet de gérer les mises à jour uniquement sur les sous-nœuds de la structure de votre projet.
+   1. **Inclure seulement les pages modifiées** :
+Cette option vous permet de gérer les mises à jour uniquement sur les pages modifiées du projet, où les modifications se trouvent dans la structure du projet.
+   1. **Inclure seulement les pages déjà publiées** :
+Cette option vous permet de gérer les mises à jour uniquement sur les pages qui ont été publiées précédemment.
 
 
 1. Dans l’**`Manage Publication wizard`**, cliquez sur **Publier**.
@@ -103,7 +109,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. L’assistant **Gérer la publication** s’ouvre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
+1. L’assistant **Gérer la publication** démarre. Vous pouvez cliquer sur l’**Action** et également définir l’heure de publication sur maintenant ou plus tard. Cliquez sur **Suivant**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

@@ -10,9 +10,14 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: 693
 ht-degree: 100%
 
 ---
@@ -25,7 +30,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Pour accéder à l’un de ces packs de fonctionnalités, contactez l’assistance technique Adobe et déposez une requête dans ce sens. Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID.
+>Pour accéder à l’un de ces packs de fonctionnalités, contactez l’assistance technique Adobe et déposez une requête dans ce sens. Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
 Cette section couvre les sujets suivants :
 
@@ -45,7 +50,7 @@ Cette section décrit les fonctionnalités suivantes liées à la connexion d’
 * Permet de créer des rapports de preuve de lecture par ressource
 * Veille à ce que tous les événements du lecteur soient capturés et horodatés
 * Veille à ce que tous les événements du lecteur soient stockés localement s’il n’est pas connecté à un réseau
-* Des boucles de rétroaction peuvent être créées pour suivre les événements de lecture à long terme.
+* Des systèmes de feedback peuvent être créés pour suivre les événements de lecture à long terme.
 * Permet au système de modifier le contenu et les dispositions selon les critères de réussite définis par l’auteur ou l’autrice du contenu
 
 Ainsi, l’intégration d’Adobe Analytics avec AEM Screens permet de réaliser les *objectifs* suivants :
@@ -104,7 +109,7 @@ Le tableau suivant répertorie et décrit les propriétés permettant de configu
   </tr>
   <tr>
    <td><strong>Environnement</strong></td>
-   <td><p>Environnement d’étape ou de production (sélectionnez Étape ou Production).</p></td>
+   <td><p>Environnement d’évaluation ou de production (sélectionnez Évaluation ou Production).</p></td>
   </tr>
   <tr>
    <td><strong>Fréquence d’envoi des données d’analyse</strong></td>

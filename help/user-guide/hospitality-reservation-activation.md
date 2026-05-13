@@ -10,10 +10,17 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/WwFvV7ZVDRUPpsXWQUKYkz6-gmEjBcpkApcHxzx5vII
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 97%
 
 ---
 
@@ -46,7 +53,7 @@ Pour mettre en œuvre l’activation des réservations d’hébergements pour vo
 1. **Configuration des segments dans les audiences selon les besoins**
 
    1. Accédez aux segments de votre audience (reportez-vous à l’***Étape 2 : configuration de la segmentation de l’audience*** dans la page **[Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)** pour plus d’informations).
-   1. Cliquez sur **Sheets A1 1**, puis sur **Modifier**.
+   1. Sélectionnez **Sheets A1 1** et cliquez sur **Modifier**.
    1. Cliquez sur la propriété de comparaison, puis sur l’icône **Configuration**.
    1. Cliquez sur **googlesheets/value/1/0** dans la liste déroulante de **Nom de la propriété**.
    1. Cliquez sur l’**Opérateur** **égal** dans le menu déroulant.
@@ -70,10 +77,10 @@ Pour mettre en œuvre l’activation des réservations d’hébergements pour vo
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Cliquez sur **Ciblage** dans l’éditeur, puis sur **Marque** et l’**Activité** dans le menu déroulant, et sur **Commencer le ciblage**.
+1. Sélectionnez **Ciblage** dans l’éditeur. Sélectionnez ensuite la **Marque** et l’**Activité** dans le menu déroulant, puis cliquez sur **Commencer le ciblage**.
 1. **Vérification de l’aperçu**
 
-   1. Cliquez sur **Aperçu.** Ouvrez également votre feuille de calcul Google et mettez à jour sa valeur.
+   1. Cliquez sur **Aperçu.** Ouvrez également vos feuilles Google et mettez à jour sa valeur.
    1. Mettez à jour la valeur dans les colonnes **`Restaurant1`** et **`Restaurant2`**. Si **`Restaurant1`** > **`Restaurant2`,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
 
    ![result5](assets/result5.gif)

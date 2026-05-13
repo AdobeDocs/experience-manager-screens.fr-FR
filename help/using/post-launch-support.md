@@ -1,15 +1,18 @@
 ---
 title: Prise en charge post-lancement
 description: Découvrez la prise en charge post-lancement d’AEM Screens dans le guide des bonnes pratiques.
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 390
 ht-degree: 99%
 
 ---
 
-
-# Assistance après le lancement {#post-launch-support}
+# Prise en charge après le lancement {#post-launch-support}
 
 Ne négligez pas la prise en charge post-lancement à un stade précoce.
 
@@ -47,7 +50,7 @@ Quelques considérations et questions qui vous aident à définir la prise en ch
    >
    >Exige des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise. Des traitements différents peuvent être réservés aux sites à forte visibilité.
 
-1. S’agit-il d’une application vitale pour les activités commerciales de l’entreprise ? C’est le cas, par exemple, des panneaux de menus pour une chaîne de restauration rapide. 
+1. S’agit-il d’une application vitale pour les activités commerciales de l’entreprise ? C’est le cas, par exemple, des panneaux de menus pour une chaîne de restauration rapide.
 
    >[!NOTE]
    >

@@ -2,9 +2,13 @@
 title: Réseau mobile avec routeur de données mobile et composants réseau actifs
 description: La page décrit le réseau mobile avec routeur de données mobiles et composants réseau actifs
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/uKyl9w97xF0m6W9kj-PTAbIgt5HtZRAgkOUCstAuti4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1050
 ht-degree: 98%
 
 ---
@@ -55,7 +59,7 @@ La configuration réseau peut être scindée logiquement en deux blocs :
 
 ### Connexion Internet mobile {#mobile-internet-connection}
 
-Au-delà de l’accessibilité réseau déjà décrite, les performances de la connexion internet tiennent à la capacité à fournir suffisamment de bande passante pour qu’AEM Screens télécharge le contenu de manière fluide. 
+Au-delà de l’accessibilité réseau déjà décrite, les performances de la connexion internet tiennent à la capacité à fournir suffisamment de bande passante pour qu’AEM Screens télécharge le contenu de manière fluide.
 
 *Suffisant* dépend du nombre d’appareils AEM Screens connectés. Cela dépend également de l’utilisation d’autres consommateurs sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
 Gardez à l’esprit que tous les appareils ont un accès simultané à la connexion Internet et que la bande passante diminue de façon linéaire à mesure que des appareils consommateurs/ordinateurs sont ajoutés au réseau.
@@ -96,7 +100,7 @@ Si une solution Wi-Fi est envisagée pour connecter l’écran à Internet, il e
 ## Télécharger des médias et des ressources {#download}
 
 AEM Screens offre un grand avantage aux utilisateurs et utilisatrices de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. En raison de ce concept, la majorité du trafic réseau a lieu lorsqu’un nouveau contenu s’affiche sur un écran spécifique.
-Pour les opérations normales, avec une liste de lecture définie qui n’est pas très souvent actualisée au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
+Pour les opérations normales, avec une liste de lecture définie qui n’est pas très souvent mise à jour au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 Pour les cas d’utilisation où il y a plus d’interactions avec des capteurs ou d’autres déclencheurs et lorsque le contenu est dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate. Cela garantit la meilleure expérience client possible.
 Les tableaux ci-dessous offrent une bonne vue d’ensemble des données clés de connectivité réseau en ce qui concerne les performances prévisibles et les temps d’attente potentiels.
 

@@ -1,6 +1,6 @@
 ---
-title: Implémenter le lecteur Android&trade;
-description: Découvrez l’implémentation d’Android&trade; Watchdog, une solution qui vous permet de restaurer le lecteur Android™ en cas de panne.
+title: Mise en œuvre d’Android&trade; Player
+description: Découvrez la mise en œuvre d’Android&trade; Watchdog, une solution qui vous permet de récupérer le lecteur Android&trade; suite à une panne.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,16 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 94%
+source-wordcount: 1550
+ht-degree: 92%
 
 ---
 
@@ -62,7 +68,7 @@ Après avoir téléchargé l’application, suivez les étapes du lecteur pour t
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 
-1. Accédez au lien **Enregistrement** des **appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
+1. Accédez au lien **Enregistrement** **des appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 
 >[!NOTE]
 >
@@ -76,7 +82,7 @@ En raison de l’architecture d’Android™, le redémarrage de l’appareil re
 
 ### Signature de `apks` Android™ à l’aide des clés du fabricant {#signage-of-android-apks-using-manufacturer-keys}
 
-Pour accéder à certaines des API privilégiées d’Android™, telles que *PowerManager* ou *HDMIControlServices*, signez le `apk` Android™ à l’aide des clés du fabricant.
+Pour accéder à certaines des API privilégiées d’™, telles que *PowerManager* ou *HDMIControlServices*, signez le `apk` Android™ à l’aide des clés du fabricant.
 
 >[!CAUTION]
 >
@@ -97,7 +103,7 @@ Pour signer le fichier apk Android™ à l’aide des clés du fabricant, procé
 
 ## Comprendre les services Android™ Watchdog {#android-watchdog-services}
 
-Le service de surveillance cross-Android™ est implémenté sous la forme d’un plug-in Cordova à l’aide de *AlarmManager*.
+Le service de surveillance cross-™ est implémenté sous la forme d’un plug-in Cordova à l’aide de *AlarmManager*.
 
 Le diagramme suivant illustre la mise en œuvre du service Watchdog :
 
@@ -105,7 +111,7 @@ Le diagramme suivant illustre la mise en œuvre du service Watchdog :
 
 **1. Initialisation** : au moment de l’initialisation du plug-in Cordova, les autorisations sont vérifiées pour voir si vous disposez des autorisations système et donc de l’autorisation Redémarrer. Si ces deux critères sont satisfaits, une tentative en attente d’exécution de Redémarrer est créée. Dans le cas contraire, une tentative en attente de redémarrage de l’application (en fonction de son activité de lancement) est créée.
 
-**2. Minuteur de maintien en activité** : un minuteur de maintien en activité est utilisé pour déclencher un événement toutes les 15 secondes. Dans cet événement, vous devez annuler la tentative en attente existante (pour redémarrer l’application) et enregistrer une nouvelle tentative identique en attente pour 60 secondes plus tard (en remettant à plus tard le redémarrage).
+**2. Retardateur de maintien en activité** : un retardateur de maintien en activité est utilisé pour déclencher un événement toutes les 15 secondes. Dans cet événement, vous devez annuler la tentative en attente existante (pour redémarrer l’application) et enregistrer une nouvelle tentative identique en attente pour 60 secondes plus tard (en remettant à plus tard le redémarrage).
 
 >[!NOTE]
 >

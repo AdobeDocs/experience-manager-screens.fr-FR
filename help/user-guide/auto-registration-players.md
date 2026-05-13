@@ -5,9 +5,14 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/uvCRS49L6CQbah4AKFwRdhGN-pvKnTWtNMN8CnFojIQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 342
 ht-degree: 100%
 
 ---
@@ -21,12 +26,12 @@ L’enregistrement manuel en bloc de milliers de lecteurs peut devenir lourd, ch
 Pour mettre en œuvre l’enregistrement automatique des lecteurs, procédez comme suit :
 
 1. Connectez-vous à votre instance AEM et sélectionnez votre projet AEM Screens, puis cliquez sur **Propriétés** dans la barre d’actions.
-1. Sélectionnez l’onglet **Avancé** pour afficher la section **Enregistrement des appareils**.
+1. Cliquez sur l’onglet **Avancé** pour afficher la section **Enregistrement des appareils**.
 
 1. Spécifiez un code d’enregistrement automatique dans le champ **Code d’enregistrement en bloc**. Ensuite, un affichage par défaut facultatif s’affiche dans l’**Affectation d’affichage par défaut** pour l’affecter au lecteur enregistré automatiquement.
 
    >[!NOTE]
-   >Saisissez le code de votre choix et sélectionnez un affichage par défaut si nécessaire.
+   >Saisissez le code de votre choix et cliquez sur un affichage par défaut si nécessaire.
 
    ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Configurez vos lecteurs avec l’URL de serveur et le code d’enregistrement appropriés à l’aide d’un fichier MDM ou JSON de configuration.

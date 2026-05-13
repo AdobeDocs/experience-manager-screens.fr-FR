@@ -9,10 +9,17 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2451'
-ht-degree: 98%
+source-wordcount: 2489
+ht-degree: 95%
 
 ---
 
@@ -69,7 +76,7 @@ Avant de commencer à implémenter cette fonctionnalité, assurez-vous que les c
 
 * Créer un projet AEM Screens (dans cet exemple, **Demo**).
 * Créez un canal **global** dans le dossier **Canaux**.
-* Ajoutez du contenu à votre canal **Global** (*Consultez **Resources.zip**&#x200B;pour connaître les ressources appropriées*).
+* Ajoutez du contenu à votre canal **Global** (*Consultez **Resources.zip**pour connaître les ressources appropriées*).
 
 L’image suivante montre le projet **Démo** avec le canal **global** dans le dossier **Canaux**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -157,7 +164,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   Suivez les étapes précédentes pour créer un canal et un affichage dans **`Store 3`** et **`Store 4`** sous **Région B**. Là encore, veillez à utiliser le même **Nom**, à savoir **magasin** lors de la création des canaux **`Store3Channel`** et **`Store4Channel`** respectivement.
+   Suivez les étapes précédentes pour créer un canal et l’afficher dans **`Store 3`** et **`Store 4`** sous **Région B**. Encore une fois, assurez-vous d’utiliser le même **Name** que **store** lors de la création des **`Store3Channel`** de canal et des **`Store4Channel`**, respectivement.
 
    L’image suivante présente l’affichage et le canal dans **`Store 3`**.
 
@@ -216,7 +223,7 @@ Suivez les étapes ci-dessous pour mettre en œuvre la fonctionnalité :
    **Attribution d’un canal par rôle pour le magasin :**
 
    1. Cliquez sur **+ Attribuer le canal** dans le panneau **CANAUX ATTRIBUÉS**.
-   1. Dans la boîte de dialogue Attribution de canaux, sélectionnez **Canal de référence** en fonction du nom.
+   1. Dans la boîte de dialogue Attribution de canaux, cliquez sur **Canal de référence** en fonction du nom.
    1. Saisissez le **Nom du canal** **magasin**.
    1. Définissez le **Rôle du canal** sur **StoreAdSegment**.
    1. Cliquez sur **Enregistrer**.
@@ -374,7 +381,7 @@ Pour créer des groupes, des utilisateurs ou utilisatrices et modifier les liste
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   L’exemple suivant montre que la variable Région-Utilisateur/utilisatrice a accès aux **Région A** et **Région B**. Et qu’elle a accès aux quatre magasins, à savoir **Magasin 1**, **Magasin 2**, **Magasin 3**, et **Magasin 4**, mais pas au canal **global**.
+   Ce qui suit indique que l’utilisateur de la région a accès à la fois à **Région A** et à **Région B**. De plus, l’accès aux quatre magasins, à savoir **Magasin 1**, **Magasin 2**, **Magasin 3** et **Magasin 4**, mais n’accède pas au canal **Global**.
 
    ![région](assets/region.gif)
 

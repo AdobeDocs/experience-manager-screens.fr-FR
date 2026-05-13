@@ -2,10 +2,14 @@
 title: Tests et assurance qualité
 description: Découvrez les tests et l’assurance qualité dans le cadre du guide des bonnes pratiques d’AEM Screens.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: 346
+ht-degree: 97%
 
 ---
 
@@ -25,7 +29,7 @@ Il convient de créer une liste de contrôle qui identifie tous les KPI définis
 
 Les éléments suivants doivent être pris en compte :
 
-## 1. Facteurs mécaniques {#mechanical-considerations}
+## &#x200B;1. Considérations mécaniques {#mechanical-considerations}
 
 Il est recommandé de tenir compte des facteurs mécaniques suivants :
 
@@ -36,7 +40,7 @@ Il est recommandé de tenir compte des facteurs mécaniques suivants :
 * Gestion des câbles
 * Mise en réseau des appareils
 
-## 2. Facteurs logiciels {#software-considerations}
+## &#x200B;2. Considérations relatives aux logiciels {#software-considerations}
 
 Il est recommandé de tenir compte des facteurs logiciels suivants :
 
@@ -46,7 +50,7 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 * Dépendances de base de données (définies précédemment)
 
 
-## 3. Facteurs de gestion des appareils {#device-management-considerations}
+## &#x200B;3. Considérations relatives à la gestion des appareils {#device-management-considerations}
 
 AEM Screens dispose d’un module de centre de contrôle des appareils qui permet de gérer les points d’entrée de l’application du lecteur Screens.
 
