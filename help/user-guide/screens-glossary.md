@@ -5,9 +5,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/7wZWJnsszMHUi8OvOnUHVrJIotg0CE395r0yPlu-6-A
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: 442
 ht-degree: 100%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 100%
 
 **Canal d’application** : un canal d’application montre une application créée par un développeur ou une développeuse qui affiche des contenus interactifs.
 
-**Boucle d’attraction** : une boucle d’attraction est définie sous l’état *accueil* ou *inactif* lorsque l’affichage comporte au moins deux états dans lesquels elle peut exister. Son rôle est d’*attirer* les clients vers l’écran et de les inciter à interagir, généralement en touchant l’écran, mais aussi éventuellement en interagissant avec un produit.
+**Boucle d’attraction** : une boucle d’attraction est définie sous l’état *accueil* ou *inactif* lorsque l’affichage comporte au moins deux états dans lesquels elle peut exister. Son rôle est d’*attirer* les clientes et clients vers l’écran, et de les encourager à interagir, généralement en touchant l’écran, mais aussi éventuellement en interagissant avec un produit.
 
 **Tranches horaires** : cette fonctionnalité consiste à fractionner une journée en tranches horaires et à indiquer quel contenu diffuser à l’heure désirée. AEM Screens vous permet de planifier des canaux en termes de tranches horaires au cours d’une journée, d’une semaine ou d’un mois en fonction des besoins.
 

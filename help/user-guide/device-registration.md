@@ -10,9 +10,19 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/KKpBuSTtOex2pEiA19fzMIv0IIngpQdE9It8yLS-Eds
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 727
 ht-degree: 98%
 
 ---
@@ -148,7 +158,7 @@ Lorsque vous avez enregistré des appareils sur votre lecteur, vous pouvez les a
 
 * Si vous avez créé des noms d’appareils tels que *`Boston Store Lobby`*, n’importe quel mot est recherché : *`boston`*, *`store`*, ou *`lobby`*. Cependant, si le nom de l’appareil est *`BostonStoreLobby`*, une recherche portant sur *`boston`* ne renvoie aucun résultat.
 
-* Le caractère générique `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les appareils dont le nom commence par *`boston`*, vous pouvez utiliser *`boston`**.
+* Le caractère joker `*` est pris en charge pour la recherche. Si vous souhaitez rechercher tous les appareils dont le nom commence par *`boston`*, vous pouvez utiliser *`boston`**.
 
 * Si le nom de l’appareil est *`BostonStoreLobby`*, la recherche de *`boston`* ne renvoie pas de résultat. Par contre, l’utilisation de *`boston`** dans vos critères de recherche renvoie un résultat.
 

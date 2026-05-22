@@ -10,10 +10,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/NNWMddEX0RPig8ye2p8UfgG6BQHpCapqb9KNc5RS9Ys
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 95%
+source-wordcount: 548
+ht-degree: 92%
 
 ---
 
@@ -75,7 +88,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Sélectionnez le composant **`Command Line`** et ouvrez la boîte de dialogue Propriétés.
+1. Cliquez sur le composant **`Command Line`** et ouvrez la boîte de dialogue Propriétés.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
@@ -87,7 +100,7 @@ Suivez les étapes ci-dessous pour créer un processus pour votre vidéo :
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Cliquez sur le workflow (**VideoRenditions**).
-1. Sélectionnez **Démarrer le workflow** dans la barre d’actions.
+1. Cliquez sur **Démarrer le workflow** dans la barre d’actions.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
@@ -116,6 +129,6 @@ Pour utiliser le workflow dans votre projet AEM Screens, procédez comme suit :
 Vous pouvez valider votre sortie en procédant comme suit :
 
 * Vérifier la prévisualisation de la vidéo dans le canal
-* Accédez au répertoire ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré dans la figure ci-dessous :
+* Accédez à ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** dans CRXDE Lite, comme illustré ci-dessous :
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

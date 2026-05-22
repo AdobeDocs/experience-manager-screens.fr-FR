@@ -5,10 +5,22 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: 662
+ht-degree: 95%
 
 ---
 
@@ -25,7 +37,7 @@ La page suivante décrit les instructions de configuration de Dispatcher pour un
 >En l’absence de Dispatcher, désactivez la servlet d’enregistrement dans la liste des composants OSGi.
 
 Avant de configurer Dispatcher pour un projet AEM Screens, vous devez le connaître au préalable.
-Pour en savoir plus, voir [Configuration de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration?lang=fr).
+Pour en savoir plus, voir [Configuration de Dispatcher](https://experienceleague.adobe.com/fr/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
 
 ## Configuration de Dispatcher pour Manifest version v2 {#configuring-dispatcher}
 
@@ -127,7 +139,7 @@ Pour activer le cache des ressources afin qu’elles soient diffusées à partir
     }
 ```
 
-## Configuration de Dispatcher pour Manifest version v3 {#configuring-dispatcherv3}
+## Configuration de Dispatcher pour Manifest version v3{#configuring-dispatcherv3}
 
 Veillez à autoriser ces filtres et règles de mise en cache dans les Dispatchers placés devant les instances de publication pour le fonctionnement de Screens.
 
@@ -175,8 +187,8 @@ Respectez ces deux conditions préalables avant de configurer Dispatcher (Manife
 
 * Tous les lecteurs AEM Screens utilisent une session authentifiée pour se connecter à AEM (création/publication). Par défaut, Dispatcher ne met pas en cache ces URL. Vous devez donc les activer.
 
-* Ajoutez `statfileslevel "10"` à la section `/cache` dans `publish_farm.any`.
-Cela prend en charge la mise en cache de dix niveaux maximum à partir de la racine docroot du cache et invalide en conséquence lorsque le contenu est publié plutôt que de tout invalider. N’hésitez pas à modifier ce niveau en fonction de la profondeur de votre structure de contenu.
+* Ajoutez `statfileslevel "10"` à `/cache` section dans `publish_farm.any`
+Cette règle prend en charge la mise en cache de dix niveaux maximum à partir de la racine du cache et invalide en conséquence lorsque le contenu est publié plutôt que de tout invalider. N’hésitez pas à modifier ce niveau en fonction de la profondeur de votre structure de contenu.
 
 * Ajoutez le code suivant à `/invalidate section in publish_farm.any`
 

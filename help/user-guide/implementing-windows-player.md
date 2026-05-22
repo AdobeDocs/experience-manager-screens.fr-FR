@@ -10,10 +10,20 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 96%
+source-wordcount: 1155
+ht-degree: 91%
 
 ---
 
@@ -35,13 +45,13 @@ Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.m
 >[!NOTE]
 >Configurez un environnement pour le lecteur Windows si vous utilisez le pack de services AEM Screens 6.5.5.
 
-Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None** dans **Configuration de la console web Adobe
-Experience Manager** sur toutes les instances de création et de publication AEM.
+Définissez l’attribut **SameSite pour les cookies de jeton de connexion** de **Lax** sur **None** à partir de la console web **Adobe Experience Manager
+Configuration** sur toutes les instances d’auteur et de publication AEM.
 
 Suivez les étapes ci-dessous :
 
-1. Accédez à **Configuration de la console web Adobe
-Experience Manager** en utilisant `http://localhost:4502/system/console/configMgr`.
+1. Accéder à la console web **Adobe Experience Manager
+Configuration** à l’aide de `http://localhost:4502/system/console/configMgr`.
 
 1. Recherchez *Adobe Granite Token Authentication Handler*.
 
@@ -89,7 +99,7 @@ Suivez cette section pour savoir comment modifier les options par défaut dans W
    `C:\Users\User\screens-player`
 1. Installer
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
-1. Ouvrez
+1. Ouvrir
    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
 
 **Exemple**

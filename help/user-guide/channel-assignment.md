@@ -5,10 +5,25 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 98%
+source-wordcount: 1239
+ht-degree: 91%
 
 ---
 
@@ -58,7 +73,7 @@ Le rôle du canal définit le contexte de l’affichage. Le rôle cible diverses
 
 ### Priorité {#priority-channel}
 
-La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il existe deux canaux A et B et que A a une priorité de 1 et B une priorité de 2, alors le canal B s’affiche, car il a une priorité plus élevée que A.
+La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il y a deux canaux A et B. A a une priorité de 1 et B a une priorité de 2, puis le canal B est affiché, car il a une priorité plus élevée que A.
 
 >[!NOTE]
 >La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. Les canaux attribués sont également triés par ordre de priorité décroissante.
@@ -67,7 +82,7 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 
 * **Charge initiale** : charge le canal au démarrage du lecteur. Il peut être attribué à plusieurs canaux avec un planning.
 * **Écran inactif** : se charge lorsque l’écran est inactif. Il peut être attribué à plusieurs canaux avec un planning.
-* **Minuteur** : doit être défini lorsqu’un planning est fourni.
+* **Retardateur** : doit être défini lorsqu’un planning est fourni.
 * **Interaction de l’utilisateur ou l’utilisatrice** : le lecteur bascule vers le canal spécifié s’il y a une interaction de l’utilisateur ou de l’utilisatrice avec l’écran (tactile) dans un canal inactif et se charge lorsque l’écran est touché.
 
 ### Méthode d’interruption {#interruption-method-channel}
@@ -114,13 +129,13 @@ Vous divisez chaque jour en trois tranches horaires, de sorte que le contenu du 
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
-| Menu_A | Petit déjeuner |  | après 6 h 00 et avant 11 h 00 |
-| Menu_B | Déjeuner |  | après 11 h 00 et avant 15 h 00 |
-| Menu_C | Dîner |  | après 15 h 00 et avant 20 h 00 |
+| Menu_A | Petit déjeuner |  | Après 6:00 et avant 11:00 |
+| Menu_B | Déjeuner |  | Après 11 :00 et avant 15 :00 |
+| Menu_C | Dîner |  | Après 15 :00 et avant 20 :00 |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple présente les tranches horaires suivies dans un casino où un événement se produit en direct chaque week-end à partir de 20 h 00 et jusqu’à 22 h 00, et les plats du jour sont disponibles pour le menu du dîner après 22 h 00 et jusqu’à 1 h 00 du matin.
+Cet exemple montre le dayParting réalisé dans un casino où un événement en direct se produit chaque week-end de 20:00h à 22:00 et des plats spéciaux sont disponibles pour le menu du dîner après 22:00 jusqu’à 13:00.
 
 <table>
  <tbody>

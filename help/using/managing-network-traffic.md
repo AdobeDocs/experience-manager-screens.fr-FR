@@ -2,10 +2,19 @@
 title: Gestion du trafic réseau
 description: La page décrit les configurations de réseau standard et la gestion du trafic réseau.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: 537
+ht-degree: 99%
 
 ---
 
@@ -16,7 +25,7 @@ Une configuration réseau peut avoir différentes structures. Cette section déc
 Ce guide présente une introduction aux serveurs proxy suivie des diverses structures de réseaux configurées au sein de différentes organisations.
 
 >[!NOTE]
->**Configuration requise pour le réseau AEM Screens**
+>**Configuration réseau requise pour AEM Screens**
 >AEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Des pare-feu sont obligatoires pour un accès à l’internet commercial. En tant que client ou cliente, déterminez les ports de communication qui doivent être ouverts dans ces pare-feu et pour les autres composants réseau liés à la sécurité informatique.
 
 ## Vue d’ensemble des serveurs proxy {#proxy-servers}

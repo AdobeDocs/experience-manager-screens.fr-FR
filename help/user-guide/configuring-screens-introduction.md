@@ -1,6 +1,6 @@
 ---
 title: Configurer et déployer AEM Screens
-description: Le lecteur AEM Screens est disponible pour Android&trade;, Chrome OS, iOS et Windows. Découvrez la configuration et le déploiement d’AEM Screens.
+description: Le lecteur AEM Screens est disponible pour Android&trade;, Chrome OS, iOS et Windows. Découvrez la configuration et le déploiement d’AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,10 +9,18 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 100%
+source-wordcount: 697
+ht-degree: 97%
 
 ---
 
@@ -37,7 +45,7 @@ Elle permet à l’utilisateur de vérifier les deux contrôles de configuration
 
 Suivez les étapes ci-dessous pour vérifier si ces deux configurations essentielles sont activées pour AEM Screens :
 
-1. Accédez au [contrôle de l’intégrité Sling de la console web Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Accédez au [contrôle de l’intégrité Sling de la console web Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
 
    ![ressources](assets/health-check1.png)
 

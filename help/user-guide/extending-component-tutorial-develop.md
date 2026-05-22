@@ -9,10 +9,23 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 94%
+source-wordcount: 1846
+ht-degree: 96%
 
 ---
 
@@ -40,7 +53,7 @@ Les éléments suivants sont requis afin de terminer ce tutoriel :
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. [Les IDE Eclipse](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour terminer le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE Lite. Les IDE [Eclipse](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuration du projet {#project-setup}
 
@@ -296,7 +309,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
        /apps/weretail-run/components/content/poster/edit.html
 
    */-->
-
+   
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
@@ -355,7 +368,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Au lieu d’écrire directement le code CSS, ce tutoriel utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS populaire qui prend en charge les variables, mixins et fonctions CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
+   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
 
 1. Remplissez `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` avec les éléments suivants :
 

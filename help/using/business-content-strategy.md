@@ -2,9 +2,18 @@
 title: Stratégie de contenu commercial pour AEM Screens
 description: En savoir plus sur le marketing et la stratégie de contenu commercial concernant AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 442
 ht-degree: 100%
 
 ---
@@ -32,7 +41,7 @@ Examinez et répondez aux questions suivantes lors de la création d’une strat
 * Où pensez-vous que le contenu aura le plus d’impact ?
 * Quel est le moment idéal pour susciter l’intérêt de l’audience ?
 * Qui va créer le contenu ?
-* Pourquoi le public cible doit-il se préoccuper du contenu ?
+* Pourquoi l’audience cible doit-elle se préoccuper du contenu ?
 * Quels problèmes le contenu permet-il de résoudre ? (Par exemple, l’application Screens aide-t-elle un client à trouver les chaussures les mieux adaptées à la pratique de l’alpinisme extrême ou à dénicher l’accessoire idéal pour sa nouvelle maison ?)
 * Comment le client interagit-il avec l’application ou qu’en est-il de l’expérience utilisateur ?
 * Quelle est votre stratégie de mise à jour et de mise à niveau ?

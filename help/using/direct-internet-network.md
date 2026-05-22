@@ -2,10 +2,20 @@
 title: Accès direct à Internet
 description: Accès direct à Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: 706
+ht-degree: 99%
 
 ---
 
@@ -82,7 +92,7 @@ Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il 
 
 AEM Screens offre un grand avantage aux utilisateurs et utilisatrices de signalétique numérique. Il télécharge et enregistre en local tous les fichiers multimédias nécessaires, tels que les images et les vidéos. L’essentiel du trafic réseau a lieu lorsqu’un nouveau contenu doit être affiché sur un dispositif d’affichage spécifique.
 
-Pour les opérations normales, par exemple une liste de lecture définie qui ne change pas très souvent au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
+Pour les opérations normales, par exemple, une playlist définie qui se met à jour fréquemment au cours de la journée, il est possible de fonctionner de manière presque indépendante du réseau, une fois tous les fichiers enregistrés sur le lecteur.
 
 Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d’autres déclencheurs et un contenu dynamique, une connexion réseau rapide et fiable est essentielle pour une réaction d’écran immédiate afin d’assurer une expérience client optimale.
 

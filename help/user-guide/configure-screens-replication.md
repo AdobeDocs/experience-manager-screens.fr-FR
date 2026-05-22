@@ -4,9 +4,19 @@ description: Découvrez comment configurer les agents de réplication Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: 485
 ht-degree: 100%
 
 ---
@@ -20,7 +30,7 @@ Cette page décrit comment configurer les agents de réplication Screens.
 Un agent de réplication Screens est chargé de transférer les données de commande comme *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* et de nombreuses autres valeurs de ce type, de l’instance de publication vers celle de création. Il est essentiel de le configurer pour afficher le ping de l’appareil.
 
 >[!NOTE]
->Pour en savoir plus sur les agents de réplication Screens, voir [Agents et commandes de réplication Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Pour en savoir plus sur les agents de réplication Screens, voir [Commandes et agents de réplication Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
 Effectuez les deux étapes si vous souhaitez réaliser la configuration de l’agent de réplication Screens :
 

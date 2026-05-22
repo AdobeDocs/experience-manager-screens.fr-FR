@@ -10,10 +10,25 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 97%
+source-wordcount: 1584
+ht-degree: 90%
 
 ---
 
@@ -23,9 +38,9 @@ Les auteurs et autrices de contenu peuvent créer une version ultérieure des ca
 
 Grâce au ***lancement Screens***, les auteurs et autrices peuvent prévisualiser chaque canal du lancement et doivent être en mesure de lancer une demande de révision. Le groupe des approbateurs et des approbatrices reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les appareils.
 
-Par exemple, si l’auteur ou l’autrice souhaite créer des versions futures de c1, c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 h 00). Toute mise à jour ultérieure du contenu est envoyée pour révision.
+Par exemple, si l’auteur souhaite créer de futures versions de c1 et c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 :00). Toute mise à jour ultérieure du contenu est envoyée pour révision.
 
-Une fois approuvé, ce lancement lira à la date d’activation (10 novembre, 8 h 00) le contenu sur les appareils ou lecteurs.
+Après approbation et à la date d’activation (10 novembre, 8 :00), ce lancement lira le contenu sur les appareils ou lecteurs.
 
 ## Conditions requises {#requirements}
 
@@ -47,7 +62,7 @@ L’exécution d’une expérience sur le lecteur à la date d’activation déf
 
 Pour que le lecteur puisse lire le contenu à la date d’activation définie, démarrez les activités précédentes avant cette date.
 
-Si la date d’activation est le *24 novembre à 9 h 00* et que le délai de grâce est de *24 heures*, la séquence d’actions ci-dessus débutera à (date d’activation - délai de grâce), c’est-à-dire le 23 novembre à 9 h 00 (heure du serveur). Ce paramètre donne 24 heures pour terminer toutes les actions figurant ci-dessus de façon à ce que le contenu atteigne les lecteurs. Les lecteurs comprennent que cette période est un contenu de lancement. Par conséquent, le contenu n’est pas lu immédiatement, mais les lecteurs peuvent stocker ce contenu en tant que version ultérieure et le faire lire exactement à la date d’activation définie sur le fuseau horaire du lecteur.
+Si la date d’activation est *le 24 novembre:00 à 9 heures* et *24 heures* est la période de grâce, alors la séquence d’actions ci-dessus commence à (date d’activation - période de grâce), c’est-à-dire le 23 novembre à 9 :00 heure du serveur. Ce paramètre donne 24 heures pour terminer toutes les actions figurant ci-dessus de façon à ce que le contenu atteigne les lecteurs. Les lecteurs comprennent que cette période est un contenu de lancement. Par conséquent, le contenu n’est pas lu immédiatement, mais les lecteurs peuvent stocker ce contenu en tant que version ultérieure et le faire lire exactement à la date d’activation définie sur le fuseau horaire du lecteur.
 
 Par exemple, le serveur est en PST et les périphériques en EST. Le décalage horaire maximal est de trois heures. Cela suppose que la promotion prend 1 minute et que la publication à partir de l’instance de création vers celle de publication prend 10 minutes, et que le lecteur peut généralement télécharger les ressources en 10 à 15 minutes. Ensuite, le délai de grâce = décalage horaire (trois heures) :
 
@@ -83,7 +98,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 Vous avez défini le délai de grâce sur 10 minutes dans l’exemple précédent. Cela signifie que lorsque vous définissez la date d’activation d’un lancement pour les ressources sous */content/screens*, la promotion commence avec ce décalage.
 
-Si, par exemple, la date d’activation est définie sur 24 novembre à 9 h 00 et que le délai de grâce est de 600 secondes, le traitement de promotion démarrera le 24 novembre à 8 h 50.
+Par exemple, si la date d’activation est définie sur le 24 novembre à 9 :00 et que la période de grâce est de 600 secondes, la tâche de promotion commence le 24 novembre à 8 :50.
 
 ## Utilisation du lancement Screens {#using-launches}
 

@@ -9,10 +9,21 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2364'
-ht-degree: 95%
+source-wordcount: 2364
+ht-degree: 98%
 
 ---
 
@@ -84,7 +95,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Ce package contient le contenu de départ et la structure de configuration nécessaires au projet. **`/conf/we-retail-run`** contient toutes les configurations du projet `We.Retail` Run. **`/content/dam/we-retail-run`** inclut le démarrage de ressources numériques pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu de tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
+   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet `We.Retail` Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu de tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
 
 1. **Accédez au projet AEM Screens > `We.Retail` Run :**
 
@@ -128,10 +139,10 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
     /apps/weretail-run/components/content/helloworld/helloworld.html
 
    */-->
-
+   
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-
+   
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -160,7 +171,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
 
    Ci-dessus se trouve le balisage de production du composant Hello World. Un attribut `data-duration` est inclus, car le composant est utilisé sur un canal de séquence. L’attribut `data-duration` est utilisé par le canal de séquence pour savoir pendant combien de temps un élément de séquence doit être affiché.
 
-   Le composant effectue le rendu d’une `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie du script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à la personne de saisir une valeur pour le texte de la propriété `message`.
+   Le composant effectue le rendu d’un `div` et d’une balise `h1` avec du texte. `${properties.message}` est une partie de script HTL qui génère le contenu d’une propriété JCR nommée `message`. Une boîte de dialogue est créée ultérieurement pour permettre à la personne de saisir une valeur pour le texte de la propriété `message`.
 
    Notez également que la notation BEM (Block Element Modifier) est utilisée avec le composant. BEM est une convention de codage CSS qui facilite la création de composants réutilisables. La notation BEM est celle utilisée par les [composants principaux d’AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -169,7 +180,6 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    Remplissez le fichier avec les éléments suivants :
 
    ```xml
-
    <!--/*
 
     /apps/weretail-run/components/content/helloworld/edit.html
@@ -313,7 +323,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   Au lieu d’écrire directement le code CSS, ce tutoriel utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS populaire qui prend en charge les variables, mixins et fonctions CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
+   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
 
 1. Remplissez `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` avec les éléments suivants :
 

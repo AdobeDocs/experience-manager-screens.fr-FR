@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/J-tjGLbbC0TT77elnAghVAyDx5nLjv8-ShcJKEv-EyE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: 319
+ht-degree: 91%
 
 ---
 
@@ -22,7 +30,7 @@ ht-degree: 100%
 
 Le pack de fonctionnalités 3 d’AEM 6.5 a été publié pour AEM Screens.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP3**.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP3**.
 
 ## Date de publication {#release-date}
 
@@ -42,7 +50,7 @@ Le framework de contrôle de l’intégrité permet à l’utilisateur ou l’ut
 Pour en savoir plus sur le framework de contrôle de l’intégrité, voir [Framework de contrôle de l’intégrité](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Mises à jour des types de transition par défaut**
-Les propriétés du composant de transition, telles que **Type**, sont désormais définies sur **Fondu** et la **Durée** sur **1 600 millisecondes**, par défaut.
+Les propriétés du composant de transition, telles que **Type**, sont désormais définies sur **Fondu** et la **Durée** sur **1 600 millisecondes** par défaut.
 
   Pour plus d’informations, voir le cas d’utilisation [Application de transitions](/help/user-guide/applying-transitions.md).
 

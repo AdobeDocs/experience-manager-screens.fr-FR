@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+TQID: https://experienceleague.adobe.com/xfjgklpXS0JAZpsKEImcl5TsVlsxMjJRKHRakdRgrOM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 48%
+source-wordcount: 192
+ht-degree: 54%
 
 ---
 
@@ -16,14 +24,14 @@ ht-degree: 48%
 
 >[!CAUTION]
 >Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>FeaturePack (FP) version 11.5 est compatible avec ServicePack (SP) jusqu&#39;à la version 21.
+>FeaturePack (FP) version 11.5 est compatible avec ServicePack (SP) jusqu&#39;à la version 21.
 
 
 ## Disponibilité {#availability}
 
 AEM Screens inclus dans le pack de fonctionnalités 11,5 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.5 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP11.5**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.5 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **&#x200B;**&#x200B;et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP11.5**.
 
 ## Date de publication {#release-date}
 

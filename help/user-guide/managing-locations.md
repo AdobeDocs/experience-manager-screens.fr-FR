@@ -9,9 +9,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+TQID: https://experienceleague.adobe.com/xu7NZILsH3YpmYOrI0XObYrLnkwjPENqBWQJSlhnTN4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8a4be83-7d41-47be-b4a6-f8f3d35caceb
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 237
 ht-degree: 100%
 
 ---
@@ -36,7 +50,7 @@ Une fois que vous avez créé votre projet pour Screens, procédez comme suit po
 1. Accédez au projet Screens, puis cliquez sur **Emplacements**.
 1. Cliquez sur **Créer** à côté de l’icône plus (+) de la barre d’actions.
 1. Cliquez sur l’**emplacement** du modèle dans l’assistant, puis sur **Suivant**.
-1. Saisissez les propriétés pour **Titre et balises**, **Autres titres et description**, **Heure d’activation/de désactivation** et **URL Vanity**.
+1. Saisissez les propriétés pour **Titre et balises**, **Autres titres et description**, **Heure d’activation/de désactivation** et **URL de redirection**.
 1. Cliquez sur **Créer** pour créer l’emplacement et l’ajouter au dossier des emplacements.
 
 Suivez les étapes ci-dessous pour comprendre comment créer un emplacement dans le cadre d’un projet AEM Screens. À des fins de démonstration, le nouvel emplacement (SanJose) est créé sous *DemoProject*.

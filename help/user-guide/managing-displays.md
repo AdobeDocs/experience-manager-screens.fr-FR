@@ -9,10 +9,24 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 98%
+source-wordcount: 664
+ht-degree: 92%
 
 ---
 
@@ -102,7 +116,7 @@ Le tableau de bord des affichages vous fournit différents panneaux pour la gest
 
 Le panneau **INFORMATIONS D’AFFICHAGE** affiche les propriétés de l’affichage.
 
-Cliquez sur les points de suspension (**...**) dans le coin supérieur droit du panneau **INFORMATIONS SUR L’AFFICHAGE** pour pouvoir afficher les propriétés et un aperçu de l’affichage.
+Clic (**...**) dans le coin supérieur droit du panneau **INFORMATIONS D’AFFICHAGE** afin que vous puissiez afficher les propriétés et prévisualiser l’affichage.
 
 
 #### Afficher des propriétés {#viewing-properties}
@@ -123,7 +137,7 @@ Le panneau **CANAUX ATTRIBUÉS** affiche les canaux attribués à cet appareil.
 
 Le panneau **APPAREILS** fournit des informations sur les configurations des appareils.
 
-Cliquez sur les points de suspension (**…**) dans le coin supérieur droit du panneau **APPAREILS** pour pouvoir ajouter des configurations d’appareil et mettre à jour les appareils.
+Clic (**...**) dans le coin supérieur droit du panneau **APPAREILS** afin que vous puissiez ajouter des configurations d’appareils et mettre à jour des appareils.
 
 Cliquez également sur la configuration de l’appareil pour afficher les propriétés, attribuer un appareil ou le supprimer.
 

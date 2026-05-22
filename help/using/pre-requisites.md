@@ -2,9 +2,17 @@
 title: Conditions préalables à l’utilisation d’[!UICONTROL AEM Screens]
 description: Découvrez les conditions préalables au démarrage d’un projet AEM Screens.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/dk-19TSfxyU66bjfuv5yE6Avfq1c3QJhGpVtFe8aWQU
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: 712
 ht-degree: 100%
 
 ---
@@ -36,7 +44,7 @@ Pour en savoir plus sur les principes de base d’un projet AEM Screens, report
 * **[Principes de base de mise en œuvre d’AEM Screens](https://experienceleague.adobe.com/fr?launch=AEM-7a#recommended/solutions/experience-manager)** : fournit un tutoriel guidé présentant les aspects les plus importants d’une mise en œuvre AEM Screens.
 
 * **[Vidéos consacrées aux bases d’un réseau de signalétique numérique](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/aem-screens-introduction)** : ensemble de vidéos de base qui présentent les éléments clés de l’audiovisuel et du matériel de signalétique numérique. Il existe également des vidéos sur les réseaux de signalétique et la collaboration avec les intégrateurs et intégratrices audiovisuel.
-   * *[Partie 1 : rôles du projet et responsabilités](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)* : première partie d’une série de 5 parties sur les aspects importants, conçue pour aider les personnes membres de l’équipe à mieux comprendre les rôles, les responsabilités et les calendriers. Ces éléments sont requis pendant les cycles de vente et de vie d’un projet de signalétique numérique. Il y est question des rôles et des responsabilités du projet pour Adobe, des personnes responsables de la mise en œuvre d’AEM et des intégrateurs et intégratrices audiovisuel à un niveau élevé.
+   * *[Partie 1 : rôles du projet et responsabilités](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)* : première partie d’une série de 5 parties sur les aspects importants, conçue pour aider les personnes membres de l’équipe à mieux comprendre les rôles, les responsabilités et la chronologie. Ces éléments sont requis pendant les cycles de vente et de vie d’un projet de signalétique numérique. Il y est question des rôles et des responsabilités du projet pour Adobe, des personnes responsables de la mise en œuvre d’AEM et des intégrateurs et intégratrices audiovisuel à un niveau élevé.
    * *[Partie 2 : Observations dans le cadre de la définition du champ d’application du projet](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)* : ce deuxième volet d’une série de cinq articles est conçu pour aider les membres de l’équipe à mieux comprendre les aspects de prévente pour le développement de déploiements AEM Screens réussis. Il y est question des éléments qui doivent être identifiés lors de la découverte du projet, ainsi que des commentaires des intervenants pour évaluer le projet et préparer une conception appropriée.
    * *[Partie 3 : tests, preuves de concept, pilotes et déploiements](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)* : partie 3 d’une série de 5 parties sur les aspects importants, conçue pour aider les personnes membres de l’équipe à mieux comprendre les termes clés. Ces termes sont essentiels pour s’assurer qu’une solution réussie est développée avant un déploiement. Il y est question des actions liées aux tests de matériel réalisés en laboratoire et à la validation des performances, les validations de principe et les programmes pilotes.
    * *[Partie 4 : gestion de projets et déploiement](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)* : partie 4 d’une série de 5 parties sur les aspects importants, conçue pour couvrir la gestion de projets et la préparation au déploiement. Elle définit également les principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projets et la préparation au déploiement. Il y est question de la phase de préproduction du projet, de son lancement et de sa progression.

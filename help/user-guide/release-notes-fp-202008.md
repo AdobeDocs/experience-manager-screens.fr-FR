@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: 355
+ht-degree: 92%
 
 ---
 
@@ -22,7 +30,7 @@ ht-degree: 100%
 
 AEM Screens inclus dans le pack de fonctionnalités 5 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités.
+Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.3 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités.
 
 ## Date de publication {#release-date}
 
@@ -54,8 +62,8 @@ La date de publication du pack de fonctionnalités 202008 d’AEM Screens est 
 
 Vous devez configurer un environnement pour le lecteur Windows ou Android™ si vous utilisez le pack de services AEM Screens 6.5.5.
 
-Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None** dans **Configuration de la console web Adobe
-Experience Manager** sur toutes les instances de création et de publication AEM.
+Définissez l’attribut **SameSite pour les cookies de jeton de connexion** de **Lax** sur **None** à partir de la console web **Adobe Experience Manager
+Configuration** sur toutes les instances d’auteur et de publication AEM.
 
 * Voir [Mise en œuvre du lecteur Windows 10](implementing-windows-player.md#fp-environment-setup) pour plus d’informations.
 

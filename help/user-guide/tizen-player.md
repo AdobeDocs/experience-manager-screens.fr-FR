@@ -5,10 +5,20 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 96%
+source-wordcount: 1224
+ht-degree: 93%
 
 ---
 
@@ -56,7 +66,7 @@ Suivez les étapes ci-dessous sur l’appareil Samsung pour finaliser l’instal
 
 1. Accédez à votre appareil Samsung et activez-le.
 1. Cliquez sur le bouton **MENU** de la télécommande de l’appareil et faites défiler la liste jusqu’à **System** (Système) dans la barre de navigation de gauche.
-1. Faites défiler la page vers le bas et sélectionnez l’option **Lecture via** et sélectionnez l’option **Lanceur d’URL**.
+1. Faites défiler la page vers le bas et cliquez sur l’option **Lecture via** et sélectionnez l’option **Lanceur d’URL**.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 1. Une fois le lanceur d’URL défini, appuyez sur le bouton **Accueil** de votre télécommande.
 1. Accédez à **Paramètres du lanceur d’URL**, saisissez l’adresse IP de votre serveur hôte local et cliquez sur **Terminé**.
@@ -75,7 +85,7 @@ Suivez les étapes ci-dessous sur l’appareil Samsung pour finaliser l’instal
 >[!IMPORTANT]
 >**Cette section s’applique à Adobe Experience Manager (AEM) versions 6.5.5 à 6.5.7**
 >
->Certains moteurs de navigation sont incompatibles avec l’attribut *`SameSite=None`* utilisé dans le jeton de connexion émis par AEM versions 6.5.5 à 6.5.7. Le problème peut en général être résolu en mettant à jour le navigateur vers la dernière version disponible. Parfois, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans intelligents, des décodeurs ou d’autres appareils avec des moteurs de navigation intégrés.
+>Certains moteurs de navigation sont incompatibles avec l’attribut *`SameSite=None`* utilisé dans le jeton de connexion émis par AEM versions 6.5.5 à 6.5.7. En règle générale, le problème peut être résolu en mettant à niveau le navigateur vers la dernière version disponible. Parfois, de telles mises à niveau peuvent ne pas être possibles, par exemple avec des écrans intelligents, des décodeurs ou d’autres appareils avec des moteurs de navigation intégrés.
 
 Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l’utilisation de l’attribut *SameSite=None* :
 
@@ -119,7 +129,7 @@ Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 
 >[!NOTE]
 >Les configurations de la politique de l’interface d’administration du lecteur sont appliquées de manière stricte et ne peuvent pas être remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.
->&#x200B;>Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
+>Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
 
 | **Nom de la politique** | **Objectif** |
 |---|---|
@@ -151,11 +161,11 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 
    >![image](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Renseignez les informations requises et sélectionnez un groupe d’appareils. Cliquez sur **OK**.
+1. Renseignez les informations requises et cliquez sur un groupe d’appareils. Cliquez sur **OK**.
 
    >![Image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Une fois l’appareil approuvé, il apparaît dans la liste des appareils. Sélectionnez *Informations* sur la vignette de votre appareil, comme illustré ci-dessous.
+1. Une fois l’appareil approuvé, il apparaît dans la liste des appareils. Cliquez sur *Informations* sur la vignette de votre appareil, comme illustré ci-dessous.
 
    >![image](/help/user-guide/assets/tizen/rms-6.png)
 
@@ -163,7 +173,7 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 
    >![image](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Modifiez les options de l’appareil et sélectionnez l’onglet **Configuration**. Accédez à la section **Lanceur d’URL** et saisissez l’URL hébergeant le wgt et le `SSSP config file` pour installer une application `SSSP`, comme illustré ci-dessous.
+1. Modifiez les options de l’appareil et cliquez sur l’onglet **Configuration**. Accédez à la section **Lanceur d’URL** et saisissez l’URL hébergeant le wgt et le `SSSP config file` pour installer une application `SSSP`, comme illustré ci-dessous.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 

@@ -5,9 +5,19 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1295
 ht-degree: 96%
 
 ---
@@ -17,7 +27,7 @@ ht-degree: 96%
 Cette section de démarrage rapide d’AEM Screens explique comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
 >[!NOTE]
->Avant de commencer à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier pack de fonctionnalités pour AEM Screens. Vous pouvez télécharger le dernier pack de fonctionnalités à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID.
+>Avant de commencer à travailler sur les détails du projet, assurez-vous d’avoir installé le dernier pack de fonctionnalités pour AEM Screens. Vous pouvez télécharger le dernier pack de fonctionnalités à partir du [Portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID.
 
 ## Conditions préalables {#prerequisites}
 
@@ -28,8 +38,8 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 >[!IMPORTANT]
 >**Paramètres de configuration OSGi**
->&#x200B;>Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
->&#x200B;>Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
+>Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+>Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
@@ -97,7 +107,7 @@ Suivez les étapes ci-dessous pour ajouter du contenu au canal (**TestChannel**)
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Cliquez sur l’icône qui active l’ouverture du panneau latéral gauche de la barre d’actions pour ouvrir les ressources et les composants.
+1. Cliquez sur l’icône qui active ou désactive le panneau latéral gauche de la barre d’actions pour ouvrir les ressources et les composants.
 
 1. Faites glisser et déposez les composants que vous souhaitez ajouter à votre canal.
 
@@ -239,4 +249,4 @@ Toutes les ressources de votre canal sont à présent en cours de lecture sur vo
 
 Félicitations, vous lisez maintenant du contenu dans un canal AEM Screens !
 
-![image](assets/kickstart/demo-video-screens.gif)
+![Image](assets/kickstart/demo-video-screens.gif)

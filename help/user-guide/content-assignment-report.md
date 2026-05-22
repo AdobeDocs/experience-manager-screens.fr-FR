@@ -5,9 +5,21 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Pwq3ebRrbCufXFMk7R-FJj90xq4b7gLOcLvslch2L5o
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: 358
 ht-degree: 96%
 
 ---
@@ -60,4 +72,4 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 
 1. Sélectionnez l’un des canaux dans la colonne **Canaux** pour ouvrir l’onglet **Contenu**. Vous accédez ensuite directement à ce canal et recevez des informations sur les ressources (images et vidéos) associées à ce canal spécifique.
 
-   ![image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+   ![Image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

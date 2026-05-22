@@ -6,10 +6,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: 626
+ht-degree: 83%
 
 ---
 
@@ -21,7 +34,7 @@ La page suivante présente un cas d’utilisation qui met l’accent sur la conf
 
 Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle ne se produira qu’une fois et pour une durée spécifique.
 
-Par exemple, il existe un canal de prise de contrôle unique lu le vendredi de 9 h 00 à 10 h 00. Pendant cette période, aucun autre canal ne doit être lu. Avant et après cette période, le canal de prise de contrôle à usage unique n’est pas lu. L’exemple suivant présente la création d’un canal de prise de contrôle unique qui permet au contenu d’être lu pendant 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
+Par exemple, il existe un canal de prise de contrôle unique qui est lu du vendredi 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. Avant et après cette période, le canal de prise de contrôle à usage unique n’est pas lu. L’exemple suivant illustre la création d’un canal de prise de contrôle unique qui permet la lecture du contenu pendant 2 minutes avant 12 :00 du 31 décembre à 12 :01.
 
 ### Prérequis {#preconditions}
 
@@ -92,11 +105,11 @@ Pour configurer un projet, procédez comme suit :
 
      >[!NOTE]
      >La priorité peut être une valeur supérieure à la valeur de priorité du canal normalement lu.
-   * **Événements pris en charge** : cliquez sur l’**Écran inactif** et le **Minuteur**.
-   * **Planning** : saisissez le texte du planning selon lequel ce canal doit exécuter l’affichage. Par exemple, le texte ici permet au contenu d’être lu 2 minutes avant 00 h 00 le 31 décembre jusqu’à 00 h 01.
-Le texte dans le **Planning** mentionné dans cet exemple est *le 31 décembre après 23 h 58 et également le 1er janvier avant 00 h 01*.
+   * **Événements pris en charge** : cliquez sur **Écran inactif** et **Retardateur**.
+   * **Planning** : saisissez le texte du planning selon lequel ce canal doit exécuter l’affichage. Par exemple, le texte ici autorise la lecture du contenu 2 minutes avant 12 :00 du matin le 31 décembre jusqu’à 12 :01 du matin.
+Le texte de la **Annexe** mentionné dans cet exemple est *le 31 décembre après le 23:58 et également le 1er janvier avant le 00.01*.
 
-     ![ressource](assets/single-takeover8.png)
+     ![Ressource](assets/single-takeover8.png)
 
      Accédez à l’affichage à partir de **Prise de contrôle à usage unique** > **Emplacements** > **Lobby** > **MainLobbyDisplay**. Cliquez sur **Tableau de bord** à partir de la barre d’actions afin de pouvoir visualiser les canaux attribués avec leurs priorités, comme illustré ci-dessous.
 
