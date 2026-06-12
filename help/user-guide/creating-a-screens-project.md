@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: 290
 ht-degree: 99%
 
 ---
@@ -37,7 +37,7 @@ Vous pouvez également accéder directement à : `http://localhost:4502/screens
 
 >[!NOTE]
 >**Conseil de navigation :**
->Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, après avoir cliqué sur une entité, appuyez sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
+>Vous pouvez également utiliser les touches du curseur pour parcourir différents dossiers dans AEM. En outre, après avoir cliqué sur une entité particulière, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
 
 ## Créer un projet Screens
 

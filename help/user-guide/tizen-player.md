@@ -17,8 +17,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1224
-ht-degree: 93%
+source-wordcount: 1128
+ht-degree: 90%
 
 ---
 
@@ -107,7 +107,7 @@ L’approvisionnement à distance du lecteur Tizen vous permet de déployer des 
 
 Cette fonctionnalité vous permet de configurer à distance le lecteur Tizen et de mettre à jour ces configurations de manière centralisée, si nécessaire. Tout ce dont vous avez besoin est le serveur `HTTP` utilisé pour héberger l’application Tizen `(wgt and xml file)` et un éditeur de texte pour enregistrer le code `config.json` avec les paramètres appropriés.
 
-Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.
+Vérifiez que vous avez configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.
 Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.
 Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
 
@@ -128,8 +128,8 @@ Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vér
 Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 
 >[!NOTE]
->Les configurations de la politique de l’interface d’administration du lecteur sont appliquées de manière stricte et ne peuvent pas être remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.
->Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
+>Les configurations de la politique de l’interface d’administration du lecteur sont appliquées strictement et ne sont pas remplacées manuellement. Pour permettre la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de la politique.
+>Par exemple, si vous souhaitez autoriser la configuration manuelle de la planification du redémarrage, ne spécifiez pas le `rebootSchedule` de clé dans la configuration de la stratégie. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
 
 | **Nom de la politique** | **Objectif** |
 |---|---|

@@ -17,8 +17,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 96%
+source-wordcount: 1203
+ht-degree: 97%
 
 ---
 
@@ -38,8 +38,8 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 
 >[!IMPORTANT]
 >**Paramètres de configuration OSGi**
->Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
->Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
+>Vous devez activer le référent vide pour permettre à l’appareil de publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne peut pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher le fonctionnement de certaines de ces fonctionnalités.
+>Suivez les étapes ci-dessous pour activer le ***Filtre de référent Apache Sling Autoriser vide*** :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
@@ -183,7 +183,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
    Vous pouvez également cliquer sur la **Fenêtre d’activation** et le **Planning de périodicité**.
 
    >[!NOTE]
-   >Le *Planning de périodicité* permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.
+   >Le *Planning de périodicité* vous permet de définir un planning de périodicité pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.
    >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.

@@ -99,7 +99,7 @@ Suivez cette section pour savoir comment modifier les options par défaut dans W
    `C:\Users\User\screens-player`
 1. Installer
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
-1. Ouvrir
+1. Ouvrez
    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
 
 **Exemple**

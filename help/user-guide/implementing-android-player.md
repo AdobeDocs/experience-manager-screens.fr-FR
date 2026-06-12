@@ -25,8 +25,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1550
-ht-degree: 92%
+source-wordcount: 1533
+ht-degree: 91%
 
 ---
 
@@ -75,7 +75,7 @@ Après avoir téléchargé l’application, suivez les étapes du lecteur pour t
 1. Appuyez longuement dans l’angle supérieur gauche pour ouvrir le panneau d’administration.
 1. Accédez à **Configuration** depuis le menu d’actions de gauche et saisissez l’emplacement (adresse) de l’instance AEM à laquelle vous souhaitez vous connecter, puis cliquez sur **Enregistrer**.
 
-1. Accédez au lien **Enregistrement** **des appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
+1. Accédez au lien **Enregistrement** des **appareils** depuis le menu d’actions de gauche pour vérifier le statut du processus d’enregistrement de l’appareil.
 
 >[!NOTE]
 >
@@ -135,8 +135,8 @@ Lors du déploiement en masse du lecteur Android™, vous devez pouvoir configur
 
 Pour autoriser l’approvisionnement en bloc dans le lecteurAndroid™, procédez comme suit :
 
-1. Créez un fichier de configuration JSON nommé `player-config.default.json`.
-Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
+1. Créez un fichier JSON de configuration nommé `player-config.default.json`.
+Consultez un [exemple de politique JSON](#example-json) et un tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
 
 1. Utilisez un explorateur de fichiers MDM ou ADB ou Android™ Studio pour déposer ce fichier de politique JSON dans le dossier *sdcard* de l’appareil Android™.
 
