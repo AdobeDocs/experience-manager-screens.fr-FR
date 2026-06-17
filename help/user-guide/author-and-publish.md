@@ -3,18 +3,13 @@ title: Configuration des instances de création et de publication dans AEM Scree
 description: Découvrez comment configurer une instance de création et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1974
-ht-degree: 85%
+source-wordcount: null
+ht-degree: null
 
 ---
 
@@ -62,7 +57,7 @@ Pour créer des agents de réplication, apprenez à créer un agent de réplicat
 
 Trois agents de réplication sont nécessaires pour Screens :
 
-1. **Agent de réplication par défaut &#x200B;***(spécifié comme&#x200B;*** Agent de réplication standard**)
+1. **Agent de réplication par défaut ***(spécifié comme*** Agent de réplication standard**)
 1. **Agent de réplication Screens**
 1. **Agent de réplication inverse**
 
@@ -152,8 +147,8 @@ Pour l’une des instances de publication, accédez à `https://:/system/console
 
 #### Étape 3 : configurer le cluster Artemis ActiveMQ {#step-setup-activemq-artemis-cluster}
 
-Cette étape vous permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.
-Le nom d’utilisateur ou d’utilisatrice et le mot de passe du cluster de toutes les instances de publication de la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Chaque instance ayant sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Le mot de passe chiffré sera ensuite utilisé dans la configuration OSGi pour ActiveMQ.
+Cette étape permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.
+L’utilisateur et le mot de passe du cluster de toutes les instances de publication dans la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Comme chaque instance possède sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Ensuite, le mot de passe chiffré peut être utilisé dans la configuration OSGi pour ActiveMQ.
 
 Sur chaque instance de publication :
 
@@ -166,7 +161,7 @@ Comme chaque instance de publication dispose par défaut de clés de chiffrement
 
 >[!NOTE]
 >
->Le mot de passe doit commencer et se terminer par des accolades. Par exemple :
+>Le mot de passe doit commencer et se terminer par des crochets. Par exemple :
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Étape 4 : activation du cluster Artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
