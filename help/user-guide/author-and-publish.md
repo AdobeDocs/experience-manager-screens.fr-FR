@@ -13,8 +13,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1974
-ht-degree: 85%
+source-wordcount: null
+ht-degree: null
 
 ---
 
@@ -152,8 +152,8 @@ Pour l’une des instances de publication, accédez à `https://:/system/console
 
 #### Étape 3 : configurer le cluster Artemis ActiveMQ {#step-setup-activemq-artemis-cluster}
 
-Cette étape vous permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.
-Le nom d’utilisateur ou d’utilisatrice et le mot de passe du cluster de toutes les instances de publication de la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Chaque instance ayant sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Le mot de passe chiffré sera ensuite utilisé dans la configuration OSGi pour ActiveMQ.
+Cette étape permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.
+L’utilisateur et le mot de passe du cluster de toutes les instances de publication dans la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Comme chaque instance possède sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Ensuite, le mot de passe chiffré peut être utilisé dans la configuration OSGi pour ActiveMQ.
 
 Sur chaque instance de publication :
 
@@ -166,7 +166,7 @@ Comme chaque instance de publication dispose par défaut de clés de chiffrement
 
 >[!NOTE]
 >
->Le mot de passe doit commencer et se terminer par des accolades. Par exemple :
+>Le mot de passe doit commencer et se terminer par des crochets. Par exemple :
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Étape 4 : activation du cluster Artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
