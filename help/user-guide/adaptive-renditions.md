@@ -3,19 +3,19 @@ title: Vue d’ensemble et configurations de l’architecture des rendus adaptat
 description: Découvrez la vue d’ensemble de l’architecture et les configurations dans CRXDE Lite pour les rendus adaptatifs dans AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
-ht-degree: 94%
+source-wordcount: 703
+ht-degree: 84%
 
 ---
 
 # Rendus adaptatifs : présentation et configurations de l’architecture {#adaptive-renditions}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Présentation {#introduction}
 
@@ -50,7 +50,7 @@ Suivez les étapes ci-dessous pour configurer l’installation :
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si vous avez installé le dernier pack de fonctionnalités 202109, la structure de nœud **rendition-mapping** est préremplie dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Consultez les [Notes de mise à jour du pack de fonctionnalités 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des informations sur le dernier pack de fonctionnalités.
+   >Si vous avez installé le dernier Feature Pack 202109, la structure de nœud **rendition-mapping** est prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Voir [ Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des détails sur le dernier Feature Pack.
    >Pour les projets existants, assurez-vous que la configuration **rendition-mapping** est associée au projet Screens. Consultez [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour en savoir plus.
 
 ### Ajout d’une propriété de mappage de rendu à un projet existant {#rendition-mapping-existing}

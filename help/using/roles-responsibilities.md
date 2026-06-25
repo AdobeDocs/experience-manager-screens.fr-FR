@@ -3,27 +3,21 @@ title: Rôles et responsabilités dans un projet AEM Screens
 description: Découvrez les rôles et les responsabilités dans les projets AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
 TQID: https://experienceleague.adobe.com/4E0IiB-RKjq9MrHxvZcZsCAyzSlIZmRLlGe-9eItv2c
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1303
-ht-degree: 97%
+source-wordcount: 1349
+ht-degree: 93%
 
 ---
 
 # Rôles et responsabilités de projets {#roles-responsibilities}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En tant que personne chargée de l’implémentation AEM expérimentée, les rôles *Auteurs et autrices*, *Développeurs et développeuses* et *Techniciens et techniciennes informatique* vous sont probablement familiers.
 

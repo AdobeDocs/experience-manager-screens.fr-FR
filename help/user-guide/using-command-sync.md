@@ -6,28 +6,24 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 TQID: https://experienceleague.adobe.com/61R-NNkhkgGx2S0KOeteDn674PiOpX5k4YOVKBmQZIs
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 761
-ht-degree: 100%
+source-wordcount: 743
+ht-degree: 85%
 
 ---
 
 # Synchronisation des commandes {#command-sync}
 
-La page suivante décrit l’utilisation de la synchronisation des commandes. La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire un contenu différent, mais chaque ressource doit avoir la même durée.
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
+La page suivante décrit l’utilisation de la synchronisation des commandes. La synchronisation des commandes permet une lecture synchronisée sur différents lecteurs. Les lecteurs peuvent lire des contenus différents, mais chaque ressource doit avoir la même durée.
 
 >[!IMPORTANT]
 >
@@ -68,7 +64,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 1. Créez un emplacement **Lobby**, puis, par la suite, un affichage intitulé **LobbyDisplay** dans le dossier **Locations**, comme illustré ci-dessous.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez afficher le canal affecté à l’affichage à partir du tableau de bord.
+1. Attribuez le canal **ChannelLobby** à votre **LobbyDisplay**. Vous pouvez désormais afficher le canal attribué à l’affichage à partir du tableau de bord d’affichage.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -104,7 +100,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 ### Configurer un lecteur principal {#setting-up-primary}
 
 1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay**. Cliquez ensuite sur **Tableau de bord** dans la barre d’actions.
-Les deux appareils (Chrome et le lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.
+Remarquez les deux appareils (Chrome et Windows Player) dans le panneau **APPAREILS**, comme illustré ci-dessous :
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Dans le panneau **APPAREILS**, cliquez sur l’appareil que vous souhaitez définir comme appareil principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Définir en tant qu’appareil principal**.
@@ -121,8 +117,8 @@ Les deux appareils (Chrome et le lecteur Windows) apparaissent dans le panneau *
 
 ### Synchronisation avec l’appareil principal {#sync-up-primary}
 
-1. Une fois l’appareil Chrome défini comme appareil principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
-Cliquez sur l’autre appareil (ici, le lecteur Windows) dans le panneau **APPAREILS** puis sur **Synchroniser avec l’appareil principal**.
+1. Après avoir défini l’appareil Chrome comme principal, synchronisez l’autre appareil (dans ce cas, le Lecteur Windows) avec l’appareil principal.
+Cliquez sur l’autre appareil (dans ce cas, le Lecteur Windows) dans le panneau **APPAREILS** et cliquez sur **Synchroniser avec l’appareil principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 

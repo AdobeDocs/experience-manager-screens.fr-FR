@@ -9,15 +9,12 @@ docset: aem65
 targetaudience: target-audience new
 exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
 TQID: https://experienceleague.adobe.com/I--6jVCUWNNGosI-eK-qCAVnVSW3O6lPeFmowhjOJyg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 93%
+source-wordcount: 207
+ht-degree: 72%
 
 ---
 
@@ -25,14 +22,16 @@ ht-degree: 93%
 
 ## Terminologie et concepts de Screens {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/40170?captions=fre_fr&quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
 
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Canaux et plannings de création - Partie 1 {#channels-and-schedules-part-2}
 
 Pour suivre les vidéos, vous avez besoin des éléments suivants :
 
-1. **AEM 6.4** ou **&#x200B; AEM 6.3* + &#x200B;** Pack de fonctionnalités 1 de Screens**
+1. **AEM 6.4** ou ** AEM 6.3* + **Pack de fonctionnalités 1 de Screens**
 
 1. Un lecteur Screens
 
@@ -40,10 +39,10 @@ Pour télécharger le lecteur AEM Screens, cliquez [ici](https://download.macrom
 
 La vidéo ci-dessous détaille la création d’un canal, la création de contenu et l’ajout d’un canal à un planning réutilisable. Il reprend dans les grandes lignes la première moitié du [Guide de démarrage de Screens](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/39367?captions=fre_fr&quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## Afficher les affectations et l’enregistrement des appareils - Partie 2 {#display-and-device-pt2}
 
 La vidéo ci-dessous montre la création d’un emplacement, d’un affichage et d’une configuration d’appareil. La vidéo présente également les étapes d’enregistrement d’un appareil et d’affectation d&#39;un appareil à un affichage. Il reprend dans les grandes lignes la seconde moitié du Guide [de démarrage rapide de](kickstart-for-aem-screens.md)Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/39388?captions=fre_fr&quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)

@@ -3,21 +3,20 @@ title: Configurations de plateforme AEM
 description: Cette page décrit les configurations d’AEM Platform
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 87%
+source-wordcount: 543
+ht-degree: 81%
 
 ---
 
 # Configurations de plateforme AEM {#platform-configurations}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -58,7 +57,7 @@ Installez FFMpeg en suivant les étapes relatives au système d’exploitation a
 ## Restrictions relatives aux mots de passe {#password-restrictions}
 
 La politique de mot de passe d’AEM doit être désactivée sur l’instance AMS. Il peut également être configuré dans la console web à l’aide du service d’appareil Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Voir la section **Restrictions de mot de passe** dans [&#x200B; Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Voir la section **Restrictions de mot de passe** dans [ Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuration des environnements {#setting-up-environments}
 
@@ -70,7 +69,7 @@ Installez et exécutez les versions les plus récentes des packages suivants pou
 
 En plus de ce qui précède, identifiez tous les packages de développement (par exemple, WCM Core
 composants) ou de kits d’outils tiers (par exemple, SAP Hybris) qui sont requis.
-Installez les mêmes packages logiciels sur votre environnement de développement local. Demandez à votre client ou cliente d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
+Installez les mêmes packages logiciels dans votre environnement de développement local. Demandez à votre client d’adopter la même configuration sur tous ses serveurs d’assurance qualité, d’évaluation et de production. Les configurations de serveur incohérentes créent des problèmes lors du déploiement et du test.
 
 >[!NOTE]
 >

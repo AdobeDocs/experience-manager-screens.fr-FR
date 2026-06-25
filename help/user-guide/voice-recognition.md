@@ -6,30 +6,23 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1101
-ht-degree: 100%
+source-wordcount: 1132
+ht-degree: 94%
 
 ---
 
 # Reconnaissance vocale dans AEM Screens {#voice-recognition}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!IMPORTANT]
 >
@@ -90,7 +83,7 @@ Avant d’utiliser une fonctionnalité de reconnaissance vocale, assurez-vous d�
 
    ![image](assets/voice-recognition/vr-2.png)
 
-   Si vous avez ajouté le canal d’écrans partagés à votre projet, accédez à **SplitScreen** et glissez-déposez les deux séquences incorporées. Ajoutez des chemins aux canaux **ColdDrinks** et **HotDrinks** comme illustré dans la figure ci-dessous.
+   Si vous avez ajouté le canal Screens partagé à votre projet, accédez à **SplitScreen** et faites glisser et déposez deux séquences incorporées. Ajoutez des chemins d’accès aux canaux **ColdDrinks** et **HotDrinks**, comme illustré dans la figure ci-dessous.
    ![image](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -134,7 +127,7 @@ Pour créer des balises, procédez comme suit :
 1. Accédez à votre instance AEM.
 
 1. Cliquez sur l’icône Outils > **Balisage**.
-   ![image](assets/voice-recognition/vr-7.png)
+   ![Image](assets/voice-recognition/vr-7.png)
 
 1. Cliquez sur **Créer** > **Créer un espace de noms**.
    ![image](assets/voice-recognition/vr-tag3.png)
@@ -142,7 +135,7 @@ Pour créer des balises, procédez comme suit :
 1. Entrez le nom de votre projet, par exemple, **VoiceDemo** et cliquez sur **Créer**.
 
 1. Cliquez sur le projet **VoiceDemo**, puis sur **Créer une balise** dans la barre d’actions.
-   ![image](assets/voice-recognition/vr-tag4.png)
+   ![Image](assets/voice-recognition/vr-tag4.png)
 
 1. Saisissez le nom de votre balise, puis cliquez sur **Envoyer**.
    ![image](assets/voice-recognition/vr-tag5.png)

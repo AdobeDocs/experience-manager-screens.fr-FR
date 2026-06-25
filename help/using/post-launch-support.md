@@ -3,24 +3,24 @@ title: Prise en charge post-lancement
 description: Découvrez la prise en charge post-lancement d’AEM Screens dans le guide des bonnes pratiques.
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 99%
+source-wordcount: 396
+ht-degree: 80%
 
 ---
 
 # Prise en charge après le lancement {#post-launch-support}
 
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Ne négligez pas la prise en charge post-lancement à un stade précoce.
 
-Il est essentiel que votre fournisseur de matériel propose une assistance technique adéquate pour garantir la bonne marche des activités commerciales des sites clients. L’**intégrateur ou intégratrice audiovisuel** doit travailler en étroite collaboration avec les parties prenantes commerciales et identifier les exigences sous différents aspects.
-Tenez compte des exigences suivantes dans le cadre de la prise en charge post-lancement :
+Il est essentiel que les sites bénéficient d’une assistance adéquate de la part de votre fournisseur de matériel pour leurs opérations commerciales. L’intégrateur **audio-vidéo** doit travailler en étroite collaboration avec les parties prenantes de l’entreprise et identifier les exigences requises sous différents aspects.
+Tenez compte des exigences suivantes lors de la prise en charge après le lancement :
 
 * Gestion à distance des appareils
 * Disponibilité du centre d’assistance
@@ -41,7 +41,7 @@ De plus, pour garantir un succès durable, il est essentiel d’établir un cont
 
 Quelques considérations et questions qui vous aident à définir la prise en charge après le lancement :
 
-1. Le déploiement d’un réseau publicitaire avec de nombreuses parties prenantes est-il lié à un réseau monétisé ? Cette situation peut exiger des délais de résolution beaucoup plus courts que dans le cas d’un réseau de communications d’entreprise.
+1. Le déploiement est-il un réseau Advertising avec de nombreuses parties prenantes liées à un réseau monétisé ? Cette situation peut nécessiter des délais de résolution plus courts par rapport à un réseau de communications d’entreprise.
  
    >[!NOTE]
    >

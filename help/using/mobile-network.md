@@ -3,21 +3,20 @@ title: Réseau mobile direct
 description: Découvrez la configuration de réseau mobile direct dans AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 TQID: https://experienceleague.adobe.com/nesp1a9TVyKUBaWjPR8bzW6n2dGyVVme1p5469h92LA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 97%
+source-wordcount: 837
+ht-degree: 89%
 
 ---
 
 # Réseau mobile direct {#mobile-network-setup}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Il est possible de connecter les lecteurs AEM Screens à l’aide de réseaux mobiles ou cellulaires qui sont au moins en 3G.
 
@@ -68,9 +67,9 @@ Le tableau suivant présente les réseaux de données avec leur bande passante s
 
 Lors de la détermination du réseau de données à utiliser, tenez compte des points suivants :
 
-Le débit réseau disponible dépend du forfait spécifique du fournisseur de données mobiles et de la couverture disponible au point où se trouve le contrôleur AEM Screens.
-Pour effectuer cette configuration, tenez compte du fait que, outre la bande passante disponible, certains forfaits de fournisseurs de données mobiles limitent la quantité de données disponibles transitant par la connexion pendant une durée donnée. La capacité des données et la bande passante doivent être suffisantes.
-Dans le prolongement de cette réflexion, le package de données nécessaire doit respecter les conditions suivantes :
+La vitesse du réseau disponible dépend du plan de fournisseur de données mobiles spécifique et de la couverture disponible atteinte à l’emplacement du contrôleur AEM Screens.
+Lors du suivi de cette configuration, considérez qu’en plus de la bande passante disponible, certains plans de fournisseurs de données mobiles limitent la quantité de données disponibles traversant la connexion au cours d’une période spécifique. Il faut s’assurer que les données et la bande passante disposent d’une capacité suffisante.
+En guise de suivi, le package de données nécessaire doit être au moins :
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
