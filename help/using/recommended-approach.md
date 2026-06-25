@@ -24,7 +24,7 @@ ht-degree: 47%
 # Approche recommandée {#recommended-approach}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La bonne pratique consiste à considérer tout projet AEM Screens au niveau de l’entreprise comme une activité sur le long terme. Il est probable que le projet s’étende sur une ou plusieurs années, notamment si la solution permet des interactions complexes avec les utilisateurs et utilisatrices ou si elle est déployée sur divers appareils et emplacements.
 

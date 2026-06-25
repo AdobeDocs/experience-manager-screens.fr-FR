@@ -29,7 +29,7 @@ ht-degree: 89%
 # Partie 4 : gestion et déploiement de projets {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page présente la quatrième partie d’une série de cinq articles et porte sur la préparation du déploiement et la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
 

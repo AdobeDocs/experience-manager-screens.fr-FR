@@ -27,7 +27,7 @@ ht-degree: 80%
 # Utiliser la commande à distance Screens {#implementing-remote-control}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La fonction de commande à distance facilite l’accès à l’interface utilisateur d’administration, au sélecteur de canaux ou à des fonctionnalités telles que Effacer le cache et recharger. En outre, elle vous permet de voir la version locale du micrologiciel et les informations système du lecteur. Cette fonctionnalité est particulièrement utile, car il peut être difficile de connecter une souris. Ou d’utiliser sur des appareils de production hors de portée, et encore plus si le lecteur a perdu toute connexion avec AEM. Cela est également utile lorsque vous utilisez Samsung RMS, car la différence de résolution peut rendre difficiles la localisation et l’ouverture de l’interface d’utilisation de l’administration à l’aide d’une souris.
 

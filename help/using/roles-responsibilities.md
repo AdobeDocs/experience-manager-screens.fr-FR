@@ -26,7 +26,7 @@ ht-degree: 93%
 # Rôles et responsabilités de projets {#roles-responsibilities}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En tant que personne chargée de l’implémentation AEM expérimentée, les rôles *Auteurs et autrices*, *Développeurs et développeuses* et *Techniciens et techniciennes informatique* vous sont probablement familiers.
 
