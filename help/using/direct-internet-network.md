@@ -12,14 +12,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 706
-ht-degree: 99%
+ht-degree: 89%
 
 ---
 
 # Réseau internet direct (câblé/sans fil) {#direct-internet-access}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Le réseau internet direct contient un point d’accès à Internet servant à atteindre les services cloud AEM auxquels AEM Screens doit se connecter.
 
@@ -81,8 +84,8 @@ Le niveau *suffisant* de la bande passante dépend du nombre d’AEM Screens con
 
 En plus de fournir une accessibilité au réseau, les performances du réseau local doivent fournir une bande passante suffisante pour utiliser AEM Screens.
 
-Un réseau local correspond généralement à un débit de 100 Mbit/s, ce qui permet de disposer d’une bande passante suffisante pour connecter de nombreux appareils au système en assurant de bonnes performances.
-Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité.
+Le réseau local correspond généralement au moins à un réseau de 100 Mbit/s, de sorte qu&#39;il y a suffisamment de bande passante pour connecter de nombreux appareils avec de bonnes performances au système.
+Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu&#39;à 54 Mbit/s. Toutes les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité.
 
 >[!NOTE]
 >

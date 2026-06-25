@@ -24,14 +24,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 547
-ht-degree: 100%
+source-wordcount: 593
+ht-degree: 92%
 
 ---
 
 # Partie 3 : tests, preuves de concept, pilotes et déploiements {#part-testing-pocs-pilots-rollouts}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page met l’accent sur la partie 3 d’une série en 5 parties, conçue pour aider les personnes membres de l’équipe à mieux comprendre les termes essentiels pour garantir la réussite du développement d’une solution avant un déploiement.
 

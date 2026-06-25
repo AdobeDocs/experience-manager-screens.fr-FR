@@ -22,14 +22,17 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 375
-ht-degree: 100%
+source-wordcount: 421
+ht-degree: 89%
 
 ---
 
 # Création avec des déclencheurs de données {#authoring-with-data-triggers}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette section explique comment activer le ciblage dans vos canaux.
 
@@ -70,7 +73,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    1. Cliquez sur le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub**, puis sur **Sélectionner**.
 
-   1. Cliquez sur le **Chemin d’accès aux segments** **conf** > **`We.Retail`****settings** > **wcm** > **segments**, puis sur **Sélectionner**.
+   1. Cliquez sur le **Chemin d’accès aux segments** **conf** > **`We.Retail`**&#x200B;**settings** > **wcm** > **segments**, puis sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 

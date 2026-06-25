@@ -21,14 +21,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 98%
+source-wordcount: 677
+ht-degree: 91%
 
 ---
 
 # Partie 5 : facteurs liés à l’assistance {#part-support-considerations}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page présente la dernière partie qui conclut une série en 5 parties conçue pour initier les membres de l’équipe à la prise en charge des problèmes matériels, logiciels et de connectivité. Cette phase explore les estimations de coûts et les frameworks en matière d’assistance sur site. Il y est également question de la gestion des paramètres du contrat de niveau de service, des budgets opérationnels et des transferts de centre d’exploitation de réseau.
 

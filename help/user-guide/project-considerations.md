@@ -25,14 +25,17 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 98%
+source-wordcount: 703
+ht-degree: 92%
 
 ---
 
 # Partie 2 : observations dans le cadre de la définition de la portée du projet {#part-considerations-as-projects-are-scoped}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page présente le deuxième volet d’une série de cinq articles, qui est conçu pour aider les membres de l’équipe à mieux comprendre les aspects d’avant-vente pour réussir le développement de déploiements AEM Screens.
 

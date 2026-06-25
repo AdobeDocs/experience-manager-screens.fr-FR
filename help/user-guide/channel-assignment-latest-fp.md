@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1448
-ht-degree: 93%
+source-wordcount: 1464
+ht-degree: 90%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 93%
 Lorsque que vous avez configuré un affichage, attribuez-lui un canal pour afficher votre contenu.
 
 Cette page montre l’attribution d’un canal à votre affichage, les propriétés du canal et les tranches horaires.
+
+Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -100,7 +102,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
    >Pour en savoir plus sur les propriétés d’attribution de canaux, voir la section [Propriétés des canaux](#channel-properties).
 
 1. Dans l’option **Planning**, cliquez sur la **fenêtre d’activation** et le **planning de périodicité**.
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+   ![Image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
@@ -200,7 +202,7 @@ Le planning de périodicité permet de définir un planning récurrent pour votr
 
 >[!NOTE]
 >Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Les plannings de périodicité proposent des *Tranches horaires*. Vous définissez un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et réutilisez simultanément cette configuration pour tous vos affichages.
+>Les plannings de périodicité introduisent *DayParting*. Vous définissez une planification globale avec plusieurs canaux s’exécutant à des heures spécifiques de la journée et réutilisez cette configuration pour tous vos affichages en même temps.
 
 Vous pouvez configurer les options suivantes :
 

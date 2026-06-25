@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 98%
+source-wordcount: 464
+ht-degree: 89%
 
 ---
 
 # Principes de base d’un projet de signalétique numérique {#basics-digital-signage}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Avant de passer aux bonnes pratiques de mise en œuvre d’AEM Screens, il convient de considérer le projet comme un projet de signalétique numérique, plutôt que comme un projet de développement logiciel traditionnel.
 

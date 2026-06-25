@@ -17,14 +17,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 358
-ht-degree: 96%
+source-wordcount: 397
+ht-degree: 80%
 
 ---
 
 # Rapport d’attribution de contenu {#content-assignment-report}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La fonction Rapport d’affectation de contenu permet à un administrateur ou à un auteur AEM Screens d’exporter un *rapport d’affectation de contenu* au format tableur.
 
@@ -37,8 +40,8 @@ Le rapport d’attribution de contenu permet non seulement la prévisualisation 
 
 ### Conditions préalables {#pre-reqs}
 
-Avant de télécharger le rapport d’attribution de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des appareils.
-Pour plus d’informations, référez-vous aux ressources ci-dessous :
+Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des appareils.
+Consultez les ressources suivantes pour plus d’informations :
 
 1. [Créer et gérer des projets](/help/user-guide/creating-a-screens-project.md)
 1. [Création et gestion des canaux](/help/user-guide/managing-channels.md)

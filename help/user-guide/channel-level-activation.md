@@ -23,14 +23,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1808
-ht-degree: 70%
+source-wordcount: 1845
+ht-degree: 68%
 
 ---
 
 # Activation au niveau des canaux {#channel-level-activation-single-event-playback}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page décrit l’activation au niveau des canaux des ressources utilisées dans les canaux.
 
@@ -162,8 +165,8 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 :59 (comm
 
 >[!NOTE]
 >
->Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
->[Utiliser le lecteur AEM Screens](working-with-screens-player.md)
+>Pour en savoir plus sur le lecteur AEM Screen, consultez les ressources suivantes :>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
+>[Utilisation d’AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gérer la périodicité des ressources dans un canal {#handling-recurrence-in-assets}

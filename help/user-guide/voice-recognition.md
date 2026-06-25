@@ -22,14 +22,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1101
-ht-degree: 100%
+source-wordcount: 1132
+ht-degree: 94%
 
 ---
 
 # Reconnaissance vocale dans AEM Screens {#voice-recognition}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!IMPORTANT]
 >
@@ -90,7 +93,7 @@ Avant d’utiliser une fonctionnalité de reconnaissance vocale, assurez-vous d�
 
    ![image](assets/voice-recognition/vr-2.png)
 
-   Si vous avez ajouté le canal d’écrans partagés à votre projet, accédez à **SplitScreen** et glissez-déposez les deux séquences incorporées. Ajoutez des chemins aux canaux **ColdDrinks** et **HotDrinks** comme illustré dans la figure ci-dessous.
+   Si vous avez ajouté le canal Screens partagé à votre projet, accédez à **SplitScreen** et faites glisser et déposez deux séquences incorporées. Ajoutez des chemins d’accès aux canaux **ColdDrinks** et **HotDrinks**, comme illustré dans la figure ci-dessous.
    ![image](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -134,7 +137,7 @@ Pour créer des balises, procédez comme suit :
 1. Accédez à votre instance AEM.
 
 1. Cliquez sur l’icône Outils > **Balisage**.
-   ![image](assets/voice-recognition/vr-7.png)
+   ![Image](assets/voice-recognition/vr-7.png)
 
 1. Cliquez sur **Créer** > **Créer un espace de noms**.
    ![image](assets/voice-recognition/vr-tag3.png)
@@ -142,7 +145,7 @@ Pour créer des balises, procédez comme suit :
 1. Entrez le nom de votre projet, par exemple, **VoiceDemo** et cliquez sur **Créer**.
 
 1. Cliquez sur le projet **VoiceDemo**, puis sur **Créer une balise** dans la barre d’actions.
-   ![image](assets/voice-recognition/vr-tag4.png)
+   ![Image](assets/voice-recognition/vr-tag4.png)
 
 1. Saisissez le nom de votre balise, puis cliquez sur **Envoyer**.
    ![image](assets/voice-recognition/vr-tag5.png)

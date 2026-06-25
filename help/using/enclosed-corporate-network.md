@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 97%
+source-wordcount: 660
+ht-degree: 78%
 
 ---
 
 # Réseau d’entreprise fermé (câblé/sans fil) {#enclosed-corporate-networks}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Elle peut être plus complexe du point de vue théorique ; la configuration logique est présentée dans la figure ci-dessous.
 
@@ -58,8 +61,8 @@ La configuration de réseau d’entreprise fermé peut être séparée logiqueme
 
 ### Réseau étendu {#wan-connection}
 
-Outre l’accessibilité du réseau, les performances de la connexion Internet doivent offrir une bande passante suffisante pour garantir la fluidité des mises à jour du contenu AEM Screens.
-La *bande passante suffisante* dépend du nombre d’appareils AEM Screens connectés. Cela dépend également de l’utilisation d’autres consommateurs sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+Les performances de la connexion Internet, en plus de l’accessibilité du réseau, doivent fournir une bande passante suffisante pour permettre le bon fonctionnement des mises à jour de contenu AEM Screens.
+*Bande passante suffisante* dépend du nombre d’AEM Screens connectées. Cela dépend également de l&#39;utilisation d&#39;autres consommateurs au sein du réseau, tels que les smartphones, les tablettes, les caissiers, les ordinateurs ou les réseaux Wi-Fi invités.
 
 >[!NOTE]
 >
@@ -75,11 +78,11 @@ Par exemple, les composants du réseau doivent correspondre au minimum à la nor
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
-Généralement, les réseaux d’entreprise présentent plusieurs appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
-Ce schéma est simplifié et convient le plus souvent aux environnements disponibles pour le client ou la cliente.
+Les réseaux d&#39;entreprise disposent de plusieurs appareils connectés, sont séparés en différents sous-réseaux et disposent de connexions Internet redondantes ou multiplexées pour fournir des performances suffisantes pour plusieurs milliers d&#39;accès simultanés.
+Ce schéma est simplifié et s’adapte dans la plupart des cas aux environnements disponibles pour le client.
 
-Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité. Si un répéteur Wi-Fi est requis, il est fortement recommandé d’utiliser des technologies de point d’accès Wi-Fi maillé comme Google Nest Mesh Wi-Fi, ou un dispositif similaire.
-D’autres technologies de répéteurs de signaux Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
+Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu&#39;à 54 Mbit/s. Toutes les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité. Si un répéteur Wi-Fi est requis, Adobe recommande les technologies de point d’accès Wi-Fi maillé telles que Google Nest Mesh Wi-Fi ou similaires.
+D&#39;autres technologies de répétition Wi-Fi aboutissent à une perte massive de bande passante dans le réseau global.
 
 ## Télécharger des médias et des ressources {#download}
 

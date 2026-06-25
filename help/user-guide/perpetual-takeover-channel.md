@@ -19,20 +19,23 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 61%
+source-wordcount: 857
+ht-degree: 59%
 
 ---
 
 # Canal de prise de contrôle perpétuelle {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu de manière permanente pour un jour et une heure spécifiques.
+Ce cas pratique explique comment créer un canal qui *prend le relais* du canal de lecture normal pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu pour un jour et une heure spécifiques de façon permanente.
 Par exemple, il existe un canal de prise de contrôle permanente qui est lu tous les vendredis de 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. L’exemple suivant illustre la création d’un canal de prise de contrôle perpétuel qui permet à la lecture du contenu tous les mercredis pendant deux heures:00 de 14 heures à 16 :00.
 
 ### Prérequis {#preconditions}

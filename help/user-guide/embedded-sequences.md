@@ -26,14 +26,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 777
-ht-degree: 100%
+source-wordcount: 811
+ht-degree: 93%
 
 ---
 
 # Séquences incorporées {#embedded-sequences}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Avec les ***séquences incorporées*** pour les canaux, l’utilisateur ou l’utilisatrice peut ajouter des composants dans le canal parent, ainsi que réutiliser le contenu d’un autre canal et l’incorporer dans le canal parent.
 
@@ -54,7 +57,7 @@ Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence inco
 
 >[!NOTE]
 >***Chemin du canal*** définit une référence explicite au canal.
->Pour en savoir plus sur le *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans l’instance de création Screens.
+>Pour en savoir plus sur le *chemin du canal*, consultez [Attribution de canal](channel-assignment.md) dans la création de Screens.
 
 Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 

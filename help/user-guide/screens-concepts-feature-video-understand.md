@@ -14,10 +14,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 93%
+source-wordcount: 207
+ht-degree: 72%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 93%
 
 >[!VIDEO](https://video.tv.adobe.com/v/40170?captions=fre_fr&quality=9)
 
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Canaux et plannings de création - Partie 1 {#channels-and-schedules-part-2}
 

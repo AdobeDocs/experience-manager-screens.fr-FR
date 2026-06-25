@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 87%
+source-wordcount: 543
+ht-degree: 81%
 
 ---
 
 # Configurations de plateforme AEM {#platform-configurations}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -70,7 +73,7 @@ Installez et exécutez les versions les plus récentes des packages suivants pou
 
 En plus de ce qui précède, identifiez tous les packages de développement (par exemple, WCM Core
 composants) ou de kits d’outils tiers (par exemple, SAP Hybris) qui sont requis.
-Installez les mêmes packages logiciels sur votre environnement de développement local. Demandez à votre client ou cliente d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
+Installez les mêmes packages logiciels dans votre environnement de développement local. Demandez à votre client d’adopter la même configuration sur tous ses serveurs d’assurance qualité, d’évaluation et de production. Les configurations de serveur incohérentes créent des problèmes lors du déploiement et du test.
 
 >[!NOTE]
 >

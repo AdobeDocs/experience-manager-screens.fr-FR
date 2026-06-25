@@ -23,14 +23,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1476
-ht-degree: 98%
+source-wordcount: 1515
+ht-degree: 95%
 
 ---
 
 # Configuration de ContextHub dans AEM Screens {#configuring-contexthub-in-aem-screens}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette section met l’accent sur la création et la gestion des modifications de ressources liées aux données à l’aide d’un magasin de données.
 
@@ -227,8 +230,8 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
    1. Sélectionnez **Zone** dans l’assistant **Créer une page**, puis cliquez sur **Suivant**.
 
-   1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.
-Une zone sera créée dans votre marque.
+   1. Saisissez le **Titre** comme **ValeurScreens** et cliquez sur **Créer**.
+Une zone est créée dans votre marque.
 
 ## Étape 5 : création de segments dans une activité {#step-setting-up-audience-segmentation}
 

@@ -8,14 +8,17 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 199
-ht-degree: 100%
+source-wordcount: 212
+ht-degree: 69%
 
 ---
 
 # Maquettes {#wireframes}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Cette activité est généralement réalisée par une personne spécialisée dans la stratégie opérationnelle/marketing.
@@ -30,8 +33,8 @@ Ce processus peut être appliqué aux éléments suivants :
 
 Cela permettra de faire passer le projet de la phase de prototypage à la phase de déploiement proprement dite.
 
-Au **niveau de la ressource**, vous devez créer des maquettes qui définissent diverses options de disposition du contenu, ainsi que différents regroupements de contenu. Ce travail permet de définir à quoi peuvent ressembler plusieurs éléments de contenu lorsqu’ils sont assemblés en tant que groupe.
-En règle générale, des graphiques, des images et des vidéos prêts pour la production sont utilisés dans le cadre de cette activité.
+Dans une **vue au niveau des ressources**, vous devez créer des maquettes qui définissent différentes options de disposition de contenu et différents regroupements de contenu. Ce travail permet de définir à quoi plusieurs éléments de contenu peuvent ressembler lorsqu’ils sont assemblés en tant que groupe.
+En règle générale, vous utiliserez des graphiques, des images et des vidéos prêts pour la production dans cette activité.
 
 Au **niveau du canal**, vous devez créer des maquettes qui montrent comment les différents canaux de contenu sont interconnectés au sein de l’expérience globale, ce qui inclut les stratégies de lecture pour les canaux incorporés. Vous pouvez également examiner les transitions de canaux qui peuvent se produire lors de l’activation des déclencheurs de données.
 

@@ -8,14 +8,17 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
-ht-degree: 94%
+source-wordcount: 703
+ht-degree: 84%
 
 ---
 
 # Rendus adaptatifs : présentation et configurations de l’architecture {#adaptive-renditions}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Présentation {#introduction}
 
@@ -50,7 +53,7 @@ Suivez les étapes ci-dessous pour configurer l’installation :
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si vous avez installé le dernier pack de fonctionnalités 202109, la structure de nœud **rendition-mapping** est préremplie dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Consultez les [Notes de mise à jour du pack de fonctionnalités 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des informations sur le dernier pack de fonctionnalités.
+   >Si vous avez installé le dernier Feature Pack 202109, la structure de nœud **rendition-mapping** est prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Voir [&#x200B; Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des détails sur le dernier Feature Pack.
    >Pour les projets existants, assurez-vous que la configuration **rendition-mapping** est associée au projet Screens. Consultez [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour en savoir plus.
 
 ### Ajout d’une propriété de mappage de rendu à un projet existant {#rendition-mapping-existing}

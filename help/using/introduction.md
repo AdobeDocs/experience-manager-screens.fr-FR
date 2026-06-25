@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 690
-ht-degree: 100%
+source-wordcount: 736
+ht-degree: 93%
 
 ---
 
 # Présentation d’AEM Screens {#introduction}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 **AEM Screens** est une solution de signalétique numérique qui vous permet de créer, de publier et de lire des expériences numériques dynamiques et interactives. Elle implique différents types d’écrans sur site, de concert avec une stratégie de marketing numérique omnicanal exhaustive.
 

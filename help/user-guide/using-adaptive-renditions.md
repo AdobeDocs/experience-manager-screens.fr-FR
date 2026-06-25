@@ -8,16 +8,19 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 84%
+source-wordcount: 601
+ht-degree: 77%
 
 ---
 
 # Utilisation des rendus adaptatifs dans AEM Screens {#adaptive-renditions}
 
 ## Présentation {#introduction}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Cette fonctionnalité est uniquement prise en charge sur AEM on-premise (AEM 6.x). Il n’est pas pris en charge sur AEM as a Cloud Service.
@@ -27,7 +30,7 @@ Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le
 ## Objectif {#objective}
 
 En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
-Une fois qu’un développeur ou qu’une développeuse ajoute les propriétés et les règles de mappage de rendu, vous pouvez appliquer le mappage de rendu aux ressources et les inclure ensuite dans un canal AEM Screens.
+Une fois qu’un développeur a ajouté les propriétés et les règles de mappage de rendu, vous êtes prêt à appliquer le mappage de rendu aux ressources, puis à les inclure dans un canal AEM Screens.
 
 >[!IMPORTANT]
 >Avant de commencer à utiliser les rendus adaptatifs, dans un canal AEM Screens, Adobe recommande d’en savoir plus sur la vue d’ensemble et la configuration de l’architecture de cette fonctionnalité. Voir [Rendus adaptatifs : vue d’ensemble et configurations de l’architecture](/help/user-guide/adaptive-renditions.md).

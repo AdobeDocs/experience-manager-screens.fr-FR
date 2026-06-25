@@ -12,20 +12,23 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 94%
+source-wordcount: 252
+ht-degree: 75%
 
 ---
 
 # Considérations relatives à la définition de la portée du projet {#pre-sales-considerations}
 
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 >[!NOTE]
 >Cette activité est généralement réalisée par une personne spécialisée dans la stratégie opérationnelle/marketing.
 
-Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires pour définir complètement le champ d’application du projet. Les travaux terminés le `Day Zero` jettent les bases du projet et ont une incidence directe sur le succès global de la demande.
-À ce stade, les principaux fournisseurs sont identifiés et regroupés pour faciliter l’établissement du plan du projet. Au cours de cette étape, il est important que l’accord soit également établi avec les principales parties prenantes du projet au sein de la société cliente. Ces parties prenantes comprennent les personnes responsables des ventes et du marketing, et les équipes informatiques. Ces personnes ont toutes un rôle important à jouer dans le développement de l’application et sa maintenance continue.
+Cette étape comprend tous les efforts de prévente et de découverte nécessaires pour définir entièrement la portée du projet. Les travaux terminés le `Day Zero` jettent les bases du projet et ont une incidence directe sur le succès global de la demande.
+À ce stade, les principaux fournisseurs sont identifiés et rassemblés pour aider à formuler le plan du projet. Il est important à ce stade que l’adhésion soit également établie avec les principaux intervenants du projet au sein de l’entreprise cliente. Ces parties prenantes sont notamment les responsables commerciaux, les responsables marketing et les équipes informatiques. Ces personnes ont toutes un rôle important à jouer dans le développement de l&#39;application et sa maintenance continue.
 
 ## Principaux éléments livrables {#key-deliverables}
 

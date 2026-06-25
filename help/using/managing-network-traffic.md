@@ -11,22 +11,25 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 99%
+source-wordcount: 532
+ht-degree: 90%
 
 ---
 
 # Gestion du trafic réseau {#managing-network-traffic}
+
+>[!IMPORTANT]
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Une configuration réseau peut avoir différentes structures. Cette section décrit les configurations réseau les plus courantes et les approches généralisées appliquées au sein d’une organisation.
 
 Ce guide présente une introduction aux serveurs proxy suivie des diverses structures de réseaux configurées au sein de différentes organisations.
 
 >[!NOTE]
->**Configuration réseau requise pour AEM Screens**
->AEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Des pare-feu sont obligatoires pour un accès à l’internet commercial. En tant que client ou cliente, déterminez les ports de communication qui doivent être ouverts dans ces pare-feu et pour les autres composants réseau liés à la sécurité informatique.
+>**Configuration réseau requise pour**
+>AEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Les pare-feu sont obligatoires pour l&#39;accès commercial à Internet. En tant que client, identifiez les ports de communication qui doivent être ouverts dans ces pare-feu et autres composants réseau liés à la sécurité informatique.
 
 ## Vue d’ensemble des serveurs proxy {#proxy-servers}
 
