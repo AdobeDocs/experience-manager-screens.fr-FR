@@ -3,9 +3,14 @@ title: Configuration des instances de création et de publication dans AEM Scree
 description: Découvrez comment configurer une instance de création et une instance de publication pour AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 1959
@@ -60,7 +65,7 @@ Pour créer des agents de réplication, apprenez à créer un agent de réplicat
 
 Trois agents de réplication sont nécessaires pour Screens :
 
-1. **Agent de réplication par défaut ***(spécifié comme*** Agent de réplication standard**)
+1. **Agent de réplication par défaut &#x200B;***(spécifié comme&#x200B;*** Agent de réplication standard**)
 1. **Agent de réplication Screens**
 1. **Agent de réplication inverse**
 
