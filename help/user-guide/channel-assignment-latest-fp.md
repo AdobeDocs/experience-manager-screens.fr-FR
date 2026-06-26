@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 90%
 
 ---
@@ -201,8 +201,7 @@ La fenêtre d’activation permet de sélectionner une **Date de début** et une
 Le planning de périodicité permet de définir un planning récurrent pour votre contenu. Cliquez sur **+ Ajouter un planning** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
->Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Les plannings de périodicité introduisent *DayParting*. Vous définissez une planification globale avec plusieurs canaux s’exécutant à des heures spécifiques de la journée et réutilisez cette configuration pour tous vos affichages en même temps.
+>Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.Les plannings de périodicité proposent des *Tranches horaires*. Vous définissez un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et réutilisez simultanément cette configuration pour tous vos affichages.
 
 Vous pouvez configurer les options suivantes :
 
@@ -243,3 +242,4 @@ Cet exemple montre le DayParting implémenté dans un casino où un événement 
 >[!NOTE]
 >
 >Vous pouvez également définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur minimale de priorité peut être définie sur 0.
+

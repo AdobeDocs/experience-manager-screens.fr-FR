@@ -11,10 +11,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
-ht-degree: 82%
+source-wordcount: 2022
+ht-degree: 83%
 
 ---
 
@@ -155,8 +155,7 @@ Pour l’une des instances de publication, accédez à `https://:/system/console
 
 #### Étape 3 : configurer le cluster Artemis ActiveMQ {#step-setup-activemq-artemis-cluster}
 
-Cette étape permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.
-L’utilisateur et le mot de passe du cluster de toutes les instances de publication dans la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Comme chaque instance possède sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Ensuite, le mot de passe chiffré peut être utilisé dans la configuration OSGi pour ActiveMQ.
+Cette étape vous permet de créer un mot de passe chiffré pour le cluster ActiveMQ Artemis.Le nom d’utilisateur ou d’utilisatrice et le mot de passe du cluster de toutes les instances de publication de la topologie doivent être identiques. Le mot de passe de la configuration ActiveMQ Artemis doit être chiffré. Chaque instance ayant sa propre clé de chiffrement, il est nécessaire d’utiliser la prise en charge du chiffrement pour créer une chaîne de mot de passe chiffrée. Le mot de passe chiffré sera ensuite utilisé dans la configuration OSGi pour ActiveMQ.
 
 Sur chaque instance de publication :
 
@@ -169,8 +168,7 @@ Comme chaque instance de publication dispose par défaut de clés de chiffrement
 
 >[!NOTE]
 >
->Le mot de passe doit commencer et se terminer par des crochets. Par exemple :
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>Le mot de passe doit commencer et se terminer par des accolades. Par exemple :
 
 #### Étape 4 : activation du cluster Artemis ActiveMQ {#step-activate-activemq-artemis-cluster}
 

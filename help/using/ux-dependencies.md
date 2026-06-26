@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 75%
@@ -50,3 +50,4 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
 1. Plusieurs appareils sont-ils nécessaires pour un seul affichage (zones multiples, panneaux de très grande taille, etc.) ?
 
 1. Quels sont les facteurs environnementaux, tels que la luminosité, la température et la saison ?
+

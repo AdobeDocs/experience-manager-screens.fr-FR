@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 196
-ht-degree: 62%
+source-wordcount: 310
+ht-degree: 85%
 
 ---
 
@@ -28,8 +28,7 @@ Il est important de tester les idées, les hypothèses et les dépendances défi
 
 Au cours de cette phase du projet, vous devez vous préoccuper davantage des fonctionnalités de base que de l’amélioration de l’expérience utilisateur proprement dite.
 
-En règle générale, un exemple de contenu FPO est utilisé à ce stade. Il permet au chef de projet et aux principales parties prenantes d’identifier les lacunes majeures dans le flux d’expérience utilisateur et les problèmes de minutage liés à la lecture et aux événements déclencheurs associés.
-Cette phase peut également révéler des problèmes potentiels liés au positionnement, à l’échelle et à la taille des ressources.
+En règle générale, l’exemple ou le contenu FPO est utilisé à ce stade. Cela permet au chef ou à la cheffe de projet et aux principales parties prenantes d’identifier les lacunes majeures du flux d’expérience utilisateur et les problèmes de temporisation liés à la lecture et aux événements déclencheurs associés.Cette phase peut également révéler des problèmes potentiels au niveau du positionnement, du dimensionnement et de la taille des ressources.
 
 En réalisant un prototypage de l’expérience, vous pouvez simuler différents scénarios de consommation du contenu. Vous pouvez simuler les interactions qui peuvent se produire et les dépendances de données externes qui peuvent perturber le flux prévu de l’expérience.
 
@@ -37,5 +36,5 @@ Différents cas d’utilisation ont été créés pour servir de référence ou 
 
 
 >[!NOTE]
-> Pendant la phase de conception de l’interface utilisateur, vérifiez que les données extraites par cette dernière sont correctement prises en charge.
-> Par exemple, il est probable que tous les décideurs ne connaissent pas la structure des données de leur base de données de produits. Ils peuvent choisir des descripteurs sur leur solution d’expérience utilisateur qui ne sont pas des champs principaux dans la couche de données. Identifier rapidement où la manipulation des données peut être nécessaire et les communiquer au client évite les malentendus ultérieurement. Si le client ou la cliente décide de développer ou de modifier l’étiquetage de l’interface utilisateur après le début du développement, des efforts supplémentaires sont nécessaires pour tenir compte des modifications.
+> Pendant la phase de conception de l’expérience d’utilisation, vérifiez que les données extraites par la conception de l’interface d’utilisation sont prises en charge de manière adéquate.Par exemple, il est peu probable que tous les décideurs connaissent la structure de données de leur base de données produit. Ils peuvent ainsi choisir sur leur solution d’expérience utilisateur des descripteurs qui ne sont pas des champs principaux de la couche de données. Identifier le plus tôt possible à quel endroit une manipulation des données peut s’avérer nécessaire et communiquer cette information à la cliente ou au client permet d’éviter les malentendus par la suite. Si la cliente ou le client décide d’étendre ou de modifier l’étiquetage de l’interface utilisateur une fois que le développement a commencé, la prise en compte des modifications exigera davantage d’efforts.
+

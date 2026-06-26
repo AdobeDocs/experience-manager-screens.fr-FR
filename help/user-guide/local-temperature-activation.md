@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 88%
@@ -108,3 +108,4 @@ Suivez les étapes ci-dessous pour mettre en œuvre le cas d’utilisation de l�
    1. Définissez une valeur inférieure à 50. Vous pouvez afficher une image d’une boisson froide. Si la valeur dans Google Sheets est supérieure ou égale à 50, une image de boisson chaude doit s’afficher.
 
    ![result3](assets/result3.gif)
+

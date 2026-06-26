@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 89%
 
 ---
@@ -138,8 +138,7 @@ Lors du déploiement en masse du lecteur Android™, vous devez pouvoir configur
 
 Pour autoriser l’approvisionnement en bloc dans le lecteurAndroid™, procédez comme suit :
 
-1. Créez un fichier JSON de configuration nommé `player-config.default.json`.
-Consultez un [exemple de politique JSON](#example-json) et un tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
+1. Créez un fichier de configuration JSON nommé `player-config.default.json`.Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
 
 1. Utilisez un explorateur de fichiers MDM ou ADB ou Android™ Studio pour déposer ce fichier de politique JSON dans le dossier *sdcard* de l’appareil Android™.
 
@@ -226,3 +225,4 @@ En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si c
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
 AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md)
+

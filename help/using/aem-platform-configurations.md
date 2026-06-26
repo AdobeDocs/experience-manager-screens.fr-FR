@@ -10,10 +10,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 81%
+source-wordcount: 592
+ht-degree: 80%
 
 ---
 
@@ -72,8 +72,7 @@ Installez et exécutez les versions les plus récentes des packages suivants pou
 * AEM Cumulative Fix Pack
 
 En plus de ce qui précède, identifiez tous les packages de développement (par exemple, WCM Core
-composants) ou de kits d’outils tiers (par exemple, SAP Hybris) qui sont requis.
-Installez les mêmes packages logiciels dans votre environnement de développement local. Demandez à votre client d’adopter la même configuration sur tous ses serveurs d’assurance qualité, d’évaluation et de production. Les configurations de serveur incohérentes créent des problèmes lors du déploiement et du test.
+composants) ou de kits d’outils tiers (par exemple, SAP Hybris) qui sont requis.Installez les mêmes packages logiciels sur votre environnement de développement local. Demandez à votre client ou cliente d’adopter la même configuration sur tous ses serveurs de contrôle de la qualité, de production et intermédiaires. Des configurations de serveur incohérentes entraîneront des problèmes lors des phases de déploiement et de test.
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ Installez les mêmes packages logiciels dans votre environnement de développeme
 Cette section explique comment séparer les projets, de sorte que chaque personne ou équipe gère son propre projet.
 
 Pour en savoir plus, voir [Configuration des listes de contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
+

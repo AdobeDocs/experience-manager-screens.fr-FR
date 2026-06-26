@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 59%
+source-wordcount: 288
+ht-degree: 70%
 
 ---
 
@@ -79,12 +79,11 @@ Suivez les étapes ci-dessous pour attribuer un appareil à un affichage :
 
 >[!NOTE]
 >
->Chaque fois que le premier appareil est ajouté à un nouveau projet Screens, un groupe d’utilisateurs est créé.
->Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.
->Ce groupe est ajouté en tant que membre du groupe **Contributeurs**, comme illustré dans la figure ci-dessous :
+>Chaque fois que vous ajoutez un premier appareil à un nouveau projet Screens, un groupe d’utilisateurs est créé.Par exemple, si le nom du nœud de projet est *we-retail*, le nom du groupe d’utilisateurs est *screens-we-retail-devices*.Ce groupe est ajouté en tant que membre au groupe **Contributeurs et contributrices**, comme illustré ci-dessous :
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### Étapes suivantes {#the-next-steps}
 
 Une fois que la procédure d’attribution d’un canal à un affichage n’a plus de secret pour vous, consultez [Surveiller et résoudre les problèmes](monitoring-screens.md).
+

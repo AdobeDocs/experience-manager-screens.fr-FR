@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 84%
+source-wordcount: 718
+ht-degree: 88%
 
 ---
 
@@ -53,8 +53,7 @@ Suivez les étapes ci-dessous pour configurer l’installation :
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Si vous avez installé le dernier Feature Pack 202109, la structure de nœud **rendition-mapping** est prérenseignée dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Voir [&#x200B; Notes de mise à jour du Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des détails sur le dernier Feature Pack.
-   >Pour les projets existants, assurez-vous que la configuration **rendition-mapping** est associée au projet Screens. Consultez [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour en savoir plus.
+   >Si vous avez installé le dernier pack de fonctionnalités 202109, la structure de nœud **rendition-mapping** est préremplie dans `/conf/screens/sling:configs/rendition-mapping` dans CRXDE Lite. Consultez les [Notes de mise à jour du pack de fonctionnalités 202109](/help/user-guide/release-notes-fp-202109.md) pour obtenir des informations sur le dernier pack de fonctionnalités.   >Pour les projets existants, assurez-vous que la configuration **rendition-mapping** est associée au projet Screens. Consultez [Ajout d’un mappage de rendu à un projet existant](#rendition-mapping-existing) pour en savoir plus.
 
 ### Ajout d’une propriété de mappage de rendu à un projet existant {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ Suivez les étapes ci-dessous pour ajouter un nœud dans le mappage de rendu :
 ## Étapes suivantes {#next-steps}
 
 Après avoir ajouté les propriétés et les règles de rendition-mapping, vous pouvez configurer vos ressources en tant qu’auteur ou autrice de contenu. Vous pouvez également utiliser des rendus adaptatifs et migrer vos appareils pour que les réseaux de grande taille utilisent cette fonctionnalité dans vos canaux AEM Screens. Consultez [Utiliser des rendus adaptatifs dans AEM Screens](/help/user-guide/using-adaptive-renditions.md) pour plus d’informations.
+

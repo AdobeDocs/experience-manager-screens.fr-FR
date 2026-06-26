@@ -19,7 +19,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 89%
@@ -99,3 +99,4 @@ Découvrez les principes de la préparation du déploiement et de la gestion de 
 ## Étape suivante {#the-next-step}
 
 Lorsque vous en avez terminé avec les principales considérations relatives à la gestion de projet pour les déploiements AEM Screens, accédez à la **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** pour comprendre l’assistance du Jour 2 et les processus impliqués.
+

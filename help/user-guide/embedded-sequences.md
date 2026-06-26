@@ -26,10 +26,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 93%
+source-wordcount: 825
+ht-degree: 94%
 
 ---
 
@@ -56,8 +56,7 @@ Vous avez la possibilité d’ajouter les composants suivants à votre canal de 
 Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence incorporée est un autre canal qui comprend des ressources telles que des images ou des vidéos. En ajoutant une séquence incorporée, l’utilisateur peut ajouter la séquence à un canal au niveau de ***Chemin du canal***.
 
 >[!NOTE]
->***Chemin du canal*** définit une référence explicite au canal.
->Pour en savoir plus sur le *chemin du canal*, consultez [Attribution de canal](channel-assignment.md) dans la création de Screens.
+>***Chemin du canal*** définit une référence explicite au canal.Pour en savoir plus sur le *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans l’instance de création Screens.
 
 Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 
@@ -119,3 +118,4 @@ Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 1. Cliquez sur la **Durée (en millisecondes)** dans l’onglet **Séquence** pour votre canal incorporé dans la séquence.
 
 ![Plus récent](assets/latest.gif)
+

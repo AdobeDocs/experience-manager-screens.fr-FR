@@ -16,7 +16,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 388
 ht-degree: 88%
@@ -66,3 +66,4 @@ Consultez la section ci-dessous pour connaître certaines des bonnes pratiques e
 
   >[!NOTE]
   >Actuellement, l’affectation d’affichage par défaut ne fonctionne que pour l’enregistrement en masse. Celle-ci ne fonctionne pas pour les enregistrements manuels lorsque le code d’enregistrement n’est pas disponible.
+

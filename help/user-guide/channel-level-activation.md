@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 68%
 
 ---
@@ -165,8 +165,7 @@ Le lecteur affiche le contenu de **MainAdChannel** et exactement à 23 :59 (comm
 
 >[!NOTE]
 >
->Pour en savoir plus sur le lecteur AEM Screen, consultez les ressources suivantes :>[Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/)
->[Utilisation d’AEM Screens Player](working-with-screens-player.md)
+>Pour en savoir plus sur le lecteur AEM Screens, consultez les ressources suivantes :Téléchargements du lecteur AEM ScreensUtiliser le lecteur AEM Screens&rbrack;(working-with-screens-player.md)
 
 
 ## Gérer la périodicité des ressources dans un canal {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 >[!NOTE]
 >
 >Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
+

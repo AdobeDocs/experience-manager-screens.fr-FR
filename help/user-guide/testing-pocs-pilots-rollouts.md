@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 92%
@@ -99,3 +99,4 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 Lorsque vous aurez effectué des tests, des preuves de concept, des programmes pilotes et des déploiements, consultez le tutoriel suivant, qui aborde en détails la gestion de projets et les processus connexes.
 
 Accédez à **[Partie 4 : gestion et déploiement de projets](project-management-and-deployment.md)** pour plus d’informations.
+

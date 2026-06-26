@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 88%
@@ -97,3 +97,4 @@ Pour mettre en œuvre l’activation des réservations d’hébergements pour vo
    1. Mettez à jour la valeur dans les colonnes **`Restaurant1`** et **`Restaurant2`**. Si **`Restaurant1`** > **`Restaurant2`,** vous devriez voir une image de cuisine de type *Steak*, autrement, l’image de la nourriture *Thaï* apparaît à l’écran.
 
    ![result5](assets/result5.gif)
+

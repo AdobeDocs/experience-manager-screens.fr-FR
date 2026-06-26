@@ -10,10 +10,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 89%
+source-wordcount: 910
+ht-degree: 92%
 
 ---
 
@@ -71,9 +71,7 @@ Le tableau suivant présente les réseaux de données avec leur bande passante s
 
 Lors de la détermination du réseau de données à utiliser, tenez compte des points suivants :
 
-La vitesse du réseau disponible dépend du plan de fournisseur de données mobiles spécifique et de la couverture disponible atteinte à l’emplacement du contrôleur AEM Screens.
-Lors du suivi de cette configuration, considérez qu’en plus de la bande passante disponible, certains plans de fournisseurs de données mobiles limitent la quantité de données disponibles traversant la connexion au cours d’une période spécifique. Il faut s’assurer que les données et la bande passante disposent d’une capacité suffisante.
-En guise de suivi, le package de données nécessaire doit être au moins :
+Le débit réseau disponible dépend du forfait spécifique du fournisseur de données mobiles et de la couverture disponible au point où se trouve le contrôleur AEM Screens.Pour effectuer cette configuration, tenez compte du fait que, outre la bande passante disponible, certains forfaits de fournisseurs de données mobiles limitent la quantité de données disponibles transitant par la connexion pendant une durée donnée. La capacité des données et la bande passante doivent être suffisantes.Dans le prolongement de cette réflexion, le package de données nécessaire doit respecter les conditions suivantes :
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +104,4 @@ Le tableau suivant présente une vue d’ensemble des données clés relatives �
 >Toutes ces informations font référence à la consommation de chaque appareil du réseau qui demande une source Internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/download-times-mobile.png)
+

@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 93%
 
 ---
@@ -40,9 +40,7 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 >Le tutoriel suivant présente la lecture du contenu de votre canal dans un lecteur Chrome OS.
 
 >[!IMPORTANT]
->**Paramètres de configuration OSGi**
->Vous devez activer le référent vide pour permettre à l’appareil de publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne peut pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher le fonctionnement de certaines de ces fonctionnalités.
->Suivez les étapes ci-dessous pour activer le ***Filtre de référent Apache Sling Autoriser vide*** :
+>**Paramètres de configuration OSGiVous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.Pour activer l’option &#x200B;***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
@@ -186,8 +184,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
    Vous pouvez également cliquer sur la **Fenêtre d’activation** et le **Planning de périodicité**.
 
    >[!NOTE]
-   >Le *Planning de périodicité* vous permet de définir un planning de périodicité pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.
-   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
+   >Le *Planning de périodicité* permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
@@ -253,3 +250,4 @@ Toutes les ressources de votre canal sont à présent en cours de lecture sur vo
 Félicitations, vous lisez maintenant du contenu dans un canal AEM Screens !
 
 ![Image](assets/kickstart/demo-video-screens.gif)
+

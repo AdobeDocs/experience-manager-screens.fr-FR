@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 91%
@@ -84,3 +84,4 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 Lorsque vous comprenez les rôles et les responsabilités du projet dans l’implémentation d’un projet de signalétique numérique, suivez le tutoriel suivant. Il aborde des sujets tels que les tests et les considérations préalables à la vente, car le projet est défini lors du développement des opportunités AEM Screens.
 
 Accédez à la **[Partie 2 : observations dans le cadre de la définition de la portée du projet](project-considerations.md)** pour plus de détails.
+

@@ -14,7 +14,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 72%
@@ -49,3 +49,4 @@ La vidéo ci-dessous détaille la création d’un canal, la création de conten
 La vidéo ci-dessous montre la création d’un emplacement, d’un affichage et d’une configuration d’appareil. La vidéo présente également les étapes d’enregistrement d’un appareil et d’affectation d&#39;un appareil à un affichage. Il reprend dans les grandes lignes la seconde moitié du Guide [de démarrage rapide de](kickstart-for-aem-screens.md)Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/39388?captions=fre_fr&quality=9)
+

@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 80%
+source-wordcount: 404
+ht-degree: 85%
 
 ---
 
@@ -40,8 +40,7 @@ Le rapport d’attribution de contenu permet non seulement la prévisualisation 
 
 ### Conditions préalables {#pre-reqs}
 
-Avant de télécharger le rapport d’affectation de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des appareils.
-Consultez les ressources suivantes pour plus d’informations :
+Avant de télécharger le rapport d’attribution de contenu, assurez-vous d’avoir configuré un projet AEM Screens avec des canaux, des emplacements et des appareils.Pour plus d’informations, référez-vous aux ressources ci-dessous :
 
 1. [Créer et gérer des projets](/help/user-guide/creating-a-screens-project.md)
 1. [Création et gestion des canaux](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ Suivez les instructions ci-dessous pour télécharger le rapport d’affectation
 1. Sélectionnez l’un des canaux dans la colonne **Canaux** pour ouvrir l’onglet **Contenu**. Vous accédez ensuite directement à ce canal et recevez des informations sur les ressources (images et vidéos) associées à ce canal spécifique.
 
    ![Image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

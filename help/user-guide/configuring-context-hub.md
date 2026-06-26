@@ -23,9 +23,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: 1537
 ht-degree: 95%
 
 ---
@@ -230,8 +230,7 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
    1. Sélectionnez **Zone** dans l’assistant **Créer une page**, puis cliquez sur **Suivant**.
 
-   1. Saisissez le **Titre** comme **ValeurScreens** et cliquez sur **Créer**.
-Une zone est créée dans votre marque.
+   1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.Une zone sera créée dans votre marque.
 
 ## Étape 5 : création de segments dans une activité {#step-setting-up-audience-segmentation}
 
@@ -339,3 +338,4 @@ Après avoir configuré ContextHub pour votre projet AEM Screens, vous pouvez su
 1. **[Activation ciblée du stock de vente au détail](retail-inventory-activation.md)**
 1. **[Activation de la température de l’agence de voyages](local-temperature-activation.md)**
 1. **[Activation de la réservation d’hébergements](hospitality-reservation-activation.md)**
+

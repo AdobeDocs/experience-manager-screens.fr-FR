@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 857
-ht-degree: 59%
+source-wordcount: 921
+ht-degree: 58%
 
 ---
 
@@ -35,8 +35,7 @@ La page suivante présente un cas d’utilisation qui met l’accent sur la conf
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Ce cas pratique explique comment créer un canal qui *prend le relais* du canal de lecture normal pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu pour un jour et une heure spécifiques de façon permanente.
-Par exemple, il existe un canal de prise de contrôle permanente qui est lu tous les vendredis de 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. L’exemple suivant illustre la création d’un canal de prise de contrôle perpétuel qui permet à la lecture du contenu tous les mercredis pendant deux heures:00 de 14 heures à 16 :00.
+Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu de manière permanente pour un jour et une heure spécifiques.Par exemple, il existe un canal de prise de contrôle permanente qui est lu tous les vendredis de 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. L’exemple suivant illustre la création d’un canal de prise de contrôle perpétuel qui permet à la lecture du contenu tous les mercredis pendant deux heures:00 de 14 heures à 16 :00.
 
 ### Prérequis {#preconditions}
 
@@ -141,3 +140,4 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 >[!NOTE]
 >
 >Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
+

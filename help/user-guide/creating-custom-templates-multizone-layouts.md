@@ -14,7 +14,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 89%
@@ -169,8 +169,8 @@ Vous pouvez insérer une image en tant que calque d’arrière-plan dans la disp
 
 Vous pouvez ajuster la règle CSS pour utiliser un « data-uri » et intégrer directement l’image (codée en `Base64`) dans le fichier CSS créé à l’étape 13, *static.css*.
 
-Pour cet arrangement, procédez comme suit :
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+Cet agencement se fait de la manière suivante:
+
 
 Vous pouvez également suivre les étapes ci-dessous :
 
@@ -183,3 +183,4 @@ Vous pouvez également suivre les étapes ci-dessous :
 Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml (étape 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

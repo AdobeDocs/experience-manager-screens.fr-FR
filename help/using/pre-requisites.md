@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 93%
@@ -52,3 +52,4 @@ Pour en savoir plus sur les principes de base d’un projet AEM Screens, report
    * *[Partie 3 : tests, preuves de concept, pilotes et déploiements](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)* : partie 3 d’une série de 5 parties sur les aspects importants, conçue pour aider les personnes membres de l’équipe à mieux comprendre les termes clés. Ces termes sont essentiels pour s’assurer qu’une solution réussie est développée avant un déploiement. Il y est question des actions liées aux tests de matériel réalisés en laboratoire et à la validation des performances, les validations de principe et les programmes pilotes.
    * *[Partie 4 : gestion de projets et déploiement](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)* : partie 4 d’une série de 5 parties sur les aspects importants, conçue pour couvrir la gestion de projets et la préparation au déploiement. Elle définit également les principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projets et la préparation au déploiement. Il y est question de la phase de préproduction du projet, de son lancement et de sa progression.
    * *[Partie 5 : observations relatives à l’assistance](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)* : ce cinquième et dernier volet d’une série de cinq articles est conçu pour initier les personnes membres de l’équipe à la prise en charge des problèmes matériels, logiciels et de connectivité. Cette phase explore les estimations de coûts et les frameworks en matière d’assistance sur site. Il y est également question de la gestion des paramètres du contrat de niveau de service, des budgets opérationnels et des transferts de centre d’exploitation de réseau.
+

@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 92%
@@ -108,3 +108,4 @@ Suivez le tutoriel ci-dessous pour en savoir plus sur la stratégie de contenu, 
 Comprenez les éléments qui sont identifiés lors de la découverte du projet, ainsi que des contributions des parties prenantes pour évaluer le projet et préparer une conception appropriée. Découvrez les principaux termes utilisés dans un plan de projet global. Ces termes comprennent le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
 
 Pour plus d’informations, consultez **[Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)**.
+

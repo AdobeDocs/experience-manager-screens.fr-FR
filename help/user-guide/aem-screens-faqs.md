@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2246
+source-wordcount: 2299
 ht-degree: 81%
 
 ---
@@ -231,8 +231,7 @@ Désactivez Livefyre pour éviter les erreurs de journal en procédant comme sui
 
 ### &#x200B;2. Comment ajouter des informations d’index Oak ? {#add-oak-index-info}
 
-AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.
-S’il existe des *WARN de requête transversale* dans le `error.log`, créez un index personnalisé pour votre requête. Voir [Configuration des index](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) pour plus d’informations.
+AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.S’il existe des *WARN de requête transversale* dans le `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -241,11 +240,9 @@ Vous pouvez également consulter une ressource supplémentaire dans la [document
 
 Pour activer le manifeste v3, procédez comme suit :
 
-* Mettez à jour Dispatcher.
-Voir [Configuration de Dispatcher pour Manifest version v3](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) pour plus d’informations.
+* Mettre à jour Dispatcher.Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
-* Mettez à jour le composant personnalisé.
-Voir [&#x200B; Modèle pour les gestionnaires personnalisés &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) pour plus d’informations.
+* Mettre à jour le composant personnalisé.Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) pour plus d’informations.
 
 * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 

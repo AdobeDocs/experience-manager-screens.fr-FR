@@ -24,7 +24,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 77%
@@ -95,3 +95,4 @@ Suivez les étapes ci-dessous pour utiliser la mise à jour hors ligne en bloc p
    **Fréquence de planification** - Indique une heure, par exemple 17 :00 ou 17 :00 à laquelle ce service doit mettre à jour le contenu hors ligne.
 
 1. Cliquez sur **Enregistrer** pour enregistrer vos paramètres. Votre contenu est mis à jour à l’heure spécifiée.
+

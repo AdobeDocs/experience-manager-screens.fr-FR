@@ -16,7 +16,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1349
 ht-degree: 93%
@@ -213,3 +213,4 @@ Le tableau suivant résume la **matrice RACI pour le jour 2 : assistance apr�
 | Assistance de niveau 3 | I | RA | C |
 | Mise à jour du contenu | RA | I | I |
 | Évaluer le succès de l’expérience d’utilisation et identifier les domaines pouvant être améliorés | RA | C | I |
+

@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 85%
+source-wordcount: 370
+ht-degree: 87%
 
 ---
 
@@ -40,8 +40,7 @@ Vous pouvez accéder à AEM Screens en sélectionnant le lien Adobe Experience
 Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Conseil de navigation :**
->Vous pouvez également utiliser les touches du curseur pour parcourir différents dossiers dans AEM. En outre, après avoir cliqué sur une entité particulière, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
+>**Conseil de navigation :Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, après avoir cliqué sur une entité, appuyez sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
 
 ## Créer un projet Screens
 
@@ -92,3 +91,4 @@ Les étapes suivantes montrent comment créer un dossier d’applications dans l
 ### Étapes suivantes {#the-next-steps}
 
 Lorsque vous aurez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer le contenu de votre canal.
+

@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 80%
+source-wordcount: 436
+ht-degree: 88%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 80%
 
 Ne négligez pas la prise en charge post-lancement à un stade précoce.
 
-Il est essentiel que les sites bénéficient d’une assistance adéquate de la part de votre fournisseur de matériel pour leurs opérations commerciales. L’intégrateur **audio-vidéo** doit travailler en étroite collaboration avec les parties prenantes de l’entreprise et identifier les exigences requises sous différents aspects.
-Tenez compte des exigences suivantes lors de la prise en charge après le lancement :
+Il est essentiel que votre fournisseur de matériel propose une assistance technique adéquate pour garantir la bonne marche des activités commerciales des sites clients. L’**intégrateur ou intégratrice audiovisuel** doit travailler en étroite collaboration avec les parties prenantes commerciales et identifier les exigences sous différents aspects.Tenez compte des exigences suivantes dans le cadre de la prise en charge post-lancement :
 
 * Gestion à distance des appareils
 * Disponibilité du centre d’assistance
@@ -44,8 +43,7 @@ De plus, pour garantir un succès durable, il est essentiel d’établir un cont
 
 Quelques considérations et questions qui vous aident à définir la prise en charge après le lancement :
 
-1. Le déploiement est-il un réseau Advertising avec de nombreuses parties prenantes liées à un réseau monétisé ? Cette situation peut nécessiter des délais de résolution plus courts par rapport à un réseau de communications d’entreprise.
- 
+1. Le déploiement d’un réseau publicitaire avec de nombreuses parties prenantes est-il lié à un réseau monétisé ? Cette situation peut exiger des délais de résolution beaucoup plus courts que dans le cas d’un réseau de communications d’entreprise.
    >[!NOTE]
    >
    >Exige des délais de résolution plus courts que dans le cas d’un réseau de communications d’entreprise.
@@ -69,3 +67,4 @@ Quelques considérations et questions qui vous aident à définir la prise en ch
 1. Parmi vos sites de vente au détail, lesquels nécessitent une surveillance 24 heures sur 24, 7 jours sur 7 ?
 
 1. Les affichages font-ils partie intégrante de votre activité ? (configuration de voiture, alertes de vente, etc.) ?
+

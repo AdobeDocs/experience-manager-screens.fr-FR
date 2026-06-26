@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 47%
@@ -69,3 +69,4 @@ Si votre client souhaite un produit riche en fonctionnalités, proposez une tran
 
 * **Présentation de la portée des intégrations personnalisées** :
 Les composants interactifs avec interaction écran tactile, capteur de mouvement ou RFID nécessitent un développement personnalisé important dans la méthode d’implémentation. Un diaporama, une publicité vidéo ou un menu statique peuvent être diffusés sous la forme de contenu graphique ou HTML sur un canal Screens.
+

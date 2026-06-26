@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 90%
@@ -48,3 +48,4 @@ ht-degree: 90%
 **Canal de séquence** : un canal de séquence est une page que vous pouvez créer et qui peut contenir les composants à afficher un par un dans un diaporama.
 
 **Zones** : les zones constituent une segmentation d’affichages utilisés comme entités adressables principales pour les canaux. Dans les cas où les affichages s’étendent à plusieurs écrans, il est préférable d’établir des espaces correspondants aux dimensions de l’écran, en particulier si la bordure physique des écrans est visible.
+

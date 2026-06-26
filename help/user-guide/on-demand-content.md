@@ -18,10 +18,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
-ht-degree: 75%
+source-wordcount: 872
+ht-degree: 78%
 
 ---
 
@@ -63,9 +63,7 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 
    **Boîte de dialogue Comprendre l’inclusion des enfants**
 
-   Les étapes mentionnées ci-dessus montrent comment publier l’intégralité du contenu. Si vous souhaitez utiliser les trois autres alternatives disponibles, vous devez cocher cette option particulière.
-Par exemple, l’image suivante montre comment vous pouvez gérer et mettre à jour uniquement les pages modifiées de votre projet :
-   ![image](assets/author-publish-manage.png)
+   Les étapes mentionnées ci-dessus montrent comment publier l’intégralité du contenu. Si vous voulez utiliser les trois autres alternatives disponibles, vous devez cocher cette option.Par exemple, l’image suivante montre comment vous pouvez gérer et mettre à jour uniquement les pages modifiées de votre projet :   ![image](assets/author-publish-manage.png)
 
    Suivez les explications ci-dessous pour comprendre les options disponibles :
 
@@ -143,3 +141,4 @@ Pour diffuser des mises à jour de contenu de l’instance de création vers l�
 Si vous avez réassigné un appareil, vous devez publier à la fois l’affichage initial et le nouvel affichage, une fois que l’appareil a été réassigné au nouvel affichage.
 
 De même, si vous avez réassigné un canal, vous devez publier à la fois l’affichage initial et le nouvel affichage, une fois que le canal a été réassigné au nouvel affichage.
+
