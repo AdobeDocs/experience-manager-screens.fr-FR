@@ -5,16 +5,11 @@ role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 531
 ht-degree: 91%
@@ -24,7 +19,7 @@ ht-degree: 91%
 # Configuration des agents de réplication Screens {#configuring-screens-replication-agent}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page décrit comment configurer les agents de réplication Screens.
 
@@ -143,3 +138,4 @@ Consultez la section ci-dessous pour mettre à jour les paramètres de l’agent
    ![Image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
    Si la vérification de la connexion réussit, vous avez terminé la configuration de l’agent de réplication Screens.
+

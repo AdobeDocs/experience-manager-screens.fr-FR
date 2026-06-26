@@ -10,24 +10,20 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 91%
+source-wordcount: 750
+ht-degree: 92%
 
 ---
 
 # Configurer et déployer AEM Screens {#configuring-and-deploying-aem-screens}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page indique comment installer et configurer les lecteurs Screens sur vos appareils.
 
@@ -156,3 +152,4 @@ Définissez l’***encodage Java™*** sur Unicode. Par exemple, `*Dfile.encodin
 >[!NOTE]
 >
 >Utilisez HTTPS pour AEM Screens Server en production.
+

@@ -6,26 +6,21 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 87%
+source-wordcount: 1274
+ht-degree: 90%
 
 ---
 
 # Implémentation du lecteur Tizen {#tizen-player}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Installation du lecteur Tizen {#installing-tizen-player}
 
@@ -110,9 +105,7 @@ L’approvisionnement à distance du lecteur Tizen vous permet de déployer des 
 
 Cette fonctionnalité vous permet de configurer à distance le lecteur Tizen et de mettre à jour ces configurations de manière centralisée, si nécessaire. Tout ce dont vous avez besoin est le serveur `HTTP` utilisé pour héberger l’application Tizen `(wgt and xml file)` et un éditeur de texte pour enregistrer le code `config.json` avec les paramètres appropriés.
 
-Vérifiez que vous avez configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.
-Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.
-Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
+Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
 
 ### Exemple de politique JSON {#example-json}
 
@@ -131,8 +124,7 @@ Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vér
 Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 
 >[!NOTE]
->Les configurations de la politique de l’interface d’administration du lecteur sont appliquées strictement et ne sont pas remplacées manuellement. Pour permettre la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de la politique.
->Par exemple, si vous souhaitez autoriser la configuration manuelle de la planification du redémarrage, ne spécifiez pas le `rebootSchedule` de clé dans la configuration de la stratégie. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
+>Les configurations de la politique de l’interface d’administration du lecteur sont appliquées de manière stricte et ne peuvent pas être remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
 
 | **Nom de la politique** | **Objectif** |
 |---|---|
@@ -185,3 +177,4 @@ Suivez les étapes ci-dessous pour enregistrer l’appareil Tizen auprès du Rem
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
 AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md)
+

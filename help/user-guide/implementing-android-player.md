@@ -11,21 +11,14 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 89%
 
 ---
@@ -33,7 +26,7 @@ ht-degree: 89%
 # Implémenter le lecteur Android™ {#implementing-android-player}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Le lecteur AEM Screens basé sur Android est officiellement obsolète. Il est conseillé aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
@@ -138,8 +131,7 @@ Lors du déploiement en masse du lecteur Android™, vous devez pouvoir configur
 
 Pour autoriser l’approvisionnement en bloc dans le lecteurAndroid™, procédez comme suit :
 
-1. Créez un fichier JSON de configuration nommé `player-config.default.json`.
-Consultez un [exemple de politique JSON](#example-json) et un tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
+1. Créez un fichier de configuration JSON nommé `player-config.default.json`.Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
 
 1. Utilisez un explorateur de fichiers MDM ou ADB ou Android™ Studio pour déposer ce fichier de politique JSON dans le dossier *sdcard* de l’appareil Android™.
 
@@ -226,3 +218,4 @@ En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si c
 ### Utiliser la commande à distance Screens {#using-remote-control}
 
 AEM Screens offre une fonctionnalité de commande à distance. Pour en savoir plus sur cette fonctionnalité, cliquez ici : [Commande à distance Screens](implementing-remote-control.md)
+

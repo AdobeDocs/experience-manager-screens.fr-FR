@@ -11,15 +11,10 @@ role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 89%
@@ -29,7 +24,7 @@ ht-degree: 89%
 # Partie 4 : gestion et déploiement de projets {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page présente la quatrième partie d’une série de cinq articles et porte sur la préparation du déploiement et la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
 
@@ -92,10 +87,11 @@ Découvrez les principes de la préparation du déploiement et de la gestion de 
 
 ### Gestion de projet et déploiement
 
->[!VIDEO](https://video.tv.adobe.com/v/32793?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Apprenez-en plus sur la gestion de projet et la préparation du déploiement (préproduction du projet, lancement du projet, progression du projet).*
 
 ## Étape suivante {#the-next-step}
 
 Lorsque vous en avez terminé avec les principales considérations relatives à la gestion de projet pour les déploiements AEM Screens, accédez à la **[Partie 5 : facteurs liés à l’assistance](support-considerations.md)** pour comprendre l’assistance du Jour 2 et les processus impliqués.
+

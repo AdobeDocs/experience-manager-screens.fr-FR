@@ -6,22 +6,12 @@ role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 TQID: https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 91%
@@ -31,7 +21,7 @@ ht-degree: 91%
 # Partie 1 : rôles du projet et responsabilités {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page aborde la première partie. Il y a 5 parties en tout. Elle est conçue pour aider les membres de l’équipe à mieux comprendre les rôles, les responsabilités et les délais requis pendant les cycles de vente et de vie du projet pour un projet de signalétique numérique.
 
@@ -75,7 +65,7 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 
 ### Partie 1 : rôles du projet et responsabilités
 
->[!VIDEO](https://video.tv.adobe.com/v/32830?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Découvrez les rôles et responsabilités d’Adobe, des intégrateurs et intégratrices audiovisuels et des personnes en charge de l’implémentation d’AEM.*
 
@@ -84,3 +74,4 @@ Suivez le tutoriel ci-dessous pour comprendre exactement comment chaque partie c
 Lorsque vous comprenez les rôles et les responsabilités du projet dans l’implémentation d’un projet de signalétique numérique, suivez le tutoriel suivant. Il aborde des sujets tels que les tests et les considérations préalables à la vente, car le projet est défini lors du développement des opportunités AEM Screens.
 
 Accédez à la **[Partie 2 : observations dans le cadre de la définition de la portée du projet](project-considerations.md)** pour plus de détails.
+

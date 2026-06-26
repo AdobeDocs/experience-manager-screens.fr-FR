@@ -11,21 +11,12 @@ role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 TQID: https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40did: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 92%
@@ -35,7 +26,7 @@ ht-degree: 92%
 # Partie 2 : observations dans le cadre de la définition de la portée du projet {#part-considerations-as-projects-are-scoped}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page présente le deuxième volet d’une série de cinq articles, qui est conçu pour aider les membres de l’équipe à mieux comprendre les aspects d’avant-vente pour réussir le développement de déploiements AEM Screens.
 
@@ -108,3 +99,4 @@ Suivez le tutoriel ci-dessous pour en savoir plus sur la stratégie de contenu, 
 Comprenez les éléments qui sont identifiés lors de la découverte du projet, ainsi que des contributions des parties prenantes pour évaluer le projet et préparer une conception appropriée. Découvrez les principaux termes utilisés dans un plan de projet global. Ces termes comprennent le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
 
 Pour plus d’informations, consultez **[Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)**.
+

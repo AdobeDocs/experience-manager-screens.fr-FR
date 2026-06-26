@@ -3,15 +3,10 @@ title: Principes de base de la signalétique numérique pour [!UICONTROL AEM Scr
 description: Découvrez les principes de base d’un projet de signalétique numérique.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 TQID: https://experienceleague.adobe.com/w0fVaYNPs2emLyL377rLTXLZRcXd05B56FtIn3Yjoqg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 464
 ht-degree: 89%
@@ -21,7 +16,7 @@ ht-degree: 89%
 # Principes de base d’un projet de signalétique numérique {#basics-digital-signage}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Avant de passer aux bonnes pratiques de mise en œuvre d’AEM Screens, il convient de considérer le projet comme un projet de signalétique numérique, plutôt que comme un projet de développement logiciel traditionnel.
 
@@ -108,3 +103,4 @@ La définition des éléments clés est une étape essentielle avant la mise en 
    * Devez-vous capturer chaque numéro de série à des fins de suivi ?
    * Existe-t-il des exigences d’alimentation de secours (alimentation continue) ?
    * Comment les mises à jour du système sont-elles déployées ? Comment les appareils sont-ils contrôlés à distance ? Une solution MDM est-elle requise ?
+

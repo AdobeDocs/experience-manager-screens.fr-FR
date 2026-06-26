@@ -3,15 +3,10 @@ title: Taxonomie du projet
 description: En savoir plus sur la taxonomie du projet concernant AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 TQID: https://experienceleague.adobe.com/z2YWTrwMKTcKYMKsAtgvL1ZP6Uv9svRAy1Xu58hKMKI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 457
 ht-degree: 82%
@@ -21,7 +16,7 @@ ht-degree: 82%
 # Taxonomie du projet {#project-taxonomy}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -68,3 +63,4 @@ L’auteur commence généralement un projet AEM Screens en :
 
 >[!NOTE]
 >Vous pouvez, en outre, importer en masse un ensemble d’emplacements dans votre projet AEM Screens depuis une feuille de calcul CSV/XLS. Voir [Nouvel importateur de projet à partir d’un fichier](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/project-importer).
+

@@ -11,20 +11,12 @@ role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 TQID: https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 92%
@@ -34,7 +26,7 @@ ht-degree: 92%
 # Partie 3 : tests, preuves de concept, pilotes et déploiements {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page met l’accent sur la partie 3 d’une série en 5 parties, conçue pour aider les personnes membres de l’équipe à mieux comprendre les termes essentiels pour garantir la réussite du développement d’une solution avant un déploiement.
 
@@ -90,7 +82,7 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 
 ### Tests, PDC, pilotes et déploiements
 
->[!VIDEO](https://video.tv.adobe.com/v/32813?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Découvrez les principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.*
 
@@ -99,3 +91,4 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 Lorsque vous aurez effectué des tests, des preuves de concept, des programmes pilotes et des déploiements, consultez le tutoriel suivant, qui aborde en détails la gestion de projets et les processus connexes.
 
 Accédez à **[Partie 4 : gestion et déploiement de projets](project-management-and-deployment.md)** pour plus d’informations.
+

@@ -3,15 +3,10 @@ title: Stratégie de contenu commercial pour AEM Screens
 description: En savoir plus sur le marketing et la stratégie de contenu commercial concernant AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 90%
@@ -21,7 +16,7 @@ ht-degree: 90%
 # Stratégie de contenu commercial {#business-content}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -65,3 +60,4 @@ Voici quelques points dont vous devez absolument tenir compte en ce qui concerne
 * Dans quel format les données se présentent-elles ?
 * Les données sont-elles toutes présentes ? Dans le cas contraire, quelles sont les données manquantes et où peut-on les trouver ?
 * À quelle fréquence les données sont-elles ajoutées ou mises à jour ?
+

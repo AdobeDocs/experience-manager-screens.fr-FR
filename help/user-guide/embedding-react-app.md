@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 734
 ht-degree: 93%
@@ -28,7 +24,7 @@ ht-degree: 93%
 # Incorporer une application REACT à l’aide de l’éditeur d’applications monopages AEM et intégrer à AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Vous pouvez incorporer une application monopage interactive à l’aide de REACT (ou d’Angular). Pour ce faire, utilisez l’éditeur SPA d’AEM qui est configuré par les personnes professionnelles dans AEM. Vous pouvez également apprendre à intégrer votre application interactive à Adobe Analytics hors ligne.
 
@@ -147,3 +143,4 @@ Suivez les étapes ci-dessous pour intégrer l’application monopage à Adobe A
    >[!NOTE]
    >
    >Le micrologiciel du lecteur ajoute automatiquement plus de détails sur le lecteur et son environnement d’exécution aux données d’analyse personnalisées que vous envoyez. Par conséquent, vous devrez peut-être capturer les détails du système d’exploitation/de l’appareil de bas niveau, sauf si nécessaire. Concentrez-vous sur les données d’analyse commerciale.
+

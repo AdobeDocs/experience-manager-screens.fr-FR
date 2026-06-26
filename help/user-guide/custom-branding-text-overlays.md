@@ -7,14 +7,10 @@ role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 630
 ht-degree: 89%
@@ -24,7 +20,7 @@ ht-degree: 89%
 # Image de marque et styles personnalisés pour les superpositions de texte {#creating-custom-branding-styling}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Découvrez comment appliquer une image de marque et des styles personnalisés aux superpositions de texte de vos ressources dans un canal AEM Screens.
 
@@ -142,3 +138,4 @@ Pour voir la conception mise à jour avec la superposition de texte, procédez c
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Vous pouvez à présent mettre à jour votre marque et à appliquer votre style personnalisé pour les superpositions de texte ajoutées à vos ressources.
+

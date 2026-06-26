@@ -3,17 +3,11 @@ title: Déclencheurs de données
 description: Découvrez les déclencheurs de données dans AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
 TQID: https://experienceleague.adobe.com/oeJ7C6Rt8-Z9sFnEP1S1tn0VW4PuiKkXkeDYaz8Vd4s
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 85%
@@ -23,7 +17,7 @@ ht-degree: 85%
 # Dynamic Creative Optimizations {#dynamic-creative}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -52,3 +46,4 @@ Il existe deux principaux types de déclencheurs de données :
 
 * **Déclencheurs de données locaux** : ces déclencheurs de données se situent au niveau de l’appareil. Par exemple, si vous touchez l’écran, un capteur est activé, ce qui déclenche un commutateur de canal ou de ressource de données local.
 * **Déclencheurs de données distants** : cela suppose que les données déclenchent un commutateur de canal ou de ressource sur la base des valeurs renvoyées par une API de service web.
+

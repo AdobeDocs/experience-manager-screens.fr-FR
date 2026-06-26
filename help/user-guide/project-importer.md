@@ -11,14 +11,10 @@ role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 80%
@@ -32,7 +28,7 @@ Cette section décrit une fonctionnalité permettant d’importer en bloc un ens
 ## Présentation {#introduction}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Lorsque vous configurez un projet AEM Screens pour la première fois pour votre entreprise, créez également tous les emplacements. Si votre projet implique un grand nombre d’emplacements, cela entraîne une tâche fastidieuse qui implique beaucoup de sélections et d’attente dans l’interface d’utilisation.
 
@@ -112,7 +108,7 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Cliquez sur le projet, **DemoProjectImporter**>**Créer**>**&#x200B; Importer des emplacements** depuis la barre latérale.
+1. Cliquez sur le projet, **DemoProjectImporter**>**Créer**>** Importer des emplacements** depuis la barre latérale.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
@@ -129,3 +125,4 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 1. Par conséquent, vous pouvez maintenant afficher tous les emplacements importés dans votre projet.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+

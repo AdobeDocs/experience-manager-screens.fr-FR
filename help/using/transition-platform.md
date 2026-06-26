@@ -3,12 +3,9 @@ title: Transition vers Platform
 description: Découvrez la transition vers Platform dans AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 TQID: https://experienceleague.adobe.com/xefeUV4bgG-I7zVOGcAnNkcdx1Y-XQfmAr2bFT5nFN0
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 79%
@@ -18,7 +15,7 @@ ht-degree: 79%
 # Transition vers Platform {#transition-platform}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -43,3 +40,4 @@ Par exemple, comment et à quel moment utiliser les éléments suivants :
 Au cours de cette phase, passez en revue toutes les tâches et activités qui exigeront une attention particulière et documentez-les correctement afin que les tâches assignées puissent faire l’objet d’un suivi approprié lors de la phase de déploiement.
 
 Examinez également toutes les activités prédéfinies afin de déterminer si elles ne peuvent pas faire l’objet d’une automatisation au cours de cette phase.
+

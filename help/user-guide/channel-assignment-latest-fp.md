@@ -6,23 +6,14 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 90%
 
 ---
@@ -37,7 +28,7 @@ Lorsque que vous avez configuré un affichage, attribuez-lui un canal pour affic
 
 Cette page montre l’attribution d’un canal à votre affichage, les propriétés du canal et les tranches horaires.
 
-Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -201,8 +192,7 @@ La fenêtre d’activation permet de sélectionner une **Date de début** et une
 Le planning de périodicité permet de définir un planning récurrent pour votre contenu. Cliquez sur **+ Ajouter un planning** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
->Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
->Les plannings de périodicité introduisent *DayParting*. Vous définissez une planification globale avec plusieurs canaux s’exécutant à des heures spécifiques de la journée et réutilisez cette configuration pour tous vos affichages en même temps.
+>Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.Les plannings de périodicité proposent des *Tranches horaires*. Vous définissez un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et réutilisez simultanément cette configuration pour tous vos affichages.
 
 Vous pouvez configurer les options suivantes :
 
@@ -243,3 +233,4 @@ Cet exemple montre le DayParting implémenté dans un casino où un événement 
 >[!NOTE]
 >
 >Vous pouvez également définir la ***priorité*** de chacun des canaux. Par exemple, si deux canaux sont définis sur le même jour et la même heure, ou sur le même mois, alors le canal qui possède la priorité supérieure est diffusé en premier. La valeur minimale de priorité peut être définie sur 0.
+

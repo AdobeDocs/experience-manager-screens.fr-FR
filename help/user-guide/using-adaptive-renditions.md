@@ -3,15 +3,12 @@ title: Utilisation des rendus adaptatifs dans AEM Screens
 description: Découvrez comment utiliser les rendus adaptatifs dans AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
-ht-degree: 77%
+source-wordcount: 630
+ht-degree: 78%
 
 ---
 
@@ -20,7 +17,7 @@ ht-degree: 77%
 ## Présentation {#introduction}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Cette fonctionnalité est uniquement prise en charge sur AEM on-premise (AEM 6.x). Il n’est pas pris en charge sur AEM as a Cloud Service.
@@ -29,8 +26,7 @@ Les rendus adaptatifs permettent aux appareils de cliquer automatiquement sur le
 
 ## Objectif {#objective}
 
-En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.
-Une fois qu’un développeur a ajouté les propriétés et les règles de mappage de rendu, vous êtes prêt à appliquer le mappage de rendu aux ressources, puis à les inclure dans un canal AEM Screens.
+En tant qu’auteur de contenu AEM Screens, vous pouvez désormais configurer des rendus de ressources spécifiques pour un appareil afin qu’ils soient téléchargés et lus automatiquement sans avoir à créer manuellement toutes les variations de contenu.Une fois qu’un développeur ou qu’une développeuse ajoute les propriétés et les règles de mappage de rendu, vous pouvez appliquer le mappage de rendu aux ressources et les inclure ensuite dans un canal AEM Screens.
 
 >[!IMPORTANT]
 >Avant de commencer à utiliser les rendus adaptatifs, dans un canal AEM Screens, Adobe recommande d’en savoir plus sur la vue d’ensemble et la configuration de l’architecture de cette fonctionnalité. Voir [Rendus adaptatifs : vue d’ensemble et configurations de l’architecture](/help/user-guide/adaptive-renditions.md).
@@ -79,3 +75,4 @@ Pour activer la fonction, ajoutez au moins une règle de mappage et assurez-vous
 
    >[!NOTE]
    >Une fois la migration terminée, veillez à supprimer toutes les références de configuration des canaux, affichages et emplacements, et à en ajouter une seule au nœud de contenu du projet.
+

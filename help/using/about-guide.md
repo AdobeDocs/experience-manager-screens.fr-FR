@@ -3,15 +3,10 @@ title: À propos de ce guide
 description: Découvrez les bonnes pratiques pour les projets AEM Screens afin de planifier et d’exécuter des projets, depuis l’exposé sur la stratégie et la conception jusqu’au déploiement et à l’assistance ultérieure.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 84%
@@ -21,7 +16,7 @@ ht-degree: 84%
 # À propos de ce guide {#about-guide}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Le guide des bonnes pratiques d’AEM Screens explique comment planifier et terminer un projet AEM Screens.
 
@@ -54,3 +49,4 @@ Ce guide fournit des informations complètes et des conseils pratiques pour imag
 >
 > * L’**expérience utilisateur (UX)** désigne les expériences de signalétique numérique proposées aux clients et clientes finaux.
 > * L’**interface utilisateur** vous permet de créer et de gérer vos projets dans Screens.
+

@@ -6,18 +6,13 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 93%
 
 ---
@@ -25,7 +20,7 @@ ht-degree: 93%
 # Guide de démarrage rapide {#kickstart-guide}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette section de démarrage rapide d’AEM Screens explique comment configurer et exécuter un projet AEM Screens. Elle vous guide tout au long des étapes nécessaires pour configurer une expérience de signalétique numérique de base et ajouter du contenu, tel que des ressources et/ou des vidéos, à chaque canal, puis publier le contenu sur un lecteur AEM Screens.
 
@@ -40,9 +35,7 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 >Le tutoriel suivant présente la lecture du contenu de votre canal dans un lecteur Chrome OS.
 
 >[!IMPORTANT]
->**Paramètres de configuration OSGi**
->Vous devez activer le référent vide pour permettre à l’appareil de publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne peut pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher le fonctionnement de certaines de ces fonctionnalités.
->Suivez les étapes ci-dessous pour activer le ***Filtre de référent Apache Sling Autoriser vide*** :
+>**Paramètres de configuration OSGiVous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
@@ -186,8 +179,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
    Vous pouvez également cliquer sur la **Fenêtre d’activation** et le **Planning de périodicité**.
 
    >[!NOTE]
-   >Le *Planning de périodicité* vous permet de définir un planning de périodicité pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.
-   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
+   >Le *Planning de périodicité* permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
@@ -253,3 +245,4 @@ Toutes les ressources de votre canal sont à présent en cours de lecture sur vo
 Félicitations, vous lisez maintenant du contenu dans un canal AEM Screens !
 
 ![Image](assets/kickstart/demo-video-screens.gif)
+

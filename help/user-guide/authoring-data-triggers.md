@@ -6,23 +6,13 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 TQID: https://experienceleague.adobe.com/Iqb4pREvZNLalXSE6sNTZPV-uwqzBJKmztLuQtWfCW0
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 421
 ht-degree: 89%
@@ -32,7 +22,7 @@ ht-degree: 89%
 # Création avec des déclencheurs de données {#authoring-with-data-triggers}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette section explique comment activer le ciblage dans vos canaux.
 
@@ -73,7 +63,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
    1. Cliquez sur le **Chemin d’accès ContextHub** **libs** > **settings** > **cloudsettings** > **default** > **Configurations ContextHub**, puis sur **Sélectionner**.
 
-   1. Cliquez sur le **Chemin d’accès aux segments** **conf** > **`We.Retail`**&#x200B;**settings** > **wcm** > **segments**, puis sur **Sélectionner**.
+   1. Cliquez sur le **Chemin d’accès aux segments** **conf** > **`We.Retail`****settings** > **wcm** > **segments**, puis sur **Sélectionner**.
 
    1. Cliquez sur **Enregistrer et fermer**.
 
@@ -102,3 +92,4 @@ Après avoir configuré ContextHub pour votre projet AEM Screens, vous pouvez su
 1. **[Activation ciblée du stock de vente au détail](retail-inventory-activation.md)**
 1. **[Activation de la température de l’agence de voyages](local-temperature-activation.md)**
 1. **[Activation de la réservation d’hébergements](hospitality-reservation-activation.md)**
+

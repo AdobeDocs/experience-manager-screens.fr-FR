@@ -3,12 +3,9 @@ title: Spécifications de l’appareil
 description: En savoir plus sur les spécifications des appareils dans le cadre d’AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 TQID: https://experienceleague.adobe.com/nRZXWarHxFk1wgwR5YLLNcxx3OKs-fWKq1U9uB7yeBw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 82%
@@ -18,7 +15,7 @@ ht-degree: 82%
 # Configurations d’appareils {#device-configurations}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -48,3 +45,4 @@ Sur la base des informations collectées au *jour 0*, confirmez les information
 >[!NOTE]
 >
 >Il est également important de valider les spécifications du matériel sélectionné pour s’assurer qu’il peut prendre en charge l’application en cours de développement. Par exemple, si l’application est destinée à exécuter cinq vidéos haute définition à la fois, cela est-il possible sur le matériel ?
+

@@ -10,29 +10,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
 TQID: https://experienceleague.adobe.com/YXT-n3t6hQwrt8entuM0NCfRVpbMCOXPjF7Pxrreuc4
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 85%
+source-wordcount: 370
+ht-degree: 87%
 
 ---
 
 # Créer et gérer des projets {#creating-and-managing-projects}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 
 Vous pouvez accéder à AEM Screens en sélectionnant le lien Adobe Experience Manager (en haut à gauche), puis Screens.
@@ -40,8 +33,7 @@ Vous pouvez accéder à AEM Screens en sélectionnant le lien Adobe Experience
 Vous pouvez également accéder directement à : `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Conseil de navigation :**
->Vous pouvez également utiliser les touches du curseur pour parcourir différents dossiers dans AEM. En outre, après avoir cliqué sur une entité particulière, appuyez sur la barre d’espace pour modifier ou afficher les propriétés de ce dossier spécifique.
+>**Conseil de navigation :Vous pouvez également utiliser les touches fléchées de votre clavier pour naviguer entre les différents dossiers d’AEM. En outre, après avoir cliqué sur une entité, appuyez sur la barre d’espace pour afficher ou modifier les propriétés de ce dossier.
 
 ## Créer un projet Screens
 
@@ -92,3 +84,4 @@ Les étapes suivantes montrent comment créer un dossier d’applications dans l
 ### Étapes suivantes {#the-next-steps}
 
 Lorsque vous aurez créé votre propre projet, reportez-vous à la section [Gestion des canaux](managing-channels.md) pour créer et gérer le contenu de votre canal.
+

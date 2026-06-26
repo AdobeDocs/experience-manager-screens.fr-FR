@@ -3,12 +3,9 @@ title: Prise en charge des miniatures pour les vidéos dans AEM Screens
 description: Découvrez comment ajouter la prise en charge des miniatures pour les vidéos dans AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 TQID: https://experienceleague.adobe.com/VlgvGuLabotRAwprPRl4UFIAycPi7M1oqz47nQZIpVU
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 442
 ht-degree: 89%
@@ -18,7 +15,7 @@ ht-degree: 89%
 # Prise en charge des miniatures pour les vidéos {#thumbnail-support-videos}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Présentation {#introduction}
 
@@ -76,3 +73,4 @@ La miniature dans les vidéos prend en charge les cas d’utilisation suivants 
 * Un composant vidéo avec une vidéo (si la vidéo présente un rendu correct) et une miniature lit la vidéo.
 
 * Un composant vidéo avec une vidéo définie affiche la miniature en cas d’erreur de lecture ou passe simplement à l’élément suivant si la miniature n’est pas configurée.
+

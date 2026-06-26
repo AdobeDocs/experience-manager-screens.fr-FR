@@ -7,14 +7,10 @@ role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
 TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 89%
@@ -24,7 +20,7 @@ ht-degree: 89%
 # Création de modèles personnalisés pour des dispositions multizones {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page explique comment créer un modèle personnalisé dans une disposition multizone.
 
@@ -169,8 +165,8 @@ Vous pouvez insérer une image en tant que calque d’arrière-plan dans la disp
 
 Vous pouvez ajuster la règle CSS pour utiliser un « data-uri » et intégrer directement l’image (codée en `Base64`) dans le fichier CSS créé à l’étape 13, *static.css*.
 
-Pour cet arrangement, procédez comme suit :
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+Cet agencement se fait de la manière suivante:
+
 
 Vous pouvez également suivre les étapes ci-dessous :
 
@@ -183,3 +179,4 @@ Vous pouvez également suivre les étapes ci-dessous :
 Pour modifier la couleur d’arrière-plan, ajoutez le code suivant au fichier xml (étape 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

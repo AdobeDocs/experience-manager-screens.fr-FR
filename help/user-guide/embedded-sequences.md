@@ -11,32 +11,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
 TQID: https://experienceleague.adobe.com/NK6M9ShPUQdDQQvgx7kD9c4uvfKjy61wJ6jSH0gB17E
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: d8a4be83-7d41-47be-b4a6-f8f3d35caceb
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: d8a4be83-7d41-47be-b4a6-f8f3d35cacebid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 93%
+source-wordcount: 825
+ht-degree: 94%
 
 ---
 
 # Séquences incorporées {#embedded-sequences}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Avec les ***séquences incorporées*** pour les canaux, l’utilisateur ou l’utilisatrice peut ajouter des composants dans le canal parent, ainsi que réutiliser le contenu d’un autre canal et l’incorporer dans le canal parent.
 
@@ -56,8 +46,7 @@ Vous avez la possibilité d’ajouter les composants suivants à votre canal de 
 Vous pouvez ajouter une séquence incorporée à votre canal. Une séquence incorporée est un autre canal qui comprend des ressources telles que des images ou des vidéos. En ajoutant une séquence incorporée, l’utilisateur peut ajouter la séquence à un canal au niveau de ***Chemin du canal***.
 
 >[!NOTE]
->***Chemin du canal*** définit une référence explicite au canal.
->Pour en savoir plus sur le *chemin du canal*, consultez [Attribution de canal](channel-assignment.md) dans la création de Screens.
+>***Chemin du canal*** définit une référence explicite au canal.Pour en savoir plus sur le *Chemin du canal*, voir [Attribution de canaux](channel-assignment.md) dans l’instance de création Screens.
 
 Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 
@@ -119,3 +108,4 @@ Pour ajouter une séquence incorporée à votre canal, procédez comme suit :
 1. Cliquez sur la **Durée (en millisecondes)** dans l’onglet **Séquence** pour votre canal incorporé dans la séquence.
 
 ![Plus récent](assets/latest.gif)
+

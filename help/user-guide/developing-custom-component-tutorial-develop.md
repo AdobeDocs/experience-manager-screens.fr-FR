@@ -10,19 +10,13 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2410
+source-wordcount: 2414
 ht-degree: 96%
 
 ---
@@ -30,7 +24,7 @@ ht-degree: 96%
 # Développer un composant personnalisé pour AEM Screens {#developing-a-custom-component-for-aem-screens}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Le tutoriel suivant décrit les étapes à suivre pour créer un composant personnalisé pour AEM Screens. AEM Screens réutilise de nombreux modèles de conception et technologies existants d’autres produits AEM. Ce tutoriel met en évidence les différences et les considérations spéciales lors du développement pour AEM Screens.
 
@@ -60,7 +54,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    [Obtenir le fichier](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Obtenir le fichier](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   [Obtenir le fichier
    **Facultatif** Si vous travaillez avec Eclipse ou un autre IDE, vous pouvez télécharger le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
 
    **`mvn -PautoInstallPackage clean install`**
@@ -592,10 +586,11 @@ L’utilisation de ces deux composants principaux Screens s’accompagne égale
 
 ## Code terminé {#finished-code}
 
-Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** et **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sont les packages AEM compilés. Le fichier **SRC-screens-weretail-run-0.0.1.zip &#x200B;** est le code source non compilé qui peut être déployé à l’aide de Maven.
+Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** et **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sont les packages AEM compilés. Le fichier **SRC-screens-weretail-run-0.0.1.zip **est le code source non compilé qui peut être déployé à l’aide de Maven.
 
 [Obtenir le fichier](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
 [Obtenir le fichier](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
 [Obtenir le fichier](assets/screens-weretail-run.zip)
+

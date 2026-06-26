@@ -3,12 +3,9 @@ title: Cartographie du parcours
 description: Découvrez la cartographie du parcours pour AEM Screens.
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
 TQID: https://experienceleague.adobe.com/0nsSBxEy-LN9JRQwmUDvijGZthdcWfv40HCH4QtykiM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 85%
@@ -18,7 +15,7 @@ ht-degree: 85%
 # Cartographie du parcours d’expérience client {#journey-map}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -38,3 +35,4 @@ Laissez les responsables de projet et les principales parties prenantes expérim
 
 >[!NOTE]
 > Commencez à collecter des données d’analyse pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
+

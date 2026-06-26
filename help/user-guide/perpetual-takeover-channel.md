@@ -7,36 +7,28 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 857
-ht-degree: 59%
+source-wordcount: 921
+ht-degree: 58%
 
 ---
 
 # Canal de prise de contrôle perpétuelle {#perpetual-takeover-channel}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La page suivante présente un cas d’utilisation qui met l’accent sur la configuration d’un projet concernant la création d’un canal de prise de contrôle permanente lu un jour et une heure spécifiques en continu.
 
 ## Description du cas d’utilisation {#use-case-description}
 
-Ce cas pratique explique comment créer un canal qui *prend le relais* du canal de lecture normal pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu pour un jour et une heure spécifiques de façon permanente.
-Par exemple, il existe un canal de prise de contrôle permanente qui est lu tous les vendredis de 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. L’exemple suivant illustre la création d’un canal de prise de contrôle perpétuel qui permet à la lecture du contenu tous les mercredis pendant deux heures:00 de 14 heures à 16 :00.
+Ce cas d’utilisation explique comment créer un canal qui *prend le contrôle* du canal normalement lu pour un affichage ou un groupe d’affichages. La prise de contrôle a lieu de manière permanente pour un jour et une heure spécifiques.Par exemple, il existe un canal de prise de contrôle permanente qui est lu tous les vendredis de 9 :00 à 10 :00. Pendant ce temps, aucune autre chaîne ne doit jouer. L’exemple suivant illustre la création d’un canal de prise de contrôle perpétuel qui permet à la lecture du contenu tous les mercredis pendant deux heures:00 de 14 heures à 16 :00.
 
 ### Prérequis {#preconditions}
 
@@ -141,3 +133,4 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 >[!NOTE]
 >
 >Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
+

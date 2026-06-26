@@ -11,21 +11,14 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: 1537
 ht-degree: 95%
 
 ---
@@ -33,7 +26,7 @@ ht-degree: 95%
 # Configuration de ContextHub dans AEM Screens {#configuring-contexthub-in-aem-screens}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette section met l’accent sur la création et la gestion des modifications de ressources liées aux données à l’aide d’un magasin de données.
 
@@ -230,8 +223,7 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
    1. Sélectionnez **Zone** dans l’assistant **Créer une page**, puis cliquez sur **Suivant**.
 
-   1. Saisissez le **Titre** comme **ValeurScreens** et cliquez sur **Créer**.
-Une zone est créée dans votre marque.
+   1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.Une zone sera créée dans votre marque.
 
 ## Étape 5 : création de segments dans une activité {#step-setting-up-audience-segmentation}
 
@@ -278,7 +270,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Cliquez sur l’**Opérateur**&#x200B;**supérieur à** dans le menu déroulant.
+   1. Cliquez sur l’**Opérateur****supérieur à** dans le menu déroulant.
 
    1. Saisissez la **Valeur** **70**.
 
@@ -296,7 +288,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
    1. Dans la boîte de dialogue **Comparer une propriété avec une valeur**, cliquez sur **googlesheets/value/1/0** dans la liste déroulante du **Nom de la propriété**.
 
-   1. Cliquez sur l’**Opérateur**&#x200B;**inférieur à** dans le menu déroulant.
+   1. Cliquez sur l’**Opérateur****inférieur à** dans le menu déroulant.
 
    1. Saisissez la **Valeur** **50**.
 
@@ -339,3 +331,4 @@ Après avoir configuré ContextHub pour votre projet AEM Screens, vous pouvez su
 1. **[Activation ciblée du stock de vente au détail](retail-inventory-activation.md)**
 1. **[Activation de la température de l’agence de voyages](local-temperature-activation.md)**
 1. **[Activation de la réservation d’hébergements](hospitality-reservation-activation.md)**
+

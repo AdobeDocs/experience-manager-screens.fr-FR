@@ -3,24 +3,20 @@ title: Analytics avec AEM Screens
 description: Découvrez Adobe Analytics avec Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 TQID: https://experienceleague.adobe.com/i7B7E5Kyno2U-ZTxEOPfhrr9W7fqYTWTV5vvcteRicY
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 76%
+source-wordcount: 335
+ht-degree: 86%
 
 ---
 
 # Analytics avec AEM Screens {#analytics-screens}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -34,5 +30,5 @@ La première a trait aux **systèmes de feedback et au machine learning**, tandi
 
 S’agissant du système de feedback, les rapports visuels et les tableaux de bord ne constituent pas votre sujet de préoccupation principal. L’objectif est plutôt de définir des règles sur lesquelles AEM peut s’exécuter pour la modification de contenu. L’exploitation et le traitement de toutes les données d’événement de lecture Screens d’une période donnée vous permettent de définir une règle qui évalue l’efficacité d’image1 par rapport à image2. En combinant les données de ventes aux données de lecture, AEM peut déterminer qu’image1 a un impact plus important sur les ventes et demande automatiquement à tous les lecteurs de l’utiliser.
 
-Le deuxième cas d’utilisation utilisant l’analyse consiste à traiter les événements de lecture et les données d’utilisation pour la consommation humaine au moyen de rapports et de tableaux de bord.
-Vous pouvez utiliser ces données pour créer une carte thermique d’une expérience interactive afin de déterminer la carte de parcours souhaitée par l’application. Vous pouvez également choisir de créer un tableau de bord qui fournit une interprétation graphique du nombre de fois où les consommateurs interagissent avec l’application.
+Le deuxième cas d’utilisation consiste à traiter les événements de lecture et les données d’utilisation compréhensibles par un humain au moyen de rapports et de tableaux de bord.Vous pouvez utiliser ces données pour créer une carte de fréquentation (heatmap) d’une expérience interactive afin de déterminer le cheminement préféré dans votre application. Vous pouvez également choisir de créer un tableau de bord qui représente, sous forme graphique, le nombre de fois où les consommateurs et consommatrices interagissent avec votre application.
+

@@ -3,33 +3,27 @@ title: Gestion du trafic réseau
 description: La page décrit les configurations de réseau standard et la gestion du trafic réseau.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 90%
+source-wordcount: 587
+ht-degree: 91%
 
 ---
 
 # Gestion du trafic réseau {#managing-network-traffic}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Une configuration réseau peut avoir différentes structures. Cette section décrit les configurations réseau les plus courantes et les approches généralisées appliquées au sein d’une organisation.
 
 Ce guide présente une introduction aux serveurs proxy suivie des diverses structures de réseaux configurées au sein de différentes organisations.
 
 >[!NOTE]
->**Configuration réseau requise pour**
->AEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Les pare-feu sont obligatoires pour l&#39;accès commercial à Internet. En tant que client, identifiez les ports de communication qui doivent être ouverts dans ces pare-feu et autres composants réseau liés à la sécurité informatique.
+>**Configuration réseau requise pour AEM ScreensAEM Screens communique directement avec AEM as a Cloud Service. Il est donc nécessaire d’établir une connexion stable entre les deux nœuds. Des pare-feu sont obligatoires pour un accès à l’internet commercial. En tant que client ou cliente, déterminez les ports de communication qui doivent être ouverts dans ces pare-feu et pour les autres composants réseau liés à la sécurité informatique.
 
 ## Vue d’ensemble des serveurs proxy {#proxy-servers}
 
@@ -58,3 +52,4 @@ Le tableau suivant décrit les différents types de configurations réseau avec 
 | **Réseau mobile direct** | Facile à configurer<br>Bon choix pour les installations de taille moyenne ou supérieure<br>Bonne évolutivité<br>Screens encapsulé | Connexion Internet obligatoire |
 | **Réseau mobile avec routeur de données mobile et composants réseau actifs** | Facile à configurer<br>Bon choix pour les installations de taille moyenne ou supérieure<br>Le réseau dédié peut être encapsulé<br>Peu de points de défaillance<br>Relativement peu coûteux<br>Bonne évolutivité | Forfait de données Internet obligatoire |
 | **Réseau d’entreprise fermé (câblé/sans fil)** | Flexibilité et évolutivité élevées<br>Très sécurisé en raison de lignes de défense différentes<br>Réseaux encapsulés<br>Facile à surveiller et à maintenir<br>Fiabilité | Compliqué et onéreux<br>Recommandé pour les spécialistes des réseaux ou les intégrateurs de systèmes |
+

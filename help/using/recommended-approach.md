@@ -3,18 +3,11 @@ title: Approche recommandée
 description: Découvrez l’approche recommandée dans un projet AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 47%
@@ -24,7 +17,7 @@ ht-degree: 47%
 # Approche recommandée {#recommended-approach}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La bonne pratique consiste à considérer tout projet AEM Screens au niveau de l’entreprise comme une activité sur le long terme. Il est probable que le projet s’étende sur une ou plusieurs années, notamment si la solution permet des interactions complexes avec les utilisateurs et utilisatrices ou si elle est déployée sur divers appareils et emplacements.
 
@@ -69,3 +62,4 @@ Si votre client souhaite un produit riche en fonctionnalités, proposez une tran
 
 * **Présentation de la portée des intégrations personnalisées** :
 Les composants interactifs avec interaction écran tactile, capteur de mouvement ou RFID nécessitent un développement personnalisé important dans la méthode d’implémentation. Un diaporama, une publicité vidéo ou un menu statique peuvent être diffusés sous la forme de contenu graphique ou HTML sur un canal Screens.
+

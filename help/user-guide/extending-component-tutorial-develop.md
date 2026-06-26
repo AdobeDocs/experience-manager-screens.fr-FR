@@ -10,19 +10,12 @@ role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1892
 ht-degree: 94%
@@ -32,7 +25,7 @@ ht-degree: 94%
 # Extension d’un composant AEM Screens
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Le tutoriel ci-après décrit les étapes et les bonnes pratiques pour étendre les composants prêts à l’emploi d’AEM Screens. Le composant Image est étendu pour ajouter une superposition de texte modifiable.
 
@@ -66,7 +59,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    [Obtenir le fichier](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Obtenir le fichier](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   [Obtenir le fichier
    **Éventuellement,** si vous utilisez Eclipse ou un autre IDE, téléchargez le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
 
    **`mvn -PautoInstallPackage clean install`**
@@ -539,3 +532,4 @@ Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.a
 Projet SRC Final Screens `We.Retail` Run
 
 [Obtenir le fichier](assets/src-screens-weretail-run-001.zip)
+
