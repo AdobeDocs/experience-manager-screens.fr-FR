@@ -3,9 +3,13 @@ title: Configurations de plateforme AEM
 description: Cette page décrit les configurations d’AEM Platform
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 592
@@ -57,7 +61,7 @@ Installez FFMpeg en suivant les étapes relatives au système d’exploitation a
 ## Restrictions relatives aux mots de passe {#password-restrictions}
 
 La politique de mot de passe d’AEM doit être désactivée sur l’instance AMS. Il peut également être configuré dans la console web à l’aide du service d’appareil Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Voir la section **Restrictions de mot de passe** dans [ Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Voir la section **Restrictions de mot de passe** dans [&#x200B; Configuration de l’auteur et de la publication dans AEM Screens](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuration des environnements {#setting-up-environments}
 

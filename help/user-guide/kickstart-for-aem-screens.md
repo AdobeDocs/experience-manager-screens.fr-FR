@@ -6,10 +6,15 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1343
@@ -35,7 +40,7 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 >Le tutoriel suivant présente la lecture du contenu de votre canal dans un lecteur Chrome OS.
 
 >[!IMPORTANT]
->**Paramètres de configuration OSGiVous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
+>**Paramètres de configuration OSGiVous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.Pour activer l’option &#x200B;***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
