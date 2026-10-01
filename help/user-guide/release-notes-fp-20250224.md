@@ -35,7 +35,7 @@ ht-degree: 54%
 
 AEM Screens inclus dans le pack de fonctionnalités 11,5 d’AEM 6.5.
 
-Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.5 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **** et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP11.5**.
+Vous pouvez télécharger le dernier Feature Pack pour AEM Screens 6.5.11.5 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **&#x200B;**&#x200B;et recherchez **Screens** pour obtenir le dernier Feature Pack appelé **AEM 6.5 Screens FP11.5**.
 
 ## Date de publication {#release-date}
 

@@ -192,7 +192,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 >[!NOTE]
 >
->>Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
+>&#x200B;>Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
 
 1. Saisissez l’expression dans le **Planning**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
