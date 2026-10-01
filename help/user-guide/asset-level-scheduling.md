@@ -8,29 +8,35 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
-ht-degree: 84%
-
+source-wordcount: '1559'
+ht-degree: 83%
 ---
-
 # Activation au niveau des ressources {#asset-level-scheduling}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page décrit l’activation au niveau des ressources utilisées dans les canaux.
 
@@ -40,10 +46,10 @@ Cette section aborde les sujets suivants :
 * Fenêtre d’activation
 * Lecture d’un événement unique
 * Gestion de la périodicité pour les ressources
-   * Tranches horaires
-   * Tranches hebdomadaires
-   * Tranches mensuelles
-   * Combinaison de tranches
+  * Tranches horaires
+  * Tranches hebdomadaires
+  * Tranches mensuelles
+  * Combinaison de tranches
 * Activation multiressource
 * Remplacement global pour une heure de début universelle
 
@@ -101,7 +107,7 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 Vous pouvez planifier l’activation périodique des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
-Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 :00 à 22 :00. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle de périodicité souhaité pour votre ressource.
+Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h à 22 h. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle de périodicité souhaité pour votre ressource.
 
 ### Tranches horaires {#day-parting}
 
@@ -120,14 +126,14 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 | **Expression** | **Interprétation** |
 |---|---|
-| avant 8:00 | la ressource dans le canal est lue avant 8 heures :00 tous les jours |
-| après 14:00 | la ressource dans la chaîne est lue après 14 :00 tous les jours |
-| après 12 :15 et avant 12 :45 | la ressource dans la chaîne est lue après 12 :15 tous les jours pendant 30 minutes |
-| avant 12:15 également après 12:45 | la ressource dans la chaîne est lue avant 12 :15 tous les jours, puis également après 12 :45. |
+| avant 8 h | la ressource dans la chaîne est lue avant 8 h tous les jours |
+| après 14 h | la ressource dans la chaîne est lue après 14 h tous les jours |
+| après 12 h 15 et avant 12 h 45 | la ressource dans la chaîne est lue après 12 h 15 tous les jours pendant 30 minutes |
+| avant 12:15 également après 12:45 | la ressource dans la chaîne est lue avant 12 h 15 tous les jours, puis également après 12 h 45. |
 
 >[!NOTE]
 >
->Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.* (14:00).
+>Vous pouvez également utiliser la notation _heure militaire_ (14 h) au lieu de *A.M./P.M.* (14 h).
 
 ### Tranches hebdomadaires {#week-parting}
 
@@ -175,6 +181,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | `on February-July` | La ressource est lue dans le canal du mois de février à la fin du mois de juillet. |
 
 >[!NOTE]
+>
 >Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier.
 
 ### Combinaison de tranches {#combined-parting}
@@ -183,8 +190,9 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
 
-   >[!NOTE]
-   >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
+>[!NOTE]
+>
+>>Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
 
 1. Saisissez l’expression dans le **Planning**. Votre ressource s’affiche pour l’intervalle spécifique de jour et d’heure.
 
@@ -195,11 +203,12 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 | **Expression** | **Interprétation** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | La ressource est lue dans le canal entre 6 h et 18 h les lundis et mercredis, du mois de janvier à la fin du mois de mars. |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la ressource du canal commence à être lue après 14 :00 le 1er janvier, et continue à être lue toute la journée du 2 janvier jusqu’à 3 :00 le 3 janvier |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la ressource dans le canal démarre le lecteur après 14 :00 le 1er janvier, continue la lecture jusqu’à 3 :00 le 2 janvier, puis recommence le 2 janvier à 14 :00 et continue jusqu’à 3 :00 le 3 janvier |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la lecture de la ressource dans le canal commence après 14 h 00 le 1er janvier et se poursuit toute la journée le 2 janvier, jusqu’à 3 h 00 le 3 janvier |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la ressource dans le canal démarre le lecteur après 14 h 00 le 1er janvier, continue la lecture jusqu’à 3 h 00 le 2 janvier, puis elle recommence le 2 janvier à 14 h 00 et continue jusqu’à 3 h 00 le 3 janvier |
 
 >[!NOTE]
->Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation _heure militaire_ (14:00) au lieu de *A.M./P.M.*(14:00).
+>
+>Lors de la définition des jours de la semaine et des mois, vous pouvez utiliser les notations abrégées ou complètes comme Lun/Lundi et Jan/Janvier. Vous pouvez également utiliser la notation _heure militaire_ (14 h) au lieu de *A.M./P.M.*(14 h).
 
 
 ## Activation multiressource {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ Le ***remplacement global pour une heure de début universelle*** est effectué 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Pour un remplacement global, saisissez l’heure d’activation dans la section **Remplacement du fuseau horaire** pour la ressource. Si vous ne saisissez rien dans cette zone, le fuseau horaire appliqué sera celui du lecteur.
-
-
-

@@ -8,35 +8,43 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 88%
-
+source-wordcount: '1295'
+ht-degree: 87%
 ---
-
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >Cette section décrit l’attribution et la planification des canaux pour les packs de fonctionnalités antérieurs à la version AEM 6.5.5 Screens.
 
 Lorsque que vous avez configuré un affichage, attribuez-lui un canal pour afficher votre contenu.
 
 Cette page explique comment attribuer un canal à votre affichage.
 
-Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Vous pouvez attribuer plusieurs canaux à un affichage.
@@ -78,6 +86,7 @@ Le rôle du canal définit le contexte de l’affichage. Le rôle cible diverses
 La priorité est utilisée pour contrôler les attributions au cas où plusieurs d’entre elles correspondent aux critères de lecture. Celle présentant la valeur la plus élevée est toujours prioritaire par rapport aux valeurs plus faibles. Par exemple, s’il y a deux canaux A et B. A a une priorité de 1 et B a une priorité de 2, puis le canal B est affiché, car il a une priorité plus élevée que A.
 
 >[!NOTE]
+>
 >La priorité d’un canal est définie sous forme numérique (1 au minimum) dans la boîte de dialogue **Attribution de canaux**, comme indiqué ci-dessus. Les canaux attribués sont également triés par ordre de priorité décroissante.
 
 ### Événements pris en charge {#supported-events-channel}
@@ -131,13 +140,13 @@ Vous divisez chaque jour en trois tranches horaires, de sorte que le contenu du 
 
 | **Canal** | **Rôle** | **Priorité** | **Planification** |
 |---|---|---|---|
-| Menu_A | Petit déjeuner |  | Après 6:00 et avant 11:00 |
-| Menu_B | Déjeuner |  | Après 11 :00 et avant 15 :00 |
-| Menu_C | Dîner |  | Après 15 :00 et avant 20 :00 |
+| Menu_A | Petit déjeuner |  | Après 6h00 et avant 11h00 |
+| Menu_B | Déjeuner |  | Après 11 h et avant 15 h |
+| Menu_C | Dîner |  | Après 15:00 et avant 20:00 |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le dayParting réalisé dans un casino où un événement en direct se produit chaque week-end de 20:00h à 22:00 et des plats spéciaux sont disponibles pour le menu du dîner après 22:00 jusqu’à 13:00.
+Cet exemple montre le dayParting réalisé dans un casino où un événement en direct a lieu tous les week-ends de 20h00 à 22h00 et des plats spéciaux sont disponibles pour le menu du dîner après 22h00 à 1h00.
 
 <table>
  <tbody>
