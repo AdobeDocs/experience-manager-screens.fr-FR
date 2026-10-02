@@ -8,22 +8,26 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 TQID: https://experienceleague.adobe.com/q6KAClMHbAULOEumQlx5-FdaaVmAcMOCL8m6KWIB458
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 39%
-
 ---
-
 # Notes de mise à jour du pack de fonctionnalités 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager 6.5 (AEM 6.5). Pour obtenir des informations sur la dernière version, cliquez [ici](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/release-notes/release-notes).
+> 
 >Adobe vous recommande d’utiliser FP11.6 avec SP(servicepack) >= 21.
 
 ## Disponibilité {#availability}
@@ -43,8 +47,8 @@ La date de publication du pack de fonctionnalités 20250327 d’AEM Screens es
 * Cette version corrige le problème d’affichage des cartes avec le SP22 et les versions ultérieures.
 
 * **Mise à jour concernant les lecteurs AEM Screens**
-   * Le lecteur AEM Screens basé sur Linux est officiellement obsolète. Il est conseillé aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
-   * Aucune autre mise à jour ou amélioration n’est apportée au lecteur AEM Screens basé sur Android. Nous recommandons aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
+  * Le lecteur AEM Screens basé sur Linux est officiellement obsolète. Il est conseillé aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
+  * Aucune autre mise à jour ou amélioration n’est apportée au lecteur AEM Screens basé sur Android. Nous recommandons aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
 
 ### Correctifs {#bug-fixes}
 

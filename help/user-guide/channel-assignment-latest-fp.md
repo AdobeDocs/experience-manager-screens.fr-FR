@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 90%
-
 ---
-
 # Attribution de canaux {#channel-assignment}
 
 >[!IMPORTANT]
@@ -171,7 +178,8 @@ La priorité est utilisée pour contrôler les attributions au cas où plusieurs
 ### Méthode d’interruption {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or-->le pack de fonctionnalités 4 d’AEM 6.5.
+>
+>Cette option est disponible uniquement avec <!--AEM 6.4 Feature Pack 8 or-->le pack de fonctionnalités 4 d’AEM 6.5.
 
 En tant que personne chargée de créer du contenu, vous pouvez spécifier le moment où un canal est interrompu. Cela vous permet de choisir de couper le contenu non essentiel. Mais cela vous offre également la possibilité de laisser le contenu important être lu en intégralité avant de le couper en raison du planning.
 
@@ -180,13 +188,15 @@ Sélectionnez l’une des options suivantes disponibles pour définir la méthod
 * **Immédiatement** : chaque fois que le planning est activé ou qu’une mise à jour est reçue, vous pouvez interrompre la lecture et immédiatement actualiser ou lire le nouveau contenu.
 * **Fin de l’élément actif** : lorsqu’un nouveau planning est activé ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre la fin de la lecture de l’élément actuel dans la séquence. Ensuite, ce n’est qu’après cela que vous pouvez actualiser ou lire le nouveau contenu.
 
-  >[!NOTE]
-  >Cette option est sélectionnée par défaut.
+>[!NOTE]
+>
+>Cette option est sélectionnée par défaut.
 
 * **À la fin de la séquence** : lorsqu’un nouveau planning est activé ou qu’une mise à jour est reçue, vous pouvez éventuellement attendre que la séquence entière arrive à sa fin. Ensuite, juste avant la séquence souhaitée, vous pouvez revenir au premier élément, l’actualiser ou lire le nouveau contenu.
 
-  >[!NOTE]
-  >L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planning définies dans l’affectation. Cela est dû au fait que le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
+>[!NOTE]
+>
+>L’utilisation de la deuxième ou de la troisième option peut entraîner un léger report des heures de planning définies dans l’affectation. Cela est dû au fait que le lecteur attend la fin de l’élément ou de la séquence (après l’heure spécifiée) avant de procéder à l’actualisation. Le délai dépend de la durée de lecture de l’élément.
 
 Les propriétés suivantes sont définies à partir de l’option **Planning** de la boîte de dialogue **Attribution de canaux**.
 
@@ -201,7 +211,8 @@ La fenêtre d’activation permet de sélectionner une **Date de début** et une
 Le planning de périodicité permet de définir un planning récurrent pour votre contenu. Cliquez sur **+ Ajouter un planning** pour ajouter un planning de périodicité à votre canal.
 
 >[!NOTE]
->Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.Les plannings de périodicité proposent des *Tranches horaires*. Vous définissez un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et réutilisez simultanément cette configuration pour tous vos affichages.
+>Vous pouvez ajouter plusieurs plannings de périodicité à votre canal.
+>Les plannings de périodicité proposent des *Tranches horaires*. Vous définissez un planning global avec plusieurs canaux qui s’exécutent à des moments spécifiques de la journée et réutilisez simultanément cette configuration pour tous vos affichages.
 
 Vous pouvez configurer les options suivantes :
 
@@ -209,8 +220,8 @@ Vous pouvez configurer les options suivantes :
 * **Répéter** : indiquez si la planification s’exécute de manière **quotidienne**, **hebdomadaire**, **mensuelle** ou **annuelle**.
 * **Début** : heure de début de votre planning.
 * **Fin** : heure de fin de votre planning. Vous pouvez le définir par heure ou par durée.
-   * **Heure** : le planning se termine à une heure définie.
-   * **Durée** : le planning s’exécute pendant une durée particulière en heures ou en minutes.
+  * **Heure** : le planning se termine à une heure définie.
+  * **Durée** : le planning s’exécute pendant une durée particulière en heures ou en minutes.
 
 ### Tranches horaires {#dayparting}
 
@@ -226,18 +237,18 @@ Chaque jour est divisé en différentes tranches horaires, de sorte que le conte
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Petit déjeuner | Quotidienne | 6:00 | 11 :00 |
-| Déjeuner | Quotidienne | 11 :00 | 15:00 |
+| Petit déjeuner | Quotidienne | 06:00 | 11:00 |
+| Déjeuner | Quotidienne | 11:00 | 15:00 |
 | Dîner | Quotidienne | 15:00 | 20:00 |
 
 #### Diffusion du contenu pendant un jour donné de la semaine {#playing-content-on-a-particular-day-of-the-week}
 
-Cet exemple montre le DayParting implémenté dans un casino où un événement en direct se produit tous les week-ends de 20 :00 à 22 :00 et où des plats spéciaux sont disponibles pour le menu du dîner après 22 :00 jusqu’à 13 :00.
+Cet exemple montre le DayParting implémenté dans un casino où un événement en direct se produit tous les week-ends de 20h00 à 22h00 et où des plats spéciaux sont disponibles pour le menu du dîner après 22h00 à 1h00.
 
 | **Nom** | **Répétition** | **Début** | **Fin** |
 |---|---|---|---|
-| Week-end | Hebdomadaire : samedi et dimanche | 20:00 | 22:00 |
-| Plats du jour | Quotidien : du lundi au vendredi | 22:00 | 1:00 |
+| Week-end | Hebdomadaire : samedi et dimanche | 20:00 | 22 H |
+| Plats du jour | Quotidien : du lundi au vendredi | 22 H | 01:00 |
 
 >[!NOTE]
 >
