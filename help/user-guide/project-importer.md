@@ -10,21 +10,26 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+TQID: 'https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '669'
 ht-degree: 80%
-
 ---
-
 # Nouvel importateur de projet à partir d’un fichier {#new-project-importer-from-file}
 
 Cette section décrit une fonctionnalité permettant d’importer en bloc un ensemble d’emplacements depuis une feuille de calcul CSV/XLS dans votre projet AEM Screens.
@@ -32,9 +37,9 @@ Cette section décrit une fonctionnalité permettant d’importer en bloc un ens
 ## Présentation {#introduction}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Lorsque vous configurez un projet AEM Screens pour la première fois pour votre entreprise, créez également tous les emplacements. Si votre projet implique un grand nombre d’emplacements, cela entraîne une tâche fastidieuse qui implique beaucoup de sélections et d’attente dans l’interface d’utilisation.
+Lorsque vous configurez un projet AEM Screens pour la première fois pour votre entreprise, créez également tous les emplacements. Si votre projet implique un grand nombre d’emplacements, cela entraîne une tâche fastidieuse qui nécessite de nombreuses sélections et de l’attente dans l’interface d’utilisation.
 
 Cette fonctionnalité a pour objectif de réduire le temps nécessaire à la configuration du projet et de résoudre ainsi des problèmes de budgétisation.
 
@@ -92,9 +97,9 @@ La section suivante décrit l’utilisation de l’importateur de projets dans u
 
 * Créez un projet intitulé **DemoProjectImport**.
 
-* Utilisez en exemple un fichier CSV ou Excel que vous devez importer.
+* Utilisez un fichier CSV ou Excel d’exemple que vous devez importer.
 
-A des fins de démonstration, vous pouvez télécharger un fichier Excel depuis la section ci-dessous.
+À des fins de démonstration, vous pouvez télécharger un fichier Excel depuis la section ci-dessous.
 
 [Obtenir le fichier](assets/minimal-file.xls)
 
@@ -112,7 +117,7 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Cliquez sur le projet, **DemoProjectImporter**>**Créer**>**&#x200B; Importer des emplacements** depuis la barre latérale.
+1. Cliquez sur le projet, **DemoProjectImporter**>**Créer**>** Importer des emplacements** depuis la barre latérale.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

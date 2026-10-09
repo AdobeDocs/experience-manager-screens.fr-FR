@@ -10,30 +10,39 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+TQID: 'https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
+  - id: d1e27cb1-7d9b-4709-9f6a-fc85de4c2abd
+    internal-label: Experience Fragments
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: '1155'
 ht-degree: 83%
-
 ---
-
 # Utiliser des fragments d’expérience {#using-experience-fragments}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page aborde les sujets suivants :
 
@@ -108,7 +117,7 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Pour sélectionner une option plus simple, cochez la case à droite du champ afin d’ouvrir la boîte de dialogue de sélection.
+   Pour sélectionner une option plus simple, cliquez sur la coche à droite du champ afin d’ouvrir la boîte de dialogue de sélection.
 
 1. **Création d’une Live Copy du fragment d’expérience**
 
@@ -153,11 +162,11 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    e. Cliquez sur le composant **Fragment d’expérience**, puis sur l’icône en haut à gauche (clé à molette) pour ouvrir la boîte de dialogue **Fragment d’expérience**.
 
-   f. Cliquez sur la Live Copy **&#x200B;**&#x200B;du fragment que vous avez créé à l’*étape 3* dans **Chemin d’accès**.
+   f. Cliquez sur la Live Copy **** du fragment que vous avez créé à l’*étape 3* dans **Chemin d’accès**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Cliquez sur la Live Copy **&#x200B;**&#x200B;du fragment que vous avez créé à l’*étape 3* dans le **fragment d’expérience**.
+   f. Cliquez sur la Live Copy **** du fragment que vous avez créé à l’*étape 3* dans le **fragment d’expérience**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 

@@ -10,37 +10,49 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+TQID: 'https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+subfeature_v2:
+  - id: d7b36a26-f22a-49eb-b5be-019feb42d381
+    internal-label: Android Player
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 89%
-
 ---
-
 # Implémenter le lecteur Android™ {#implementing-android-player}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Le lecteur AEM Screens basé sur Android est officiellement obsolète. Il est conseillé aux utilisateurs de migrer vers un autre système d’exploitation pris en charge par AEM Screens.
 
 Cette section décrit la configuration du lecteur Android™. Elle fournit des informations sur le fichier de configuration, les options disponibles, ainsi que des recommandations indiquant quels paramètres utiliser pour le développement et le test.
 
-Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur suite à une panne. Les applications doivent s’enregistrer auprès du service Watchdog, puis envoyer régulièrement des messages au service lui indiquant qu’elles sont actives. Si le service Watchdog ne reçoit pas de message persistant dans un délai spécifié, il tente de redémarrer l’appareil. Il le fait pour une récupération propre (s’il dispose des privilèges suffisants) ou pour redémarrer l’application.
+Par ailleurs, **Watchdog** est une solution permettant de restaurer le lecteur suite à une panne. Une application doit s’enregistrer auprès du service Watchdog, puis envoyer régulièrement des messages au service lui indiquant qu’elle est active. Si le service Watchdog ne reçoit pas de message de maintien en activité dans un délai spécifié, il tente de redémarrer l’appareil. Il le fait pour une récupération propre (s’il dispose des privilèges suffisants) ou redémarre l’application.
 
 ## Installer le lecteur Android™ {#installing-android-player}
 
@@ -51,7 +63,7 @@ Consultez la page [**Téléchargements du lecteur AEM 6.5**](https://download.m
 ### Configuration de l’environnement pour le pack de services AEM Screens 6.5.5 {#fp-environment-setup}
 
 >[!NOTE]
->Vous devez configurer un environnement pour le lecteur Android™ si vous utilisez le pack de services AEM Screens 6.5.5.
+>Vous devez configurer un environnement pour le lecteur Android™ si vous utilisez le Pack de services AEM Screens 6.5.5.
 
 Définissez la valeur de **SameSite attribute for the login-token cookies** de **Lax** sur **None** dans **Configuration de la console Web Adobe
 Experience Manager** sur toutes les instances de création et de publication AEM.
@@ -63,7 +75,7 @@ Experience Manager** en utilisant `http://localhost:4502/system/console/configMg
 
 1. Recherchez *Adobe Granite Token Authentication Handler*.
 
-1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None**.
+1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** en **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Cliquez sur **Save**.
@@ -88,7 +100,7 @@ Après avoir téléchargé l’application, suivez les étapes du lecteur pour t
 
 ## Implémenter Android™ Watchdog {#implementing-android-watchdog}
 
-En raison de l’architecture d’Android™, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Signez le fichier apk à l’aide des clés de signature du fabricant. Sinon, Watchdog peut redémarrer l’application du lecteur et ne redémarre pas l’appareil.
+En raison de l’architecture d’Android™, le redémarrage de l’appareil requiert que l’application dispose d’autorisations système. Signez le fichier apk à l’aide des clés de signature du fabricant. Sinon, Watchdog peut redémarrer l’application du lecteur sans redémarrer l’appareil.
 
 ### Signature de `apks` Android™ à l’aide des clés du fabricant {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -138,11 +150,12 @@ Lors du déploiement en masse du lecteur Android™, vous devez pouvoir configur
 
 Pour autoriser l’approvisionnement en bloc dans le lecteurAndroid™, procédez comme suit :
 
-1. Créez un fichier de configuration JSON nommé `player-config.default.json`.Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
+1. Créez un fichier de configuration JSON nommé `player-config.default.json`.
+Reportez-vous à l’[exemple de politique JSON](#example-json) ainsi qu’au tableau qui décrit l’utilisation des différents [attributs de politique](#policy-attributes).
 
 1. Utilisez un explorateur de fichiers MDM ou ADB ou Android™ Studio pour déposer ce fichier de politique JSON dans le dossier *sdcard* de l’appareil Android™.
 
-1. Lorsque le fichier déployé, utilisez le MDM pour installer l’application du lecteur.
+1. Lorsque le fichier est déployé, utilisez le MDM pour installer l’application du lecteur.
 
 1. Lorsque l’application du lecteur est lancée, ce fichier de configuration est lu et pointe vers le serveur AEM approprié où il est enregistré puis contrôlé.
 
@@ -208,17 +221,17 @@ Pour configurer le nom dans le lecteur Android™, procédez comme suit :
 
 ### Implémenter l’approvisionnement en bloc du lecteur Android™ à l’aide d’une solution Enterprise Mobility Management {#implementation}
 
-Pour autoriser l’approvisionnement en bloc dans le lecteur Android™, procédez comme suit :
+Pour autoriser l’approvisionnement en masse dans le lecteur Android™, procédez comme suit :
 
 1. Assurez-vous que votre appareil Android™ prend en charge les services Google Play.
 1. Enregistrez vos appareils de lecteur Android™ dans votre solution EMM préférée prenant en charge AppConfig.
 1. Connectez-vous à votre console EMM et extrayez l’application du lecteur AEM Screens de Google Play.
 1. Cliquez sur la configuration gérée ou l’option associée.
-1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées, par exemple le code d’enregistrement en bloc et du serveur.
+1. Vous devriez maintenant voir la liste des options du lecteur qui peuvent être configurées, par exemple le serveur et le code d’enregistrement en bloc.
 1. Configurez ces paramètres, enregistrez-les et déployez la politique sur les appareils.
 
    >[!NOTE]
-   >Les appareils doivent recevoir l’application avec la configuration. Elle doit pointer vers le serveur AEM correct avec la configuration sélectionnée. Si vous choisissez de configurer le code d’enregistrement en bloc et que vous le conservez tel que configuré dans AEM, le lecteur doit être en mesure de s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
+   >Les appareils doivent recevoir l’application avec la configuration. Elle doit pointer vers le serveur AEM correct avec la configuration sélectionnée. Si vous avez choisi de configurer le code d’enregistrement en bloc et que vous l’avez conservé tel que configuré dans AEM, le lecteur doit être en mesure de s’enregistrer automatiquement. Si vous avez configuré un affichage par défaut, il peut également télécharger et afficher un certain contenu par défaut (qui peut être modifié ultérieurement selon vos besoins).
 
 En outre, vous devez vérifier auprès de votre fournisseur de solution EMM si celle-ci prend en charge AppConfig. Les plus populaires, par exemple [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm),et [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) parmi d’autres prennent en charge cette norme du secteur.
 

@@ -5,32 +5,48 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+TQID: 'https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: '2299'
 ht-degree: 81%
-
 ---
-
 # Questions fréquentes sur AEM Screens {#aem-screens-faqs}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette rubrique fournit des réponses aux questions fréquentes relatives à un projet AEM Screens.
 
@@ -47,7 +63,7 @@ Cette rubrique fournit des réponses aux questions fréquentes relatives à un p
 * Lorsque le lecteur est en cours d’exécution sur votre système, accédez à `http://localhost:24502`. Vérifiez si tout le contenu est correctement téléchargé.
 * Vérifiez les ressources pour vous assurer que les rendus appropriés sont créés et que le rendu correct est en cours de lecture.
 * Recherchez les contenus planifiés et vérifiez si les heures sont correctes. Vérifiez si l’heure configurée dans le lecteur est correcte.
-* Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Cliquez avec le bouton droit et examinez les journaux de la console en les affichant. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement afin d’afficher les fichiers journaux.
+* Examinez les journaux de la console du lecteur et vérifiez l’existence d’erreurs éventuelles. Cliquez avec le bouton droit et inspectez pour voir les journaux de la console. Si vous utilisez le lecteur Windows, appuyez sur `CTRL + ALT +I` pour afficher la console de développement afin d’afficher les fichiers journaux.
 
 ### &#x200B;2. Comment résoudre le problème d’écran gris dans AEM Screens en créant un canal ou un planning par défaut ?
 
@@ -78,7 +94,7 @@ Le champ Rôle du canal représente l’abstraction du canal réel exécuté pou
 1. L’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
 1. L’affichage comporte un nœud frère qui correspond au nom du canal référencé.
 1. L’emplacement parent de l’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
-1. L’emplacement parent principal de l’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
+1. L’emplacement grand-parent de l’affichage comporte un nœud enfant qui correspond au nom du canal référencé.
 
 Et ainsi de suite, jusqu’à ce que vous atteigniez le dossier des emplacements. Tenez-vous en là pour l’instant (vous ne pouvez donc pas référencer un canal qui se trouverait dans le dossier des canaux, par exemple, uniquement les canaux présents dans la sous-arborescence des emplacements).
 
@@ -99,13 +115,13 @@ Suivez les étapes ci-dessous à partir de l’éditeur de canal :
 
 L’enregistrement n’est actuellement possible que sur l’instance de création. Bien qu’il ne soit pas authentifié, le service d’enregistrement crée uniquement un appareil en attente dans AEM ; il n’enregistre pas réellement l’appareil ni n’affecte aucun affichage.
 
-Pour enregistrer un appareil (c’est-à-dire créer un profil d’utilisateur ou d’utilisatrice pour l’appareil dans AEM), authentifiez-vous auprès d’AEM et suivez manuellement les instructions de l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, une personne malveillante peut créer plusieurs appareils en attente, mais ne peut pas les enregistrer sans connexion à AEM.
+Pour enregistrer un appareil (c’est-à-dire créer un profil d’utilisateur ou d’utilisatrice pour l’appareil dans AEM), authentifiez-vous auprès d’AEM et suivez manuellement les instructions de l’assistant d’enregistrement pour terminer l’enregistrement. En théorie, une personne malveillante peut créer plusieurs appareils en attente, mais ne peut pas les enregistrer sans nom d’utilisateur AEM.
 
 ### &#x200B;2. Existe-t-il un moyen de transformer les requêtes HTTP GET en requêtes HTTP POST avec une forme d’authentification quelconque ? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La requête d’enregistrement est une requête POST.
 
-Il est recommandé d’obtenir l’ID de l’appareil de la session au lieu de le transmettre en tant que paramètre. Ainsi, vous pouvez nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s’agit pas d’un problème de sécurité. Au sens propre. La requête GET est utilisée en l’absence de modification de l’état sur le serveur et la requête POST est appliquée dans le cas contraire.
+Il est recommandé d’obtenir l’ID de l’appareil depuis la session plutôt que de le transmettre en tant que paramètre. Cela permettrait de nettoyer les journaux du serveur, la mémoire cache du navigateur, etc. Il ne s’agit pas d’un problème de sécurité. Au sens propre. La requête GET est utilisée en l’absence de modification de l’état sur le serveur et la requête POST est appliquée dans le cas contraire.
 
 ### &#x200B;3. Existe-t-il un moyen de refuser une demande d’enregistrement d’appareil ? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -119,11 +135,11 @@ Vérifiez les possibilités suivantes pour résoudre le problème de l’écran 
 
 * AEM ne peut pas diffuser le contenu hors ligne.
 * Le canal ne comporte aucun contenu.
-* Les ressources ne sont pas programmées pour apparaître à la date du jour.
+* Les ressources ne sont pas programmées pour apparaître à l’heure actuelle.
 
 ### &#x200B;2. Que faire si le lecteur AEM Screens ne peut pas s’enregistrer et qu’il présente l’état Échec ?
 
-Activez le filtre Autoriser le filtre de référent vide Apache Sling. Cela est nécessaire pour optimiser le fonctionnement du protocole de contrôle entre le lecteur et le serveur AEM Screens.
+Activez le filtre Autoriser le filtre de référent vide Apache Sling. Cela est nécessaire pour optimiser le fonctionnement du protocole de contrôle entre le lecteur AEM Screens et le serveur AEM Screens.
 
 1. Accédez à **Configuration de la console web Adobe Experience Manager**.
 1. Cochez l’option **allow.empty**.
@@ -135,7 +151,7 @@ Ce problème peut se produire si le lecteur ne parvient pas à trouver le nom D
 
 ### &#x200B;4. AMS recommande-t-il de mettre en œuvre un organisme de surveillance ™ sur tous les appareils ? Le module de surveillance (Cordova) est-il fourni dans le kit de package Android (APK) ? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
-Un outil Android™ Watchdog sur plusieurs plateformes utilisant des API Android™ pures est déjà disponible dans ce kit apk. Aucun logiciel supplémentaire n’est nécessaire. Cependant, en fonction de l’appareil que vous utilisez, vous pouvez signer à nouveau le kit apk afin d’obtenir des privilèges système pour un cycle d’alimentation complet (API `Powermanager`), le cas échéant. En l’absence de nouvelle signature avec les clés du fabricant, ce kit peut fermer, puis redémarrer l’application, mais pas le cycle d’alimentation.
+Un watchdog Android™ sur plusieurs plateformes utilisant des API Android™ pures fait déjà partie de l’apk. Aucun logiciel supplémentaire n’est nécessaire. Cependant, en fonction de l’appareil que vous utilisez, vous pouvez signer à nouveau le kit apk afin d’obtenir des privilèges système pour un cycle d’alimentation complet (API `Powermanager`), le cas échéant. En l’absence de nouvelle signature avec les clés du fabricant, ce kit peut fermer, puis redémarrer l’application, mais pas le cycle d’alimentation.
 
 Pour plus d’informations sur la mise en œuvre du lecteur Android™, reportez-vous à [**Mise en œuvre du lecteur Android™**](implementing-android-player.md).
 
@@ -149,7 +165,7 @@ Pour plus d’informations sur l’emplacement où vous pouvez surveiller l’ac
 
 ### &#x200B;1. Comment installer le lecteur ChromeOS en tant que plug-in de navigateur Chrome ? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-Le lecteur Chrome OS peut être installé en tant que plug-in du navigateur Chrome en mode de développement sans que vous ayez à utiliser de lecteur Chrome réel. Pour l’installer, procédez comme suit :
+Le lecteur Chrome OS peut être installé en tant que plug-in du navigateur Chrome en mode de développement sans nécessiter d’appareil Chrome Player réel. Pour l’installer, procédez comme suit :
 
 1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 1. Décompressez-la et enregistrez-la sur le disque.
@@ -202,14 +218,14 @@ Vous pouvez obtenir les informations sur l’affichage et l’appareil via :
 
   Suivez les étapes ci-dessous pour utiliser ces valeurs de stockage ContentHub :
 
-   * Modifiez les propriétés du canal et définissez le chemin ContextHub dans l’onglet de personnalisation sur la valeur (comme mentionné ci-dessus)
-   * Dans le canal JS, vous pouvez utiliser :
+  * Modifiez les propriétés du canal et définissez le chemin ContextHub dans l’onglet de personnalisation sur la valeur (comme mentionné ci-dessus)
+  * Dans le canal JS, vous pouvez utiliser :
 
-     ```shell
-        ContextHub.getStore('screens-device');
-        ContextHub.getStore('screens-display');
-        ContextHub.getStore('screens-channels');
-     ```
+    ```shell
+       ContextHub.getStore('screens-device');
+       ContextHub.getStore('screens-display');
+       ContextHub.getStore('screens-channels');
+    ```
 
 ## Conseils pratiques de dépannage {#general-troubleshooting-tips}
 
@@ -217,10 +233,10 @@ Vous pouvez obtenir les informations sur l’affichage et l’appareil via :
 
 Désactivez Livefyre pour éviter les erreurs de journal en procédant comme suit.
 
-1. ***Désactivez le lot Livefyre :***
+1. ***Désactivez le bundle Livefyre :***
 
    * Accédez à `https://<host>:<port>/system/console/bundles`.
-   * Recherchez le lot AEM Livefyre : `com.adobe.cq.social.cq-social-livefyre`.
+   * Recherchez le bundle AEM Livefyre : `com.adobe.cq.social.cq-social-livefyre`.
    * Cliquez sur **Arrêter**.
 
 1. ***Désactivez l’interrogateur Livefyre :***
@@ -231,7 +247,8 @@ Désactivez Livefyre pour éviter les erreurs de journal en procédant comme sui
 
 ### &#x200B;2. Comment ajouter des informations d’index Oak ? {#add-oak-index-info}
 
-AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.S’il existe des *WARN de requête transversale* dans le `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+AEM Screens crée des définitions d’index pour les requêtes utilisées par le produit.
+S’il existe des *WARN de requête transversale* dans le `error.log`, créez un index personnalisé pour votre requête. Pour en savoir plus, consultez [Configuration des index](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 Vous pouvez également consulter une ressource supplémentaire dans la [documentation Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -240,9 +257,11 @@ Vous pouvez également consulter une ressource supplémentaire dans la [document
 
 Pour activer le manifeste v3, procédez comme suit :
 
-* Mettre à jour Dispatcher.Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+* Mettre à jour Dispatcher.
+Pour plus d’informations, consultez [Configuration de Dispatcher pour les manifestes v3](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
-* Mettre à jour le composant personnalisé.Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) pour plus d’informations.
+* Mettre à jour le composant personnalisé.
+Voir [Modèle pour les gestionnaires personnalisés](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) pour plus d’informations.
 
 * Désactiver ContentSync dans `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 

@@ -5,12 +5,15 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-TQID: https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I
+TQID: 'https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -20,7 +23,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 90%
@@ -29,13 +32,13 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Le lecteur Chrome OS peut être installé en tant que plug-in du navigateur Chrome en mode de développement sans que vous ayez à utiliser de lecteur Chrome réel.
 
 >[!CAUTION]
 >
-> Il est recommandé d’utiliser le lecteur Chrome comme extension de résolution des problèmes pour des démonstrations rapides, le débogage et la résolution des problèmes de la clientèle. N’utilisez pas ce mécanisme pour les déploiements de production qui nécessitent le mode kiosque et une gestion centrale.
+> Il est recommandé d’utiliser le lecteur Chrome comme extension pour le dépannage, les démonstrations rapides, le débogage et la résolution des problèmes des clientes et clients. N’utilisez pas ce mécanisme pour les déploiements de production qui nécessitent le mode kiosque et une gestion centrale.
 
 Consultez cette page pour obtenir des informations sur l’installation du lecteur Chrome en tant qu’extension de navigateur.
 
@@ -68,10 +71,10 @@ Consultez cette page pour obtenir des informations sur l’installation du lecte
    >
    > Si l’URL mentionnée ci-dessus ne fonctionne pas, cela signifie qu’aucun affichage n’a été affecté au lecteur ou que le contenu n’a pas été téléchargé correctement. Vérifiez l’onglet réseau du JSON de configuration du lecteur afin de voir si le lecteur obtient les détails corrects et pour tout problème réseau en matière de téléchargement.
 
-1. Cliquez avec le bouton droit de la souris et inspectez trois calques du lecteur Chrome.
+1. Cliquez avec le bouton droit de la souris et inspectez les trois niveaux du lecteur Chrome.
    **Déboguer le contenu** : cliquez avec le bouton droit et inspectez le contenu pour déboguer le contenu en cours d’exécution (un seul élément dénommé « Inspecter » devrait s’afficher dans le menu contextuel).
 
-   **Déboguer le micrologiciel** : affichez l’interface d’utilisation de l’administration, puis cliquez avec le bouton droit et inspectez le code du micrologiciel (lecteur) pour le déboguer. (Il doit y avoir une option pour inspecter et inspecter la page d’arrière-plan et simuler le redémarrage du navigateur.)
+   **Déboguer le micrologiciel** : affichez l’interface d’utilisation de l’administration, puis cliquez avec le bouton droit et inspectez le code du micrologiciel (lecteur) pour le déboguer. (Il doit y avoir une option pour inspecter l’extension, inspecter la page d’arrière-plan et simuler le redémarrage du navigateur.)
 
    **Déboguer la page d’arrière-plan** : affichez l’interface d’utilisation de l’administration, puis cliquez avec le bouton droit et inspectez la page d’arrière-plan (pour les services en arrière-plan tels que le serveur HTTP).
 

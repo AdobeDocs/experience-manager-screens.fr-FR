@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour du pack de fonctionnalités 201907
+title: Notes de mise à jour du Pack de fonctionnalités 201907
 description: Découvrez le pack de fonctionnalités 201907 d’AEM Screens, publié le 31 juillet 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,24 +10,30 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-TQID: https://experienceleague.adobe.com/fbTrzAj52dW2JuRe-6InIkh-dT52Au9pGgoAEjR7WW8
+TQID: 'https://experienceleague.adobe.com/fbTrzAj52dW2JuRe-6InIkh-dT52Au9pGgoAEjR7WW8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '379'
 ht-degree: 100%
-
 ---
-
-# Notes de mise à jour du pack de fonctionnalités 201907 {#release-notes-for-feature-pack}
+# Notes de mise à jour du Pack de fonctionnalités 201907 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -43,7 +49,7 @@ La date de publication du pack de fonctionnalités 201907 d’AEM Screens est l
 
 * **Le Déclencheur de données entraîne la modification des ressources dans un canal AEM Screens**
 
-Le lecteur bascule vers un canal qui affiche les informations d’urgence. Le système d’urgence envoie ces informations lorsqu’il reçoit un événement. Ce canal est le seul lu jusqu’à la fin de la situation d’urgence.
+Le lecteur bascule vers un canal qui affiche les informations d’urgence. Le système d’urgence envoie ces informations lorsqu’il reçoit un événement. Ce canal est diffusé exclusivement jusqu’à la fin de la situation d’urgence.
 
 
 Consultez le cas d’utilisation [Canal d’urgence](emergency-channel.md) pour l’implémentation.
@@ -77,7 +83,7 @@ Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques cô
 
 ### Lecteurs AEM Screens publiés
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.5 Feature Pack 5 et AEM 6.5.1 Feature Pack 1 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.5 Pack de fonctionnalités 5 et AEM 6.5.1 Pack de fonctionnalités 1 :
 
 * ChromeOS
 * Windows

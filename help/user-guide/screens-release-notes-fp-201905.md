@@ -10,25 +10,30 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
+TQID: 'https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 360
+source-wordcount: '360'
 ht-degree: 77%
-
 ---
-
 # Notes de mise à jour du pack de fonctionnalités 201905 {#release-notes-for-feature-pack}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >
@@ -38,7 +43,7 @@ AEM Screens a publié les Feature Pack 6 d’AEM 6.3.3.3 et 4 d’AEM 6.4.4.0 av
 
 ## Date de publication {#release-date}
 
-La date de publication du packs de fonctionnalité 201905 AEM Screens est le 16 mai 2019.
+La date de publication du Pack de fonctionnalités 201905 d’AEM Screens est le jeudi 16 mai 2019.
 
 ### Nouveautés {#what-s-new}
 
@@ -56,7 +61,7 @@ Pour plus d’informations, reportez-vous à **[Transition de ContentSync à Sma
 
 * **Canal d’urgence**
 
-Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence vers lequel peut basculer l’auteur ou l’autrice du contenu depuis un canal de séquence en cas de condition préalable.
+Cet exemple de cas d’utilisation met l’accent sur la création et la gestion d’un canal d’urgence vers lequel peut basculer le créateur ou la créatrice de contenu depuis un canal de séquence en cas de condition préalable.
 
 Pour plus d’informations, consultez le cas d’utilisation du **[canal d’urgence](emergency-channel.md)**.
 

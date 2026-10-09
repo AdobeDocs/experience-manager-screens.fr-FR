@@ -10,28 +10,37 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
+TQID: 'https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Beginner
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '721'
 ht-degree: 89%
-
 ---
-
 # Partie 4 : gestion et déploiement de projets {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Cette page présente la quatrième partie d’une série de cinq articles et porte sur la préparation du déploiement et la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projet et la préparation au déploiement.
+Cette page présente la quatrième partie d’une série de cinq articles et porte sur la préparation du déploiement et la gestion de projets, ainsi que sur la définition des principaux facteurs dont l’intégrateur ou l’intégratrice audiovisuel est responsable en ce qui concerne la gestion de projets et la préparation au déploiement.
 
 ## Vue d’ensemble {#overview}
 
@@ -43,7 +52,7 @@ Il est important que toutes les parties prenantes comprennent ce dont l’intég
 >
 >L’identification à grande échelle d’un intégrateur ou intégratrice audiovisuel ayant une expertise dans la gestion de projets des déploiements de signalétique numérique est importante pour le succès à long terme. Il est suggéré de comparer les plans de projet entre l’intégrateur ou l’intégratrice audiovisuel et la personne en charge de l’implémentation d’AEM. Cela permet d’assurer l’alignement au fur et à mesure de l’élaboration et de la finalisation des plans.
 >
->Les partenaires qui adoptent une approche holistique de la gestion des phases de préproduction, de lancement et de progression du projet aideront votre clientèle finale à tirer le meilleur parti de leur investissement.
+>Les partenaires qui adoptent une approche holistique de la gestion des phases de préproduction, de lancement et de progression du projet aideront votre clientèle finale à tirer le meilleur parti de son investissement.
 
 ## Résumé des trois phases de la gestion de projets {#summary-of-all-three-phases-in-project-management}
 
@@ -51,7 +60,7 @@ Pour garantir la réussite du déploiement de la solution de signalétique numé
 
 ### Activités du Jour 0 {#day-zero-activities}
 
-La première étape est appelée ***Jour 0***. Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires lors de la définition du champ d’application d’un projet. La deuxième étape, ou ***Jour 1***, fait référence à toutes les activités faisant partie de l’effort de déploiement. Enfin, le ***Jour 2*** correspond à l’ensemble des opérations et éléments d’assistance courants dans le cadre de la solution totale.
+La première étape est appelée ***Jour 0***. Cette étape rassemble tous les efforts de prévente et d’investigation nécessaires lors de la définition de la portée d’un projet. La deuxième étape, ou ***Jour 1***, fait référence à toutes les activités faisant partie de l’effort de déploiement. Enfin, le ***Jour 2*** correspond à l’ensemble des opérations et éléments d’assistance courants dans le cadre de la solution totale.
 
 Les activités du ***Jour zéro*** comprennent la phase de prévente, la détection des clients, l’analyse des besoins en applications et la définition de la portée du projet. Cette étape peut également inclure l’engagement initial et la définition des besoins du projet pour la gestion de projet, et ce en vue du déploiement.
 
@@ -70,7 +79,7 @@ Toutes les ***Jour zéro*** se composent de huit étapes clés couvrant tous les
 
 La deuxième étape, ou ***Jour 1***, fait référence à toutes les activités faisant partie de l’effort de déploiement. Un autre document technique important pour un projet réussi est le diagramme de Gantt de déploiement.
 
-Une réunion de lancement est programmée pour confirmer qu’une opportunité de vente évolue vers un projet :
+Lorsqu’une opportunité évolue vers un projet, une réunion de lancement est programmée pour confirmer :
 
 * Budget préliminaire
 * Jalons et interdépendances du projet
@@ -84,7 +93,7 @@ Une réunion de lancement est programmée pour confirmer qu’une opportunité d
 
 La dernière partie d’une initiative de Jour 1 consiste en la passation au centre des opérations réseau. Si un projet terminé comprend des services et une assistance du jour 2, la personne chargée de la gestion du projet organise une réunion de passation au centre des opérations réseau avec les personnes chargées de la supervision de ces équipes.
 
-Cette réunion rassemble principalement des personnes qui représentent l’intégrateur ou intégratrice audiovisuel en charge de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les personnes qui représentent la gestion de projets d’Adobe, la personne en charge de l’implémentation d’AEM et la clientèle finale interviennent généralement en tandem, avec l’intégrateur ou intégratrice audiovisuel qui définit le planning, la cadence et les « toll gates » (points de contrôle). Les personnes chargées de la gestion de projets sont généralement les mieux placées pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d’assistance essentielle sera probablement fournie par l’ingénierie informatique et/ou audiovisuelle, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour la clientèle qui a besoin du soutien d’un centre d’assistance fourni par un centre des opérations réseau, la documentation devra être fournie aux personnes chargées de la supervision du centre afin qu’elles la chargent sur une plateforme de base de connaissances.
+Cette réunion rassemble principalement des personnes qui représentent l’intégrateur ou intégratrice audiovisuel en charge de la gestion de compte, des opérations réseau, de la logistique sur le terrain, des services de contenu et de la comptabilité. Les personnes qui représentent la gestion de projets d’Adobe, la personne en charge de l’implémentation d’AEM et la clientèle finale interviennent généralement en tandem, avec l’intégrateur ou intégratrice audiovisuel qui définit le planning, la cadence et les « toll gates » (points de contrôle). Les personnes chargées de la gestion de projets sont généralement les mieux placées pour coordonner les discussions afin d’assurer l’alignement des parties concernées et d’élaborer la documentation requise pour la réunion de passation au centre des opérations réseau. La documentation d’assistance critique sera probablement fournie par l’ingénierie IT et/ou audiovisuelle, en plus des ressources de ventes et de gestion de compte de toutes les parties concernées. Pour la clientèle qui a besoin du soutien d’un centre d’assistance fourni par un centre des opérations réseau, la documentation devra être fournie aux personnes chargées de la supervision du centre afin qu’elles la chargent sur une plateforme de base de connaissances.
 
 ## Partie 4 : tutoriel vidéo sur la gestion de projets et le déploiement {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -92,7 +101,7 @@ Découvrez les principes de la préparation du déploiement et de la gestion de 
 
 ### Gestion de projet et déploiement
 
->[!VIDEO](https://video.tv.adobe.com/v/32793?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Apprenez-en plus sur la gestion de projet et la préparation du déploiement (préproduction du projet, lancement du projet, progression du projet).*
 

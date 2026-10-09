@@ -1,6 +1,6 @@
 ---
 title: Implémenter Cloud Player
-description: Découvrez comment mettre en œuvre Cloud Player.
+description: Découvrez la mise en œuvre du Cloud Player.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -8,35 +8,41 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-TQID: https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg
+TQID: 'https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '955'
 ht-degree: 94%
-
 ---
-
 # Implémenter Cloud Player {#implementing-cloud-player}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 AEM Screens propose traditionnellement des applications de lecteur natives distinctes pour différentes plateformes, notamment ChromeOS, Windows, Android™ et `Tizen`. Cependant, en réponse aux besoins changeants de nos utilisateurs et utilisatrices, nous avons introduit une solution innovante : Cloud Player AEM Screens.
 
-Cloud Player représente une différence significative par rapport à nos applications natives précédentes. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Grâce à cette approche transformatrice, nos clientes et clients disposent d’un lecteur indépendant des plateformes qui s’exécute directement dans un navigateur web.
+Le Cloud Player représente une différence significative par rapport aux précédentes applications natives d’Adobe. Il s’agit d’une application web progressive (PWA), hébergée sur un serveur. Grâce à cette approche transformatrice, nos clientes et clients disposent d’un lecteur indépendant des plateformes qui s’exécute directement dans un navigateur web.
 
 L’accès à Cloud Player est aussi simple que de consulter `https://player.adobescreens.com`. Les utilisateurs et utilisatrices peuvent l’installer sur leur appareil, quelle que soit la plateforme, et profiter d’une expérience de signalétique numérique transparente. La compatibilité du lecteur cloud dépend de la présence d’un navigateur moderne avec prise en charge des PWA, assurant des performances homogènes sur divers appareils. Dites adieu aux mises à jour manuelles et bonjour à un lecteur qui fournit automatiquement des correctifs et des fonctionnalités, en vous assurant que vous disposez toujours des dernières fonctionnalités à portée de main. Ce passage à un lecteur cloud PWA marque une évolution passionnante de nos offres de signalétique numérique et rend le lecteur plus accessible, polyvalent et convivial que jamais.
 
-Cette section décrit l’implémentation de Cloud Player.
+Cette section décrit comment mettre en œuvre le Cloud Player.
 
 >[!NOTE]
 >
@@ -97,17 +103,17 @@ En fonction du type d’instance AEM, cliquez sur l’un des guides suivants pou
 >
 >1. Applications Chrome sur le matériel Chrome OS :
 >
->   Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Cloud Player Screens.
+>   Google abandonne activement les applications Chrome au profit des applications PWA, avec une migration prévue jusqu’en janvier 2025. Par conséquent, l’application du lecteur AEM Screens sous Chrome OS ne fonctionne plus en fonction de la chronologie partagée. Adobe invite les utilisateurs et utilisatrices qui utilisent actuellement le lecteur Chrome en production à planifier leur transition vers Screens Cloud Player.
 >
 >1. Lecteur d’extension Chrome sur Mac, Windows et Linux® :
 >
->   En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Cloud Player Screens pour toutes vos exigences de développement et de test.
+>   En raison du processus d’obsolescence de Google, à partir de la version 114 de Google Chrome, le lecteur d’extension Chrome Screens n’est plus pris en charge. Nous vous conseillons vivement de passer à Screens Cloud Player pour toutes vos exigences de développement et de test.
 
 ## Prise en charge hors ligne de la récupération de contenu externe {#offline-support}
 
 Dans divers scénarios d’utilisation, les canaux peuvent nécessiter la récupération de contenu à partir d’une source externe (par exemple, des widgets météorologiques ou des applications monopages intégrées à Commerce) qui ne peuvent pas, par nature, fournir une prise en charge hors ligne. Pour activer la fonctionnalité hors ligne pour ces cas d’utilisation spécifiques, le lecteur cloud prend en charge l’en-tête personnalisé.
 
-Cloud Player utilise une stratégie de mise en cache favorisant le réseau (Network First), ce qui signifie qu’il tente de récupérer du contenu du réseau (puis de mettre à jour le cache avec la dernière version), avant de revenir au contenu mis en cache s’il est disponible. Pour mettre en œuvre la prise en charge hors ligne de cette récupération de contenu, l’en-tête personnalisé doit être inclus dans la requête. Ensuite, la requête avec l’en-tête personnalisé sera mise en cache sur le lecteur, ce qui facilite l’accès hors ligne au contenu tout en conservant la stratégie de mise en cache Network First (réseau en priorité).
+Cloud Player utilise une stratégie de mise en cache favorisant le réseau (Network First), ce qui signifie qu’il tente de récupérer du contenu du réseau (puis de mettre à jour le cache avec la dernière version), avant de revenir au contenu mis en cache s’il est disponible. Pour mettre en œuvre la prise en charge hors ligne de cette récupération de contenu, l’en-tête personnalisé doit être inclus dans la demande. Ensuite, la requête avec l’en-tête personnalisé sera mise en cache sur le lecteur, ce qui facilite l’accès hors ligne au contenu tout en conservant la stratégie de mise en cache Network First (réseau en priorité).
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header

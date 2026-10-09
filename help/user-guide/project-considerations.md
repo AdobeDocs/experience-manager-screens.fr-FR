@@ -1,6 +1,6 @@
 ---
 title: 'Partie 2 : observations dans le cadre de la définition de la portée du projet'
-description: Découvrez la stratégie de contenu, les couches E/S, les types de ressources et la segmentation d’audience dans AEM Screens. Découvrez les parties de la journée, les exigences opérationnelles et les considérations de préparation du site.
+description: Découvrez la stratégie de contenu, les couches E/S, les types de ressources et la segmentation d’audience dans AEM Screens. Découvrez les parties de la journée, les exigences des opérations métier et les considérations de préparation du site.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -10,40 +10,52 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-TQID: https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8
+TQID: 'https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Audience segmentation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: '704'
 ht-degree: 92%
-
 ---
-
 # Partie 2 : observations dans le cadre de la définition de la portée du projet {#part-considerations-as-projects-are-scoped}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Cette page présente le deuxième volet d’une série de cinq articles, qui est conçu pour aider les membres de l’équipe à mieux comprendre les aspects d’avant-vente pour réussir le développement de déploiements AEM Screens.
+Cette page présente le deuxième volet d’une série en cinq parties conçue pour aider les membres de l’équipe à mieux comprendre les aspects d’avant-vente liés à la mise en œuvre réussie de déploiements AEM Screens.
 
 ## Vue d’ensemble {#overview}
 
-Le tutoriel suivant couvre les éléments qui doivent être identifiés lors de la découverte du projet. Il couvre également les contributions des parties prenantes pour évaluer le projet et les préparatifs nécessaires à une conception appropriée.
+Le tutoriel suivant couvre les éléments qui doivent être identifiés lors de la phase de découverte du projet. Il couvre également les contributions des parties prenantes pour évaluer le projet et les préparatifs nécessaires à une conception appropriée.
 
-Les principaux composants requis pour réussir un déploiement de programme de signalétique numérique sont les suivants :
+Les principaux composants d’un programme de signalétique numérique requis pour réussir un déploiement sont les suivants :
 
 * Stratégie de contenu
 * Exigences opérationnelles
@@ -75,11 +87,11 @@ Pour vous aider à comprendre l’intention de la clientèle finale concernant l
 * Quelles sont les exigences de résolution d’image ?
 * Les écrans ont-ils des proportions 16:9 standard ou sont-ils personnalisés ? Portrait ou Paysage ?
 * Des murs vidéo multiécrans sont-ils requis ? Dans ce cas, quelles sont les configurations ?
-* Le contenu est-il lié aux recettes d’exploitation ou de publicité et nécessite-t-il des stratégies de basculement pour éviter les temps d’inactivité ?
+* Le contenu est-il lié aux revenus d’exploitation ou de publicité et nécessite-t-il des stratégies de basculement pour éviter les temps d’inactivité ?
 
-### Segmentation de l’audience, tranches horaires {#audience-segmentation-day-parts}
+### Segmentation d’audience, tranches horaires {#audience-segmentation-day-parts}
 
-L’inclusion de stratégies de tranches horaires peut permettre aux clientes et clients finaux de segmenter leur contenu. Cela peut vous aider à cibler les messages vers la bonne audience au bon moment. Cette fonctionnalité s’avère particulièrement efficace pour les réseaux de publicité ou de vente au détail avec une liste de lecture faisant appel à de nombreux contributeurs et contributrices de contenu.
+L’inclusion de stratégies de tranches horaires peut permettre aux clientes et clients finaux de segmenter leur contenu. Cela peut vous aider à cibler les messages vers la bonne audience au bon moment. Cette fonctionnalité s’avère particulièrement efficace pour les réseaux de publicité ou de vente au détail où de nombreux contributeurs et contributrices de contenu constituent l’ensemble d’une playlist.
 
 ### Exigences opérationnelles {#business-operations-requirements}
 
@@ -91,7 +103,7 @@ Les scénarios de montage doivent également être définis, tout comme les cons
 
 ### Préparation du site {#site-readiness}
 
-La dernière étape du processus d’avant-vente consiste à déterminer l’état de préparation du site. La préparation peut être facilité par des enquêtes sur le site qui capturent les détails du site, du projet et de l’avancement. L’état de préparation du site capture essentiellement l’état actuel d’un emplacement avant l’installation, en reprenant tous les éléments que la clientèle doit préparer ou prévoir de traiter avant l’arrivée d’un technicien ou d’une technicienne. En général, cette liste de contrôle comprend des éléments tels que l’électricité, les données, l’enlèvement des meubles et l’élimination de la poussière.
+La dernière étape du processus d’avant-vente consiste à déterminer l’état de préparation du site. La préparation peut être facilitée par des relevés sur site qui capturent les détails du site, du projet et de l’avancement. L’état de préparation du site capture essentiellement l’état actuel d’un emplacement avant l’installation, en reprenant tous les éléments que la clientèle doit préparer ou prévoir de traiter avant l’arrivée d’un technicien ou d’une technicienne. En général, cette liste de contrôle comprend des éléments tels que l’électricité, les données, l’enlèvement des meubles et l’élimination de la poussière.
 
 ## Partie 2 : tutoriel vidéo sur les observations dans le cadre de la définition de la portée du projet {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
@@ -105,7 +117,7 @@ Suivez le tutoriel ci-dessous pour en savoir plus sur la stratégie de contenu, 
 
 ## Étape suivante {#the-next-step}
 
-Comprenez les éléments qui sont identifiés lors de la découverte du projet, ainsi que des contributions des parties prenantes pour évaluer le projet et préparer une conception appropriée. Découvrez les principaux termes utilisés dans un plan de projet global. Ces termes comprennent le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
+Comprenez les éléments qui sont identifiés lors de la découverte du projet, ainsi que les contributions des parties prenantes pour évaluer le projet et préparer une conception appropriée. Découvrez les principaux termes utilisés dans un plan de projet global. Ces termes comprennent le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
 
 Pour plus d’informations, consultez **[Tests, PDV, pilotes et déploiements](testing-pocs-pilots-rollouts.md)**.
 

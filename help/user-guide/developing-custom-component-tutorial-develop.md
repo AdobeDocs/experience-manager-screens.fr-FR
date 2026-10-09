@@ -9,28 +9,35 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+TQID: 'https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Content structure
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2414
+source-wordcount: '2414'
 ht-degree: 96%
-
 ---
-
 # Développer un composant personnalisé pour AEM Screens {#developing-a-custom-component-for-aem-screens}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Le tutoriel suivant décrit les étapes à suivre pour créer un composant personnalisé pour AEM Screens. AEM Screens réutilise de nombreux modèles de conception et technologies existants d’autres produits AEM. Ce tutoriel met en évidence les différences et les considérations spéciales lors du développement pour AEM Screens.
 
@@ -60,7 +67,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    [Obtenir le fichier](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack;Obtenir le fichier
+   [Obtenir le fichier](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **Facultatif** Si vous travaillez avec Eclipse ou un autre IDE, vous pouvez télécharger le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
 
    **`mvn -PautoInstallPackage clean install`**
@@ -84,7 +91,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    >[!NOTE]
    >
-   >Dans ce tutoriel, aucun code Java™ n’est écrit. Si une logique commerciale plus complexe est nécessaire, Java™ back-end peut être créé et déployé à l’aide du lot Java™ principal.
+   >Dans ce tutoriel, aucun code Java™ n’est écrit. Si une logique métier plus complexe est nécessaire, Java™ back-end peut être créé et déployé à l’aide du bundle Core Java™.
 
    ![Représentation du code ui.apps dans CRXDE Lite](assets/uipps-contents.png)
 
@@ -98,7 +105,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet `We.Retail` Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu de tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle des sources.
+   Ce package contient le contenu de départ et la structure de configuration nécessaires pour le projet. **`/conf/we-retail-run`** contient toutes les configurations pour le projet `We.Retail` Run. **`/content/dam/we-retail-run`** inclut les ressources numériques de départ pour le projet. **`/content/screens/we-retail-run`** contient la structure de contenu Screens. Le contenu de tous ces chemins est principalement mis à jour dans AEM. Pour assurer la cohérence entre les environnements (local, Dev, Stage, Prod), une structure de contenu de base est souvent enregistrée dans le contrôle de version.
 
 1. **Accédez au projet AEM Screens > `We.Retail` Run :**
 
@@ -203,7 +210,7 @@ AEM Screens présente des contraintes intéressantes qui ne sont pas nécessaire
    </div>
    ```
 
-   Ci-dessus se trouve le balisage de production du composant Hello World. Le premier bloc affiche une version modifiée du composant si le message de boîte de dialogue a été renseigné.
+   Ci-dessus se trouve le balisage modifié du composant Hello World. Le premier bloc affiche une version modifiée du composant si le message de boîte de dialogue a été renseigné.
 
    Le second bloc est rendu si aucun message de boîte de dialogue n’a été saisi. Dans ce cas, `cq-placeholder` et `data-emptytext` peuvent afficher le libellé ***Hello World*** en guise d’espace réservé. La chaîne du libellé peut être internationalisée en utilisant i18n afin de prendre en charge la création pour plusieurs paramètres régionaux.
 
@@ -308,7 +315,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    Propriétés de /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   La propriété catégories est une chaîne qui identifie la bibliothèque cliente. La catégorie cq.screens.components est utilisée en mode d’édition et de prévisualisation/production. Par conséquent, tout fichier CSS ou JS défini dans la bibliothèque sharedclientlib est chargé dans tous les modes.
+   La propriété catégories est une chaîne qui identifie la bibliothèque cliente. La catégorie cq.screens.componentscategory est utilisée à la fois en mode d’édition et en mode de prévisualisation/production. Par conséquent, tout fichier CSS ou JS défini dans la bibliothèque sharedclientlib est chargé dans tous les modes.
 
    En règle générale, tous les chemins d’accès directement vers `/apps` dans un environnement de production ne doivent jamais être exposés. La propriété allowProxy garantit que la bibliothèque cliente CSS et JS est référencée par le biais d’un préfixe de `/etc.clientlibs`.
 
@@ -588,11 +595,11 @@ Si votre composant personnalisé est destiné à inclure d’autres pages ou fra
 1. Au lieu d’étendre directement `foundation/components/parbase`, vous devez étendre l’une des options suivantes : `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
 2. Le nom de la propriété que vous utilisez pour référencer le contenu incorporé doit être `pagePath`.
 
-L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire suivant : prise en charge du regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.). Cette fonctionnalité est assurée au moyen de leurs options de configuration hors ligne dans la boîte de dialogue du composant. Cela réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devriez utiliser pour celui-ci. Cela peut parfois même supprimer complètement la nécessité d’en utiliser un en premier lieu.
+L’utilisation de ces deux composants principaux Screens s’accompagne également de l’avantage supplémentaire suivant : prise en charge du regroupement de certaines des dépendances dont vous avez besoin (bibliothèques côté client, polices, etc.). Cette fonctionnalité est assurée au moyen de leurs options de configuration hors ligne dans la boîte de dialogue du composant. Cela réduit ensuite la responsabilité de tout gestionnaire hors ligne personnalisé que vous devriez utiliser à cette fin. Cela peut parfois même supprimer complètement la nécessité d’en utiliser un en premier lieu.
 
 ## Code terminé {#finished-code}
 
-Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** et **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sont les packages AEM compilés. Le fichier **SRC-screens-weretail-run-0.0.1.zip &#x200B;** est le code source non compilé qui peut être déployé à l’aide de Maven.
+Vous trouverez ci-dessous le code final du tutoriel. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** et **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sont les packages AEM compilés. Le fichier **SRC-screens-weretail-run-0.0.1.zip **est le code source non compilé qui peut être déployé à l’aide de Maven.
 
 [Obtenir le fichier](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
