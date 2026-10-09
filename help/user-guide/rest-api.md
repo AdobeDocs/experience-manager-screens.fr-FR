@@ -41,7 +41,7 @@ ht-degree: 78%
 
 AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux appareils au sein de l’environnement.
 
-L’API est accessible sur [**](http://localhost:4502/api/screens.json).
+L’API est accessible sur [*&#128279;*](http://localhost:4502/api/screens.json).
 
 ## Exploration de la structure de contenu {#navigating-content-structure}
 

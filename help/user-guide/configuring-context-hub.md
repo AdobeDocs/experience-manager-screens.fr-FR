@@ -285,7 +285,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Cliquez sur l’**Opérateur****supérieur à** dans le menu déroulant.
+   1. Cliquez sur l’**Opérateur**&#x200B;**supérieur à** dans le menu déroulant.
 
    1. Saisissez la **Valeur** **70**.
 
@@ -303,7 +303,7 @@ Après avoir configuré un magasin de données et défini votre activité (marqu
 
    1. Dans la boîte de dialogue **Comparer une propriété avec une valeur**, cliquez sur **googlesheets/value/1/0** dans la liste déroulante du **Nom de la propriété**.
 
-   1. Cliquez sur l’**Opérateur****inférieur à** dans le menu déroulant.
+   1. Cliquez sur l’**Opérateur**&#x200B;**inférieur à** dans le menu déroulant.
 
    1. Saisissez la **Valeur** **50**.
 

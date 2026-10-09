@@ -117,7 +117,7 @@ Pour importer un fichier dans un dossier d’emplacement avec un minimum de cham
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Cliquez sur le projet, **DemoProjectImporter**>**Créer**>** Importer des emplacements** depuis la barre latérale.
+1. Cliquez sur le projet, **DemoProjectImporter**>**Créer**>**&#x200B; Importer des emplacements** depuis la barre latérale.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

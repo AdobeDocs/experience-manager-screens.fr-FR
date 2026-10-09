@@ -86,7 +86,7 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
 
 1. La migration de ContentSync vers SmartSync nécessite de vider le cache ContentSync avant d’activer SmartSync.
 
-   Accédez à la console ContentSync à partir de votre instance à l’aide du lien ****** puis cliquez sur **Effacer le cache**, comme illustré ci-dessous :
+   Accédez à la console ContentSync à partir de votre instance à l’aide du lien **&#x200B;**&#x200B;**&#x200B; puis cliquez sur &#x200B;** Effacer le cache**, comme illustré ci-dessous :
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 

@@ -162,11 +162,11 @@ Suivez les étapes ci-dessous pour appliquer le contenu de **`We.Retail`** dans 
 
    e. Cliquez sur le composant **Fragment d’expérience**, puis sur l’icône en haut à gauche (clé à molette) pour ouvrir la boîte de dialogue **Fragment d’expérience**.
 
-   f. Cliquez sur la Live Copy **** du fragment que vous avez créé à l’*étape 3* dans **Chemin d’accès**.
+   f. Cliquez sur la Live Copy **&#x200B;**&#x200B;du fragment que vous avez créé à l’*étape 3* dans **Chemin d’accès**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Cliquez sur la Live Copy **** du fragment que vous avez créé à l’*étape 3* dans le **fragment d’expérience**.
+   f. Cliquez sur la Live Copy **&#x200B;**&#x200B;du fragment que vous avez créé à l’*étape 3* dans le **fragment d’expérience**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
