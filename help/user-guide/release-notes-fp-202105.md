@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour du pack de fonctionnalités 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -27,7 +32,7 @@ ht-degree: 100%
 
 ## Disponibilité {#availability}
 
-Le Feature Pack 8 d’AEM 6.5 a été publié pour AEM Screens.
+Le Pack de fonctionnalités 8 d’AEM 6.5 a été publié pour AEM Screens.
 
 Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens 6.5.8 à partir du [Portail de distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en utilisant votre Adobe ID. Accédez à l’onglet **Adobe Experience Manager** et recherchez **Screens** pour obtenir le dernier pack de fonctionnalités appelé **AEM 6.5 Screens FP8**.
 
@@ -36,7 +41,7 @@ Vous pouvez télécharger le dernier pack de fonctionnalités pour AEM Screens�
 
 ## Date de publication {#release-date}
 
-La date de publication du Feature Pack 202105 d’AEM Screens est le 4 juin 2021.
+La date de publication du Pack de fonctionnalités 202105 d’AEM Screens est le 4 juin 2021.
 
 ### Nouveautés {#what-is-new}
 
@@ -47,27 +52,27 @@ La date de publication du Feature Pack 202105 d’AEM Screens est le 4 juin�
 * **Nommage d’un appareil de lecteur AEM Screens**
 
   Les lecteurs AEM Screens comprennent désormais la possibilité d’envoyer un nom d’appareil à Adobe Experience Manager (AEM).
-Par défaut, lorsque l’enregistrement en bloc est utilisé pour enregistrer un appareil, un nom d’utilisateur ou d’utilisatrice généré par le système est saisi dans le champ du titre. Un client ou une cliente peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
+  Par défaut, lorsque l’enregistrement en bloc est utilisé pour enregistrer un appareil, un nom d’utilisateur ou d’utilisatrice généré par le système est saisi dans le champ du titre. Un client ou une cliente peut également utiliser une balise de ressource ou un autre nom convivial afin qu’il soit visible dans AEM et qu’il soit plus facile d’attribuer le contenu approprié.
 
   Reportez-vous à la documentation suivante pour obtenir des informations sur la manière dont configurer le nom dans chaque système d’exploitation pris en charge :
 
-   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [Android™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Génération de manifeste**
 
-  Génération plus rapide d’un manifeste de canal avec de meilleures performances, permettant de diminuer l’allocation de ressources nécessaire pour le serveur.
+  Génération plus rapide d’un manifeste de canal avec de meilleures performances, notamment grâce à l’allocation de moins de ressources sur le serveur.
 
 ### Correctifs {#bug-fixes}
 
 * Le lecteur affichait un écran noir lors du passage à un canal contenant une séquence incorporée dynamique.
-* Les lecteurs Screens bloquent désormais le passage vers un canal rompu, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
+* Les lecteurs Screens bloquent désormais le passage vers tout canal défectueux, ce qui permet d’éviter une erreur 404 ou une page contenant un message d’erreur.
 
 ### Lecteurs AEM Screens publiés
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 8 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Pack de fonctionnalités 8 :
 
 * ChromeOS
 * Windows

@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
+TQID: 'https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -14,9 +14,13 @@ product_v2:
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
     internal-label: Authoring Screens
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
     internal-label: Content
+  - id: dd61f770-f8ea-40b1-a514-7e4cb7480bc4
+    internal-label: Asset Level Activation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -28,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 83%
@@ -105,7 +109,7 @@ Suivez les étapes ci-dessous pour effectuer une planification au niveau des res
 
 ## Gestion de la périodicité pour les ressources {#handling-recurrence-in-assets}
 
-Vous pouvez planifier l’activation périodique des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
+Vous pouvez planifier la récurrence des ressources à certains intervalles, tous les jours, toutes les semaines ou tous les mois, selon vos besoins.
 
 Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h à 22 h. Vous pouvez utiliser l’onglet **Activation** pour définir l’intervalle de périodicité souhaité pour votre ressource.
 
@@ -113,7 +117,7 @@ Supposons que vous souhaitiez afficher une image uniquement le vendredi de 13 h 
 
 1. Cliquez sur la ressource et sur l’icône **Configurer** (en forme de clé à molette) pour ouvrir la boîte de dialogue des propriétés.
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planning de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Planifications, selon vos besoins.
@@ -139,7 +143,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planning de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
@@ -164,7 +168,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planning de récurrence.
 
    >[!NOTE]
    >Vous pouvez ignorer ou inclure les champs **Actif à partir de** et **Actif jusqu’à** et ajouter l’expression au champ Plannings, selon vos besoins.
@@ -188,7 +192,7 @@ Le tableau suivant récapitule quelques exemples d’expressions que vous pouvez
 
 1. Cliquez sur la ressource, puis sur **Configurer** (icône de clé à molette).
 
-1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planification de récurrence.
+1. Après avoir saisi la date et l’heure de début et la date et l’heure de fin, vous pouvez utiliser une expression ou une version en langage naturel pour spécifier votre planning de récurrence.
 
 >[!NOTE]
 >
@@ -223,7 +227,7 @@ L’***activation multiressource*** permet à la personne de cliquer sur plusieu
 
 ### Conditions préalables {#prerequisites}
 
-Pour utiliser l’activation de plusieurs ressources, créez un projet AEM Screens avec un canal de séquence. Par exemple, le cas d’utilisation suivant montre l’implémentation de la fonctionnalité :
+Pour utiliser l’activation de plusieurs ressources, créez un projet AEM Screens avec un canal de séquence. Par exemple, le cas d’usage suivant montre la mise en œuvre de la fonctionnalité :
 
 * Créez un projet AEM Screens intitulé **MultiAssetDemo**.
 * Créez un canal intitulé **MultiAssetChannel** et ajoutez du contenu au canal, comme illustré ci-dessous.

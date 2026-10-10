@@ -5,23 +5,31 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
+TQID: 'https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: c5322876-5f25-5295-aae6-7dbbb1548c49
+    internal-label: Players
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1274
+source-wordcount: '1274'
 ht-degree: 90%
-
 ---
-
 # Implémentation du lecteur Tizen {#tizen-player}
 
 >[!IMPORTANT]
@@ -67,7 +75,7 @@ Pour configurer le nom dans le lecteur Tizen, procédez comme suit :
 
 Suivez les étapes ci-dessous sur l’appareil Samsung pour finaliser l’installation du lecteur AEM Screens sur cet appareil :
 
-1. Accédez à votre appareil Samsung et activez-le.
+1. Accédez à votre appareil Samsung et allumez-le.
 1. Cliquez sur le bouton **MENU** de la télécommande de l’appareil et faites défiler la liste jusqu’à **System** (Système) dans la barre de navigation de gauche.
 1. Faites défiler la page vers le bas et cliquez sur l’option **Lecture via** et sélectionnez l’option **Lanceur d’URL**.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
@@ -75,7 +83,7 @@ Suivez les étapes ci-dessous sur l’appareil Samsung pour finaliser l’instal
 1. Accédez à **Paramètres du lanceur d’URL**, saisissez l’adresse IP de votre serveur hôte local et cliquez sur **Terminé**.
 
    >[!NOTE]
-   >Le lecteur Tizen doit maintenant pouvoir se connecter au serveur HTTP.
+   >Le lecteur Tizen doit pouvoir se connecter au serveur HTTP.
 
 1. Le lecteur AEM Screens est automatiquement installé et lancé sur votre appareil Samsung.
 
@@ -92,7 +100,7 @@ Suivez les étapes ci-dessous sur l’appareil Samsung pour finaliser l’instal
 
 Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l’utilisation de l’attribut *SameSite=None* :
 
-1. Mettez à niveau vers le Service Pack Adobe Experience Manager (AEM) 6.5.7.
+1. Mettez à niveau vers le Pack de services Adobe Experience Manager (AEM) 6.5.7.
 
 1. Une fois AEM redémarré, accédez à `/system/console/configMgr` et recherchez **Adobe Granite Token Authentication Handler**. Définissez la valeur **SameSite** sur **None**.
 
@@ -106,11 +114,13 @@ Suivez les étapes ci-dessous pour exempter ces clients incompatibles lors de l�
 
 ## Approvisionnement à distance du lecteur Tizen {#remote-provisioning}
 
-L’approvisionnement à distance du lecteur Tizen vous permet de déployer des centaines, voire des milliers d’appareils utilisant Samsung Tizen sans effort. Cela évite d’avoir à configurer manuellement chaque lecteur avec l’URL du serveur et le code d’enregistrement en bloc, ou d’autres paramètres. Si AEM Screens as a Cloud Service est présent, configurez le mode cloud et le jeton cloud.
+L’approvisionnement à distance du lecteur Tizen vous permet de déployer des centaines, voire des milliers d’écrans Samsung Tizen sans effort. Cela évite d’avoir à configurer manuellement chaque lecteur avec l’URL du serveur et le code d’enregistrement en bloc, ou d’autres paramètres. Si AEM Screens as a Cloud Service est présent, configurez le mode cloud et le jeton cloud.
 
 Cette fonctionnalité vous permet de configurer à distance le lecteur Tizen et de mettre à jour ces configurations de manière centralisée, si nécessaire. Tout ce dont vous avez besoin est le serveur `HTTP` utilisé pour héberger l’application Tizen `(wgt and xml file)` et un éditeur de texte pour enregistrer le code `config.json` avec les paramètres appropriés.
 
-Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
+Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur l’appareil Tizen. Cliquez sur le bouton Accueil > Paramètres du lanceur d’URL.
+Sur le serveur `HTTP` qui héberge l’application Tizen, placez le fichier `config.json` au même emplacement que le fichier `wgt`. Le nom du fichier doit être `config.json`.
+Le lecteur Tizen s’installe et, au lancement (et à chaque redémarrage), vérifie et applique les paramètres du fichier `config.json`.
 
 ### Exemple de politique JSON {#example-json}
 
@@ -129,7 +139,8 @@ Assurez-vous d’avoir configuré l’adresse du lanceur d’URL sur l’apparei
 Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 
 >[!NOTE]
->Les configurations de la politique de l’interface d’administration du lecteur sont appliquées de manière stricte et ne peuvent pas être remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politiques sont lues chaque fois que le lecteur se recharge.
+>Les configurations de la politique de l’interface d’administration du lecteur sont appliquées de manière stricte et ne peuvent pas être remplacées manuellement. Pour autoriser la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la configuration de politique.
+>Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé `rebootSchedule` dans la configuration de politique. Les configurations de politique sont lues chaque fois que le lecteur se recharge.
 
 | **Nom de la politique** | **Objectif** |
 |---|---|
@@ -138,8 +149,8 @@ Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
-| enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
+| enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices puissent passer d’un canal à l’autre sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | cloudMode | Définissez cette variable sur true si vous souhaitez que le lecteur Tizen se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 

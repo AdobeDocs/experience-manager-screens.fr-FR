@@ -9,29 +9,35 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-TQID: https://experienceleague.adobe.com/IcNjhNopq8ep0ovZWrmJHBkcsj3h-Ws0xZ2qCu5aLQ0
+TQID: 'https://experienceleague.adobe.com/IcNjhNopq8ep0ovZWrmJHBkcsj3h-Ws0xZ2qCu5aLQ0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: '1170'
 ht-degree: 91%
-
 ---
-
 # Utiliser le lecteur AEM Screens
 
 >[!IMPORTANT]
 >Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Vous pouvez gérer le contenu du canal et d’autres paramètres sur l’écran AEM Screens.
+Vous pouvez gérer le contenu du canal et d’autres paramètres sur le lecteur AEM Screens.
 
 >[!NOTE]
 >
@@ -41,7 +47,7 @@ Une fois que vous avez attribué un canal à un affichage, le lecteur AEM Scree
 
 ## Utiliser le tableau de bord de l’appareil {#using-the-device-dashboard}
 
-Vous pouvez configurer les préférences de votre appareil à partir de son tableau de bord, accessible via votre instance de création AEM.
+Vous pouvez configurer les préférences de votre appareil à partir du tableau de bord de l’appareil, accessible via votre instance de création AEM.
 
 1. Accédez au tableau de bord de l’appareil à partir de votre projet, par exemple, ***Projet de test*** > ***Appareils***.
 
@@ -61,7 +67,7 @@ Vous pouvez configurer les préférences de votre appareil à partir de son tabl
 
 En activant l’**interface utilisateur d’administration** à partir du panneau Préférences, l’utilisateur ou l’utilisatrice peut ouvrir les paramètres d’administrateur du lecteur Screens. En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ou l’utilisatrice ne peut pas ouvrir l’interface d’utilisation de l’administration à partir du lecteur.
 
-Pour afficher l’interface d’utilisation de l’administration du lecteur Screens, appuyez longuement sur l’angle supérieur gauche afin d’ouvrir le menu d’administration, sur votre lecteur AEM Screens optimisé pour les écrans tactiles ou en utilisant la souris. Les informations s’affichent une fois l’enregistrement terminé et les canaux chargés.
+Pour afficher l’interface d’utilisation de l’administration à partir du lecteur AEM Screens, appuyez longuement sur l’angle supérieur gauche afin d’ouvrir le menu d’administration, sur votre lecteur AEM Screens optimisé pour les écrans tactiles ou en utilisant la souris. Les informations s’affichent une fois l’enregistrement terminé et les canaux chargés.
 
 >[!NOTE]
 >
@@ -109,7 +115,7 @@ En activant le **sélecteur de canal** à partir du panneau Préférences, l’u
 
 En outre, si vous désactivez cette option dans le tableau de bord de l’appareil, l’utilisateur ou l’utilisatrice ne peut pas contrôler les préférences de canal à partir du lecteur Screens.
 
-Vous pouvez permuter et contrôler les paramètres de votre canal à partir de votre lecteur Screens.
+Vous pouvez modifier et contrôler les paramètres de votre canal à partir de votre lecteur AEM Screens.
 
 Pour afficher le sélecteur de canal à partir du lecteur, appuyez longuement sur le coin inférieur gauche afin d’ouvrir le sélecteur de canal qui permet de basculer entre les canaux et d’autres fonctionnalités.
 
@@ -121,9 +127,9 @@ Pour afficher le sélecteur de canal à partir du lecteur, appuyez longuement su
 >
 >(Voir *Modification des préférences à partir du lecteur Screens* comme mentionné dans la section ci-dessous.)
 
-### Gestions des préférences à partir du lecteur AEM Screens
+### Gérer les préférences à partir du lecteur AEM Screens
 
-Vous pouvez également modifier les paramètres de l’interface d’utilisation de l’administration et le sélecteur de canal à partir du lecteur.
+Vous pouvez également modifier les paramètres de l’interface d’utilisation de l’administration et du sélecteur de canal à partir du lecteur.
 
 Pour modifier les préférences du lecteur :
 
@@ -142,8 +148,8 @@ Vous pouvez résoudre de nombreux problèmes liés au lecteur AEM Screens (mat�
 | L’espace de stockage du lecteur est plein | Éliminez les fichiers inutiles |
 | Le lecteur a perdu le réseau | Utilisez un câble Cat-5 ou Cat-6. Pour une connexion Wi-Fi, réduisez la distance entre le routeur et l’appareil de lecture. |
 | Le lecteur AEM Screens s’est bloqué | Il est recommandé de disposer d’une application de contrôle qui vérifie que le lecteur AEM Screens fonctionne toujours. |
-| Perte des paramètres du lecteur AEM Screens | Vérifiez la connexion au serveur AEM |
-| Le lecteur AEM Screens ne démarre pas automatiquement après le redémarrage du lecteur. | Vérifiez le dossier de démarrage ou la procédure d’initialisation du système d’exploitation. |
+| Perte des paramètres du lecteur AEM Screens | Vérifier la connexion au serveur AEM |
+| Le lecteur AEM Screens ne démarre pas automatiquement après le redémarrage du lecteur ou un redémarrage du système. | Vérifier le dossier de démarrage ou la procédure d’initialisation du système d’exploitation |
 | Le lecteur AEM Screens affiche un contenu erroné ou obsolète. | Vérifiez la connexion réseau. |
 
 ### Mises à jour du lecteur AEM Screens
@@ -153,7 +159,7 @@ Il existe deux types de mises à jour du lecteur AEM Screens :
 | **Méthode** | **Détails** | **À distance** | **Automatique** | **0 temps d’arrêt** |
 |---|---|---|---|---|
 | Mise à jour du micrologiciel | Application sur les lecteurs existants installés via la commande à distance. Après la mise à jour, le lecteur se rechargera automatiquement avec le contenu existant. | Oui | Personnalisé | Presque - 1 à 3 secondes |
-| Mises à jour du shell du lecteur | Un nouveau fichier exécutable déployé sur le lecteur. Cette fonctionnalité nécessite de copier à distance le nouveau fichier binaire sur le lecteur, arrêter l’exécution en cours et démarrer la nouvelle version. Cela peut nécessiter un nouveau téléchargement du préchargement des packages. | Oui (par shell distant) | Personnalisé | Non |
+| Mises à jour du shell du lecteur | Un nouveau fichier exécutable déployé sur le lecteur. Cette fonctionnalité nécessite de copier à distance le nouveau fichier binaire sur le lecteur, d’arrêter la version en cours d’exécution et de démarrer la nouvelle version. Cela peut nécessiter un nouveau téléchargement du préchargement des packages. | Oui (par shell distant) | Personnalisé | Non |
 
 ## Instructions de sélection du matériel pour les appareils de lecture {#hardware-selection-guidelines-for-player-device}
 
@@ -167,7 +173,7 @@ La section suivante présente les directives de sélection du matériel pour un 
 
 * Adressez-vous toujours à des fournisseurs qui desservent le marché de la signalétique numérique.
 * Tenez toujours compte des facteurs environnementaux, tels que la température ambiante et l&#39;humidité relative.
-* Examinez toujours les exigences en matière d’alimentation et de conditionnement d’alimentation.
+* Examinez toujours les exigences en matière d’alimentation et de conditionnement électrique.
 * Examinez attentivement les besoins en performances et les ports d’E/S requis pour l’application.
 
 Le tableau suivant récapitule les configurations matérielles avec les cas d’utilisation standard d’un projet AEM Screens :
@@ -215,7 +221,7 @@ Le tableau suivant récapitule les configurations matérielles avec les cas d’
   </tr>
   <tr>
    <td>Avancé</td>
-   <td>Processeur Intel® Core i7 quadri-cœur avec hyperthreading</td>
+   <td>Processeur Intel® Core™ i7 quadri-cœur avec hyperthreading</td>
    <td><p>16 Go de mémoire</p> <p>8 Mo de cache</p> </td>
    <td>256 Go</td>
    <td>Carte graphique dédiée</td>

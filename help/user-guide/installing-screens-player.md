@@ -6,29 +6,35 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-TQID: https://experienceleague.adobe.com/Lu1KYTTaDEiaC1xP4k0V8KqDVoe5gIzqkut-JB0G4fg
+TQID: 'https://experienceleague.adobe.com/Lu1KYTTaDEiaC1xP4k0V8KqDVoe5gIzqkut-JB0G4fg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Reporting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 552
+source-wordcount: '552'
 ht-degree: 86%
-
 ---
-
 # Installer le lecteur AEM Screens {#installing-player}
 
 >[!IMPORTANT]
 >Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Cette page détaille comment installer un lecteur AEM Screens.
+Cette page détaille comment installer le lecteur AEM Screens.
 
 ## Lecteur Screens disponible {#available-players}
 
@@ -44,7 +50,7 @@ Pour télécharger le **lecteur AEM Screens**, consultez la page des [télécha
 >1. Accédez à **Configuration** à partir du menu d’actions de gauche, saisissez l’adresse de l’emplacement de l’instance AEM dans **Serveur** et cliquez sur **Enregistrer**.
 >1. Cliquez sur le lien **Enregistrement** dans le menu d’actions de gauche et suivez les étapes ci-dessous pour terminer le processus d’enregistrement de l’appareil.
 
-## Suivi de base de la lecture {#playback-monitoring}
+## Su de base de la lecture {#playback-monitoring}
 
 Le lecteur signale différentes mesures de lecture pour chaque `ping` qui correspond par défaut à 30 secondes. En fonction de ces mesures, il peut détecter divers cas de périphérie, tels que des problèmes de lecture bloquée, d’écran vide et de planification. Cela nous permet de comprendre et de résoudre les problèmes liés à l’appareil et d’accélérer ainsi l’examen de vos problèmes et la mise en place de correctifs.
 
@@ -64,14 +70,14 @@ Les propriétés suivantes sont incluses dans chaque `ping` :
 |---|---|
 | id {string} | identifiant du lecteur |
 | {string} activeChannel | chemin du canal en cours de lecture ou valeur nulle si rien n’est planifié |
-| {string} activeElements | chaîne séparée par des virgules, éléments actuellement visibles dans tous les canaux de séquence de lecture (plusieurs dans le cas d’une disposition multizone) |
+| {string} activeElements | chaînes séparées par des virgules, éléments actuellement visibles dans tous les canaux de séquence de lecture (plusieurs dans le cas d’une disposition multizone) |
 | isDefaultContent {boolean} | true si le canal de lecture est considéré comme un canal par défaut ou de secours (c’est-à-dire qu’il a la priorité 1 et aucune planification) |
 | hasContentChanged {boolean} | true si le contenu a changé au cours des 5 dernières minutes, false dans le cas contraire |
 | lastContentChange {string} | date et heure de la dernière modification du contenu |
 
 >[!NOTE]
 >
->Vous pouvez éventuellement activer une propriété plus avancée à partir des préférences du lecteur (activer le suivi de la lecture), à savoir :
+>Vous pouvez éventuellement activer une propriété plus avancée à partir des préférences du lecteur (activer l de la lecture), à savoir :
 >
 >| Propriété | Description |
 >|---|---|

@@ -10,23 +10,34 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-TQID: https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM
+TQID: 'https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+subfeature_v2:
+  - id: ef5105d8-0a6b-481c-9566-0a271822c950
+    internal-label: Windows Player
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: '1201'
 ht-degree: 88%
-
 ---
-
 # Mettre en œuvre le lecteur Windows {#implementing-windows-player}
 
 >[!IMPORTANT]
@@ -58,7 +69,7 @@ Configuration** à l’aide de `http://localhost:4502/system/console/configMgr`.
 
 1. Recherchez *Adobe Granite Token Authentication Handler*.
 
-1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** à **None**.
+1. Changez la valeur de **SameSite attribute for the login-token cookies** de **Lax** en **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Cliquez sur **Save**.
@@ -90,11 +101,11 @@ Pour configurer le nom dans le lecteur Windows, procédez comme suit :
 
 1. Cliquez sur **Démarrer** > **Exécuter**.
 1. Saisissez `system.cpl`.
-1. Utilisez l’onglet du nom d’ordinateur pour définir le nom d’hôte de l’ordinateur.
+1. Utilisez l’onglet Nom de l’ordinateur pour définir le nom d’hôte de l’ordinateur.
 
 ## Modification des options par défaut dans Windows Installer {#changing-default-options}
 
-Suivez cette section pour savoir comment modifier les options par défaut dans Windows Installer et la liste des personnalisations disponibles.
+Consultez cette section pour savoir comment modifier les options par défaut dans Windows Installer et la liste des personnalisations disponibles.
 
 ## Installation à l’aide de l’interface de ligne de commande (PowerShell) {#install-powershell}
 
@@ -139,10 +150,10 @@ Le tableau suivant résume les attributs de politique et inclut un exemple de po
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
-| enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
-| cloudMode | Définissez cette valeur sur true si vous souhaitez que le lecteur Windows se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
-| cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
+| enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices puissent passer d’un canal à l’autre sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
+| cloudMode | Définissez cette valeur sur true si vous souhaitez que le lecteur Windows se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Prem. |
+| cloudToken | Jeton d’enregistrement pour s’enregistrer auprès de Screens as a Cloud Service. |
 
 #### Exemple de fichier JSON de politique {#example-policy-json-file}
 
@@ -163,7 +174,7 @@ Lorsque vous déployez le lecteur Windows, il est important d’activer un mode 
 
 >[!CAUTION]
 >
->Adobe recommande une solution de gestion des appareils pour activer Kiosque pour Windows. Suivez les étapes ci-dessous, si vous ne disposez pas d’une solution de gestion des appareils pour activer le mode Kiosque. Cette méthode utilise la fonction Shell Launcher disponible dans Windows 10 Enterprise et Edu. Vous pouvez également utiliser toute autre méthode recommandée par Microsoft pour les applications non UWP pour activer Kiosque, en particulier sur d’autres éditions de Windows.
+>Adobe recommande une solution de gestion des appareils pour activer Kiosque pour Windows. Suivez les étapes ci-dessous, si vous ne disposez pas d’une solution de gestion des appareils pour activer le mode Kiosque. Cette méthode utilise la fonction Shell Launcher disponible dans Windows 10 Enterprise et Edu. Vous pouvez également utiliser toute autre méthode recommandée par Microsoft pour les applications non UWP pour activer le mode Kiosque, en particulier sur d’autres éditions de Windows.
 
 Pour activer le mode Kiosque, procédez comme suit :
 
@@ -175,7 +186,7 @@ Pour activer le mode Kiosque, procédez comme suit :
 
    Pour plus d’informations, voir ***Configuration de Shell Launcher*** à la page **[Shell Launcher](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** de l’assistance Microsoft® Windows.
 
-1. Créez un utilisateur ou une utilisatrice sans droits d’administration (si vous n’en avez pas déjà) à utiliser pour Kiosque. Il peut s’agir d’un profil utilisateur local ou de domaine.
+1. Créez un utilisateur ou une utilisatrice sans droits d’administration (si vous n’en avez pas déjà) pour le mode Kiosque. Il peut s’agir d’un profil utilisateur local ou de domaine.
 1. Installez le lecteur Windows pour cet utilisateur ou cette utilisatrice Kiosque à partir de la page [Téléchargements du lecteur AEM Screens](https://download.macromedia.com/screens/).
 1. Pour plus d’informations, voir [Utilisation de Shell Launcher pour créer un kiosque Windows 10](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) afin de modifier votre script PowerShell.
 
@@ -196,7 +207,7 @@ L’exemple de script dans les liens active et désactive le shell personnalisé
 
 >[!NOTE]
 >
->Certains environnements Windows restreignent les scripts PowerShell par stratégie, en particulier si les scripts ne sont pas signés. Pour exécuter votre script, désactivez provisoirement cette restriction puis réactivez-la pour exécuter le script. Ouvrez une fenêtre PowerShell et utilisez ces commandes.
+>Certains environnements Windows restreignent les scripts PowerShell par stratégie, en particulier si les scripts ne sont pas signés. Pour exécuter votre script, désactivez provisoirement cette restriction, puis réactivez-la. Ouvrez une fenêtre PowerShell et utilisez ces commandes.
 >
 >*`set-executionpolicy unrestricted`* : pour supprimer temporairement les restrictions.
 >

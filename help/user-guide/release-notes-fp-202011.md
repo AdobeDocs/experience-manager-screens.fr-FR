@@ -1,25 +1,30 @@
 ---
-title: Notes de mise à jour du pack de fonctionnalités 202011
+title: Notes de mise à jour du Pack de fonctionnalités 202011
 description: En savoir plus sur le pack de fonctionnalités 202011 AEM Screens, publié le 30 novembre 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-TQID: https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo
+TQID: 'https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '316'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour du pack de fonctionnalités 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,18 +45,18 @@ La date de publication du Pack de fonctionnalités 202011 d’AEM Screens est 
 * **Rapport d’affectation de contenu**
 
   La fonction Rapport d’affectation de contenu permet à un administrateur ou à un auteur AEM Screens d’exporter un *rapport d’affectation de contenu* au format tableur.
-Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
+  Pour plus d’informations, voir [Rapport d’affectation de contenu](/help/user-guide/content-assignment-report.md).
 
 
 * **Lecteur Tizen**
 
-  Un nouveau lecteur, le lecteur Tizen, a été introduit avec le dernier pack de fonctionnalités pour AEM Screens 6.5.6.
-Voir [Mise en œuvre du lecteur Tizen](/help/user-guide/tizen-player.md) pour plus d’informations.
+  Un nouveau lecteur, le lecteur Tizen, a été introduit avec le dernier Pack de fonctionnalités pour AEM Screens 6.5.6.
+  Voir [Mise en œuvre du lecteur Tizen](/help/user-guide/tizen-player.md) pour plus d’informations.
 
 * **Fonctionnalité de recherche à partir du gestionnaire de périphériques**
 
   Une nouvelle fonctionnalité de recherche est désormais disponible dans l’interface d’utilisation du gestionnaire de périphériques avec le dernier pack de fonctionnalités pour AEM Screens 6.5.6.
-Pour plus d’informations, voir [Recherche d’un appareil à partir du Gestionnaire d’appareils](/help/user-guide/device-registration.md#search-device).
+  Pour plus d’informations, voir [Recherche d’un appareil à partir du Gestionnaire d’appareils](/help/user-guide/device-registration.md#search-device).
 
 * **Intervalle de ping par défaut**
 
@@ -59,7 +64,7 @@ Pour plus d’informations, voir [Recherche d’un appareil à partir du Gestion
 
 ### Lecteurs AEM Screens publiés
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Feature Pack 6 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.5 Pack de fonctionnalités 6 :
 
 * Chrome OS
 * Windows

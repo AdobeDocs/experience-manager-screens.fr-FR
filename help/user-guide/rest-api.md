@@ -9,25 +9,31 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-TQID: https://experienceleague.adobe.com/qh3gh-3IzKyUA4fr79v7JAT5WAq2Q2eZTqTlOAC7yN0
+TQID: 'https://experienceleague.adobe.com/qh3gh-3IzKyUA4fr79v7JAT5WAq2Q2eZTqTlOAC7yN0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Content structure
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 78%
-
 ---
-
 # API REST{#rest-apis}
 
 >[!IMPORTANT]
@@ -35,7 +41,7 @@ ht-degree: 78%
 
 AEM Screens fournit une API RESTful simple conforme à la spécification [Siren](https://github.com/kevinswiber/siren). Elle vous permet de parcourir la structure de contenu et d’envoyer des commandes aux appareils au sein de l’environnement.
 
-L’API est accessible à l’adresse [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
+L’API est accessible sur [*&#128279;*](http://localhost:4502/api/screens.json).
 
 ## Exploration de la structure de contenu {#navigating-content-structure}
 
@@ -115,7 +121,7 @@ GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json H
 Host: http://localhost:4502
 ```
 
-## Exécution d’actions sur la ressource {#executing-actions-on-the-resource}
+## Exécuter des actions sur la ressource {#executing-actions-on-the-resource}
 
 Le code JSON renvoyé par les appels d’API peut contenir la liste des actions disponibles sur la ressource.
 

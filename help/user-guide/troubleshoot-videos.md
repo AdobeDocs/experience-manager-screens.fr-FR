@@ -9,29 +9,40 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-TQID: https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk
+TQID: 'https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f367514d-25b6-5935-b3fe-9248ef8d72e2
+    internal-label: Interactive
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 92%
-
 ---
-
 # Configuration et dépannage de la lecture vidéo {#video-playback-configuration-and-troubleshooting}
 
 >[!IMPORTANT]
 >Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Lorsque vous chargez une vidéo dans la gestion des ressources numériques (DAM) et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur AEM Screens.
+Lorsque vous chargez une vidéo dans la gestion des actifs digitaux (DAM) et que vous l’ajoutez à votre canal, il est possible que la vidéo ne soit pas lue dans le lecteur AEM Screens.
 
 Les sections ci-après décrivent comment déboguer et résoudre les problèmes liés à la lecture vidéo dans votre canal.
 
@@ -58,7 +69,7 @@ S’il n’existe aucun rendu, vérifiez que vous avez installé FFMPEG sur le s
 
 S’il n’y a pas d’attribut source sous la vidéo, il est possible que la vidéo n’ait pas été transcodée. Si la vidéo est transcodée correctement, elle s’affiche dans le tableau de bord, comme illustré ci-après :
 
-Vérifiez que FFMPEG est installé et les profils vidéo.
+Vérifiez que FFMPEG est installé et vérifiez les profils vidéo.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -74,7 +85,7 @@ Vérifiez que FFMPEG est installé et les profils vidéo.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
-   En revanche, si la vidéo est transcodée correctement, il est possible de télécharger le fichier transcodé.
+   De plus, si la vidéo est transcodée correctement, il est possible de télécharger le fichier transcodé.
 
    ![chlimage_1-5](assets/chlimage_1-5.png)
 
@@ -101,7 +112,7 @@ Utilisez le **lecteur web** `http://localhost:4502/content/mobileapps/cq-screens
 
 Si la vidéo n’est pas lue sous Safari, elle ne fonctionnera pas dans les lecteurs OS X et iOS. Il s’agit probablement d’un problème d’encodage et la vidéo doit être réencodée.
 
-Pour utiliser un workflow de gestion des ressources numériques pour créer des rendus Full HD, procédez comme suit :
+Pour utiliser un workflow de gestion des actifs digitaux pour créer des rendus Full HD, procédez comme suit :
 
 1. Accédez à l’*administration des modèles de workflow*, à savoir `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. Cliquez sur le modèle **Ressource de mise à jour de Screens**.
@@ -111,11 +122,11 @@ Pour utiliser un workflow de gestion des ressources numériques pour créer des 
 
 >[!NOTE]
 >
->Patientez un certain temps pour créer les rendus, mais après quelques secondes/minutes (selon la taille de la vidéo), rechargez le lecteur web sur Safari.
+>Patientez un certain temps pour créer les rendus, mais après quelques secondes/minutes (selon la taille de la vidéo), chargez à nouveau le lecteur web sur Safari.
 
 #### Dépanner l’indicateur de politique de lecture automatique {#troubleshooting-autoplay-policy-flag}
 
-Si le lecteur AEM Screens sélectionne la vidéo mais ne l’affiche pas, vous devez résoudre les problèmes liés à l’indicateur de politique de lecture automatique.
+Si AEM Screens Player détecte la vidéo mais ne l’affiche pas, vous devez résoudre les problèmes liés à l’indicateur de politique de lecture automatique.
 
 Pour résoudre le problème d’indicateur de politique de lecture automatique de Google, procédez comme suit :
 
@@ -144,7 +155,7 @@ La stratégie absolue :
 
 * Calcule l’heure d’ancrage (minuit du jour en cours).
 * Calcule la durée de la séquence (somme de la durée de tous ses éléments).
-* Calcule, à tout moment, l’élément qui doit être en cours de lecture et l’élément suivant à l’aide de la formule sequence_remaining_time = (current_time - anchor_time) % sequence_duration (temps restant de la séquence = (heure actuelle - heure d’ancrage) % durée de la séquence).
+* Calcule, à tout moment, l’élément qui doit être en cours de lecture et l’élément suivant à l’aide de la formule sequence_remaining_time = (current_time - anchor_time) % sequence_duration.
 
 Pour configurer une stratégie absolue, procédez comme suit :
 
@@ -155,7 +166,7 @@ Pour configurer une stratégie absolue, procédez comme suit :
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    >[!NOTE]
-   >Le système d’exploitation des lecteurs doit posséder la même horloge.
+   >Le système d’exploitation des lecteurs doit avoir la même heure.
 
 **Aligner les horloges sur OS X** Pour aligner les horloges sur OS X, procédez comme suit :
 

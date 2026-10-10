@@ -10,22 +10,28 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-TQID: https://experienceleague.adobe.com/A8C3NBrCnekpfulZNnmCljNpRptREJzl-QKcoMK89DQ
+TQID: 'https://experienceleague.adobe.com/A8C3NBrCnekpfulZNnmCljNpRptREJzl-QKcoMK89DQ'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '677'
 ht-degree: 92%
-
 ---
-
 # Configuration d’Adobe Analytics avec AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!IMPORTANT]
@@ -47,7 +53,7 @@ Cette section couvre les sujets suivants :
 
 ## Séquencement dans Adobe Analytics avec AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur ou l’administratrice, il coupe les données de la banque d’objets et les transfère ensuite dans la banque de découpages. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
+Le ***processus de séquencement*** commence par le service de stockage de données qui active le service Adobe Analytics. Le contenu du canal envoie les événements Adobe Analytics avec la paie, c’est-à-dire que la capture des tests de données vers les E/S Windows et les événements de séjour sont déclenchés. Les événements sont enregistrés dans la base de données d’index et sont ensuite placés dans la banque d’objets. Selon le planning défini par l’administrateur ou l’administratrice, les données sont découpées à partir de la banque d’objets, puis transférées dans la banque de découpages. Il tente d’envoyer le maximum de données lorsqu’il est connecté.
 
 ### Diagramme de séquencement {#sequencing-diagram}
 
@@ -55,7 +61,7 @@ Le diagramme de séquencement suivant explique l’intégration d’Adobe Analyt
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Envoi d’événements personnalisés à l’aide d’Adobe Analytics hors ligne {#sending-custom-events-using-offline-adobe-analytics}
+## Envoyer des événements personnalisés à l’aide d’Adobe Analytics hors ligne {#sending-custom-events-using-offline-adobe-analytics}
 
 Le tableau suivant résume le modèle de données standard pour les événements. Il répertorie tous les champs envoyés à Adobe Analytics :
 
@@ -131,7 +137,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>recommandé</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Sous-catégorie - Section d’un processus, d’une zone d’un écran, etc. (Fichiers récents, fichiers CC, créations mobiles, etc.)</td> 
+   <td>Sous-catégorie - Section d’un workflow, d’une zone d’un écran, etc. (Fichiers récents, fichiers CC, créations Mobile, etc.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -140,7 +146,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>Type d’événement (rendu, clic, pincement, zoom) - Action de l’utilisateur principal</td> 
+   <td>Type d’événement (rendu, clic, pincement, zoom) - Action principale de l’utilisateur ou de l’utilisatrice</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -302,7 +308,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>URL de la ressource, dont le rendu lu</td> 
+   <td>URL de la ressource, y compris le rendu qui a été lu</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -329,7 +335,7 @@ Le tableau suivant résume le modèle de données standard pour les événements
    <td>requis</td> 
    <td>chaîne</td> 
    <td> </td> 
-   <td>L’URL du fichier (à l’exclusion du rendu)</td> 
+   <td>L’URL de la ressource (à l’exclusion du rendu)</td> 
   </tr>
   <tr>
    <td> </td> 

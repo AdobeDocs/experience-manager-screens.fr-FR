@@ -5,26 +5,35 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-TQID: https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE
+TQID: 'https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: 60214ccf-ef04-5996-803b-33ea3ff710bf
+    internal-label: Data Trigger
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 91%
-
 ---
-
 # Répliquer des déclencheurs de données sur les serveurs de publication {#replicating-data-triggers}
 
 >[!IMPORTANT]
@@ -74,7 +83,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données sur 
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. Cliquez sur toutes les audiences et tous les segments dans l’interface d’utilisation.
+1. Cliquez sur Toutes les audiences et tous les segments dans l’interface d’utilisation.
 
 1. Cliquez sur **Gérer la publication** dans la barre d’actions.
 
@@ -86,7 +95,7 @@ Suivez les étapes ci-dessous pour répliquer les déclencheurs de données sur 
 
 1. Explorez le dossier de votre projet, c’est-à-dire `/content/campaigns/screens/…`.
 
-1. Cliquez sur toutes les activités dans l’interface d’utilisation.
+1. Cliquez sur Toutes les activités dans l’interface d’utilisation.
 
 1. Cliquez sur **Gérer la publication** dans la barre d’actions.
 
@@ -106,7 +115,7 @@ Si la réplication est réussie, vous devez voir la structure suivante sur l’i
 
 ## Dépannage du test de la connexion {#troubleshoot-test}
 
-Si le test de la connexion échoue lors de la réplication des configurations ContextHub, suivez la section ci-dessous pour résoudre le problème :
+Si le test de la connexion échoue lors de la réplication des configurations ContextHub, consultez la section ci-dessous pour résoudre le problème :
 
 1. Accédez à **Outils** > **Déploiement** > **Distribution** > **Publier l’agent**.
 

@@ -1,27 +1,40 @@
 ---
 title: Guide de démarrage rapide
-description: Apprenez à créer un projet AEM Screens de démonstration. Vous pouvez créer une expérience de signalétique numérique à partir de l’installation et configurer un nouveau projet d’affichage de contenu dans le lecteur AEM Screens.
+description: Apprenez à créer un projet AEM Screens de démonstration. Il vous aide à créer une expérience de signalétique numérique, de l’installation et de la configuration d’un nouveau projet jusqu’à l’affichage de votre contenu dans AEM Screens Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
+TQID: 'https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: '1343'
 ht-degree: 93%
-
 ---
-
 # Guide de démarrage rapide {#kickstart-guide}
 
 >[!IMPORTANT]
@@ -40,7 +53,9 @@ Suivez les étapes ci-dessous afin de créer un exemple de projet pour AEM Scre
 >Le tutoriel suivant présente la lecture du contenu de votre canal dans un lecteur Chrome OS.
 
 >[!IMPORTANT]
->**Paramètres de configuration OSGiVous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.Pour activer l’option &#x200B;***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
+>**Paramètres de configuration OSGi**
+>Vous devez activer le référent vide pour autoriser l’appareil à publier des données sur le serveur. Par exemple, si la propriété de référent vide est désactivée, l’appareil ne pourra pas publier de capture d’écran. Actuellement, certaines de ces fonctionnalités ne sont disponibles que si l’option Autoriser le filtre de référent `Apache Sling` vide est activée dans la configuration OSGi. Le tableau de bord peut afficher un avertissement indiquant que les paramètres de sécurité peuvent empêcher l’utilisation de certaines de ces fonctions.
+>Pour activer l’option ***Allow Empty d’Apache Sling Referrer Filter***, procédez comme suit :
 
 
 ## Autorisation des requêtes de référents vides {#allow-empty-referrer-requests}
@@ -133,7 +148,7 @@ L’emplacement **TestLocation** est créé et ajouté à votre dossier **Locati
 
 ### Création d’un affichage pour un emplacement {#creating-display}
 
-Une fois que vous avez créé un emplacement, vous devez créer un affichage pour celui-ci.
+Une fois que vous avez créé un emplacement, vous devez créer un écran pour celui-ci.
 
 >[!NOTE]
 >L’***affichage*** représente l’expérience digitale qui s’exécute sur un ou plusieurs écrans.
@@ -184,7 +199,8 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
    Vous pouvez également cliquer sur la **Fenêtre d’activation** et le **Planning de périodicité**.
 
    >[!NOTE]
-   >Le *Planning de périodicité* permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs plannings de périodicité pour un canal.   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
+   >Le *Planning de périodicité* permet de définir un planning récurrent pour votre canal. Vous pouvez configurer plusieurs calendriers de récurrence pour un canal.
+   >Pour plus d’informations, voir [Planning de périodicité](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Cliquez sur **Enregistrer** une fois vos préférences configurées.
 
@@ -193,7 +209,7 @@ Lorsque le projet est configuré, attribuez le canal à un affichage pour affich
 Enregistrez votre appareil à l’aide du tableau de bord AEM.
 
 >[!IMPORTANT]
->Le lecteur Chrome OS peut être installé en tant que plug-in du navigateur Chrome en mode Développement sans que vous ayez à utiliser de lecteur Chrome. Pour l’installer, procédez comme suit :
+>Le lecteur Chrome OS peut être installé en tant que plug-in du navigateur Chrome en mode Développement sans nécessiter d’appareil Chrome Player réel. Pour l’installer, procédez comme suit :
 >
 >1. Cliquez [ici](https://download.macromedia.com/screens/) pour télécharger la dernière version du lecteur Chrome.
 >1. Décompressez-la et enregistrez-la sur le disque.

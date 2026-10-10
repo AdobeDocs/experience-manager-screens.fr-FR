@@ -1,5 +1,5 @@
 ---
-title: Extension d’un composant AEM Screens
+title: Étendre un composant AEM Screens
 description: Découvrez dans le tutoriel ci-après les étapes et les bonnes pratiques pour étendre les composants intégrés d’AEM Screens. Le composant Image est étendu pour ajouter une superposition de texte modifiable.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -9,27 +9,34 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+TQID: 'https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Accessibility
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1892
+source-wordcount: '1892'
 ht-degree: 94%
-
 ---
-
-# Extension d’un composant AEM Screens
+# Étendre un composant AEM Screens
 
 >[!IMPORTANT]
 >Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
@@ -56,7 +63,7 @@ Les éléments suivants sont requis afin de terminer ce tutoriel :
 1. [Lecteur AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Environnement de développement local
 
-Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE Lite. Les IDE [Eclipse](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Les étapes du tutoriel et les captures d’écran sont effectuées à l’aide de CRXDE-Lite. Les IDE [Eclipse](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) peuvent également être utilisés pour suivre le tutoriel. Vous trouverez plus d’informations sur l’utilisation d’un IDE pour le [développement avec AEM ici](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuration du projet {#project-setup}
 
@@ -66,7 +73,7 @@ Le code source d’un projet Screens est généralement géré sous la forme d�
 
    [Obtenir le fichier](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack;Obtenir le fichier
+   [Obtenir le fichier](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Éventuellement,** si vous utilisez Eclipse ou un autre IDE, téléchargez le package source ci-dessous. Déployez le projet sur une instance AEM locale à l’aide de la commande Maven :
 
    **`mvn -PautoInstallPackage clean install`**
@@ -256,7 +263,7 @@ Le composant Poster s’affiche en plein écran en mode d’aperçu/de productio
 
    La propriété `sling:hideChildren`= `"[linkURL,size]`&quot; est utilisée sur le nœud `items` pour veiller à ce que les champs **linkURL** et **size** soient masqués dans la boîte de dialogue. Supprimer ces nœuds de la boîte de dialogue Poster n’est pas suffisant. La propriété `sling:hideResource="{Boolean}true"` de l’onglet d’accessibilité sert à masquer l’ensemble de l’onglet.
 
-   Deux champs de clic sont ajoutés à la boîte de dialogue, Position du texte et Couleur du texte, pour permettre aux auteurs et autrices de contrôler la position du texte et la couleur du titre et de la description.
+   Deux champs sont ajoutés à la boîte de dialogue, Position du texte et Couleur du texte, pour permettre aux auteurs et autrices de contrôler la position du texte et la couleur du titre et de la description.
 
    ![Poster : structure finale de la boîte de dialogue](assets/2018-05-03_at_4_49pm.png)
 
@@ -371,7 +378,7 @@ Les composants d’AEM Screens s’affichent différemment en mode d’édition
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Dans ce tutoriel, au lieu d’écrire des CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
+   Dans ce tutoriel, au lieu d’écrire du CSS directement, on utilise LESS. [LESS](https://lesscss.org/) est un précompilateur CSS répandu prenant en charge les mixins, fonctions et variables CSS. Les bibliothèques clientes AEM prennent en charge la compilation LESS de manière native. Vous pouvez utiliser Sass ou d’autres précompilateurs, mais vous devez les compiler en dehors d’AEM.
 
 1. Remplissez `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` avec les éléments suivants :
 
@@ -507,7 +514,7 @@ Il est possible d’utiliser une troisième catégorie de bibliothèque cliente 
 
 ## Ajouter un composant Poster à un canal de séquence {#add-sequence-channel}
 
-Le composant Poster est destiné à être utilisé sur un canal de séquence. Le package de démarrage de ce tutoriel comportait un canal inactif. Le canal inactif est préconfiguré pour autoriser les composants du groupe **`We.Retail Run - Content`**. Le groupe du composant Poster est défini sur `We.Retail Run - Content` et peut être ajouté au canal.
+Le composant Poster est destiné à être utilisé sur un canal de séquence. Le package de démarrage de ce tutoriel comportait un canal Idle. Le canal inactif est préconfiguré pour autoriser les composants du groupe **`We.Retail Run - Content`**. Le groupe du composant Poster est défini sur `We.Retail Run - Content` et peut être ajouté au canal.
 
 1. Ouvrez le canal inactif à partir du projet `We.Retail` Run : **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**.
 1. Faites glisser une nouvelle instance du composant **Poster** depuis la barre latérale et déposez-la sur la page.

@@ -10,27 +10,38 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-TQID: https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw
+TQID: 'https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '593'
 ht-degree: 92%
-
 ---
-
 # Partie 3 : tests, preuves de concept, pilotes et déploiements {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
@@ -65,15 +76,15 @@ Par exemple, les parties prenantes d’un programme de signalétique numérique 
 
 La section suivante contient une vue d’ensemble des principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.
 
-### Preuve de concept (PDC) {#proof-of-concept-poc}
+### Preuve de concept (POC) {#proof-of-concept-poc}
 
-L’objectif d’une preuve de concept est d’obtenir un retour initial sur les fonctionnalités clés d’une solution. Elle permet également à la clientèle finale et à l’intégrateur ou l’intégratrice audiovisuel d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d’œuvre et en ressources. Un document de synthèse permet également aux deux parties d’évaluer les performances de la solution, qui se mesurent généralement grâce aux éléments suivants :
+L’objectif d’une preuve de concept est d’obtenir un retour initial sur les fonctionnalités clés d’une solution. Elle permet également à la clientèle finale et à l’intégrateur ou l’intégratrice audiovisuel d’identifier les domaines à améliorer et de préparer des hypothèses concernant les besoins en main-d’œuvre et en ressources. Un POC permet également aux deux parties d’évaluer les performances de la solution, qui se mesurent généralement grâce aux éléments suivants :
 
 ### Contrôle de la qualité {#quality-control}
 
 Le test d’intégration des systèmes et des logiciels commence avec l’équipe d’ingénierie informatique de l’intégrateur ou l’intégratrice audiovisuel. En se référant à la conception de système approuvée, l’équipe d’ingénierie informatique configure, implémente et supervise l’installation des composants matériels dans un « environnement de laboratoire » dans les locaux de l’intégrateur ou de l’intégratrice audiovisuel. Cet arrangement permet d’effectuer un examen et des tests approfondis de toute la solution pour le contrôle de la qualité (CQ).
 
-Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée une documentation, des processus et des contenus pédagogiques à des fins de référence durant la phase d’assistance (Jour 2). Les aspects des systèmes à tester sont les suivants :
+Une fois les tests de CQ terminés, l’équipe d’ingénierie informatique crée une documentation, des workflows et des formations à des fins de référence durant la phase d’assistance (Jour 2). Les aspects des systèmes à tester sont les suivants :
 
 * Intégrations des personnes chargées de l’implémentation d’AEM.
 * Intégrations de systèmes tiers.

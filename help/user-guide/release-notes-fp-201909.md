@@ -5,30 +5,36 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-TQID: https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc
+TQID: 'https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '294'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour du pack de fonctionnalités 201909{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
 >Adobe recommande d’effectuer la mise à niveau vers la dernière version d’Adobe Experience Manager (AEM). AEM Screens fournit une prise en charge de maintenance pour la plateforme AEM 6.3 Screens.
 
-AEM Screens a publié le pack de fonctionnalité 6 AEM 6.4.6 et le pack de fonctionnalités 2 AEM 6.5.2 avec les détails suivants.
+AEM Screens a publié le pack de fonctionnalités 6 AEM 6.4.6 et le pack de fonctionnalités 2 AEM 6.5.2 avec les détails suivants.
 
 ## Date de publication {#release-date}
 
@@ -38,13 +44,13 @@ La date de publication du pack de fonctionnalités 201909 AEM Screens est le 7�
 
 * **Amélioration des mises à jour de l’interface utilisateur pour créer un projet Screens**
 
-  Une interface d’utilisation mise à jour pour la création de projet AEM Screens est disponible. Vous pouvez créer un projet Screens très simplement et en quelques clics. De plus, l’onglet Propriétés de chaque projet comporte désormais une interface utilisateur plus intuitive.
+  Une interface d’utilisation mise à jour pour la création d’un projet AEM Screens est disponible. Vous pouvez créer un projet Screens très simplement et en quelques clics. De plus, l’onglet Propriétés de chaque projet comporte désormais une interface utilisateur plus intuitive.
 
   Consultez [Création d’un nouveau projet Screens](creating-a-screens-project.md) pour plus d’informations.
 
 * **Tableau de bord amélioré pour les appareils**
 
-  La tableau de bord de l’appareil affiche les informations relatives à l’appareil, son statut, ses copies d’écran, ses journaux, ses préférences, ainsi que les détails nécessaires pour surveiller les activités et les fonctions de l’appareil. Les panneaux ont été mis à jour.
+  Le tableau de bord de l’appareil affiche les informations relatives à l’appareil, son statut, ses copies d’écran, ses journaux, ses préférences, ainsi que les détails nécessaires pour surveiller les activités et les fonctions de l’appareil. Les panneaux ont été mis à jour.
 
   Pour plus d’informations, consultez [Dépannage du Centre de contrôle des appareils](monitoring-screens.md).
 
@@ -55,11 +61,11 @@ La date de publication du pack de fonctionnalités 201909 AEM Screens est le 7�
 * **Configurations hors ligne dans les fragments d’expérience**
 
   Vous pouvez désormais ajouter des configurations hors ligne (bibliothèques côté client et fichiers statiques) lors de la configuration d’un fragment d’expérience Screens.
-Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
+  Consultez [Utilisation de fragments d’expérience](experience-fragments-in-screens.md) pour plus d’informations.
 
 ### Lecteurs AEM Screens publiés
 
-Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.6 Feature Pack 6 et AEM 6.5.2 Feature Pack 2 :
+Les lecteurs AEM Screens suivants sont publiés pour AEM 6.4.6 Pack de fonctionnalités 6 et AEM 6.5.2 Pack de fonctionnalités 2 :
 
 * ChromeOS
 * Windows

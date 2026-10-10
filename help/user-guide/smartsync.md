@@ -9,23 +9,29 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-TQID: https://experienceleague.adobe.com/hxV3PSzivkechOrO-jmc0NfJ8OH8LccD4-VBXUv8EtE
+TQID: 'https://experienceleague.adobe.com/hxV3PSzivkechOrO-jmc0NfJ8OH8LccD4-VBXUv8EtE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Optimization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 498
-ht-degree: 83%
-
+source-wordcount: '499'
+ht-degree: 82%
 ---
-
 # Transition de ContentSync à SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 >[!IMPORTANT]
@@ -64,7 +70,7 @@ La fonctionnalité SmartSync offre plusieurs avantages à votre projet AEM Scre
 
 >[!NOTE]
 >
->Si vous avez déjà installé AEM 6.3 Feature Pack 5 et AEM 6.4 Feature Pack 3, vous pouvez activer SmartSync pour les ressources afin d’améliorer l’utilisation de l’espace disque. Pour activer SmartSync, consultez la section ci-dessous pour passer de ContentSync à SmartSync et activer ainsi SmartSync.
+>Si vous avez déjà installé AEM 6.3 Pack de fonctionnalités 5 et AEM 6.4 Pack de fonctionnalités 3, vous pouvez activer SmartSync pour les ressources afin d’améliorer l’utilisation de l’espace disque. Pour activer SmartSync, consultez la section ci-dessous pour passer de ContentSync à SmartSync et activer ainsi SmartSync.
 >
 >SmartSync est disponible pour le lecteur Screens avec les serveurs AEM 6.4.3 FP3 pris en charge.
 >
@@ -80,7 +86,7 @@ Pour passer de ContentSync à SmartSync, procédez comme suit :
 
 1. La migration de ContentSync vers SmartSync nécessite de vider le cache ContentSync avant d’activer SmartSync.
 
-   Accédez à la console ContentSync à partir de votre instance à l’aide du lien ***https://localhost:4502/libs/cq/contentsync/content/console.html*** puis cliquez sur **Effacer le cache**, comme illustré ci-dessous :
+   Accédez à la console ContentSync à partir de votre instance à l’aide du lien **&#x200B;**&#x200B;**&#x200B; puis cliquez sur &#x200B;** Effacer le cache**, comme illustré ci-dessous :
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 

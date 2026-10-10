@@ -9,24 +9,31 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-TQID: https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw
+TQID: 'https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '936'
 ht-degree: 92%
-
 ---
-
 # Mise en œuvre du lecteur Chrome OS {#implementing-chrome-os-player}
 
 >[!IMPORTANT]
@@ -36,7 +43,7 @@ Cette section décrit comment mettre en œuvre le lecteur Chrome OS Player à l�
 
 ## Utilisation de la console de gestion de Chrome {#using-chrome-management-console}
 
-Pour installer la console de gestion de Chrome, procédez comme suit :
+Pour configurer la console de gestion de Chrome, procédez comme suit :
 
 1. Enregistrez-vous pour obtenir la console de gestion de Chrome. Vous devez obtenir une licence pour la console de gestion de Chrome. Pour plus d’informations sur la gestion des paramètres des appareils Chrome, contactez le [Support Google](https://support.google.com/chrome/a/answer/1375678?hl=fr&ref_topic=2935995).
 1. Enregistrez votre appareil Chrome OS dans le domaine et attendez 15 minutes que l’appareil se synchronise avec la console de gestion de Chrome. Pour en savoir plus sur l’enregistrement d’un appareil Chrome, cliquez [ici](https://support.google.com/chrome/a/answer/1360534?hl=fr).
@@ -98,13 +105,13 @@ Pour activer le mode de kiosque, procédez comme suit :
 1. Connectez-vous à la Developer Console de Chrome.
 1. Accédez à **Gestion des appareils** > **Appareils Chrome** et cliquez sur l’appareil à contrôler.
 1. Cliquez sur **Activité du système et dépannage**.
-1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier l’état du périphérique et les informations relatives à son intégrité.
+1. Vérifiez les propriétés **Redémarrer l’appareil** et **Copie d’écran** de l’appareil. Vous pouvez également vérifier l’état de l’appareil et les informations relatives à son intégrité.
 
 >[!NOTE]
 >
 >Ces paramètres peuvent être activés plusieurs minutes après l’inscription de l’appareil. Chaque option peut être activée au fil du temps.
 
-### Configuration de la configuration à distance des lecteurs Chrome OS {#configuring-remote-configuration-of-chrome-os-players}
+### Configurer la configuration à distance des lecteurs Chrome OS {#configuring-remote-configuration-of-chrome-os-players}
 
 Le lecteur AEM Screens est une application du kiosque, qui permet également de configurer des politiques à distance pour les lecteurs Chrome OS.
 
@@ -157,14 +164,14 @@ Le tableau ci-dessous récapitule les politiques et leurs fonctions.
 | resolution | Résolution de l’appareil. |
 | rebootSchedule | Planification du redémarrage du lecteur. |
 | enableAdminUI | Activez l’interface utilisateur d’administration pour configurer l’appareil sur site. Définissez la valeur sur false une fois qu’elle est entièrement configurée et en production. |
-| enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices changent de canaux sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
-| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez cette règle pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
+| enableOSD | Activez l’interface d’utilisation du sélecteur de canal pour que les utilisateurs et utilisatrices puissent passer d’un canal à l’autre sur l’appareil. Pensez à la définir sur false une fois qu’elle est entièrement configurée et en production. |
+| enableActivityUI | Activez cette option pour pouvoir afficher la progression des activités, telles que le téléchargement et la synchronisation. Activez pour le dépannage et désactivez-la une fois qu’elle est entièrement configurée et en production. |
 | cloudMode | Définissez cette valeur sur true si vous souhaitez que le lecteur Chrome se connecte à Screens as a Cloud Service. Définissez cette variable sur false pour vous connecter à AMS ou à AEM On-Premise. |
 | cloudToken | Jeton d’enregistrement à enregistrer dans Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Les configurations de politique sont strictement appliquées et l’interface utilisateur d’administration du lecteur ne remplace pas manuellement. Pour permettre la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la ***configuration de politique***. Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** dans la configuration de politique.
+>Les configurations de politique sont strictement appliquées et l’interface utilisateur d’administration du lecteur ne permet pas de les remplacer manuellement. Pour permettre la configuration manuelle du lecteur pour une politique spécifique, ne spécifiez pas la politique dans la ***configuration de politique***. Par exemple, si vous souhaitez autoriser une configuration manuelle pour le planning du redémarrage, ne spécifiez pas la clé ***rebootSchedule*** dans la configuration de politique.
 
 ### Utiliser la commande à distance Screens {#using-remote-control}
 

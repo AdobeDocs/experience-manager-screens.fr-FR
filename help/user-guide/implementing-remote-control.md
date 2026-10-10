@@ -9,21 +9,26 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-TQID: https://experienceleague.adobe.com/h0uMKe14q8sbQZON0H3KCUPbUjD1ex9vfpVsceR3bJw
+TQID: 'https://experienceleague.adobe.com/h0uMKe14q8sbQZON0H3KCUPbUjD1ex9vfpVsceR3bJw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '398'
 ht-degree: 80%
-
 ---
-
 # Utiliser la commande à distance Screens {#implementing-remote-control}
 
 >[!IMPORTANT]
@@ -33,7 +38,7 @@ La fonction de commande à distance facilite l’accès à l’interface utilisa
 
 ## Combinaisons de touches courantes de commande à distance {#using-common-remote-control}
 
-Sur tous les lecteurs, vous pouvez utiliser les combinaisons de touches suivantes dans la commande à distance Screens :
+Sur tous les lecteurs, vous pouvez utiliser les combinaisons de touches suivantes dans la commande à distance de Screens :
 
 1. Activer/désactiver l’interface utilisateur d’administration : Ctrl + 1
 1. Activer/désactiver le sélecteur de canaux : Ctrl + 2
@@ -58,7 +63,7 @@ Le diagramme suivant illustre l’utilisation des touches sur une télécommande
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande ne pourra pas basculer entre l’interface d’utilisation de l’administration et le sélecteur de canal. Vous ne pouvez pas utiliser les touches fléchées pour naviguer dans l’interface d’utilisation de l’administration ou les canaux. Cependant, vous pouvez toujours vider le cache et recharger le lecteur. Vous pouvez désactiver la fonctionnalité de commande à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif en utilisant ce code :
+>Si vous définissez les valeurs de configuration de l’appareil enableAdminUI et/ou enableOSD sur false, la télécommande n’active ni ne désactive l’interface d’utilisation d’administration et le sélecteur de canal. Vous ne pouvez pas utiliser les touches fléchées pour naviguer dans l’interface d’utilisation de l’administration ou les canaux. Cependant, vous pouvez toujours vider le cache et charger à nouveau le lecteur. Vous pouvez désactiver la fonctionnalité de commande à distance si l’une des combinaisons de clavier est en conflit avec votre contenu interactif en utilisant ce code :
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

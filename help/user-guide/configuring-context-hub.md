@@ -10,26 +10,33 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+TQID: 'https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1537'
 ht-degree: 95%
-
 ---
-
 # Configuration de ContextHub dans AEM Screens {#configuring-contexthub-in-aem-screens}
 
 >[!IMPORTANT]
@@ -83,7 +90,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
 >[!NOTE]
 >
->L’exemple spécifique ci-dessous présente Google Sheets comme un magasin de données chargé de déclencher un changement de ressource si la valeur est supérieure à 100 ou inférieure à 50.
+>L’exemple spécifique ci-dessous présente Google Sheets comme un magasin de données qui déclenche une modification de ressource si la valeur est supérieure à 100 ou inférieure à 50.
 
 ## Étape 2 : paramétrage des configurations de magasin {#step-setting-store-configurations}
 
@@ -199,7 +206,7 @@ La validation suivante correspond à ce que vous verrez si vous vérifiez votre 
 
 ## Étape 4 : configuration de la marque et de la zone {#setting-brand-area}
 
-Pour créer une marque dans vos activités et une zone dans votre marque :
+Pour créer une marque dans vos activités et des zones sous la marque, procédez comme suit :
 
 1. **Création d’une marque dans les activités**
 
@@ -217,7 +224,7 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
       >[!CAUTION]
       >
       >Problème connu :
-      >Pour ajouter une zone, supprimez le principal de l’URL, par exemple
+      >Pour ajouter une zone, supprimez « primary » de l’URL, par exemple
       >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Création d’une zone dans votre marque**
@@ -230,7 +237,8 @@ Pour créer une marque dans vos activités et une zone dans votre marque :
 
    1. Sélectionnez **Zone** dans l’assistant **Créer une page**, puis cliquez sur **Suivant**.
 
-   1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.Une zone sera créée dans votre marque.
+   1. Saisissez le **Titre** **ScreensValue**, puis cliquez sur **Créer**.
+      Une zone sera créée dans votre marque.
 
 ## Étape 5 : création de segments dans une activité {#step-setting-up-audience-segmentation}
 
@@ -333,7 +341,7 @@ Suivez les étapes ci-dessous pour activer le ciblage dans vos canaux.
 
 ## En savoir plus : exemples de cas d’utilisation {#learn-more-example-use-cases}
 
-Après avoir configuré ContextHub pour votre projet AEM Screens, vous pouvez suivre les différents cas d’utilisation pour comprendre comment les ressources déclenchées par des données jouent un rôle essentiel dans différents secteurs d’activité :
+Après avoir configuré ContextHub pour votre projet AEM Screens, vous pouvez suivre les différents cas d’utilisation pour comprendre comment les ressources déclenchées par les données jouent un rôle essentiel dans différents secteurs d’activité :
 
 1. **[Activation ciblée du stock de vente au détail](retail-inventory-activation.md)**
 1. **[Activation de la température de l’agence de voyages](local-temperature-activation.md)**

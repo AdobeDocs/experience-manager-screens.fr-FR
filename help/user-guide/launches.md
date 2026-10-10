@@ -10,40 +10,49 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+TQID: 'https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+  - id: 633abde6-4dea-52af-a785-d12d741851d7
+    internal-label: Launches
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+    internal-label: Screens Launch
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1630
-ht-degree: 88%
-
+source-wordcount: '1636'
+ht-degree: 87%
 ---
-
 # Mises à jour de contenu avec Screens Launch {#launches}
 
 >[!IMPORTANT]
 >Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Les auteurs et autrices de contenu peuvent créer une version ultérieure des canaux et définir la date d’activation de ce lancement. Cette fonctionnalité permet de mettre en ligne le contenu sur des appareils ou des lecteurs à la date d’activation spécifiée.
+Les auteurs et autrices de contenu peuvent créer une version ultérieure des canaux et définir la date d’activation de ce lancement. Cette fonctionnalité permet au contenu d’être actif sur des appareils ou des lecteurs à la date d’activation spécifiée.
 
 Grâce au ***lancement Screens***, les auteurs et autrices peuvent prévisualiser chaque canal du lancement et doivent être en mesure de lancer une demande de révision. Le groupe des approbateurs et des approbatrices reçoit une notification et peut approuver ou rejeter la demande. Lorsque la date d’activation est atteinte, le contenu est lu sur les appareils.
 
-Par exemple, si l’auteur souhaite créer de futures versions de c1 et c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, le 10 novembre à 8 :00). Toute mise à jour ultérieure du contenu est envoyée pour révision.
+Par exemple, si l’auteur souhaite créer de futures versions de c1 et c2 (canaux), un lancement est créé et une date d’activation est définie (par exemple, 10 novembre à 8 h). Toute mise à jour ultérieure du contenu est envoyée pour révision.
 
-Après approbation et à la date d’activation (10 novembre, 8 :00), ce lancement lira le contenu sur les appareils ou lecteurs.
+Après approbation et à la date d’activation (10 novembre, 8 h), ce lancement lira le contenu sur les appareils ou lecteurs.
 
 ## Conditions requises {#requirements}
 
@@ -51,28 +60,28 @@ Avant de commencer à utiliser un *lancement Screens* dans un projet AEM Screen
 
 L’exécution d’une expérience sur le lecteur à la date d’activation définie implique :
 
-* la promotion du lancement (ne prend en général que quelques secondes) ;
+* la promotion du lancement (ne prend en général que quelques secondes).
 
-* la publication des ressources sur les instances de publication (cela prend généralement quelques minutes, selon la taille des canaux ou ressources à publier) ;
+* la publication des ressources sur les instances de publication (cela prend généralement quelques minutes, selon la taille des canaux ou ressources à publier).
 
-* le temps nécessaire à l’exécution de la mise à jour du contenu hors ligne (en général, il faut compter quelques minutes) ;
+* le temps nécessaire à l’exécution de la mise à jour du contenu hors ligne (en général, il faut compter quelques minutes).
 
-* le temps pris par les lecteurs pour télécharger le contenu à partir de l’instance de publication (cela prend généralement plusieurs minutes en fonction de la bande passante et de la taille des ressources à télécharger) ;
+* le temps pris par les lecteurs pour télécharger le contenu à partir de l’instance de publication (cela prend généralement plusieurs minutes en fonction de la bande passante et de la taille des ressources à télécharger).
 
-* les éventuels décalages horaires entre serveur et lecteur.
+* les éventuels décalages horaires entre le serveur et le lecteur.
 
 ### Présentation du délai de grâce {#understanding-grace-period}
 
 Pour que le lecteur puisse lire le contenu à la date d’activation définie, démarrez les activités précédentes avant cette date.
 
-Si la date d’activation est *le 24 novembre:00 à 9 heures* et *24 heures* est la période de grâce, alors la séquence d’actions ci-dessus commence à (date d’activation - période de grâce), c’est-à-dire le 23 novembre à 9 :00 heure du serveur. Ce paramètre donne 24 heures pour terminer toutes les actions figurant ci-dessus de façon à ce que le contenu atteigne les lecteurs. Les lecteurs comprennent que cette période est un contenu de lancement. Par conséquent, le contenu n’est pas lu immédiatement, mais les lecteurs peuvent stocker ce contenu en tant que version ultérieure et le faire lire exactement à la date d’activation définie sur le fuseau horaire du lecteur.
+Si la date d’activation est *le 24 novembre, 9 h 00* et *24 heures* est la période de grâce, alors la séquence d’actions ci-dessus commence à (date d’activation - période de grâce), c’est-à-dire le 23 novembre, 9 h 00 heure du serveur. Ce paramètre donne 24 heures pour terminer toutes les actions figurant ci-dessus de façon à ce que le contenu atteigne les lecteurs. Les lecteurs comprennent que cette période est un contenu de lancement. Par conséquent, le contenu n’est pas lu immédiatement, mais les lecteurs peuvent stocker ce contenu en tant que version ultérieure et le lire exactement à la date d’activation définie, selon le fuseau horaire du lecteur.
 
 Par exemple, le serveur est en PST et les périphériques en EST. Le décalage horaire maximal est de trois heures. Cela suppose que la promotion prend 1 minute et que la publication à partir de l’instance de création vers celle de publication prend 10 minutes, et que le lecteur peut généralement télécharger les ressources en 10 à 15 minutes. Ensuite, le délai de grâce = décalage horaire (trois heures) :
 
 * Plus le temps pour promouvoir le lancement (1 minute)
 * Plus le temps pour publier le lancement (10 minutes)
-* Plus le temps de téléchargement supplémentaire au niveau du lecteur (10 à 15 minutes)
-* Plus la mise mémoire tampon (30 minutes)
+* Plus de temps pour le téléchargement sur le lecteur (10 à 15 minutes)
+* Plus de temps de mémoire tampon (30 minutes)
 
 Il est donc égal à 3 heures 56 minutes (14 160 secondes).
 
@@ -101,7 +110,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 Vous avez défini le délai de grâce sur 10 minutes dans l’exemple précédent. Cela signifie que lorsque vous définissez la date d’activation d’un lancement pour les ressources sous */content/screens*, la promotion commence avec ce décalage.
 
-Par exemple, si la date d’activation est définie sur le 24 novembre à 9 :00 et que la période de grâce est de 600 secondes, la tâche de promotion commence le 24 novembre à 8 :50.
+Par exemple, si la date d’activation est définie sur le 24 novembre à 9 h et que la période de grâce est de 600 secondes, la tâche de promotion démarre le 24 novembre à 8 h 50.
 
 ## Utilisation du lancement Screens {#using-launches}
 
@@ -211,7 +220,7 @@ Vous pouvez choisir les ressources que vous souhaitez promouvoir manuellement da
 
 ![image](/help/user-guide/assets/launches-images/launches-e.png)
 
-1. Vous pouvez activer ou désactiver l’option de suppression du lancement après production.
+1. Vous pouvez activer ou désactiver l’option permettant de supprimer le lancement après sa mise en production.
 1. Vous pouvez définir la **portée** du lancement avec les options suivantes :
    * **Convertir le lancement complet** : tous les canaux du lancement sont promus à la date d’activation définie.
    * **Promouvoir les pages modifiées** : seules les ressources de lancement modifiées seront promues. Utilisez cette option lorsque la révision du lancement n’est pas requise.
