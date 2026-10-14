@@ -5,34 +5,41 @@ exl-id: 9377625b-529a-4b46-89d9-f526de398639
 TQID: https://experienceleague.adobe.com/4E0IiB-RKjq9MrHxvZcZsCAyzSlIZmRLlGe-9eItv2c
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1349
+source-wordcount: '1349'
 ht-degree: 93%
-
 ---
-
 # Rôles et responsabilités de projets {#roles-responsibilities}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 En tant que personne chargée de l’implémentation AEM expérimentée, les rôles *Auteurs et autrices*, *Développeurs et développeuses* et *Techniciens et techniciennes informatique* vous sont probablement familiers.
 
 Dans un projet type AEM Screens, les rôles sont encore plus détaillés, car chacun d’eux possède une fonction essentielle dans le projet.
 
-Le diagramme suivant vous montre les rôles que vous pouvez vous attendre à rencontrer dans le guide.
+Le diagramme suivant vous montre les rôles que vous pouvez vous attendre à voir dans le guide.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -46,7 +53,7 @@ La section suivante montre une vue d’ensemble de l’audience cible :
 
 ### Adobe {#adobe-audience}
 
-Adobe comprend des ressources Adobe Managed Services telles que le CSE (Customer Success Engineer) et l’assistance Adobe.
+Adobe inclut des ressources Adobe Managed Services telles que le CSE (Customer Success Engineer) et l’assistance Adobe.
 
 ### Implémentateurs d’AEM {#aem-implementors}
 
@@ -58,7 +65,7 @@ En règle générale, les implémentateurs d’AEM déploient des fonctionnalit�
 
 ### Intégrateurs et intégratrices audiovisuels {#av-integrators}
 
-L’intégrateur ou l’intégratrice audiovisuel constitue le partenaire et fournisseur matériel. Cette personne s’occupe de la préparation du site et de l’aménagement du point de vente, incluant l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’une personne tierce sous contrat qui a accès à un centre d’exploitation du réseau. L’intégrateur ou l’intégratrice audiovisuel est souvent la personne propriétaire du projet, compte tenu de son implication continue après le lancement.
+L’intégrateur audiovisuel constitue le partenaire fournisseur de matériel. Cette personne s’occupe de la préparation du site et de l’aménagement du point de vente, incluant l’achat, la configuration et le déploiement du matériel. Il s’agit généralement d’une personne tierce sous contrat qui a accès à un centre d’exploitation du réseau (NOC). L’intégrateur audiovisuel est souvent la personne propriétaire du projet, compte tenu de son implication continue après le lancement.
 
 L’intégrateur ou l’intégratrice audiovisuel est la personne chargée d’enquêter auprès des clientes et clients finaux afin de définir les exigences et de déterminer la portée du projet en vue de concevoir, de développer et de gérer efficacement les déploiements concernant le matériel de signalétique numérique.
 
@@ -68,7 +75,7 @@ L’intégrateur ou l’intégratrice audiovisuel est la personne chargée d’e
 
 #### Sélection du partenaire matériel {#selecting-hardware-partner}
 
-Choisir le bon partenaire matériel est essentiel. Les questions suivantes doivent être prises en compte :
+Il est essentiel de cliquer sur le bon partenaire matériel. Les questions suivantes doivent être prises en compte :
 
 1. Quels sont les termes du contrat de niveau de service ?
 
@@ -82,32 +89,32 @@ Choisir le bon partenaire matériel est essentiel. Les questions suivantes doive
 
 ### Personnes chargées de la stratégie opérationnelle {#business-strategist}
 
-Les stratèges opérationnels représentent les décideurs de l’entreprise. Les titulaires de ce rôle sont fortement impliqués dans les étapes de découverte et de définition des exigences. Ce rôle constitue le principal élément moteur du projet.
+Les stratèges métier représentent les décideurs de l’entreprise. Les titulaires de ce rôle sont fortement impliqués dans les étapes de découverte et de définition des exigences. Ce rôle constitue le principal élément moteur du projet.
 
-Ces stratèges définissent les exigences et configurent les mesures IPC. La stratégie opérationnelle peut être confiée à une personne occupant l’un des postes suivants :
+Ces stratèges définissent les exigences et configurent les KPI. La stratégie opérationnelle peut être confiée à une personne occupant l’un des postes suivants :
 
 * Directeur commercial ou
 * marketing Responsable de la stratégie numérique Gestionnaire du contenu ou des créations publicitaires
 
 L’équipe de gestion du contenu et des créations publicitaires travaille en étroite collaboration avec l’équipe en charge de la stratégie et transforme les exigences en expériences client. Ils dirigent la conception globale de l’expérience client et organisent le contenu sur lequel la marque fonde son identité.
 
-La gestion du contenu et des créations publicitaires peut être confiée à l’une des entités suivantes :
+La gestion du contenu et des créations publicitaires peut prendre les formes suivantes :
 
 * Agence publicitaire ou
 * Chef de marque
 
 ### Personnes chargées de la gestion de projet {#project-managers}
 
-En règle générale, les personnes responsables de projet gèrent l’intégralité de votre déploiement AEM Screens. Une personne responsable de projet constitue la personne de référence pour l’ensemble de l’implémentation d’un projet donné. Celle-ci assume des responsabilités importantes, telles que l’établissement de la chronologie et la gestion des besoins de l’équipe. Elle joue également un rôle dans la communication, la résolution des défis et la réalisation des objectifs.
+En règle générale, les personnes responsables de projet gèrent l’intégralité de votre déploiement AEM Screens. Une personne responsable de projet constitue la personne de référence pour l’ensemble de l’implémentation d’un projet donné. Celle-ci assume des responsabilités importantes, telles que la définition des calendriers et la gestion des besoins de l’équipe. Elle joue également un rôle dans la communication, la résolution des défis et la réalisation des objectifs.
 
 >[!NOTE]
 >
->Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur l’audience cible d’un projet de signalétique digitale, voir **[Rôles du projet et responsabilités](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Pour en savoir plus sur les différents rôles et responsabilités, ainsi que sur l’audience cible d’un projet d, voir **[Rôles du projet et responsabilités](https://experienceleague.adobe.com/fr/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Étapes du projet {#project-stages}
 
-Pour garantir la réussite du déploiement de la solution de signalétique numérique, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement désignées sous le nom de **jours**. Il ne s’agit pas de jours au sens littéral du terme, mais plutôt d’une appellation pour chaque étape importante du projet.
+Pour garantir la réussite du déploiement de la solution de signalétique numérique, il est d’usage de segmenter le projet en trois étapes. Ces étapes sont généralement désignées sous le nom de **jours**. Il ne s’agit pas de jours au sens littéral du terme, mais plutôt d’appellations pour chaque étape importante du projet.
 
 1. La première étape est appelée *Jour 0*. Cette étape comprend tous les efforts de prévente et d’investigation nécessaires pour définir la portée du projet.
 1. La deuxième étape, ou *Jour 1*, fait référence à toutes les activités faisant partie de l’effort de déploiement.
@@ -121,7 +128,7 @@ Pour garantir la réussite du déploiement de la solution de signalétique numé
 
 ## Matrice RACI {#raci-chart}
 
-Voici un exemple de matrice RACI qui utilise des définitions de rôle.
+Voici un exemple de matrice RACI qui utilise les définitions de rôle.
 
 >[!NOTE]
 >

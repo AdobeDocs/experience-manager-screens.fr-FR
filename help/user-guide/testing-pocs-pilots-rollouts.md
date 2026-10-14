@@ -45,7 +45,7 @@ ht-degree: 92%
 # Partie 3 : tests, preuves de concept, pilotes et déploiements {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Cette page met l’accent sur la partie 3 d’une série en 5 parties, conçue pour aider les personnes membres de l’équipe à mieux comprendre les termes essentiels pour garantir la réussite du développement d’une solution avant un déploiement.
 
@@ -101,7 +101,7 @@ En prenant en compte toutes ces étapes dans le cadre du plan de projet dans son
 
 ### Tests, PDC, pilotes et déploiements
 
->[!VIDEO](https://video.tv.adobe.com/v/32813?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Découvrez les principaux termes utilisés dans un plan de projet global, comme le cycle du projet, les actions entourant les tests matériels, la preuve de concept, les pilotes et les déploiements.*
 

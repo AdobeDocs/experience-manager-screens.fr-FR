@@ -5,33 +5,36 @@ exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 392
+source-wordcount: '392'
 ht-degree: 86%
-
 ---
-
 # Tests et assurance qualité {#testing-quality}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Cette activité est généralement réalisée par une personne chargée de l’intégration Audio/Vidéo.
 
-À mesure que la date du déploiement du réseau de signalétique digitale se rapproche, créez un plan de test et d’assurance qualité qui porte sur chaque élément du réseau, notamment l’ensemble des composants matériels, logiciels et réseau.Au cours de cette phase, des systèmes de test complets doivent être mis au point et soumis à des tests exhaustifs.
+À mesure que la date du déploiement du réseau d’affichage dynamique se rapproche, créez un plan de test et d’assurance qualité qui porte sur chaque élément du réseau, notamment l’ensemble des composants matériels, logiciels et réseau.
+Au cours de cette phase, des systèmes de test complets doivent être mis au point et soumis à des tests exhaustifs.
 
 Il convient de créer une liste de contrôle qui identifie tous les KPI définis précédemment et qui mesure les éléments livrables par rapport à ces indicateurs.
 
 >[!NOTE]
 >
->Cette phase doit également être utilisée comme outil pour créer un guide d’installation et d’utilisation. Les deux peuvent ensuite être livrés avec l’équipement et conservés sur site à des fins de référence ultérieure.
+>Cette phase doit également être utilisée comme outil pour créer un guide d’installation et d’utilisation. Les deux peuvent ensuite être livrés avec l’équipement et conservés sur site pour consultation ultérieure.
 
 Les éléments suivants doivent être pris en compte :
 
@@ -60,7 +63,8 @@ Il est recommandé de tenir compte des facteurs logiciels suivants :
 
 AEM Screens dispose d’un module de centre de contrôle des appareils qui permet de gérer les points d’entrée de l’application du lecteur Screens.
 
-Cela fait référence à tout appareil matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.Ce module vous permet d’effectuer les opérations suivantes :
+Cela fait référence à tout appareil matériel de *lecture* sur lequel cette application est installée ; il est également enregistré sur une instance AEM.
+Ce module vous permet d’effectuer les opérations suivantes :
 
 1. Surveiller les journaux d’erreurs de l’application du lecteur
 1. Gérer les captures d’écran distantes

@@ -5,23 +5,26 @@ exl-id: b8c52e72-86da-4089-ba02-0c643862419f
 TQID: https://experienceleague.adobe.com/3lU7N2840DVcH38SAQ-mthEwBcbUeQPl9Xea5Ms0L9k
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: '751'
 ht-degree: 91%
-
 ---
-
 # Réseau d’entreprise fermé (câblé/sans fil) {#enclosed-corporate-networks}
 
 >[!IMPORTANT]
->Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La configuration de réseau d’entreprise fermé s’applique aux PME et grandes entreprises. Elle peut être plus complexe du point de vue théorique ; la configuration logique est présentée dans la figure ci-dessous.
 
@@ -46,7 +49,7 @@ Pour vous assurer que les lecteurs AEM Screens sont correctement connectés dan
 1. Si l’appel de l’URL aboutit, vous pouvez continuer à installer AEM Screens et vous enregistrer. Lancez AEM Screens.
 
    >[!NOTE]
-   >**Conseil de dépannage
+   >**Conseil de dépannage**
    >Si AEM Screens ne se connecte pas correctement et que le contenu attendu ne s’affiche pas :
    >
    >1. Vérifiez dans le pare-feu de votre routeur Internet s’il existe des restrictions concernant `TCP/IP Port 80/443`.
@@ -61,7 +64,8 @@ La configuration de réseau d’entreprise fermé peut être séparée logiqueme
 
 ### Réseau étendu {#wan-connection}
 
-Outre l’accessibilité du réseau, les performances de la connexion Internet doivent offrir une bande passante suffisante pour garantir la fluidité des mises à jour du contenu AEM Screens.La *bande passante suffisante* dépend du nombre d’appareils AEM Screens connectés. Cela dépend également de l’utilisation d’autres consommateurs sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi invités.
+Outre l’accessibilité du réseau, les performances de la connexion Internet doivent offrir une bande passante suffisante pour garantir la fluidité des mises à jour du contenu AEM Screens.
+La *bande passante suffisante* dépend du nombre d’appareils AEM Screens connectés. Cela dépend également de l’utilisation d’autres consommateurs sur le réseau, tels que les smartphones, tablettes, caisses enregistreuses, ordinateurs ou réseaux Wi-Fi pour invités.
 
 >[!NOTE]
 >
@@ -77,9 +81,11 @@ Par exemple, les composants du réseau doivent correspondre au minimum à la nor
 
 ### Autres caractéristiques des réseaux d’entreprise {#other-networks}
 
-Généralement, les réseaux d’entreprise présentent plusieurs appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.Ce schéma est simplifié et convient le plus souvent aux environnements disponibles pour le client ou la cliente.
+Les réseaux d’entreprise présentent plusieurs appareils connectés. Ils peuvent également être séparés en divers sous-réseaux et posséder des connexions Internet redondantes ou multiplexées afin de fournir des performances suffisantes à plusieurs milliers d’accès simultanés.
+Ce schéma est simplifié et convient le plus souvent aux environnements disponibles pour le client ou la cliente.
 
-Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité. Si un répéteur Wi-Fi est requis, il est fortement recommandé d’utiliser des technologies de point d’accès Wi-Fi maillé comme Google Nest Mesh Wi-Fi, ou un dispositif similaire.D’autres technologies de répéteurs de signaux Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
+Si une solution Wi-Fi est envisagée pour connecter AEM Screens à Internet, il est recommandé d’utiliser au minimum les standards Wi-Fi modernes comme `IEEE 802.11g`. Cette norme prend en charge les connexions jusqu’à 54 Mbit/s. Les normes *plus récentes* comme `802.11h-n` sont de meilleure qualité. Si un répéteur Wi-Fi est requis, Adobe recommande d’utiliser des technologies de point d’accès Wi-Fi maillé comme Google Nest Mesh Wi-Fi ou un dispositif similaire.
+D’autres technologies de répéteurs de signaux Wi-Fi finissent par provoquer une perte massive de bande passante dans l’ensemble du réseau.
 
 ## Télécharger des médias et des ressources {#download}
 
@@ -92,7 +98,7 @@ Pour les scénarios où il y a davantage d’interactions avec des capteurs ou d
 Le tableau suivant présente une vue d’ensemble des données clés relatives à la connectivité réseau.
 
 >[!NOTE]
->Vous voyez ainsi la consommation de chaque appareil du réseau qui demande une source internet et la télécharge. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
+>Vous voyez ainsi la consommation de chaque appareil du réseau en demandant et en téléchargeant une source Internet. Chacune de ces demandes s’additionne et prolonge le temps de téléchargement.
 
 ![](/help/using/assets/enclosed-network-download.png)
 
