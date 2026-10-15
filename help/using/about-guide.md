@@ -5,19 +5,22 @@ exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 84%
-
 ---
-
 # À propos de ce guide {#about-guide}
 
 >[!IMPORTANT]
@@ -37,7 +40,7 @@ Il convient toutefois de préciser que ce guide constitue une précieuse source 
 
 AEM Screens est une nouvelle extension d’Adobe Experience Manager (AEM). Les outils étant nouveaux et leurs applications potentielles variées, il est essentiel d’identifier les points importants et les facteurs de risque communs impliqués dans le développement et le déploiement d’AEM Screens.
 
-Ce guide fournit des informations complètes et des conseils pratiques pour imaginer, concevoir et intégrer des expériences client intentionnelles dans votre mise en œuvre de signalétique numérique. Il vous guide également pour créer un impact positif sur votre entreprise à l’aide de certaines des bonnes pratiques suivies lors du déploiement d’un projet de signalétique numérique dans AEM Screens.
+Ce guide fournit des informations complètes et des conseils pratiques pour imaginer, concevoir et intégrer des expériences client intentionnelles dans votre mise en œuvre de signalétique numérique. Il vous guide également sur la manière d’avoir un impact positif sur votre entreprise à l’aide de certaines des bonnes pratiques suivies lors du déploiement d’un projet d’affichage dynamique dans AEM Screens.
 
 >[!IMPORTANT]
 >

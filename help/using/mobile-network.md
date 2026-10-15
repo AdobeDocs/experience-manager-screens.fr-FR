@@ -5,18 +5,20 @@ exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 TQID: https://experienceleague.adobe.com/nesp1a9TVyKUBaWjPR8bzW6n2dGyVVme1p5469h92LA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '910'
 ht-degree: 92%
-
 ---
-
 # Réseau mobile direct {#mobile-network-setup}
 
 >[!IMPORTANT]
@@ -28,13 +30,13 @@ Dans AEM Screens, le contenu requis est téléchargé physiquement sur le contr�
 
 L’avantage de la connexion des lecteurs AEM Screens via le réseau 3/4/5G cellulaire de votre fournisseur de données mobiles est que le routeur mobile peut être placé en un point optimisé. Cela garantit la meilleure couverture réseau disponible. Cet emplacement est généralement une position élevée et ouverte, où les structures environnantes en béton et en métal sont les moins nombreuses possibles.
 
-Cette configuration offre une grande flexibilité aux utilisateurs et utilisatrices d’AEM Screens, car aucune connexion fixe n’est requise pour se connecter. Cet arrangement est intéressant pour les configurations éphémères ou mobiles.
+Cette configuration offre une grande flexibilité aux utilisateurs et utilisatrices d’AEM Screens, car aucune connexion fixe n’est requise pour se connecter à AEM Screens. Cet arrangement est intéressant pour les configurations éphémères ou mobiles.
 
 Le diagramme suivant illustre la configuration d’un réseau mobile direct. Il se compose d’un segment de connexion réseau unique et de la connexion de chaque lecteur au réseau de données mobile ou cellulaire.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
-## Connexion d’un lecteur AEM Screens à un réseau mobile direct
+## Connecter un lecteur AEM Screens à un réseau mobile direct
 
 Pour vous assurer que les lecteurs AEM Screens sont correctement connectés dans cette configuration, procédez comme suit :
 
@@ -57,7 +59,7 @@ La configuration réseau peut être scindée logiquement en deux blocs :
 
 ### Connexion Internet mobile {#mobile-internet-connection}
 
-Au-delà de l’accessibilité du réseau, les performances de la connexion Internet tiennent à la capacité à fournir une bande passante suffisante pour utiliser AEM Screens de manière fluide.
+Au-delà de l’accessibilité du réseau, les performances de la connexion Internet fournissent une bande passante suffisante pour utiliser AEM Screens de manière fluide.
 
 Dans un réseau mobile direct, chaque lecteur est connecté au réseau de données du fournisseur à l’aide d’une carte de données mobile unique.
 
@@ -71,13 +73,15 @@ Le tableau suivant présente les réseaux de données avec leur bande passante s
 
 Lors de la détermination du réseau de données à utiliser, tenez compte des points suivants :
 
-Le débit réseau disponible dépend du forfait spécifique du fournisseur de données mobiles et de la couverture disponible au point où se trouve le contrôleur AEM Screens.Pour effectuer cette configuration, tenez compte du fait que, outre la bande passante disponible, certains forfaits de fournisseurs de données mobiles limitent la quantité de données disponibles transitant par la connexion pendant une durée donnée. La capacité des données et la bande passante doivent être suffisantes.Dans le prolongement de cette réflexion, le package de données nécessaire doit respecter les conditions suivantes :
+Le débit réseau disponible dépend du forfait spécifique du fournisseur de données mobiles et de la couverture disponible au point où se trouve le contrôleur AEM Screens.
+Pour effectuer cette configuration, tenez compte du fait que, outre la bande passante disponible, certains forfaits de fournisseurs de données mobiles limitent la quantité de données disponibles transitant par la connexion pendant une durée donnée. La capacité des données et la bande passante doivent être suffisantes.
+Dans le prolongement de cette réflexion, le package de données nécessaire doit respecter les conditions suivantes :
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 
 >[!IMPORTANT]
->Pour le chargement initial des fichiers multimédias, lors de l’intégration de nouveaux lecteurs, il faut s’attendre à un volume de données plud important et à une durée de téléchargement plus longue, ce qui se reflète dans les hypothèses ci-dessus. Un réseau 4G possédant une *bonne* couverture et un volume de données *illimité* devrait correspondre aux installations les plus courantes de cette configuration de réseau.
+>Pour le chargement initial des fichiers multimédias, lors de l’intégration de nouveaux lecteurs, il faut s’attendre à un volume de données plus important et à une durée de téléchargement plus longue, ce qui se reflète dans les hypothèses ci-dessus. Un réseau 4G possédant une *bonne* couverture et un volume de données *illimité* devrait correspondre aux installations les plus courantes de cette configuration de réseau.
 
 >[!NOTE]
 >Un forfait 3G minimal doté d’une bonne couverture réseau devrait permettre d’obtenir des performances de téléchargement acceptables pour un lecteur AEM Screens. Si la couverture disponible à un emplacement spécifique n’est que passable, envisagez la possibilité de basculer la configuration réseau globale sur un [réseau mobile avec routeur de données mobiles et composants réseau actifs](/help/using/mobile-network-router.md).

@@ -5,19 +5,22 @@ exl-id: e3913be2-9028-4773-a034-e16924a71e04
 TQID: https://experienceleague.adobe.com/w0fVaYNPs2emLyL377rLTXLZRcXd05B56FtIn3Yjoqg
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 89%
-
 ---
-
 # Principes de base d’un projet de signalétique numérique {#basics-digital-signage}
 
 >[!IMPORTANT]
@@ -33,35 +36,35 @@ Les *éléments clés* d’un projet de signalétique numérique sont les suivan
 
 ![](/help/assets/Elements-Revised.png)
 
-La définition des éléments clés est une étape essentielle avant la mise en œuvre d’un projet de signalétique digitale :
+La définition des éléments clés est une étape essentielle avant la mise en œuvre d’un projet d :
 
 1. **Matériel**
 
-   Le matériel définit les composants matériels idéaux pour la mise en œuvre de votre projet de signalétique digitale :
+   Le matériel définit les composants matériels idéaux pour la mise en œuvre de votre projet d :
    * L’appareil dispose-t-il d’un espace de stockage suffisant pour exécuter toutes les variantes des expériences hors ligne ?
    * Avez-vous autorisé le type et la longueur de câble vidéo ? L’appareil prend-il en charge les résolutions souhaitées (HD, Full HD, `4K`, etc.) et les codecs vidéo que je prévois de déployer (h.264, h.265, etc.) ?
    * Utilisation de fils de cuivre physiques
    * Taille des écrans
    * Nombre d’écrans
-      * Orientation
-      * Rapport d’aspect
-      * Préférence de résolution
+     * Orientation
+     * Rapport d’aspect
+     * Préférence de résolution
 
 1. **Connectivité**
 
    La connectivité soulève les questions suivantes :
-   * Réseau (cellulaire ou Wi-Fi) ou autonome ?
-      * Devez-vous autoriser les mises à jour de contenu USB ?
-      * Devez-vous autoriser la collecte de données d’utilisation ?
+   * Connecté au réseau (cellulaire ou Wi-Fi) ou autonome ?
+     * Devez-vous autoriser les mises à jour de contenu USB ?
+     * Devez-vous autoriser la collecte de données d’utilisation ?
 
 1. **Installation**
 
    L’installation comprend les éléments suivants :
    * Modes d’affichage : paysage ou portrait
    * Comment l’écran est-il monté ?
-      * Orientation Portrait par rapport à l’orientation Paysage
-      * Boîtier complet
-      * Plaque de recouvrement
+     * Orientation Portrait par rapport à l’orientation Paysage
+     * Boîtier complet
+     * Plaque de recouvrement
    * Support de l’appareil
    * Personnel : responsable de l’installation du matériel et de sa connexion au réseau
    * À quelle distance la source d’alimentation se trouve-t-elle de l’appareil ?
@@ -71,30 +74,30 @@ La définition des éléments clés est une étape essentielle avant la mise en 
 
    Questions relatives au contenu :
    * Zone unique ou multizone ?
-      * Quel est le nombre de ressources multimédias affichées simultanément à l’écran ?
-      * Combien de pages y a-t-il pour les applications interactives ?
-      * Définition de la boucle d’interface utilisateur
-      * S’agit-il d’un contenu piloté par les données ?
+     * Quel est le nombre de ressources multimédias affichées simultanément à l’écran ?
+     * Combien de pages y a-t-il pour les applications interactives ?
+     * Définition de la boucle d’interface utilisateur
+     * S’agit-il d’un contenu piloté par les données ?
    * Gestion de version
 
 1. **Interactivité**
 
    Questions relatives à l’interactivité :
    * Type d’écran tactile préféré (résistif, capacitif, multipoint) ?
-      * Pression de boutons
-      * Gestes
+     * Pression de boutons
+     * Gestes
    * Déclenchement des données (E/S) ?
-      * Envoi/réception de commandes de série (fermeture de contact, PLC, etc.)
-      * Les données entrantes s’affichent à l’écran (RSS) ou déclenchent du contenu
-      * RFID/NFC/Bluetooth/iBeacon
-      * Services externes (météo, trafic)
+     * Envoi/réception de commandes de série (fermeture de contact, PLC, etc.)
+     * Afficher les données entrantes à l’écran (RSS) ou déclencher du contenu
+     * RFID/NFC/Bluetooth/iBeacon
+     * Services externes (météo, trafic)
 
 1. **Environnement**
 
    L’environnement met l’accent sur les points suivants :
    * Emplacement de l’affichage ?
-      * Intérieur ou extérieur
-      * Hors d’atteinte ou directement accessible
+     * Intérieur ou extérieur
+     * Hors d’atteinte ou directement accessible
    * Y a-t-il des exigences particulières en matière de température ?
    * Le matériel est-il à l’épreuve du vandalisme ?
    * Fort éclairage ambiant ? Contrastes élevés ?
@@ -107,5 +110,5 @@ La définition des éléments clés est une étape essentielle avant la mise en 
    * L’appareil est-il configuré (programmé) avant l’expédition ?
    * Devez-vous capturer chaque numéro de série à des fins de suivi ?
    * Existe-t-il des exigences d’alimentation de secours (alimentation continue) ?
-   * Comment les mises à jour du système sont-elles déployées ? Comment les appareils sont-ils contrôlés à distance ? Une solution MDM est-elle requise ?
+   * Comment les mises à jour du système sont-elles déployées ? Comment les appareils sont-ils s à distance ? Une solution MDM est-elle requise ?
 

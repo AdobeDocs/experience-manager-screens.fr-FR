@@ -5,16 +5,17 @@ exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
 TQID: https://experienceleague.adobe.com/0nsSBxEy-LN9JRQwmUDvijGZthdcWfv40HCH4QtykiM
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 85%
-
 ---
-
 # Cartographie du parcours d’expérience client {#journey-map}
 
 >[!IMPORTANT]
@@ -28,7 +29,7 @@ Une cartographie du parcours d’expérience client est conçue pour vous permet
 
 ## Créer la cartographie du parcours d’expérience client {#building-map}
 
-Bien comprendre comment les personnes interagissent avec un réseau de signalétique numérique dans un espace physique est un facteur essentiel pour assurer la réussite et la valeur de ce réseau. Cela permet également de comprendre comment les expériences digitales sont exploitées dans le cadre de tous les autres canaux avec lesquels la clientèle peut être en contact.
+Bien comprendre comment les  interagissent avec un réseau de signalétique numérique dans un espace physique est un facteur essentiel pour assurer la réussite et la valeur de ce réseau. Cela permet également de comprendre comment les expériences digitales sont exploitées dans le cadre de tous les autres canaux avec lesquels la clientèle peut être en contact.
 
 La cartographie du parcours d’expérience client est un bon moyen de visualiser le cheminement d’une personne dans un espace physique et les éléments qu’elle peut rencontrer. Elle permet également de voir comment l’expérience digitale fournie par le réseau peut combler les lacunes dans le parcours global.
 
@@ -37,5 +38,5 @@ Dans cette phase du projet, vous pouvez choisir de définir des options et des d
 Laissez les responsables de projet et les principales parties prenantes expérimenter le positionnement d’éléments numériques le long des parties du parcours de magasin. Laissez-les observer les expériences numériques diffusées.
 
 >[!NOTE]
-> Commencez à collecter des données d’analyse pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide les équipes commerciales à identifier les améliorations à apporter.
+> Commencez à collecter des données d’analyse pendant le projet pilote afin d’aider les équipes commerciales à valider le succès de la solution par rapport aux mesures spécifiques qu’elles se sont fixées. Le fait de connaître les performances du projet pilote aide l’équipe métier à identifier les améliorations à apporter.
 

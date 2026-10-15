@@ -5,19 +5,22 @@ exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
 TQID: https://experienceleague.adobe.com/7AuUzDPSiVvbDWKzcpaDPpabO-6-ldVRNERn-U-xstU
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '186'
 ht-degree: 75%
-
 ---
-
 # Dépendances de l’expérience utilisateur {#ux-dependencies}
 
 >[!IMPORTANT]
@@ -29,13 +32,13 @@ ht-degree: 75%
 
 Les dépendances de l’expérience utilisateur définissent les stratégies mises en place pour le placement et le mode de diffusion du contenu, de sorte qu’il ait un impact maximal.
 
-Il convient de prendre en compte les questions suivantes lors de la définition de la stratégie de contenu matérielle :
+Il convient de prendre en compte les questions suivantes lors de la définition de la stratégie de contenu pour le matériel :
 
 1. Comment l’organisation du point de vente doit-elle être alignée sur la stratégie de contenu ?
 
 1. Les interactions (écran tactile, détection de mouvement) seront-elles requises ?
 
-1. Quel est l’objectif de la solution d’affichage numérique ?
+1. Quel est l’objectif de l&#39;affichage dynamique ?
 
    * Est-elle destinée à la configuration d’un produit ?
    * S’agit-il d’une solution d’orientation ?
@@ -43,7 +46,7 @@ Il convient de prendre en compte les questions suivantes lors de la définition 
 
 1. Comment les connexions et le câblage réseau sont-ils configurés ?
 
-1. À quelle fréquence les ordinateurs et la connexion seront-ils allumés et éteints ?
+1. À quelle fréquence les ordinateurs et les connexions sont-ils allumés et éteints ?
 
 1. La conception de l’installation prend-elle en charge l’accessibilité ?
 

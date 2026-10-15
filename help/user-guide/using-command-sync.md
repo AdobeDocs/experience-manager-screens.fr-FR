@@ -8,23 +8,28 @@ exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 TQID: https://experienceleague.adobe.com/61R-NNkhkgGx2S0KOeteDn674PiOpX5k4YOVKBmQZIs
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 807
+source-wordcount: '807'
 ht-degree: 94%
-
 ---
-
 # Synchronisation des commandes {#command-sync}
 
 >[!IMPORTANT]
@@ -42,7 +47,7 @@ Les solutions de signalétique numérique doivent prendre en charge les murs vid
 
 Pour utiliser la synchronisation des commandes, un lecteur est défini comme *principal* et envoie une commande, tandis que tous les autres lecteurs sont définis comme des *clients* et procèdent à la lecture lorsqu’ils reçoivent la commande.
 
-Le lecteur *principal* envoie une commande à toutes les personnes enregistrées lorsqu’il est sur le point de démarrer la lecture d’un élément. La payload liée à cette action peut être l’index de l’élément à lire et/ou le code HTML externe de l’élément à lire.
+Le lecteur *principal* envoie une commande à toutes les personnes enregistrées lorsqu’il est sur le point de démarrer la lecture d’un élément. La payload de cette action peut être l’index de l’élément à lire, le code HTML externe de l’élément à lire, ou les deux.
 
 ## Mise en œuvre de la synchronisation des commandes {#using-command-sync}
 
@@ -71,7 +76,8 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 1. Créez un emplacement **Lobby**, puis, par la suite, un affichage intitulé **LobbyDisplay** dans le dossier **Locations**, comme illustré ci-dessous.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez afficher le canal affecté à l’affichage à partir du tableau de bord.   ![image1](assets/command-sync/command-sync4-1.png)
+1. Affectez le canal **ChannelLobby** au canal **LobbyDisplay**. Vous pouvez afficher le canal affecté à l’affichage à partir du tableau de bord.
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -86,7 +92,8 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
    >
    >Pour savoir comment enregistrer un appareil, voir [Enregistrement d’appareil](/help/user-guide/device-registration.md).
 
-1. À des fins de démonstration, cet exemple présente un appareil Chrome et un lecteur Windows comme deux appareils distincts. Les deux appareils pointent vers le même affichage.   ![image1](assets/command-sync6.png)
+1. À des fins de démonstration, cet exemple présente un appareil Chrome et un lecteur Windows comme deux appareils distincts. Les deux appareils pointent vers le même affichage.
+   ![image1](assets/command-sync6.png)
 
 ### Mise à jour des paramètres de canal
 
@@ -104,7 +111,9 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Configurer un lecteur principal {#setting-up-primary}
 
-1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay**. Cliquez ensuite sur **Tableau de bord** dans la barre d’actions.Les deux appareils (Chrome et le lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.   ![image1](assets/command-sync/command-sync10-1.png)
+1. Accédez au tableau de bord d’affichage à partir de **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay**. Cliquez ensuite sur **Tableau de bord** dans la barre d’actions.
+Les deux appareils (Chrome et le lecteur Windows) apparaissent dans le panneau **APPAREILS**, comme illustré ci-dessous.
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Dans le panneau **APPAREILS**, cliquez sur l’appareil que vous souhaitez définir comme appareil principal. L’exemple suivant illustre la configuration de l’appareil Chrome en tant qu’appareil principal. Cliquez sur **Définir en tant qu’appareil principal**.
 
@@ -120,7 +129,8 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Synchronisation avec l’appareil principal {#sync-up-primary}
 
-1. Une fois l’appareil Chrome défini comme appareil principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.Cliquez sur l’autre appareil (ici, le lecteur Windows) dans le panneau **APPAREILS** puis sur **Synchroniser avec l’appareil principal**.
+1. Une fois l’appareil Chrome défini comme appareil principal, vous pouvez synchroniser l’autre appareil (dans ce cas, le lecteur Windows) avec l’appareil principal.
+Cliquez sur l’autre appareil (ici, le lecteur Windows) dans le panneau **APPAREILS** puis sur **Synchroniser avec l’appareil principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -136,7 +146,7 @@ Avant d’utiliser la fonction de synchronisation des commandes, assurez-vous d�
 
 ### Désynchronisation du lecteur principal {#desync-up-primary}
 
-Lorsque que vous avez synchronisé un ou plusieurs appareils avec un appareil principal, vous pouvez les désynchroniser.
+Lorsque vous avez synchronisé un ou plusieurs appareils avec un appareil principal, vous pouvez désynchroniser l’affectation de cet appareil.
 
 >[!NOTE]
 >
@@ -154,5 +164,5 @@ Pour supprimer la synchronisation avec l’appareil principal, procédez comme s
 
    >[!NOTE]
    >
-   > Si vous cliquez sur l’appareil principal et que vous utilisez l’option désynchroniser, tous les appareils connectés à l’appareil principal seront désynchronisés en une seule fois.
+   > Si vous cliquez sur l’appareil principal et que vous utilisez l’option Désynchroniser, tous les appareils connectés à l’appareil principal seront désynchronisés en une seule fois.
 

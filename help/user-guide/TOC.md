@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Aide d’Adobe Experience Manager Screens
 breadcrumb-title: Guide d’AEM Screens
-user-guide-description: Apprenez à utiliser une solution de signalétique numérique qui vous permet de publier des expériences et des interactions digitales dynamiques et interactives.
+user-guide-description: Découvrez comment utiliser une solution d’affichage dynamique qui vous permet de publier des expériences et des interactions numériques dynamiques et interactives.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
@@ -12,9 +12,7 @@ source-git-commit: f6d6f9295d60388b33c1a55752ce28c5b70f07ca
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
-
 ---
-
 
 # Guide de l’utilisateur AEM Screens {#user-guide}
 
@@ -44,7 +42,7 @@ ht-degree: 90%
   + [Configurer les agents de réplication sur Screens](configure-screens-replication.md)
   + Considérations spécifiques au client {#installing-client}
     + [Lecteur Chrome OS](implementing-chrome-os-player.md)
-    + [Utilisation d’un lecteur Chrome comme extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
+    + [Utilisation de Chrome Player en tant qu’extension à des fins de dépannage](using-chrome-player-as-an-extension.md)
     + [™ Player](implementing-android-player.md)
     + [Lecteur Windows](implementing-windows-player.md)
     + [Lecteur Tizen](tizen-player.md)
@@ -67,7 +65,7 @@ ht-degree: 90%
     + [Gérer les appareils](managing-devices.md)
     + Attribution de canaux {#assigning-channels}
       + [Attribution de canaux](channel-assignment-latest-fp.md)
-      + [Attribution de canaux : anciennes versions de Feature Packs AEM Screens](channel-assignment.md)
+      + [Affectation de canaux : anciennes versions des packs de fonctionnalités AEM Screens](channel-assignment.md)
   + Utiliser les fonctionnalités de base du produit {#product-features}
     + [Superposition de texte](text-overlay.md)
     + [Mise à jour hors ligne en bloc](bulk-offline-update.md)
@@ -108,38 +106,38 @@ ht-degree: 90%
   + [Canaux hors ligne](offline-channels.md)
   + [Extension d’un composant AEM Screens](extending-component-tutorial-develop.md)
   + [Création de composants](creating-components.md)
-  + [Incorporation d’une application REACT via la fonction d’éditeur d’application monopage (SPA) et intégration avec AEM Screens Analytics](embedding-react-app.md)
+  + [Incorporation d’une application REACT à l’aide de l’éditeur SPA AEM et intégration à AEM Screens Analytics](embedding-react-app.md)
   + [Configuration de ContextHub dans AEM Screens](configuring-context-hub.md)
   + [Création de modèles personnalisés pour des dispositions multizones](creating-custom-templates-multizone-layouts.md)
-  + [Application d’une valorisation de marque et de styles personnalisés aux superpositions de texte](custom-branding-text-overlays.md)
-  + [Rendus adaptatifs : présentation et configurations de l’architecture](/help/user-guide/adaptive-renditions.md)
+  + [Application d’un branding et de styles personnalisés aux chevauchements de texte](custom-branding-text-overlays.md)
+  + [Rendus adaptatifs : vue d’ensemble architecturale et configurations](/help/user-guide/adaptive-renditions.md)
 + Résolution des problèmes et FAQ {#troubleshooting}
   + [Questions fréquentes sur AEM Screens](aem-screens-faqs.md)
-  + [Résolution de problèmes dans le Centre de contrôle des périphériques](monitoring-screens.md)
+  + [Résolution de problèmes dans le Centre de contrôle des appareils](monitoring-screens.md)
   + [Configuration de la lecture vidéo](troubleshoot-videos.md)
 + Notes de mise à jour {#release-notes}
   + [Notes de mise à jour du Feature Pack 20260318](release-notes-fp-20260318.md)
-  + [Notes de mise à jour du pack de fonctionnalités 20251007](release-notes-fp-20251007.md)
-  + [Notes de mise à jour du pack de fonctionnalités 20250327](release-notes-fp-20250327.md)
-  + [Notes de mise à jour du pack de fonctionnalités 20250224](release-notes-fp-20250224.md)
-  + [Notes de mise à jour du pack de fonctionnalités 20240715](release-notes-fp-20240715.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202401](release-notes-fp-20250215.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202401](release-notes-fp-202401.md)
-  + [Notes de mise à jour du pack de fonctionnalités 20240116](release-notes-fp-20240116.md)
-  + [Notes de mise à jour du pack de fonctionnalités 20240215](release-notes-fp-20240215.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202204](release-notes-fp-202204.md)
-  + [Notes de mise à jour du Feature Pack 202203](release-notes-fp-202203.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202112](release-notes-fp-202112.md)
+  + [Notes de version pour le pack de fonctionnalités 20251007](release-notes-fp-20251007.md)
+  + [Notes de version pour le pack de fonctionnalités 20250327](release-notes-fp-20250327.md)
+  + [Notes de version pour le pack de fonctionnalités 20250224](release-notes-fp-20250224.md)
+  + [Notes de version pour le pack de fonctionnalités 20240715](release-notes-fp-20240715.md)
+  + [Notes de version pour le pack de fonctionnalités 202401](release-notes-fp-20250215.md)
+  + [Notes de version pour le pack de fonctionnalités 202401](release-notes-fp-202401.md)
+  + [Notes de version pour le pack de fonctionnalités 20240116](release-notes-fp-20240116.md)
+  + [Notes de version pour le pack de fonctionnalités 20240215](release-notes-fp-20240215.md)
+  + [Notes de version pour le pack de fonctionnalités 202204](release-notes-fp-202204.md)
+  + [Notes de version pour le pack de fonctionnalités 202203](release-notes-fp-202203.md)
+  + [Notes de version pour le pack de fonctionnalités 202112](release-notes-fp-202112.md)
   + [Notes de mise à jour du Feature Pack 202109](release-notes-fp-202109.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202105](release-notes-fp-202105.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202103](release-notes-fp-202103.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202011](release-notes-fp-202011.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202008](release-notes-fp-202008.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202004](release-notes-fp-202004.md)
-  + [Notes de mise à jour du pack de fonctionnalités 202001](release-notes-fp-202001.md)
-  + [Notes de mise à jour du pack de fonctionnalités 201909](release-notes-fp-201909.md)
-  + [Notes de mise à jour du pack de fonctionnalités 201907](release-notes-fp-201907.md)
-  + [Notes de mise à jour du pack de fonctionnalités 201905](screens-release-notes-fp-201905.md)
-  + [Notes de mise à jour du pack de fonctionnalités 201812](release-notes-fp-201812.md)
-  + [Notes de mise à jour du pack de fonctionnalités 201809](screens-release-notes.md)
+  + [Notes de version pour le pack de fonctionnalités 202105](release-notes-fp-202105.md)
+  + [Notes de version pour le pack de fonctionnalités 202103](release-notes-fp-202103.md)
+  + [Notes de version pour le pack de fonctionnalités 202011](release-notes-fp-202011.md)
+  + [Notes de version pour le pack de fonctionnalités 202008](release-notes-fp-202008.md)
+  + [Notes de version pour le pack de fonctionnalités 202004](release-notes-fp-202004.md)
+  + [Notes de version pour le pack de fonctionnalités 202001](release-notes-fp-202001.md)
+  + [Notes de version pour le pack de fonctionnalités 201909](release-notes-fp-201909.md)
+  + [Notes de version pour le pack de fonctionnalités 201907](release-notes-fp-201907.md)
+  + [Notes de version pour le pack de fonctionnalités 201905](screens-release-notes-fp-201905.md)
+  + [Notes de version pour le pack de fonctionnalités 201812](release-notes-fp-201812.md)
+  + [Notes de version pour le pack de fonctionnalités 201809](screens-release-notes.md)
 

@@ -73,7 +73,7 @@ Cette section décrit les fonctionnalités suivantes liées à la connexion d’
 
 Ainsi, l’intégration d’Adobe Analytics avec AEM Screens permet de réaliser les *objectifs* suivants :
 
-* Obtenir un retour sur investissement des implémentations d’affichage numérique
+* Obtenir un retour sur investissement des implémentations d’affichage
 * Intégrer Analytics comme base pour permettre ultérieurement la collecte et l’analyse des informations d’utilisation
 
 ## Particularités architecturales {#architectural-details}

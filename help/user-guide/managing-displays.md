@@ -12,40 +12,46 @@ exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+    internal-label: Displays
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 86%
-
 ---
-
 # Création et gestion des affichages {#creating-and-managing-displays}
 
 >[!IMPORTANT]
 >Ce contenu est valide pour AEM on-premise/AMS (AEM 6.5LTS et AEM 6.5). Pour le contenu AEM as a Cloud Service Screens, reportez-vous au guide [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
-Un affichage est un groupe virtuel d’écrans positionnés les uns à côté des autres. L’affichage est généralement permanent par rapport à une installation. Les auteurs et autrices utilisent ce contenu d’objet et s’y réfèrent toujours en tant qu’affichage logique plutôt qu’à leurs équivalents physiques.
+Un affichage est un groupe virtuel d’écrans positionnés les uns à côté des autres. L’affichage est permanent par rapport à une installation. Les auteurs et autrices utilisent ce contenu d’objet et s’y réfèrent toujours comme à un affichage logique plutôt qu’à ses équivalents physiques.
 
-Lorsque vous avez créé un emplacement, vous devez créer un affichage pour cet emplacement.
+Lorsque vous créez un emplacement, vous devez créer un affichage pour cet emplacement.
 
-Vous découvrirez dans cette page comment créer et gérer des affichages pour Screens.
+Cette page montre comment créer et gérer des affichages pour Screens.
 
 **Conditions préalables** :
 
 * [Configuration et déploiement de Screens](configuring-screens-introduction.md)
 * [Création et gestion de projet Screens](creating-a-screens-project.md)
-* [Création et gestion des canaux](managing-channels.md)
+* [Créer et gérer des canaux](managing-channels.md)
 * [Création et gestion des emplacements](managing-locations.md)
 
 ## Création d’un affichage {#creating-a-new-display}
@@ -58,7 +64,7 @@ Vous découvrirez dans cette page comment créer et gérer des affichages pour S
 1. Cliquez sur votre dossier d’emplacements, puis sur **Créer** en regard de l’icône « + » dans la barre d’actions.
 1. Cliquez sur **Affichage** à partir de l’assistant **Créer**, puis sur **Suivant**.
 1. Saisissez le **Nom** et le **Titre** de l’emplacement de l’affichage.
-1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choisissez la **résolution** souhaitée, par exemple, **Full HD**. Choisissez le nombre d’appareils horizontalement et verticalement.
+1. Dans l’onglet **Affichage**, sélectionnez les détails de la mise en page. Choisissez la **résolution** souhaitée, par exemple, **Full HD**. Choisissez le nombre d’appareils à l’horizontale et à la verticale.
 1. Cliquez sur **Créer**.
 
 L’affichage (*StoreDisplay*) est créé et ajouté à l’affichage de l’emplacement (*SanJose*).
@@ -93,7 +99,7 @@ La configuration de l’appareil est créée et ajoutée à l’affichage en cou
 
 >[!NOTE]
 >
->Lorsque vous avez ajouté la configuration d’appareil à votre affichage dans l’emplacement, l’étape suivante est d’attribuer un canal à votre affichage.
+>Lorsqu’une configuration d’appareil est définie pour votre affichage dans l’emplacement, l’étape suivante consiste à attribuer un canal à votre affichage.
 >
 >Comme illustré ci-dessous, si la configuration de l’appareil est affichée comme non attribuée dans le panneau **APPAREILS**, aucun canal n’est attribué à cette configuration de l’appareil.
 >
@@ -111,7 +117,7 @@ Le tableau de bord des affichages vous fournit différents panneaux pour la gest
 >
 >Vous pouvez cliquer sur les listes du tableau de bord et déclencher des actions en masse sur les éléments, au lieu de parcourir chaque élément individuellement.
 >
->Par exemple, l’image suivante montre comment cliquer sur plusieurs canaux à partir du tableau de bord d’affichage.
+>Par exemple, l’image suivante montre comment cliquer sur plusieurs canaux dans le tableau de bord d’affichage.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
